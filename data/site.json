@@ -8,7 +8,7 @@
   "kvk": "42008661",
   "email": "hello@ga-forum.com",
   "nav": [
-    {"href": "/software", "label": "Rankings"},
+    {"href": "/software", "label": "Software Reviews"},
     {"href": "/compare", "label": "Compare"},
     {"href": "/guides", "label": "Guides"},
     {"href": "/research", "label": "Research"},
