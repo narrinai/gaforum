@@ -515,10 +515,12 @@ def build_hubs():
     secs = ''
     for h, v in HUBS.items():
         cs = [c for c in CATS if c['hub'] == h]
-        secs += f'<section class="hub-sec"><div class="hub-sec__head"><h2 id="{h}"><a href="/software/{h}">{e(v["name"])}</a></h2><p>{e(v["intro"])}</p></div><div class="cards">{"".join(cat_card(c) for c in cs)}</div></section>'
+        top = sorted(cs, key=lambda c: -len(c.get('tools') or c.get('ranked') or []))[:8]
+        more = f'<p class="hub-sec__more"><a href="/software/{h}">All {e(v["short"].lower())} rankings ({len(cs)})</a></p>' if len(cs) > len(top) else ''
+        secs += f'<section class="hub-sec"><div class="hub-sec__head"><h2 id="{h}"><a href="/software/{h}">{e(v["name"])}</a></h2><p>{e(v["intro"])}</p></div><div class="cards">{"".join(cat_card(c) for c in top)}</div>{more}</section>'
     bc, bld = crumbs([('Home', '/'), ('Software Reviews', None)])
-    body = f'''{bc}<section class="hero hero--plain"><div class="wrap"><p class="eyebrow">{len(CATS)} rankings</p><h1>Software rankings</h1>
-<p class="lede">Every ranking on GA Forum, grouped by the three areas we cover. Each one lists 10 to 14 products, ordered by fit, with the vendor pages we checked under every entry.</p></div></section>
+    body = f'''{bc}<section class="hero hero--plain"><div class="wrap"><p class="eyebrow">{len(CATS)} rankings</p><h1>Software reviews</h1>
+<p class="lede">GA Forum rankings grouped by area. Each area shows a selection here; open the area for every ranking in it. Each ranking lists 10 to 14 products, ordered by fit, with the vendor pages we checked under every entry.</p></div></section>
 <div class="wrap">{secs}</div>'''
     ld = {'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Software rankings', 'url': DOMAIN + '/software',
           'hasPart': [{'@type': 'Article', 'headline': c['title'], 'url': f'{DOMAIN}/software/{c["slug"]}'} for c in CATS]}

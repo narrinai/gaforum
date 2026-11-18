@@ -49,3 +49,6 @@ Netlify forms `get-listed` and `contact` (honeypot `bot-field`, action /thanks).
 
 ## Scope of site-level copy (Seb, 18 Nov 2026)
 GA Forum will expand beyond gaming. Site-level meta (homepage title/description, data/site.json tagline and description, /software, /about, /guides, WebSite/Organization schema) stays category-neutral ("software reviews, comparisons and forum"); gaming is named only as the current first focus. Category pages and hubs stay specific. Main nav label for /software is "Software Reviews".
+
+## Overview pages stay short (Seb, 18 Nov 2026)
+/software shows at most 8 rankings per hub with an "All <hub> rankings (N)" link; the hub page lists all. When a hub passes ~40 rankings, split it into sub-hubs (each with its own unique intro) rather than growing one long list. Same for /alternatives, /compare and /glossary once they pass ~100 entries.

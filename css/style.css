@@ -239,3 +239,4 @@ thead th{background:var(--tint);font-weight:700;white-space:nowrap}
 .srcline{font-size:.86rem;color:var(--muted);margin:6px 0 0}
 .namelink{color:inherit;text-decoration:none}.namelink:hover{color:var(--primary-ink)}
 .hero--page h1{max-width:20em}.hero--page .lede{max-width:46em}
+.hub-sec__more{margin:12px 0 0;font-weight:600}
