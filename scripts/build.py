@@ -275,7 +275,7 @@ def footer_html():
 <div class="foot-grid">
 <div>{brand(32)}
 <p class="foot-tag">{e(SITE['tagline'])}. Rankings, head-to-head comparisons, data pages and a forum, with the sources listed.</p></div>
-<div><h2>Rankings</h2><ul>{hubs}<li><a href="/software">All rankings</a></li><li><a href="/alternatives">Alternatives</a></li><li><a href="/compare">Comparisons</a></li></ul></div>
+<div><h2>Software Reviews</h2><ul>{hubs}<li><a href="/software">All software reviews</a></li><li><a href="/alternatives">Alternatives</a></li><li><a href="/compare">Comparisons</a></li></ul></div>
 <div><h2>Learn</h2><ul><li><a href="/guides">Guides</a></li><li><a href="/research">Research</a></li><li><a href="/news">News and analysis</a></li><li><a href="/glossary">Glossary</a></li><li><a href="/forum">Forum</a></li></ul></div>
 <div><h2>GA Forum</h2><ul><li><a href="/about">About</a></li><li><a href="/history">History of the domain</a></li><li><a href="/editorial-process">Methodology</a></li><li><a href="/authors">Authors</a></li><li><a href="/get-listed">Get listed</a></li><li><a href="/contact">Contact</a></li></ul></div>
 </div>
@@ -432,7 +432,7 @@ def build_category(c):
     url = f'/software/{c["slug"]}'
     hub = HUBS[c['hub']]
     ranked = c['tools']
-    bc, bld = crumbs([('Home', '/'), ('Rankings', '/software'), (hub['short'], f'/software/{c["hub"]}'), (c['title'], None)])
+    bc, bld = crumbs([('Home', '/'), ('Software Reviews', '/software'), (hub['short'], f'/software/{c["hub"]}'), (c['title'], None)])
     top3 = ''.join(f'<a href="#{t["slug"]}" class="top3__item"><span class="top3__n">{i + 1}</span>{tool_logo(t, 40)}<strong>{e(t["name"])}</strong><span>{e(t["summary"])}</span></a>'
                    for i, t in enumerate(ranked[:3]))
     items = []
@@ -516,7 +516,7 @@ def build_hubs():
     for h, v in HUBS.items():
         cs = [c for c in CATS if c['hub'] == h]
         secs += f'<section class="hub-sec"><div class="hub-sec__head"><h2 id="{h}"><a href="/software/{h}">{e(v["name"])}</a></h2><p>{e(v["intro"])}</p></div><div class="cards">{"".join(cat_card(c) for c in cs)}</div></section>'
-    bc, bld = crumbs([('Home', '/'), ('Rankings', None)])
+    bc, bld = crumbs([('Home', '/'), ('Software Reviews', None)])
     body = f'''{bc}<section class="hero hero--plain"><div class="wrap"><p class="eyebrow">{len(CATS)} rankings</p><h1>Software rankings</h1>
 <p class="lede">Every ranking on GA Forum, grouped by the three areas we cover. Each one lists 10 to 14 products, ordered by fit, with the vendor pages we checked under every entry.</p></div></section>
 <div class="wrap">{secs}</div>'''
@@ -540,7 +540,7 @@ def build_hubs():
             extra += '<h2>Alternatives</h2><ul class="linklist">' + ''.join(f'<li><a href="/alternatives/{x["slug"]}">{e(x["subject"])} alternatives</a></li>' for x in al) + '</ul>'
         if gl:
             extra += '<h2>Guides</h2><ul class="linklist">' + ''.join(f'<li><a href="/guides/{x["slug"]}">{e(x["title"])}</a></li>' for x in gl) + '</ul>'
-        bc, bld = crumbs([('Home', '/'), ('Rankings', '/software'), (v['short'], None)])
+        bc, bld = crumbs([('Home', '/'), ('Software Reviews', '/software'), (v['short'], None)])
         legacy = ''
         if h == 'games':
             legacy = '<p class="note">Arrived from an old ga-forum.com forum link? The discussion board that once lived on this domain is gone; its story is on our <a href="/history">history page</a>.</p>'
