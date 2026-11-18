@@ -60,6 +60,10 @@
    "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/airmeet.png",
    "method": "sister:tke"
   },
+  "aitum": {
+   "source_url": "https://aitum.tv/logo.svg",
+   "method": "link-icon"
+  },
   "akamai": {
    "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/akamai.png",
    "method": "sister:ti"
@@ -351,6 +355,10 @@
   "cryengine": {
    "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/cryengine.png",
    "method": "sister:ti"
+  },
+  "crystaldiskmark": {
+   "source_url": "https://crystalmark.info/en/wp-content/uploads/sites/3/CDM9Default-en-1.png",
+   "method": "og:image"
   },
   "cvent": {
    "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/cvent.png",

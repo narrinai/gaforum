@@ -1,0 +1,226 @@
+{
+  "slug": "itch-io",
+  "subject": "itch.io",
+  "subject_site": "https://itch.io/",
+  "title": "itch.io Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Eight itch.io alternatives for selling or sharing indie games: Steam, GOG, Humble Bundle, CrazyGames, Poki, GameDistribution, Amazon Appstore and the Xbox Store.",
+  "category": "best-game-launchers-and-library-managers",
+  "intro": "itch.io is an online marketplace and community where creators publish indie games, game assets and tools, and where players browse by tag, find free games and follow game jams. The site also offers a desktop app for installing and managing purchases. Developers who outgrow it, or who want a different audience, usually look for a second storefront, not a replacement. This page sorts eight options by what they are for: PC storefronts, bundles, browser portals and platform stores, using only what each vendor says on pages we opened.",
+  "why_switch": [
+    "Players who live inside one launcher often look for games in that launcher first, so a PC storefront with its own wishlist and discovery queue reaches a different crowd than a tag-browse marketplace.",
+    "A studio with a browser game may want a portal that handles traffic, QA and monetization, which itch.io's open upload model does not promise.",
+    "Teams that sell a finished game for a fixed price sometimes prefer a curated store, where the vendor decides what appears and when.",
+    "Bundle-based discovery, where a game is sold alongside others on a pay-what-you-want basis, is a different sales mechanic from a standing store page.",
+    "Console and device ecosystems have their own storefronts, and a studio that wants a Fire tablet or Xbox presence needs to be listed there."
+  ],
+  "picks": [
+    {
+      "slug": "steam",
+      "name": "Steam",
+      "site": "https://store.steampowered.com",
+      "best_for": "PC storefront with community tools",
+      "pricing": "No prices are shown on the pages we opened.",
+      "free_plan": "Unknown",
+      "note": "Steam is Valve's digital game store, and its menus tie the store to discovery queues, wishlists, Discussions, Workshop, Market and Broadcasts. Next to itch.io's tag browsing, that is a more built-in audience loop for a PC release. What you give up is the open, publish-anything feel; the pages we read say nothing about submission requirements, so check Valve's developer documentation for fees and review steps.",
+      "sources": [
+        {
+          "fact": "The Steam store home page is titled Welcome to Steam and lists the store, discovery queue, wishlist and community sections.",
+          "url": "https://store.steampowered.com"
+        },
+        {
+          "fact": "The Steam store links to Discussions, Workshop, Market and Broadcasts under its Community menu.",
+          "url": "https://store.steampowered.com"
+        },
+        {
+          "fact": "The Steam Remote Play page is copyright Valve Corporation.",
+          "url": "https://store.steampowered.com/remoteplay"
+        }
+      ]
+    },
+    {
+      "slug": "gog",
+      "name": "GOG",
+      "site": "https://www.gog.com/en/",
+      "best_for": "DRM-free PC releases",
+      "pricing": "Games are bought individually, with Buy now or Pre-order options, and some titles are free; a 30-day money-back guarantee is advertised.",
+      "free_plan": "Unknown",
+      "note": "GOG sells classic and new PC games for Windows, Mac and Linux, DRM-free, which suits itch.io creators who already believe in releasing without copy protection. The shopper base is oriented to owning a game outright. The pages we read do not describe how a small developer gets listed, so contact GOG before planning a launch around it.",
+      "sources": [
+        {
+          "fact": "GOG offers the best classic and new games for Windows, Mac and Linux, DRM-free, with free goodies and a 30-day money-back guarantee.",
+          "url": "https://www.gog.com/en/"
+        },
+        {
+          "fact": "GOG product pages offer Buy now and Pre-order options for individual games, as well as free titles.",
+          "url": "https://www.gog.com/en/"
+        },
+        {
+          "fact": "The copyright notice on the GOG about page is held by GOG sp. z o.o.",
+          "url": "https://www.gog.com/about_gog"
+        }
+      ]
+    },
+    {
+      "slug": "humble-bundle",
+      "name": "Humble Bundle",
+      "site": "https://www.humblebundle.com/",
+      "best_for": "Pay-what-you-want bundles",
+      "pricing": "Humble Choice is EUR 12.99 per month on the homepage; bundles are pay what you want.",
+      "free_plan": "None",
+      "note": "Humble Bundle sells limited-time collections of games, books and software where buyers pick the price and where part of the money goes to charity. The about page says more than 47,000,000 bundles were sold. A bundle trades per-copy revenue for reach, which is a sales mechanic itch.io also supports through its own bundles, but with a much larger shopper pool on the Humble side.",
+      "sources": [
+        {
+          "fact": "Humble Bundles are limited-time collections of games, books and software, where you can pay what you want and choose where your money goes.",
+          "url": "https://www.humblebundle.com/about"
+        },
+        {
+          "fact": "The homepage lists Humble Choice for EUR 12.99 per month and says an annual plan costs less than $13 USD per month.",
+          "url": "https://www.humblebundle.com/"
+        },
+        {
+          "fact": "The Humble Bundle about page states that Humble Bundle Inc. is a brand of IGN Entertainment, Inc.",
+          "url": "https://www.humblebundle.com/about"
+        }
+      ]
+    },
+    {
+      "slug": "crazygames",
+      "name": "CrazyGames",
+      "site": "https://developer.crazygames.com",
+      "best_for": "Publishing HTML5 browser games",
+      "pricing": "Developers can earn revenue; no revenue share figure appears on the page opened.",
+      "free_plan": "Unknown",
+      "note": "CrazyGames' developer portal lets creators publish, manage and monetize browser games, and it names Unity WebGL, Phaser, Construct, Cocos and Godot as supported engines. It claims a reach of 20,000,000 players. If your itch.io page already offers a browser build, this is a second home where the game is monetized, though the revenue terms need a direct read.",
+      "sources": [
+        {
+          "fact": "The CrazyGames Developer Portal says developers can publish, manage and monetize their browser games.",
+          "url": "https://developer.crazygames.com"
+        },
+        {
+          "fact": "The developer portal says it reaches 20,000,000 players with HTML5 and WebGL games.",
+          "url": "https://developer.crazygames.com"
+        },
+        {
+          "fact": "The developer portal lists support for game engines including Unity WebGL exports, Phaser, Construct, Cocos and Godot.",
+          "url": "https://developer.crazygames.com"
+        }
+      ]
+    },
+    {
+      "slug": "poki",
+      "name": "Poki",
+      "site": "https://developers.poki.com/",
+      "best_for": "Web games with playtesting support",
+      "pricing": "Poki Playtesting is free for developers; the page says developers get paid but states no revenue share.",
+      "free_plan": "Free",
+      "note": "Poki describes itself as a web gaming platform with 100 million monthly players, and its developer page lists free playtesting, in-house QA, player acquisition, brand protection and monetization. Developers apply to be showcased. For a small team, the QA and feedback services are the notable difference from a self-serve upload page.",
+      "sources": [
+        {
+          "fact": "Poki for Developers describes Poki as a web gaming platform with 100 million monthly players.",
+          "url": "https://developers.poki.com/"
+        },
+        {
+          "fact": "Poki for Developers says Poki Playtesting gives developers instant feedback for free.",
+          "url": "https://developers.poki.com/"
+        },
+        {
+          "fact": "Poki for Developers lists in-house QA, player acquisition, brand protection and seamless monetization as services it handles for developers.",
+          "url": "https://developers.poki.com/"
+        }
+      ]
+    },
+    {
+      "slug": "gamedistribution",
+      "name": "GameDistribution",
+      "site": "https://gamedistribution.com/",
+      "best_for": "Distributing HTML5 games to websites",
+      "pricing": "Not published on the pages opened; the site has a Games For Business section and a Dev Panel link.",
+      "free_plan": "Unknown",
+      "note": "GameDistribution offers HTML5 games for websites and messengers, plus a white label gaming solution and direct game integration. Its about page gives a Schiphol-Rijk, Netherlands address and an Azerion copyright line. The model is syndication: your game appears on other publishers' sites, which differs from a storefront where players come to you.",
+      "sources": [
+        {
+          "fact": "The GameDistribution homepage describes HTML5 games for websites and messengers, with a Games For Business section.",
+          "url": "https://gamedistribution.com/"
+        },
+        {
+          "fact": "The homepage lists a White Label Gaming Solution and 'Direct Game Integration'.",
+          "url": "https://gamedistribution.com/"
+        },
+        {
+          "fact": "The about page footer reads '© Azerion 2026'.",
+          "url": "https://gamedistribution.com/about"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-appstore",
+      "name": "Amazon Appstore",
+      "site": "https://developer.amazon.com/apps-and-games",
+      "best_for": "Fire TV and Fire tablet reach",
+      "pricing": "Developer account registration is free; the pages opened state no commission figure.",
+      "free_plan": "Free",
+      "note": "Amazon's developer portal says developers can test and publish apps and games for Fire OS, Android, iOS, PC, Mac and cross platform, and that apps reach customers in over 236 countries and territories. It suits a mobile or living-room game that itch.io's desktop-leaning audience will never see, with the trade that discovery depends on Amazon devices.",
+      "sources": [
+        {
+          "fact": "Amazon Appstore's developer portal says developers can test and publish apps and games for Fire OS, Android, iOS, PC, Mac and cross platform.",
+          "url": "https://developer.amazon.com/apps-and-games"
+        },
+        {
+          "fact": "The developer portal says registering a developer account is easy and free.",
+          "url": "https://developer.amazon.com/apps-and-games"
+        },
+        {
+          "fact": "The developer portal says apps can reach customers in over 236 countries and territories.",
+          "url": "https://developer.amazon.com/apps-and-games"
+        }
+      ]
+    },
+    {
+      "slug": "xbox-store",
+      "name": "Xbox Store",
+      "site": "https://www.xbox.com/nl-NL/",
+      "best_for": "Console and Xbox on PC audience",
+      "pricing": "Games are sold individually and Game Pass is a subscription; prices were not stated in the opened text.",
+      "free_plan": "Unknown",
+      "note": "The Xbox site sells console and PC games, Game Pass and accessories, and lists Xbox Cloud Gaming, Xbox Play Anywhere and free-to-play games among its categories. For a studio ready for platform certification it opens an audience itch.io cannot. The pages we read do not describe the publishing program, so read Microsoft's partner documentation first.",
+      "sources": [
+        {
+          "fact": "The Xbox official site offers consoles, games and accessories, including PC games and Game Pass.",
+          "url": "https://www.xbox.com/nl-NL/"
+        },
+        {
+          "fact": "The Xbox site lists Xbox Cloud Gaming, Xbox Play Anywhere and free-to-play games among its store categories.",
+          "url": "https://www.xbox.com/nl-NL/"
+        },
+        {
+          "fact": "The Xbox site has a Game Pass purchase option alongside game purchase options.",
+          "url": "https://www.xbox.com/nl-NL/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Start from where your players are and what you built. A downloadable PC game with a loyal following goes to Steam or GOG, and the choice between them is mostly about DRM and audience. A browser build belongs on CrazyGames, Poki or GameDistribution, each of which handles distribution differently. Use Humble Bundle when reach matters more than per-copy income. Reserve Amazon Appstore and the Xbox Store for projects that already target those devices. Keep your itch.io page live as the home for devlogs and jam entries, because none of these options replace its community.",
+  "faqs": [
+    {
+      "q": "Can I stay on itch.io and also sell on Steam?",
+      "a": "The pages we read do not state any exclusivity rule for itch.io, which describes itself as a way to find and share indie games for free. Check each storefront's current terms before signing a distribution agreement, since exclusivity clauses vary."
+    },
+    {
+      "q": "Which alternative is DRM-free like itch.io?",
+      "a": "GOG says it offers classic and new games for Windows, Mac and Linux DRM-free. The other options in this list did not state a DRM position on the pages we opened, so ask each one directly if copy protection matters to you."
+    },
+    {
+      "q": "Where do I put a browser game?",
+      "a": "CrazyGames lists HTML5 and Unity WebGL publishing, Poki runs a developer program for web games, and GameDistribution syndicates HTML5 games to websites. All three describe monetization, but none showed a revenue share figure on the pages we read."
+    },
+    {
+      "q": "Does Humble Bundle accept small indie games?",
+      "a": "The pages we opened explain how bundles work for buyers and do not describe how a developer gets included. Humble Bundle's about page says it has sold over 47,000,000 bundles, so reach is large; ask the vendor about submission."
+    },
+    {
+      "q": "Is any of these free to join?",
+      "a": "Amazon says registering a developer account is free, and Poki Playtesting is free for developers. For the others the opened pages did not state sign-up fees. Confirm costs and revenue splits before you build a release plan around them."
+    }
+  ]
+}

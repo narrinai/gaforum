@@ -1,0 +1,155 @@
+{
+  "slug": "start-gg-vs-challonge",
+  "a": "start-gg",
+  "b": "challonge",
+  "a_name": "start.gg",
+  "b_name": "Challonge",
+  "a_site": "https://www.start.gg",
+  "b_site": "https://challonge.com/",
+  "category": "best-esports-tournament-management-software",
+  "title": "start.gg vs Challonge: Which Fits Your Team in 2026?",
+  "description": "start.gg is a tournament destination with rankings and a developer portal; Challonge is a bracket service with a free ad-supported plan. Compare for community events.",
+  "intro": "start.gg and Challonge both run brackets for community tournaments, but they started from different ideas. start.gg describes itself as the leading destination to create, run, play and watch esports tournaments, with rankings, shops and fantasy sections around the brackets. Challonge calls itself a global competition platform, founded in 2009, that organizers use for registration, progression and record keeping, offered as a web service and as an API. For a local organizer, a Discord admin or a campus club, this page sets out what each vendor says it offers and what it costs.",
+  "verdict": "Pick Challonge when you want a bracket tool with a published free plan, clear paid pricing and an API for your own site. Pick start.gg when the audience side matters as much as the bracket, because players find events, follow rankings and register in one destination. We could not read start.gg prices, so confirm fees and entry terms with the vendor before you announce an event.",
+  "pick_a": "Pick start.gg if you want players to discover your event inside a larger tournament community, with rankings, shops and a developer portal beside the bracket.",
+  "pick_b": "Pick Challonge if you want to start at $0, choose from more than 25 competition types, and keep the option of paying a small monthly fee later.",
+  "rows": [
+    {
+      "label": "Self description",
+      "a": "Leading destination to create, run, play and watch esports tournaments",
+      "b": "Global competition platform for registration, progression and record keeping"
+    },
+    {
+      "label": "Founded",
+      "a": "Not stated on the pages read",
+      "b": "2009, per the about page"
+    },
+    {
+      "label": "Delivery",
+      "a": "Web",
+      "b": "Web-based SaaS and an API"
+    },
+    {
+      "label": "Pricing",
+      "a": "No prices in the text read; the site renders with JavaScript",
+      "b": "Standard $0, ad supported; Premier $12 per month or $6.99 per month billed yearly"
+    },
+    {
+      "label": "Free option",
+      "a": "Unknown from the pages read",
+      "b": "Free Standard plan, up to 256 participants per tournament"
+    },
+    {
+      "label": "Formats",
+      "a": "Not itemized in the text read",
+      "b": "Single and double elimination, round robin, Swiss and group stage; 25+ competition types"
+    },
+    {
+      "label": "Audience features",
+      "a": "Rankings, Shops and Fantasy sections",
+      "b": "Registration and progression tools for organizers"
+    },
+    {
+      "label": "Developer access",
+      "a": "Developer Portal linked from the site",
+      "b": "API offered per the about page"
+    },
+    {
+      "label": "Ads",
+      "a": "Not stated",
+      "b": "Standard plan is supported by advertising"
+    },
+    {
+      "label": "Best for",
+      "a": "Organizers who want discovery and a player community",
+      "b": "Organizers who want a quick bracket and a known price"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Bracket tool or tournament destination",
+      "text": [
+        "Challonge is described in its own about page as a platform that streamlines registration, progression and record keeping, and its homepage advertises single and double elimination, round robin, Swiss and group stage formats. The emphasis is on running the competition itself. An organizer who already has players, say a Discord server of fighting-game regulars, can create a bracket, share a link and move on.",
+        "start.gg frames itself as a destination. Its navigation includes Create Tournament, Rankings, Shops and Fantasy, which suggests that the audience arrives through the site and not only through an organizer's own channels. If your goal is growth, so that strangers find your monthly and sign up, that shape is the point. If your goal is a tidy bracket for people you already know, it may be more than you need."
+      ]
+    },
+    {
+      "h2": "What each costs",
+      "text": [
+        "Challonge publishes its prices. The Standard plan is $0 and supported by advertising, with room for up to 256 participants per tournament, and Premier is $12 per month or $6.99 per month when billed yearly. At the annual rate that is about $84 per year, which is a modest expense for a regular event series; check the plan page for what Premier adds.",
+        "The start.gg pages we read showed no prices, because the site renders with JavaScript and the text we could extract held only navigation. That does not mean it is expensive, and it does not mean it is free. Check how fees, shops and any premium features work before you commit a series to the platform."
+      ]
+    },
+    {
+      "h2": "Building on top of the platform",
+      "text": [
+        "Both vendors point developers somewhere. start.gg links to a Developer Portal from its site, and Challonge says it is offered as an API next to the web service. Community organizers who run a custom site, a Discord bot or a stream overlay can pull bracket data from either, subject to the terms each publishes.",
+        "If you intend to automate, read the API documentation of both before choosing. The facts we hold do not describe rate limits, authentication or data coverage, and those details decide how much glue code you will write."
+      ]
+    },
+    {
+      "h2": "Choosing for a small event series",
+      "text": [
+        "Start with the scale. For under 256 players per event and a budget near zero, Challonge's free tier is documented and predictable. For a series that wants public rankings, a storefront or a fantasy layer, start.gg lists those sections on its site, and you should ask which of them are available to organizers like you.",
+        "Then think about where your players already are. A game with an established tournament scene on start.gg meets players where they sign up. A newer scene may find a link-based bracket easier to share. Whichever you pick, keep an export of your results so a platform change does not erase your history."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Challonge free to use?",
+      "a": "Challonge lists a Standard plan at $0, supported by advertising, and the pricing page says it allows up to 256 participants per tournament. The paid Premier plan is $12 per month or $6.99 per month billed yearly."
+    },
+    {
+      "q": "What does start.gg cost for organizers?",
+      "a": "We could not read prices on start.gg, because the site renders with JavaScript. Its site lists Create Tournament, Rankings, Shops and Fantasy, and links to its Terms of Service. Check the current fee terms before you plan an event."
+    },
+    {
+      "q": "Which tournament formats does Challonge support?",
+      "a": "The homepage advertises single and double elimination, round robin, Swiss and group stage. The about page says Challonge offers more than 25 competition types as a web-based service and as an API."
+    },
+    {
+      "q": "Do both platforms have an API?",
+      "a": "Challonge's about page says it is offered as an API, and start.gg links to a Developer Portal. We did not read the technical documentation, so compare rate limits and data access yourself."
+    },
+    {
+      "q": "When was Challonge founded?",
+      "a": "Challonge's about page says the company was founded in 2009. The start.gg pages we read did not state a founding date."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "start.gg describes itself as the leading destination to create, run, play and watch esports tournaments.",
+      "url": "https://www.start.gg"
+    },
+    {
+      "fact": "The start.gg site has sections for Create Tournament, Rankings, Shops and Fantasy.",
+      "url": "https://www.start.gg"
+    },
+    {
+      "fact": "The start.gg site links to a Developer Portal and to its Terms of Service.",
+      "url": "https://www.start.gg"
+    },
+    {
+      "fact": "Challonge describes itself on its about page as a global competition platform that helps organizers streamline registration, progression and record keeping.",
+      "url": "https://challonge.com/about"
+    },
+    {
+      "fact": "The about page says Challonge was founded in 2009 and offers more than 25 competition types as a web-based SaaS platform and as an API.",
+      "url": "https://challonge.com/about"
+    },
+    {
+      "fact": "The pricing page lists a Standard plan at $0, supported by advertising.",
+      "url": "https://challonge.com/pricing"
+    },
+    {
+      "fact": "The pricing page lists a Premier plan at $12 per month, or $6.99 per month billed yearly.",
+      "url": "https://challonge.com/pricing"
+    },
+    {
+      "fact": "The homepage advertises single and double elimination, round robin, Swiss and group stage tournament formats.",
+      "url": "https://challonge.com/"
+    }
+  ],
+  "published": "2026-11-18"
+}

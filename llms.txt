@@ -17,6 +17,7 @@ GA Forum (https://ga-forum.com) is an independent software research site with a 
 - [Best Discord Moderation and Community Bots in 2026](https://ga-forum.com/software/best-discord-moderation-and-community-bots): Discord bots for moderation, role menus, support tickets, events, giveaways and server stats, ranked for game communities. Top three: Carl-bot, Sapphire, Dyno.
 - [Best Game Analytics Software in 2026](https://ga-forum.com/software/best-game-analytics-software): Game analytics software tracks retention, revenue per player and funnels from engine SDKs, so studios can tune design and monetization after launch. Top three: GameAnalytics, Unity Gaming Services, Amplitude.
 - [Best Game Anti-Cheat Software in 2026](https://ga-forum.com/software/best-game-anti-cheat-software): Game anti-cheat software detects and blocks cheating in online games through client-side protection, server-side analysis and ban systems that studios license. Top three: Easy Anti-Cheat, BattlEye, Anybrain.
+- [Best Game Audio Middleware in 2026](https://ga-forum.com/software/best-game-audio-middleware): Game audio middleware connects sound assets to gameplay through adaptive music, mixing, spatial effects and per-platform licensing, from free libraries to budget-based licenses. Top three: Wwise, FMOD, Elias.
 - [Best Game Backend Platforms in 2026](https://ga-forum.com/software/best-game-backend-platforms): Game backend platforms host player accounts, economies, inventories, leaderboards and live-service logic so studios do not have to build and run their own servers. Top three: PlayFab, AccelByte, Metaplay.
 - [Best Game CI/CD and Build Tools in 2026](https://ga-forum.com/software/best-game-ci-cd-and-build-tools): Build servers, compile accelerators and hosted pipelines for game studios that ship Unity or native projects to PC, mobile and Apple platforms. Top three: GameCI, Jenkins, FASTBuild.
 - [Best Game Engines for Mobile Games in 2026](https://ga-forum.com/software/best-game-engines-for-mobile-games): Twelve engines compared for iOS and Android games, judged on listed targets, store-service support, monetization features and cost. Top three: Unity, Solar2D, Defold.
@@ -52,6 +53,7 @@ GA Forum (https://ga-forum.com) is an independent software research site with a 
 - [Best Live Captioning and Translation Tools for Livestreams in 2026](https://ga-forum.com/software/best-live-captioning-and-translation-for-livestreams): Live captioning and translation tools turn a stream's speech into on-screen text or interpreted audio in other languages while the event is running. Top three: Interprefy, KUDO, Wordly.
 - [Best Live Production Software in 2026](https://ga-forum.com/software/best-live-production-software): Live production software switches between cameras, adds graphics and audio, and sends a finished show to a stream, for events, broadcasts and esports. Top three: Wirecast, Blackmagic ATEM, vMix.
 - [Best Live Streaming APIs and SDKs in 2026](https://ga-forum.com/software/best-live-streaming-apis-and-sdks): Live streaming APIs and SDKs give developers hosted video infrastructure to add live broadcasts, calls and interactive streams to apps and sites. Top three: Mux, Amazon IVS, api.video.
+- [Best Livestream Analytics Tools in 2026](https://ga-forum.com/software/best-livestream-analytics-tools): Livestream analytics tools measure viewers, watch time, game performance and channel growth so streamers and studios can decide what to stream and who to partner with. Top three: Social Blade, TwitchTracker, Twitchmetrics.
 - [Best Multistreaming Platforms in 2026](https://ga-forum.com/software/best-multistreaming-platforms): Multistreaming platforms send one live video feed to many channels at once, so a business or creator reaches each audience from a single broadcast. Top three: OneStream Live, Castr, Livepush.
 - [Best Stream Deck and Stream Automation Software in 2026](https://ga-forum.com/software/best-stream-deck-and-stream-automation-software): Hardware keys, tablet decks and event-driven bots that let a streamer trigger scenes, sounds and chat actions without leaving the game. Top three: Elgato Stream Deck, Touch Portal, Bitfocus Companion.
 - [Best Stream Overlay and Alert Tools in 2026](https://ga-forum.com/software/best-stream-overlay-and-alert-tools): Ten services for stream overlays, follower alerts, widgets and interactive extras, ranked by price clarity, bundled design assets and setup effort. Top three: StreamElements, OWN3D, Streamlabs Desktop.
@@ -59,6 +61,7 @@ GA Forum (https://ga-forum.com) is an independent software research site with a 
 - [Best Streaming Software for Gamers in 2026](https://ga-forum.com/software/best-streaming-software-for-gamers): Ten broadcasting apps for PC gamers who stream to Twitch and YouTube, ranked on price, platform support and how much setup each one demands. Top three: OBS Studio, Streamlabs Desktop, XSplit Broadcaster.
 - [Best Twitch Chat Bots in 2026](https://ga-forum.com/software/best-twitch-chat-bots): Ten chat bots for moderating and automating Twitch and YouTube chat, from hosted free services to open source programs you run yourself. Top three: Nightbot, Fossabot, Streamlabs Cloudbot.
 - [Best Virtual Event Streaming Platforms for Hybrid Events in 2026](https://ga-forum.com/software/best-virtual-event-streaming-platforms-for-hybrid-events): Hybrid event platforms join an onsite audience and remote viewers in one program, with registration, streaming, sessions, sponsors and attendee data. Top three: Cvent, Accelevents, Virtual PRO.
+- [Best Voice Changer and Streaming Audio Software in 2026](https://ga-forum.com/software/best-voice-changer-and-streaming-audio-software): Streaming audio software mixes mic and game sound, removes noise and applies voice effects so a broadcast sounds clean and intentional. Top three: Elgato Wave Link, Voicemod, Voicemeeter.
 - [Best VTuber Software in 2026](https://ga-forum.com/software/best-vtuber-software): VTuber software tracks a streamer's face and body and drives a 2D or 3D avatar that appears on a livestream or video call. Top three: VSeeFace, Warudo, VTube Studio.
 - [Best Webinar Platforms for Product Launches in 2026](https://ga-forum.com/software/best-webinar-platforms-for-product-launches): Launch webinar platforms carry a product announcement from registration page to live session and replay, and pass attendee data to the CRM. Top three: Zoom Events and Webinars, Goldcast, Kaltura.
 
@@ -74,6 +77,7 @@ GA Forum (https://ga-forum.com) is an independent software research site with a 
 
 - [Amazon IVS vs Mux: Which Fits Your Team in 2026?](https://ga-forum.com/compare/amazon-ivs-vs-mux)
 - [AppLovin MAX vs Unity LevelPlay: Which Fits Your Team in 2026?](https://ga-forum.com/compare/applovin-max-vs-unity-levelplay)
+- [AppsFlyer vs Adjust: Which Fits Your Team in 2026?](https://ga-forum.com/compare/appsflyer-vs-adjust)
 - [Castr vs Restream: Which Fits Your Team in 2026?](https://ga-forum.com/compare/castr-vs-restream)
 - [Challengermode vs Battlefy: Which Fits Your Team in 2026?](https://ga-forum.com/compare/challengermode-vs-battlefy)
 - [Construct vs GDevelop: Which Fits Your Team in 2026?](https://ga-forum.com/compare/construct-vs-gdevelop)
@@ -86,6 +90,7 @@ GA Forum (https://ga-forum.com) is an independent software research site with a 
 - [Medal vs Outplayed: Which Fits Your Team in 2026?](https://ga-forum.com/compare/medal-vs-outplayed)
 - [MEE6 vs Dyno: Which Fits Your Team in 2026?](https://ga-forum.com/compare/mee6-vs-dyno)
 - [OBS Studio vs vMix: Which Fits Your Team in 2026?](https://ga-forum.com/compare/obs-studio-vs-vmix)
+- [ON24 vs Goldcast: Which Fits Your Team in 2026?](https://ga-forum.com/compare/on24-vs-goldcast)
 - [Parsec vs Moonlight: Which Fits Your Team in 2026?](https://ga-forum.com/compare/parsec-vs-moonlight)
 - [Perforce Helix Core vs Unity Version Control: Which Fits Your Team in 2026?](https://ga-forum.com/compare/perforce-helix-core-vs-unity-version-control)
 - [Photon vs Mirror: Which Fits Your Team in 2026?](https://ga-forum.com/compare/photon-vs-mirror)
@@ -93,9 +98,12 @@ GA Forum (https://ga-forum.com) is an independent software research site with a 
 - [PlaytestCloud vs Lookback: Which Fits Your Team in 2026?](https://ga-forum.com/compare/playtestcloud-vs-lookback)
 - [Sensor Tower vs AppMagic: Which Fits Your Team in 2026?](https://ga-forum.com/compare/sensor-tower-vs-appmagic)
 - [Spine vs Live2D Cubism: Which Fits Your Team in 2026?](https://ga-forum.com/compare/spine-vs-live2d-cubism)
+- [start.gg vs Challonge: Which Fits Your Team in 2026?](https://ga-forum.com/compare/start-gg-vs-challonge)
 - [StreamElements vs Streamlabs Desktop: Which Fits Your Team in 2026?](https://ga-forum.com/compare/streamelements-vs-streamlabs-desktop)
+- [Unity vs Unreal Engine: Which Fits Your Team in 2026?](https://ga-forum.com/compare/unity-vs-unreal-engine)
 - [VTube Studio vs Warudo: Which Fits Your Team in 2026?](https://ga-forum.com/compare/vtube-studio-vs-warudo)
 - [Wowza vs Ant Media Server: Which Fits Your Team in 2026?](https://ga-forum.com/compare/wowza-vs-ant-media-server)
+- [Wwise vs FMOD: Which Fits Your Team in 2026?](https://ga-forum.com/compare/wwise-vs-fmod)
 - [Xsolla vs Appcharge: Which Fits Your Team in 2026?](https://ga-forum.com/compare/xsolla-vs-appcharge)
 
 ## Alternatives
@@ -113,6 +121,8 @@ GA Forum (https://ga-forum.com) is an independent software research site with a 
 - [GeForce NOW Alternatives in 2026](https://ga-forum.com/alternatives/geforce-now)
 - [Godot Alternatives in 2026](https://ga-forum.com/alternatives/godot)
 - [Helpshift Alternatives in 2026](https://ga-forum.com/alternatives/helpshift)
+- [itch.io Alternatives in 2026](https://ga-forum.com/alternatives/itch-io)
+- [Live2D Cubism Alternatives in 2026](https://ga-forum.com/alternatives/live2d-cubism)
 - [Medal Alternatives in 2026](https://ga-forum.com/alternatives/medal)
 - [MEE6 Alternatives in 2026](https://ga-forum.com/alternatives/mee6)
 - [Mobalytics Alternatives in 2026](https://ga-forum.com/alternatives/mobalytics)

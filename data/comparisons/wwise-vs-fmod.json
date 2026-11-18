@@ -1,0 +1,151 @@
+{
+  "slug": "wwise-vs-fmod",
+  "a": "wwise",
+  "b": "fmod",
+  "a_name": "Wwise",
+  "b_name": "FMOD",
+  "a_site": "https://www.audiokinetic.com/en/",
+  "b_site": "https://fmod.com/",
+  "category": "best-game-audio-middleware",
+  "title": "Wwise vs FMOD: Which Fits Your Team in 2026?",
+  "description": "Wwise bills per platform on a production-budget scale; FMOD bills per game with a free indie tier. Compare license tiers, support terms and team fit in 2026.",
+  "intro": "Wwise and FMOD both sell audio middleware that sits between a game's sound designers and its engine, and both give small projects a free tier. The paperwork differs, though. Audiokinetic prices Wwise per title and per platform on a scale tied to production budget, while Firelight Technologies, the company behind FMOD, prices per game and lists every platform in each tier. Here are the published tiers and the practical consequences, so an audio lead or producer can estimate a license before the first build goes to certification.",
+  "verdict": "Pick FMOD when the project is small or mid-size, ships on several platforms and you prefer one fee per game. Pick Wwise when the budget is low enough to sit in its free Indie plan, or high enough that the Premium or Platinum extras, such as plug-ins and a royalty-free option, matter. Between those two zones the totals depend on your platform count, so run the arithmetic.",
+  "pick_a": "Pick Wwise if your production budget stays under $250K for a free start, or you need premium plug-ins, source access for the Sound Engine with a support package or a royalty-free option.",
+  "pick_b": "Pick FMOD if you ship to several platforms and want one per-game fee, with a free Indie License for developers under $200k revenue per year and a development budget below $600k.",
+  "rows": [
+    {
+      "label": "Company",
+      "a": "Audiokinetic",
+      "b": "Firelight Technologies Pty Ltd, Made in Melbourne"
+    },
+    {
+      "label": "License model",
+      "a": "One-time license per title and per platform",
+      "b": "One-time license per game"
+    },
+    {
+      "label": "Free tier",
+      "a": "Indie plan: production budget up to $250K, unlimited sound files, first platform free",
+      "b": "Free Indie License: under $200k revenue per year and development budget under $600k"
+    },
+    {
+      "label": "Middle tier",
+      "a": "Pro: $8,000 first platform, $4,000 each extra; budget up to $2M",
+      "b": "Basic: $6,000 per game; budget $600k to $1.8M"
+    },
+    {
+      "label": "Upper tier",
+      "a": "Premium $25,000 first platform, $17,000 each extra; no budget cap",
+      "b": "Premium: $18,000 per game; budget over $1.8M"
+    },
+    {
+      "label": "Top tier",
+      "a": "Platinum: $45,000 first platform, $23,000 each extra",
+      "b": "No tier above Premium on the page"
+    },
+    {
+      "label": "Platform handling",
+      "a": "A Wwise license is required per platform used",
+      "b": "The licensing table lists All platforms for each tier"
+    },
+    {
+      "label": "Support terms",
+      "a": "Support plans; Sound Engine source access with a support package",
+      "b": "Level 1 email support for 1 year with Basic, 2 years with Premium"
+    },
+    {
+      "label": "Extras",
+      "a": "Premium plug-ins on Premium and Platinum; royalty-free (0%) license option; royalty-based and GaaS licenses",
+      "b": "FMOD Studio, FMOD for Unity, FMOD Core, FMOD.io"
+    },
+    {
+      "label": "Currency",
+      "a": "USD amounts on the pricing page",
+      "b": "All pricing in USD; non-game pricing by quote"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Two ways to measure a project",
+      "text": [
+        "Audiokinetic ties the Wwise price to total production budget and then multiplies by the number of platforms. Its pricing page lists an Indie plan free up to a $250K budget, a Pro plan up to $2M, then Premium with no budget cap and Platinum above it. FMOD measures a project in two ways: the free Indie License looks at revenue and development budget together, while the paid Basic and Premium tiers look at development budget alone.",
+        "That difference explains why neither tool is cheaper in the abstract. A game with a $1.5M budget on one platform is a $8,000 Wwise Pro license on the published numbers, against a $6,000 FMOD Basic fee. Add two more platforms and Wwise Pro grows by $4,000 per platform, while FMOD's Basic fee, which the table lists for all platforms, does not move."
+      ]
+    },
+    {
+      "h2": "Where the free tiers end",
+      "text": [
+        "Wwise's free plan stops at a production budget of $250K and keeps the first platform free. FMOD's free Indie License stops when revenue reaches $200k per year or development budget reaches $600k. Those are different tripwires. A self-funded team with a small budget but a surprise hit can leave FMOD's free tier on revenue alone, whereas the Wwise free plan is judged on what you spent making the game.",
+        "The FMOD page also carries a note that the Indie tier is free or $2,000; we did not find a clear explanation of when the $2,000 applies in the text we read, so ask FMOD before relying on a free license for a commercial release."
+      ]
+    },
+    {
+      "h2": "Support, source access and extras",
+      "text": [
+        "FMOD states Level 1 email support for one year with Basic and two years with Premium, which makes the support horizon a visible part of the purchase. Audiokinetic sells support plans separately and offers source code access for the Sound Engine together with a support package, an option that matters to teams that must audit or patch middleware themselves.",
+        "Wwise also offers a royalty-free (0%) license option, plus royalty-based and games-as-a-service licenses beside the core license, and its premium plug-ins arrive with the Premium and Platinum plans. FMOD's pages list its products by name: FMOD Studio, FMOD for Unity, FMOD Core and FMOD.io. A team building in Unity will notice the dedicated plug-in name on FMOD's homepage."
+      ]
+    },
+    {
+      "h2": "A budgeting routine for audio leads",
+      "text": [
+        "Write down three numbers before asking either vendor for a quote: the platforms you will ship in the first year, the total production budget as finance defines it, and the revenue you expect in the first twelve months. Plug each into both pricing tables and note which tier you land in. Run the same sums again with one extra platform, since late console ports are the common budget surprise.",
+        "Then involve your sound designers. License cost is a one-time line, while the time they spend learning an authoring tool is a recurring cost on every project. Give each candidate a day with a prototype level before signing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Wwise free for indie developers?",
+      "a": "Audiokinetic's pricing page lists an Indie plan that is free for projects with a production budget up to $250K, with unlimited sound files and the first platform included. Paid plans start with Pro, which covers budgets up to $2M."
+    },
+    {
+      "q": "How is FMOD priced for a commercial game?",
+      "a": "FMOD lists a Free Indie License below $200k revenue per year and a $600k development budget, Basic at $6,000 per game for budgets from $600k to $1.8M, and Premium at $18,000 per game above $1.8M. All prices are in USD."
+    },
+    {
+      "q": "Do I pay per platform with either tool?",
+      "a": "Wwise requires a license per platform used, with the first platform free on the Indie plan and a lower price for each added platform on paid plans. FMOD's licensing page lists All platforms for each tier, so its fee is per game."
+    },
+    {
+      "q": "Which tool includes support?",
+      "a": "FMOD's table gives Level 1 email support for one year with Basic and two years with Premium. Audiokinetic sells support plans, and Sound Engine source access comes with a support package. Confirm current terms before purchase."
+    },
+    {
+      "q": "Can I get a royalty-free Wwise license?",
+      "a": "Audiokinetic lists a royalty-free (0%) license option among the extras, and it also offers royalty-based and GaaS licenses beside the core license. Ask the vendor how each option applies to your title and platforms."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Audiokinetic offers Wwise for Games with an Indie plan that is free for projects with a production budget up to $250K.",
+      "url": "https://www.audiokinetic.com/en/wwise/pricing/for-games/"
+    },
+    {
+      "fact": "Wwise Pro licenses start at $8,000 for the first platform and $4,000 for each extra platform, for projects with a production budget up to $2M.",
+      "url": "https://www.audiokinetic.com/en/wwise/pricing/for-games/"
+    },
+    {
+      "fact": "Wwise Premium and Platinum licenses start at $25,000 and $45,000 for the first platform, with no production budget cap for Premium and Platinum.",
+      "url": "https://www.audiokinetic.com/en/wwise/pricing/for-games/"
+    },
+    {
+      "fact": "The FMOD site footer names Firelight Technologies Pty Ltd and reads 'Made in Melbourne'.",
+      "url": "https://fmod.com/"
+    },
+    {
+      "fact": "The licensing page offers a Free Indie License for developers with less than $200k revenue per year and a development budget under $600k.",
+      "url": "https://fmod.com/licensing"
+    },
+    {
+      "fact": "The licensing page lists a Basic fee of $6,000 per game for development budgets between $600k and $1.8M, and a Premium fee of $18,000 for budgets over $1.8M.",
+      "url": "https://fmod.com/licensing"
+    },
+    {
+      "fact": "The licensing page states that all pricing is in USD.",
+      "url": "https://fmod.com/licensing"
+    }
+  ],
+  "published": "2026-11-18"
+}

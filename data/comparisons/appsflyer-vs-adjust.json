@@ -1,0 +1,155 @@
+{
+  "slug": "appsflyer-vs-adjust",
+  "a": "appsflyer",
+  "b": "adjust",
+  "a_name": "AppsFlyer",
+  "b_name": "Adjust",
+  "a_site": "https://www.appsflyer.com",
+  "b_site": "https://adjust.com/",
+  "category": "best-mobile-attribution-tools-for-games",
+  "title": "AppsFlyer vs Adjust: Which Fits Your Team in 2026?",
+  "description": "AppsFlyer charges per conversion after 12K free; Adjust tiers by annual conversions with a free Base plan. Compare plans, products and fit for mobile game teams.",
+  "intro": "AppsFlyer and Adjust both attribute installs and in-app events to the campaigns that caused them, and both price on conversions rather than seats. AppsFlyer describes itself as a Modern Marketing Cloud covering mobile, web, CTV, PC and console. Adjust presents a mobile app measurement and growth platform with plans named Base, Core and Enterprise. For a game studio, the practical question is which model makes the first year cheap and the third year predictable. Here is what each vendor publishes about that.",
+  "verdict": "Pick AppsFlyer when you want a published per-conversion rate, a free first year with 12K conversions and attribution that reaches beyond mobile to PC and console. Pick Adjust when a small independent studio fits its free Base tier and you are happy to ask for a quote as volume grows. SKAN handling was not covered on the pages we read, so ask both about it.",
+  "pick_a": "Pick AppsFlyer if you want to know the cost per conversion upfront, plan to measure PC or console as well as mobile, and want a free plan with core marketing analytics.",
+  "pick_b": "Pick Adjust if you are a small independent developer with modest volume, want tiers sized by annual conversions, and see value in its separate Datascape, Engage and Fraud Prevention products.",
+  "rows": [
+    {
+      "label": "Self description",
+      "a": "Modern Marketing Cloud for measurement, deep linking and marketing analytics",
+      "b": "Mobile app measurement and growth platform"
+    },
+    {
+      "label": "Pricing model",
+      "a": "Usage-based, per conversion",
+      "b": "Usage-based, tiered by annual conversions"
+    },
+    {
+      "label": "Free option",
+      "a": "Zero plan, free, with core marketing analytics",
+      "b": "Base tier: free sign-up for small independent developers"
+    },
+    {
+      "label": "Free volume",
+      "a": "Welcome Package with 12K free conversions for the first year",
+      "b": "Up to 1,500 monthly conversions for the first year"
+    },
+    {
+      "label": "Published rate",
+      "a": "Growth plan: $0.07 per conversion after the Welcome Package",
+      "b": "No amounts shown in the readable pricing text"
+    },
+    {
+      "label": "Mid tier",
+      "a": "Other plans compared on the pricing page",
+      "b": "Core: up to 250,000 annual conversions, volume discounts, contact us"
+    },
+    {
+      "label": "Large tier",
+      "a": "Not itemized in the facts we hold",
+      "b": "Enterprise: over 2,500,000 annual conversions, contact us"
+    },
+    {
+      "label": "Platforms measured",
+      "a": "Mobile, web, CTV, PC and console",
+      "b": "Mobile apps"
+    },
+    {
+      "label": "Fraud tooling",
+      "a": "Fraud protection listed",
+      "b": "Fraud Prevention listed"
+    },
+    {
+      "label": "Start terms",
+      "a": "Start free with no credit card required",
+      "b": "Free sign-up with email support on Base"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Reading the pricing pages side by side",
+      "text": [
+        "AppsFlyer is the more forthcoming of the two on rates. Its pricing page names a free Zero plan, a Welcome Package of 12K free conversions for the first year, and a Growth plan where each conversion costs $0.07 after that. A studio can multiply expected conversions by that figure and see a monthly cost without talking to sales.",
+        "Adjust's pricing page organizes plans by annual conversions: Base up to 18,000, Core up to 250,000 and Enterprise above 2,500,000. The readable text does not show amounts, and Core and Enterprise both say contact us. The Base tier offers up to 1,500 monthly conversions in the first year, which multiplies out to the same 18,000 annual figure, so the free allowance and the tier ceiling line up."
+      ]
+    },
+    {
+      "h2": "Free allowances compared",
+      "text": [
+        "On paper, 12K free conversions at AppsFlyer and 18K at Adjust (1,500 a month for twelve months) are close. The conditions differ. AppsFlyer attaches its allowance to the first year of the Zero plan, and Adjust attaches its allowance to the Base tier for small independent developers. A studio with a hit game will burn through either in a single successful campaign.",
+        "For a soft-launch with a few thousand test installs, either free tier covers you. The harder planning question is what happens in month thirteen or when volume jumps. At AppsFlyer you can project the Growth rate; at Adjust you will have a conversation about Core pricing and volume discounts."
+      ]
+    },
+    {
+      "h2": "Scope beyond mobile",
+      "text": [
+        "AppsFlyer's description spans mobile, web, CTV, PC and console, and its feature list names cross-platform measurement and ROI measurement. A publisher that sells the same game on phones and on Steam can keep its reporting in one place. Adjust's pages we read speak about mobile apps, deep linking, fraud prevention, measurement and its Datascape visualizations, with Engage and AI Solutions listed as additional products.",
+        "Mobile-only studios may not care about the difference. Multiplatform publishers should check whether PC and console attribution is available at the plan level they intend to buy."
+      ]
+    },
+    {
+      "h2": "Questions to ask both vendors",
+      "text": [
+        "Our sources did not cover SKAdNetwork handling, data export terms, SDK size or how each counts a conversion, so put those into a written list for both sales teams. A conversion in one system may include events that another system counts differently, and a per-conversion price is only comparable when the definitions match.",
+        "Also ask about overage behavior. If a campaign spikes past a tier ceiling, you want to know whether the bill moves to the next tier, to a per-unit rate or to a negotiation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does AppsFlyer have a free plan?",
+      "a": "Yes. The pricing page lists a Zero plan that is free and includes core marketing analytics plus a Welcome Package with 12K free conversions for the first year. It says you can start free with no credit card required."
+    },
+    {
+      "q": "What does an AppsFlyer conversion cost after the free allowance?",
+      "a": "On the Growth plan, conversions cost $0.07 each after the Welcome Package, according to AppsFlyer's pricing page. Other plans are compared on that page, so check which one fits your expected volume."
+    },
+    {
+      "q": "What is Adjust's free tier?",
+      "a": "The Base tier is for small independent developers and offers a free sign-up with email support and up to 1,500 monthly conversions for the first year. The page sizes Base for up to 18,000 annual conversions."
+    },
+    {
+      "q": "Does Adjust publish prices for Core and Enterprise?",
+      "a": "The pricing text we read shows tiers by annual conversions (up to 250,000 for Core and over 2,500,000 for Enterprise) with contact us on both, and it mentions volume discounts for Core. No amounts were readable."
+    },
+    {
+      "q": "Which tool measures PC and console installs?",
+      "a": "AppsFlyer describes measurement across mobile, web, CTV, PC and console. Adjust's pages we opened refer to mobile apps. If you need PC attribution, confirm it with Adjust directly."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "AppsFlyer describes itself as a Modern Marketing Cloud for measurement, deep linking and marketing analytics across mobile, web, CTV and console.",
+      "url": "https://www.appsflyer.com"
+    },
+    {
+      "fact": "AppsFlyer's free Zero plan includes a Welcome Package with 12K free conversions for the first year.",
+      "url": "https://www.appsflyer.com/pricing/"
+    },
+    {
+      "fact": "After the Welcome Package, Growth plan conversions are priced at $0.07 each.",
+      "url": "https://www.appsflyer.com/pricing/"
+    },
+    {
+      "fact": "AppsFlyer's pricing page says users can start for free with no credit card required.",
+      "url": "https://www.appsflyer.com/pricing/"
+    },
+    {
+      "fact": "The pricing page is titled 'Choose your plan!' and presents Base, Core and Enterprise tiers by annual conversions.",
+      "url": "https://adjust.com/pricing"
+    },
+    {
+      "fact": "The pricing page says the Base tier is for small independent developers and offers a free sign-up with up to 1,500 monthly conversions for the first year.",
+      "url": "https://adjust.com/pricing"
+    },
+    {
+      "fact": "The pricing page says the Core tier is for medium-size developers and the Enterprise tier for large developers, with 'Contact us' on both.",
+      "url": "https://adjust.com/pricing"
+    },
+    {
+      "fact": "The Adjust homepage is titled 'Accelerate your app's growth with Adjust'.",
+      "url": "https://adjust.com/"
+    }
+  ],
+  "published": "2026-11-18"
+}

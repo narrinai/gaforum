@@ -348,8 +348,25 @@ def sources_list(srcs, cls='srcs'):
     items = [s for s in (srcs or []) if s.get('url')]
     if not items:
         return ''
-    lis = ''.join(f'<li>{e(s.get("fact") or s.get("title") or s.get("name") or "")} <a href="{e(s["url"])}" rel="nofollow noopener" target="_blank">{e(re.sub(r"^https?://(www\\.)?", "", s["url"]).rstrip("/")[:60])}</a></li>' for s in items)
+    seen, lis = set(), ''
+    for x in items:
+        u = x['url']
+        if u in seen:
+            continue
+        seen.add(u)
+        lis += f'<li><a href="{e(u)}" rel="nofollow noopener" target="_blank">{e(re.sub(r"^https?://(www\\.)?", "", u).rstrip("/")[:70])}</a></li>'
     return f'<ul class="{cls}">{lis}</ul>'
+
+
+def sources_hosts(srcs):
+    hosts = []
+    for x in srcs or []:
+        if x.get('url'):
+            h = re.sub(r'^https?://(www\.)?', '', x['url']).split('/')[0]
+            link = f'<a href="{e(x["url"])}" rel="nofollow noopener" target="_blank">{e(h)}</a>'
+            if h not in [y[0] for y in hosts]:
+                hosts.append((h, link))
+    return ', '.join(l for _, l in hosts) or 'the vendor site'
 
 
 def card(href, kicker, title, text, logos=''):
@@ -392,8 +409,20 @@ def software_ld(t, c):
     return d
 
 
-def notice():
-    return f'<p class="notice"><strong>How this list is ordered:</strong> by our editorial judgment of fit for the reader named above, based on vendor documentation, pricing and license pages opened on the review date. {DISCLOSURE_LINE}</p>'
+NOTICE_LEADS = [
+    '<strong>How this list is ordered:</strong> by our editorial judgment of fit for the reader named above, based on vendor documentation, pricing and license pages opened on the review date.',
+    '<strong>About the order:</strong> it reflects our own reading of each vendor\'s documentation, prices and license terms, weighed for the reader this page is written for.',
+    '<strong>Why this order:</strong> we opened every vendor\'s own pages on the review date and placed the products by fit, not by popularity or payment.',
+    '<strong>Ordering:</strong> editorial, based on what each vendor publishes about pricing, licensing and features as of the date above.',
+]
+
+
+def pick_variant(key, options):
+    return options[sum(ord(c) for c in key) % len(options)]
+
+
+def notice(key=''):
+    return f'<p class="notice">{pick_variant(key, NOTICE_LEADS)} {DISCLOSURE_LINE}</p>'
 
 
 def build_category(c):
@@ -441,7 +470,7 @@ def build_category(c):
         box('Related rankings', related)])
     answer = md(f'**{ranked[0]["name"]}** comes first in our ranking of {c["name"]}, ahead of **{ranked[1]["name"]}** and **{ranked[2]["name"]}**. ' + c['summary_line'])
     body = f'''{bc}
-<section class="hero hero--page"><div class="wrap lim">
+<section class="hero hero--page"><div class="wrap">
 <p class="eyebrow">{e(hub['short'])} · {len(ranked)} tools ranked</p>
 <h1>{e(c['title'])}</h1>
 {byline(c.get('reviewed', c['published']), c['published'])}
@@ -450,15 +479,15 @@ def build_category(c):
 </div></section>
 <div class="wrap layout"><div class="prose">
 <h2 id="top">The top three</h2>
-{notice()}
+{notice(c['slug'])}
 <div class="top3">{top3}</div>
-<h2 id="what">What are {e(c['name'])}?</h2>
+<h2 id="what">{'What is' if c['name'].lower().endswith(('software', 'middleware')) else 'What are'} {e(c['name'])}?</h2>
 <p>{md(c['definition'])}</p>
 <h2 id="method">How we ranked these</h2>{chunk(c['intro'], 2)}{crit}
 <h2 id="table">Compared at a glance</h2>
 <div class="table-wrap"><table><thead><tr><th>#</th><th>Product</th><th>Best for</th><th>Pricing</th><th>Free option</th><th>Based in</th></tr></thead><tbody>{table_rows}</tbody></table></div>
 <h2 id="ranking">The {len(ranked)} tools, reviewed</h2>
-{notice()}
+{notice(c['slug'] + 'xy')}
 <ol class="rank">{''.join(items)}</ol>
 <h2 id="market">What this list shows</h2>{paras(c['market_notes'])}
 <h2 id="choose">How to choose</h2>{steps}
@@ -529,19 +558,20 @@ def build_alt(a):
     for i, p in enumerate(a['picks']):
         t = {'slug': p['slug'], 'name': p['name'], 'site': p.get('site')}
         rank_in = TOOLS.get(p['slug'])
-        ranked = f'<a href="/software/{rank_in[0][1]["slug"]}#{p["slug"]}">See its ranking entry</a>' if rank_in else ''
-        picks += f'''<li class="rank__item" id="{p['slug']}"><div class="rank__top"><span class="rank__n">{i + 1}</span>{tool_logo(t, 48)}<div><h3 class="rank__name">{e(p['name'])}</h3><p class="rank__tag">Best for: {e(p['best_for'])}</p></div></div>
-<dl class="facts"><div><dt>Pricing</dt><dd>{e(p['pricing'])}</dd></div><div><dt>Free option</dt><dd>{e(p['free_plan'])}</dd></div></dl>
-{chunk(p['note'], 2)}<details class="rank__src"><summary>Sources checked</summary>{sources_list(p.get('sources'))}</details><p class="rank__links">{visit(t)}{ranked}</p></li>'''
+        ranked = ''
+        name_html = f'<a href="/software/{rank_in[0][1]["slug"]}#{p["slug"]}" class="namelink">{e(p["name"])}</a>' if rank_in else e(p['name'])
+        picks += f'''<li class="rank__item" id="{p['slug']}"><div class="rank__top"><span class="rank__n">{i + 1}</span>{tool_logo(t, 48)}<div><h3 class="rank__name">{name_html}</h3><p class="rank__tag">{e(p['best_for'])}</p></div></div>
+<dl class="facts"><div><dt>Free option</dt><dd>{e(p['free_plan'])}</dd></div></dl>
+{chunk(p['note'], 2)}<p class="srcline">Checked on {sources_hosts(p.get('sources'))}</p><p class="rank__links">{visit(t)}</p></li>'''
     why = ''.join(f'<li>{md(x)}</li>' for x in a['why_switch'])
     faq, fld = faq_block(a.get('faqs'))
     cat = cat_link(a.get('category'))
     body = f'''{bc}<section class="hero hero--page"><div class="wrap lim"><p class="eyebrow">Alternatives · {len(a['picks'])} options</p><h1>{e(a['title'])}</h1>
 {byline(a['published'])}<div class="lede">{chunk(a['intro'], 2)}</div></div></section>
-<div class="wrap narrow prose">{notice()}
-<h2>Why teams look beyond {e(a['subject'])}</h2><ul>{why}</ul>
-<h2>The alternatives</h2><ol class="rank">{picks}</ol>
-<h2>How to pick between them</h2>{chunk(a['how_to_pick'], 2)}
+<div class="wrap narrow prose">{notice(a['slug'])}
+<h2>{pick_variant(a['slug'], ['Why teams look beyond', 'Reasons to leave', 'When to replace', 'What pushes teams away from'])} {e(a['subject'])}</h2><ul>{why}</ul>
+<h2>{pick_variant(a['slug'] + 'p', ['The alternatives', 'The options, in order', 'Our picks', 'What to use instead'])}</h2><ol class="rank">{picks}</ol>
+<h2>{pick_variant(a['slug'] + 'h', ['How to pick between them', 'Choosing among these', 'Making the call', 'Which one fits'])}</h2>{chunk(a['how_to_pick'], 2)}
 {f'<p><strong>Full ranking:</strong> {cat}</p>' if cat else ''}
 {faq}</div>'''
     ld_list = {'@context': 'https://schema.org', '@type': 'ItemList', 'name': a['title'], 'numberOfItems': len(a['picks']),
@@ -601,7 +631,7 @@ def build_guide(g):
     rel = ''.join(f'<li>{cat_link(r)}</li>' for r in g.get('related_categories', []) if r in CAT_BY)
     relg = ''.join(f'<li><a href="/guides/{x}">{e(GUIDE_BY[x]["title"])}</a></li>' for x in g.get('related_guides', []) if x in GUIDE_BY)
     srcs = ''.join(f'<li><a href="{e(s["url"])}" rel="noopener" target="_blank">{e(s["title"])}</a>, {e(s.get("publisher", ""))}</li>' for s in g.get('sources', []))
-    body = f'''{bc}<section class="hero hero--page"><div class="wrap lim"><p class="eyebrow">{e(g.get('kind', 'Guide'))} · {e(g.get('topic', ''))}</p><h1>{e(g['title'])}</h1>
+    body = f'''{bc}<section class="hero hero--page"><div class="wrap"><p class="eyebrow">{e(g.get('kind', 'Guide'))} · {e(g.get('topic', ''))}</p><h1>{e(g['title'])}</h1>
 {byline(g.get('reviewed', g['published']), g['published'])}<div class="lede">{chunk(g['intro'], 2)}</div></div></section>
 <div class="wrap layout"><div class="prose">
 {f'<div class="takeaways"><h2>Key takeaways</h2><ul>{kt}</ul></div>' if kt else ''}

@@ -4,15 +4,16 @@
   "subject_site": "https://www.live2d.com/",
   "title": "Live2D Cubism Alternatives in 2026",
   "published": "2026-11-18",
-  "description": "Six Live2D Cubism alternatives for avatar rigging: Inochi2D, VRoid Studio, Blender, Reallusion, Spine and Rive, with licensing and cost notes from vendor pages.",
+  "description": "Ten Live2D Cubism alternatives for avatar rigging: Inochi2D, VRoid Studio, Blender, Reallusion, Spine, Rive, Moho, Animaze, Warudo and VTube Studio.",
   "category": "best-vtuber-software",
-  "intro": "Live2D Cubism Editor builds 2D-based three-dimensional expression from a single illustration, and it is the rigging tool behind many VTuber avatars. Operated by 株式会社 Live2D, the editor comes in PRO and FREE versions, with a 42-day PRO trial before the free version continues. Artists who want a fully open framework, a 3D avatar pipeline or a different animation style look elsewhere. The six options here lean toward free or open tools, since that was the angle of this page.",
+  "intro": "Live2D Cubism Editor builds 2D-based three-dimensional expression from a single illustration, and it is the rigging tool behind many VTuber avatars. Operated by 株式会社 Live2D, the editor comes in PRO and FREE versions, with a 42-day PRO trial before the free version continues. Artists who want a fully open framework, a 3D avatar pipeline or a different animation style look elsewhere. The ten options here lean toward free or open tools where they exist, with paid rigging tools and streaming avatar apps added for artists who want a different route.",
   "why_switch": [
     "Cubism Editor PRO is sold through the Live2D Store, and the amounts were not on the pages we opened, so artists budget by checking the store directly.",
     "After the 42-day PRO trial, the FREE version continues, which keeps some artists on a reduced feature set they would rather replace with an open tool.",
     "Open-source fans prefer Inochi2D, a framework for real-time 2D puppet animation that says real-time character animation is royalty-free.",
     "Some creators want a 3D avatar instead of a 2D puppet. VRoid Studio and Reallusion are built around 3D characters.",
-    "Game animators who need bones and meshes for sprite work, not face expressions, move to Spine or Rive."
+    "Game animators who need bones and meshes for sprite work, not face expressions, move to Spine or Rive.",
+    "Streamers who want to go live quickly sometimes skip rigging and use an avatar app such as Animaze or Warudo."
   ],
   "picks": [
     {
@@ -152,9 +153,101 @@
           "url": "https://rive.app/pricing"
         }
       ]
+    },
+    {
+      "slug": "moho",
+      "name": "Moho",
+      "site": "https://moho.lostmarble.com",
+      "best_for": "Bone and mesh rigging for 2D animation",
+      "pricing": "One-time purchase: Moho Pro 14 at $399.99 and Moho Debut 14 at $59.99.",
+      "free_plan": "Unknown",
+      "note": "Moho is 2D animation software with rigging, inverse kinematics, physics, distortion meshes and layered SVG and PSD support. Version 14.5 adds live playback to animate and stream characters in real time. It is a paid, one-time purchase, so it fits artists who want to own a rigging tool outright, though it is a general animation program and not a VTuber-specific one.",
+      "sources": [
+        {
+          "fact": "Moho's homepage describes it as animation software for 2D movies, films, commercials, cartoons, vector animation, stop motion and frame-by-frame animation.",
+          "url": "https://moho.lostmarble.com"
+        },
+        {
+          "fact": "The Moho buy page lists Moho Pro 14 as a one-time purchase at $399.99 and Moho Debut 14 at $59.99.",
+          "url": "https://moho.lostmarble.com/pages/buy"
+        },
+        {
+          "fact": "Moho's site footer states copyright 2026 LOSTMARBLE LLC.",
+          "url": "https://moho.lostmarble.com"
+        }
+      ]
+    },
+    {
+      "slug": "animaze",
+      "name": "Animaze",
+      "site": "https://www.animaze.us/",
+      "best_for": "Ready-made 2D and 3D streaming avatars",
+      "pricing": "Free tier with 80+ free items; paid individual plans at $19.99 ($1.67/month) and $99.99 ($8.34/month).",
+      "free_plan": "Free",
+      "note": "Animaze, by FaceRig, is software for livestreaming or video chat with custom 2D and 3D animated avatars, backgrounds and props. It skips the rigging step: you pick or import an avatar and go live. The pricing page lists Pro-Streamer commercial rights for streamers earning $6,000 per year, so check that line before monetizing a channel.",
+      "sources": [
+        {
+          "fact": "Animaze is software for livestreaming or video chat with custom 2D and 3D animated avatars, backgrounds and props.",
+          "url": "https://www.animaze.us/"
+        },
+        {
+          "fact": "Animaze's individual pricing page lists a free tier with access to 80+ free items including avatars, backgrounds, props and emotes.",
+          "url": "https://www.animaze.us/pricing-individual"
+        },
+        {
+          "fact": "Pro-Streamer commercial rights on the pricing page are for streamers earning $6,000 per year.",
+          "url": "https://www.animaze.us/pricing-individual"
+        }
+      ]
+    },
+    {
+      "slug": "warudo",
+      "name": "Warudo",
+      "site": "https://warudo.app",
+      "best_for": "Customizable 3D VTubing with tracking",
+      "pricing": "Pricing is not shown in the text extracted from the homepage or pricing page.",
+      "free_plan": "Unknown",
+      "note": "Warudo is 3D VTubing software with built-in face and hand tracking, custom 3D assets, Twitch and YouTube integration, a blueprint system and C# plugins. It pairs naturally with a move from a 2D puppet to a 3D model, and the handbook is available in English, Chinese, Japanese, Korean and Spanish. Expect more setup than a plug-and-play avatar app.",
+      "sources": [
+        {
+          "fact": "Warudo is flexible 3D VTubing software with built-in face and hand tracking, custom 3D assets and Twitch and YouTube integration.",
+          "url": "https://warudo.app"
+        },
+        {
+          "fact": "Warudo offers a blueprint system and C# plugins, according to its homepage.",
+          "url": "https://warudo.app"
+        },
+        {
+          "fact": "The Warudo handbook is available in English, Chinese, Japanese, Korean and Spanish.",
+          "url": "https://docs.warudo.app"
+        }
+      ]
+    },
+    {
+      "slug": "vtube-studio",
+      "name": "VTube Studio",
+      "site": "https://denchisoft.com",
+      "best_for": "Running Live2D models without the editor",
+      "pricing": "Available on Steam; the homepage shows no price in the extracted text.",
+      "free_plan": "Unknown",
+      "note": "VTube Studio brings Live2D models to life with webcam tracking for Virtual YouTubers. It is not a rigging replacement, since it runs models made elsewhere, so treat it as the companion that lets you try a model from another editor before committing. Its site links to a Steam page, documentation and a license page.",
+      "sources": [
+        {
+          "fact": "VTube Studio is an app for Virtual YouTubers that makes it easy to bring your own Live2D models to life.",
+          "url": "https://denchisoft.com"
+        },
+        {
+          "fact": "VTube Studio's homepage links to a Steam page for getting the app.",
+          "url": "https://denchisoft.com"
+        },
+        {
+          "fact": "VTube Studio's official site has a license page and documentation.",
+          "url": "https://denchisoft.com"
+        }
+      ]
     }
   ],
-  "how_to_pick": "Decide whether your avatar stays 2D. If it does and you want open tools, Inochi2D is the first thing to download. If you are willing to switch to 3D, VRoid Studio gives the quickest start and Blender the deepest control. Game developers should weigh Spine or Rive against the engine they use. Before you commit, export a test model into your tracking app, because compatibility with VTube Studio or a similar program decides more than editor features.",
+  "how_to_pick": "Decide whether your avatar stays 2D. If it does and you want open tools, Inochi2D is the first thing to download. If you are willing to switch to 3D, VRoid Studio gives the quickest start and Blender the deepest control. Game developers should weigh Spine or Rive against the engine they use. Before you commit, export a test model into your tracking app, because compatibility with VTube Studio or a similar program decides more than editor features. Moho suits artists who want a one-time-purchase rigger, Animaze skips rigging, Warudo covers 3D tracking, and VTube Studio is worth keeping as a test bench for any Live2D model.",
   "faqs": [
     {
       "q": "Is there a fully free alternative to Live2D Cubism?",
@@ -170,7 +263,7 @@
     },
     {
       "q": "Which options make 3D avatars?",
-      "a": "VRoid Studio, Reallusion and Blender work with 3D characters. VRoid Studio is listed as a 3D character creation tool, and Reallusion describes 3D character production. Blender is the general-purpose route."
+      "a": "VRoid Studio, Reallusion and Blender work with 3D characters. VRoid Studio is listed as a 3D character creation tool, and Reallusion describes 3D character production. Blender is the general-purpose route. Warudo also targets 3D avatars with face and hand tracking."
     },
     {
       "q": "Why is Ready Player Me not on this page?",

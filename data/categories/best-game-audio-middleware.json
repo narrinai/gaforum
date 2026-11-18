@@ -28,7 +28,7 @@
     }
   ],
   "market_notes": [
-    "Of the ten tools, four are free software or open source (Steam Audio, miniaudio, OpenAL Soft and SoLoud), and one more offers a free tier by budget (Wwise). Only Wwise and Elias print a price table we could read; REAPER, Soundly, Krotos Studio and CRI ADX do not show full amounts in the pages we opened. CRI Middleware (Japan), Soundly (Norway) and Valve are the vendors with a stated owner or home on the pages we read. Three entries, Soundly, Krotos Studio and REAPER, prepare sound rather than play it back.",
+    "Of the eleven tools, four are free software or open source (Steam Audio, miniaudio, OpenAL Soft and SoLoud), and two more offer a free tier by budget or revenue (Wwise and FMOD). Only Wwise, FMOD and Elias print a price table we could read; REAPER, Soundly, Krotos Studio and CRI ADX do not show full amounts in the pages we opened. CRI Middleware (Japan), FMOD's Firelight Technologies (Melbourne), Soundly (Norway) and Valve are the vendors with a stated owner or home on the pages we read. Three entries, Soundly, Krotos Studio and REAPER, prepare sound rather than play it back.",
     "The list shows two ways of buying audio. Budget-tiered licenses give designers a full toolset but add per-platform fees, while open libraries are free and need a programmer to build the missing workflow. Steam Audio is the bridge, since it layers onto FMOD Studio and Wwise. A third path is mixing: a free spatial plugin, a lighter middleware and a DAW for asset production. Whatever you pick, confirm the license terms in writing for each console you ship on."
   ],
   "how_to_choose": [
@@ -124,6 +124,49 @@
         {
           "fact": "Audiokinetic's pricing page lists Indie, Pro, Premium and Platinum plans, each with a starting price on the page.",
           "url": "https://www.audiokinetic.com/en/wwise/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "fmod",
+      "name": "FMOD",
+      "site": "https://fmod.com/",
+      "company": "Firelight Technologies Pty Ltd",
+      "country": "Australia",
+      "tagline": "Adaptive game audio with one fee per game",
+      "best_for": "Multiplatform teams wanting a per-game fee",
+      "pricing": "Free Indie License under $200k revenue per year and a $600k development budget; Basic is $6,000 per game and Premium is $18,000 per game, in USD.",
+      "pricing_model": "One-time license",
+      "free_plan": "Free",
+      "platforms": "Game platforms; the licensing table lists All platforms for each tier",
+      "features": [
+        "FMOD Studio",
+        "FMOD for Unity",
+        "FMOD Core",
+        "FMOD.io",
+        "Adaptive audio",
+        "Level 1 email support"
+      ],
+      "summary": "FMOD charges per game rather than per platform, with a free indie tier and a licensing table that covers all platforms.",
+      "verdict": "FMOD calls itself the solution for adaptive audio and builds its range from FMOD Studio, FMOD for Unity, FMOD Core and FMOD.io. The licensing page is easy to budget from: a free Indie License, then $6,000 per game for budgets between $600k and $1.8M and $18,000 above that, with every tier listing all platforms. Email support runs one year on Basic and two on Premium. Firelight Technologies, the company behind it, signs its site as Made in Melbourne. That clear per-game ladder is why it sits right after Wwise.",
+      "weaknesses": "The free tier ends at $200k revenue or a $600k budget, and the page notes the Indie tier as free or $2,000 without explaining when each applies. Non-game pricing is by quote, and the pages we read do not describe source access.",
+      "wrong_for": "Teams that want a royalty-free option or premium plug-ins bundled into a license should look at Wwise, and studios that only need positional audio can start with Steam Audio.",
+      "sources": [
+        {
+          "fact": "The FMOD homepage describes FMOD as 'Made for games' and 'the solution for adaptive audio'.",
+          "url": "https://fmod.com/"
+        },
+        {
+          "fact": "The licensing page offers a Free Indie License for developers with less than $200k revenue per year and a development budget under $600k.",
+          "url": "https://fmod.com/licensing"
+        },
+        {
+          "fact": "The licensing page lists a Basic fee of $6,000 per game for development budgets between $600k and $1.8M, and a Premium fee of $18,000 for budgets over $1.8M.",
+          "url": "https://fmod.com/licensing"
+        },
+        {
+          "fact": "The FMOD site footer names Firelight Technologies Pty Ltd and reads 'Made in Melbourne'.",
+          "url": "https://fmod.com/"
         }
       ]
     },

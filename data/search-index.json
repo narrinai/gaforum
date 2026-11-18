@@ -144,6 +144,12 @@
 "type": "Ranking"
 },
 {
+"url": "/software/best-game-audio-middleware",
+"title": "Best Game Audio Middleware in 2026",
+"description": "Game audio middleware connects sound assets to gameplay through adaptive music, mixing, spatial effects and per-platform licensing, from free libraries to budget-based licenses.",
+"type": "Ranking"
+},
+{
 "url": "/software/best-game-backend-platforms",
 "title": "Best Game Backend Platforms in 2026",
 "description": "Game backend platforms host player accounts, economies, inventories, leaderboards and live-service logic so studios do not have to build and run their own servers.",
@@ -237,6 +243,12 @@
 "url": "/software/best-live-streaming-apis-and-sdks",
 "title": "Best Live Streaming APIs and SDKs in 2026",
 "description": "Live streaming APIs and SDKs give developers hosted video infrastructure to add live broadcasts, calls and interactive streams to apps and sites.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-livestream-analytics-tools",
+"title": "Best Livestream Analytics Tools in 2026",
+"description": "Livestream analytics tools measure viewers, watch time, game performance and channel growth so streamers and studios can decide what to stream and who to partner with.",
 "type": "Ranking"
 },
 {
@@ -360,6 +372,12 @@
 "type": "Ranking"
 },
 {
+"url": "/software/best-voice-changer-and-streaming-audio-software",
+"title": "Best Voice Changer and Streaming Audio Software in 2026",
+"description": "Streaming audio software mixes mic and game sound, removes noise and applies voice effects so a broadcast sounds clean and intentional.",
+"type": "Ranking"
+},
+{
 "url": "/software/best-vtuber-software",
 "title": "Best VTuber Software in 2026",
 "description": "VTuber software tracks a streamer's face and body and drives a 2D or 3D avatar that appears on a livestream or video call.",
@@ -447,6 +465,18 @@
 "url": "/alternatives/helpshift",
 "title": "Helpshift Alternatives in 2026",
 "description": "Ten Helpshift alternatives for mobile game support desks, from AIHelp and Zendesk to Help Scout, Crisp and Freshdesk, with pricing where published.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/itch-io",
+"title": "itch.io Alternatives in 2026",
+"description": "Eight itch.io alternatives for selling or sharing indie games: Steam, GOG, Humble Bundle, CrazyGames, Poki, GameDistribution, Amazon Appstore and the Xbox Store.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/live2d-cubism",
+"title": "Live2D Cubism Alternatives in 2026",
+"description": "Ten Live2D Cubism alternatives for avatar rigging: Inochi2D, VRoid Studio, Blender, Reallusion, Spine, Rive, Moho, Animaze, Warudo and VTube Studio.",
 "type": "Alternatives"
 },
 {
@@ -618,6 +648,12 @@
 "type": "Comparison"
 },
 {
+"url": "/compare/appsflyer-vs-adjust",
+"title": "AppsFlyer vs Adjust: Which Fits Your Team in 2026?",
+"description": "AppsFlyer charges per conversion after 12K free; Adjust tiers by annual conversions with a free Base plan. Compare plans, products and fit for mobile game teams.",
+"type": "Comparison"
+},
+{
 "url": "/compare/castr-vs-restream",
 "title": "Castr vs Restream: Which Fits Your Team in 2026?",
 "description": "Castr bundles stream hosting, multistreaming, VOD and OTT with plans from $16.67 a month; Restream offers a free start. Compare cost and fit for streamers.",
@@ -690,6 +726,12 @@
 "type": "Comparison"
 },
 {
+"url": "/compare/on24-vs-goldcast",
+"title": "ON24 vs Goldcast: Which Fits Your Team in 2026?",
+"description": "ON24 sells an AI webinar and engagement platform; Goldcast sells an AI-first B2B video platform on custom bundles. Compare pricing openness and launch fit.",
+"type": "Comparison"
+},
+{
 "url": "/compare/parsec-vs-moonlight",
 "title": "Parsec vs Moonlight: Which Fits Your Team in 2026?",
 "description": "Parsec is a subscription remote desktop with a Teams plan; Moonlight is an open source game streaming client. Compare price, platforms, quality and setup.",
@@ -732,9 +774,21 @@
 "type": "Comparison"
 },
 {
+"url": "/compare/start-gg-vs-challonge",
+"title": "start.gg vs Challonge: Which Fits Your Team in 2026?",
+"description": "start.gg is a tournament destination with rankings and a developer portal; Challonge is a bracket service with a free ad-supported plan. Compare for community events.",
+"type": "Comparison"
+},
+{
 "url": "/compare/streamelements-vs-streamlabs-desktop",
 "title": "StreamElements vs Streamlabs Desktop: Which Fits Your Team in 2026?",
 "description": "StreamElements runs in the cloud with an OBS plugin; Streamlabs pairs its own desktop app with alerts and tipping. Compare overlays, alerts and tip terms.",
+"type": "Comparison"
+},
+{
+"url": "/compare/unity-vs-unreal-engine",
+"title": "Unity vs Unreal Engine: Which Fits Your Team in 2026?",
+"description": "Unity sells plans and a service stack; Unreal Engine is free until $1 million in gross product revenue, then royalties. Compare terms, platforms and team fit.",
 "type": "Comparison"
 },
 {
@@ -747,6 +801,12 @@
 "url": "/compare/wowza-vs-ant-media-server",
 "title": "Wowza vs Ant Media Server: Which Fits Your Team in 2026?",
 "description": "Wowza prices its streaming server by instance and publishes no amounts; Ant Media lists $129 per instance monthly and a $0.35 hourly Flex rate. Compare licensing.",
+"type": "Comparison"
+},
+{
+"url": "/compare/wwise-vs-fmod",
+"title": "Wwise vs FMOD: Which Fits Your Team in 2026?",
+"description": "Wwise bills per platform on a production-budget scale; FMOD bills per game with a free indie tier. Compare license tiers, support terms and team fit in 2026.",
 "type": "Comparison"
 },
 {

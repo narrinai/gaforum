@@ -1,0 +1,158 @@
+{
+  "slug": "unity-vs-unreal-engine",
+  "a": "unity",
+  "b": "unreal-engine",
+  "a_name": "Unity",
+  "b_name": "Unreal Engine",
+  "a_site": "https://unity.com/",
+  "b_site": "https://unrealengine.com/",
+  "category": "best-3d-game-engines-for-small-studios",
+  "title": "Unity vs Unreal Engine: Which Fits Your Team in 2026?",
+  "description": "Unity sells plans and a service stack; Unreal Engine is free until $1 million in gross product revenue, then royalties. Compare terms, platforms and team fit.",
+  "intro": "Unity and Unreal Engine are the two engines small 3D studios shortlist most often, and the money works very differently. Unreal Engine is free for game developers until a title earns $1 million USD in gross product revenue, after which royalties apply. Unity says you can start free and then pick a plan, and it wraps the editor in services for live operations, user acquisition and monetization. This page lines up what each vendor actually publishes, so a producer can see where the two pricing logics diverge and what the pages leave unsaid.",
+  "verdict": "Choose Unreal Engine when you expect a modest launch, want zero upfront cost and are comfortable owing a share of revenue only after the first million. Choose Unity when you want a single vendor for the editor plus growth services, and you are ready to read its plan page for the exact tier your company needs. Neither vendor page we read lets us rank graphics quality or learning speed, so test a vertical slice in each.",
+  "pick_a": "Pick Unity if your roadmap includes mobile or web, a long list of target platforms and add-on services for ads, purchases or live operations from the same company.",
+  "pick_b": "Pick Unreal Engine if you would rather pay nothing now, accept a royalty only on revenue beyond the first $1 million USD, and aim at high-end real-time 3D visuals.",
+  "rows": [
+    {
+      "label": "Pricing model",
+      "a": "Plans; the homepage says to get started for free or find a plan",
+      "b": "Revenue share; royalties on gross product revenue above $1 million USD"
+    },
+    {
+      "label": "Free entry",
+      "a": "Free start offered on the homepage; plan names and limits are on a separate page",
+      "b": "Free for game developers under $1 million USD in revenue"
+    },
+    {
+      "label": "Who stays free",
+      "a": "Not stated on the homepage",
+      "b": "Individuals and small businesses under $1 million USD in annual gross revenue"
+    },
+    {
+      "label": "Published figures",
+      "a": "No prices on the homepage",
+      "b": "Revenue threshold on the license page; royalty rate not read for this page"
+    },
+    {
+      "label": "Platforms named",
+      "a": "Desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web, Apple Vision Pro",
+      "b": "Not read on the pages opened"
+    },
+    {
+      "label": "Self description",
+      "a": "Game engine for developing, deploying and growing games",
+      "b": "The most powerful real-time 3D creation tool, per its homepage title"
+    },
+    {
+      "label": "Services around the engine",
+      "a": "Collaboration, LiveOps, user acquisition, in-app purchase, monetization",
+      "b": "Licensing tiers; no service stack listed in the facts we hold"
+    },
+    {
+      "label": "Current version signal",
+      "a": "Unity 6.6 available; Unity 7 announced as the next major version",
+      "b": "Not read on the pages opened"
+    },
+    {
+      "label": "Funding program",
+      "a": "Unity Fellowship backs 10 indie teams with $50K and no recoup",
+      "b": "None found on the pages opened"
+    },
+    {
+      "label": "Best for",
+      "a": "Multiplatform teams that want growth tooling from one vendor",
+      "b": "Studios that want the free start and expect revenue to arrive later"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "What you pay and when",
+      "text": [
+        "The cleanest difference between the two engines is the moment the vendor asks for money. Epic's license page says game developers are free under $1 million USD in revenue and that royalties apply after $1 million USD gross product revenue. A studio that never reaches that line pays the engine vendor nothing, and a studio that does owes a share of the excess instead of a fixed fee.",
+        "Unity's homepage takes a plan-based approach. It says you can get started for free or find a plan that suits you, and it links to a Plans and pricing page without printing figures. That makes Unity harder to cost from the homepage alone, so a producer building a budget should open the plan page and note which tier applies to the company's funding or revenue before committing artists to the engine."
+      ]
+    },
+    {
+      "h2": "Platform reach and release posture",
+      "text": [
+        "Unity lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro on its homepage and speaks of 25+ platforms. For a studio that ships the same game to a phone, a console and a browser, a published list like that shortens the first planning meeting.",
+        "Unreal Engine's pages that we read do not list platforms, so absence of evidence is not a negative here; it simply means you should check the current documentation for the specific console or headset you need. On release cadence, Unity's homepage says Unity 6.6 is available and that Unity 7 is the announced next major version, which is useful if you plan a multi-year project and want to know where the editor is heading."
+      ]
+    },
+    {
+      "h2": "Growth services versus a focused engine",
+      "text": [
+        "Unity presents more than an editor. Its homepage names collaboration, LiveOps, user acquisition, in-app purchase and monetization as part of the offer. A small studio that wants to run offers and ads without wiring up separate vendors can treat that as convenience, with the usual trade that more of the stack sits with one company.",
+        "Epic frames Unreal Engine as a real-time 3D creation tool and describes licensing tiers rather than a services catalog on the pages we opened. That reads as a narrower offer: the engine, with the monetization and live operations stack coming from elsewhere. If you already run a backend and an ad mediation partner, the narrower scope may suit you better."
+      ]
+    },
+    {
+      "h2": "Money available to small teams",
+      "text": [
+        "Unity's homepage promotes the Unity Fellowship, which backs 10 indie teams with $50K and no recoup, with applications due December 18. It is a small number of slots, so it is a bonus for a lucky few, not a plan. We found no comparable grant program on the Unreal Engine pages we read.",
+        "For most small studios the decision rests on cash flow. Unreal Engine's free start can be attractive when a team funds the game from savings and wants no recurring tool bill. Unity's plan model may make sense when a team prefers a flat, predictable line item and wants the extra services. In both cases, write the threshold figures into the budget on the day you sign off."
+      ]
+    },
+    {
+      "h2": "How to test before you commit",
+      "text": [
+        "Build the same two-week vertical slice in each engine: one character controller, one lit scene, one build to your lowest-spec target device. Track hours spent on tooling versus gameplay, because the real cost of an engine is the time your own team needs to become productive in it. Then compare against the pricing facts above rather than against forum reputation.",
+        "Keep the engine decision reversible for as long as you can. Art assets, audio and design documents carry over between engines; gameplay code mostly does not. A short, honest trial usually costs less than switching halfway through production."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Unreal Engine free for a small studio?",
+      "a": "The license page says game developers are free under $1 million USD in revenue, and it lists individuals and small businesses under $1 million USD in annual gross revenue as a free category. Royalties apply after $1 million USD gross product revenue. Read the full license for exact obligations."
+    },
+    {
+      "q": "Does Unity publish its prices on the homepage?",
+      "a": "No. The homepage says you can get started for free or find a plan, and it links to a Plans and pricing page without showing figures. Open that page directly and confirm which plan matches your company before budgeting."
+    },
+    {
+      "q": "Which engine supports more platforms?",
+      "a": "Unity lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro, and mentions 25+ platforms. The Unreal Engine pages we opened did not list platforms, so verify your target device in Epic's documentation."
+    },
+    {
+      "q": "Can I switch from one engine to the other mid-project?",
+      "a": "Technically yes, but gameplay code, scenes and shaders rarely carry over cleanly. Models, textures, audio and design documents do. Prototype in both before production starts, since a late switch usually costs more than the license difference."
+    },
+    {
+      "q": "What is the Unity Fellowship?",
+      "a": "Per Unity's homepage, the Unity Fellowship backs 10 indie teams with $50K and no recoup, with applications due December 18. Slots are limited, so treat it as a possible bonus and not as part of a funding plan."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Unity is described on its homepage as the world's leading game engine for developing, deploying and growing games.",
+      "url": "https://unity.com/"
+    },
+    {
+      "fact": "The homepage says you can get started for free or find a plan, and links to Plans and pricing without showing figures.",
+      "url": "https://unity.com/"
+    },
+    {
+      "fact": "The homepage lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro as platforms.",
+      "url": "https://unity.com/"
+    },
+    {
+      "fact": "The homepage says Unity 6.6 is available and announces Unity 7 as the next major version.",
+      "url": "https://unity.com/"
+    },
+    {
+      "fact": "The license page says game developers are free under $1 million USD in revenue, and royalties apply after $1 million USD gross product revenue.",
+      "url": "https://unrealengine.com/en-US/license"
+    },
+    {
+      "fact": "The license page lists individuals and small businesses with less than $1 million USD in annual gross revenue as a free category.",
+      "url": "https://unrealengine.com/en-US/license"
+    },
+    {
+      "fact": "The Unreal Engine homepage is titled 'The most powerful real-time 3D creation tool - Unreal Engine'.",
+      "url": "https://unrealengine.com/"
+    }
+  ],
+  "published": "2026-11-18"
+}

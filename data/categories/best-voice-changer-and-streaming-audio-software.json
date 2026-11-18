@@ -8,7 +8,7 @@
   "reviewed": "2026-11-18",
   "summary_line": "Streaming audio software mixes mic and game sound, removes noise and applies voice effects so a broadcast sounds clean and intentional.",
   "definition": "Streaming audio software controls what viewers hear. It mixes a microphone with game, music and chat sources, removes background noise, routes each source to the right output and sometimes changes the voice itself. Some tools run live between your devices and OBS, while editors such as Audacity work on recordings afterward.",
-  "intro": "Bad audio loses viewers faster than bad video, yet the tools for fixing it come in four separate groups: mixers, noise removers, voice changers and editors. A streamer who buys the wrong group ends up with a funny voice and a noisy fan, or a clean signal and no way to route Discord separately. This ranking read vendor pages, terms and pricing pages for ten products and judged them on what each is for, what it costs, which operating systems it supports and how it reaches OBS or a call. We did not run them ourselves. Free tools sit high because most streamers start on a budget, while services built for other jobs, such as meetings or speech synthesis, sit lower and say why.",
+  "intro": "Bad audio loses viewers faster than bad video, yet the tools for fixing it come in four separate groups: mixers, noise removers, voice changers and editors. A streamer who buys the wrong group ends up with a funny voice and a noisy fan, or a clean signal and no way to route Discord separately. This ranking read vendor pages, terms and pricing pages for eleven products and judged them on what each is for, what it costs, which operating systems it supports and how it reaches OBS or a call. We did not run them ourselves. Free tools sit high because most streamers start on a budget, while services built for other jobs, such as meetings or speech synthesis, sit lower and say why.",
   "criteria": [
     {
       "heading": "Routing versus effects",
@@ -28,7 +28,7 @@
     }
   ],
   "market_notes": [
-    "Of the ten products on this page, five are free to use in some form (Wave Link, Voicemeeter, SteelSeries Sonar, Audacity and Voicemod's free download), one is a donationware model, and only two list real price figures on the pages we opened: Krisp and ElevenLabs. REAPER, NVIDIA Broadcast and MorphVOX show no license price. That gap makes budgeting harder than the large number of free options suggests.",
+    "Of the eleven products on this page, five are free to use in some form (Wave Link, Voicemeeter, SteelSeries Sonar, Audacity and Voicemod's free download), one is a donationware model, and only three list real price figures on the pages we opened: Krisp, ElevenLabs and Respeecher. REAPER, NVIDIA Broadcast and MorphVOX show no license price. That gap makes budgeting harder than the large number of free options suggests.",
     "The category also blurs. Krisp and ElevenLabs come from meetings and speech synthesis, REAPER and Audacity from music production, and SteelSeries Sonar from a hardware maker. Only Voicemod and MorphVOX are voice changers by trade. Vendors based in Spain, the United States and elsewhere sell into the same market, and a stream setup usually combines two or three of these tools, so check that their virtual devices do not conflict."
   ],
   "how_to_choose": [
@@ -460,6 +460,49 @@
         {
           "fact": "ElevenLabs offers text to speech, speech to text, voice cloning, dubbing and sound effects, and provides APIs and SDKs for developers.",
           "url": "https://elevenlabs.io/"
+        }
+      ]
+    },
+    {
+      "slug": "respeecher",
+      "name": "Respeecher",
+      "site": "https://www.respeecher.com/",
+      "company": "",
+      "country": "Ukraine",
+      "tagline": "AI voice cloning and speech-to-speech for production",
+      "best_for": "Studio-grade voice conversion for media",
+      "pricing": "Marketplace plans at $18, $89 and $499 per month, each with a discounted first month, plus a custom plan for organizations.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Web voice marketplace, real-time TTS API, Pro Tools plugin",
+      "features": [
+        "Voice cloning",
+        "Speech-to-speech",
+        "Real-time TTS API",
+        "AI voice library",
+        "Pro Tools plugin",
+        "Custom enterprise plans"
+      ],
+      "summary": "A production-oriented voice company whose marketplace, API and Pro Tools plugin suit creators who need a convincing second voice.",
+      "verdict": "Respeecher comes from voice work for studios, and its homepage describes enterprise-grade voice cloning and synthetic speech for production. Streamers get a marketplace with a library of AI voices, and developers get a real-time text-to-speech API. The about page says it was founded in Ukraine in February 2018. It ranks last because it is aimed at recorded and produced audio, so live in-game voice effects are outside what its pages describe.",
+      "weaknesses": "Pages we read do not describe a live voice effect for games or chat, and the lowest marketplace plan is $18 per month. The business focus means more setup than a soundboard-style changer.",
+      "wrong_for": "Streamers who want an instant voice filter in Discord should pick Voicemod, and anyone who only needs cleaner mic audio should look at NVIDIA Broadcast or Krisp.",
+      "sources": [
+        {
+          "fact": "Respeecher's homepage describes enterprise-grade voice cloning and synthetic speech services for production work.",
+          "url": "https://www.respeecher.com/"
+        },
+        {
+          "fact": "Respeecher's homepage lists a voice marketplace with a library of AI voices and a plugin for Pro Tools.",
+          "url": "https://www.respeecher.com/"
+        },
+        {
+          "fact": "Respeecher's marketplace pricing page lists plans at $18/month, $89/month and $499/month, each with a discounted first month, plus a custom plan for organizations.",
+          "url": "https://www.respeecher.com/marketplace/pricing"
+        },
+        {
+          "fact": "Respeecher's about page says the company was founded in February 2018 by Alex Serdiuk, Dmytro Bielievtsov and Grant Reaber, and that it was founded in Ukraine.",
+          "url": "https://www.respeecher.com/about-us"
         }
       ]
     }

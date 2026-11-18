@@ -8,7 +8,7 @@
   "reviewed": "2026-11-18",
   "summary_line": "Livestream analytics tools measure viewers, watch time, game performance and channel growth so streamers and studios can decide what to stream and who to partner with.",
   "definition": "Livestream analytics tools collect and display statistics about channels, games and audiences on platforms such as Twitch, YouTube and Kick. They report concurrent viewers, hours watched, follower growth and rankings, and enterprise versions add creator discovery, fake audience scoring and campaign reporting for publishers and agencies.",
-  "intro": "Streamers ask three different questions of analytics: which game should I play, how is my channel growing, and who is worth partnering with. Public stat sites answer the first two for free. Business platforms answer the third for brands and studios on a quote. A few overlay suites are listed here too, because streamers often assume they include reporting. This ranking read vendor homepages, about pages, plans and pricing pages for ten products and judged them on platform coverage, what the pages say is measured, whether a price is published and who the tool is built for. We did not run the tools. Three planned entries could not be opened and were left out, and the facts for two suites show no analytics features, which the entries say plainly.",
+  "intro": "Streamers ask three different questions of analytics: which game should I play, how is my channel growing, and who is worth partnering with. Public stat sites answer the first two for free. Business platforms answer the third for brands and studios on a quote. A few overlay suites are listed here too, because streamers often assume they include reporting. This ranking read vendor homepages, about pages, plans and pricing pages for eleven products and judged them on platform coverage, what the pages say is measured, whether a price is published and who the tool is built for. We did not run the tools. Three planned entries could not be opened and were left out, and the facts for two suites show no analytics features, which the entries say plainly.",
   "criteria": [
     {
       "heading": "Platforms covered",
@@ -28,7 +28,7 @@
     }
   ],
   "market_notes": [
-    "Counting the ten entries, only two publish clear prices, Social Blade and vidIQ, while Hatchet and Gamesight sell by demo, and SullyGnome, TwitchTracker, Twitchmetrics, StreamElements and Streamlabs show no plan amounts in the pages we opened. TubeBuddy lists plans without readable prices. Three public stat sites, SullyGnome, TwitchTracker and Twitchmetrics, show no price in the pages we read and, unlike Hatchet and Gamesight, do not send buyers to a demo call.",
+    "Counting the eleven entries, only two publish clear prices, Social Blade and vidIQ, while Hatchet and Gamesight sell by demo, and SullyGnome, TwitchTracker, Twitchmetrics, Twitch Insights, StreamElements and Streamlabs show no plan amounts in the pages we opened. TubeBuddy lists plans without readable prices. Three public stat sites, SullyGnome, TwitchTracker and Twitchmetrics, show no price in the pages we read and, unlike Hatchet and Gamesight, do not send buyers to a demo call.",
     "The gap between hobby and business tools is wide. Hatchet, based in Barcelona and part of GameSquare, and Gamesight target studios and agencies with creator discovery and campaign measurement. The rest serve individual creators. Three tools planned for this page, Streams Charts, Esports Charts and a separate Stream Hatchet listing, could not be verified from their vendor pages, which is why Hatchet appears under its new address and the esports charts sit outside this ranking."
   ],
   "how_to_choose": [
@@ -314,6 +314,49 @@
         {
           "fact": "Hatchet was founded in Barcelona in 2016, started as a tool for streamers to understand their audiences and is now part of GameSquare.",
           "url": "https://hatchet.gg/about/"
+        }
+      ]
+    },
+    {
+      "slug": "twitch-insights",
+      "name": "Twitch Insights",
+      "site": "https://twitchinsights.net/",
+      "company": "",
+      "country": "",
+      "tagline": "Free third-party Twitch game and account stats",
+      "best_for": "Quick Twitch game rankings and viewer counts",
+      "pricing": "No prices on the homepage; the stats are shown openly.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Web",
+      "features": [
+        "Game ranking",
+        "Account stats",
+        "Extension stats",
+        "Most viewed games",
+        "Most streamed games",
+        "Global Twitch stats"
+      ],
+      "summary": "A no-frills Twitch stats site that refreshes every 15 minutes and ranks games by viewers and streamers.",
+      "verdict": "Twitch Insights describes itself as a third-party tool for seeing how a game performs on Twitch. Its home page shows Most Viewed Games and Most Streamed Games tables, global totals for viewers and streamers, and menu pages for game ranking, account stats and extension stats. The vendor says data refreshes every 15 minutes. That makes it a handy second source when you are choosing what to stream, which is also why it ranks mid-table behind the tools with richer history.",
+      "weaknesses": "The pages we read show a 2023 copyright line and say nothing about history exports, multi-platform coverage or support. It tracks Twitch only and states it is not affiliated with Twitch.",
+      "wrong_for": "Anyone who needs YouTube or TikTok data, or reports for sponsors, should use Social Blade or Hatchet.",
+      "sources": [
+        {
+          "fact": "Twitch Insights describes itself as a third-party tool that gives insights about Twitch, such as how a game performs and who the Twitch staff are.",
+          "url": "https://twitchinsights.net/"
+        },
+        {
+          "fact": "The Twitch Insights homepage says its updates are made every 15 minutes.",
+          "url": "https://twitchinsights.net/"
+        },
+        {
+          "fact": "The Twitch Insights menu lists Game Ranking, Account Stats and Extension Stats, and the homepage shows Most Viewed Games and Most Streamed Games tables.",
+          "url": "https://twitchinsights.net/"
+        },
+        {
+          "fact": "The Twitch Insights footer says the site is not affiliated with Twitch.tv and carries a 2023 copyright line.",
+          "url": "https://twitchinsights.net/"
         }
       ]
     },

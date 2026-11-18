@@ -24421,6 +24421,54 @@
    }
   ]
  },
+ "twitch-insights": {
+  "slug": "twitch-insights",
+  "name": "Twitch Insights",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://twitchinsights.net/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Twitch Insights is a third-party stats site for Twitch with game rankings, account stats, extension stats and lists of Twitch staff and known bots.",
+  "platforms": "Web",
+  "pricing": "No prices on the homepage; the site connects with a Twitch login and shows its stats openly.",
+  "pricing_model": "",
+  "free_plan": "Free",
+  "key_features": [
+   "Game ranking",
+   "Account stats",
+   "Extension stats",
+   "Most viewed games",
+   "Most streamed games",
+   "Global Twitch stats"
+  ],
+  "notable": [
+   "The homepage says its data is updated every 15 minutes",
+   "The footer says the site is not affiliated with Twitch and names the creator AlphaDuplo",
+   "Copyright line on the homepage reads 2023"
+  ],
+  "facts": [
+   {
+    "fact": "Twitch Insights describes itself as a third-party tool that gives insights about Twitch, such as how a game performs and who the Twitch staff are.",
+    "url": "https://twitchinsights.net/"
+   },
+   {
+    "fact": "The Twitch Insights homepage says its updates are made every 15 minutes.",
+    "url": "https://twitchinsights.net/"
+   },
+   {
+    "fact": "The Twitch Insights menu lists Game Ranking, Account Stats and Extension Stats, and the homepage shows Most Viewed Games and Most Streamed Games tables.",
+    "url": "https://twitchinsights.net/"
+   },
+   {
+    "fact": "The Twitch Insights footer says the site is not affiliated with Twitch.tv and carries a 2023 copyright line.",
+    "url": "https://twitchinsights.net/"
+   }
+  ],
+  "logo_hint": "https://twitchinsights.net/assets/ico/favicon.png"
+ },
  "twitchmetrics": {
   "slug": "twitchmetrics",
   "name": "Twitchmetrics",
