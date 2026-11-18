@@ -84,6 +84,14 @@ for c in CATS_ALL:
         continue
     c['tools'] = keep
     CATS.append(c)
+ALTS_ALL, ALTS = ALTS, []
+for a in ALTS_ALL:
+    keep = [p for p in a['picks'] if logo_path(p['slug'])]
+    if len(keep) < 6:
+        HELD.append(('alternatives/' + a['slug'], len(keep)))
+        continue
+    a['picks'] = keep
+    ALTS.append(a)
 CAT_BY = {c['slug']: c for c in CATS}
 for c in CATS:
     c['hub'] = c.get('hub') or next((h for h, v in HUBS.items() if c.get('group') in v['groups']), 'games')
@@ -986,7 +994,7 @@ def main():
     for w in WARN:
         print('WARN', w)
     for s, n in HELD:
-        print(f'HELD {s}: only {n} tools with logo (min {MIN_TOOLS})')
+        print(f'HELD {s}: only {n} tools with logo')
     print(f'Built {len(PAGES)} indexable URLs ({len(CATS)} rankings, {len(ALTS)} alternatives, {len(COMPARES)} comparisons, {len(GUIDES)} guides, {len(RESEARCH)} research, {len(NEWS)} news).')
 
 

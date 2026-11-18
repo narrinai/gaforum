@@ -1,0 +1,675 @@
+{
+  "slug": "best-player-support-software-for-games",
+  "name": "player support software for games",
+  "title": "Best Player Support Software for Games in 2026",
+  "group": "Game business",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Player support software handles tickets, in-game help and multilingual replies so studios can answer players without drowning a small team.",
+  "definition": "Player support software is a help desk or messaging tool adapted to games: players open a ticket from inside the game, a bot or an agent answers in their language, and the studio sees volume by topic. It differs from generic customer service tools by SDKs for mobile and PC, console handoff and community links.",
+  "intro": "A launch weekend can turn a three-person support inbox into thousands of tickets about login errors, refunds and lost items. Studios then need a tool that meets players where they are, inside the game, in their own language, with automation for the repeat questions. This ranking looks at fourteen options, two built around games and the rest general support platforms that studios borrow. We read the vendors' home pages and pricing links, compared the channels, SDKs and AI features each one states, and noted where prices stay hidden. We did not run any of them. Vendor numbers such as client counts are marked as claims, and a missing detail is reported as missing.",
+  "criteria": [
+    {
+      "heading": "Reach inside the game client",
+      "text": "Players rarely leave a match to visit a help site. Tools with a mobile, PC or web SDK let a player file a ticket with context attached, while generic web widgets only suit launcher pages and websites. Console is harder still: some vendors hand off through QR codes, others do not mention consoles at all. Check this first, since retrofitting an SDK into a shipped build is slow."
+    },
+    {
+      "heading": "Automation of repeat questions",
+      "text": "Password resets, purchase issues and bug reports make up most volume. Look at what each vendor says about AI agents, bots and copilots, and whether a human can take over cleanly. Vendor resolution rates are marketing numbers, so treat them as claims. What matters is whether the bot can be trained on your own help center and whether it prices per resolved case or per seat."
+    },
+    {
+      "heading": "Languages and time zones",
+      "text": "A global player base writes in dozens of languages, at any hour. Compare multilingual support, translation features and routing rules across agents. Teams that outsource weekend coverage should also ask whether the vendor sells human services alongside software, which only a few in this list state."
+    },
+    {
+      "heading": "Price visibility and seat model",
+      "text": "Per-seat plans, per-outcome fees and quote-only contracts produce very different bills during a spike. Only some vendors here publish amounts. Where a price is missing, ask for a written estimate based on your peak ticket month, not your average one, and check whether an outcome-based fee applies on top of the seat price."
+    }
+  ],
+  "market_notes": [
+    "Of the fourteen tools, three state a price on the pages we opened: Intercom ($19 per seat plus $0.99 per outcome), LiveChat (from $19 per user) and Tidio (paid plans from $29 per month). Zendesk gives only a free trial and a startup offer. The others route buyers to demos, contact forms or unopened pricing pages. Two vendors, Trengo and Crisp, call themselves European, and Crisp names a French company, which matters for teams with data residency concerns.",
+    "Only Helpshift and AIHelp are built around games, and both state mobile SDKs. The rest were designed for online shops and software companies, so a studio adopting them accepts extra setup: no console handoff, no store-purchase context, and chat widgets aimed at websites. The upside is more mature ticketing, reporting and app marketplaces, which is why large incumbents still rank well for mid-size studios."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Count tickets per platform and per language",
+      "text": "Pull a month of support volume and split it by device and language. If most contact comes from mobile, a mobile SDK tool rises on the list. If most arrives by email and Discord, a shared inbox may do. This sorting stops you buying a feature set that your players do not use."
+    },
+    {
+      "title": "Model the bill at peak volume",
+      "text": "Ask each shortlisted vendor to price a launch month, with both seats and AI resolutions included. Compare per-seat plans against outcome-based fees, since a quiet month and a patch-day month can differ by ten times. Keep the quotes next to the vendor's public prices so any gap is visible."
+    },
+    {
+      "title": "Test the handoff between bot and human",
+      "text": "Run five real tickets through the bot and note where it escalates, what context the agent sees and whether the player must repeat themselves. A trial period is offered by several vendors here, including Zendesk, Intercom and AIHelp. Judge the handoff and the multilingual replies, not the demo script."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best player support software for games in 2026?",
+      "a": "Helpshift ranks first for studios because it offers in-game SDKs for mobile, PC and web plus console handoff through QR codes. AIHelp is the better pick when you want a free trial and web chat alongside an SDK, and Zendesk fits teams that need a general help desk with a large app marketplace."
+    },
+    {
+      "q": "Do I need a game-specific support tool?",
+      "a": "Not always. Generic platforms such as Zendesk, Intercom and Front handle email and chat well. A game-specific tool such as Helpshift or AIHelp adds in-game ticketing through an SDK, which matters when most players never open a browser. Count where your tickets come from before deciding."
+    },
+    {
+      "q": "Which tools publish prices?",
+      "a": "Intercom lists $19 per seat per month plus $0.99 per outcome, LiveChat says plans start from $19 per user per month, and Tidio says paid plans start from $29 per month. Helpshift, AIHelp, Kustomer, Ada and Sprinklr hide amounts behind demos or separate pricing pages."
+    },
+    {
+      "q": "Can these tools support console players?",
+      "a": "Helpshift says it supports consoles through QR codes and links, handing the player to a phone or browser. Most other vendors in this list do not mention console support at all on their home pages, so ask directly if consoles are a large share of your audience."
+    },
+    {
+      "q": "How does AI change support volume for a studio?",
+      "a": "Vendors claim large automated resolution shares, such as Intercom's 76% average for Fin and Ada's 84%, but these are self-reported and depend on content quality. A fair test uses your own help center and your own ticket history, with a human fallback for refunds and bans."
+    },
+    {
+      "q": "Is Discord useful as a support channel?",
+      "a": "It can work as a community help channel, since it offers text and voice chat on PC, phone and console. It is not a ticketing system, so assignments, SLAs and history need another tool. Many studios pair it with a help desk and link both."
+    },
+    {
+      "q": "What does multilingual support involve?",
+      "a": "It involves translating tickets, answering in the player's language and routing by language. Ada lists omnichannel multilingual support, and Helpshift sells human services as well as software. Check which languages are covered, since vendor pages seldom list them."
+    }
+  ],
+  "related": [
+    "best-community-management-tools-for-game-studios",
+    "best-trust-and-safety-moderation-software-for-games",
+    "best-ugc-and-modding-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "helpshift",
+      "name": "Helpshift",
+      "site": "https://helpshift.com/",
+      "company": "Helpshift",
+      "country": "",
+      "tagline": "AI-native player engagement platform with in-game SDKs",
+      "best_for": "Mobile and PC studios with high ticket volume",
+      "pricing": "Not on page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "In-game support SDKs for mobile, PC and web; console support via QR codes and links; community and trust and safety coverage across in-game chat, Discord, forums and social platforms.",
+      "features": [
+        "CARE AI",
+        "AI agent copilot",
+        "Proactive engagement",
+        "Policy enforcement workflows",
+        "Community insights",
+        "QR code console handoff"
+      ],
+      "summary": "Helpshift comes first because it pairs in-game support SDKs and console handoff with named game-studio case studies.",
+      "verdict": "Helpshift calls itself the AI-native player engagement platform. Its home page lists in-game support SDKs for mobile, PC and web, console support through QR codes and links, and coverage of Discord, forums and social channels. Features include CARE AI, an agent copilot, policy enforcement workflows and human services. Case studies name Zynga, Jam City, Rovio and Gameloft. That mix of SDK reach and game references makes it the closest fit to the job.",
+      "weaknesses": "No prices are published, so the first budget figure comes from sales. The product scope is wide, covering community and safety workflows as well as support, which can feel heavy for a studio that only needs a ticket inbox.",
+      "wrong_for": "A web-only indie team with a simple inbox could start with Crisp or Tidio, both lighter.",
+      "sources": [
+        {
+          "fact": "Helpshift describes itself as 'the AI-native player engagement platform.'",
+          "url": "https://helpshift.com/"
+        },
+        {
+          "fact": "Helpshift's home page says it offers in-game support SDKs for mobile, PC and web, plus console support via QR codes and links.",
+          "url": "https://helpshift.com/"
+        },
+        {
+          "fact": "Helpshift's home page names Zynga, Jam City, Rovio and Gameloft among its case studies.",
+          "url": "https://helpshift.com/"
+        },
+        {
+          "fact": "Helpshift's home page lists CARE AI, an AI agent copilot and policy enforcement workflows among its features.",
+          "url": "https://helpshift.com/"
+        }
+      ]
+    },
+    {
+      "slug": "aihelp",
+      "name": "AIHelp",
+      "site": "https://aihelp.net/",
+      "company": "AIHelp",
+      "country": "",
+      "tagline": "In-app and web support with AI chatbots and a free trial",
+      "best_for": "Studios wanting an SDK plus a trial",
+      "pricing": "A 'Get Free Trial' offer; pricing details are on a separate Pricing page that was not opened.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Mobile via SDK, and web; the page says it is 'compatible with all major platforms'.",
+      "features": [
+        "In-app messaging",
+        "AI chat bots",
+        "Push notifications",
+        "Smart auto-form",
+        "Web chat",
+        "Customizable AI forms"
+      ],
+      "summary": "AIHelp ranks second as a support platform with a mobile SDK, web chat, AI bots and a free trial offer.",
+      "verdict": "AIHelp describes itself as an in-app and web customer support platform with AI chatbots and messaging, offered as a mobile SDK and web chat. Its home page lists in-app messaging, push notifications, smart auto-forms, customizable AI forms and a chat API, and offers a free trial. The trial lets a studio test the SDK before committing, which few game-focused rivals offer openly.",
+      "weaknesses": "Pricing sits on a separate page that we did not open, and the home page gives no plan amounts. Figures such as 30K clients and 800M+ monthly active users are vendor claims, and the page does not name console support.",
+      "wrong_for": "Teams that need console handoff documented should compare Helpshift, which states QR code console support.",
+      "sources": [
+        {
+          "fact": "AIHelp describes itself as an in-app and web customer support platform with AI chatbots, messaging and operations tools.",
+          "url": "https://aihelp.net/"
+        },
+        {
+          "fact": "AIHelp's home page offers a 'Get Free Trial' and links to a separate Pricing page.",
+          "url": "https://aihelp.net/"
+        },
+        {
+          "fact": "AIHelp's home page lists in-app messaging, AI chat bots, push notifications and web chat.",
+          "url": "https://aihelp.net/"
+        },
+        {
+          "fact": "AIHelp's home page claims 30K happy clients and 800M+ monthly active users (vendor claims).",
+          "url": "https://aihelp.net/"
+        }
+      ]
+    },
+    {
+      "slug": "zendesk",
+      "name": "Zendesk",
+      "site": "https://www.zendesk.com/",
+      "company": "Zendesk",
+      "country": "",
+      "tagline": "Large help desk with AI agents and an app marketplace",
+      "best_for": "Mid-size studios with email-heavy support",
+      "pricing": "14 days free trial, no credit card required; eligible startups can get up to 2 years free; plan prices are not on the page, which links to plans and pricing.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Email, messaging, live chat, phone, social media and help centers.",
+      "features": [
+        "AI agents",
+        "Ticketing",
+        "Knowledge base",
+        "Workforce management",
+        "Quality assurance",
+        "Marketplace of 1,800+ apps"
+      ],
+      "summary": "Zendesk takes third place for studios that want mature ticketing, a knowledge base and an app marketplace.",
+      "verdict": "Zendesk presents an AI-first service platform with self-learning AI agents and the Zendesk Resolution Platform. It covers email, messaging, live chat, phone, social and help centers, and lists ticketing, a knowledge base, quality assurance, workforce management and a marketplace of 1,800+ apps. It offers a 14-day free trial with no card and up to two years free for eligible startups. A studio with a larger team and complex routing gets room to grow.",
+      "weaknesses": "Plan prices are not on the home page, and nothing in what we read describes an in-game SDK or console handoff, so a studio needs extra work to connect it to the client. Breadth also brings setup time.",
+      "wrong_for": "If tickets originate inside the game, look at Helpshift or AIHelp before building an integration yourself.",
+      "sources": [
+        {
+          "fact": "Zendesk's home page describes it as an AI-first service platform with self-learning AI agents and the Zendesk Resolution Platform.",
+          "url": "https://www.zendesk.nl/#georedirect"
+        },
+        {
+          "fact": "Zendesk's home page offers a 14-day free trial with no credit card required.",
+          "url": "https://www.zendesk.nl/#georedirect"
+        },
+        {
+          "fact": "Zendesk's home page says eligible startups can get up to 2 years of Zendesk free.",
+          "url": "https://www.zendesk.nl/#georedirect"
+        },
+        {
+          "fact": "Zendesk's home page lists channels including email, messaging, live chat, phone, social media and help centers.",
+          "url": "https://www.zendesk.nl/#georedirect"
+        }
+      ]
+    },
+    {
+      "slug": "intercom",
+      "name": "Intercom",
+      "site": "https://intercom.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Helpdesk with the Fin AI Agent and published per-seat pricing",
+      "best_for": "Teams that want a stated price and AI answers",
+      "pricing": "Helpdesk with Fin AI Agent: $19 per seat per month plus $0.99 per outcome; spending limits can be set; 14 day free trial with no credit card required; no free plan mentioned.",
+      "pricing_model": "Per seat / month",
+      "free_plan": "Free trial",
+      "platforms": "Phone, email, chat and Slack channels; a desktop app and a customer-facing messenger; no operating systems listed.",
+      "features": [
+        "Copilot",
+        "Ticketing",
+        "Outbound messaging",
+        "Fin AI Agent",
+        "Centralized knowledge hub",
+        "Omnichannel inbox"
+      ],
+      "summary": "It sits fourth because it publishes a seat price and outcome fee, giving studios a bill they can model.",
+      "verdict": "Intercom combines a helpdesk with the Fin AI Agent. The home page lists $19 per seat per month plus $0.99 per outcome, a 14-day free trial and spending limits, and features such as a copilot, ticketing, outbound messaging and a knowledge hub. The vendor claims Fin resolves 76% of conversations on average across 12,000+ customers, a self-reported number. Few rivals state costs this clearly.",
+      "weaknesses": "Outcome fees can climb during a launch spike, which is why spending limits matter. No game SDK or console handoff is described, and no free plan is mentioned, only the trial.",
+      "wrong_for": "Studios whose tickets start inside the game should check Helpshift first.",
+      "sources": [
+        {
+          "fact": "Intercom describes its product as the only helpdesk with a natively integrated AI Agent, Fin.",
+          "url": "https://intercom.com/"
+        },
+        {
+          "fact": "Intercom's home page lists the helpdesk with Fin AI Agent at $19 per seat per month plus $0.99 per outcome.",
+          "url": "https://intercom.com/"
+        },
+        {
+          "fact": "Intercom's home page offers a 14 day free trial with no credit card required and mentions no free plan.",
+          "url": "https://intercom.com/"
+        },
+        {
+          "fact": "Intercom's home page names Anthropic, Clay, Lightspeed and Rocket Money among its customers.",
+          "url": "https://intercom.com/"
+        }
+      ]
+    },
+    {
+      "slug": "kustomer",
+      "name": "Kustomer",
+      "site": "https://kustomer.com/",
+      "company": "Kustomer",
+      "country": "",
+      "tagline": "AI-native support platform with a built-in CRM",
+      "best_for": "Studios tracking each player across channels",
+      "pricing": "Not on page; a Pricing link exists but no prices or free-plan details are shown.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Omnichannel support across every channel; specific devices or operating systems not listed.",
+      "features": [
+        "Concierge",
+        "Envoy",
+        "Architect",
+        "CRM",
+        "Omnichannel",
+        "Workflows and automation"
+      ],
+      "summary": "Kustomer ranks fifth as an omnichannel platform whose CRM keeps player history in one timeline.",
+      "verdict": "Kustomer calls its platform AI-native and built for the whole customer relationship. Its features include Concierge, Envoy and Architect AI tools, CRM, workflows, conversation intelligence and analytics. Customers named on the home page include sweetgreen, Turo, Skims and Everlane, and the vendor says 600+ companies trust it. For a studio that wants a long-lived record per player, such as VIP or refund history, the CRM angle is the draw.",
+      "weaknesses": "A pricing link exists but no prices or free plan appear. Named customers are consumer brands, not game studios, and no in-game SDK is mentioned.",
+      "wrong_for": "For game-specific SDKs, use Helpshift or AIHelp instead.",
+      "sources": [
+        {
+          "fact": "Kustomer describes its platform as AI-native and built for the full customer relationship, from the first hello to retaining customers.",
+          "url": "https://kustomer.com/"
+        },
+        {
+          "fact": "Kustomer's home page lists AI features including Concierge, Envoy, Architect, Data Explorer and AI QA.",
+          "url": "https://kustomer.com/"
+        },
+        {
+          "fact": "Kustomer's home page names sweetgreen, Turo, Skims and Everlane among its customers.",
+          "url": "https://kustomer.com/"
+        },
+        {
+          "fact": "Kustomer's home page links to a Pricing page but shows no prices or free plan.",
+          "url": "https://kustomer.com/"
+        }
+      ]
+    },
+    {
+      "slug": "ada",
+      "name": "Ada",
+      "site": "https://ada.cx/",
+      "company": "",
+      "country": "",
+      "tagline": "AI agent platform for voice, messaging and email",
+      "best_for": "Studios that want to automate a high share of tickets",
+      "pricing": "Not on page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Voice, messaging and email channels; open APIs and SDKs.",
+      "features": [
+        "AI agent overview",
+        "Playbooks",
+        "Integrations",
+        "Trust and safety",
+        "Omnichannel multilingual CX"
+      ],
+      "summary": "Ada places sixth since it centers on automated resolution across channels rather than a full help desk.",
+      "verdict": "Ada presents an AI-native company with its ACX Platform for customer experience over voice, messaging and email, plus open APIs and SDKs, playbooks and integrations. It names Pinterest, monday.com, Sky and GoFundMe as customers, claims an 84% automated resolution rate and lists HIPAA, SOC 2, GDPR, PCI DSS and AIUC-1 certifications. For a studio with large repeat-question volume, the automation focus is attractive.",
+      "weaknesses": "Prices are not published, the claimed resolution rate is vendor-reported, and no game customers or console handoff are named. It replaces the bot layer, so you may still need a separate ticket system.",
+      "wrong_for": "A team that needs one tool for tickets and bots could start with Zendesk.",
+      "sources": [
+        {
+          "fact": "Ada describes itself as an AI-native company on a mission to make customer experience extraordinary for everyone.",
+          "url": "https://ada.cx/"
+        },
+        {
+          "fact": "Ada's home page lists voice, messaging and email as its channels.",
+          "url": "https://ada.cx/"
+        },
+        {
+          "fact": "Ada's home page names Pinterest, monday.com, Sky, Barnes & Noble and GoFundMe among its customers.",
+          "url": "https://ada.cx/"
+        },
+        {
+          "fact": "Ada's home page lists compliance certifications including HIPAA, SOC 2, GDPR, PCI DSS and AIUC-1.",
+          "url": "https://ada.cx/"
+        }
+      ]
+    },
+    {
+      "slug": "trengo",
+      "name": "Trengo",
+      "site": "https://trengo.com/",
+      "company": "Trengo",
+      "country": "",
+      "tagline": "European-owned shared inbox with WhatsApp and AI agents",
+      "best_for": "Studios that support players over WhatsApp",
+      "pricing": "Pricing page linked from the homepage (/prices); no amounts shown on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Omnichannel inbox",
+        "AI Agents",
+        "AI Journeys",
+        "Voice",
+        "WhatsApp",
+        "Trengo for Sales"
+      ],
+      "summary": "Trengo lands seventh as a shared inbox that gathers WhatsApp, email, chat and social messages for small teams.",
+      "verdict": "Trengo describes a customer engagement platform whose shared inbox brings WhatsApp, email, live chat, social and voice together, with AI Agents for repetitive questions and AI Journeys. The home page calls it European-owned and says it is a WhatsApp Business Partner and a Meta Business Partner. A small studio selling to markets where WhatsApp is common gets one inbox for all of it.",
+      "weaknesses": "The pricing page is linked but amounts are not shown on the home page. Customers named are tourism and retail brands, there is no in-game SDK, and platform support is not listed.",
+      "wrong_for": "Studios that need in-game ticketing should look at AIHelp or Helpshift.",
+      "sources": [
+        {
+          "fact": "Trengo describes itself as a customer engagement platform with a shared inbox for WhatsApp, email, live chat, social and voice.",
+          "url": "https://trengo.com"
+        },
+        {
+          "fact": "The homepage describes Trengo as European-owned and says it is a WhatsApp Business Partner and a Meta Business Partner.",
+          "url": "https://trengo.com"
+        },
+        {
+          "fact": "The homepage links to a pricing page (/prices) and shows no prices itself.",
+          "url": "https://trengo.com"
+        },
+        {
+          "fact": "The homepage names customers and logos including Europarcs, Zeeman, Keukenhof, Delvaux and Van Der Valk.",
+          "url": "https://trengo.com"
+        }
+      ]
+    },
+    {
+      "slug": "crisp",
+      "name": "Crisp",
+      "site": "https://crisp.chat/",
+      "company": "Crisp IM SAS",
+      "country": "France",
+      "tagline": "French chat widget, shared inbox and AI helpdesk",
+      "best_for": "Small studios wanting a lightweight European option",
+      "pricing": "The homepage links to a pricing page (/en/pricing/); no amounts shown on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "AI Helpdesk",
+        "Chat Widget",
+        "Shared Inbox",
+        "Knowledge Base",
+        "Support CRM",
+        "Support Analytics"
+      ],
+      "summary": "Crisp comes eighth as a compact helpdesk with chat, inbox and knowledge base from a French company.",
+      "verdict": "Crisp describes an AI customer support platform with an AI helpdesk, chat widget, shared inbox, knowledge base, support CRM, automations and AI agents. The home page names Crisp IM SAS, says it is built from France and made in Europe, and cites 10,000 companies. A studio team of two or three that mostly gets website and email contact fits its scale.",
+      "weaknesses": "The pricing page is linked, but the home page shows no amounts. Nothing describes game SDKs or console support, and the feature list leans toward websites and web stores.",
+      "wrong_for": "Studios with heavy in-game volume should look at Helpshift.",
+      "sources": [
+        {
+          "fact": "The homepage describes Crisp as an AI customer support platform.",
+          "url": "https://crisp.chat"
+        },
+        {
+          "fact": "The homepage copyright notice names Crisp IM SAS.",
+          "url": "https://crisp.chat"
+        },
+        {
+          "fact": "The homepage says Crisp is built from France and made in Europe.",
+          "url": "https://crisp.chat"
+        },
+        {
+          "fact": "The homepage links to a pricing page (/en/pricing/) and shows no prices.",
+          "url": "https://crisp.chat"
+        }
+      ]
+    },
+    {
+      "slug": "front",
+      "name": "Front",
+      "site": "https://front.com/",
+      "company": "FrontApp, Inc.",
+      "country": "",
+      "tagline": "Shared inbox for email, chat, SMS and WhatsApp",
+      "best_for": "Support teams that live in email",
+      "pricing": "The homepage links to a pricing page (front.com/pricing); no amounts shown on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Autopilot",
+        "Copilot",
+        "Compass",
+        "External Agents",
+        "Omnichannel",
+        "Ticketing"
+      ],
+      "summary": "Front takes ninth because it treats support as a shared inbox with ticketing and AI copilots for email-first teams.",
+      "verdict": "Front calls itself an AI customer operations platform coordinating support, sales and operations across email, chat, SMS and WhatsApp. Its feature list includes Autopilot, Copilot, Compass, External Agents, ticketing and a knowledge base, and the company says over 9,300 businesses trust it. Customers named include Uber Freight and Hootsuite. A studio that handles partner and creator mail alongside player mail may like the shared inbox model.",
+      "weaknesses": "No prices appear on the home page, only a link to a pricing page. No game customers are named, and no in-game SDK is described.",
+      "wrong_for": "Mobile-first studios should look at AIHelp.",
+      "sources": [
+        {
+          "fact": "Front describes itself as a customer service platform powered by AI and an AI customer operations platform.",
+          "url": "https://front.com"
+        },
+        {
+          "fact": "The homepage copyright line names FrontApp, Inc.",
+          "url": "https://front.com"
+        },
+        {
+          "fact": "The homepage links to a pricing page (/pricing) and shows no prices.",
+          "url": "https://front.com"
+        },
+        {
+          "fact": "The homepage says over 9,300 businesses trust Front.",
+          "url": "https://front.com"
+        }
+      ]
+    },
+    {
+      "slug": "livechat",
+      "name": "LiveChat",
+      "site": "https://livechat.com/",
+      "company": "Text, Inc.",
+      "country": "",
+      "tagline": "Text by LiveChat: website chat with human and AI agents",
+      "best_for": "Studios selling through a website store",
+      "pricing": "The homepage says pricing starts from $19 per user per month; the pricing page is at /pricing/ and was not opened.",
+      "pricing_model": "Per user / month",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "AI Agents",
+        "Chat widget",
+        "Omnichannel inbox",
+        "Reports and analytics",
+        "Ticketing",
+        "Campaigns"
+      ],
+      "summary": "LiveChat ranks tenth because it is website chat with stated per-user pricing, not a game-focused tool.",
+      "verdict": "The home page describes Text by LiveChat as live chat software for websites combining AI and human agents, from $19 per user per month. Features include a chat widget, ticketing, campaigns, reports and a chat API. The vendor claims 30,000+ companies and lists SOC 2 Type 2, GDPR and PCI DSS (SAQ A). It suits a studio with a web store or launcher site where players ask pre-sale questions.",
+      "weaknesses": "The pricing page was not opened, so extra plan limits are unknown. The tool targets websites, with no game SDK, console handoff or player-account context described.",
+      "wrong_for": "Studios supporting mobile players in-game should compare Helpshift.",
+      "sources": [
+        {
+          "fact": "The homepage describes Text by LiveChat as live chat software for websites that combines AI and human agents.",
+          "url": "https://livechat.com"
+        },
+        {
+          "fact": "The homepage states pricing starts from $19 per user per month.",
+          "url": "https://livechat.com"
+        },
+        {
+          "fact": "The homepage copyright line names Text, Inc.",
+          "url": "https://livechat.com"
+        },
+        {
+          "fact": "The homepage names customers including PayPal, IKEA, Atlassian, McDonald's and ING.",
+          "url": "https://livechat.com"
+        }
+      ]
+    },
+    {
+      "slug": "tidio",
+      "name": "Tidio",
+      "site": "https://tidio.com/",
+      "company": "Tidio",
+      "country": "",
+      "tagline": "Chat, help desk and Lyro AI agent for small teams",
+      "best_for": "Small studios starting with web support",
+      "pricing": "The homepage says paid plans start at $29/mo and links to Contact sales and registration; the pricing page (tidio.com/pricing) was not opened.",
+      "pricing_model": "Subscription",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Lyro AI agent",
+        "Product recommendations",
+        "Sales Flows",
+        "Help Desk",
+        "Live Chat",
+        "Multichannel inbox"
+      ],
+      "summary": "Tidio sits eleventh since it offers a low-cost entry plan, but it was built for online stores.",
+      "verdict": "Tidio calls itself a customer service and sales platform whose AI agent, Lyro, answers customer questions in chat. The home page says paid plans start from $29 per month and lists live chat, a help desk, a multichannel inbox and a visual automation builder. It claims 300,000+ businesses and a 4.6 G2 rating. Small studios can try it cheaply on a web store.",
+      "weaknesses": "The pricing page was not opened, so tier limits are unknown. Features such as product recommendations and Sales Flows point toward retail, and no in-game support is described.",
+      "wrong_for": "A studio with an in-game audience should use AIHelp or Helpshift.",
+      "sources": [
+        {
+          "fact": "Tidio describes itself as a customer service and sales platform whose AI agent, Lyro, answers customer questions in chat.",
+          "url": "https://tidio.com"
+        },
+        {
+          "fact": "The homepage says paid plans start from $29 per month.",
+          "url": "https://tidio.com"
+        },
+        {
+          "fact": "The homepage says it is trusted by 300,000+ businesses.",
+          "url": "https://tidio.com"
+        },
+        {
+          "fact": "The homepage names customers including Under Armour, The Body Shop, Dermalogica and Stanley.",
+          "url": "https://tidio.com"
+        }
+      ]
+    },
+    {
+      "slug": "sprinklr",
+      "name": "Sprinklr",
+      "site": "https://sprinklr.com/",
+      "company": "Sprinklr Inc.",
+      "country": "",
+      "tagline": "Unified customer experience suite with service and social",
+      "best_for": "Large publishers with social and service together",
+      "pricing": "No prices listed on the homepage; it links to Contact Us and Demo pages.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Sprinklr AI Agents",
+        "Sprinklr Copilot",
+        "Omnichannel Routing",
+        "Unified Agent Desktop",
+        "Supervisor Console",
+        "Conversational IVR"
+      ],
+      "summary": "Sprinklr is twelfth as an enterprise suite that suits large publishers but is heavy for most studios.",
+      "verdict": "Sprinklr describes a Unified-CXM platform with Insights, Marketing, Social and Service suites. Service features include AI Agents, a Copilot, omnichannel routing, a unified agent desktop, a supervisor console and conversational IVR. Customers named include Microsoft, Uber, Deutsche Telekom and LG. A large publisher with social, community and support needs in one contract could use it.",
+      "weaknesses": "Pricing is quote-only, with contact and demo links instead of amounts. The suite is broad and enterprise-oriented, and no game-specific SDK is described, so small studios would pay for capacity they do not use.",
+      "wrong_for": "Mid-size studios should start with Zendesk or Intercom.",
+      "sources": [
+        {
+          "fact": "Sprinklr describes its product as a unified customer experience management (Unified-CXM) platform with four suites: Insights, Marketing, Social and Service.",
+          "url": "https://sprinklr.com"
+        },
+        {
+          "fact": "The homepage copyright notice names Sprinklr Inc.",
+          "url": "https://sprinklr.com"
+        },
+        {
+          "fact": "The homepage lists no prices and links to Contact Us and Demo pages instead.",
+          "url": "https://sprinklr.com"
+        },
+        {
+          "fact": "The homepage names customers including Microsoft, Dow, 3M, Uber, Deutsche Telekom, Ford and LG Electronics.",
+          "url": "https://sprinklr.com"
+        }
+      ]
+    },
+    {
+      "slug": "sendbird",
+      "name": "Sendbird",
+      "site": "https://sendbird.com/",
+      "company": "Sendbird",
+      "country": "",
+      "tagline": "Enterprise AI concierge and communications API",
+      "best_for": "Developers who want to build chat inside an app",
+      "pricing": "No pricing visible on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "delight.ai",
+        "Memory",
+        "Sendbird communications API"
+      ],
+      "summary": "Sendbird takes thirteenth since it is an API and AI concierge for enterprises, with little stated about games.",
+      "verdict": "Sendbird presents itself as an AI customer experience platform for enterprises, with the delight.ai AI concierge, a memory feature and the Sendbird communications API. A developer team that wants to embed chat and an AI helper in its own app could work from the API. It is a build-your-own route for studios with spare engineering time.",
+      "weaknesses": "The home page names no customers, headquarters or founding year, and no pricing is visible. No help desk, ticketing or game-support features are listed, so you would assemble those yourself.",
+      "wrong_for": "A studio without spare engineers should choose Helpshift, which ships ready SDKs.",
+      "sources": [
+        {
+          "fact": "Sendbird presents itself as an AI customer experience platform for enterprises.",
+          "url": "https://sendbird.com"
+        },
+        {
+          "fact": "The homepage names delight.ai, an AI concierge for customer journeys, and the Sendbird communications API.",
+          "url": "https://sendbird.com"
+        },
+        {
+          "fact": "No pricing is visible on the homepage.",
+          "url": "https://sendbird.com"
+        }
+      ]
+    },
+    {
+      "slug": "discord",
+      "name": "Discord",
+      "site": "https://discord.com/",
+      "company": "Discord",
+      "country": "",
+      "tagline": "Group chat app used by many game communities",
+      "best_for": "Community help alongside a real ticket tool",
+      "pricing": "No prices on the homepage; it links to a Nitro page (discord.com/nitro).",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Windows, Mac, browser, phone, console",
+      "features": [
+        "Voice and text chat",
+        "Low-latency streaming",
+        "Custom emoji, stickers and soundboard",
+        "Activities and built-in games",
+        "Developer Portal",
+        "Multiple group chats"
+      ],
+      "summary": "Discord ends the list because it is a community chat app, not a ticketing system.",
+      "verdict": "Discord describes itself as a group chat app for gaming and communities, with voice, text, video and streaming on Windows, Mac, browser, phone and console. It offers a Developer Portal, activities and safety hubs. Many players already sit there, so it works as a first-line help channel for peer answers and announcements.",
+      "weaknesses": "It does not provide ticket queues, SLAs or per-player history in what we read, and no prices appear on the home page beyond a link to Nitro. Support quality depends on volunteers or staff watching channels.",
+      "wrong_for": "Studios that need tracked tickets should pair it with Zendesk or Helpshift.",
+      "sources": [
+        {
+          "fact": "Discord describes itself as a group chat app for gaming and for hanging out with friends or building communities.",
+          "url": "https://discord.com"
+        },
+        {
+          "fact": "The homepage says Discord is available on PC, phone and console, with Windows and Mac downloads and browser access.",
+          "url": "https://discord.com"
+        },
+        {
+          "fact": "The homepage links to Nitro (discord.com/nitro) and shows no prices.",
+          "url": "https://discord.com"
+        }
+      ]
+    }
+  ]
+}

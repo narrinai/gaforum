@@ -1,0 +1,230 @@
+{
+  "slug": "sensor-tower",
+  "subject": "Sensor Tower",
+  "subject_site": "https://sensortower.com/",
+  "title": "Sensor Tower Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Sensor Tower alternatives for game market data on a smaller budget: eight app, Steam and console intelligence services, with prices only where published.",
+  "category": "best-game-market-intelligence-tools",
+  "intro": "Sensor Tower is a digital market insights platform covering mobile apps, advertising, web, retail media and gaming, with product areas such as Pathmatics, Web Insights and Gaming Insights (GameIQ). Its home page offers a free sign-up and a free Chrome extension but lists no paid prices, only Request Demo and Contact Sales. A smaller studio may want narrower data for less. The eight alternatives below range from app store trackers to Steam and console databases, each described from its own pages.",
+  "why_switch": [
+    "Paid Sensor Tower prices are not listed, so a studio cannot size the cost before a sales conversation.",
+    "Sensor Tower covers advertising, web and retail media as well as apps, which a team that only needs game rankings may never use.",
+    "A PC or console studio gains little from app store panels and may prefer Steam or console datasets such as Gamalytic or GameDiscoverCo.",
+    "Teams focused on store listings and ads can buy ASO tooling instead of full market intelligence.",
+    "One option on this list, Video Game Insights, is hosted on Sensor Tower's own domain, so independent data needs another pick."
+  ],
+  "picks": [
+    {
+      "slug": "appmagic",
+      "name": "AppMagic",
+      "site": "https://appmagic.rocks/",
+      "best_for": "Mobile market research on a build-your-own plan",
+      "pricing": "Plans let you assemble features from dashboards, tools and data access; prices were not in the fetched text.",
+      "free_plan": "Unknown",
+      "note": "AppMagic is a mobile app market intelligence service built for market research, with genre classification, comparison of apps and publishers, and detection of successful soft launches. Its pricing page lets you choose your own feature set. You gain a modular purchase that can keep a small budget small; you give up Sensor Tower's advertising and web data, and you will need to open the pricing page to see actual amounts.",
+      "sources": [
+        {
+          "fact": "AppMagic is a service for mobile app market intelligence, designed for market research.",
+          "url": "https://appmagic.rocks/"
+        },
+        {
+          "fact": "AppMagic offers high-precision classification of app genres, comparison of multiple apps and publishers, and detection of successful soft launches.",
+          "url": "https://appmagic.rocks/"
+        },
+        {
+          "fact": "The pricing page lets you compare pricing options and build your own feature set from dashboards, tools and data access.",
+          "url": "https://appmagic.rocks/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "appfigures",
+      "name": "Appfigures",
+      "site": "https://appfigures.com/",
+      "best_for": "Indie developers tracking their own and rival apps",
+      "pricing": "No tiers on the homepage; a Get Started Free button says no credit card is required.",
+      "free_plan": "Unknown",
+      "note": "Appfigures tracks app downloads, revenue, rankings, reviews and keywords, with live App Store and Google Play data. It reports 28M apps and 11B downloads tracked this year, self-reported with no stated method. You gain a free way to start and a developer-friendly scope; you give up the broad advertising and retail media coverage Sensor Tower lists, and plan limits are not described on the homepage.",
+      "sources": [
+        {
+          "fact": "Appfigures describes itself as a platform for tracking app downloads, revenue and market trends, researching competitors and finding keywords.",
+          "url": "https://appfigures.com/"
+        },
+        {
+          "fact": "Appfigures' home page says it works with every major store and shows live App Store and Google Play data.",
+          "url": "https://appfigures.com/"
+        },
+        {
+          "fact": "Appfigures' home page shows a 'Get Started Free' button and says 'No credit card required'; it does not list pricing tiers.",
+          "url": "https://appfigures.com/"
+        },
+        {
+          "fact": "Appfigures' home page reports self-reported figures of 28M apps tracked and 11B downloads tracked this year, without saying how they were verified.",
+          "url": "https://appfigures.com/"
+        }
+      ]
+    },
+    {
+      "slug": "apptopia",
+      "name": "Apptopia",
+      "site": "https://apptopia.com/en/",
+      "best_for": "Investors, brands and sales teams buying data",
+      "pricing": "Custom pricing; the base package is described as an enterprise-level service.",
+      "free_plan": "Unknown",
+      "note": "Apptopia sells mobile app consumer activity data and says more than 200 leading firms trust it. Its investor dataset maps 3,500+ tickers across 160+ countries. The model is quote-only, so it is closer to Sensor Tower's enterprise end than to a budget tool. You gain finance-grade ticker mapping; you give up an easy self-serve entry, which matters if the point is spending less.",
+      "sources": [
+        {
+          "fact": "Apptopia provides mobile app consumer activity data, with the home page saying it is trusted by more than 200 leading firms.",
+          "url": "https://apptopia.com/en/"
+        },
+        {
+          "fact": "The Apptopia Base dataset covers 3,500+ tickers with point-in-time ticker mapping across 160+ countries.",
+          "url": "https://apptopia.com/en/pricing-investors/"
+        },
+        {
+          "fact": "The investor pricing page says the Apptopia Base package is an enterprise-level service and lists flexible plans for brands and MSP and sales teams.",
+          "url": "https://apptopia.com/en/pricing-investors/"
+        }
+      ]
+    },
+    {
+      "slug": "apptweak",
+      "name": "AppTweak",
+      "site": "https://www.apptweak.com/en",
+      "best_for": "App store optimization and Apple Search Ads",
+      "pricing": "A free trial is available; the pricing page says pay as you go and cancel anytime; figures were not captured.",
+      "free_plan": "Free trial",
+      "note": "AppTweak is an app store marketing and intelligence platform for ASO and Apple Search Ads, and its homepage offers an MCP connection to bring AppTweak data into ChatGPT and Claude. Pay-as-you-go language suits a team that wants to test before a long contract. You gain keyword and store-page focus; you give up market-size and advertiser-spend data.",
+      "sources": [
+        {
+          "fact": "AppTweak describes itself as an app store marketing and intelligence platform for ASO and Apple Search Ads.",
+          "url": "https://www.apptweak.com/en"
+        },
+        {
+          "fact": "AppTweak's homepage offers AppTweak MCP to get AppTweak data inside ChatGPT and Claude.",
+          "url": "https://www.apptweak.com/en"
+        },
+        {
+          "fact": "AppTweak's pricing page says plans can be tried free with a free trial and are pay as you go, cancel anytime.",
+          "url": "https://www.apptweak.com/en/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "mobileaction",
+      "name": "MobileAction",
+      "site": "https://www.mobileaction.co",
+      "best_for": "Growth teams running Apple Ads",
+      "pricing": "No prices shown on the pages opened.",
+      "free_plan": "Unknown",
+      "note": "MobileAction is a growth platform for apps and games with MobileAction AI, a CMP for Apple Ads, ASO Intelligence and Ad Intelligence. The company says it was founded in 2013 in San Francisco and its footer calls it an InMobi Advertising company. You gain campaign tools alongside the data; you give up a visible price list and a broad market-sizing product.",
+      "sources": [
+        {
+          "fact": "MobileAction's homepage lists MobileAction AI, MobileAction CMP for Apple Ads, ASO Intelligence and Ad Intelligence as products.",
+          "url": "https://www.mobileaction.co"
+        },
+        {
+          "fact": "MobileAction's about page says the company was founded in 2013 in San Francisco.",
+          "url": "https://www.mobileaction.co/about"
+        },
+        {
+          "fact": "MobileAction's site footer states copyright 2026 MobileAction, Inc., an InMobi Advertising company.",
+          "url": "https://www.mobileaction.co"
+        }
+      ]
+    },
+    {
+      "slug": "gamalytic",
+      "name": "Gamalytic",
+      "site": "https://gamalytic.com/",
+      "best_for": "Steam-focused revenue estimates",
+      "pricing": "A Pricing link exists, but no plans or prices appear on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Gamalytic is a database of 100,000+ Steam games with estimated revenue, sales and player data, aimed at developers, market researchers and enthusiasts. The homepage states it is not affiliated with Valve or Steam. You gain Steam-specific estimates at game level; you give up mobile coverage entirely, and the revenue figures are estimates, not reported numbers.",
+      "sources": [
+        {
+          "fact": "Gamalytic describes itself as a database of 100,000+ Steam games with estimated revenue, sales and player data.",
+          "url": "https://gamalytic.com/"
+        },
+        {
+          "fact": "Gamalytic's home page says it is built for game developers, market researchers and game enthusiasts.",
+          "url": "https://gamalytic.com/"
+        },
+        {
+          "fact": "Gamalytic's home page states: 'We are not affiliated with Valve or Steam in any way.'",
+          "url": "https://gamalytic.com/"
+        }
+      ]
+    },
+    {
+      "slug": "vginsights",
+      "name": "VGInsights",
+      "site": "https://app.sensortower.com/vgi/",
+      "best_for": "Video game market research from one dataset",
+      "pricing": "Prices are not shown in the fetched text; a pricing page exists.",
+      "free_plan": "Unknown",
+      "note": "Video Game Insights is for developers, publishers and anyone doing video game market research, with 50+ datapoints per game across over 150,000 games. Its pages live on app.sensortower.com, so it looks like a Sensor Tower product rather than an outside rival. You gain game-level depth for PC titles; you give up the independence the word alternative suggests.",
+      "sources": [
+        {
+          "fact": "Video Game Insights (VGI) is for developers, publishers and anyone interested in video game market research.",
+          "url": "https://app.sensortower.com/vgi/"
+        },
+        {
+          "fact": "VGI provides 50+ datapoints per game for over 150,000 games.",
+          "url": "https://app.sensortower.com/vgi/"
+        },
+        {
+          "fact": "The VGI pricing page is hosted on app.sensortower.com; prices are not shown in the fetched text.",
+          "url": "https://app.sensortower.com/vgi/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "gamediscoverco",
+      "name": "GameDiscoverCo",
+      "site": "https://gamediscover.co/",
+      "best_for": "Console and Steam data with API access",
+      "pricing": "No prices; features are sold under GameDiscoverCo Pro, and access requests go through a demo.",
+      "free_plan": "Unknown",
+      "note": "GameDiscoverCo offers Steam, PlayStation, Xbox and Switch data on sales, revenue, wishlists and audiences, plus MCP and API access that requires its Pro plan. Its homepage says over 110 teams use it, naming Bandai Namco, Krafton, Team17 and Raw Fury. You gain console coverage and an API; you give up a public price and mobile app data.",
+      "sources": [
+        {
+          "fact": "GameDiscoverCo's home page offers Steam, console (PlayStation, Xbox, Switch) and MCP/API data for games-industry analysis.",
+          "url": "https://gamediscover.co/"
+        },
+        {
+          "fact": "GameDiscoverCo's home page says MCP access requires its Pro plan with access enabled.",
+          "url": "https://gamediscover.co/"
+        },
+        {
+          "fact": "GameDiscoverCo's home page says it is trusted by over 110 teams and names Bandai Namco, Krafton, Team17 and Raw Fury among them.",
+          "url": "https://gamediscover.co/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Match the tool to the platform you sell on. Mobile studios can start with Appfigures for tracking or AppMagic for research, and add AppTweak when store optimization is the real job. PC and console teams should look at Gamalytic and GameDiscoverCo. Apptopia suits those who buy data in bulk. Write down the three questions you actually ask each month, then request a trial or quote from two vendors and see which can answer them without extra modules.",
+  "faqs": [
+    {
+      "q": "What is a cheaper alternative to Sensor Tower for mobile games?",
+      "a": "Appfigures offers a Get Started Free button with no credit card, and AppMagic lets you build a plan from dashboards, tools and data access. Neither page lists plan prices in the captured text, so request current terms."
+    },
+    {
+      "q": "Which alternative covers Steam games?",
+      "a": "Gamalytic covers 100,000+ Steam games with estimated revenue, sales and player data. GameDiscoverCo adds Steam plus PlayStation, Xbox and Switch data. Both treat figures as estimates, so use them to size a market, not to audit a rival."
+    },
+    {
+      "q": "Does Sensor Tower have a free option?",
+      "a": "Its home page has a Sign Up for Free button and a free Chrome extension called Web Insights. Paid prices are not listed; the page offers Request Demo and Contact Sales for fuller access."
+    },
+    {
+      "q": "Is Video Game Insights independent of Sensor Tower?",
+      "a": "Its pages are hosted on app.sensortower.com, so it appears to be a Sensor Tower product. It is useful for game-level data, but not a separate source if you want a second opinion."
+    },
+    {
+      "q": "Can I use these tools with an AI assistant?",
+      "a": "AppTweak says it offers an MCP connection for ChatGPT and Claude, and GameDiscoverCo offers MCP and API access that needs its Pro plan. The other pages opened do not mention this, so ask each vendor."
+    }
+  ]
+}

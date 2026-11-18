@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "prism-launcher",
+    "name": "Prism Launcher",
+    "status": "verified",
+    "site": "https://prismlauncher.org/",
+    "company": "Prism Launcher Contributors",
+    "hq": "",
+    "country": "",
+    "what_it_is": "An open-source Minecraft launcher that manages multiple instances, accounts, modpacks and mods, forked from MultiMC.",
+    "platforms": "",
+    "pricing": "Free; the project accepts donations and publishes under open-source licenses.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Isolated instances",
+      "One-click mod loader install (Forge, Fabric, Quilt, LiteLoader)",
+      "Modpacks from CurseForge, Modrinth, Technic, FTB",
+      "Per-mod install from CurseForge and Modrinth",
+      "Log upload to mclo.gs",
+      "Theming"
+    ],
+    "notable": [
+      "Minecraft only",
+      "Not affiliated with Mojang or Microsoft",
+      "Forked from MultiMC over redistribution concerns"
+    ],
+    "facts": [
+      {
+        "fact": "Prism Launcher is an open-source Minecraft launcher that manages multiple instances, accounts and mods.",
+        "url": "https://prismlauncher.org/"
+      },
+      {
+        "fact": "It installs mod loaders such as Forge, Fabric, Quilt and LiteLoader in one click and installs modpacks from CurseForge, Modrinth, Technic, FTB and FTB Legacy.",
+        "url": "https://prismlauncher.org/about"
+      },
+      {
+        "fact": "The project was forked from MultiMC over packaging and redistribution concerns and states it is not affiliated with Mojang or Microsoft.",
+        "url": "https://prismlauncher.org/about"
+      }
+    ],
+    "drop_reason": "",
+    "country_code": ""
+  }
+]

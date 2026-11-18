@@ -1,0 +1,153 @@
+{
+  "slug": "godot-vs-unity",
+  "a": "godot",
+  "b": "unity",
+  "a_name": "Godot",
+  "b_name": "Unity",
+  "a_site": "https://godotengine.org/",
+  "b_site": "https://unity.com/",
+  "category": "best-open-source-game-engines",
+  "title": "Godot vs Unity: Which Fits Your Team in 2026?",
+  "description": "Godot is a free MIT-licensed engine; Unity is a commercial engine with a free Personal plan and a paid Pro plan. Compare license, pricing, platforms and fit.",
+  "intro": "Godot is a free, open-source 2D and 3D game engine under the MIT license, while Unity is a commercial engine that is free on its Personal plan and paid from the Pro plan upward. The choice mostly comes down to who owns the tooling and what happens to costs once a studio grows. This page compares license terms, plan thresholds, platform reach and day-to-day workflow using the vendors' own pages, so you can match an engine to a team rather than to a reputation.",
+  "verdict": "Pick Godot when you want an engine with no plan tiers, source you can fork and a dedicated 2D renderer. Pick Unity when console builds, vendor support or its wider service stack matter and your budget can absorb a subscription once the company passes the revenue line. Small teams below the Unity threshold can start in either without paying anything.",
+  "pick_a": "Pick Godot if you want to read and modify engine source, avoid seat pricing completely, and your games lean on 2D or modest 3D.",
+  "pick_b": "Pick Unity if you need console export from a vendor plan, formal support options or the Unity cloud services next to the editor.",
+  "rows": [
+    {
+      "label": "License model",
+      "a": "Open source under the OSI-approved MIT license",
+      "b": "Commercial; plans named Personal, Pro, Enterprise and Industry"
+    },
+    {
+      "label": "Entry price",
+      "a": "Free; no paid tier exists",
+      "b": "Personal is free with no credit card required"
+    },
+    {
+      "label": "Paid tier price",
+      "a": "None to buy",
+      "b": "Pro is $210.00 per month or from $2,310.00 per year; Enterprise is custom"
+    },
+    {
+      "label": "Revenue threshold",
+      "a": "None stated",
+      "b": "Pro required above $200K in funding or annual revenue; Enterprise above $25M annual revenue"
+    },
+    {
+      "label": "Dimensions",
+      "a": "Dedicated 2D engine plus a 3D engine",
+      "b": "Real-time 3D and 2D engine"
+    },
+    {
+      "label": "Platform reach",
+      "a": "Exports to desktop, mobile and web; consoles through third-party publishers",
+      "b": "Says 25+ platforms, including consoles, Meta Quest and Apple Vision Pro"
+    },
+    {
+      "label": "Console builds",
+      "a": "Via third-party publishers",
+      "b": "Included from the Pro plan"
+    },
+    {
+      "label": "Scripting",
+      "a": "GDScript, C#, C++ or GDExtension",
+      "b": "Not covered on the Unity pages opened for this page"
+    },
+    {
+      "label": "Latest release shown",
+      "a": "Godot 4.7.2 on the homepage",
+      "b": "Unity 6.6 available; Unity 7 announced as next major version"
+    },
+    {
+      "label": "Best for",
+      "a": "Indie and open-source minded teams",
+      "b": "Teams that want vendor plans, support and platform breadth"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "License and cost over time",
+      "text": [
+        "Godot's FAQ says the engine is free and open source software under the OSI-approved MIT license. There is no plan ladder to climb, so the cost of the engine itself stays at zero for a solo hobbyist and for a fifty-person studio alike. Funding comes from sponsors and the Godot Foundation, which the homepage names as the project host.",
+        "Unity splits its customers by size. Personal is free, Pro is required for businesses with more than $200K in funding or annual revenue, and Enterprise is required above $25M in annual revenue. Pro lists at $210.00 per month or from $2,310.00 per year, so a team crossing the line should budget per seat. That is a predictable line item, but it is a line item Godot does not have."
+      ]
+    },
+    {
+      "h2": "2D and 3D workflow",
+      "text": [
+        "Godot treats 2D as its own engine rather than a flat view of a 3D scene, and its feature list has separate sections for 2D graphics, 2D tools and 2D physics. Teams building pixel art or UI-heavy games often find that separation convenient. Its 3D side is described by the project as simple, which suits modest scenes more than very large ones.",
+        "Unity positions itself as one editor for 2D and 3D games and ships additional layers around it: collaboration tools, live operations, user acquisition and monetization. If you plan to use several of those services, the single-vendor route can be less assembly work than choosing separate tools."
+      ]
+    },
+    {
+      "h2": "Platforms and consoles",
+      "text": [
+        "Both engines export to desktop, mobile and web. The gap is consoles. Unity includes console deployment from the Pro plan, which also covers Apple Vision Pro builds. Godot's homepage says consoles are supported through third-party publishers, so a console release means involving one of them.",
+        "If your plan is PC and mobile only, this row will not decide anything. If a Switch or PlayStation release is on the roadmap from day one, price the console path for both engines before choosing."
+      ]
+    },
+    {
+      "h2": "Languages and ecosystem",
+      "text": [
+        "Godot's own language, GDScript, sits beside C#, C++ and GDExtension. The homepage notes that C# on the web needs Godot 3, which matters if you target browsers with C#.",
+        "Unity has an Asset Store, which is also where the networking library Mirror is distributed. Godot's ecosystem is smaller but grows through community add-ons you can inspect, because the source is open."
+      ]
+    },
+    {
+      "h2": "Risk and change management",
+      "text": [
+        "With an open-source engine you can pin a version and keep building even if direction changes upstream. With a commercial engine, plan terms are the vendor's to revise, so read the current pricing page before signing a long project. Unity's homepage also announces Unity 7 as the next major version, so check migration notes when planning a multi-year game."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Godot really free for commercial games?",
+      "a": "Godot's FAQ says it is free and open source under the OSI-approved MIT license, and the homepage makes no other pricing statement. Read the license text for your own obligations, such as keeping the copyright notice, but no fee is stated."
+    },
+    {
+      "q": "When does Unity stop being free?",
+      "a": "Unity's pricing page says Pro is required for businesses with over $200K in funding or annual revenue. Below that, Personal is free with no credit card required. Enterprise applies above $25M in annual revenue."
+    },
+    {
+      "q": "Which engine is better for a first 2D game?",
+      "a": "Godot has a dedicated 2D engine and a step-by-step 2D tutorial in its docs. Unity can make 2D games too. Either can work; the deciding factor is usually whether you want open source tooling."
+    },
+    {
+      "q": "Can Godot ship to consoles?",
+      "a": "Godot's homepage says consoles are supported through third-party publishers, so you would rely on one of them. Unity includes console deployment from its Pro plan, per its pricing page."
+    },
+    {
+      "q": "Do I need to know C# for either engine?",
+      "a": "No for Godot, which offers GDScript as well as C#, C++ and GDExtension. For Unity, the pages opened for this comparison did not detail the scripting stack, so check its manual before committing."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Godot is Free and open source Software available under the OSI-approved MIT license.",
+      "url": "https://docs.godotengine.org/en/stable/about/faq.html"
+    },
+    {
+      "fact": "Godot is described on its homepage as a free, open-source 2D and 3D game engine; latest download listed is 4.7.2; consoles supported through third-party publishers.",
+      "url": "https://godotengine.org/"
+    },
+    {
+      "fact": "Unity Personal is free with no credit card required; Pro is required above $200K funding or annual revenue at $210.00 per month or from $2,310.00 per year; Enterprise above $25M.",
+      "url": "https://unity.com/pricing"
+    },
+    {
+      "fact": "Pro includes console and Apple Vision Pro publishing.",
+      "url": "https://unity.com/pricing"
+    },
+    {
+      "fact": "Unity's homepage lists 25+ platforms, announces Unity 6.6 as available and Unity 7 as next.",
+      "url": "https://unity.com/"
+    },
+    {
+      "fact": "Mirror links to a Unity Asset Store download.",
+      "url": "https://mirror-networking.com/"
+    }
+  ],
+  "published": "2026-11-18"
+}

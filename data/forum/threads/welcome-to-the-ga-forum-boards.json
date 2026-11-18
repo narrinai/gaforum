@@ -1,0 +1,18 @@
+{
+  "id": "welcome-to-the-ga-forum-boards",
+  "board": "general",
+  "title": "Welcome to the GA Forum boards: how this forum works",
+  "created": "2026-11-18T11:06:00Z",
+  "pinned": true,
+  "body": [
+    "GA Forum is a discussion space for game developers, streamers, esports organizers and corporate live-video teams. The boards are Games, Livestreaming, Esports and General, and each is meant for practical questions about tools, workflows and trade-offs.",
+    "Posting rules: be civil and critique ideas, not people. If you work for a vendor or have a financial interest in a tool you mention, say so in the post. New accounts' posts that contain links are reviewed before they appear, so a short delay is normal. Do not post stream keys, API secrets or private contact details.",
+    "Our rankings and guides are written by the editorial team and sourced from vendor pages; read how in the [editorial process](/editorial-process). Starter threads on the boards were opened by the editorial team to get conversations going and contain no replies from users. Introduce your project or ask your first question on the board that fits."
+  ],
+  "related": [
+    {
+      "title": "Best Game Launchers and Library Managers in 2026",
+      "url": "/software/best-game-launchers-and-library-managers"
+    }
+  ]
+}

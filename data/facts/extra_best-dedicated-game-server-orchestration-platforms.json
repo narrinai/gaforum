@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "gamefabric",
+    "name": "GameFabric",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://gamefabric.com/",
+    "company": "GameFabric (formerly Hathora)",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A developer-first multiplayer server orchestration platform that runs game server fleets on bare metal, cloud or both under one API and dashboard.",
+    "platforms": "22 bare metal regions across five continents; cloud via GameFabric Cloud (managed, on Google Cloud) or bring your own AWS, Azure or GCP accounts.",
+    "pricing": "Individual pricing tailored to the studio; no price amounts published, demo request required.",
+    "pricing_model": "Custom quote",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Bare metal fleets",
+      "GameFabric Cloud",
+      "Bring your own cloud",
+      "Hybrid burst",
+      "SteelShield DDoS protection",
+      "Usage and cost reporting"
+    ],
+    "notable": [
+      "The site navigation carries a Hathora link, and hathora.dev redirected to gamefabric.com when checked",
+      "Page says it is built on 25 years of operating game servers in production",
+      "Page claims savings of as much as 60% on server fees"
+    ],
+    "facts": [
+      {
+        "fact": "The GameFabric homepage describes an orchestration layer for studios shipping multiplayer titles, deployable on bare metal, cloud or both under one API, one dashboard and one fleet.",
+        "url": "https://gamefabric.com/"
+      },
+      {
+        "fact": "The homepage lists 22 bare metal regions across five continents and cloud options through GameFabric Cloud on Google Cloud or bring-your-own AWS, Azure or GCP accounts.",
+        "url": "https://gamefabric.com/"
+      },
+      {
+        "fact": "The pricing page offers individual pricing tailored to each studio with a demo request and no price amounts.",
+        "url": "https://gamefabric.com/pricing"
+      },
+      {
+        "fact": "The pricing page claims savings of as much as 60% on server fees by scaling from bare metal to cloud, and describes SteelShield UDP and TCP DDoS protection.",
+        "url": "https://gamefabric.com/pricing"
+      }
+    ]
+  }
+]

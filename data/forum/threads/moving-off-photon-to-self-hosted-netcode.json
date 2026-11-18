@@ -1,0 +1,26 @@
+{
+  "id": "moving-off-photon-to-self-hosted-netcode",
+  "board": "games",
+  "title": "Has anyone moved off Photon to self-hosted netcode?",
+  "created": "2026-11-18T09:07:00Z",
+  "pinned": false,
+  "body": [
+    "Hosted multiplayer services are quick to start with, and some teams later look at open source libraries and their own servers for control or cost reasons. Has anyone made that move, and what did the migration actually involve?",
+    "For orientation, the [Photon homepage](https://photonengine.com/) describes the product as a multiplayer development platform with networking engines, voice and chat services and cloud hosting, and does not publish prices. On the self-hosted side, the [Mirror homepage](https://mirror-networking.com/) describes open source networking for Unity, and the [FishNet documentation](https://fish-networking.gitbook.io/) describes a free Unity networking solution with no concurrent-user caps.",
+    "Useful details for others: what drove the decision, how you handled hosting and matchmaking afterward, and what you would keep from the old setup. If you are still on a hosted service and happy, that experience is welcome too."
+  ],
+  "related": [
+    {
+      "title": "Best Multiplayer Networking SDKs in 2026",
+      "url": "/software/best-multiplayer-networking-sdks"
+    },
+    {
+      "title": "Photon vs Mirror: Which Fits Your Team in 2026?",
+      "url": "/compare/photon-vs-mirror"
+    },
+    {
+      "title": "Photon Alternatives in 2026",
+      "url": "/alternatives/photon"
+    }
+  ]
+}

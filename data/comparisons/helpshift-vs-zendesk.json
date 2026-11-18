@@ -1,0 +1,162 @@
+{
+  "slug": "helpshift-vs-zendesk",
+  "a": "helpshift",
+  "b": "zendesk",
+  "a_name": "Helpshift",
+  "b_name": "Zendesk",
+  "a_site": "https://helpshift.com/",
+  "b_site": "https://www.zendesk.com/",
+  "category": "best-player-support-software-for-games",
+  "title": "Helpshift vs Zendesk: Which Fits Your Team in 2026?",
+  "description": "Helpshift is built around in-game player support, Zendesk is a general service desk. Compare channels, AI features, trials and fit for game studios.",
+  "published": "2026-11-18",
+  "intro": "Helpshift is a player engagement platform made for games, and Zendesk is a general customer service platform used across industries. A studio choosing between them is really choosing between a tool that starts inside the game client and a desk that starts from email, chat and a help center. Below is what each vendor states on its own pages, what neither states, and the questions worth asking before a pilot.",
+  "verdict": "Studios with a live mobile or cross-platform game and a support team that lives in the game client lean toward Helpshift. Studios that already run a company-wide service desk, or that sell more than games, lean toward Zendesk. Neither lists plan prices on the pages we opened, so both need a quote.",
+  "pick_a": "players should reach support from inside the game on mobile, PC or web, and you want moderation, community insights and policy workflows in the same product.",
+  "pick_b": "support is one team among several in your company, you want a large app marketplace and a self-serve trial, or you serve players through email and a help center first.",
+  "rows": [
+    {
+      "label": "Core positioning",
+      "a": "AI-native player engagement platform",
+      "b": "AI-first customer service platform"
+    },
+    {
+      "label": "Built for",
+      "a": "Games and players",
+      "b": "Customer service teams in any industry"
+    },
+    {
+      "label": "In-game support",
+      "a": "SDKs for mobile, PC and web",
+      "b": "Channels listed are email, messaging, live chat, phone, social and help centers; an in-game SDK is not named on the opened page"
+    },
+    {
+      "label": "Console players",
+      "a": "QR codes and links for console handoff",
+      "b": "Not described on the opened page"
+    },
+    {
+      "label": "AI features",
+      "a": "CARE AI and an AI agent copilot",
+      "b": "Self-learning AI agents, Zendesk AI and Copilot"
+    },
+    {
+      "label": "Community and safety",
+      "a": "Policy enforcement workflows and community insights across in-game chat, Discord, forums and social",
+      "b": "Quality assurance and workforce management listed; no game community tooling named"
+    },
+    {
+      "label": "Extensions",
+      "a": "Human services offered by the vendor",
+      "b": "Marketplace of 1,800+ apps"
+    },
+    {
+      "label": "Free option",
+      "a": "None stated",
+      "b": "14-day trial, no credit card; eligible startups up to 2 years free"
+    },
+    {
+      "label": "Published prices",
+      "a": "Not on the opened page",
+      "b": "Not on the home page; links to plans and pricing"
+    },
+    {
+      "label": "Customer names shown",
+      "a": "Zynga, Jam City, Rovio, Gameloft in case studies",
+      "b": "Siemens, GitHub, Uber, Box, Vimeo, Tesco on the logo wall"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Starting point: the game client or the inbox",
+      "text": [
+        "Helpshift says it offers in-game support SDKs for mobile, PC and web, and it covers console players through QR codes and links. The product assumes a player is in the middle of a session and wants help without leaving it.",
+        "Zendesk lists email, messaging, live chat, phone, social media and help centers. Those are the channels of a classic service desk. A game can be wired into it, but the opened page does not present a game SDK, so that integration is work you plan for."
+      ]
+    },
+    {
+      "h2": "AI and automation",
+      "text": [
+        "Both lead with AI. Helpshift names CARE AI and an AI agent copilot. Zendesk names self-learning AI agents, Zendesk AI and Copilot, plus quality assurance and workforce management, which matter once a team has shifts and targets to staff.",
+        "Vendor descriptions of AI are claims, not results. Ask each for resolution rates on a workload that looks like yours, such as ban appeals, payment problems and bug reports, and see how the handoff to a human agent works."
+      ]
+    },
+    {
+      "h2": "Community, moderation and trust and safety",
+      "text": [
+        "Helpshift extends past the ticket. Its home page lists policy enforcement workflows and community insights that span in-game chat, Discord, forums and social platforms. Studios with toxic chat or ban appeals to manage will find that relevant.",
+        "Zendesk's opened page has no equivalent for games. Teams using it for moderation would pair it with other tools, which is workable but adds seams between systems."
+      ]
+    },
+    {
+      "h2": "Cost and trial",
+      "text": [
+        "Zendesk gives a clear way in: a 14-day free trial with no credit card, and up to two years free for eligible startups. Plan prices sit on a separate page that we did not capture.",
+        "Helpshift's opened page shows no price and no trial. The route is a sales conversation. For a small studio that wants to test over a weekend, that is a real difference in friction, even if the long-run cost is similar."
+      ]
+    },
+    {
+      "h2": "Who ends up where",
+      "text": [
+        "Helpshift lists Zynga, Jam City, Rovio and Gameloft among its case studies, which signals mobile-heavy live games. Zendesk shows a broader logo wall that includes Siemens, GitHub and Uber, which signals general-purpose use.",
+        "If your studio has a dedicated player support lead and a live game with in-app help, start with Helpshift. If support serves several products and company functions, start with Zendesk. The wider field is in the [player support ranking](/software/best-player-support-software-for-games)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Zendesk work for a game studio?",
+      "a": "Yes, studios use general desks, and Zendesk lists the usual channels plus a large app marketplace. The opened page does not describe an in-game SDK, so check how players would open a ticket from inside your client and what data reaches the agent."
+    },
+    {
+      "q": "Is there a free trial for Helpshift?",
+      "a": "The pages we opened do not mention one. Helpshift's site points to contacting the vendor. Zendesk, by comparison, lists a 14-day trial with no credit card. Ask Helpshift for a pilot with limited seats if you need to test first."
+    },
+    {
+      "q": "What about console players?",
+      "a": "Helpshift states that console support runs through QR codes and links, so a player can continue on a phone. Zendesk's opened page does not address consoles. Console-heavy studios should ask each vendor to demonstrate the flow."
+    },
+    {
+      "q": "Which tool handles Discord and forums?",
+      "a": "Helpshift lists in-game chat, Discord, forums and social platforms in its community and trust and safety coverage. Zendesk lists social media among its channels but does not name Discord on the opened page."
+    },
+    {
+      "q": "How should I compare costs?",
+      "a": "Request quotes using the same agent count, monthly ticket volume and AI usage assumptions. Prices were not on the opened pages for either vendor, so only like-for-like quotes tell you anything."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Helpshift describes itself as the AI-native player engagement platform.",
+      "url": "https://helpshift.com/"
+    },
+    {
+      "fact": "Helpshift offers in-game support SDKs for mobile, PC and web, plus console support via QR codes and links.",
+      "url": "https://helpshift.com/"
+    },
+    {
+      "fact": "Helpshift names Zynga, Jam City, Rovio and Gameloft among its case studies.",
+      "url": "https://helpshift.com/"
+    },
+    {
+      "fact": "Helpshift lists CARE AI, an AI agent copilot and policy enforcement workflows.",
+      "url": "https://helpshift.com/"
+    },
+    {
+      "fact": "Zendesk describes itself as an AI-first service platform with self-learning AI agents and the Zendesk Resolution Platform.",
+      "url": "https://www.zendesk.nl/#georedirect"
+    },
+    {
+      "fact": "Zendesk offers a 14-day free trial with no credit card required.",
+      "url": "https://www.zendesk.nl/#georedirect"
+    },
+    {
+      "fact": "Eligible startups can get up to 2 years of Zendesk free.",
+      "url": "https://www.zendesk.nl/#georedirect"
+    },
+    {
+      "fact": "Zendesk lists email, messaging, live chat, phone, social media and help centers as channels.",
+      "url": "https://www.zendesk.nl/#georedirect"
+    }
+  ]
+}

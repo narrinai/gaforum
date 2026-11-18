@@ -1,0 +1,503 @@
+{
+  "slug": "best-game-localization-platforms",
+  "name": "game localization platforms",
+  "title": "Best Game Localization Platforms in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Localization platforms and services for game studios that manage string tables, translator context and releases in many languages.",
+  "definition": "Game localization platforms manage the text, and sometimes audio, that must be translated for each market. They store strings from the game, send them to translators or machine translation, check quality and return finished files to the build. Service vendors add linguists, testing and voice work on top of the software.",
+  "intro": "A game with 40,000 lines of dialogue, item names and UI text cannot be localized by emailing spreadsheets. Strings change every sprint, translators need to see where a line appears, and each language must come back in time for a patch. This ranking covers eleven platforms and services that studios use for the job, from a game-focused content system to enterprise suites and full-service vendors. We read vendor homepages and pricing pages, compared the features, languages and prices they state, and weighed fit for an indie or mid-size studio. We did not run the tools. Where a vendor publishes no price or no game material, the entry says so.",
+  "criteria": [
+    {
+      "heading": "Game content handling",
+      "text": "Game text lives in tables, not documents. Gridly describes a content system built for multilingual game development, Crowdin lists games among its content types and offers in-context preview, and Transifex names Game Localization as a use case. Most other vendors describe software and websites. We gave extra weight to pages that mention games by name."
+    },
+    {
+      "heading": "Context for translators",
+      "text": "A translator who sees only a string guesses at gender, length and tone. In-context preview, which Crowdin lists, and quality evaluation tools, such as those Phrase and Smartling describe, reduce rework. Service vendors like Alconost add localization testing, which catches text that does not fit a button. Context features ranked above raw language counts."
+    },
+    {
+      "heading": "Pricing you can plan around",
+      "text": "Gridly, Lokalise and Crowdin state starting prices or a free plan on the pages we opened. Transifex charges for AI-translated words, Smartling and Phrase use custom tiers, and Keywords Studios, Lionbridge and TransPerfect publish no prices. Alconost shows approximate per-character rates. A studio with a fixed budget should favor vendors that print numbers."
+    },
+    {
+      "heading": "Software versus services",
+      "text": "Some entries are tools you operate, and others are companies that supply linguists and testers. Keywords Studios and Lionbridge sell mainly services, Alconost sells services plus a QA platform, and Gridly or Lokalise sell software. Decide which side of the work you want to own before comparing, since the two categories are priced and managed very differently."
+    }
+  ],
+  "market_notes": [
+    "Of the eleven entries, three print a starting price or fixed monthly plan on the pages we opened (Gridly, Lokalise, and Crowdin through its free plan note), and Alconost shows approximate rates. Four vendors, Keywords Studios, Lionbridge, TransPerfect GlobalLink and Lingoport, give no price. Only Gridly pitches itself around games, while Crowdin and Transifex name games as one use case among several. Prices appear in EUR for Gridly, USD for Lokalise and four currencies for Phrase.",
+    "The trade-off is control against hand-holding. Platforms such as Gridly, Crowdin and Lokalise let a studio keep strings in its own hands and buy translation where it likes, but someone must manage the process. Service vendors take that work away and charge by quote. Enterprise suites add governance and integrations that a small studio rarely needs. Many teams run a platform for string management and send selected languages or audio to a services vendor."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Count strings, languages and update frequency",
+      "text": "Estimate how many strings you have, how many languages you will ship, and how often text changes after launch. A narrative game with a single release differs sharply from a live game with weekly updates. Frequent updates favor platforms with automation and Git or API sync, such as Crowdin, Gridly or Lokalise."
+    },
+    {
+      "title": "Decide how translators see context",
+      "text": "Ask every shortlisted vendor how a translator sees a line in the game: screenshots, in-context preview or character limits. Crowdin lists in-context preview, and Alconost offers localization testing after translation. Send two vendors the same ten tricky strings and compare how many questions come back."
+    },
+    {
+      "title": "Get the full price in writing",
+      "text": "Request the cost for your string count and language list. Gridly states CMS from EUR 99 a month with TMS and CAT separate, and Lokalise states USD 149 and up monthly. Quote-only vendors must give a per-word or per-project figure. Watch for annual billing, such as Crowdin's organization plans, which locks in a year of cost."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best game localization platform in 2026?",
+      "a": "Gridly is our first pick because it is built for game content, states pricing from EUR 99 a month and has a 14-day trial. Crowdin is better when you want a free plan and Git sync, and Lokalise is better when you want fixed monthly prices and AI tooling."
+    },
+    {
+      "q": "Is there a free game localization tool?",
+      "a": "Crowdin states a free plan is available, and Smartling shows a Free to Start entry on its plans page. Limits differ and are not fully shown on the pages we opened, so confirm the string and project caps before relying on either."
+    },
+    {
+      "q": "Should I use a platform or hire a localization company?",
+      "a": "A platform gives you control and lower recurring cost but needs someone to manage translators. A company such as Keywords Studios, Lionbridge or Alconost supplies linguists and testing for a quoted fee. Studios often use a platform for strings and a company for audio or final testing."
+    },
+    {
+      "q": "How much does game localization software cost?",
+      "a": "Entry prices on the pages we opened are EUR 99 a month for Gridly CMS, USD 149 a month for Lokalise and a free plan at Crowdin. Transifex charges for AI-translated words, and several vendors publish nothing. Translator fees are extra on every platform."
+    },
+    {
+      "q": "Can machine translation be used for games?",
+      "a": "Several platforms offer it: Smartling lists 20+ LLMs and machine translation engines, Phrase lists machine translation, and Transifex bills AI-translated words. Studios usually add human review, since tone, humor and character names rarely survive raw output."
+    },
+    {
+      "q": "What are translator-friendly features in a game localization tool?",
+      "a": "Look for in-context preview, quality checks and the ability to see surrounding strings. Crowdin lists in-context preview and built-in QA checks, Phrase lists quality evaluation, and Smartling lists an LQA Agent. These cut review rounds."
+    },
+    {
+      "q": "Do these tools work with Unity or Unreal?",
+      "a": "None of the opened pages state an engine plugin outright. Gridly offers an API and Crowdin offers 700+ integrations and Git sync, which studios commonly use to move strings in and out of an engine. Ask each vendor for a current plugin or sample project."
+    }
+  ],
+  "related": [
+    "best-playtesting-platforms",
+    "best-game-qa-and-test-automation-tools",
+    "best-ai-npc-and-dialogue-platforms",
+    "best-game-audio-middleware"
+  ],
+  "tools": [
+    {
+      "slug": "gridly",
+      "name": "Gridly",
+      "site": "https://www.gridly.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Localization platform built for game content and string tables",
+      "best_for": "Studios managing spreadsheet-like game text",
+      "pricing": "Gridly lists CMS from EUR 99 a month with 3 seats and extra seats at EUR 29; TMS and CAT are priced separately, and a 14-day trial covers all modules.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "Content management",
+        "Translation management",
+        "Computer-assisted translation",
+        "Automation",
+        "API",
+        "Localization Agent"
+      ],
+      "summary": "Describes itself as tailor-made for game development, with a grid-style content system and published starting prices.",
+      "verdict": "Gridly calls itself a localization platform tailor-made for multilingual game development and content projects, and game localization is one of its listed use cases. It combines a content management system, translation management and computer-assisted translation, with automation and an API. The pricing page states the CMS starts at EUR 99 a month for 3 seats, with extra seats at EUR 29, and offers a 14-day trial of every module. Having prices printed and a game-first pitch put it at the top of this list.",
+      "weaknesses": "TMS and CAT modules are priced separately, and the price shown on the opened page was cut off, so total cost for a full stack needs a quote. The opened pages do not describe engine plugins.",
+      "wrong_for": "Teams buying translation work rather than software should consider Alconost or Keywords Studios, which supply linguists.",
+      "sources": [
+        {
+          "fact": "The pricing page says the Content Management System starts at EUR 99 per month with 3 seats included and extra seats at EUR 29 per month.",
+          "url": "https://www.gridly.com/pricing/"
+        },
+        {
+          "fact": "The pricing page offers a 14-day trial of all Gridly modules.",
+          "url": "https://www.gridly.com/pricing/"
+        },
+        {
+          "fact": "The homepage lists Content Management, Translation Management and Computer-Assisted Translation as core capabilities.",
+          "url": "https://www.gridly.com/"
+        }
+      ]
+    },
+    {
+      "slug": "crowdin",
+      "name": "Crowdin",
+      "site": "https://crowdin.com/",
+      "company": "Crowdin",
+      "country": "",
+      "tagline": "Localization management with Git sync and in-context preview",
+      "best_for": "Studios with developers syncing text from Git",
+      "pricing": "Crowdin says a free plan is available, with paid Team and Enterprise plans and a Contact Sales option; organization plans are billed annually only.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "Git integrations",
+        "700+ apps and integrations",
+        "Built-in QA checks",
+        "In-context preview",
+        "Over-the-air mobile updates"
+      ],
+      "summary": "Free plan, Git sync, built-in QA checks and in-context preview, listing games among the content types it supports.",
+      "verdict": "Crowdin lists games alongside software, mobile apps, websites and documentation as content it handles. It offers Git integrations for automated sync, 700+ apps and integrations, built-in QA checks, branch-based translation management and an in-context preview of translated UI, which helps translators see where a string appears. A free plan exists. The about page says the founder is still sole owner and claims 270K+ projects and 3.4M+ registered users. It earns second place for the free plan and the context tooling translators need.",
+      "weaknesses": "The page does not name any game engine plugin, and organization plans are billed annually only. User and project counts on the about page are vendor claims we could not verify.",
+      "wrong_for": "A studio that wants one vendor to handle both software and professional translation should look at Smartling or Keywords Studios.",
+      "sources": [
+        {
+          "fact": "Crowdin's pricing page says a free plan is available and that organization plans are billed annually only.",
+          "url": "https://crowdin.com/pricing"
+        },
+        {
+          "fact": "Crowdin describes itself as an AI-powered localization platform with custom workflows, vendor management and 700+ apps and integrations.",
+          "url": "https://crowdin.com/"
+        },
+        {
+          "fact": "Crowdin's about page claims 270K+ localization projects and 3.4M+ registered users.",
+          "url": "https://crowdin.com/about"
+        }
+      ]
+    },
+    {
+      "slug": "lokalise",
+      "name": "Lokalise",
+      "site": "https://lokalise.com/",
+      "company": "Lokalise",
+      "country": "",
+      "tagline": "AI localization platform with published monthly plans",
+      "best_for": "Product-style teams wanting AI and integrations",
+      "pricing": "Lokalise lists Explorer at USD 149, Growth at USD 379 and Advanced at USD 1,049 per month billed monthly, with Enterprise by demo and a free 14-day trial without a credit card.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "AI stack with custom profiles",
+        "AI scoring",
+        "MCP server",
+        "Translation API",
+        "Figma, GitHub, GitLab and Jira integrations"
+      ],
+      "summary": "Publishes monthly prices from USD 149, with AI scoring, workflows and a translation API.",
+      "verdict": "Lokalise connects to a product content ecosystem and deploys translations continuously, according to its homepage. It publishes three monthly prices, USD 149, USD 379 and USD 1,049, plus an Enterprise tier by demo, and every plan starts with a 14-day trial. Features include custom AI profiles, AI scoring, an MCP server, a translation API and integrations with Figma, GitHub, GitLab and Jira. It claims 3,000+ companies and launched in 2017. Clear numbers earn third place; the opened pages do not mention games.",
+      "weaknesses": "Nothing on the opened pages mentions games, string tables for dialogue or engine plugins. The lowest monthly price of USD 149 may be high for a solo developer with a small string count.",
+      "wrong_for": "Game-specific content workflows are better served by Gridly; teams with few languages may find Crowdin's free plan cheaper.",
+      "sources": [
+        {
+          "fact": "Lokalise lists Explorer at USD 149 per month, Growth at USD 379 per month and Advanced at USD 1,049 per month when billed monthly.",
+          "url": "https://lokalise.com/pricing/"
+        },
+        {
+          "fact": "Lokalise says all plans come with a free 14-day trial and no credit card is required.",
+          "url": "https://lokalise.com/pricing/"
+        },
+        {
+          "fact": "Lokalise's about page says it was launched in 2017 and is a language-tech B2B SaaS company.",
+          "url": "https://lokalise.com/about/"
+        }
+      ]
+    },
+    {
+      "slug": "phrase",
+      "name": "Phrase",
+      "site": "https://phrase.com/",
+      "company": "Phrase",
+      "country": "",
+      "tagline": "Enterprise localization suite with translation quality scoring",
+      "best_for": "Studios with large localization programs",
+      "pricing": "Phrase lists Business, Developer and designer, and Freelancer and LSP plans with a 14-day trial; the Premium Success Plan and higher tiers are custom, and prices can show in EUR, USD, GBP and CZK.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "Translation management system",
+        "Software localization",
+        "Machine translation",
+        "Quality evaluation",
+        "MCP server"
+      ],
+      "summary": "TMS, software localization and quality evaluation under one vendor, with a 14-day trial.",
+      "verdict": "Phrase describes itself as AI-powered localization and translation software for global companies, with a TMS, software localization, machine translation, quality evaluation, a translation portal and an MCP server. The pricing page lists three self-serve plan families and custom premium tiers, shows currencies in EUR, USD, GBP and CZK, and gives every plan a 14-day trial. GitHub, Figma and Contentful appear as integrations. It sits fourth because the opened pages do not mention games, though quality scoring helps with long string lists.",
+      "weaknesses": "No game focus is stated on the opened pages, and plan prices are not shown there. Higher tiers are custom, which suits larger programs more than small studios.",
+      "wrong_for": "Indie teams with a few thousand strings will find Gridly or Crowdin easier to start with.",
+      "sources": [
+        {
+          "fact": "Phrase's pricing page says all pricing plans come with a 14-day free trial of the Phrase Localization Platform.",
+          "url": "https://phrase.com/pricing/"
+        },
+        {
+          "fact": "Phrase's pricing page lists Business, Developer and designer, and Freelancer and LSP plans, and shows the Premium Success Plan with custom pricing.",
+          "url": "https://phrase.com/pricing/"
+        },
+        {
+          "fact": "Phrase's homepage lists an MCP server and a Software Localization use case.",
+          "url": "https://phrase.com/"
+        }
+      ]
+    },
+    {
+      "slug": "transifex",
+      "name": "Transifex",
+      "site": "https://www.transifex.com/",
+      "company": "Transifex",
+      "country": "",
+      "tagline": "Translation management with a single usage-priced plan",
+      "best_for": "Teams paying by AI-translated words",
+      "pricing": "Transifex says one plan includes every capability and customers pay for AI-translated words at a rate that improves with volume; human review and post-editing do not count toward usage.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Continuous localization",
+        "Translation QA",
+        "Transifex AI",
+        "Developer CLI and SDKs",
+        "Webhooks",
+        "46+ integrations"
+      ],
+      "summary": "Lists Game Localization as a use case, with a CLI, SDKs and a usage-based plan.",
+      "verdict": "Transifex combines a translation management system with its own AI, aimed at product, localization, developer and marketing teams. Its homepage lists Game Localization among use cases, along with a developer CLI, SDKs, webhooks and 46+ integrations. The pricing model is unusual: one plan includes everything, and customers pay for AI-translated words, while human review and post-editing do not count toward usage. That suits studios that review machine output heavily. It ranks fifth because the opened pages give no rates and no engine plugins.",
+      "weaknesses": "Per-word rates are not shown on the pages we opened, so cost is unpredictable until you ask. A free plan is not stated, and the pages do not name any game engine integration.",
+      "wrong_for": "Teams that prefer a fixed monthly price should look at Lokalise or Gridly.",
+      "sources": [
+        {
+          "fact": "Transifex describes itself through a TMS and Transifex AI, with product teams, localization teams, developer teams and translators as target users.",
+          "url": "https://www.transifex.com/"
+        },
+        {
+          "fact": "Transifex's pricing page says every capability is included in one plan and customers pay for AI-translated words, with human review and post-editing not counted toward usage.",
+          "url": "https://www.transifex.com/pricing"
+        },
+        {
+          "fact": "Transifex's homepage lists Game Localization as one of its use cases and lists 46+ integrations.",
+          "url": "https://www.transifex.com/"
+        }
+      ]
+    },
+    {
+      "slug": "smartling",
+      "name": "Smartling",
+      "site": "https://www.smartling.com/",
+      "company": "Smartling",
+      "country": "",
+      "tagline": "Localization platform combining software with human linguists",
+      "best_for": "Publishers wanting platform plus translators",
+      "pricing": "Smartling shows a Free to Start entry and fully customizable plans on its plans page; no price figures appear on the opened page.",
+      "pricing_model": "",
+      "free_plan": "Free",
+      "platforms": "",
+      "features": [
+        "Translation management system",
+        "LQA Agent",
+        "50+ platform integrations",
+        "AI Hub with 20+ LLMs and MT engines",
+        "Analytics dashboards"
+      ],
+      "summary": "A TMS with AI options and a network it says includes 4,000+ linguists, rated a Forrester Wave Leader.",
+      "verdict": "Smartling describes an end-to-end localization and translation service with an all-in-one orchestration platform. Its homepage says it is a Leader in The Forrester Wave Localization Services, Q3 2026, claims a network of 4,000+ linguists and connects to 50+ software platforms. The AI Hub offers 20+ LLMs and machine translation engines, and a Free to Start entry appears on the plans page. For a publisher that wants software and people from one source it is workable. The opened pages do not mention games, so it ranks sixth.",
+      "weaknesses": "No game-specific features are listed and no prices appear on the opened plans page. Customizable plans mean a sales conversation before you learn cost.",
+      "wrong_for": "Studios that need games-specific string handling should pick Gridly; those buying pure services should look at Alconost.",
+      "sources": [
+        {
+          "fact": "Smartling describes itself as an end-to-end localization and translation services provider with an all-in-one translation orchestration platform.",
+          "url": "https://www.smartling.com/"
+        },
+        {
+          "fact": "Smartling's plans page lists a 'Free to Start' plan and says its plans are fully customizable for workflows, linguistic packages and reporting.",
+          "url": "https://www.smartling.com/plans"
+        },
+        {
+          "fact": "Smartling's homepage says it connects to 50+ software platforms to automate content flow.",
+          "url": "https://www.smartling.com/"
+        }
+      ]
+    },
+    {
+      "slug": "alconost",
+      "name": "Alconost",
+      "site": "https://alconost.com/",
+      "company": "Alconost",
+      "country": "",
+      "tagline": "Localization services with a QA platform called QACAT",
+      "best_for": "Studios buying translation and testing",
+      "pricing": "Alconost publishes approximate rates in US dollars per 1,000 source characters and per hour for proofreading and testing, and says quotes are given on request.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Game localization",
+        "Software localization",
+        "Localization QA",
+        "Machine translation post-editing",
+        "QACAT"
+      ],
+      "summary": "Translation, localization testing and QA for games and apps, with approximate public rates.",
+      "verdict": "Alconost lists game localization among its services and says it works in more than 120 languages. It offers localization testing and QA, machine translation post-editing and a QA platform called QACAT, and its work page lists 79 mobile and 13 PC gaming projects. The pricing page shows approximate dollar rates per 1,000 source characters, which is more openness than the larger vendors offer, though final quotes come on request. The company says it was founded in 2004. Seventh place reflects that it sells people more than a managed content system.",
+      "weaknesses": "Rates are approximate, and the opened pages describe no in-engine plugin or string table tool. The listing is a services company, so ongoing key management needs another platform.",
+      "wrong_for": "A team that wants a self-serve content system should choose Gridly or Crowdin.",
+      "sources": [
+        {
+          "fact": "Alconost says it was founded in 2004 by a software engineer.",
+          "url": "https://alconost.com/en/about"
+        },
+        {
+          "fact": "Alconost publishes approximate rates in US dollars per 1,000 source characters, and says a quote for localization is given on request.",
+          "url": "https://alconost.com/en/services/pricing"
+        },
+        {
+          "fact": "Alconost lists game localization as a service and says it translates into more than 120 languages.",
+          "url": "https://alconost.com/en/services/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "keywords-studios",
+      "name": "Keywords Studios",
+      "site": "https://www.keywordsstudios.com/",
+      "company": "Keywords Studios Limited",
+      "country": "",
+      "tagline": "Games services company with localization and QA arms",
+      "best_for": "Publishers outsourcing full localization",
+      "pricing": "Keywords Studios publishes no prices on the opened pages and routes visitors to Contact Us.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Game localization services",
+        "QA testing services",
+        "Game development services",
+        "Player engagement",
+        "AI solutions"
+      ],
+      "summary": "A services company, not a software product, covering localization, QA and development for video game clients.",
+      "verdict": "Keywords Studios is a services provider rather than a localization platform. The homepage lists game localization, QA testing, marketing, player engagement and development services, calls the company the number one technical and creative solutions provider to the global video games industry (a vendor claim), and lists Helpshift under its engagement services. For a studio that wants linguists, testers and project managers to take over a release, it is a fit. Eighth place reflects that you buy services by quote, with no self-serve platform.",
+      "weaknesses": "No prices are published and no tool or plugin is described on the opened pages. Small studios may find a full-service vendor more than they need.",
+      "wrong_for": "Teams that manage their own strings should look at Gridly or Crowdin instead.",
+      "sources": [
+        {
+          "fact": "The homepage describes Keywords Studios as the number one technical and creative solutions provider to the global video games industry.",
+          "url": "https://www.keywordsstudios.com/"
+        },
+        {
+          "fact": "The homepage lists Game Localization Services, QA Testing Services, Marketing Services and Player Engagement under its services.",
+          "url": "https://www.keywordsstudios.com/"
+        },
+        {
+          "fact": "The corporate page describes Keywords as a growth company trusted by the world's leading video game and entertainment companies.",
+          "url": "https://www.keywordsstudios.com/en/about-us/global-offer/corporate/"
+        }
+      ]
+    },
+    {
+      "slug": "lionbridge",
+      "name": "Lionbridge",
+      "site": "https://www.lionbridge.com/",
+      "company": "Lionbridge",
+      "country": "",
+      "tagline": "Translation company with a dedicated games division",
+      "best_for": "Publishers needing many languages",
+      "pricing": "Lionbridge publishes no prices on the opened pages and its games page offers Contact Us.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Game localization (40+ core languages)",
+        "Game audio",
+        "Player experience",
+        "Functional testing",
+        "Localization QA"
+      ],
+      "summary": "A services group with a games division covering localization, audio, testing and player experience.",
+      "verdict": "Lionbridge describes itself as a translation and localization expert, and its games page offers game localization across 40+ core languages and all genres. The games division also lists game audio, player experience, functional testing and localization quality assurance, and mentions Aurora AI. A studio releasing in many markets can place voice work, translation and testing with one vendor. Because it is quote-only and a services business, it ranks ninth.",
+      "weaknesses": "No prices are published, and the opened pages describe no self-serve platform or engine plugin. The 40+ core language count is the vendor figure.",
+      "wrong_for": "Studios wanting a string management tool should pick Gridly; small teams after cost clarity should check Alconost's approximate rates.",
+      "sources": [
+        {
+          "fact": "The Lionbridge games page offers game localization for 40+ core languages across all genres.",
+          "url": "https://games.lionbridge.com/"
+        },
+        {
+          "fact": "The games page lists Game Audio, Player Experience, Functional Testing and Localization Quality Assurance services.",
+          "url": "https://games.lionbridge.com/"
+        },
+        {
+          "fact": "The who-we-are page describes Lionbridge as providing global language solutions through translation technologies and a global community of in-market language professionals.",
+          "url": "https://www.lionbridge.com/who-we-are/"
+        }
+      ]
+    },
+    {
+      "slug": "transperfect-globallink",
+      "name": "TransPerfect GlobalLink",
+      "site": "https://www.transperfect.com/platforms/globallink/",
+      "company": "TransPerfect",
+      "country": "",
+      "tagline": "Enterprise localization platform for multilingual content",
+      "best_for": "Large enterprises with complex content",
+      "pricing": "No pricing is published on the opened pages.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Multilingual content creation",
+        "Localization at scale",
+        "Content management"
+      ],
+      "summary": "An enterprise platform said to be trusted by 6,000+ organizations, with no game material on the opened pages.",
+      "verdict": "GlobalLink is TransPerfect's enterprise localization platform for creating, localizing and managing multilingual content at scale. Its page says 6,000+ organizations trust it, and the company calls itself a worldwide tech, consulting and services leader. It is aimed at large content operations, and the pages we opened name no game features, engine plugins or price. A big publisher with an existing TransPerfect contract may find it useful, but it ranks tenth for studios.",
+      "weaknesses": "No game focus, no published price and a thin feature list on the opened pages. The enterprise orientation can be heavy for a team with a few hundred strings.",
+      "wrong_for": "Smaller studios should pick Crowdin for its free plan or Gridly for game-oriented content.",
+      "sources": [
+        {
+          "fact": "The GlobalLink page describes GlobalLink as an enterprise localization platform for creating, localizing and managing multilingual content at scale.",
+          "url": "https://www.transperfect.com/platforms/globallink/"
+        },
+        {
+          "fact": "The GlobalLink page states the platform is trusted by 6,000+ organizations worldwide.",
+          "url": "https://www.transperfect.com/platforms/globallink/"
+        },
+        {
+          "fact": "The TransPerfect about page describes the company as a worldwide tech, consulting, and services leader.",
+          "url": "https://www.transperfect.com/about-us/"
+        }
+      ]
+    },
+    {
+      "slug": "lingoport",
+      "name": "Lingoport",
+      "site": "https://wiki.lingoport.com/About_LRM",
+      "company": "Lingoport",
+      "country": "",
+      "tagline": "Localization workflow software now called Localyzer",
+      "best_for": "Developers tracking resource files",
+      "pricing": "The wiki page has a Licensing section but states no price.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Resource file handover",
+        "Translated file processing",
+        "Translation status by locale",
+        "Dashboard reports"
+      ],
+      "summary": "Software that tracks resource files and translation status, documented only through a wiki page we could open.",
+      "verdict": "Lingoport's Localyzer, formerly Lingoport Resource Manager, bridges software development and localization by tracking resource files and translations. The wiki says it hands resource files to translation, processes translated files and shows translation status by locale through a dashboard. Because the official homepage returned an error to our fetch tool, the wiki is the only vendor page we read. That is why it sits last: its fit for games is unconfirmed, though developers with resource-file pipelines may find it relevant.",
+      "weaknesses": "We could open only the wiki, which states no price, no platforms and no game features. The product was renamed, so older reviews may refer to it as the Resource Manager.",
+      "wrong_for": "Studios that need a game-oriented content system should start with Gridly.",
+      "sources": [
+        {
+          "fact": "Localyzer, formerly called Lingoport Resource Manager (LRM), is a software product that bridges the gap between software development and localization processes.",
+          "url": "https://wiki.lingoport.com/About_LRM"
+        },
+        {
+          "fact": "The Lingoport wiki describes the Lingoport Dashboard as consuming Localyzer's reports to show translation status by locale.",
+          "url": "https://wiki.lingoport.com/About_LRM"
+        },
+        {
+          "fact": "The Lingoport wiki page on Localyzer has a Licensing section, but no price is stated on the opened page.",
+          "url": "https://wiki.lingoport.com/About_LRM"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "slug": "refrag",
+    "name": "Refrag",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://refrag.gg/",
+    "company": "Refrag",
+    "hq": "",
+    "country": "Unknown",
+    "country_code": "",
+    "what_it_is": "A Counter-Strike 2 training and review platform with an AI coach, aim and utility trainers, scrims and a 2D demo viewer.",
+    "platforms": "Web; on-demand practice servers in 26 listed locations",
+    "pricing": "Core $5.83 per month billed annually ($8.50 monthly); Prime $11.5 per month annually ($15 monthly); Team $60 per month annually ($79 monthly) for 7 player slots.",
+    "pricing_model": "Subscription tiers",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Refrag Coach (AI, beta)",
+      "Aim trainers",
+      "Utility Hub",
+      "2D demo viewer",
+      "Scrim and Restrat",
+      "On-demand servers"
+    ],
+    "notable": [
+      "The page offers sign-up for free; paid tiers are listed."
+    ],
+    "facts": [
+      {
+        "fact": "Refrag says it explains why a player loses CS2 rounds, recommends training and builds routines from gameplay.",
+        "url": "https://refrag.gg/"
+      },
+      {
+        "fact": "Refrag lists Core at $5.83 per month billed annually ($8.50 monthly), Prime at $11.5 ($15 monthly) and Team at $60 ($79 monthly) with 7 player slots.",
+        "url": "https://refrag.gg/"
+      },
+      {
+        "fact": "Prime adds coach feedback after every match, scrims, Restrat, Utility Hub, detailed aim stats, a 2D demo viewer and Academy; Core lacks these.",
+        "url": "https://refrag.gg/"
+      }
+    ]
+  },
+  {
+    "slug": "skybox-edge",
+    "name": "Skybox Edge",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://skybox.gg/",
+    "company": "Skybox Technologies ApS",
+    "hq": "Copenhagen",
+    "country": "Denmark",
+    "country_code": "DK",
+    "what_it_is": "A CS2 analytics, replay and team preparation platform sold to teams, with broadcast tools sold separately.",
+    "platforms": "Web",
+    "pricing": "Tier 2 is EUR 350 per month or EUR 3,570 per year; Tier 1 is EUR 1,299 per month or EUR 11,400 per year; education licenses on request.",
+    "pricing_model": "Subscription tiers",
+    "free_plan": "None",
+    "key_features": [
+      "2D replayer",
+      "Team statistics",
+      "Voice comm integration",
+      "Role detection AI",
+      "Tactic-spotter AI (Tier 1)",
+      "Match reports (Tier 1)"
+    ],
+    "notable": [
+      "Licensed by Valve Corporation, per the footer."
+    ],
+    "facts": [
+      {
+        "fact": "Skybox describes CS2 analytics, replays and broadcast tools, with Skybox Edge helping teams improve, prepare and play.",
+        "url": "https://skybox.gg/"
+      },
+      {
+        "fact": "The footer names Skybox Technologies ApS, Copenhagen, Denmark, and says it is licensed by Valve Corporation.",
+        "url": "https://skybox.gg/"
+      },
+      {
+        "fact": "Skybox lists Tier 2 at EUR 350 per month or EUR 3,570 per year and Tier 1 at EUR 1,299 per month or EUR 11,400 per year; Tier 1 adds Tactic-spotter AI, tactic filters and match reports.",
+        "url": "https://skybox.gg/pricing/"
+      },
+      {
+        "fact": "Skybox says it offers licenses for schools and clubs running non-profit gaming programs.",
+        "url": "https://skybox.gg/pricing/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "slug": "twitchcon-san-diego-2026-announcements",
+  "title": "TwitchCon San Diego 2026: clips, hosting and Host Trains for streamers",
+  "date": "2026-11-13",
+  "description": "Twitch's TwitchCon San Diego 2026 roundup lists longer Clips, a VOD activity timeline, the return of Hosting with shared chat, Host Trains and Amazon Luna play-along tools.",
+  "source": {
+    "name": "Twitch Blog",
+    "url": "https://blog.twitch.tv/en/2026/11/13/twitchcon-san-diego-2026/"
+  },
+  "extra_sources": [],
+  "summary": [
+    "Twitch published a roundup of its TwitchCon San Diego 2026 Opening Ceremony announcements on November 13, 2026. On clips, Twitch says it is working to extend the maximum Clip length from 60 seconds to 5 minutes, let streamers combine several short Clips into one, and add a VOD timeline that highlights moments of peak chat or Hype Trains. It also says more than 400,000 channels had a Recap published since the Recaps relaunch two weeks earlier.",
+    "Hosting is returning in a new form. Later this year Twitch plans to experiment with a version that lets an offline streamer feature another live channel on their own page. Both communities share one chat, with a combined view that labels messages by channel or a view limited to the host channel's community. Twitch is also testing Host Trains, a rotating lineup of hosted channels on a timer, and says Hosting is expected to begin rolling out later this year.",
+    "The post also covers a returning Moments feature with channel-specific badges, and Amazon Luna tools that let streamers invite up to seven viewers into supported GameNight titles, with a Play on Luna button in testing."
+  ],
+  "why_it_matters": [
+    "Longer clips and an activity timeline matter most to teams that cut highlights from VODs, since finding the right moment is often the slow step. Hosting with a shared chat changes how small channels can cross-promote, and moderation settings will need to cover guests from the host channel's community.",
+    "Stream overlay, alert and chat tooling may need updates if shared chat becomes common, because messages will arrive from two communities. Check how your tools handle that once Hosting is live; see our [stream overlay and alert tools category](/software/best-stream-overlay-and-alert-tools) and [Twitch chat bots category](/software/best-twitch-chat-bots). Features marked as planned or in testing in the post may change before release."
+  ],
+  "related_categories": [
+    "best-clip-and-highlight-editors-for-streamers",
+    "best-stream-overlay-and-alert-tools",
+    "best-twitch-chat-bots"
+  ]
+}

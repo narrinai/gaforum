@@ -1,0 +1,22 @@
+{
+  "id": "swiss-or-double-elimination-for-an-online-open",
+  "board": "esports",
+  "title": "Swiss or double elimination for an online open event?",
+  "created": "2026-11-18T10:45:00Z",
+  "pinned": false,
+  "body": [
+    "Online opens attract uneven entries and unreliable attendance. Double elimination is familiar, while Swiss gives everyone several matches with a fixed number of rounds. Which format has worked for your event size, and why?",
+    "The [Bracket HQ homepage](https://brackethq.com/) says it builds brackets with single or double elimination and round robin formats, with live updates and score submission. Tools differ in whether they support Swiss pairings at all, so format support is a real selection criterion.",
+    "Share your entry count, how long you could run the event and what you did when a team did not show. Notes on how players reacted to the format are welcome."
+  ],
+  "related": [
+    {
+      "title": "Best Esports Tournament Management Software in 2026",
+      "url": "/software/best-esports-tournament-management-software"
+    },
+    {
+      "title": "Challonge Alternatives in 2026",
+      "url": "/alternatives/challonge"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "slug": "best-mobile-attribution-tools-for-games",
+  "name": "mobile attribution tools for games",
+  "title": "Best Mobile Attribution Tools for Games in 2026",
+  "group": "Game business",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Measurement partners and ad platforms that connect installs and in-game revenue back to the campaigns that paid for them, including iOS SKAdNetwork reporting.",
+  "definition": "A mobile attribution tool, often called a mobile measurement partner, matches each install and later in-game event to the ad campaign that drove it. It receives postbacks from ad networks, reads Apple's SKAdNetwork signals on iOS, filters fraud, and reports cost, revenue and retention by channel so a studio can decide where the next marketing dollar goes.",
+  "intro": "A game studio that buys installs needs to know which campaign produced paying players, not only downloads. That question gets harder on iOS, where Apple limits user-level data and attribution runs through SKAdNetwork. This page ranks ten tools by how well they answer it for small and mid-size studios. Seven are measurement partners in the strict sense. Three, Apple Search Ads, Moloco and Kayzen, are advertising platforms that report their own results, and they sit at the bottom for that reason. We read vendor homepages, pricing pages and about pages, and compared what each says about platforms covered, plans and fee structure. We did not run campaigns or send test installs. One planned vendor, Adjust, could not be opened during our check, so it is not ranked; Affise was added in its place after we read its pages.",
+  "criteria": [
+    {
+      "heading": "Price curve for a small install budget",
+      "text": "Attribution fees often grow per conversion or per tracked event, which punishes a game that tracks many in-app events. Look at the starting plan, what is included for free, and what happens past the included volume. A free tier or a trial lets you validate your setup before paying. Be careful with flat monthly minimums: if your spend is small, the tool can cost more than the ads it measures. Ask whether sandbox events count toward usage."
+    },
+    {
+      "heading": "Coverage beyond phones",
+      "text": "Many studios now ship on PC, console and the web as well as mobile, and want one measurement view. Some vendors name PC, console and connected TV attribution in their pages; others stick to apps and web. If you run cross-platform campaigns or cross-promote between a mobile title and a Steam release, check that the tool can tie those journeys together. Also check how deep linking works, since it drives reattribution when players return from a link."
+    },
+    {
+      "heading": "Handling of SKAdNetwork on iOS",
+      "text": "Apple's privacy framework turns attribution into modeled, delayed and aggregated data. Vendors differ on how they map conversion values to in-game revenue and retention events, and how clearly they explain the delay. Look for named support for SKAN, any consent management features and a plain explanation of conversion value setup. A tool that treats SKAN as a first-class feature spares you from writing the mapping logic and re-explaining the gaps to your marketing team."
+    },
+    {
+      "heading": "Fit with your ad stack and data pipeline",
+      "text": "Attribution only helps if the networks you buy from send data to it and your analysts can reach the output. Check the integration list, cost aggregation, raw data exports and API access. Some tools expose data to AI assistants through an MCP server, which can help small teams ask questions without building dashboards. Ad platforms that measure themselves are fast to start but do not compare channels fairly, so decide early whether you need a neutral third party."
+    }
+  ],
+  "market_notes": [
+    "Five of the ten tools show a price or a free allowance on pages we opened: AppsFlyer (a free Zero plan with 12K free conversions in the first year, then $0.07 per conversion on Growth), Tenjin (from $200 per month), Airbridge (from $40+ per month after a trial), Kayzen (three plans from $1,250 per month) and Affise (Performance plans from $499 per month yearly, though that product is affiliate tracking). Kochava lists a free tier without figures. Singular, Branch, Moloco and Apple Search Ads give no attribution prices, and Apple charges per tap instead.",
+    "The trade-off is neutrality against convenience. A dedicated measurement partner compares channels without a stake in the spend, but you pay per conversion or per month. Ad platforms such as Apple Search Ads, Moloco and Kayzen report inside their own walls and are cheaper to begin, yet they are the seller grading its own work. Only Airbridge, headquartered in Seoul, names a non-US base on its pages. Vendor-reported figures such as Branch's 3 billion-device network or Airbridge's 1,000+ brands are claims, not audited numbers."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Start from your monthly install spend",
+      "text": "Estimate how many attributed conversions you will generate in a month and multiply by each vendor's rate. AppsFlyer's $0.07 per conversion after the Welcome Package, Airbridge's $0.0001 per data point after the included 500K, and Tenjin's $200 starting plan behave very differently at ten thousand versus ten million events. Ask quote-only vendors for the same calculation in writing, and include any fees for fraud protection, raw data or support tiers."
+    },
+    {
+      "title": "Test one iOS campaign end to end",
+      "text": "Before you commit, run a small iOS campaign on a free tier or trial and check what the dashboard shows after the SKAN delay. Verify that conversion values map to your first purchase, day-seven retention or ad revenue event. If a vendor cannot show you the mapping and explain gaps in reporting, expect weeks of manual reconciliation later. Ask which ad networks you plan to buy from already have integrations."
+    },
+    {
+      "title": "Decide how much of the stack you want in one place",
+      "text": "Some tools add cost aggregation, LTV prediction, fraud prevention, ad monetization reporting or marketing mix modeling next to attribution. That consolidates vendors but raises switching cost. Others stay narrow and rely on your warehouse. If your team is two people, a broader suite may save hours each week; if you have an analyst, a narrower tool with clean exports may do. Pick before you integrate the SDK, since removing it later means a game update."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best mobile attribution tool for games in 2026?",
+      "a": "AppsFlyer is the broadest pick: a free Zero plan with 12K free conversions in the first year, attribution across mobile, web, CTV, PC and console, and fraud protection. Tenjin is better when a flat starting price from $200 per month and ad monetization reporting matter, and Airbridge is better for a lower entry price of $40+ per month."
+    },
+    {
+      "q": "Do I need an attribution tool if I only buy ads through Apple Search Ads?",
+      "a": "Not strictly. Apple Search Ads reports campaign results on its own and offers an Attribution API. A third-party tool becomes useful once you run several networks, because it compares them under one set of rules. Until then, Apple's own reporting can cover a single channel at no extra cost."
+    },
+    {
+      "q": "Is there a free mobile attribution option for a small studio?",
+      "a": "Yes, in a few cases. AppsFlyer's Zero plan is free with a Welcome Package of 12K free conversions for the first year. Kochava's home page offers a free tier called Free App Analytics, and Tenjin says it is free to start with pay-as-you-grow attribution. Airbridge offers a 30-day free trial before its $40+ Core plan."
+    },
+    {
+      "q": "What does SKAdNetwork mean for game marketers?",
+      "a": "SKAdNetwork is Apple's framework for measuring ad-driven installs without user-level identifiers. Results arrive aggregated and delayed, so your team cannot see each player's path. Singular, Kochava and Branch name SKAN support on their pages, and you should check how each maps conversion values to purchases and retention."
+    },
+    {
+      "q": "Can attribution tools measure PC and console campaigns too?",
+      "a": "Some can. AppsFlyer describes attribution across mobile, web, CTV, PC and console, and Airbridge lists mobile apps, web, PC, console and CTV. Singular's solutions menu includes PC and console as well. If you cross-promote a mobile title to a Steam release, these are the vendors to compare first."
+    },
+    {
+      "q": "Are Moloco and Kayzen attribution tools?",
+      "a": "Not in the measurement partner sense. Moloco runs AI-driven advertising for mobile apps and CTV, and Kayzen is a mobile-first demand-side platform. Both buy and optimize ads, and they report campaign results, but they are better paired with an independent measurement partner such as AppsFlyer or Singular than used instead of one."
+    },
+    {
+      "q": "How much does Kayzen cost compared with an attribution tool?",
+      "a": "Kayzen is priced as a DSP subscription: Starter at $1,250 per month with up to $10,000 ad spend, Pro at $5,750 and Enterprise at $15,000, each with an overage percentage. That is a media-buying cost, not a measurement fee, so compare it to a tool like Tenjin or Airbridge only after deciding you need a DSP."
+    }
+  ],
+  "related": [
+    "best-game-market-intelligence-tools",
+    "best-influencer-marketing-tools-for-games",
+    "best-game-payment-and-web-shop-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "appsflyer",
+      "name": "AppsFlyer",
+      "site": "https://www.appsflyer.com",
+      "company": "AppsFlyer",
+      "country": "",
+      "tagline": "Cross-platform attribution with a free starting plan",
+      "best_for": "Studios measuring mobile, PC and console",
+      "pricing": "Zero plan (free) includes core marketing analytics and a Welcome Package with 12K free conversions for the first year; Growth plan conversions cost $0.07 each after that.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free plan",
+      "platforms": "Mobile, web, CTV, PC and console",
+      "features": ["Mobile attribution", "Web attribution", "CTV attribution", "PC and console attribution", "Cross-platform measurement", "Fraud protection"],
+      "summary": "First because it combines a free starting plan with stated attribution across mobile, web, CTV, PC and console, plus fraud protection.",
+      "verdict": "AppsFlyer describes itself as a Modern Marketing Cloud for measurement, deep linking and marketing analytics across mobile, web, CTV and console. The pricing page makes the entry cost concrete: a free Zero plan with core analytics and a Welcome Package of 12K free conversions for the first year, no credit card needed, then $0.07 per conversion on Growth. For a small studio testing its first paid campaigns, that lowers risk. The cross-platform coverage suits teams moving players between a mobile game and a PC or console release.",
+      "weaknesses": "The free allowance covers only the first year, and a per-conversion price rises with every tracked event, so a game with many in-app events can see costs climb quickly. Other plan prices are on a comparison page we did not see in full.",
+      "wrong_for": "Studios wanting a fixed monthly bill should look at Tenjin or Airbridge. Teams buying only on Apple's network may not need a third party at all.",
+      "sources": [
+        {"fact": "AppsFlyer describes itself as a Modern Marketing Cloud for measurement, deep linking and marketing analytics across mobile, web, CTV and console.", "url": "https://www.appsflyer.com"},
+        {"fact": "AppsFlyer's free Zero plan includes a Welcome Package with 12K free conversions for the first year.", "url": "https://www.appsflyer.com/pricing/"},
+        {"fact": "After the Welcome Package, Growth plan conversions are priced at $0.07 each.", "url": "https://www.appsflyer.com/pricing/"},
+        {"fact": "AppsFlyer's pricing page says users can start for free with no credit card required.", "url": "https://www.appsflyer.com/pricing/"}
+      ]
+    },
+    {
+      "slug": "tenjin",
+      "name": "Tenjin",
+      "site": "https://tenjin.com",
+      "company": "Tenjin",
+      "country": "",
+      "tagline": "Attribution and analytics with ad monetization reporting",
+      "best_for": "Small teams wanting one analytics suite",
+      "pricing": "Flexible plans from $200 per month, according to the homepage; free to start with pay-as-you-grow attribution.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free",
+      "platforms": "",
+      "features": ["Mobile attribution", "Cost aggregation", "Ad monetization suite", "LTV prediction", "Fraud prevention", "Data pipelines", "MCP server"],
+      "summary": "Second because a stated $200 monthly starting plan, free entry and ad monetization reporting fit a small team that wants fewer tools.",
+      "verdict": "Tenjin positions itself as a mobile marketing analytics and attribution platform, and the product menu goes past install counting: cost aggregation, ROI measurement, LTV prediction, fraud prevention, an ad monetization suite and data pipelines. The homepage says plans start from $200 per month and that the service is free to start, with attribution that scales as you grow. It also lists an MCP Server for querying data, which suits small teams that would rather ask questions than build dashboards. Ad revenue reporting matters for hyper-casual and ad-funded games.",
+      "weaknesses": "The platform coverage is not listed on the homepage text we read, so PC and console support is unconfirmed. Pricing detail beyond the starting plan was not visible, and the broad suite means a longer evaluation than a narrow tool.",
+      "wrong_for": "Studios that need documented PC and console attribution should compare AppsFlyer or Airbridge. Teams that only need the lowest possible entry cost may prefer Airbridge.",
+      "sources": [
+        {"fact": "Tenjin describes itself as a mobile marketing analytics and attribution platform.", "url": "https://tenjin.com"},
+        {"fact": "Tenjin's plans start from $200 per month, according to its homepage.", "url": "https://tenjin.com"},
+        {"fact": "Tenjin's product menu includes fraud prevention and LTV prediction.", "url": "https://tenjin.com"},
+        {"fact": "The Tenjin homepage says the service is free to start, with pay-as-you-grow attribution.", "url": "https://tenjin.com"}
+      ]
+    },
+    {
+      "slug": "airbridge",
+      "name": "Airbridge",
+      "site": "https://airbridge.io/",
+      "company": "AB180 Inc.",
+      "country": "South Korea",
+      "tagline": "Low-entry-price measurement partner built in Seoul",
+      "best_for": "Studios wanting the lowest published entry price",
+      "pricing": "Core plan from $40+ per month after a 30-day free trial, with 500K data points included, then $0.0001 per data point; a Growth plan is also offered, with no annual contracts.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Mobile apps, web, PC, console, CTV",
+      "features": ["Mobile measurement partner", "Web and app tracking links", "Cross-platform attribution", "Paid ad campaign measurement"],
+      "summary": "Third because the $40+ monthly Core plan, no annual contract and PC and console coverage make it the cheapest published way in.",
+      "verdict": "Airbridge is a mobile measurement partner built by AB180 Inc., headquartered in Seoul. Its pricing page is the most open of the dedicated attribution vendors: Core starts at $40+ per month after a 30-day free trial, includes 500K data points, then charges $0.0001 per data point, and there are no annual contracts. The About page says it measures ads for 1,000+ brands in 30+ countries across mobile, web, PC, console and CTV, and it covers campaigns on Google, Meta, Apple Ads and TikTok. That suits a small studio watching cash.",
+      "weaknesses": "The figures on brands and countries are vendor claims, and the pages we read do not describe SKAN setup or deep linking in detail. Per-data-point billing can rise if a game tracks many events.",
+      "wrong_for": "Teams who want free usage beyond a trial should check AppsFlyer or Kochava. Studios wanting ad monetization and LTV tooling in the same product should see Tenjin.",
+      "sources": [
+        {"fact": "Airbridge is a mobile measurement partner built by AB180 Inc., headquartered in Seoul.", "url": "https://www.airbridge.io/en/about"},
+        {"fact": "Airbridge measures advertising across mobile, web, PC, console and CTV for 1,000+ brands in 30+ countries.", "url": "https://www.airbridge.io/en/about"},
+        {"fact": "The Core plan starts at $40+ per month after a 30-day free trial and includes 500K data points.", "url": "https://www.airbridge.io/en/pricing"},
+        {"fact": "After the included data points, Core is billed at $0.0001 per data point, with no annual contracts.", "url": "https://www.airbridge.io/en/pricing"}
+      ]
+    },
+    {
+      "slug": "singular",
+      "name": "Singular",
+      "site": "https://www.singular.net/",
+      "company": "Singular",
+      "country": "",
+      "tagline": "Attribution plus cost aggregation, SKAN and CTV",
+      "best_for": "Marketers consolidating spend data",
+      "pricing": "The pricing page's captured text shows no plan prices; it offers Let's Talk, Book a Demo and Start Free buttons.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Mobile, web, PC and console, and CTV (per the solutions menu)",
+      "features": ["Mobile attribution", "Marketing analytics", "Fraud prevention", "Deep linking", "Cost aggregation", "SKAdNetwork attribution"],
+      "summary": "Fourth because its SKAdNetwork, cost aggregation and CTV tools are named plainly, but plan prices are hidden behind a talk-to-us step.",
+      "verdict": "Singular calls itself an AI-powered attribution and analytics platform that unifies marketing data. Its solutions menu lists Mobile Attribution, SKAdNetwork Attribution, Deep Linking, CTV Attribution and Fraud Prevention, and cost aggregation is part of the feature set, which lets a growth team see spend and returns in one place. The homepage links comparison pages against AppsFlyer, Adjust, Branch and Kochava. A Start Free button hints at an entry point, though the captured pricing text shows no plan prices. Good for a marketer who wants cost and revenue joined.",
+      "weaknesses": "Plan prices are absent from the pricing text we read, and what the Start Free button includes is not stated. The comparison pages are the vendor's own, so they should not be read as neutral.",
+      "wrong_for": "Studios wanting published rates should look at Airbridge or Tenjin. Teams that want a free plan with a stated allowance should check AppsFlyer.",
+      "sources": [
+        {"fact": "Singular describes itself as an AI-powered attribution and analytics platform that unifies marketing data.", "url": "https://www.singular.net/"},
+        {"fact": "The solutions menu lists Mobile Attribution, SKAdNetwork Attribution, Deep Linking, CTV Attribution and Fraud Prevention.", "url": "https://www.singular.net/"},
+        {"fact": "The pricing page's captured text shows no plan prices; it offers Let's Talk, Book a Demo and Start Free buttons.", "url": "https://www.singular.net/pricing/"},
+        {"fact": "The homepage links comparison pages for Singular vs AppsFlyer, Adjust, Branch and Kochava.", "url": "https://www.singular.net/"}
+      ]
+    },
+    {
+      "slug": "kochava",
+      "name": "Kochava",
+      "site": "https://kochava.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Omnichannel measurement with a free app analytics tier",
+      "best_for": "Teams wanting free analytics and MMM",
+      "pricing": "The home page shows a free tier called Free App Analytics and a Compare Plans and Pricing link, with no specific prices; marketing mix modeling is priced by ad spend volume and number of unique models.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "iOS, Android and Huawei apps, connected TV, web and other platforms",
+      "features": ["Mobile measurement partner services", "Omnichannel attribution", "Real-time reporting", "Marketing mix modeling", "Fraud prevention", "SKAN and AAK for iOS"],
+      "summary": "Fifth because it offers a free tier and marketing mix modeling, with Huawei coverage, while hiding every price figure.",
+      "verdict": "Kochava describes itself as an omnichannel measurement and attribution platform for advertisers and publishers, and its home page says it was founded in 2011. Coverage includes iOS, Android and Huawei apps plus connected TV and web, with SKAN and AAK support on iOS, consent management and AI-powered fraud prevention. A free tier, Free App Analytics, gives a studio a way in, and marketing mix modeling is offered for teams whose spend has outgrown last-click views. Huawei support matters if you publish in China-adjacent app stores.",
+      "weaknesses": "No concrete prices appear on the page, including for the paid plans behind the Compare Plans link, and what the free tier excludes is not spelled out. The Starcom CTV figure of 20M+ impressions is a vendor case-study claim.",
+      "wrong_for": "Studios needing a clear paid price list should pick Airbridge or Tenjin. Teams that live on PC and console should compare AppsFlyer first.",
+      "sources": [
+        {"fact": "Kochava describes itself as an omnichannel measurement and attribution platform for advertisers and publishers.", "url": "https://kochava.com/"},
+        {"fact": "Kochava's home page says the company was founded in 2011.", "url": "https://kochava.com/"},
+        {"fact": "Kochava's home page offers a free tier called 'Free App Analytics' with a 'Start Free' button, and lists no specific prices.", "url": "https://kochava.com/"},
+        {"fact": "Kochava's home page says its attribution covers iOS, Android and Huawei apps, plus connected TV, web and other platforms.", "url": "https://kochava.com/"}
+      ]
+    },
+    {
+      "slug": "branch",
+      "name": "Branch",
+      "site": "https://branch.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Deep linking and journey attribution across ads, web and app",
+      "best_for": "Games with heavy web-to-app flows",
+      "pricing": "No prices shown on the home page; it links to a Pricing section that was not opened.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "App, web, CTV and iOS (SKAN) measurement; Android is not explicitly named on the home page",
+      "features": ["Mobile attribution", "Web and cross-platform attribution", "SKAN and iOS measurement", "CTV attribution", "Deep linking", "Fraud protection"],
+      "summary": "Sixth because its journey-linking strength suits web-to-app flows, yet its customers are mostly non-gaming and no price appears.",
+      "verdict": "Branch describes itself as a platform that connects every customer journey across ads, email, SMS, social, web, app and chat. Attribution covers mobile, web, cross-platform, SKAN and iOS, and CTV, and the home page says it connects 80+ tools in a growth stack. Deep linking is the long-standing core, which matters when a game sends players from a website, creator link or email straight into a specific in-game screen. The customer list names Western Union, T-Mobile, Under Armour, PUMA and KFC, and cites a 3 billion-device network.",
+      "weaknesses": "No customer on the home page is a game company, no price or free plan is shown, and Android is not explicitly named in the text we read. The 3 billion-device network is a vendor claim.",
+      "wrong_for": "Studios wanting a visible price should choose Airbridge or Tenjin. Teams focused on install attribution alone, without web journeys, may find AppsFlyer simpler.",
+      "sources": [
+        {"fact": "Branch describes itself as a platform that connects every customer journey across ads, email, SMS, social, web, app and chat.", "url": "https://branch.io/"},
+        {"fact": "Branch's home page lists attribution for mobile, web, cross-platform, SKAN and iOS, and CTV.", "url": "https://branch.io/"},
+        {"fact": "Branch's home page shows no prices and no free plan; it links to a Pricing section.", "url": "https://branch.io/"},
+        {"fact": "Branch's home page names Western Union, T-Mobile, Under Armour, PUMA and KFC among its customers.", "url": "https://branch.io/"}
+      ]
+    },
+    {
+      "slug": "affise",
+      "name": "Affise",
+      "site": "https://www.affise.com/",
+      "company": "Affise",
+      "country": "",
+      "tagline": "Partner marketing platform with a mobile attribution product",
+      "best_for": "Studios running affiliate and network traffic",
+      "pricing": "Affise Performance plans run from $499 per month on yearly billing ($625 monthly) with a 14-day trial; the mobile attribution product is sold through Talk to an expert and is not priced in the opened text.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Mobile apps (mobile attribution product); affiliate tracking for web and app campaigns",
+      "features": ["Mobile attribution (MMP)", "Affise Performance partner tracking", "Affise Reach marketplace", "Fraud prevention", "Affise Pay payouts", "DataFusion"],
+      "summary": "Seventh because its attribution product is secondary to affiliate tracking, and the printed prices apply to the latter.",
+      "verdict": "Affise is a partner marketing platform whose homepage also presents Affise MMP, a mobile measurement partner product for marketers and mobile application developers. Its main business is affiliate and partner tracking: the pricing page lists Beginner, Core, Expand and Custom plans for Affise Performance, from $499 to $1,999 per month on yearly billing, each with a 14-day trial. The homepage claims 1,000+ customers. A studio that buys installs through affiliate networks and pays partners by performance can keep tracking and payouts in one tool.",
+      "weaknesses": "The printed prices are for the affiliate product, not the mobile attribution one, and its homepage text does not detail SKAN, PC or console coverage. Game-specific references are absent from the pages we opened.",
+      "wrong_for": "Studios whose spend is mostly on ad networks and Apple should pick AppsFlyer or Singular. Those wanting a cheap start should see Airbridge.",
+      "sources": [
+        {"fact": "Affise's homepage presents Affise MMP (Mobile Measurement Partner) and a Mobile Attribution product for marketers and mobile application developers.", "url": "https://www.affise.com/"},
+        {"fact": "The homepage says Affise is trusted by 1,000+ customers worldwide.", "url": "https://www.affise.com/"},
+        {"fact": "The pricing page lists Affise Performance plans Beginner, Core, Expand and Custom, from $499 per month on yearly billing ($625 monthly) up to $1,999 ($2,499 monthly), each with a 14-day trial.", "url": "https://affise.com/pricing/"}
+      ]
+    },
+    {
+      "slug": "apple-search-ads",
+      "name": "Apple Search Ads",
+      "site": "https://ads.apple.com/app-store/",
+      "company": "Apple",
+      "country": "",
+      "tagline": "App Store ad placements with its own reporting and Attribution API",
+      "best_for": "iOS-only studios buying store search ads",
+      "pricing": "Cost-per-tap pricing; set-price amounts are not on the page. Eligible developers who sign up get a 100 USD credit, subject to terms and conditions.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "App Store placements: Today tab, Search tab, Search Results and Product Pages",
+      "features": ["Flexible creative options", "Maximize Conversions strategy", "Campaign management API", "Attribution API", "Insights analytics", "Apple Ads Basic"],
+      "summary": "Eighth because it is an ad channel with its own attribution rather than a neutral measurement partner, though the Attribution API helps.",
+      "verdict": "Apple's Apple Ads page says it helps drive downloads with flexible ad placement and campaign management options across the Today tab, Search tab, Search Results and Product Pages. It prices by cost-per-tap, so you pay only when customers engage, and offers a 100 USD credit to try it. A campaign management API and an Attribution API give a studio a way to tie taps to installs inside Apple's own data. For a team buying only App Store search, that can be enough, and it costs nothing beyond the ad spend.",
+      "weaknesses": "It measures only its own channel and cannot compare Apple against other networks. The page gives no set price amounts, and the credit is subject to terms. It covers App Store placements only.",
+      "wrong_for": "Studios buying on several networks need a neutral partner such as AppsFlyer or Singular. Android-first teams get nothing from it.",
+      "sources": [
+        {"fact": "Apple's Apple Ads page says it helps drive app downloads with flexible ad placement and campaign management options.", "url": "https://ads.apple.com/app-store/"},
+        {"fact": "Apple's Apple Ads page says ads run on the App Store across the Today tab, Search tab, Search Results and Product Pages.", "url": "https://ads.apple.com/app-store/"},
+        {"fact": "Apple's Apple Ads page uses cost-per-tap pricing: 'Pay only when customers engage with your ad.'", "url": "https://ads.apple.com/app-store/"},
+        {"fact": "Apple's Apple Ads page offers 'Try it for free with a 100 USD credit', with full terms and conditions applying.", "url": "https://ads.apple.com/app-store/"}
+      ]
+    },
+    {
+      "slug": "kayzen",
+      "name": "Kayzen",
+      "site": "https://kayzen.io/",
+      "company": "Kayzen",
+      "country": "",
+      "tagline": "Mobile-first DSP with published subscription plans",
+      "best_for": "Studios buying programmatic app traffic",
+      "pricing": "Starter $1,250 per month (up to $10,000 ad spend, 15% overage), Pro $5,750 per month (up to $50,000, 13% overage), Enterprise $15,000 per month (up to $150,000, 10% overage).",
+      "pricing_model": "Subscription",
+      "free_plan": "None",
+      "platforms": "Mobile apps (app-to-app, app-to-web, web-to-app and web-to-web conversion paths)",
+      "features": ["Customer acquisition", "Retargeting", "Brand performance", "Video+ (Pro plan)", "Dashboard and reports with API", "CPM bid shading"],
+      "summary": "Ninth because it is a buying platform with published plan prices rather than an independent attribution tool.",
+      "verdict": "Kayzen describes itself as a mobile-first demand-side platform that lets apps, agencies, media buyers and brands run acquisition, retargeting and brand performance campaigns. Its pricing page is unusually explicit: three subscription plans with ad-spend ceilings and a stated overage percentage that falls as spend rises. The About page says it aims to democratize programmatic advertising with transparency and control. A studio that wants to run its own programmatic bidding, with a customizable dashboard and API, can see the cost structure before it starts.",
+      "weaknesses": "It buys media; it does not provide neutral attribution, so you still need a measurement partner to judge results. The entry plan at $1,250 per month is high for a studio spending a few thousand dollars on ads.",
+      "wrong_for": "Small budgets and teams wanting independent measurement should choose Airbridge or Tenjin. Studios that prefer managed performance buying may prefer Moloco.",
+      "sources": [
+        {"fact": "Kayzen describes itself as a mobile-first DSP enabling apps, agencies, media buyers and brands to run acquisition, retargeting and brand performance campaigns.", "url": "https://kayzen.io/"},
+        {"fact": "Kayzen's pricing page lists a Starter Plan at $1,250 per month with up to $10,000 ad spend per month.", "url": "https://kayzen.io/pricing"},
+        {"fact": "The pricing page lists a Pro Plan at $5,750 per month (quarterly term) and an Enterprise Plan at $15,000 per month (annual term).", "url": "https://kayzen.io/pricing"},
+        {"fact": "Each pricing plan has an overage: 15% above $10,000 on Starter, 13% above $50,000 on Pro and 10% above $150,000 on Enterprise.", "url": "https://kayzen.io/pricing"}
+      ]
+    },
+    {
+      "slug": "moloco",
+      "name": "Moloco",
+      "site": "https://www.moloco.com/",
+      "company": "Moloco, Inc.",
+      "country": "",
+      "tagline": "AI-driven user acquisition platform for apps and CTV",
+      "best_for": "Studios scaling performance campaigns",
+      "pricing": "Moloco Ads uses performance-based campaign pricing; overall pricing depends on product, campaign goals, market and level of advertising activity.",
+      "pricing_model": "Performance-based",
+      "free_plan": "Unknown",
+      "platforms": "Mobile apps and CTV",
+      "features": ["User acquisition", "Re-engagement", "Moloco SDK", "Performance CTV", "CARA ad recommendation architecture", "Simplified ad ops"],
+      "summary": "Tenth because it is an advertising engine with performance pricing, not a measurement tool, and shows few specifics.",
+      "verdict": "Moloco, Inc. offers Moloco Ads for performance marketers across mobile apps and CTV, and Moloco Commerce Media for retailers and marketplaces. The product list covers user acquisition, re-engagement, a Moloco SDK, performance CTV and its CARA ad recommendation architecture. Pricing is performance-based and depends on product, campaign goals, market and level of advertising activity. A mid-size studio ready to hand bidding to a machine-learning platform and judge it against an independent attribution report will find it relevant, with customer logos including TikTok.",
+      "weaknesses": "The page does not state a founding year, headquarters or ownership, and gives no price figures. Its commerce media product has little to do with games, and results need a separate measurement partner to verify.",
+      "wrong_for": "Studios needing independent attribution should pick AppsFlyer or Singular. Teams wanting a published price list should look at Kayzen.",
+      "sources": [
+        {"fact": "Moloco, Inc. offers Moloco Ads for performance marketers across mobile apps and CTV, and Moloco Commerce Media for retailers and marketplaces.", "url": "https://www.moloco.com/"},
+        {"fact": "Moloco Ads uses performance-based campaign pricing, per the page.", "url": "https://www.moloco.com/"},
+        {"fact": "The page says overall pricing depends on product, campaign goals, market and level of advertising activity.", "url": "https://www.moloco.com/"},
+        {"fact": "The page does not state a founding year, headquarters location or ownership.", "url": "https://www.moloco.com/"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "esports-data-feeds-for-stat-overlays",
+  "board": "esports",
+  "title": "How do you source match data for stat overlays?",
+  "created": "2026-11-18T10:59:00Z",
+  "pinned": false,
+  "body": [
+    "Stat overlays and live scoreboards need structured data, and the options range from manual entry to licensed feeds. How do you feed your overlays, and what did it cost you in time or money?",
+    "The [PandaScore site](https://www.pandascore.co/pricing) says all accounts start on a free plan with 1000 API requests per hour, and that stats plans start from 400 euros and 1000 euros per videogame per month. The [GameScorekeeper documentation](https://docs.gamescorekeeper.com/) lists endpoints for sports, competitions, stages and fixtures.",
+    "Share which games you cover, whether you used an API or a custom pipeline, and how reliable the data was during a live match."
+  ],
+  "related": [
+    {
+      "title": "Best Esports Broadcast Production Software in 2026",
+      "url": "/software/best-esports-broadcast-production-software"
+    },
+    {
+      "title": "Best Esports Tournament Management Software in 2026",
+      "url": "/software/best-esports-tournament-management-software"
+    }
+  ]
+}

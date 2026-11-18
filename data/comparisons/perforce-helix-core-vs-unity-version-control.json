@@ -1,0 +1,154 @@
+{
+  "a": "perforce-helix-core",
+  "b": "unity-version-control",
+  "a_name": "Perforce Helix Core",
+  "b_name": "Unity Version Control",
+  "a_site": "https://www.perforce.com/products/helix-core",
+  "b_site": "https://unity.com/solutions/version-control",
+  "category": "best-version-control-for-game-development",
+  "title": "Perforce Helix Core vs Unity Version Control: Which Fits Your Team in 2026?",
+  "description": "Perforce Helix Core (now branded P4) and Unity Version Control both handle large game assets. Compare free tiers, seat pricing, locking and hosting options.",
+  "intro": "Perforce Helix Core, branded P4 on the vendor's current pages, and Unity Version Control are both version control systems built for repositories full of large binary assets. P4 is free for up to 5 users and 20 workspaces, and Unity Version Control includes a free tier with three seats. Past those limits both charge per seat, so the decision rests on team size, engine, hosting and how your artists prefer to lock and merge files.",
+  "verdict": "Choose Perforce if your team is larger than a handful of people, ships on Unreal or a custom engine, or already has Perforce habits and tooling. Choose Unity Version Control if you work in Unity, want Editor integration and a cloud server you set up in minutes, or need branching with locking in one tool. Small teams can try either free first, because the free limits differ in shape.",
+  "pick_a": "Pick Perforce Helix Core if you want a long-established system with exclusive file locking, streams, proxy and edge servers, and named integrations across Unity, Unreal, Maya and Jenkins.",
+  "pick_b": "Pick Unity Version Control if you want an engine-agnostic system with deep Unity Editor integration, Smart Locks across branches and a choice between cloud and on-premises hosting.",
+  "rows": [
+    {
+      "label": "Company",
+      "a": "Perforce Software Inc.",
+      "b": "Unity Technologies."
+    },
+    {
+      "label": "What it is",
+      "a": "A version control platform for code and large digital assets.",
+      "b": "Scalable, engine-agnostic version control and source code management for game studios; previously Plastic SCM."
+    },
+    {
+      "label": "Pricing model",
+      "a": "Per user per month on P4 Cloud.",
+      "b": "Per seat per month after the free tier."
+    },
+    {
+      "label": "Free option",
+      "a": "Free for up to 5 users and 20 workspaces.",
+      "b": "Free tier with three seats and 5 GB-hour of storage."
+    },
+    {
+      "label": "Entry paid price",
+      "a": "P4 Cloud listed at $39 per user per month for teams under 100.",
+      "b": "Paid per seat after the fourth user; amount not on the opened page."
+    },
+    {
+      "label": "Locking",
+      "a": "Exclusive File Locking.",
+      "b": "Smart Locks that follow changes across branches, with custom lock rules."
+    },
+    {
+      "label": "Branching",
+      "a": "Streams for structured workflows.",
+      "b": "Full branching and merging for programmers; file-based workflows for artists."
+    },
+    {
+      "label": "Hosting",
+      "a": "P4 Cloud, plus proxy and edge servers.",
+      "b": "Cloud or on-premises seats and repositories."
+    },
+    {
+      "label": "Engine fit",
+      "a": "Integrations listed for Unity and Unreal Engine.",
+      "b": "Works with any engine including Unreal; deep Unity Editor integration."
+    },
+    {
+      "label": "Main limit",
+      "a": "Seat pricing climbs with team size.",
+      "b": "Per-seat amounts are not shown on the product page."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Two free tiers that are shaped differently",
+      "text": [
+        "Perforce says P4 is free for up to 5 users and 20 workspaces. A workspace is a client-side mapping of files, so a developer with a desktop, a laptop and a build machine uses several of the 20, and the cap is worth counting before you rely on it.",
+        "Unity Version Control includes a free tier with three free seats and 5 GB-hour of storage. The page says that after the fourth user you pay monthly per seat. A three-person team with a modest repository can stay free, but storage is the limit to watch because game repositories grow fast."
+      ]
+    },
+    {
+      "h2": "What you pay once you outgrow free",
+      "text": [
+        "Perforce lists P4 Cloud at $39 per user per month for teams under 100. That is the only published paid figure we found on the product page, and it applies to the cloud product, so a self-hosted deployment is priced separately. Ask for a quote if you need more than 100 users.",
+        "Unity does not print a per-seat amount on the Unity Version Control page. It points to a pricing link and the pay-as-you-go message. Open the Unity plans page and your own Unity account for the current rate before you compare totals, since this page cannot give you a monthly figure."
+      ]
+    },
+    {
+      "h2": "Locking and merge workflow",
+      "text": [
+        "Binary files such as textures, meshes and audio cannot be merged by hand, so locking is the feature artists notice. Perforce promotes Exclusive File Locking, which stops a second person editing a file that someone else has checked out, and fast syncs with delta transfers. Streams give a structured way to organize branches for release lines.",
+        "Unity Version Control's answer is Smart Locks, which the page says travel across branches until the change is checked in or merged back, and custom lock rules in a panel, including branch exclusion. The vendor also says it is the only VCS with both branching and locking, which is a claim you can test against Perforce Streams during a trial."
+      ]
+    },
+    {
+      "h2": "Hosting, engines and integrations",
+      "text": [
+        "Perforce lists integrations with GitHub, GitLab, Bitbucket, Jenkins, Unity, Unreal Engine, Visual Studio, Jira, Maya and Slack, and offers proxy and edge servers for distributed teams. The page names DNEG and Halon Entertainment as customers and claims it is trusted by 19 of the top 20 AAA game studios without naming them.",
+        "Unity Version Control works with any engine and integrates with Rider, TeamCity, Jenkins and Jira, with an Editor package for Unity projects. The page says you can host in the cloud or on your own servers and manage on-premises seats from the cloud dashboard."
+      ]
+    },
+    {
+      "h2": "A practical way to choose",
+      "text": [
+        "Count your people, your engine and your biggest asset type. A Unity team of three to ten that wants set-up inside the Editor will likely start with Unity Version Control. An Unreal studio, or any team that expects dozens of contributors and remote offices, should trial P4 with a proxy server before deciding.",
+        "Whichever you pick, test a clone of your real project on your slowest office connection, ask artists to run a week of lock and unlock, and write down what a new hire needs to learn."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Perforce Helix Core the same as P4?",
+      "a": "The vendor's current product page is titled P4 and describes P4 as a version control platform for code and large digital assets, at the Helix Core address. We use Perforce Helix Core and P4 for the same product and follow the vendor's page for details."
+    },
+    {
+      "q": "Can a small team use either for free?",
+      "a": "Yes. P4 is free for up to 5 users and 20 workspaces, and Unity Version Control has a free tier with three seats and 5 GB-hour of storage. After those limits, both charge per seat."
+    },
+    {
+      "q": "Does Unity Version Control only work with Unity?",
+      "a": "No. The page calls it engine-agnostic and says it works with any engine, including Unreal. Unity projects get an extra package for use inside the Editor."
+    },
+    {
+      "q": "Which has the better file locking?",
+      "a": "Both lock files. Perforce offers Exclusive File Locking, and Unity offers Smart Locks that follow changes across branches. Which suits you depends on whether your artists work on branches or in a single mainline."
+    },
+    {
+      "q": "Can I host the server myself?",
+      "a": "Unity Version Control says you can host in the cloud or deploy on your own servers. Perforce offers P4 Cloud and proxy and edge servers; confirm self-hosted terms with the vendor."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "The Perforce page describes P4 as a version control platform for code and large digital assets, and lists Exclusive File Locking, Streams, and integrations with Unity, Unreal Engine, Jenkins and Maya.",
+      "url": "https://www.perforce.com/products/helix-core"
+    },
+    {
+      "fact": "The page says P4 is free for up to 5 users and 20 workspaces and lists P4 Cloud at only $39 per user per month for teams under 100.",
+      "url": "https://www.perforce.com/products/helix-core"
+    },
+    {
+      "fact": "The page names DNEG and Halon Entertainment as customers and says it is trusted by 19 of the top 20 AAA game studios.",
+      "url": "https://www.perforce.com/products/helix-core"
+    },
+    {
+      "fact": "Unity Version Control is a scalable, engine-agnostic version control and source code management tool, previously Plastic SCM.",
+      "url": "https://unity.com/solutions/version-control"
+    },
+    {
+      "fact": "The page states a free tier with three free seats and 5 GB-hour of storage, with monthly per-seat pricing after the fourth user.",
+      "url": "https://unity.com/solutions/version-control"
+    },
+    {
+      "fact": "The page describes Smart Locks, custom lock rules, cloud or on-premises hosting and integrations with Rider, TeamCity, Jenkins and Jira.",
+      "url": "https://unity.com/solutions/version-control"
+    }
+  ],
+  "slug": "perforce-helix-core-vs-unity-version-control",
+  "published": "2026-11-18"
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "game-analytics-kpis-explained",
+  "title": "Game Analytics KPIs Explained: Retention, ARPDAU and LTV",
+  "description": "Plain definitions of DAU, retention, ARPDAU, ARPPU and LTV, how GameAnalytics calculates them, and how to read the KPIs together instead of one at a time.",
+  "kind": "Field guide",
+  "topic": "Game development",
+  "published": "2026-11-18",
+  "intro": "Game analytics KPIs are a small set of ratios that describe whether players come back, whether they pay and how much they are worth: DAU counts daily active users, retention measures the share who return after install, ARPDAU divides revenue by daily actives, and LTV adds up what a player spends over time. Each number answers one question and hides another. This guide defines the common ones, shows how a real analytics platform calculates them and explains how to read them as a set instead of a scoreboard.",
+  "key_takeaways": [
+    "DAU, retention and revenue per user answer different questions; none of them is a verdict on its own.",
+    "Retention in GameAnalytics is strict: Day 7 counts users who returned on exactly day 7, not those who came back earlier.",
+    "ARPU, ARPPU and conversion rate together explain whether revenue growth comes from more payers or higher spend.",
+    "LTV is a forecast; the observed curve is cumulative revenue per user by days since install.",
+    "Definitions differ between tools, so write down the formula and time zone before comparing any two figures."
+  ],
+  "sections": [
+    {
+      "h2": "Why definitions matter before dashboards",
+      "paras": [
+        "The same label hides different formulas. One tool counts a day in the player's local time, another in UTC. One counts a returning player only if they came back on exactly day 7, another counts anyone active between day 7 and the end of the window. Compare two figures from different tools and you can end up comparing two different ideas.",
+        "So begin each analysis by writing down the formula, the time zone and the population. GameAnalytics documents these choices openly: its metrics page says it calculates metrics within UTC dates and hours, so daily numbers such as DAU or retention follow the UTC definition of a day. Look for the equivalent statement in whichever platform you use, and read it before you trust a trend line."
+      ]
+    },
+    {
+      "h2": "DAU, MAU and stickiness: who shows up",
+      "paras": [
+        "Daily active users, DAU, is the unique count of users who were active on a day. Monthly active users, MAU, is the same over a longer window, and GameAnalytics defines its DAU versus MAU metric as the percentage of monthly active users in the last 30 days who engaged today. People often call that ratio stickiness. A high ratio means a larger share of your monthly audience plays on any given day.",
+        "DAU alone rises with every marketing push and falls when the push ends, so it can mislead. Read it beside new versus returning users: GameAnalytics reports the ratio of users seen for the first time to users seen before. A DAU line that grows only through new installs tells a different story from one that grows through returning players."
+      ]
+    },
+    {
+      "h2": "Retention: the share that comes back",
+      "paras": [
+        "Retention reports the percentage of users who installed on a specific day and returned N days later. GameAnalytics writes it as DayN, where N is the number of days after install, and its documentation gives the example that Day 7 on a given date reports the percentage of that date's installers who returned 7 days later. The calculation is strict: a user counts as returning only if they revisit on the exact day N, and activity on earlier days is not considered.",
+        "Strict retention explains why Day 7 can sit below a looser measure of the same game. It also means cohorts are tiny on low-install days, so a single weekend can swing the line. The platform shows D1 through D7 and D14 by default and allows other days up to D90, and selecting one day lets you split by a dimension such as country. Check D1 for onboarding, D7 for the core loop and later days for content depth."
+      ]
+    },
+    {
+      "h2": "Session metrics: how deep the play is",
+      "paras": [
+        "Session count and playtime show how players use the game once they arrive. In GameAnalytics, session events fire automatically in most SDK setups, and the metrics include playtime per session, playtime per user and session counts based on start and end events. Short sessions are not a problem in a mobile game built for quick play, and long sessions are not good if players are stuck.",
+        "Pair session length with progression data. If many players end a session at the same level and never return, the level is the finding, not the session length. For this reason the platform's planning guide suggests tracking progression, resource and design events alongside business events, so you can explain a drop instead of only seeing it."
+      ]
+    },
+    {
+      "h2": "ARPU, ARPDAU and ARPPU: revenue per head",
+      "paras": [
+        "Three ratios split revenue by different populations. ARPDAU, average revenue per daily active user, divides revenue by the number of daily active users. ARPU is the more flexible version of the same idea, and in GameAnalytics ARPDAU for in-app purchases is marked legacy and replaced by ARPU. ARPPU, average revenue per paying user, divides in-app purchase revenue by the active users who paid at least once in the period.",
+        "Because they use different denominators, they move for different reasons. ARPDAU falls when you add many free players even if every payer spends as before. ARPPU rises if you sell a bigger bundle to a loyal minority. GameAnalytics also reports a conversion rate, the percentage of daily active users who made a purchase on that day. Read the three with the conversion rate, and you can say whether a revenue change came from more payers or from bigger spenders."
+      ]
+    },
+    {
+      "h2": "LTV: the number you forecast",
+      "paras": [
+        "Lifetime value, LTV, is the revenue a player is expected to generate over their time with the game. You never observe it complete, so you estimate it from the curve of cumulative revenue per user. GameAnalytics reports cumulative revenue per user on a given day as the in-app purchase revenue per user on day N since install. Day 7 reports the average for users who installed 7 days earlier, and the default lines are days 1 to 7 and 14, adjustable from D1 to D90.",
+        "Use those curves to see how fast cohorts earn and when the growth flattens. A forecast then extends the flattened curve to a longer horizon, and the assumptions behind that extension are the risky part. Keep your assumptions visible, update the forecast as new days arrive and compare cohorts from the same source and the same time of year before you declare a campaign profitable."
+      ]
+    },
+    {
+      "h2": "Read the KPIs as a chain",
+      "paras": [
+        "No KPI stands alone. A workable order is this: acquisition brings installs, onboarding shapes D1, the core loop shapes D7, retention feeds DAU, conversion and spend turn DAU into revenue, and cohort revenue becomes LTV. When a number moves, look one link earlier in the chain for the cause."
+      ],
+      "list": [
+        "Revenue fell: check DAU, then conversion rate, then ARPPU.",
+        "DAU fell: check new versus returning users, then retention by cohort.",
+        "D1 fell: check the build release date, the tutorial and technical errors.",
+        "LTV fell for a campaign cohort: compare retention and cumulative revenue per user by acquisition source before blaming the game.",
+        "Everything fell together: look for a crash, a store problem or a tracking outage first."
+      ],
+      "after": [
+        "Technical health matters here too. GameAnalytics tracks error and performance events, such as crashes and exceptions, so a drop in retention can be matched against a bad build."
+      ]
+    },
+    {
+      "h2": "Set up the events that feed the numbers",
+      "paras": [
+        "KPIs are only as good as the events behind them. GameAnalytics' implementation guide lists the main groups: session start and end events, progression, resource, business events for in-app purchases with real currency values, ad and impression events, error and performance events, and design events for anything custom such as opening the inventory. Use this checklist when you plan tracking."
+      ],
+      "list": [
+        "Pick the SDK for your engine and store the game key and secret key securely.",
+        "Confirm session events fire on a real device build.",
+        "Send business events with currency and amount for every purchase path.",
+        "Add progression events for each level or milestone you care about.",
+        "Add a small set of design events for key features, named consistently.",
+        "Test the events in a development build and verify they appear in the dashboard before launch."
+      ],
+      "ordered": true
+    },
+    {
+      "h2": "Choosing a platform and attribution",
+      "paras": [
+        "Platforms differ in what they calculate for you, how raw data can be exported and how they connect to ad networks. Our ranking of [game analytics software](/software/best-game-analytics-software) lays out the options, and the [mobile attribution tools](/software/best-mobile-attribution-tools-for-games) ranking covers the layer that ties installs to campaigns, which you need before comparing LTV by source. For test planning that comes before analytics, see our guide on [running a game playtest](/guides/how-to-run-a-game-playtest)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between ARPDAU and ARPU?",
+      "a": "Both divide revenue by active users. ARPDAU is tied to the daily active user count and is always reported per day. GameAnalytics describes ARPU as a more flexible version of ARPDAU and marks its in-app purchase ARPDAU metric as legacy, replaced by ARPU, so new reports should use ARPU."
+    },
+    {
+      "q": "Why does my Day 7 retention look lower than another tool's?",
+      "a": "Retention can be defined strictly or loosely. GameAnalytics counts a user as returning only if they come back on the exact day N, and it ignores activity on earlier days. A tool that counts any visit on or after day N will show a higher figure. Compare formulas before comparing numbers."
+    },
+    {
+      "q": "Is a higher conversion rate always better?",
+      "a": "Not on its own. A cheap starter pack can raise conversion while lowering ARPPU. Judge the change by total revenue per active user and by cumulative revenue per user for the cohort. Also check that early purchases do not reduce retention, which shows up in the D7 and later days."
+    },
+    {
+      "q": "How long do I need to wait before trusting LTV?",
+      "a": "You need enough cohort days to see the curve flatten. GameAnalytics lets you view cumulative revenue per user from D1 to D90. A forecast made from the first few days involves large assumptions, so treat early LTV as a range and update it as more days arrive."
+    },
+    {
+      "q": "Do KPIs mean the same thing for free-to-play and premium games?",
+      "a": "The formulas are the same, but the useful ones differ. A premium game sells once, so retention, session depth and refunds matter more than ARPDAU. A free-to-play game with in-app purchases and ads depends on conversion, ARPPU and ad revenue per user. Pick KPIs that match how your game earns."
+    }
+  ],
+  "related_categories": [
+    "best-game-analytics-software",
+    "best-mobile-attribution-tools-for-games"
+  ],
+  "related_guides": [
+    "how-to-run-a-game-playtest",
+    "how-to-plan-a-game-liveops-calendar"
+  ],
+  "sources": [
+    {
+      "title": "Metrics",
+      "url": "https://docs.gameanalytics.com/events-metrics-and-filtering/metrics/",
+      "publisher": "GameAnalytics Documentation"
+    },
+    {
+      "title": "Plan your SDK implementation",
+      "url": "https://docs.gameanalytics.com/getting-started/plan-your-sdk-implementation/",
+      "publisher": "GameAnalytics Documentation"
+    },
+    {
+      "title": "What is GameAnalytics?",
+      "url": "https://docs.gameanalytics.com/",
+      "publisher": "GameAnalytics Documentation"
+    }
+  ]
+}

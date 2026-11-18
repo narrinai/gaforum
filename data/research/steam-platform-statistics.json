@@ -1,0 +1,221 @@
+{
+  "slug": "steam-platform-statistics",
+  "title": "Steam Platform Statistics 2026",
+  "description": "Steam statistics from Valve's own pages: October 2026 hardware survey shares for Windows, Linux, GPUs, RAM and languages, plus catalog, community and most-played figures.",
+  "category": "best-game-market-intelligence-tools",
+  "published": "2026-11-18",
+  "intro": "In Valve's October 2026 Steam Hardware & Software Survey, Windows 11 64-bit ran on 72.51% of surveyed Steam machines, and Linux reached 3.95%, up 0.90 percentage points from September. The survey is optional and anonymous, so it describes participants, not every account. The figures below come from three Valve pages opened on 18 November 2026: the survey, the Steam about page and Steam Charts. Live counts are a snapshot of the moment of reading.",
+  "sections": [
+    {
+      "h2": "Operating systems",
+      "facts": [
+        {
+          "text": "Windows 11 64-bit was the most common operating system in the Steam survey for October 2026 at 72.51%, up 1.17 percentage points month over month.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Windows 10 64-bit fell 2.50 percentage points to 21.11% of surveyed Steam systems in October 2026.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "All Windows versions together accounted for 93.70% of Steam survey participants in October 2026, down 1.33 percentage points.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Linux reached 3.95% of Steam survey participants in October 2026, up 0.90 percentage points, while macOS stood at 2.35%.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "CachyOS was the most common Linux distribution in the October 2026 Steam survey at 0.65%, followed by SteamOS Holo at 0.55% and Arch Linux at 0.35%.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "h2": "Hardware: memory, graphics and displays",
+      "facts": [
+        {
+          "text": "Systems with 16 GB of RAM made up 41.42% of the October 2026 Steam survey, and 32 GB systems made up 37.06%, which fell 5.16 percentage points.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "The NVIDIA GeForce RTX 3060 was listed at 3.62% of surveyed systems in October 2026, ahead of the RTX 5070 at 3.56% and the RTX 4060 Laptop GPU at 3.40%.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Video cards with 8 GB of VRAM (26.92%) and 16 GB of VRAM (26.35%) were the two most common memory sizes in the October 2026 Steam survey.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "A primary display resolution of 1920 x 1080 was used by 50.23% of Steam survey participants in October 2026, while 2560 x 1440 fell 5.22 points to 21.82%.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "3840 x 2160 was the primary display resolution of 5.05% of surveyed Steam users in October 2026.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Systems with more than 1 TB of total drive space made up 48.62% of the October 2026 Steam survey, down 4.68 percentage points.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "h2": "Languages",
+      "intro": "Language shares move sharply from month to month because survey participation varies by region.",
+      "facts": [
+        {
+          "text": "English was the Steam interface language of 39.04% of survey participants in October 2026, up 4.84 percentage points.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Simplified Chinese accounted for 21.98% of Steam survey participants in October 2026, down 9.41 percentage points from the previous month.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Russian was the third most common Steam language in the October 2026 survey at 10.14%, followed by Spanish (Spain) at 4.83% and Portuguese (Brazil) at 4.46%.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "German accounted for 2.89% of the October 2026 Steam survey, ahead of French at 2.41%.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "h2": "Virtual reality",
+      "facts": [
+        {
+          "text": "1.75% of Steam survey participants had a VR headset connected in October 2026, up 0.40 percentage points.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "The Meta Quest 3 was the most-used VR headset in the October 2026 Steam survey at 27.27%, followed by the Oculus Quest 2 at 22.23% and the Quest 3S at 11.04%.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Valve Steam Frame appeared in the Steam survey at 5.49% of VR headset use in October 2026, up 4.94 percentage points.",
+          "source_name": "Valve, Steam Hardware & Software Survey (October 2026)",
+          "source_url": "https://store.steampowered.com/hwsurvey",
+          "year": "2026",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "h2": "Catalog, community and live activity",
+      "intro": "These numbers are live counters or marketing-page claims, read on 18 November 2026.",
+      "facts": [
+        {
+          "text": "Steam's about page showed 35,993,451 users online and 10,013,616 playing games at the moment it was opened on 18 November 2026.",
+          "source_name": "Valve, Steam About page (read 18 Nov 2026)",
+          "source_url": "https://store.steampowered.com/about/",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Valve describes the Steam catalog as nearly 30,000 games and its community as over 100 million potential friends.",
+          "source_name": "Valve, Steam About page (read 18 Nov 2026)",
+          "source_url": "https://store.steampowered.com/about/",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Steam's client supports 28 languages, and the storefront supports 100+ payment methods across over 35 currencies, according to Valve.",
+          "source_name": "Valve, Steam About page (read 18 Nov 2026)",
+          "source_url": "https://store.steampowered.com/about/",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Valve says Steam Workshop offers player-created mods and cosmetics for nearly 1,000 supported games.",
+          "source_name": "Valve, Steam About page (read 18 Nov 2026)",
+          "source_url": "https://store.steampowered.com/about/",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Counter-Strike 2 had 1,085,529 players in game on Steam Charts when read on 18 November 2026, ahead of PUBG: BATTLEGROUNDS at 690,594 and Dota 2 at 637,092.",
+          "source_name": "Valve, Steam Charts (read 18 Nov 2026)",
+          "source_url": "https://store.steampowered.com/charts/",
+          "year": "2026",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "methodology": [
+    "The three pages were opened on 18 November 2026 with a fetch tool: the Steam Hardware & Software Survey (showing October 2026), the Steam about page and Steam Charts. SteamDB returned an access error and is not used. Changes quoted from the survey are the change versus the previous month as printed by Valve.",
+    "The survey is voluntary and anonymous and covers participating Steam users, not all accounts. Live user counts change by the minute, so those facts describe a single moment. Rankings state only what the survey page listed and are not a complete list of all GPUs or languages."
+  ],
+  "faqs": [
+    {
+      "q": "How does Steam collect hardware survey data?",
+      "a": "Valve runs a monthly survey that participants can accept or decline, and the data is anonymous. Valve says it uses the results to decide on technology investments and products."
+    },
+    {
+      "q": "What share of Steam users run Linux?",
+      "a": "In the October 2026 survey, Linux reached 3.95% of participants, up 0.90 percentage points from the previous month. This is a survey share, not a count of accounts."
+    },
+    {
+      "q": "Why did Simplified Chinese drop so much in October 2026?",
+      "a": "The survey shows a 9.41 point decline to 21.98%, but it does not explain why. Participation mix by region varies from month to month, so avoid reading one month as a trend."
+    },
+    {
+      "q": "Which Steam numbers matter for developers?",
+      "a": "The hardware survey shows what players run, which informs minimum specs, while Steam Charts shows current concurrent play. For tracking competitors over time, a market intelligence tool stores history that these pages do not."
+    }
+  ],
+  "related_guides": []
+}

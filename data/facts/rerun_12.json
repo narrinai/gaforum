@@ -1,0 +1,1661 @@
+[
+  {
+    "slug": "coreweave",
+    "name": "CoreWeave",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://coreweave.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "CoreWeave is an AI cloud platform for training and serving AI models, offering GPU compute, CPU compute, networking and storage.",
+    "platforms": "Cloud infrastructure (GPU and CPU compute, AI object storage, managed Kubernetes)",
+    "pricing": "The pricing page lists on-demand GPU instance prices per hour (for example $42.00 per hour for one listed configuration, and spot prices for others); several rows say Contact sales.",
+    "pricing_model": "Usage-based",
+    "free_plan": "Unknown",
+    "key_features": [
+      "GPU compute",
+      "CPU compute",
+      "Bare metal compute",
+      "AI object storage",
+      "Dedicated storage",
+      "CoreWeave Kubernetes Service",
+      "Zero egress migration"
+    ],
+    "notable": [
+      "Founded in 2017 in New Jersey, per its About page",
+      "Publicly listed on Nasdaq since March 2025, per its About page",
+      "Pricing page offers on-demand and spot GPU instance prices per hour"
+    ],
+    "logo_hint": "https://cdn.prod.website-files.com/62ba1fb86485b6d5029975c4/676dd39272d1e888a56c48ad_logo_coreweave_solo_256x256.png",
+    "facts": [
+      {
+        "fact": "CoreWeave calls itself The Essential Cloud for AI and says it was founded in 2017.",
+        "url": "https://coreweave.com/about-us"
+      },
+      {
+        "fact": "CoreWeave was founded in New Jersey and has been publicly listed on Nasdaq since March 2025.",
+        "url": "https://coreweave.com/about-us"
+      },
+      {
+        "fact": "CoreWeave describes its platform as an AI cloud purpose-built for training and serving models at scale.",
+        "url": "https://coreweave.com/"
+      },
+      {
+        "fact": "The CoreWeave pricing page lists on-demand GPU instance prices per hour, for example $42.00 per hour, and some configurations are marked Contact sales.",
+        "url": "https://coreweave.com/pricing"
+      }
+    ]
+  },
+  {
+    "slug": "ubitus",
+    "name": "Ubitus",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://ubitus.ai/",
+    "company": "Ubitus K.K.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Ubitus is an AI and cloud gaming company offering cloud gaming and metaverse streaming solutions, GPU virtualization and AI robotics solutions.",
+    "platforms": "Cross-platform and cross-device cloud game streaming (as stated on the site)",
+    "pricing": "No prices are shown on the pages opened; the site presents enterprise and business solutions.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Cloud gaming streaming",
+      "GPU virtualization",
+      "Cloud streaming platform",
+      "AI applications",
+      "AI robotics solutions",
+      "Model deployment and training"
+    ],
+    "notable": [
+      "Founded in 2012, per its About page",
+      "Operations in Taipei, Tokyo and Malaysia, per its About page",
+      "States it is an NVIDIA Connect member"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Ubitus describes itself as an AI and cloud gaming company offering cloud gaming and metaverse, AI robotics and comprehensive AI solutions.",
+        "url": "https://ubitus.ai/"
+      },
+      {
+        "fact": "Ubitus was founded in 2012 and has operations in Taipei, Tokyo and Malaysia, according to its About page.",
+        "url": "https://ubitus.ai/en/about-us"
+      },
+      {
+        "fact": "Ubitus states that it is an NVIDIA Connect member and delivers GPU virtualization and cloud streaming platforms.",
+        "url": "https://ubitus.ai/"
+      },
+      {
+        "fact": "The Ubitus pages opened do not show prices; its About page lists game companies, telecom operators and fashion houses among its customers.",
+        "url": "https://ubitus.ai/en/about-us"
+      }
+    ]
+  },
+  {
+    "slug": "moonlight",
+    "name": "Moonlight",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://moonlight-stream.org",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Moonlight is an open source game streaming client that plays a user's PC games remotely on almost any device.",
+    "platforms": "Windows, macOS, Linux, Steam Link, Raspberry Pi 4, iOS, Apple TV, Android, Amazon FireOS, ChromeOS, Xbox One and Xbox Series S|X, plus several homebrew consoles and TVs",
+    "pricing": "The vendor site lists no price; Moonlight is described as an open source client.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Game streaming from a PC",
+      "Up to 4K streaming with HDR",
+      "Up to 120 FPS streaming",
+      "Self-hosted cloud gaming server (with Sunshine)",
+      "Open source client"
+    ],
+    "notable": [
+      "Open source implementation of NVIDIA's GameStream protocol",
+      "Streams up to 4K with HDR and up to 120 FPS, per the site",
+      "Client listed for Windows, macOS, Linux, Steam Link, iOS, Android and Xbox"
+    ],
+    "logo_hint": "https://moonlight-stream.org/images/moonlight.svg",
+    "facts": [
+      {
+        "fact": "Moonlight is an open source game streaming client that lets users play their PC games remotely on almost any device.",
+        "url": "https://moonlight-stream.org"
+      },
+      {
+        "fact": "Moonlight is an open source implementation of NVIDIA's GameStream protocol.",
+        "url": "https://moonlight-stream.org"
+      },
+      {
+        "fact": "The Moonlight site says it can stream at up to 4K with HDR and at up to 120 FPS with the PC client.",
+        "url": "https://moonlight-stream.org"
+      },
+      {
+        "fact": "The Moonlight site lists client downloads for Windows, macOS, Linux, Steam Link, iOS, Android, Amazon FireOS, ChromeOS and Xbox One and Xbox Series S|X.",
+        "url": "https://moonlight-stream.org"
+      }
+    ]
+  },
+  {
+    "slug": "sunshine",
+    "name": "Sunshine",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://github.com/SunshineStream/Sunshine",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Sunshine is a self-hosted game stream host for Moonlight, so a user's PC can stream games to Moonlight clients.",
+    "platforms": "Host software for the PC running the games (the GitHub repository and LizardByte site do not list the platforms in the text read)",
+    "pricing": "Open source under the GPL-3.0 license, per the GitHub repository.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Self-hosted game stream host",
+      "Works with Moonlight clients",
+      "Open source",
+      "Documentation in the repository"
+    ],
+    "notable": [
+      "Licensed under GPL-3.0, per the GitHub repository",
+      "Self-hosted game stream host for Moonlight, per the repository description"
+    ],
+    "logo_hint": "https://app.lizardbyte.dev/favicon.ico",
+    "facts": [
+      {
+        "fact": "Sunshine is a self-hosted game stream host for Moonlight, according to its GitHub repository description.",
+        "url": "https://github.com/SunshineStream/Sunshine"
+      },
+      {
+        "fact": "The Sunshine repository is licensed under GPL-3.0.",
+        "url": "https://github.com/SunshineStream/Sunshine"
+      },
+      {
+        "fact": "The LizardByte site describes its projects as self-hosted cloud gaming software, under the heading Discover the world of self-hosted cloud gaming!",
+        "url": "https://app.lizardbyte.dev"
+      }
+    ]
+  },
+  {
+    "slug": "steam-link",
+    "name": "Steam Link",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://store.steampowered.com/remoteplay",
+    "company": "Valve Corporation",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Steam Link is Valve's remote play option for streaming Steam games to other devices, presented on the Steam Remote Play page.",
+    "platforms": "",
+    "pricing": "No price is shown on the Remote Play page opened.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Remote play of Steam games"
+    ],
+    "notable": [
+      "Remote Play page is part of the Steam store",
+      "Copyright held by Valve Corporation"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "The Steam Remote Play page is titled Steam Remote Play and says: Play your games in exciting new ways with Steam Remote Play.",
+        "url": "https://store.steampowered.com/remoteplay"
+      },
+      {
+        "fact": "The Steam Remote Play page is part of the Steam store and is copyright Valve Corporation.",
+        "url": "https://store.steampowered.com/remoteplay"
+      },
+      {
+        "fact": "The Steam Remote Play page links to the Steam Mobile App.",
+        "url": "https://store.steampowered.com/remoteplay"
+      }
+    ]
+  },
+  {
+    "slug": "anydesk",
+    "name": "AnyDesk",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://support.anydesk.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "AnyDesk is a remote desktop software that users install as a client to access and control other computers, with licences sold per plan.",
+    "platforms": "",
+    "pricing": "Licences from Solo to Ultimate, managed as a subscription; the licence prices were not in the text read (the AnyDesk pricing pages returned HTTP 403).",
+    "pricing_model": "Subscription",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Remote access",
+      "Licence registration and management",
+      "Standard, Advanced and Ultimate licences"
+    ],
+    "notable": [
+      "Licences range from Solo to Ultimate, per the docs index",
+      "Help centre available in 10 languages"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "The AnyDesk help center covers getting started, pricing, licence and billing, and user guides for the AnyDesk client.",
+        "url": "https://support.anydesk.com"
+      },
+      {
+        "fact": "The AnyDesk documentation index lists AnyDesk licences from Solo to Ultimate.",
+        "url": "https://support.anydesk.com/llms.txt"
+      },
+      {
+        "fact": "The AnyDesk documentation index includes pages on purchasing a licence, registering it, managing the subscription and upgrading the licence.",
+        "url": "https://support.anydesk.com/llms.txt"
+      }
+    ]
+  },
+  {
+    "slug": "splashtop",
+    "name": "Splashtop",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.splashtop.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Splashtop provides remote access and remote support software for individuals, IT teams and enterprises, plus endpoint management.",
+    "platforms": "",
+    "pricing": "Plans from $6 per month (billed annually at $72) for the starting plan; $8.25 per user per month for individual users (billed annually at $99 per user); $13 per user per month (billed annually at $149 per user); $22 per month per concurrent tech licence (billed annually at $259 or $399). Some plans say Get Price Quote.",
+    "pricing_model": "Per user / month",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Remote access",
+      "Remote support",
+      "Enterprise SSO",
+      "On-prem option",
+      "Endpoint management",
+      "Real-time patch management (add-on)"
+    ],
+    "notable": [
+      "Plans from $6 per month, billed annually",
+      "Free trial offered on the pricing page",
+      "On-prem option for remote support and enterprise"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Splashtop offers remote access for individuals and small teams, remote support for IT teams, and enterprise remote access and support with SSO.",
+        "url": "https://www.splashtop.com"
+      },
+      {
+        "fact": "The Splashtop pricing page lists a starting plan at $6 per month, billed annually at $72.",
+        "url": "https://www.splashtop.com/pricing"
+      },
+      {
+        "fact": "The Splashtop pricing page lists $8.25 per user per month for individual users, billed annually at $99 per user, and offers a free trial.",
+        "url": "https://www.splashtop.com/pricing"
+      },
+      {
+        "fact": "The Splashtop pricing page lists $13 per user per month (billed annually at $149 per user) and $22 per month per concurrent tech licence.",
+        "url": "https://www.splashtop.com/pricing"
+      }
+    ]
+  },
+  {
+    "slug": "teamviewer",
+    "name": "TeamViewer",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.teamviewer.com/nl/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "TeamViewer is a remote access and digital workplace platform, with products for remote support, device management and enterprise operations.",
+    "platforms": "",
+    "pricing": "Annual subscriptions, paid and renewed yearly; a free 30-day trial is listed for the products on the pricing overview (page in Dutch; prices not read).",
+    "pricing_model": "Subscription",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Remote access",
+      "Remote support",
+      "Device monitoring and management",
+      "TeamViewer ONE platform",
+      "Digital employee experience (DEX)"
+    ],
+    "notable": [
+      "Annual subscriptions, per the pricing overview",
+      "Free 30-day trial listed for products"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "TeamViewer describes itself as a digital workplace platform with products including TeamViewer Remote, Tensor, DEX, Frontline and ONE.",
+        "url": "https://www.teamviewer.com/nl/"
+      },
+      {
+        "fact": "The TeamViewer pricing overview lists a free 30-day trial for its products.",
+        "url": "https://www.teamviewer.com/nl/pricing/overview/"
+      },
+      {
+        "fact": "TeamViewer says it offers annual subscriptions, which are paid and renewed on a yearly basis.",
+        "url": "https://www.teamviewer.com/nl/pricing/overview/"
+      }
+    ]
+  },
+  {
+    "slug": "jump-desktop",
+    "name": "Jump Desktop",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://jumpdesktop.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Jump Desktop is a fast, secure remote desktop app for connecting to any computer, with separate paths for individuals and teams.",
+    "platforms": "",
+    "pricing": "The home page links to a Pricing page, but the URL jumpdesktop.com/pricing returned HTTP 404 and no prices were read; Enterprise licensing is handled through business inquiries.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Remote desktop",
+      "Automatic setup",
+      "Teams product",
+      "Enterprise licensing"
+    ],
+    "notable": [
+      "Separate For Individuals and For Teams paths",
+      "Enterprise licensing via business inquiries"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Jump Desktop describes itself as fast, secure remote desktop for any computer.",
+        "url": "https://jumpdesktop.com"
+      },
+      {
+        "fact": "The Jump Desktop home page offers separate paths For Individuals and For Teams, and lists enterprise licensing.",
+        "url": "https://jumpdesktop.com"
+      },
+      {
+        "fact": "The Jump Desktop home page links to Teams documentation and a Teams security paper.",
+        "url": "https://jumpdesktop.com"
+      }
+    ]
+  },
+  {
+    "slug": "chrome-remote-desktop",
+    "name": "Chrome Remote Desktop",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://remotedesktop.google.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Chrome Remote Desktop is Google's remote access service for connecting to your own computer or sharing your screen.",
+    "platforms": "Access from a phone, tablet or another computer (as stated on the page)",
+    "pricing": "No price is shown on the page opened.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Access my computer",
+      "Share my screen",
+      "Real-time screen sharing",
+      "Remote support"
+    ],
+    "notable": [
+      "Connects to a home or work computer from a phone, tablet or another computer"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Chrome Remote Desktop lets users access their home or work computer remotely or share their screen with others.",
+        "url": "https://remotedesktop.google.com"
+      },
+      {
+        "fact": "The Chrome Remote Desktop page says it can be used from a phone, tablet or another computer.",
+        "url": "https://remotedesktop.google.com"
+      },
+      {
+        "fact": "The Chrome Remote Desktop page describes real-time screen sharing for collaboration and remote support.",
+        "url": "https://remotedesktop.google.com"
+      }
+    ]
+  },
+  {
+    "slug": "teamspeak",
+    "name": "TeamSpeak",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://teamspeak.com/en/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "TeamSpeak is a voice communication platform for gaming, business and communities, where users can run their own TeamSpeak server.",
+    "platforms": "",
+    "pricing": "Server hosting licences are described on the licensing page; TeamSpeak 6 server licences are being moved to myTeamSpeak. Prices were not in the text read.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Voice chat",
+      "One-to-one voice and video calls",
+      "Group chats",
+      "Military-grade voice encryption",
+      "Self-hosted servers"
+    ],
+    "notable": [
+      "TeamSpeak 6 adds one-to-one voice and video calls",
+      "Server licences managed in myTeamSpeak"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "TeamSpeak describes itself as the trusted voice communication platform for gaming, business and communities.",
+        "url": "https://teamspeak.com/en/"
+      },
+      {
+        "fact": "The TeamSpeak home page says one-to-one voice and video calls are now available in TeamSpeak 6.",
+        "url": "https://teamspeak.com/en/"
+      },
+      {
+        "fact": "The TeamSpeak licensing page says server licences for TeamSpeak 6 are being brought to myTeamSpeak.",
+        "url": "https://teamspeak.com/en/features/licensing/"
+      }
+    ]
+  },
+  {
+    "slug": "mumble",
+    "name": "Mumble",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.mumble.info",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Mumble is a free, open source, low latency voice chat application with a client and a server.",
+    "platforms": "Windows and macOS client and server downloads; Linux distributions package their own builds",
+    "pricing": "Free and open source, per the site description.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Low latency voice chat",
+      "High quality voice",
+      "Official client and server",
+      "Open source"
+    ],
+    "notable": [
+      "Free, open source voice chat application, per the site",
+      "Official Windows and macOS client and server downloads"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Mumble describes itself as a free, open source, low latency, high quality voice chat application.",
+        "url": "https://www.mumble.info"
+      },
+      {
+        "fact": "The Mumble downloads page offers official client and server programs, including Windows client and server and macOS downloads.",
+        "url": "https://www.mumble.info/downloads/"
+      },
+      {
+        "fact": "The Mumble site notes that Linux distributions may provide their own packages with their own maintainers.",
+        "url": "https://www.mumble.info/downloads/"
+      }
+    ]
+  },
+  {
+    "slug": "stoat",
+    "name": "Stoat",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://stoat.chat",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Stoat is an open-source group chat app for friends and communities, with servers, channels, voice chat and file sharing.",
+    "platforms": "Desktop downloads (including Apple Silicon) and an open web app",
+    "pricing": "Free and open source, now and forever, per the vendor site; no subscription is needed for the extras it lists.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Servers and channels",
+      "Voice chat",
+      "File sharing",
+      "Markdown support",
+      "Role-based permissions",
+      "Moderation tools"
+    ],
+    "notable": [
+      "Free and open source, now and forever, per the site",
+      "No ads and no data mining, per the site",
+      "20MB file upload limit, per the site"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Stoat is an open-source group chat app for friends and communities, with servers, channels, voice chat and file sharing.",
+        "url": "https://stoat.chat"
+      },
+      {
+        "fact": "Stoat says it is free and open source, now and forever.",
+        "url": "https://stoat.chat"
+      },
+      {
+        "fact": "Stoat says it has no ads and no data mining.",
+        "url": "https://stoat.chat"
+      },
+      {
+        "fact": "Stoat lists custom emojis, a 20MB file upload limit and server-specific profile pictures with no subscription required.",
+        "url": "https://stoat.chat"
+      }
+    ]
+  },
+  {
+    "slug": "steam",
+    "name": "Steam",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://store.steampowered.com",
+    "company": "Valve Corporation",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Steam is Valve's digital game store and community platform, with store, discovery, community and broadcast features.",
+    "platforms": "",
+    "pricing": "No prices are shown on the pages opened.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Game store",
+      "Community discussions",
+      "Workshop",
+      "Market",
+      "Broadcasts",
+      "Remote Play"
+    ],
+    "notable": [
+      "Operated by Valve Corporation, per the Remote Play page copyright",
+      "Steam Mobile App available"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "The Steam store home page is titled Welcome to Steam and lists the store, discovery queue, wishlist and community sections.",
+        "url": "https://store.steampowered.com"
+      },
+      {
+        "fact": "The Steam store links to Discussions, Workshop, Market and Broadcasts under its Community menu.",
+        "url": "https://store.steampowered.com"
+      },
+      {
+        "fact": "The Steam Remote Play page is copyright Valve Corporation.",
+        "url": "https://store.steampowered.com/remoteplay"
+      }
+    ]
+  },
+  {
+    "slug": "xbox-app",
+    "name": "Xbox app",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened: the Xbox app PC pages returned HTTP 301 and HTTP 404 on the URLs tried (xbox.com/en-US/xbox-app-for-pc, xbox.com/apps/xbox-app-for-pc, xbox.com/en-US/apps), and the xbox.com/en-US home page does not describe the app",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "telegram",
+    "name": "Telegram",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://telegram.org",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.",
+    "platforms": "Mobile and desktop apps",
+    "pricing": "No pricing is shown on the page opened; the page says the API and source code are free for everyone.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Rich text editor",
+      "Communities",
+      "Ephemeral messages in groups",
+      "Open API",
+      "350 million GIFs"
+    ],
+    "notable": [
+      "Open API and source code free for everyone, per the site",
+      "Cloud-based messaging with a focus on security and speed"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Telegram describes itself as a cloud-based mobile and desktop messaging app with a focus on security and speed.",
+        "url": "https://telegram.org"
+      },
+      {
+        "fact": "Telegram says it has an open API and source code free for everyone.",
+        "url": "https://telegram.org"
+      },
+      {
+        "fact": "The Telegram home page lists Communities and ephemeral messages in groups among its features.",
+        "url": "https://telegram.org"
+      }
+    ]
+  },
+  {
+    "slug": "reddit",
+    "name": "Reddit",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://redditinc.com/",
+    "company": "Reddit Inc",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Reddit is a platform of communities where people post, vote and comment on topics they are interested in.",
+    "platforms": "",
+    "pricing": "No pricing is shown on the pages opened (the reddit.com home page is rendered by JavaScript and returned almost no text).",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Communities",
+      "Posts, links, images and videos",
+      "Voting and comments"
+    ],
+    "notable": [
+      "Reddit Inc is the company operating the platform, per its homepage title",
+      "Millions of people post, vote and comment each day, per the company homepage"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "The Reddit Inc homepage says Reddit is home to thousands of communities and endless conversation.",
+        "url": "https://redditinc.com/"
+      },
+      {
+        "fact": "The Reddit Inc homepage says millions of people around the world post, vote and comment every day in communities organised around their interests.",
+        "url": "https://redditinc.com/"
+      },
+      {
+        "fact": "The Reddit Inc homepage says communities can share content by posting stories, links, images and videos.",
+        "url": "https://redditinc.com/"
+      }
+    ]
+  },
+  {
+    "slug": "matrix",
+    "name": "Matrix",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://matrix.org",
+    "company": "The Matrix.org Foundation",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Matrix is an open protocol for secure, decentralised communication, maintained by the Matrix.org Foundation.",
+    "platforms": "",
+    "pricing": "Open protocol; the site shows no commercial pricing.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Open protocol",
+      "Decentralised communication",
+      "Spec",
+      "Governing Board"
+    ],
+    "notable": [
+      "Open protocol for secure, decentralised communications, per the site",
+      "Governed by the Matrix.org Foundation with a Governing Board"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Matrix describes itself as the open protocol for secure decentralised communications.",
+        "url": "https://matrix.org"
+      },
+      {
+        "fact": "The Matrix.org site describes an open network for secure, decentralised communication.",
+        "url": "https://matrix.org"
+      },
+      {
+        "fact": "The Matrix.org site lists a Foundation section with a Governing Board and Governing Board Committees.",
+        "url": "https://matrix.org"
+      }
+    ]
+  },
+  {
+    "slug": "element",
+    "name": "Element",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://element.io/en",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Element is a secure collaboration and messaging product built on the Matrix standard, with self-hosted and enterprise options.",
+    "platforms": "Self-hosted and air-gapped deployments (as stated on the site)",
+    "pricing": "The self-hosted frontend and backend are free of charge; the Element Server Suite is priced per seat per month, and enterprise plans are on the pricing page.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "Self-hosted deployment",
+      "Element Server Suite",
+      "Air-gapped option",
+      "LTS releases every 6 months",
+      "The Matrix Standard"
+    ],
+    "notable": [
+      "Frontend and backend free of charge when self-hosted, per the plans page",
+      "Server suite priced per seat per month",
+      "LTS versions every 6 months, per the plans page"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Element describes itself as secure collaboration and messaging, with Element, Element Server Suite and self-hosted options.",
+        "url": "https://element.io/en"
+      },
+      {
+        "fact": "The Element plans page lists the self-hosted frontend and backend as free of charge.",
+        "url": "https://element.io/en/pricing"
+      },
+      {
+        "fact": "The Element plans page says the Element Server Suite is priced per seat per month.",
+        "url": "https://element.io/en/pricing"
+      },
+      {
+        "fact": "The Element plans page says LTS versions are released every 6 months, with backports of critical security fixes.",
+        "url": "https://element.io/en/pricing"
+      }
+    ]
+  },
+  {
+    "slug": "spacebar",
+    "name": "Spacebar",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://spacebar.chat",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Spacebar is a free and open source, self-hosted re-implementation of Discord's communication platform.",
+    "platforms": "Self-hosted server with a web app",
+    "pricing": "Free and open source, per the site.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Self-hosted",
+      "Open source",
+      "Discord-style chat",
+      "Docs and web app"
+    ],
+    "notable": [
+      "Free and open source re-implementation of Discord, per the site",
+      "Self-hosted communication platform"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Spacebar describes itself as a free and open source, full stack reverse engineering and re-implementation of Discord.",
+        "url": "https://spacebar.chat"
+      },
+      {
+        "fact": "Spacebar says it is a self-hosted, secure communication platform that users are already familiar with.",
+        "url": "https://spacebar.chat"
+      },
+      {
+        "fact": "The Spacebar site links to documentation, a web app and a GitHub repository.",
+        "url": "https://spacebar.chat"
+      }
+    ]
+  },
+  {
+    "slug": "mee6",
+    "name": "MEE6",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://mee6.xyz",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "MEE6 is a Discord bot for managing a server with leveling, moderation, and Twitch, YouTube and Reddit notifications.",
+    "platforms": "Discord",
+    "pricing": "A premium page exists on the site, but its text is rendered by JavaScript and no prices were readable.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Leveling",
+      "Moderation",
+      "Twitch notifications",
+      "YouTube notifications",
+      "Reddit notifications"
+    ],
+    "notable": [
+      "Manages a Discord server with leveling and moderation, per the site description"
+    ],
+    "logo_hint": "https://cdn-longterm.mee6.xyz/assets/og_image.png",
+    "facts": [
+      {
+        "fact": "MEE6 describes itself as a way to manage a Discord server with leveling, moderation, and Twitch, YouTube and Reddit notifications.",
+        "url": "https://mee6.xyz"
+      },
+      {
+        "fact": "MEE6 has a premium page on its site, but the text is rendered by JavaScript and no prices could be read.",
+        "url": "https://mee6.xyz/premium"
+      },
+      {
+        "fact": "The MEE6 site presents itself as a Discord bot.",
+        "url": "https://mee6.xyz"
+      }
+    ]
+  },
+  {
+    "slug": "dyno",
+    "name": "Dyno",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://dyno.gg",
+    "company": "Swift Media Entertainment",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Dyno is a modular Discord bot with web configuration, moderation, anti-spam, auto roles and custom commands.",
+    "platforms": "Discord",
+    "pricing": "A Get Premium option and a Battle Pass are shown on the site; no prices were in the text read.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Web configuration",
+      "Moderation",
+      "Anti-spam",
+      "Auto roles",
+      "Custom commands",
+      "Premium"
+    ],
+    "notable": [
+      "Copyright notice names Swift Media Entertainment",
+      "Offers Premium and a Battle Pass, per the site"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Dyno describes itself as a feature-rich and modular Discord bot with web configuration, moderation, anti-spam, auto roles and custom commands.",
+        "url": "https://dyno.gg/premium"
+      },
+      {
+        "fact": "The Dyno home page shows a Get Premium option and a Battle Pass.",
+        "url": "https://dyno.gg"
+      },
+      {
+        "fact": "The Dyno home page footer names Swift Media Entertainment as the copyright holder.",
+        "url": "https://dyno.gg"
+      }
+    ]
+  },
+  {
+    "slug": "carl-bot",
+    "name": "Carl-bot",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://carl.gg",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Carl-bot is a customizable, modular Discord bot with reaction roles, automod, logging and custom commands.",
+    "platforms": "Discord",
+    "pricing": "A premium page exists at carl.gg/premium, but its text is not rendered without JavaScript; no prices were read.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Reaction roles",
+      "Automod",
+      "Logging",
+      "Custom commands"
+    ],
+    "notable": [
+      "Fully customizable and modular Discord bot, per the site"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Carl-bot describes itself as a fully customizable and modular Discord bot with reaction roles, automod, logging, custom commands and more.",
+        "url": "https://carl.gg"
+      },
+      {
+        "fact": "The Carl-bot site is titled Carl-bot Dashboard.",
+        "url": "https://carl.gg"
+      },
+      {
+        "fact": "The Carl-bot premium page on carl.gg loads its content with JavaScript, so no prices were readable.",
+        "url": "https://carl.gg/premium"
+      }
+    ]
+  },
+  {
+    "slug": "wick",
+    "name": "Wick",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://wickbot.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Wick is a moderation and security Discord bot for keeping a server secure.",
+    "platforms": "Discord",
+    "pricing": "Premium and VIP plans are offered on the premium page; no prices were in the text read.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Moderation",
+      "Security",
+      "Premium and VIP plans"
+    ],
+    "notable": [
+      "Moderation and security Discord bot, per the site",
+      "Premium and VIP plans, per the premium page"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Wick's website describes it as the website of the moderation and security Discord bot, Wick.",
+        "url": "https://wickbot.com"
+      },
+      {
+        "fact": "The Wick premium page offers Premium and VIP plans to boost a server.",
+        "url": "https://wickbot.com/premium"
+      },
+      {
+        "fact": "The Wick premium page says: Iron out your Discord server and fully secure it. Go Premium.",
+        "url": "https://wickbot.com/premium"
+      }
+    ]
+  },
+  {
+    "slug": "sapphire",
+    "name": "Sapphire",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://sapph.xyz",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Sapphire is a Discord bot offering custom slash commands, auto moderation, reaction roles, logging and scheduled messages.",
+    "platforms": "Discord",
+    "pricing": "Completely free, per the site.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Custom slash commands",
+      "Buttons and select menus",
+      "Auto moderation",
+      "Reaction roles",
+      "Logging",
+      "Scheduled messages",
+      "Social notifications"
+    ],
+    "notable": [
+      "Completely free, per the site",
+      "Scheduled and triggered automated messages"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Sapphire describes itself as a Discord bot with custom slash commands, buttons, select menus, auto moderation and reaction roles.",
+        "url": "https://sapph.xyz"
+      },
+      {
+        "fact": "The Sapphire site says the bot is completely free.",
+        "url": "https://sapph.xyz"
+      },
+      {
+        "fact": "The Sapphire site lists scheduled messages and automated or triggered messages among its features.",
+        "url": "https://sapph.xyz"
+      }
+    ]
+  },
+  {
+    "slug": "arcane",
+    "name": "Arcane",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://arcane.bot",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Arcane is a Discord bot offering leveling, moderation, logging, custom commands and member count channels.",
+    "platforms": "Discord",
+    "pricing": "A premium page exists at arcane.bot/premium, but no prices were readable (the site renders with JavaScript).",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Leveling",
+      "Moderation",
+      "Logging",
+      "Custom commands",
+      "Member count channels"
+    ],
+    "notable": [
+      "Leveling, moderation, logging and custom commands, per the site description"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Arcane describes itself as a Discord bot offering leveling, moderation, logging, custom commands and member count channels.",
+        "url": "https://arcane.bot"
+      },
+      {
+        "fact": "The Arcane site is titled Arcane: The Best Discord Bot.",
+        "url": "https://arcane.bot"
+      },
+      {
+        "fact": "The Arcane premium page loads without readable text, so no prices could be read.",
+        "url": "https://arcane.bot/premium"
+      }
+    ]
+  },
+  {
+    "slug": "yagpdb",
+    "name": "YAGPDB",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://yagpdb.xyz",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "YAGPDB (Yet Another General Purpose Discord Bot) is an open source Discord bot that can also be self-hosted.",
+    "platforms": "Discord",
+    "pricing": "Open source and self-hostable; the site mentions a Premium subscription (price not read).",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "General purpose Discord bot",
+      "Self-hosting",
+      "Premium subscription"
+    ],
+    "notable": [
+      "Open source, can be self-hosted for more customization, per the site",
+      "Premium subscription mentioned on the site"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "YAGPDB stands for Yet Another General Purpose Discord Bot, per its site.",
+        "url": "https://yagpdb.xyz"
+      },
+      {
+        "fact": "The YAGPDB site says the bot is open source and can be hosted yourself for more customization.",
+        "url": "https://yagpdb.xyz"
+      },
+      {
+        "fact": "The YAGPDB site has a Premium section that describes a Premium subscription.",
+        "url": "https://yagpdb.xyz"
+      }
+    ]
+  },
+  {
+    "slug": "ticket-tool",
+    "name": "Ticket Tool",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://tickettool.xyz",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Ticket Tool is a highly customizable ticket bot for Discord that handles support requests for communities.",
+    "platforms": "Discord",
+    "pricing": "A premium page exists at tickettool.xyz/premium, but no prices were readable without JavaScript.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Support tickets",
+      "Customizable ticketing"
+    ],
+    "notable": [
+      "Described as the #1 Discord support bot in its page title"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Ticket Tool describes itself as an advanced, highly customizable ticket bot for handling community support.",
+        "url": "https://tickettool.xyz"
+      },
+      {
+        "fact": "The Ticket Tool home page is titled Ticket Tool - The #1 Discord support bot.",
+        "url": "https://tickettool.xyz"
+      },
+      {
+        "fact": "The Ticket Tool premium page loads without readable text, so no prices could be read.",
+        "url": "https://tickettool.xyz/premium"
+      }
+    ]
+  },
+  {
+    "slug": "zeppelin",
+    "name": "Zeppelin",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://zeppelin.gg",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Zeppelin is a moderation bot for Discord.",
+    "platforms": "Discord",
+    "pricing": "No prices were readable; the premium page loads its content with JavaScript.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [],
+    "notable": [
+      "Moderation bot for Discord, per the site title"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "The Zeppelin site is titled Zeppelin - Moderation bot for Discord.",
+        "url": "https://zeppelin.gg"
+      },
+      {
+        "fact": "The Zeppelin about page loads without readable text, so the feature list could not be read.",
+        "url": "https://zeppelin.gg/about"
+      },
+      {
+        "fact": "The Zeppelin premium page loads without readable text, so no prices could be read.",
+        "url": "https://zeppelin.gg/premium"
+      }
+    ]
+  },
+  {
+    "slug": "sesh",
+    "name": "Sesh",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://sesh.fyi",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Sesh is a calendar and event bot for Discord that helps communities schedule events.",
+    "platforms": "Discord",
+    "pricing": "A Premium tier is listed on the site; no prices were in the text read.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Calendar",
+      "Events",
+      "Availability polls",
+      "Premium"
+    ],
+    "notable": [
+      "Calendar and event bot for Discord, per the site title"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "The Sesh site is titled sesh.fyi - The best calendar and event bot for Discord.",
+        "url": "https://sesh.fyi"
+      },
+      {
+        "fact": "The Sesh site describes availability polls to find when everyone is free.",
+        "url": "https://sesh.fyi"
+      },
+      {
+        "fact": "The Sesh premium page lists a Premium tier, and no prices were in the text read.",
+        "url": "https://sesh.fyi/premium"
+      }
+    ]
+  },
+  {
+    "slug": "statbot",
+    "name": "Statbot",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://statbot.net",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Statbot is a server stats bot for Discord with channel counters, role rewards and personalized dashboards.",
+    "platforms": "Discord",
+    "pricing": "No prices were in the text read; the site renders with JavaScript.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Customizable channel counters",
+      "Automatic role rewards",
+      "Personalized dashboards"
+    ],
+    "notable": [
+      "Trusted by Discord communities and businesses, per the meta description"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Statbot describes itself as a server stats bot for Discord with customizable channel counters, automatic role rewards and personalized dashboards.",
+        "url": "https://statbot.net"
+      },
+      {
+        "fact": "The Statbot site says it is trusted by Discord communities and businesses.",
+        "url": "https://statbot.net"
+      },
+      {
+        "fact": "The Statbot site is titled Statbot | Discord Server Stats Bot.",
+        "url": "https://statbot.net"
+      }
+    ]
+  },
+  {
+    "slug": "giveaway-bot",
+    "name": "Giveaway Bot",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://giveawaybot.party",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "GiveawayBot is an open-source Discord bot for hosting automated giveaways on a server.",
+    "platforms": "Discord",
+    "pricing": "Open source; the site shows a Get Premium option.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Automated giveaways",
+      "Open source",
+      "Premium option"
+    ],
+    "notable": [
+      "Open-source Discord giveaway bot, per the site description"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "GiveawayBot describes itself as an open-source Discord giveaway bot that assists with hosting automated giveaways.",
+        "url": "https://giveawaybot.party"
+      },
+      {
+        "fact": "The GiveawayBot site says users can hold giveaways on their Discord server quickly and easily.",
+        "url": "https://giveawaybot.party"
+      },
+      {
+        "fact": "The GiveawayBot site shows a Get Premium option.",
+        "url": "https://giveawaybot.party"
+      }
+    ]
+  },
+  {
+    "slug": "tatsu",
+    "name": "Tatsu",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://tatsu.gg",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Tatsu is a Discord bot for building and managing a fun, inviting community server.",
+    "platforms": "Discord",
+    "pricing": "No prices were in the text read.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Community management"
+    ],
+    "notable": [
+      "Used by more than 1,350,000 Discord servers, per the site"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Tatsu describes itself as a way to turn a community into the place to be on Discord.",
+        "url": "https://tatsu.gg"
+      },
+      {
+        "fact": "The Tatsu site says more than 1,350,000 Discord servers use Tatsu to manage and build their communities.",
+        "url": "https://tatsu.gg"
+      },
+      {
+        "fact": "The Tatsu site is titled Tatsu - Build a Fun Discord Community.",
+        "url": "https://tatsu.gg"
+      }
+    ]
+  },
+  {
+    "slug": "battlefy",
+    "name": "Battlefy",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://battlefy.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Battlefy is an esports tournament platform used to start, manage and find tournaments.",
+    "platforms": "Web",
+    "pricing": "The pricing page is listed on the site, but its text is not readable without JavaScript; no prices were read.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Tournament creation",
+      "Tournament management",
+      "Tournament discovery"
+    ],
+    "notable": [
+      "Describes itself as the simplest way to start, manage and find esports tournaments"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Battlefy describes itself as the simplest way to start, manage and find esports tournaments.",
+        "url": "https://battlefy.com/"
+      },
+      {
+        "fact": "The Battlefy home page is titled Battlefy | Find and Organize Esports Tournaments.",
+        "url": "https://battlefy.com/"
+      },
+      {
+        "fact": "The Battlefy pricing page loads without readable text, so no prices could be read.",
+        "url": "https://battlefy.com/pricing"
+      }
+    ]
+  },
+  {
+    "slug": "challengermode",
+    "name": "Challengermode",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.challengermode.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Challengermode is a competition management platform for gaming that runs tournaments, matchmaking and gamification.",
+    "platforms": "200+ games in 80+ countries (as stated on the site)",
+    "pricing": "Free to start, per the site; a developer pricing page exists, but its prices were not readable.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "Tournaments",
+      "Matchmaking",
+      "Gamification"
+    ],
+    "notable": [
+      "Trusted by KRAFTON, Ubisoft, EA and BLAST, per the site",
+      "Covers 200+ games in 80+ countries, per the site"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Challengermode describes itself as a competition management platform for gaming, running tournaments, matchmaking and gamification.",
+        "url": "https://www.challengermode.com"
+      },
+      {
+        "fact": "The Challengermode site says it covers 200+ games and 80+ countries and is trusted by KRAFTON, Ubisoft, EA and BLAST.",
+        "url": "https://www.challengermode.com"
+      },
+      {
+        "fact": "The Challengermode site says it is free to start.",
+        "url": "https://www.challengermode.com"
+      },
+      {
+        "fact": "The Challengermode developer pricing page is titled Scalable, flexible pricing for any game; no prices were readable.",
+        "url": "https://www.challengermode.com/pricing/developers"
+      }
+    ]
+  },
+  {
+    "slug": "toornament",
+    "name": "Toornament",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.toornament.com/en_US/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Toornament is an esports competition platform with tools for organizers running tournaments.",
+    "platforms": "Web",
+    "pricing": "An organizer pricing page exists, but no prices were readable (the site renders with JavaScript).",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Competition management for organizers"
+    ],
+    "notable": [
+      "Describes itself as having everything needed for esports competitions"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Toornament's site describes itself as having everything needed for esports competitions.",
+        "url": "https://www.toornament.com/en_US/"
+      },
+      {
+        "fact": "The Toornament organizer pricing page is titled Organizers - A solution for all competition projects.",
+        "url": "https://www.toornament.com/en_US/pricing"
+      },
+      {
+        "fact": "The Toornament home page loads its content with JavaScript, so only the meta description was readable.",
+        "url": "https://www.toornament.com/en_US/"
+      }
+    ]
+  },
+  {
+    "slug": "start-gg",
+    "name": "start.gg",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.start.gg",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "start.gg is an esports tournament destination for creating, running, playing and watching tournaments.",
+    "platforms": "Web",
+    "pricing": "No prices were in the text read; the site renders with JavaScript.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Create tournament",
+      "Rankings",
+      "Shops",
+      "Fantasy",
+      "Developer portal"
+    ],
+    "notable": [
+      "Describes itself as the leading destination for esports tournaments, per its meta description"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "start.gg describes itself as the leading destination to create, run, play and watch esports tournaments.",
+        "url": "https://www.start.gg"
+      },
+      {
+        "fact": "The start.gg site has sections for Create Tournament, Rankings, Shops and Fantasy.",
+        "url": "https://www.start.gg"
+      },
+      {
+        "fact": "The start.gg site links to a Developer Portal and to its Terms of Service.",
+        "url": "https://www.start.gg"
+      }
+    ]
+  },
+  {
+    "slug": "challonge",
+    "name": "Challonge",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened: challonge.com, its /about and /pricing pages, help.challonge.com and support.challonge.com all returned HTTP 403; the only reachable page was the third-party-hosted Challonge API docs (challonge.apidog.io), which does not describe the product itself",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "faceit",
+    "name": "FACEIT",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://support.faceit.com/hc/en-us",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "FACEIT is an esports platform whose help center covers tournament organizers, tournament setup and clubs.",
+    "platforms": "",
+    "pricing": "Subscription packages are linked from the help center; the prices were not in the text read (the faceit.com main site returned HTTP 403).",
+    "pricing_model": "Subscription",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Tournament setup for organizers",
+      "Clubs",
+      "Subscription packages"
+    ],
+    "notable": [
+      "Help center covers organizers, setting up tournaments and clubs",
+      "Developer documentation at docs.faceit.com"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "The FACEIT help center is for organizers, covering how to set up tournaments and clubs.",
+        "url": "https://support.faceit.com/hc/en-us"
+      },
+      {
+        "fact": "The FACEIT help center has a section on subscriptions with information about its subscription packages.",
+        "url": "https://support.faceit.com/hc/en-us"
+      },
+      {
+        "fact": "FACEIT has a developer documentation site titled FACEIT for Developers.",
+        "url": "https://docs.faceit.com"
+      }
+    ]
+  },
+  {
+    "slug": "matcherino",
+    "name": "Matcherino",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://matcherino.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Matcherino runs esports tournaments with community-funded prize pools and tools for organizers.",
+    "platforms": "Web",
+    "pricing": "Free tools for organizers, per the site; prize pools are crowd-funded. Pricing page text was not readable.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "Brackets",
+      "Registration",
+      "Payouts",
+      "Sponsorships",
+      "Crowdfunding"
+    ],
+    "notable": [
+      "Free tools for organizers, per the meta description",
+      "Community-funded prize pools"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "Matcherino describes itself as a place to run and join esports tournaments with community-funded prize pools.",
+        "url": "https://matcherino.com"
+      },
+      {
+        "fact": "The Matcherino site describes free tools for organizers, including brackets, registration, payouts and sponsorships.",
+        "url": "https://matcherino.com"
+      },
+      {
+        "fact": "The Matcherino site describes a tournament tools and crowdfunding stack, with global payouts.",
+        "url": "https://matcherino.com"
+      }
+    ]
+  },
+  {
+    "slug": "playvs",
+    "name": "PlayVS",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://playvs.com/about-us/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "PlayVS provides infrastructure for amateur competitive gaming, mainly for schools.",
+    "platforms": "",
+    "pricing": "PlayVS Essential is listed on the site; prices were not in the text read.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Real-time stats",
+      "Coaching tools",
+      "On-demand support",
+      "School programs",
+      "PlayVS Essential"
+    ],
+    "notable": [
+      "Founded in 2018, per its About page",
+      "School programs for elementary, middle and high school"
+    ],
+    "logo_hint": "",
+    "facts": [
+      {
+        "fact": "PlayVS was founded in 2018 and says it provides the infrastructure that powers amateur competitive gaming.",
+        "url": "https://playvs.com/about-us/"
+      },
+      {
+        "fact": "The PlayVS About page says it offers the most popular titles, real-time stats, coaching tools and on-demand support.",
+        "url": "https://playvs.com/about-us/"
+      },
+      {
+        "fact": "The PlayVS site lists high school, middle school and elementary school gaming programs.",
+        "url": "https://playvs.com/about-us/"
+      }
+    ]
+  }
+]

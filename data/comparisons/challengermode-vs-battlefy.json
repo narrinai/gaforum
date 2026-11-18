@@ -1,0 +1,159 @@
+{
+  "slug": "challengermode-vs-battlefy",
+  "a": "challengermode",
+  "b": "battlefy",
+  "a_name": "Challengermode",
+  "b_name": "Battlefy",
+  "a_site": "https://www.challengermode.com",
+  "b_site": "https://battlefy.com/",
+  "category": "best-esports-tournament-management-software",
+  "title": "Challengermode vs Battlefy: Which Fits Your Team in 2026?",
+  "description": "Challengermode runs tournaments, matchmaking and gamification across 200+ games; Battlefy focuses on starting and finding tournaments. Compare scope and fit.",
+  "published": "2026-11-18",
+  "intro": "Challengermode is a competition management platform that covers tournaments, matchmaking and gamification, while Battlefy describes itself as the simplest way to start, manage and find esports tournaments. The two overlap on running a bracket and diverge on breadth. This page sets out what each vendor says about itself, notes that neither pricing page could be read as text, and suggests which organizer profile fits which platform: a game studio building a competitive layer, or a community admin who needs events online this month.",
+  "verdict": "A studio or publisher that wants matchmaking and gamification around tournaments has a clearer fit with Challengermode, which names those functions and lists large partners. A community organizer who mainly needs to open registration, run a bracket and let players discover the event can look first at Battlefy. Confirm prices directly, because neither pricing page gave readable figures.",
+  "pick_a": "Pick Challengermode if you want tournaments, matchmaking and gamification in one system and a free way to start across many games.",
+  "pick_b": "Pick Battlefy if your job is narrower: create an event, manage the bracket and make it findable by players who browse for tournaments.",
+  "rows": [
+    {
+      "label": "What it is",
+      "a": "Competition management platform for gaming",
+      "b": "Esports tournament platform to start, manage and find tournaments"
+    },
+    {
+      "label": "Core functions",
+      "a": "Tournaments, matchmaking, gamification",
+      "b": "Tournament creation, management and discovery"
+    },
+    {
+      "label": "Pricing model",
+      "a": "Freemium, per the site",
+      "b": "Not readable; the pricing page needs JavaScript"
+    },
+    {
+      "label": "Free entry",
+      "a": "The site says it is free to start",
+      "b": "Unknown from the pages opened"
+    },
+    {
+      "label": "Developer pricing",
+      "a": "A developer pricing page exists; figures not readable",
+      "b": "Not stated"
+    },
+    {
+      "label": "Game coverage",
+      "a": "200+ games in 80+ countries, per the site",
+      "b": "Not stated on the pages opened"
+    },
+    {
+      "label": "Named customers",
+      "a": "KRAFTON, Ubisoft, EA and BLAST, per the site",
+      "b": "None named on the pages opened"
+    },
+    {
+      "label": "Platform",
+      "a": "Web",
+      "b": "Web"
+    },
+    {
+      "label": "Discovery for players",
+      "a": "Not highlighted in the text opened",
+      "b": "Find tournaments is part of its description"
+    },
+    {
+      "label": "Main strength",
+      "a": "Breadth beyond brackets",
+      "b": "Focused tournament workflow"
+    },
+    {
+      "label": "Main limit",
+      "a": "Scope may exceed a one-off community event",
+      "b": "Fewer stated functions beyond tournaments"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Scope is the real difference",
+      "text": [
+        "Challengermode calls itself a competition management platform for gaming, and its site names three functions: tournaments, matchmaking and gamification. That reads like a system a studio plugs into a game to keep players competing between big events.",
+        "Battlefy's own line is that it is the simplest way to start, manage and find esports tournaments. Its home page title says Find and Organize Esports Tournaments. The emphasis is a tournament lifecycle: set one up, run it, and let players locate it."
+      ]
+    },
+    {
+      "h2": "Audience and track record claims",
+      "text": [
+        "Challengermode says it covers 200+ games in 80+ countries and is trusted by KRAFTON, Ubisoft, EA and BLAST. These are vendor statements from the home page, not figures we could check independently, but they show the audience it courts: publishers and large tournament operators.",
+        "The Battlefy pages we opened list no customers or game counts. That is not evidence of a smaller product, only of what the text revealed. Ask the vendor for references in your game before committing."
+      ]
+    },
+    {
+      "h2": "What we could not read",
+      "text": [
+        "Challengermode's site says it is free to start and links a developer pricing page titled Scalable, flexible pricing for any game. The page text gave no prices. Battlefy lists a pricing page that loads without readable text, so no figures were available to us.",
+        "Pricing therefore stays a question for each vendor's sales or help team. When you ask, request the cost per event, any fee on entry payments and what changes between a free and a paid plan, since those three items decide the budget of a recurring league."
+      ]
+    },
+    {
+      "h2": "Matching the platform to the organizer",
+      "text": [
+        "A game studio running seasons, ladders and rewards benefits from matchmaking and gamification features, because those sit beyond a single bracket. A student esports club running a monthly cup needs less: a registration page, a bracket and a way to report scores.",
+        "A third profile is the tournament organizer who sells to sponsors. For that person, discovery matters, because a listed event reaches players who were not already in the Discord server. Battlefy states that finding tournaments is part of its job."
+      ]
+    },
+    {
+      "h2": "Trial plan before choosing",
+      "text": [
+        "Create one small event on each platform with a dozen entrants. Time the setup, note which rules you could configure, and check how results are reported. Then ask whether your players would sign up again without a reminder.",
+        "See also the category overview: [best esports tournament management software](/software/best-esports-tournament-management-software)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Challengermode free?",
+      "a": "Its site says it is free to start and the model is freemium. A separate developer pricing page exists, but we could not read prices on it, so check the current plan terms."
+    },
+    {
+      "q": "What does Battlefy do?",
+      "a": "It describes itself as the simplest way to start, manage and find esports tournaments, so it covers creating events, running them and making them discoverable."
+    },
+    {
+      "q": "Which handles matchmaking?",
+      "a": "Challengermode names matchmaking among its core functions. Battlefy's opened pages mention tournaments only."
+    },
+    {
+      "q": "Do I need to install anything?",
+      "a": "Both are listed as web platforms, so organizers work in a browser."
+    },
+    {
+      "q": "Can I see prices for Battlefy?",
+      "a": "Its pricing page exists but loads without readable text, so we could not read any figure. Ask the vendor or open the page in a normal browser."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Challengermode describes itself as a competition management platform for gaming, running tournaments, matchmaking and gamification.",
+      "url": "https://www.challengermode.com"
+    },
+    {
+      "fact": "The Challengermode site says it covers 200+ games and 80+ countries and is trusted by KRAFTON, Ubisoft, EA and BLAST.",
+      "url": "https://www.challengermode.com"
+    },
+    {
+      "fact": "The Challengermode site says it is free to start.",
+      "url": "https://www.challengermode.com"
+    },
+    {
+      "fact": "The Challengermode developer pricing page is titled Scalable, flexible pricing for any game; no prices were readable.",
+      "url": "https://www.challengermode.com/pricing/developers"
+    },
+    {
+      "fact": "Battlefy describes itself as the simplest way to start, manage and find esports tournaments.",
+      "url": "https://battlefy.com/"
+    },
+    {
+      "fact": "The Battlefy pricing page loads without readable text, so no prices could be read.",
+      "url": "https://battlefy.com/pricing"
+    }
+  ]
+}

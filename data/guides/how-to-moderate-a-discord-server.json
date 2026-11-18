@@ -1,0 +1,173 @@
+{
+  "slug": "how-to-moderate-a-discord-server",
+  "title": "How to Moderate a Discord Server for a Game Community",
+  "description": "A moderation checklist for game Discord servers: roles, AutoMod rules, raid defenses, time outs, slowmode and a moderator routine from Discord's help pages.",
+  "kind": "Checklist",
+  "topic": "Game development",
+  "published": "2026-11-18",
+  "intro": "Moderating a Discord server for a game community comes down to four layers: permissions that limit what each role can do, AutoMod rules that catch bad messages before they post, a raid plan for sudden floods of accounts, and a small team of moderators with a written way of acting. Set the first three up once and the fourth becomes manageable. This checklist follows Discord's own help articles, so each setting named here can be found under the same menu in your server.",
+  "key_takeaways": [
+    "Start from roles and permissions: the @everyone role sets the floor, and channel permissions override server permissions.",
+    "AutoMod can block a message, alert a private channel, or time out the member, and the time out option is available only on custom keyword rules.",
+    "Disable the @everyone, @here and all-roles mention permission for every role except those you trust.",
+    "In a raid, pause invites first, then turn on slowmode, then tune AutoMod.",
+    "Write down your warning ladder so moderators answer the same behavior the same way."
+  ],
+  "sections": [
+    {
+      "h2": "Set the floor with roles and permissions",
+      "paras": [
+        "Discord's permissions guide explains that a new server has one pre-made role, @everyone, and that it defines what everyone can do even with no other role. Treat it as the floor. Anything a new, unknown account should not do belongs switched off there.",
+        "Then build roles upward. Create a role, give it a name, set its permissions, and assign it. Keep the set small to begin with: a staff role for admins, a moderator role, and roles for regular members or verified players. The guide also notes that channel permissions override server permissions, and that category permissions can be synced or not synced to channels beneath them, so check an exception before you assume a rule applies."
+      ],
+      "list": [
+        "@everyone: read and send in public chat, react, join voice. No mass mentions, no embedded links in the first channels if spam is a problem.",
+        "Moderator role: the moderation permissions only, including Time Out Members, and nothing about server settings.",
+        "Admin role: held by as few people as possible, and not used for daily chat.",
+        "Bot roles: only the permissions each bot needs, placed below your moderator role."
+      ]
+    },
+    {
+      "h2": "Turn on AutoMod first",
+      "paras": [
+        "AutoMod is Discord's built-in system for catching unwanted messages before they are posted. Its help article describes keyword filters and spam filters, and says it works across text channels, threads and text chat in voice channels. You set it up under Server Settings, then AutoMod.",
+        "There are two keyword rule types. Commonly Flagged Words uses ready-made lists, and Discord's article names three categories: insults and slurs, sexual content, and severe profanity. Custom Keywords lets you enter your own terms and phrases, which is where game-specific problems go, such as account-selling spam, cheat advertisements or leaked-content tags.",
+        "For each rule, choose a response. AutoMod can block the message, send an alert to a channel, or time out the user, with the time out option available only on custom keyword rules according to the article. When it blocks, the member sees a message visible only to them, and you can add your own text of up to 150 characters. Pick an alert channel that only admins and moderators can see. Users with Admin and Manage Server permissions are always exempt from filter rules, and you can exempt roles and channels as well."
+      ]
+    },
+    {
+      "h2": "Use the profile and spam filters",
+      "paras": [
+        "Names are a moderation surface too. The same article describes blocking words in member usernames and server nicknames: a member whose name contains a blocked word must change their server nickname before they can talk, and if they cannot edit it, their default username. You find this under Safety Setup, in the AutoMod section.",
+        "Spam filters work on message content. Discord's raid guidance also names a Block Mention Spam rule, where you set a limit on unique mentions per message and choose to block, alert or time out when it is exceeded. Mention floods are a common raid tactic in game servers, so switch this on from day one."
+      ]
+    },
+    {
+      "h2": "Lock down mass mentions and set a verification level",
+      "paras": [
+        "Discord's raid article recommends turning off the permission to mention @everyone, @here and all roles for every role that is not an admin or moderator, because that stops raiders from pinging the whole server. Find it under Server Settings, Roles, then the role's permissions.",
+        "The same article recommends a Verification Level, found under Safety Setup. Verification levels require members to verify an email address or phone number before sending messages, which can help against bots and spam accounts. Discord recommends Low as basic security for public servers. Raise it temporarily during an attack, and lower it again when things calm down.",
+        "Set the Explicit Media Content Filter to Medium or High as well. According to the article, community-enabled servers have the High setting on by default, so check it on older servers that you converted."
+      ]
+    },
+    {
+      "h2": "Prepare a raid plan before you need one",
+      "paras": [
+        "Discord defines a raid as a large number of users or bots joining a server at once with disruptive or malicious intent. You will not design a good response in the middle of one, so write the steps down and share them with moderators. The order below follows Discord's own de-escalation advice."
+      ],
+      "ordered": true,
+      "list": [
+        "Pause invites: Server Settings, Invites, Pause Invites. This stops new raiders from joining through your links, and you can unpause at any time.",
+        "Enable slowmode in the flooded channels to cap how fast anyone can post.",
+        "Add the phrases the raiders are spamming to a Custom Keyword rule with Block Message turned on, and Send Alert turned on to identify them.",
+        "Remove or time out the accounts you have identified, and note them in your moderator log.",
+        "Raise the verification level while the raid lasts.",
+        "Post a short notice in an announcement channel, then lift the measures once joins return to normal."
+      ],
+      "after": [
+        "If Raid Protection alerts are available to your server, set them up under Safety Setup. Discord says it uses machine learning to detect likely join raids, sends an alert to a channel you pick, and requires CAPTCHA for new joiners for the next hour. The article also says availability is being rolled out gradually and may be limited."
+      ]
+    },
+    {
+      "h2": "Use slowmode and time outs as tools, not punishments",
+      "paras": [
+        "Slowmode is a per-channel setting that adds a cooldown between messages for each user. Discord's help page gives the example of 30 seconds: each user can send one message every 30 seconds in that channel, while still being able to read, react and talk in other channels. Use it on busy channels during a release, a patch day or a stream, where chat speed rather than any one person is the problem. The page also says Bypass Slowmode is a permission you can give to roles that should be exempt, and that it replaced several older permissions.",
+        "A time out is a short removal of speaking rights. Discord says a member in time out cannot send messages, react to messages, or join voice channels or video calls. Moderators need the Time Out Members permission, choose a duration, and give a reason that is recorded in the audit log. Because the reason is logged, write it for the next moderator who reads it, not only for yourself."
+      ]
+    },
+    {
+      "h2": "Write the rules and the ladder",
+      "paras": [
+        "Rules are what moderators point to, so they must be short and visible. Pin them in a rules channel and cover the behavior that actually occurs in game communities: harassment, spoilers in the wrong channels, trading and account sales, cheat discussion, advertising, and leaks under embargo.",
+        "Then write the ladder that moderators follow. A common shape is a friendly reminder, a formal warning, a time out, and then a removal or ban, with a fast path straight to removal for serious breaches such as threats or illegal content. Add a rule that every action is logged with a reason. The point of the ladder is consistency: two moderators should answer the same message the same way."
+      ]
+    },
+    {
+      "h2": "Recruit, brief and rotate moderators",
+      "paras": [
+        "Raids and heated threads happen at odd hours, so cover several time zones if your community spans them. Look for members who are already calm in disputes, not only the most active. Give new moderators a short written brief: the rules, the ladder, what each tool does, and who to ask.",
+        "Keep a private staff channel for questions and for logging actions, and keep a weekly rhythm: skim the AutoMod alert channel, review the log, and adjust keyword lists. Watch for burnout. Rotate who handles reports, and make it fine for a moderator to hand a case over."
+      ]
+    },
+    {
+      "h2": "Add bots and external moderation tools carefully",
+      "paras": [
+        "AutoMod covers a lot, but game communities often add bots for logging, reaction roles, giveaways and extended filtering. Carl-bot is one widely used example, and the full comparison sits in [Best Discord Moderation and Community Bots](/software/best-discord-moderation-and-community-bots). If your game has a large player base or in-game chat, you may also need systems that handle abuse outside Discord, which [Best Trust and Safety Moderation Software for Games](/software/best-trust-and-safety-moderation-software-for-games) covers.",
+        "Give every bot the minimum permissions, put its role below your moderators, and remove bots you no longer use. A bot with admin permissions is an account that can empty your server."
+      ]
+    },
+    {
+      "h2": "Monthly checklist",
+      "paras": [
+        "Run this list once a month and after any raid."
+      ],
+      "list": [
+        "@everyone permissions still match the floor you intended.",
+        "Mass-mention permission is off for non-staff roles.",
+        "AutoMod keyword lists reflect the current spam patterns, and alerts go to a staff-only channel.",
+        "Verification level and explicit media filter are set as you want.",
+        "The raid steps are pinned in the staff channel and every moderator has read them.",
+        "Moderator list is current; former moderators have lost their role.",
+        "Bots and their permissions have been reviewed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the first thing to set up on a new game Discord server?",
+      "a": "Set the @everyone permissions and turn on AutoMod before the first public invite. The @everyone role applies to every member, so it is the cheapest place to prevent problems. Then add a keyword rule and an alert channel visible only to staff, so you learn what is being blocked."
+    },
+    {
+      "q": "Can AutoMod time out a member automatically?",
+      "a": "Yes, but Discord's AutoMod FAQ says the time out response is available only under Custom Keyword rules. For other rules, you can block the message and send an alert, then act manually. The Block Mention Spam rule described in Discord's raid guidance also lists a time out response."
+    },
+    {
+      "q": "What do I do first if my server is being raided?",
+      "a": "Pause invites under Server Settings, then Invites. That stops more accounts joining through your links while you deal with the ones already in. After that, turn on slowmode in affected channels, add the spam phrases to a custom AutoMod rule, and remove or time out the accounts involved."
+    },
+    {
+      "q": "What is the difference between a time out and a ban?",
+      "a": "A time out is temporary: the member cannot send messages, react, or join voice and video, and the moderator picks the duration. A ban removes the member and blocks them from rejoining. Use time outs for cooling off and a ban for repeated or serious breaches."
+    },
+    {
+      "q": "How many moderators does a game server need?",
+      "a": "Enough to cover your busiest hours and time zones, with some overlap. A small server may do well with two or three. The size of the community matters less than release days and events, when traffic spikes, so plan extra cover for those."
+    }
+  ],
+  "related_categories": [
+    "best-discord-moderation-and-community-bots",
+    "best-trust-and-safety-moderation-software-for-games"
+  ],
+  "related_guides": [
+    "how-to-run-an-online-esports-tournament",
+    "how-to-build-a-modding-community",
+    "how-to-set-up-stream-overlays-and-alerts"
+  ],
+  "sources": [
+    {
+      "title": "AutoMod FAQ",
+      "url": "https://support.discord.com/hc/en-us/articles/4421269296535-AutoMod-FAQ",
+      "publisher": "Discord Support"
+    },
+    {
+      "title": "How to Protect Your Server from Raids 101",
+      "url": "https://support.discord.com/hc/en-us/articles/10989121220631-How-to-Protect-Your-Server-from-Raids-101",
+      "publisher": "Discord Support"
+    },
+    {
+      "title": "Setting Up Permissions FAQ",
+      "url": "https://support.discord.com/hc/en-us/articles/206029707-Setting-Up-Permissions-FAQ",
+      "publisher": "Discord Support"
+    },
+    {
+      "title": "Time Out FAQ",
+      "url": "https://support.discord.com/hc/en-us/articles/4413305239191-Time-Out-FAQ",
+      "publisher": "Discord Support"
+    },
+    {
+      "title": "Slowmode FAQ",
+      "url": "https://support.discord.com/hc/en-us/articles/360016150952-Slowmode-FAQ",
+      "publisher": "Discord Support"
+    }
+  ]
+}

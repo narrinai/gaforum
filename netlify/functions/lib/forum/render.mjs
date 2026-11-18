@@ -310,7 +310,7 @@ export function renderThread({ session, available, thread, opener, replies, page
 
   let related = "";
   if (thread.seed && thread.related && thread.related.length) {
-    related = `<aside class="gaf-related" aria-labelledby="gaf-related-h"><h2 id="gaf-related-h" class="gaf-h3">Related guides</h2><ul>${thread.related
+    related = `<aside class="gaf-related" aria-labelledby="gaf-related-h"><h2 id="gaf-related-h" class="gaf-h3">Related on GA Forum</h2><ul>${thread.related
       .map((r) => `<li><a href="${esc(r.url)}">${esc(r.title)}</a></li>`).join("")}</ul></aside>`;
   }
 

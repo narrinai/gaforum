@@ -1,0 +1,158 @@
+{
+  "a": "easy-anti-cheat",
+  "b": "battleye",
+  "a_name": "Easy Anti-Cheat",
+  "b_name": "BattlEye",
+  "a_site": "https://www.easy.ac/",
+  "b_site": "https://www.battleye.com",
+  "category": "best-game-anti-cheat-software",
+  "title": "Easy Anti-Cheat vs BattlEye: Which Fits Your Team in 2026?",
+  "description": "Easy Anti-Cheat has a free tier inside Epic Online Services; BattlEye is an independent German service with no published price. Compare coverage and integration.",
+  "intro": "Easy Anti-Cheat is a free-to-start anti-cheat service that belongs to Epic Online Services, while BattlEye is an independent anti-cheat company based in Reutlingen, Germany that does not publish prices. The practical split for a studio is cost transparency and self-service on one side, and a contact-first, kernel-level approach on the other. The facts below come from each vendor's own pages, and neither vendor's detection claims were tested by us.",
+  "verdict": "Choose Easy Anti-Cheat if you want to start without a sales conversation, already use or plan to use Epic Online Services, and need Windows, Mac, Linux and Steam Deck coverage. Choose BattlEye if your game is a Windows PC title where a dedicated, independent provider with a long record in shooters matters, and you accept a contact-based start. Ask both for references from your genre.",
+  "pick_a": "Pick Easy Anti-Cheat if you want free baseline protection through the Epic Online Services SDK, a paid ladder you can climb later and cross-platform support including Linux and Steam Deck.",
+  "pick_b": "Pick BattlEye if you want an independent specialist with kernel-based protection for PC, accept that pricing is discussed by contact and value a track record in competitive shooters.",
+  "rows": [
+    {
+      "label": "Company",
+      "a": "Part of Epic Online Services.",
+      "b": "BattlEye Innovations e.K., registered at Amtsgericht Stuttgart, HRA 731472."
+    },
+    {
+      "label": "Headquarters",
+      "a": "Not stated on the opened pages.",
+      "b": "Reutlingen, Germany, per the imprint."
+    },
+    {
+      "label": "Pricing model",
+      "a": "Free tier plus paid Core, Fortified and Premier tiers.",
+      "b": "Not published; contact the vendor."
+    },
+    {
+      "label": "Entry price",
+      "a": "Free for basic protection; no credit card, no usage limits.",
+      "b": "No prices on the opened pages."
+    },
+    {
+      "label": "Platforms",
+      "a": "Windows, Mac, Linux and Steam Deck; compatible with crossplay on console.",
+      "b": "Windows PC focus; the FAQ discusses Windows kernel driver behavior."
+    },
+    {
+      "label": "Detection approach",
+      "a": "Prevention-first, with heuristics, gameplay analysis and player report signals.",
+      "b": "Proactive kernel-based protection plus dynamic on-the-fly scanning."
+    },
+    {
+      "label": "Integration",
+      "a": "Self-service through the Epic Online Services SDK, guides, docs and samples.",
+      "b": "Described as easy to integrate and ready for release within days; contact first."
+    },
+    {
+      "label": "Scale claim",
+      "a": "200+ games and 35M+ players protected every month.",
+      "b": "Names PUBG, Fortnite and Rainbow Six Siege as among its large titles."
+    },
+    {
+      "label": "Player-facing support",
+      "a": "Player FAQs and an appeal form for wrong bans.",
+      "b": "A public FAQ covering launcher and driver errors."
+    },
+    {
+      "label": "Main limit",
+      "a": "Paid tier prices require a form submission.",
+      "b": "No visible prices and no self-service sign-up."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Who stands behind each service",
+      "text": [
+        "Easy Anti-Cheat describes itself as part of Epic Online Services, and that placement shapes the product. The free tier is covered by the Epic Online Services licensing agreement and SDK, with no separate agreement required, and the same services page offers matchmaking, accounts and data services that a studio can adopt alongside it.",
+        "BattlEye is a standalone company. Its imprint names BattlEye Innovations e.K. at Gerhard-Kindler-Strasse 8 in Reutlingen, and its about page says it was founded by Bastian Suter in October 2004 as a third-party tool for Battlefield Vietnam. The site calls itself 100% independent, which matters if you want your anti-cheat vendor to be unconnected to a platform holder or a rival publisher."
+      ]
+    },
+    {
+      "h2": "Cost and how you start",
+      "text": [
+        "Easy Anti-Cheat has the clearer entry point. Basic protection is free, with no credit card and no usage limits, and you start by downloading the Epic Online Services SDK. The paid ladder is Core, Fortified and Premier, which adds deeper detection layers, dedicated support and specialized tooling. The licensing page shows no prices for those tiers, only a business inquiry form, so the cost of the upper tiers is a conversation.",
+        "BattlEye publishes no price on the pages we opened and directs interested developers to a contact page. That is common for anti-cheat sold to publishers, but it means you cannot budget from the website. Prepare a short brief with platform, expected peak concurrency and the cheat types you already see."
+      ]
+    },
+    {
+      "h2": "Platforms and coverage",
+      "text": [
+        "Easy Anti-Cheat's home page lists Windows, Mac, Linux and Steam Deck and says it is compatible with crossplay on console. If your game ships on Linux or runs on Steam Deck, that line is directly relevant.",
+        "BattlEye's public documentation is Windows-centered. Its FAQ walks through driver load errors for BEDaisy.sys and a Windows 11 hardware-enforced stack protection conflict, which tells you the protection runs as a kernel driver on Windows. Ask BattlEye directly which other platforms it supports for your title, since the pages we opened do not list them."
+      ]
+    },
+    {
+      "h2": "Detection philosophy",
+      "text": [
+        "Easy Anti-Cheat calls its approach prevention-first and hybrid, using heuristics, gameplay analysis and player report signals, with dashboards to configure and monitor protection. BattlEye describes a proactive, kernel-based system with dynamic scanning controlled by its backend, so that cheat makers cannot build permanent bypasses against specific client files.",
+        "Both descriptions are marketing claims. Neither vendor publishes false-positive rates, and a kernel driver brings support costs of its own, such as the update and driver errors described in BattlEye's FAQ. Ask for those numbers and for a reference in your genre."
+      ]
+    },
+    {
+      "h2": "Support for players and for your team",
+      "text": [
+        "Both vendors give players somewhere to go. Easy Anti-Cheat links player support FAQs and an appeals form for wrongly banned accounts, and offers community support for developers, with advanced hands-on support reserved for paid tiers. BattlEye's public FAQ covers launcher update errors, driver errors and which tools can safely run alongside a protected game.",
+        "For your own team, the difference is mostly process. Easy Anti-Cheat gives you docs, samples and a community site to start with. BattlEye gives you a contact page and a promise of quick integration, so plan a call before you commit engineering time."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Easy Anti-Cheat really free?",
+      "a": "Basic protection is free through Epic Online Services, with no credit card and no usage limits according to the vendor home page. Paid Core, Fortified and Premier tiers add deeper detection and dedicated support, and their prices are not listed."
+    },
+    {
+      "q": "Where is BattlEye based?",
+      "a": "The imprint names BattlEye Innovations e.K. in Reutlingen, Germany, registered at Amtsgericht Stuttgart under HRA 731472. The site describes the service as 100% independent."
+    },
+    {
+      "q": "Which one supports Linux and Steam Deck?",
+      "a": "Easy Anti-Cheat lists Windows, Mac, Linux and Steam Deck on its home page. BattlEye's opened pages do not list platforms, so ask the vendor about Linux or Steam Deck before planning a release."
+    },
+    {
+      "q": "Can I get a price for BattlEye from its website?",
+      "a": "No. The pages we opened show no prices and point to a contact page. Send platform, expected concurrency and your cheat concerns to get a quote."
+    },
+    {
+      "q": "Do players have a way to contest a ban?",
+      "a": "Easy Anti-Cheat's site has an appeal form for players who believe their account was banned by mistake. BattlEye's FAQ explains that it bans for actual cheats and components designed to bypass its protection, and lists common launcher errors."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Easy Anti-Cheat is part of Epic Online Services and states 200+ games and 35M+ players protected every month.",
+      "url": "https://www.easy.ac/"
+    },
+    {
+      "fact": "The home page lists Windows, Mac, Linux and Steam Deck, crossplay compatibility with console, free basic protection with no credit card, and self-service integration through the Epic Online Services SDK.",
+      "url": "https://www.easy.ac/"
+    },
+    {
+      "fact": "The licensing page lists free service tiers and paid Core, Fortified and Premier tiers, with no prices shown and a contact form.",
+      "url": "https://www.easy.ac/licensing"
+    },
+    {
+      "fact": "BattlEye describes itself as 100% independent anti-cheat that permanently bans cheaters and does not publish prices.",
+      "url": "https://www.battleye.com"
+    },
+    {
+      "fact": "The BattlEye imprint names BattlEye Innovations e.K. in Reutlingen, registered at Amtsgericht Stuttgart, HRA 731472.",
+      "url": "https://www.battleye.com/imprint/"
+    },
+    {
+      "fact": "BattlEye's about page says it was founded in October 2004 and describes a proactive protection system scanning in user and kernel mode.",
+      "url": "https://www.battleye.com/about/"
+    },
+    {
+      "fact": "BattlEye's FAQ describes Windows driver load errors involving BEDaisy.sys and hardware-enforced stack protection.",
+      "url": "https://www.battleye.com/support/faq/"
+    }
+  ],
+  "slug": "easy-anti-cheat-vs-battleye",
+  "published": "2026-11-18"
+}

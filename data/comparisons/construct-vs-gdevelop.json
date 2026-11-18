@@ -1,0 +1,135 @@
+{
+  "slug": "construct-vs-gdevelop",
+  "a": "construct",
+  "b": "gdevelop",
+  "a_name": "Construct",
+  "b_name": "GDevelop",
+  "a_site": "https://www.construct.net/",
+  "b_site": "https://gdevelop.io/",
+  "category": "best-2d-game-engines",
+  "title": "Construct vs GDevelop: Which Fits Your Team in 2026?",
+  "description": "Construct 3 is a subscription browser editor with a limited free edition; GDevelop is an MIT-licensed no-code engine with Free, Silver, Gold and Pro plans.",
+  "intro": "Construct and GDevelop are both no-code 2D game tools, but they are built on different business models. Construct 3 is a browser-based editor sold on Personal, Startup, Business and Educational plans, with a capped free edition. GDevelop's editor and engine are open source under the MIT license, and its paid plans add cloud, publishing and AI allowances. This page sets out the limits and thresholds each vendor publishes, so you can see where a small studio would hit a wall.",
+  "verdict": "Pick Construct when you want a single editor with unlimited events on paid plans, no royalties and a vendor-managed license. Pick GDevelop when open source matters, you want a free plan that exports to Android and desktop, and you are fine with per-day publishing caps on lower plans. Companies should read the revenue lines on both pages before choosing.",
+  "pick_a": "Pick Construct if you prefer one browser editor, unlimited events once you pay and zero royalties written into the plan.",
+  "pick_b": "Pick GDevelop if you want open source code, a usable free plan and cloud projects, multiplayer lobbies and AI credits bundled into tiers.",
+  "rows": [
+    {
+      "label": "Editor",
+      "a": "Browser-based",
+      "b": "Open-source editor and engine, desktop and web"
+    },
+    {
+      "label": "License",
+      "a": "Proprietary subscription",
+      "b": "Open-source (MIT) editor and game engine"
+    },
+    {
+      "label": "Free option",
+      "a": "Free edition: 50 events, 2 layers, 2 effects",
+      "b": "Free plan with the fully featured engine"
+    },
+    {
+      "label": "Paid plans",
+      "a": "Personal, Startup, Business, Educational",
+      "b": "Silver, Gold, Pro, plus an education plan"
+    },
+    {
+      "label": "Company limit",
+      "a": "Startup plan: up to $50,000 USD revenue, $100,000 USD assets, 3 employees; Business plan above",
+      "b": "Companies above $50,000 USD revenue per year must use Pro"
+    },
+    {
+      "label": "Royalties",
+      "a": "Zero royalties",
+      "b": "Not stated on the pricing page"
+    },
+    {
+      "label": "Free publishing",
+      "a": "Not stated for the free edition",
+      "b": "Android and desktop once per day on Free; web on gd.games unlimited"
+    },
+    {
+      "label": "iOS",
+      "a": "Not detailed in opened text",
+      "b": "Gold and Pro only, 15 and 30 per month on Gold and Pro as listed"
+    },
+    {
+      "label": "Multiplayer",
+      "a": "Multiplayer games supported on paid plans, per feature table",
+      "b": "1 lobby, 4 players on Free; unlimited lobbies, up to 8 players on paid"
+    },
+    {
+      "label": "Bundled assets",
+      "a": "166 royalty-free asset packs",
+      "b": "Thousands of free assets on the Asset Store"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Free versus paid limits",
+      "text": [
+        "Construct's free edition caps a project at 50 events, 2 layers and 2 effects, while paid versions are unlimited. That is enough to learn on and too little for a full game, so the free edition works as a long trial.",
+        "GDevelop's Free plan is described as a fully featured, open-source engine. Its limits fall on services instead of on game logic: cloud projects, publishing frequency and multiplayer size. Free allows publishing to Android and desktop once per day, and 1 lobby with up to 4 players."
+      ]
+    },
+    {
+      "h2": "Business thresholds",
+      "text": [
+        "Construct requires registered businesses to buy a Startup or Business plan, and the Personal License is not permitted for purchase by registered businesses. The Startup Plan is for firms with annual revenue and assets under $50,000 and $100,000 respectively and at most three employees.",
+        "GDevelop uses a single revenue line: a company with more than $50,000 USD in yearly revenue must use the Pro membership. Pro bundles unlimited cloud projects, version history and collaboration."
+      ]
+    },
+    {
+      "h2": "Publishing and platforms",
+      "text": [
+        "Construct's buy page presents games for mobiles, desktops, consoles and web from a browser editor. The opened text does not break down export limits per plan.",
+        "GDevelop publishes to Google Play, desktop and web from Silver, and adds iOS App Store publishing from Gold, with daily and monthly caps that rise with each plan. If you ship many test builds, those caps are the number to watch."
+      ]
+    },
+    {
+      "h2": "Extras around the editor",
+      "text": [
+        "Construct bundles 166 royalty-free asset packs, a free Construct Game Services plan on non-education paid plans and tools for monetization.",
+        "GDevelop adds AI credits, an asset store with free and premium packs, leaderboards and a dedicated Discord channel on higher plans. Because the engine is MIT licensed, you can also read how it works, which a hosted editor does not allow."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Construct free to use?",
+      "a": "There is a free edition, but it is limited to 50 events, 2 layers and 2 effects. Paid versions remove those caps. The vendor also states zero royalties on anything created."
+    },
+    {
+      "q": "Is GDevelop open source?",
+      "a": "Yes. Its pricing page lists an open-source (MIT) editor and game engine. The Free plan is described as fully featured; paid plans add cloud storage, publishing quotas, multiplayer and AI credit allowances."
+    },
+    {
+      "q": "Can a company use the cheapest plan on each?",
+      "a": "Not always. GDevelop requires Pro for companies above $50,000 USD revenue per year. Construct requires registered businesses to take a Startup or Business plan, with the Startup plan capped by revenue, assets and headcount."
+    },
+    {
+      "q": "Which one publishes to iOS?",
+      "a": "GDevelop lists iOS App Store publishing on Gold and Pro, with monthly limits. Construct's buy page mentions mobile but the opened text did not detail iOS, so check its publishing manual."
+    },
+    {
+      "q": "Which is better for classrooms?",
+      "a": "Both have education plans. Construct's educational plan is priced per seat with a three-seat minimum and tiered discounts. GDevelop advertises anonymous student accounts and teacher resources on its education page."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Construct free edition limits, plan types, startup thresholds, zero royalties and 166 asset packs.",
+      "url": "https://www.construct.net/en/make-games/buy-construct"
+    },
+    {
+      "fact": "GDevelop plans Free, Silver, Gold and Pro; MIT license; Pro required above $50,000 USD revenue; publishing and multiplayer limits.",
+      "url": "https://gdevelop.io/pricing"
+    },
+    {
+      "fact": "GDevelop homepage describes a free, open-source, no-code engine for 2D and 3D games.",
+      "url": "https://gdevelop.io/"
+    }
+  ],
+  "published": "2026-11-18"
+}

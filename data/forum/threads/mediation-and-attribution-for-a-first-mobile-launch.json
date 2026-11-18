@@ -1,0 +1,26 @@
+{
+  "id": "mediation-and-attribution-for-a-first-mobile-launch",
+  "board": "games",
+  "title": "What ad mediation and attribution setup for a first mobile launch?",
+  "created": "2026-11-18T09:49:00Z",
+  "pinned": false,
+  "body": [
+    "A first mobile game with ads and paid user acquisition needs a mediation layer and an attribution provider, and each adds SDKs, reporting and privacy decisions on iOS. What did you pick, and how many networks did you connect at launch?",
+    "AppLovin's [MAX getting-started guide](https://support.applovin.com/en/max/getting-started/) says MAX supports many networks across bidding and traditional connections, and that unsupported networks can be mediated through a custom SDK connection that AppLovin cannot troubleshoot. The [AppsFlyer pricing page](https://www.appsflyer.com/pricing/) says users can start for free with no credit card required.",
+    "Share how you decided between waterfall and bidding, how you handled SKAdNetwork on iOS and whether the extra SDKs affected build size or crash rates."
+  ],
+  "related": [
+    {
+      "title": "Best Mobile Game Ad Networks and Mediation Platforms in 2026",
+      "url": "/software/best-mobile-game-ad-networks-and-mediation"
+    },
+    {
+      "title": "Best Mobile Attribution Tools for Games in 2026",
+      "url": "/software/best-mobile-attribution-tools-for-games"
+    },
+    {
+      "title": "AppLovin MAX Alternatives in 2026",
+      "url": "/alternatives/applovin-max"
+    }
+  ]
+}

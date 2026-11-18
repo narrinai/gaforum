@@ -1,0 +1,218 @@
+{
+  "slug": "streamelements",
+  "subject": "StreamElements",
+  "subject_site": "https://streamelements.com/",
+  "title": "StreamElements Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Eight StreamElements alternatives for overlays, chat bots, tipping and merch, including OWN3D, Lumia Stream, Fossabot and Streamlabs Desktop, with sourced facts.",
+  "category": "best-stream-overlay-and-alert-tools",
+  "intro": "StreamElements is a cloud-based platform that bundles overlays, alerts, a chatbot, tipping and merchandise tools for Twitch, YouTube and Facebook Gaming, and its SE.Live plugin works with OBS Studio. Streamers look for alternatives when they want only part of that bundle, want to split bot and overlays across vendors, or want a different way to earn from viewers. The eight tools below replace StreamElements in whole or in part: two overlay suites, a lighting-driven app, two chat bots, and three ways to monetize an audience.",
+  "why_switch": [
+    "You want a chat bot that is free and cloud hosted on its own, without taking the rest of a platform along with it.",
+    "A tool that controls lights and devices from viewer events appeals more than static overlays and alerts.",
+    "You would rather buy designed overlays and alerts as a pass or a pack than build them in a dashboard.",
+    "Your income plan leans on a merch shop or memberships instead of tips and alerts.",
+    "A fundraising or charity-stream setup needs tools built around donors, not around a general stream dashboard."
+  ],
+  "picks": [
+    {
+      "slug": "streamlabs-desktop",
+      "name": "Streamlabs Desktop",
+      "site": "https://streamlabs.com/",
+      "best_for": "The closest all-in-one rival",
+      "pricing": "Pricing was not captured; the pricing page states Streamlabs takes zero cut of donations.",
+      "free_plan": "Unknown",
+      "note": "Streamlabs is the direct competitor: it offers Streamlabs Desktop, alerts, overlays, tipping and merch for Twitch, YouTube and Facebook. Its pricing page states the company takes zero cut of your donations. That makes it the least disruptive swap, because the feature list lines up closely. We could not read the Streamlabs Desktop product page in full, so plan details need a check on the vendor site.",
+      "sources": [
+        {
+          "fact": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, offering Streamlabs Desktop, alerts, overlays, tipping and merch.",
+          "url": "https://streamlabs.com/"
+        },
+        {
+          "fact": "The Streamlabs pricing page states that the company takes zero cut of your donations.",
+          "url": "https://streamlabs.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "own3d",
+      "name": "OWN3D",
+      "site": "https://www.own3d.tv/en/",
+      "best_for": "Designed overlays and alerts, plus free tools",
+      "pricing": "Stream Pass billed monthly, paid quarterly, auto-renewing after 3 months; amount not captured.",
+      "free_plan": "Free",
+      "note": "OWN3D is run by StreamTV Media GmbH in Austria and says it was founded in 2017. With an active Stream Pass you get more than 500 overlays, 12,000 stream designs and 500 alert designs in its Scene Builder, and the chat widget, chatbot, donation page and goal bars are free to OWN3D Pro users. Choose it if design assets matter more to you than a bot.",
+      "sources": [
+        {
+          "fact": "OWN3D is operated by StreamTV Media GmbH, Grunmarkt 8, Steyr, Austria, according to its legal notice.",
+          "url": "https://www.own3d.tv/en/legal/"
+        },
+        {
+          "fact": "OWN3D states that it was founded in 2017.",
+          "url": "https://www.own3d.tv/en/about/"
+        },
+        {
+          "fact": "The Stream Pass is billed per month, paid quarterly, and renews automatically after three months.",
+          "url": "https://www.own3d.tv/en/pro/sub/"
+        }
+      ]
+    },
+    {
+      "slug": "lumia-stream",
+      "name": "Lumia Stream",
+      "site": "https://lumiastream.com/",
+      "best_for": "Chat, alerts and viewer-controlled lights",
+      "pricing": "Free to download; Premium $5.99 a month, $32.99 every 6 months or $59.99 a year.",
+      "free_plan": "Free",
+      "note": "Lumia Stream combines multistream chat, alerts, OBS overlays, a loyalty system and lights or devices that viewers can trigger. It runs on Windows, Mac and Linux, and lists Stream Deck and Touch Portal plugins. It is the odd one here because the physical room is part of the show. The free plan lets you test it; Premium renews automatically unless you cancel.",
+      "sources": [
+        {
+          "fact": "Lumia Stream describes itself as an all-in-one streaming tool with multistreaming, light control, loyalty rewards and overlays in one app.",
+          "url": "https://lumiastream.com/"
+        },
+        {
+          "fact": "The pricing page lists a free plan with a 'Download for free' call to action.",
+          "url": "https://lumiastream.com/pricing"
+        },
+        {
+          "fact": "The pricing page lists Premium at $5.99 per month, $32.99 every 6 months, or $59.99 per year, and says subscriptions renew automatically unless cancelled.",
+          "url": "https://lumiastream.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "nightbot",
+      "name": "Nightbot",
+      "site": "https://nightbot.tv",
+      "best_for": "A dedicated chat bot",
+      "pricing": "Pricing is not stated on the pages opened.",
+      "free_plan": "Unknown",
+      "note": "Nightbot is a chat bot for Twitch, YouTube and SOOP that automates chat with moderation, commands and timers. Its documentation covers commands, variables, spam protection and a Discord integration. If StreamElements is mainly your bot, Nightbot is the focused version of it. You would then pick overlays and alerts somewhere else, so this swap adds a second vendor.",
+      "sources": [
+        {
+          "fact": "Nightbot is a chat bot for Twitch, YouTube and SOOP that automates live stream chat with moderation.",
+          "url": "https://docs.nightbot.tv"
+        },
+        {
+          "fact": "Nightbot's documentation has sections for commands, variables, spam protection and a Discord integration.",
+          "url": "https://docs.nightbot.tv"
+        },
+        {
+          "fact": "The Nightbot homepage does not show a price in the text extracted from the page.",
+          "url": "https://nightbot.tv"
+        }
+      ]
+    },
+    {
+      "slug": "fossabot",
+      "name": "Fossabot",
+      "site": "https://fossabot.com",
+      "best_for": "A free cloud bot with Nightbot import",
+      "pricing": "Free and cloud hosted.",
+      "free_plan": "Free",
+      "note": "Fossabot is described by its maker as free and cloud hosted, with chat moderation, commands, timers and alerts for Twitch, YouTube, Kick and X. It can import commands, timers, spam filters and blocked terms from Nightbot, which helps if you already moved a bot once. It covers the chat side only, so overlays and tipping still need another tool.",
+      "sources": [
+        {
+          "fact": "Fossabot is a chat bot for Twitch, YouTube, Kick and X, and the vendor describes it as free and cloud hosted.",
+          "url": "https://fossabot.com"
+        },
+        {
+          "fact": "Fossabot supports Twitch, YouTube, Kick and X, with alerts for each platform's events.",
+          "url": "https://fossabot.com"
+        },
+        {
+          "fact": "Fossabot can import commands, timers, spam filters and blocked terms from Nightbot.",
+          "url": "https://fossabot.com"
+        }
+      ]
+    },
+    {
+      "slug": "streamloots",
+      "name": "Streamloots",
+      "site": "https://streamloots.com/",
+      "best_for": "Viewer-triggered cards and subscriptions",
+      "pricing": "Free to join; creators keep 80% of subscription revenue, Partners 90%, and Partners 90% of tips.",
+      "free_plan": "Free",
+      "note": "Streamloots is a monetization platform built around interactive cards that viewers trigger, plus subscriptions, auctions, a marathon timer and tips. The vendor says payouts run twice a month, on the 1st and 15th. It is a revenue idea more than an overlay suite. The vendor page we opened carried a 2024 copyright line, so check that the service is current before you commit.",
+      "sources": [
+        {
+          "fact": "Streamloots is a monetization platform for streamers that offers interactive cards, subscriptions, auctions, a marathon timer and tips.",
+          "url": "https://streamloots.com/"
+        },
+        {
+          "fact": "The vendor page says creators keep 80% of subscription revenue, rising to 90% for Partners, and Partners keep 90% of every tip.",
+          "url": "https://streamloots.com/"
+        },
+        {
+          "fact": "The vendor page's only pricing call to action is 'Join Now for Free' and it lists no plan tiers or fees.",
+          "url": "https://streamloots.com/"
+        }
+      ]
+    },
+    {
+      "slug": "tiltify",
+      "name": "Tiltify",
+      "site": "https://tiltify.com/",
+      "best_for": "Charity streams and fundraisers",
+      "pricing": "Plan amounts were not readable on the pricing page.",
+      "free_plan": "Unknown",
+      "note": "Tiltify describes itself as made for fundraisers, with tools to engage donors and raise more for charities. Most of its pages are rendered with JavaScript, so we could not read feature details or plan amounts. We list it for charity streams and marathons, where a fundraising tool fits better than a general stream dashboard. Confirm fees and features on its site.",
+      "sources": [
+        {
+          "fact": "Tiltify describes itself as made for fundraisers and says it gives tools to engage donors and raise more for charities.",
+          "url": "https://tiltify.com/"
+        },
+        {
+          "fact": "The pricing page at tiltify.com/pricing/ opened without readable plan amounts.",
+          "url": "https://tiltify.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "fourthwall",
+      "name": "Fourthwall",
+      "site": "https://fourthwall.com/",
+      "best_for": "Merch, memberships and branded shops",
+      "pricing": "Free plan at $0 a month with memberships; Pro is the paid upgrade and yearly payment saves $48.",
+      "free_plan": "Free plan",
+      "note": "Fourthwall describes itself as one platform for custom products and branded shops. Its Free plan is $0 a month and includes monthly memberships, with an upgrade to Pro at any time. The home page lists fulfillment and shipping, sales channels and members-only videos. It replaces only the merchandise side of StreamElements, so keep a bot and overlays elsewhere.",
+      "sources": [
+        {
+          "fact": "Fourthwall describes itself as one platform for custom products and branded shops.",
+          "url": "https://fourthwall.com/"
+        },
+        {
+          "fact": "The pricing page lists a Free plan at $0 per month that includes offering monthly memberships.",
+          "url": "https://fourthwall.com/pricing"
+        },
+        {
+          "fact": "The pricing page says the Free plan is free forever and users can upgrade to Pro at any time, with yearly payment saving $48.",
+          "url": "https://fourthwall.com/pricing"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Split the StreamElements bundle into parts and decide which one you actually use. If it is the chat bot, compare Nightbot and Fossabot. If it is overlays and alerts, look at Streamlabs or OWN3D. If it is income from viewers, Fourthwall, Streamloots and Tiltify each cover a different model. Our [overlay and alert tool ranking](/software/best-stream-overlay-and-alert-tools) shows how the suites compare, and a [Nightbot alternatives page](/alternatives/nightbot) covers bots in more depth.",
+  "faqs": [
+    {
+      "q": "What does StreamElements include?",
+      "a": "Its home page lists overlays, tipping, chatbot, alerts and merchandise for Twitch, YouTube and Facebook Gaming. It also lists SE.Live, a plugin for OBS Studio, and Ground Control, a multistreaming companion app. The home page did not show a price."
+    },
+    {
+      "q": "Which alternative is the nearest full replacement?",
+      "a": "Streamlabs lines up most closely, with its desktop software, alerts, overlays, tipping and merch. OWN3D is the other suite here, and it leans toward designed assets. Neither page we opened gave full plan prices, so compare them on the vendor sites."
+    },
+    {
+      "q": "Can I keep my chat commands when I move bots?",
+      "a": "Fossabot says it can import commands, timers, spam filters and blocked terms from Nightbot. Moving from StreamElements' bot would be a manual rebuild unless a vendor states otherwise, so list your commands before you switch."
+    },
+    {
+      "q": "Is there a free option with lights or smart devices?",
+      "a": "Lumia Stream lists a free plan with a download button, and its Premium plan is $5.99 a month, $32.99 every 6 months or $59.99 a year. Viewer-controlled lights and devices are central to what it sells."
+    },
+    {
+      "q": "Where can I sell merch without a bot or overlay?",
+      "a": "Fourthwall is a commerce platform for custom products, branded shops, digital products and memberships. Its Free plan is $0 a month. It does not handle alerts or chat, so it pairs with a separate bot."
+    }
+  ]
+}

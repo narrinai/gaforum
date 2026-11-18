@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "loudplay",
+    "name": "Loudplay",
+    "status": "verified",
+    "site": "https://www.loudplay.io/",
+    "company": "Loudplay AM LLC",
+    "hq": "Yerevan",
+    "country": "Armenia",
+    "what_it_is": "A cloud gaming service where you buy time on a cloud gaming PC and stream it to a Windows, macOS or Android device, bringing your own game licenses.",
+    "platforms": "Windows, macOS and Android clients",
+    "pricing": "Desktop hours are prepaid: 3 hours for $3.99, 10 hours for $8.99 and 20 hours for $15.99, each valid 30 days with no auto-renewal. Android plans are Google Play subscriptions priced per region.",
+    "pricing_model": "Prepaid hours",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Cloud gaming PC",
+      "Bring your own Steam and Epic licenses",
+      "Prepaid hour packages",
+      "Windows, macOS and Android clients",
+      "Proprietary streaming protocol"
+    ],
+    "notable": [
+      "Does not sell games; users play titles they already own",
+      "Terms name Loudplay AM LLC in Yerevan, Armenia as the operator"
+    ],
+    "facts": [
+      {
+        "fact": "Loudplay is a cloud gaming service for desktop (Windows and macOS) and Android where you buy time on a cloud gaming PC and bring your own game licenses.",
+        "url": "https://www.loudplay.io/pricing"
+      },
+      {
+        "fact": "Desktop packages are 3 hours for $3.99, 10 hours for $8.99 and 20 hours for $15.99, one-time purchases valid for 30 days.",
+        "url": "https://www.loudplay.io/pricing"
+      },
+      {
+        "fact": "The terms of use name Loudplay AM LLC in Yerevan, Armenia as the service administration and describe a proprietary real-time streaming protocol.",
+        "url": "https://www.loudplay.io/terms_of_use"
+      },
+      {
+        "fact": "The home page says games can be downloaded from stores like Steam and Epic Games and that a stable connection of at least 10 Mbps is needed.",
+        "url": "https://www.loudplay.io/"
+      }
+    ],
+    "drop_reason": "",
+    "country_code": ""
+  }
+]

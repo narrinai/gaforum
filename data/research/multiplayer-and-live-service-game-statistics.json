@@ -1,0 +1,269 @@
+{
+  "slug": "multiplayer-and-live-service-game-statistics",
+  "title": "Multiplayer and Live-Service Game Statistics 2026",
+  "description": "Multiplayer and live-service game statistics for 2026: developer survey results, live ops tooling adoption, Roblox and Steam player counts, and online play rates.",
+  "category": "best-game-liveops-platforms",
+  "published": "2026-11-18",
+  "intro": "Online multiplayer is the most common multiplayer format among surveyed game developers, with 83% building it, according to Unity's 2026 Game Development Report. That survey, plus player counts from Roblox and Steam and play-with-others rates from the ESA, makes up this page. Each fact names the group it covers: developers, players, or a single platform on a single day. Teams planning post-launch operations can compare vendors in [game live ops platforms](/software/best-game-liveops-platforms).",
+  "sections": [
+    {
+      "h2": "What studios are building",
+      "intro": "Unity and Cint surveyed 300 game developers in four regions in autumn 2025 (margin of error 5.66% at 95% confidence).",
+      "facts": [
+        {
+          "text": "Online multiplayer is built by 83% of surveyed studios, followed by 1v1 at 71% and online co-op at 43%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Asynchronous multiplayer is built by 39% of surveyed studios, couch co-op or local multiplayer by 26% and asymmetrical multiplayer by 17%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "About 10% of surveyed studios do not make multiplayer games.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Typical sessions support 3 to 9 concurrent players for 47% of multiplayer studios and 10 to 25 players for 30%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Only 11% of multiplayer studios in the survey support more than 50 concurrent players per session.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Cross-play is a priority for 72% of surveyed studios.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "What makes multiplayer hard",
+      "intro": "The same survey asked about the single biggest challenge.",
+      "facts": [
+        {
+          "text": "The pace of content and balance updates is the biggest multiplayer challenge for 31% of surveyed studios, ahead of technological complexity at 23%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Limited staff is the biggest multiplayer challenge for 15% of studios and limited budget for 11%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Among studios with 300 or more employees, 35% say keeping pace with content and balance updates is their biggest multiplayer challenge.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Ensuring a consistent user experience is the biggest cross-play challenge for 38% of studios, and increased development cost and time for 21%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Of surveyed studios, 26% say they are doubling down on live service games with more post-launch content and live ops.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "Live ops tooling adoption",
+      "intro": "Unity Editor data on SDK attachment, December 2024 versus December 2025.",
+      "facts": [
+        {
+          "text": "The analytics SDK category rose from a 19.2% attachment rate in the Unity Editor in December 2024 to 22.9% in December 2025.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Data management SDKs rose from 16.8% to 21.3% attachment in the Unity Editor over the same period.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "User authentication SDKs rose from 11.6% to 14.7% attachment in the Unity Editor between December 2024 and December 2025.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Marketing and engagement SDKs rose from 9.2% to 10.4% attachment in the Unity Editor between December 2024 and December 2025.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Daily rewards or missions, and leaderboards, are each adopted by 78% of surveyed studios as engagement features.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "Roblox: the largest shared-world platform",
+      "intro": "Figures from Roblox's third quarter 2026 results, reported through press coverage of its shareholder letter.",
+      "facts": [
+        {
+          "text": "Roblox averaged 138 million daily players in the third quarter of 2026, its first annual decline, down 9% year over year.",
+          "source_name": "GGRecon, Roblox Q3 2026 results coverage",
+          "source_url": "https://www.ggrecon.com/articles/roblox-daily-players-fall-q3-2026/",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Roblox users spent nearly 34 billion hours on the platform in the third quarter of 2026, down 15% year over year and up 17% on the previous quarter.",
+          "source_name": "Gaming.net, Roblox Q3 2026 results coverage",
+          "source_url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Roblox users sent an average of 1.6 billion in-game chat messages per day in the third quarter of 2026.",
+          "source_name": "Gaming.net, Roblox Q3 2026 results coverage",
+          "source_url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "By the end of the third quarter of 2026, 64% of Roblox daily active users had completed an age check, with 75% penetration in the US and UK.",
+          "source_name": "Gaming.net, Roblox Q3 2026 results coverage",
+          "source_url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Roblox said more than 80% of its 100 most-played games used AI tools in the past month, as of its third quarter 2026 letter.",
+          "source_name": "Gaming.net, Roblox Q3 2026 results coverage",
+          "source_url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Roblox estimates that about 20% of the US under-18 gaming market runs through its platform.",
+          "source_name": "Gaming.net, Roblox Q3 2026 results coverage",
+          "source_url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+          "year": "2026",
+          "kind": "study"
+        }
+      ]
+    },
+    {
+      "h2": "Steam and online play rates",
+      "intro": "A single-day Steam snapshot and ESA survey data on playing with others.",
+      "facts": [
+        {
+          "text": "On 18 November 2026 the Steam Charts page showed Counter-Strike 2 with 1,085,529 players in game, PUBG: Battlegrounds with 690,594 and Dota 2 with 637,092.",
+          "source_name": "Valve, Steam Charts page (opened 18 November 2026)",
+          "source_url": "https://store.steampowered.com/charts/",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Slay the Spire 2, a Godot game with multiplayer, reached a Steam peak of 574,638 concurrent players after its 5 March 2026 launch.",
+          "source_name": "GamesRadar, report on Godot Steam release statistics",
+          "source_url": "https://www.gamesradar.com/games/roguelike/steam-stats-for-slay-the-spire-2s-engine-godot-show-strong-signs-of-exponential-growth/",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "The ESA found that 89% of US players aged 8 to 90 have played video games online, and 55% play with others weekly.",
+          "source_name": "ESA, 2025 Essential Facts About the U.S. Video Game Industry",
+          "source_url": "https://www.theesa.com/resources/essential-facts-about-the-us-video-game-industry/2025-data/",
+          "year": "2025",
+          "kind": "official"
+        },
+        {
+          "text": "In the ESA's 2025 report, 79% of Gen Alpha and Gen Z players play with their friends, and 55% of Gen Alpha plays with parents.",
+          "source_name": "ESA, 2025 Essential Facts About the U.S. Video Game Industry",
+          "source_url": "https://www.theesa.com/resources/essential-facts-about-the-us-video-game-industry/2025-data/",
+          "year": "2025",
+          "kind": "official"
+        },
+        {
+          "text": "Among US players aged 8 and over, 70% play with others, according to the ESA's 2026 report.",
+          "source_name": "ESA, 2026 Essential Facts About the U.S. Video Game Industry",
+          "source_url": "https://www.theesa.com/resources/essential-facts-about-the-us-video-game-industry/2026-data/",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Recurrent consumer spending, such as virtual currency and add-on content, was 81% of Take-Two's net bookings in the September 2026 quarter.",
+          "source_name": "Take-Two Interactive, fiscal Q2 2027 results (Business Wire, 9 November 2026)",
+          "source_url": "https://finviz.com/news/419503/take-two-interactive-software-inc-reports-results-for-fiscal-second-quarter-2027",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Sensor Tower names Marvel Rivals the third most downloaded PC and console game of 2025 and Battlefield 6 the best-selling title of the year.",
+          "source_name": "Sensor Tower, State of Gaming 2026",
+          "source_url": "https://sensortower.com/blog/state-of-gaming-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        }
+      ]
+    }
+  ],
+  "methodology": [
+    "Pages opened on 18 November 2026: the Unity Game Development Report page, Roblox third quarter coverage from Gaming.net and GGRecon, the Steam Charts page, ESA 2025 and 2026 report pages, GamesRadar's report on Godot, Sensor Tower's State of Gaming page and Take-Two's results release.",
+    "Developer survey shares come from a 300-respondent sample and describe studios using Unity's tools or surveyed by Cint, so they are not a census of the industry. The Steam numbers are a live reading at the time of opening, not an average. Newzoo's site blocked automated access and is not used. The Steam About page carries no statistics."
+  ],
+  "faqs": [
+    {
+      "q": "What share of developers build online multiplayer games?",
+      "a": "Unity's 2026 report found 83% of 300 surveyed developers build online multiplayer games, 71% build 1v1 and 43% build online co-op. About 10% do not make any multiplayer games."
+    },
+    {
+      "q": "How many players do multiplayer sessions usually support?",
+      "a": "Most are small. In the same survey 47% of multiplayer studios typically support 3 to 9 concurrent players per session, 30% support 10 to 25, and only 11% support more than 50."
+    },
+    {
+      "q": "What slows live-service teams down most?",
+      "a": "Content cadence. Unity's survey found 31% of studios name the pace of content and balance updates as their biggest multiplayer challenge, ahead of technological complexity at 23%."
+    },
+    {
+      "q": "How big is Roblox compared with a single Steam game?",
+      "a": "Roblox averaged 138 million daily active users in the third quarter of 2026, while the biggest Steam game, Counter-Strike 2, showed about 1.09 million players in game on 18 November 2026. The two measure different things: a quarterly daily average and a one-time snapshot."
+    }
+  ],
+  "related_guides": [
+    "how-to-build-a-multiplayer-game-backend",
+    "how-to-plan-a-game-liveops-calendar"
+  ]
+}

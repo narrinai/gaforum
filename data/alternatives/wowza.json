@@ -1,0 +1,272 @@
+{
+  "slug": "wowza",
+  "subject": "Wowza",
+  "subject_site": "https://www.wowza.com",
+  "title": "Wowza Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Wowza alternatives for streaming servers and video APIs: ten self-hosted media servers and managed platforms compared on protocols, licensing and pricing.",
+  "category": "best-streaming-media-servers",
+  "intro": "Wowza makes video streaming server software, Wowza Streaming Engine, for live and on-demand video that can run on-prem, in the cloud, at the edge or air-gapped, and it also sells the Flowplayer OVP managed platform. Teams look elsewhere when they want an open-source engine, a managed video API or a pay-per-use price. The ten picks split into self-hosted media servers, cloud encoding services and developer video APIs, each described from its own pages.",
+  "why_switch": [
+    "Wowza lists a trial and premium support plans on its pricing page but no price amounts in the pages we opened, so budgeting means a sales conversation.",
+    "Engineering teams that prefer to read and modify the code can choose open-source servers such as SRS and the community edition of OvenMediaEngine.",
+    "Teams that do not want to operate servers at all can use video APIs such as Mux or api.video that bill by usage.",
+    "Projects centered on WebRTC and sub-second latency may want engines built for that, such as Ant Media Server, Red5 or Ceeblue.",
+    "Companies already inside AWS may prefer to keep encoding and delivery under one cloud bill with MediaLive or IVS."
+  ],
+  "picks": [
+    {
+      "slug": "ant-media-server",
+      "name": "Ant Media Server",
+      "site": "https://antmedia.io/",
+      "best_for": "Self-hosted WebRTC streaming",
+      "pricing": "Flex is $0.35 per instance-hour; the monthly plan is $129 per instance per month at regular price; a 14-day Enterprise trial is offered.",
+      "free_plan": "Free trial",
+      "note": "Ant Media Server supports WebRTC, CMAF, HLS, RTMP, RTSP and SRT on your own infrastructure or any cloud. Published prices make it easy to compare with a Wowza quote, including an hourly Flex option for events. You gain a clear price and a WebRTC focus. You still run the servers yourself, as with Wowza, so operations work does not disappear.",
+      "sources": [
+        {
+          "fact": "Ant Media Server is a real-time streaming engine supporting WebRTC, CMAF, HLS, RTMP, RTSP, SRT and more, deployed on your own infrastructure or any cloud.",
+          "url": "https://antmedia.io/"
+        },
+        {
+          "fact": "The pricing page lists Flex at $0.35 per instance-hour and a monthly plan with a regular price of $129 per instance per month.",
+          "url": "https://antmedia.io/pricing/"
+        },
+        {
+          "fact": "The pricing page offers a 14-day free trial on the Enterprise Edition and an own-license option for long-term projects.",
+          "url": "https://antmedia.io/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "red5",
+      "name": "Red5",
+      "site": "https://www.red5.net/",
+      "best_for": "Low-latency streams and SDKs",
+      "pricing": "Red5 Pro is sold as monthly or annual subscriptions; Red5 Cloud is priced separately; the homepage advertises a 30-day free trial.",
+      "free_plan": "Free trial",
+      "note": "Red5 has an open-source media server and the licensed Red5 Pro, Red5 Cloud and SDK products, and its homepage advertises sub-250 millisecond latency. It is a natural comparison for teams who want to start with open source and move to a supported product. Compare the subscription tiers against your viewer counts, because they are sized for developers through enterprises.",
+      "sources": [
+        {
+          "fact": "Red5 offers real-time streaming with an open-source Red5 media server and licensed products Red5 Pro, Red5 Cloud and Red5 SDKs.",
+          "url": "https://www.red5.net/"
+        },
+        {
+          "fact": "The Red5 Pro pricing page offers monthly or annual subscriptions for developers, startups, SMEs and enterprises.",
+          "url": "https://www.red5.net/pricing/"
+        },
+        {
+          "fact": "The homepage advertises a 30-day free trial and sub-250 millisecond latency.",
+          "url": "https://www.red5.net/"
+        }
+      ]
+    },
+    {
+      "slug": "nimble-streamer",
+      "name": "Nimble Streamer",
+      "site": "https://softvelum.com/nimble/",
+      "best_for": "Lightweight, cost-focused servers",
+      "pricing": "The pricing page address returned a 404 when we checked, so no prices are recorded.",
+      "free_plan": "Unknown",
+      "note": "Nimble Streamer from Softvelum is a light-weight software media server for live and VOD that lists SRT, RTMP, WebRTC with WHIP ingest, NDI, SDI and Apple Low Latency HLS. Live transcoding is a premium add-on. It suits teams that want a small footprint on modest hardware. Contact the vendor for current license costs, since we could not confirm them.",
+      "sources": [
+        {
+          "fact": "Nimble Streamer is a light-weight, efficient software media server for live and VOD content delivery, described as one of the most cost-effective media servers on the market.",
+          "url": "https://softvelum.com/nimble/"
+        },
+        {
+          "fact": "The homepage lists live protocols including SRT, RTMP, WebRTC with WHIP ingest, NDI, SDI and Apple Low Latency HLS.",
+          "url": "https://softvelum.com/nimble/"
+        },
+        {
+          "fact": "The homepage describes the Live Transcoder as a premium add-on for decoding and encoding live streams.",
+          "url": "https://softvelum.com/nimble/"
+        }
+      ]
+    },
+    {
+      "slug": "srs",
+      "name": "SRS",
+      "site": "https://ossrs.io/",
+      "best_for": "Free open-source realtime server",
+      "pricing": "Free open source project; GitHub and license information are linked from the site.",
+      "free_plan": "Open source",
+      "note": "SRS, the Simple Realtime Server, is an open source video server supporting RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH, with a Docker image and Kubernetes deployment. You pay no license fee, which matters for projects where per-instance fees would dominate. The trade is support: you rely on the community and your own engineers rather than a vendor contract.",
+      "sources": [
+        {
+          "fact": "SRS (Simple Realtime Server) is a simple, high efficiency and realtime video server supporting RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH.",
+          "url": "https://ossrs.io/lts/en-us/"
+        },
+        {
+          "fact": "The site footer gives an official address in North York, Ontario, Canada, and copyright to the OSSRS Community.",
+          "url": "https://ossrs.io/lts/en-us/"
+        },
+        {
+          "fact": "The site describes SRS as cloud native, with a Docker image and Kubernetes deployment.",
+          "url": "https://ossrs.io/lts/en-us/"
+        }
+      ]
+    },
+    {
+      "slug": "ovenmediaengine",
+      "name": "OvenMediaEngine",
+      "site": "https://ovenmedia.com/ome.html",
+      "best_for": "Open source plus an enterprise edition",
+      "pricing": "Not captured; the page lists OvenMedia Cloud, an Enterprise edition and a source and community edition without prices.",
+      "free_plan": "Unknown",
+      "note": "OvenMediaEngine comes from OvenMedia Labs in Seoul, formerly AirenSoft, and is offered as a community edition, an Enterprise edition and a hosted OvenMedia Cloud. The tiers let a team begin with the source edition and add vendor support later. Ask the vendor what separates community from Enterprise before you plan on it for a production launch.",
+      "sources": [
+        {
+          "fact": "OvenMediaEngine is offered by OvenMedia Labs with an Enterprise edition, a source and community edition, and OvenMedia Cloud.",
+          "url": "https://ovenmedia.com/ome.html"
+        },
+        {
+          "fact": "The company address on the page is in Yeongdeungpo-gu, Seoul, South Korea.",
+          "url": "https://ovenmedia.com/ome.html"
+        },
+        {
+          "fact": "The page copyright names OvenMedia Labs Inc., formerly AirenSoft Co., Ltd.",
+          "url": "https://ovenmedia.com/ome.html"
+        }
+      ]
+    },
+    {
+      "slug": "flussonic",
+      "name": "Flussonic",
+      "site": "https://flussonic.com/",
+      "best_for": "IPTV, OTT and surveillance streaming",
+      "pricing": "Not stated on the homepage; the vendor asks visitors to contact sales.",
+      "free_plan": "Unknown",
+      "note": "Flussonic builds streaming software for media server, transcoding, DVR, IPTV and OTT delivery, and video surveillance, with Flussonic Media Server as the base product. It fits operators with TV-style channels and recording needs. If your work is interactive game or event streaming, its center of gravity is elsewhere, so test latency requirements early.",
+      "sources": [
+        {
+          "fact": "Flussonic builds video streaming software for media server, transcoding, DVR, IPTV/OTT delivery and video surveillance.",
+          "url": "https://flussonic.com/"
+        },
+        {
+          "fact": "The homepage names Flussonic Media Server as the foundation product for video ingest, processing, recording and delivery.",
+          "url": "https://flussonic.com/"
+        },
+        {
+          "fact": "The homepage links to contact pages; no prices are shown.",
+          "url": "https://flussonic.com/"
+        }
+      ]
+    },
+    {
+      "slug": "unified-streaming",
+      "name": "Unified Streaming",
+      "site": "https://www.unified-streaming.com/",
+      "best_for": "Packaging for live and VOD",
+      "pricing": "Not stated on the homepage; licenses are managed through a license manager and a demo is offered.",
+      "free_plan": "Unknown",
+      "note": "Unified Streaming sells software for live streaming, VOD packaging, live-to-VOD and audio streaming, and lists provenance through C2PA under its Trusted Media offering. It is a packager and origin layer, which makes it a component in a larger chain, not a full replacement for an engine that also ingests and transcodes. Teams with existing encoders and CDNs benefit most.",
+      "sources": [
+        {
+          "fact": "Unified Streaming offers software products for live streaming, VOD packaging, live-to-VOD and audio streaming.",
+          "url": "https://www.unified-streaming.com/"
+        },
+        {
+          "fact": "The homepage links to a license manager for license keys and offers a book-a-demo contact.",
+          "url": "https://www.unified-streaming.com/"
+        },
+        {
+          "fact": "The homepage lists just-in-time provenance (C2PA) as part of its Trusted Media offering.",
+          "url": "https://www.unified-streaming.com/"
+        }
+      ]
+    },
+    {
+      "slug": "aws-elemental-medialive",
+      "name": "AWS Elemental MediaLive",
+      "site": "https://aws.amazon.com/medialive/",
+      "best_for": "Encoding inside AWS",
+      "pricing": "Not captured; the page links to AWS pricing pages for MediaLive.",
+      "free_plan": "Unknown",
+      "note": "AWS Elemental MediaLive is a live video encoding service for 24/7 linear channels and live events at scale. You hand over encoder operations to AWS, which helps a team with no appetite for servers. It handles encoding, so you add packaging, delivery and players around it. Cost modeling requires the AWS pricing pages rather than a single published rate.",
+      "sources": [
+        {
+          "fact": "AWS Elemental MediaLive is a live video encoding service that makes delivering 24/7 linear channels and live events at scale easier and more reliable.",
+          "url": "https://aws.amazon.com/medialive/"
+        },
+        {
+          "fact": "The page links to a MediaLive pricing page under the AWS pricing hub.",
+          "url": "https://aws.amazon.com/medialive/"
+        },
+        {
+          "fact": "The page carries AWS navigation and links to AWS documentation and the AWS global infrastructure pages.",
+          "url": "https://aws.amazon.com/medialive/"
+        }
+      ]
+    },
+    {
+      "slug": "mux",
+      "name": "Mux",
+      "site": "https://www.mux.com/",
+      "best_for": "Developer video API with usage pricing",
+      "pricing": "Pay as you go has no platform or per-seat fee and a $20 monthly usage credit; live 1080p Plus encoding is $0.03125 per minute; Launch is $20 per month and Scale $500 per month.",
+      "free_plan": "Free",
+      "note": "Mux is a video API platform that covers streaming, analytics, moderation and search, and says it is free to start with no credit card. Public per-minute rates let you model a month of live events precisely, a contrast with Wowza's quote-based route. The compromise is control: you consume an API rather than tuning your own servers.",
+      "sources": [
+        {
+          "fact": "Mux is a video API platform for developers covering streaming, moderation, search, analytics and video transformation.",
+          "url": "https://www.mux.com/"
+        },
+        {
+          "fact": "Mux states it is free to start with no credit card required and that Pay as you go has no platform fee and no per-seat fee.",
+          "url": "https://www.mux.com/pricing"
+        },
+        {
+          "fact": "The pricing page lists live 1080p Plus encoding at $0.03125 per minute and storage at $0.003 per minute per month, with 100,000 delivery minutes free each month.",
+          "url": "https://www.mux.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "api-video",
+      "name": "api.video",
+      "site": "https://api.video/",
+      "best_for": "Hosting and delivery from France",
+      "pricing": "Pay-as-you-go with free encoding; hosting from $0.00285 per minute stored per month and delivery from $0.0017 per minute delivered; a limited free sandbox.",
+      "free_plan": "Free",
+      "note": "api.video is a video API for hosting and delivering on-demand and live video in websites and apps, with a Roubaix, France address on its homepage. The free sandbox is limited to 30-second watermarked videos deleted after 24 hours, so it is for testing, not for a pilot with real viewers. Usage-based billing suits unpredictable audiences.",
+      "sources": [
+        {
+          "fact": "api.video is a video API platform that lets developers host, manage and deliver on-demand and live-streaming video in their websites and apps.",
+          "url": "https://api.video/"
+        },
+        {
+          "fact": "The homepage gives an OVHcloud OCT1 address in Roubaix, France.",
+          "url": "https://api.video/"
+        },
+        {
+          "fact": "Pricing is pay-as-you-go with free encoding, hosting from $0.00285 per minute stored per month and delivery from $0.0017 per minute delivered.",
+          "url": "https://api.video/pricing/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Decide who runs the servers. If your team wants to, pick between open source (SRS, OvenMediaEngine, Red5's server) and supported licenses (Ant Media Server, Nimble, Flussonic). If you do not, choose a managed API (Mux, api.video) or an AWS service. Write down your protocol list, target latency and peak concurrent viewers, then ask each vendor to price that exact load. The numbers will say more than feature lists.",
+  "faqs": [
+    {
+      "q": "Is there an open-source alternative to Wowza Streaming Engine?",
+      "a": "SRS is an open source realtime video server with RTMP, WebRTC, HLS, SRT and more, and OvenMediaEngine and Red5 both offer open-source or community editions. Open source removes the license fee but moves support and upgrades to your team."
+    },
+    {
+      "q": "Which alternatives publish prices?",
+      "a": "Ant Media Server lists Flex at $0.35 per instance-hour and a $129 monthly plan, Mux lists per-minute rates, api.video lists storage and delivery rates, and Ceeblue gives starting monthly prices for some services. Wowza, Flussonic and Unified Streaming point to sales or trials."
+    },
+    {
+      "q": "What if I do not want to manage servers?",
+      "a": "Use a managed video API such as Mux or api.video, or an AWS service such as MediaLive, which encodes live video as a service. You trade fine control for fewer moving parts and for usage-based billing."
+    },
+    {
+      "q": "Can I keep Wowza for some streams and move others?",
+      "a": "Yes. Many teams move one workload first, such as low-latency interactive streams, to an engine built for WebRTC, and leave on-demand delivery where it is. Treat it as a pilot with a clear success measure, such as glass-to-glass latency or cost per viewer hour."
+    },
+    {
+      "q": "Does Wowza still offer a free way to try it?",
+      "a": "Its pricing page offers a Start a Trial option and lists premium support plans, and its site footer shows copyright through 2026. Check the pricing page for current trial terms before you plan a proof of concept."
+    }
+  ]
+}

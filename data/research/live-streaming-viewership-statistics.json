@@ -1,0 +1,269 @@
+{
+  "slug": "live-streaming-viewership-statistics",
+  "title": "Live Streaming Viewership Statistics 2026",
+  "description": "Sourced live streaming viewership figures for 2026: GTA VI launch peaks, multistreaming share, World Cup watch time, award shows and creator events on Twitch, YouTube and Kick.",
+  "category": "best-livestream-analytics-tools",
+  "published": "2026-11-18",
+  "intro": "Grand Theft Auto VI reached a preliminary 6.38 million concurrent viewers across Twitch, YouTube and Kick as of 12:30 UTC on 18 November 2026, the largest game launch in tracked streaming history according to Streams Charts. This page collects 2026 live streaming figures from pages opened on 18 November 2026: game launches, sports and space broadcasts, award shows, multistreaming behavior and platform changes announced at TwitchCon. Each figure names who measured it, what period it covers and which audience it applies to.",
+  "sections": [
+    {
+      "h2": "Game launch peaks",
+      "intro": "Peak viewers means the highest concurrent audience at one moment; hours watched adds up viewing time. Streams Charts tracks both across Twitch, YouTube and Kick.",
+      "facts": [
+        {
+          "text": "Grand Theft Auto VI reached 6.38 million concurrent viewers across livestreaming platforms as of 12:30 UTC on 18 November 2026, a preliminary Streams Charts figure that was expected to change as the game reached more regions.",
+          "source_name": "Streams Charts, news index (18 Nov 2026)",
+          "source_url": "https://streamscharts.com/news",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "In the same preliminary reading, GTA VI peaked at 2.66 million concurrent viewers on YouTube, 2.50 million on Twitch and 1.31 million on Kick.",
+          "source_name": "Streams Charts, news index (18 Nov 2026)",
+          "source_url": "https://streamscharts.com/news",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "GTA VI's early Twitch peak of 2.50 million viewers already exceeded every earlier game launch tracked by Streams Charts, whose previous record was Valorant's closed beta at 1.74 million concurrent viewers in April 2020.",
+          "source_name": "Streams Charts, news index (18 Nov 2026)",
+          "source_url": "https://streamscharts.com/news",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Valorant's April 2020 closed beta generated 150.48 million hours watched in its first week, a first-week record that no other game in the Streams Charts launch dataset had matched as of 11 November 2026.",
+          "source_name": "Streams Charts, The biggest game launches in live streaming history",
+          "source_url": "https://streamscharts.com/news/gta-6-biggest-game-launches-streaming-records",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Only seven games had exceeded one million concurrent viewers during their debut week in the Streams Charts launch dataset as of 11 November 2026.",
+          "source_name": "Streams Charts, The biggest game launches in live streaming history",
+          "source_url": "https://streamscharts.com/news/gta-6-biggest-game-launches-streaming-records",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Path of Exile 2 reached 1.35 million peak viewers when it entered early access in December 2024, while server problems and login queues kept many players watching streams instead of playing.",
+          "source_name": "Streams Charts, The biggest game launches in live streaming history",
+          "source_url": "https://streamscharts.com/news/gta-6-biggest-game-launches-streaming-records",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Streams mentioning GTA VI in their titles accumulated 12.21 million hours watched across Twitch, YouTube and Kick in the three days from 27 to 29 August 2026, after Rockstar's gameplay presentation.",
+          "source_name": "Streams Charts, GTA 6 hype ahead of release",
+          "source_url": "https://streamscharts.com/news/gta-6-pre-launch-hype-viewership-chat",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Rockstar's August 2026 gameplay presentation drew 3.97 million peak viewers across more than 9,000 channels, according to Streams Charts.",
+          "source_name": "Streams Charts, GTA 6 hype ahead of release",
+          "source_url": "https://streamscharts.com/news/gta-6-pre-launch-hype-viewership-chat",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Daily mentions of GTA VI in Twitch, YouTube and Kick chats averaged roughly 14 times the July 2026 level during 9 to 15 November 2026.",
+          "source_name": "Streams Charts, GTA 6 hype ahead of release",
+          "source_url": "https://streamscharts.com/news/gta-6-pre-launch-hype-viewership-chat",
+          "year": "2026",
+          "kind": "study"
+        }
+      ]
+    },
+    {
+      "h2": "Platform split and multistreaming",
+      "facts": [
+        {
+          "text": "Twitch accounted for about 44% of the live-stream watch time around Rockstar's August 2026 GTA VI gameplay presentation, YouTube for 34.8% and Kick for 20.2%.",
+          "source_name": "Streams Charts, The biggest game launches in live streaming history",
+          "source_url": "https://streamscharts.com/news/gta-6-biggest-game-launches-streaming-records",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Among the 100 most-watched individual creators by hours watched, 34% were active on at least two streaming platforms during 2026.",
+          "source_name": "Streams Charts, Multistreaming in 2026",
+          "source_url": "https://streamscharts.com/news/multistreaming-2026-insights",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Twitch plus YouTube was the most common platform pairing among analyzed multistreamers in 2026, accounting for nearly half of them.",
+          "source_name": "Streams Charts, Multistreaming in 2026",
+          "source_url": "https://streamscharts.com/news/multistreaming-2026-insights",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Simultaneous broadcasts made up 32.4% of multistreamers' total airtime in 2026 but generated 49.3% of their hours watched.",
+          "source_name": "Streams Charts, Multistreaming in 2026",
+          "source_url": "https://streamscharts.com/news/multistreaming-2026-insights",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Nearly two-thirds of the multistreamers analyzed by Streams Charts and Meld Studio in 2026 spent most of their broadcast time on one platform at a time.",
+          "source_name": "Streams Charts, Multistreaming in 2026",
+          "source_url": "https://streamscharts.com/news/multistreaming-2026-insights",
+          "year": "2026",
+          "kind": "study"
+        }
+      ]
+    },
+    {
+      "h2": "Sports and space broadcasts on YouTube and Twitch",
+      "facts": [
+        {
+          "text": "YouTube watch time in the Sports category rose 311% between 11 and 18 June 2026, the first week of the FIFA World Cup, according to Streams Charts.",
+          "source_name": "Streams Charts, FIFA World Cup 2026 live streaming",
+          "source_url": "https://streamscharts.com/news/fifa-world-cup-2026-live-streaming-broadcasting-structure-and-viewership",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Brazil generated 354.9 million World Cup-related hours watched on livestreaming platforms in the first week, far ahead of South Korea at 15.5 million and Argentina at 12.6 million.",
+          "source_name": "Streams Charts, FIFA World Cup 2026 live streaming",
+          "source_url": "https://streamscharts.com/news/fifa-world-cup-2026-live-streaming-broadcasting-structure-and-viewership",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "YouTube accounted for 94% of the World Cup-related hours watched that Streams Charts tracked in the opening week.",
+          "source_name": "Streams Charts, FIFA World Cup 2026 live streaming",
+          "source_url": "https://streamscharts.com/news/fifa-world-cup-2026-live-streaming-broadcasting-structure-and-viewership",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "CazeTV's broadcast of Brazil's opening match against Morocco reached a record 12 million peak viewers, and YouTube as a platform passed 20 million peak viewers.",
+          "source_name": "Streams Charts, FIFA World Cup 2026 live streaming",
+          "source_url": "https://streamscharts.com/news/fifa-world-cup-2026-live-streaming-broadcasting-structure-and-viewership",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "JTBC's CHZZK channel peaked at 3.86 million viewers during South Korea's match against the Czech Republic on 12 June 2026, a record for Korean-language livestreams across platforms.",
+          "source_name": "Streams Charts, FIFA World Cup 2026 live streaming",
+          "source_url": "https://streamscharts.com/news/fifa-world-cup-2026-live-streaming-broadcasting-structure-and-viewership",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "NASA's Artemis II launch on 1 April 2026 drew more than 10 million aggregate concurrent viewers across livestreaming services, according to Streams Charts.",
+          "source_name": "Streams Charts, Artemis II mission coverage",
+          "source_url": "https://streamscharts.com/news/artemis-ii-mission-concludes-one-most-watched-events-across-streaming-platforms",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "The Artemis II splashdown broadcast drew a combined 3,485,880 peak viewers on NASA's YouTube and Twitch channels in April 2026.",
+          "source_name": "Streams Charts, Artemis II mission coverage",
+          "source_url": "https://streamscharts.com/news/artemis-ii-mission-concludes-one-most-watched-events-across-streaming-platforms",
+          "year": "2026",
+          "kind": "study"
+        }
+      ]
+    },
+    {
+      "h2": "Awards shows and creator events",
+      "facts": [
+        {
+          "text": "The Streamer Awards 2026 reached 970,600 concurrent viewers at its peak and 5.13 million hours watched, according to Streams Charts.",
+          "source_name": "Streams Charts, Streamer Awards 2026 results",
+          "source_url": "https://streamscharts.com/news/streamer-awards-2026-results",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Unofficial community broadcasts accounted for about 77% of the Streamer Awards 2026 total hours watched.",
+          "source_name": "Streams Charts, Streamer Awards 2026 results",
+          "source_url": "https://streamscharts.com/news/streamer-awards-2026-results",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "The Streamer Awards 2026 generated 4.4% more hours watched than the 2025 ceremony, while peak viewers fell 5.6%.",
+          "source_name": "Streams Charts, Streamer Awards 2026 results",
+          "source_url": "https://streamscharts.com/news/streamer-awards-2026-results",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "The QSMP Awards 2026 at TwitchCon San Diego reached 80,203 peak viewers, averaged 60,921 viewers and generated 111,687 hours watched over one hour and 50 minutes of airtime.",
+          "source_name": "Streams Charts, QSMP Awards 2026 viewership",
+          "source_url": "https://streamscharts.com/news/qsmp-awards-2026-viewership",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Stream Fighters 5 on 14 November 2026 generated a series-record 15.4 million hours watched and a combined peak of 2.59 million concurrent viewers across Kick, YouTube and Twitch.",
+          "source_name": "Streams Charts, Stream Fighters 5 viewership",
+          "source_url": "https://streamscharts.com/news/stream-fighters-5-viewership",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Stream Fighters 4 holds the series peak-viewer record at 4.02 million, ahead of Stream Fighters 5 at 2.59 million and Stream Fighters 3 at 1.60 million.",
+          "source_name": "Streams Charts, Stream Fighters 5 viewership",
+          "source_url": "https://streamscharts.com/news/stream-fighters-5-viewership",
+          "year": "2026",
+          "kind": "study"
+        }
+      ]
+    },
+    {
+      "h2": "Platform features and data vendors",
+      "facts": [
+        {
+          "text": "Twitch said at TwitchCon San Diego (13 to 15 November 2026) that more than 400,000 channels have had a Stream Recap published since the feature's relaunch.",
+          "source_name": "Streams Charts, TwitchCon 2026 announcements",
+          "source_url": "https://streamscharts.com/news/twitchcon-2026-updates",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Twitch announced plans to raise the maximum Clip length from 60 seconds to five minutes, with some changes tested in late 2026 and others planned for early 2027.",
+          "source_name": "Streams Charts, TwitchCon 2026 announcements",
+          "source_url": "https://streamscharts.com/news/twitchcon-2026-updates",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Hatchet describes its data as ten years of verified streaming and social data across 30+ platforms, which is the vendor's own claim and not an independent audit.",
+          "source_name": "Hatchet, company homepage",
+          "source_url": "https://hatchet.gg/",
+          "year": "2026",
+          "kind": "vendor-claim"
+        }
+      ]
+    }
+  ],
+  "methodology": [
+    "Figures come from pages opened on 18 November 2026: the Streams Charts news index and eight Streams Charts articles, plus Hatchet's own homepage. Streams Charts measures public live broadcasts on Twitch, YouTube, Kick and other platforms; its numbers depend on its tracked channel set and do not count unique people.",
+    "Several launch figures were preliminary at the time of reading and can be revised. Twitch's own About page was opened but carries no viewership statistics, so no Twitch-published figures appear here. Hatchet's figure is a vendor claim and is labeled that way."
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between peak viewers and hours watched?",
+      "a": "Peak viewers is the highest number of people watching at one moment. Hours watched adds up every viewer's time across the whole event. A short spike can have a high peak and low hours watched, while a long broadcast can show the reverse."
+    },
+    {
+      "q": "Do these numbers count unique viewers?",
+      "a": "No. Streams Charts reports concurrent viewers and watch time, not unique people. Someone who watches on two platforms or returns across days can add to the totals more than once."
+    },
+    {
+      "q": "Which platform had the largest share of GTA VI-related watch time?",
+      "a": "For Rockstar's August 2026 gameplay presentation, Twitch had about 44% of watch time, YouTube 34.8% and Kick 20.2%, according to Streams Charts. The launch-day peak reading placed YouTube slightly ahead on concurrent viewers."
+    },
+    {
+      "q": "Where can teams track this data themselves?",
+      "a": "Streams Charts and Hatchet are two analytics vendors covered in the related category. Compare their pricing, platform coverage and export options before subscribing."
+    }
+  ],
+  "related_guides": []
+}

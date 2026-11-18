@@ -1,0 +1,133 @@
+{
+  "slug": "photon-vs-mirror",
+  "a": "photon",
+  "b": "mirror",
+  "a_name": "Photon",
+  "b_name": "Mirror",
+  "a_site": "https://photonengine.com/",
+  "b_site": "https://mirror-networking.com/",
+  "category": "best-multiplayer-networking-sdks",
+  "title": "Photon vs Mirror: Which Fits Your Team in 2026?",
+  "description": "Photon is a hosted multiplayer platform with Fusion, Quantum and Photon Cloud; Mirror is a free MIT-licensed networking library for Unity. Compare the models.",
+  "intro": "Photon is a hosted multiplayer platform whose cloud runs your rooms and matchmaking, while Mirror is a free, MIT-licensed networking library for Unity that you host yourself. One sells infrastructure and netcode engines, the other gives you code and leaves the servers to you. The trade is operations work against vendor cost. Neither vendor publishes everything a buyer needs, so this page flags what is unstated.",
+  "verdict": "Pick Photon when you would rather rent a global cloud than run servers and want its Fusion or Quantum engines. Pick Mirror when your game is built in Unity, you want free code you control, and you have the capacity to host dedicated servers or a relay. Cost is not comparable until you get a Photon quote against your player count.",
+  "pick_a": "Pick Photon if you want hosted rooms, matchmaking and voice or chat from one vendor and prefer paying for scale over building it.",
+  "pick_b": "Pick Mirror if the game targets Unity, you need to own the server code and you would rather pay in engineering time than in subscriptions.",
+  "rows": [
+    {
+      "label": "Model",
+      "a": "Hosted platform: Photon Cloud plus networking engines",
+      "b": "Open-source library you host yourself"
+    },
+    {
+      "label": "License",
+      "a": "Commercial; terms not on the homepage",
+      "b": "MIT license"
+    },
+    {
+      "label": "Pricing",
+      "a": "Not published on the homepage; Try Photon free sign-up",
+      "b": "Free; no price stated"
+    },
+    {
+      "label": "Engine support",
+      "a": "Cross-platform; Unity named for Quantum",
+      "b": "Unity only"
+    },
+    {
+      "label": "Netcode styles",
+      "a": "Fusion (state sync), Quantum (deterministic, predict and rollback), Realtime",
+      "b": "General-purpose networking library for Unity games"
+    },
+    {
+      "label": "Hosting",
+      "a": "Global Photon Cloud; Photon Server also mentioned",
+      "b": "You run the servers"
+    },
+    {
+      "label": "Transports",
+      "a": "Handled by the platform",
+      "b": "UDP, TCP, WebSockets, Steam, Relay and more"
+    },
+    {
+      "label": "Extras",
+      "a": "Voice with 3D audio, chat, cheat protection",
+      "b": "Modular; no GC allocations apart from transports"
+    },
+    {
+      "label": "Scale claim",
+      "a": "Over 1.4 billion monthly players in Photon Cloud (vendor)",
+      "b": "Used by over 1000 Steam games (vendor)"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Hosted versus self-hosted",
+      "text": [
+        "Photon's homepage describes a multiplayer platform with networking engines, voice and chat services, and cloud hosting. Its apps run in a cloud that the vendor's operations team monitors, and the vendor says it is hosted in all major regions. That removes server provisioning from your plan.",
+        "Mirror gives you the library and expects you to supply hosting. Its GitHub page lists transports for UDP, TCP, WebSockets, Steam and relay, so you pick how players connect. The freedom is real, and so is the on-call duty when a server fails at launch."
+      ]
+    },
+    {
+      "h2": "Netcode styles",
+      "text": [
+        "Photon offers more than one approach. Fusion targets high player counts on several network topologies as a state-sync engine, and Quantum is a deterministic engine that predicts and rolls back physics and inputs. Realtime is the lower-level API for rooms and matchmaking.",
+        "Mirror is a single library for Unity games and its page says it suits everything from small projects to small MMORPGs. The page opened does not mention deterministic rollback, so check the docs if your genre needs it."
+      ]
+    },
+    {
+      "h2": "Cost and what is unknown",
+      "text": [
+        "Mirror's cost is zero for the code, and the GitHub page shows the MIT license. Your costs are servers, bandwidth and engineering time.",
+        "Photon does not show prices on its homepage; it links to a free sign-up and mentions cost-effective plans without figures. Ask for a quote at your expected concurrent players before treating either side as cheaper."
+      ]
+    },
+    {
+      "h2": "Engine lock-in",
+      "text": [
+        "Mirror is for Unity. Photon names Unity for Quantum and describes cross-platform support across mobile, PC, consoles and VR or AR, but the pages opened do not list every engine. If your project may leave Unity, check Photon's per-engine SDK list first."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Mirror free for commercial games?",
+      "a": "Mirror's GitHub repository shows an MIT license and the homepage calls it open source with no price stated. You carry the cost of servers. Read the license file for attribution requirements."
+    },
+    {
+      "q": "Does Photon have a free plan?",
+      "a": "Its homepage links to a Try Photon free sign-up, but shows no plan limits or prices. The documentation says you create a free account to get an App ID. Confirm limits on the dashboard."
+    },
+    {
+      "q": "Which handles voice chat?",
+      "a": "Photon lists voice with 3D audio and noise reduction, and chat, as products. Mirror is a networking library, and the pages opened do not mention voice, so plan a separate service."
+    },
+    {
+      "q": "Can Mirror run without Unity?",
+      "a": "No. The vendor describes Mirror as networking for Unity, and its GitHub title calls it an open source Unity networking library."
+    },
+    {
+      "q": "Which is quicker to ship a prototype?",
+      "a": "A hosted service skips server setup, so Photon can get two players connected without you running anything. Mirror can run locally too, but you will host it. The pages opened do not time either, so judge by a spike build."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Photon is a multiplayer platform with networking engines, voice, chat and cloud hosting; over 1.4 billion monthly players claim; no prices shown.",
+      "url": "https://photonengine.com/"
+    },
+    {
+      "fact": "Photon documentation: create a free account to obtain an App ID.",
+      "url": "https://doc.photonengine.com/realtime/v5/getting-started/obtain-your-app-id"
+    },
+    {
+      "fact": "Mirror is open source networking for Unity, linked to Asset Store and GitHub.",
+      "url": "https://mirror-networking.com/"
+    },
+    {
+      "fact": "Mirror GitHub page: MIT license; transports UDP, TCP, WebSockets, Steam, Relay; used by thousands of Steam games.",
+      "url": "https://github.com/MirrorNetworking/Mirror"
+    }
+  ],
+  "published": "2026-11-18"
+}

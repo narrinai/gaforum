@@ -1,0 +1,517 @@
+{
+  "slug": "best-game-audio-middleware",
+  "name": "game audio middleware",
+  "title": "Best Game Audio Middleware in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Game audio middleware connects sound assets to gameplay through adaptive music, mixing, spatial effects and per-platform licensing, from free libraries to budget-based licenses.",
+  "definition": "Game audio middleware is software that sits between sound content and a game engine, letting designers define how sounds play, blend and react to gameplay without rewriting code. It usually includes an authoring tool, a runtime library and engine plugins, and is licensed by production budget, per platform or as open source.",
+  "intro": "Audio licensing can surprise a studio late in production, so this ranking puts price structure beside features. We read vendor pages, licensing terms, documentation and open source repositories, then compared what each product actually does at runtime against what only prepares sound. Some entries are true middleware with authoring tools, some are libraries a programmer embeds, and some are production tools that feed a runtime. They are ranked for an indie or mid-size studio asking which one to build on, so clear prices, engine plugins and a low cost of entry count most. FMOD is missing: its site displays no readable text without JavaScript in our review, so its terms could not be confirmed. Epic Online Services and GameSynth were also dropped because their pages could not be opened. Nothing here comes from running the software ourselves.",
+  "criteria": [
+    {
+      "heading": "License model and the budget ceiling",
+      "text": "Compare how each license is calculated. Wwise prices by production budget and by platform, Elias by budget per game with separate console fees, and Steam Audio, miniaudio, OpenAL Soft and SoLoud cost nothing. CRI ADX shows no amount. A free tier with a clear ceiling, such as Wwise at $250K, matters more to a small team than a low headline price that grows per platform."
+    },
+    {
+      "heading": "Authoring tool or code library",
+      "text": "Decide who will touch audio daily. Sound designers need event, mixing and music tools; Wwise and Elias provide them. Programmers may prefer an API like miniaudio, OpenAL Soft or SoLoud, which have no editor. Soundly, Krotos Studio and REAPER prepare assets only. A mismatch forces designers to wait on programmers for every change."
+    },
+    {
+      "heading": "Adaptive music and spatial sound",
+      "text": "Reactive scores and believable 3D position are the features players notice. Elias is built around segments, transitions and stingers. Steam Audio adds propagation, occlusion and HRTF, and plugs into FMOD Studio and Wwise. OpenAL Soft offers EFX reverb and ambisonic output. Check which of these your game needs rather than paying for all of them."
+    },
+    {
+      "heading": "Engine and console coverage",
+      "text": "Plugin lists and console support determine real cost. Elias supports Unity, Godot, Unreal and custom engines, with consoles licensed per platform. Wwise requires one license per platform used. SoLoud leaves out console backends for SDK license reasons. miniaudio lists Windows, macOS, iOS, Linux, BSD, Android and Web. Confirm each target before committing."
+    }
+  ],
+  "market_notes": [
+    "Of the ten tools, four are free software or open source (Steam Audio, miniaudio, OpenAL Soft and SoLoud), and one more offers a free tier by budget (Wwise). Only Wwise and Elias print a price table we could read; REAPER, Soundly, Krotos Studio and CRI ADX do not show full amounts in the pages we opened. CRI Middleware (Japan), Soundly (Norway) and Valve are the vendors with a stated owner or home on the pages we read. Three entries, Soundly, Krotos Studio and REAPER, prepare sound rather than play it back.",
+    "The list shows two ways of buying audio. Budget-tiered licenses give designers a full toolset but add per-platform fees, while open libraries are free and need a programmer to build the missing workflow. Steam Audio is the bridge, since it layers onto FMOD Studio and Wwise. A third path is mixing: a free spatial plugin, a lighter middleware and a DAW for asset production. Whatever you pick, confirm the license terms in writing for each console you ship on."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Fix your budget and platform count",
+      "text": "Write the total production budget and every platform you plan to ship on, then compare the Wwise and Elias bands. A $200K handheld title and a $2M multiplatform game land in very different columns. If budget is under $250K, the free Wwise Indie plan or the cheap Elias Scout tier come first."
+    },
+    {
+      "title": "Name the person who owns audio",
+      "text": "If a dedicated sound designer will work daily, pick an authoring tool with events, buses and music logic. If only a programmer touches sound, a library such as miniaudio, SoLoud or OpenAL Soft may do. Ask the owner to try the free tier or evaluation for one week on a real scene."
+    },
+    {
+      "title": "Add spatial and asset tools last",
+      "text": "Layer Steam Audio on top of a main engine only after basic playback works. Treat Soundly, Krotos Studio and REAPER as production tools you buy separately. Do a final read of each license for console terms, logo requirements and source code access before signing anything."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best game audio middleware in 2026?",
+      "a": "Wwise is the best pick for most studios because its Indie plan is free up to a $250K production budget and every higher tier has a printed price. Elias is better when adaptive music is the priority, and Steam Audio is the better add-on when realistic 3D sound matters more than authoring."
+    },
+    {
+      "q": "Is there free game audio middleware?",
+      "a": "Yes. Wwise Indie is free for projects up to $250K, Steam Audio is free to all developers, and miniaudio, OpenAL Soft and SoLoud are open source. Free options differ in scope: only Wwise includes a full authoring tool."
+    },
+    {
+      "q": "Why is FMOD not ranked?",
+      "a": "Its site did not display readable text without JavaScript when we reviewed it, so we could not verify licensing, features or platforms. We rank only tools whose pages we could read, so FMOD is left out rather than guessed at."
+    },
+    {
+      "q": "Does Wwise charge royalties?",
+      "a": "Audiokinetic lists a royalty-free (0%) license option alongside a royalty-based license and a GaaS license, and states that cost follows total production budget and platform count. Read the licensing page for the plan you intend to use."
+    },
+    {
+      "q": "Can I use Steam Audio together with Wwise?",
+      "a": "Yes. Steam Audio ships plugins for Unity, Unreal Engine, FMOD Studio and Wwise, plus a C API, and it is free to developers under its license agreement. It adds spatial sound on top of an existing engine."
+    },
+    {
+      "q": "Which option works for a custom C++ engine?",
+      "a": "miniaudio, OpenAL Soft and SoLoud are all libraries for C or C++. miniaudio is one public-domain file, OpenAL Soft is LGPL, and SoLoud uses ZLib/LibPNG. Elias also advertises custom engine support and an API, and CRI ADX covers embedded platforms."
+    },
+    {
+      "q": "Do I need REAPER or Soundly if I have middleware?",
+      "a": "They cover a different job. Middleware plays and mixes sound at runtime, while REAPER records and edits it, and Soundly finds and organizes sound effects. Many teams use both kinds, but a small project can start with the middleware alone."
+    }
+  ],
+  "related": [
+    "best-ai-npc-and-dialogue-platforms",
+    "best-game-localization-platforms",
+    "best-2d-game-engines",
+    "best-3d-game-engines-for-small-studios",
+    "best-open-source-game-engines",
+    "best-game-qa-and-test-automation-tools"
+  ],
+  "tools": [
+    {
+      "slug": "wwise",
+      "name": "Wwise",
+      "site": "https://www.audiokinetic.com/en/",
+      "company": "Audiokinetic",
+      "country": "",
+      "tagline": "Interactive audio engine priced by production budget",
+      "best_for": "Studios wanting a free indie start",
+      "pricing": "The Indie plan is free for projects with a production budget up to $250K; Pro starts at $8,000 for the first platform ($4,000 per extra), Premium at $25,000 ($17,000 per extra) and Platinum at $45,000 ($23,000 per extra).",
+      "pricing_model": "One-time license",
+      "free_plan": "Free",
+      "platforms": "Multiple platforms; one license per platform used",
+      "features": [
+        "All engine features",
+        "Continuous updates",
+        "Royalty-free (0%) license option",
+        "Premium plug-ins (Premium and Platinum)",
+        "Source code access for Sound Engine (with support package)",
+        "Support plans"
+      ],
+      "summary": "The only entry with a free tier, published price bands and full middleware tooling, which makes budgeting simple.",
+      "verdict": "Audiokinetic ties the license to the size of the production, not to a seat count or royalty. A game under $250K pays nothing, with unlimited sound files and the first platform included. Above that, each tier prints its first-platform and extra-platform price, and a royalty-free (0%) license option is listed. A royalty-based and a GaaS license also exist. Plug-ins arrive at Premium and Platinum, and source access to the Sound Engine comes with a support package.",
+      "weaknesses": "Costs jump sharply once a budget passes $250K, and every extra platform adds a fee, so console and mobile releases stack licenses. The cap is by production budget, which you must declare honestly.",
+      "wrong_for": "A programmer-only team that wants a library and no authoring tool should read the miniaudio or SoLoud entries below.",
+      "sources": [
+        {
+          "fact": "Audiokinetic offers Wwise for Games with an Indie plan that is free for projects with a production budget up to $250K.",
+          "url": "https://www.audiokinetic.com/en/wwise/pricing/for-games/"
+        },
+        {
+          "fact": "Wwise Pro licenses start at $8,000 for the first platform and $4,000 for each extra platform, for projects with a production budget up to $2M.",
+          "url": "https://www.audiokinetic.com/en/wwise/pricing/for-games/"
+        },
+        {
+          "fact": "Wwise Premium and Platinum licenses start at $25,000 and $45,000 for the first platform, with no production budget cap for Premium and Platinum.",
+          "url": "https://www.audiokinetic.com/en/wwise/pricing/for-games/"
+        },
+        {
+          "fact": "Audiokinetic's pricing page lists Indie, Pro, Premium and Platinum plans, each with a starting price on the page.",
+          "url": "https://www.audiokinetic.com/en/wwise/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "elias",
+      "name": "Elias",
+      "site": "https://elias.audio/",
+      "company": "",
+      "country": "",
+      "tagline": "Adaptive music and audio without sound banks",
+      "best_for": "Composers wanting reactive scores",
+      "pricing": "Per game by production budget: EUR 0 to EUR 1,500 under EUR 300k, EUR 5,850 from EUR 300k to EUR 1.5M, EUR 15,000 above; consoles cost EUR 5,000 or EUR 15,000 per platform.",
+      "pricing_model": "One-time license",
+      "free_plan": "Free trial",
+      "platforms": "PC, Mac and mobile included; consoles licensed per platform; Unity, Godot, Unreal and custom engines",
+      "features": [
+        "Visual scripting",
+        "No sound banks; real-time design",
+        "Adaptive music with segments, transitions and stingers",
+        "Spatialized audio",
+        "API, Python wrapper and source code access",
+        "Standard and premium support tiers"
+      ],
+      "summary": "Cheaper than the big incumbents at mid budgets and designed around adaptive music, though console builds cost extra.",
+      "verdict": "Elias skips sound banks and works in real time through visual scripting, so a composer can change segments, transitions and stingers without a build step. Unity, Godot, Unreal and custom engines are covered, spatialized audio is included, and an API with a Python wrapper is offered. Prices are in euros and printed for each budget band. A free evaluation is a button away, which lets a composer judge the workflow before any money moves.",
+      "weaknesses": "The Scout tier has no console support. Removing the Powered by Elias logo costs EUR 3,000 on Explorer or EUR 4,000 on Colonizer, and source code needs a separate agreement.",
+      "wrong_for": "Teams that already use Wwise sound banks and plug-in ecosystems will gain little from switching, and a free path is cheaper with Steam Audio.",
+      "sources": [
+        {
+          "fact": "Elias is adaptive game audio and music middleware for Unity, Godot, Unreal and custom engines, designed with visual scripting and no sound banks.",
+          "url": "https://elias.audio/"
+        },
+        {
+          "fact": "Elias licenses are priced per game by production budget: EUR 0 to EUR 1,500 below EUR 300k, EUR 5,850 between EUR 300k and EUR 1.5M, and EUR 15,000 above EUR 1.5M.",
+          "url": "https://elias.audio/pricing/"
+        },
+        {
+          "fact": "Elias console licenses are charged per platform, at EUR 5,000 for Explorer and EUR 15,000 for Colonizer.",
+          "url": "https://elias.audio/pricing/"
+        },
+        {
+          "fact": "Elias offers a free evaluation through a Start free evaluation button on its pricing page.",
+          "url": "https://elias.audio/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "steam-audio",
+      "name": "Steam Audio",
+      "site": "https://valvesoftware.github.io/steam-audio/",
+      "company": "Valve Corporation",
+      "country": "",
+      "tagline": "Free spatial audio with propagation and HRTF",
+      "best_for": "Realistic 3D sound at zero cost",
+      "pricing": "Free to all developers under its license agreement; the source on GitHub is Apache-2.0.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "PC and mobile SDK; Unity, Unreal, FMOD Studio, Wwise and C API plugins",
+      "features": [
+        "Realtime sound propagation",
+        "Occlusion and reflection",
+        "HRTF 3D audio",
+        "Ambisonics",
+        "Baked propagation",
+        "Plugins for Unity, Unreal, FMOD and Wwise"
+      ],
+      "summary": "Free spatial layer that sits beside other middleware rather than replacing it, with occlusion and propagation hard to match for the price.",
+      "verdict": "Steam Audio does one job: placing sound in space. It offers realtime propagation, occlusion, reflection, HRTF rendering and ambisonics, with baked propagation for cheaper playback. Plugins cover Unity, Unreal Engine, FMOD Studio and Wwise plus a C API, so it adds to a main audio engine instead of competing with one. The price is nothing, and Apache-2.0 source on GitHub lets a technical team read how it works.",
+      "weaknesses": "It has no authoring tool for music, mixing or event logic, so you still need a main engine. The latest release listed on its downloads page is 4.8.1, and the SDK targets PC and mobile only.",
+      "wrong_for": "If you need adaptive music or event authoring, take Wwise or Elias, and use Steam Audio only as an add-on.",
+      "sources": [
+        {
+          "fact": "Steam Audio is a spatial audio API for games and VR offering realtime sound propagation, occlusion, reflection and HRTF-based 3D audio.",
+          "url": "https://valvesoftware.github.io/steam-audio/"
+        },
+        {
+          "fact": "Steam Audio is available for free to all developers under its license agreement.",
+          "url": "https://valvesoftware.github.io/steam-audio/downloads.html"
+        },
+        {
+          "fact": "Steam Audio ships plugins for Unity, Unreal Engine, FMOD Studio and Wwise, plus a C API.",
+          "url": "https://valvesoftware.github.io/steam-audio/downloads.html"
+        },
+        {
+          "fact": "The Steam Audio GitHub repository is published under the Apache-2.0 license.",
+          "url": "https://github.com/ValveSoftware/steam-audio"
+        }
+      ]
+    },
+    {
+      "slug": "cri-adx",
+      "name": "CRI ADX",
+      "site": "https://game.criware.com/",
+      "company": "CRI Middleware Co., Ltd.",
+      "country": "Japan",
+      "tagline": "Japanese audio middleware inside the CRIWARE suite",
+      "best_for": "Console titles from Japanese publishers",
+      "pricing": "No price appears on the pages we opened; the homepage points to a contact page for questions.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Games and embedded platforms; consoles, PCs, mobile devices and embedded systems per the about page",
+      "features": [
+        "Streaming audio playback",
+        "Precise runtime control",
+        "Sound xR Core by Yamaha included",
+        "CRIWARE suite with Sofdec video middleware and LipSync",
+        "Cross-platform game and embedded support"
+      ],
+      "summary": "Long-lived and widely shipped, but price, engine support and feature detail are largely hidden behind sales contact.",
+      "verdict": "ADX is CRIWARE's audio middleware for real-time interactive applications, offering streaming playback and precise runtime control across consoles, PCs, mobile devices and embedded systems. The vendor says ADX debuted in 1995 during Sega Saturn development, that CRI Middleware was founded in 2001, and that the products power more than 10,000 titles. Yamaha's Sound xR Core ships with it, and companion tools include Sofdec video and LipSync.",
+      "weaknesses": "The pages we read give no pricing, no engine support list and no free tier, so an indie team cannot assess cost or Unity and Unreal fit without contacting sales. English documentation depth is not shown.",
+      "wrong_for": "Teams that need clear budgets and a free trial should start with Wwise or Elias instead.",
+      "sources": [
+        {
+          "fact": "ADX is CRIWARE's audio middleware for real-time interactive applications, providing streaming playback and precise runtime control across games and embedded platforms.",
+          "url": "https://game.criware.com/"
+        },
+        {
+          "fact": "CRI Middleware was founded in 2001 and is a technology company specializing in middleware for real-time interactive applications.",
+          "url": "https://game.criware.com/about-cri"
+        },
+        {
+          "fact": "The CRI about page timeline says ADX was launched in 1995 while CRI took part in the development of the Sega Saturn.",
+          "url": "https://game.criware.com/about-cri"
+        },
+        {
+          "fact": "The CRI homepage says it powers more than 10,000 titles and invites questions through its contact page; pricing is not shown on the pages opened.",
+          "url": "https://game.criware.com/"
+        }
+      ]
+    },
+    {
+      "slug": "miniaudio",
+      "name": "miniaudio",
+      "site": "https://miniaud.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Single-file C audio library in the public domain",
+      "best_for": "Programmers building a custom engine",
+      "pricing": "Free; released into the public domain, with MIT No Attribution as an alternative.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, macOS, iOS, Linux, BSD, Android and Web (Emscripten)",
+      "features": [
+        "Single source file, no dependencies",
+        "Node graph for mixing and effects",
+        "Resource manager with streaming",
+        "3D spatialization",
+        "Built-in decoders",
+        "Low-level device API"
+      ],
+      "summary": "Smallest possible footprint: one file, no dependencies, a node graph and 3D spatialization, with no authoring tool at all.",
+      "verdict": "miniaudio is one source file for C and C++ that you add to a project and compile. Its low-level API talks to devices, while a high-level engine wraps a resource manager and node graph so sounds can sit in a 3D scene with spatialization. Streaming, asynchronous loading and built-in decoders are included. Windows, macOS, iOS, Linux, BSD, Android and Web through Emscripten are all supported, which suits custom-engine and tools programmers.",
+      "weaknesses": "There is no editor, no event system and no adaptive music, so sound designers cannot work independently of a programmer. Console backends are not mentioned on the pages we read.",
+      "wrong_for": "Designers who expect a mixing and event tool should choose Wwise or Elias; programmers who want a built-in voice and filter model might compare SoLoud.",
+      "sources": [
+        {
+          "fact": "miniaudio is an audio playback and capture library for C and C++ made of a single source file with no external dependencies.",
+          "url": "https://miniaud.io/"
+        },
+        {
+          "fact": "miniaudio is released into the public domain, with MIT No Attribution as an alternative license.",
+          "url": "https://miniaud.io/"
+        },
+        {
+          "fact": "The high level engine places sounds in a 3D scene with spatialization, built on a node graph and resource manager.",
+          "url": "https://miniaud.io/"
+        },
+        {
+          "fact": "miniaudio works on Windows, macOS, iOS, Linux, BSD, Android and Web through Emscripten.",
+          "url": "https://miniaud.io/"
+        }
+      ]
+    },
+    {
+      "slug": "openal-soft",
+      "name": "OpenAL Soft",
+      "site": "https://openal-soft.org/",
+      "company": "",
+      "country": "",
+      "tagline": "LGPL software implementation of the OpenAL 3D API",
+      "best_for": "Cross-platform 3D positional audio",
+      "pricing": "Free under the LGPL license.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Linux, Windows, Android, OS X, iOS and more",
+      "features": [
+        "Distance attenuation and doppler",
+        "EFX reverb, occlusion and obstruction",
+        "HRTF and ambisonic B-Format",
+        "Mono to 7.1 and UHJ output",
+        "Many audio backends",
+        "Streaming and capture"
+      ],
+      "summary": "A standards-based 3D audio API with reverb and HRTF, offered under LGPL terms that need attention in closed releases.",
+      "verdict": "OpenAL Soft implements the OpenAL API in software across Linux, Windows, Android, OS X, iOS and more, covering distance attenuation, doppler shift and directional emitters. The EFX extension adds air absorption, occlusion and reverb, and output spans mono to 7.1, HRTF, UHJ and B-Format ambisonics. Release 1.25.2 is current on the site, and many audio backends from PipeWire to WASAPI to SDL3 are implemented.",
+      "weaknesses": "LGPL terms ask for care in closed-source releases, so a lawyer should read them before you ship. It is an API, not a toolset, and support is by IRC and a GitHub issue tracker.",
+      "wrong_for": "Teams wanting a visual authoring environment should pick Wwise, and those wanting a permissive single file should read the miniaudio entry.",
+      "sources": [
+        {
+          "fact": "OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.",
+          "url": "https://openal-soft.org/"
+        },
+        {
+          "fact": "The EFX extension adds air absorption, occlusion and environmental reverb to the API.",
+          "url": "https://openal-soft.org/"
+        },
+        {
+          "fact": "OpenAL Soft supports mono, stereo, 4-channel, 5.1, 7.1, HRTF, UHJ and B-Format output.",
+          "url": "https://openal-soft.org/"
+        },
+        {
+          "fact": "The site lists OpenAL Soft 1.25.2 as the current release, and support is offered through IRC and a GitHub issue tracker.",
+          "url": "https://openal-soft.org/"
+        }
+      ]
+    },
+    {
+      "slug": "soloud",
+      "name": "SoLoud",
+      "site": "https://solhsa.com/soloud/",
+      "company": "",
+      "country": "",
+      "tagline": "Free audio engine with bindings for many languages",
+      "best_for": "Small games and jam projects",
+      "pricing": "Free under the ZLib/LibPNG license, with bundled parts under similarly permissive terms.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "C and C++ with C-API bindings for Python, Ruby, C#, D and others; Emscripten",
+      "features": [
+        "Voices, faders and mixing busses",
+        "Filters such as echo and low/high pass",
+        "3D positional audio",
+        "Up to 8 speaker surround",
+        "Sound effect and speech synthesizers",
+        "Language bindings"
+      ],
+      "summary": "Friendly and permissive, with the author listing its own limits openly: no artist tools and thin engine integration.",
+      "verdict": "SoLoud offers voices, faders, mixing busses, filters such as echo and low or high pass, gapless looping, queued sounds and 3D positional audio, plus effect and speech synthesizers for prototypes. Bindings reach Python, Ruby, C#, D and RPG Maker through a C API, and it works with Emscripten. The ZLib/LibPNG license permits commercial use without source sharing or a splash screen.",
+      "weaknesses": "The author says it lacks artist tools, has limited engine integration and does not match commercial support. Console backends are not included because of SDK license terms, and copyright runs to 2020.",
+      "wrong_for": "Studios on a large console budget should skip it, as the author himself notes, and look at Wwise or CRI ADX.",
+      "sources": [
+        {
+          "fact": "SoLoud is released under the ZLib/LibPNG license and can be used in free or commercial applications.",
+          "url": "https://solhsa.com/soloud/"
+        },
+        {
+          "fact": "The author says SoLoud has no artist tools, limited engine integration, and no vendor support compared with FMOD or Wwise.",
+          "url": "https://solhsa.com/soloud/"
+        },
+        {
+          "fact": "Console backends are not included in the package because of SDK license issues, though the author says software using SoLoud has shipped on current-gen consoles as of 2018.",
+          "url": "https://solhsa.com/soloud/"
+        },
+        {
+          "fact": "The license page states SoLoud proper is a clean-room implementation under the ZLib/LibPNG license, with bundled parts under Unlicense, CC0, WTFPL or public domain terms.",
+          "url": "https://solhsa.com/soloud/legal.html"
+        }
+      ]
+    },
+    {
+      "slug": "soundly",
+      "name": "Soundly",
+      "site": "https://getsoundly.com/",
+      "company": "Soundly AS",
+      "country": "Norway",
+      "tagline": "Cloud sound effects library with local file search",
+      "best_for": "Fast sound sourcing for editors",
+      "pricing": "A free plan includes the free cloud library, 10,000 local files and 10GB of cloud storage; annual plans are advertised as 14 months for the price of 12, and Pro and Enterprise amounts are not shown.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Mac and PC (macOS 10.10 or later, Windows 7 or later)",
+      "features": [
+        "Cloud sound library",
+        "Local file search and organization",
+        "Drag and drop into editors and DAWs",
+        "Voice Designer renders",
+        "Soundly Pro Library",
+        "Team volume discounts"
+      ],
+      "summary": "Helps designers find and drag sounds into a project; it feeds middleware rather than acting as one.",
+      "verdict": "Soundly combines a cloud sound library with search over a designer's local files and drag-and-drop transfer into editors and DAWs. The Pro Library holds 250,000 sounds and a Voice Designer renders voices. Pro users pictured on its page include teams at Netflix, BBC, Sony, Ubisoft and Electronic Arts. For a studio, the free plan is enough to organize a local archive before any subscription.",
+      "weaknesses": "It runs on Mac and PC only (macOS 10.10 or later, Windows 7 or later) and has no runtime. The Pro price is not shown, and Enterprise is quoted through a contact form.",
+      "wrong_for": "Anyone needing in-game playback logic should choose Wwise or Elias; Soundly only supplies assets.",
+      "sources": [
+        {
+          "fact": "Soundly AS is the company, listed at Sagveien 23F, 0459 Oslo, Norway.",
+          "url": "https://getsoundly.com/"
+        },
+        {
+          "fact": "Soundly is a sound effects platform with a cloud sound library and drag-and-drop transfer of sounds into editors and DAWs.",
+          "url": "https://getsoundly.com/"
+        },
+        {
+          "fact": "Soundly has a free plan with access to the free cloud library, 10,000 local files and 10GB cloud storage.",
+          "url": "https://getsoundly.com/"
+        },
+        {
+          "fact": "The Pro plan includes the Soundly Pro Library with 250,000 sounds; no Pro price is shown on the page.",
+          "url": "https://getsoundly.com/"
+        }
+      ]
+    },
+    {
+      "slug": "krotos-studio",
+      "name": "Krotos Studio",
+      "site": "https://krotos.studio/",
+      "company": "Krotos",
+      "country": "",
+      "tagline": "Sound design plugins and libraries for creature and weapon audio",
+      "best_for": "Designers making monster voices and weapons",
+      "pricing": "Pro and Max platforms are sold with a free trial button; the pricing page text we opened shows no amounts.",
+      "pricing_model": "Subscription and one-off purchases",
+      "free_plan": "Free trial",
+      "platforms": "Plugins for Premiere Pro and DaVinci Resolve workflows; plugin formats not listed on the opened pages",
+      "features": [
+        "Dehumaniser 2 creature voices",
+        "Weaponiser weapon layering",
+        "Reformer Pro real-time transformation",
+        "Igniter vehicle sounds",
+        "Video to Sound",
+        "Sound effect libraries"
+      ],
+      "summary": "Generates source sounds quickly, but outputs go into middleware instead of running inside the game.",
+      "verdict": "Krotos sells sound design tools rather than a runtime: Dehumaniser 2 for creature voices, Weaponiser for layered weapons, Reformer Pro for real-time transformation, Igniter for vehicles and Simple Monsters. A Video to Sound feature works in Premiere Pro, DaVinci Resolve and a browser. Krotos says its software has powered Stranger Things, Game of Thrones and AAA games, so the plugins suit professionals building original effects libraries.",
+      "weaknesses": "It cannot play audio in a build and needs a DAW or middleware around it. Prices were not readable on the opened page, and plugin formats are not listed in the text we saw.",
+      "wrong_for": "Teams in need of an engine integration should go to Wwise or Elias; Krotos only makes the raw sounds.",
+      "sources": [
+        {
+          "fact": "Krotos Studio offers Pro and Max platforms plus iconic plugins: Dehumaniser 2, Weaponiser, Reformer Pro, Igniter and Simple Monsters.",
+          "url": "https://krotos.studio/"
+        },
+        {
+          "fact": "The site offers Video to Sound for Premiere Pro, DaVinci Resolve and a browser version.",
+          "url": "https://krotos.studio/"
+        },
+        {
+          "fact": "Krotos says its software has powered titles such as Stranger Things, Game of Thrones and countless AAA games.",
+          "url": "https://krotos.studio/about"
+        },
+        {
+          "fact": "The pricing page has Start Free Trial buttons, but the opened text shows no amounts.",
+          "url": "https://krotos.studio/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "reaper",
+      "name": "REAPER",
+      "site": "https://www.reaper.fm/",
+      "company": "",
+      "country": "",
+      "tagline": "Full DAW for recording, editing and mixing",
+      "best_for": "Cheap, flexible audio production",
+      "pricing": "No license price is stated on the page; it describes the license as affordably priced and DRM-free, with a 60-day full evaluation and free updates through version 8.99 for a REAPER 7 license.",
+      "pricing_model": "Perpetual license",
+      "free_plan": "Free trial",
+      "platforms": "Windows, macOS, Linux",
+      "features": [
+        "Multitrack recording",
+        "Editing",
+        "Mixing",
+        "Mastering",
+        "LV2 and CLAP plugin support",
+        "Portable or network drive install"
+      ],
+      "summary": "Included for production, not playback: a capable recording and mixing tool, ranked last because it is not middleware.",
+      "verdict": "REAPER is a full digital audio workstation covering multitrack recording, editing, processing, mixing and mastering, on Windows, macOS and Linux. The vendor lists LV2 and CLAP plugin support, a portable install and network drive install, and offers a 60-day full evaluation. The version listed is 7.86, dated 13 November 2026. Sound teams commonly render assets here before importing them to a runtime engine, and the license is DRM-free.",
+      "weaknesses": "It does not run in a game, so you still need middleware or an engine library for playback. The vendor page states no price figure, only that the license is affordable.",
+      "wrong_for": "Developers who need runtime behavior should look at Wwise, Elias or miniaudio instead.",
+      "sources": [
+        {
+          "fact": "REAPER is a full digital audio production application for computers covering multitrack recording, editing, processing, mixing and mastering.",
+          "url": "https://www.reaper.fm/"
+        },
+        {
+          "fact": "REAPER runs on Windows, macOS and Linux.",
+          "url": "https://www.reaper.fm/"
+        },
+        {
+          "fact": "REAPER can be evaluated in full for 60 days.",
+          "url": "https://www.reaper.fm/"
+        },
+        {
+          "fact": "A REAPER 7 license is described as DRM-free and includes unlimited free updates through REAPER version 8.99; no license price is stated on the page.",
+          "url": "https://www.reaper.fm/"
+        }
+      ]
+    }
+  ]
+}

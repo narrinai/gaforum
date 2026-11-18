@@ -1,0 +1,283 @@
+{
+  "slug": "mobile-game-monetization-statistics",
+  "title": "Mobile Game Monetization Statistics 2026",
+  "description": "Mobile game monetization figures for 2026: in-app purchase revenue, free-to-play share, ad network results, subscription data and developer survey answers, with sources.",
+  "category": "best-mobile-game-ad-networks-and-mediation",
+  "published": "2026-11-18",
+  "intro": "Mobile game in-app purchases reached about $82 billion in 2025, up 1.4%, even though game downloads fell 7%, according to Sensor Tower. That gap between installs and revenue is the main story in the 2026 data: growth now comes from spending per player, ad revenue and retention rather than new installs. The figures below come from store trackers, listed companies and a developer survey, and each line says which one. Ad stack choices are covered in [mobile game ad networks and mediation](/software/best-mobile-game-ad-networks-and-mediation).",
+  "sections": [
+    {
+      "h2": "Store revenue and downloads",
+      "intro": "Sensor Tower data for iOS and Google Play in 2025.",
+      "facts": [
+        {
+          "text": "Mobile game in-app purchase revenue climbed 1.4% to $82 billion in 2025 while game downloads fell 7%, according to Sensor Tower's State of Gaming report.",
+          "source_name": "PocketGamer.biz, coverage of Sensor Tower State of Gaming 2026",
+          "source_url": "https://www.pocketgamer.biz/over-95000-mobile-games-were-downloaded-every-minute-in-2025",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Average in-app purchase revenue per mobile game download reached $1.62 in 2025.",
+          "source_name": "PocketGamer.biz, coverage of Sensor Tower State of Gaming 2026",
+          "source_url": "https://www.pocketgamer.biz/over-95000-mobile-games-were-downloaded-every-minute-in-2025",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Mobile games were downloaded more than 95,000 times per minute in 2025, with installs reaching 50 billion for the year.",
+          "source_name": "PocketGamer.biz, coverage of Sensor Tower State of Gaming 2026",
+          "source_url": "https://www.pocketgamer.biz/over-95000-mobile-games-were-downloaded-every-minute-in-2025",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Free-to-play titles made up 96% of mobile game downloads in 2025 and 99% of downloads on Google Play.",
+          "source_name": "PocketGamer.biz, coverage of Sensor Tower State of Gaming 2026",
+          "source_url": "https://www.pocketgamer.biz/over-95000-mobile-games-were-downloaded-every-minute-in-2025",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Google Play accounted for 81% of mobile game downloads in 2025 and the App Store for 15%, yet the App Store produced disproportionately higher in-app purchase revenue.",
+          "source_name": "PocketGamer.biz, coverage of Sensor Tower State of Gaming 2026",
+          "source_url": "https://www.pocketgamer.biz/over-95000-mobile-games-were-downloaded-every-minute-in-2025",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "The App Store generated 75% higher game in-app purchase revenue than Google Play in 2025, even though Google Play had more than four times the downloads.",
+          "source_name": "Sensor Tower, State of Gaming 2026",
+          "source_url": "https://sensortower.com/blog/state-of-gaming-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Sensor Tower reports that time spent in mobile games rose slightly in 2025 while downloads fell, which it reads as a shift from new-user volume to lifetime value.",
+          "source_name": "Sensor Tower, 2026 State of Mobile",
+          "source_url": "https://sensortower.com/blog/state-of-mobile-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Non-game apps passed games in mobile in-app purchase revenue for the first time in 2025, with non-game revenue up 21% year over year.",
+          "source_name": "Sensor Tower, 2026 State of Mobile",
+          "source_url": "https://sensortower.com/blog/state-of-mobile-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        }
+      ]
+    },
+    {
+      "h2": "Genres and titles that earned the revenue",
+      "intro": "What Sensor Tower's 2025 data says about where spending went.",
+      "facts": [
+        {
+          "text": "Strategy was the only mobile genre to grow revenue, downloads and time spent in 2025, according to Sensor Tower.",
+          "source_name": "PocketGamer.biz, coverage of Sensor Tower State of Gaming 2026",
+          "source_url": "https://www.pocketgamer.biz/over-95000-mobile-games-were-downloaded-every-minute-in-2025",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Last War: Survival and Whiteout Survival ranked as the two highest-earning mobile games of 2025.",
+          "source_name": "PocketGamer.biz, coverage of Sensor Tower State of Gaming 2026",
+          "source_url": "https://www.pocketgamer.biz/over-95000-mobile-games-were-downloaded-every-minute-in-2025",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Monopoly Go pushed Monopoly to the top spot for mobile in-app purchase revenue among game IPs in 2025.",
+          "source_name": "PocketGamer.biz, coverage of Sensor Tower State of Gaming 2026",
+          "source_url": "https://www.pocketgamer.biz/over-95000-mobile-games-were-downloaded-every-minute-in-2025",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Puzzle games posted strong 2025 revenue gains in Europe, with Royal Match reaching the top spot and Gossip Harbor delivering the largest uplift, per Sensor Tower.",
+          "source_name": "Sensor Tower, State of Gaming 2026",
+          "source_url": "https://sensortower.com/blog/state-of-gaming-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Strategy was the only mobile genre to grow downloads across Asia, North America and Europe in 2025, while all other genres lost downloads in those regions.",
+          "source_name": "Sensor Tower, State of Gaming 2026",
+          "source_url": "https://sensortower.com/blog/state-of-gaming-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        }
+      ]
+    },
+    {
+      "h2": "Advertising and ad tech",
+      "intro": "Results from the ad networks and engines that sit between mobile developers and advertisers.",
+      "facts": [
+        {
+          "text": "Sensor Tower finds that most mobile game ad spend goes to mobile app networks such as AppLovin and AdMob, while PC and console spend concentrates in social and video channels.",
+          "source_name": "Sensor Tower, State of Gaming 2026",
+          "source_url": "https://sensortower.com/blog/state-of-gaming-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "YouTube's share of mobile game ad spend increased year over year in 2025, as publishers targeted high-value players over raw download volume.",
+          "source_name": "Sensor Tower, State of Gaming 2026",
+          "source_url": "https://sensortower.com/blog/state-of-gaming-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "AppLovin reported third quarter 2026 revenue of $2,185 million, up 55% year over year, and net income of $1,439 million.",
+          "source_name": "AppLovin, third quarter 2026 results (Business Wire, 4 November 2026)",
+          "source_url": "https://finviz.com/news/415920/applovin-announces-third-quarter-2026-financial-results",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "AppLovin guided fourth quarter 2026 revenue to a range of $2,365 million to $2,395 million.",
+          "source_name": "AppLovin, third quarter 2026 results (Business Wire, 4 November 2026)",
+          "source_url": "https://finviz.com/news/415920/applovin-announces-third-quarter-2026-financial-results",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Unity's Grow Solutions revenue, which covers its advertising and monetization products, was $457 million in the third quarter of 2026, against $318 million a year earlier.",
+          "source_name": "Unity, third quarter 2026 results (5 November 2026)",
+          "source_url": "https://seekingalpha.com/pr/20714795",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Unity's ironSource Ads network was sunset in the second quarter of 2026, and its Supersonic publishing business was sold on 4 August 2026.",
+          "source_name": "Unity, third quarter 2026 results (5 November 2026)",
+          "source_url": "https://seekingalpha.com/pr/20714795",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Unity's Editor data shows the advertising and monetization SDK category reached a 28.2% attachment rate in December 2025, up from 25.5% in December 2024.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Unity's Editor data shows the payments SDK category reached an 18.6% attachment rate in December 2025, up from 16.7% a year earlier.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "In-game spending at publishers and platforms",
+      "intro": "Company disclosures on recurring and ad-based revenue.",
+      "facts": [
+        {
+          "text": "Take-Two's recurrent consumer spending fell 9% in its September 2026 quarter and made up 81% of net bookings.",
+          "source_name": "Take-Two Interactive, fiscal Q2 2027 results (Business Wire, 9 November 2026)",
+          "source_url": "https://finviz.com/news/419503/take-two-interactive-software-inc-reports-results-for-fiscal-second-quarter-2027",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Mobile titles Toon Blast, Match Factory, Empires & Puzzles and Color Block Jam are among the largest contributors to Take-Two net bookings in the September 2026 quarter.",
+          "source_name": "Take-Two Interactive, fiscal Q2 2027 results (Business Wire, 9 November 2026)",
+          "source_url": "https://finviz.com/news/419503/take-two-interactive-software-inc-reports-results-for-fiscal-second-quarter-2027",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "More than 70% of Roblox's 100 highest-earning games by Robux spent ran Sponsored Ads in the third quarter of 2026, according to coverage of its shareholder letter.",
+          "source_name": "Gaming.net, Roblox Q3 2026 results coverage",
+          "source_url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Roblox Plus subscribers average twice the playtime and seven times the Robux spend of non-subscribers, according to coverage of Roblox's third quarter 2026 shareholder letter.",
+          "source_name": "Gaming.net, Roblox Q3 2026 results coverage",
+          "source_url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Roblox's average monthly unique payers were 30 million in the third quarter of 2026, down 16%, while average bookings per payer rose 5%.",
+          "source_name": "Gaming.net, Roblox Q3 2026 results coverage",
+          "source_url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Roblox says US users aged 18 and over monetize 50% or more above under-18 users.",
+          "source_name": "Gaming.net, Roblox Q3 2026 results coverage",
+          "source_url": "https://gaming.net/roblox-q3-revenue-rises-16-as-bookings-fall-12-to-1-7-billion",
+          "year": "2026",
+          "kind": "study"
+        }
+      ]
+    },
+    {
+      "h2": "What mobile developers say is hard",
+      "intro": "Unity's survey of 300 game developers, run by Cint between 16 September and 3 October 2025.",
+      "facts": [
+        {
+          "text": "Competition is the biggest hurdle for mobile game developers for 33% of surveyed developers, ahead of user acquisition cost at 30%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Discoverability is the biggest mobile challenge for 17% of the 300 developers in Unity's 2026 report.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Paid advertising is used by 51% of surveyed studios to improve discoverability, and sponsored content on platforms by 29%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Of surveyed studios, 24% say they are diversifying revenue beyond primary game sales, for example through merchandise, ad revenue or work-for-hire services.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    }
+  ],
+  "methodology": [
+    "Pages opened on 18 November 2026: Sensor Tower's State of Mobile and State of Gaming blog pages, PocketGamer.biz coverage of the State of Gaming report, the Unity Game Development Report page, and the Take-Two, AppLovin and Unity results releases as hosted by finviz and Seeking Alpha. Roblox figures are from press coverage of its shareholder letter, since the SEC filing blocked our tool.",
+    "Sensor Tower measures store revenue only on iOS and Google Play, so web shops and other stores are outside its totals. Company results cover whole businesses, not only mobile games. AppsFlyer reports were not used because no current report URL was opened."
+  ],
+  "faqs": [
+    {
+      "q": "How much do mobile games earn from in-app purchases?",
+      "a": "Sensor Tower measured $82 billion in mobile game in-app purchases for 2025, up 1.4% on 2024. That equals $1.62 of in-app purchase revenue per game download across iOS and Google Play, measured by the same tracker."
+    },
+    {
+      "q": "Are most mobile games free to play?",
+      "a": "Yes. Sensor Tower found free-to-play titles were 96% of mobile game downloads in 2025 and 99% on Google Play. Revenue then comes mostly from in-app purchases and advertising rather than upfront prices."
+    },
+    {
+      "q": "Which store earns more per download?",
+      "a": "The App Store. Sensor Tower reports 75% higher game in-app purchase revenue on the App Store than Google Play in 2025, although Google Play had over four times the downloads."
+    },
+    {
+      "q": "What do developers find hardest about monetizing mobile games?",
+      "a": "In Unity's survey, 33% named competition and 30% named user acquisition cost as the biggest hurdle. Another 17% named discoverability, so reaching players costs more than building the monetization layer."
+    }
+  ],
+  "related_guides": [
+    "how-to-pick-a-game-monetization-stack",
+    "game-analytics-kpis-explained"
+  ]
+}

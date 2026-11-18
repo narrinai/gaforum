@@ -1,0 +1,194 @@
+{
+  "slug": "geforce-now",
+  "subject": "GeForce NOW",
+  "subject_site": "https://www.nvidia.com/en-us/geforce-now/",
+  "title": "GeForce NOW Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Eight cloud gaming options to weigh against GeForce NOW if you want a different library model, bundle or full cloud PC: Xbox, Shadow, Boosteroid and more.",
+  "category": "best-cloud-gaming-services",
+  "intro": "GeForce NOW is NVIDIA's cloud gaming service, which streams games from stores you already use, such as Steam, Epic, GOG, PC Game Pass and Ubisoft Connect, on GeForce RTX servers. It is sold as Performance and Ultimate memberships. People look past it when they would rather pay for a library than bring their own, bundle cloud play with a subscription they already have, or rent a full Windows PC. This page covers eight such services, using only what each vendor states on pages we opened. Prices are mostly missing because the pages did not show them in readable text. See the [cloud gaming services ranking](/software/best-cloud-gaming-services) for the wider field.",
+  "why_switch": [
+    "GeForce NOW streams games you own in connected stores, so it does not replace a catalog; services like Blacknut and Xbox Cloud Gaming bring a library with the subscription.",
+    "Its Install-to-Play option is available only to Performance and Ultimate members, which matters if you want a lower tier.",
+    "The membership page did not show prices in readable text, so budgeting takes an extra step.",
+    "Players who want a whole PC, not just games, can rent one through Shadow.",
+    "Households that already pay for Prime or Game Pass may get cloud play without a new subscription."
+  ],
+  "picks": [
+    {
+      "slug": "xbox-cloud-gaming",
+      "name": "Xbox Cloud Gaming",
+      "site": "https://play.xbox.com/",
+      "best_for": "Cloud play inside Game Pass",
+      "pricing": "Part of Xbox Game Pass; the page describes one low monthly price but gives no figure in the readable text.",
+      "free_plan": "Unknown",
+      "note": "Xbox Cloud Gaming is the cloud part of Xbox Game Pass and runs on Xbox consoles, PC and other devices. It suits players who want a catalog of games included rather than streaming titles they bought elsewhere. You give up GeForce NOW's connection to existing store libraries, and the play.xbox.com page showed almost no readable text, so check the device list yourself.",
+      "sources": [
+        {
+          "fact": "Xbox Cloud Gaming is part of Xbox Game Pass, which the page describes as hundreds of PC and console games for one low monthly price.",
+          "url": "https://www.xbox.com/en-US/xbox-game-pass"
+        },
+        {
+          "fact": "The Game Pass page says cloud gaming works on Xbox console, PC and more devices, with new games added each month.",
+          "url": "https://www.xbox.com/en-US/xbox-game-pass"
+        }
+      ]
+    },
+    {
+      "slug": "shadow",
+      "name": "Shadow",
+      "site": "https://shadow.tech/eu/",
+      "best_for": "A full Windows PC in the cloud",
+      "pricing": "Plan prices did not appear in the readable text.",
+      "free_plan": "Unknown",
+      "note": "Shadow rents a full Windows PC in the cloud that you reach from a browser or from your devices, with a Shadow Drive for storage. That is more than a game streamer: the PC can also run creative or work software. The cost of that flexibility is setup work, because you manage the machine yourself. It lists regional pages for Europe, North America, France, Germany, the United Kingdom and Spain.",
+      "sources": [
+        {
+          "fact": "Shadow PC is described as the full Windows PC in the cloud, with the power of a gaming PC on the user's devices.",
+          "url": "https://shadow.tech/eu/"
+        },
+        {
+          "fact": "The site offers a Launch Shadow PC in Browser option and Shadow Drive.",
+          "url": "https://shadow.tech/eu/"
+        }
+      ]
+    },
+    {
+      "slug": "boosteroid",
+      "name": "Boosteroid",
+      "site": "https://boosteroid.com/",
+      "best_for": "Browser and app play on many systems",
+      "pricing": "Subscription based; plan prices were not readable.",
+      "free_plan": "Unknown",
+      "note": "Boosteroid runs games in a browser or through apps on Windows, Android, macOS, iOS and Linux, so nothing needs downloading or updating on your side. It says any subscription includes unlimited gaming time. That makes it an alternative when your hardware is varied, though the plan prices were not available to us.",
+      "sources": [
+        {
+          "fact": "Boosteroid is a cloud gaming platform where games run in a browser on Windows, Android, macOS, iOS and Linux, or through its apps.",
+          "url": "https://boosteroid.com/"
+        },
+        {
+          "fact": "The home page says any subscription gives unlimited gaming time.",
+          "url": "https://boosteroid.com/"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-luna",
+      "name": "Amazon Luna",
+      "site": "https://luna.amazon.com/",
+      "best_for": "A rotating library with Prime",
+      "pricing": "Included with Prime according to the Dutch Luna page.",
+      "free_plan": "Unknown",
+      "note": "Amazon Luna offers a changing library of games and party games through GameNight, needing no downloads or console. The Dutch page we opened says it is included with Prime. It fits casual and family play more than a library you already own, and the rotating catalog means a title can leave.",
+      "sources": [
+        {
+          "fact": "Amazon Luna is a gaming service with a changing library of games, plus party games through GameNight.",
+          "url": "https://luna.amazon.nl/?g=s"
+        },
+        {
+          "fact": "The page says Luna needs no downloads or console and is included with Prime.",
+          "url": "https://luna.amazon.nl/?g=s"
+        }
+      ]
+    },
+    {
+      "slug": "playstation-plus-cloud-streaming",
+      "name": "PlayStation Plus cloud streaming",
+      "site": "https://www.playstation.com/en-us/ps-plus/",
+      "best_for": "Cloud streaming for PlayStation fans",
+      "pricing": "Essential, Extra and Premium plans; prices were not readable.",
+      "free_plan": "Unknown",
+      "note": "PlayStation Plus lists cloud streaming among its benefits and offers hundreds of PS4 and PS5 games with online multiplayer across Essential, Extra and Premium plans. It suits players already in Sony's ecosystem. It does not stream your PC store library, and the device list for streaming was not captured.",
+      "sources": [
+        {
+          "fact": "PlayStation Plus is offered on Essential, Extra or Premium membership plans, per the page's meta description.",
+          "url": "https://www.playstation.com/en-us/ps-plus/"
+        },
+        {
+          "fact": "The page lists cloud streaming among its benefits and mentions PS5 cloud streaming.",
+          "url": "https://www.playstation.com/en-us/ps-plus/"
+        }
+      ]
+    },
+    {
+      "slug": "blacknut",
+      "name": "Blacknut",
+      "site": "https://www.blacknut.com/en-us",
+      "best_for": "A household library subscription",
+      "pricing": "Subscription; the pricing page showed no plan prices in readable text.",
+      "free_plan": "Unknown",
+      "note": "Blacknut says it has more than 1,000 games, no playtime limit and new titles every month, playable on PC, Mac, smartphones, tablets and Smart TV. It is aimed at households. Choose it if you want a catalog included in the fee, and know that you cannot bring your own purchases.",
+      "sources": [
+        {
+          "fact": "Blacknut describes itself as a cloud gaming service with over 1000 games.",
+          "url": "https://www.blacknut.com/en-us"
+        },
+        {
+          "fact": "The home page says the service plays on PC, Mac, smartphones, tablets and Smart TV.",
+          "url": "https://www.blacknut.com/en-us"
+        }
+      ]
+    },
+    {
+      "slug": "antstream",
+      "name": "Antstream",
+      "site": "https://www.antstream.com/",
+      "best_for": "Retro games",
+      "pricing": "Subscription plans with annual and lifetime options; amounts were not readable.",
+      "free_plan": "Unknown",
+      "note": "Antstream Arcade streams more than 1,300 officially licensed retro games, with titles from publishers such as Atari, Bandai Namco and Disney, on PC, console, mobile and TV. It is a niche alternative. It will not cover modern PC releases.",
+      "sources": [
+        {
+          "fact": "Antstream Arcade streams over 1,300 officially licensed retro games, including titles from Atari, Bandai Namco and Disney.",
+          "url": "https://www.antstream.com/"
+        },
+        {
+          "fact": "The pricing page describes Antstream Arcade subscription plans for PC, console, mobile and TV.",
+          "url": "https://www.antstream.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "parsec",
+      "name": "Parsec",
+      "site": "https://parsec.app/",
+      "best_for": "Streaming your own PC",
+      "pricing": "Pro is shown at $9.99 or $8.33 depending on billing, Teams at $35 or $30.",
+      "free_plan": "Free trial",
+      "note": "Parsec is a remote desktop app that lets you connect to a computer you own, rather than renting cloud hardware. It has a free trial and lists a 4:4:4 color mode in its professional plan. It fits players who already have a capable PC at home. Your own machine and upload speed set the quality.",
+      "sources": [
+        {
+          "fact": "The pricing page shows $9.99 and $8.33 for the Pro plan, with a toggle between monthly and annual billing.",
+          "url": "https://parsec.app/pricing"
+        },
+        {
+          "fact": "The pricing page lists a Teams plan at $35 and $30 and offers a Start Trial.",
+          "url": "https://parsec.app/pricing"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Decide whose library you want. If it is the games you already own on PC stores, stay with GeForce NOW or use Parsec against your own computer. If you would rather rent access to a catalog, compare Xbox Cloud Gaming, Blacknut, Luna and PlayStation Plus by which games you play. If you need an entire Windows desktop, try Shadow. Since many plan prices were not readable, check current figures on each site, and test streaming at your own times of day.",
+  "faqs": [
+    {
+      "q": "Do these services let me play games I already bought?",
+      "a": "GeForce NOW streams games from connected stores such as Steam and Epic. Among the alternatives, Parsec connects to your own PC and Shadow gives you a Windows PC where you can install them. Library services like Blacknut or Luna use their own catalogs."
+    },
+    {
+      "q": "Which alternative may cost nothing extra?",
+      "a": "Amazon Luna is described on its Dutch page as included with Prime, and Xbox Cloud Gaming is part of Game Pass, which has its own fee. Check availability in your country first."
+    },
+    {
+      "q": "Can I play on a browser?",
+      "a": "Boosteroid runs in a browser on Windows, Android, macOS, iOS and Linux, and Shadow offers a Launch in Browser option. Other services depend on their apps or devices."
+    },
+    {
+      "q": "Are there options for retro games?",
+      "a": "Antstream Arcade streams over 1,300 licensed retro titles. It is a separate niche from modern PC cloud play."
+    },
+    {
+      "q": "Why are prices missing?",
+      "a": "Several vendor pages did not show prices in text our fetcher could read. We left them out instead of guessing, so open the current pricing page before subscribing."
+    }
+  ]
+}

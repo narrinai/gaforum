@@ -1,0 +1,151 @@
+{
+  "slug": "how-to-run-a-game-playtest",
+  "title": "How to Run a Game Playtest That Produces Usable Findings",
+  "description": "Run a game playtest that leads to decisions: define questions, recruit the right players, watch instead of ask, and turn notes into a ranked fix list.",
+  "kind": "Playbook",
+  "topic": "Game development",
+  "published": "2026-11-18",
+  "intro": "A useful playtest starts with a written question, not a build. Decide what you need to learn, recruit players who match the audience, watch what they do before you ask what they think, and end each session with findings you can rank and assign. Most failed playtests collect opinions without a decision attached, or invite too many testers on a build that is not ready. The steps below fit a solo developer testing with friends and a studio running remote sessions on Steam.",
+  "key_takeaways": [
+    "Write two or three concrete questions per round, such as where players get lost in the opening levels.",
+    "Small rounds of about five testers beat one huge round, because you can fix problems and test again.",
+    "Observe behavior first; ask opinions afterward and treat them as hints.",
+    "Steam Playtest is free, uses a child app and lets you admit players in batches or by key.",
+    "Announce the game before an external playtest if confidentiality matters; leaks follow the least careful tester."
+  ],
+  "sections": [
+    {
+      "h2": "Decide what this round must answer",
+      "paras": [
+        "Open every plan with questions a build can answer. Good ones are specific: can a new player finish the tutorial without help, do they notice the dash ability, does the third level feel longer than it should. Weak ones are vague: do people like it. Vague questions produce comments you cannot act on.",
+        "Limit each round to two or three questions. Everything else you notice is a bonus, not the point. Write the questions at the top of your test document and check them off at the end of the session, because a playtest that answers nothing is expensive even when it is free."
+      ]
+    },
+    {
+      "h2": "Match the test type to the stage",
+      "paras": [
+        "Early prototypes need moderated sessions with a few people so you can see confusion as it happens. A vertical slice benefits from unmoderated remote tests with recordings. A near-final build needs scale: server load, balance data, crash reports and a broader range of hardware. Picking the wrong type wastes both your time and your testers' goodwill.",
+        "A rough guide is to test fragile ideas with very few people and test stable systems with many. If your multiplayer matchmaker has never run with real latency, test that with a limited group in a chosen region before anything public. Our ranking of [playtesting platforms](/software/best-playtesting-platforms) covers services that recruit and record sessions, and the [QA and test automation tools](/software/best-game-qa-and-test-automation-tools) ranking covers the technical side."
+      ]
+    },
+    {
+      "h2": "How many testers you need",
+      "paras": [
+        "Usability research offers a useful rule. Nielsen Norman Group argues that the best results come from testing no more than 5 users in a round and running as many small tests as you can afford, and reports that a first round with five participants finds 85% of the usability problems in the design. A second study then catches most of what is left once you have fixed the first batch.",
+        "That finding concerns usability problems such as confusing controls and unclear menus. It does not cover balance, retention or server capacity, which need larger samples. Use five-person rounds to repair onboarding and interface, then widen the audience when the questions become statistical."
+      ]
+    },
+    {
+      "h2": "Recruit players who look like your audience",
+      "paras": [
+        "Friends and coworkers are polite and know too much. They are fine for catching crashes and obvious blockers but poor judges of a tutorial. Recruit from the genre your game belongs to: people who play similar titles, on the hardware your target platform uses. Write a short screener with questions about the games they play, their device and how many hours per week they play.",
+        "Keep a log of who tested what, including their relevant experience, so you can read feedback in context. A veteran who finds a tutorial easy says nothing about newcomers. Also plan for no-shows. Invite a few more people than you need for scheduled sessions."
+      ]
+    },
+    {
+      "h2": "Running a playtest on Steam",
+      "paras": [
+        "Steam Playtest is a free feature in Steamworks. Valve's documentation says it uses a separate child app associated with your main game, so you can collect playtest data without handling Steam keys, user reviews or wishlists on the main page in the usual way. The signup appears as a section on your main game's store page. By default signup is limited: players request access and you admit them in batches, picking randomly from the pool. You can switch to open signup, where requesters are added automatically, and you can restrict admission by country if server capacity or latency is a concern.",
+        "The documentation also describes distributing Steam keys for a playtest, which works even before your store page is live. It states a typical limit of 2,500 Release State Override keys for a base game, that you can generally request much larger quantities of playtest keys, and that requests beyond 50,000 keys suggest an open beta where open signup makes more sense. It prohibits charging customers for access or selling playtest keys. Setup is steps you can follow in order."
+      ],
+      "list": [
+        "Create the Playtest app from the Associated Packages and DLC page of your main game in Steamworks.",
+        "Provide the required library capsule and community assets, and choose the customer-visible name, which cannot be changed after release.",
+        "Complete the release process, which Valve describes as a simplified store page and build review.",
+        "Upload depots and builds like any other app, then enable signups from the Special Settings tab of the Edit Store Page tools on your main game.",
+        "Admit players from the Manage Your Playtest page in batches, and set the app to Not Playable when the test ends."
+      ],
+      "ordered": true,
+      "after": [
+        "Valve warns that deactivating a playtest without notice can frustrate your community, so announce the end date in advance through Steam Events and Announcements."
+      ]
+    },
+    {
+      "h2": "Confidentiality and unannounced games",
+      "paras": [
+        "If the game has not been announced, think twice before inviting outsiders. Valve's playtest page says a confidential playtest is only as confidential as your least confidential tester, and that leaked screenshots or videos can spread in moments. Its advice is to announce the game first, before running external playtests outside your organization.",
+        "If you still need a closed round, the same page describes a friends and family alpha using Release State Override keys on the base app, with extra steps. Testers are not under a nondisclosure agreement unless you arrange one yourself, third-party apps on their machines may surface information about unreleased games, and a nondescript codename helps. Plan your announcement for no later than the moment the app publishes a store page, becomes available for preload or is released."
+      ]
+    },
+    {
+      "h2": "Session design: watch first, ask later",
+      "paras": [
+        "In a moderated session, give the tester a goal rather than instructions, for example find a weapon and clear the first room, and stay quiet. Note where they hesitate, what they click first and what they say aloud. Resist explaining. Every time you help, you remove a data point.",
+        "Ask questions only after the task: what did you expect to happen, what was the most confusing moment, what would you tell a friend about this. Recordings help for remote sessions because you can rewatch the moment where a player stopped. For services that recruit, record and analyze sessions, verified vendors such as PlaytestCloud describe themselves as player insights platforms, and Lookback as a research platform for interviews and usability testing."
+      ]
+    },
+    {
+      "h2": "Turn notes into a ranked fix list",
+      "paras": [
+        "After the round, sit down within a day while memory is fresh. Put every observation in one sheet with the tester, the timestamp, what happened and the severity. Group duplicates. Rank by how many players hit the problem and how badly it blocked them: a crash or dead end beats a cosmetic complaint, and an issue that three of five players hit beats one that a single tester mentioned.",
+        "Assign each top item a decision: fix now, fix later, accept, or retest. Then write the next round's questions from the unresolved items. A playtest cycle that ends with only a list of feelings has not finished. For analytics-heavy questions, pair observation with numbers; our guide on [game analytics KPIs](/guides/game-analytics-kpis-explained) explains which ones are worth tracking."
+      ]
+    },
+    {
+      "h2": "Final checklist before you send the build",
+      "paras": [
+        "Run through this list the day before testers get access."
+      ],
+      "list": [
+        "The build starts from a clean install on at least one low-end and one typical machine.",
+        "A known-issues list tells testers what not to report.",
+        "Crash reporting and basic logging work, and you know where to read them.",
+        "Testers have instructions: what to play, for how long, where to give feedback.",
+        "You have a communication channel, such as a Discord server or a form, and someone watching it during the test.",
+        "You have decided how and when to end the playtest and have told testers."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long should a playtest session last?",
+      "a": "Keep moderated sessions short enough that both you and the tester stay sharp, and cut anything that does not serve your written questions. Remote unmoderated sessions can be shorter still. Match the length to your question: a tutorial test needs the tutorial, not the whole game."
+    },
+    {
+      "q": "Is Steam Playtest really free?",
+      "a": "Yes. Valve's Steamworks documentation states that Steam Playtest is a completely free feature for customers and developers. It also states that you may not charge customers for access, and that you must not sell playtest keys or include them in paid key bundles or subscriptions."
+    },
+    {
+      "q": "Should I pay playtesters?",
+      "a": "Paid recruiting through a research platform gives you control over who tests and a quick turnaround, which suits screening-heavy tests. Volunteers from your community give more enthusiasm and less variety. Many teams use both. Never charge players for access to a Steam Playtest, since Valve prohibits it."
+    },
+    {
+      "q": "What if testers give conflicting feedback?",
+      "a": "Look at behavior, not statements. If one tester says the menu is fine but two stall on it for a minute, the behavior wins. Treat opinions as hypotheses and test them in the next round with a changed build or a direct question about the specific screen."
+    },
+    {
+      "q": "When is a game ready for a public playtest?",
+      "a": "When the opening stretch of play is stable, the known crashes are fixed, and you can handle the feedback volume. Valve notes that requests for more than 50,000 playtest keys look like an open beta, so a very large test is a release-planning decision, not a small experiment."
+    }
+  ],
+  "related_categories": [
+    "best-playtesting-platforms",
+    "best-game-qa-and-test-automation-tools"
+  ],
+  "related_guides": [
+    "game-analytics-kpis-explained",
+    "how-to-build-a-modding-community"
+  ],
+  "sources": [
+    {
+      "title": "Steam Playtest (Steamworks Documentation)",
+      "url": "https://partner.steamgames.com/doc/features/playtest",
+      "publisher": "Valve"
+    },
+    {
+      "title": "Why You Only Need to Test with 5 Users",
+      "url": "https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/",
+      "publisher": "Nielsen Norman Group"
+    },
+    {
+      "title": "PlaytestCloud",
+      "url": "https://playtestcloud.com/",
+      "publisher": "PlaytestCloud GmbH"
+    },
+    {
+      "title": "Lookback",
+      "url": "https://www.lookback.com/",
+      "publisher": "Lookback"
+    }
+  ]
+}

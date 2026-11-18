@@ -1,0 +1,154 @@
+{
+  "slug": "playtestcloud-vs-lookback",
+  "a": "playtestcloud",
+  "b": "lookback",
+  "a_name": "PlaytestCloud",
+  "b_name": "Lookback",
+  "a_site": "https://playtestcloud.com/",
+  "b_site": "https://www.lookback.com/",
+  "category": "best-playtesting-platforms",
+  "title": "PlaytestCloud vs Lookback: Which Fits Your Team in 2026?",
+  "description": "PlaytestCloud recruits players and records playtests for games; Lookback sells session-based research plans from $299 a year. Compare methods, pricing and fit.",
+  "intro": "PlaytestCloud is a player insights platform built around recruiting, recording and analyzing playtests, while Lookback is an AI-assisted user research platform for moderated and unmoderated interviews and usability testing. One comes from games and supplies the players; the other is general research software where you bring your own participants or buy panel access. This page compares methods, pricing visibility, platforms and trial terms from the vendors' own pages.",
+  "verdict": "Choose PlaytestCloud if you want a games-specific service that finds testers and returns recorded sessions with analysis, and you are fine requesting a price. Choose Lookback if you want published yearly plans, run interviews with your own audience and need research tooling that is not limited to games. Tiny teams can try both, since each offers a free trial.",
+  "pick_a": "Pick PlaytestCloud if you need players recruited for you, test on PC or mobile, and want recordings with transcripts, surveys and AI analysis handled in one service.",
+  "pick_b": "Pick Lookback if you want a fixed annual price, plan to talk to your own players or customers live, and value a general research workflow across products.",
+  "rows": [
+    {
+      "label": "Company",
+      "a": "PlaytestCloud GmbH",
+      "b": "Lookback; legal entity not shown on the pages opened"
+    },
+    {
+      "label": "Positioning",
+      "a": "Player Insights Platform",
+      "b": "AI-powered user research platform"
+    },
+    {
+      "label": "Participants",
+      "a": "Player Panel recruits testers",
+      "b": "Panel participants included on plans; own participants for interviews"
+    },
+    {
+      "label": "Test types",
+      "a": "Single-session, multi-session, longitudinal and moderated playtests",
+      "b": "Moderated and unmoderated research, interviews and usability testing"
+    },
+    {
+      "label": "Platforms",
+      "a": "PC (browser and Steam), Android and iOS; console not explicitly listed",
+      "b": "Not itemized on the pages opened"
+    },
+    {
+      "label": "Pricing model",
+      "a": "Not published; special pricing for small studios mentioned",
+      "b": "Subscription: Freelance $299 per year, Team $1,782 per year, Insights Hub $4,122 per year, Enterprise on request"
+    },
+    {
+      "label": "Sessions included",
+      "a": "Not stated",
+      "b": "10 on Freelance, 100 on Team, 300 on Insights Hub"
+    },
+    {
+      "label": "Free trial",
+      "a": "Watch two players for up to 30 minutes",
+      "b": "5 sessions free for 60 days"
+    },
+    {
+      "label": "AI features",
+      "a": "AI Analysis, plus PlaytestCloud MCP",
+      "b": "AI follow-ups, suggested findings, smart headlines, Discover search"
+    },
+    {
+      "label": "Speed claim",
+      "a": "Recruited, recorded and analyzed in about 48 hours",
+      "b": "Not stated; homepage claims 400k+ users and 1.5M+ sessions"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Different starting points",
+      "text": [
+        "PlaytestCloud calls itself a Player Insights Platform for recruiting, recording and analyzing playtests. The home page lists video, audio and touch recording, transcripts and surveys, and a Player Panel, so the service covers the steps from finding testers to reviewing footage. It names customers and partners including Bethesda, Zynga, Supercell, Rovio, PlayStation, Kwalee and ZeptoLab, which are vendor claims about its audience.",
+        "Lookback describes itself as the AI-powered user research platform for interviews, usability testing and analysis. It is not game-specific. You schedule or send sessions, watch them live or later, and use its tools to pull out findings. That makes it a fit for testing a launcher, a store page or a companion app along with a game."
+      ]
+    },
+    {
+      "h2": "Who supplies the testers",
+      "text": [
+        "The biggest practical difference is participants. PlaytestCloud runs a Player Panel and says it can recruit, record and analyze playtests in about 48 hours, which removes a recruiting job that small studios often underestimate.",
+        "Lookback's plans include one panel participant on Freelance, and the page treats extra sessions as purchasable packages, from $29.90 per session on Freelance. Its moderated research lets you interview people you already have, such as beta signups or Discord members. Decide whether recruiting is the part of testing you want to hand off."
+      ]
+    },
+    {
+      "h2": "Pricing you can see and pricing you cannot",
+      "text": [
+        "Lookback publishes its prices. Freelance is $299 per year with 10 sessions and one panel participant. Team is $1,782 per year with 100 sessions and 10 collaborators. Insights Hub is $4,122 per year with 300 sessions and 30 collaborators. Enterprise is priced on request. Dividing the listed plans gives about $29.90 per session on Freelance, about $17.82 on Team and about $13.74 on Insights Hub.",
+        "PlaytestCloud shows no plan prices or per-tester rates on the home page, only that special pricing exists for small studios. A recruited-player service has costs per tester, so the figure will vary with audience and length. Ask for a quote with your target platform and session count."
+      ]
+    },
+    {
+      "h2": "Trying before buying",
+      "text": [
+        "Both offer a trial, in different currencies. PlaytestCloud's trial lets you watch two players play your game for up to 30 minutes. That is a proof of output quality: you see what a recorded session looks like for your own build.",
+        "Lookback's trial gives 5 sessions free with 60 days of access. That is longer and gives you time to run moderated interviews and see how the analysis tools handle several sessions. Plan the first test before starting either clock."
+      ]
+    },
+    {
+      "h2": "Where each belongs in a testing stack",
+      "text": [
+        "On the [playtesting platforms](/software/best-playtesting-platforms) shortlist, PlaytestCloud sits at the games-first end and Lookback at the general-research end. PlaytestCloud's list of platforms covers PC through browser and Steam, plus Android and iOS; console is not explicitly listed, which matters if you are targeting those devices.",
+        "A reasonable pattern for a studio is to use a recruited-player service for early external feedback and a research tool for conversations with its own community. Whether you need both depends on how often you test, and annual cost against sessions should settle it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does PlaytestCloud publish its prices?",
+      "a": "No plan prices or per-tester rates appear on its home page. The page mentions special pricing for small studios and a free trial, so a quote is the way to get numbers."
+    },
+    {
+      "q": "How much is Lookback per year?",
+      "a": "Lookback lists Freelance at $299 per year, Team at $1,782 per year and Insights Hub at $4,122 per year. Enterprise is priced on request. Extra session packages start from $29.90 per session on Freelance."
+    },
+    {
+      "q": "Which one finds players for me?",
+      "a": "PlaytestCloud runs a Player Panel and says it recruits, records and analyzes playtests in about 48 hours. Lookback includes panel participants on its plans, but most of its use is interviewing people you bring."
+    },
+    {
+      "q": "What do the free trials include?",
+      "a": "PlaytestCloud lets you watch two players play your game for up to 30 minutes. Lookback gives 5 sessions free for 60 days of access."
+    },
+    {
+      "q": "Can PlaytestCloud test console games?",
+      "a": "Its home page lists PC through browser and Steam, plus Android and iOS. Console is not explicitly listed, so ask the vendor before planning a console test."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "PlaytestCloud describes itself on its home page as a Player Insights Platform.",
+      "url": "https://playtestcloud.com/"
+    },
+    {
+      "fact": "The PlaytestCloud home page offers a free trial in which you can watch two players play your game for up to 30 minutes, and says there is special pricing for small studios with no plan prices.",
+      "url": "https://playtestcloud.com/"
+    },
+    {
+      "fact": "The PlaytestCloud footer names PlaytestCloud GmbH as the company.",
+      "url": "https://playtestcloud.com/"
+    },
+    {
+      "fact": "Lookback is described as the AI-powered user research platform for interviews, usability testing, and analysis.",
+      "url": "https://www.lookback.com/"
+    },
+    {
+      "fact": "The Freelance plan costs $299 per year and includes 10 sessions and one panel participant.",
+      "url": "https://www.lookback.com/pricing"
+    },
+    {
+      "fact": "The Team plan costs $1,782 per year with 100 sessions and Insights Hub costs $4,122 per year with 300 sessions; the trial gives 5 sessions free for 60 days.",
+      "url": "https://www.lookback.com/pricing"
+    }
+  ],
+  "published": "2026-11-18"
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "slug": "streampixel",
+    "name": "Streampixel",
+    "status": "verified",
+    "site": "https://www.streampixel.io/",
+    "company": "Vardexa OÜ",
+    "hq": "",
+    "country": "Estonia",
+    "what_it_is": "A pixel streaming service for Unreal Engine applications that runs packaged builds on RTX GPUs and delivers them in the browser through a share link.",
+    "platforms": "Browser delivery of Unreal Engine builds",
+    "pricing": "A flat EUR 99 per month with unlimited streaming minutes and 2 concurrent users included; extra concurrent capacity is EUR 45 per month per concurrent user. A 2-day free trial needs no credit card.",
+    "pricing_model": "Flat monthly plan",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Unreal Engine pixel streaming",
+      "Upload a packaged build or .exe",
+      "Unlimited streaming minutes",
+      "4K streaming",
+      "CI/CD source control connection",
+      "Real-time analytics",
+      "Custom splash and loading screens"
+    ],
+    "notable": [
+      "Site footer names Vardexa OÜ",
+      "Runs on RTX 6000 Ada GPUs in its own data centers, according to the vendor"
+    ],
+    "facts": [
+      {
+        "fact": "Streampixel runs Unreal Engine applications in the browser on RTX GPUs; users upload a packaged build or .exe and get a share link.",
+        "url": "https://www.streampixel.io/"
+      },
+      {
+        "fact": "Pricing is a flat EUR 99 per month with unlimited minutes and 2 concurrent users; additional concurrent capacity costs EUR 45 per month per CCU.",
+        "url": "https://www.streampixel.io/pricing"
+      },
+      {
+        "fact": "Included features list 4K streaming, a source control connection for CI/CD, custom splash screens, security controls, analytics and built-in voice, video and text chat.",
+        "url": "https://www.streampixel.io/pricing"
+      },
+      {
+        "fact": "The vendor says machines use RTX 6000 Ada GPUs and operates its stack from its own data centers; the footer names Vardexa OÜ.",
+        "url": "https://www.streampixel.io/"
+      }
+    ],
+    "drop_reason": "",
+    "country_code": ""
+  }
+]

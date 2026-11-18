@@ -1,0 +1,562 @@
+{
+  "slug": "best-discord-moderation-and-community-bots",
+  "name": "Discord moderation and community bots",
+  "title": "Best Discord Moderation and Community Bots in 2026",
+  "group": "Gaming-adjacent",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Discord bots for moderation, role menus, support tickets, events, giveaways and server stats, ranked for game communities.",
+  "definition": "A Discord moderation and community bot is an application added to a server that automates chores such as filtering spam, banning rule breakers, handing out roles, running support tickets, scheduling events and counting members. Some bots do many of these jobs, while others do one, and most sell a premium tier.",
+  "intro": "A Discord server for a game starts as a few friends and ends up needing rules, roles, a support queue and event reminders. Bots take over that work, but there are dozens to choose from and most pages say little about price. This ranking compares thirteen of them. We read each bot's site and premium page, compared the listed features, and did not run the bots ourselves. Statements about popularity or being the best are the vendor's, and we label them so. Placement reflects fit for a community manager at a studio or guild who needs moderation and roles first, then tickets, events and extras. Where a page loaded without readable text, we say what we could not see.",
+  "criteria": [
+    {
+      "heading": "Moderation and security depth",
+      "text": "Spam, raids and abuse are the first problems on any growing server. We checked which bots list automod, anti-spam, logging or security tools and which leave moderation out. A bot that documents several tools in one place ranks higher than one that only names moderation in its title."
+    },
+    {
+      "heading": "Roles and onboarding",
+      "text": "Players pick their game, platform or region, and a server stays tidy when roles are assigned automatically. We looked for reaction roles, auto roles and role rewards. Bots that combine these with logging let a small team run a server with fewer bots installed."
+    },
+    {
+      "heading": "Support, events and engagement",
+      "text": "Studios use Discord for bug reports, appeals and scheduled play. We noted ticket bots, calendars with availability polls, giveaways, leveling and server stats, and ranked all-rounders above single-purpose tools unless the angle was exactly that specialty."
+    },
+    {
+      "heading": "Cost and transparency",
+      "text": "Most bots here have a free tier and a paid premium. We recorded whether the site states a price, says it is free, or is open source, and we marked pages we could not read. A bot whose features cannot be verified ranks lower, since a manager cannot judge it before installing."
+    }
+  ],
+  "market_notes": [
+    "Across the thirteen bots, one site says it is completely free (Sapphire), and two are open source (YAGPDB and GiveawayBot, which also list premium options). The other ten either mention a premium page or show nothing about cost. No bot among the thirteen shows a dollar amount in the text we could read, and six had premium or about pages that load through JavaScript with no readable text, so prices must be checked directly on each site.",
+    "The category splits into all-rounders and specialists. Carl-bot, Sapphire, Dyno, MEE6 and Arcane overlap heavily on moderation, roles and commands, and most servers run one of them. Specialists such as Ticket Tool, Sesh, Statbot and GiveawayBot add a single capability and are installed beside the all-rounder. The trade-off is bot count: each extra bot means another set of permissions to audit and another place to configure rules, so many managers prefer one broad bot plus one or two specialists."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Write the three problems you have today",
+      "text": "List what hurts now: spam, unassigned roles, unanswered bug reports, missed event times. Match each to a feature. Spam points to Wick, Dyno or Carl-bot, roles to Carl-bot or Sapphire, reports to Ticket Tool, events to Sesh. Skip features you do not need yet, since every extra module adds settings that someone must maintain."
+    },
+    {
+      "title": "Start with one all-rounder and test the free tier",
+      "text": "Install a single broad bot such as Carl-bot or Sapphire on a test server, set up roles and automod, and watch a week of real activity. Sapphire's site says it is completely free, so it is a low-risk trial. Only add a specialist once a real gap shows, and check each premium page before assuming a feature is free."
+    },
+    {
+      "title": "Audit permissions and plan for hosting",
+      "text": "Give each bot only the permissions it needs, because a compromised or abandoned bot with admin rights is a risk. If you want control over where code runs, consider open-source options like YAGPDB, which the site says can be self-hosted. Keep a note of which bot does which job so a new moderator can find the settings quickly."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best Discord moderation and community bot in 2026?",
+      "a": "Carl-bot ranks first because it combines reaction roles, automod, logging and custom commands in one modular bot. Sapphire is better if you want a free broad bot with slash commands and scheduled messages, and Wick is better if security against raids is the main worry."
+    },
+    {
+      "q": "Is there a free all-in-one Discord bot?",
+      "a": "Sapphire's site says the bot is completely free and lists slash commands, auto moderation, reaction roles, logging and scheduled messages. Open-source options such as YAGPDB can also be self-hosted. Confirm whether any limits apply before relying on a free tier for a large server."
+    },
+    {
+      "q": "Which bot handles support tickets?",
+      "a": "Ticket Tool is the specialist, described as a highly customizable ticket bot for community support. It does not do moderation or roles, so most servers run it beside a general bot such as Carl-bot or Dyno."
+    },
+    {
+      "q": "How do I schedule events and raid nights?",
+      "a": "Sesh is a calendar and event bot, and its site describes availability polls that help find a time when everyone is free. A Premium tier is listed, but we could not read its price, so check before enabling it for a big guild."
+    },
+    {
+      "q": "Do I need more than one bot?",
+      "a": "Often yes. An all-rounder like Carl-bot, Dyno or Sapphire covers roles and moderation, then a specialist adds tickets, events, giveaways or stats. Each additional bot needs permissions and configuration, so add them only when a real need appears."
+    },
+    {
+      "q": "Are the claims of being the best bot reliable?",
+      "a": "They are the vendors' own words. Ticket Tool calls itself the number one support bot, Arcane's title calls it the best bot and Tatsu cites more than 1,350,000 servers. We did not verify those figures, so judge each bot by the features listed rather than by the slogan."
+    },
+    {
+      "q": "Why is Zeppelin ranked low?",
+      "a": "The site title says it is a moderation bot, but its about and premium pages loaded without readable text, so we could not read a feature list or prices. A bot you cannot compare ranks lower until its documentation can be checked."
+    }
+  ],
+  "related": [
+    "best-community-chat-platforms-for-gaming-communities",
+    "best-community-management-tools-for-game-studios",
+    "best-trust-and-safety-moderation-software-for-games",
+    "best-player-support-software-for-games",
+    "best-twitch-chat-bots",
+    "best-ugc-and-modding-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "carl-bot",
+      "name": "Carl-bot",
+      "site": "https://carl.gg",
+      "company": "",
+      "country": "",
+      "tagline": "Modular bot for reaction roles, automod and logs",
+      "best_for": "Role menus and logging on a growing server",
+      "pricing": "A premium page exists at carl.gg/premium, but its text is not rendered without JavaScript; no prices were read.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Reaction roles",
+        "Automod",
+        "Logging",
+        "Custom commands"
+      ],
+      "summary": "Covers the four jobs most game servers start with: self-assigned roles, automatic moderation, audit logs and custom commands.",
+      "verdict": "Carl-bot describes itself as fully customizable and modular, listing reaction roles, automod, logging and custom commands. Those four cover the usual first-week needs of a game server: letting players pick a game or region role, filtering spam, recording what moderators did and adding simple commands. It leads this page because it handles roles and moderation in one bot with a web dashboard, which keeps a small team from stacking several bots.",
+      "weaknesses": "The premium page loads its text through JavaScript, so we could not read prices or what premium adds. The facts do not mention tickets, calendar events or giveaways, so those need other bots.",
+      "wrong_for": "Skip it if your main need is a support ticket queue; Ticket Tool is built for that.",
+      "sources": [
+        {
+          "fact": "Carl-bot describes itself as a fully customizable and modular Discord bot with reaction roles, automod, logging, custom commands and more.",
+          "url": "https://carl.gg"
+        },
+        {
+          "fact": "The Carl-bot site is titled Carl-bot Dashboard.",
+          "url": "https://carl.gg"
+        },
+        {
+          "fact": "The Carl-bot premium page on carl.gg loads its content with JavaScript, so no prices were readable.",
+          "url": "https://carl.gg/premium"
+        }
+      ]
+    },
+    {
+      "slug": "sapphire",
+      "name": "Sapphire",
+      "site": "https://sapph.xyz",
+      "company": "",
+      "country": "",
+      "tagline": "Free bot with slash commands, automod and scheduled messages",
+      "best_for": "Servers that want a broad toolkit at no cost",
+      "pricing": "The site says the bot is completely free.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Discord",
+      "features": [
+        "Custom slash commands",
+        "Buttons and select menus",
+        "Auto moderation",
+        "Reaction roles",
+        "Scheduled messages"
+      ],
+      "summary": "The site says it is completely free and lists slash commands, auto moderation, reaction roles, logging and scheduled messages.",
+      "verdict": "Sapphire is the only bot here whose site says outright that it is completely free. Its feature list combines custom slash commands, buttons and select menus with auto moderation, reaction roles, logging and social notifications, and it supports scheduled and triggered automated messages. For a volunteer-run community with no budget, getting roles, moderation and announcements from one free bot is a strong deal, which earns the second spot.",
+      "weaknesses": "Free status is the vendor's own statement and the facts do not say whether limits apply. The facts mention no ticket system or event calendar, and a bot with this many features takes time to configure well.",
+      "wrong_for": "Wrong for a server that needs a ticket workflow; Ticket Tool handles that directly.",
+      "sources": [
+        {
+          "fact": "Sapphire describes itself as a Discord bot with custom slash commands, buttons, select menus, auto moderation and reaction roles.",
+          "url": "https://sapph.xyz"
+        },
+        {
+          "fact": "The Sapphire site says the bot is completely free.",
+          "url": "https://sapph.xyz"
+        },
+        {
+          "fact": "The Sapphire site lists scheduled messages and automated or triggered messages among its features.",
+          "url": "https://sapph.xyz"
+        }
+      ]
+    },
+    {
+      "slug": "dyno",
+      "name": "Dyno",
+      "site": "https://dyno.gg",
+      "company": "Swift Media Entertainment",
+      "country": "",
+      "tagline": "Modular bot with web configuration and anti-spam",
+      "best_for": "Moderation with a web dashboard",
+      "pricing": "A Get Premium option and a Battle Pass are shown on the site; no prices were in the text read.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Web configuration",
+        "Moderation",
+        "Anti-spam",
+        "Auto roles",
+        "Custom commands"
+      ],
+      "summary": "A long-listed modular bot with web setup, anti-spam, auto roles and custom commands, plus a Premium option.",
+      "verdict": "Dyno describes itself as a feature-rich and modular bot with web configuration, moderation, anti-spam, auto roles and custom commands. A moderator who prefers a web page to chat commands can enable only the modules needed and leave the rest off. The site shows a Get Premium option and a Battle Pass, and names Swift Media Entertainment as the copyright holder. It takes third place for its moderation depth and dashboard.",
+      "weaknesses": "No prices were in the text we read for Premium or the Battle Pass, so cost is unclear. The facts do not mention tickets, events or giveaways, and modular bots can overlap with others already on your server.",
+      "wrong_for": "Not for a team wanting a calendar or giveaway tool; Sesh and Giveaway Bot do those narrower jobs.",
+      "sources": [
+        {
+          "fact": "Dyno describes itself as a feature-rich and modular Discord bot with web configuration, moderation, anti-spam, auto roles and custom commands.",
+          "url": "https://dyno.gg/premium"
+        },
+        {
+          "fact": "The Dyno home page shows a Get Premium option and a Battle Pass.",
+          "url": "https://dyno.gg"
+        },
+        {
+          "fact": "The Dyno home page footer names Swift Media Entertainment as the copyright holder.",
+          "url": "https://dyno.gg"
+        }
+      ]
+    },
+    {
+      "slug": "wick",
+      "name": "Wick",
+      "site": "https://wickbot.com",
+      "company": "",
+      "country": "",
+      "tagline": "Moderation and security bot",
+      "best_for": "Servers worried about raids and security",
+      "pricing": "Premium and VIP plans are offered on the premium page; no prices were in the text read.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Moderation",
+        "Security",
+        "Premium and VIP plans"
+      ],
+      "summary": "Focused on moderation and security, with Premium and VIP plans offered on its premium page.",
+      "verdict": "Wick describes itself as the moderation and security bot, and its premium page offers Premium and VIP plans to boost a server, with the line to iron out your server and fully secure it. That narrower aim suits a community that has been targeted by spam or hostile joins and wants protection first, with fun features handled elsewhere. It ranks fourth because it concentrates on security, not on roles, events or tickets.",
+      "weaknesses": "No prices were read for the Premium and VIP plans. The facts list no leveling, roles, tickets or events, and give no detail on which security controls exist beyond the general description.",
+      "wrong_for": "Skip it if you need engagement features such as levels; MEE6 or Arcane list leveling.",
+      "sources": [
+        {
+          "fact": "Wick's website describes it as the website of the moderation and security Discord bot, Wick.",
+          "url": "https://wickbot.com"
+        },
+        {
+          "fact": "The Wick premium page offers Premium and VIP plans to boost a server.",
+          "url": "https://wickbot.com/premium"
+        },
+        {
+          "fact": "The Wick premium page says: Iron out your Discord server and fully secure it. Go Premium.",
+          "url": "https://wickbot.com/premium"
+        }
+      ]
+    },
+    {
+      "slug": "mee6",
+      "name": "MEE6",
+      "site": "https://mee6.xyz",
+      "company": "",
+      "country": "",
+      "tagline": "Server management bot with leveling and notifications",
+      "best_for": "Leveling and social alerts alongside moderation",
+      "pricing": "A premium page exists on the site, but its text is rendered by JavaScript and no prices were readable.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Leveling",
+        "Moderation",
+        "Twitch notifications",
+        "YouTube notifications",
+        "Reddit notifications"
+      ],
+      "summary": "Combines leveling and moderation with Twitch, YouTube and Reddit notifications.",
+      "verdict": "MEE6 describes itself as a way to manage a server with leveling, moderation and Twitch, YouTube and Reddit notifications. For a streamer's community, the notification feature posts new streams and videos into a channel, and levels reward regular chatters. It sits fifth because its value is engagement and alerts, while stricter security and roles are better served by tools above it.",
+      "weaknesses": "Its premium page renders through JavaScript, so no prices were readable and we cannot say which features are locked. The facts do not list tickets or reaction roles, so a manager may need a second bot.",
+      "wrong_for": "A weaker pick for a security-first setup; Wick or Dyno put moderation at the center.",
+      "sources": [
+        {
+          "fact": "MEE6 describes itself as a way to manage a Discord server with leveling, moderation, and Twitch, YouTube and Reddit notifications.",
+          "url": "https://mee6.xyz"
+        },
+        {
+          "fact": "MEE6 has a premium page on its site, but the text is rendered by JavaScript and no prices could be read.",
+          "url": "https://mee6.xyz/premium"
+        },
+        {
+          "fact": "The MEE6 site presents itself as a Discord bot.",
+          "url": "https://mee6.xyz"
+        }
+      ]
+    },
+    {
+      "slug": "ticket-tool",
+      "name": "Ticket Tool",
+      "site": "https://tickettool.xyz",
+      "company": "",
+      "country": "",
+      "tagline": "Customizable ticket bot for community support",
+      "best_for": "Support requests and applications",
+      "pricing": "A premium page exists at tickettool.xyz/premium, but no prices were readable without JavaScript.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Support tickets",
+        "Customizable ticketing"
+      ],
+      "summary": "A dedicated ticket bot that handles community support requests through private ticket channels.",
+      "verdict": "Ticket Tool describes itself as an advanced, highly customizable ticket bot for handling community support, and its home page title calls it the number one Discord support bot, which is the vendor's own claim. A studio server where players report bugs, billing problems or ban appeals gets a structured queue instead of scattered messages. It ranks sixth because it does one job only, but it is the most direct answer to that job on this page.",
+      "weaknesses": "The premium page loads without readable text, so prices and premium limits are unknown. The facts show no moderation, roles or events, so it works only as an addition to another bot.",
+      "wrong_for": "Skip it if you just need automod and roles; Carl-bot covers both.",
+      "sources": [
+        {
+          "fact": "Ticket Tool describes itself as an advanced, highly customizable ticket bot for handling community support.",
+          "url": "https://tickettool.xyz"
+        },
+        {
+          "fact": "The Ticket Tool home page is titled Ticket Tool - The #1 Discord support bot.",
+          "url": "https://tickettool.xyz"
+        },
+        {
+          "fact": "The Ticket Tool premium page loads without readable text, so no prices could be read.",
+          "url": "https://tickettool.xyz/premium"
+        }
+      ]
+    },
+    {
+      "slug": "sesh",
+      "name": "Sesh",
+      "site": "https://sesh.fyi",
+      "company": "",
+      "country": "",
+      "tagline": "Calendar and event bot with availability polls",
+      "best_for": "Scheduling raids, scrims and community nights",
+      "pricing": "A Premium tier is listed on the site; no prices were in the text read.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Calendar",
+        "Events",
+        "Availability polls",
+        "Premium"
+      ],
+      "summary": "A calendar and event bot whose availability polls help groups find a time when everyone is free.",
+      "verdict": "The Sesh site calls it a calendar and event bot, and describes availability polls that help a group find when everyone is free. For guilds and scrim groups spread across time zones, a bot that proposes slots and posts reminders solves a recurring headache. A Premium tier is listed. It ranks seventh since events are one slice of what a community manager needs, though it is the clearest answer for scheduling.",
+      "weaknesses": "No Premium prices were in the text we read. The facts describe no moderation, roles or tickets, so Sesh sits beside a general bot, not in place of one.",
+      "wrong_for": "Not for someone who needs automod or support tickets; Dyno and Ticket Tool cover those.",
+      "sources": [
+        {
+          "fact": "The Sesh site is titled sesh.fyi - The best calendar and event bot for Discord.",
+          "url": "https://sesh.fyi"
+        },
+        {
+          "fact": "The Sesh site describes availability polls to find when everyone is free.",
+          "url": "https://sesh.fyi"
+        },
+        {
+          "fact": "The Sesh premium page lists a Premium tier, and no prices were in the text read.",
+          "url": "https://sesh.fyi/premium"
+        }
+      ]
+    },
+    {
+      "slug": "yagpdb",
+      "name": "YAGPDB",
+      "site": "https://yagpdb.xyz",
+      "company": "",
+      "country": "",
+      "tagline": "Open source general-purpose bot you can self-host",
+      "best_for": "Teams wanting self-hosting and deep customization",
+      "pricing": "Open source and self-hostable; the site mentions a Premium subscription (price not read).",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Discord",
+      "features": [
+        "General purpose bot",
+        "Self-hosting",
+        "Open source",
+        "Premium subscription"
+      ],
+      "summary": "Yet Another General Purpose Discord Bot, open source and self-hostable, with a Premium subscription described on the site.",
+      "verdict": "YAGPDB stands for Yet Another General Purpose Discord Bot, and the site says it is open source and can be hosted yourself for more customization. A technical team that wants control over where a bot runs can host it, and others can use the hosted version. A Premium subscription is described on the site. It is eighth because the facts give a short feature list, so a manager must check what a given module does.",
+      "weaknesses": "The price of Premium was not read. The facts name no specific features beyond being general purpose, and self-hosting needs someone to maintain a server and keep the bot updated.",
+      "wrong_for": "Skip it if nobody can administer a server; Sapphire is free and hosted.",
+      "sources": [
+        {
+          "fact": "YAGPDB stands for Yet Another General Purpose Discord Bot, per its site.",
+          "url": "https://yagpdb.xyz"
+        },
+        {
+          "fact": "The YAGPDB site says the bot is open source and can be hosted yourself for more customization.",
+          "url": "https://yagpdb.xyz"
+        },
+        {
+          "fact": "The YAGPDB site has a Premium section that describes a Premium subscription.",
+          "url": "https://yagpdb.xyz"
+        }
+      ]
+    },
+    {
+      "slug": "arcane",
+      "name": "Arcane",
+      "site": "https://arcane.bot",
+      "company": "",
+      "country": "",
+      "tagline": "Bot for leveling, moderation and member counters",
+      "best_for": "Leveling plus member count channels",
+      "pricing": "A premium page exists at arcane.bot/premium, but no prices were readable (the site renders with JavaScript).",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Leveling",
+        "Moderation",
+        "Logging",
+        "Custom commands",
+        "Member count channels"
+      ],
+      "summary": "Offers leveling, moderation, logging, custom commands and member count channels.",
+      "verdict": "Arcane lists leveling, moderation, logging, custom commands and member count channels, and its site is titled Arcane: The Best Discord Bot, which is a vendor claim. The member counters add a visible stat at the top of a channel list, and leveling gives regulars a reason to stay active. It sits ninth because its list resembles MEE6's and Carl-bot's without anything the facts show as distinct.",
+      "weaknesses": "The premium page loaded without readable text, so no prices were read. The facts mention no tickets, events or giveaways, and the site's own best-bot title is a claim we could not verify.",
+      "wrong_for": "Skip it if you want unique tools such as tickets or calendars; Ticket Tool and Sesh specialize.",
+      "sources": [
+        {
+          "fact": "Arcane describes itself as a Discord bot offering leveling, moderation, logging, custom commands and member count channels.",
+          "url": "https://arcane.bot"
+        },
+        {
+          "fact": "The Arcane site is titled Arcane: The Best Discord Bot.",
+          "url": "https://arcane.bot"
+        },
+        {
+          "fact": "The Arcane premium page loads without readable text, so no prices could be read.",
+          "url": "https://arcane.bot/premium"
+        }
+      ]
+    },
+    {
+      "slug": "statbot",
+      "name": "Statbot",
+      "site": "https://statbot.net",
+      "company": "",
+      "country": "",
+      "tagline": "Server statistics bot with channel counters",
+      "best_for": "Tracking growth and activity",
+      "pricing": "No prices were in the text read; the site renders with JavaScript.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Customizable channel counters",
+        "Automatic role rewards",
+        "Personalized dashboards"
+      ],
+      "summary": "Statistics-focused, with channel counters, role rewards and dashboards that track server activity.",
+      "verdict": "Statbot describes itself as a server stats bot with customizable channel counters, automatic role rewards and personalized dashboards, and says Discord communities and businesses trust it. A studio's community lead can use the dashboards to see whether events or patches change activity. It lands tenth because analytics support a community rather than manage it, so it works as an add-on to a moderation bot.",
+      "weaknesses": "The site renders with JavaScript, so no prices were readable. The facts do not describe moderation, roles beyond rewards, or ticketing, and the trust claim comes from the vendor.",
+      "wrong_for": "Not a replacement for a moderation bot; use Carl-bot or Dyno for that.",
+      "sources": [
+        {
+          "fact": "Statbot describes itself as a server stats bot for Discord with customizable channel counters, automatic role rewards and personalized dashboards.",
+          "url": "https://statbot.net"
+        },
+        {
+          "fact": "The Statbot site says it is trusted by Discord communities and businesses.",
+          "url": "https://statbot.net"
+        },
+        {
+          "fact": "The Statbot site is titled Statbot | Discord Server Stats Bot.",
+          "url": "https://statbot.net"
+        }
+      ]
+    },
+    {
+      "slug": "zeppelin",
+      "name": "Zeppelin",
+      "site": "https://zeppelin.gg",
+      "company": "",
+      "country": "",
+      "tagline": "Moderation bot for Discord",
+      "best_for": "Moderation with a small feature set to verify",
+      "pricing": "No prices were readable; the premium page loads its content with JavaScript.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Moderation bot"
+      ],
+      "summary": "A moderation bot per its site title, though its feature list could not be read.",
+      "verdict": "The Zeppelin site is titled Zeppelin: Moderation bot for Discord. That is the extent of what we could confirm, because its about page loads without readable text, so the feature list was not available to us. It remains on the page as a real moderation option, but it ranks eleventh because a buyer cannot judge it from the facts available. Anyone considering it should read the vendor's own feature pages before inviting it to a server.",
+      "weaknesses": "The about page and the premium page both load their content with JavaScript, so we saw neither a feature list nor prices. Nothing could be compared against Carl-bot or Dyno on specific functions.",
+      "wrong_for": "Skip it until you have read its feature list yourself; Carl-bot and Dyno document modules we could read.",
+      "sources": [
+        {
+          "fact": "The Zeppelin site is titled Zeppelin - Moderation bot for Discord.",
+          "url": "https://zeppelin.gg"
+        },
+        {
+          "fact": "The Zeppelin about page loads without readable text, so the feature list could not be read.",
+          "url": "https://zeppelin.gg/about"
+        },
+        {
+          "fact": "The Zeppelin premium page loads without readable text, so no prices could be read.",
+          "url": "https://zeppelin.gg/premium"
+        }
+      ]
+    },
+    {
+      "slug": "giveaway-bot",
+      "name": "Giveaway Bot",
+      "site": "https://giveawaybot.party",
+      "company": "",
+      "country": "",
+      "tagline": "Open-source bot for automated giveaways",
+      "best_for": "Giveaways for contests and promotions",
+      "pricing": "Open source; the site shows a Get Premium option.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Discord",
+      "features": [
+        "Automated giveaways",
+        "Open source",
+        "Premium option"
+      ],
+      "summary": "A single-purpose open-source giveaway bot, with a Get Premium option on the site.",
+      "verdict": "GiveawayBot describes itself as an open-source Discord giveaway bot that assists with hosting automated giveaways, and says users can run one on a server quickly and easily. A studio running launch contests or a streamer rewarding members can set up draws without manual picking. It is twelfth because it does one thing, so it adds to a general bot instead of replacing one.",
+      "weaknesses": "The Get Premium option is shown without prices. It has no moderation, roles or ticketing, and the facts do not describe how entries are verified or how prizes are delivered.",
+      "wrong_for": "Wrong for general community management; Sapphire or Carl-bot cover broader needs.",
+      "sources": [
+        {
+          "fact": "GiveawayBot describes itself as an open-source Discord giveaway bot that assists with hosting automated giveaways.",
+          "url": "https://giveawaybot.party"
+        },
+        {
+          "fact": "The GiveawayBot site says users can hold giveaways on their Discord server quickly and easily.",
+          "url": "https://giveawaybot.party"
+        },
+        {
+          "fact": "The GiveawayBot site shows a Get Premium option.",
+          "url": "https://giveawaybot.party"
+        }
+      ]
+    },
+    {
+      "slug": "tatsu",
+      "name": "Tatsu",
+      "site": "https://tatsu.gg",
+      "company": "",
+      "country": "",
+      "tagline": "Community bot used by many Discord servers",
+      "best_for": "Fun community features on casual servers",
+      "pricing": "No prices were in the text read.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord",
+      "features": [
+        "Community management"
+      ],
+      "summary": "Pitched at building a fun community, and the site says more than 1,350,000 servers use it.",
+      "verdict": "Tatsu describes itself as a way to turn a community into the place to be on Discord, with the page title Build a Fun Discord Community. The site says more than 1,350,000 servers use it to manage and build their communities, which is the vendor's own figure. The facts do not list specific modules, so it sits at the bottom for lack of detail. A casual server may still like it for engagement, but a manager should read its commands first.",
+      "weaknesses": "No prices and no feature list were in the text we read, so we cannot compare it with other bots here. The user count is a vendor claim, and nothing is stated about moderation depth.",
+      "wrong_for": "Skip it if you need verified moderation or tickets; Dyno, Wick or Ticket Tool document those features.",
+      "sources": [
+        {
+          "fact": "Tatsu describes itself as a way to turn a community into the place to be on Discord.",
+          "url": "https://tatsu.gg"
+        },
+        {
+          "fact": "The Tatsu site says more than 1,350,000 Discord servers use Tatsu to manage and build their communities.",
+          "url": "https://tatsu.gg"
+        },
+        {
+          "fact": "The Tatsu site is titled Tatsu - Build a Fun Discord Community.",
+          "url": "https://tatsu.gg"
+        }
+      ]
+    }
+  ]
+}

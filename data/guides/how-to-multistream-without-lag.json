@@ -1,0 +1,176 @@
+{
+  "slug": "how-to-multistream-without-lag",
+  "title": "How to Multistream Without Lag or Dropped Frames",
+  "description": "Multistream to Twitch and YouTube without dropped frames: budget your upload, choose local or cloud relay, set encoders and troubleshoot with a ranked checklist.",
+  "kind": "Field guide",
+  "topic": "Livestreaming",
+  "published": "2026-11-18",
+  "intro": "Multistreaming without lag means making sure your upload connection and encoder can carry every outgoing copy of the stream, or sending only one copy to a cloud relay that fans it out to each platform. Dropped frames are almost always a bandwidth or network-path problem rather than a software defect, as the OBS project's own troubleshooting guide puts it. This field guide starts from an upload budget, compares the three ways to multistream, and gives a ranked list of fixes for when frames start dropping.",
+  "key_takeaways": [
+    "Every extra destination multiplies your upload demand when you send from your own machine, so budget before you add platforms.",
+    "A cloud relay lets you send one stream and have the service deliver copies, trading upload load for another service in the chain.",
+    "Lower bitrate, use a different ingest server and switch to a wired connection before changing anything exotic.",
+    "Match the strictest platform's encoder settings, since one shared stream must satisfy all of them.",
+    "Watch dropped frames per destination, not just overall, so you can tell which route is failing."
+  ],
+  "sections": [
+    {
+      "h2": "What a dropped frame actually tells you",
+      "paras": [
+        "When your encoder cannot deliver frames to the remote server as fast as it produces them, it throws some away. The OBS knowledge base describes dropped frames as a sign that your connection to the remote server is not stable or you cannot keep up with your set bitrate, and says that dropping too many can get you disconnected. It adds that it is extremely unlikely for OBS Studio itself to cause the drops, and that the cause is a network issue between your computer and the ingest server.",
+        "That framing changes how you troubleshoot. Lag that appears only after you add a second destination points at bandwidth or at the path to that destination. Lag that appears with a single destination as well points at the encoder load or at your local network. Keep the two cases apart before you change settings."
+      ]
+    },
+    {
+      "h2": "Do the upload arithmetic first",
+      "paras": [
+        "Start with the bitrate each platform wants. YouTube's encoder table recommends, for H.264, 14 Mbps at 1080p30 and 17 Mbps at 1080p60, with minimums of 5 and 6 Mbps. If you stream 1080p60 from your own machine to three destinations at the 17 Mbps recommendation, that is 51 Mbps of video before audio and overhead.",
+        "Compare that to your measured upload, and apply the OBS troubleshooting guide's starting point of 75% of your total upload speed. A connection that sustains 40 Mbps upload leaves about 30 Mbps for streaming, which fits one 1080p60 stream at 17 Mbps with room to spare, and does not fit three. Run a speed test at the time of day you stream, since evening congestion can cut your real figure."
+      ],
+      "list": [
+        "Measure sustained upload, not the number on your plan.",
+        "Multiply the bitrate of each destination, then add audio and a safety margin.",
+        "If the total exceeds 75% of upload, lower resolution or bitrate, send fewer copies, or use a relay."
+      ]
+    },
+    {
+      "h2": "Three ways to send to several platforms",
+      "paras": [
+        "There are three architectures, and each moves the load somewhere different.",
+        "Local multi-output: your machine encodes and uploads one stream per destination, using a plugin or a second encoder instance. It gives per-platform control, including different bitrates, at the cost of your own CPU, GPU and upload. Cloud relay: you send one stream to a service that redistributes it. Restream describes itself as a live video platform to multistream to multiple channels at once, and Castr offers stream hosting, multistreaming and video on demand with multi-CDN delivery. Built-in multistreaming: some encoders include it; Meld Studio is described as free streaming and recording software with built-in multistreaming, and PRISM Live Studio also lists multistreaming among its features. Lightstream is a browser-based cloud streaming tool, so the encoding happens off your machine.",
+        "The ranking of [multistreaming platforms](/software/best-multistreaming-platforms) compares verified services. Whichever you pick, read each platform's current terms for simultaneous streaming before you rely on it, because those rules are set by the platforms and can change."
+      ]
+    },
+    {
+      "h2": "Choose the encoder that spares your CPU",
+      "paras": [
+        "Encoding a game and streaming it at the same time is demanding, and local multi-output adds more encodes. The OBS hardware encoding page says hardware encoders are generally recommended for best performance because they take the workload off the CPU, and that modern ones provide very good quality with minimal performance impact. It also warns that earlier generations give lower image quality at the same bitrate as the default x264 veryfast preset, so they are a last resort when software encoding is not possible.",
+        "NVENC is supported on Windows and Linux with a GeForce 750 Ti, a 900-series card or newer, and OBS suggests a Turing-generation GPU or newer for best results. AMD AMF, Intel Quick Sync and Apple VideoToolbox are the other documented hardware paths. If you run local multi-output, check how many simultaneous hardware encode sessions your GPU allows by testing, because limits vary by hardware."
+      ]
+    },
+    {
+      "h2": "Make one set of settings satisfy every destination",
+      "paras": [
+        "When one encoded stream feeds several platforms, it has to meet the strictest requirement among them. YouTube's help center recommends constant bitrate, a two-second keyframe interval that must not exceed four seconds, H.264, H.265 or AV1 video, AAC or MP3 audio and RTMP or RTMPS as the protocol. Choose CBR, a two-second keyframe interval and AAC audio, and you satisfy that list. Then open the other platforms' current guidance and raise or lower the bitrate to fit the narrowest limit.",
+        "Twitch's developer documentation confirms that broadcasts arrive over RTMP at an ingest server of your choice, with a list available from its Get Ingest Servers endpoint. For a vertical format on YouTube, the help center says streams from the Live Control Room go out in both 16:9 and 9:16 by default, and a third-party encoder can send a second stream key for a separate vertical layout. Plan the second key into your bandwidth budget if you choose that route."
+      ]
+    },
+    {
+      "h2": "Troubleshooting order when frames drop",
+      "paras": [
+        "Work through the fixes in this order, which mostly follows the OBS guide's own list, and change one thing at a time."
+      ],
+      "list": [
+        "Switch to a different ingest server. In OBS go to Settings, Stream and pick another server; for Twitch on Windows the guide mentions TwitchTest for finding the server with the best score.",
+        "Lower the video bitrate toward 75% of your stable upload speed.",
+        "Try a different service to find out whether the problem is the route to one platform.",
+        "On Windows, enable network optimizations and TCP pacing under Settings, Advanced, Network.",
+        "Make sure Bind to IP is set to Default, and try IPv4 only for the IP family if problems continue.",
+        "Enable dynamic bitrate adjustment (marked beta), which lowers bitrate under congestion instead of dropping frames, knowing it does not fix the root cause.",
+        "Move to a wired connection, restart modem and router and update network drivers.",
+        "Disable security software or a VPN temporarily to see whether either interferes.",
+        "Contact your internet provider with specifics if everything else fails."
+      ],
+      "ordered": true
+    },
+    {
+      "h2": "Monitor each destination while you are live",
+      "paras": [
+        "A single overall drop percentage hides which route is failing. Keep the platforms' own stream health views open on a second screen, and watch the encoder's per-output statistics if your setup shows them. YouTube tells creators to monitor stream health and review messages during an event, which applies to every destination you add.",
+        "Record a local copy as a safety net. If a destination disconnects, the local recording still holds the full session for editing. If you want to capture without losing frame rate, our guide to [recording gameplay without losing frame rate](/guides/how-to-record-gameplay-without-fps-loss) covers the extra encode, and the ranking of [streaming software for gamers](/software/best-streaming-software-for-gamers) lists tools that handle multiple outputs."
+      ]
+    },
+    {
+      "h2": "A pre-show checklist for multistream nights",
+      "paras": [
+        "Run this list at the start of each session; it takes about as long as a restart."
+      ],
+      "list": [
+        "Run a speed test and compare it with the sum of your destination bitrates.",
+        "Close download clients and cloud sync tools that use upload bandwidth.",
+        "Confirm stream keys and ingest servers for every destination, and hide keys from capture.",
+        "Start all outputs together, then watch dropped frames for the first five minutes before you announce.",
+        "Keep a short fallback plan: which destination you drop first if frames start to fail."
+      ],
+      "ordered": false
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I multistream from a laptop?",
+      "a": "Often yes, with a relay. Sending one stream to a cloud service keeps your upload and encoder load close to a single-platform stream. Local multi-output on a laptop multiplies encodes and upload demand, so test it with real gameplay and check dropped frames and temperatures before you announce a schedule."
+    },
+    {
+      "q": "Is a cloud multistreaming service better than local multi-output?",
+      "a": "It depends on your bottleneck. If upload or CPU is the limit, a relay helps because you send one copy. If you want different bitrates or layouts per platform, local multi-output gives more control. The ranking of multistreaming platforms lists verified services, with pricing as stated on each vendor's pages."
+    },
+    {
+      "q": "Why do I drop frames on one platform and not the other?",
+      "a": "The route to each ingest server is different. The OBS guide says drops come from instability between you and the remote server, and suggests trying another server or another service to see whether the issue follows the platform. If switching ingest servers fixes it, the original route was congested."
+    },
+    {
+      "q": "What bitrate should I use for multistreaming?",
+      "a": "Use the lowest that satisfies your strictest destination, and stay within about 75% of your upload speed in total across all outputs, the starting point the OBS guide gives for a single stream. YouTube's table lists a recommended 14 Mbps for 1080p30 with H.264 and 8 Mbps for 720p. Check each platform's guidance for its current ceiling."
+    },
+    {
+      "q": "Does vertical streaming add lag?",
+      "a": "It adds output, which can add load. YouTube's Live Control Room creates the vertical version from your horizontal stream by default, and a third-party encoder needs a second stream key, so your upload budget must cover both. Decide before the stream starts, because YouTube says the vertical format cannot be added once the stream is live."
+    }
+  ],
+  "related_categories": [
+    "best-multistreaming-platforms",
+    "best-streaming-software-for-gamers"
+  ],
+  "related_guides": [
+    "how-to-start-streaming-games-on-twitch-and-youtube",
+    "how-to-record-gameplay-without-fps-loss",
+    "rtmp-srt-webrtc-streaming-latency-explained"
+  ],
+  "sources": [
+    {
+      "title": "Stream Connection Troubleshooting",
+      "url": "https://obsproject.com/kb/stream-connection-troubleshooting",
+      "publisher": "OBS Project"
+    },
+    {
+      "title": "Hardware Encoding",
+      "url": "https://obsproject.com/kb/hardware-encoding",
+      "publisher": "OBS Project"
+    },
+    {
+      "title": "Choose live encoder settings, bitrates, and resolutions",
+      "url": "https://support.google.com/youtube/answer/2853702?hl=en",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "Get started with live streaming",
+      "url": "https://support.google.com/youtube/answer/2474026?hl=en",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "Video Broadcast",
+      "url": "https://dev.twitch.tv/docs/video-broadcast/",
+      "publisher": "Twitch Developers"
+    },
+    {
+      "title": "Restream",
+      "url": "https://restream.io/",
+      "publisher": "Restream"
+    },
+    {
+      "title": "Castr",
+      "url": "https://castr.com/",
+      "publisher": "Castr"
+    },
+    {
+      "title": "Meld Studio",
+      "url": "https://meldstudio.co/",
+      "publisher": "Meld Studio"
+    },
+    {
+      "title": "Lightstream",
+      "url": "https://golightstream.com/",
+      "publisher": "Lightstream"
+    }
+  ]
+}

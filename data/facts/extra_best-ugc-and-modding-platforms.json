@@ -1,0 +1,133 @@
+[
+  {
+    "slug": "modworkshop",
+    "name": "ModWorkshop",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://modworkshop.net/",
+    "company": "Sidetrack Games B.V.",
+    "hq": "Amsterdam",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "what_it_is": "A community platform for sharing and downloading mods for various games, with PAYDAY 2 as its origin.",
+    "platforms": "Web; hosts mods for PAYDAY 2, PAYDAY: The Heist, Noita, Crime Boss and other games.",
+    "pricing": "No prices are shown; downloads need no account, and the site says it does not throttle downloads.",
+    "pricing_model": "",
+    "free_plan": "Free",
+    "key_features": [
+      "Mod hosting",
+      "Open source site",
+      "API",
+      "Wiki and guides",
+      "In-game mod browser for PAYDAY 2",
+      "Volunteer moderators"
+    ],
+    "notable": [
+      "The impressum names Sidetrack Games B.V. in Amsterdam as the operator; the About page says the site is open source and moderators are volunteers."
+    ],
+    "facts": [
+      {
+        "fact": "ModWorkshop describes itself as a platform for sharing and downloading mods for various games, hosting PAYDAY 2, PAYDAY: The Heist, Noita and Crime Boss.",
+        "url": "https://modworkshop.net/about"
+      },
+      {
+        "fact": "ModWorkshop states that downloading mods needs no account, that downloads are not throttled, and that its moderators are volunteers.",
+        "url": "https://modworkshop.net/about"
+      },
+      {
+        "fact": "The site says it joined Sidetrack Games and released an official PAYDAY 2 in-game mod browser.",
+        "url": "https://modworkshop.net/"
+      },
+      {
+        "fact": "The legal notice names Sidetrack Games B.V., Amsterdam, as the operator of the site.",
+        "url": "https://modworkshop.net/document/impressum"
+      }
+    ]
+  },
+  {
+    "slug": "tebex",
+    "name": "Tebex",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.tebex.io/",
+    "company": "Tebex",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A game monetization provider offering webstores, checkout and store protection, acting as merchant of record.",
+    "platforms": "Web; in-game and in-app integrations, per the vendor.",
+    "pricing": "Prices are not shown on the home or About page; the vendor offers 'Talk to sales' and an account sign-up.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Webstores",
+      "Checkout",
+      "Store protection",
+      "D2C stores",
+      "Game server stores",
+      "Merchant of record"
+    ],
+    "notable": [
+      "Vendor claims 130+ payment methods, 70+ countries and 45K+ businesses; its About page says it runs tens of thousands of webstores for GTA5's user-generated economy (testimonial)."
+    ],
+    "facts": [
+      {
+        "fact": "Tebex says it acts as merchant of record, handling fraud, compliance and chargebacks, and lists webstores, checkout and store protection as products.",
+        "url": "https://www.tebex.io/"
+      },
+      {
+        "fact": "The vendor states 130+ payment methods, 70+ countries and 45K+ businesses monetizing, with $1.5B processed so far.",
+        "url": "https://www.tebex.io/"
+      },
+      {
+        "fact": "A testimonial on the About page says Tebex runs tens of thousands of web shops for GTA5's user-generated content economy.",
+        "url": "https://www.tebex.io/about"
+      },
+      {
+        "fact": "The home page offers a 'Talk to sales' route and an account opening for server owners, with no prices shown.",
+        "url": "https://www.tebex.io/"
+      }
+    ]
+  },
+  {
+    "slug": "minecraft-marketplace",
+    "name": "Minecraft Marketplace",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.minecraft.net/en-us/creator",
+    "company": "Mojang / Microsoft",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "The official Minecraft storefront where approved partners sell add-ons such as skins, maps and texture packs.",
+    "platforms": "Minecraft Bedrock Edition.",
+    "pricing": "Prices are not shown on the creator page; it points to a partner program and a Marketplace Pass.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Add-on creation docs",
+      "Marketplace partner program",
+      "Marketplace Pass",
+      "Best sellers",
+      "Creator learning portal",
+      "Bedrock servers"
+    ],
+    "notable": [
+      "Selling requires becoming an official Minecraft partner."
+    ],
+    "facts": [
+      {
+        "fact": "Minecraft's creator page says creators can learn to make add-ons such as skins, maps and texture packs, become a Partner and sell them in the Marketplace.",
+        "url": "https://www.minecraft.net/en-us/creator"
+      },
+      {
+        "fact": "The creator page links to a Marketplace Pass, best sellers, a Creator Learning Portal and Bedrock Edition creator documentation.",
+        "url": "https://www.minecraft.net/en-us/creator"
+      },
+      {
+        "fact": "The creator page links to a Minecraft Partners section about what it takes to become an official partner.",
+        "url": "https://www.minecraft.net/en-us/creator"
+      }
+    ]
+  }
+]

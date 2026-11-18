@@ -1,0 +1,482 @@
+{
+  "slug": "best-3d-game-engines-for-small-studios",
+  "name": "3D game engines for small studios",
+  "title": "Best 3D Game Engines for Small Studios in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "summary_line": "Twelve 3D engines and web 3D frameworks compared for teams of two to thirty, with license and royalty terms as the deciding test.",
+  "definition": "A 3D game engine is a toolkit for building games with depth: it renders scenes, handles physics, animation and audio, and exports to devices. For small studios, the relevant questions are cost, royalty and source access. This ranking covers engines for desktop, console and mobile, and web 3D tools, using terms published by each vendor.",
+  "intro": "A team of two to thirty usually cannot absorb a licensing surprise. A fee that triggers at launch, a royalty that scales with sales, or terms that live on a page nobody read can change the budget of a project that took two years. For this ranking we opened vendor homepages and read the statements about price, license, source access and platforms for twelve engines and frameworks. We did not run performance benchmarks or build sample games. Terms come first in the order, followed by editor completeness and the range of devices. An engine that publishes a royalty or a free license plainly gains ground on one that links to a plans page with no figures. Where we found nothing, the entry says that nothing is published.",
+  "criteria": [
+    {
+      "heading": "Royalty and fee structure",
+      "text": "Money terms decide whether a small studio can plan. CRYENGINE publishes a 5% royalty with the first $5K of annual revenue per project exempt. Bevy states no contracts, license fees or sales cuts. Godot is described as free and open source. Unity and Flax Engine point to pages where terms live, and Needle Engine requires Go Pro for commercial work. We marked each entry by what the vendor's own text says, and recorded the absence of a figure as a risk, not a neutral fact."
+    },
+    {
+      "heading": "Source access",
+      "text": "Reading the engine's code lets a small team fix a blocker without waiting for a vendor. Flax Engine and CRYENGINE advertise full source code, Stride states MIT licensed editor and runtime source, Bevy is MIT or Apache 2.0, and Godot is open source. Web libraries such as Three.js and Babylon.js link to public repositories. We did not read the repositories, so license names appear only where the vendor page shows them."
+    },
+    {
+      "heading": "Editor and artist workflow",
+      "text": "Two programmers can live in code, but a studio with artists needs scene editing, lighting and animation tools. Unity, Godot, Flax, Stride and CRYENGINE ship editors; Bevy is code-first; Wonderland Engine and Needle Engine add web-focused tooling. The question to ask is who on the team will touch the engine daily: if the answer includes non-programmers, a full editor outranks a clean license."
+    },
+    {
+      "heading": "Platform coverage",
+      "text": "Where you can publish limits where you can earn. Unity lists more than 25 platforms, CRYENGINE names PC, Xbox, PlayStation and Oculus, Bevy lists desktop, web, iOS and Android, and Stride lists desktop and VR. Web engines reach any browser but not stores. Several vendors state no platform list at all, so we treated those as unconfirmed."
+    }
+  ],
+  "market_notes": [
+    "The facts split the field cleanly. Four of the twelve state permissive open-source terms or a plain free model (Godot, Bevy, Stride and O3DE), two name a fee structure for commercial use (CRYENGINE with a 5% royalty and Needle Engine with Go Pro), and five publish no pricing or license text on the homepage at all (Unity, Flax, Fyrox, Babylon.js and Three.js). Wonderland Engine offers a free start with no plan figures. Four of the twelve target the browser.",
+    "The trade-off is predictability against polish. Established engines offer wider tooling and platform lists but price pages that sit one click away, while open engines give certainty on cost and ask for more engineering. Web 3D tools suit configurators and browser games, yet they do not publish store builds. For a studio with two programmers, source access and a clear license reduce risk more than extra features do."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Run the royalty math at three revenue levels",
+      "text": "Take a conservative, a likely and a hopeful sales figure and apply each engine's published terms. For CRYENGINE, subtract the first $5K per project and apply 5%. For Bevy, Godot and Stride the result is zero engine cost. For Unity and Flax, open the plan or licensing page and write the figures down with today's date before you decide."
+    },
+    {
+      "title": "Name the person who will open the engine daily",
+      "text": "If artists and designers will work in the tool every day, shortlist the engines with full editors and test one real scene in each. If only engineers will touch it, code-first choices like Bevy become reasonable. Count the team in months of onboarding, not in features, because a language switch from C# to Rust costs more than a license."
+    },
+    {
+      "title": "Match platforms to your first publisher deal",
+      "text": "Write down which stores and devices your plan names, then compare the vendor lists. Mobile and consoles narrow the field to Unity and a few others; a browser product opens the web-focused group. If a vendor lists no platforms, ask for a written confirmation before you plan around it."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best 3D game engine for a small studio in 2026?",
+      "a": "Unity ranks first for platform reach, with more than 25 platforms listed, but its homepage shows no licensing figures. Godot is better when a zero-fee, open-source engine matters, and Flax Engine is better when a team wants engine source in C++ or C#. CRYENGINE is the pick when a published royalty is required."
+    },
+    {
+      "q": "Which 3D engine has no royalties?",
+      "a": "Bevy states no contracts, license fees or sales cuts, Godot is described as free and open source, and Stride's editor and runtime are MIT licensed. CRYENGINE does charge a 5% royalty after the first $5K of annual revenue per project, so it is the opposite case."
+    },
+    {
+      "q": "How much does CRYENGINE cost?",
+      "a": "The homepage says it is free to use, with a 5% royalty when you ship and the first $5K of annual revenue per project royalty-free. Full source code access is listed. Confirm current terms on the vendor's own page before signing a budget."
+    },
+    {
+      "q": "Can a team of five use Rust for 3D games?",
+      "a": "Yes, through Bevy or Fyrox, both built in Rust. Bevy lists 2D and 3D renderers, a render graph and desktop, web and mobile targets under MIT or Apache 2.0. Fyrox publishes few facts on its homepage, so verify its license and platforms yourself."
+    },
+    {
+      "q": "Is Godot good enough for 3D?",
+      "a": "The homepage describes its 3D as simple, and lists OpenXR and WebXR support. For many small-team projects that is enough, and the cost is zero. If you need heavy visual fidelity or direct console support, compare Unity and CRYENGINE; Godot sends consoles through third-party publishers."
+    },
+    {
+      "q": "Which engine suits 3D on the web?",
+      "a": "Babylon.js, Wonderland Engine, Needle Engine and Three.js all target the browser. Wonderland Engine adds a visual editor and WebXR, Needle Engine exports from Unity or Blender, and Babylon.js lists WebGPU. Needle needs Go Pro for commercial use; the others publish no price in the page text."
+    },
+    {
+      "q": "What does open source mean for a studio's risk?",
+      "a": "It lowers fee risk and lets you patch the engine, but it moves support onto your team. Godot is hosted by the Godot Foundation, O3DE by the Open 3D Foundation, and Stride is backed by the .NET Foundation. Check the named license, because some homepages do not state it."
+    }
+  ],
+  "related": [
+    "best-2d-game-engines",
+    "best-open-source-game-engines",
+    "best-game-engines-for-mobile-games",
+    "best-version-control-for-game-development"
+  ],
+  "tools": [
+    {
+      "slug": "unity",
+      "name": "Unity",
+      "site": "https://unity.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Established 2D and 3D engine with the widest platform list",
+      "best_for": "Studios of 5 to 30 shipping on many devices",
+      "pricing": "The homepage offers a free start and a plans page, but prints neither figures nor tier names.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "25+ platforms including consoles, Quest and Apple Vision Pro",
+      "features": [
+        "Unity Engine",
+        "Multiplatform",
+        "In-App Purchase",
+        "Monetization",
+        "LiveOps"
+      ],
+      "summary": "Leads on reach: more than 25 platforms and a services stack, though its licensing figures are not on the homepage.",
+      "verdict": "A studio of ten that needs one codebase on desktop, phones, consoles and headsets is the reader for whom Unity makes sense. The homepage lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro, and wraps the engine with collaboration, LiveOps, user acquisition and monetization services. Unity 6.6 is described as available and Unity 7 is announced as the next major version. A Fellowship backing ten indie teams with $50K and no recoup is mentioned, with applications due December 18. The engine ranks first for coverage, with licensing as the item to verify.",
+      "weaknesses": "Licensing is the page's weak spot: the homepage links to plans and pricing but shows no numbers, and the royalty or fee structure is the main test for this ranking. Confirm current terms in writing before you plan around them. The announced Unity 7 may bring a migration decision.",
+      "wrong_for": "Teams wanting published, royalty-free terms in the page text should look at Bevy or Godot; Flax suits those who want engine source access.",
+      "sources": [
+        {
+          "fact": "Unity is described on its homepage as the world's leading game engine for developing, deploying and growing games.",
+          "url": "https://unity.com/"
+        },
+        {
+          "fact": "The homepage says you can get started for free or find a plan, and links to Plans and pricing without showing figures.",
+          "url": "https://unity.com/"
+        }
+      ]
+    },
+    {
+      "slug": "godot",
+      "name": "Godot",
+      "site": "https://godotengine.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Free engine with open source and node-based scenes",
+      "best_for": "Small teams that refuse engine fees entirely",
+      "pricing": "The vendor calls it free and open source and states nothing else about price; the license is not named in the page text.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Desktop, mobile and web exports; consoles via third-party publishers",
+      "features": [
+        "Node and Scene system",
+        "Simple 3D",
+        "OpenXR and WebXR",
+        "GDScript, C#, C++"
+      ],
+      "summary": "No fee, readable source and a foundation behind it, which makes the cost side of a small-studio plan very easy.",
+      "verdict": "Godot answers the licensing question by making it irrelevant. The homepage calls it a free, open-source 2D and 3D game engine, with a node and scene system and scripting in GDScript, C#, C++ or GDExtension. The 3D side is described as simple, and OpenXR and WebXR support is listed for headset projects. Juan Linietsky and Ariel Manzur are named as creators, and the project is hosted by the Godot Foundation. Patron and corporate sponsors named include Scorewarrior, W4 Games, JetBrains and Mega Crit. Version 4.7.2 is the current download shown.",
+      "weaknesses": "The homepage describes its 3D as simple, which is an honest limit for studios chasing film-grade visuals. Console release depends on third-party publishers. The only editor download link on the homepage is for Windows, and C# on the web needs Godot 3.",
+      "wrong_for": "Teams building a visually heavy 3D title with console targets from day one should compare Unity or CryEngine.",
+      "sources": [
+        {
+          "fact": "Godot is described on the vendor homepage as a free, open-source 2D and 3D game engine.",
+          "url": "https://godotengine.org/"
+        },
+        {
+          "fact": "The homepage makes no pricing statement beyond calling Godot a free, open-source game engine.",
+          "url": "https://godotengine.org/"
+        }
+      ]
+    },
+    {
+      "slug": "flax-engine",
+      "name": "Flax Engine",
+      "site": "https://flaxengine.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Source-included engine from Poland with C++ and C#",
+      "best_for": "Programmers wanting to read and patch the engine",
+      "pricing": "The homepage advertises full source code and links a Licensing page; no license name, royalty or price is in the page text.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Not stated on the homepage",
+      "features": [
+        "C++ scripting",
+        "C# scripting",
+        "Visual Scripting",
+        "Version control support"
+      ],
+      "summary": "Full source code and three scripting options for small and larger teams, offset by terms that live on a separate page.",
+      "verdict": "Flax presents itself as an agile engine for solo developers and bigger teams alike, and it advertises full source code, which lets a small team step into the engine when a bug blocks a release. Scripting covers C++, C# and Visual Scripting, the editor is extensible, and version control systems are supported. A release post for Flax 1.13 mentions more than 999 commits, a hint of steady work, and the site says it is made in Poland. Because licensing is the main test here, its Licensing page is the document to read before committing.",
+      "weaknesses": "Neither the license name, royalty terms nor prices appear in the page text, and no platform list is given on the homepage. That leaves the decision-driving details unverified. Community size is not stated.",
+      "wrong_for": "Anyone who needs an explicit royalty figure now should read the CryEngine entry; a studio wanting a large asset marketplace should choose Unity.",
+      "sources": [
+        {
+          "fact": "Flax Engine describes itself on the homepage as 'The most agile game engine is now available' and advertises full source code.",
+          "url": "https://flaxengine.com/"
+        },
+        {
+          "fact": "The homepage lists scripting support for C++, C# and Visual Scripting.",
+          "url": "https://flaxengine.com/"
+        }
+      ]
+    },
+    {
+      "slug": "cryengine",
+      "name": "CryEngine",
+      "site": "https://cryengine.com/",
+      "company": "Crytek GmbH",
+      "country": "",
+      "tagline": "Free-to-use engine with a published 5% royalty",
+      "best_for": "Studios that want a fixed royalty before they start",
+      "pricing": "Free to use, 5% royalty once you ship, with the first $5K of annual revenue per project royalty-free.",
+      "pricing_model": "Revenue share",
+      "free_plan": "Free",
+      "platforms": "PC, Xbox, PlayStation, Oculus",
+      "features": [
+        "Sandbox editor",
+        "Global illumination",
+        "Dynamic destruction",
+        "Audio Translation Layer"
+      ],
+      "summary": "The only entry with an explicit royalty rate and exemption stated on its homepage, plus full source access.",
+      "verdict": "Few engines print their terms as plainly as CRYENGINE does. The homepage says it is free to use, takes a 5% royalty when you ship, and excludes the first $5K of annual revenue per project. Full source code access is listed, and the toolset includes the Sandbox editor, real-time lighting and global illumination, physics with dynamic destruction, particles and an animation system. Titles shown include Kingdom Come: Deliverance, Prey, Star Citizen and the Sniper: Ghost Warrior series. The current release listed is CRYENGINE 5.6. A small studio can model its cost with a single line of arithmetic.",
+      "weaknesses": "The platform line names PC, Xbox, PlayStation and Oculus, without mobile or Switch, so a phone or handheld plan needs another engine. The current release shown is version 5.6. A 5% revenue share outweighs a flat subscription once sales grow.",
+      "wrong_for": "Mobile-first teams should read about Unity; those who want no revenue share at all should look at Godot or Bevy.",
+      "sources": [
+        {
+          "fact": "CRYENGINE is described on its homepage as Crytek's game development platform with a real-time editor and full source code available.",
+          "url": "https://cryengine.com/"
+        },
+        {
+          "fact": "The homepage says CRYENGINE is free to use, with a 5% royalty when you ship and the first $5K of annual revenue per project royalty-free.",
+          "url": "https://cryengine.com/"
+        }
+      ]
+    },
+    {
+      "slug": "bevy",
+      "name": "Bevy",
+      "site": "https://bevy.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Rust ECS engine under MIT or Apache 2.0",
+      "best_for": "Rust teams who want no license fee or sales cut",
+      "pricing": "Free, with no contracts, license fees or sales cuts; optional donor tiers run from $25 to $6,000 per month.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, macOS, Linux, Web, iOS, Android",
+      "features": [
+        "Bevy ECS",
+        "2D renderer",
+        "3D renderer",
+        "Render Graph",
+        "Hot reloading"
+      ],
+      "summary": "A code-first Rust engine with permissive licensing, suited to programmers more than to artists.",
+      "verdict": "Bevy is for studios whose engineers already write Rust. The homepage calls it a refreshingly simple data-driven engine, dual-licensed under MIT or Apache 2.0, with no contracts, license fees or sales cuts. It exposes an entity component system, 2D and 3D renderers, a render graph, animation, UI, scenes and hot reloading, and it lists Windows, macOS, Linux, web, iOS and Android as targets. The vendor reports compile times of 0.8 to 3.0 seconds with its fast compiles configuration. Donor tiers range from $25 to $6,000 monthly if a company wants to give back.",
+      "weaknesses": "The facts show no visual editor in the feature list, so artists and designers depend on programmers for scene work. Console targets are not listed. Rust has a steeper entry curve for staff used to C# or C++, which narrows the hiring pool.",
+      "wrong_for": "Mixed teams of artists and designers will move faster in Godot or Unity, which both have a full editor.",
+      "sources": [
+        {
+          "fact": "Bevy is described on its homepage as 'A refreshingly simple data-driven game engine built in Rust'.",
+          "url": "https://bevy.org/"
+        },
+        {
+          "fact": "The homepage says Bevy is open source under the permissive MIT or Apache 2.0 licenses.",
+          "url": "https://bevy.org/"
+        }
+      ]
+    },
+    {
+      "slug": "stride",
+      "name": "Stride",
+      "site": "https://stride3d.net/",
+      "company": "",
+      "country": "",
+      "tagline": "C# engine under MIT with .NET Foundation backing",
+      "best_for": "C# studios who want an MIT-licensed 3D editor",
+      "pricing": "Free; the editor and runtime source are MIT licensed, and an Open Collective donation link is offered.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Desktop and VR, Vulkan and Direct3D 12",
+      "features": [
+        "C# scripting",
+        "Vulkan and Direct3D 12",
+        "Game templates",
+        "Asset toolchain"
+      ],
+      "summary": "A C# engine with a complete editor toolchain and MIT terms, but a platform list limited to desktop and VR.",
+      "verdict": "If your programmers think in C# and .NET, Stride fits without a language switch. The homepage describes a free, open-source cross-platform engine for 2D and 3D games and interactive content, with MIT licensed editor and runtime source. Scripting uses C# 14 on .NET 10. The graphics side lists Vulkan and Direct3D 12, photorealistic rendering and VR readiness, multi-threading, built-in game templates and a full asset creation toolchain. Stride 4.4, announced October 9, 2026, rewrites the renderer for Vulkan and Direct3D 12 and adds Native AOT support. The .NET Foundation supports it.",
+      "weaknesses": "Only desktop and VR are named as targets, which leaves phones, consoles and the web unconfirmed. A renderer rewrite in the newest version means plugins and tutorials written for older releases may need changes.",
+      "wrong_for": "A studio shipping to phones should pick Unity, or Godot if open source matters.",
+      "sources": [
+        {
+          "fact": "Stride is described on its homepage as a free and open-source cross-platform C# game engine.",
+          "url": "https://stride3d.net/"
+        },
+        {
+          "fact": "The homepage states the editor and runtime source code are MIT licensed.",
+          "url": "https://stride3d.net/"
+        }
+      ]
+    },
+    {
+      "slug": "o3de",
+      "name": "O3DE",
+      "site": "https://o3de.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Foundation-run engine with modular, high-fidelity design",
+      "best_for": "Teams comfortable with C++ and open governance",
+      "pricing": "The homepage states no price and promotes donations and membership; the license is not named in the page text.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Cross-platform; the homepage points to a Supported Platforms page",
+      "features": [
+        "Modular design",
+        "High fidelity",
+        "Inter-operability",
+        "Cloud friendly",
+        "ROS robotics integration"
+      ],
+      "summary": "Open-source engine run through the Open 3D Foundation, strong on modular design, thin on pricing and license detail.",
+      "verdict": "O3DE describes itself as an open source, community-driven, continuously evolving 3D engine, and its governance sits with the Open 3D Foundation, with the Linux Foundation running site policies. The homepage lists high fidelity, modular, inter-operable, cross-platform and cloud-friendly as the main traits and mentions integration with ROS for robotics. Release 26.05 is named as the latest. Companies can donate or join through Become a Member. For a small studio with strong engine programmers who want a neutral, foundation-run codebase, this offers governance clarity that single-vendor engines cannot.",
+      "weaknesses": "No pricing, software license name or specific platform list appears on the homepage. Modular engines in this class tend to demand significant engineering time to configure, which a team of two will feel. Art-pipeline details are not in the facts.",
+      "wrong_for": "Small teams that need quick results should choose Godot or Unity, both easier to start with.",
+      "sources": [
+        {
+          "fact": "O3DE is described on its homepage as an open source, community-driven and continuously evolving 3D engine.",
+          "url": "https://o3de.org/"
+        },
+        {
+          "fact": "The homepage credits the Open 3D Foundation, with the Linux Foundation running the site's policies.",
+          "url": "https://o3de.org/"
+        }
+      ]
+    },
+    {
+      "slug": "fyrox",
+      "name": "Fyrox",
+      "site": "https://fyrox.rs/",
+      "company": "",
+      "country": "",
+      "tagline": "Feature-rich Rust engine with sparse public facts",
+      "best_for": "Rust developers willing to evaluate from documentation",
+      "pricing": "The homepage states no price; it links to a sponsor page with no pricing detail.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Not stated on the homepage",
+      "features": [
+        "Rust engine"
+      ],
+      "summary": "A Rust engine since 2019 whose homepage reveals little about license, price, platforms or tools.",
+      "verdict": "Fyrox calls itself a feature-rich game engine built in Rust, and the footer reads Fyrox Engine 2019 to 2026, which tells you the project is seven years old. That is nearly all the homepage reveals: the page lists no features, no license, no pricing and no platforms, and it links to a sponsor page. For a ranking that tests licence and royalty terms, that is a serious gap, though sponsorship rather than sales suggests no royalty model. It places eighth because a small studio cannot cost or scope it from its public page, and anyone interested must dig into the repository and documentation.",
+      "weaknesses": "No license, price, platform or feature information is shown on the homepage, so there is nothing here to verify. The project is smaller than Bevy in the same language, going by the amount of public detail. Governance and release cadence are not stated.",
+      "wrong_for": "Rust teams that want stated MIT or Apache terms should look at Bevy first.",
+      "sources": [
+        {
+          "fact": "Fyrox's homepage describes it as 'A feature-rich game engine built in Rust'.",
+          "url": "https://fyrox.rs/"
+        },
+        {
+          "fact": "The homepage footer reads 'Fyrox Engine 2019 - 2026'.",
+          "url": "https://fyrox.rs/"
+        }
+      ]
+    },
+    {
+      "slug": "babylon-js",
+      "name": "Babylon.js",
+      "site": "https://www.babylonjs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Web 3D rendering engine with a desktop editor",
+      "best_for": "Web teams building 3D configurators and browser games",
+      "pricing": "The homepage states neither a price nor a license.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Web and WebGPU, Babylon Native Runtime, Babylon React Native",
+      "features": [
+        "Clustered lighting",
+        "Frame Graph",
+        "Gaussian Splat support",
+        "Babylon.js Editor"
+      ],
+      "summary": "A web rendering engine with WebGPU support and native runtimes, but no stated license or price on its homepage.",
+      "verdict": "Babylon.js stays in the browser by design. The homepage welcomes readers to version 9.0 and lists clustered lighting, textured area lights, Gaussian Splat support, a Frame Graph, dynamic IBL shadows and a physically based atmosphere. Beyond the web and WebGPU, it lists Babylon Native Runtime, Babylon React Native and a desktop Babylon.js Editor. A Babylon.js Lite release is announced for June 17, 2026. That makes it a credible choice for a small studio whose product is a 3D experience in a page, such as a configurator or a casual browser game.",
+      "weaknesses": "The homepage states no license or price, which is the main criterion of this ranking, so check the repository. It is a rendering engine, not a full game toolkit with built-in project management. Console and desktop-store releases are not covered by the page.",
+      "wrong_for": "Studios shipping a downloadable PC or console game should compare Godot or Unity.",
+      "sources": [
+        {
+          "fact": "Babylon.js is described on its homepage as a web rendering engine with the mission of being one of the most powerful open web rendering engines.",
+          "url": "https://www.babylonjs.com/"
+        },
+        {
+          "fact": "The homepage welcomes readers to Babylon.js 9.0.",
+          "url": "https://www.babylonjs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "wonderland-engine",
+      "name": "Wonderland Engine",
+      "site": "https://wonderlandengine.com/",
+      "company": "Wonderland GmbH",
+      "country": "",
+      "tagline": "WebAssembly engine for WebXR and configurators",
+      "best_for": "Agencies and studios building XR in the browser",
+      "pricing": "Teams can start with a free license and a Get started free option; plan names and prices are not in the page text.",
+      "pricing_model": "Not published",
+      "free_plan": "Free plan",
+      "platforms": "Desktop, tablet, phone and VR headsets from one build",
+      "features": [
+        "C++ compiled to WebAssembly",
+        "Visual editor",
+        "Live reload",
+        "TypeScript",
+        "Automatic asset optimization"
+      ],
+      "summary": "A web-first XR engine with a visual editor and a free start, aimed at browser delivery more than store games.",
+      "verdict": "Wonderland Engine is built for 3D that runs from a shareable URL. The homepage describes a next-generation web engine for configurators, visualizations and XR, delivering one build to desktop, tablets, phones and VR headsets, including iOS Safari. The engine code is C++ compiled to WebAssembly, projects are written in TypeScript, and a visual editor with live reload and automatic asset optimization is included. Version 1.6.1 was released April 23, 2026. A Morgan Motor Company case study reports zero dollars per-user server costs. Free licensing means a two-person team can start without a purchase order.",
+      "weaknesses": "Plan names and prices are not published in the page text, so commercial costs stay unknown until you open the pricing page. The focus on XR and web delivery makes it a poor fit for downloadable store games. Wonderland GmbH is the stated company.",
+      "wrong_for": "A studio shipping a native PC game should pick Godot; those preferring open-source code on the web can use Babylon.js.",
+      "sources": [
+        {
+          "fact": "Wonderland Engine is described on its homepage as a next-generation 3D engine for the web, used to build interactive 3D and XR experiences.",
+          "url": "https://wonderlandengine.com/"
+        },
+        {
+          "fact": "The homepage says teams can start with a free license and offers a Get started free option; no plan prices are shown.",
+          "url": "https://wonderlandengine.com/"
+        }
+      ]
+    },
+    {
+      "slug": "three-js",
+      "name": "Three.js",
+      "site": "https://threejs.org/",
+      "company": "",
+      "country": "",
+      "tagline": "JavaScript 3D library with no stated terms on its homepage",
+      "best_for": "JavaScript developers assembling their own stack",
+      "pricing": "The homepage states neither price nor license.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Not stated on the homepage",
+      "features": [
+        "JavaScript 3D library",
+        "GitHub source"
+      ],
+      "summary": "A JavaScript library whose homepage lists no license, price or platform facts, so it ranks low on terms.",
+      "verdict": "Three.js is a JavaScript 3D library, as its homepage title says, and the header links to release r187 on GitHub, where the mrdoob/three.js source lives. A small studio would use it as a base layer, bringing its own physics, input and editor. The homepage does not describe features, a license or pricing, so within a licensing-driven ranking it cannot earn a high place. Teams already working in JavaScript will find the library familiar, though it is a rendering layer, not a complete engine, and the surrounding game logic is yours to design.",
+      "weaknesses": "License, price and platforms are not stated on the homepage, and no editor, asset pipeline or game framework is part of the facts. A studio would assemble physics, audio and tooling itself.",
+      "wrong_for": "Studios that want an editor and scene tools out of the box should look at Babylon.js or Wonderland Engine.",
+      "sources": [
+        {
+          "fact": "Three.js is titled on its homepage as a JavaScript 3D Library.",
+          "url": "https://threejs.org/"
+        },
+        {
+          "fact": "The homepage header links to version r187 on GitHub releases.",
+          "url": "https://threejs.org/"
+        }
+      ]
+    },
+    {
+      "slug": "needle-engine",
+      "name": "Needle Engine",
+      "site": "https://needle.tools/",
+      "company": "Needle Tools GmbH",
+      "country": "",
+      "tagline": "Unity and Blender exporter for web 3D",
+      "best_for": "Teams that already build scenes in Unity or Blender",
+      "pricing": "Free for personal projects; commercial use requires Go Pro, with no figures on the homepage.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Web; sources from Unity, Blender or three.js",
+      "features": [
+        "Unity integration",
+        "Blender integration",
+        "FastHDR lighting",
+        "AR and VR",
+        "Automatic compression"
+      ],
+      "summary": "Ships scenes from Unity or Blender to the browser, but commercial use needs a paid tier whose price is not listed.",
+      "verdict": "Needle Engine takes work you have already done in Unity or Blender and delivers it as interactive 3D on the web, with no app store or install. Its homepage lists integrations for SvelteKit, Vue and Nuxt, React and plain HTML or JavaScript, plus Needle Cloud for hosting. Features include FastHDR environment lighting, which the vendor claims loads ten times faster than EXR, plus lightmaps, Shader Graph export, AR and VR, PBR materials and MaterialX. The licensing line is concrete: free for personal projects, Go Pro for commercial work. The vendor claims thousands of spatial websites run on it.",
+      "weaknesses": "Commercial studios must pay for Go Pro, and the homepage shows no price. It is a delivery tool for web 3D rather than a general engine for store-sold games. The vendor-made claims on speed and adoption are not independently confirmed.",
+      "wrong_for": "A studio making an installable game should start with Godot or Unity; open-source web builders can compare Babylon.js.",
+      "sources": [
+        {
+          "fact": "Needle Engine is described on its homepage as a tool for shipping interactive 3D to the web from Unity, Blender or code.",
+          "url": "https://needle.tools/"
+        },
+        {
+          "fact": "The homepage says it is free for personal projects and asks users to go Pro for commercial use; no prices are shown.",
+          "url": "https://needle.tools/"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18"
+}

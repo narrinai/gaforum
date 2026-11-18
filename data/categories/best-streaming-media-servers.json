@@ -1,0 +1,585 @@
+{
+  "slug": "best-streaming-media-servers",
+  "name": "streaming media servers",
+  "title": "Best Streaming Media Servers in 2026",
+  "group": "Live streaming (business)",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Streaming media servers receive live video over RTMP, SRT or WebRTC and redistribute it, either on your own hardware or as a managed service.",
+  "definition": "A streaming media server is software that accepts live video from a camera or encoder, converts it when needed, and serves it to viewers in formats such as HLS or WebRTC. You can run it on your own machines or rent it as a managed service. It sits between the encoder and the audience.",
+  "intro": "Streaming through a platform such as Twitch is easy until you need your own player, your own rules or a delay measured in fractions of a second. Then you need a media server. The choice is between open source projects you operate yourself, commercial servers with support, and cloud services that do the operating for you. This ranking is written for technical directors and platform engineers at studios, tournament organizers and event companies. We read each project's homepage, documentation entry points, pricing pages and repositories, compared the protocols and licensing they state, and noted when a page told us nothing. We did not benchmark throughput. Thirteen products are ranked, favoring clear licensing, protocol coverage and a route to support.",
+  "criteria": [
+    {
+      "heading": "Protocols in and out",
+      "text": "Encoders push RTMP or SRT, browsers want WebRTC or HLS, and cameras often speak RTSP. Each server here supports a different mix. SRS lists RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH, while MediaMTX adds RTSP, LL-HLS and Media-over-QUIC. A server that lacks your ingest format forces extra converters, so we put coverage first when ordering the list."
+    },
+    {
+      "heading": "License and the cost of ownership",
+      "text": "Open source servers cost nothing in fees but charge in engineering time. Commercial ones charge per instance or subscription but include support. SRS and mediasoup state open licensing; Ant Media Server prints instance prices; Wowza and Flussonic ask for contact. We weighed how clearly the cost can be understood from the vendor's own pages, since surprises at renewal time are the usual complaint."
+    },
+    {
+      "heading": "Latency model",
+      "text": "Sub-second delivery needs WebRTC or a low-latency HLS variant, while ordinary HLS adds several seconds. Interactive auctions, betting-style overlays or remote production need the first kind. Vendors such as Red5 advertise sub-250 millisecond latency, which is their own claim. We recorded protocol support instead of promising numbers, because real delay depends on network paths and configuration."
+    },
+    {
+      "heading": "Operations and scaling",
+      "text": "A server is only the start. You also run clustering, monitoring, recording storage and upgrades. Managed services such as OvenMedia Cloud, Red5 Cloud and AWS Elemental MediaLive move that work to the vendor, at a price. Libraries such as mediasoup move almost all of it to you. Match the product to the size of your operations team, not just to the feature table."
+    }
+  ],
+  "market_notes": [
+    "Licensing splits the list almost evenly. SRS, mediasoup and Jitsi are stated open source projects; MediaMTX is distributed in a public repository; OvenMediaEngine and Red5 offer community editions alongside paid ones. Only Ant Media Server prints concrete instance prices. Wowza, Flussonic, Unified Streaming and AWS Elemental MediaLive show no prices on the pages we read, and Nimble Streamer's pricing page returned a 404 when we tried it. Three vendors advertise a trial: Ant Media (14 days), Red5 (30 days) and Wowza.",
+    "Geography is visible for a few vendors: OvenMedia Labs lists a Seoul address, SRS gives an address in North York, Ontario, and Meetecho develops Janus; the rest do not state a country in what we read. The main trade-off is control against effort. Libraries such as mediasoup and Janus give the most control and ask the most of your team. Cloud services such as MediaLive ask the least and tie you to a provider. Protocol servers like SRS and Ant Media sit between."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Start from your ingest source",
+      "text": "List what sends video: OBS or hardware encoders using RTMP or SRT, IP cameras using RTSP, browsers using WebRTC. Then check each candidate's protocol list against it. If you only push RTMP from production software, almost anything works. If you need browser-to-server WebRTC, shortlist Ant Media Server, SRS, OvenMediaEngine or MediaMTX and eliminate the rest early."
+    },
+    {
+      "title": "Decide who will run it at 2 a.m.",
+      "text": "If your team can handle clusters and alerts, an open source server like SRS keeps costs low. If nobody wants that duty, choose a vendor with support plans, such as Wowza or Red5, or a managed edition. Price the support contract next to the server license, since an open source project looks cheaper until the first outage during a tournament final."
+    },
+    {
+      "title": "Run a load rehearsal with your real encoder",
+      "text": "Install two candidates, stream from your actual setup for an hour, and add viewers until something strains. Watch CPU use, delay and recovery after a restart. Check that recording and the player work the way your site needs. Use the free trials where they exist, and record the cost per instance so you can scale the estimate."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best streaming media server in 2026?",
+      "a": "Ant Media Server is our top pick: it supports WebRTC, HLS, RTMP and SRT, ships SDKs for mobile and web, and publishes instance prices. OvenMediaEngine is better if you want a free community edition with an enterprise upgrade path. SRS is the better third choice for teams that want a free server and can operate it."
+    },
+    {
+      "q": "Is there a free open source streaming server?",
+      "a": "Yes. SRS is open source and covers RTMP, WebRTC, HLS, SRT and more. mediasoup is under the ISC License, Jitsi is open source, and OvenMediaEngine and Red5 each offer a community edition. MediaMTX is distributed through a public GitHub repository. Check the license of each project before building a product on it."
+    },
+    {
+      "q": "What is the difference between RTMP, SRT and WebRTC?",
+      "a": "RTMP is the long-standing protocol encoders use to push video to a server. SRT is a newer transport built to cope with unreliable networks. WebRTC delivers video to browsers with very low delay. Most servers on this page take RTMP or SRT in and offer HLS or WebRTC out."
+    },
+    {
+      "q": "Do I need a media server to stream to Twitch or YouTube?",
+      "a": "No, those platforms take your stream directly from OBS or other software. You need your own server when you want a custom player, restream control, private events, recordings you own or sub-second interaction that platforms do not offer. For production software that feeds the server, see our live production software ranking."
+    },
+    {
+      "q": "How much does a commercial media server cost?",
+      "a": "Few vendors print prices. Ant Media lists $0.35 per instance-hour on Flex or a regular $129 per instance per month. Red5 sells monthly or annual subscriptions without amounts in the text we captured, and Wowza offers a trial and support plans. For the rest, ask for a quote."
+    },
+    {
+      "q": "Can I run a media server in the cloud instead of on my own hardware?",
+      "a": "Yes. Ant Media Server, Wowza, SRS and others run on any cloud, and managed options exist: OvenMedia Cloud, Red5 Cloud and Wowza's Flowplayer OVP. AWS Elemental MediaLive is an AWS-only encoding service. A managed service removes operations work but adds a recurring fee."
+    },
+    {
+      "q": "Which server is best for WebRTC?",
+      "a": "For a ready server with SDKs, Ant Media Server. For a toolkit you program, mediasoup or Janus. For conferencing with a hosted option, Jitsi. MediaMTX and SRS also list WebRTC. If you only need WebRTC as a managed service rather than software, see our live streaming APIs ranking."
+    }
+  ],
+  "related": [
+    "best-live-streaming-apis-and-sdks",
+    "best-enterprise-live-streaming-platforms",
+    "best-live-production-software"
+  ],
+  "tools": [
+    {
+      "slug": "ant-media-server",
+      "name": "Ant Media Server",
+      "site": "https://antmedia.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Commercial WebRTC-first server with a published instance price",
+      "best_for": "Interactive streams on your own servers",
+      "pricing": "Flex is $0.35 per instance-hour; the monthly plan has a regular price of $129 per instance, with a 14-day free trial on Enterprise Edition.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "On-premises or any cloud; SDKs for iOS, Android, Unity, React Native, Flutter and JavaScript",
+      "features": [
+        "Real-time WebRTC streaming",
+        "Transcoding",
+        "Open APIs and SDKs",
+        "Multi protocol support",
+        "IP camera monitoring",
+        "Auto-scaling"
+      ],
+      "summary": "Ant Media Server speaks WebRTC, HLS, RTMP and SRT, ships mobile and web SDKs, and lists its instance prices openly.",
+      "verdict": "Of the servers here, Ant Media gives the clearest route from test to production. The engine supports WebRTC, CMAF, HLS, RTMP, RTSP and SRT, and can run on your own hardware or any cloud. Pricing is public: Flex at $0.35 per instance-hour, a monthly plan at a regular $129 per instance per month, and an annual regular price of $1,308, plus a 14-day Enterprise trial. SDKs for iOS, Android, Unity, React Native, Flutter and JavaScript mean a game or app team is not left to write clients from scratch.",
+      "weaknesses": "It is a commercial product, so you pay per instance even when your audience is small; the open source servers below cost nothing in licenses. Operating clusters, scaling and monitoring remain your job. The prices we quote are the vendor's regular list prices.",
+      "wrong_for": "A hobby project or a lab with no budget should start with MediaMTX or SRS, which cost nothing to license.",
+      "sources": [
+        {
+          "fact": "Ant Media Server is a real-time streaming engine supporting WebRTC, CMAF, HLS, RTMP, RTSP, SRT and more, deployed on your own infrastructure or any cloud.",
+          "url": "https://antmedia.io/"
+        },
+        {
+          "fact": "The pricing page lists Flex at $0.35 per instance-hour and a monthly plan with a regular price of $129 per instance per month.",
+          "url": "https://antmedia.io/pricing/"
+        },
+        {
+          "fact": "The pricing page offers a 14-day free trial on the Enterprise Edition and an own-license option for long-term projects.",
+          "url": "https://antmedia.io/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "ovenmediaengine",
+      "name": "OvenMediaEngine",
+      "site": "https://ovenmedia.com/ome.html",
+      "company": "OvenMedia Labs Inc.",
+      "country": "South Korea",
+      "tagline": "Low-latency server with community and enterprise editions",
+      "best_for": "Sub-second delivery with a paid upgrade path",
+      "pricing": "Not captured; the page lists a source and community edition, an Enterprise edition and OvenMedia Cloud without prices.",
+      "pricing_model": "Open source and commercial editions",
+      "free_plan": "Open source",
+      "platforms": "Self-hosted server; OME Enterprise on AWS (per vendor page)",
+      "features": [
+        "OvenMediaEngine Enterprise",
+        "OvenMedia Cloud",
+        "OvenPlayer",
+        "OvenLiveKit"
+      ],
+      "summary": "OvenMediaEngine from OvenMedia Labs ships as community software, an Enterprise edition and a managed cloud, so you can start free and buy support later.",
+      "verdict": "OvenMedia Labs, whose page gives a Seoul address and says the company was formerly AirenSoft Co., Ltd., offers OvenMediaEngine in three forms: a source and community edition, an Enterprise edition available on AWS, and OvenMedia Cloud. That ladder is what puts it second. A team can prototype with the community build, then move to commercial support or a managed service without changing servers. The product page lists no prices for any of the three, which is the main thing to ask about.",
+      "weaknesses": "No price amounts appear on the page we opened, and it does not list protocol support in the text we captured, so check the documentation for WebRTC, SRT and LL-HLS details. The community edition carries no vendor support promise.",
+      "wrong_for": "If you want published instance prices up front, Ant Media Server states them.",
+      "sources": [
+        {
+          "fact": "OvenMediaEngine is offered by OvenMedia Labs with an Enterprise edition, a source and community edition, and OvenMedia Cloud.",
+          "url": "https://ovenmedia.com/ome.html"
+        },
+        {
+          "fact": "The company address on the page is in Yeongdeungpo-gu, Seoul, South Korea.",
+          "url": "https://ovenmedia.com/ome.html"
+        },
+        {
+          "fact": "The page copyright names OvenMedia Labs Inc., formerly AirenSoft Co., Ltd.",
+          "url": "https://ovenmedia.com/ome.html"
+        }
+      ]
+    },
+    {
+      "slug": "srs",
+      "name": "SRS",
+      "site": "https://ossrs.io/",
+      "company": "OSSRS Community",
+      "country": "Canada",
+      "tagline": "Open source realtime server covering RTMP, WebRTC, HLS, SRT and DASH",
+      "best_for": "Free self-hosting across many protocols",
+      "pricing": "Free open source project; the vendor page links to its GitHub and license information.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Self-hosted or cloud via Docker and Kubernetes (per vendor page)",
+      "features": [
+        "RTMP",
+        "WebRTC",
+        "HLS",
+        "HTTP-FLV",
+        "SRT",
+        "MPEG-DASH"
+      ],
+      "summary": "SRS is an open source server for RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH, packaged for Docker and Kubernetes.",
+      "verdict": "SRS, the Simple Realtime Server, handles RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH from one open source codebase. The site describes it as cloud native, with a Docker image and Kubernetes deployment, which suits a team that already runs containers. The footer credits the OSSRS Community and gives an address in North York, Ontario, Canada. There are no license fees, so the cost is your own engineering and hosting. For a streaming platform start-up, that is a strong value position.",
+      "weaknesses": "Support comes from a community, not a contract, so you carry the operational risk. We did not open a pricing or commercial support page for paid help. Protocol breadth means more configuration decisions than a single-purpose tool.",
+      "wrong_for": "A company that wants a vendor to answer the phone should look at Wowza or Red5.",
+      "sources": [
+        {
+          "fact": "SRS (Simple Realtime Server) is a simple, high efficiency and realtime video server supporting RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH.",
+          "url": "https://ossrs.io/lts/en-us/"
+        },
+        {
+          "fact": "The site footer gives an official address in North York, Ontario, Canada, and copyright to the OSSRS Community.",
+          "url": "https://ossrs.io/lts/en-us/"
+        },
+        {
+          "fact": "The site describes SRS as cloud native, with a Docker image and Kubernetes deployment.",
+          "url": "https://ossrs.io/lts/en-us/"
+        }
+      ]
+    },
+    {
+      "slug": "wowza",
+      "name": "Wowza",
+      "site": "https://www.wowza.com",
+      "company": "Wowza Media Systems, LLC",
+      "country": "",
+      "tagline": "Long-established server software with flexible deployment",
+      "best_for": "Enterprises needing on-prem or air-gapped servers",
+      "pricing": "The pricing page offers a trial and premium support plans; no price amounts appear in the pages we opened.",
+      "pricing_model": "Quote only",
+      "free_plan": "Free trial",
+      "platforms": "On-premises, cloud, hybrid, edge and air-gapped deployments for Streaming Engine; fully managed cloud for Flowplayer OVP",
+      "features": [
+        "Streaming Engine media server",
+        "Video Intelligence Framework",
+        "Flowplayer OVP managed platform",
+        "REST API",
+        "Test players",
+        "Premium support plans"
+      ],
+      "summary": "Wowza's Streaming Engine runs in a data center, a cloud, at the edge or fully disconnected, with a REST API for automation.",
+      "verdict": "Wowza is the server in this list that most explicitly covers locked-down environments: its site says Streaming Engine can be deployed on-premises, in the cloud, at the edge or air-gapped. The product list adds a Video Intelligence Framework, a REST API and test players, and the same company sells Flowplayer OVP as a managed cloud platform. Premium support plans are on the pricing page, and the footer shows the company has operated since 2007. Choose it when a vendor contract and flexible hosting outweigh licensing cost.",
+      "weaknesses": "No price amounts appear on the pages we opened, only a trial and premium support plans, so budgeting needs a quote. It is commercial software, and the free options on this page cover similar protocols at no license cost.",
+      "wrong_for": "Developers who want WebRTC SDKs for iOS and Android out of the box should compare Ant Media Server.",
+      "sources": [
+        {
+          "fact": "Wowza describes its Streaming Engine as video streaming server software for live and on-demand video, deployable on-prem, in the cloud, at the edge or air-gapped.",
+          "url": "https://www.wowza.com"
+        },
+        {
+          "fact": "Wowza's product list includes Flowplayer OVP, described as a fully managed, cloud-based streaming platform for live and on-demand video.",
+          "url": "https://www.wowza.com"
+        },
+        {
+          "fact": "The Wowza pricing page offers a Start a Trial option and lists premium support plans.",
+          "url": "https://www.wowza.com/pricing"
+        },
+        {
+          "fact": "The Wowza site footer reads 2007-2026 Wowza Media Systems, LLC.",
+          "url": "https://www.wowza.com"
+        }
+      ]
+    },
+    {
+      "slug": "mediamtx",
+      "name": "MediaMTX",
+      "site": "https://github.com/bluenviron/mediamtx",
+      "company": "",
+      "country": "",
+      "tagline": "Single-binary media server and proxy for many protocols",
+      "best_for": "Bridging cameras and protocols quickly",
+      "pricing": "Distributed via the public GitHub repository; we opened no vendor pricing page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Distributed through its GitHub repository",
+      "features": [
+        "Media-over-QUIC",
+        "SRT",
+        "WebRTC",
+        "RTSP",
+        "RTMP",
+        "LL-HLS"
+      ],
+      "summary": "MediaMTX reads, publishes, proxies, records and plays back streams across SRT, WebRTC, RTSP, RTMP, LL-HLS and more.",
+      "verdict": "MediaMTX is a ready-to-use media server and media proxy. Its repository describes support for Media-over-QUIC, SRT, WebRTC, RTSP, RTMP, LL-HLS, MPEG-TS and RTP, with the ability to record and play back. That makes it handy as a translator: pull an RTSP camera and republish it as WebRTC, or take SRT contribution and hand out another format. It is distributed through GitHub, so evaluation costs only an afternoon. It ranks mid-table because it is a utility more than a platform.",
+      "weaknesses": "We opened the GitHub repository only, not a pricing or license page, so confirm license terms yourself. There is no vendor support or managed cloud in what we read, and scaling out to a cluster is your design work.",
+      "wrong_for": "If you need a commercial product with SDKs and support, Ant Media Server or Red5 fit better.",
+      "sources": [
+        {
+          "fact": "MediaMTX is a ready-to-use live media server and media proxy that reads, publishes, proxies, records and plays back real-time video and audio streams.",
+          "url": "https://github.com/bluenviron/mediamtx"
+        },
+        {
+          "fact": "The project supports Media-over-QUIC, SRT, WebRTC, RTSP, RTMP, LL-HLS, MPEG-TS and RTP, according to its repository description.",
+          "url": "https://github.com/bluenviron/mediamtx"
+        },
+        {
+          "fact": "The project is hosted in the public GitHub repository bluenviron/mediamtx.",
+          "url": "https://github.com/bluenviron/mediamtx"
+        }
+      ]
+    },
+    {
+      "slug": "red5",
+      "name": "Red5",
+      "site": "https://www.red5.net/",
+      "company": "",
+      "country": "",
+      "tagline": "Open-source Red5 server plus licensed Red5 Pro and cloud products",
+      "best_for": "Low-latency apps wanting a subscription vendor",
+      "pricing": "Red5 Pro offers monthly or annual subscriptions for developers, startups, SMEs and enterprises; Red5 Cloud has separate pricing. The homepage advertises a 30-day free trial.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "On-premises or cloud (per vendor page)",
+      "features": [
+        "Open-source media server",
+        "Red5 Pro",
+        "Red5 Cloud",
+        "Red5 SDKs",
+        "Truetime Solutions",
+        "MultiView"
+      ],
+      "summary": "Red5 offers an open source media server and the licensed Red5 Pro and Red5 Cloud, with a 30-day free trial advertised.",
+      "verdict": "Red5 splits its offering: an open source Red5 media server, then Red5 Pro, Red5 Cloud and SDKs as licensed products. The homepage advertises sub-250 millisecond latency and a 30-day free trial, and the Red5 Pro pricing page sells monthly or annual subscriptions for developers, startups, SMEs and enterprises. That mix lets you test on the free server, then pay for the Pro features and a hosted cloud edition when you need them. It is a reasonable pick for interactive streaming at moderate scale.",
+      "weaknesses": "Subscription amounts are not in the text we captured, so you need the pricing page. The latency figure is the vendor's own claim. Few details about protocol coverage appear on the homepage we read.",
+      "wrong_for": "Teams that insist on public per-instance rates should see Ant Media Server.",
+      "sources": [
+        {
+          "fact": "Red5 offers real-time streaming with an open-source Red5 media server and licensed products Red5 Pro, Red5 Cloud and Red5 SDKs.",
+          "url": "https://www.red5.net/"
+        },
+        {
+          "fact": "The Red5 Pro pricing page offers monthly or annual subscriptions for developers, startups, SMEs and enterprises.",
+          "url": "https://www.red5.net/pricing/"
+        },
+        {
+          "fact": "The homepage advertises a 30-day free trial and sub-250 millisecond latency.",
+          "url": "https://www.red5.net/"
+        }
+      ]
+    },
+    {
+      "slug": "nimble-streamer",
+      "name": "Nimble Streamer",
+      "site": "https://softvelum.com/nimble/",
+      "company": "",
+      "country": "",
+      "tagline": "Lightweight server from Softvelum with a premium transcoder add-on",
+      "best_for": "Efficient live and VOD delivery on small servers",
+      "pricing": "Not captured: the pricing page address returned a 404, and the homepage lists no prices.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Software server; SDI via DeckLink and AJA devices (per vendor page)",
+      "features": [
+        "SRT",
+        "RTMP",
+        "WebRTC WHIP ingest and WHEP playback",
+        "NDI",
+        "SDI",
+        "Low Latency HLS"
+      ],
+      "summary": "Nimble Streamer supports SRT, RTMP, WebRTC with WHIP ingest, NDI, SDI and Apple Low Latency HLS, with transcoding as a paid add-on.",
+      "verdict": "Softvelum describes Nimble Streamer as a light-weight, efficient media server for live and VOD, and one of the most cost-effective on the market, which is the vendor's claim. The protocol list is long: SRT, RTMP, WebRTC with WHIP ingest, NDI, SDI via DeckLink and AJA devices, and Apple Low Latency HLS. Softvelum also publishes the Larix mobile broadcasting apps. The Live Transcoder is a premium add-on, so budget separately for encoding. It works well on modest hardware.",
+      "weaknesses": "Pricing is unclear: the pricing page address we tried returned a 404 and the homepage lists no amounts. Transcoding costs extra. The interface and operations model suit administrators who are comfortable with a server console.",
+      "wrong_for": "A team wanting WebRTC SDKs for mobile apps should go to Ant Media Server.",
+      "sources": [
+        {
+          "fact": "Nimble Streamer is a light-weight, efficient software media server for live and VOD content delivery, described as one of the most cost-effective media servers on the market.",
+          "url": "https://softvelum.com/nimble/"
+        },
+        {
+          "fact": "The homepage lists live protocols including SRT, RTMP, WebRTC with WHIP ingest, NDI, SDI and Apple Low Latency HLS.",
+          "url": "https://softvelum.com/nimble/"
+        },
+        {
+          "fact": "The homepage describes the Live Transcoder as a premium add-on for decoding and encoding live streams.",
+          "url": "https://softvelum.com/nimble/"
+        }
+      ]
+    },
+    {
+      "slug": "mediasoup",
+      "name": "mediasoup",
+      "site": "https://mediasoup.org/",
+      "company": "",
+      "country": "",
+      "tagline": "WebRTC library for building your own selective forwarding server",
+      "best_for": "Developers writing custom WebRTC backends",
+      "pricing": "Free to use under the ISC License (per the license page).",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Node.js module, Rust crate, C++ client library (per vendor page)",
+      "features": [
+        "Low-level API",
+        "mediasoup-client",
+        "libmediasoupclient",
+        "Node.js module",
+        "Rust crate"
+      ],
+      "summary": "mediasoup is a library, not a ready server: it runs as a Node.js module or Rust crate under the ISC License.",
+      "verdict": "mediasoup is meant for engineers who want to build their own real-time application. It runs as a Node.js module or Rust crate for multi-party video conferencing and streaming, with a JavaScript client and a C++ client library for browsers and other devices. The license page states the ISC License, which is permissive. You get fine control over signaling and routing, and nothing you do not need. That control is why it works for custom products, but it also puts it below ready-to-run servers.",
+      "weaknesses": "It is not an out-of-the-box RTMP or HLS server, so ingesting broadcast encoders needs extra components. You write signaling, scaling and recording logic yourself. There is no commercial vendor offering in the pages we read.",
+      "wrong_for": "If you want a server you configure rather than program, choose SRS or OvenMediaEngine.",
+      "sources": [
+        {
+          "fact": "mediasoup is a library that runs as a Node.js module or Rust crate, built for multi-party video conferencing and real-time streaming apps.",
+          "url": "https://mediasoup.org/"
+        },
+        {
+          "fact": "mediasoup comes with a JavaScript client and a C++ client library for building apps in browsers and other devices.",
+          "url": "https://mediasoup.org/"
+        },
+        {
+          "fact": "The license page states the ISC License.",
+          "url": "https://mediasoup.org/license/"
+        }
+      ]
+    },
+    {
+      "slug": "janus",
+      "name": "Janus",
+      "site": "https://janus.conf.meetecho.com/",
+      "company": "Meetecho",
+      "country": "",
+      "tagline": "General-purpose WebRTC server with a plugin architecture",
+      "best_for": "WebRTC specialists wanting plugins",
+      "pricing": "Not stated on the page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Server software with plugins (per vendor page)",
+      "features": [
+        "WebRTC server",
+        "Server-side plugins",
+        "Multistream"
+      ],
+      "summary": "Janus is a WebRTC server from Meetecho whose features come from server-side plugins that browsers contact through it.",
+      "verdict": "Janus is a general-purpose WebRTC server developed by Meetecho. Functionality, such as conferencing or streaming, is delivered by plugins running on the server, and browsers talk to those plugins through it. The About page links to documentation. For a team with WebRTC knowledge that wants a modular, long-lived gateway rather than a monolith, the plugin model offers flexibility. Because we only read its landing page, we cannot rank it above servers with more published detail.",
+      "weaknesses": "Pricing, license and supported protocols are not stated on the page we read, and no commercial support option appeared. It is a WebRTC gateway, so RTMP-first workflows need other tools. Expect to do a good deal of configuration.",
+      "wrong_for": "Teams that mostly need RTMP and HLS should use Nimble Streamer or SRS.",
+      "sources": [
+        {
+          "fact": "Janus is a general-purpose WebRTC server developed by Meetecho.",
+          "url": "https://janus.conf.meetecho.com/"
+        },
+        {
+          "fact": "Janus functionality is provided by server-side plugins that browsers contact through the server.",
+          "url": "https://janus.conf.meetecho.com/"
+        },
+        {
+          "fact": "The About page links to the Janus documentation.",
+          "url": "https://janus.conf.meetecho.com/"
+        }
+      ]
+    },
+    {
+      "slug": "flussonic",
+      "name": "Flussonic",
+      "site": "https://flussonic.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Media server for IPTV, OTT and video surveillance",
+      "best_for": "IPTV and OTT operators",
+      "pricing": "Not stated on the homepage; the vendor asks visitors to contact sales.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Media server software (per vendor page)",
+      "features": [
+        "Media server",
+        "Transcoding",
+        "DVR",
+        "IPTV/OTT delivery",
+        "Video surveillance",
+        "Sapsan streaming core"
+      ],
+      "summary": "Flussonic builds streaming software around its Media Server for ingest, transcoding, DVR and delivery, aimed at IPTV, OTT and surveillance.",
+      "verdict": "Flussonic describes streaming software covering a media server, transcoding, DVR, IPTV and OTT delivery, and video surveillance, with the Media Server as the foundation for ingest, processing, recording and delivery. This is a service-provider shape rather than a game or event streamer shape. If you run a channel lineup or camera network, it is relevant. The homepage points visitors to sales rather than listing prices.",
+      "weaknesses": "No prices are shown and the page links to contact pages. The marketing leans toward IPTV and surveillance, so interactive WebRTC use cases are not its headline. Small teams will spend time translating the pitch.",
+      "wrong_for": "An indie app team building interactive streams should start with Ant Media Server instead.",
+      "sources": [
+        {
+          "fact": "Flussonic builds video streaming software for media server, transcoding, DVR, IPTV/OTT delivery and video surveillance.",
+          "url": "https://flussonic.com/"
+        },
+        {
+          "fact": "The homepage names Flussonic Media Server as the foundation product for video ingest, processing, recording and delivery.",
+          "url": "https://flussonic.com/"
+        },
+        {
+          "fact": "The homepage links to contact pages; no prices are shown.",
+          "url": "https://flussonic.com/"
+        }
+      ]
+    },
+    {
+      "slug": "aws-elemental-medialive",
+      "name": "AWS Elemental MediaLive",
+      "site": "https://aws.amazon.com/medialive/",
+      "company": "Amazon Web Services, Inc.",
+      "country": "",
+      "tagline": "Cloud live video encoding service from AWS",
+      "best_for": "Linear channels and large events on AWS",
+      "pricing": "Not captured; the page links to AWS pricing pages for MediaLive without listing prices.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "AWS cloud service (per vendor page)",
+      "features": [
+        "Live video encoding",
+        "24/7 linear channels",
+        "Live events"
+      ],
+      "summary": "AWS Elemental MediaLive encodes live video in the AWS cloud for 24/7 linear channels and live events.",
+      "verdict": "MediaLive is a live video encoding service, and AWS says it makes delivering 24/7 linear channels and live events at scale easier and more reliable. It is part of the AWS media portfolio, links to documentation and global infrastructure pages, and fits operators who already run delivery on AWS. Note the role: it encodes live streams rather than acting as a general RTMP server you configure. It suits broadcasters more than small app teams, which places it in the lower half.",
+      "weaknesses": "The page we opened does not list prices, only a link to AWS pricing pages, so cost modeling needs more reading. It is tied to AWS, and it is an encoder, so you assemble delivery and packaging from other services.",
+      "wrong_for": "If you want a server you control, not a cloud encoder, pick Wowza or SRS.",
+      "sources": [
+        {
+          "fact": "AWS Elemental MediaLive is a live video encoding service that makes delivering 24/7 linear channels and live events at scale easier and more reliable.",
+          "url": "https://aws.amazon.com/medialive/"
+        },
+        {
+          "fact": "The page links to a MediaLive pricing page under the AWS pricing hub.",
+          "url": "https://aws.amazon.com/medialive/"
+        },
+        {
+          "fact": "The page carries AWS navigation and links to AWS documentation and the AWS global infrastructure pages.",
+          "url": "https://aws.amazon.com/medialive/"
+        }
+      ]
+    },
+    {
+      "slug": "unified-streaming",
+      "name": "Unified Streaming",
+      "site": "https://www.unified-streaming.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Packaging and delivery software for live, VOD and audio",
+      "best_for": "Operators packaging streams for many devices",
+      "pricing": "Not stated on the homepage; licenses are managed through a license manager and the vendor offers a demo.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Software products for streaming (per vendor page)",
+      "features": [
+        "Live streaming",
+        "VOD dynamic packaging",
+        "Live2VOD",
+        "Virtual channels",
+        "Ad insertion",
+        "Audio streaming"
+      ],
+      "summary": "Unified Streaming sells software for live and VOD packaging, live-to-VOD and audio, with licenses issued through a license manager.",
+      "verdict": "Unified Streaming positions itself around packaging and delivery products for live streaming, VOD, live-to-VOD and audio streaming. The homepage mentions a license manager for keys, a demo booking option and just-in-time provenance with C2PA under its Trusted Media offering. This is a back-end component that sits in a broadcaster's pipeline rather than a server for a small event team. Pricing is not shown on the homepage.",
+      "weaknesses": "No prices or protocol details are stated on the page we opened, and the offer is aimed at operators with an existing pipeline. It does not replace an RTMP or WebRTC ingest server, so you need other tools around it.",
+      "wrong_for": "A first-time streamer should pick a complete server such as SRS or Ant Media Server.",
+      "sources": [
+        {
+          "fact": "Unified Streaming offers software products for live streaming, VOD packaging, live-to-VOD and audio streaming.",
+          "url": "https://www.unified-streaming.com/"
+        },
+        {
+          "fact": "The homepage links to a license manager for license keys and offers a book-a-demo contact.",
+          "url": "https://www.unified-streaming.com/"
+        },
+        {
+          "fact": "The homepage lists just-in-time provenance (C2PA) as part of its Trusted Media offering.",
+          "url": "https://www.unified-streaming.com/"
+        }
+      ]
+    },
+    {
+      "slug": "jitsi",
+      "name": "Jitsi",
+      "site": "https://jitsi.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Open source video conferencing with a hosted JaaS option",
+      "best_for": "Self-hosted meetings embedded in apps",
+      "pricing": "Free open-source software; the homepage also offers JaaS, a hosted version run by the Jitsi team.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Web and mobile; self-hosted or embedded (per vendor page)",
+      "features": [
+        "Video conferencing",
+        "Self-hosting",
+        "Embedding in apps",
+        "JaaS hosted service"
+      ],
+      "summary": "Jitsi is free video conferencing software you can host or embed, with a hosted JaaS service from its maintainers.",
+      "verdict": "Jitsi is conferencing software first: free, open source, for web and mobile, runnable on your own servers or embedded in an app. The homepage also promotes JaaS, a hosted service run by the team that builds it. It earns a place here because many teams self-host it as a WebRTC backbone for small interactive sessions, but it is not a broadcast server. It ranks last for that reason, not because it is poor at its own job.",
+      "weaknesses": "It does not advertise RTMP or HLS delivery to large audiences on the homepage we read, and no prices are listed for JaaS. Conferencing rooms scale differently from one-to-many streaming.",
+      "wrong_for": "Anyone broadcasting to a large audience should look at Ant Media Server or OvenMediaEngine.",
+      "sources": [
+        {
+          "fact": "Jitsi is free open-source video conferencing software for web and mobile that can be launched on your own servers or integrated into your app.",
+          "url": "https://jitsi.org/"
+        },
+        {
+          "fact": "The homepage promotes JaaS, a hosted service run by the team that builds Jitsi.",
+          "url": "https://jitsi.org/"
+        },
+        {
+          "fact": "The homepage is powered by Jitsi and links to an About page.",
+          "url": "https://jitsi.org/"
+        }
+      ]
+    }
+  ]
+}

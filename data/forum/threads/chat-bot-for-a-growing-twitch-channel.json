@@ -1,0 +1,26 @@
+{
+  "id": "chat-bot-for-a-growing-twitch-channel",
+  "board": "livestreaming",
+  "title": "Which chat bot setup works for a growing Twitch channel?",
+  "created": "2026-11-18T10:17:00Z",
+  "pinned": false,
+  "body": [
+    "As a channel grows, chat moves faster than a streamer or one moderator can handle. Do you run a hosted bot, a platform-integrated one or something self-hosted, and what rules do you automate?",
+    "The [Nightbot documentation](https://docs.nightbot.tv) describes a chat bot for Twitch, YouTube and SOOP that automates live chat moderation, with sections on commands, variables, spam protection and a Discord integration. The [StreamElements homepage](https://streamelements.com/) lists overlays, tipping, chatbot, alerts and merchandise among its features.",
+    "Share your moderation approach (strict filters, human moderators or both), which commands you actually use and what you stopped automating because viewers disliked it."
+  ],
+  "related": [
+    {
+      "title": "Best Twitch Chat Bots in 2026",
+      "url": "/software/best-twitch-chat-bots"
+    },
+    {
+      "title": "Nightbot Alternatives in 2026",
+      "url": "/alternatives/nightbot"
+    },
+    {
+      "title": "StreamElements vs Streamlabs Desktop: Which Fits Your Team in 2026?",
+      "url": "/compare/streamelements-vs-streamlabs-desktop"
+    }
+  ]
+}

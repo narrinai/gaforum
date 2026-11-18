@@ -1,0 +1,542 @@
+{
+  "slug": "best-playtesting-platforms",
+  "name": "playtesting platforms",
+  "title": "Best Playtesting Platforms in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Services and free tools for putting a game build in front of remote testers, from player-panel research to simple build delivery.",
+  "definition": "Playtesting platforms let a studio get real players to try an unfinished game and report what happened. Some recruit testers and record sessions for analysis, some only deliver builds through a store or beta channel, and general research tools run moderated or unmoderated sessions that a team can adapt to games.",
+  "intro": "Showing a build to friends tells you little. Strangers get stuck in places you never expected, and a remote session can show it without a lab. This ranking covers twelve tools that help a studio run those sessions, from a platform built for player research to free delivery channels and general usability services. We read each vendor homepage and pricing page, compared formats, platforms and published prices, and weighed fit for an indie or mid-size studio. We did not run the tools. Two crowdtesting vendors, Applause and Testlio, do not describe playtesting on the pages we opened, and the entries say so. Order reflects how directly each tool supports watching players.",
+  "criteria": [
+    {
+      "heading": "Who finds the players",
+      "text": "Some services supply testers and some assume you already have them. PlaytestCloud runs a player panel, Userlytics and dscout offer panels or your own participants, Steam Playtest opens a build to Steam users, and Firebase and TestFlight only deliver builds to people you invite. Recruitment decides how soon a first session can happen, so it carried the most weight."
+    },
+    {
+      "heading": "What you can observe",
+      "text": "Seeing a player struggle beats reading a survey. PlaytestCloud lists video, audio and touch recording with transcripts, Lookback offers moderated and unmoderated sessions, and Hotjar replays website visits. Delivery tools offer crash data or annotated screenshots at best. We ranked tools higher when their pages describe recording or live observation of play."
+    },
+    {
+      "heading": "Platforms the build can reach",
+      "text": "A platform that cannot run your build is useless. Steam Playtest serves Steam, TestFlight serves Apple devices, Firebase serves iOS and Android, PlaytestCloud lists PC through browser and Steam plus Android and iOS, and console is not listed anywhere we looked. Check this first, because a tool that cannot install your build cannot test it."
+    },
+    {
+      "heading": "Cost and commitment",
+      "text": "Budgets for playtests are small. Steam Playtest and Firebase App Distribution are free, Lookback publishes yearly plans from $299, and PlaytestCloud offers a two-player trial. UserTesting, dscout, Applause and Testlio sell through quotes or demos. Cost visibility mattered, since a studio cannot plan a test round without a price."
+    }
+  ],
+  "market_notes": [
+    "Counting the twelve entries, two are free to use (Steam Playtest, Firebase App Distribution), and itch.io is free for visitors. Only Lookback publishes plan prices in dollars on the pages we opened. Four vendors, UserTesting, dscout, Applause and Testlio, sell by quote or demo, and Userlytics lists plan names without figures. Only PlaytestCloud and Steam Playtest present themselves around games; the rest are general research or testing tools.",
+    "The trade-off is depth against price. A free channel such as Steam Playtest or Firebase gets builds to people but leaves the observing to you. A panel service such as PlaytestCloud adds recruitment and recordings at a cost the vendor does not publish. General research platforms are flexible and often well documented, yet they assume websites and apps, so game footage, controllers and long sessions may need workarounds. Many studios combine a free delivery channel with a paid round of observed sessions before launch."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Name the question you need answered",
+      "text": "Decide whether you want to know if players understand the tutorial, if the loop is fun after an hour, or if the build crashes. Comprehension and fun call for observed sessions, so shortlist PlaytestCloud, Lookback or Userlytics. Crashes and install problems call for delivery tools such as TestFlight or Firebase, which are cheaper."
+    },
+    {
+      "title": "Match the tool to your build platform",
+      "text": "List where the build runs: Steam, iOS, Android, browser or console. Use Steam Playtest for Steam, TestFlight for Apple, Firebase for Android and iOS, and confirm console options with a vendor because none of the pages we opened describe them. Ask each shortlisted vendor to confirm the platform in writing before paying."
+    },
+    {
+      "title": "Run a small pilot before a big order",
+      "text": "Start with PlaytestCloud's free trial of two players, a Lookback trial of 5 sessions or a Steam Playtest with limited signup. Check whether the feedback changes a decision you were unsure about. Only then buy a larger panel or a yearly plan, and keep five to eight players per round so results are readable."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best playtesting platform in 2026?",
+      "a": "PlaytestCloud is our first pick because it is built around games: it recruits players, records video, audio and touch, and offers a free trial. Steam Playtest is better for free tests on Steam, and Lookback is better when you recruit players yourself and want published prices."
+    },
+    {
+      "q": "Is Steam Playtest really free?",
+      "a": "Yes, Valve says it is completely free for customers and developers. Charging for access is prohibited, and keys cannot be sold or bundled. Valve may reject requests for more than 50,000 keys, and release state override keys are limited to 2,500 per app."
+    },
+    {
+      "q": "How many players do I need for a playtest?",
+      "a": "For observed sessions, five to eight players per round usually surface the main usability issues, and further rounds after fixes help more than one large round. PlaytestCloud's trial lets you watch two players for up to 30 minutes, which is enough to judge the format."
+    },
+    {
+      "q": "Can I playtest a console game remotely?",
+      "a": "Console playtests depend on platform holder programs and hardware, and none of the pages we opened describe console support. PlaytestCloud lists PC and mobile and says console is not explicitly listed, so ask the vendor."
+    },
+    {
+      "q": "What is the cheapest way to get feedback on a mobile build?",
+      "a": "Firebase App Distribution is a no cost tool for sending iOS and Android builds to testers, and TestFlight supports up to 10,000 external testers on Apple devices. Both deliver builds but do not recruit players or record sessions."
+    },
+    {
+      "q": "Should I use a general user testing tool for a game?",
+      "a": "It can work for menus, onboarding and store pages, since Lookback, Userlytics and dscout run moderated or unmoderated sessions. Their opened pages do not mention games, so test whether screen capture handles your build before committing to a plan."
+    },
+    {
+      "q": "What is the difference between playtesting and QA testing?",
+      "a": "Playtesting asks players whether the game is understandable and fun; QA testing looks for defects. Applause and Testlio focus on defects and device coverage, while PlaytestCloud and Steam Playtest centre on player behavior. Most studios need both before launch."
+    }
+  ],
+  "related": [
+    "best-game-qa-and-test-automation-tools",
+    "best-game-ci-cd-and-build-tools",
+    "best-game-localization-platforms",
+    "best-game-engines-for-mobile-games"
+  ],
+  "tools": [
+    {
+      "slug": "playtestcloud",
+      "name": "PlaytestCloud",
+      "site": "https://playtestcloud.com/",
+      "company": "PlaytestCloud GmbH",
+      "country": "",
+      "tagline": "Player insights platform for recruiting and analyzing playtests",
+      "best_for": "Mobile and PC studios needing real players",
+      "pricing": "No plan prices or per-tester rates are shown; a free trial lets you watch two players for up to 30 minutes, and the page mentions special pricing for small studios.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "PC (browser and Steam) and mobile on Android and iOS; console is not explicitly listed",
+      "features": [
+        "AI analysis",
+        "Video, audio and touch recording",
+        "Transcripts and surveys",
+        "Player panel",
+        "Moderated and longitudinal playtests"
+      ],
+      "summary": "Built for games: recruits a player panel, records sessions and analyzes them, with a free trial of two players.",
+      "verdict": "PlaytestCloud is the one tool here that describes itself around games. It recruits players, records video, audio and touch input, adds transcripts and surveys, and offers single-session, multi-session, longitudinal and moderated formats. The page claims results in about 48 hours and names Bethesda, Zynga, Supercell and Rovio among customers. PC (browser and Steam) and Android and iOS are covered. A trial that lets you watch two players for 30 minutes is a cheap way to judge quality before paying.",
+      "weaknesses": "No plan prices or per-tester rates are published on the page we opened, and console is not listed. The 48-hour turnaround is a vendor claim we could not verify.",
+      "wrong_for": "Console-first teams, or studios that only want to hand out builds to friends, should look at Steam Playtest or TestFlight instead.",
+      "sources": [
+        {
+          "fact": "PlaytestCloud describes itself on its home page as a Player Insights Platform.",
+          "url": "https://playtestcloud.com/"
+        },
+        {
+          "fact": "The home page offers a free trial in which you can watch two players play your game for up to 30 minutes.",
+          "url": "https://playtestcloud.com/"
+        },
+        {
+          "fact": "The home page says there is special pricing for small studios and gives no plan prices.",
+          "url": "https://playtestcloud.com/"
+        }
+      ]
+    },
+    {
+      "slug": "steam-playtest",
+      "name": "Steam Playtest",
+      "site": "https://partner.steamgames.com/doc/features/playtest",
+      "company": "Valve",
+      "country": "",
+      "tagline": "Free Steamworks feature for running a playtest on Steam",
+      "best_for": "PC games already in Steamworks",
+      "pricing": "Valve says Steam Playtest is completely free for customers and developers; charging for access is prohibited and keys may not be sold.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Steam; the page does not explicitly name PC, and mentions Steam desktop and mobile clients for notifications",
+      "features": [
+        "Limited and open signup",
+        "Steam keys for playtest access",
+        "Friend invites",
+        "Playable or not playable status",
+        "Store-page signup controls"
+      ],
+      "summary": "A no-cost way to put a build in front of real Steam users, with limited or open signup and key controls.",
+      "verdict": "Steam Playtest gives developers a free route to gather playtest data from the platform where a PC game will launch. Signup can be limited or open, keys control access, and friend invites let a player bring one to three friends if they have been friends for at least 30 days. Developers can request more than 50,000 keys, though Valve reviews that case by case, and release state override keys cap at 2,500 per app. It costs nothing, which earns second place behind a dedicated research service.",
+      "weaknesses": "It supplies testers and a delivery channel, not recordings, surveys or analysis: you must collect feedback yourself. Valve can reject large key requests, and you need a Steamworks account.",
+      "wrong_for": "Teams that want session recordings and structured feedback should use PlaytestCloud, and mobile-only games cannot use Steam at all.",
+      "sources": [
+        {
+          "fact": "The Steamworks documentation describes Steam Playtest as a free way for developers to get playtesting data for their game.",
+          "url": "https://partner.steamgames.com/doc/features/playtest"
+        },
+        {
+          "fact": "The Steamworks documentation says it is not allowed to charge customers to access Steam Playtest.",
+          "url": "https://partner.steamgames.com/doc/features/playtest"
+        },
+        {
+          "fact": "Developers can request more than 50,000 Playtest keys, but Valve reviews requests case by case and may reject them.",
+          "url": "https://partner.steamgames.com/doc/features/playtest"
+        }
+      ]
+    },
+    {
+      "slug": "lookback",
+      "name": "Lookback",
+      "site": "https://www.lookback.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Moderated and unmoderated research with published yearly plans",
+      "best_for": "Small teams running live player interviews",
+      "pricing": "Lookback lists Freelance at $299 a year, Team at $1,782 a year, Insights Hub at $4,122 a year and Enterprise on request, with a trial of 5 free sessions for 60 days.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "Moderated research",
+        "Unmoderated research",
+        "AI follow-ups",
+        "AI suggested findings",
+        "Live stakeholder view"
+      ],
+      "summary": "General research tool with clear yearly prices, usable for moderated game interviews that you recruit yourself.",
+      "verdict": "Lookback is a user research platform for interviews and usability tests, not a game tool, but its published pricing makes it easy to budget. The Freelance plan covers 10 sessions for $299 a year and includes one panel participant, Team gives 100 sessions for $1,782, and Insights Hub gives 300 for $4,122. Moderated and unmoderated sessions, AI follow-ups, suggested findings and a live view for stakeholders are listed. A studio that recruits its own players from a Discord community can run sessions on it, which earns third place.",
+      "weaknesses": "Nothing on the opened pages mentions games, game engines or built-in player recruitment beyond one panel participant on Freelance. Extra sessions cost from $29.90 each on the Freelance plan.",
+      "wrong_for": "Studios without a player community to recruit from should pick PlaytestCloud, which supplies players itself.",
+      "sources": [
+        {
+          "fact": "The Freelance plan costs $299 per year and includes 10 sessions and one panel participant.",
+          "url": "https://www.lookback.com/pricing"
+        },
+        {
+          "fact": "The Team plan costs $1,782 per year with 100 sessions, and the Insights Hub plan costs $4,122 per year with 300 sessions.",
+          "url": "https://www.lookback.com/pricing"
+        },
+        {
+          "fact": "The Enterprise plan is priced on request and the trial gives 5 sessions free for 60 days.",
+          "url": "https://www.lookback.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "testflight",
+      "name": "TestFlight",
+      "site": "https://developer.apple.com/testflight/",
+      "company": "Apple Inc",
+      "country": "",
+      "tagline": "Apple beta testing service for apps and games",
+      "best_for": "iOS and macOS game betas",
+      "pricing": "The opened page makes no statement about whether TestFlight costs money.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Apple platforms (the page body says 'across Apple platforms'; no per-OS list in TestFlight text)",
+      "features": [
+        "Tester groups",
+        "Internal testers",
+        "External testers by email or public link",
+        "Annotated screenshot feedback",
+        "Tester metrics"
+      ],
+      "summary": "Distributes builds to up to 10,000 external testers on Apple platforms, with built-in feedback.",
+      "verdict": "TestFlight lets a team invite up to 10,000 external testers by email or public link, share up to 100 builds and add up to 100 internal testers from the development team. Testers can send feedback with annotated screenshots, and the page lists tester metrics. The first build needs App Review approval before external testing begins. For an Apple release it is the standard route, but it moves builds, not research, so gameplay observations still come from your own questions.",
+      "weaknesses": "Apple platforms only, and the page does not state a price or describe recorded sessions. External testing requires an approved first build.",
+      "wrong_for": "Android and PC teams cannot use it; Firebase App Distribution or Steam Playtest serve those targets.",
+      "sources": [
+        {
+          "fact": "The TestFlight page describes it as beta testing that lets testers give feedback on apps, games and App Clips across Apple platforms before you publish.",
+          "url": "https://developer.apple.com/testflight/"
+        },
+        {
+          "fact": "The page says you can invite up to 10,000 external testers to join your beta program.",
+          "url": "https://developer.apple.com/testflight/"
+        },
+        {
+          "fact": "The page says you can share up to 100 builds and designate up to 100 development team members as internal beta testers.",
+          "url": "https://developer.apple.com/testflight/"
+        }
+      ]
+    },
+    {
+      "slug": "firebase-app-distribution",
+      "name": "Firebase App Distribution",
+      "site": "https://firebase.google.com/products/app-distribution",
+      "company": "",
+      "country": "",
+      "tagline": "No-cost Firebase tool to send pre-release builds to testers",
+      "best_for": "Android and iOS beta delivery",
+      "pricing": "The page calls App Distribution a no cost tool within the Firebase platform and mentions no usage limits.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "iOS and Android (the page does not mention Flutter or Unity)",
+      "features": [
+        "Cross-platform beta management",
+        "Multiple distribution channels",
+        "Tester groups",
+        "In-app updates",
+        "Crashlytics pairing"
+      ],
+      "summary": "Sends builds to testers on iOS and Android from the console, CI servers or an API, at no cost.",
+      "verdict": "Firebase App Distribution sends pre-release versions of an app to iOS and Android testers and manages groups, builds and channels. Builds can arrive from the Firebase console or from continuous integration servers, and the page mentions a web console, command-line tools and a public API. It can be paired with Crashlytics for crash reports. For a mobile game team that already uses Firebase, it fills the delivery gap for no fee. It ranks fifth because it delivers builds but does not recruit players or record sessions.",
+      "weaknesses": "The page does not mention Unity or Flutter, and it has no player panel, video recording or survey tool. Feedback beyond crashes must be collected elsewhere.",
+      "wrong_for": "Teams that need session videos and recruitment should look at PlaytestCloud or Userlytics.",
+      "sources": [
+        {
+          "fact": "The Firebase page describes App Distribution as a tool for sending pre-release versions of an app to testers across iOS and Android.",
+          "url": "https://firebase.google.com/products/app-distribution"
+        },
+        {
+          "fact": "The page states that App Distribution is a no cost tool within the Firebase platform.",
+          "url": "https://firebase.google.com/products/app-distribution"
+        },
+        {
+          "fact": "The page says App Distribution can be paired with Crashlytics for real-time crash reporting.",
+          "url": "https://firebase.google.com/products/app-distribution"
+        }
+      ]
+    },
+    {
+      "slug": "userlytics",
+      "name": "Userlytics",
+      "site": "https://www.userlytics.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Remote user testing with moderated and AI-moderated studies",
+      "best_for": "Teams wanting a recruited panel",
+      "pricing": "The pricing page offers pay-per-session or subscription across Project-based, Enterprise, Self-recruitment, Limitless and Custom plans; prices are not shown in the text we opened.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "AI moderation",
+        "AI study designer",
+        "Branching logic",
+        "AI video analysis",
+        "Bring your own participants"
+      ],
+      "summary": "Runs moderated, unmoderated and AI-moderated studies on apps and prototypes with a global panel.",
+      "verdict": "Userlytics runs remote studies on websites, apps and prototypes, with moderated, unmoderated and AI-moderated formats. It offers a global participant panel, specialized recruitment and a way to bring your own participants, plus AI study design, branching logic and video analysis. Pricing can be per session or by subscription. A studio could test a game prototype or companion app here, but nothing on the opened pages mentions games, so it takes sixth place as a flexible option.",
+      "weaknesses": "No game-specific features are described, and prices were not visible on the pages we opened. Recording a game on console would depend on what the testing setup supports, which the page does not say.",
+      "wrong_for": "A team that wants research tuned to games from the start should begin with PlaytestCloud.",
+      "sources": [
+        {
+          "fact": "Userlytics describes itself as an all-in-one user testing and UX research platform for websites, apps and digital experiences.",
+          "url": "https://www.userlytics.com/"
+        },
+        {
+          "fact": "The pricing page says customers can pay per session or choose a subscription.",
+          "url": "https://www.userlytics.com/user-experience-research/pricing-and-plans/"
+        },
+        {
+          "fact": "The homepage offers a Global Participant Panel, Specialized Recruitment and Bring Your Own Participants.",
+          "url": "https://www.userlytics.com/"
+        }
+      ]
+    },
+    {
+      "slug": "usertesting",
+      "name": "UserTesting",
+      "site": "https://www.usertesting.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Human insight platform sold through demos",
+      "best_for": "Large companies with research budgets",
+      "pricing": "Pricing is not published; the plans page offers Request pricing and Book a demo.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "MCP server",
+        "Advanced targeting",
+        "AI moderation",
+        "Insights hub",
+        "Figma plugin"
+      ],
+      "summary": "Enterprise research platform with targeting and AI analysis, named a Leader by Forrester, but no published price.",
+      "verdict": "UserTesting describes itself as a human insight platform. The homepage lists an MCP server, advanced targeting, AI moderation, an Insights Hub and a Figma plugin, and says Forrester names it a Leader in its Experience Research Platforms Wave. Named customers include Canva, Burberry and Panera Bread, none of them game studios. It suits a publisher researching a store or a companion app, but it is sold on quote, so a small team cannot compare cost without a demo. That puts it seventh.",
+      "weaknesses": "No prices are published, no games are mentioned on the opened pages, and a sales conversation is the only route to a quote. Smaller studios may find the scale beyond what they need.",
+      "wrong_for": "Indie teams should choose Lookback, where yearly prices are public, or Steam Playtest for a free start.",
+      "sources": [
+        {
+          "fact": "UserTesting describes itself as a Human Insight Platform for customer experience insights.",
+          "url": "https://www.usertesting.com/"
+        },
+        {
+          "fact": "The homepage lists popular features including an MCP Server, Advanced Targeting, UserTesting AI, AI Moderation and Insights Hub.",
+          "url": "https://www.usertesting.com/"
+        },
+        {
+          "fact": "The homepage says Forrester names UserTesting a Leader in the Experience Research Platforms Wave.",
+          "url": "https://www.usertesting.com/"
+        }
+      ]
+    },
+    {
+      "slug": "dscout",
+      "name": "dscout",
+      "site": "https://www.dscout.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Experience research platform with diary and field studies",
+      "best_for": "Longer diary studies with vetted participants",
+      "pricing": "Pricing is not published on the opened pricing page; the homepage offers a demo request.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Usability testing",
+        "Diary studies",
+        "Field studies",
+        "Website intercepts",
+        "AI-moderated studies"
+      ],
+      "summary": "Recruits verified participants for diary, field and interview studies, but lists no gaming focus.",
+      "verdict": "dscout recruits verified participants it calls Scouts, or lets a customer invite its own users, and runs usability, diary, field and interview studies plus media-rich surveys and AI-moderated studies. Diary methods can fit a long-running game where you want players to record experiences over weeks. The homepage also offers a page where participants can get paid to test. There is no gaming section on the opened page and prices are by demo, so it ranks eighth.",
+      "weaknesses": "No published prices, and no mention of games or game platforms on the opened pages. The vendor sells through a demo, so timelines and costs are unknown until you speak to sales.",
+      "wrong_for": "For one-off build feedback from real players, Steam Playtest costs nothing and PlaytestCloud is built for it.",
+      "sources": [
+        {
+          "fact": "dscout describes itself as an AI-powered feedback and testing platform.",
+          "url": "https://www.dscout.com/"
+        },
+        {
+          "fact": "The homepage lists methods including usability testing, website intercepts, field studies, diary studies, media-rich surveys, interviews and AI-moderated studies.",
+          "url": "https://www.dscout.com/"
+        },
+        {
+          "fact": "The pricing page does not show published prices and the homepage offers a demo request.",
+          "url": "https://www.dscout.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "hotjar",
+      "name": "Hotjar",
+      "site": "https://www.hotjar.com/",
+      "company": "Contentsquare",
+      "country": "",
+      "tagline": "Behavior analytics with session replay and surveys",
+      "best_for": "Studio websites and web games",
+      "pricing": "Hotjar offers a free sign-up and links to Contentsquare pricing, where plans range from Free to Enterprise; Hotjar-specific prices are not shown on the opened pages.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "Session replay",
+        "Heatmaps",
+        "Surveys",
+        "Funnels",
+        "Conversation intelligence"
+      ],
+      "summary": "Watches how visitors use a website or web game page, now part of Contentsquare, rather than playing a game.",
+      "verdict": "Hotjar records session replays, builds heatmaps and runs surveys on websites. It is now part of Contentsquare, which the page says joined forces with Hotjar for the midsize and SMB market. For a studio that sells through its own site, or ships a browser game, it shows where visitors drop out of a store or signup flow. It does not capture gameplay on consoles or native apps, which is why it ranks ninth for playtesting. A free plan exists, according to the Contentsquare pricing page.",
+      "weaknesses": "It watches web pages, not native gameplay, and Hotjar-specific prices are not shown on the pages we opened. The product line is now under the Contentsquare brand.",
+      "wrong_for": "Teams testing a PC or mobile game build should use PlaytestCloud or Steam Playtest instead.",
+      "sources": [
+        {
+          "fact": "Contentsquare has joined forces with Hotjar, which the page describes as the leading behavior insights platform in the midsize and SMB market.",
+          "url": "https://contentsquare.com/hotjar/?utm_campaign=exp__hj_hp_redirection"
+        },
+        {
+          "fact": "The Contentsquare pricing page describes plans from Free or Growth with Experience Analytics up to Pro or Enterprise.",
+          "url": "https://contentsquare.com/pricing/"
+        },
+        {
+          "fact": "The Hotjar page lists Session Replay, Heatmaps and Zoning, and Surveys among its platform capabilities.",
+          "url": "https://contentsquare.com/hotjar/?utm_campaign=exp__hj_hp_redirection"
+        }
+      ]
+    },
+    {
+      "slug": "itch-io",
+      "name": "itch.io",
+      "site": "https://itch.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Indie game marketplace and community",
+      "best_for": "Early community feedback on prototypes",
+      "pricing": "The homepage describes finding and sharing indie games online for free; no paid plan for players is listed on the opened page.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Browser, macOS and Linux games are browsable by tag on the homepage; the vendor offers a desktop app to install and manage games",
+      "features": [
+        "Indie game store",
+        "Game jams",
+        "Developer logs",
+        "Sales and bundles",
+        "Desktop app"
+      ],
+      "summary": "A marketplace where small teams share builds and gather community comments, with no structured research tools.",
+      "verdict": "itch.io describes itself as a simple way to find and share indie games online for free. Its navigation lists game jams, developer logs, community, and sales and bundles, and it offers a desktop app for installing games. A developer can post a prototype and read what players say. That is a lightweight way to get early reaction, but it is a marketplace, not a research platform, and the opened page describes no recruitment, recording or survey features, so it ranks tenth.",
+      "weaknesses": "No playtest-specific tools appear on the opened page: no session recording, scheduling or targeted recruitment. Feedback quality depends on who happens to visit.",
+      "wrong_for": "Teams that need structured, recorded sessions should look at PlaytestCloud or Lookback.",
+      "sources": [
+        {
+          "fact": "itch.io describes itself as a simple way to find and share indie games online for free.",
+          "url": "https://itch.io/"
+        },
+        {
+          "fact": "The homepage offers a desktop app to install and manage games.",
+          "url": "https://itch.io/"
+        },
+        {
+          "fact": "The homepage navigation lists Game jams, Developer Logs, Community, Sales and Bundles.",
+          "url": "https://itch.io/"
+        }
+      ]
+    },
+    {
+      "slug": "applause",
+      "name": "Applause",
+      "site": "https://applause.com/",
+      "company": "Applause App Quality, Inc.",
+      "country": "",
+      "tagline": "Managed software testing with crowdtesting",
+      "best_for": "Enterprise quality programs",
+      "pricing": "Applause says contracts are tailored to complexity, solution mix and scale; no free plan is stated.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Functional testing",
+        "Crowdtesting",
+        "Localization testing",
+        "Accessibility testing",
+        "Test automation"
+      ],
+      "summary": "Managed crowdtesting for enterprise software, with no playtesting product on the opened homepage.",
+      "verdict": "Applause is a managed software testing provider combining real-world testing, AI and automation for enterprise clients. Its feature list includes functional, accessibility and localization testing and crowdtesting, and the homepage names Audi, Microsoft and Cisco as clients. It can find bugs on real devices, but the opened homepage does not describe a playtesting product, so game feedback on fun or difficulty is not what it advertises. Contracts are tailored, with no public price.",
+      "weaknesses": "The homepage does not mention games or playtesting, and no price or free plan is stated. Fit for a studio is unconfirmed until you ask the vendor directly.",
+      "wrong_for": "Studios wanting player opinions rather than bug hunting should choose PlaytestCloud or Steam Playtest.",
+      "sources": [
+        {
+          "fact": "Applause App Quality, Inc. is named as the company on the Applause homepage.",
+          "url": "https://applause.com"
+        },
+        {
+          "fact": "The homepage describes Applause as a managed software testing and digital quality provider combining real-world testing, AI and automation.",
+          "url": "https://applause.com"
+        },
+        {
+          "fact": "The homepage states 'Contracts are tailored based on complexity, solution mix and the scale of your needs'.",
+          "url": "https://applause.com"
+        }
+      ]
+    },
+    {
+      "slug": "testlio",
+      "name": "Testlio",
+      "site": "https://www.testlio.com/",
+      "company": "Testlio",
+      "country": "",
+      "tagline": "Crowdsourced testing orchestrated through its LeoCore platform",
+      "best_for": "Bug-focused testing at scale",
+      "pricing": "The homepage describes a subscription fee for LeoCore and a flexible strategic consumption fund; plan prices are not stated.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Mobile apps, web, voice, conversational AI, streaming and location testing",
+      "features": [
+        "LeoCore",
+        "Manual testing",
+        "Localization testing",
+        "Accessibility testing",
+        "Crowdsourced testing"
+      ],
+      "summary": "Crowdsourced software testing coordinated by an AI-powered platform; the opened homepage does not mention playtesting.",
+      "verdict": "Testlio offers crowdsourced testing orchestrated by its AI-powered platform LeoCore, and lists manual, payment, functional, regression, accessibility and localization testing. Case-study logos include SAP, FOX and Roku. It is a quality assurance provider; we found no playtesting or game section on the opened homepage. That leaves it last on a page about playtests, though a studio looking for device coverage and bug reports might still contact it.",
+      "weaknesses": "No game or playtest material on the opened page, and plan prices are not stated. The subscription plus consumption fund model needs a sales conversation to cost.",
+      "wrong_for": "A team that needs player sentiment instead of defect reports should start with PlaytestCloud or Lookback.",
+      "sources": [
+        {
+          "fact": "Testlio describes itself as a software testing partner with a managed model and a curated community of expert testers.",
+          "url": "https://www.testlio.com/"
+        },
+        {
+          "fact": "The homepage announces LeoSuccess, an AI copilot for managing test cases, plans and issues in plain language.",
+          "url": "https://www.testlio.com/"
+        },
+        {
+          "fact": "The homepage lists AI agent testing and conversational AI testing among its technology solutions.",
+          "url": "https://www.testlio.com/"
+        }
+      ]
+    }
+  ]
+}

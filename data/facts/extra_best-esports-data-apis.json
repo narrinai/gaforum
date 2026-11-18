@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "gamescorekeeper",
+    "name": "GameScorekeeper",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://gamescorekeeper.com/",
+    "company": "GameScorekeeper",
+    "hq": "Aarhus",
+    "country": "Denmark",
+    "country_code": "DK",
+    "what_it_is": "An esports data API and white-label product provider for media, fantasy and betting clients.",
+    "platforms": "REST API; widgets; white-label websites",
+    "pricing": "Pricing is not published; data packages are sold through contact.",
+    "pricing_model": "Quote-based",
+    "free_plan": "None",
+    "key_features": [
+      "REST API",
+      "Live scores widget",
+      "Scoreboard widgets",
+      "Esports websites",
+      "Compliance solutions",
+      "Data packages"
+    ],
+    "notable": [
+      "Founded 2016 and based in Aarhus, Denmark."
+    ],
+    "facts": [
+      {
+        "fact": "GameScorekeeper says it was founded in 2016 and is headquartered in Aarhus, Denmark.",
+        "url": "https://gamescorekeeper.com/about/"
+      },
+      {
+        "fact": "The homepage cites more than 75,000 matches, 6,000 tournaments, 45,000 teams and 80,000 players tracked per year.",
+        "url": "https://gamescorekeeper.com/"
+      },
+      {
+        "fact": "The coverage page lists Counter-Strike 2, League of Legends, Dota 2, Call of Duty, Honor of Kings, Arena of Valor, Mobile Legends, Wild Rift, Rainbow Six Siege, Valorant, Overwatch and Rocket League.",
+        "url": "https://gamescorekeeper.com/coverage/"
+      },
+      {
+        "fact": "The public API documentation lists sports, competitions, stages and fixtures endpoints plus LoL champion, Dota 2 hero and CS2 map lookups.",
+        "url": "https://docs.gamescorekeeper.com/"
+      }
+    ]
+  },
+  {
+    "slug": "oddsmatrix",
+    "name": "OddsMatrix",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://oddsmatrix.com/",
+    "company": "EveryMatrix",
+    "hq": "",
+    "country": "Unknown",
+    "country_code": "",
+    "what_it_is": "A betting data feed and API from EveryMatrix covering odds, scores and settlement for sports and 20+ esports titles.",
+    "platforms": "Pull API over HTTP and push API over TCP socket",
+    "pricing": "Pricing is not published; the vendor offers a one-month free trial and agrees packaging with each client.",
+    "pricing_model": "Quote-based with free trial",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Bookmaker data feed",
+      "Market odds feed",
+      "Historical odds",
+      "Data widgets",
+      "Live esports odds",
+      "Settlement"
+    ],
+    "notable": [
+      "The site says it is powered by EveryMatrix and serves more than 40 sportsbooks."
+    ],
+    "facts": [
+      {
+        "fact": "OddsMatrix says it delivers real-time betting odds, scores and settlements for sports and esports with a one-month free trial.",
+        "url": "https://oddsmatrix.com/"
+      },
+      {
+        "fact": "The vendor says it covers 75+ sports and 20+ esports titles, including six based on traditional sports such as FIFA and NBA2k.",
+        "url": "https://oddsmatrix.com/faq/"
+      },
+      {
+        "fact": "The FAQ says clients agree on packaging, request a trial account and connect through PULL (HTTP) and PUSH (TCP socket) APIs.",
+        "url": "https://oddsmatrix.com/faq/"
+      },
+      {
+        "fact": "The about page says OddsMatrix is powered by EveryMatrix.",
+        "url": "https://oddsmatrix.com/about-us/"
+      }
+    ]
+  }
+]

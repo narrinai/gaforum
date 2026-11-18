@@ -1,0 +1,463 @@
+{
+  "slug": "best-mod-managers-for-pc-games",
+  "name": "mod managers for PC games",
+  "title": "Best Mod Managers for PC Games in 2026",
+  "group": "Gaming-adjacent",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Mod managers install, update and order mods for PC games; this ranking compares game coverage, load order handling and cost.",
+  "definition": "A mod manager is a desktop program that downloads, installs, enables and orders community modifications for a game, usually without overwriting the original files. Good ones handle load order, conflicts and updates. Some tie to one mod site, some cover hundreds of games, and some automate whole modlists.",
+  "intro": "Anyone who has hand-copied files into a game folder knows why mod managers exist: one wrong overwrite and the game no longer starts. The tools here differ in what they manage. Vortex and Mod Organizer 2 are general managers for many single-player games. r2modman and the Thunderstore manager serve a specific mod database. CurseForge, Modrinth and Prism Launcher are tied to Minecraft-style ecosystems, and Steam Workshop is built into Steam. Wabbajack installs entire modlists, and Overwolf runs the platform behind CurseForge. We read vendor pages, repositories and listings, and did not install anything for this review. Nexus Mods itself could not be opened, so it is not ranked. Position reflects game coverage, load order tools and how clearly each vendor documents its scope.",
+  "criteria": [
+    {
+      "heading": "How many games it covers",
+      "text": "Coverage separates general managers from specialists. Vortex states support for over 250 games in its README. Thunderstore claims over 110,000 mods across more than 300 games, and CurseForge shows over 620,000 mods as a vendor claim. Modrinth and Prism Launcher are Minecraft only. Steam Workshop covers Steam games that enable it. Pick the manager that matches your library, and accept that a specialist is often better inside its own game than a generalist."
+    },
+    {
+      "heading": "Load order and conflicts",
+      "text": "Mods that change the same file need an order. Vortex lists load order sorting and mod file management. Mod Organizer 2 lists profiles, load order tools, a virtual file system and conflict handling, and it installs mods without cluttering the original game files. Steam Workshop lists subscriptions with dependency-based load ordering. Look at whether the tool can keep separate profiles for different playthroughs, because that is what saves a long save file."
+    },
+    {
+      "heading": "Where mods come from",
+      "text": "A manager is only as useful as its source. Vortex belongs to the Nexus Mods family. r2modman installs from Thunderstore. Prism Launcher pulls mods and modpacks from CurseForge and Modrinth, plus Technic and FTB. Wabbajack installs curated modlists. Check that your favorite mods live on the sources a tool supports, and whether the manager can also update them without manual downloads."
+    },
+    {
+      "heading": "License and trust",
+      "text": "Open source tools let you inspect the code. Vortex and Wabbajack publish under GPL-3.0 licenses and Mod Organizer 2 is free and open source. Platforms with ads or premium tiers, such as CurseForge, add ad-free upgrades. The r2modman listing warns that third-party redistribution sites claim to be official, a reminder to download only from the project links. Modrinth and Prism Launcher both state they are not associated with Mojang or Microsoft."
+    }
+  ],
+  "market_notes": [
+    "In the ten entries, five are explicitly open source (Vortex, Mod Organizer 2, Wabbajack, Prism Launcher, and Modrinth as a platform), and only CurseForge states a free client with a paid ad-free upgrade; no entry publishes a price for its premium features. Three entries are specific to Minecraft or its loaders (Modrinth, Prism Launcher and, in part, CurseForge), two serve Thunderstore games, and Steam Workshop covers only Steam titles that opt in.",
+    "The trade-off is breadth against depth. General managers such as Vortex and Mod Organizer 2 handle many games but need you to learn load order. Specialist managers install faster and understand one ecosystem. Modlist tools such as Wabbajack trade flexibility for a reproducible setup. Platform vendors add creator payments, which changes incentives: CurseForge reports $33.5M paid to creators, Modrinth lets creators earn ad revenue, and Overwolf mentions a $50M creator fund. Company details are often missing; most pages named no country."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Name your game and its mod source",
+      "text": "Open the game's most popular mod page and note where the mods are hosted. If it is Thunderstore, start with r2modman. If it is CurseForge or Modrinth, test Prism Launcher for Minecraft. If it is a long Bethesda-style single-player game, compare Vortex and Mod Organizer 2. Choosing by source first avoids reinstalling mods when a tool does not support them."
+    },
+    {
+      "title": "Decide how much control you want",
+      "text": "Mod Organizer 2 uses a virtual file system and profiles, which suits modders who juggle setups. Vortex aims to make modding as simple as possible for new users. Wabbajack installs a whole list in one pass. If you only want a few cosmetic mods, a built-in option like Steam Workshop is enough. More control means more learning time."
+    },
+    {
+      "title": "Keep a clean backup path",
+      "text": "Before installing, back up your saves and note the version of the game. Use a separate profile or instance for each playthrough, as Mod Organizer 2 profiles and Prism Launcher instances allow. When a patch breaks a mod, you want to roll back one profile, not rebuild everything. Download tools from official project links only."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best mod manager for PC games in 2026?",
+      "a": "Vortex is the best default because it supports over 250 games, is free and open source under GPL-3.0, and includes load order sorting. Mod Organizer 2 is better for heavy modders who want profiles and a virtual file system, and r2modman is better for games that distribute mods through Thunderstore."
+    },
+    {
+      "q": "Is Vortex better than Mod Organizer 2?",
+      "a": "It depends on your goals. Vortex is designed to be simple for new users and covers many games, while Mod Organizer 2 offers profiles, a virtual file system and conflict handling for people who juggle many mods. Mod Organizer 2 lists Windows only; Vortex's README did not list platforms in the text we read."
+    },
+    {
+      "q": "Which mod manager works for Lethal Company or Valheim?",
+      "a": "Thunderstore lists Lethal Company, Valheim and Risk of Rain 2 as game communities and offers the Thunderstore Mod Manager for Windows. r2modman is a mod manager for many Thunderstore games. Both read from the same database, so check which one your community recommends."
+    },
+    {
+      "q": "What is the best way to mod Minecraft?",
+      "a": "Prism Launcher manages multiple isolated Minecraft instances and installs mods from CurseForge and Modrinth. CurseForge and Modrinth also publish their own apps or clients. All three are separate from Mojang, and Modrinth and Prism Launcher state they are not approved by Mojang or Microsoft."
+    },
+    {
+      "q": "Are mod managers free?",
+      "a": "Most here are. Vortex, Mod Organizer 2, Wabbajack and Prism Launcher are free and open source. CurseForge's client is free, with an ad-free Premium upgrade whose price is not on the page. Modrinth, Thunderstore and Steam Workshop showed no prices in the text we read."
+    },
+    {
+      "q": "Can I use Steam Workshop instead of a mod manager?",
+      "a": "For games that support it, yes. The Workshop page describes collections, saved searches, game branch versions and subscriptions with dependency-based load ordering. It only covers Steam games that enable it, so it does not replace a manager for mods hosted elsewhere."
+    },
+    {
+      "q": "What is Wabbajack for?",
+      "a": "Wabbajack is a free, open source automated modlist installer for various games, published under GPL3. It installs a prepared list of mods in one pass, which suits people who want a known-good setup rather than choosing each mod. It is not a general browsing tool."
+    }
+  ],
+  "related": [
+    "best-ugc-and-modding-platforms",
+    "best-game-liveops-platforms",
+    "best-version-control-for-game-development",
+    "best-community-management-tools-for-game-studios"
+  ],
+  "tools": [
+    {
+      "slug": "vortex",
+      "name": "Vortex",
+      "site": "https://github.com/Nexus-Mods/Vortex",
+      "company": "",
+      "country": "",
+      "tagline": "Nexus Mods' mod manager for over 250 games",
+      "best_for": "New and returning modders",
+      "pricing": "Free and open source under GPL-3.0.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "",
+      "features": [
+        "Multi-game mod support",
+        "Load order sorting",
+        "Mod file management",
+        "Automation of mod installation tasks"
+      ],
+      "summary": "It covers over 250 games, sorts load orders and is free under GPL-3.0, which makes it the widest general-purpose pick here.",
+      "verdict": "Vortex takes first place for breadth with simplicity. The README says it is the current mod manager from Nexus Mods, designed to make modding as simple as possible for new users while keeping control for experienced ones, and that it supports over 250 games. Features include load order sorting, mod file management and automation of installation tasks. The source is published under GPL-3.0.",
+      "weaknesses": "The README did not list supported operating systems in the text we read, and it ties you closely to the Nexus ecosystem. Nexus Mods itself could not be opened for this review, so we did not verify its site terms.",
+      "wrong_for": "Avoid it if you want strict profile isolation; Mod Organizer 2 uses a virtual file system. Thunderstore games are better handled by r2modman.",
+      "sources": [
+        {
+          "fact": "Vortex is the current mod manager from Nexus Mods, designed to make modding a game as simple as possible for new users.",
+          "url": "https://raw.githubusercontent.com/Nexus-Mods/Vortex/master/README.md"
+        },
+        {
+          "fact": "The README says Vortex supports mods for over 250 different games.",
+          "url": "https://raw.githubusercontent.com/Nexus-Mods/Vortex/master/README.md"
+        },
+        {
+          "fact": "The Vortex repository is published under the GPL-3.0 license, with LICENSE.md linked from the repository page.",
+          "url": "https://github.com/Nexus-Mods/Vortex"
+        }
+      ]
+    },
+    {
+      "slug": "mod-organizer-2",
+      "name": "Mod Organizer 2",
+      "site": "https://modorganizer2.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Profile-based manager with a virtual file system",
+      "best_for": "Heavy modders with many setups",
+      "pricing": "Free and open source.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows",
+      "features": [
+        "Profiles",
+        "Load order tools",
+        "Virtual file system",
+        "Conflict handling",
+        "Plugin management",
+        "Installation guides"
+      ],
+      "summary": "Profiles, load order tools, a virtual file system and conflict handling, free and open source on Windows.",
+      "verdict": "Mod Organizer 2 sits second as the power option. The homepage calls it a free and open source mod manager for Windows with profiles, load order tools and a virtual file system, and says it installs, enables, disables and organizes mods without cluttering original game files. Installation guides and FAQs are listed, which helps newcomers.",
+      "weaknesses": "It is Windows only per the vendor, and its profile model has a steeper learning curve than a one-click app. The pages we read give no game count.",
+      "wrong_for": "Skip it if you want the fewest decisions; Vortex is simpler. Games using Thunderstore should use r2modman instead.",
+      "sources": [
+        {
+          "fact": "Mod Organizer 2 is a free and open source mod manager for Windows, with profiles, load order tools and a virtual file system.",
+          "url": "https://modorganizer2.org/"
+        },
+        {
+          "fact": "Mod Organizer 2 lets users install, enable, disable and organize mods without cluttering the original game files.",
+          "url": "https://modorganizer2.org/"
+        },
+        {
+          "fact": "The vendor site lists About Us, Terms and Conditions and Contact Us pages for the project.",
+          "url": "https://modorganizer2.org/about-us/"
+        }
+      ]
+    },
+    {
+      "slug": "r2modman",
+      "name": "r2modman",
+      "site": "https://thunderstore.io/c/riskofrain2/p/ebkr/r2modman/",
+      "company": "",
+      "country": "",
+      "tagline": "Mod manager for Thunderstore games",
+      "best_for": "Players of Thunderstore-based games",
+      "pricing": "No price is shown on the Thunderstore listing; the source is on GitHub.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Mod management for Thunderstore games",
+        "Manager app download"
+      ],
+      "summary": "A simple manager for games distributed through Thunderstore, with 10.8M downloads on its listing.",
+      "verdict": "r2modman is third because it fits a large niche well. The Thunderstore listing describes it as a simple and easy to use mod manager for many games using Thunderstore, from developer ebkr, with the project source on GitHub. The listing shows 10.8M downloads and a latest version of 3.2.21, which signals a large user base.",
+      "weaknesses": "It works for Thunderstore games only, and the listing shows no price or platform list. The page warns that third-party redistribution sites claim to be official, so downloads need care.",
+      "wrong_for": "Avoid it for Nexus or CurseForge mods; Vortex or Prism Launcher cover those. Players who want the official client can use Thunderstore's own manager.",
+      "sources": [
+        {
+          "fact": "r2modman is a simple and easy to use mod manager for many games using Thunderstore, listed under the developer ebkr.",
+          "url": "https://thunderstore.io/c/riskofrain2/p/ebkr/r2modman/"
+        },
+        {
+          "fact": "The Thunderstore listing names https://github.com/ebkr/r2modmanPlus as the project source.",
+          "url": "https://thunderstore.io/c/riskofrain2/p/ebkr/r2modman/"
+        },
+        {
+          "fact": "The listing shows 10.8M downloads and a latest version of 3.2.21.",
+          "url": "https://thunderstore.io/c/riskofrain2/p/ebkr/r2modman/"
+        }
+      ]
+    },
+    {
+      "slug": "thunderstore",
+      "name": "Thunderstore",
+      "site": "https://thunderstore.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Mod database with its own Windows manager",
+      "best_for": "Communities such as Valheim and Lethal Company",
+      "pricing": "No pricing is shown on the home page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Thunderstore Mod Manager for Windows; game communities such as Lethal Company, Valheim and Risk of Rain 2.",
+      "features": [
+        "Thunderstore Mod Manager",
+        "Communities",
+        "Modding wiki",
+        "API documentation",
+        "Manifest validator"
+      ],
+      "summary": "A mod database claiming over 110,000 mods across 300+ games, with a Windows mod manager and an API.",
+      "verdict": "Thunderstore is fourth because it is a database first and a manager second. The home page claims over 110,000 mods across 300+ games, offers the Thunderstore Mod Manager for Windows and lists communities including Lethal Company, Valheim and Risk of Rain 2. A modding wiki, API documentation and a manifest validator are also listed.",
+      "weaknesses": "The home page shows no pricing or free-plan details. Its manager is Windows only, and the mod and game counts are vendor claims.",
+      "wrong_for": "Skip it if your mods live on Nexus; Vortex fits. Players who prefer a community-built tool may favor r2modman.",
+      "sources": [
+        {
+          "fact": "Thunderstore describes itself as a mod database: 'Choose from over 110,000 mods across 300+ games.'",
+          "url": "https://thunderstore.io/"
+        },
+        {
+          "fact": "Thunderstore's home page offers the Thunderstore Mod Manager for Windows.",
+          "url": "https://thunderstore.io/"
+        },
+        {
+          "fact": "Thunderstore's home page lists game communities including Lethal Company, Valheim and Risk of Rain 2.",
+          "url": "https://thunderstore.io/"
+        }
+      ]
+    },
+    {
+      "slug": "wabbajack",
+      "name": "Wabbajack",
+      "site": "https://www.wabbajack.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Automated installer for full modlists",
+      "best_for": "Players who want a ready-made setup",
+      "pricing": "Free and open source. The repository links a GPL3 LICENSE.txt file.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "",
+      "features": [
+        "Automated modlist installation",
+        "Modlist installer for various games"
+      ],
+      "summary": "Installs an entire curated modlist automatically, free and open source under GPL3.",
+      "verdict": "Wabbajack lands fifth because it targets a particular workflow. The homepage calls it a free and open source automated modlist installer, and the repository describes an automated modlist installer for various games, licensed under GPL3. It suits players who want a known setup, not a mod-by-mod picking process.",
+      "weaknesses": "It installs lists rather than managing individual mods day to day, and the pages do not name supported games or operating systems. You depend on the list author for updates.",
+      "wrong_for": "Avoid it if you want to choose every mod; Mod Organizer 2 gives that control. Newer modders may prefer Vortex.",
+      "sources": [
+        {
+          "fact": "Wabbajack is a free and open source automated modlist installer.",
+          "url": "https://www.wabbajack.org/"
+        },
+        {
+          "fact": "The Wabbajack repository describes it as an automated modlist installer for various games.",
+          "url": "https://github.com/wabbajack-tools/wabbajack"
+        },
+        {
+          "fact": "The Wabbajack repository is licensed under GPL3, with a LICENSE.txt file linked from the repository page.",
+          "url": "https://github.com/wabbajack-tools/wabbajack"
+        }
+      ]
+    },
+    {
+      "slug": "curseforge",
+      "name": "CurseForge",
+      "site": "https://curseforge.com/",
+      "company": "Overwolf",
+      "country": "",
+      "tagline": "Mods and add-ons platform with a free client",
+      "best_for": "Minecraft and World of Warcraft players",
+      "pricing": "Free client; CurseForge Premium is an ad-free upgrade with no price on the page.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "PC, Mac and Linux for players; PC, console and mobile distribution for studios; supported games include Minecraft, World of Warcraft and The Sims 4.",
+      "features": [
+        "One-click installs",
+        "Easy mod management",
+        "Create, share and earn",
+        "Paid to creators",
+        "Multi-platform exposure"
+      ],
+      "summary": "A mod platform with a free client, one-click installs and games such as Minecraft, World of Warcraft and The Sims 4.",
+      "verdict": "CurseForge is sixth. The home page describes a mods and addons platform that makes modding easy, safe and rewarding, offers the client as a free download and lists support for Minecraft, World of Warcraft and The Sims 4 across PC, Mac and Linux. An ad-free Premium upgrade exists, though no price is shown. It is run by Overwolf.",
+      "weaknesses": "Premium pricing is not on the page, and the mod and download counts, such as 620K+ mods and 150B+ downloads, are vendor claims. Coverage centers on a set of supported games.",
+      "wrong_for": "Skip it if you want a general manager for older single-player RPGs; Vortex covers more titles. Minecraft-only players may prefer Modrinth.",
+      "sources": [
+        {
+          "fact": "CurseForge describes itself as a mods and addons platform: 'CurseForge makes modding easy, safe, and rewarding.'",
+          "url": "https://curseforge.com/"
+        },
+        {
+          "fact": "CurseForge's home page says the CurseForge Client can be downloaded for free.",
+          "url": "https://curseforge.com/"
+        },
+        {
+          "fact": "CurseForge's home page describes CurseForge Premium as an ad-free upgrade, without showing its price.",
+          "url": "https://curseforge.com/"
+        }
+      ]
+    },
+    {
+      "slug": "modrinth",
+      "name": "Modrinth",
+      "site": "https://modrinth.com/",
+      "company": "Rinth, Inc.",
+      "country": "",
+      "tagline": "Open-source Minecraft mod platform and app",
+      "best_for": "Minecraft players and creators",
+      "pricing": "Not shown on the page; it links to Modrinth+, Modrinth App and Modrinth Hosting with no prices. Creators can earn ad revenue from project pages.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Minecraft only; Fabric, Forge and NeoForge mod loaders.",
+      "features": [
+        "Modrinth App",
+        "Modrinth+",
+        "Modrinth Hosting",
+        "Modrinth API",
+        "Team management",
+        "Monetization"
+      ],
+      "summary": "An open-source platform for Minecraft content with a desktop app, Fabric, Forge and NeoForge loaders and creator revenue.",
+      "verdict": "Modrinth is seventh because it is single-game. The home page describes an open-source platform for discovering, playing and sharing Minecraft content, lists Modrinth+, Modrinth App and Modrinth Hosting, and says creators can earn ad revenue from project pages. Fabric, Forge and NeoForge loaders are named.",
+      "weaknesses": "It covers Minecraft only, and the page shows no prices for Modrinth+ or Hosting. It states it is not an official Minecraft service and is not associated with Mojang or Microsoft.",
+      "wrong_for": "Avoid it for non-Minecraft games; Vortex or r2modman fit. Players wanting multi-instance control can pair it with Prism Launcher.",
+      "sources": [
+        {
+          "fact": "Modrinth describes itself as an open-source platform built for the community to discover, play and share Minecraft content.",
+          "url": "https://modrinth.com/"
+        },
+        {
+          "fact": "Modrinth's home page lists Modrinth+, Modrinth App and Modrinth Hosting, without showing prices.",
+          "url": "https://modrinth.com/"
+        },
+        {
+          "fact": "Modrinth's home page states it is 'NOT AN OFFICIAL MINECRAFT SERVICE' and not approved by or associated with Mojang or Microsoft.",
+          "url": "https://modrinth.com/"
+        }
+      ]
+    },
+    {
+      "slug": "prism-launcher",
+      "name": "Prism Launcher",
+      "site": "https://prismlauncher.org/",
+      "company": "Prism Launcher Contributors",
+      "country": "",
+      "tagline": "Open-source Minecraft launcher with modpack support",
+      "best_for": "Minecraft players with many modpacks",
+      "pricing": "Free; the project accepts donations and publishes under open-source licenses.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "",
+      "features": [
+        "Isolated instances",
+        "One-click mod loader install (Forge, Fabric, Quilt, LiteLoader)",
+        "Modpacks from CurseForge, Modrinth, Technic, FTB",
+        "Per-mod install from CurseForge and Modrinth",
+        "Log upload to mclo.gs",
+        "Theming"
+      ],
+      "summary": "Manages multiple Minecraft instances with one-click mod loader installs and modpack imports.",
+      "verdict": "Prism Launcher is eighth because it only handles Minecraft. It describes managing multiple isolated instances, installs Forge, Fabric, Quilt and LiteLoader in one click and imports modpacks from CurseForge, Modrinth, Technic, FTB and FTB Legacy. It was forked from MultiMC over redistribution concerns, and its maintainers say they welcome forks that respect the license terms. Features also include theming and one-step log upload to mclo.gs for crash diagnosis.",
+      "weaknesses": "Minecraft only, and it states it is not affiliated with Mojang or Microsoft. The pages we read did not state a license name or operating system list. Support depends on a volunteer team.",
+      "wrong_for": "Skip it for any other game; Vortex or Mod Organizer 2 cover many titles. Players on Thunderstore games should use r2modman.",
+      "sources": [
+        {
+          "fact": "Prism Launcher is an open-source Minecraft launcher that manages multiple instances, accounts and mods.",
+          "url": "https://prismlauncher.org/"
+        },
+        {
+          "fact": "It installs mod loaders such as Forge, Fabric, Quilt and LiteLoader in one click and installs modpacks from CurseForge, Modrinth, Technic, FTB and FTB Legacy.",
+          "url": "https://prismlauncher.org/about"
+        },
+        {
+          "fact": "The project was forked from MultiMC over packaging and redistribution concerns and states it is not affiliated with Mojang or Microsoft.",
+          "url": "https://prismlauncher.org/about"
+        }
+      ]
+    },
+    {
+      "slug": "steam-workshop",
+      "name": "Steam Workshop",
+      "site": "https://steamcommunity.com/workshop",
+      "company": "",
+      "country": "",
+      "tagline": "Steam's built-in mod and content subscriptions",
+      "best_for": "Casual modders on Steam",
+      "pricing": "Not on page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Web via Steam Community; the Steam client (beta), where Workshop subscriptions are managed; mobile and Steam Deck friendly browsing.",
+      "features": [
+        "Workshop collections",
+        "Saved search queries",
+        "Game branch versions",
+        "Subscriptions with load ordering",
+        "Change notes"
+      ],
+      "summary": "Subscriptions with dependency-based load ordering, collections and saved searches, built into Steam.",
+      "verdict": "Steam Workshop is ninth because it is a feature, not a standalone manager. The page lets users submit, find, rate and download content and modifications for Steam games, and lists collections, saved search queries, game branch versions and a subscriptions list with dependency-based load ordering. It is available on the web and in the Steam client (beta).",
+      "weaknesses": "It only works for Steam games that support Workshop content, and no pricing is shown. It gives less control than a dedicated manager when mods conflict.",
+      "wrong_for": "Avoid it for mods hosted elsewhere; Vortex or Mod Organizer 2 handle those. Heavy profile use points to Mod Organizer 2.",
+      "sources": [
+        {
+          "fact": "The Steam Workshop page describes itself as the place to 'submit, find, rate, and download new content and modifications for your favorite Steam games.'",
+          "url": "https://steamcommunity.com/workshop"
+        },
+        {
+          "fact": "The Steam Workshop page lists Workshop collections, saved search queries, game branch versions and a subscriptions list with dependency-based load ordering.",
+          "url": "https://steamcommunity.com/workshop"
+        },
+        {
+          "fact": "The Steam Workshop page is available on the web via Steam Community and in the Steam client (beta).",
+          "url": "https://steamcommunity.com/workshop"
+        }
+      ]
+    },
+    {
+      "slug": "overwolf",
+      "name": "Overwolf",
+      "site": "https://overwolf.com/",
+      "company": "Overwolf",
+      "country": "",
+      "tagline": "Platform behind CurseForge and in-game apps",
+      "best_for": "Studios and creators building mods",
+      "pricing": "Not on page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Desktop apps and overlays for PC games; a cross-platform modding service for studios.",
+      "features": [
+        "App Path",
+        "Mod Path",
+        "Server Path",
+        "Website Path",
+        "Creator Fund",
+        "Appstore"
+      ],
+      "summary": "A platform for in-game apps and mod distribution, with Mod Path and a creator fund, less a player-facing manager.",
+      "verdict": "Overwolf ends the list because it serves builders more than players. The home page lists App Path, Mod Path, Server Path and Website Path, mentions a $50M creator fund and monetization tools, and reports 113M monthly active users and 1,500+ supported games as vendor claims. It also lists CurseForge API and SDK, Tebex and Nitropay.",
+      "weaknesses": "No pricing or free plan is shown, and the figures are the vendor's own. It is not a manager you use to install mods for one game.",
+      "wrong_for": "Skip it if you just want to mod your own copy; CurseForge or Vortex fit. Studios adding mod support can read about CurseForge's API.",
+      "sources": [
+        {
+          "fact": "Overwolf describes its purpose as empowering players, developers and creators to make the best games even better through in-game content.",
+          "url": "https://overwolf.com/"
+        },
+        {
+          "fact": "Overwolf's home page lists App Path, Mod Path, Server Path and Website Path among its offerings.",
+          "url": "https://overwolf.com/"
+        },
+        {
+          "fact": "Overwolf's home page mentions a $50M creator fund and monetization tools, but no pricing or free plan.",
+          "url": "https://overwolf.com/"
+        }
+      ]
+    }
+  ]
+}

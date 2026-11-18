@@ -1,0 +1,230 @@
+{
+  "slug": "perforce-helix-core",
+  "subject": "Perforce Helix Core",
+  "subject_site": "https://www.perforce.com/products/helix-core",
+  "title": "Perforce Helix Core Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Perforce Helix Core alternatives for studios that want lower version control costs: eight Git, Subversion and hosted options with published terms.",
+  "category": "best-version-control-for-game-development",
+  "intro": "Perforce Helix Core, now presented as P4, is a version control platform for code and large digital assets. Its product page says P4 is free for up to 5 users and 20 workspaces, with P4 Cloud listed at $39 per user per month for teams under 100. Past that free tier the bill grows with every artist and tester, which is the usual reason a studio starts comparing. The eight options below cover Git hosts, an open source central server and a managed Perforce host, and each is described from its own vendor page.",
+  "why_switch": [
+    "The free tier on the P4 page stops at 5 users and 20 workspaces, so a growing team crosses into per-seat pricing quickly.",
+    "P4 Cloud is listed at $39 per user per month for teams under 100, a figure a 30-person studio can multiply by hand before it signs.",
+    "Studios whose repositories are mostly code may not need a tool built around exclusive file locking and edge servers.",
+    "Some teams would rather keep Git and add an asset-friendly front end than run a separate Perforce server.",
+    "A managed host can take server upkeep off a small team even when the studio keeps the Perforce workflow."
+  ],
+  "picks": [
+    {
+      "slug": "unity-version-control",
+      "name": "Unity Version Control",
+      "site": "https://unity.com/solutions/version-control",
+      "best_for": "Studios already inside the Unity ecosystem",
+      "pricing": "A free tier with three seats and 5 GB-hour of storage; after the fourth user you pay monthly per seat.",
+      "free_plan": "Free plan",
+      "note": "Unity Version Control is the closest answer to the cost complaint, because its page leads with a free tier and a pay-as-you-go ramp rather than a quote. The page calls it engine-agnostic and says it works with Unity and Unreal. You gain a small-team price of zero and a tool built for game assets; you give up the Perforce habit of one server that your whole pipeline, from Maya to Jenkins, already points at.",
+      "sources": [
+        {
+          "fact": "The Unity Version Control page describes it as a scalable, engine-agnostic version control and source code management tool for game development studios.",
+          "url": "https://unity.com/solutions/version-control"
+        },
+        {
+          "fact": "The page states the product includes a free tier with three free seats and 5 GB-hour of storage.",
+          "url": "https://unity.com/solutions/version-control"
+        },
+        {
+          "fact": "The page says after the fourth user, customers pay monthly per seat.",
+          "url": "https://unity.com/solutions/version-control"
+        }
+      ]
+    },
+    {
+      "slug": "diversion",
+      "name": "Diversion",
+      "site": "https://diversion.dev/",
+      "best_for": "Very large repositories without annual licenses",
+      "pricing": "No plan prices on the homepage; it advertises no annual licensing traps and a free Unreal Engine integration.",
+      "free_plan": "Unknown",
+      "note": "Diversion presents itself as version control for very large repositories, with Unreal Engine, Unity and Perforce migration on the homepage. Its pitch to a cost-conscious studio is scaling up and down as a project changes instead of signing yearly. You gain a migration path and a cloud-first desktop app, CLI and API; the missing price list means you must ask what a mid-sized team actually pays before moving.",
+      "sources": [
+        {
+          "fact": "The Diversion homepage copyright notice reads '(C) 2026 Diversion Company, Inc.'.",
+          "url": "https://diversion.dev"
+        },
+        {
+          "fact": "The homepage describes Diversion as a version control and collaboration platform for very large repositories.",
+          "url": "https://diversion.dev"
+        },
+        {
+          "fact": "The homepage offers a 'Free Unreal Engine integration, officially recommended by Epic' and says 'no annual licensing traps'; no plan prices are listed.",
+          "url": "https://diversion.dev"
+        },
+        {
+          "fact": "The homepage supports Unreal Engine, Unity and Perforce migration, and offers a desktop app, IDE plugins, CLI and API.",
+          "url": "https://diversion.dev"
+        }
+      ]
+    },
+    {
+      "slug": "anchorpoint",
+      "name": "Anchorpoint",
+      "site": "https://anchorpoint.app/",
+      "best_for": "Art-heavy teams that want Git underneath",
+      "pricing": "A 14-day free trial; plan names and prices are not stated on the homepage.",
+      "free_plan": "Free trial",
+      "note": "Anchorpoint sits on Git rather than replacing it, and its homepage frames it around 3D and real-time production files. It supports Unreal Engine, Unity and Godot and can connect to GitHub, GitLab, Azure DevOps or Gitea. The company is Anchorpoint Software GmbH in Koblenz, Germany. You gain a friendlier front end for artists on a Git backend; you give up Perforce's exclusive checkout model as the default workflow.",
+      "sources": [
+        {
+          "fact": "The homepage describes Anchorpoint as a Git-based version control tool for 3D and real-time production files.",
+          "url": "https://anchorpoint.app"
+        },
+        {
+          "fact": "The homepage offers a 14-day free trial download; plan names and prices are not stated.",
+          "url": "https://anchorpoint.app"
+        },
+        {
+          "fact": "The homepage gives its footer address as Florinsmarkt 14, 56068 Koblenz, Germany.",
+          "url": "https://anchorpoint.app"
+        }
+      ]
+    },
+    {
+      "slug": "github",
+      "name": "GitHub",
+      "site": "https://github.com/",
+      "best_for": "Code-first teams that already live in GitHub",
+      "pricing": "Plan prices are not stated on the homepage; an Enterprise free trial is offered.",
+      "free_plan": "Free trial",
+      "note": "GitHub is repository hosting with code review and collaboration, and its homepage lists customers such as Duolingo and FedEx. It is a sensible move when programmers outnumber artists and the repository is mostly text. The page says nothing about large binary assets, so check that part separately. You gain the widest tooling ecosystem for code; you give up the large-file handling that made Perforce the default for art pipelines.",
+      "sources": [
+        {
+          "fact": "The homepage describes its GitHub product as repository hosting, code review and collaboration.",
+          "url": "https://github.com"
+        },
+        {
+          "fact": "The homepage offers 'Start Enterprise free trial' and links 'See plans and pricing'; plan prices are not stated.",
+          "url": "https://github.com"
+        },
+        {
+          "fact": "The homepage names Duolingo, FedEx, American Airlines, Postmates and Mercado Libre among its customers.",
+          "url": "https://github.com"
+        }
+      ]
+    },
+    {
+      "slug": "gitlab",
+      "name": "GitLab",
+      "site": "https://gitlab.com/",
+      "best_for": "Teams that want a free tier and a built-in pipeline",
+      "pricing": "Free at $0 per user per month; Premium $29 per user per month billed annually; Ultimate on request.",
+      "free_plan": "Free",
+      "note": "GitLab publishes three tiers on its pricing page, which makes budgeting simple: $0, $29 or a quote. It calls itself a DevSecOps platform, so the repository comes with planning, security and delivery tools in one application. You gain predictable per-seat numbers and a single place for builds; you give up the dedicated game-asset focus of Perforce, so large binaries need their own plan.",
+      "sources": [
+        {
+          "fact": "The pricing page lists a Free tier at $0 per user/month, Premium at $29 per user/month billed annually, and Ultimate at custom pricing.",
+          "url": "https://about.gitlab.com/pricing/"
+        },
+        {
+          "fact": "The pricing page names NVIDIA, Barclays, Lockheed Martin, Thales, Ericsson and Deutsche Telekom among its customers.",
+          "url": "https://about.gitlab.com/pricing/"
+        },
+        {
+          "fact": "The GitLab pricing page describes GitLab as an intelligent orchestration platform for DevSecOps.",
+          "url": "https://about.gitlab.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "subversion",
+      "name": "Subversion",
+      "site": "https://subversion.apache.org/",
+      "best_for": "Teams that want an open source central server",
+      "pricing": "Not stated on the opened page; Subversion is open source under the Apache License, Version 2.0.",
+      "free_plan": "Open source",
+      "note": "Apache Subversion is an open source version control system developed under the Apache Software Foundation and released under the Apache License 2.0. Its central-server model is familiar to anyone who has used Perforce, and there is no license fee to negotiate. You gain zero software cost and a long track record; you give up the vendor support, streams and proxy servers that Perforce sells around its server.",
+      "sources": [
+        {
+          "fact": "The Subversion homepage describes it as an open source version control system.",
+          "url": "https://subversion.apache.org"
+        },
+        {
+          "fact": "The page says Subversion is developed as a project of the Apache Software Foundation.",
+          "url": "https://subversion.apache.org"
+        },
+        {
+          "fact": "The footer states the Apache License, Version 2.0.",
+          "url": "https://subversion.apache.org"
+        }
+      ]
+    },
+    {
+      "slug": "bitbucket",
+      "name": "Bitbucket",
+      "site": "https://bitbucket.org",
+      "best_for": "Small Atlassian-based teams",
+      "pricing": "Free for up to 5 users; paid cloud plans at $3.65 and $8 per user per month; Server from $10 for ten users.",
+      "free_plan": "Free",
+      "note": "Bitbucket matches the headcount of Perforce's own free tier, since both stop at five users, but it is Git hosting with CI/CD, code review and Jira integration. The per-seat paid plans are published, which helps when a studio has outgrown free. It also offers a self-hosted Server edition. You gain tight Jira links; you give up native large-asset workflows.",
+      "sources": [
+        {
+          "fact": "Bitbucket's pricing page lists a free plan for up to 5 users, and paid plans at $3.65 and $8 per user per month.",
+          "url": "https://bitbucket.org/product/pricing"
+        },
+        {
+          "fact": "Bitbucket's homepage footer states copyright 2026 Atlassian.",
+          "url": "https://bitbucket.org"
+        },
+        {
+          "fact": "Bitbucket's homepage describes CI/CD, packages, cloud security, code review and Jira integrations as features.",
+          "url": "https://bitbucket.org"
+        }
+      ]
+    },
+    {
+      "slug": "assembla",
+      "name": "Assembla",
+      "site": "https://get.assembla.com/",
+      "best_for": "Studios that want Perforce, SVN or Git hosted for them",
+      "pricing": "A 14-day free trial with no credit card; the pricing page asks you to request a quote.",
+      "free_plan": "Free trial",
+      "note": "Assembla is the odd entry here because it hosts Perforce itself, along with SVN and Git, and adds project management and ticketing. Its homepage says the platform is SOC 2 certified. For a studio that likes the Perforce workflow but dislikes running servers, a managed host changes the cost question rather than the tool. You gain managed hosting; you still need to get a quote.",
+      "sources": [
+        {
+          "fact": "Assembla describes itself as a source code management platform for Perforce, SVN and Git teams, with managed hosting.",
+          "url": "https://get.assembla.com/"
+        },
+        {
+          "fact": "Assembla's homepage says the platform is SOC 2 certified and includes project management.",
+          "url": "https://get.assembla.com/"
+        },
+        {
+          "fact": "Assembla's pricing page says plans start with a 14-day free trial and no credit card, and invites users to request a quote.",
+          "url": "https://get.assembla.com/pricing/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Start with what is in the repository. If most of it is text and scripts, a Git host such as GitHub, GitLab or Bitbucket is the cheaper path. If artists check in large binaries, look at Unity Version Control, Diversion or Anchorpoint first, and ask each for a quote at your real seat count. Keep Perforce through Assembla if exclusive locking is the part your pipeline cannot lose. Whatever you choose, migrate one small project first and compare checkout time and storage bills for a month.",
+  "faqs": [
+    {
+      "q": "What is the cheapest way to leave Perforce Helix Core?",
+      "a": "Subversion is the lowest-cost option on this list because it is open source under the Apache License 2.0. Among hosted tools, GitLab and Bitbucket publish free tiers and per-seat prices. Cost is not only the license, though: moving large binary assets can mean new storage and training."
+    },
+    {
+      "q": "Does Perforce Helix Core still have a free plan?",
+      "a": "The Perforce product page says P4 is free for up to 5 users and 20 workspaces. Beyond that, P4 Cloud is listed at $39 per user per month for teams under 100. Check the vendor page for current terms before budgeting."
+    },
+    {
+      "q": "Can I keep using Perforce without running my own server?",
+      "a": "Assembla describes itself as a managed cloud host for Perforce, SVN and Git, with a 14-day trial and quote-based plans. That keeps the Perforce workflow while moving server upkeep to a vendor."
+    },
+    {
+      "q": "Which alternative suits Unreal Engine projects?",
+      "a": "Diversion offers a free Unreal Engine integration on its homepage, and Unity Version Control says it works with Unreal. Anchorpoint also lists Unreal support. Ask each vendor how it handles your repository size."
+    },
+    {
+      "q": "Is Git enough for a game with large art files?",
+      "a": "The pages opened for GitHub, GitLab and Bitbucket do not describe large-asset handling, so verify that before moving. Anchorpoint is built on Git specifically for 3D and real-time production files, which is a more direct answer for art-heavy work."
+    }
+  ]
+}

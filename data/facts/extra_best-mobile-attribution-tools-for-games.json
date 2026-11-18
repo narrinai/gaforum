@@ -1,0 +1,48 @@
+[
+ {
+  "slug": "affise",
+  "name": "Affise",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://www.affise.com/",
+  "company": "Affise",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "A partner marketing platform whose product line includes Affise Performance for affiliate and partner tracking and a mobile attribution product (Affise MMP).",
+  "platforms": "Mobile apps (mobile attribution product); affiliate tracking for web and app campaigns",
+  "pricing": "The pricing page lists Affise Performance plans from $499 per month on yearly billing ($625 monthly) with a 14-day trial; the mobile attribution product is sold through Talk to an expert and its prices are not listed in the opened text.",
+  "pricing_model": "Subscription",
+  "free_plan": "Free trial",
+  "key_features": [
+   "Mobile attribution (MMP)",
+   "Affise Performance partner tracking",
+   "Affise Reach partner marketplace",
+   "Fraud prevention",
+   "Affise Pay payouts",
+   "DataFusion"
+  ],
+  "notable": [
+   "Homepage claims 1,000+ customers",
+   "Homepage says mobile attribution is for marketers and mobile application developers"
+  ],
+  "facts": [
+   {
+    "fact": "Affise's homepage presents Affise MMP (Mobile Measurement Partner) and a Mobile Attribution product for marketers and mobile application developers.",
+    "url": "https://www.affise.com/"
+   },
+   {
+    "fact": "The homepage says Affise is trusted by 1,000+ customers worldwide.",
+    "url": "https://www.affise.com/"
+   },
+   {
+    "fact": "The pricing page lists Affise Performance plans Beginner, Core, Expand and Custom, from $499 per month on yearly billing ($625 monthly) up to $1,999 ($2,499 monthly), each with a 14-day trial.",
+    "url": "https://affise.com/pricing/"
+   },
+   {
+    "fact": "The pricing page headline covers affiliate tracking software plans and the page directs mobile attribution buyers to Talk to an expert.",
+    "url": "https://affise.com/pricing/"
+   }
+  ]
+ }
+]

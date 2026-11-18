@@ -1,0 +1,101 @@
+[
+ {
+  "slug": "gadsme",
+  "name": "Gadsme",
+  "status": "verified",
+  "site": "https://www.gadsme.com/",
+  "company": "Gadsme",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "An in-game advertising platform that renders ads as native in-world assets for mobile, PC and console games through a proprietary SDK.",
+  "platforms": "Mobile, PC and console; Unity, Unreal and C++ engines",
+  "pricing": "Not stated on the opened pages; visitors are asked to request a demo.",
+  "pricing_model": "Quote only",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Native in-world ad placements",
+   "Clickable in-game ad units",
+   "Programmatic and direct demand",
+   "Lightweight SDK",
+   "Publisher control over placements",
+   "Real-time reporting"
+  ],
+  "notable": [
+   "Founded in early 2020; the about page says co-founder Simon Spaull spent seven years at AppLovin before Gadsme"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "Gadsme describes its product as an in-game advertising platform with ads built into gameplay for mobile, PC and console.",
+    "url": "https://www.gadsme.com/"
+   },
+   {
+    "fact": "The publisher page says the SDK is compatible with Unity, Unreal and all C++ proprietary engines.",
+    "url": "https://www.gadsme.com/publishers"
+   },
+   {
+    "fact": "The publisher page says publishers typically achieve 8% to 20% ARPDAU uplift (vendor figure) and ads render as native assets with no overlays.",
+    "url": "https://www.gadsme.com/publishers"
+   },
+   {
+    "fact": "The about page says Gadsme was founded in early 2020 on 100% proprietary technology built in-house.",
+    "url": "https://www.gadsme.com/about-us"
+   },
+   {
+    "fact": "The homepage offers Request a demo and states no price.",
+    "url": "https://www.gadsme.com/"
+   }
+  ]
+ },
+ {
+  "slug": "venatus",
+  "name": "Venatus",
+  "status": "verified",
+  "site": "https://www.venatus.com/",
+  "company": "Venatus",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "A gaming and entertainment advertising company whose Prosper platform covers publisher ad management, mediation and in-game, around-the-game and away-from-the-game ad placements.",
+  "platforms": "Websites, apps and browser games (per the navigation)",
+  "pricing": "Not stated on the opened page; visitors are asked to request a demo.",
+  "pricing_model": "Quote only",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Prosper platform",
+   "Ad mediation",
+   "App and browser game monetization",
+   "In-game, around-the-game and away-from-the-game placements",
+   "Direct sales and header bidding",
+   "Consent management"
+  ],
+  "notable": [
+   "Homepage states 900+ directly sold campaigns every year (vendor figure)",
+   "Homepage says it is a Google Certified Publishing Partner"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "Venatus describes itself as a gaming and entertainment advertising growth engine and names its platform Prosper.",
+    "url": "https://www.venatus.com/"
+   },
+   {
+    "fact": "The navigation lists Ad-Mediation, App Monetization, Browser Game Monetization and ad placements In the Game, Around the Game and Away from the Game.",
+    "url": "https://www.venatus.com/"
+   },
+   {
+    "fact": "The homepage says Venatus runs 900+ directly sold campaigns every year (vendor figure).",
+    "url": "https://www.venatus.com/"
+   },
+   {
+    "fact": "The homepage says in-game campaigns are shown to be up to 63% more memorable than standard ads, a vendor claim.",
+    "url": "https://www.venatus.com/"
+   },
+   {
+    "fact": "Pricing is not stated and the homepage offers a Request demo button.",
+    "url": "https://www.venatus.com/"
+   }
+  ]
+ }
+]

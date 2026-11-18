@@ -1,0 +1,145 @@
+{
+  "slug": "amazon-ivs-vs-mux",
+  "a": "amazon-ivs",
+  "b": "mux",
+  "a_name": "Amazon IVS",
+  "b_name": "Mux",
+  "a_site": "https://aws.amazon.com/ivs/",
+  "b_site": "https://www.mux.com/",
+  "category": "best-live-streaming-apis-and-sdks",
+  "title": "Amazon IVS vs Mux: Which Fits Your Team in 2026?",
+  "description": "Amazon IVS bills live video per hour inside AWS; Mux bills per minute with a free start. Compare rates, free tiers, features and fit for live video APIs.",
+  "intro": "Amazon IVS is a hosted live-streaming service from AWS, and Mux is a video API platform from Mux, Inc. that covers live and on-demand video. Both are usage-based and both are aimed at developers who would rather not run media servers. They differ in the unit they bill (hours for IVS, minutes for Mux), in what surrounds the stream (AWS services versus a video-focused toolkit) and in how a project starts. This page compares them using the vendors' published pricing and product pages.",
+  "verdict": "Choose Amazon IVS if your backend already lives in AWS and low-latency interactive video with chat is the core need. Choose Mux if you want a video-only vendor with a flat free start, monthly plans with credits and analytics next to delivery. Neither publishes a single all-in price, so model your expected hours or minutes before deciding.",
+  "pick_a": "Pick Amazon IVS if you want the stream, chat and real-time features under one AWS account, and an hourly meter fits how your events are planned.",
+  "pick_b": "Pick Mux if you want no platform or per-seat fee to start, a minute-based meter, and a vendor whose product is video end to end including analytics.",
+  "rows": [
+    {
+      "label": "Company",
+      "a": "Amazon Web Services, Inc.",
+      "b": "Mux, Inc."
+    },
+    {
+      "label": "What it is",
+      "a": "Hosted live-streaming service for low-latency interactive video",
+      "b": "Video API platform for streaming, analytics and video workflows"
+    },
+    {
+      "label": "Pricing model",
+      "a": "Pay-as-you-go, discounts for high-volume commitments",
+      "b": "Pay as you go plus Launch and Scale plans; committed pricing via sales"
+    },
+    {
+      "label": "Billing unit",
+      "a": "Per hour of channel input and output",
+      "b": "Per minute of encoding, storage and delivery"
+    },
+    {
+      "label": "Free start",
+      "a": "First 12 months: 5 hours basic-channel input, 100 hours SD output, 20 participant hours monthly",
+      "b": "Free to start, no credit card, $20 monthly usage credit"
+    },
+    {
+      "label": "Sample rate",
+      "a": "Basic channel input $0.20 per hour; standard channel input $2.00 per hour",
+      "b": "Live 1080p Plus encoding $0.03125 per minute"
+    },
+    {
+      "label": "Paid plans",
+      "a": "No fixed plans; usage and commitments",
+      "b": "Launch $20 per month for a $100 credit; Scale $500 per month for a $1,000 credit"
+    },
+    {
+      "label": "Extra features named",
+      "a": "IVS Chat, timed-metadata polls, multiple hosts, Real-Time Streaming",
+      "b": "Mux Player, transcripts, thumbnails, Mux Robots AI workflows, Mux Data analytics"
+    },
+    {
+      "label": "New-customer offer",
+      "a": "Up to $200 AWS credits for sign-ups on or after July 15, 2025",
+      "b": "100,000 delivery minutes free each month"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "What each service is built to do",
+      "text": [
+        "AWS describes Amazon IVS as a hosted live-streaming service that delivers video worldwide with low or near-instant delay, so developers can build interactive live experiences. It sits under AWS Media Services, and the feature list on the product page includes IVS Chat, polls through timed metadata, multiple hosts and Real-Time Streaming.",
+        "Mux calls itself a video API platform for developers covering streaming, moderation, search, analytics and video transformation. Its feature list adds Mux Player, transcripts, thumbnails, Mux Robots AI workflows and Mux Data for video analytics. The framing is broader than live: on-demand video and its analytics sit in the same product."
+      ]
+    },
+    {
+      "h2": "How the meters differ",
+      "text": [
+        "IVS prices by the hour. On its pricing page, basic channel input is $0.20 per hour and standard channel input is $2.00 per hour, and North America first-tier HD output is $0.0720 per hour. Rates fall with volume commitments. A webcast schedule maps neatly onto hours, which makes budgeting for a known event calendar straightforward.",
+        "Mux prices by the minute. Live 1080p Plus encoding is $0.03125 per minute and storage is $0.003 per minute per month, and the pricing page gives 100,000 delivery minutes free each month. A per-minute meter suits products where viewing is spread across many short sessions. Convert both to the same unit before you compare, since $0.20 an hour and a per-minute rate do not line up by eye."
+      ]
+    },
+    {
+      "h2": "Starting free",
+      "text": [
+        "Both offer a free way in, with different shapes. IVS gives a monthly free usage tier during the first 12 months: 5 hours of basic-channel input, 100 hours of standard-definition output and 20 participant hours. AWS also lists up to $200 in credits for new customers who sign up on or after July 15, 2025, applicable to IVS.",
+        "Mux says it is free to start with no credit card, that Pay as you go has no platform fee and no per-seat fee, and that a $20 monthly usage credit applies. Its free offer does not expire after 12 months in the text read, but the credit and delivery allowances are the limits to watch."
+      ]
+    },
+    {
+      "h2": "Plans, credits and commitments",
+      "text": [
+        "Mux is the one with named plans. Launch is $20 per month for a $100 credit and Scale is $500 per month for a $1,000 credit, with committed pricing for large volumes quoted by sales. The plans work like prepaid usage at a discount.",
+        "IVS has no equivalent tiers on the page read. It relies on pay-as-you-go with discounts for high-volume commitments. If finance prefers a predictable monthly line, the Mux plan structure is easier to explain. If finance already buys through an AWS enterprise agreement, IVS usage lands on a bill that exists."
+      ]
+    },
+    {
+      "h2": "Where each fits in the live API landscape",
+      "text": [
+        "Both are entries in the [live streaming APIs and SDKs](/software/best-live-streaming-apis-and-sdks) category. The practical split is ecosystem. IVS earns its place when AWS is already your cloud and interactive features such as chat and multiple hosts matter. Mux earns its place when video is the product and you want the encoding, player and analytics from a single vendor.",
+        "Mux's page names customers including Patreon, Shopify, Spotify, Vercel and Robinhood. That is a vendor claim, not a benchmark, so treat it as a signal of the audience it targets rather than proof of fit."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which is cheaper for a live event?",
+      "a": "It depends on the shape of the event. IVS lists basic channel input at $0.20 per hour, and Mux lists live 1080p Plus encoding at $0.03125 per minute. Convert both to the same unit and add output or delivery for your audience size before comparing."
+    },
+    {
+      "q": "Does Amazon IVS have a free tier?",
+      "a": "Yes. The first 12 months include a monthly free usage tier of 5 hours of basic-channel input, 100 hours of SD output and 20 participant hours. AWS also lists up to $200 in credits for new customers who sign up on or after July 15, 2025."
+    },
+    {
+      "q": "Does Mux charge a platform fee?",
+      "a": "Not on Pay as you go. Mux states there is no platform fee and no per-seat fee, a $20 monthly usage credit, and no credit card needed to start. Launch and Scale are optional paid plans with larger credits."
+    },
+    {
+      "q": "Which one includes chat?",
+      "a": "Amazon IVS lists IVS Chat among its features. The Mux pages read for this comparison list a player, transcripts, thumbnails, AI workflows and analytics, but no chat product."
+    },
+    {
+      "q": "Can I mix them?",
+      "a": "Nothing on the opened pages prevents it, but neither vendor documents a joint setup there. Teams typically pick one for live ingest and delivery to avoid paying two meters for the same stream."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Amazon IVS is a hosted live-streaming service that delivers video worldwide with low or near-instant delay so developers can build interactive live experiences.",
+      "url": "https://aws.amazon.com/ivs/"
+    },
+    {
+      "fact": "IVS is pay-as-you-go, with a first-12-months free usage tier and per-hour rates such as basic channel input at $0.20 per hour.",
+      "url": "https://aws.amazon.com/ivs/pricing/"
+    },
+    {
+      "fact": "Mux is a video API platform for developers covering streaming, moderation, search, analytics and video transformation.",
+      "url": "https://www.mux.com/"
+    },
+    {
+      "fact": "Mux states it is free to start with no credit card required and that Pay as you go has no platform fee and no per-seat fee.",
+      "url": "https://www.mux.com/pricing"
+    },
+    {
+      "fact": "The Mux pricing page lists live 1080p Plus encoding at $0.03125 per minute, storage at $0.003 per minute per month, 100,000 delivery minutes free each month, and plans Launch ($20/month) and Scale ($500/month).",
+      "url": "https://www.mux.com/pricing"
+    }
+  ],
+  "published": "2026-11-18"
+}

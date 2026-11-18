@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "elgato-marketplace",
+    "name": "Elgato Marketplace",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://marketplace.elgato.com/",
+    "company": "Elgato (part of Corsair Gaming, Inc.)",
+    "hq": "",
+    "country": "Germany and California (US)",
+    "country_code": "",
+    "what_it_is": "Elgato's store for Stream Deck plugins, icons, profiles, audio effects and OBS scene collections.",
+    "platforms": "Web store; assets install to Stream Deck, Wave Link and OBS",
+    "pricing": "Mix of free and paid items; each listing sets its own price.",
+    "pricing_model": "Marketplace",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Stream Deck plugins",
+      "Icons and profiles",
+      "OBS scene collections",
+      "Marketplace Connect",
+      "Audio effects"
+    ],
+    "notable": [
+      "Visual overlays from some designers now sit under this marketplace"
+    ],
+    "facts": [
+      {
+        "fact": "The marketplace describes itself as a place to find plugins, designs and more, curated by Elgato, with items listed as Free or priced.",
+        "url": "https://marketplace.elgato.com/"
+      },
+      {
+        "fact": "For streamers it lists live designs and interactive widgets that apply directly in OBS, and OBS Scene Collections through Marketplace Connect.",
+        "url": "https://marketplace.elgato.com/"
+      },
+      {
+        "fact": "Elgato says it was founded in 1999, was acquired by Corsair Gaming, Inc. in 2018, and is based in Germany and California.",
+        "url": "https://www.elgato.com/us/en/s/about"
+      }
+    ]
+  },
+  {
+    "slug": "sammi",
+    "name": "SAMMI",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://sammi.solutions/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Free stream automation toolkit that lets Twitch and YouTube Live audiences trigger buttons, OBS actions and alerts.",
+    "platforms": "Desktop app (download page), plus SAMMI Panel on desktop and web browsers",
+    "pricing": "Described by the vendor as completely free; license details are on a separate license page.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Visual button programming",
+      "OBS WebSocket control",
+      "Twitch events and chat",
+      "YouTube Live events",
+      "SAMMI Panel"
+    ],
+    "notable": [
+      "Integrations listed for Meld Studio, Mix It Up, Elgato Stream Deck, Voicemod and Crowd Control"
+    ],
+    "facts": [
+      {
+        "fact": "The homepage calls SAMMI a completely free tool to automate your streams, with a free Core app.",
+        "url": "https://sammi.solutions/"
+      },
+      {
+        "fact": "It connects to OBS WebSocket, listens to Twitch and YouTube Live events, sends chat messages and edits channel point rewards, using visual programming.",
+        "url": "https://sammi.solutions/"
+      },
+      {
+        "fact": "The documentation lists integrations with Crowd Control, Elgato Stream Deck, Meld Studio, Mix It Up, OBS Studio, Pulsoid, Twitch, Voicemod and YouTube Live.",
+        "url": "https://sammi.solutions/docs"
+      }
+    ]
+  }
+]

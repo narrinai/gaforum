@@ -1,0 +1,250 @@
+{
+  "slug": "unreal-engine",
+  "subject": "Unreal Engine",
+  "subject_site": "https://www.unrealengine.com/",
+  "title": "Unreal Engine Alternatives in 2026",
+  "published": "2026-11-18",
+  "category": "best-3d-game-engines-for-small-studios",
+  "description": "Nine 3D-capable engines for teams that want something lighter than Unreal Engine or clearer royalty terms: Unity, Godot, Stride, O3DE, CRYENGINE and others.",
+  "intro": "Unreal Engine is a 3D game engine from Epic Games. Its own website blocked our fetch tool on 18 November 2026, so this page makes no claim about its price, royalty or feature list; check Epic's licensing pages directly. What we can offer is a comparison of nine engines whose vendors state their terms openly, aimed at teams that want a lighter editor or a royalty position they can read in one paragraph before committing to a project.",
+  "why_switch": [
+    "You want an engine whose license sits on its homepage in plain words, as Stride (MIT), Bevy (MIT or Apache 2.0) and Defold (no royalties, no runtime fee) do.",
+    "A C# codebase suits your team better, which is what Stride and Flax Engine offer.",
+    "Your game is smaller in scope and you prefer an engine that is described as lightweight or code-first.",
+    "You want full engine source under a stated royalty, as CRYENGINE publishes (5%, with the first $5K of annual revenue per project royalty-free).",
+    "You need mobile or web targets handled by an engine aimed at them, such as Cocos Creator or Defold.",
+    "You prefer foundation governance of the engine, as with O3DE or Godot."
+  ],
+  "picks": [
+    {
+      "slug": "unity",
+      "name": "Unity",
+      "site": "https://unity.com/",
+      "best_for": "Broad commercial 3D and 2D engine",
+      "pricing": "Free start or a plan, with no figures on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Unity is the nearest commercial rival to Unreal as a general-purpose engine, described on its homepage as a real-time 3D and 2D game engine for developing, deploying and growing games. It lists desktop, iOS, Android, Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro. Unity 6.6 is available and Unity 7 is announced. You gain a wide platform list; you accept pricing that is explained on a separate plans page.",
+      "sources": [
+        {
+          "fact": "Unity is described on its homepage as the world's leading game engine for developing, deploying and growing games.",
+          "url": "https://unity.com/"
+        },
+        {
+          "fact": "The homepage says you can get started for free or find a plan, and links to Plans and pricing without showing figures.",
+          "url": "https://unity.com/"
+        },
+        {
+          "fact": "The homepage lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro as platforms.",
+          "url": "https://unity.com/"
+        }
+      ]
+    },
+    {
+      "slug": "godot",
+      "name": "Godot",
+      "site": "https://godotengine.org/",
+      "best_for": "Free open-source 2D and 3D",
+      "pricing": "Free and open source, per the homepage.",
+      "free_plan": "Open source",
+      "note": "Godot is a free, open-source 2D and 3D engine hosted by the Godot Foundation, with Godot 4.7.2 listed as the latest download. Its homepage makes no pricing statement beyond calling it free and open source, which answers the royalty question in one line. It fits studios that want to read and modify the engine, and that can live with a smaller editor than a heavyweight 3D engine.",
+      "sources": [
+        {
+          "fact": "Godot is described on the vendor homepage as a free, open-source 2D and 3D game engine.",
+          "url": "https://godotengine.org/"
+        },
+        {
+          "fact": "The homepage makes no pricing statement beyond calling Godot a free, open-source game engine.",
+          "url": "https://godotengine.org/"
+        },
+        {
+          "fact": "The latest download listed on the homepage is Godot 4.7.2.",
+          "url": "https://godotengine.org/"
+        }
+      ]
+    },
+    {
+      "slug": "stride",
+      "name": "Stride",
+      "site": "https://stride3d.net/",
+      "best_for": "C# 3D engine under MIT",
+      "pricing": "Free; MIT licensed editor and runtime source.",
+      "free_plan": "Open source",
+      "note": "Stride is a free, cross-platform C# engine for 2D and 3D games and other interactive content on desktop and VR. The homepage says the editor and runtime source are MIT licensed and that the .NET Foundation supports it. Stride 4.4 (October 9, 2026) adds a Vulkan and Direct3D 12 rewrite and Native AOT support. It is a natural step for .NET developers who want source access without a royalty clause.",
+      "sources": [
+        {
+          "fact": "Stride is described on its homepage as a free and open-source cross-platform C# game engine.",
+          "url": "https://stride3d.net/"
+        },
+        {
+          "fact": "The homepage states the editor and runtime source code are MIT licensed.",
+          "url": "https://stride3d.net/"
+        },
+        {
+          "fact": "The homepage announces Stride 4.4, dated October 9, 2026, with a Vulkan and Direct3D 12 rewrite and Native AOT support.",
+          "url": "https://stride3d.net/"
+        }
+      ]
+    },
+    {
+      "slug": "flax-engine",
+      "name": "Flax Engine",
+      "site": "https://flaxengine.com/",
+      "best_for": "Source access with C++ and C#",
+      "pricing": "License name, royalty terms and prices are not stated on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Flax Engine advertises full source code and scripting in C++, C# and Visual Scripting, and presents itself as agile. The homepage links to a Licensing page but does not state a license name, royalty terms or prices, so treat the commercial terms as something to confirm. It suits teams that want an engine-and-editor package close in spirit to Unreal's source-visible approach.",
+      "sources": [
+        {
+          "fact": "Flax Engine describes itself on the homepage as 'The most agile game engine is now available' and advertises full source code.",
+          "url": "https://flaxengine.com/"
+        },
+        {
+          "fact": "The homepage lists scripting support for C++, C# and Visual Scripting.",
+          "url": "https://flaxengine.com/"
+        },
+        {
+          "fact": "The homepage links to a Licensing page; the license name and pricing are not stated in the page text.",
+          "url": "https://flaxengine.com/"
+        }
+      ]
+    },
+    {
+      "slug": "o3de",
+      "name": "O3DE",
+      "site": "https://o3de.org/",
+      "best_for": "Open-source 3D under a foundation",
+      "pricing": "No pricing stated; donations and membership promoted.",
+      "free_plan": "Open source",
+      "note": "O3DE is an open source, community-driven 3D engine supported by the Open 3D Foundation; the latest release named on its homepage is O3DE 26.05. It targets the same large-scale 3D ambitions as Unreal while being governed by a foundation. The homepage does not name the software license or any price, so read the repository terms before choosing it.",
+      "sources": [
+        {
+          "fact": "O3DE is described on its homepage as an open source, community-driven and continuously evolving 3D engine.",
+          "url": "https://o3de.org/"
+        },
+        {
+          "fact": "The homepage credits the Open 3D Foundation, with the Linux Foundation running the site's policies.",
+          "url": "https://o3de.org/"
+        },
+        {
+          "fact": "The homepage names O3DE 26.05 as the latest release, announced as now available.",
+          "url": "https://o3de.org/"
+        }
+      ]
+    },
+    {
+      "slug": "cryengine",
+      "name": "CryEngine",
+      "site": "https://cryengine.com/",
+      "best_for": "High-end visuals with full source",
+      "pricing": "Free to use; 5% royalty after the first $5K of annual revenue per project.",
+      "free_plan": "Free",
+      "note": "CRYENGINE is Crytek's game development platform with a real-time editor and full source code. The homepage says it is free to use, with a 5% royalty when you ship and the first $5K of annual revenue per project royalty-free. It names PC, Xbox, PlayStation and Oculus as platforms, and showcases Kingdom Come: Deliverance, Prey, Star Citizen and Sniper: Ghost Warrior. Its platform list is shorter than Unity's.",
+      "sources": [
+        {
+          "fact": "CRYENGINE is described on its homepage as Crytek's game development platform with a real-time editor and full source code available.",
+          "url": "https://cryengine.com/"
+        },
+        {
+          "fact": "The homepage says CRYENGINE is free to use, with a 5% royalty when you ship and the first $5K of annual revenue per project royalty-free.",
+          "url": "https://cryengine.com/"
+        },
+        {
+          "fact": "The homepage names PC, Xbox, PlayStation and Oculus as platforms.",
+          "url": "https://cryengine.com/"
+        }
+      ]
+    },
+    {
+      "slug": "defold",
+      "name": "Defold",
+      "site": "https://defold.com/",
+      "best_for": "Lightweight engine, no royalties",
+      "pricing": "Free forever; no royalties and no runtime fee.",
+      "free_plan": "Free",
+      "note": "Defold is a free, all-in-one engine for cross-platform 2D and 3D games, source available under what the homepage calls a developer-friendly license. It lists Xbox, PlayStation 5, PlayStation 4, Switch, Steam, iOS, Android and HTML5, and Xbox support comes in Defold 1.14.0, free for approved Xbox developers. Choose it for compact games where startup size and zero royalty matter more than photoreal tooling.",
+      "sources": [
+        {
+          "fact": "Defold is described on the homepage as a free, powerful, all-in-one game engine for cross-platform 2D and 3D games.",
+          "url": "https://defold.com/"
+        },
+        {
+          "fact": "The homepage states Defold is free forever, source available under a developer-friendly license, with no royalties and no runtime fee.",
+          "url": "https://defold.com/"
+        },
+        {
+          "fact": "The homepage lists targets including Xbox, PlayStation 5, PlayStation 4, Nintendo Switch, Steam, iOS, Android and HTML5.",
+          "url": "https://defold.com/"
+        }
+      ]
+    },
+    {
+      "slug": "bevy",
+      "name": "Bevy",
+      "site": "https://bevy.org/",
+      "best_for": "Rust engine, no license fees",
+      "pricing": "Free under MIT or Apache 2.0; optional donor tiers $25 to $6,000 per month.",
+      "free_plan": "Open source",
+      "note": "Bevy is a data-driven engine built in Rust, open source under MIT or Apache 2.0, with no contracts, license fees or sales cuts. Targets are Windows, macOS, Linux, Web, iOS and Android. It is a programmer's engine rather than an editor-led one, so artists and designers will miss the all-in-one workflow Unreal is known for. Best for small, code-focused teams.",
+      "sources": [
+        {
+          "fact": "Bevy is described on its homepage as 'A refreshingly simple data-driven game engine built in Rust'.",
+          "url": "https://bevy.org/"
+        },
+        {
+          "fact": "The homepage says Bevy is open source under the permissive MIT or Apache 2.0 licenses.",
+          "url": "https://bevy.org/"
+        },
+        {
+          "fact": "The homepage states there are no contracts, license fees or sales cuts, and lists optional donor tiers from $25 to $6,000 per month.",
+          "url": "https://bevy.org/"
+        }
+      ]
+    },
+    {
+      "slug": "cocos-creator",
+      "name": "Cocos Creator",
+      "site": "https://cocos.com/",
+      "best_for": "Mobile-leaning 2D and 3D creation",
+      "pricing": "No price or license statement on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Cocos Creator is a cross-platform graphics engine and real-time 3D content creation platform. Its homepage claims it hosts over 70% of game content development and lists ARM, Meta, Google and Microsoft as partners, but gives no price or license statement. It is worth a look for teams that ship lightweight games to many devices and want a 3D-capable editor without Unreal's footprint.",
+      "sources": [
+        {
+          "fact": "Cocos Creator is described on the vendor homepage as a cross-platform graphics engine and real-time 3D content creation platform.",
+          "url": "https://cocos.com/"
+        },
+        {
+          "fact": "The homepage gives no price and no product license statement; it shows a download button and a link to a store.",
+          "url": "https://cocos.com/"
+        },
+        {
+          "fact": "The homepage states it hosts over 70% of game content development and lists partners including ARM, Meta, Google and Microsoft.",
+          "url": "https://cocos.com/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Decide whether you are replacing Unreal's scope or only its weight. For similar scope and a visible royalty, look at CRYENGINE or O3DE. For a lighter engine with a license you can read in one sentence, shortlist Godot, Stride, Defold or Bevy. For commercial support and the widest platform list, price out Unity. Whatever you choose, confirm Unreal's current terms on Epic's own site, because we could not open them, and put your intended shipping platforms against each vendor's target list.",
+  "faqs": [
+    {
+      "q": "Why does this page not state Unreal Engine's price?",
+      "a": "Epic's website returned an access error to our fetch tool on 18 November 2026, so we could not read its license or pricing pages. Rather than quote a figure from memory, we describe only the engines we could verify. Check Epic's own licensing page for current terms."
+    },
+    {
+      "q": "Which engine here publishes a royalty rate?",
+      "a": "CRYENGINE states a 5% royalty when you ship, with the first $5K of annual revenue per project royalty-free. Defold, Stride, Bevy and Godot describe themselves as free, with Defold stating no royalties and no runtime fee on its homepage."
+    },
+    {
+      "q": "Is there a 3D engine here that uses C#?",
+      "a": "Stride is a C# engine for 2D and 3D games, and Flax Engine lists C++, C# and Visual Scripting. Unity is also widely associated with C#, but its homepage text we opened does not mention a language, so this page says nothing on that point."
+    },
+    {
+      "q": "Which choice has foundation governance?",
+      "a": "Godot is hosted by the Godot Foundation, Stride is supported by the .NET Foundation, and O3DE is supported by the Open 3D Foundation. Foundation backing does not replace reading each engine's license, but it tells you who stewards the project."
+    },
+    {
+      "q": "What should a small studio test first?",
+      "a": "Build a short vertical slice with your real art and your intended platform in two finalists. Measure editor responsiveness, build times and export friction, since those decide daily productivity more than a feature checklist does."
+    }
+  ]
+}

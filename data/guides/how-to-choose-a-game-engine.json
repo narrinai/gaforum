@@ -1,0 +1,187 @@
+{
+  "slug": "how-to-choose-a-game-engine",
+  "title": "How to Choose a Game Engine: A Decision Guide",
+  "description": "A practical guide to choosing a game engine: start from target platforms, team language, license terms and genre, then test with a one-week vertical slice.",
+  "kind": "Playbook",
+  "topic": "Game development",
+  "published": "2026-11-18",
+  "intro": "The right game engine is the one that exports to every platform you must ship on, uses a language your team already writes, carries license terms you have read this month, and has survived a small vertical slice of your own game. Features, community size and engine fame come after those four checks. This guide walks through them in order, using the documentation of Godot and Unity as worked examples, and points to the rankings for 2D, 3D and open source engines when you are ready to compare shortlists.",
+  "key_takeaways": [
+    "Write down your target platforms first; an engine that cannot export to one of them is out, however good it is elsewhere.",
+    "Choose by the language and workflow your team can ship in, not by the engine with the longest feature list.",
+    "Read the current license and pricing page on the day you decide, because terms change and a guide cannot track them for you.",
+    "Match the engine to the kind of game: a 2D web game, a no-code prototype and a 3D console title pull in different directions.",
+    "Build the same small vertical slice in two finalists before committing, and judge them on iteration speed and export friction."
+  ],
+  "sections": [
+    {
+      "h2": "Begin with the list of places the game must run",
+      "paras": [
+        "Platform support is the only criterion that can disqualify an engine outright, so settle it before anything else. Make a list with three columns: platforms you must launch on, platforms you would like later, and platforms you will never touch. Engines that fail the first column are removed from the shortlist.",
+        "Vendor documentation shows how different the answers are. Godot's FAQ lists Windows, macOS, Linux and BSD, Android and Web (both marked experimental) for the editor, and Windows, macOS, Linux and BSD, Android, iOS and Web for exported games, and it sends console questions to the Godot website instead of answering them in the manual. Unity's homepage names desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro as platforms. Defold lists Xbox, PlayStation 5, PlayStation 4, Nintendo Switch, Steam, Linux, Windows, macOS, iOS, Android, HTML5, Poki and Facebook on its homepage, and GameMaker lists Windows, Mac, Linux, Android, iOS, HTML5, Xbox Series X|S, PlayStation 5 and Nintendo Switch as game targets."
+      ],
+      "list": [
+        "Consoles: confirm in writing, from the vendor's own pages, how console export works, who holds the console SDK access and whether any tier or license is required.",
+        "Web: check whether your chosen scripting language works in the browser build. Godot's FAQ says C# support is currently missing on the web platform.",
+        "Mobile: check the minimum OS versions and graphics APIs of the exported player, not only the editor.",
+        "VR and AR: look for a named page in the engine's manual, not a bullet on the marketing site."
+      ],
+      "ordered": false
+    },
+    {
+      "h2": "Pick the language your team can already debug",
+      "paras": [
+        "An engine is mostly a language, an editor and a build pipeline. The language is the part your team lives in all day, so it should match skills you already have. Godot officially supports GDScript, C# and C++, and its FAQ recommends GDScript for people starting out because it is native to the engine. Stride is a C# engine, with C# 14 scripting on .NET 10 named on its homepage. Bevy is built in Rust. Phaser is a framework for HTML5 games, so it is JavaScript territory. GDevelop and similar tools are no-code, which suits designers who do not want to write scripts at all.",
+        "A useful test is to ask who will fix a crash at 11 p.m. before launch. If the answer is the one programmer who knows the engine's niche language, pick something broader or budget for a second person to learn it."
+      ]
+    },
+    {
+      "h2": "Read the license and pricing page on the day you decide",
+      "paras": [
+        "Cost structures differ more than the word \"free\" suggests, and they change over time. Godot's FAQ says the engine is available under the OSI-approved MIT license and may be used for any purpose, personal, non-profit or commercial. Bevy's site says there are no contracts, license fees or sales cuts. Defold describes itself as free with no up-front cost, licensing cost, royalties or runtime fee. GameMaker has a free plan, a Professional plan that allows commercial release and an Enterprise plan that adds console release, with no prices shown on the page we read. Unity's homepage says you can start for free or choose a plan and links to a pricing page without showing figures.",
+        "Because the figures move, do not copy a number from any guide, including this one. Open the vendor's pricing page, save a dated copy of the terms you accepted, and put a calendar reminder to read them again before each major release."
+      ],
+      "list": [
+        "What is free, and for whom? Look for revenue or team-size thresholds.",
+        "Is there a royalty, a seat fee or a per-install fee, and when does it start?",
+        "Which features, such as console export, sit behind a paid tier?",
+        "Can you keep building a shipped game if you stop paying?"
+      ]
+    },
+    {
+      "h2": "Let the genre and the dimension narrow the field",
+      "paras": [
+        "A pixel-art platformer, a browser card game and a 3D open-world shooter have almost nothing in common technically. Use the shape of your game to prune the list. For 2D, the dedicated engines (GameMaker, Defold, Phaser and Godot's 2D renderer among them) are built around sprites, tilemaps and cheap iteration. For 3D, you want to read the rendering and animation sections of the manual and run sample scenes on your lowest target hardware. For web-first and instant-play games, a JavaScript framework such as Phaser avoids shipping a large engine runtime, and Phaser's repository page lists browsers, YouTube Playables, Discord Activities, Reddit games and Twitch overlays among its targets.",
+        "If you are still undecided, the rankings of [2D game engines](/software/best-2d-game-engines), [3D game engines for small studios](/software/best-3d-game-engines-for-small-studios) and [open source game engines](/software/best-open-source-game-engines) show which verified tools fit each shape."
+      ]
+    },
+    {
+      "h2": "Check the machines your team really owns",
+      "paras": [
+        "Editor requirements are easy to overlook until a new hire opens the project on a five-year-old laptop. Godot's system requirements page lists, for the editor on a simple project, a recommended 8 GB of RAM for the native editor on desktop and 1.5 GB of storage, with Vulkan 1.2 graphics for the Forward+ and Mobile renderers and OpenGL 4.6 for the Compatibility renderer. Unity's 6.6 requirements page lists Windows 10 version 21H1 or newer, macOS Ventura 13 or newer, and Ubuntu 22.04 or 24.04 for the editor, with graphics API and driver conditions per operating system.",
+        "These are baselines for simple projects. Both vendors say real requirements depend on the project, so test your own scene on your slowest developer machine and your slowest target device."
+      ]
+    },
+    {
+      "h2": "Think about multiplayer, services and tooling now",
+      "paras": [
+        "Networking is expensive to retrofit. If you expect online play, read the multiplayer chapter of each finalist's documentation before you commit. Godot documents a high-level multiplayer API built on a modified ENet with remote procedure calls. Unity's multiplayer documentation describes two netcode frameworks, Unity Netcode with client prediction and Netcode for GameObjects, plus services for lobbies, matchmaking and relay. Third-party options exist for several engines, for example Mirror and FishNet for Unity and Colyseus for Node.js servers.",
+        "Do the same for build automation, version control and localization. The comparison pages for [game backend platforms](/software/best-game-backend-platforms) and [multiplayer networking SDKs](/software/best-multiplayer-networking-sdks) help you see what plugs into which engine. Our guide to [building a multiplayer game backend](/guides/how-to-build-a-multiplayer-game-backend) covers the server side in more depth."
+      ]
+    },
+    {
+      "h2": "Run a vertical slice in two finalists",
+      "paras": [
+        "A feature table cannot tell you how an engine feels after three days. A vertical slice can. Pick one mechanic, one level and one export target that your real game needs, and build the same thing in your top two engines.",
+        "Keep the slice small and identical so the comparison is fair."
+      ],
+      "list": [
+        "Day 1: install, create a project, get a character moving, and note every surprise.",
+        "Day 2: add one asset pipeline step you will need, such as importing animated sprites or a 3D model with a skeleton.",
+        "Day 3: add the networking or input feature that scares you most.",
+        "Day 4: export to your most awkward target platform and run it on a real device.",
+        "Day 5: write down iteration time (change, run, see result), crashes, and what you had to search the forum to solve."
+      ],
+      "ordered": true,
+      "after": [
+        "Score each engine on those notes, not on impressions. The engine that got you to a working export with fewer detours is usually the better fit for the team you have today."
+      ]
+    },
+    {
+      "h2": "Know when switching is worth it",
+      "paras": [
+        "Moving a project between engines is a rewrite of everything except art, audio and design. Switch before production starts or not at all, unless a blocking issue appears: a required platform that is not supported, a license change that breaks your business model, or an engine that has stopped receiving fixes. Watch release signals instead of rumors. Unity's homepage, for instance, announces Unity 7 as the next major version while Unity 6.6 is current, and Godot's documentation includes a release policy page. Read such pages before a big upgrade, and keep a short written exit plan: which assets are portable, which code would need rewriting and what that would cost.",
+        "If you are weighing a move away from a specific engine, the alternatives pages on this site list verified options for it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a free engine good enough for a commercial game?",
+      "a": "Often yes, but read the exact terms. Godot's FAQ states that the MIT license allows commercial use, and Bevy and Defold describe themselves as free with no royalties or license fees. Other engines have free tiers with conditions, such as GameMaker's separate plan that allows commercial release. Terms change, so confirm on the vendor's page before you sign anything."
+    },
+    {
+      "q": "Should a first-time developer start with 2D or 3D?",
+      "a": "Start with 2D unless your idea cannot exist without 3D. A 2D project has fewer moving parts (no lighting, rigging or camera work), so you reach a finished loop sooner and learn engine habits that carry over. Many engines on the rankings pages support both, so you can move to 3D later without changing tools."
+    },
+    {
+      "q": "How many engines should I test before choosing?",
+      "a": "Two finalists are usually enough. Three or more turns the evaluation into a project of its own. Use the platform, language and license checks to cut the field first, then build the same small vertical slice in the remaining two and compare the notes you took."
+    },
+    {
+      "q": "Do I need a custom engine for a multiplayer game?",
+      "a": "Rarely. Mainstream engines ship networking layers: Godot documents a high-level multiplayer API, and Unity documents two netcode frameworks. Most small teams get further with an existing layer plus a hosted backend than with custom networking code. A custom engine only pays off when your game has needs, such as extreme entity counts, that no existing engine meets."
+    },
+    {
+      "q": "What if my team disagrees about the engine?",
+      "a": "Turn the disagreement into evidence. Agree on the criteria and their weights first, then run the same vertical slice in each candidate and let the notes decide. People accept a result more readily when they helped define how it would be measured and saw the same export attempts."
+    }
+  ],
+  "related_categories": [
+    "best-2d-game-engines",
+    "best-3d-game-engines-for-small-studios",
+    "best-open-source-game-engines"
+  ],
+  "related_guides": [
+    "how-to-build-a-multiplayer-game-backend",
+    "how-to-host-a-dedicated-server-for-an-indie-game",
+    "how-to-run-a-game-playtest"
+  ],
+  "sources": [
+    {
+      "title": "Frequently asked questions",
+      "url": "https://docs.godotengine.org/en/stable/about/faq.html",
+      "publisher": "Godot Engine documentation"
+    },
+    {
+      "title": "System requirements",
+      "url": "https://docs.godotengine.org/en/stable/about/system_requirements.html",
+      "publisher": "Godot Engine documentation"
+    },
+    {
+      "title": "System requirements for Unity 6.6",
+      "url": "https://docs.unity.com/en-us/engine/6000.6/manual/get-started/install-and-upgrade/getting-started-installing-unity/system-requirements",
+      "publisher": "Unity Documentation"
+    },
+    {
+      "title": "Multiplayer",
+      "url": "https://docs.unity.com/en-us/multiplayer",
+      "publisher": "Unity Documentation"
+    },
+    {
+      "title": "High-level multiplayer",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html",
+      "publisher": "Godot Engine documentation"
+    },
+    {
+      "title": "Unity homepage",
+      "url": "https://unity.com/",
+      "publisher": "Unity"
+    },
+    {
+      "title": "Defold homepage",
+      "url": "https://defold.com/",
+      "publisher": "Defold Foundation"
+    },
+    {
+      "title": "GameMaker homepage",
+      "url": "https://gamemaker.io/",
+      "publisher": "GameMaker"
+    },
+    {
+      "title": "Bevy homepage",
+      "url": "https://bevy.org/",
+      "publisher": "Bevy"
+    },
+    {
+      "title": "Stride homepage",
+      "url": "https://stride3d.net/",
+      "publisher": "Stride"
+    },
+    {
+      "title": "Phaser repository",
+      "url": "https://github.com/phaserjs/phaser",
+      "publisher": "Phaser Studio"
+    }
+  ]
+}

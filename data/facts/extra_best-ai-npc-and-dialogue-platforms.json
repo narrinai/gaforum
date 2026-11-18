@@ -1,0 +1,184 @@
+[
+ {
+  "slug": "yarn-spinner",
+  "name": "Yarn Spinner",
+  "status": "verified",
+  "site": "https://yarnspinner.dev/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Narrative game tools for writers and programmers: a screenplay-like dialogue language, compiled and run in Unity, Godot or Unreal Engine.",
+  "platforms": "Unity, Godot (C# and GDScript), Unreal Engine; browser trial",
+  "pricing": "Free and paid versions are offered; the opened pages show no price figures.",
+  "pricing_model": "Free and paid versions",
+  "free_plan": "Free",
+  "key_features": [
+   "Screenplay-like branching dialogue language",
+   "Unity, Godot and Unreal support",
+   "Localisation and voice-over support",
+   "Version control friendly",
+   "Try it in your browser"
+  ],
+  "notable": [
+   "Games listed on the homepage include A Short Hike, NORCO, DREDGE and Night in the Woods"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "Yarn Spinner says it makes tools for planning, writing, managing and delivering a game's dialogue and narrative.",
+    "url": "https://yarnspinner.dev/"
+   },
+   {
+    "fact": "Yarn Spinner runs in Unity, Godot (C# and GDScript) and Unreal Engine, with free and paid versions.",
+    "url": "https://yarnspinner.dev/"
+   },
+   {
+    "fact": "The homepage lists drafting, feedback, version control, localisation, voice-over and porting among the problems it handles.",
+    "url": "https://yarnspinner.dev/"
+   },
+   {
+    "fact": "Games listed as made with Yarn Spinner include A Short Hike, NORCO, DREDGE and Night in the Woods.",
+    "url": "https://yarnspinner.dev/"
+   }
+  ]
+ },
+ {
+  "slug": "ink",
+  "name": "ink",
+  "status": "verified",
+  "site": "https://www.inklestudios.com/ink/",
+  "company": "inkle",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "inkle's open source narrative scripting language for branching interactive stories, with the Inky editor and a Unity plugin.",
+  "platforms": "Inky editor for Mac, Windows and Linux; Unity plugin; Unreal container (Inkpot) by The Chinese Room",
+  "pricing": "Free under the MIT license.",
+  "pricing_model": "Open source",
+  "free_plan": "Open source",
+  "key_features": [
+   "Markup-first scripting language",
+   "Inky editor with live play pane",
+   "Export to JSON and web",
+   "Unity integration",
+   "Unreal integration through Inkpot"
+  ],
+  "notable": [
+   "inkle says it has written millions of words of branching narrative in ink for its own games"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "ink is inkle's narrative scripting language for games, conceived as middleware that slots into a game engine.",
+    "url": "https://www.inklestudios.com/ink/"
+   },
+   {
+    "fact": "ink, Inky and the ink-unity integration plugin are freely available under the MIT license.",
+    "url": "https://www.inklestudios.com/ink/"
+   },
+   {
+    "fact": "Inky is an editor for Mac, Windows and Linux that plays stories as you write and exports to JSON or the web.",
+    "url": "https://www.inklestudios.com/ink/"
+   },
+   {
+    "fact": "Unreal Engine integration comes from The Chinese Room as a container called Inkpot, not from inkle.",
+    "url": "https://www.inklestudios.com/ink/"
+   }
+  ]
+ },
+ {
+  "slug": "articy-draft",
+  "name": "articy:draft X",
+  "status": "verified",
+  "site": "https://www.articy.com/en/",
+  "company": "Articy Software GmbH & Co. KG",
+  "hq": "",
+  "country": "Germany",
+  "country_code": "",
+  "what_it_is": "A narrative design tool that works as a visual database for storylines, characters, variables and dialogue, with Unity and Unreal integrations.",
+  "platforms": "Microsoft Windows and macOS",
+  "pricing": "Free version available; single-user and multi-user licenses are sold through a pricing page whose amounts were not readable in the opened text.",
+  "pricing_model": "Free version plus licenses",
+  "free_plan": "Free",
+  "key_features": [
+   "Nested flow view for branching",
+   "Characters and variables database",
+   "Localization",
+   "Unity and Unreal integrations",
+   "Version control and change history",
+   "API"
+  ],
+  "notable": [
+   "Imprint names Articy Software GmbH & Co. KG, Germany"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "articy:draft X is described as a professional narrative design tool and a visual database for storylines, characters and variables.",
+    "url": "https://www.articy.com/en/"
+   },
+   {
+    "fact": "articy:draft X is available for Microsoft Windows and macOS, and the page offers a free version.",
+    "url": "https://www.articy.com/en/"
+   },
+   {
+    "fact": "The page lists ready-made integrations for Unity and Unreal, plus localization, flexible exports and an API.",
+    "url": "https://www.articy.com/en/"
+   },
+   {
+    "fact": "The pricing options page splits offers into Multi-User and Single-User, and shows no amounts in the opened text.",
+    "url": "https://www.articy.com/shop/pricing/pricing-options/"
+   },
+   {
+    "fact": "The site footer names Articy Software GmbH & Co. KG, Germany.",
+    "url": "https://www.articy.com/shop/pricing/pricing-options/"
+   }
+  ]
+ },
+ {
+  "slug": "pixel-crushers",
+  "name": "Dialogue System for Unity",
+  "status": "verified",
+  "site": "https://www.pixelcrushers.com/dialogue-system/",
+  "company": "Pixel Crushers",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "A Unity dialogue and quest asset family, including an OpenAI addon that connects conversations to language models.",
+  "platforms": "Unity (sold through the Unity Asset Store)",
+  "pricing": "Price is not shown on the opened pages; an evaluation version is offered for download.",
+  "pricing_model": "Asset purchase",
+  "free_plan": "Free trial",
+  "key_features": [
+   "Dialogue System for Unity",
+   "Addon for OpenAI and Ollama models",
+   "Procedural Dialogue addon",
+   "Quest Machine addon",
+   "Evaluation version",
+   "Integrations with other assets"
+  ],
+  "notable": [
+   "Studio testimonials include Torpor Games, developer of Suzerain, and ZA/UM, developer of Disco Elysium"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "Dialogue System for Unity is available on the Unity Asset Store, and an evaluation version can be downloaded.",
+    "url": "https://www.pixelcrushers.com/dialogue-system/"
+   },
+   {
+    "fact": "The Pixel Crushers site lists addons for OpenAI, procedural dialogue and quests (Quest Machine).",
+    "url": "https://www.pixelcrushers.com/dialogue-system/"
+   },
+   {
+    "fact": "The OpenAI addon requires Dialogue System for Unity 2.2.58 or later and, per its page, supports GPT-5, GPT-4o and models run through Ollama such as Llama 3.2 and 3.3, Deepseek and Gemma.",
+    "url": "https://www.pixelcrushers.com/dialogue-system-addon-for-openai/"
+   },
+   {
+    "fact": "The site quotes Torpor Games (Suzerain) and ZA/UM (Disco Elysium) praising the Dialogue System.",
+    "url": "https://www.pixelcrushers.com/dialogue-system/"
+   }
+  ]
+ }
+]

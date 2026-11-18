@@ -1,0 +1,557 @@
+{
+  "slug": "best-multistreaming-platforms",
+  "name": "multistreaming platforms",
+  "title": "Best Multistreaming Platforms in 2026",
+  "group": "Live streaming (business)",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Multistreaming platforms send one live video feed to many channels at once, so a business or creator reaches each audience from a single broadcast.",
+  "definition": "A multistreaming platform takes one live video signal, from a camera, an encoder or a browser studio, and relays it to several destinations at the same moment, such as YouTube, Facebook, Twitch, LinkedIn or a custom RTMP address. It saves running separate encoders and often adds chat merging, scheduling and recording.",
+  "intro": "A product launch, a studio showcase or a tournament final rarely lives on one platform. The audience is split across YouTube, LinkedIn, Twitch and the company website, and sending a separate stream to each strains upload bandwidth and splits the crew's attention. This ranking looks at twelve tools that solve that fan-out problem in different ways: cloud relays, browser studios, desktop mixers and a phone contribution app. We read each vendor's own pages: pricing, plan limits, supported ingest methods, platform lists and company details. We did not run streams ourselves, and we mark every vendor claim as the vendor's. Order reflects how clearly a tool documents what it does and what it costs, how many ways it can take a signal in, and how well it serves a business that streams to several destinations rather than a hobbyist.",
+  "criteria": [
+    {
+      "heading": "What can feed the relay",
+      "text": "A relay is only useful if it accepts the signal you already produce. OneStream Live lists RTMP, RTMPS, SRT and WHIP, Livepush lists RTMP, SRT, pull URLs and a browser camera, and Lightstream works entirely in a browser. A crew with an encoder PC wants protocol support; a marketing team with a laptop wants a browser studio. Check ingest first, because a mismatch forces a rebuild of the production chain on launch day."
+    },
+    {
+      "heading": "How many destinations, at what quality",
+      "text": "Plans differ on the number of simultaneous channels and the resolution allowed. Streamster ties channels to price (2 on free, 10 on the top plan), Lightstream states up to five, OneStream Live starts with two on the free tier and cites 45+ integrations, and Livepush cites 40+. Count the destinations you will actually use in the next year and compare against the limit on the plan you would buy, including the resolution cap."
+    },
+    {
+      "heading": "Cost structure and commitment",
+      "text": "Monthly subscriptions, annual plans and pay-per-hour billing suit different calendars. Castr starts at $16.67 per month, Livepush at $13 per month billed yearly, and Streamster offers hourly use from $0.48. A company streaming four times a year should compare hourly billing with a month-to-month plan it can cancel, and note which pages leave the currency unnamed."
+    },
+    {
+      "heading": "Beyond the relay: recording, hosting and scheduling",
+      "text": "Some tools stop at the fan-out; others add recording, a branded player, 24/7 playlists or VOD. Castr hosts and delivers, Livepush loops pre-recorded shows, and Riverside records separate guest tracks. Decide whether the stream's afterlife (replay page, clips, podcast feed) belongs in the same tool or in a separate video host that you already pay for."
+    }
+  ],
+  "market_notes": [
+    "The twelve tools split into groups: six cloud services (Castr, Restream, OneStream Live, Livepush, Streamster, Riverside), two browser studios (Lightstream, Be.Live), three desktop or mobile apps (Prism Live Studio, Streamlabs Desktop, OBS Studio) and one phone contribution app (Larix Broadcaster). Nine of the twelve can be used at no cost in some form: free plans at OneStream Live, Livepush, Streamster, Riverside and Lightstream, a free way to start at Restream, and free software in Prism, Larix and OBS. Six publish a dollar price on the pages we read: Castr, OneStream Live, Livepush, Streamster, Lightstream and Riverside.",
+    "The trade-off is control against effort. Free desktop software such as OBS Studio costs nothing but needs a person who understands encoders, while cloud relays cost $13 to $99 a month and take that work away. Several pages leave gaps that matter for budgeting: Be.Live shows only promotional banners, Restream's plan prices were not captured, and Streamster and OneStream Live do not name their currency. Ask for the destination limit and the stream-length cap in writing before the event date."
+  ],
+  "how_to_choose": [
+    {
+      "title": "List every destination and the signal source",
+      "text": "Write down each platform and website that must carry the launch, then note what produces the signal: an encoder, a browser, a phone. Match that list to the ingest methods and destination counts above. Many failures come from discovering on launch morning that the plan allows two destinations when the plan needs four."
+    },
+    {
+      "title": "Price the busiest month, not the average one",
+      "text": "Estimate hours streamed in your heaviest month and compare monthly plans with hourly billing. Streamster's pay-per-use rate and Castr's entry plan suit lower volume, while a team streaming weekly should price the yearly options at Livepush or OneStream Live. Include the length caps: Lightstream's free tier stops at 10 hours per stream and OneStream's at one hour per live session."
+    },
+    {
+      "title": "Run one full rehearsal on the free tier or trial",
+      "text": "Castr offers a 7-day Starter trial, Be.Live a 14-day trial and several others a free plan. Send a rehearsal stream to every real destination, check audio sync and recording, and confirm who receives chat. Only then pay, and cancel or downgrade after the event if the vendor allows monthly billing."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best multistreaming platform in 2026?",
+      "a": "OneStream Live is our first pick for businesses, because its pricing is published from free to $99 a month and it takes RTMP, RTMPS, SRT and WHIP feeds. Castr is better when you also want hosting and VOD, and Livepush is better for always-on channels with a branded player."
+    },
+    {
+      "q": "Can I multistream for free?",
+      "a": "Yes, within limits. OneStream Live's free plan allows two destinations at 720p, Livepush gives 20 streaming hours a month, Streamster's free plan has two channels, and OBS Studio is free software. Free tiers cap resolution, session length or destinations, so check the limit that matters for your event."
+    },
+    {
+      "q": "Do I need OBS if I use a cloud multistreaming service?",
+      "a": "No. Browser studios such as Lightstream and Be.Live need no encoder, and OneStream Live offers a browser Live Studio. OBS is useful when you want your own scenes and capture cards, then it sends one feed to the relay, which handles the distribution."
+    },
+    {
+      "q": "How many platforms can one stream reach?",
+      "a": "It depends on the tool and plan. OneStream Live cites 45+ integrations, Livepush 40+, Streamster up to 10 channels on its top plan, and Lightstream up to five destinations. A custom RTMP address lets most of them reach platforms that are not on the built-in list."
+    },
+    {
+      "q": "Is pay-per-hour streaming cheaper than a subscription?",
+      "a": "For rare events it can be. Streamster lists pay-per-use hours from $0.48 to $1.92. A team streaming once a month at a few hours each may spend less than the $15 to $75 monthly plans, but weekly broadcasters usually do better on a fixed plan."
+    },
+    {
+      "q": "Can a phone supply a camera angle to a multistream setup?",
+      "a": "Yes. Larix Broadcaster is a free iOS and Android app for remote contribution, Streamster has a smartphone remote mode, and OneStream Live has mobile apps. The phone sends its feed to a studio, relay or server that then fans out to the other destinations."
+    },
+    {
+      "q": "What should I check before a launch-day multistream?",
+      "a": "Confirm the destination limit, the resolution cap, the maximum stream length and where chat appears. Rehearse with the real accounts, because platform keys and permissions fail more often than software does. Keep a backup encoder or a second relay account ready for the hour that matters."
+    }
+  ],
+  "related": [
+    "best-virtual-event-streaming-platforms-for-hybrid-events",
+    "best-webinar-platforms-for-product-launches",
+    "best-live-captioning-and-translation-for-livestreams"
+  ],
+  "tools": [
+    {
+      "slug": "onestream-live",
+      "name": "OneStream Live",
+      "site": "https://onestream.live/",
+      "company": "OneStream Live Inc.",
+      "country": "",
+      "tagline": "Cloud studio and relay that sends one stream to 45+ destinations",
+      "best_for": "Mixed encoder and browser setups",
+      "pricing": "Free at $0 forever (2 destinations, 720p, 1 GB storage); Basic $15 per month, Standard $39, Professional $49, Enterprise $99, with lower yearly rates. The pricing page does not name the currency.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Browser Live Studio; RTMP, RTMPS, SRT and WHIP ingest; iOS and Android apps",
+      "features": [
+        "Browser Live Studio with guests and overlays",
+        "45+ integrations",
+        "RTMP, RTMPS, SRT and WHIP ingest",
+        "Pre-recorded streaming and scheduling",
+        "Unified chat",
+        "Multi-camera streaming"
+      ],
+      "summary": "The most documented plan ladder in this group, with a usable free tier and several ways to feed it a signal.",
+      "verdict": "OneStream Live earns first place because its published terms leave the fewest unknowns. The free plan is real (two destinations, 720p, three scheduled events), the paid ladder climbs in clear steps from $15 to $99 a month, and ingest covers a browser studio, OBS, vMix, Wirecast and Zoom through standard protocols. Pre-recorded streams and scheduling suit launch-day playlists that must run while the team is offline. A business that wants to start free and grow into more destinations will find the upgrade path easy to read.",
+      "weaknesses": "The pricing page prints dollar signs without naming a currency, so finance teams should confirm it at checkout. The free plan caps live sessions at one hour and pre-recorded ones at 15 minutes, and 180 and 360 degree video sits behind paid tiers.",
+      "wrong_for": "Skip it if you want a single hosted player with multi-CDN delivery as the main product; Castr leans harder toward hosting and delivery.",
+      "sources": [
+        {
+          "fact": "OneStream Live Inc. is named as the company in the copyright footer of the vendor site.",
+          "url": "https://onestream.live/"
+        },
+        {
+          "fact": "The pricing page lists a Free plan at $0 forever with 2 multistreaming destinations, 720p streaming and 1 GB storage.",
+          "url": "https://onestream.live/pricing/"
+        },
+        {
+          "fact": "The pricing page lists paid plans Basic at $15 per month, Standard at $39 per month, Professional at $49 per month and Enterprise at $99 per month, with yearly billing shown at $144, $384, $468 and $996 per year.",
+          "url": "https://onestream.live/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "castr",
+      "name": "Castr",
+      "site": "https://castr.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Stream hosting plus multistreaming, VOD and OTT in one account",
+      "best_for": "Teams that also need hosting",
+      "pricing": "Five plans from $16.67 per month, with a 7-day trial on the Starter plan.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Cloud platform",
+      "features": [
+        "Stream hosting",
+        "Multistreaming",
+        "VOD",
+        "OTT",
+        "Multi-CDN delivery"
+      ],
+      "summary": "Pairs relay to social destinations with its own hosted delivery, so one vendor covers both the broadcast and the website embed.",
+      "verdict": "Castr treats multistreaming as one feature of a hosting service rather than the whole product, and that framing helps a business that publishes on its own site as well as on social channels. According to the vendor, delivery runs across several CDNs, and VOD and OTT live in the same account, so the replay of a launch event does not need a second tool. The entry price of $16.67 per month is easy to compare, and the seven-day Starter trial lets a producer test a real feed before paying.",
+      "weaknesses": "There is no permanent free plan, only the trial. The pages we read do not list per-plan limits for destinations or hours in the text, so the price ladder needs a pricing-page visit to compare. Company and headquarters details are not stated on the pages opened.",
+      "wrong_for": "A solo creator who only wants to reach Twitch and YouTube for free should start with Restream or Streamster instead.",
+      "sources": [
+        {
+          "fact": "Castr is a live video streaming solution with stream hosting, multistreaming, VOD and OTT in one platform, with multi-CDN delivery.",
+          "url": "https://castr.com/"
+        },
+        {
+          "fact": "The pricing page lists five plans starting at $16.67/mo.",
+          "url": "https://castr.com/pricing/"
+        },
+        {
+          "fact": "The pricing page offers a 7-day Starter trial.",
+          "url": "https://castr.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "livepush",
+      "name": "Livepush",
+      "site": "https://livepush.io/",
+      "company": "Streamflex Labs, Inc.",
+      "country": "",
+      "tagline": "Cloud relay with a branded player and 24/7 looping",
+      "best_for": "Always-on channels and event pages",
+      "pricing": "Free plan with 20 streaming hours a month and no card required; paid plans from $13 per month billed yearly ($15 billed monthly), according to the FAQ. Tier prices are not listed per tier.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Cloud service; RTMP, SRT and pull URL ingest; embeddable HTML5 player",
+      "features": [
+        "Multistreaming with health monitoring",
+        "Merged chat",
+        "Branded event player (HLS and DASH)",
+        "Pre-recorded live with playlists and 24/7 looping",
+        "Cloud recording",
+        "Team accounts"
+      ],
+      "summary": "Strong on unattended channels: scheduling, playlists, looping and a branded player in one cloud service.",
+      "verdict": "Livepush suits a business that wants a stream to keep running without a person watching it. Pre-recorded broadcasts can be scheduled, put into playlists and looped around the clock, and the branded HTML5 player lets the same stream sit on a company page. The home page lists 40+ destinations and ingest through RTMP, SRT or a pull URL, plus health monitoring while live. Starting at $13 a month billed yearly, it undercuts several rivals, and the free plan gives 20 hours to prove the setup.",
+      "weaknesses": "The page names tiers (Creators, Business, Studio, Enterprise) but gives one starting price rather than a price per tier, so the real cost of a larger plan is unclear. The vendor describes service history since 2021, which makes it a younger name than some rivals here.",
+      "wrong_for": "Pick OBS Studio or Streamlabs Desktop if the real need is on-screen production on your own PC, since Livepush is a cloud relay and not a mixing app.",
+      "sources": [
+        {
+          "fact": "Livepush describes itself as a cloud-based live streaming platform with the tagline 'The live streaming platform that stays on air'.",
+          "url": "https://livepush.io/"
+        },
+        {
+          "fact": "Livepush offers a free plan with 20 streaming hours a month and states that no credit card is required.",
+          "url": "https://livepush.io/"
+        },
+        {
+          "fact": "The FAQ on the vendor site states paid plans from $13 per month billed yearly, or $15 per month billed monthly.",
+          "url": "https://livepush.io/"
+        },
+        {
+          "fact": "Livepush states it multistreams to 40+ destinations, including YouTube, Facebook, Twitch, Kick and LinkedIn.",
+          "url": "https://livepush.io/"
+        }
+      ]
+    },
+    {
+      "slug": "restream",
+      "name": "Restream",
+      "site": "https://restream.io/",
+      "company": "Restream, Inc.",
+      "country": "",
+      "tagline": "Web studio for creating a show and sending it to many channels",
+      "best_for": "Creators and small teams starting free",
+      "pricing": "The pricing page says to start multistreaming for free or choose a plan; plan prices were not captured from the page we read.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Web-based",
+      "features": [
+        "Multistreaming",
+        "Video creation",
+        "Several pricing plans"
+      ],
+      "summary": "A familiar, browser-first starting point, held back here only by what its pages let us confirm.",
+      "verdict": "Restream describes itself as a simple live video platform that lets people create videos and multistream them to their favorite channels, and the pricing page confirms a free way to begin. For a creator or a small marketing team that wants to go live from the browser without installing anything, that low-friction start matters more than any feature list. It ranks fourth because the pages we read printed no plan prices, limits or destination counts, so we could not weigh it against the cost ladders of the three above it.",
+      "weaknesses": "We could not record plan prices, destination limits or resolution caps from the opened pages, so any buyer has to check the pricing page directly. The homepage names Restream, Inc. but gives no headquarters.",
+      "wrong_for": "If you need a published price per month before a demo call, go to OneStream Live or Castr, where the pages list the figures.",
+      "sources": [
+        {
+          "fact": "Restream is a simple live video platform that lets users create videos and multistream them to their favorite channels.",
+          "url": "https://restream.io/"
+        },
+        {
+          "fact": "The pricing page says users can start multistreaming for free or pick a plan that fits their needs.",
+          "url": "https://restream.io/pricing"
+        },
+        {
+          "fact": "The homepage copyright names Restream, Inc.",
+          "url": "https://restream.io/"
+        }
+      ]
+    },
+    {
+      "slug": "streamster",
+      "name": "Streamster",
+      "site": "https://streamster.io/",
+      "company": "Streamster OÜ",
+      "country": "",
+      "tagline": "Free streaming app with cloud multistreaming and per-hour billing",
+      "best_for": "Pay-per-hour and mobile setups",
+      "pricing": "FREE $0 (2 channels, 720p/30); LITE $15 per month (4 channels); REGULAR $30 (6 channels, transcoding); PROFESSIONAL $50 (8 channels, 2K/60); PREMIUM $75 (10 channels, 4K/60); pay-per-use from $0.48 to $1.92 per hour. Currency not named; no annual plans.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Windows, Mac, Android, iOS, Microsoft Store, in-browser",
+      "features": [
+        "Cloud-based multistream",
+        "Built-in overlays",
+        "Smartphone as remote",
+        "On-server transcoding",
+        "4K 60 FPS tier",
+        "Video recording"
+      ],
+      "summary": "The only tool here with a per-hour pay-as-you-go option, which fits a company that streams a handful of launches a year.",
+      "verdict": "Streamster is built around an unusual billing choice: next to the monthly ladder it sells pay-per-use hours from $0.48 to $1.92, so a team that streams four times a year does not carry a subscription. The cloud multistream takes a single upload from a PC, Mac or phone and fans it out, and transcoding on the server starts at the $30 Regular plan. Apps exist for Windows, Mac, Android and iOS, and the site claims over 100,000 users. The free plan stops at two channels and 720p.",
+      "weaknesses": "No annual discount is shown, so a team streaming weekly pays full monthly rates. The pages do not name the currency of the dollar prices. The company name (Streamster OÜ) is listed but the head office is not stated on the pages we opened.",
+      "wrong_for": "Larger broadcasters needing contracts, SLAs or named support should look at Castr or the enterprise tier of OneStream Live.",
+      "sources": [
+        {
+          "fact": "Streamster OÜ is named as the company in the footer copyright line on the vendor site.",
+          "url": "https://streamster.io/"
+        },
+        {
+          "fact": "Streamster describes itself as free live streaming software with cloud-based multistreaming and multi-device use.",
+          "url": "https://streamster.io/"
+        },
+        {
+          "fact": "The pricing page lists a FREE plan at $0 forever with 2 channels, and paid monthly plans LITE at $15, REGULAR at $30, PROFESSIONAL at $50 and PREMIUM at $75.",
+          "url": "https://streamster.io/pricing/"
+        },
+        {
+          "fact": "The pricing page lists pay-per-use plans charged per hour from $0.48 to $1.92, and shows no annual plans.",
+          "url": "https://streamster.io/pricing/"
+        },
+        {
+          "fact": "The vendor site lists Streamster apps for Windows, Mac, Android, iOS and Microsoft Store.",
+          "url": "https://streamster.io/"
+        }
+      ]
+    },
+    {
+      "slug": "lightstream",
+      "name": "Lightstream",
+      "site": "https://golightstream.com/",
+      "company": "Infiniscene, Inc.",
+      "country": "",
+      "tagline": "Browser studio for simulcasting up to five destinations, with console capture",
+      "best_for": "Console gamers and browser-only setups",
+      "pricing": "Free tier at $0 (Lightstream logo, 720p, 10 hours per stream, 3 scenes); Premium $12 per month or $9 per month on an annual plan (no logo, 1080p, 48 hours, 20 scenes).",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Browser-based; cloud capture for Xbox and PlayStation",
+      "features": [
+        "Lightstream Studio",
+        "Simulcast to up to 5 destinations",
+        "Cloud capture for consoles",
+        "Templates and overlays",
+        "Up to 10 guests on Premium"
+      ],
+      "summary": "Good for game-event streams that start on a console, but capped at five destinations.",
+      "verdict": "Lightstream runs entirely in the browser, which means a laptop that cannot encode well still produces a clean show. Premium removes the logo, unlocks 1080p, raises the per-stream limit to 48 hours and supports up to ten guests, all for $12 a month or $9 on an annual plan. The cloud capture for Xbox and PlayStation is the feature no other entry offers, and it suits a studio streaming a console build of a game launch. The vendor says the studio simulcasts up to five destinations at once.",
+      "weaknesses": "The five-destination cap is the lowest ceiling among paid tools that publish one, and the free tier burns a Lightstream logo into every stream. Ownership changed in April 2021, when Creative Solutions, a division of Videndum Group, acquired it.",
+      "wrong_for": "A corporate team needing more than five destinations should use OneStream Live (45+ integrations) or Livepush (40+).",
+      "sources": [
+        {
+          "fact": "Lightstream's free tier costs $0 and includes 720p streaming, a 10 hour limit per stream and up to 3 scenes, with a Lightstream logo on all streams.",
+          "url": "https://golightstream.com/"
+        },
+        {
+          "fact": "The Premium plan costs $12, or $9 per month on an annual subscription, and removes the Lightstream logo and adds 1080p and 20 scenes.",
+          "url": "https://golightstream.com/"
+        },
+        {
+          "fact": "Lightstream allows simulcasting to up to five destinations at once, including custom RTMP.",
+          "url": "https://golightstream.com/"
+        },
+        {
+          "fact": "Lightstream was acquired by Creative Solutions, a division of the Videndum Group, in April 2021.",
+          "url": "https://golightstream.com/our-story/"
+        }
+      ]
+    },
+    {
+      "slug": "be-live",
+      "name": "Be.Live",
+      "site": "https://be.live/",
+      "company": "",
+      "country": "",
+      "tagline": "Browser studio with branding, comment tools and a repurposing editor",
+      "best_for": "Social-first, interactive shows",
+      "pricing": "Not published on the home page we opened; the page shows promotional banners and a 14-day free trial with no credit card.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Browser-based, no installation",
+      "features": [
+        "Multistreaming",
+        "Custom branding with overlays and lower thirds",
+        "AI Comment Assistant",
+        "Snake and Lottery Jar widgets",
+        "Be.Live Editor",
+        "Podcast audio export"
+      ],
+      "summary": "Audience-interaction extras are the draw; the missing price on its home page is the drawback.",
+      "verdict": "Be.Live leans into engagement: an AI Comment Assistant can put viewer comments on screen automatically, and widgets such as a lottery jar turn a launch stream into a giveaway. Branding covers logos, overlays and lower thirds, and an editor trims a broadcast into clips afterward. The 14-day trial asks for no credit card, so a marketing team can run a real campaign stream before deciding. Facebook is listed on the home page as a Live Video Solutions Partner, per the vendor.",
+      "weaknesses": "The home page prints discount banners (50%, 25%, 33%) but no list prices, and we did not open the packages page, so cost is the biggest unknown. The testimonials section names no companies.",
+      "wrong_for": "If you need documented per-plan limits before a trial, go to Castr, Streamster or OneStream Live.",
+      "sources": [
+        {
+          "fact": "Be.Live offers a 14-day free trial and states that no credit card is required.",
+          "url": "https://be.live/"
+        },
+        {
+          "fact": "Pricing and plan prices are not shown on the opened home page; the page shows only promotional discount banners.",
+          "url": "https://be.live/"
+        },
+        {
+          "fact": "Be.Live offers an AI Comment Assistant that can feature comments on screen automatically.",
+          "url": "https://be.live/"
+        }
+      ]
+    },
+    {
+      "slug": "riverside",
+      "name": "Riverside",
+      "site": "https://riverside.com/",
+      "company": "Riverside",
+      "country": "",
+      "tagline": "Recording studio that also streams and repurposes podcasts and webinars",
+      "best_for": "Podcast and interview shows",
+      "pricing": "Free plan at $0 (720p, watermark, 2 hours of multi-track recording); Pro billed $288 annually (up to 4K, no watermark); Business priced separately. The pricing page carried a staging notice and may not be current.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "Web app; Mac app; mobile apps",
+      "features": [
+        "Multi-track recording",
+        "Text-based editing",
+        "Magic Clips",
+        "Live streaming in HD",
+        "Podcast hosting",
+        "AI show notes"
+      ],
+      "summary": "Best when the stream doubles as a recording session; its multistream role is a side feature.",
+      "verdict": "Riverside starts from recording rather than relaying, so it fits a company hosting interview-style launches where the guests' separate tracks matter afterward. Live streaming in HD sits beside text-based editing, Magic Clips and podcast hosting, and the founders say the company began in 2020. The $288 annual Pro plan takes video to 4K and removes the watermark. For a show that is recorded, clipped and published to podcast feeds, one tool can replace three.",
+      "weaknesses": "The multistream features are described in less depth than its recording features on the pages we read, so destination counts are unknown. Its pricing page displayed a staging-environment notice, which weakens confidence in the figures. There is no monthly price in our fact record.",
+      "wrong_for": "A pure relay need, such as pushing a conference feed to five platforms, is cheaper and simpler with Livepush or Castr.",
+      "sources": [
+        {
+          "fact": "Riverside is an AI-powered platform for recording, editing, repurposing and distributing studio-quality content.",
+          "url": "https://riverside.com/"
+        },
+        {
+          "fact": "Riverside's Free plan costs $0 per month and includes 720p video, a Riverside watermark and two hours of multi-track recording.",
+          "url": "https://riverside.com/pricing"
+        },
+        {
+          "fact": "Riverside's Pro plan is billed $288 annually and includes up to 4K video, 48kHz audio and no watermark.",
+          "url": "https://riverside.com/pricing"
+        },
+        {
+          "fact": "Riverside was founded in 2020 by two brothers, according to its about page.",
+          "url": "https://riverside.com/about"
+        }
+      ]
+    },
+    {
+      "slug": "obs-studio",
+      "name": "OBS Studio",
+      "site": "https://obsproject.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Free open source desktop mixer that drives any relay service",
+      "best_for": "Teams with their own encoder PC",
+      "pricing": "Free and open source software.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows 10 and 11, macOS 13 or newer, Linux",
+      "features": [
+        "Scenes with multiple sources",
+        "Window capture",
+        "Browser sources",
+        "Capture cards",
+        "H264/AAC encoding"
+      ],
+      "summary": "The production layer many relay services expect, free to use, but it does not relay to many destinations by itself.",
+      "verdict": "OBS Studio costs nothing and runs on Windows 10 and 11, macOS 13 or newer, and Linux, which makes it the safest choice for a crew that wants no license to renew. Scenes mix window captures, browser windows, webcams and capture cards, and OneStream Live lists OBS among the encoders it accepts, so OBS can feed a cloud relay and leave the fan-out to that service. The software is open source, so a studio can keep a fixed version for an entire tournament season.",
+      "weaknesses": "By itself it sends a single outgoing stream, so reaching several platforms needs a relay service or extra plugins that the pages we read do not describe. Setup is manual, and no vendor support desk stands behind it.",
+      "wrong_for": "A marketing team without an engineer should use browser tools such as Lightstream or Be.Live and skip the configuration work.",
+      "sources": [
+        {
+          "fact": "OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage says OBS supports Windows 10 and Windows 11, macOS 13.0 or newer, and Linux.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage describes scenes made of multiple sources including window captures, browser windows, webcams and capture cards.",
+          "url": "https://obsproject.com/"
+        }
+      ]
+    },
+    {
+      "slug": "prism-live-studio",
+      "name": "Prism Live Studio",
+      "site": "https://prismlive.com/en_us/",
+      "company": "",
+      "country": "",
+      "tagline": "Free creator app with multi-platform streaming and basic editing",
+      "best_for": "Mobile-first creators on PC or Mac",
+      "pricing": "The desktop app is free; a Plus subscription and Credits are sold only in the PRISM mobile app.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Windows 10 and 11 (64-bit); macOS (Apple Silicon, Monterey 12.3 or higher); mobile app",
+      "features": [
+        "Stream to several platforms simultaneously",
+        "Screen sharing",
+        "AvatarLive",
+        "Video effects and filters",
+        "Video editing"
+      ],
+      "summary": "A no-cost desktop studio with a phone companion, aimed at creators rather than business teams.",
+      "verdict": "Prism Live Studio gives creators a free desktop app that streams to several live platforms at once, with screen sharing, effects and an avatar feature called AvatarLive. Mac support covers Apple Silicon on Monterey 12.3 or later, and Windows 10 and 11 in 64-bit. It earns a middle slot because it costs nothing to start and the editing tools save a trip to a separate app. A small studio streaming a game demo from a laptop can start without a budget.",
+      "weaknesses": "Plus and Credits can only be bought inside the mobile app, which is awkward for company purchasing. Intel Macs are not listed. A beta Windows build based on OBS removes the existing Prism Live Studio when installed. No company details appear in the facts.",
+      "wrong_for": "A business needing invoices, team seats and a support contract should pick OneStream Live or Castr.",
+      "sources": [
+        {
+          "fact": "PRISM Live Studio is free live streaming and recording software that provides multi-platform streaming and video editing.",
+          "url": "https://prismlive.com/en_us/"
+        },
+        {
+          "fact": "PRISM Live Studio runs on Windows 10 and 11 (64-bit) and on macOS (Apple Silicon), Monterey 12.3 or higher.",
+          "url": "https://prismlive.com/en_us/"
+        },
+        {
+          "fact": "The Plus subscription can be bought through the PRISM mobile app, and Credits are currently available only in the mobile app.",
+          "url": "https://prismlive.com/en_us/"
+        }
+      ]
+    },
+    {
+      "slug": "streamlabs-desktop",
+      "name": "Streamlabs Desktop",
+      "site": "https://streamlabs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Streaming app bundled with alerts, overlays, tipping and merch",
+      "best_for": "Individual streamers on Twitch, YouTube, Facebook",
+      "pricing": "Plans were not recorded: the product page is rendered by JavaScript. The pricing page says the company takes zero cut of donations.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Streamlabs Desktop",
+        "Alerts",
+        "Overlays",
+        "Tipping",
+        "Merch"
+      ],
+      "summary": "A creator toolkit first; business multistream needs are not documented in what we could read.",
+      "verdict": "Streamlabs Desktop belongs on a launch-focused list mainly because creators on Twitch, YouTube and Facebook already know it, and a company working with a streamer partner may meet it on the other end of the call. Alerts, overlays, tipping and merch sit in the same account, and the pricing page states that Streamlabs takes zero cut of donations. For a business broadcasting its own event, the supporting tools matter less than relay capacity, which we could not verify.",
+      "weaknesses": "The Desktop product page could not be read in full, so plans, destination limits and platform support are unrecorded here. The documented strengths concern donations and overlays, which matter little for a product launch.",
+      "wrong_for": "If the goal is a company launch on several platforms at once, choose OneStream Live, Castr or Livepush, which document that function.",
+      "sources": [
+        {
+          "fact": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, offering Streamlabs Desktop, alerts, overlays, tipping and merch.",
+          "url": "https://streamlabs.com/"
+        },
+        {
+          "fact": "The Streamlabs pricing page states that the company takes zero cut of your donations.",
+          "url": "https://streamlabs.com/pricing"
+        },
+        {
+          "fact": "The Streamlabs Desktop product page on the vendor site could not be read in full because the page is rendered by JavaScript, so its plans are not recorded here.",
+          "url": "https://streamlabs.com/streamlabs-desktop/tip"
+        }
+      ]
+    },
+    {
+      "slug": "larix-broadcaster",
+      "name": "Larix Broadcaster",
+      "site": "https://softvelum.com/larix/",
+      "company": "",
+      "country": "",
+      "tagline": "Free phone app that contributes a live feed from Android and iOS",
+      "best_for": "Field cameras and remote contribution",
+      "pricing": "Free.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "iOS and Android",
+      "features": [
+        "Mobile streaming",
+        "Remote contribution"
+      ],
+      "summary": "A contribution tool for phones, not a multistream service, so it ends the list.",
+      "verdict": "Larix Broadcaster from Softvelum is free mobile broadcasting software for iOS and Android, described on the vendor page as an app for remote contribution streaming. That is useful at a hybrid launch where a phone in the crowd supplies a second camera angle to a studio or a relay service. It costs nothing and the page links to documentation for the apps.",
+      "weaknesses": "The pages we read list only two features, mobile streaming and remote contribution, and say nothing about sending one stream to several destinations. It needs a receiving server or relay service to be useful in a multistream workflow.",
+      "wrong_for": "Anyone who wants one tool that reaches many platforms should use OneStream Live, Restream or Livepush instead.",
+      "sources": [
+        {
+          "fact": "Larix Broadcaster is free mobile broadcasting software for iOS and Android devices.",
+          "url": "https://softvelum.com/larix/"
+        },
+        {
+          "fact": "The page describes the apps as tools for remote contribution streaming from Android and iOS.",
+          "url": "https://softvelum.com/larix/"
+        }
+      ]
+    }
+  ]
+}

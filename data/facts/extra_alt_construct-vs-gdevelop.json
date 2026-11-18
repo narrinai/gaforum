@@ -1,0 +1,49 @@
+[
+ {
+  "slug": "construct",
+  "name": "Construct",
+  "status": "verified",
+  "site": "https://www.construct.net/",
+  "company": "Scirra",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Construct 3 is a browser-based 2D game engine that needs no programming, sold by subscription.",
+  "platforms": "Browser-based editor; the vendor page says games can be made for mobiles, desktops, consoles and web.",
+  "pricing": "Personal, Startup, Business and Educational plans; free edition limited to 50 events, 2 layers and 2 effects. Personal price not captured in page text.",
+  "pricing_model": "Subscription",
+  "free_plan": "Free plan",
+  "key_features": [
+   "No programming required",
+   "Unlimited events, layers and effects on paid plans",
+   "Bundled royalty-free asset packs",
+   "Free Construct Game Services plan on non-education paid plans"
+  ],
+  "notable": [
+   "Zero royalties on anything created, per the buy page"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "The Construct buy page describes Construct 3 as a video game maker for building games for mobiles, desktops, consoles and web.",
+    "url": "https://www.construct.net/en/make-games/buy-construct"
+   },
+   {
+    "fact": "The free edition is limited to 50 events, 2 layers and 2 effects; paid versions are unlimited.",
+    "url": "https://www.construct.net/en/make-games/buy-construct"
+   },
+   {
+    "fact": "The page lists Personal, Startup, Business and Educational plans, with zero royalties on anything created.",
+    "url": "https://www.construct.net/en/make-games/buy-construct"
+   },
+   {
+    "fact": "The Startup Plan is for registered businesses with up to $50,000 USD annual revenue, up to $100,000 USD assets and no more than 3 employees; the Business Plan is required for other registered businesses.",
+    "url": "https://www.construct.net/en/make-games/buy-construct"
+   },
+   {
+    "fact": "The Personal License is not permitted for purchase by registered businesses.",
+    "url": "https://www.construct.net/en/make-games/buy-construct"
+   }
+  ]
+ }
+]

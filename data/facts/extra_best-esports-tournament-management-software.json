@@ -1,0 +1,84 @@
+[
+  {
+    "slug": "bracket-hq",
+    "name": "Bracket HQ",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://brackethq.com/",
+    "company": "Bracket HQ",
+    "hq": "",
+    "country": "Unknown",
+    "country_code": "",
+    "what_it_is": "A web bracket maker for single and double elimination and round robin tournaments with live score updates.",
+    "platforms": "Web",
+    "pricing": "Free tier with ads and up to 32 participants; Pro costs $8 per month or $48 billed annually and allows up to 64 participants.",
+    "pricing_model": "Freemium subscription",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Single elimination brackets",
+      "Double elimination brackets",
+      "Round robin with leaderboard",
+      "Live bracket updates",
+      "Themes",
+      "Private brackets (Pro)"
+    ],
+    "notable": [
+      "The site names no company or country."
+    ],
+    "facts": [
+      {
+        "fact": "Bracket HQ says it builds brackets of any size with single or double elimination and round robin tournaments with a leaderboard.",
+        "url": "https://brackethq.com/"
+      },
+      {
+        "fact": "Bracket HQ lets organizers submit match scores and publish live bracket updates during a tournament.",
+        "url": "https://brackethq.com/"
+      },
+      {
+        "fact": "The free tier is ad supported with unlimited brackets of up to 32 participants and basic themes; Pro is $8 per month or $4 per month billed annually at $48, with up to 64 participants, no ads, private brackets and scoring permissions.",
+        "url": "https://brackethq.com/pricing/"
+      }
+    ]
+  },
+  {
+    "slug": "tournify",
+    "name": "Tournify",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://tournifyapp.com/en",
+    "company": "Tournify",
+    "hq": "",
+    "country": "Unknown",
+    "country_code": "",
+    "what_it_is": "A tournament and league app for organizers with scheduling, registration, referee assignment and live scores, with a Pro plan for online esports events.",
+    "platforms": "Web; Android and iOS apps for published events",
+    "pricing": "Free for up to 8 teams per event; World Class is EUR 40 per event for up to 60 teams; Legendary is EUR 120 per event for unlimited teams; an online esports Pro plan is EUR 20 per event.",
+    "pricing_model": "Per-event packages and annual plans",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Drag and drop match scheduling",
+      "Flexible group and knockout formats",
+      "Online registration with payments",
+      "Referee management",
+      "Live scores and slideshow",
+      "Custom branding"
+    ],
+    "notable": [
+      "The about page says development began in the summer of 2015 and customers are in more than 60 countries."
+    ],
+    "facts": [
+      {
+        "fact": "Tournify says it manages teams, builds match schedules and shares live results, with online registration that has built-in payment support.",
+        "url": "https://tournifyapp.com/en"
+      },
+      {
+        "fact": "Tournify lists Amateur (free, up to 8 teams), World Class (EUR 40 per event, up to 60 teams) and Legendary (EUR 120 per event, unlimited teams) and a Pro plan at EUR 20 per event for online esports tournaments that need no field planning.",
+        "url": "https://tournifyapp.com/en/pricing"
+      },
+      {
+        "fact": "The company says two students started the app in summer 2015 and that it serves more than 50 sports with customers in over 60 countries.",
+        "url": "https://tournifyapp.com/en/about"
+      }
+    ]
+  }
+]

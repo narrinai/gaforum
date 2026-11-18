@@ -1,0 +1,257 @@
+{
+  "slug": "game-developer-survey-tools-and-engines",
+  "title": "Game Developer Survey: Engines, Tools and Pipelines 2026",
+  "description": "Figures from Unity's 2026 survey of 300 game developers: project scope, AI tool use, MCP servers, multiplayer features, discoverability and Unity Editor data.",
+  "category": "best-3d-game-engines-for-small-studios",
+  "published": "2026-11-18",
+  "intro": "Half of the 300 game developers in Unity's 2026 Game Development Report, 50%, say their studio uses a Model Context Protocol server to connect AI tools to its workflow, and 62% use AI for coding assistance. This page collects the report's figures on project scope, tooling, AI, multiplayer and marketing, plus Unity's own Editor telemetry. Every number comes from one vendor survey run in 2025, so read it as a snapshot of studios that work with engines and not as the whole industry.",
+  "sections": [
+    {
+      "h2": "Who was surveyed and how",
+      "intro": "The report mixes a phone survey with Unity's own usage telemetry, which shapes what the numbers can say.",
+      "facts": [
+        {
+          "text": "Unity's 2026 report draws on a survey of 300 game developers and on proprietary data from nearly five million developers who engaged with the Unity Engine and ecosystem in 2025.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "The developer survey was a computer-assisted telephone interview run by Cint between September 16 and October 3, 2025, with a margin of error of plus or minus 5.66% at a 95% confidence level.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Respondents were sampled in four regions: the Americas (Canada and the U.S.), Asia-Pacific (Japan and South Korea), EMEA (France, Germany, Spain, Turkey and the U.K.) and Brazil.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "Project scope and production pace",
+      "facts": [
+        {
+          "text": "52% of surveyed developers say their studios now focus on smaller, more manageable projects, and 20% say their development cycles have become significantly shorter.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Among respondents at studios with 10 to 49 employees, 64% say market conditions pushed them toward smaller, more manageable projects.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "24% of respondents name diversifying revenue beyond primary game sales, such as merchandise, ad revenue or work-for-hire services, as their main strategy for weathering the market.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Unity Editor data shows the median development time of Unity projects fell 77%, from 91 hours in January 2022 to 21 hours in December 2025.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "official"
+        },
+        {
+          "text": "Unity counted 43,351,854 game projects over the past year, up 6% from 40,933,681, while the number of Unity developers rose 1.2% year over year.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "48% of studios say they have become more selective about which prototypes to turn into full games, and 46% spend one to three months prototyping, against 21% who spend under a month.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "Genres, themes and render pipeline",
+      "facts": [
+        {
+          "text": "Among surveyed studios, 55% have developed role-playing games, 53% strategy games and 52% action or adventure games.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "73% of surveyed studios say they develop casual games, the most common theme in the survey, ahead of fantasy at 65%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "In Unity Editor data, 42% of active projects with a build used the Universal Render Pipeline in 2025, up from 29% in 2024.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "h2": "AI tools in game development",
+      "facts": [
+        {
+          "text": "62% of surveyed developers use AI tools for coding assistance, while 5% say they do not use AI at all.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "44% of respondents use AI tools for writing and narrative design, and 40% use them for NPC behavior.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "73% of respondents say AI tools improved their studio's efficiency and 62% say AI improved decision making.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Among respondents at studios with fewer than 10 people, 64% say they use AI tools to improve efficiency.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "50% of surveyed studios use a Model Context Protocol (MCP) server in development, rising from 38% at studios of 1 to 9 people to 60% at studios of 300 or more.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "MCP servers and what they connect",
+      "facts": [
+        {
+          "text": "Of the studios that use MCP servers, 90% connect them to game engines or editors, 67% to source control and 65% to custom APIs or internal tools.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Among MCP users, 76% apply the servers to coding and debugging, 74% to production and project management and 68% to QA and testing.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "40% of MCP users name time saved and faster iteration as the biggest benefit, and 39% name fewer errors and higher quality.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "Multiplayer, live ops and discoverability",
+      "facts": [
+        {
+          "text": "83% of surveyed developers build online multiplayer games, and 72% prioritize cross-play functionality.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "47% of multiplayer developers typically support 3 to 9 concurrent players in a session, 30% support 10 to 25 and 11% support more than 50.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "31% of multiplayer developers say the pace of content and balance updates is their biggest challenge, ahead of technological complexity at 23% and limited budget at 11%.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Daily rewards or missions and leaderboards are each used by 78% of surveyed studios as player engagement strategies.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "33% of respondents name competition as the biggest challenge for mobile game developers and 30% name cost of user acquisition.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "To improve discoverability, 62% of studios use online events, 60% use social media, 51% use paid advertising and 8% work with influencers.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "73% of studios name India as the emerging market they most want to enter, and 68% report the most success in Southeast Asia.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    }
+  ],
+  "methodology": [
+    "On 18 November 2026 we opened Unity's 2026 Unity Game Development Report page and read the published chapter text, chart alt text and callouts. Percentages are quoted as Unity prints them, with the base noted where Unity gives one.",
+    "The survey was commissioned and published by an engine vendor and has 300 respondents, so subgroup figures (for example studios under 10 people) rest on small samples. Unity Editor figures describe Unity projects only and say nothing about Unreal Engine, Godot or custom engines. We did not use the Stack Overflow or GDC pages because the engine charts on them were not readable as text."
+  ],
+  "faqs": [
+    {
+      "q": "How many developers answered Unity's 2026 survey?",
+      "a": "Unity surveyed 300 game developers by telephone between September 16 and October 3, 2025, across the Americas, Asia-Pacific, EMEA and Brazil. The margin of error is plus or minus 5.66% at 95% confidence, so differences of a few points between answers are not meaningful."
+    },
+    {
+      "q": "Does the survey say which engine is most used?",
+      "a": "No. The Unity report does not publish an engine market-share ranking. It reports how studios plan, use AI and build multiplayer features, plus Editor telemetry about Unity projects only. For engine choices see the guide linked below and the category page."
+    },
+    {
+      "q": "Is the 62% AI coding figure a share of all studios?",
+      "a": "It is the share of the 300 surveyed developers who listed coding assistance as a use of AI tools. Only 5% said they do not use AI at all, so most respondents use at least one AI tool, but the sample comes from a vendor survey and may lean toward tool adopters."
+    },
+    {
+      "q": "Why did median Unity project time drop to 21 hours?",
+      "a": "Unity reports the median development time of projects in the Editor fell from 91 hours in January 2022 to 21 hours in December 2025. The report ties it to smaller games and faster baselines, but the figure measures Editor time on projects, not studio calendar time to ship."
+    }
+  ],
+  "related_guides": [
+    "how-to-choose-a-game-engine",
+    "how-to-build-a-multiplayer-game-backend",
+    "how-to-plan-a-game-liveops-calendar"
+  ]
+}

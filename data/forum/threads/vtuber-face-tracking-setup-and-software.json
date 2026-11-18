@@ -1,0 +1,22 @@
+{
+  "id": "vtuber-face-tracking-setup-and-software",
+  "board": "livestreaming",
+  "title": "Which face tracking and avatar software for a new VTuber?",
+  "created": "2026-11-18T10:24:00Z",
+  "pinned": false,
+  "body": [
+    "Starting as a VTuber means choosing between a flat Live2D-style avatar and a three-dimensional one, and then a tracking program. What setup are you using, and what limits did you hit with a webcam versus a phone?",
+    "The [VSeeFace site](https://www.vseeface.icu) describes a free face and hand tracking program for VRM and VSFAvatar avatars. The [VTube Studio homepage](https://denchisoft.com) describes an app for bringing Live2D models to life, and the [Warudo homepage](https://warudo.app) describes 3D VTubing software with built-in face and hand tracking.",
+    "Tell us your avatar type, your camera and what you would change if you started again, including costs of commissioning a rig."
+  ],
+  "related": [
+    {
+      "title": "Best VTuber Software in 2026",
+      "url": "/software/best-vtuber-software"
+    },
+    {
+      "title": "Live2D Cubism Alternatives in 2026",
+      "url": "/alternatives/live2d-cubism"
+    }
+  ]
+}

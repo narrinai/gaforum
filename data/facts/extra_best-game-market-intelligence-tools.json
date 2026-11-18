@@ -1,0 +1,92 @@
+[
+ {
+  "slug": "steamspy",
+  "name": "SteamSpy",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://steamspy.com/",
+  "company": "Sergey Galyonkin (individual project)",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "A statistics site that estimates owners and audience for Steam games from public Steam profile data, with lists by genre, tag, company and country.",
+  "platforms": "Steam games, web",
+  "pricing": "No prices appear on the opened pages; the About page calls it a side project of its author.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Owner estimates with margin of error",
+   "Genre and tag lists",
+   "Company pages",
+   "Country breakdowns",
+   "Sales and deals pages"
+  ],
+  "notable": [
+   "About page says the site is still in beta and often wrong by some margin",
+   "About page copyright reads 2015-2021"
+  ],
+  "facts": [
+   {
+    "fact": "SteamSpy says it gathers data from Steam user profiles to present game statistics for indie developers, journalists, students and PC gaming fans.",
+    "url": "https://steamspy.com/"
+   },
+   {
+    "fact": "The About page says owner numbers carry a stated margin of error at 98% confidence and that stats for games with small samples are very unreliable.",
+    "url": "https://steamspy.com/about"
+   },
+   {
+    "fact": "The About page says 'owned' does not mean 'sold' and that free weekends distort the owners figure.",
+    "url": "https://steamspy.com/about"
+   },
+   {
+    "fact": "The About page describes the site as a side project of Sergey Galyonkin with a copyright range of 2015-2021.",
+    "url": "https://steamspy.com/about"
+   }
+  ]
+ },
+ {
+  "slug": "niko-partners",
+  "name": "Niko Partners",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://nikopartners.com/",
+  "company": "Niko Partners",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "A market research firm selling video game and esports data, reports, trackers and consulting for Asia and MENA.",
+  "platforms": "Web knowledge base (NikoIQ), reports and data trackers",
+  "pricing": "Not stated on the opened page; the page offers a NikoIQ demo and contact options.",
+  "pricing_model": "Quote only",
+  "free_plan": "Unknown",
+  "key_features": [
+   "NikoIQ knowledge base",
+   "Data and insights trackers",
+   "Research reports",
+   "Custom consulting",
+   "Livestreaming tracker"
+  ],
+  "notable": [
+   "Homepage lists free bulletins and white papers",
+   "Homepage quotes Zynga, NCSOFT and Savvy Games Group executives"
+  ],
+  "facts": [
+   {
+    "fact": "Niko Partners describes itself as delivering market data and insights for video games and esports in Asia and MENA.",
+    "url": "https://nikopartners.com/"
+   },
+   {
+    "fact": "The homepage lists NikoIQ, Data and Insights Trackers, Research Reports and Custom Consulting as its products and services.",
+    "url": "https://nikopartners.com/"
+   },
+   {
+    "fact": "The homepage offers a NikoIQ demo booking and shows no prices.",
+    "url": "https://nikopartners.com/"
+   },
+   {
+    "fact": "The homepage lists free research in the form of bulletins and white papers.",
+    "url": "https://nikopartners.com/"
+   }
+  ]
+ }
+]

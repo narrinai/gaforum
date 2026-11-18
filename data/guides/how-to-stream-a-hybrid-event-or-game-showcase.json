@@ -1,0 +1,164 @@
+{
+  "slug": "how-to-stream-a-hybrid-event-or-game-showcase",
+  "title": "How to Stream a Hybrid Event or Game Showcase",
+  "description": "A planning playbook for hybrid events and game showcases: set latency by interactivity, size bitrate, add captions and interpreters, and rehearse failures.",
+  "kind": "Playbook",
+  "topic": "Live video for business",
+  "published": "2026-11-18",
+  "intro": "A hybrid event or game showcase has two audiences at once, one in the room and one on screens, and the stream only works if the online audience is treated as a first-class group with its own schedule, language support and way to ask questions. Plan it backward from three decisions: how interactive the online audience should be, how much delay that allows, and what happens when a link fails. This playbook covers those decisions and the production steps that follow.",
+  "key_takeaways": [
+    "Decide how interactive the remote audience is first; it sets the allowed latency, the platform type and the production budget.",
+    "Match the outgoing bitrate to your venue's upload capacity with margin, and test with motion and audio similar to the show.",
+    "Add live captions and, where needed, interpretation at the planning stage, not a week before.",
+    "Use a transport built for unreliable networks if the signal leaves the venue over a shared connection.",
+    "Run a full rehearsal that includes a deliberate failure of the main link."
+  ],
+  "sections": [
+    {
+      "h2": "Start with the remote audience, not the stage",
+      "paras": [
+        "Most hybrid events go wrong because the stream is treated as a recording of the room. A remote viewer has different needs: a clear start time in their time zone, a way to see slides and demos at readable size, and some way to take part that does not depend on a microphone passing through the audience.",
+        "Write one paragraph describing what a remote attendee does during the event. Do they only watch a showcase of trailers, or do they join breakouts, ask questions, meet sponsors and visit booths? The answer decides whether you need a plain broadcast, a webinar tool, or a full virtual event platform. Our ranking of [virtual event streaming platforms for hybrid events](/software/best-virtual-event-streaming-platforms-for-hybrid-events) lists verified options such as Airmeet, Swapcard, Vimeo and Zoom Events and Webinars, and the vendors differ in the features they emphasize. Zoom's webinar page, for instance, lists Webinars for up to 500 attendees, Webinars Plus and Events as separate plans, which shows how quickly the tier you need depends on audience size."
+      ]
+    },
+    {
+      "h2": "Let interactivity set your latency",
+      "paras": [
+        "Latency is the delay between the camera and the viewer's screen. YouTube's help center frames the trade-off clearly: lower latency suits live chat where you answer comments and questions, while higher latency is fine if you do not interact, and lowering it increases the chance of viewer buffering because the player holds less read-ahead data.",
+        "YouTube defines three modes. Normal latency is the highest quality setting and supports all resolutions and live features. Low latency gives most viewers under 10 seconds, and ultra-low latency gives most viewers under 5 seconds, and neither of those two supports 4K. That is a useful rule for a game showcase: if the premiere is a pre-produced reveal with a chat running alongside, normal or low latency is plenty. If a host reads live questions to developers on stage, choose the lower setting and accept a little more buffering risk.",
+        "For a deeper treatment of protocols and delay, see our guide on [RTMP, SRT and WebRTC latency](/guides/rtmp-srt-webrtc-streaming-latency-explained)."
+      ]
+    },
+    {
+      "h2": "Size the bitrate to the room's upload line",
+      "paras": [
+        "Ask the venue for the upload speed on the specific connection you will use, and run your own test at the site, ideally at the time of day the event will happen. YouTube advises running a speed test to check upload bitrate and choosing a quality that results in a reliable stream for your connection.",
+        "Its published ranges give you something to plan against. For H.264, the table lists a recommended bitrate of 17 Mbps for 1080p at 60 frames per second, with a minimum of 6, and 14 Mbps recommended for 1080p at 30 with a minimum of 5. For 720p at 60 the recommendation is 8 with a minimum of 3. Audio guidance in the same page is 128 kbps for stereo. If a venue's reliable upload is, say, 20 Mbps, a 17 Mbps stream leaves almost no margin once other users share the line, so either choose a lower tier, or isolate the stream on its own connection.",
+        "YouTube also recommends streaming with RTMPS, the secure variant of RTMP, so that the data is encrypted into and through its servers. Whatever platform you use, send the main feed from a wired connection, not WiFi."
+      ]
+    },
+    {
+      "h2": "Choose a transport for the venue network",
+      "paras": [
+        "If your camera feeds travel to a remote control room, or your signal goes to a cloud mixer before reaching the platform, a venue's shared network can drop packets. The SRT Alliance describes SRT (Secure Reliable Transport) as an open-source protocol built to deliver secure, low-latency video across unpredictable networks, with packet loss recovery, jitter control and AES 128 or 256-bit encryption, and says more than 700 broadcast and streaming technology companies use it.",
+        "In practice SRT is often used for the contribution leg, from venue to production hub, while the last leg to viewers uses RTMPS or HLS through the platform. Check that your encoder and your mixer both support it before you commit. Production software such as vMix and Wirecast appears in our ranking of [live production software](/software/best-live-production-software); vMix's homepage shows a purchase option from 50 dollars per month and a free 60-day trial, and Wirecast's pricing page lists Studio from 34 dollars per month billed yearly and a free trial with every feature."
+      ]
+    },
+    {
+      "h2": "Plan language access early",
+      "paras": [
+        "A global audience means captions and sometimes translation. Treat them as production items with their own owners and test sessions.",
+        "Several verified vendors cover this. Wordly describes AI translation, captions and audience engagement for meetings and events. KUDO states that its live translated speech and captions cover 200 languages, using AI speech translation or professional human interpretation. Interprefy offers remote simultaneous interpretation, AI speech translation and live captions, and says it is ISO 27001 certified. Our ranking of [live captioning and translation for livestreams](/software/best-live-captioning-and-translation-for-livestreams) lists more.",
+        "Send speakers' scripts, slide decks and a glossary of game titles, studio names and character names to the language provider ahead of time. Proper nouns are where automatic captions most often fail, and a showcase is full of them."
+      ]
+    },
+    {
+      "h2": "Run-of-show checklist for the production team",
+      "paras": [
+        "Use this as the skeleton of your technical rundown and fill in names and times."
+      ],
+      "list": [
+        "Fix the stream start, a countdown slate, and a hold slide that can go up if a segment slips.",
+        "Name an owner for the main encoder, the backup encoder, captions, the online moderator and the platform dashboard.",
+        "Give the remote moderator a feed of the room audio and a private channel to the stage manager.",
+        "Pre-load trailers and sponsor videos locally, so playback does not depend on the venue network.",
+        "Prepare a lower-third and a slide for every speaker, and test the font size on a phone screen.",
+        "Decide in advance who can cut the stream, and what text goes out if you do."
+      ],
+      "ordered": true
+    },
+    {
+      "h2": "Build redundancy where failure is likely",
+      "paras": [
+        "Rank the failure points by likelihood and cost, then cover the top ones. The venue's internet link is usually first, followed by the main encoder and by speaker audio. A second internet connection from another provider, a second encoder running a copy of the same scene, and a spare wireless microphone on a different frequency each address one of those.",
+        "YouTube's guidance is to test before you start and to monitor stream health during the event, reviewing the platform's messages. Assign one person to do nothing but watch the health indicators. Their job is to notice a falling bitrate or a rising dropped-frame count before viewers do, and to tell the director while a switch is still possible."
+      ]
+    },
+    {
+      "h2": "Rehearse with the failure included",
+      "paras": [
+        "A rehearsal that only proves the happy path proves little. Run the full show once at the event's real resolution and bitrate, with the real speakers, the real slides and the language provider connected. Then, during the rehearsal, unplug the main internet link on purpose and time how long it takes the team to restore the stream from the backup.",
+        "Record the rehearsal and watch it as a remote attendee would, on a laptop and on a phone, without the room's sound. Check that the slides are legible, that the captions keep up, and that a viewer who joins late can tell what is happening within a few seconds. If your showcase includes gameplay, see our guide on [recording gameplay without losing frame rate](/guides/how-to-record-gameplay-without-fps-loss) for the capture side, and the guide to [choosing a live streaming platform for company events](/guides/how-to-choose-a-live-streaming-platform-for-company-events) if you are still comparing platforms."
+      ]
+    },
+    {
+      "h2": "After the event",
+      "paras": [
+        "The stream does not end when the stage goes dark. Keep the recording, clean up the captions, and publish the main segments as on-demand video within a day or two, while attention is still high. Review viewer counts and drop-off points to see where remote attendees left, because those moments are the ones to change next time. Our ranking of [livestream analytics tools](/software/best-livestream-analytics-tools) covers what you can use for that review."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What bitrate should a 1080p showcase stream use?",
+      "a": "YouTube's live encoder table lists, for H.264, a recommended 17 Mbps at 1080p 60 fps with a minimum of 6, and a recommended 14 Mbps at 1080p 30 fps with a minimum of 5. Pick a tier that leaves headroom on the venue's real upload speed, measured on site."
+    },
+    {
+      "q": "Which YouTube latency mode fits a Q&A with developers?",
+      "a": "Ultra-low latency, where YouTube says most viewers see under 5 seconds, suits live conversation with the audience, at a higher chance of buffering. Low latency gives under 10 seconds for most viewers. Neither supports 4K, so choose by whether questions are read live or not."
+    },
+    {
+      "q": "Why use SRT instead of RTMP from the venue?",
+      "a": "SRT is built for unreliable networks, with packet loss recovery, jitter control and encryption, according to the SRT Alliance. It is a good fit for the leg from a shared venue network to a remote production hub. Many workflows still deliver to viewers with RTMPS or HLS."
+    },
+    {
+      "q": "When should captions and interpretation be booked?",
+      "a": "As soon as the program and speaker list are known. Providers need scripts, slide decks and a glossary of names, and a test session in the event platform. Booking a week before leaves no time to fix misrecognized game titles or to arrange human interpreters."
+    },
+    {
+      "q": "Do I need a separate backup internet connection?",
+      "a": "For anything with sponsors, announcements or paid tickets, yes. The venue's link is the most likely single point of failure. A second connection from a different provider, tested during rehearsal with the main link unplugged, shows how quickly you can recover."
+    }
+  ],
+  "related_categories": [
+    "best-virtual-event-streaming-platforms-for-hybrid-events",
+    "best-live-captioning-and-translation-for-livestreams"
+  ],
+  "related_guides": [
+    "rtmp-srt-webrtc-streaming-latency-explained",
+    "how-to-choose-a-live-streaming-platform-for-company-events",
+    "how-to-record-gameplay-without-fps-loss"
+  ],
+  "sources": [
+    {
+      "title": "Choose live encoder settings, bitrates, and resolutions",
+      "url": "https://support.google.com/youtube/answer/2853702",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "Understand live streaming latency",
+      "url": "https://support.google.com/youtube/answer/7444635",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "SRT Alliance",
+      "url": "https://www.srtalliance.org/",
+      "publisher": "SRT Alliance"
+    },
+    {
+      "title": "Zoom Webinars",
+      "url": "https://www.zoom.com/en/products/webinars/",
+      "publisher": "Zoom Communications, Inc."
+    },
+    {
+      "title": "vMix",
+      "url": "https://www.vmix.com/",
+      "publisher": "vMix"
+    },
+    {
+      "title": "Wirecast pricing",
+      "url": "https://www.wirecast.io/pricing/",
+      "publisher": "Wirecast"
+    },
+    {
+      "title": "KUDO",
+      "url": "https://kudo.ai/",
+      "publisher": "KUDO Inc."
+    },
+    {
+      "title": "Interprefy",
+      "url": "https://www.interprefy.com/",
+      "publisher": "Interprefy"
+    }
+  ]
+}

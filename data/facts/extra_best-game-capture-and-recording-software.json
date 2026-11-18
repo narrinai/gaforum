@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "allstar",
+    "name": "Allstar",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://allstar.gg/",
+    "company": "Allstar Gaming, Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Clip capture tool for competitive games that records highlights and hosts them in Allstar Studio.",
+    "platforms": "Desktop app, plus iOS and Android apps",
+    "pricing": "Described as free clip capture; the help center lists subscriptions and product tiers without prices on the pages opened.",
+    "pricing_model": "Free tier plus subscriptions",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Clip capture",
+      "Allstar Studio",
+      "Montages",
+      "Clip feed",
+      "Mobile apps"
+    ],
+    "notable": [
+      "Game list on the homepage: Counter-Strike 2, League of Legends, Fortnite and Dota 2"
+    ],
+    "facts": [
+      {
+        "fact": "The homepage describes Allstar as free, fast and easy clip capture with zero FPS drop for Counter-Strike 2, League of Legends, Fortnite and Dota 2.",
+        "url": "https://allstar.gg/"
+      },
+      {
+        "fact": "The help center lists Allstar Studio, Montages, Clip Feed and AllstarBot as product areas, and says Allstar is available as an iOS and Android app.",
+        "url": "https://help.allstar.gg/hc/en-us"
+      },
+      {
+        "fact": "The help center has a Billing and Subscriptions section about Allstar subscriptions and product tiers, and its footer reads Allstar Gaming, Inc.",
+        "url": "https://help.allstar.gg/hc/en-us/categories/12131302868375-Billing-Subscriptions"
+      }
+    ]
+  }
+]

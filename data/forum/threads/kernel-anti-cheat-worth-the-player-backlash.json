@@ -1,0 +1,26 @@
+{
+  "id": "kernel-anti-cheat-worth-the-player-backlash",
+  "board": "games",
+  "title": "Kernel anti-cheat: worth the player backlash?",
+  "created": "2026-11-18T09:14:00Z",
+  "pinned": false,
+  "body": [
+    "Kernel-level anti-cheat can catch cheats that operate deep in the operating system, but players and security researchers often object to software with that level of access. Where do you draw the line for a competitive game, and what does your community tolerate?",
+    "Vendors present their offerings differently. The [Easy Anti-Cheat site](https://www.easy.ac/) lists support for Windows, Mac, Linux and Steam Deck and says integration is self-service through the Epic Online Services SDK, with basic protection free. The [BattlEye homepage](https://www.battleye.com) describes the service as independent anti-cheat that updates protection against new exploits and permanently bans cheaters.",
+    "Server-side detection, authoritative servers and report-and-review systems are alternatives or complements. If you have weighed these for a launch, or decided to leave a protection layer out, share your reasoning, including what you told players about it."
+  ],
+  "related": [
+    {
+      "title": "Best Game Anti-Cheat Software in 2026",
+      "url": "/software/best-game-anti-cheat-software"
+    },
+    {
+      "title": "Easy Anti-Cheat Alternatives in 2026",
+      "url": "/alternatives/easy-anti-cheat"
+    },
+    {
+      "title": "BattlEye Alternatives in 2026",
+      "url": "/alternatives/battleye"
+    }
+  ]
+}

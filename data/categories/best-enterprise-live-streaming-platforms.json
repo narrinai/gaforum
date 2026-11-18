@@ -1,0 +1,581 @@
+{
+  "slug": "best-enterprise-live-streaming-platforms",
+  "name": "enterprise live streaming platforms",
+  "title": "Best Enterprise Live Streaming Platforms in 2026",
+  "group": "Live streaming (business)",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Enterprise live streaming platforms broadcast town halls and product launches to large audiences with security controls, analytics and network-friendly delivery.",
+  "definition": "Enterprise live streaming platforms are business video systems that broadcast one presenter or studio to many viewers at once, such as employees at a town hall or customers at a launch. They add what consumer tools lack: access control, single sign-on, delivery that spares office networks, audience analytics and a managed library of recordings.",
+  "intro": "A chief executive speaking to twenty thousand employees is a different problem from a gamer streaming to a few hundred followers. The video must start for everyone, stay behind a login, and not saturate the office network. This ranking is written for communications, IT and marketing teams who run that kind of event. We read each vendor's homepage, product and pricing pages and compared what they publish about live features, security, delivery and cost. We did not run broadcasts ourselves, and where a vendor makes a claim, such as a certification, we say it is the vendor's claim. Twelve platforms are ranked. Order reflects fit for corporate broadcasts, so developer APIs and classroom suites sit lower even when they are good products.",
+  "criteria": [
+    {
+      "heading": "Delivery to crowded office networks",
+      "text": "A live event fails when thousands of staff pull the same stream across one office link. Enterprise eCDN tools cache and share video inside the network to take that load off. We checked whether a vendor describes network offload, a rehearsal or silent test, and real-time monitoring. Vbrick and Hive Streaming list these directly. Platforms that describe only public delivery rank lower for internal broadcasts, however polished their player is."
+    },
+    {
+      "heading": "Security and compliance claims",
+      "text": "Corporate events often carry earnings news or strategy. Look for stated certifications, access controls and the kind of buyers a vendor names. We recorded only what the vendor's pages say, such as Vbrick's FedRAMP statement, and treated them as claims to verify in procurement. A vendor that is silent about security on its public pages is not necessarily weak, but you will need documents before a security review."
+    },
+    {
+      "heading": "Pricing you can plan around",
+      "text": "Most platforms here sell by quote. A few publish rates: Dacast lists three monthly plans and Mux lists per-minute usage rates. Others publish tiers without dollar amounts. Published prices help a department bid for budget before a sales cycle starts. We weighed this lightly against capability, because an unpublished price often reflects negotiated enterprise contracts, but it counts when a team needs a fast answer."
+    },
+    {
+      "heading": "Event workflow versus infrastructure",
+      "text": "Some products give a producer a finished event: registration, polls, captions, a studio and reporting. Others give engineers building blocks such as servers or APIs. We favored products a communications team can operate without developers, and we ranked infrastructure tools lower on this page for that reason. If you do have engineers, the infrastructure tools may save money and offer more control."
+    }
+  ],
+  "market_notes": [
+    "The list splits into three groups. Six platforms are enterprise video suites sold on contact: Vbrick, Hive Streaming, Qumu, Panopto, YuJa and Brightcove all show no price on the pages we read, and Kaltura offers only trial tiers before quotes. Three publish some pricing: Dacast, Mux and Zoom, though Zoom's dollar amounts sit on another page. Free entry points exist at Vimeo (a free plan), Kaltura (a trial), Dacast (14 days) and Wowza (a trial). Anyone comparing budgets will mostly be waiting for quotes.",
+    "The trade-off is breadth versus focus. Kaltura, Brightcove and Vimeo cover hosting, OTT and events under one roof, which simplifies vendor management but spreads attention. Hive Streaming is narrow on purpose, an add-on that improves delivery for a platform you already own. Wowza and Mux sit furthest toward infrastructure. One vendor change is worth noting: Qumu's website now redirects to a page on the Enghouse Video site, so check who supports the product before signing."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Count the viewers and map their networks",
+      "text": "Write down the largest audience you expect and where they sit: one headquarters, many branches, home offices. If thousands will join from a few buildings, delivery inside the network decides the outcome, and Vbrick or Hive Streaming should be on the shortlist. If viewers are customers on the public internet, hosting platforms like Brightcove or Vimeo matter more than eCDN."
+    },
+    {
+      "title": "List what the event needs besides video",
+      "text": "Registration, polls, captions, a recording library, single sign-on and reports each narrow the field. Zoom Events and Webinars is strong on registration and audience interaction. Panopto and Kaltura are strong when the recording library matters. Decide which of these are mandatory before you request demos, so you can disqualify products quickly."
+    },
+    {
+      "title": "Ask for a rehearsal and written security documents",
+      "text": "Request a test event on your real network, and ask for certification documents rather than relying on website statements. Check who supports the product and for how long, especially where a brand has been moved to a parent company's site. Ask what the price includes: viewer hours, storage, support and add-ons such as China delivery."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best enterprise live streaming platform in 2026?",
+      "a": "Vbrick is our top pick for corporate town halls because it combines live webcasting, an eCDN, analytics and a vendor-stated FedRAMP certification. Hive Streaming is better when you already own a video platform and need delivery help for a large event. Kaltura is the better third pick when you want a video portal and webinars in the same contract."
+    },
+    {
+      "q": "What is an eCDN and do I need one?",
+      "a": "An eCDN is a delivery layer inside a company network that lets viewers share a stream rather than each pulling it from the internet. You need one when thousands of employees watch from the same offices. Vbrick and Hive Streaming both list eCDN products. If your audience is external customers, you probably do not."
+    },
+    {
+      "q": "Which platforms publish their prices?",
+      "a": "Few do. Dacast lists plans at $39, $63 and $165 per month, and Mux lists per-minute usage rates. Zoom shows three plan names but sends you elsewhere for amounts. Vbrick, Brightcove, Qumu, YuJa, Hive Streaming and Panopto expect you to request a quote."
+    },
+    {
+      "q": "Can a free plan handle an internal company broadcast?",
+      "a": "A free plan can host a small test, but company-wide events need access control, support and reporting that free tiers rarely include. Vimeo offers a free plan and Kaltura a free trial. Treat those as ways to evaluate the interface, then price a paid tier against your audience size and security needs."
+    },
+    {
+      "q": "Is Zoom good enough for town halls?",
+      "a": "For registration-based webinars and smaller company meetings, yes. The Webinars plan covers up to 500 attendees, and higher plans add production tools. For tens of thousands of viewers on office networks, the pages we read describe no eCDN, so dedicated platforms such as Vbrick are the safer path."
+    },
+    {
+      "q": "Should engineers build on a video API instead?",
+      "a": "Only if you have developers and want a custom experience. Mux sells live encoding and delivery per minute, and Wowza offers server software you run yourself. Both give control, but you must build registration, reporting and moderation. A communications team is faster with a finished event product."
+    },
+    {
+      "q": "What should I ask a vendor before signing?",
+      "a": "Ask for a rehearsal on your own network, current security certificates, a written price covering viewers, storage and support, and the support commitment for the product's future. Qumu's move to a parent company site is a reminder to confirm who stands behind a product."
+    }
+  ],
+  "related": [
+    "best-live-streaming-apis-and-sdks",
+    "best-streaming-media-servers",
+    "best-live-production-software"
+  ],
+  "tools": [
+    {
+      "slug": "vbrick",
+      "name": "Vbrick",
+      "site": "https://vbrick.com/",
+      "company": "Vbrick",
+      "country": "",
+      "tagline": "Enterprise video platform with live webcasting and eCDN",
+      "best_for": "Regulated corporate town halls",
+      "pricing": "No prices are published; the site directs visitors to contact the company.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Enterprise video platform, eCDN for Microsoft Teams and Webex Webinars, live webcasting",
+      "features": [
+        "Live webcasting",
+        "Video content management",
+        "eCDN solutions",
+        "Video analytics",
+        "Vbrick AI",
+        "Security controls"
+      ],
+      "summary": "Vbrick pairs live webcasting with an eCDN and security controls, and its FedRAMP claim gives regulated employers a concrete reason to shortlist it first.",
+      "verdict": "Vbrick takes the top spot because the facts line up with what a company-wide broadcast needs. The vendor lists live webcasting, an eCDN for Microsoft Teams and Webex Webinars, video analytics and security controls on one page, and it describes the platform as FedRAMP-certified. That matters to government and heavily audited employers. An internal communications team can run the event, measure who watched, and keep the video library under one administrative roof. The AI features are an extra, not the reason to buy.",
+      "weaknesses": "Nothing about cost is public: the site shows no prices and sends visitors to a contact page, so budgeting starts with a sales call. The FedRAMP statement is the vendor's own homepage claim, and we did not read an authorization record. The product is built for large organizations and will feel heavy for a quarterly all-hands.",
+      "wrong_for": "A ten-person company running one webinar a quarter should not start a sales cycle here; Zoom Events and Webinars or Vimeo cover that need with published plan tiers.",
+      "sources": [
+        {
+          "fact": "Vbrick describes itself as an enterprise video intelligence platform for managing, securing and streaming video, with AI-ready data output.",
+          "url": "https://vbrick.com/"
+        },
+        {
+          "fact": "The Vbrick homepage lists live webcasting, an eCDN and video analytics among its capabilities.",
+          "url": "https://vbrick.com/"
+        },
+        {
+          "fact": "The Vbrick homepage describes its enterprise video platform as FedRAMP-certified.",
+          "url": "https://vbrick.com/"
+        },
+        {
+          "fact": "The Vbrick homepage shows no prices and directs visitors to a Contact Us page.",
+          "url": "https://vbrick.com/"
+        }
+      ]
+    },
+    {
+      "slug": "hive-streaming",
+      "name": "Hive Streaming",
+      "site": "https://www.hivestreaming.com",
+      "company": "Hive Streaming",
+      "country": "",
+      "tagline": "eCDN and event analytics layered on your existing video platform",
+      "best_for": "Large live events on busy networks",
+      "pricing": "No prices published; the site directs visitors to a Get started contact page.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Enterprise live video; Microsoft Teams Rooms support; eCDN",
+      "features": [
+        "Hive eCDN",
+        "Hive Throughput Manager",
+        "Hive Control real-time troubleshooting",
+        "Hive Silent Test",
+        "Hive Engagement Indicators",
+        "Hive Focus attentiveness insights"
+      ],
+      "summary": "Hive Streaming does not replace your video platform; it adds delivery offload, live monitoring and engagement data on top, which suits companies with congested office networks.",
+      "verdict": "Hive is the specialist for the moment a CEO goes live to thousands of employees at once. The vendor describes a video experience platform that extends an enterprise video platform you already own, with Hive eCDN for network offload, Hive Control for real-time troubleshooting, a Silent Test for rehearsing delivery and engagement indicators afterward. The company traces its roots to a 2007 research project in Stockholm. Pick it when the pain is delivery quality and visibility into the event, not a missing video library.",
+      "weaknesses": "It is an add-on layer, so you still need a source platform to host and manage video. No prices are published and the homepage points to a Get started contact page. Smaller teams that stream from a single office network will pay for tooling they never use.",
+      "wrong_for": "If you need one product that also stores and organizes your video library, look at Vbrick or Kaltura; Hive assumes that part already exists.",
+      "sources": [
+        {
+          "fact": "Hive Streaming describes itself as the video experience platform for enterprise live events, extending an existing enterprise video platform.",
+          "url": "https://www.hivestreaming.com"
+        },
+        {
+          "fact": "The Hive Streaming about page says the company began in 2007 as a research project at the Swedish Institute for Computer Science and the Royal Institute of Technology in Stockholm.",
+          "url": "https://www.hivestreaming.com/about"
+        },
+        {
+          "fact": "The Hive Streaming homepage lists Hive eCDN for network offload and Hive Control for real-time troubleshooting among its products.",
+          "url": "https://www.hivestreaming.com"
+        },
+        {
+          "fact": "The Hive Streaming homepage shows no prices and links to a Get started contact page.",
+          "url": "https://www.hivestreaming.com"
+        }
+      ]
+    },
+    {
+      "slug": "kaltura",
+      "name": "Kaltura",
+      "site": "https://corp.kaltura.com",
+      "company": "Kaltura",
+      "country": "",
+      "tagline": "Broad enterprise video suite with events, webinars and developer tools",
+      "best_for": "Companies wanting events plus a portal",
+      "pricing": "A free trial and a limited trial are offered; other plans are quoted through sales.",
+      "pricing_model": "Quote only",
+      "free_plan": "Free trial",
+      "platforms": "Cloud video platform, virtual classroom, webinars, streaming platform",
+      "features": [
+        "Video portal",
+        "Events and webinars",
+        "Virtual classroom",
+        "Streaming platform",
+        "Video content management system",
+        "Conversational AI avatars"
+      ],
+      "summary": "Kaltura covers events, webinars, a video portal and a developer suite in one catalog, which helps when live is only one of several video jobs.",
+      "verdict": "Kaltura's catalog is wide: video portals, events and webinars, virtual classrooms, streaming and a developer suite, according to its homepage. The pricing page starts with a free trial and a limited trial before quotes, so a team can test before a sales conversation, which the quote-only suites on this page do not offer. Companies that already want a corporate video portal and need occasional large broadcasts get both under one contract. The breadth also means you assemble the pieces you need.",
+      "weaknesses": "Beyond the trial tiers, plans for webinars, virtual events and digital video are quoted, so there is no list price to compare. The suite is aimed at several audiences (education, media and telecom, enterprise), which can make the product navigation harder to read for a pure town hall buyer.",
+      "wrong_for": "Teams that want only a webcast and delivery tool with tight network controls should compare Hive Streaming first; Kaltura is the wider purchase.",
+      "sources": [
+        {
+          "fact": "Kaltura describes itself as an enterprise video company with products for video portals, events and webinars, virtual classrooms and streaming.",
+          "url": "https://corp.kaltura.com"
+        },
+        {
+          "fact": "The Kaltura pricing page offers a free trial and a limited trial, and lists quoted plans for webinars, virtual events and digital video.",
+          "url": "https://corp.kaltura.com/pricing/"
+        },
+        {
+          "fact": "The Kaltura homepage lists education, media and telecom suites, and a developer suite.",
+          "url": "https://corp.kaltura.com"
+        },
+        {
+          "fact": "Kaltura's pricing page states visitors can get a quote from sales to mix and match solutions.",
+          "url": "https://corp.kaltura.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "brightcove",
+      "name": "Brightcove",
+      "site": "https://www.brightcove.com",
+      "company": "Brightcove Inc.",
+      "country": "",
+      "tagline": "Video hosting and streaming platform with live, OTT and APIs",
+      "best_for": "Marketing-led launches with developer needs",
+      "pricing": "No prices are shown on the site; the vendor directs visitors to Contact Sales and Request a Demo.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Video Cloud, live streaming, OTT",
+      "features": [
+        "Video hosting and library",
+        "Live streaming",
+        "OTT",
+        "Video analytics",
+        "Developer APIs",
+        "Agentic Hub and MCP AI tools"
+      ],
+      "summary": "Brightcove brings live streaming, OTT and developer APIs to a hosting platform that suits launches published beyond a firewall.",
+      "verdict": "Brightcove describes a secure, scalable platform for hosting, sharing and monetizing video, and its homepage lists live streaming, OTT and developer APIs. That mix fits a product launch or a customer-facing event that must live on a public site, with an API to wire it into your own pages. Its site also mentions Agentic Hub and MCP tools for AI workflows. It leans toward media-style publishing more than internal communications, so it ranks below the three platforms built around employee broadcasts.",
+      "weaknesses": "No prices are shown; visitors are sent to Contact Sales or Request a Demo. The public pages we read say little about internal network delivery or single sign-on, so verify those in a demo if you broadcast mostly to employees.",
+      "wrong_for": "If your main audience is employees on corporate networks, Vbrick or Hive Streaming speak more directly to that job.",
+      "sources": [
+        {
+          "fact": "Brightcove describes its platform as a secure, scalable video hosting and streaming platform for hosting, sharing and monetizing video.",
+          "url": "https://www.brightcove.com"
+        },
+        {
+          "fact": "The Brightcove homepage lists live streaming, OTT and developer APIs among its product features.",
+          "url": "https://www.brightcove.com"
+        },
+        {
+          "fact": "The Brightcove homepage offers Contact Sales and Request a Demo instead of published prices.",
+          "url": "https://www.brightcove.com"
+        }
+      ]
+    },
+    {
+      "slug": "qumu",
+      "name": "Qumu",
+      "site": "https://www.enghousevideo.com/enterprise-video-management/qumu",
+      "company": "",
+      "country": "",
+      "tagline": "Enterprise video management sold as Enghouse Qumu",
+      "best_for": "Existing Qumu buyers and video-heavy intranets",
+      "pricing": "No prices published; the site offers a Book a Demo option.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Cloud and enterprise video platform; live broadcasting; video recording",
+      "features": [
+        "Enterprise video management",
+        "Portal and search",
+        "Live broadcasting",
+        "Video recording",
+        "AI-driven videos",
+        "LMS integration"
+      ],
+      "summary": "Qumu offers live broadcasting, recording, search and an AI-driven video feature set, now presented under the Enghouse Video umbrella.",
+      "verdict": "Qumu manages, secures and streams enterprise video, and the product page lists live broadcasting, video recording, a portal with search and AI-driven videos. The notable change is branding: qumu.com now redirects to a page on the Enghouse Video site, where the product is called Enghouse Qumu and sits beside other Enghouse brands. A buyer should treat that as a vendor-roadmap question worth asking. Teams already running Qumu have a reason to stay; new buyers have more visible alternatives.",
+      "weaknesses": "The product moved under a larger parent site, so confirm support and roadmap commitments in writing. No prices are published and the page offers a Book a Demo option only. Public detail on live event scale and security is thinner than on the top three.",
+      "wrong_for": "A company starting from scratch with a single big event should look at Vbrick or Kaltura, where the public pages describe live and security features at more length.",
+      "sources": [
+        {
+          "fact": "The Qumu product page, hosted on the Enghouse Video site, describes Enghouse Qumu as a video platform that manages, secures and streams enterprise video.",
+          "url": "https://www.enghousevideo.com/enterprise-video-management/qumu"
+        },
+        {
+          "fact": "The Qumu page lists live broadcasting, video recording, portal and search, and AI-driven videos among its capabilities.",
+          "url": "https://www.enghousevideo.com/enterprise-video-management/qumu"
+        },
+        {
+          "fact": "The Qumu page lists a Book a Demo option and no prices.",
+          "url": "https://www.enghousevideo.com/enterprise-video-management/qumu"
+        },
+        {
+          "fact": "The Qumu page sits within the Enghouse Video site, under a navigation that also lists Vidyo, Lifesize and Mediasite as brands.",
+          "url": "https://www.enghousevideo.com/enterprise-video-management/qumu"
+        }
+      ]
+    },
+    {
+      "slug": "zoom-events-and-webinars",
+      "name": "Zoom Events and Webinars",
+      "site": "https://www.zoom.com/en/products/webinars/",
+      "company": "Zoom Communications, Inc.",
+      "country": "",
+      "tagline": "Webinar and virtual event platform with three plan tiers",
+      "best_for": "Webinars and registration-led events",
+      "pricing": "Three plans (Webinars, Webinars Plus, Events) listed on the page; dollar amounts are not on the page and the vendor points to a separate events pricing page.",
+      "pricing_model": "Subscription",
+      "free_plan": "Unknown",
+      "platforms": "Web-based webinar and event platform (per vendor page)",
+      "features": [
+        "Simulive",
+        "Production Studio",
+        "Breakout rooms",
+        "Polls and Q&A",
+        "AI-generated captions",
+        "CRM integrations"
+      ],
+      "summary": "Zoom Events and Webinars handles one-to-many sessions with a production studio, simulive and polls, and a plan ladder that starts at 500 attendees.",
+      "verdict": "This is the low-friction choice for teams whose staff already use Zoom. The page describes one-to-many presentations with branding, production tools and analytics, and lists Simulive, a Production Studio, breakout rooms, polls and Q&A, AI-generated captions and CRM integrations. Three plans exist: Webinars for up to 500 attendees, Webinars Plus with AI, on-demand video and professional production tools, and Events. It fits registration-driven webinars better than a locked-down all-hands for tens of thousands of employees.",
+      "weaknesses": "Dollar amounts are not on the product page; the vendor refers to a separate events pricing page. The entry plan caps at 500 attendees, so big broadcasts need a higher tier. The page does not describe an eCDN for office network offload.",
+      "wrong_for": "For a large employee broadcast over congested office networks, Hive Streaming or Vbrick address delivery directly; Zoom is better for registration-based webinars.",
+      "sources": [
+        {
+          "fact": "Zoom Webinars is described as a platform for one-to-many presentations, from simple sessions to full broadcasts, with branding, production tools and analytics.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        },
+        {
+          "fact": "The page lists three plans: Webinars (up to 500 attendees), Webinars Plus (adds AI, on-demand video and pro production tools) and Events.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        },
+        {
+          "fact": "Dollar prices are not shown on the page; the vendor refers to a separate events pricing page for current rates.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        }
+      ]
+    },
+    {
+      "slug": "panopto",
+      "name": "Panopto",
+      "site": "https://www.panopto.com",
+      "company": "Panopto",
+      "country": "",
+      "tagline": "Video CMS built around training, onboarding and lecture capture",
+      "best_for": "Training libraries with occasional live",
+      "pricing": "Enterprise pricing only; every quote is scoped to users, integrations, add-ons and deployment model.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Video CMS, lecture capture, video training, meeting recording",
+      "features": [
+        "Video CMS",
+        "Lecture capture",
+        "Interactivity",
+        "AI capabilities and AI course creation",
+        "Tracking and analytics",
+        "Security"
+      ],
+      "summary": "Panopto is a video knowledge platform where live broadcasting is secondary to recording, search and training content.",
+      "verdict": "Panopto describes itself as a video knowledge platform for training, onboarding and lecture capture, with a video CMS, interactivity, analytics, security and AI course creation through a product called Develop. For an enterprise that mostly wants people to find and watch recorded material, with an occasional live session, it is coherent. Pricing is stated openly as enterprise pricing scoped to each organization, which at least tells you what to expect from a quote.",
+      "weaknesses": "Live streaming is not the headline on the pages we read; the emphasis is the knowledge library. Pricing is per organization with a custom quote, based on users, integrations, add-ons and deployment model, so there is no tier to compare. Not a pick for a big stage-style launch.",
+      "wrong_for": "Teams whose main output is live broadcasts rather than a searchable training library should start with Vbrick, Kaltura or Hive Streaming.",
+      "sources": [
+        {
+          "fact": "Panopto describes itself as a video knowledge platform for training, onboarding and lecture capture, letting organisations record, search and share video.",
+          "url": "https://www.panopto.com"
+        },
+        {
+          "fact": "The Panopto pricing page says pricing is enterprise pricing, priced for each organisation rather than by tier, with a custom quote for each deployment.",
+          "url": "https://www.panopto.com/pricing/"
+        },
+        {
+          "fact": "The Panopto homepage lists Develop, an AI course creation product, alongside its Video CMS.",
+          "url": "https://www.panopto.com"
+        }
+      ]
+    },
+    {
+      "slug": "vimeo",
+      "name": "Vimeo",
+      "site": "https://vimeo.com",
+      "company": "Vimeo.com, Inc.",
+      "country": "",
+      "tagline": "All-in-one video hosting with live streaming and webinars",
+      "best_for": "Small teams that need simple hosting",
+      "pricing": "A free plan is offered, paid plans are on the upgrade page, and enterprise plans go through contact sales.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "Browser and mobile app; live streaming; webinars; OTT",
+      "features": [
+        "Video hosting and player",
+        "Video editor",
+        "Webinars",
+        "Live streaming",
+        "Vimeo OTT",
+        "Vimeo On Demand"
+      ],
+      "summary": "Vimeo spans hosting, an editor, webinars, live streaming and OTT, with a free plan as the entry point.",
+      "verdict": "Vimeo's homepage describes an all-in-one video platform and lists webinars, live streaming, Vimeo OTT and Vimeo On Demand. A free plan exists and the upgrade page describes plans from free to enterprise, which makes it the easiest product here to try without talking to anyone. A marketing department that wants branded hosting, a player and a simple live event under one login will find it approachable. The enterprise controls matter more for larger buyers, and those are sold through contact sales.",
+      "weaknesses": "No prices appear in the page text we opened, so check the upgrade page for current amounts. The breadth targets creators and businesses alike, and the pages we read do not detail eCDN delivery or compliance certifications for large internal broadcasts.",
+      "wrong_for": "Regulated or very large employers that must prove security certifications should go to Vbrick; Vimeo suits lighter-weight needs.",
+      "sources": [
+        {
+          "fact": "Vimeo describes itself as an all-in-one video platform for creating, managing and sharing video.",
+          "url": "https://vimeo.com"
+        },
+        {
+          "fact": "The Vimeo homepage offers a Start for free option, and its upgrade page describes plans from free to enterprise.",
+          "url": "https://vimeo.com/upgrade-plan"
+        },
+        {
+          "fact": "The Vimeo homepage lists webinars, live streaming, Vimeo OTT and Vimeo On Demand among its products.",
+          "url": "https://vimeo.com"
+        },
+        {
+          "fact": "The Vimeo site footer reads 2026 Vimeo.com, Inc.",
+          "url": "https://vimeo.com"
+        }
+      ]
+    },
+    {
+      "slug": "wowza",
+      "name": "Wowza",
+      "site": "https://www.wowza.com",
+      "company": "Wowza Media Systems, LLC",
+      "country": "",
+      "tagline": "Streaming Engine server software plus the Flowplayer OVP cloud",
+      "best_for": "IT teams that want control of the stack",
+      "pricing": "The pricing page offers a trial and premium support plans; no price amounts appear on the pages we opened.",
+      "pricing_model": "Quote only",
+      "free_plan": "Free trial",
+      "platforms": "On-premises, cloud, hybrid, edge and air-gapped deployments for Streaming Engine; fully managed cloud for Flowplayer OVP",
+      "features": [
+        "Streaming Engine media server",
+        "Video Intelligence Framework",
+        "Flowplayer OVP managed platform",
+        "REST API",
+        "Test players",
+        "Premium support plans"
+      ],
+      "summary": "Wowza is streaming infrastructure for teams that want to run servers themselves, on-premises or air-gapped, or buy a managed cloud player.",
+      "verdict": "Wowza belongs on an enterprise list for one reason: deployment choice. Streaming Engine can run on-premises, in the cloud, at the edge or air-gapped, which appeals to organizations whose networks cannot depend on a public service. The company also lists Flowplayer OVP, a fully managed cloud streaming platform. You get a REST API and a Video Intelligence Framework, but you build the event experience around it yourself. It is infrastructure first and an events product second.",
+      "weaknesses": "There is no turnkey town hall workflow, registration or employee analytics layer in the pages we read. Price amounts are not listed; the pricing page offers a trial and premium support plans only.",
+      "wrong_for": "A communications team with no engineers should choose Vbrick, Kaltura or Zoom Events and Webinars, which ship an event workflow.",
+      "sources": [
+        {
+          "fact": "Wowza describes its Streaming Engine as video streaming server software for live and on-demand video, deployable on-prem, in the cloud, at the edge or air-gapped.",
+          "url": "https://www.wowza.com"
+        },
+        {
+          "fact": "Wowza's product list includes Flowplayer OVP, described as a fully managed, cloud-based streaming platform for live and on-demand video.",
+          "url": "https://www.wowza.com"
+        },
+        {
+          "fact": "The Wowza pricing page offers a Start a Trial option and lists premium support plans.",
+          "url": "https://www.wowza.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "yuja",
+      "name": "YuJa",
+      "site": "https://yuja.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Cloud video platform with accessibility and compliance products",
+      "best_for": "Education and regulated sectors",
+      "pricing": "Not stated on the homepage; the page links to a request-a-demo contact page.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Cloud-hosted; LMS integrations (per vendor page)",
+      "features": [
+        "Lumina video platform",
+        "Panorama LMS accessibility",
+        "Verity test proctoring",
+        "EqualGround website accessibility",
+        "CivicGuard document remediation",
+        "Sentinel AI compliance framework"
+      ],
+      "summary": "YuJa's Lumina video platform stores, manages and streams media, but the vendor leads with accessibility and compliance for regulated sectors.",
+      "verdict": "YuJa presents itself as a cloud-based provider of digital compliance and accessibility solutions, with the Lumina platform handling video storage, management and streaming. The homepage names universities as customers and lists LMS integrations, proctoring and accessibility tools next to the video product. If you are in a regulated sector where captions and accessibility are procurement requirements, that mix has appeal. For a corporate marketing launch it is an unusual fit.",
+      "weaknesses": "The homepage does not publish prices and links to a request-a-demo form. Its customer examples are universities, so enterprise event references are not visible in what we read. Live event features are not described in detail.",
+      "wrong_for": "Companies running external product launches should look at Brightcove or Vimeo; YuJa fits education and compliance-heavy buyers.",
+      "sources": [
+        {
+          "fact": "YuJa describes itself as a cloud-based provider of digital compliance and accessibility solutions for regulated sectors worldwide.",
+          "url": "https://yuja.com/"
+        },
+        {
+          "fact": "The homepage names a Lumina video platform for storing, managing and streaming media, alongside accessibility and proctoring products.",
+          "url": "https://yuja.com/"
+        },
+        {
+          "fact": "Pricing is not published on the homepage; the vendor page points to a request-a-demo contact form.",
+          "url": "https://yuja.com/"
+        }
+      ]
+    },
+    {
+      "slug": "dacast",
+      "name": "Dacast",
+      "site": "https://www.dacast.com",
+      "company": "",
+      "country": "",
+      "tagline": "Self-serve live streaming and hosting with published plans",
+      "best_for": "Budget-conscious scheduled broadcasts",
+      "pricing": "Plans are listed at $39, $63 and $165 per month with a 14-day free trial; add-ons and high-volume plans cost extra.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "RTMP, SRT and HLS streaming; OTT; video on demand; CDN live streaming",
+      "features": [
+        "Live streaming platform",
+        "Video on demand",
+        "OTT",
+        "RTMP, SRT and HLS streaming",
+        "Video API and player SDK",
+        "Video analytics"
+      ],
+      "summary": "Dacast publishes three plan prices and supports RTMP, SRT and HLS, which makes budgeting simple for scheduled broadcasts.",
+      "verdict": "Dacast is one of only two platforms in this list, with Mux, that show dollar prices on the pages we read, starting at $39, $63 and $165 per month with a 14-day free trial. It describes a platform for organizations that broadcast on a schedule, with an API, video hosting, OTT and on-demand video. RTMP, SRT and HLS support covers common encoders. It suits a department that wants predictable billing rather than a negotiated contract, though it lacks the enterprise governance tools of the leaders.",
+      "weaknesses": "Multi-CDN and China live and VOD delivery are paid add-ons, and high-volume plans are quoted. The pages we read describe no eCDN and no single sign-on, so internal broadcasts to large offices need extra checking.",
+      "wrong_for": "If employee-network delivery and audit controls are requirements, move up to Vbrick or Hive Streaming.",
+      "sources": [
+        {
+          "fact": "Dacast describes itself as a professional live streaming and video hosting platform for organisations that broadcast on a schedule.",
+          "url": "https://www.dacast.com"
+        },
+        {
+          "fact": "The Dacast pricing page lists plans at $39 per month, $63 per month and $165 per month, with a 14-day free trial.",
+          "url": "https://www.dacast.com/live-streaming-pricing-plans/"
+        },
+        {
+          "fact": "The Dacast pricing page states that multi-CDN and China live and VOD are add-ons at an extra charge.",
+          "url": "https://www.dacast.com/live-streaming-pricing-plans/"
+        },
+        {
+          "fact": "The Dacast homepage lists RTMP, SRT and HLS streaming platforms, OTT and video on demand.",
+          "url": "https://www.dacast.com"
+        }
+      ]
+    },
+    {
+      "slug": "mux",
+      "name": "Mux",
+      "site": "https://www.mux.com/",
+      "company": "Mux, Inc.",
+      "country": "",
+      "tagline": "Developer video API with live encoding and usage pricing",
+      "best_for": "Product teams building live into an app",
+      "pricing": "Pay as you go is free to start with no platform or per-seat fee, a $20 monthly usage credit, and usage rates such as live 1080p Plus encoding at $0.03125 per minute and storage at $0.003 per minute per month. Launch is $20/month for a $100 credit, Scale is $500/month for a $1,000 credit, and committed pricing for large volumes is quoted by sales.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free",
+      "platforms": "API for on-demand and live video; Mux Player (per vendor page)",
+      "features": [
+        "Live and on-demand video API",
+        "Encoding and delivery",
+        "Mux Player",
+        "Transcripts and thumbnails",
+        "Mux Robots AI workflows",
+        "Mux Data video analytics"
+      ],
+      "summary": "Mux is an API, not an event product, and its usage-based rates make it attractive when engineers want to embed live video.",
+      "verdict": "Mux sells video infrastructure to developers: live and on-demand video, encoding, delivery, a player and analytics, with transparent usage rates. Live 1080p Plus encoding is listed at $0.03125 per minute and storage at $0.003 per minute per month, and the first 100,000 delivery minutes each month are free. The page names Patreon, Shopify, Spotify, Vercel and Robinhood as customers. For an enterprise it works when engineering builds a custom event surface. It is not a ready-made town hall tool.",
+      "weaknesses": "Nobody in communications can run a broadcast with it alone; it needs developers. No eCDN or enterprise event workflow is described. Rates are per minute, so a very large audience needs a usage forecast before launch.",
+      "wrong_for": "A communications team without engineers should pick Zoom Events and Webinars or Kaltura instead of building on Mux.",
+      "sources": [
+        {
+          "fact": "Mux is a video API platform for developers covering streaming, moderation, search, analytics and video transformation.",
+          "url": "https://www.mux.com/"
+        },
+        {
+          "fact": "Mux states it is free to start with no credit card required and that Pay as you go has no platform fee and no per-seat fee.",
+          "url": "https://www.mux.com/pricing"
+        },
+        {
+          "fact": "The pricing page lists live 1080p Plus encoding at $0.03125 per minute and storage at $0.003 per minute per month, with 100,000 delivery minutes free each month.",
+          "url": "https://www.mux.com/pricing"
+        },
+        {
+          "fact": "The pricing page lists plans Launch ($20/month for a $100 credit) and Scale ($500/month for a $1,000 credit).",
+          "url": "https://www.mux.com/pricing"
+        }
+      ]
+    }
+  ]
+}

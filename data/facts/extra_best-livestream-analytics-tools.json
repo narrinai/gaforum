@@ -1,0 +1,89 @@
+[
+  {
+    "slug": "hatchet",
+    "name": "Hatchet",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://hatchet.gg",
+    "company": "Hatchet (part of GameSquare)",
+    "hq": "Barcelona",
+    "country": "Spain",
+    "country_code": "ES",
+    "what_it_is": "A business intelligence platform for gaming, esports and live streaming, covering creator discovery, audience analytics, campaign tracking and reporting; formerly sold as Stream Hatchet.",
+    "platforms": "Web",
+    "pricing": "Three plans (Community, Data License, Full License) with no prices shown; the vendor routes buyers to a demo call.",
+    "pricing_model": "Quote-based plans",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Creator and game discovery",
+      "Fake audience scoring",
+      "Chat and stream-title mention tracking",
+      "YouTube VOD analytics",
+      "Esports benchmarking",
+      "Campaign reporting"
+    ],
+    "notable": [
+      "Founded in Barcelona in 2016, now part of GameSquare",
+      "Streamhatchet.com redirects to hatchet.gg"
+    ],
+    "facts": [
+      {
+        "fact": "Hatchet describes itself as business intelligence for gaming, esports and live streaming, for brands, publishers, research agencies and teams.",
+        "url": "https://hatchet.gg"
+      },
+      {
+        "fact": "The pricing page lists three plans, Community, Data License and Full License, and sends buyers to book a demo; no price is shown.",
+        "url": "https://hatchet.gg/pricing/"
+      },
+      {
+        "fact": "The Data License covers creator and game discovery, fake audience scoring across 55M+ creators and 32 platforms, mention tracking, YouTube VOD analytics and esports benchmarking.",
+        "url": "https://hatchet.gg/pricing/"
+      },
+      {
+        "fact": "Hatchet was founded in Barcelona in 2016, started as a tool for streamers to understand their audiences and is now part of GameSquare.",
+        "url": "https://hatchet.gg/about/"
+      }
+    ]
+  },
+  {
+    "slug": "twitchmetrics",
+    "name": "Twitchmetrics",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.twitchmetrics.net",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A statistics site for Twitch, YouTube and Kick channels and games, with business and streamer plans.",
+    "platforms": "Web",
+    "pricing": "No price is shown in the readable text of the opened pages; the site separates a Business plan from a Streamer plan.",
+    "pricing_model": "Plans, prices not shown",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Twitch channels",
+      "YouTube channels",
+      "Kick channels",
+      "Game statistics",
+      "Emotes",
+      "Fastest growing channels"
+    ],
+    "notable": [
+      "Records only streams with 10 or more concurrent viewers"
+    ],
+    "facts": [
+      {
+        "fact": "Twitchmetrics offers statistics on Twitch, YouTube and Kick channels, games and emotes.",
+        "url": "https://www.twitchmetrics.net"
+      },
+      {
+        "fact": "The plan chooser offers a Business option and a Streamer option with advanced analytics only on the streamer's own channel.",
+        "url": "https://www.twitchmetrics.net"
+      },
+      {
+        "fact": "According to its FAQ, the site records streams that reach 10 or more concurrent viewers.",
+        "url": "https://www.twitchmetrics.net/faq"
+      }
+    ]
+  }
+]

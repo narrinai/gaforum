@@ -1,0 +1,232 @@
+{
+  "slug": "mee6",
+  "subject": "MEE6",
+  "subject_site": "https://mee6.xyz",
+  "title": "MEE6 Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Ten Discord bots to consider instead of MEE6, from free and open source options to bots built for security, tickets or server stats.",
+  "category": "best-discord-moderation-and-community-bots",
+  "intro": "MEE6 is a Discord bot that describes itself as a way to manage a server with leveling, moderation, and Twitch, YouTube and Reddit notifications. Many server owners eventually compare it with other bots, usually because they want to know which features sit behind a premium plan and which bots cover the same jobs for less. This page lists ten Discord bots with different strengths, from a completely free bot to open source software you can host yourself, so you can split MEE6's duties across the tools that fit your community. See the [Discord moderation and community bot ranking](/software/best-discord-moderation-and-community-bots) for the wider field.",
+  "why_switch": [
+    "MEE6 bundles leveling, moderation and social notifications in one bot, and some servers only need one of those jobs done well.",
+    "The MEE6 premium page renders its text with JavaScript, so a quick read of what the paid tier adds is harder than with some rivals.",
+    "Several alternatives publish a plain statement about cost: Sapphire says it is completely free and YAGPDB says it is open source.",
+    "Servers with a heavy ticket workload or a security focus can pick a bot built around that single job, such as Ticket Tool or Wick.",
+    "Communities that want control over where the bot runs can look at YAGPDB, which the vendor says can be hosted yourself."
+  ],
+  "picks": [
+    {
+      "slug": "dyno",
+      "name": "Dyno",
+      "site": "https://dyno.gg",
+      "best_for": "Web-configured moderation and auto roles",
+      "pricing": "Dyno shows a Get Premium option and a Battle Pass on its site; no prices were in the text we read.",
+      "free_plan": "Unknown",
+      "note": "Dyno is the closest swap if you mostly use MEE6 for moderation and role automation. It is described as modular, with a web dashboard, anti-spam, auto roles and custom commands. You gain a more moderation-centered feature set and the ability to switch modules on or off. You give up the Twitch, YouTube and Reddit notification focus that MEE6 puts in its own description, so check how you handle announcements before moving.",
+      "sources": [
+        {
+          "fact": "Dyno describes itself as a feature-rich and modular Discord bot with web configuration, moderation, anti-spam, auto roles and custom commands.",
+          "url": "https://dyno.gg/premium"
+        },
+        {
+          "fact": "The Dyno home page shows a Get Premium option and a Battle Pass.",
+          "url": "https://dyno.gg"
+        }
+      ]
+    },
+    {
+      "slug": "carl-bot",
+      "name": "Carl-bot",
+      "site": "https://carl.gg",
+      "best_for": "Reaction roles and logging",
+      "pricing": "Carl-bot has a premium page, but it loads with JavaScript and no prices could be read.",
+      "free_plan": "Unknown",
+      "note": "Carl-bot is the usual stop for servers that want members to pick their own roles. Its site lists reaction roles, automod, logging and custom commands in a fully customizable, modular bot. You gain role menus and detailed logs in the same place as automod. What you may miss is a leveling system, which is not named in the Carl-bot description we read, so confirm that before dropping MEE6 levels.",
+      "sources": [
+        {
+          "fact": "Carl-bot describes itself as a fully customizable and modular Discord bot with reaction roles, automod, logging, custom commands and more.",
+          "url": "https://carl.gg"
+        },
+        {
+          "fact": "The Carl-bot premium page on carl.gg loads its content with JavaScript, so no prices were readable.",
+          "url": "https://carl.gg/premium"
+        }
+      ]
+    },
+    {
+      "slug": "wick",
+      "name": "Wick",
+      "site": "https://wickbot.com",
+      "best_for": "Security-first moderation",
+      "pricing": "Wick sells Premium and VIP plans on its premium page; no prices were in the text read.",
+      "free_plan": "Unknown",
+      "note": "Wick describes itself as a moderation and security bot, and its premium page promises to fully secure a server. That makes it a fit when your worry is raids and risky joins more than engagement features. You gain a security posture as the main design goal. You give up the community-building side, since the pages we read do not mention leveling or social alerts, so pair it with another bot if you want those.",
+      "sources": [
+        {
+          "fact": "Wick's website describes it as the website of the moderation and security Discord bot, Wick.",
+          "url": "https://wickbot.com"
+        },
+        {
+          "fact": "The Wick premium page offers Premium and VIP plans to boost a server.",
+          "url": "https://wickbot.com/premium"
+        }
+      ]
+    },
+    {
+      "slug": "sapphire",
+      "name": "Sapphire",
+      "site": "https://sapph.xyz",
+      "best_for": "A free bot with slash commands",
+      "pricing": "The Sapphire site says the bot is completely free.",
+      "free_plan": "Free",
+      "note": "Sapphire says it is completely free, which makes it the simplest answer for servers that want to avoid a subscription. It lists custom slash commands, buttons, select menus, auto moderation and reaction roles, plus scheduled and triggered messages. You gain a no-cost option with a lot of automation. The trade is that a free bot gives you no premium tier to lean on, and you should read its own limits before you migrate a large server.",
+      "sources": [
+        {
+          "fact": "The Sapphire site says the bot is completely free.",
+          "url": "https://sapph.xyz"
+        },
+        {
+          "fact": "The Sapphire site lists scheduled messages and automated or triggered messages among its features.",
+          "url": "https://sapph.xyz"
+        }
+      ]
+    },
+    {
+      "slug": "arcane",
+      "name": "Arcane",
+      "site": "https://arcane.bot",
+      "best_for": "Leveling-focused community bots",
+      "pricing": "Arcane has a premium page, but nothing readable loads, so no prices were found.",
+      "free_plan": "Unknown",
+      "note": "Arcane is the nearest match for MEE6's leveling side. Its site lists leveling, moderation, logging, custom commands and member count channels. You gain a familiar leveling-plus-moderation pairing and counters for channels. You give up any social-feed notifications, which the Arcane description does not mention. Because we could not read its premium page, check what is paywalled in the dashboard before you commit your members' level data to it.",
+      "sources": [
+        {
+          "fact": "Arcane describes itself as a Discord bot offering leveling, moderation, logging, custom commands and member count channels.",
+          "url": "https://arcane.bot"
+        },
+        {
+          "fact": "The Arcane premium page loads without readable text, so no prices could be read.",
+          "url": "https://arcane.bot/premium"
+        }
+      ]
+    },
+    {
+      "slug": "yagpdb",
+      "name": "YAGPDB",
+      "site": "https://yagpdb.xyz",
+      "best_for": "Open source and self-hosting",
+      "pricing": "YAGPDB is open source and can be self-hosted; the site mentions a Premium subscription without a price we could read.",
+      "free_plan": "Open source",
+      "note": "YAGPDB stands for Yet Another General Purpose Discord Bot, and its site says it is open source and can be hosted yourself for more customization. You gain control over where it runs and room to customize behavior. You give up the point-and-click simplicity of a hosted bot, since self-hosting means you maintain the setup. It suits servers with someone technical on the moderation team who wants to avoid depending on one vendor.",
+      "sources": [
+        {
+          "fact": "The YAGPDB site says the bot is open source and can be hosted yourself for more customization.",
+          "url": "https://yagpdb.xyz"
+        },
+        {
+          "fact": "The YAGPDB site has a Premium section that describes a Premium subscription.",
+          "url": "https://yagpdb.xyz"
+        }
+      ]
+    },
+    {
+      "slug": "ticket-tool",
+      "name": "Ticket Tool",
+      "site": "https://tickettool.xyz",
+      "best_for": "Support tickets",
+      "pricing": "Ticket Tool has a premium page, but it needs JavaScript and no prices could be read.",
+      "free_plan": "Unknown",
+      "note": "Ticket Tool does one job: support tickets. It calls itself an advanced, highly customizable ticket bot for handling community support. Use it when your server runs a help desk, a store or an appeals channel and tickets are the main workload. You gain depth in ticket handling. You give up everything else MEE6 does, so it works as an addition next to a moderation bot rather than a full replacement.",
+      "sources": [
+        {
+          "fact": "Ticket Tool describes itself as an advanced, highly customizable ticket bot for handling community support.",
+          "url": "https://tickettool.xyz"
+        },
+        {
+          "fact": "The Ticket Tool home page is titled Ticket Tool - The #1 Discord support bot.",
+          "url": "https://tickettool.xyz"
+        }
+      ]
+    },
+    {
+      "slug": "zeppelin",
+      "name": "Zeppelin",
+      "site": "https://zeppelin.gg",
+      "best_for": "Moderation with a dashboard",
+      "pricing": "The Zeppelin premium page loads without readable text, so no prices were found.",
+      "free_plan": "Unknown",
+      "note": "Zeppelin's site title calls it a moderation bot for Discord, and that is all we could confirm, because its about page did not render a feature list for us. It makes sense to test it when moderation is your only need and you want a dedicated bot rather than a bundle. You gain a narrower tool. The risk is not knowing its exact features in advance, so read its documentation before moving any rules over.",
+      "sources": [
+        {
+          "fact": "The Zeppelin site is titled Zeppelin - Moderation bot for Discord.",
+          "url": "https://zeppelin.gg"
+        },
+        {
+          "fact": "The Zeppelin about page loads without readable text, so the feature list could not be read.",
+          "url": "https://zeppelin.gg/about"
+        }
+      ]
+    },
+    {
+      "slug": "tatsu",
+      "name": "Tatsu",
+      "site": "https://tatsu.gg",
+      "best_for": "Fun community engagement",
+      "pricing": "Tatsu shows no prices in the text read.",
+      "free_plan": "Unknown",
+      "note": "Tatsu positions itself as the way to build a fun, inviting community server, and says more than 1,350,000 Discord servers use it. That is a vendor claim, but it signals a large user base for a bot focused on engagement rather than enforcement. You gain a lighter, community-first feel. You give up moderation depth, so it pairs well with a stricter bot such as Wick or Dyno handling rules while Tatsu handles the social side.",
+      "sources": [
+        {
+          "fact": "Tatsu describes itself as a way to turn a community into the place to be on Discord.",
+          "url": "https://tatsu.gg"
+        },
+        {
+          "fact": "The Tatsu site says more than 1,350,000 Discord servers use Tatsu to manage and build their communities.",
+          "url": "https://tatsu.gg"
+        }
+      ]
+    },
+    {
+      "slug": "statbot",
+      "name": "Statbot",
+      "site": "https://statbot.net",
+      "best_for": "Server statistics and counters",
+      "pricing": "Statbot shows no prices in the text read, and its site renders with JavaScript.",
+      "free_plan": "Unknown",
+      "note": "Statbot is a server stats bot with customizable channel counters, automatic role rewards and personalized dashboards. Pick it if the reason you opened this page is to see how members behave over time, not to moderate them. You gain analytics and role rewards driven by activity. You give up general moderation and social alerts, which makes it an add-on to a main bot, not a standalone replacement for MEE6.",
+      "sources": [
+        {
+          "fact": "Statbot describes itself as a server stats bot for Discord with customizable channel counters, automatic role rewards and personalized dashboards.",
+          "url": "https://statbot.net"
+        },
+        {
+          "fact": "The Statbot site says it is trusted by Discord communities and businesses.",
+          "url": "https://statbot.net"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Start by writing down what MEE6 does for your server today: leveling, rules enforcement, announcements, or all three. If moderation is the core, compare Dyno, Wick and Zeppelin. If members earn levels, look at Arcane and Tatsu. If you want zero subscription cost, test Sapphire, and if you want control of hosting, test YAGPDB. Treat Ticket Tool and Statbot as specialists you add alongside a main bot. Move one module at a time and keep MEE6 running until the replacement behaves the way your moderators expect.",
+  "faqs": [
+    {
+      "q": "What does MEE6 actually do?",
+      "a": "MEE6 describes itself as a Discord bot for managing a server with leveling, moderation, and Twitch, YouTube and Reddit notifications. That combination is why it often ends up as a default bot in new servers. Its premium page exists but its text is rendered by JavaScript, so we could not read the prices."
+    },
+    {
+      "q": "Is there a completely free MEE6 alternative?",
+      "a": "Sapphire's site says the bot is completely free. YAGPDB is open source and can be self-hosted, although its site also mentions a Premium subscription. Free to use still means you should check which limits apply to your server size before migrating."
+    },
+    {
+      "q": "Which bot is best for support tickets?",
+      "a": "Ticket Tool is built around that single job and describes itself as a highly customizable ticket bot for community support. It does not replace a moderation bot, so most servers run it beside another bot such as Dyno or Carl-bot."
+    },
+    {
+      "q": "Can I run two or three bots at once?",
+      "a": "Yes, and many servers do. A common split is one bot for moderation, one for engagement and one specialist for tickets or stats. Watch for overlapping commands and duplicate welcome or logging messages, and disable the modules you no longer need in the older bot."
+    },
+    {
+      "q": "How do I move leveling data away from MEE6?",
+      "a": "None of the pages we opened describe an import tool, so assume levels do not transfer automatically. Announce the change to members, decide whether to start fresh or grant starter roles, and confirm the new bot's leveling behavior in its dashboard first."
+    }
+  ]
+}

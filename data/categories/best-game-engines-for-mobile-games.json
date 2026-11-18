@@ -1,0 +1,485 @@
+{
+  "slug": "best-game-engines-for-mobile-games",
+  "name": "game engines for mobile games",
+  "title": "Best Game Engines for Mobile Games in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "summary_line": "Twelve engines compared for iOS and Android games, judged on listed targets, store-service support, monetization features and cost.",
+  "definition": "A mobile game engine is software that builds games for phones and tablets: it handles touch input, rendering, packaging for iOS and Android, and often connects to ad networks, in-app purchases and analytics. Some engines are full editors, others are code libraries or no-code builders. This ranking uses what each vendor publishes about targets and monetization.",
+  "intro": "Phone games ship under different pressure from PC games. Builds must stay small enough to download on a mobile connection, touch input needs first-class support, and revenue usually depends on ads or in-app purchases that the engine has to reach through store SDKs. We read the vendor homepages, repository pages and plan statements for twelve engines and builders and noted what each one says about iOS and Android targets, built-in monetization, extension routes and cost. We did not measure build sizes or run devices, so where size matters, we say the page gives no figure. Tools that list both phone targets and a way to reach ads or purchases rank higher than those that only say cross-platform.",
+  "criteria": [
+    {
+      "heading": "Listed iOS and Android support",
+      "text": "Start with what the vendor puts in writing. Unity, Defold, Solar2D, Bevy, GDevelop, Stencyl and LÖVE name iOS and Android, or the closest equivalents, in their own pages. Godot lists mobile export, Phaser reaches stores through third-party wrappers, and Cocos Creator and Buildbox do not itemize platforms. A tool that does not say iOS or Android in print is treated as unconfirmed."
+    },
+    {
+      "heading": "Ads, purchases and live services",
+      "text": "Revenue is the reason many phone games exist. Unity lists In-App Purchase, Monetization, User acquisition and LiveOps. Stencyl lists in-app purchases and ad support. Solar2D and Defold reach SDKs through plugins or native extensions. Most others state nothing, so a developer must plan to wire up store SDKs by hand."
+    },
+    {
+      "heading": "Cost and royalty exposure",
+      "text": "A hit mobile game can scale fast, and a royalty scales with it. Defold states no royalties and no runtime fee, Solar2D states no royalties under MIT, and LÖVE and Phaser are free under permissive licenses. GDevelop places iOS export on a paid plan. Unity, Stencyl and Cocos Creator show no prices on the homepage. Save the actual terms before launch."
+    },
+    {
+      "heading": "Skill level and build route",
+      "text": "A no-code builder like GDevelop or Stencyl lets a designer publish alone; a code library such as LÖVE, Solar2D or Bevy expects programmers. Phaser fits web developers whose game lives in a browser. We matched each tool to the person who would use it every day, since a mismatch costs more than any feature."
+    }
+  ],
+  "market_notes": [
+    "The twelve entries divide by route. Four publish to the stores through the engine's own export (Unity, Solar2D, Defold and Godot), two do so through a no-code editor with monetization options (GDevelop and Stencyl), two depend on third-party wrappers or source builds for at least one store (Phaser and LÖVE), and two give no usable platform detail (Cocos Creator and Buildbox). GB Studio exports web builds with mobile controls only. Seven state a free or open-source license.",
+    "The trade-off is service coverage against control. A suite like Unity packs purchases and live services in, at the cost of plan terms you must read. Lean engines such as Defold, Solar2D and Bevy give small builds in principle and fewer fees, and leave store SDK work to you. No-code builders speed up a first release, but gate iOS or advanced mechanics behind plans or extensions. Build-size claims are absent from the vendor pages, so measure an empty project in each finalist."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Decide how the game earns before you pick",
+      "text": "If revenue comes from ads or in-app purchases, list the networks and stores your plan needs, then check how each engine reaches them: a built-in service, a plugin, a native extension or hand-written code. Unity and Stencyl name monetization features; Defold and Solar2D expect extensions or plugins. Confirm your ad network has a working integration before you commit."
+    },
+    {
+      "title": "Build an empty project and measure it",
+      "text": "Vendors rarely publish build sizes, and size affects installs on slow connections. Create a blank project in two or three finalists, export to a real Android device and an iPhone, and record installer size, start-up time and the steps needed to sign and upload. A single afternoon shows which tool has friction."
+    },
+    {
+      "title": "Check who owns the cost after launch",
+      "text": "Note which plan unlocks iOS export, whether royalties exist, and whether the source license lets you patch the engine. GDevelop places iOS on a higher plan, Defold has no royalty, and Unity's page requires a visit to the plans section. Write the price and date in your plan so a later change is visible."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best game engine for mobile games in 2026?",
+      "a": "Unity ranks first because its homepage lists iOS, Android, in-app purchase, monetization and LiveOps services in one place. Solar2D is better for Lua developers who want a free, MIT-licensed, phone-first engine, and Defold is better when portals and consoles matter later and royalties must stay at zero."
+    },
+    {
+      "q": "Which mobile engine is free with no royalties?",
+      "a": "Defold is free forever with no royalties and no runtime fee, Solar2D has no hidden fees or royalties under MIT, and Godot, Bevy, LÖVE and Phaser are free to use. GDevelop is open source but puts iOS publishing on a paid plan."
+    },
+    {
+      "q": "Which engine is easiest for a beginner making a phone game?",
+      "a": "GDevelop and Stencyl avoid code with events or blocks, and both list Android and iOS exports. GDevelop adds one-click exporting; Stencyl names in-app purchases and ad support. Neither prints prices in the page text, so check the plans before starting a long project."
+    },
+    {
+      "q": "Can Godot make mobile games?",
+      "a": "Yes, the homepage lists export to desktop, mobile and the web. It has a dedicated 2D engine, which suits touch games. The page does not list store-SDK integrations, so ads and purchases need add-ons you must evaluate, and C# on the web needs Godot 3."
+    },
+    {
+      "q": "Does Unity support in-app purchases?",
+      "a": "Its homepage lists In-App Purchase, Monetization, User acquisition and LiveOps as services beside the engine. The plan page has no figures in the page text we read, so confirm which tier covers them and what they cost before you build around them."
+    },
+    {
+      "q": "Can I publish a Phaser game to the App Store?",
+      "a": "Phaser's repository says iOS, Android and Steam builds are possible through third-party tools, so you wrap the browser game. Without that step it runs in mobile browsers, YouTube Playables, Discord Activities and Reddit games. Expect to add the wrapper, signing and store SDKs yourself."
+    },
+    {
+      "q": "How small will my mobile build be?",
+      "a": "The vendor pages we read give no build-size figures, so no engine here can be ranked on size from facts. Export an empty project from each finalist to a real device and compare installer sizes. Lightweight libraries such as LÖVE, Solar2D and Bevy are candidates for small builds, but only a test confirms it."
+    }
+  ],
+  "related": [
+    "best-2d-game-engines",
+    "best-open-source-game-engines",
+    "best-3d-game-engines-for-small-studios",
+    "best-mobile-game-ad-networks-and-mediation",
+    "best-mobile-attribution-tools-for-games"
+  ],
+  "tools": [
+    {
+      "slug": "unity",
+      "name": "Unity",
+      "site": "https://unity.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Engine with built-in in-app purchase and monetization services",
+      "best_for": "Studios planning ads, IAP and live operations",
+      "pricing": "The homepage says to start free or find a plan, and shows no price figures or tier names.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "iOS, Android, plus more than 25 platforms in total",
+      "features": [
+        "In-App Purchase",
+        "Monetization",
+        "User acquisition",
+        "LiveOps",
+        "Multiplatform"
+      ],
+      "summary": "The only entry whose own page lists purchase, monetization and user acquisition services next to the engine.",
+      "verdict": "A phone game earns money through purchases, ads and retention, and Unity is the one engine here whose homepage groups those services with the editor. It names In-App Purchase, Monetization, User acquisition and LiveOps beside the engine, and its platform line starts with iOS and Android before moving on to consoles, Meta Quest, web and Apple Vision Pro, 25-plus targets in all. Unity 6.6 is available and Unity 7 is announced. For a studio whose roadmap includes store optimization and live content updates, having one vendor cover them reduces integration work. Pricing is the open question, since the homepage lists no figures.",
+      "weaknesses": "No prices or paid-tier names are on the homepage, so budgeting for monetization services needs the plans page. A large engine adds build weight, and build-size figures are not in the facts we read. Unity 7's arrival may change upgrade plans.",
+      "wrong_for": "Teams wanting a free, royalty-free engine with stated terms should read the Defold entry.",
+      "sources": [
+        {
+          "fact": "Unity is described on its homepage as the world's leading game engine for developing, deploying and growing games.",
+          "url": "https://unity.com/"
+        },
+        {
+          "fact": "The homepage says you can get started for free or find a plan, and links to Plans and pricing without showing figures.",
+          "url": "https://unity.com/"
+        }
+      ]
+    },
+    {
+      "slug": "solar2d",
+      "name": "Solar2D",
+      "site": "https://solar2d.com/",
+      "company": "Solar2D LLC",
+      "country": "United States",
+      "tagline": "Lua engine built for phones with MIT terms",
+      "best_for": "Lua developers shipping small iOS and Android titles",
+      "pricing": "Free under the MIT license; no hidden fees, charges or royalties, according to the homepage.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "iOS, tvOS, Android, Android TV, macOS, Windows, Linux, HTML5",
+      "features": [
+        "Build Fast simulator",
+        "Live builds",
+        "Plugins",
+        "Native library calls",
+        "Privacy aware"
+      ],
+      "summary": "Phone targets, TV boxes and a plugin system, all without fees, make it a lean pick for small mobile teams.",
+      "verdict": "Solar2D started life as the Corona SDK, a tool aimed at phone developers, and the homepage keeps that focus: iOS, tvOS, Android and Android TV head the build list, ahead of desktop and HTML5. A Build Fast simulator and live builds shorten the loop between code and device. Plugins and calls into any native library are the route for store SDKs such as ads or purchases, and the page says the engine is privacy aware. There are no hidden fees, charges or royalties under the MIT license. Sponsors on GitHub Sponsors and Patreon fund development.",
+      "weaknesses": "The facts do not list specific ad or purchase plugins, so check the plugin directory before assuming your network is supported. Funding depends on sponsors, and the page gives no console targets.",
+      "wrong_for": "Studios that need a built-in services stack should look at Unity; people avoiding Lua may like GDevelop.",
+      "sources": [
+        {
+          "fact": "Solar2D is described on the homepage as a Lua-based, open source 2D game engine, forked from the Corona SDK.",
+          "url": "https://solar2d.com/"
+        },
+        {
+          "fact": "The homepage states Solar2D is released under the MIT license with no hidden fees, charges or royalties.",
+          "url": "https://solar2d.com/"
+        }
+      ]
+    },
+    {
+      "slug": "defold",
+      "name": "Defold",
+      "site": "https://defold.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Free engine listing iOS, Android and portals",
+      "best_for": "Teams wanting small builds, no royalties and portal reach",
+      "pricing": "Free forever under a source-available license, with no up-front cost, licensing cost, royalties or runtime fee.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "iOS, Android, HTML5, Poki, Facebook, Steam, consoles",
+      "features": [
+        "Native extensions",
+        "Live Update",
+        "Hot reload",
+        "Profiler and debugger"
+      ],
+      "summary": "Mobile and portal targets plus Live Update and native extensions make it a strong free option for phone teams.",
+      "verdict": "Defold lists iOS and Android alongside HTML5, Poki and Facebook, so a phone game and its web portal version can come from one project. Live Update is named among the features, which supports delivering content after release, and native extensions let you call a store SDK, such as ads or purchases, in native code. A hot reload, profiler and debugger help with device tuning. The cost line is unusually definite: free forever, with no royalties and no runtime fee. Consoles are listed too, including Xbox, PlayStation and Switch, which matters if a successful phone title later moves up.",
+      "weaknesses": "The license is source available, not open source. Native extensions mean writing platform code for store SDKs, which is harder than dropping in a plugin. Page claims on build size are absent, so measure an empty project.",
+      "wrong_for": "Readers who prefer a no-code editor should look at GDevelop or Stencyl.",
+      "sources": [
+        {
+          "fact": "Defold is described on the homepage as a free, powerful, all-in-one game engine for cross-platform 2D and 3D games.",
+          "url": "https://defold.com/"
+        },
+        {
+          "fact": "The homepage states Defold is free forever, source available under a developer-friendly license, with no royalties and no runtime fee.",
+          "url": "https://defold.com/"
+        }
+      ]
+    },
+    {
+      "slug": "godot",
+      "name": "Godot",
+      "site": "https://godotengine.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Free engine with mobile export and a 2D renderer",
+      "best_for": "Small teams who want a free engine for phones and PCs",
+      "pricing": "No cost. Described as free and open source; no further pricing statement or license name is on the homepage.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Exports to mobile, desktop and web; consoles via third-party publishers",
+      "features": [
+        "Mobile export",
+        "Dedicated 2D engine",
+        "GDScript and C#",
+        "OpenXR support"
+      ],
+      "summary": "Free and open, with mobile export and a separate 2D renderer, but no stated store-SDK or monetization features.",
+      "verdict": "The Godot homepage lists export to desktop, mobile and the web, and describes a dedicated 2D engine, which suits touch games that do not need 3D. Because it is free and open source, a studio has no fee to account for when a hit game scales. Scripting options include GDScript and C#, though the page notes C# on the web needs Godot 3, so a team targeting phones and browsers with C# should plan around that. What the page does not list is store-SDK integrations, ads or purchases, so those would come from add-ons you must evaluate. The newest download is 4.7.2.",
+      "weaknesses": "No ad, purchase or analytics integrations are named in the facts, and build size is not stated. Console support goes through third parties. The homepage's editor download link is for Windows.",
+      "wrong_for": "Studios that want built-in monetization services should pick Unity.",
+      "sources": [
+        {
+          "fact": "Godot is described on the vendor homepage as a free, open-source 2D and 3D game engine.",
+          "url": "https://godotengine.org/"
+        },
+        {
+          "fact": "The homepage makes no pricing statement beyond calling Godot a free, open-source game engine.",
+          "url": "https://godotengine.org/"
+        }
+      ]
+    },
+    {
+      "slug": "gdevelop",
+      "name": "GDevelop",
+      "site": "https://gdevelop.io/",
+      "company": "",
+      "country": "",
+      "tagline": "No-code builder with Android and iOS export",
+      "best_for": "Non-programmers publishing a first mobile title",
+      "pricing": "Open-source engine with paid Silver and Gold plans; iOS export is on the higher plan and no prices appear in the page text.",
+      "pricing_model": "Subscription",
+      "free_plan": "Open source",
+      "platforms": "Android, iOS, web, Steam",
+      "features": [
+        "One-click exporting",
+        "Event system",
+        "Behaviors",
+        "Player services"
+      ],
+      "summary": "Clicks instead of code and one-click Android and iOS publishing, with iOS gated behind the upper plan.",
+      "verdict": "GDevelop suits someone who has a game idea and no programming background. The homepage describes a no-code event system with ready-made behaviors and one-click exporting to web, Android, Steam and iOS. Multiplayer and player services are listed, and an AI-assisted builder is offered. The vendor claims the mobile title Vai Juliette was named Brazil Mobile Game of the Year in 2021, which is its own statement and was not checked independently. Starting costs nothing, since the engine is described as open source; paid plans are called Silver and Gold, with iOS publishing assigned to the higher one.",
+      "weaknesses": "iOS publishing needs the higher paid plan, and amounts are not shown in the page text. Build size and store-SDK support are not covered by the facts. The license name is not stated.",
+      "wrong_for": "A team that wants code-level control of native SDKs should choose Defold or Solar2D.",
+      "sources": [
+        {
+          "fact": "GDevelop is described on the vendor homepage as a free, open-source, no-code game engine for 2D and 3D games.",
+          "url": "https://gdevelop.io/"
+        },
+        {
+          "fact": "The homepage lists Silver and Gold paid plans, but the prices are not shown in the page text.",
+          "url": "https://gdevelop.io/"
+        }
+      ]
+    },
+    {
+      "slug": "stencyl",
+      "name": "Stencyl",
+      "site": "https://stencyl.com/",
+      "company": "Stencyl, LLC",
+      "country": "",
+      "tagline": "Block builder with in-app purchase and ad support",
+      "best_for": "Beginners wanting IAP and ads in a no-code tool",
+      "pricing": "A Pricing section exists, but the homepage prints no plans or figures.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "iPhone, iPad, Android, Windows, Mac, Linux, HTML5",
+      "features": [
+        "In-app purchases",
+        "Ad support",
+        "Store sales options",
+        "Scene Designer",
+        "Block builder"
+      ],
+      "summary": "Names in-app purchases, ads and store sales on its homepage, but publishes no price and mentions an older ad network.",
+      "verdict": "Of the no-code choices, Stencyl is the one whose homepage names the monetization features a phone developer asks about. It lists in-app purchases and ad support, along with sponsorship and store-sales options, and it cites iAds, AdMob and Newgrounds as networks. Games are built with a Scratch-inspired block builder, a Scene Designer and an Actor Editor, with custom blocks and code extensions as an escape hatch. Exports go to iPhone and iPad, Android, desktop and HTML5. The vendor claims 500,000 developers have adopted it. That feature list earns the sixth place, held back by missing prices.",
+      "weaknesses": "No prices or plan names are published, and iAds appears in its ad network list, suggesting text that may be dated. Console exports are absent. Heavy custom mechanics will need code extensions.",
+      "wrong_for": "If you want a published free license, check Solar2D or Defold.",
+      "sources": [
+        {
+          "fact": "Stencyl is described on its homepage as the easiest way to create games for mobile, web and desktop without code.",
+          "url": "https://stencyl.com/"
+        },
+        {
+          "fact": "The homepage links to a pricing section but states no prices or plan names.",
+          "url": "https://stencyl.com/"
+        }
+      ]
+    },
+    {
+      "slug": "cocos-creator",
+      "name": "Cocos Creator",
+      "site": "https://cocos.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Cross-platform engine listing mobile-heavy partners",
+      "best_for": "Studios working with Asian publishers and partner SDKs",
+      "pricing": "The homepage lists no price or license; it shows a download button and a store link.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Multi-platform publishing, targets not itemized on the homepage",
+      "features": [
+        "Cross-platform capability",
+        "Toolchain",
+        "Multi-language development",
+        "Debugging"
+      ],
+      "summary": "Heavy partner list and a full toolchain, but no stated platforms, license or price to confirm a phone fit.",
+      "verdict": "Cocos Creator calls itself a cross-platform graphics engine and real-time 3D content creation platform for 2D and 3D games. The homepage mentions multi-platform publishing without itemizing the platforms, so we cannot confirm iOS or Android from that page. It does list partners, among them ARM, Meta, Google, Huawei, Microsoft, Samsung and Tencent, and says the platform hosts over 70% of game content development, a claim that is the vendor's alone. The homepage is in Chinese, which suits studios working with that market's stores and SDKs. A complete toolchain and debugging and visualization are named features.",
+      "weaknesses": "Without itemized platforms, price or license, a buyer cannot verify mobile suitability or cost from the page. English-only teams may find documentation access harder. The claim of hosting 70% of game content development is unverified.",
+      "wrong_for": "Teams that need stated iOS and Android targets should choose Defold, Solar2D or Unity.",
+      "sources": [
+        {
+          "fact": "Cocos Creator is described on the vendor homepage as a cross-platform graphics engine and real-time 3D content creation platform.",
+          "url": "https://cocos.com/"
+        },
+        {
+          "fact": "The homepage gives no price and no product license statement; it shows a download button and a link to a store.",
+          "url": "https://cocos.com/"
+        }
+      ]
+    },
+    {
+      "slug": "phaser",
+      "name": "Phaser",
+      "site": "https://github.com/phaserjs/phaser",
+      "company": "",
+      "country": "",
+      "tagline": "MIT HTML5 framework for mobile browsers and wrapped apps",
+      "best_for": "Web developers whose phone game runs in a browser or portal",
+      "pricing": "Free under MIT, per the official repository page.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Mobile and desktop browsers; iOS, Android and Steam via third-party tools",
+      "features": [
+        "WebGL rendering",
+        "SpriteGPULayer",
+        "Filter system",
+        "TypeScript support"
+      ],
+      "summary": "Fits phone browsers and social portals, but native app store builds depend on separate wrapper tools.",
+      "verdict": "Phaser is the choice when a game should open in a mobile browser without an install. The repository describes an HTML5 2D framework that runs in desktop and mobile browsers, and lists YouTube Playables, Discord Activities, Reddit games and Twitch overlays as distribution spots. Version 4.2.1 uses a new WebGL renderer with a SpriteGPULayer for scenes with many sprites. For stores, the page says iOS, Android and Steam builds are available via third-party tools, so you add a wrapper. License terms are simple, MIT, and a company develops it with the community.",
+      "weaknesses": "Store builds rely on third-party wrappers, and the page does not name ad or purchase plugins. Only 2D is covered, and JavaScript or TypeScript skills are required.",
+      "wrong_for": "A studio shipping native store apps from one vendor tool should look at Unity or Defold.",
+      "sources": [
+        {
+          "fact": "Phaser is described on its official GitHub repository as a fun, free and fast 2D game framework for HTML5 games.",
+          "url": "https://github.com/phaserjs/phaser"
+        },
+        {
+          "fact": "The repository page states the project is licensed under the MIT license.",
+          "url": "https://github.com/phaserjs/phaser"
+        }
+      ]
+    },
+    {
+      "slug": "love",
+      "name": "LOVE",
+      "site": "https://love2d.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Lua framework with an Android APK and iOS source",
+      "best_for": "Lua programmers who want light, permissive phone builds",
+      "pricing": "Free, with unlimited commercial use under the zlib/libpng license.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Android APK, iOS source and libraries, desktop",
+      "features": [
+        "Touch input",
+        "Graphics",
+        "Audio",
+        "Physics"
+      ],
+      "summary": "A Lua framework with touch input and Android and iOS packages, though the iOS route is source, not a ready build.",
+      "verdict": "LÖVE keeps mobile support practical: the homepage lists an Android APK and, for iOS, source and libraries, plus touch among its input modules. The license is liberal zlib/libpng with commercial use allowed without limitations, so shipping a paid phone game involves no fee. Balatro, Arco and Moonring are cited as example games. Everything else in the stack is yours to choose, from level tools to ad SDKs. That is attractive to programmers who want a small codebase, and a burden to anyone expecting an editor. Version 11.5 is current, and donations via PayPal fund it.",
+      "weaknesses": "iOS needs you to build from source and libraries. There is no editor and the facts mention no ad, purchase or analytics plugins. Console targets are not listed.",
+      "wrong_for": "People who prefer a visual editor should choose GDevelop, Stencyl or Godot.",
+      "sources": [
+        {
+          "fact": "LÖVE is described on the homepage as a free, open-source framework for making 2D games in Lua.",
+          "url": "https://love2d.org/"
+        },
+        {
+          "fact": "The homepage says LÖVE is licensed under the liberal zlib/libpng license and costs nothing, with commercial use without limitations.",
+          "url": "https://love2d.org/"
+        }
+      ]
+    },
+    {
+      "slug": "bevy",
+      "name": "Bevy",
+      "site": "https://bevy.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Rust engine listing iOS and Android",
+      "best_for": "Rust teams building a custom mobile pipeline",
+      "pricing": "No license fees or sales cuts; MIT or Apache 2.0, with optional donor tiers from $25 to $6,000 monthly.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "iOS, Android, Windows, macOS, Linux, web",
+      "features": [
+        "2D renderer",
+        "3D renderer",
+        "Hot reloading",
+        "Bevy UI"
+      ],
+      "summary": "Lists iOS and Android with permissive licensing, but offers no editor or store-service tools.",
+      "verdict": "Bevy lists iOS and Android among its targets next to desktop and web, and its terms are free of fees and sales cuts under MIT or Apache 2.0. It provides 2D and 3D renderers, UI, animation and hot reloading, which gives a phone game the building blocks, though the page names no ad, purchase or store integration. This is a path for a team that already uses Rust and wants to own the stack, from rendering to platform glue. The vendor says compile times are 0.8 to 3.0 seconds with the fast compiles configuration, and donor tiers fund the project.",
+      "weaknesses": "No editor is in the feature list, and mobile store workflow details are missing from the facts. Rust adds a learning curve for mobile developers used to Java, Kotlin or C#.",
+      "wrong_for": "Teams that want quick store-ready builds should choose Unity, Solar2D or GDevelop.",
+      "sources": [
+        {
+          "fact": "Bevy is described on its homepage as 'A refreshingly simple data-driven game engine built in Rust'.",
+          "url": "https://bevy.org/"
+        },
+        {
+          "fact": "The homepage says Bevy is open source under the permissive MIT or Apache 2.0 licenses.",
+          "url": "https://bevy.org/"
+        }
+      ]
+    },
+    {
+      "slug": "buildbox",
+      "name": "Buildbox",
+      "site": "https://buildbox.com/",
+      "company": "",
+      "country": "",
+      "tagline": "No-code creator with a mention of Android improvements",
+      "best_for": "Non-technical creators testing casual game ideas",
+      "pricing": "Not stated; a Get Buildbox link leads to a download page without a price or trial.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Not stated on the page; a recent post cites Android improvements",
+      "features": [
+        "No scripting",
+        "No programming"
+      ],
+      "summary": "A no-code game maker with a hint of Android work, but no stated price, platform or feature detail.",
+      "verdict": "Buildbox is described on its games page as software that needs no scripting, programming or software design experience, and the vendor calls it the world's first tool that truly lets anyone create games regardless of technical skill. That statement is the vendor's own. The only mobile-related signal is a post title mentioning Android improvements. The page links to a download but gives no price, no free trial, no platform list and no feature list, so ad, purchase and build-size questions cannot be answered from it. It ranks eleventh because a reader cannot verify a phone fit.",
+      "weaknesses": "Nothing about platforms, store SDKs, monetization or cost is stated on the page. The marketing claim of being first cannot be verified. Depth for custom mechanics is unknown.",
+      "wrong_for": "Readers who need verifiable mobile terms should start with GDevelop or Stencyl.",
+      "sources": [
+        {
+          "fact": "Buildbox's games page describes it as the world's first software that truly allows anyone to create amazing games regardless of technical skill.",
+          "url": "https://buildbox.com/games"
+        },
+        {
+          "fact": "The games page says Buildbox needs no scripting, programming or software design experience.",
+          "url": "https://buildbox.com/games"
+        }
+      ]
+    },
+    {
+      "slug": "gb-studio",
+      "name": "GB Studio",
+      "site": "https://gbstudio.dev/",
+      "company": "",
+      "country": "",
+      "tagline": "Drag-and-drop retro creator with mobile-control web export",
+      "best_for": "Hobbyists making retro games playable on phones",
+      "pricing": "No price is stated; the page links to a download on Itch.io and to Patreon.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Windows, Mac, Linux; web builds with mobile controls; Game Boy ROMs",
+      "features": [
+        "Visual scripting",
+        "Debugger",
+        "Music tools",
+        "ROM builds",
+        "Web export"
+      ],
+      "summary": "Makes retro Game Boy games and exports web builds with mobile controls, not native store apps.",
+      "verdict": "GB Studio is a drag-and-drop creator for retro handheld games, and its mobile story is the web: the homepage says you can export for the web with mobile controls, so a phone browser can play the result. It also builds real ROM files for Game Boy emulators. Features include drag-and-drop visual scripting, a built-in debugger, several game types, and music tools with piano roll and tracker modes. The page claims over 1000 games have been made with it. For a retro-styled mobile browser game, it is quick, and the creator Chris Maltby is named in the copyright line.",
+      "weaknesses": "It does not list native iOS or Android builds, ads or in-app purchases, so it is no fit for store monetization. The look is fixed to Game Boy limits. No price is stated.",
+      "wrong_for": "Anyone planning a store release with purchases should look at Unity, GDevelop or Stencyl.",
+      "sources": [
+        {
+          "fact": "GB Studio is described on its homepage as a quick and easy drag-and-drop retro game creator for handheld video game systems.",
+          "url": "https://gbstudio.dev/"
+        },
+        {
+          "fact": "The homepage says GB Studio is available on Windows, Mac and Linux.",
+          "url": "https://gbstudio.dev/"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18"
+}

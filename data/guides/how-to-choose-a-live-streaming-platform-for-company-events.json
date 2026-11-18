@@ -1,0 +1,158 @@
+{
+  "slug": "how-to-choose-a-live-streaming-platform-for-company-events",
+  "title": "How to Choose a Live Streaming Platform for Company Events",
+  "description": "A practical way to pick a live streaming platform for town halls, launches and hybrid events: audience size, latency, encoders, security and a pilot checklist.",
+  "kind": "Playbook",
+  "topic": "Live video for business",
+  "published": "2026-11-18",
+  "intro": "Choose a company-event streaming platform by working backward from the event itself: how many people watch, whether they talk back, who produces the video and what has to be recorded afterward. Features lists come last. A quarterly town hall for 4,000 employees and a product launch with a paid ticket need different tools, and the wrong match shows up on the day as buffering, a locked-out audience or a producer who cannot get an encoder to connect. This guide gives you a sequence of decisions and a pilot you can run in one afternoon.",
+  "key_takeaways": [
+    "Write down the event type, audience size, interaction level and recording needs before you open a single vendor page.",
+    "Latency is a setting you trade against smoothness, so decide how interactive the event really is.",
+    "Check the production path first: a platform that cannot accept your encoder or your switcher is the wrong platform.",
+    "Microsoft retired Teams live events on June 30, 2026, so teams that relied on them need a replacement plan.",
+    "Run a rehearsal on the real network with real viewers before you sign anything."
+  ],
+  "sections": [
+    {
+      "h2": "Start with the event, not the vendor list",
+      "paras": [
+        "Most company events fall into four shapes: an internal broadcast such as a town hall, a webinar with registration and questions, a public launch or showcase, and a hybrid event with a room audience and a remote audience. Each shape pushes a different requirement to the top. An internal broadcast cares about single sign-on and corporate networks. A webinar cares about registration and moderated questions. A public launch cares about reach and cost per viewer. A hybrid event cares about production quality in the room.",
+        "Write one paragraph for your event before you shortlist anything. It should name the shape, the expected peak audience, the number of presenters who are remote, whether viewers can speak or only type, and how long the recording must stay available. That paragraph becomes the filter for everything below."
+      ]
+    },
+    {
+      "h2": "Five facts to settle before you compare features",
+      "paras": [
+        "These five facts decide more than any feature matrix does. Settle them with the event owner, in writing, so the shortlist does not drift."
+      ],
+      "list": [
+        "Peak concurrent viewers, including a pessimistic guess, because a CEO message can double the forecast.",
+        "Who may watch: everyone with the link, employees only, or registered guests with a ticket.",
+        "Whether viewers interact beyond chat, for example live polls, hand-raising or spoken questions.",
+        "How the video is produced: one webcam, a conferencing tool with remote speakers, or a studio mixer sending one clean feed.",
+        "What happens afterward: recording, captions, transcripts, clips for an intranet, and how long the archive has to live."
+      ],
+      "after": [
+        "If two of these answers are unknown, the event is not ready for a platform decision. Fix that first."
+      ]
+    },
+    {
+      "h2": "Latency: decide how interactive you really are",
+      "paras": [
+        "Latency is the delay between the camera capturing an event and viewers seeing it. YouTube's help center describes the core trade-off plainly: the lower the latency, the less read-ahead buffer the player has, and with lower latency viewers are more likely to feel problems between the encoder and the player. It offers three settings. Normal latency gives the smoothest playback. Low latency suits limited interaction, and the page says most viewers see under 10 seconds. Ultra-low latency is for conversation, with most viewers under 5 seconds and a higher chance of buffering.",
+        "Apply the same thinking to your own event. A town hall where questions arrive through a moderated form does not need ultra-low latency, and the smoother stream protects your executives from a spinning wheel. A live auction, a quiz or an open Q&A where the speaker answers in real time does. When a vendor quotes a latency number, ask which protocol and which player produce it, and ask what the platform does when the audience is on a poor connection."
+      ]
+    },
+    {
+      "h2": "Check the production path before the viewer experience",
+      "paras": [
+        "A platform can have an excellent viewer page and still be a poor fit if it cannot receive what your production team makes. Microsoft's documentation for Teams live events shows the two usual paths. One is producing inside the meeting tool with a webcam or room system. The other is sending a single stream from an external encoder or media mixer using RTMP, which Microsoft describes as the option for teams that already own studio-grade equipment and run larger events.",
+        "Map your own path in the same way. If the room has a switcher and cameras, you need a platform that accepts a stream from an encoder, and your production team needs to know which protocol it uses and whether a backup ingest exists. If you stream straight from a conferencing tool, check how many remote presenters it supports and how the layout looks on the viewer side. For protocol background, our guide on [RTMP, SRT and WebRTC](/guides/rtmp-srt-webrtc-streaming-latency-explained) explains what the ingest options mean in practice."
+      ]
+    },
+    {
+      "h2": "A note on Teams live events",
+      "paras": [
+        "If your company has used Teams live events, the replacement question may already be on your desk. Microsoft's Learn page states that Teams live events retired on June 30, 2026, that events scheduled before that date are supported through February 28, 2027, and that Microsoft recommends moving to the unified Teams events experience. Do not assume the successor behaves like the old product. Rebuild your requirements list from scratch, test the new experience against it, and compare it with dedicated platforms in our ranking of [enterprise live streaming platforms](/software/best-enterprise-live-streaming-platforms).",
+        "The same advice applies to any tool your employees already own. Existing licenses are attractive, but the event plan should decide, not the invoice."
+      ]
+    },
+    {
+      "h2": "Security, access and compliance questions",
+      "paras": [
+        "Internal events often contain material that is not public: financial results, restructuring news, product roadmaps. Ask each vendor how access is controlled and logged. Typical questions cover single sign-on, link sharing, domain restrictions, waiting rooms, watermarking and whether the recording is stored in a region your legal team accepts.",
+        "For public events the risk flips. You want reach, so check embed options, how the player behaves behind corporate firewalls and whether viewers need an account. Ask your IT team which video protocols and domains the office network allows, because a platform that works in the pilot at your desk may be blocked on a factory floor."
+      ]
+    },
+    {
+      "h2": "Pilot checklist: test on the real network with real viewers",
+      "paras": [
+        "A rehearsal tells you more than a demo. Run the following steps with two or three shortlisted platforms at the same time of day as the real event."
+      ],
+      "list": [
+        "Connect the actual encoder or conferencing setup from the actual venue, not a spare laptop in the office.",
+        "Invite 20 to 50 colleagues across offices, VPNs and mobile networks, and ask them to report buffering, audio drift and login problems.",
+        "Send a test with a 30 minute run time, because some problems, such as dropped connections or encoder overheating, only appear late.",
+        "Try each interaction: Q&A, polls, chat moderation, speaker handover.",
+        "Check the recording, captions and export within an hour of finishing and note how many manual steps they took.",
+        "Write down who answered the support request and how long it took."
+      ],
+      "ordered": true,
+      "after": [
+        "Score each platform against the paragraph you wrote at the start, not against an abstract feature list."
+      ]
+    },
+    {
+      "h2": "Where the categories fit",
+      "paras": [
+        "Platform types blur, but a few groupings help you shortlist. Webinar tools bundle registration, reminders and moderated questions and suit marketing-led events. Enterprise streaming platforms add secure delivery, analytics and integrations for large internal audiences. Live production software sits on the production side: it mixes cameras, graphics and remote guests and then feeds one of the platforms above. If your events are mostly produced from a room, read our ranking of [live production software](/software/best-live-production-software) alongside the platform list.",
+        "Developer-oriented streaming APIs are another route when you want to embed video in your own product. Verified vendors in that space describe themselves in their own terms: for example, Amazon IVS presents itself as a hosted live-streaming service for low-latency interactive video, and Mux as a video API platform covering encoding, streaming and analytics. They need engineering time, so they fit best when events are part of a product, not a one-off."
+      ]
+    },
+    {
+      "h2": "Budget and contract points to check",
+      "paras": [
+        "Pricing models differ more than headline prices suggest. Some vendors charge per event, some per attendee tier, some per minute of encoding or delivery, and some bundle events into a seat license. Model your calendar for a year, including rehearsals, before you compare. Ask what happens when an event exceeds the attendee cap on the day, whether recordings count against a storage limit, and which support tier covers live events outside business hours.",
+        "Keep a rollback option. A short initial term, or a plan you can cancel after the first quarter, costs less than being stuck with a tool your producers dislike."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How early should we choose a platform for a large internal event?",
+      "a": "Aim for at least six to eight weeks before the date for an event with executives and a large audience. That leaves time for a security review, an encoder test from the real venue and a full rehearsal with viewers on different networks. Small webinars can be arranged in days, but the pilot step is still worth an afternoon."
+    },
+    {
+      "q": "Do we need ultra-low latency for a town hall?",
+      "a": "Usually not. If questions arrive through a form or typed chat and a moderator reads them, a normal or low latency setting gives viewers smoother playback. YouTube's help center notes that lower latency means a smaller buffer and a higher chance of buffering, so reserve ultra-low settings for events where speakers talk to viewers in real time."
+    },
+    {
+      "q": "Can we stream from a conferencing tool instead of buying a platform?",
+      "a": "For small audiences and simple events, yes. The limits show up with large audiences, branded viewer pages, registration, analytics and recording rules. Check the audience cap and the production options of the tool you already use, then compare them with the requirements paragraph you wrote at the start."
+    },
+    {
+      "q": "What is the difference between a webinar platform and an enterprise streaming platform?",
+      "a": "Webinar platforms center on registration, reminders, polls and moderated questions for a defined audience. Enterprise streaming platforms center on delivering one broadcast securely to many employees, with analytics, network optimization and integrations. Some products cover both, so use your event shape to decide which strength matters more."
+    },
+    {
+      "q": "How do we handle remote speakers who have weak connections?",
+      "a": "Ask speakers to use a wired connection where possible, test audio and video in the rehearsal and keep a phone dial-in or a pre-recorded fallback ready. Decide in advance who cuts to the fallback. A platform that lets a producer remove or replace a presenter quickly is worth more than extra layout options."
+    }
+  ],
+  "related_categories": [
+    "best-enterprise-live-streaming-platforms",
+    "best-live-production-software"
+  ],
+  "related_guides": [
+    "rtmp-srt-webrtc-streaming-latency-explained",
+    "how-to-stream-a-hybrid-event-or-game-showcase"
+  ],
+  "sources": [
+    {
+      "title": "Understand live streaming latency",
+      "url": "https://support.google.com/youtube/answer/7444635",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "What are Microsoft Teams live events?",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/teams-live-events/what-are-teams-live-events",
+      "publisher": "Microsoft Learn"
+    },
+    {
+      "title": "Choose live encoder settings, bitrates, and resolutions",
+      "url": "https://support.google.com/youtube/answer/2853702",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "Amazon IVS",
+      "url": "https://aws.amazon.com/ivs/",
+      "publisher": "Amazon Web Services"
+    },
+    {
+      "title": "Mux",
+      "url": "https://www.mux.com/",
+      "publisher": "Mux, Inc."
+    }
+  ]
+}

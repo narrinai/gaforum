@@ -1,0 +1,150 @@
+{
+  "slug": "spine-vs-live2d-cubism",
+  "a": "spine",
+  "b": "live2d-cubism",
+  "a_name": "Spine",
+  "b_name": "Live2D Cubism",
+  "a_site": "https://esotericsoftware.com",
+  "b_site": "https://www.live2d.com/",
+  "category": "best-vtuber-software",
+  "title": "Spine vs Live2D Cubism: Which Fits Your Team in 2026?",
+  "description": "Spine is a one-time-license 2D skeletal animation tool built for games; Live2D Cubism turns one illustration into a moving character. Compare cost and fit.",
+  "intro": "Spine is 2D skeletal animation software made by Esoteric Software for video games, and Live2D Cubism is a modeling tool from Live2D that animates a character from a single illustration. Both end up as moving 2D art, but they start from different places: Spine from a rig that ships inside a game runtime, Cubism from a layered illustration that an app or a streaming program can drive. This page lines up licensing, pricing, runtimes and the avatar angle using the vendors' own pages.",
+  "verdict": "Choose Spine when the animation lives inside a game build and you want to pay once, with every future update included. Choose Live2D Cubism when the product is a character built from one illustration, for example an avatar, and you want a free edition to start with. Studios doing both can run the two tools side by side, since they export to different runtimes.",
+  "pick_a": "Pick Spine if your characters are animated skeletons that ship in a game, you prefer a one-time purchase, and your runtime is Unity, C#, C++, HTML5 or a mobile target.",
+  "pick_b": "Pick Live2D Cubism if you want to move a single illustration with expressions, need a free edition to learn on, or plan to publish an avatar rather than a game sprite.",
+  "rows": [
+    {
+      "label": "Company",
+      "a": "Esoteric Software LLC",
+      "b": "Live2D Inc. (株式会社 Live2D), Japan"
+    },
+    {
+      "label": "What it makes",
+      "a": "Skeletal 2D animation for video games",
+      "b": "2D models with three-dimensional-looking expression, built from a single illustration"
+    },
+    {
+      "label": "Pricing model",
+      "a": "One-time license, future updates included",
+      "b": "Subscription; PRO and FREE editions"
+    },
+    {
+      "label": "Entry price",
+      "a": "Essential listed at $99 and $69 on the purchase page",
+      "b": "FREE edition; PRO price not shown on the pages opened"
+    },
+    {
+      "label": "Top edition price",
+      "a": "Professional listed at $449 and $379",
+      "b": "Sold through the Live2D Store; amount not on the opened pages"
+    },
+    {
+      "label": "Free option",
+      "a": "Free trial",
+      "b": "FREE edition, plus a 42-day PRO trial"
+    },
+    {
+      "label": "Runtimes and SDKs",
+      "a": "Unity, C#, cocos2d-x, iOS, Android, C++ and HTML5",
+      "b": "Cubism SDK for Unity, Native, Web, Java, Unreal Engine and Cocos Creator"
+    },
+    {
+      "label": "Revenue rule",
+      "a": "Businesses above $500,000 USD annual revenue need an Enterprise license",
+      "b": "Not stated on the pages opened"
+    },
+    {
+      "label": "Discounts",
+      "a": "None listed beyond the two prices shown",
+      "b": "76% off a 3-year PRO subscription for eligible students"
+    },
+    {
+      "label": "Main limit",
+      "a": "Enterprise license needed above the revenue line",
+      "b": "PRO pricing and edition differences sit behind store and comparison pages"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Two ways of building a moving character",
+      "text": [
+        "Spine describes itself as 2D skeletal animation software for video games. You build a skeleton, attach art to bones, animate it, and export data that a Spine runtime plays back in your game. Esoteric Software's purchase page adds that a Spine license also permits use of the Spine Runtimes in games, which matters because the runtime is where the animation actually lives in a shipped title.",
+        "Live2D Cubism Editor starts from a different object. Its product page says it creates a three-dimensional-looking expression from one illustration, and the Cubism SDK is the piece that lets an application run the finished model. The site also links a licensing page for VTuber activities, which hints at where much of the use sits: characters that talk and emote rather than sprites that walk through a level."
+      ]
+    },
+    {
+      "h2": "What you pay and how often",
+      "text": [
+        "Spine is the simpler bill. The purchase page shows Spine Essential at $99 and $69 and Spine Professional at $449 and $379, and states that all future updates are included with no additional charge. Think of it as buying a copy of the tool and keeping it. A free trial is available for Windows, Mac and Linux before you commit.",
+        "Live2D Cubism is a subscription product. PRO can be tried for 42 days, after which you continue on the FREE version. The pages opened do not print PRO amounts, because PRO is sold through the Live2D Store, so budget numbers have to come from there. The one discount that is visible is a 76% coupon on a 3-year PRO subscription for eligible students."
+      ]
+    },
+    {
+      "h2": "Revenue thresholds and licensing",
+      "text": [
+        "Spine's purchase page sets a clear line: businesses with more than $500,000 USD in annual revenue need a Spine Enterprise license. A small studio can stay on Essential or Professional, but a funded team should check which side of that line it sits on before buying seats.",
+        "For Cubism, the opened pages mention the Cubism SDK Release License and a separate licensing page for VTuber activities, but their terms were not read for this comparison. If you plan to publish a commercial game or stream with a model, read those two documents before you design the pipeline."
+      ]
+    },
+    {
+      "h2": "Engines and runtimes",
+      "text": [
+        "Spine lists runtimes for Unity, C#, cocos2d-x, iOS, Android, C++ and HTML5 and JS, so web and mobile targets are covered as well as engines. Cubism's SDK list on the vendor site names Unity, Native, Web, Java, Unreal Engine and Cocos Creator. The overlap is Unity and Web; Unreal and Java appear only on the Live2D list, while cocos2d-x, iOS, Android and C++ runtimes are named only for Spine, though Live2D's Native SDK may cover some of the same ground.",
+        "If your engine is Unreal, Cubism lists support directly. If it is a custom C++ or HTML5 engine, check which runtime source you can actually compile and ship."
+      ]
+    },
+    {
+      "h2": "Where the VTuber and game audiences split",
+      "text": [
+        "The category this pair belongs to is [VTuber software](/software/best-vtuber-software). Live2D Cubism has the closer link to that audience, since it builds an animated character from a single illustration and ships a free edition for learners. Spine is aimed at developers shipping animation in games, and its pricing, with a revenue-based enterprise tier, reads like a studio tool.",
+        "That difference should drive the decision more than any feature list. A solo artist who wants a rigged avatar will likely feel at home in Cubism. A programmer who needs animation data inside a game loop will likely prefer Spine's runtimes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Spine free to use?",
+      "a": "Spine has a free trial, but the full tool is a paid license. The purchase page lists Essential at $99 and $69 and Professional at $449 and $379, with all future updates included. Businesses above $500,000 USD in annual revenue need the Enterprise license."
+    },
+    {
+      "q": "Does Live2D Cubism have a free version?",
+      "a": "Yes. Cubism Editor comes in FREE and PRO editions, and PRO can be tried for 42 days before you continue on FREE. PRO is sold through the Live2D Store, and its price was not on the pages opened for this comparison."
+    },
+    {
+      "q": "Which one should a VTuber start with?",
+      "a": "Cubism fits better, because it animates a character from a single illustration and has a free edition. Live2D also links a licensing page for VTuber activities. Spine targets animation that ships inside games."
+    },
+    {
+      "q": "Can both be used in Unity?",
+      "a": "Yes. Spine lists a Unity runtime and Live2D lists a Cubism SDK for Unity. The two use separate runtimes and file formats, so a project normally picks one per character rather than mixing them."
+    },
+    {
+      "q": "Is Spine a subscription?",
+      "a": "No. Esoteric Software describes a one-time license with free future updates. That contrasts with Live2D Cubism, which is listed as a subscription, including a 3-year PRO term in the student program."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Esoteric Software describes Spine as 2D skeletal animation software for video games.",
+      "url": "https://esotericsoftware.com"
+    },
+    {
+      "fact": "The Spine purchase page lists Essential at $99 and $69 and Professional at $449 and $379, includes future updates, permits runtime use in games, and requires an Enterprise license above $500,000 USD annual revenue.",
+      "url": "https://esotericsoftware.com/spine-purchase"
+    },
+    {
+      "fact": "Live2D Cubism Editor creates 2D-based three-dimensional expression from a single illustration.",
+      "url": "https://www.live2d.com/cubism/about/"
+    },
+    {
+      "fact": "Cubism Editor PRO can be tried for 42 days, after which users continue with the FREE version.",
+      "url": "https://www.live2d.com/en/cubism/"
+    },
+    {
+      "fact": "The Live2D site lists the Cubism SDK for Unity, Native, Web, Java, Unreal Engine and Cocos Creator, names 株式会社 Live2D as operator, and offers a 76% student discount on a 3-year PRO subscription.",
+      "url": "https://www.live2d.com/"
+    }
+  ],
+  "published": "2026-11-18"
+}

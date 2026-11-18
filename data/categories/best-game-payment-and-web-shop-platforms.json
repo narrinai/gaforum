@@ -1,0 +1,639 @@
+{
+  "slug": "best-game-payment-and-web-shop-platforms",
+  "name": "game payment and web shop platforms",
+  "title": "Best Game Payment and Web Shop Platforms in 2026",
+  "group": "Game business",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Compare platforms that let game studios sell in-game items and games through their own web stores, with tax, payments and merchant of record handled.",
+  "definition": "A game payment and web shop platform lets a studio sell items, currency or games to players outside the app stores. It hosts the web store and checkout, accepts local payment methods, and in many cases acts as merchant of record, taking over sales tax, VAT, fraud handling and chargebacks so the studio does not register in each market itself.",
+  "intro": "Studios that sell directly to players have two jobs that look alike but are not: building a storefront players want to open, and taking money in dozens of countries without becoming a tax department. The vendors below split along that line. Some are built for games and ship web shops, offers and launchers. Others are general payment or merchant of record companies that list games as one use case. We read each vendor's homepage, about page and pricing page, noted what each says about payment methods, currencies, merchant of record status and fees, and weighed fit for an indie or mid-size studio rather than a platform holder. We did not run transactions. Where a figure comes from the vendor, the entry says so, and where no price is shown we say that the vendor sells on quote or through a contact form. Thirteen vendors passed the check; one planned vendor could not be opened and was dropped.",
+  "criteria": [
+    {
+      "heading": "Who carries the tax and chargeback burden",
+      "text": "A web shop is only cheaper than a store cut if you do not rebuild compliance yourself. Check whether the vendor names itself merchant of record, because that is the sentence that moves sales tax, VAT and most fraud exposure off your books. Platforms that only process payments leave registration, remittance and disputes with you. Several vendors on this page offer both modes, so read which product you would actually be buying. Pay particular attention to chargeback handling and to whether tax is calculated per country or per region."
+    },
+    {
+      "heading": "Reach in payment methods and currencies",
+      "text": "Players in Southeast Asia, Brazil or Turkey rarely pay by card. A shop that lists many local methods and currencies converts better in those markets than one that stops at cards and wallets. Vendors quote counts such as 130+ currencies or 1000+ methods; treat those as vendor claims and compare the ones that matter for your audience, including carrier billing and prepaid vouchers. Also ask whether prices can be set per region, since a single dollar price loses sales in cheaper markets."
+    },
+    {
+      "heading": "Storefront and live-ops tools",
+      "text": "Some platforms hand you a payment page; others give you a branded store, personalized offers, loyalty rewards, a launcher or deep links from inside the game. If your live-ops team already runs offers, a plain checkout may be enough. If not, built-in offer logic and player segmentation save engineering time. Look at how the shop connects to the game: SDK, link-out, payment links or server calls, and who owns the player identity during purchase."
+    },
+    {
+      "heading": "Fee transparency and contract terms",
+      "text": "Most game-focused vendors do not print their rates. Expect a contact form, a demo request or a performance-based fee. That is workable, but it means your first real comparison happens in a sales call, so go in with your expected monthly volume and average purchase size. A published rate card, volume discounts, minimums, payout schedules and exit terms all belong on your question list. Be wary of any claim about what you keep per sale until the fee basis is written down."
+    }
+  ],
+  "market_notes": [
+    "The list splits into two camps. Seven vendors are built around games or digital goods: Xsolla, Appcharge, Coda Payments, Stash, Aghanim, Tebex and Boku. The other six are general merchants or payment processors: FastSpring, Paddle, Paymentwall, Nuvei, Adyen and Stripe. Among the pages we read, only Coda prints percentage rates, 1%, 5% and a flat 15% per transaction, and Adyen describes its structure without figures. At least eight of the thirteen route pricing questions to a contact form, a demo or a sales call.",
+    "The main trade-off is control against effort. A merchant of record that also builds the store, such as Appcharge or Stash, shortens launch time but ties your offer logic to one vendor. A processor such as Adyen or Stripe gives you the rails and leaves tax, shop design and fraud policy to you. Two vendors, Appcharge and Aghanim, focus on mobile games specifically, which matters because link-out from an app has different rules from a PC storefront. Several of the figures above, such as volume processed or countries covered, are vendor-reported and not independently confirmed."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Decide who stays merchant of record",
+      "text": "Write down whether you want tax and compliance taken off your hands or whether you already have an entity set up for it. If the answer is take it off, shortlist only vendors that state merchant of record on their own pages: Xsolla, Appcharge, Stash, Aghanim, Coda Payments, FastSpring and Paddle are the ones whose opened pages say so or describe it. If you already handle tax through a finance team, a processor may cost less and give you more control."
+    },
+    {
+      "title": "Match the platform to where players are",
+      "text": "List your top five player countries and the payment methods people use there. Then check each vendor's stated coverage for exactly those markets, not the global headline number. A shop that reaches 200+ countries on paper may still lack the voucher or wallet your biggest market prefers. Ask for the method list by country in writing before you sign anything, and test a checkout from a device located in that market if a demo store is available."
+    },
+    {
+      "title": "Price it with your own numbers",
+      "text": "Take your last full month of sales, split by country and average purchase value, and ask two or three vendors to quote against it. Compare total cost including tax handling, refunds, chargebacks and payout fees, not only the headline rate. For vendors that publish rates, like Coda, check which rate applies to your volume tier. For quote-only vendors, push for a written rate card and a minimum term before you commit engineering time to an integration."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best game payment and web shop platform in 2026?",
+      "a": "Xsolla is the broadest fit: a games-first company with web shop, payments and publishing tools, covering 200+ geographies and 1000+ payment methods according to its About page. Appcharge is the better pick if you ship a mobile game and want a branded web store with merchant of record. Coda Payments is the better pick if you want published per-transaction rates."
+    },
+    {
+      "q": "Do I need a merchant of record to sell in-game items on the web?",
+      "a": "You do not strictly need one, but without it you register for sales tax and VAT where required, remit it, and handle disputes yourself. A merchant of record becomes the seller of record to the player and takes on that work for a fee. Small studios usually choose one to avoid building a compliance function."
+    },
+    {
+      "q": "How much does a game web shop platform cost?",
+      "a": "It depends on the vendor, and most do not print rates. Coda lists standard rates from 1% to 15% per transaction on its pricing page, with custom pricing from $100K USD monthly volume. Xsolla, Appcharge, Stash and Tebex direct buyers to sales contacts. Adyen charges a fixed fee plus a payment-method fee with no setup cost."
+    },
+    {
+      "q": "Can a web shop replace app store billing for a mobile game?",
+      "a": "It can supplement it. Vendors such as Appcharge and Aghanim sell in-game items through web stores reached by links from the game. Whether you may steer players off the store depends on platform rules in each region, which change, so confirm the current terms for each store before moving volume."
+    },
+    {
+      "q": "Which platforms suit a PC or console studio rather than mobile?",
+      "a": "Xsolla describes web shops for mobile, PC and web games, and Tebex serves server-based games and webstores. FastSpring lists a video games use case for selling games direct to consumers, and Paddle's use-case pages cover games alongside SaaS. Appcharge and Aghanim describe a mobile focus."
+    },
+    {
+      "q": "Is Stripe enough for a small game studio?",
+      "a": "Stripe is enough if you only need to accept payments and are comfortable running tax and your own store pages. Its opened pages describe payments, billing, invoicing and tax tools, with 135+ currencies and payment methods. It does not provide a games-specific web shop, offers or launcher, so expect more build work than with a games-first platform."
+    },
+    {
+      "q": "What is carrier billing and does it matter for games?",
+      "a": "Carrier billing charges a purchase to a phone bill, which helps in markets where players lack cards. Boku builds around local payment methods including wallets and direct carrier billing, and states 200+ local methods in 40+ markets on its homepage. It matters most if a large share of your audience is in prepaid mobile markets."
+    }
+  ],
+  "related": [
+    "best-mobile-attribution-tools-for-games",
+    "best-game-market-intelligence-tools",
+    "best-influencer-marketing-tools-for-games"
+  ],
+  "tools": [
+    {
+      "slug": "xsolla",
+      "name": "Xsolla",
+      "site": "https://www.xsolla.com/",
+      "company": "Xsolla",
+      "country": "",
+      "tagline": "Games-first commerce suite with web shop and payments",
+      "best_for": "Studios wanting one games-first vendor",
+      "pricing": "Not stated on the opened pages; the pricing URL leads to a contact form, and the homepage says tools launch with no upfront costs.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Web shop for mobile, PC and web games",
+      "features": [
+        "Web Shop",
+        "Xsolla Pay",
+        "Publishing Suite",
+        "Xsolla SDK",
+        "LiveOps",
+        "Offerwall"
+      ],
+      "summary": "Ranks first because it is the only vendor here that pairs a games-specific web shop with payments, publishing and live-ops tooling under one roof.",
+      "verdict": "Xsolla calls itself the global video game commerce company, and the opened pages back that with a product range that goes past checkout: Web Shop, Xsolla Pay, a Publishing Suite, an SDK and LiveOps. The About page cites 200+ geographies, 1000+ payment methods and 130+ currencies, and the homepage says Web Shop lets studios keep up to 95% of each sale. Those are vendor figures, but they describe the widest reach among the vendors we read, which suits a studio selling across PC, mobile and web.",
+      "weaknesses": "No rate card is shown; the pricing link ends at a contact form, so the up to 95% claim cannot be checked against fees before a sales call. The breadth also means more products to evaluate than a studio needing only a checkout page.",
+      "wrong_for": "Skip it if you want a published rate card up front or a plain card processor. Look at Coda Payments for printed rates or Stripe for bare payment rails.",
+      "sources": [
+        {
+          "fact": "Xsolla describes itself as the global video game commerce company that helps developers and publishers grow their businesses.",
+          "url": "https://xsolla.com/about-us"
+        },
+        {
+          "fact": "The About page says Xsolla's solutions work in 200+ geographies, with 1000+ payment methods and 130+ currencies.",
+          "url": "https://xsolla.com/about-us"
+        },
+        {
+          "fact": "The homepage says Web Shop lets studios keep up to 95% of each sale.",
+          "url": "https://www.xsolla.com/"
+        },
+        {
+          "fact": "The pricing URL does not show a price list; it leads to a contact form.",
+          "url": "https://xsolla.com/contact-us"
+        }
+      ]
+    },
+    {
+      "slug": "appcharge",
+      "name": "Appcharge",
+      "site": "https://www.appcharge.com/",
+      "company": "Appcharge",
+      "country": "",
+      "tagline": "Branded web stores for mobile games, merchant of record",
+      "best_for": "Mobile publishers going direct-to-consumer",
+      "pricing": "Not stated on the opened pages; the /pricing URL returns 404 and the site uses contact forms.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Mobile games",
+      "features": [
+        "Personalized web stores",
+        "In-app payment links",
+        "Self-optimized checkout",
+        "Merchant of record",
+        "Mobile payments SDK",
+        "Subscriptions"
+      ],
+      "summary": "Second because it is built for one job, selling mobile in-game items through branded stores, and states merchant of record, 500+ methods and 100+ currencies.",
+      "verdict": "Appcharge describes itself as a payments company built by people from game studios, and its product is narrow in a useful way: branded web stores, in-app payment links, a checkout it says optimizes itself, and gamified offers, all under merchant of record. The homepage lists 500+ payment methods and 100+ currencies, and the About page states $89M+ in funding and 150+ games. A mobile studio that wants players to buy outside the app store gets a ready-made storefront rather than a payment API.",
+      "weaknesses": "Mobile only, so PC and console studios will not find a fit. No pricing is shown and the pricing URL returns a 404, which leaves fees unknown until a sales contact. The $1BN annual transactions figure is a vendor claim.",
+      "wrong_for": "Not for PC or console studios, who should look at Xsolla or Tebex. Teams that want fees printed in advance should check Coda Payments.",
+      "sources": [
+        {
+          "fact": "Appcharge helps mobile game publishers sell in-game items directly to players with branded web stores, global payments and gamified offers.",
+          "url": "https://www.appcharge.com/"
+        },
+        {
+          "fact": "The homepage states merchant of record, 500+ payment methods and 100+ currencies.",
+          "url": "https://www.appcharge.com/"
+        },
+        {
+          "fact": "The About page states $89M+ in funding and 150+ games.",
+          "url": "https://www.appcharge.com/company/about-us"
+        },
+        {
+          "fact": "The opened pages do not state pricing; the site directs visitors to Get in touch.",
+          "url": "https://www.appcharge.com/"
+        }
+      ]
+    },
+    {
+      "slug": "coda-payments",
+      "name": "Coda Payments",
+      "site": "https://www.coda.co/",
+      "company": "Coda",
+      "country": "",
+      "tagline": "Webstore, link-out payments and merchant of record with listed rates",
+      "best_for": "Studios wanting printed per-transaction rates",
+      "pricing": "Standard rates start from 1% per transaction, with other standard rates of 5% and a flat 15% per transaction; custom pricing for companies expecting at least $100K USD of volume per month.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Codapay payments",
+        "Coda Links",
+        "Coda Webstore",
+        "Coda Distribution",
+        "Merchant of Record",
+        "Coda Consumer Platforms"
+      ],
+      "summary": "Third because it is the one games-focused vendor that prints per-transaction rates and still offers a webstore and merchant of record.",
+      "verdict": "The Coda pricing page is the most concrete of any games-focused vendor in this list. It shows three standard rates, from 1% up to a flat 15% per transaction, and moves to custom pricing once a company expects $100K USD of monthly volume. Around that sits a webstore, link-out payments through Coda Links and a merchant of record offer. The homepage adds that Coda reaches more than 380 million consumers through its own platforms. A studio can estimate cost before talking to sales.",
+      "weaknesses": "The pricing page does not say which product each of the three rates applies to in the text we read, so you still need to ask what 1% versus 15% buys. The 380 million reach figure is a vendor claim.",
+      "wrong_for": "Large publishers with bespoke contracts will outgrow the standard tiers; compare Xsolla or Nuvei. Studios wanting a heavily personalized store should see Appcharge.",
+      "sources": [
+        {
+          "fact": "Coda describes itself as a global digital commerce company helping publishers and brands simplify monetization, distribution and payments.",
+          "url": "https://www.coda.co/about-us/"
+        },
+        {
+          "fact": "The pricing page lists standard transaction rates starting from 1% per transaction, 5% per transaction and a flat 15% per transaction.",
+          "url": "https://www.coda.co/pricing/"
+        },
+        {
+          "fact": "Custom pricing is offered to companies expecting at least $100K USD of volume per month.",
+          "url": "https://www.coda.co/pricing/"
+        },
+        {
+          "fact": "The homepage says Coda reaches more than 380 million consumers through its portfolio of platforms.",
+          "url": "https://www.coda.co/"
+        }
+      ]
+    },
+    {
+      "slug": "stash",
+      "name": "Stash",
+      "site": "https://www.stash.gg/",
+      "company": "Stash",
+      "country": "",
+      "tagline": "Direct-to-consumer platform with webshop, launcher and loyalty",
+      "best_for": "Studios wanting store, launcher and loyalty together",
+      "pricing": "Not published; the site offers a Contact Sales link.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "In-App Payments",
+        "Webshop",
+        "Launcher",
+        "Loyalty",
+        "Merchant of Record"
+      ],
+      "summary": "Fourth because it bundles a webshop, launcher and loyalty program with merchant of record, but gives less on payment coverage and price.",
+      "verdict": "Stash sells itself as a direct-to-consumer platform for game developers, and the product list reads like a retention toolkit as much as a payment service: In-App Payments, Webshop, Launcher, Loyalty and Merchant of Record. The homepage says Snowprint runs Stash across 64 countries and 21 currencies, and case studies name Hutch (F1 Clash) and Tacticus. For a studio that wants a loyalty layer and a branded launcher next to the shop, it covers more ground than a checkout-only vendor.",
+      "weaknesses": "The coverage figure shown, 64 countries and 21 currencies, is a single customer's footprint rather than a platform total, and no payment-method count appears. Pricing is not published; sales contact is required.",
+      "wrong_for": "Studios judging vendors by payment-method breadth should compare Xsolla or Appcharge. Those wanting printed rates should read Coda Payments.",
+      "sources": [
+        {
+          "fact": "Stash describes itself as a direct-to-consumer platform for game developers.",
+          "url": "https://www.stash.gg/"
+        },
+        {
+          "fact": "The products listed on the site are In-App Payments, Webshop, Launcher, Loyalty and Merchant of Record.",
+          "url": "https://www.stash.gg/"
+        },
+        {
+          "fact": "The homepage says Snowprint runs Stash across 64 countries and 21 currencies.",
+          "url": "https://www.stash.gg/"
+        },
+        {
+          "fact": "Pricing is not published on the page; the site offers a Contact Sales link.",
+          "url": "https://www.stash.gg/"
+        }
+      ]
+    },
+    {
+      "slug": "aghanim",
+      "name": "Aghanim",
+      "site": "https://aghanim.com/",
+      "company": "Aghanim, Inc.",
+      "country": "United States",
+      "tagline": "Direct-to-consumer enablement for mobile games, performance-priced",
+      "best_for": "Mobile studios wanting no upfront cost",
+      "pricing": "Not stated on the opened pages; the About page describes a performance-based model with no upfront costs.",
+      "pricing_model": "Performance-based",
+      "free_plan": "Unknown",
+      "platforms": "Mobile games",
+      "features": [
+        "Billing engine",
+        "Merchant of Record",
+        "Incentives",
+        "Motivation programs",
+        "Web-based payments for mobile games"
+      ],
+      "summary": "Fifth because the performance-based, no-upfront-cost model suits a small mobile studio, but the opened pages give no fees or payment coverage.",
+      "verdict": "Aghanim combines a billing engine, merchant of record and player incentive tools for mobile games. The company is Aghanim, Inc., with headquarters in Los Angeles and a tech hub in Lisbon according to the homepage, and the founders are listed as former executives of Xsolla and Xsolla Labs. The About page describes a performance-based business with no upfront costs, which lowers the entry barrier for a small studio. The homepage also announces a strategic partnership with Adyen.",
+      "weaknesses": "Neither the homepage nor the About page states fee percentages, payment-method counts or currency coverage, so reach cannot be compared with Xsolla or Appcharge. The focus is mobile games only, and the incentive tools add scope a payment-only buyer may not want.",
+      "wrong_for": "PC and console studios should not start here; Tebex or Xsolla fit better. Teams that need published numbers on method coverage should look at Boku or Paymentwall.",
+      "sources": [
+        {
+          "fact": "Aghanim is a direct-to-consumer enablement platform for mobile games covering commerce, payments and retention tools.",
+          "url": "https://aghanim.com/"
+        },
+        {
+          "fact": "The homepage says HQ is in Los Angeles with its tech hub in Lisbon.",
+          "url": "https://aghanim.com/"
+        },
+        {
+          "fact": "The About page describes a performance-based business with no upfront costs.",
+          "url": "https://aghanim.com/about"
+        },
+        {
+          "fact": "The homepage does not state pricing or fee percentages.",
+          "url": "https://aghanim.com/"
+        }
+      ]
+    },
+    {
+      "slug": "tebex",
+      "name": "Tebex",
+      "site": "https://www.tebex.io/",
+      "company": "Tebex",
+      "country": "",
+      "tagline": "Webstores, checkout and store protection for game servers and studios",
+      "best_for": "Server-based and community-driven games",
+      "pricing": "Not stated on the page; the site offers Talk to sales and Open Account buttons.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Webstores",
+        "Checkout",
+        "Store Protection",
+        "D2C",
+        "Server monetization",
+        "Operations"
+      ],
+      "summary": "Sixth because it has the largest self-reported merchant base and a store-protection product, but the pages show less detail on tax handling.",
+      "verdict": "Tebex describes itself as the extension that carries the operational complexity behind game monetization, with Webstores, Checkout and Store Protection in the menu. The homepage states $1.5B processed, 45K+ businesses monetizing, 130+ payment methods and 70+ countries, all vendor figures. The Open Account button suggests a lower-friction start than a sales-gated vendor, and the server monetization angle fits games where community operators sell perks. It is the sensible look for server-based titles.",
+      "weaknesses": "The homepage does not say whether Tebex acts as merchant of record, and shows no fees. The volume figures are self-reported, and the product list is shorter than Xsolla's on live-ops and publishing.",
+      "wrong_for": "Mobile publishers wanting in-app link-out offers should look at Appcharge. Anyone who needs explicit merchant of record wording should check Paddle or FastSpring.",
+      "sources": [
+        {
+          "fact": "Tebex describes itself as a game monetization extension that carries the operational complexity behind game monetization.",
+          "url": "https://www.tebex.io/"
+        },
+        {
+          "fact": "The products in the menu are Webstores, Checkout and Store Protection.",
+          "url": "https://www.tebex.io/"
+        },
+        {
+          "fact": "The homepage states $1.5B processed, 45K+ businesses monetizing, 130+ payment methods and 70+ countries.",
+          "url": "https://www.tebex.io/"
+        },
+        {
+          "fact": "Pricing is not stated on the page; it offers Talk to sales and Open Account buttons.",
+          "url": "https://www.tebex.io/"
+        }
+      ]
+    },
+    {
+      "slug": "fastspring",
+      "name": "FastSpring",
+      "site": "https://fastspring.com/",
+      "company": "FastSpring",
+      "country": "",
+      "tagline": "Merchant of record for software and digital goods, with a games use case",
+      "best_for": "Premium PC games and software bundles",
+      "pricing": "One flat rate with no hidden fees, per the pricing page headline; the rate itself is not in the opened text.",
+      "pricing_model": "Flat rate",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Merchant of Record",
+        "Global online payments",
+        "Subscription management",
+        "Checkout",
+        "Tax compliance",
+        "Digital invoicing",
+        "Affiliate marketing"
+      ],
+      "summary": "Seventh because it is a full merchant of record with a flat-rate pitch and a video games use case, but it is not built around live-ops offers.",
+      "verdict": "FastSpring describes itself as a full-stack digital commerce platform for software, SaaS, content and digital goods, and its merchant-of-record model covers global payments, tax and compliance. The homepage lists a Video Games use case for selling games or in-game items direct to consumers. The pricing page promises one flat rate with no hidden fees, which is a clearer message than most quote-only vendors give. It suits a studio selling a premium PC game or a software-style product from its own site.",
+      "weaknesses": "It targets software and digital goods broadly, so there is no games-specific storefront, loyalty or live-ops layer in the pages we read. The flat rate is named but the figure was not in the page text.",
+      "wrong_for": "Free-to-play studios running frequent in-game offers should choose Appcharge or Stash. Teams that need local method breadth beyond cards may prefer Paymentwall.",
+      "sources": [
+        {
+          "fact": "FastSpring describes itself as a full-stack digital commerce platform for software, SaaS, content or anything-as-a-service.",
+          "url": "https://fastspring.com/company/"
+        },
+        {
+          "fact": "FastSpring's merchant-of-record model covers global payments, tax and compliance.",
+          "url": "https://fastspring.com/"
+        },
+        {
+          "fact": "The pricing page says FastSpring offers one flat rate with no hidden fees.",
+          "url": "https://fastspring.com/pricing/"
+        },
+        {
+          "fact": "The homepage lists a Video Games use case for selling video games or in-game items direct to consumers.",
+          "url": "https://fastspring.com/"
+        }
+      ]
+    },
+    {
+      "slug": "paddle",
+      "name": "Paddle",
+      "site": "https://www.paddle.com/",
+      "company": "Paddle.com Market Limited",
+      "country": "",
+      "tagline": "Merchant of record for SaaS, apps and some games",
+      "best_for": "Subscription-style game products",
+      "pricing": "The pricing page says it shows Paddle's fees and offers a custom enterprise quote; the fee figures are not in the captured page text.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "SaaS, apps and games (use-case pages)",
+      "features": [
+        "Checkout",
+        "Subscriptions",
+        "Payments",
+        "Tax and compliance",
+        "Invoicing",
+        "Fraud protection",
+        "Retention tools"
+      ],
+      "summary": "Eighth because the merchant of record is solid for subscriptions and names Nexus Mods as a customer, yet it describes itself as made for SaaS and apps.",
+      "verdict": "Paddle calls its product the only complete merchant of record solution purpose-built for SaaS and apps, and games appear on its use-case pages. The feature list covers checkout, subscriptions, tax and compliance, invoicing, fraud protection and retention tools, which works well when a game is sold as a subscription, a launcher service or a mod platform. The homepage names Nexus Mods and HubX as customer stories. For a studio running a membership model rather than item shops, it is a reasonable base.",
+      "weaknesses": "The positioning is SaaS and apps first, with no in-game item shop, offers engine or launcher. The pricing page shows fees, but the figures were not captured in the text we read, so we cannot state them here.",
+      "wrong_for": "Item-shop free-to-play titles need a games-first store such as Xsolla or Stash. Studios that want a card-and-wallet processor only should compare Stripe.",
+      "sources": [
+        {
+          "fact": "Paddle describes its product as the only complete merchant of record solution purpose-built for SaaS and apps.",
+          "url": "https://www.paddle.com/"
+        },
+        {
+          "fact": "The About page is for Paddle.com Market Limited.",
+          "url": "https://www.paddle.com/about"
+        },
+        {
+          "fact": "The pricing page says it shows Paddle's fees and offers a custom enterprise quote.",
+          "url": "https://www.paddle.com/pricing"
+        },
+        {
+          "fact": "The homepage lists customer stories including Nexus Mods and HubX.",
+          "url": "https://www.paddle.com/"
+        }
+      ]
+    },
+    {
+      "slug": "paymentwall",
+      "name": "Paymentwall",
+      "site": "https://www.paymentwall.com/",
+      "company": "Paymentwall",
+      "country": "United States",
+      "tagline": "Card processing and local payment methods through one API",
+      "best_for": "Studios building their own store on local methods",
+      "pricing": "Not stated on the opened pages; the site invites a consultation.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Brick card processing",
+        "PayAlto local payment methods",
+        "Gateway",
+        "eInvoicing",
+        "Passport",
+        "Subscriptions"
+      ],
+      "summary": "Ninth because local-method coverage is wide and plugins exist, but it is a payment provider rather than a game store.",
+      "verdict": "Paymentwall presents itself as a global payment provider for credit cards and local payment methods in 200 countries and territories. Its products are Brick for cards, PayAlto for local methods, a Gateway, eInvoicing, Passport and Subscriptions, and the homepage says more than 150 local methods are reachable through one API. Plugins are listed for Shopify, WooCommerce and Magento, so a studio that already runs a web shop on one of those can add local methods. San Francisco is its Global HQ per the About page.",
+      "weaknesses": "No game-specific storefront, offers or launcher is described, and merchant-of-record status is not stated on the pages we opened. Pricing is by consultation only, so cost is unknown.",
+      "wrong_for": "Studios without engineering time for a custom store should pick Appcharge or Xsolla. Anyone who needs a stated tax-handling model should look at FastSpring.",
+      "sources": [
+        {
+          "fact": "Paymentwall describes itself as a global payment provider for credit cards and local payment methods in 200 countries and territories.",
+          "url": "https://www.paymentwall.com/"
+        },
+        {
+          "fact": "The products listed are Brick, PayAlto, Gateway, eInvoicing, Passport and Subscriptions.",
+          "url": "https://www.paymentwall.com/"
+        },
+        {
+          "fact": "The About page lists San Francisco as the Global HQ.",
+          "url": "https://www.paymentwall.com/about"
+        },
+        {
+          "fact": "Pricing is not stated on the opened pages; the site invites a consultation.",
+          "url": "https://www.paymentwall.com/"
+        }
+      ]
+    },
+    {
+      "slug": "boku",
+      "name": "Boku",
+      "site": "https://www.boku.com/",
+      "company": "Boku",
+      "country": "",
+      "tagline": "Local payment methods, wallets and carrier billing network",
+      "best_for": "Reaching players without cards",
+      "pricing": "Not stated on the page; it offers a Talk to an expert contact.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Online payments",
+        "Bundling",
+        "200+ local payment methods",
+        "Wallets and direct carrier billing",
+        "Single API"
+      ],
+      "summary": "Tenth because carrier billing and wallet reach help in card-light markets, though it supplies payment rails rather than a shop.",
+      "verdict": "Boku describes itself as a global network of local payment methods for digital merchants. The homepage states 200+ local payment methods in 40+ markets, live payment methods in 60+ countries and 7B+ consumer accounts reachable, plus wallets, direct carrier billing and a single API. Its two products are Online payments and Bundling. For a studio whose growth markets pay by phone bill or wallet, it fills a gap that cards cannot. A July 2026 press item describes Boku as listed on AIM.",
+      "weaknesses": "It is a payments network, not a web shop, and the homepage does not state merchant-of-record status or fees. The reach figures, including 7B+ accounts, are vendor claims and count potential rather than active buyers.",
+      "wrong_for": "Studios that need a ready-made store should choose Appcharge, Stash or Tebex. Those needing tax handling should compare FastSpring.",
+      "sources": [
+        {
+          "fact": "Boku describes itself as a global network of local payment methods for digital merchants.",
+          "url": "https://www.boku.com/"
+        },
+        {
+          "fact": "The homepage states 200+ local payment methods in 40+ markets and live payment methods in 60+ countries.",
+          "url": "https://www.boku.com/"
+        },
+        {
+          "fact": "Boku's products on the homepage are Online payments and Bundling.",
+          "url": "https://www.boku.com/"
+        },
+        {
+          "fact": "A July 2026 press item on the homepage describes Boku as listed on AIM under the ticker BOKU.",
+          "url": "https://www.boku.com/"
+        }
+      ]
+    },
+    {
+      "slug": "nuvei",
+      "name": "Nuvei",
+      "site": "https://www.nuvei.com/",
+      "company": "Nuvei",
+      "country": "",
+      "tagline": "Global payments infrastructure with gaming use cases",
+      "best_for": "Large publishers with in-house payments teams",
+      "pricing": "Not stated on the page; merchants are directed to contact sales.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Pay-ins",
+        "Payouts",
+        "Global acquiring",
+        "Fraud and risk management",
+        "Chargeback resolution",
+        "Payment orchestration"
+      ],
+      "summary": "Eleventh because the infrastructure is deep, with over 720 payment options and gaming use cases, but it targets larger teams and publishes no price.",
+      "verdict": "Nuvei calls itself the infrastructure for every payment, everywhere, and its Who we are page presents it as a global payments infrastructure provider. The feature list spans pay-ins, payouts, global acquiring, fraud and risk management, chargeback resolution and payment orchestration. The homepage says over 720 payment options and lists use cases for online gaming and video gaming monetization. A publisher with a payments team that wants to route across processors will see more here than in a store-in-a-box product.",
+      "weaknesses": "It does not ship a games web shop or offers engine, and it directs merchants to contact sales for any price. The breadth of payments infrastructure is more than a small studio needs.",
+      "wrong_for": "Indie studios without a payments engineer should not start here; Coda Payments or Appcharge hand over a finished store. Teams wanting stated fees should see Adyen.",
+      "sources": [
+        {
+          "fact": "Nuvei describes itself as the infrastructure for every payment, everywhere.",
+          "url": "https://www.nuvei.com/"
+        },
+        {
+          "fact": "The Who we are page presents Nuvei as a global payments infrastructure provider.",
+          "url": "https://www.nuvei.com/who-we-are"
+        },
+        {
+          "fact": "The homepage says Nuvei offers over 720 trusted payment options.",
+          "url": "https://www.nuvei.com/"
+        },
+        {
+          "fact": "The homepage lists use cases for online gaming and video gaming monetization.",
+          "url": "https://www.nuvei.com/"
+        }
+      ]
+    },
+    {
+      "slug": "adyen",
+      "name": "Adyen",
+      "site": "https://www.adyen.com/",
+      "company": "Adyen",
+      "country": "",
+      "tagline": "Enterprise payments platform billed per transaction",
+      "best_for": "Large studios running their own checkout",
+      "pricing": "Pay per transaction with no setup or monthly fees: a fixed processing fee plus a fee set by the payment method, per the pricing page.",
+      "pricing_model": "Usage-based",
+      "free_plan": "None",
+      "platforms": "",
+      "features": [
+        "Accept payments",
+        "Send payouts globally",
+        "In-person payments",
+        "Adyen for Platforms",
+        "Intelligent money movement"
+      ],
+      "summary": "Twelfth because the fee structure is stated and coverage is wide, yet it is an enterprise processor and leaves store, tax and compliance to you.",
+      "verdict": "Adyen describes itself as a fintech platform for enterprises that runs payments, data and financial products on one platform. The pricing page is plain: a fixed processing fee plus a fee set by the payment method, with no setup or monthly fees. The homepage states 150+ currencies and 200+ local payment methods. For a large studio with its own storefront and finance team, that structure is easy to model, and Aghanim's announced partnership with Adyen shows games platforms build on it.",
+      "weaknesses": "It provides no games web shop, offers or merchant-of-record service in the pages we opened, so tax, fraud policy and store design stay with you. Enterprise positioning makes onboarding heavier for small studios.",
+      "wrong_for": "Small studios that want a hosted store should pick Appcharge or Stash. Teams wanting a simple developer-first API may find Stripe quicker.",
+      "sources": [
+        {
+          "fact": "Adyen describes itself as a fintech platform for enterprises running payments, data and financial products on one platform.",
+          "url": "https://www.adyen.com/"
+        },
+        {
+          "fact": "The pricing page says Adyen charges a fixed processing fee plus a fee determined by the payment method, per transaction.",
+          "url": "https://www.adyen.com/pricing"
+        },
+        {
+          "fact": "The pricing page says there are no setup or monthly fees.",
+          "url": "https://www.adyen.com/pricing"
+        },
+        {
+          "fact": "The homepage states 150+ currencies and 200+ local payment methods.",
+          "url": "https://www.adyen.com/"
+        }
+      ]
+    },
+    {
+      "slug": "stripe",
+      "name": "Stripe",
+      "site": "https://stripe.com/en-nl",
+      "company": "Stripe",
+      "country": "",
+      "tagline": "General payments, billing and invoicing platform",
+      "best_for": "Studios building a custom web checkout",
+      "pricing": "The Pricing and Fees page lists processing fees, pricing models and pay-as-you-go fees; the figures are not in the captured page text.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Online payments",
+        "Checkout",
+        "Billing",
+        "Subscriptions",
+        "Tax",
+        "Invoicing",
+        "Payouts"
+      ],
+      "summary": "Thirteenth because it is the most flexible set of payment building blocks, yet nothing on the opened pages is specific to games.",
+      "verdict": "Stripe describes itself as a financial services platform that helps businesses accept payments, build flexible billing models and manage money movement. The feature list covers online payments, Checkout, Billing, Subscriptions, Tax, Invoicing and Payouts, and the homepage states 135+ currencies and payment methods and US$1.9tn in payments volume in 2025. A studio with developers who want to design a custom web checkout, or sell a subscription, gets the most freedom here, and the fee structure is published on a pricing page.",
+      "weaknesses": "None of the opened pages mention games, a web shop for in-game items, offers, or merchant-of-record status, so everything beyond the payment itself is your build. The fee figures were not in the captured text.",
+      "wrong_for": "Studios wanting a finished game store with offers should choose Xsolla or Appcharge. Those wanting tax taken off their books should check FastSpring or Paddle.",
+      "sources": [
+        {
+          "fact": "Stripe is a financial services platform that helps businesses accept payments, build flexible billing models and manage money movement.",
+          "url": "https://stripe.com/en-nl"
+        },
+        {
+          "fact": "The homepage states 135+ currencies and payment methods supported and US$1.9tn in payments volume processed in 2025.",
+          "url": "https://stripe.com/en-nl"
+        },
+        {
+          "fact": "The Pricing and Fees page lists processing fees, pricing models and pay-as-you-go fees.",
+          "url": "https://stripe.com/en-nl/pricing"
+        }
+      ]
+    }
+  ]
+}

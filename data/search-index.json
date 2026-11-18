@@ -1,0 +1,1082 @@
+[
+{
+"url": "/",
+"title": "GA Forum: software rankings for game developers, streamers and esports",
+"description": "GA Forum ranks and compares the software behind games, livestreams and esports: engines, backends, anti-cheat, streaming tools, tournament platforms and more, with sourced facts and an open forum.",
+"type": "Home"
+},
+{
+"url": "/software",
+"title": "Software rankings for games, streaming and esports",
+"description": "All GA Forum software rankings: game development, livestreaming and esports tools, ordered by fit with sources listed.",
+"type": "Hub"
+},
+{
+"url": "/software/games",
+"title": "Game development and publishing: software rankings",
+"description": "Engines, backends, netcode, anti-cheat, QA, LiveOps, monetization and the player-facing tools that keep a game running after launch.",
+"type": "Hub"
+},
+{
+"url": "/software/livestreaming",
+"title": "Livestreaming and creator tools: software rankings",
+"description": "Broadcast software, multistreaming, overlays, chat bots, VTuber rigs and the enterprise video platforms that carry company events.",
+"type": "Hub"
+},
+{
+"url": "/software/esports",
+"title": "Esports operations: software rankings",
+"description": "Tournament platforms, esports data feeds, coaching and analytics tools, team management and broadcast production for competitive play.",
+"type": "Hub"
+},
+{
+"url": "/software/best-2d-game-engines",
+"title": "Best 2D Game Engines in 2026",
+"description": "A ranking of engines and frameworks built for flat games: sprites, tilemaps, scene tools and the platforms each one can ship to.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-3d-game-engines-for-small-studios",
+"title": "Best 3D Game Engines for Small Studios in 2026",
+"description": "Twelve 3D engines and web 3D frameworks compared for teams of two to thirty, with license and royalty terms as the deciding test.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-ai-npc-and-dialogue-platforms",
+"title": "Best AI NPC and Dialogue Platforms in 2026",
+"description": "AI NPC and dialogue platforms give game characters speech, memory and branching conversation through engine plugins, voice services and authoring tools.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-clip-and-highlight-editors-for-streamers",
+"title": "Best Clip and Highlight Editors for Streamers in 2026",
+"description": "AI clippers, in-game capture apps and editors that turn broadcasts and gameplay into vertical shorts for TikTok, Reels and YouTube Shorts.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-cloud-gaming-services",
+"title": "Best Cloud Gaming Services in 2026",
+"description": "Cloud gaming services run games on remote hardware and stream them to your screen; this ranking compares libraries, billing models and device support.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-community-chat-platforms-for-gaming-communities",
+"title": "Best Community Chat Platforms for Gaming Communities in 2026",
+"description": "Voice, text and forum platforms where players, clans and studios build communities, from Discord to self-hosted open source options.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-community-management-tools-for-game-studios",
+"title": "Best Community Management Tools for Game Studios in 2026",
+"description": "Community management tools give game studios a place to talk with players, watch social chatter and route feedback to the team.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-ddos-protection-for-game-servers",
+"title": "Best DDoS Protection for Game Servers in 2026",
+"description": "DDoS protection for game servers filters flood traffic aimed at UDP and game-protocol ports while keeping added latency low for players.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-dedicated-game-server-orchestration-platforms",
+"title": "Best Dedicated Game Server Orchestration Platforms in 2026",
+"description": "Dedicated game server orchestration platforms let studios start, scale and retire fleets of game server instances across regions and providers, driven by player demand.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-discord-moderation-and-community-bots",
+"title": "Best Discord Moderation and Community Bots in 2026",
+"description": "Discord bots for moderation, role menus, support tickets, events, giveaways and server stats, ranked for game communities.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-donation-and-monetization-tools-for-streamers",
+"title": "Best Donation and Monetization Tools for Streamers in 2026",
+"description": "Donation and monetization tools let streamers collect tips, memberships, merch sales and charity funds from viewers, often with on-screen alerts.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-enterprise-live-streaming-platforms",
+"title": "Best Enterprise Live Streaming Platforms in 2026",
+"description": "Enterprise live streaming platforms broadcast town halls and product launches to large audiences with security controls, analytics and network-friendly delivery.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-esports-analytics-and-coaching-software",
+"title": "Best Esports Analytics and Coaching Software in 2026",
+"description": "Esports analytics and coaching tools turn match history, demos and aim data into stats, reviews and training plans for players and teams.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-esports-broadcast-production-software",
+"title": "Best Esports Broadcast Production Software in 2026",
+"description": "Esports broadcast production software mixes cameras and game feeds, adds overlays and scoreboards, and sends the show to a stream or a venue.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-esports-data-apis",
+"title": "Best Esports Data APIs in 2026",
+"description": "Esports data APIs deliver match results, player stats, schedules and betting odds as feeds that apps, media sites and sportsbooks can build on.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-esports-team-management-software",
+"title": "Best Esports Team Management Software in 2026",
+"description": "Team management tools keep esports rosters, scrim calendars, availability, communication and dues in one place instead of scattered chats and spreadsheets.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-esports-tournament-management-software",
+"title": "Best Esports Tournament Management Software in 2026",
+"description": "Tournament platforms handle brackets, registration, check-in, scoring and prize payouts for online and LAN esports events, from community cups to publisher circuits.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-analytics-software",
+"title": "Best Game Analytics Software in 2026",
+"description": "Game analytics software tracks retention, revenue per player and funnels from engine SDKs, so studios can tune design and monetization after launch.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-anti-cheat-software",
+"title": "Best Game Anti-Cheat Software in 2026",
+"description": "Game anti-cheat software detects and blocks cheating in online games through client-side protection, server-side analysis and ban systems that studios license.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-backend-platforms",
+"title": "Best Game Backend Platforms in 2026",
+"description": "Game backend platforms host player accounts, economies, inventories, leaderboards and live-service logic so studios do not have to build and run their own servers.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-capture-and-recording-software",
+"title": "Best Game Capture and Recording Software in 2026",
+"description": "Ten recorders for saving gameplay on PC, from automatic highlight clippers to free open source tools, ranked by fit for players who share clips.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-ci-cd-and-build-tools",
+"title": "Best Game CI/CD and Build Tools in 2026",
+"description": "Build servers, compile accelerators and hosted pipelines for game studios that ship Unity or native projects to PC, mobile and Apple platforms.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-engines-for-mobile-games",
+"title": "Best Game Engines for Mobile Games in 2026",
+"description": "Twelve engines compared for iOS and Android games, judged on listed targets, store-service support, monetization features and cost.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-launchers-and-library-managers",
+"title": "Best Game Launchers and Library Managers in 2026",
+"description": "Game launchers and library managers start, update and organize PC games, and the best ones merge libraries from several stores into one list.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-liveops-platforms",
+"title": "Best Game LiveOps Platforms in 2026",
+"description": "Game LiveOps platforms let teams run events, change game settings remotely, target offers to player segments and test changes after launch without shipping a new build.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-localization-platforms",
+"title": "Best Game Localization Platforms in 2026",
+"description": "Localization platforms and services for game studios that manage string tables, translator context and releases in many languages.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-market-intelligence-tools",
+"title": "Best Game Market Intelligence Tools in 2026",
+"description": "Data services that estimate competitor revenue, downloads, wishlists and genre trends so studios can size a game before and after launch.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-payment-and-web-shop-platforms",
+"title": "Best Game Payment and Web Shop Platforms in 2026",
+"description": "Compare platforms that let game studios sell in-game items and games through their own web stores, with tax, payments and merchant of record handled.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-game-qa-and-test-automation-tools",
+"title": "Best Game QA and Test Automation Tools in 2026",
+"description": "Game QA and test automation tools drive builds through engine-aware scripts, AI agents, real device clouds and managed testers to catch bugs before players do.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-hardware-monitoring-and-overclocking-software",
+"title": "Best Hardware Monitoring and Overclocking Software in 2026",
+"description": "Hardware monitoring and overclocking software reads temperatures, clocks and voltages, tunes processors, and stress-tests a PC for stability.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-in-game-advertising-platforms",
+"title": "Best In-Game Advertising Platforms in 2026",
+"description": "In-game advertising platforms place brand and performance ads inside game worlds through SDKs and programmatic buying, without interrupting play on PC, console and mobile.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-influencer-marketing-tools-for-games",
+"title": "Best Influencer Marketing Tools for Games in 2026",
+"description": "Platforms for finding streamers and YouTubers, sending game keys, running creator campaigns and paying creators, ranked for game studios.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-live-captioning-and-translation-for-livestreams",
+"title": "Best Live Captioning and Translation Tools for Livestreams in 2026",
+"description": "Live captioning and translation tools turn a stream's speech into on-screen text or interpreted audio in other languages while the event is running.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-live-production-software",
+"title": "Best Live Production Software in 2026",
+"description": "Live production software switches between cameras, adds graphics and audio, and sends a finished show to a stream, for events, broadcasts and esports.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-live-streaming-apis-and-sdks",
+"title": "Best Live Streaming APIs and SDKs in 2026",
+"description": "Live streaming APIs and SDKs give developers hosted video infrastructure to add live broadcasts, calls and interactive streams to apps and sites.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-mobile-attribution-tools-for-games",
+"title": "Best Mobile Attribution Tools for Games in 2026",
+"description": "Measurement partners and ad platforms that connect installs and in-game revenue back to the campaigns that paid for them, including iOS SKAdNetwork reporting.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-mobile-game-ad-networks-and-mediation",
+"title": "Best Mobile Game Ad Networks and Mediation Platforms in 2026",
+"description": "Mobile game ad networks and mediation platforms sell rewarded video and other formats to advertisers through real-time bidding, letting developers earn from free games.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-mod-managers-for-pc-games",
+"title": "Best Mod Managers for PC Games in 2026",
+"description": "Mod managers install, update and order mods for PC games; this ranking compares game coverage, load order handling and cost.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-multiplayer-networking-sdks",
+"title": "Best Multiplayer Networking SDKs in 2026",
+"description": "Multiplayer networking SDKs give game engines the netcode, state synchronization, rooms and relay hosting needed to connect players without writing sockets from scratch.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-multistreaming-platforms",
+"title": "Best Multistreaming Platforms in 2026",
+"description": "Multistreaming platforms send one live video feed to many channels at once, so a business or creator reaches each audience from a single broadcast.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-open-source-game-engines",
+"title": "Best Open-Source Game Engines in 2026",
+"description": "Open-source engines and game libraries ranked by license clarity, governance and the health signals their own pages publish.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-pc-benchmarking-software",
+"title": "Best PC Benchmarking Software in 2026",
+"description": "PC benchmarking software measures CPU, GPU, storage and frame times so you can compare hardware or find out why a game stutters.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-pixel-streaming-and-cloud-game-streaming-platforms",
+"title": "Best Pixel Streaming and Cloud Game Streaming Platforms for Studios in 2026",
+"description": "Pixel streaming platforms host your Unreal, Unity or Windows build on cloud GPUs and deliver it to browsers; this list compares studio-facing options.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-player-support-software-for-games",
+"title": "Best Player Support Software for Games in 2026",
+"description": "Player support software handles tickets, in-game help and multilingual replies so studios can answer players without drowning a small team.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-playtesting-platforms",
+"title": "Best Playtesting Platforms in 2026",
+"description": "Services and free tools for putting a game build in front of remote testers, from player-panel research to simple build delivery.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-remote-play-and-game-streaming-software",
+"title": "Best Remote Play and Game Streaming Software in 2026",
+"description": "Remote play software streams a game from your own PC to a TV, phone or laptop; this ranking weighs client reach, cost and gaming focus.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-stream-deck-and-stream-automation-software",
+"title": "Best Stream Deck and Stream Automation Software in 2026",
+"description": "Hardware keys, tablet decks and event-driven bots that let a streamer trigger scenes, sounds and chat actions without leaving the game.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-stream-overlay-and-alert-tools",
+"title": "Best Stream Overlay and Alert Tools in 2026",
+"description": "Ten services for stream overlays, follower alerts, widgets and interactive extras, ranked by price clarity, bundled design assets and setup effort.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-streaming-media-servers",
+"title": "Best Streaming Media Servers in 2026",
+"description": "Streaming media servers receive live video over RTMP, SRT or WebRTC and redistribute it, either on your own hardware or as a managed service.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-streaming-software-for-gamers",
+"title": "Best Streaming Software for Gamers in 2026",
+"description": "Ten broadcasting apps for PC gamers who stream to Twitch and YouTube, ranked on price, platform support and how much setup each one demands.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-trust-and-safety-moderation-software-for-games",
+"title": "Best Trust and Safety Moderation Software for Games in 2026",
+"description": "Trust and safety moderation software detects toxic voice, text and images in games so studios can protect players and meet new online safety rules.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-twitch-chat-bots",
+"title": "Best Twitch Chat Bots in 2026",
+"description": "Ten chat bots for moderating and automating Twitch and YouTube chat, from hosted free services to open source programs you run yourself.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-ugc-and-modding-platforms",
+"title": "Best UGC and Modding Platforms for Studios in 2026",
+"description": "UGC and modding platforms host player-made content for your game, from mod hosting and moderation to creator payouts and in-game browsers.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-version-control-for-game-development",
+"title": "Best Version Control for Game Development in 2026",
+"description": "Version control systems that cope with large art files, binary locking and mixed artist and programmer teams, ranked from vendor documentation.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-virtual-event-streaming-platforms-for-hybrid-events",
+"title": "Best Virtual Event Streaming Platforms for Hybrid Events in 2026",
+"description": "Hybrid event platforms join an onsite audience and remote viewers in one program, with registration, streaming, sessions, sponsors and attendee data.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-vtuber-software",
+"title": "Best VTuber Software in 2026",
+"description": "VTuber software tracks a streamer's face and body and drives a 2D or 3D avatar that appears on a livestream or video call.",
+"type": "Ranking"
+},
+{
+"url": "/software/best-webinar-platforms-for-product-launches",
+"title": "Best Webinar Platforms for Product Launches in 2026",
+"description": "Launch webinar platforms carry a product announcement from registration page to live session and replay, and pass attendee data to the CRM.",
+"type": "Ranking"
+},
+{
+"url": "/alternatives/amazon-gamelift",
+"title": "Amazon GameLift Alternatives in 2026",
+"description": "Amazon GameLift alternatives for hosting multiplayer game servers outside AWS: seven orchestration, bare metal and backend options compared.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/amazon-ivs",
+"title": "Amazon IVS Alternatives in 2026",
+"description": "Amazon IVS alternatives for low-latency live video outside AWS: ten managed video APIs and streaming platforms with their pricing models compared.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/applovin-max",
+"title": "AppLovin MAX Alternatives in 2026",
+"description": "AppLovin MAX alternatives for mobile game ad mediation: eight mediation platforms and ad networks, described only from their own vendor pages.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/battlefy",
+"title": "Battlefy Alternatives in 2026",
+"description": "Seven platforms organizers consider when Battlefy's fees or formats do not fit: Challengermode, start.gg, Toornament, FACEIT, Matcherino, PlayVS and ggLeap.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/battleye",
+"title": "BattlEye Alternatives in 2026",
+"description": "Nine BattlEye alternatives for PC shooters and survival games, led by Easy Anti-Cheat, with Denuvo, Anybrain and regional services also covered.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/challonge",
+"title": "Challonge Alternatives in 2026",
+"description": "Eight tournament platforms to weigh against Challonge once an event outgrows a simple bracket: registration, prize pools, matchmaking and venue tools compared.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/discord",
+"title": "Discord Alternatives in 2026",
+"description": "Discord alternatives for gaming communities that want to own their server, keep data private or get a different voice setup: eight options compared on cost and hosting.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/easy-anti-cheat",
+"title": "Easy Anti-Cheat Alternatives in 2026",
+"description": "Ten alternatives to Easy Anti-Cheat for studios outside the Epic ecosystem, from BattlEye and Denuvo to mobile hardening tools such as Promon and Appdome.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/gameanalytics",
+"title": "GameAnalytics Alternatives in 2026",
+"description": "Ten GameAnalytics alternatives for studios that want deeper player segmentation, from Mixpanel and Amplitude to PostHog, PlayFab and Metaplay.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/gamemaker",
+"title": "GameMaker Alternatives in 2026",
+"description": "Nine 2D engines and frameworks to try when GameMaker's tiers or workflow stop fitting: Godot, GDevelop, Defold, Solar2D, LOVE, Stencyl and more.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/geforce-now",
+"title": "GeForce NOW Alternatives in 2026",
+"description": "Eight cloud gaming options to weigh against GeForce NOW if you want a different library model, bundle or full cloud PC: Xbox, Shadow, Boosteroid and more.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/godot",
+"title": "Godot Alternatives in 2026",
+"description": "Ten engines to weigh if Godot is not the right open-source fit: Unity, GameMaker, Defold, GDevelop, Stride, Bevy and more, with license and pricing notes.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/helpshift",
+"title": "Helpshift Alternatives in 2026",
+"description": "Ten Helpshift alternatives for mobile game support desks, from AIHelp and Zendesk to Help Scout, Crisp and Freshdesk, with pricing where published.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/medal",
+"title": "Medal Alternatives in 2026",
+"description": "Nine Medal alternatives for game clipping: GPU-driver capture, open source recorders, auto-clippers and stream-to-short tools, with sourced pricing notes.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/mee6",
+"title": "MEE6 Alternatives in 2026",
+"description": "Ten Discord bots to consider instead of MEE6, from free and open source options to bots built for security, tickets or server stats.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/mobalytics",
+"title": "Mobalytics Alternatives in 2026",
+"description": "Eight game stats, coaching and training tools to weigh against Mobalytics, from League of Legends sites to CS2 analytics, Dota 2 data and an aim trainer.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/nightbot",
+"title": "Nightbot Alternatives in 2026",
+"description": "Nine Nightbot alternatives for Twitch and YouTube chat: cloud bots, open source bots and desktop automation tools, with sourced platform and pricing notes.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/obs-studio",
+"title": "OBS Studio Alternatives in 2026",
+"description": "Ten live streaming and production tools to try instead of OBS Studio, from browser studios to Windows switchers, with pricing and trade-offs.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/on24",
+"title": "ON24 Alternatives in 2026",
+"description": "ON24 alternatives for enterprise event and launch teams: nine platforms for webinars, hybrid events and corporate video, with pricing models and trade-offs.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/overwolf",
+"title": "Overwolf Alternatives in 2026",
+"description": "Overwolf alternatives for mods and in-game apps: seven mod hubs, mod managers and studio mod platforms, with notes on what each gains and loses.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/parsec",
+"title": "Parsec Alternatives in 2026",
+"description": "Ten remote play and remote desktop tools to consider instead of Parsec, including open source Moonlight and Sunshine, Steam Link, AnyDesk and Splashtop.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/perforce-helix-core",
+"title": "Perforce Helix Core Alternatives in 2026",
+"description": "Perforce Helix Core alternatives for studios that want lower version control costs: eight Git, Subversion and hosted options with published terms.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/photon",
+"title": "Photon Alternatives in 2026",
+"description": "Nine multiplayer netcode options besides Photon: Mirror, FishNet, Netcode for GameObjects, Normcore, Colyseus, coherence, Nakama and more, with pricing facts.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/playfab",
+"title": "PlayFab Alternatives in 2026",
+"description": "Nine game backends to consider instead of PlayFab, with notes on free tiers, hosting options and Azure independence: Nakama, AccelByte, Beamable, Metaplay and more.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/restream",
+"title": "Restream Alternatives in 2026",
+"description": "Ten multistreaming options to weigh against Restream, covering hosted platforms, browser studios and free desktop apps, with plan prices where published.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/sensor-tower",
+"title": "Sensor Tower Alternatives in 2026",
+"description": "Sensor Tower alternatives for game market data on a smaller budget: eight app, Steam and console intelligence services, with prices only where published.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/spine",
+"title": "Spine Alternatives in 2026",
+"description": "Seven Spine alternatives for 2D character animation in games, from Live2D and Rive to Spriter, Moho, Blender, Cascadeur and Houdini, with licensing notes.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/steam",
+"title": "Steam Alternatives in 2026",
+"description": "Seven Steam alternatives for selling and launching PC games, from GOG and itch.io to the Xbox Store, Humble Bundle and browser portals like Poki.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/streamelements",
+"title": "StreamElements Alternatives in 2026",
+"description": "Eight StreamElements alternatives for overlays, chat bots, tipping and merch, including OWN3D, Lumia Stream, Fossabot and Streamlabs Desktop, with sourced facts.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/streamlabs-desktop",
+"title": "Streamlabs Desktop Alternatives in 2026",
+"description": "Nine alternatives to Streamlabs Desktop for gaming streamers: OBS Studio, Meld Studio, Prism, Lightstream, mobile and clip tools, with sourced pricing and limits.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/substance-3d-painter",
+"title": "Substance 3D Painter Alternatives in 2026",
+"description": "Nine Substance 3D Painter alternatives for texturing game art, from Marmoset Toolbag and 3D-Coat to ArmorPaint, Material Maker, Mari, Blender, ZBrush and Krita.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/unreal-engine",
+"title": "Unreal Engine Alternatives in 2026",
+"description": "Nine 3D-capable engines for teams that want something lighter than Unreal Engine or clearer royalty terms: Unity, Godot, Stride, O3DE, CRYENGINE and others.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/vmix",
+"title": "vMix Alternatives in 2026",
+"description": "Nine vMix alternatives for teams that want a Mac option, a lower price or a managed service, with trials, plans and platform limits noted.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/voicemod",
+"title": "Voicemod Alternatives in 2026",
+"description": "Eight Voicemod alternatives for streamers and gamers: mixers, noise removal, soundboards and AI voice services, with pricing models taken from vendor pages.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/vtube-studio",
+"title": "VTube Studio Alternatives in 2026",
+"description": "Eight VTube Studio alternatives for VTuber tracking: Warudo, VSeeFace, Animaze, VMagicMirror, 3tene, VNyan, Kalidoface and veadotube mini, compared on model type and cost.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/wirecast",
+"title": "Wirecast Alternatives in 2026",
+"description": "Nine tools to weigh against Wirecast for live production, from a free open source studio to hardware switchers, with prices where vendors publish them.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/wowza",
+"title": "Wowza Alternatives in 2026",
+"description": "Wowza alternatives for streaming servers and video APIs: ten self-hosted media servers and managed platforms compared on protocols, licensing and pricing.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives/xsolla",
+"title": "Xsolla Alternatives in 2026",
+"description": "Xsolla alternatives for game web shops and merchant of record: eight payment and direct-to-consumer platforms, with published terms where vendors share them.",
+"type": "Alternatives"
+},
+{
+"url": "/alternatives",
+"title": "Alternatives",
+"description": "Alternatives to popular game development, streaming and esports tools.",
+"type": "Hub"
+},
+{
+"url": "/compare/amazon-ivs-vs-mux",
+"title": "Amazon IVS vs Mux: Which Fits Your Team in 2026?",
+"description": "Amazon IVS bills live video per hour inside AWS; Mux bills per minute with a free start. Compare rates, free tiers, features and fit for live video APIs.",
+"type": "Comparison"
+},
+{
+"url": "/compare/applovin-max-vs-unity-levelplay",
+"title": "AppLovin MAX vs Unity LevelPlay: Which Fits Your Team in 2026?",
+"description": "AppLovin MAX and Unity LevelPlay are ad mediation platforms for mobile games. Compare integration, platforms, payments and what neither publishes about fees.",
+"type": "Comparison"
+},
+{
+"url": "/compare/castr-vs-restream",
+"title": "Castr vs Restream: Which Fits Your Team in 2026?",
+"description": "Castr bundles stream hosting, multistreaming, VOD and OTT with plans from $16.67 a month; Restream offers a free start. Compare cost and fit for streamers.",
+"type": "Comparison"
+},
+{
+"url": "/compare/challengermode-vs-battlefy",
+"title": "Challengermode vs Battlefy: Which Fits Your Team in 2026?",
+"description": "Challengermode runs tournaments, matchmaking and gamification across 200+ games; Battlefy focuses on starting and finding tournaments. Compare scope and fit.",
+"type": "Comparison"
+},
+{
+"url": "/compare/construct-vs-gdevelop",
+"title": "Construct vs GDevelop: Which Fits Your Team in 2026?",
+"description": "Construct 3 is a subscription browser editor with a limited free edition; GDevelop is an MIT-licensed no-code engine with Free, Silver, Gold and Pro plans.",
+"type": "Comparison"
+},
+{
+"url": "/compare/easy-anti-cheat-vs-battleye",
+"title": "Easy Anti-Cheat vs BattlEye: Which Fits Your Team in 2026?",
+"description": "Easy Anti-Cheat has a free tier inside Epic Online Services; BattlEye is an independent German service with no published price. Compare coverage and integration.",
+"type": "Comparison"
+},
+{
+"url": "/compare/edgegap-vs-hathora",
+"title": "Edgegap vs Hathora: Which Fits Your Team in 2026?",
+"description": "Edgegap publishes per-minute and per-host server prices; Hathora now sits behind GameFabric, which quotes studios individually. Compare terms, regions and fit.",
+"type": "Comparison"
+},
+{
+"url": "/compare/geforce-now-vs-xbox-cloud-gaming",
+"title": "GeForce NOW vs Xbox Cloud Gaming: Which Fits Your Team in 2026?",
+"description": "GeForce NOW streams games you own from connected stores; Xbox Cloud Gaming streams the Game Pass catalog. Compare libraries, tiers and who each suits.",
+"type": "Comparison"
+},
+{
+"url": "/compare/godot-vs-gamemaker",
+"title": "Godot vs GameMaker: Which Fits Your Team in 2026?",
+"description": "Godot is free under the MIT license; GameMaker is free for non-commercial use with a $99.99 commercial license. Compare 2D workflow, export and console terms.",
+"type": "Comparison"
+},
+{
+"url": "/compare/godot-vs-unity",
+"title": "Godot vs Unity: Which Fits Your Team in 2026?",
+"description": "Godot is a free MIT-licensed engine; Unity is a commercial engine with a free Personal plan and a paid Pro plan. Compare license, pricing, platforms and fit.",
+"type": "Comparison"
+},
+{
+"url": "/compare/helpshift-vs-zendesk",
+"title": "Helpshift vs Zendesk: Which Fits Your Team in 2026?",
+"description": "Helpshift is built around in-game player support, Zendesk is a general service desk. Compare channels, AI features, trials and fit for game studios.",
+"type": "Comparison"
+},
+{
+"url": "/compare/medal-vs-outplayed",
+"title": "Medal vs Outplayed: Which Fits Your Team in 2026?",
+"description": "Medal is a free PC clip recorder with sharing built in; Outplayed auto-captures plays and adds a Premium tier. See pricing, features and who each suits.",
+"type": "Comparison"
+},
+{
+"url": "/compare/mee6-vs-dyno",
+"title": "MEE6 vs Dyno: Which Fits Your Team in 2026?",
+"description": "MEE6 adds leveling and creator notifications; Dyno leans on web configuration, anti-spam and auto roles. Compare what each Discord bot does and how premium works.",
+"type": "Comparison"
+},
+{
+"url": "/compare/obs-studio-vs-vmix",
+"title": "OBS Studio vs vMix: Which Fits Your Team in 2026?",
+"description": "OBS Studio is free, open source and runs on three operating systems; vMix is a paid Windows video mixer. Compare cost, platforms and production features.",
+"type": "Comparison"
+},
+{
+"url": "/compare/parsec-vs-moonlight",
+"title": "Parsec vs Moonlight: Which Fits Your Team in 2026?",
+"description": "Parsec is a subscription remote desktop with a Teams plan; Moonlight is an open source game streaming client. Compare price, platforms, quality and setup.",
+"type": "Comparison"
+},
+{
+"url": "/compare/perforce-helix-core-vs-unity-version-control",
+"title": "Perforce Helix Core vs Unity Version Control: Which Fits Your Team in 2026?",
+"description": "Perforce Helix Core (now branded P4) and Unity Version Control both handle large game assets. Compare free tiers, seat pricing, locking and hosting options.",
+"type": "Comparison"
+},
+{
+"url": "/compare/photon-vs-mirror",
+"title": "Photon vs Mirror: Which Fits Your Team in 2026?",
+"description": "Photon is a hosted multiplayer platform with Fusion, Quantum and Photon Cloud; Mirror is a free MIT-licensed networking library for Unity. Compare the models.",
+"type": "Comparison"
+},
+{
+"url": "/compare/playfab-vs-nakama",
+"title": "PlayFab vs Nakama: Which Fits Your Team in 2026?",
+"description": "PlayFab is Microsoft's managed backend with a free-to-start tier; Nakama is an Apache-2 open source backend you can self-host or run on Heroic Cloud.",
+"type": "Comparison"
+},
+{
+"url": "/compare/playtestcloud-vs-lookback",
+"title": "PlaytestCloud vs Lookback: Which Fits Your Team in 2026?",
+"description": "PlaytestCloud recruits players and records playtests for games; Lookback sells session-based research plans from $299 a year. Compare methods, pricing and fit.",
+"type": "Comparison"
+},
+{
+"url": "/compare/sensor-tower-vs-appmagic",
+"title": "Sensor Tower vs AppMagic: Which Fits Your Team in 2026?",
+"description": "Sensor Tower covers apps, ads, web and gaming; AppMagic is built for mobile app market research. See how they differ on scope, pricing and fit.",
+"type": "Comparison"
+},
+{
+"url": "/compare/spine-vs-live2d-cubism",
+"title": "Spine vs Live2D Cubism: Which Fits Your Team in 2026?",
+"description": "Spine is a one-time-license 2D skeletal animation tool built for games; Live2D Cubism turns one illustration into a moving character. Compare cost and fit.",
+"type": "Comparison"
+},
+{
+"url": "/compare/streamelements-vs-streamlabs-desktop",
+"title": "StreamElements vs Streamlabs Desktop: Which Fits Your Team in 2026?",
+"description": "StreamElements runs in the cloud with an OBS plugin; Streamlabs pairs its own desktop app with alerts and tipping. Compare overlays, alerts and tip terms.",
+"type": "Comparison"
+},
+{
+"url": "/compare/vtube-studio-vs-warudo",
+"title": "VTube Studio vs Warudo: Which Fits Your Team in 2026?",
+"description": "VTube Studio animates Live2D models from a webcam; Warudo is 3D VTubing software with face and hand tracking and plugins. Compare tracking, scope and fit.",
+"type": "Comparison"
+},
+{
+"url": "/compare/wowza-vs-ant-media-server",
+"title": "Wowza vs Ant Media Server: Which Fits Your Team in 2026?",
+"description": "Wowza prices its streaming server by instance and publishes no amounts; Ant Media lists $129 per instance monthly and a $0.35 hourly Flex rate. Compare licensing.",
+"type": "Comparison"
+},
+{
+"url": "/compare/xsolla-vs-appcharge",
+"title": "Xsolla vs Appcharge: Which Fits Your Team in 2026?",
+"description": "Xsolla offers payments, web shop and publishing tools for many game types; Appcharge focuses on mobile web stores with merchant of record. Compare them.",
+"type": "Comparison"
+},
+{
+"url": "/compare",
+"title": "Comparisons",
+"description": "Head-to-head comparisons of game development, streaming and esports software.",
+"type": "Hub"
+},
+{
+"url": "/guides/rtmp-srt-webrtc-streaming-latency-explained",
+"title": "RTMP, SRT and WebRTC: Streaming Latency Explained",
+"description": "RTMP, SRT and WebRTC compared in plain terms: where streaming latency comes from, what each protocol is good at, and how to pick one for your stream or event.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-stream-a-hybrid-event-or-game-showcase",
+"title": "How to Stream a Hybrid Event or Game Showcase",
+"description": "A planning playbook for hybrid events and game showcases: set latency by interactivity, size bitrate, add captions and interpreters, and rehearse failures.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-start-streaming-games-on-twitch-and-youtube",
+"title": "How to Start Streaming Games on Twitch and YouTube",
+"description": "A first-stream playbook for games: choose a platform, set up OBS Studio with sane encoder settings, add chat tools, run a private test and build a weekly routine.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-set-up-stream-overlays-and-alerts",
+"title": "How to Set Up Stream Overlays and Alerts",
+"description": "Set up stream overlays and alerts in OBS Studio: browser source settings, layer order, alert audio levels, hotkeys, testing and a pre-stream routine for you.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-set-up-anti-cheat-for-a-multiplayer-game",
+"title": "How to Set Up Anti-Cheat for a Multiplayer Game",
+"description": "A layered checklist for multiplayer anti-cheat: server authority, input validation, a client-side service, ban policy and appeals, and DDoS protection.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-set-up-a-vtuber-avatar",
+"title": "How to Set Up a VTuber Avatar for Streaming",
+"description": "A practical path from model file to live broadcast: pick 2D or 3D, choose tracking, wire the avatar into OBS with transparency, and protect game frame rates.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-run-an-online-esports-tournament",
+"title": "How to Run an Online Esports Tournament",
+"description": "Run an online esports tournament: choose a format, count matches, write rules, handle check-in and disputes, staff match day and plan the broadcast well.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-run-a-game-playtest",
+"title": "How to Run a Game Playtest That Produces Usable Findings",
+"description": "Run a game playtest that leads to decisions: define questions, recruit the right players, watch instead of ask, and turn notes into a ranked fix list.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-record-gameplay-without-fps-loss",
+"title": "How to Record Gameplay Without Losing Frame Rate",
+"description": "A checklist for recording PC gameplay at low frame rate cost: hardware encoder, capped game frame rate, lean scenes, crash-safe formats and a way to measure.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-plan-a-game-liveops-calendar",
+"title": "How to Plan a Game LiveOps Calendar",
+"description": "A LiveOps calendar maps updates, events and store beats to dates. Build one with store limits, content lead times and metrics, using Apple and Steam rules.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-pick-a-game-monetization-stack",
+"title": "How to Pick a Game Monetization Stack",
+"description": "Choose how your game earns before choosing tools: match the revenue model to store rules, then add payments, ad mediation and measurement in a sensible order.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-multistream-without-lag",
+"title": "How to Multistream Without Lag or Dropped Frames",
+"description": "Multistream to Twitch and YouTube without dropped frames: budget your upload, choose local or cloud relay, set encoders and troubleshoot with a ranked checklist.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-moderate-a-discord-server",
+"title": "How to Moderate a Discord Server for a Game Community",
+"description": "A moderation checklist for game Discord servers: roles, AutoMod rules, raid defenses, time outs, slowmode and a moderator routine from Discord's help pages.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-host-a-dedicated-server-for-an-indie-game",
+"title": "How to Host a Dedicated Server for an Indie Game",
+"description": "A playbook for indie teams: build a separate server, run it headless on Linux, choose rented machines or orchestration, and plan ahead for DDoS attacks.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-choose-a-live-streaming-platform-for-company-events",
+"title": "How to Choose a Live Streaming Platform for Company Events",
+"description": "A practical way to pick a live streaming platform for town halls, launches and hybrid events: audience size, latency, encoders, security and a pilot checklist.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-choose-a-game-engine",
+"title": "How to Choose a Game Engine: A Decision Guide",
+"description": "A practical guide to choosing a game engine: start from target platforms, team language, license terms and genre, then test with a one-week vertical slice.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-build-a-multiplayer-game-backend",
+"title": "How to Build a Multiplayer Game Backend",
+"description": "Plan a multiplayer game backend in layers: authoritative game servers, a netcode library, accounts and matchmaking, and hosting. Includes a launch checklist.",
+"type": "Guide"
+},
+{
+"url": "/guides/how-to-build-a-modding-community",
+"title": "How to Build a Modding Community Around Your Game",
+"description": "A step-by-step plan for opening your game to mods: pick a Workshop model, ship tools and docs, set content rules, host the files and keep modders engaged.",
+"type": "Guide"
+},
+{
+"url": "/guides/game-localization-workflow-guide",
+"title": "Game Localization Workflow: From String Table to Release",
+"description": "A game localization workflow from string tables to release: placeholders, plurals, pseudolocalization, translator context, in-game tests and store languages.",
+"type": "Guide"
+},
+{
+"url": "/guides/game-analytics-kpis-explained",
+"title": "Game Analytics KPIs Explained: Retention, ARPDAU and LTV",
+"description": "Plain definitions of DAU, retention, ARPDAU, ARPPU and LTV, how GameAnalytics calculates them, and how to read the KPIs together instead of one at a time.",
+"type": "Guide"
+},
+{
+"url": "/guides",
+"title": "Guides",
+"description": "Practical guides for game developers, streamers and esports organizers.",
+"type": "Hub"
+},
+{
+"url": "/research/creator-economy-and-streamer-statistics",
+"title": "Creator Economy and Streamer Statistics 2026",
+"description": "Creator earnings, platform viewing hours, Twitch and YouTube monetization rules and Patreon payouts, drawn from 2025 and 2026 reports opened on 18 November 2026.",
+"type": "Research"
+},
+{
+"url": "/research/enterprise-live-video-and-streaming-statistics",
+"title": "Enterprise Live Video and Streaming Statistics 2026",
+"description": "Surveys and trackers on enterprise video and live streaming in 2025 and 2026: platform sprawl, latency priorities, AI use, governance and public live viewing.",
+"type": "Research"
+},
+{
+"url": "/research/esports-audience-and-revenue-statistics",
+"title": "Esports Audience and Revenue Statistics 2026",
+"description": "Esports audience and revenue figures for 2026: Esports World Cup viewers and prize pool, Worlds peak viewership, and two research firms' market size and sponsorship estimates.",
+"type": "Research"
+},
+{
+"url": "/research/game-developer-survey-tools-and-engines",
+"title": "Game Developer Survey: Engines, Tools and Pipelines 2026",
+"description": "Figures from Unity's 2026 survey of 300 game developers: project scope, AI tool use, MCP servers, multiplayer features, discoverability and Unity Editor data.",
+"type": "Research"
+},
+{
+"url": "/research/game-engine-market-share-statistics",
+"title": "Game Engine Market Share Statistics 2026",
+"description": "Game engine market share in 2026: Unity, Unreal Engine and Godot shares from Steam scans, developer surveys and game jams, plus Godot release counts, with sources.",
+"type": "Research"
+},
+{
+"url": "/research/live-streaming-viewership-statistics",
+"title": "Live Streaming Viewership Statistics 2026",
+"description": "Sourced live streaming viewership figures for 2026: GTA VI launch peaks, multistreaming share, World Cup watch time, award shows and creator events on Twitch, YouTube and Kick.",
+"type": "Research"
+},
+{
+"url": "/research/mobile-game-monetization-statistics",
+"title": "Mobile Game Monetization Statistics 2026",
+"description": "Mobile game monetization figures for 2026: in-app purchase revenue, free-to-play share, ad network results, subscription data and developer survey answers, with sources.",
+"type": "Research"
+},
+{
+"url": "/research/multiplayer-and-live-service-game-statistics",
+"title": "Multiplayer and Live-Service Game Statistics 2026",
+"description": "Multiplayer and live-service game statistics for 2026: developer survey results, live ops tooling adoption, Roblox and Steam player counts, and online play rates.",
+"type": "Research"
+},
+{
+"url": "/research/steam-platform-statistics",
+"title": "Steam Platform Statistics 2026",
+"description": "Steam statistics from Valve's own pages: October 2026 hardware survey shares for Windows, Linux, GPUs, RAM and languages, plus catalog, community and most-played figures.",
+"type": "Research"
+},
+{
+"url": "/research/video-game-industry-market-size-statistics",
+"title": "Video Game Industry Market Size Statistics 2026",
+"description": "Market size figures for the video game industry in 2026: US consumer spending, Europe revenue, global mobile spending and the latest publisher results, each with its source.",
+"type": "Research"
+},
+{
+"url": "/research",
+"title": "Research and statistics",
+"description": "Sourced statistics on games, livestreaming and esports.",
+"type": "Hub"
+},
+{
+"url": "/news/twitchcon-san-diego-2026-announcements",
+"title": "TwitchCon San Diego 2026: clips, hosting and Host Trains for streamers",
+"description": "Twitch's TwitchCon San Diego 2026 roundup lists longer Clips, a VOD activity timeline, the return of Hosting with shared chat, Host Trains and Amazon Luna play-along tools.",
+"type": "News"
+},
+{
+"url": "/news/youtube-gta-vi-launch-live-gifts-and-24-hour-stream",
+"title": "YouTube adds GTA VI gifts to YouTube Live and plans a 24-hour launch livestream",
+"description": "YouTube's November 12, 2026 blog post details five limited-edition Grand Theft Auto VI gifts on YouTube Live and a 24-hour launch livestream starting November 19 at 12 AM ET.",
+"type": "News"
+},
+{
+"url": "/news/twitch-recaps-spotlight-clip-promotion",
+"title": "Twitch launches Recaps Spotlight to promote streamer clips on social media",
+"description": "Twitch's October 27, 2026 post launches Recaps Spotlight: distribution partners may share standout Recap clips on Instagram and YouTube, rolling out to Partners first.",
+"type": "News"
+},
+{
+"url": "/news/twitch-introduces-stream-recaps",
+"title": "Twitch introduces Stream Recaps: clip highlight reels for followers",
+"description": "Twitch's October 20, 2026 blog post introduces Stream Recaps, post-stream highlight reels of clips shown at the top of followers' mobile feeds and on channel pages.",
+"type": "News"
+},
+{
+"url": "/news/playvs-acquires-leaguespot",
+"title": "PlayVS acquires LeagueSpot to expand league and tournament software",
+"description": "PlayVS announced the acquisition of LeagueSpot, a global esports league and tournament management platform, adding white-label leagues and automated tournament operations.",
+"type": "News"
+},
+{
+"url": "/news/gdc-2026-discord-developer-tools",
+"title": "Discord at GDC 2026: Social SDK updates for game developers",
+"description": "Discord's GDC 2026 post lists Social SDK updates: simpler account linking, persistent messages, server-side moderation APIs and refined Rich Presence for game developers.",
+"type": "News"
+},
+{
+"url": "/news/unity-and-epic-bring-unity-games-to-fortnite",
+"title": "Unity and Epic announce plan to bring Unity games into Fortnite",
+"description": "Unity and Epic Games said Unity developers will be able to publish into Fortnite, while Unity's commerce platform adds Unreal Engine support. What it means for studios.",
+"type": "News"
+},
+{
+"url": "/news",
+"title": "News and analysis",
+"description": "News and analysis on tools for games, livestreaming and esports.",
+"type": "Hub"
+},
+{
+"url": "/glossary",
+"title": "Glossary of game development, streaming and esports terms",
+"description": "78 plain-English definitions of terms used across game development, livestreaming and esports software.",
+"type": "Page"
+},
+{
+"url": "/about",
+"title": "About GA Forum",
+"description": "GA Forum is an independent software research site and forum for game developers, streamers and esports organizers.",
+"type": "Page"
+},
+{
+"url": "/history",
+"title": "History of ga-forum.com",
+"description": "The story of ga-forum.com: the Gaming-Age Forums from 2004, NeoGAF, the redirect years, and GA Forum today.",
+"type": "Page"
+},
+{
+"url": "/editorial-process",
+"title": "Methodology and editorial process",
+"description": "How GA Forum researches, orders and updates its software rankings, comparisons and data pages.",
+"type": "Page"
+},
+{
+"url": "/disclosure",
+"title": "Disclosure: how GA Forum makes money",
+"description": "How GA Forum is funded, what vendors can and cannot pay for, and how that relates to our rankings.",
+"type": "Page"
+},
+{
+"url": "/get-listed",
+"title": "Get your product listed",
+"description": "Vendors: ask GA Forum to consider your product for a ranking, an alternatives page or a comparison.",
+"type": "Page"
+},
+{
+"url": "/contact",
+"title": "Contact GA Forum",
+"description": "Send GA Forum a correction, a tip or a question.",
+"type": "Page"
+},
+{
+"url": "/authors",
+"title": "Authors",
+"description": "Who researches, writes and edits GA Forum.",
+"type": "Page"
+},
+{
+"url": "/authors/editorial-team",
+"title": "GA Forum editorial team",
+"description": "The team that researches, writes and updates every ranking, comparison and guide on GA Forum. Drafting is AI-assisted; every vendor claim is checked against the vendor's own pages.",
+"type": "Page"
+},
+{
+"url": "/authors/sebastiaan-smits",
+"title": "Sebastiaan Smits",
+"description": "Publisher of GA Forum and editorially responsible for what the site publishes.",
+"type": "Page"
+},
+{
+"url": "/privacy",
+"title": "Privacy policy",
+"description": "How GA Forum handles personal data from the contact forms and the forum.",
+"type": "Page"
+},
+{
+"url": "/terms",
+"title": "Terms of use",
+"description": "The terms for using GA Forum and its forum.",
+"type": "Page"
+},
+{
+"url": "/forum",
+"title": "GA Forum community",
+"description": "Forum boards for game development tools, livestreaming and esports.",
+"type": "Forum"
+}
+]

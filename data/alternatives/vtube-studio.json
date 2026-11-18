@@ -1,0 +1,226 @@
+{
+  "slug": "vtube-studio",
+  "subject": "VTube Studio",
+  "subject_site": "https://denchisoft.com",
+  "title": "VTube Studio Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Eight VTube Studio alternatives for VTuber tracking: Warudo, VSeeFace, Animaze, VMagicMirror, 3tene, VNyan, Kalidoface and veadotube mini, compared on model type and cost.",
+  "category": "best-vtuber-software",
+  "intro": "VTube Studio is an app for Virtual YouTubers that brings your own Live2D models to life, offered on Steam for Windows, and its site links to a license page and documentation. It is built around 2D Live2D rigs. The alternatives below split into three groups: 3D avatar programs that load VRM files, browser and lightweight options that need little setup, and PNGtuber tools for creators who do not want face tracking at all. Pricing is flagged where vendor pages state it and left open where they do not.",
+  "why_switch": [
+    "VTube Studio is designed for Live2D models. A creator with a 3D VRM avatar needs software such as VSeeFace, VMagicMirror, 3tene or Warudo instead.",
+    "Warudo adds a blueprint system and C# plugins, which appeals to streamers who want scripted interactions, not just tracking.",
+    "VNyan uses a node graph interface for designing chat interactions and events, and integrates with Twitch, YouTube and Kick among other services.",
+    "Anyone without a webcam setup they trust can try Kalidoface in a browser, or a PNGtuber tool such as veadotube mini that only needs two images.",
+    "Creators who want one program covering both 2D and 3D avatars, plus props and backgrounds, look at Animaze."
+  ],
+  "picks": [
+    {
+      "slug": "warudo",
+      "name": "Warudo",
+      "site": "https://warudo.app",
+      "best_for": "Scriptable 3D VTubing with plugins",
+      "pricing": "Pricing is not shown in the text extracted from the homepage or the pricing URL.",
+      "free_plan": "Unknown",
+      "note": "Warudo is flexible 3D VTubing software with built-in face and hand tracking, custom 3D assets and Twitch and YouTube integration. Its homepage mentions a blueprint system and C# plugins, so it rewards tinkering. The handbook exists in English, Chinese, Japanese, Korean and Spanish. Check the pricing page directly, since the extract showed no figures.",
+      "sources": [
+        {
+          "fact": "Warudo is flexible 3D VTubing software with built-in face and hand tracking, custom 3D assets and Twitch and YouTube integration.",
+          "url": "https://warudo.app"
+        },
+        {
+          "fact": "Warudo offers a blueprint system and C# plugins, according to its homepage.",
+          "url": "https://warudo.app"
+        },
+        {
+          "fact": "The Warudo handbook is available in English, Chinese, Japanese, Korean and Spanish.",
+          "url": "https://docs.warudo.app"
+        }
+      ]
+    },
+    {
+      "slug": "vseeface",
+      "name": "VSeeFace",
+      "site": "https://www.vseeface.icu",
+      "best_for": "Free 3D avatar tracking on Windows",
+      "pricing": "Free.",
+      "free_plan": "Free",
+      "note": "VSeeFace is a free, highly configurable face and hand tracking program for VRM and VSFAvatar avatars. It runs on 64-bit Windows 8 and above, and its manual covers the virtual camera, iPhone tracking and the VMC protocol. It is the obvious pick when the requirement is zero cost and a 3D avatar.",
+      "sources": [
+        {
+          "fact": "VSeeFace is a free, highly configurable face and hand tracking VRM and VSFAvatar avatar puppeteering program for virtual YouTubers.",
+          "url": "https://www.vseeface.icu"
+        },
+        {
+          "fact": "VSeeFace runs on Windows 8 and above, 64-bit only.",
+          "url": "https://www.vseeface.icu"
+        },
+        {
+          "fact": "The VSeeFace manual has pages for the virtual camera, iPhone tracking and the VMC protocol.",
+          "url": "https://www.vseeface.icu"
+        }
+      ]
+    },
+    {
+      "slug": "animaze",
+      "name": "Animaze",
+      "site": "https://www.animaze.us/",
+      "best_for": "2D and 3D avatars plus props and backgrounds",
+      "pricing": "Free tier with 80+ free items; individual plans at $19.99 ($1.67/month) and $99.99 ($8.34/month); Pro-Streamer rights for streamers earning $6,000 per year.",
+      "free_plan": "Free",
+      "note": "Animaze is software for livestreams or video chat with custom 2D and 3D animated avatars, backgrounds and props. It states commercial-rights tiers by streamer income, which is unusual in this group. It fits creators who want a ready content library with a free tier before they pay.",
+      "sources": [
+        {
+          "fact": "Animaze is software for livestreaming or video chat with custom 2D and 3D animated avatars, backgrounds and props.",
+          "url": "https://www.animaze.us/"
+        },
+        {
+          "fact": "Animaze's individual pricing page lists a free tier with access to 80+ free items including avatars, backgrounds, props and emotes.",
+          "url": "https://www.animaze.us/pricing-individual"
+        },
+        {
+          "fact": "Pro-Streamer commercial rights on the pricing page are for streamers earning $6,000 per year.",
+          "url": "https://www.animaze.us/pricing-individual"
+        }
+      ]
+    },
+    {
+      "slug": "vmagicmirror",
+      "name": "VMagicMirror",
+      "site": "https://malaybaku.github.io/VMagicMirror/",
+      "best_for": "VRM avatar without special devices",
+      "pricing": "Free Standard Edition and a Full Edition, both from BOOTH; the Full Edition price is not shown.",
+      "free_plan": "Free",
+      "note": "VMagicMirror displays a VRM avatar on a Windows PC without special tracking devices, as a mirror-like display. The English docs cover face, motion, layout, effects, expressions, the VMC protocol and hot keys. The Standard Edition is free, so you can test it before looking at the Full Edition.",
+      "sources": [
+        {
+          "fact": "VMagicMirror is mirror-like software that displays a VRM avatar of the user on a Windows PC without special devices.",
+          "url": "https://malaybaku.github.io/VMagicMirror/"
+        },
+        {
+          "fact": "VMagicMirror offers a free Standard Edition and a Full Edition, both downloaded from BOOTH.",
+          "url": "https://malaybaku.github.io/VMagicMirror/"
+        },
+        {
+          "fact": "The VMagicMirror English docs cover window, face, motion, layout, effects, devices, expressions, the VMC protocol and hot keys.",
+          "url": "https://malaybaku.github.io/VMagicMirror/en/docs/"
+        }
+      ]
+    },
+    {
+      "slug": "3tene",
+      "name": "3tene",
+      "site": "https://3tene.com",
+      "best_for": "Japanese-made VRM tracking with lip sync",
+      "pricing": "A free version and a paid 3tene V PRO; prices are not shown and the purchase link leads to a contact page.",
+      "free_plan": "Free",
+      "note": "3tene moves VRM files with face tracking and lip sync. 3tene V PRO adds VR headset support and full-body control. The terms of use are issued by 株式会社プラスプラス. Without a listed price you will need to contact the vendor, so treat the free version as the way to evaluate it.",
+      "sources": [
+        {
+          "fact": "3tene is a VTuber application that moves VRM files with face tracking and lip sync.",
+          "url": "https://3tene.com"
+        },
+        {
+          "fact": "3tene is offered as a free version and as 3tene V PRO, which adds VR headset support and full-body control.",
+          "url": "https://3tene.com"
+        },
+        {
+          "fact": "The 3tene terms of use are issued by 株式会社プラスプラス.",
+          "url": "https://3tene.com/terms/"
+        }
+      ]
+    },
+    {
+      "slug": "vnyan",
+      "name": "VNyan",
+      "site": "https://suvidriel.itch.io/vnyan",
+      "best_for": "Node-graph interactions for chat events",
+      "pricing": "Listed on itch.io as name your own price.",
+      "free_plan": "Unknown",
+      "note": "VNyan is a Windows app for VTubing with a node graph interface for designing chat interactions and events. Its itch.io page lists integrations with Twitch, AltStream, YouTube, Kick, Chaturbate, Fansly, Joystick.tv and Pulsoid. Choose it for interactive streams that react to chat, and expect a pay-what-you-want download.",
+      "sources": [
+        {
+          "fact": "VNyan is a downloadable app for Windows for VTubing, with a node graph interface for designing chat interactions and events.",
+          "url": "https://suvidriel.itch.io/vnyan"
+        },
+        {
+          "fact": "VNyan integrates with Twitch, AltStream, YouTube, Kick, Chaturbate, Fansly, Joystick.tv and Pulsoid, according to its itch.io page.",
+          "url": "https://suvidriel.itch.io/vnyan"
+        },
+        {
+          "fact": "VNyan is listed on itch.io with a Name your own price option.",
+          "url": "https://suvidriel.itch.io/vnyan"
+        }
+      ]
+    },
+    {
+      "slug": "kalidoface",
+      "name": "Kalidoface",
+      "site": "https://3d.kalidoface.com/",
+      "best_for": "Browser-based webcam tracking",
+      "pricing": "Not stated on the opened page, which has little readable text.",
+      "free_plan": "Unknown",
+      "note": "Kalidoface 3D describes animating character faces, poses and fingers in 3D with just a browser webcam. The kalidoface.com address redirects to 3d.kalidoface.com. Because the page is rendered with JavaScript, no plan or price could be read, so test it directly. It is the lowest-setup option here.",
+      "sources": [
+        {
+          "fact": "Kalidoface 3D describes itself as a way to animate character faces, poses and fingers in 3D using just a browser webcam.",
+          "url": "https://3d.kalidoface.com/"
+        },
+        {
+          "fact": "The kalidoface.com address redirects to 3d.kalidoface.com, which is the page the product is served from.",
+          "url": "https://3d.kalidoface.com/"
+        },
+        {
+          "fact": "The page text is mostly rendered with JavaScript, so no plan or price could be read from it.",
+          "url": "https://3d.kalidoface.com/"
+        }
+      ]
+    },
+    {
+      "slug": "veadotube-mini",
+      "name": "Veadotube mini",
+      "site": "https://olmewe.itch.io/veadotube-mini",
+      "best_for": "PNGtuber two-image switching",
+      "pricing": "Name your own price on itch.io; the page points to the vendor's site for the full version.",
+      "free_plan": "Free",
+      "note": "veadotube mini is a lightweight PNGtuber app that switches between two images as you talk. It runs on Windows, macOS and Linux, and supports Stream Deck control and a WebSocket client for changing states. It replaces VTube Studio only if you want a simple visual with no face tracking.",
+      "sources": [
+        {
+          "fact": "veadotube mini is a lightweight, easy-to-use PNGtuber app that switches between two images as you talk.",
+          "url": "https://olmewe.itch.io/veadotube-mini"
+        },
+        {
+          "fact": "The itch.io page lists Windows, macOS and Linux as platforms.",
+          "url": "https://olmewe.itch.io/veadotube-mini"
+        },
+        {
+          "fact": "The download is priced as name your own price, and the page directs users to the vendor's website for the full version.",
+          "url": "https://olmewe.itch.io/veadotube-mini"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Check your avatar file before anything else. A Live2D model stays in VTube Studio unless you rebuild it. A VRM model goes to VSeeFace for free tracking, VMagicMirror if you avoid cameras, or Warudo and VNyan if you want automation. Creators who like prebuilt content try Animaze. If you only need a talking image, veadotube mini is enough. Test each program with your actual camera and streaming software for ten minutes before you decide.",
+  "faqs": [
+    {
+      "q": "Can I load a Live2D model in VSeeFace?",
+      "a": "VSeeFace describes support for VRM and VSFAvatar avatars, not Live2D models. A Live2D model is what VTube Studio is built for, so switching to VSeeFace means moving to a 3D avatar."
+    },
+    {
+      "q": "Which option is free?",
+      "a": "VSeeFace is stated as free. VMagicMirror has a free Standard Edition, 3tene has a free version, and Animaze has a free tier. VNyan and veadotube mini are name-your-own-price on itch.io."
+    },
+    {
+      "q": "What if I do not want to use a webcam?",
+      "a": "VMagicMirror says it shows a VRM avatar on a Windows PC without special devices, and veadotube mini just swaps images when you talk. Both avoid a tracking camera, though the results look different from face tracking."
+    },
+    {
+      "q": "Which tools work on Mac or Linux?",
+      "a": "Among the pages we opened, veadotube mini lists Windows, macOS and Linux. VSeeFace, VMagicMirror and VNyan are described for Windows, and Kalidoface runs in a web browser."
+    },
+    {
+      "q": "How do I build chat-triggered effects?",
+      "a": "VNyan offers a node graph for chat interactions and events, and Warudo offers a blueprint system and C# plugins. Both are aimed at that use, so compare them with a small test scene."
+    }
+  ]
+}

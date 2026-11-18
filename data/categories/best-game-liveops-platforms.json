@@ -1,0 +1,599 @@
+{
+  "slug": "best-game-liveops-platforms",
+  "name": "game LiveOps platforms",
+  "title": "Best Game LiveOps Platforms in 2026",
+  "group": "Game business",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Game LiveOps platforms let teams run events, change game settings remotely, target offers to player segments and test changes after launch without shipping a new build.",
+  "definition": "A game LiveOps platform is the toolset a team uses after launch to schedule events, adjust remote configuration, personalize offers for player segments, run experiments and measure results, usually without a client update. It may be a full backend suite or a standalone layer on top of one.",
+  "intro": "After launch, a game lives or dies on how fast the team can change it: a weekend event, a discount for lapsed players, a rebalanced reward. Doing that through app-store releases is too slow, which is why LiveOps tooling exists. This ranking compares twelve products, from game-specific suites to general feature-flag and research tools. We read each vendor's own pages, listed the event, configuration, segmentation and experiment features they name, noted published prices, and judged fit for a studio running a live game with a small operations team. We did not run campaigns on these tools, and customer or scale figures are vendor claims. Tools that offer only part of the job rank lower, and we say which part.",
+  "criteria": [
+    {
+      "heading": "Events and scheduling",
+      "text": "A LiveOps tool should let a producer define an event, its dates and its rewards, then switch it on without engineering help. Satori advertises dynamic event calendars, Beamable calls itself a LiveOps platform, Balancy lists game events and battle passes, and Metaplay lists built-in LiveOps. Ask for a demo where a non-engineer creates and schedules an event end to end, including rollback if it misfires."
+    },
+    {
+      "heading": "Remote configuration and flags",
+      "text": "Changing values such as drop rates or prices over the air is the core LiveOps move. Metaplay names over-the-air configs, Satori lists remote configuration and feature flags, Firebase lists Remote Config, Unity lists Game Overrides, and LaunchDarkly is built around feature flags. Check how changes are versioned and whether rolling back is one click, since a bad config in a live game costs money quickly."
+    },
+    {
+      "heading": "Segmentation and offers",
+      "text": "Targeting different players with different offers needs segments built from behavior. Metaplay lists segments and offers, Balancy lists smart offers, and Satori advertises personalized player messaging. General tools such as Statsig and LaunchDarkly segment users well but know nothing about game currency. Ask where segment data comes from, how fresh it is, and whether offers can respect player spending history."
+    },
+    {
+      "heading": "Experiments and measurement",
+      "text": "A change you cannot measure is a guess. A/B tests are named by Metaplay, Unity, Balancy and Satori, while Statsig and LaunchDarkly are experimentation specialists with published usage pricing. Look at sample-size help, guardrail metrics and whether results tie to revenue and retention events. Solsten takes another route, studying player motivation through research instead of live tests."
+    }
+  ],
+  "market_notes": [
+    "Few vendors in this field publish clear prices. LaunchDarkly (free Developer plan, then usage prices such as $10 per service connection) and Statsig (free tier with 2M events per month, a $150 tier) are the exceptions, and both are general-purpose rather than game-specific. Satori points to Heroic Cloud plans from $600 per month. Metaplay lists tiers without a Pro price, while PlayFab, Beamable, Unity, AccelByte, Pragma, Balancy and Solsten show no amounts on the pages we opened.",
+    "The list shows three groups. Backend suites with LiveOps built in (Metaplay, Beamable, PlayFab, AccelByte, Pragma, Unity) tie events to accounts and economy. Standalone layers (Satori, Balancy) add LiveOps to whatever backend you have, and in Satori's case pair with Nakama. General tools (LaunchDarkly, Statsig, Firebase) bring mature experimentation but need game logic around them. Which group fits depends on whether you already own a backend."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Inventory what you change after launch",
+      "text": "Make a list of the last ten changes a live game would need: an event, a price change, a store bundle, a reward tweak, a returning-player offer. Mark which need code and which only need data. If most are data changes, a configuration and events tool is enough. If they involve currency and inventory, favor a backend suite where LiveOps and economy share one data model."
+    },
+    {
+      "title": "Check whether it fits your existing backend",
+      "text": "If you already run PlayFab, Nakama or a custom server, test whether the candidate plugs in or demands migration. Satori is sold beside Nakama, Balancy is a plugin, and LaunchDarkly or Statsig attach to any client. Suites like Metaplay or Pragma replace the backend instead. Integration cost often outweighs license cost, so price both."
+    },
+    {
+      "title": "Run one small live event as the trial",
+      "text": "Pick a modest event, such as a weekend reward doubler, and run it end to end in two finalists: create, segment, schedule, measure, roll back. Count the engineer hours each needed and note what a producer could do alone. Platforms that need developer help for each change defeat the purpose, however long their feature lists are."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best game LiveOps platform in 2026?",
+      "a": "Metaplay is the best fit for studios that want LiveOps built into a server-authoritative backend, with A/B testing, over-the-air configs, segments and offers behind a dashboard. Satori is better when you want a standalone event and experiment layer, and PlayFab is better when you want broad live service management with a free start."
+    },
+    {
+      "q": "What is the difference between LiveOps and a game backend?",
+      "a": "A backend stores player accounts, items and saves; LiveOps decides what players see and when: events, offers, remote values and tests. Many products combine both, such as Metaplay and Beamable. Others, like Satori and Balancy, add LiveOps on top of a backend you already have."
+    },
+    {
+      "q": "Can I use feature flag tools like LaunchDarkly for a game?",
+      "a": "Yes for toggles and experiments, but they do not know game concepts such as currency, inventory or event calendars. LaunchDarkly offers a free Developer plan with unlimited seats and Statsig a free tier of 2M events per month. You will write the game-specific logic yourself or pair them with a backend."
+    },
+    {
+      "q": "Is Firebase Remote Config enough for LiveOps?",
+      "a": "It covers one slice: changing values remotely. Firebase lists Remote Config among its services, but the homepage names no event scheduling, offer or segment tooling for games. Small games can start there and add a LiveOps layer when events and offers become routine."
+    },
+    {
+      "q": "Which LiveOps tools publish their prices?",
+      "a": "LaunchDarkly and Statsig publish prices, with free tiers. Satori's price is covered by Heroic Cloud plans starting at $600 per month, and Metaplay shows Free, Pro and Enterprise tiers without a Pro price. Most others use quotes, so request estimates with your expected monthly players."
+    },
+    {
+      "q": "What does Solsten do for LiveOps?",
+      "a": "Solsten describes an AI consumer insights platform with Games User Research among its solutions, not an event or configuration tool. It helps teams understand player motivation, so it complements LiveOps tooling rather than replacing it. Pricing is not published and a demo is offered."
+    },
+    {
+      "q": "Do I need a LiveOps platform for a small indie game?",
+      "a": "Often not at launch. A free feature-flag or remote-config service can handle a few settings. Adopt a full platform when you plan recurring events, offers or seasons. Start with a free tier such as PlayFab's free start or Statsig's free Developer tier, then grow."
+    }
+  ],
+  "related": [
+    "best-game-backend-platforms",
+    "best-game-analytics-software",
+    "best-game-payment-and-web-shop-platforms",
+    "best-mobile-attribution-tools-for-games",
+    "best-playtesting-platforms",
+    "best-player-support-software-for-games"
+  ],
+  "tools": [
+    {
+      "slug": "metaplay",
+      "name": "Metaplay",
+      "site": "https://metaplay.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Backend and LiveOps in one source-available stack",
+      "best_for": "Mobile games needing segments and offers",
+      "pricing": "Free tier for local builds, Pro tier for cloud deployment with no price shown, Enterprise for self-hosting.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "C# server; client engines not listed",
+      "features": [
+        "Server-authoritative C#",
+        "Ships as full source code",
+        "Built-in LiveOps (A/B testing, OTA configs, segments, offers)",
+        "LiveOps dashboard",
+        "Metaplay AI and Agent",
+        "Portal MCP"
+      ],
+      "summary": "Ships events, over-the-air configs, A/B tests, segments and offers with a dashboard, on top of a server-authoritative backend.",
+      "verdict": "Metaplay places LiveOps inside its backend. The built-in features named on the homepage are A/B testing, over-the-air configs, segments and offers, run from a LiveOps dashboard, with Metaplay AI and an agent and a Portal MCP for automation. Because it ships as full source code and runs server-authoritative C#, changes to events and offers sit next to game rules rather than beside them. Supercell, Metacore, Trailmix and Lessmore are named as users. That integrated picture earns first place.",
+      "weaknesses": "Adopting it means taking the backend too, so it is not a bolt-on for an existing server. The Pro price is not shown, and no client engines are listed beyond a Unity mention in a testimonial. Server code is C#.",
+      "wrong_for": "Teams that keep their current backend and only need an events layer should look at Satori or Balancy.",
+      "sources": [
+        {
+          "fact": "Metaplay describes itself on its homepage as a complete backend platform for building and operating live service games.",
+          "url": "https://metaplay.io/"
+        },
+        {
+          "fact": "The homepage lists a Free tier for building and running a game locally, a Pro tier for cloud deployment with no price shown, and an Enterprise tier for self-hosting.",
+          "url": "https://metaplay.io/"
+        },
+        {
+          "fact": "The homepage says the platform is production-proven by Supercell, Metacore, Trailmix and Lessmore.",
+          "url": "https://metaplay.io/"
+        },
+        {
+          "fact": "The homepage says Metaplay ships as full source code.",
+          "url": "https://metaplay.io/"
+        }
+      ]
+    },
+    {
+      "slug": "satori",
+      "name": "Satori",
+      "site": "https://heroiclabs.com/satori/",
+      "company": "Heroic Labs",
+      "country": "",
+      "tagline": "Heroic Labs' LiveOps layer with calendars and experiments",
+      "best_for": "Teams running or planning Nakama",
+      "pricing": "Heroic Cloud plans, covering Nakama and Satori, start from $600 per month, with bespoke pricing through sales.",
+      "pricing_model": "Subscription",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Event capture",
+        "Dynamic event calendars",
+        "Remote configuration",
+        "Experimentation",
+        "Feature flags",
+        "Analytics"
+      ],
+      "summary": "A dedicated LiveOps product with event capture, dynamic calendars, remote configuration, experiments, feature flags and analytics.",
+      "verdict": "Satori is Heroic Labs' LiveOps platform, and the product page lists event capture, dynamic event calendars, remote configuration, experimentation, feature flags, analytics and personalized player messaging. It is described as the LiveOps counterpart to Nakama, the open source game backend from the same company, and can be deployed on Heroic Cloud as a managed or private cloud. A published starting price of $600 per month for Heroic Cloud gives buyers a budget anchor, which supports its second place.",
+      "weaknesses": "No separate Satori price is shown, only the Heroic Cloud starting figure. Supported platforms and SDKs are not listed on the product page. The product is most natural next to Nakama, so teams on another backend should check integration paths.",
+      "wrong_for": "A studio on PlayFab or a custom backend with no Nakama plans should compare Balancy or a flag tool.",
+      "sources": [
+        {
+          "fact": "Satori is Heroic Labs' LiveOps platform for games, with event capture, dynamic event calendars, remote configuration, experimentation and analytics.",
+          "url": "https://heroiclabs.com/satori/index.html"
+        },
+        {
+          "fact": "Heroic Labs describes Nakama as its open source game backend and Satori as its LiveOps product.",
+          "url": "https://heroiclabs.com/satori/index.html"
+        },
+        {
+          "fact": "Satori can be deployed on Heroic Cloud, which the site describes as a managed or private cloud.",
+          "url": "https://heroiclabs.com/satori/index.html"
+        },
+        {
+          "fact": "The Heroic Cloud pricing page lists plans starting from $600/month, with bespoke pricing available through sales.",
+          "url": "https://heroiclabs.com/pricing/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "playfab",
+      "name": "PlayFab",
+      "site": "https://playfab.com/",
+      "company": "Microsoft",
+      "country": "",
+      "tagline": "Microsoft's live service management inside a full backend",
+      "best_for": "Console and PC live-service games",
+      "pricing": "Free to start, then pay-as-you-go with no dollar figures on the page.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free plan",
+      "platforms": "Unreal and Unity SDKs; Xbox, Steam, PlayStation, Switch, mobile stores",
+      "features": [
+        "Community",
+        "Identity",
+        "Multiplayer",
+        "Player Progression",
+        "Game Data Stream",
+        "Economy, Monetization and UGC"
+      ],
+      "summary": "Live service management, economy and player progression under one Microsoft roof, with a free start but few LiveOps details on the page.",
+      "verdict": "PlayFab lists Live Service Management among its feature groups, next to identity, multiplayer, player progression, game data streaming, community, and economy, monetization and UGC. For LiveOps, the attraction is data and economy living with the same player record and console integrations. The page cites Minecraft, Forza Horizon 5, Sea of Thieves and Street Fighter 6 as running on it. A free-to-start tier allows testing. It ranks third because the page lists less LiveOps detail than Metaplay or Satori.",
+      "weaknesses": "The page does not break down event scheduling, segmentation or experiments, so depth must be verified in documentation. Development Mode limits titles to 1,000 lifetime player accounts. No dollar figures are shown.",
+      "wrong_for": "Teams that need a detailed standalone event calendar and experiments should read Satori.",
+      "sources": [
+        {
+          "fact": "PlayFab is described on the Microsoft product page as complete backend services for live games, connecting players wherever they want to play.",
+          "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+        },
+        {
+          "fact": "The page says PlayFab offers a free-to-start tier at no additional cost, with pay-as-you-go pricing as games scale and no dollar figures shown.",
+          "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+        },
+        {
+          "fact": "The page limits Development Mode to 1,000 lifetime player account creations per title and 10 titles per account.",
+          "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+        }
+      ]
+    },
+    {
+      "slug": "beamable",
+      "name": "Beamable",
+      "site": "https://beamable.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Hosted LiveOps and game server platform for Unity and Unreal",
+      "best_for": "Small Unity or Unreal teams",
+      "pricing": "Start for Free leads to a pricing page without plan prices; trial usage is up to 1,000,000 free API calls.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Native Unity and Unreal SDKs; Web3 mentioned",
+      "features": [
+        "Serverless game APIs",
+        "Private Cloud",
+        "Co-Dev Services",
+        "Beamable Network",
+        "Built-in AI automation"
+      ],
+      "summary": "A LiveOps platform positioned against building custom backend work, with native SDKs, serverless APIs and credits for new studios.",
+      "verdict": "Beamable describes itself as a game server and LiveOps platform, with serverless game APIs, a private cloud option, co-development services and built-in AI automation. Native Unity and Unreal SDKs keep integration inside familiar editors. A free trial allows up to 1,000,000 API calls, and the LaunchPad program offers $2,500 in credits. The page claims scalability from 100 to 10 million players. It lands fourth because the homepage lists fewer named LiveOps features, such as segments or A/B tests, than the leaders.",
+      "weaknesses": "No plan prices are visible, and API-call based trials can run out fast during load tests. Named LiveOps features such as segmentation and experiments are not itemized on the homepage. Web3 emphasis may not suit every studio.",
+      "wrong_for": "A team that needs detailed experimentation should look at Statsig, Satori or Metaplay.",
+      "sources": [
+        {
+          "fact": "Beamable describes itself on the homepage as a game server and LiveOps platform for Web2 and Web3 games that replaces custom backend work with hosted services.",
+          "url": "https://beamable.com/"
+        },
+        {
+          "fact": "The homepage offers Start for Free with a link to the pricing page, and no plan prices are listed.",
+          "url": "https://beamable.com/"
+        },
+        {
+          "fact": "The homepage describes trial usage with up to 1,000,000 free API calls; the page prints the figure as 1000,000.",
+          "url": "https://beamable.com/"
+        },
+        {
+          "fact": "The homepage describes Beamable LaunchPad as a $2,500 credit program to accelerate backend setup.",
+          "url": "https://beamable.com/"
+        }
+      ]
+    },
+    {
+      "slug": "accelbyte",
+      "name": "AccelByte",
+      "site": "https://accelbyte.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Modular game backend with live service pieces",
+      "best_for": "Studios on multiple consoles",
+      "pricing": "First 30 CCU free in development, no monthly platform fee on Public Cloud after the trial, usage-based on peak concurrency.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "Windows, PlayStation, Xbox, Android, Apple, Switch, Linux; Unity, Unreal",
+      "features": [
+        "Player Accounts",
+        "Cloud Save",
+        "Achievements",
+        "Leaderboards",
+        "Matchmaking",
+        "Game Sessions"
+      ],
+      "summary": "A modular multiplatform backend where achievements, entitlements and sessions support live operations, though event tooling is not itemized.",
+      "verdict": "AccelByte's homepage lists player accounts, cloud save, achievements, leaderboards, matchmaking, game sessions, entitlements and multiplayer servers. For LiveOps, achievements and entitlements are the pieces nearest to events and rewards, and the modular design lets a studio buy only those. The vendor claims 120+ studios and 250+ titles, naming 2K, Krafton, SNK and Telltale Games, and shows a $350 monthly estimate for 50,000 players. Its mid-table spot reflects that scheduling and segmentation are not described on the page.",
+      "weaknesses": "Event calendars, remote config and experiments are not named on the homepage, so LiveOps depth is unconfirmed. Usage-based billing follows peak concurrency. The free allowance covers development, not live play.",
+      "wrong_for": "Teams whose priority is scheduling and testing events should pick Metaplay or Satori.",
+      "sources": [
+        {
+          "fact": "AccelByte describes itself on the homepage as a multiplatform game backend that provides modular online services for game developers.",
+          "url": "https://accelbyte.io/"
+        },
+        {
+          "fact": "The homepage says the first 30 CCU are free during development and there is no monthly platform fee on Public Cloud after the trial.",
+          "url": "https://accelbyte.io/"
+        },
+        {
+          "fact": "The homepage says pricing is usage-based and scales with peak concurrent players, with an estimate of about $350 per month for 50,000 monthly players, labeled as an estimate.",
+          "url": "https://accelbyte.io/"
+        },
+        {
+          "fact": "The homepage lists Windows, PlayStation, Xbox, Android, Apple, Nintendo Switch and Linux, with 15+ platform integrations.",
+          "url": "https://accelbyte.io/"
+        }
+      ]
+    },
+    {
+      "slug": "unity-gaming-services",
+      "name": "Unity Gaming Services",
+      "site": "https://unity.com/solutions/gaming-services",
+      "company": "Unity Technologies",
+      "country": "",
+      "tagline": "Unity Live Services: Game Overrides, A/B tests and Cloud Code",
+      "best_for": "Unity games adding post-launch tools",
+      "pricing": "Get started for free and a View Pricing link; the page shows no figures or tier details.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Not listed; 25+ platforms mentioned without names",
+      "features": [
+        "Cloud Code",
+        "Cloud Save",
+        "Diagnostics",
+        "Game Overrides",
+        "A/B Testing",
+        "Cloud Content Delivery"
+      ],
+      "summary": "Unity's live operations tools include Game Overrides, A/B testing, Cloud Code and push notifications, with no prices shown.",
+      "verdict": "Unity presents its live tools as Unity Live Services for post-launch insights and operations. The list covers Cloud Code, Cloud Save, Authentication, Analytics, A/B testing, Diagnostics, Cloud Content Delivery, Game Overrides and Push Notifications, plus achievements, leaderboards and in-app purchases. Game Overrides and A/B testing are the direct LiveOps items. Subway Surfers, MARVEL SNAP, Warhammer 40k: Warpforge and Power Rangers Mighty Force are cited as case studies. It fits Unity teams, which explains the placement.",
+      "weaknesses": "No prices or tier details are shown, and engines other than Unity are not mentioned. The page does not describe event calendars or segmentation explicitly. Names such as Unity Gaming Services are not used on the page.",
+      "wrong_for": "Unreal or Godot studios should look at PlayFab, Satori or LaunchDarkly.",
+      "sources": [
+        {
+          "fact": "The page presents Unity's LiveOps services, called Unity Live Services, as tools for post-launch insights and live game operations.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page lists achievements, player sign-in, leaderboards, IAP, Cloud Code, Cloud Save, Authentication, Analytics, A/B testing, Diagnostics, Cloud Content Delivery, Game Overrides and Push Notifications.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page says Get started for free and links to a View Pricing page, with no figures shown.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page cites Subway Surfers, MARVEL SNAP, Warhammer 40k: Warpforge and Power Rangers Mighty Force as live game case studies.",
+          "url": "https://unity.com/solutions/gaming-services"
+        }
+      ]
+    },
+    {
+      "slug": "balancy",
+      "name": "Balancy",
+      "site": "https://en.docs.balancy.dev/",
+      "company": "",
+      "country": "",
+      "tagline": "LiveOps and in-game store plugin with offers and battle passes",
+      "best_for": "Mobile teams tuning offers and stores",
+      "pricing": "Not found on the pages we opened; the homepage rendered through JavaScript and the www host showed a certificate error.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Steam guide listed; other platforms unconfirmed",
+      "features": [
+        "Smart offers",
+        "Inventory",
+        "Purchases",
+        "Game events",
+        "Visual scripting",
+        "A/B tests"
+      ],
+      "summary": "A plugin for offers, inventory, purchases, events, battle passes and A/B tests, documented in detail but with no readable pricing.",
+      "verdict": "Balancy's documentation covers LiveOps and in-game store features: smart offers, inventory, purchases, game events, battle passes, daily bonuses, ads, push notifications, visual scripting and A/B tests, plus an Addressables section under content management. That list matches the offers and events part of the brief closely. It sits in the lower half because we could not read pricing, company details or platform support beyond a Steam guide, so a buyer has little to compare.",
+      "weaknesses": "The marketing homepage rendered with no readable text for our fetcher, and we found no price, company or platform list. Documentation is the only source. Visual scripting adds a tool to learn.",
+      "wrong_for": "Teams needing published pricing and a vendor profile today should look at LaunchDarkly, Statsig or Satori.",
+      "sources": [
+        {
+          "fact": "Balancy's documentation covers LiveOps features including offers and items, inventory, purchases, game events and A/B tests.",
+          "url": "https://en.docs.balancy.dev/"
+        },
+        {
+          "fact": "Balancy's documentation includes visual scripting, battle pass, daily bonus, ads and push notifications sections.",
+          "url": "https://en.docs.balancy.dev/"
+        },
+        {
+          "fact": "Balancy's documentation includes an Addressables section under Content Management.",
+          "url": "https://en.docs.balancy.dev/"
+        },
+        {
+          "fact": "No Balancy pricing could be read; the homepage at balancy.dev renders with JavaScript and shows no readable product text.",
+          "url": "https://balancy.dev"
+        }
+      ]
+    },
+    {
+      "slug": "pragma",
+      "name": "Pragma",
+      "site": "https://pragma.gg/",
+      "company": "",
+      "country": "",
+      "tagline": "Publishing tools platform with live operations",
+      "best_for": "Larger PC and console studios",
+      "pricing": "The homepage links a pricing page but states no price amounts and no free tier.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord and Twitch integrations; no engines named",
+      "features": [
+        "Authentication and social",
+        "Orders and monetization",
+        "Telemetry",
+        "Admin dashboards",
+        "Live operations",
+        "Player data"
+      ],
+      "summary": "A studio-scale platform that lists live operations and orders and monetization alongside its backend.",
+      "verdict": "Pragma describes itself as a modern publishing tools platform and groups its homepage into authentication and social, orders and monetization, telemetry, admin dashboards, live operations and player data. Live operations and monetization map directly to this ranking, and Discord and Twitch integrations help community-facing events. It claims more than 50% of top PC and console studios, with Gardens, People Can Fly and Omeda as case studies. The homepage gives few specifics about event, config or experiment features, which holds it below the leaders.",
+      "weaknesses": "No prices, no free tier and no listed engines or SDKs. The LiveOps feature set is named as a heading rather than itemized, so depth is unclear until a sales call.",
+      "wrong_for": "Small teams wanting self-serve tests should use Satori, Balancy or a flag tool.",
+      "sources": [
+        {
+          "fact": "Pragma's homepage describes it as a modern publishing tools platform for game studios.",
+          "url": "https://pragma.gg/"
+        },
+        {
+          "fact": "The homepage describes its Backend Engine as 'The game industry's leading backend'.",
+          "url": "https://pragma.gg/"
+        },
+        {
+          "fact": "The homepage has a Pricing link but states no price amounts and no free tier.",
+          "url": "https://pragma.gg/"
+        },
+        {
+          "fact": "The homepage claims more than 50% of top PC and console studios as users.",
+          "url": "https://pragma.gg/"
+        }
+      ]
+    },
+    {
+      "slug": "firebase",
+      "name": "Firebase",
+      "site": "https://firebase.google.com/",
+      "company": "Google",
+      "country": "",
+      "tagline": "Google's app platform with Remote Config",
+      "best_for": "Mobile games needing simple remote values",
+      "pricing": "$300 in credit when you create a Billing Account; no free-plan figures shown on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Apple, Android, Web, Flutter, Unity, C++",
+      "features": [
+        "App Hosting",
+        "SQL Connect",
+        "Firebase AI Logic",
+        "App Distribution",
+        "Crashlytics",
+        "Remote Config"
+      ],
+      "summary": "Remote Config and a Unity SDK cover value tuning, but the page names no game events, offers or segments.",
+      "verdict": "Firebase's homepage lists Remote Config among services such as Crashlytics, App Distribution and App Hosting, and states SDKs for Apple platforms, Android, Web, Flutter, Unity and C++. For a small mobile game, remotely changing a few values is the first LiveOps step, and Google infrastructure sits behind it. Halfbrick is named among users. It ranks ninth because it handles only configuration, leaving events, offers and game economy to your own build.",
+      "weaknesses": "No event scheduling, game offers or game-aware segmentation appear on the homepage. Billing credit is the only price information shown. The page emphasizes intelligent apps, not live games.",
+      "wrong_for": "Games that run weekly events and personalized offers should consider Metaplay, Satori or Balancy.",
+      "sources": [
+        {
+          "fact": "Firebase is described on the homepage as a platform of services for building and running intelligent apps.",
+          "url": "https://firebase.google.com/"
+        },
+        {
+          "fact": "The homepage says Firebase is backed by Google and its managed infrastructure is powered by Google Cloud.",
+          "url": "https://firebase.google.com/"
+        },
+        {
+          "fact": "The homepage offers $300 in credit when you create a Billing Account, with no Spark or Blaze plan figures shown.",
+          "url": "https://firebase.google.com/"
+        },
+        {
+          "fact": "The homepage lists SDK platforms including Apple, Android, Web, Flutter, Unity and C++.",
+          "url": "https://firebase.google.com/"
+        }
+      ]
+    },
+    {
+      "slug": "statsig",
+      "name": "Statsig",
+      "site": "https://statsig.com",
+      "company": "Statsig",
+      "country": "",
+      "tagline": "Experimentation, flags and analytics, part of the Amplitude family",
+      "best_for": "Teams focused on A/B testing rigor",
+      "pricing": "Developer tier free with 2M events per month; a $150 tier includes 5M events, then $0.05 per 1K events.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "Experimentation",
+        "Feature flags",
+        "Product analytics",
+        "Session replay",
+        "Web analytics",
+        "Infra analytics"
+      ],
+      "summary": "Free-tier experimentation, flags, analytics and session replay with clear published prices but no game concepts.",
+      "verdict": "Statsig describes a product development platform combining experimentation, feature management, product analytics and session replay, and says it is part of the Amplitude family. Its pricing page is specific: a free Developer tier with 2M events and 50,000 session replays per month, and a $150 tier with 5M events, 100,000 replays and $0.05 per 1K events beyond that. For a studio that wants rigorous tests on a budget, those figures are rare in this field, though nothing in the facts mentions games.",
+      "weaknesses": "The pages we read describe general product development, not game events, currency or offers, so those need custom work. Event-based billing can grow with telemetry volume. Enterprise pricing is by sales.",
+      "wrong_for": "Studios wanting prebuilt game events and offers should pick Metaplay or Balancy.",
+      "sources": [
+        {
+          "fact": "Statsig describes itself as a modern product development platform with experimentation, feature management, product analytics and session replay.",
+          "url": "https://statsig.com"
+        },
+        {
+          "fact": "Statsig's homepage says it is part of the Amplitude family.",
+          "url": "https://statsig.com"
+        },
+        {
+          "fact": "Statsig's Developer tier is free and includes 2M events per month and 50,000 session replays per month.",
+          "url": "https://www.statsig.com/pricing"
+        },
+        {
+          "fact": "A $150 Statsig tier includes 5M events, then $0.05 per 1K events, and 100,000 session replays per month.",
+          "url": "https://www.statsig.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "launchdarkly",
+      "name": "LaunchDarkly",
+      "site": "https://launchdarkly.com",
+      "company": "LaunchDarkly",
+      "country": "",
+      "tagline": "Feature flags and progressive delivery with a free plan",
+      "best_for": "Engineering-led release control",
+      "pricing": "Developer plan free forever with unlimited seats; service connections $10 each billed yearly after 5 free; client-side MAU 1K free, then $8.33 per 1K billed yearly.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "Feature flags",
+        "Progressive delivery",
+        "Experimentation",
+        "Observability",
+        "Session replays",
+        "AgentControl"
+      ],
+      "summary": "Mature flags, rollouts, rollback and experiments with published usage prices, built for software releases rather than game design.",
+      "verdict": "LaunchDarkly describes runtime control for software, with feature flags, progressive delivery, automated rollback, experimentation and observability. Its pricing page lists a free Developer plan with unlimited seats, five free service connections then $10 each billed yearly, and client-side monthly active users free to 1K, then $8.33 per 1K billed yearly, with 17% saved on annual billing. Safe gradual rollouts of a risky game change are a real fit, but the pages say nothing about games.",
+      "weaknesses": "The vendor pages do not mention games, currency, events or offers, so a team builds those concepts itself. Per-MAU pricing may grow quickly for a free-to-play title with millions of clients.",
+      "wrong_for": "A producer-led team wanting event calendars without engineers should look at Satori or Metaplay.",
+      "sources": [
+        {
+          "fact": "LaunchDarkly describes itself as runtime control for software, with feature flags, progressive delivery, automated rollback and AI agent control.",
+          "url": "https://launchdarkly.com"
+        },
+        {
+          "fact": "LaunchDarkly's pricing page lists a free Developer plan at $0 per month, forever, with unlimited seats.",
+          "url": "https://launchdarkly.com/pricing/"
+        },
+        {
+          "fact": "Service connections cost $10 each billed yearly ($12 billed monthly) after the 5 free connections.",
+          "url": "https://launchdarkly.com/pricing/"
+        },
+        {
+          "fact": "LaunchDarkly saves 17% on usage rates when billed yearly instead of monthly.",
+          "url": "https://launchdarkly.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "solsten",
+      "name": "Solsten",
+      "site": "https://solsten.io",
+      "company": "Solsten",
+      "country": "",
+      "tagline": "AI consumer insights with games user research",
+      "best_for": "Understanding player motivation",
+      "pricing": "Not published on the pages we opened; the site offers a Request demo call to action.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Elaris",
+        "Traits",
+        "Navigator",
+        "Games user research",
+        "On-demand consumer insights",
+        "Validation study"
+      ],
+      "summary": "A research and insight product, not an event or config tool, so it supports LiveOps decisions rather than running them.",
+      "verdict": "Solsten describes itself as an AI consumer insights platform with products Elaris, Traits and Navigator, and lists Games User Research among solutions and gaming among industries. Features include on-demand consumer insights and a validation study. It can inform which events or offers to build, which is useful once LiveOps is running, but it does not schedule events, change configuration or deploy tests. That explains a last-place ranking in a category about operating a live game. Founders Joe Schaeppi and Bastian Bergmann are named on the About page.",
+      "weaknesses": "No event, configuration, segmentation or experiment tooling is described on the opened pages, and no price is published. It requires a demo to evaluate, and output is research rather than live control.",
+      "wrong_for": "Teams needing to operate events and tests should choose Metaplay, Satori or Statsig.",
+      "sources": [
+        {
+          "fact": "Solsten describes itself as an AI consumer insights platform, with products Elaris, Traits and Navigator.",
+          "url": "https://solsten.io"
+        },
+        {
+          "fact": "Solsten lists Games User Research among its solutions and gaming among the industries it serves.",
+          "url": "https://solsten.io"
+        },
+        {
+          "fact": "Solsten does not publish prices on the opened pages; the site offers a Request demo option.",
+          "url": "https://solsten.io"
+        },
+        {
+          "fact": "Solsten's About page names Joe Schaeppi and Bastian Bergmann as the founders.",
+          "url": "https://solsten.io/about"
+        }
+      ]
+    }
+  ]
+}

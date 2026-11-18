@@ -1,0 +1,1788 @@
+{
+ "logos": {
+  "100ms": {
+   "source_url": "https://www.100ms.live/favicons/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "3play-media": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/3play-media.png",
+   "method": "sister:tke"
+  },
+  "3tene": {
+   "source_url": "https://3tene.com/wp-content/uploads/2026/09/cropped-pro_icon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "accelevents": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/accelevents.png",
+   "method": "sister:tke"
+  },
+  "activefence": {
+   "source_url": "https://cdn.prod.website-files.com/69005ca0f0832195cbc1370c/6966208e49b12596bab0f42e_Group%201707480796.png",
+   "method": "apple-touch-icon"
+  },
+  "ada": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/ada.png",
+   "method": "sister:tke"
+  },
+  "adverty": {
+   "source_url": "https://adverty.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "adyen": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/adyen.png",
+   "method": "sister:tke"
+  },
+  "affise": {
+   "source_url": "https://www.affise.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "aghanim": {
+   "source_url": "https://aghanim.com/favicon/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "agones": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/agones.png",
+   "method": "sister:tke"
+  },
+  "agora": {
+   "source_url": "https://cdn.prod.website-files.com/660affa848e8af81bdd03909/66c71fa4c832213b24f804b9_webclip.png",
+   "method": "apple-touch-icon"
+  },
+  "ai-media": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/ai-media.png",
+   "method": "sister:tke"
+  },
+  "airbridge": {
+   "source_url": "https://www.airbridge.io/apple-icon.png?apple-icon.0qff_ll70s3tm.png",
+   "method": "apple-touch-icon"
+  },
+  "airmeet": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/airmeet.png",
+   "method": "sister:tke"
+  },
+  "akamai": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/akamai.png",
+   "method": "sister:ti"
+  },
+  "alconost": {
+   "source_url": "https://alconost.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "allstar": {
+   "source_url": "https://allstar.gg/logo512.png",
+   "method": "manifest"
+  },
+  "alttester": {
+   "source_url": "https://alttester.com/app/uploads/2023/03/cropped-icon-405x405-1-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "amazon-gamelift": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/aws.png",
+   "method": "sister:tke"
+  },
+  "amazon-ivs": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/aws.png",
+   "method": "sister:tke"
+  },
+  "amplitude": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/amplitude.png",
+   "method": "sister:tke"
+  },
+  "anchorpoint": {
+   "source_url": "https://cdn.prod.website-files.com/5f4911b1a924abeb23219a55/5fddbbe8a49dc5c4a05f01c6_WebClip.png",
+   "method": "apple-touch-icon"
+  },
+  "animaze": {
+   "source_url": "https://www.animaze.us/static/version1598864652/frontend/Facerig/facerig/en_US/images/social-share-animaze.png",
+   "method": "og:image"
+  },
+  "anybrain": {
+   "source_url": "https://anybrain.gg/favicons/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "anydesk": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/anydesk.png",
+   "method": "sister:tke"
+  },
+  "api-video": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/api-video.png",
+   "method": "sister:tke"
+  },
+  "appcharge": {
+   "source_url": "https://www.appcharge.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "appcircle": {
+   "source_url": "/Users/sebastiaansmits/Documents/aitoolcompare/public/images/tools/appcircle.png",
+   "method": "sister:atc"
+  },
+  "appdome": {
+   "source_url": "https://www.appdome.com/wp-content/uploads/2025/10/cropped-AppdomeShield-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "appfigures": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/appfigures.png",
+   "method": "sister:tke"
+  },
+  "appium": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/appium.png",
+   "method": "sister:ti"
+  },
+  "applause": {
+   "source_url": "https://www.applause.com/wp-content/uploads/favicon-96x96-1.png",
+   "method": "apple-touch-icon"
+  },
+  "apple-search-ads": {
+   "source_url": "https://ads.apple.com/180_touch.png",
+   "method": "apple-touch-icon"
+  },
+  "appmagic": {
+   "source_url": "https://appmagic.rocks/img/logo96.png",
+   "method": "apple-touch-icon"
+  },
+  "appsflyer": {
+   "source_url": "https://www.appsflyer.com/wp-content/uploads/2025/11/cropped-54649.-New-Website-favicon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "apptopia": {
+   "source_url": "https://apptopia.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "assemblyai": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/assemblyai.png",
+   "method": "sister:tke"
+  },
+  "aws-elemental-medialive": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/aws.png",
+   "method": "sister:tke"
+  },
+  "azerion": {
+   "source_url": "/Users/sebastiaansmits/Documents/europeanpurpose/images/tools/azerion.png",
+   "method": "sister:ep"
+  },
+  "azure-devops": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/azure-devops.png",
+   "method": "sister:tke"
+  },
+  "babylon-js": {
+   "source_url": "https://www.babylonjs.com/assets/img/BabylonIdentity.svg",
+   "method": "logo_hint"
+  },
+  "bandicam": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/bandicam.png",
+   "method": "sister:tke"
+  },
+  "battleye": {
+   "source_url": "https://www.battleye.com/wp-content/themes/battleye/images/logo-large.png",
+   "method": "header-img"
+  },
+  "be-live": {
+   "source_url": "https://cdn.prod.website-files.com/60894e13693db6097c9307a9/60f6e053746114708d7bd437_favicon%20(2).ico",
+   "method": "apple-touch-icon"
+  },
+  "beamable": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/beamable.png",
+   "method": "sister:tke"
+  },
+  "besedo": {
+   "source_url": "https://besedo.com/wp-content-ext/uploads/2023/01/cropped-site-icon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "bettermode": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/bettermode.png",
+   "method": "sister:tke"
+  },
+  "bevy": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/bevy.png",
+   "method": "sister:tke"
+  },
+  "bevy-community": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/bevy.png",
+   "method": "sister:tke"
+  },
+  "bigabid": {
+   "source_url": "https://www.bigabid.com/wp-content/uploads/2021/03/cropped-Group-123-192x192.png",
+   "method": "link-icon"
+  },
+  "bitfocus-companion": {
+   "source_url": "https://bitfocus.io/assets/favicons/180.png",
+   "method": "apple-touch-icon"
+  },
+  "bitrise": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/bitrise.png",
+   "method": "sister:tke"
+  },
+  "bizzabo": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/bizzabo.png",
+   "method": "sister:tke"
+  },
+  "blackmagic-atem": {
+   "source_url": "https://www.blackmagicdesign.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "bodyguard-ai": {
+   "source_url": "https://www.bodyguard.ai/favicon.ico?favicon.0e_7ww8grrf2k.ico",
+   "method": "link-icon"
+  },
+  "boku": {
+   "source_url": "https://wp-bokuinc-2026.s3.eu-west-2.amazonaws.com/media/2026/06/Favicon-1.png",
+   "method": "apple-touch-icon"
+  },
+  "branch": {
+   "source_url": "https://www.branch.io/wp-content/themes/branch/assets/images/favicons/favicon-dark-180x180.png?ver=1789060734",
+   "method": "apple-touch-icon"
+  },
+  "brandwatch": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/brandwatch.png",
+   "method": "sister:tke"
+  },
+  "brightcove": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/brightcove.png",
+   "method": "sister:tke"
+  },
+  "browserstack": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/browserstack.png",
+   "method": "sister:tke"
+  },
+  "buildbox": {
+   "source_url": "https://signup.buildbox.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "canva": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/canva.png",
+   "method": "sister:tke"
+  },
+  "capcut": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/capcut.png",
+   "method": "sister:tke"
+  },
+  "carl-bot": {
+   "source_url": "https://carl.gg/img/128turtle.png",
+   "method": "apple-touch-icon"
+  },
+  "castr": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/castr.png",
+   "method": "sister:tke"
+  },
+  "ceeblue": {
+   "source_url": "https://ceeblue.net/wp-content/uploads/2023/05/favicon.jpg",
+   "method": "apple-touch-icon"
+  },
+  "challengermode": {
+   "source_url": "https://assets1.challengermode.com/app/2021-07-16/icon-512x512.png",
+   "method": "apple-touch-icon"
+  },
+  "chartboost": {
+   "source_url": "https://loopme.ai/wp-content/themes/loopme-wpbootstrap-child/includes/favicon/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "chrome-remote-desktop": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/chrome-remote-desktop.png",
+   "method": "sister:ti"
+  },
+  "circle": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/circle.png",
+   "method": "sister:tke"
+  },
+  "cleanspeak": {
+   "source_url": "https://cdn.prod.website-files.com/66608a5415c6aa294e81d7f1/667e4826332905c9b95fe24e_webclip-cleanspeak.png",
+   "method": "apple-touch-icon"
+  },
+  "cloudflare": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/cloudflare.png",
+   "method": "sister:tke"
+  },
+  "cloudflare-stream": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/cloudflare-stream.png",
+   "method": "sister:tke"
+  },
+  "cocos-creator": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/cocos-creator.png",
+   "method": "sister:ti"
+  },
+  "coda-payments": {
+   "source_url": "https://www.coda.co/wp-content/themes/coda2/assets/favicon/apple-touch-icon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "codemagic": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/codemagic.png",
+   "method": "sister:tke"
+  },
+  "coherence": {
+   "source_url": "https://coherence.io/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "collabstr": {
+   "source_url": "https://collabstr.com/static/igmarketplace/favicon.svg",
+   "method": "link-icon"
+  },
+  "colyseus": {
+   "source_url": "https://colyseus.io/images/logos/poki.svg",
+   "method": "header-img"
+  },
+  "common-room": {
+   "source_url": "https://www.commonroom.io/static/meta/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "convai": {
+   "source_url": "https://cdn.prod.website-files.com/66f6655083b0f778e338eebf/66fb9e2f3b4c9acafeeeca64_Group%20654947.png",
+   "method": "apple-touch-icon"
+  },
+  "corero": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/corero.png",
+   "method": "sister:tke"
+  },
+  "coreweave": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/coreweave.png",
+   "method": "sister:tke"
+  },
+  "creatoriq": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/creatoriq.png",
+   "method": "sister:tke"
+  },
+  "cri-adx": {
+   "source_url": "https://cdn.prod.website-files.com/693bdcd1504c8963ea019f8d/6970a83f38df7e527874e840_CRIWARE%E3%82%B9%E3%83%86%E3%83%83%E3%82%AB%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97%E3%83%AD%E3%82%B4_%E4%BD%99%E7%99%BD%E3%83%8A%E3%82%B7TM_256x256.png",
+   "method": "apple-touch-icon"
+  },
+  "crowdin": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/crowdin.png",
+   "method": "sister:tke"
+  },
+  "cryengine": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/cryengine.png",
+   "method": "sister:ti"
+  },
+  "cvent": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/cvent.png",
+   "method": "sister:tke"
+  },
+  "dacast": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/dacast.png",
+   "method": "sister:tke"
+  },
+  "daily": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/daily.png",
+   "method": "sister:tke"
+  },
+  "ddos-guard": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/ddos-guard.png",
+   "method": "sister:tke"
+  },
+  "deepgram": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/deepgram.png",
+   "method": "sister:tke"
+  },
+  "defold": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/defold.png",
+   "method": "sister:tke"
+  },
+  "digital-ai-application-protection": {
+   "source_url": "https://digital.ai/wp-content/uploads/2022/09/cropped-digitalai-favicon-180x180.jpg",
+   "method": "apple-touch-icon"
+  },
+  "digital-turbine": {
+   "source_url": "https://cdn.prod.website-files.com/69f832754e7f6f5bd3314f06/69f9e9b3c2f960cb4e7178d3_DT%20Chroma%20Logo%20Icon.png",
+   "method": "apple-touch-icon"
+  },
+  "discord": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/discord.png",
+   "method": "sister:tke"
+  },
+  "discourse": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/discourse.png",
+   "method": "sister:tke"
+  },
+  "diversion": {
+   "source_url": "https://cdn.prod.website-files.com/65a692daff091fd7cd094903/65a69603c637fedaff4a685d_webclipArtboard%202%20copy.png",
+   "method": "apple-touch-icon"
+  },
+  "dolby-optiview": {
+   "source_url": "https://optiview.dolby.com/wp-content/uploads/2021/07/cropped-DolbyIO-favicon-1-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "dscout": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/dscout.png",
+   "method": "sister:tke"
+  },
+  "dyno": {
+   "source_url": "https://dyno.gg/images/v3/dyno-256.jpg?v=1.2.10",
+   "method": "og:image"
+  },
+  "easy-anti-cheat": {
+   "source_url": "https://www.easy.ac/cosmos/static/favicons/eac/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "ecamm-live": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/ecamm-live.png",
+   "method": "sister:tke"
+  },
+  "edgegap": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/edgegap.png",
+   "method": "sister:tke"
+  },
+  "eklipse": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/eklipse.png",
+   "method": "sister:tke"
+  },
+  "element": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/element.png",
+   "method": "sister:tke"
+  },
+  "elevenlabs": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/elevenlabs.png",
+   "method": "sister:tke"
+  },
+  "elgato-marketplace": {
+   "source_url": "https://marketplace.elgato.com/favicons/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "elgato-stream-deck": {
+   "source_url": "https://res.cloudinary.com/elgato-pwa/image/upload/f_auto,q_auto/meta-icons/elgato-apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "elias": {
+   "source_url": "https://elias.audio/assets/favicon/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "excalibur-js": {
+   "source_url": "https://excaliburjs.com/img/ex-logo.png",
+   "method": "logo_hint"
+  },
+  "fastspring": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/fastspring.png",
+   "method": "sister:tke"
+  },
+  "firebase": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/firebase.png",
+   "method": "sister:tke"
+  },
+  "firebase-app-distribution": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/firebase.png",
+   "method": "sister:tke"
+  },
+  "firebot": {
+   "source_url": "https://firebot.app/_next/image?url=%2Ffirebot-logo.png&w=96&q=75",
+   "method": "header-img"
+  },
+  "fish-networking": {
+   "source_url": "https://fish-networking.gitbook.io/docs/~gitbook/image?url=https%3A%2F%2F1328095063-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-MheH2hMo3djr9VSyxTE%252Favatar-1631737826882.png%3Fgeneration%3D1631737835553257%26alt%3Dmedia&width=180&height=180&sign=e1ba8075178a32f0c28b8a8af9006a08&sv=3",
+   "method": "apple-touch-icon"
+  },
+  "flax-engine": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/flax-engine.png",
+   "method": "sister:tke"
+  },
+  "fork": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/fork.png",
+   "method": "sister:tke"
+  },
+  "fossabot": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/fossabot.png",
+   "method": "sister:tke"
+  },
+  "frameplay": {
+   "source_url": "https://frameplay.com/wp-content/uploads/2025/12/Logo-2.png",
+   "method": "header-img"
+  },
+  "front": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/front.png",
+   "method": "sister:tke"
+  },
+  "fyrox": {
+   "source_url": "https://fyrox.rs/assets/favicon/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "gamalytic": {
+   "source_url": "https://gamalytic.com/apple-icon.png?f13862b5f9667615",
+   "method": "apple-touch-icon"
+  },
+  "game-refinery": {
+   "source_url": "https://www.gamerefinery.com/wp-content/uploads/2020/09/cropped-gr-web-thumbnail-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "gameanalytics": {
+   "source_url": "https://cdn.prod.website-files.com/671f96478ccdbf0c35cccb78/67321c6725d5b094e9fc05b5_webclip.png",
+   "method": "apple-touch-icon"
+  },
+  "gamebanana": {
+   "source_url": "https://images.gamebanana.com/static/img/favicon/180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "gameci": {
+   "source_url": "https://game.ci/assets/images/game-ci-brand-logo-wordmark-light.svg",
+   "method": "header-img"
+  },
+  "gamediscoverco": {
+   "source_url": "https://gamediscover.co/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "gamedriver": {
+   "source_url": "https://gamedriver.ai/images/logo/gd-dark-logo.svg",
+   "method": "header-img"
+  },
+  "gamemaker": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/gamemaker.png",
+   "method": "sister:tke"
+  },
+  "gamesight": {
+   "source_url": "https://framerusercontent.com/images/rIk3HvGKml1yki07HdAhlQZkBJY.svg",
+   "method": "link-icon"
+  },
+  "gameye": {
+   "source_url": "https://gameye.com/uploads/2023/11/favicon.png?v=3",
+   "method": "apple-touch-icon"
+  },
+  "gb-studio": {
+   "source_url": "https://gbstudio.dev/img/icon.png",
+   "method": "logo_hint"
+  },
+  "gcore": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/gcore.png",
+   "method": "sister:tke"
+  },
+  "gdevelop": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/gdevelop.png",
+   "method": "sister:tke"
+  },
+  "ggwp": {
+   "source_url": "https://www.ggwp.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "github": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/github.png",
+   "method": "sister:tke"
+  },
+  "gitlab": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/gitlab.png",
+   "method": "sister:tke"
+  },
+  "giveaway-bot": {
+   "source_url": "http://i.imgur.com/sCEbmKa.png",
+   "method": "og:image"
+  },
+  "godot": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/godot.png",
+   "method": "sister:tke"
+  },
+  "goldcast": {
+   "source_url": "https://www.goldcast.io/logo/goldcast-logo-primary.svg",
+   "method": "header-img"
+  },
+  "google-admob": {
+   "source_url": "https://lh3.googleusercontent.com/47Jg4gptu8jZbKCozbdBvA8all38QdwzLrd8cwr4LG4sfkMzXvB-S9-KGap0OpvDgZaTXX-9QkGzGZGOEeovm5JuFDtgb-k9RFS7Dw",
+   "method": "apple-touch-icon"
+  },
+  "gridly": {
+   "source_url": "/Users/sebastiaansmits/Documents/aitoolcompare/public/images/tools/gridly.png",
+   "method": "sister:atc"
+  },
+  "grin": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/grin.png",
+   "method": "sister:tke"
+  },
+  "helpshift": {
+   "source_url": "https://www.helpshift.com/wp-content/uploads/2026/02/cropped-Favicon-hs-300x300.png",
+   "method": "apple-touch-icon"
+  },
+  "hootsuite": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/hootsuite.png",
+   "method": "sister:tke"
+  },
+  "hotjar": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/hotjar.png",
+   "method": "sister:tke"
+  },
+  "hypeauditor": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/hypeauditor.png",
+   "method": "sister:tke"
+  },
+  "i3d-net": {
+   "source_url": "https://www.i3d.net/apple-touch-icon.png?v=2.1.33",
+   "method": "apple-touch-icon"
+  },
+  "imperva": {
+   "source_url": "https://www.imperva.com/wp-content/themes/impv/icons/favicon-180.png",
+   "method": "apple-touch-icon"
+  },
+  "impress": {
+   "source_url": "https://impress.games/favicon-512.png?v=0.15.0",
+   "method": "apple-touch-icon"
+  },
+  "inworld": {
+   "source_url": "https://inworld.ai/apple-icon.png?apple-icon.41lwedso2_34h.png",
+   "method": "apple-touch-icon"
+  },
+  "itch-io": {
+   "source_url": "https://itch.io/static/images/itchio-square-144.png",
+   "method": "manifest"
+  },
+  "jenkins": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/jenkins.png",
+   "method": "sister:tke"
+  },
+  "jitsi": {
+   "source_url": "/Users/sebastiaansmits/Documents/europeanpurpose/images/tools/jitsi.png",
+   "method": "sister:ep"
+  },
+  "jump-desktop": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/jump-desktop.png",
+   "method": "sister:tke"
+  },
+  "kaltura": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/kaltura.png",
+   "method": "sister:tke"
+  },
+  "kayzen": {
+   "source_url": "https://kayzen.io/wp-content/themes/kayzen-1.5.1/assets/manifest/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "keymailer": {
+   "source_url": "https://keymailer.co/wp-content/uploads/sites/28/2021/10/cropped-KM-favicon-WP3-e1635252566737-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "khoros": {
+   "source_url": "/Users/sebastiaansmits/Documents/aitoolcompare/public/images/tools/khoros.png",
+   "method": "sister:atc"
+  },
+  "kobiton": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/kobiton.png",
+   "method": "sister:tke"
+  },
+  "kochava": {
+   "source_url": "https://s34035.pcdn.co/wp-content/uploads/2026/02/cropped-Star-400x400-v2-1-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "kudo": {
+   "source_url": "https://website-cdn.kudo.ai/wp-content/uploads/2024/05/cropped-KUDO-ICON-circle-300x300-1.png",
+   "method": "apple-touch-icon"
+  },
+  "kustomer": {
+   "source_url": "/Users/sebastiaansmits/Documents/aitoolcompare/public/images/tools/kustomer.png",
+   "method": "sister:atc"
+  },
+  "lambdatest": {
+   "source_url": "https://www.testmuai.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "launchdarkly": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/launchdarkly.png",
+   "method": "sister:tke"
+  },
+  "layer": {
+   "source_url": "https://layer.ai/static/branding/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "leetify": {
+   "source_url": "https://leetify.com/assets/images/favicon.svg",
+   "method": "link-icon"
+  },
+  "link11": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/link11.png",
+   "method": "sister:tke"
+  },
+  "lioranboard": {
+   "source_url": "https://lioranwaters.github.io/lioranboard2docs/assets/favicon/apple-touch-icon.ico",
+   "method": "apple-touch-icon"
+  },
+  "live2d-cubism": {
+   "source_url": "https://www.live2d.com/wp-content/themes/cubism_new/assets/img/apple-touch-icon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "livekit": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/livekit.png",
+   "method": "sister:ti"
+  },
+  "livepeer": {
+   "source_url": "https://livepeer.org/apple-icon.png?fddf0fe6ec4bb398",
+   "method": "apple-touch-icon"
+  },
+  "liveu-studio": {
+   "source_url": "https://cdn-liveutv.pressidium.com/wp-content/uploads/2021/12/LiveU-fav.-blue-300x300.png",
+   "method": "apple-touch-icon"
+  },
+  "lokalise": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/lokalise.png",
+   "method": "sister:tke"
+  },
+  "lookback": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/lookback.png",
+   "method": "sister:tke"
+  },
+  "lootlocker": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/lootlocker.png",
+   "method": "sister:tke"
+  },
+  "love": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/love2d.png",
+   "method": "sister:tke"
+  },
+  "ludo-ai": {
+   "source_url": "https://ludo.ai/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "lumia-stream": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/lumia-stream.png",
+   "method": "sister:tke"
+  },
+  "lurkit": {
+   "source_url": "https://cdn.prod.website-files.com/64833051b84ff974ab681bbd/64d599e3eb24fcef6edb8e5f_Lurkit%20Pipes%20Logo%20webclip%20256x256.svg",
+   "method": "apple-touch-icon"
+  },
+  "macro-deck": {
+   "source_url": "https://macro-deck.app/images/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "material-maker": {
+   "source_url": "https://www.materialmaker.org/data/materials/material_61.webp",
+   "method": "og:image"
+  },
+  "mediasoup": {
+   "source_url": "https://mediasoup.org/favicons-dark-theme/apple-touch-icon.png?v=v0.741417839036624",
+   "method": "apple-touch-icon"
+  },
+  "meld-studio": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/meld-studio.png",
+   "method": "sister:tke"
+  },
+  "meta-audience-network": {
+   "source_url": "https://developers.facebook.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "metafy": {
+   "source_url": "https://cdn.metafy.gg/metafy_symbol.png?v2",
+   "method": "apple-touch-icon"
+  },
+  "metaplay": {
+   "source_url": "https://www.metaplay.io/apple-icon.png?apple-icon.094a239b.png",
+   "method": "apple-touch-icon"
+  },
+  "minecraft-marketplace": {
+   "source_url": "https://www.minecraft.net/etc.clientlibs/minecraftnet/clientlibs/clientlib-site/resources/apple-icon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "mintegral": {
+   "source_url": "https://assets-official.mintegral.com/v3/assets/image/common/favicon.png",
+   "method": "og:image"
+  },
+  "mirror": {
+   "source_url": "https://mirror-networking.com/wp-content/uploads/2022/07/cropped-mirror_icon_512x512_M-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "mix-it-up": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/mix-it-up.png",
+   "method": "sister:tke"
+  },
+  "mixpanel": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/mixpanel.png",
+   "method": "sister:tke"
+  },
+  "mod-io": {
+   "source_url": "https://mod.io/images/favicon-apple-touch.png",
+   "method": "apple-touch-icon"
+  },
+  "mod-organizer-2": {
+   "source_url": "https://modorganizer2.org/wp-content/uploads/2026/09/cropped-image-removebg-preview-3-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "modash": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/modash.png",
+   "method": "sister:tke"
+  },
+  "modl-ai": {
+   "source_url": "https://modl.ai/favicon.ico",
+   "method": "link-icon"
+  },
+  "modrinth": {
+   "source_url": "https://cdn.modrinth.com/modrinth-new.png",
+   "method": "og:image"
+  },
+  "modulate": {
+   "source_url": "https://cdn.prod.website-files.com/67ed675f8e30d86d14c51adb/696e332a2664fa8917824350_modulate-apple-icon-256.png",
+   "method": "apple-touch-icon"
+  },
+  "modworkshop": {
+   "source_url": "https://modworkshop.net/assets/mws_logo_white.png",
+   "method": "og:image"
+  },
+  "moloco": {
+   "source_url": "https://cdn.prod.website-files.com/6a59dd0133b776de7ec526cd/6a8fdd99f0b6e0102ab8f943_moloco-webclip-l.png",
+   "method": "apple-touch-icon"
+  },
+  "moobot": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/moobot.png",
+   "method": "sister:tke"
+  },
+  "moonlight": {
+   "source_url": "https://moonlight-stream.org/images/touch/icons-180.png",
+   "method": "apple-touch-icon"
+  },
+  "morphvox": {
+   "source_url": "https://screamingbee.com/assets/images/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "mumble": {
+   "source_url": "https://www.mumble.info/css/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "mux": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/mux.png",
+   "method": "sister:tke"
+  },
+  "muxy": {
+   "source_url": "https://muxy.io/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "nakama": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/nakama.png",
+   "method": "sister:tke"
+  },
+  "ndi-tools": {
+   "source_url": "https://ndi.video/wp-content/uploads/2023/04/Vector.svg?w=180",
+   "method": "apple-touch-icon"
+  },
+  "netcode-for-gameobjects": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/unity.png",
+   "method": "sister:tke"
+  },
+  "nexusguard": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/nexusguard.png",
+   "method": "sister:tke"
+  },
+  "nightbot": {
+   "source_url": "https://nightbot.tv/favicon.svg",
+   "method": "link-icon"
+  },
+  "normcore": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/normcore.png",
+   "method": "sister:tke"
+  },
+  "nuvei": {
+   "source_url": "/Users/sebastiaansmits/Documents/aitoolcompare/public/images/tools/nuvei.png",
+   "method": "sister:atc"
+  },
+  "nvidia-app": {
+   "source_url": "https://www.nvidia.com/en-us/software/nvidia-app/",
+   "method": "inline-svg"
+  },
+  "o3de": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/o3de.png",
+   "method": "sister:tke"
+  },
+  "obs-studio": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/obs-studio.png",
+   "method": "sister:tke"
+  },
+  "occt": {
+   "source_url": "https://www.ocbase.com/favicon.ico",
+   "method": "manifest"
+  },
+  "oddin-gg": {
+   "source_url": "https://oddin.gg/cdn/1244cac303bd3f0e01a89a2a5af7b40d5fb3d416_450x418_e041f4bedd.png",
+   "method": "og:image"
+  },
+  "oddsmatrix": {
+   "source_url": "https://oddsmatrix.com/wp-content/uploads/2021/07/android-chrome-384x384-1-300x300.png",
+   "method": "apple-touch-icon"
+  },
+  "onestream-live": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/onestream-live.png",
+   "method": "sister:ti"
+  },
+  "op-gg": {
+   "source_url": "https://c-lol-web.op.gg/app-router/releases/production-708-1-ebf99ba3/assets/images/meta/Icon-144.png",
+   "method": "apple-touch-icon"
+  },
+  "opendota": {
+   "source_url": "https://www.opendota.com/assets/images/icons/icon-512x512.png",
+   "method": "apple-touch-icon"
+  },
+  "opusclip": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/opusclip.png",
+   "method": "sister:tke"
+  },
+  "otter": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/otter.png",
+   "method": "sister:tke"
+  },
+  "outplayed": {
+   "source_url": "https://outplayed.tv/icons/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "ovenmediaengine": {
+   "source_url": "https://ovenmedia.com/images/ico/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "overwolf": {
+   "source_url": "https://www.overwolf.com/system/modules/com.overwolf.website/resources/img/ow_whatsup.jpg",
+   "method": "og:image"
+  },
+  "ovhcloud": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/ovhcloud.png",
+   "method": "sister:tke"
+  },
+  "own3d": {
+   "source_url": "https://own3d-static.b-cdn.net/images/favicon.png?aspect_ratio=1:1&width=180",
+   "method": "apple-touch-icon"
+  },
+  "paddle": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/paddle.png",
+   "method": "sister:tke"
+  },
+  "panopto": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/panopto.png",
+   "method": "sister:tke"
+  },
+  "paperspace": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/paperspace.png",
+   "method": "sister:tke"
+  },
+  "perfecto": {
+   "source_url": "https://www.perforce.com/themes/custom/p4base/assets/favicons/p4/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "perforce-helix-core": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/perforce-helix-core.png",
+   "method": "sister:tke"
+  },
+  "phantombot": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/phantom.png",
+   "method": "sister:tke"
+  },
+  "phaser": {
+   "source_url": "https://github.githubassets.com/favicons/favicon.svg",
+   "method": "link-icon"
+  },
+  "photon": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/photon.png",
+   "method": "sister:tke"
+  },
+  "phrase": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/phrase.png",
+   "method": "sister:tke"
+  },
+  "pixel-crushers": {
+   "source_url": "https://www.pixelcrushers.com/wp-content/uploads/2021/11/cropped-favicon-300x300.png",
+   "method": "apple-touch-icon"
+  },
+  "placeit": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/placeit.png",
+   "method": "sister:tke"
+  },
+  "playstation-plus-cloud-streaming": {
+   "source_url": "https://gmedia.playstation.com/is/image/SIEPDC/ps-logo-favicon?$icon-196-196--t$",
+   "method": "link-icon"
+  },
+  "playtestcloud": {
+   "source_url": "/Users/sebastiaansmits/Documents/europeanpurpose/images/tools/playtestcloud.png",
+   "method": "sister:ep"
+  },
+  "playvs": {
+   "source_url": "https://playvs.com/wp-content/uploads/2025/06/playversus-favicon.svg",
+   "method": "apple-touch-icon"
+  },
+  "playwright": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/playwright.png",
+   "method": "sister:tke"
+  },
+  "posthog": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/posthog.png",
+   "method": "sister:tke"
+  },
+  "pragma": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/pragma.png",
+   "method": "sister:tke"
+  },
+  "prime95": {
+   "source_url": "https://www.mersenne.org/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "prism-live-studio": {
+   "source_url": "https://prismlive.com/icon/apple-touch-icon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "ptzoptics": {
+   "source_url": "https://cdn.prod.website-files.com/69a5a275e04c3c80eeb88ae1/6abd4fb1f5e205b990c9a40b_Favicon_256_blue.png",
+   "method": "apple-touch-icon"
+  },
+  "pureweb": {
+   "source_url": "https://www.pureweb.com/icons/icon-512x512.png?v=f4245ce53210cccc41b600bdc759c893",
+   "method": "apple-touch-icon"
+  },
+  "qumu": {
+   "source_url": "https://www.enghousevideo.com/nitropack_static/JPaIYnLbXXEyYqNTBHsyYJLpujqbVdIt/assets/images/optimized/rev-5ead90c/www.enghousevideo.com/wp-content/uploads/2023/09/cropped-cropped-favicon-Enghouse-1-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "r2modman": {
+   "source_url": "https://thunderstore.io/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "reaper": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/reaper.png",
+   "method": "sister:tke"
+  },
+  "red5": {
+   "source_url": "https://www.red5.net/wp-content/themes/twentytwentyone-child/assets/images/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "reddit": {
+   "source_url": "https://redditinc.com/hubfs/Reddit%20Inc/Content/Brand%20Page/Reddit_Lockup_Logo.svg",
+   "method": "header-img"
+  },
+  "restream": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/restream.png",
+   "method": "sister:tke"
+  },
+  "rev": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/rev.png",
+   "method": "sister:tke"
+  },
+  "riverside": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/riverside.png",
+   "method": "sister:tke"
+  },
+  "rivet": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/rivet.png",
+   "method": "sister:tke"
+  },
+  "roblox": {
+   "source_url": "https://images.rbxcdn.com/905bd722ee0a6ceda3caacde54c0b081.png",
+   "method": "apple-touch-icon"
+  },
+  "roblox-studio": {
+   "source_url": "https://cdn.foundation.roblox.com/current/roblox-tilt/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "rpg-maker": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/rpg-maker.png",
+   "method": "sister:ti"
+  },
+  "sammi": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/sammi.png",
+   "method": "sister:tke"
+  },
+  "sapphire": {
+   "source_url": "https://sapph.xyz/assets/branding/logo.png",
+   "method": "og:image"
+  },
+  "sauce-labs": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/sauce-labs.png",
+   "method": "sister:tke"
+  },
+  "scenario": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/scenario.png",
+   "method": "sister:tke"
+  },
+  "sendbird": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/sendbird.png",
+   "method": "sister:tke"
+  },
+  "sensor-tower": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/sensor-tower.png",
+   "method": "sister:tke"
+  },
+  "sesh": {
+   "source_url": "https://sesh.fyi/logo2transparent.8a183f1c.png",
+   "method": "header-img"
+  },
+  "shadow": {
+   "source_url": "https://shadow.tech/app/themes/wpz/static//favicon/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "sharex": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/sharex.png",
+   "method": "sister:tke"
+  },
+  "sightengine": {
+   "source_url": "https://sightengine.com/assets/img/logo-se/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "singular": {
+   "source_url": "https://www.singular.net/wp-content/uploads/fbrfg/apple-touch-icon.png?v=kP3JbwApQO",
+   "method": "apple-touch-icon"
+  },
+  "singular-live": {
+   "source_url": "https://cdn.prod.website-files.com/64d106441b30faa3103f5460/65970b64500541df4e887db9_Singular%20webclip%20logo.png",
+   "method": "apple-touch-icon"
+  },
+  "slido": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/slido.png",
+   "method": "sister:tke"
+  },
+  "smartling": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/smartling.png",
+   "method": "sister:tke"
+  },
+  "social-blade": {
+   "source_url": "https://socialblade.com/favicon-128.png",
+   "method": "apple-touch-icon"
+  },
+  "solar2d": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/solar2d.png",
+   "method": "sister:tke"
+  },
+  "solsten": {
+   "source_url": "https://solsten.io/api/images/?path=2023/08/Solsten_avatar.png",
+   "method": "og:image"
+  },
+  "soundly": {
+   "source_url": "https://getsoundly.com/favicon/apple-touch-icon-152x152.png",
+   "method": "apple-touch-icon"
+  },
+  "sourcetree": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/sourcetree.png",
+   "method": "sister:tke"
+  },
+  "spacetimedb": {
+   "source_url": "https://spacetimedb.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "speechmatics": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/speechmatics.png",
+   "method": "sister:tke"
+  },
+  "splashtop": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/splashtop.png",
+   "method": "sister:tke"
+  },
+  "sprinklr": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/sprinklr.png",
+   "method": "sister:tke"
+  },
+  "spriter": {
+   "source_url": "https://brashmonkey.com/wp-content/uploads/2019/02/cropped-IconFIREflame_Vector-e1550016301267-1-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "sprout-social": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/sprout-social.png",
+   "method": "sister:tke"
+  },
+  "start-gg": {
+   "source_url": "https://www.start.gg/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "stash": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/stash.png",
+   "method": "sister:tke"
+  },
+  "statbot": {
+   "source_url": "https://statbot.net/ico/icon-192x192.png",
+   "method": "apple-touch-icon"
+  },
+  "statsig": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/statsig.png",
+   "method": "sister:tke"
+  },
+  "steam": {
+   "source_url": "https://store.steampowered.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "steam-link": {
+   "source_url": "https://store.steampowered.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "steam-playtest": {
+   "source_url": "https://partner.steamgames.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "steam-workshop": {
+   "source_url": "https://steamcommunity.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "steamspy": {
+   "source_url": "https://steamspy.com/pages/ico/152.png",
+   "method": "apple-touch-icon"
+  },
+  "steamworks": {
+   "source_url": "https://partner.steamgames.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "stencyl": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/stencyl.png",
+   "method": "sister:tke"
+  },
+  "stormwall": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/stormwall.png",
+   "method": "sister:tke"
+  },
+  "stratz": {
+   "source_url": "https://stratz.com/logo192.png",
+   "method": "apple-touch-icon"
+  },
+  "streamelements": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/streamelements.png",
+   "method": "sister:tke"
+  },
+  "streamer-bot": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/streamer-bot.png",
+   "method": "sister:tke"
+  },
+  "streamlabs-cloudbot": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/streamlabs.png",
+   "method": "sister:tke"
+  },
+  "streamlabs-desktop": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/streamlabs.png",
+   "method": "sister:tke"
+  },
+  "streamladder": {
+   "source_url": "https://www.streamladder.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "streamloots": {
+   "source_url": "https://land.streamloots.com/wp-content/uploads/2020/12/cropped-icon-favicon-1-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "streampixel": {
+   "source_url": "https://static.wixstatic.com/shapes/1ee2bc_dd0d4fb930024793bb9ff5d3549e7986.svg",
+   "method": "apple-touch-icon"
+  },
+  "streamster": {
+   "source_url": "https://streamster.io/wp-content/uploads/2021/06/cropped-Streamster-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "stride": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/stride.png",
+   "method": "sister:tke"
+  },
+  "stripe": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/stripe.png",
+   "method": "sister:tke"
+  },
+  "subversion": {
+   "source_url": "https://subversion.apache.org/icon.png",
+   "method": "apple-touch-icon"
+  },
+  "sunshine": {
+   "source_url": "https://github.githubassets.com/favicons/favicon.svg",
+   "method": "link-icon"
+  },
+  "supabase": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/supabase.png",
+   "method": "sister:tke"
+  },
+  "swapcard": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/swapcard.png",
+   "method": "sister:tke"
+  },
+  "switcher-studio": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/switcher-studio.png",
+   "method": "sister:ti"
+  },
+  "tapjoy": {
+   "source_url": "https://unity.com/icon-dark.svg",
+   "method": "link-icon"
+  },
+  "teamcity": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/teamcity.png",
+   "method": "sister:tke"
+  },
+  "teamspeak": {
+   "source_url": "/Users/sebastiaansmits/Documents/europeanpurpose/images/tools/teamspeak.png",
+   "method": "sister:ep"
+  },
+  "teamviewer": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/teamviewer.png",
+   "method": "sister:tke"
+  },
+  "telegram": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/telegram.png",
+   "method": "sister:tke"
+  },
+  "terminals": {
+   "source_url": "https://www.terminals.io/safari-pinned-tab.svg",
+   "method": "manifest"
+  },
+  "testflight": {
+   "source_url": "https://developer.apple.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "testlio": {
+   "source_url": "https://cdn.prod.website-files.com/6964fa7c3df53a62bf82cdbd/6964fcdccccb98167ffcba02_Avatar-testlio-256.svg",
+   "method": "apple-touch-icon"
+  },
+  "three-js": {
+   "source_url": "https://threejs.org/files/share.png",
+   "method": "og:image"
+  },
+  "thunderstore": {
+   "source_url": "https://thunderstore.io/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "ticket-tool": {
+   "source_url": "https://tickettool.xyz/images/footer.png",
+   "method": "og:image"
+  },
+  "tidio": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/tidio.png",
+   "method": "sister:tke"
+  },
+  "tisane": {
+   "source_url": "https://www.tisane.ai/favicon.svg",
+   "method": "link-icon"
+  },
+  "toornament": {
+   "source_url": "https://www.toornament.com/media/file/8528003050763280384/logo_medium?siteId=8253243262311940096&v=1737383096",
+   "method": "link-icon"
+  },
+  "tournify": {
+   "source_url": "https://tournifyapp.com/apple-icon.png?apple-icon.1rilbfpr_mat9.png",
+   "method": "apple-touch-icon"
+  },
+  "transifex": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/transifex.png",
+   "method": "sister:tke"
+  },
+  "tremau": {
+   "source_url": "https://tremau.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "trengo": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/trengo.png",
+   "method": "sister:tke"
+  },
+  "twilio": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/twilio.png",
+   "method": "sister:tke"
+  },
+  "twitchtracker": {
+   "source_url": "https://twitchtracker.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "u-gg": {
+   "source_url": "https://static.bigbrain.gg/assets/ugg/favicon/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "ubisoft-connect": {
+   "source_url": "https://static-dm.ubisoft.com/ubisoft/prod/favicon-152x152.png",
+   "method": "apple-touch-icon"
+  },
+  "ubitus": {
+   "source_url": "https://ubitus.ai/wp-content/themes/ubitus/assets/imgs/icons/touch.png",
+   "method": "apple-touch-icon"
+  },
+  "unified-streaming": {
+   "source_url": "https://cdn.prod.website-files.com/664722cf0a7b39a4969c841a/66475304e2090eab5c502a3a_unified-streaming-logo-icon-256.png",
+   "method": "apple-touch-icon"
+  },
+  "unigine-superposition": {
+   "source_url": "https://benchmark.unigine.com/images/apple-touch-icon-180x180.png?v=lkdn8NpxBl",
+   "method": "apple-touch-icon"
+  },
+  "unity": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/unity.png",
+   "method": "sister:tke"
+  },
+  "unity-ads": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/unity.png",
+   "method": "sister:tke"
+  },
+  "unity-build-automation": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/unity.png",
+   "method": "sister:tke"
+  },
+  "unity-gaming-services": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/unity-gaming-services.png",
+   "method": "sister:tke"
+  },
+  "unity-levelplay": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/unity.png",
+   "method": "sister:tke"
+  },
+  "unity-version-control": {
+   "source_url": "/Users/sebastiaansmits/Documents/theinterregnum/images/tools/unity-version-control.png",
+   "method": "sister:ti"
+  },
+  "upfluence": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/upfluence.png",
+   "method": "sister:tke"
+  },
+  "userbenchmark": {
+   "source_url": "https://www.userbenchmark.com/resources/img/wri/bench-speed/bench-speed-150.png",
+   "method": "og:image"
+  },
+  "userlytics": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/userlytics.png",
+   "method": "sister:tke"
+  },
+  "usertesting": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/usertesting.png",
+   "method": "sister:tke"
+  },
+  "vagon": {
+   "source_url": "https://framerusercontent.com/images/oFoYlHghwqhd7OeCOHtEQUJkec.png",
+   "method": "apple-touch-icon"
+  },
+  "vbrick": {
+   "source_url": "https://vbrick.com/wp-content/uploads/cropped-vbrick-favicon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "veadotube-mini": {
+   "source_url": "https://img.itch.zone/aW1nLzE1NjU2MjAyLmdpZg==/original/B%2Bw21h.gif",
+   "method": "og:image"
+  },
+  "venatus": {
+   "source_url": "https://cdn.prod.website-files.com/625ecf3842ad2419f8758d34/62826e6453961cefc87e62ec_ficon.png",
+   "method": "apple-touch-icon"
+  },
+  "verbit": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/verbit.png",
+   "method": "sister:tke"
+  },
+  "vfairs": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/vfairs.png",
+   "method": "sister:tke"
+  },
+  "vginsights": {
+   "source_url": "https://d3b7bwe34joyfr.cloudfront.net/assets/apple-icon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "vidiq": {
+   "source_url": "https://vidiq.com/favicons/apple-icon-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "vimeo": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/vimeo.png",
+   "method": "sister:tke"
+  },
+  "virtual-pro": {
+   "source_url": "https://framerusercontent.com/images/6hRUQq7rIKnn7XnVn6sZR9veNI.png",
+   "method": "apple-touch-icon"
+  },
+  "vizard": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/vizard.png",
+   "method": "sister:tke"
+  },
+  "vizrt": {
+   "source_url": "https://www.vizrt.com/apple-icon.png?apple-icon.3ox9nx4e6jnbd.png",
+   "method": "apple-touch-icon"
+  },
+  "vmagicmirror": {
+   "source_url": "https://malaybaku.github.io/VMagicMirror/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "vmix": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/vmix.png",
+   "method": "sister:tke"
+  },
+  "vnyan": {
+   "source_url": "https://img.itch.zone/aW1nLzEwNDc0MzI0LnBuZw==/original/JCxGKa.png",
+   "method": "og:image"
+  },
+  "vonage": {
+   "source_url": "/Users/sebastiaansmits/Documents/europeanpurpose/images/tools/vonage.png",
+   "method": "sister:ep"
+  },
+  "vortex": {
+   "source_url": "https://github.githubassets.com/favicons/favicon.svg",
+   "method": "link-icon"
+  },
+  "vtube-studio": {
+   "source_url": "https://denchisoft.com/wp-content/uploads/2021/02/cropped-vts_logo_1024_bg-180x180.png",
+   "method": "apple-touch-icon"
+  },
+  "vultr": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/vultr.png",
+   "method": "sister:tke"
+  },
+  "warudo": {
+   "source_url": "https://warudo.app/favicon.png",
+   "method": "apple-touch-icon"
+  },
+  "wirecast": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/wirecast.png",
+   "method": "sister:tke"
+  },
+  "wizebot": {
+   "source_url": "https://cdn-3.wize.bot/gbl/favicons/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "wonderland-engine": {
+   "source_url": "https://wonderlandengine.com/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "wordly": {
+   "source_url": "https://cdn.prod.website-files.com/61707b4f874fa22b7482b07e/6987cc6972b7f6494986a8f4_Wordly%20256x256.svg",
+   "method": "apple-touch-icon"
+  },
+  "wowza": {
+   "source_url": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_65,h_65/https://www.wowza.com/wp-content/uploads/wowz-header-logo-2-1-1-1.png",
+   "method": "header-img"
+  },
+  "xbox-cloud-gaming": {
+   "source_url": "https://play.xbox.com/assets/favicon-hc-light-jzza7fcw.svg",
+   "method": "link-icon"
+  },
+  "xbox-store": {
+   "source_url": "https://www.xbox.com/favicon-180.png",
+   "method": "apple-touch-icon"
+  },
+  "xcode-cloud": {
+   "source_url": "https://developer.apple.com/apple-touch-icon.png",
+   "method": "root-apple-touch"
+  },
+  "xsolla": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/xsolla.png",
+   "method": "sister:tke"
+  },
+  "xsplit-broadcaster": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/xsplit-broadcaster.png",
+   "method": "sister:tke"
+  },
+  "yagpdb": {
+   "source_url": "https://yagpdb.xyz/static/icons/apple-touch-icon.png?v=6",
+   "method": "apple-touch-icon"
+  },
+  "yarn-spinner": {
+   "source_url": "https://yarnspinner.dev/apple-touch-icon.png",
+   "method": "apple-touch-icon"
+  },
+  "yuja": {
+   "source_url": "https://www.yuja.com/wp-content/themes/yuja/img/yuja-logo.svg",
+   "method": "header-img"
+  },
+  "zapier": {
+   "source_url": "/Users/sebastiaansmits/Documents/theknowledgeengineers/images/tools/zapier.png",
+   "method": "sister:tke"
+  }
+ },
+ "dropped": {
+  "accelbyte": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://accelbyte.io/",
+    "method": "inline-svg"
+   }
+  },
+  "amd-software-adrenalin": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.amd.com/content/dam/code/images/header/amd-header-logo.svg",
+    "method": "header-img"
+   }
+  },
+  "ant-media-server": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://antmedia.io/wp-content/uploads/2026/02/aws.png",
+    "method": "header-img"
+   }
+  },
+  "anti-cheat-expert": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://down.anticheatexpert.com/static/iegssibox/ace-domestic-web/idc_3058_oper/2611021640/img/ace-logo.33bf637.svg",
+    "method": "header-img"
+   }
+  },
+  "anzu": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.anzu.io/hubfs/raw_assets/public/Anzu_August2021/images/Anzu.logo_.svg",
+    "method": "header-img"
+   }
+  },
+  "checkstep": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://checkstep-website.files.svdcdn.com/production/assets/global/Synonym-logo.svg?dm=1759938242",
+    "method": "header-img"
+   }
+  },
+  "crisp": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://crisp.chat/",
+    "method": "inline-svg"
+   }
+  },
+  "denuvo-anti-cheat": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://irdeto.com/hubfs/Bright%20development%202025/Logo/Irdeto%20logo%20only%20white.svg",
+    "method": "header-img"
+   }
+  },
+  "git-lfs": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://git-lfs.com/",
+    "method": "inline-svg"
+   }
+  },
+  "guardsquare": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.guardsquare.com/hubfs/Guardsquare-logo_white-RGB%20(6).svg",
+    "method": "header-img"
+   }
+  },
+  "hive-streaming": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.hivestreaming.com/assets/www.hivestreaming.com/hubfs/Logotypes/honeywell-logo.svg",
+    "method": "header-img"
+   }
+  },
+  "intercom": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://intercom.com/",
+    "method": "inline-svg"
+   }
+  },
+  "interprefy": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.interprefy.com/hubfs/Interprefy_January2020/Images/GSK-logo-2014-880x660.png",
+    "method": "header-img"
+   }
+  },
+  "irdeto": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://irdeto.com/hubfs/Bright%20development%202025/Logo/Irdeto%20logo%20only%20white.svg",
+    "method": "header-img"
+   }
+  },
+  "larix-broadcaster": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://softvelum.com/img/larix_broadcaster_logo.png",
+    "method": "header-img"
+   }
+  },
+  "liftoff": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://liftoff.ai/wp-content/uploads/2026/04/king-logo-periwinkle-bg.png",
+    "method": "header-img"
+   }
+  },
+  "lionbridge": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.lionbridge.com/content/dam/lionbridge-games/games-pages/home/games-primary-logo-cmyk-white-orange-plus.svg",
+    "method": "header-img"
+   }
+  },
+  "livechat": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.livechat.com/text-by-livechat-logo.1340c1eaeab00399fae95333fe78b8dc08db762df5a93d735d4b6482f4f3772b.svg",
+    "method": "header-img"
+   }
+  },
+  "livepush": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://livepush.io/Akamai-logo.1e7c5876.svg",
+    "method": "header-img"
+   }
+  },
+  "matrix": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://matrix.org/images/matrix-logo-white.svg",
+    "method": "header-img"
+   }
+  },
+  "medal": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://cdn.medal.tv/assets/next/hp2/games/valorant.bafed50d.svg",
+    "method": "header-img"
+   }
+  },
+  "needle-engine": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://needle.tools/",
+    "method": "inline-svg"
+   }
+  },
+  "pangle": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://sf16-scmcdn-sg.i18n-pglstatp.com/obj/ad-media-static-sg/pangle_platform/pc/static/image/township_logo.7fcb9122.png",
+    "method": "header-img"
+   }
+  },
+  "paymentwall": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.paymentwall.com/uploaded/files/PW20_logo_light.svg?1",
+    "method": "header-img"
+   }
+  },
+  "playwire": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.playwire.com/hs-fs/hubfs/Website%20Assets/Partner%20Logos/2025%20Black%20Partner%20Logos/Publisher%20Side/Brick%20Fantatics%20Black%202025.png?width=200&height=200&name=Brick%20Fantatics%20Black%202025.png",
+    "method": "header-img"
+   }
+  },
+  "promon": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://promon.io/hubfs/2025%20Rebrand%20Assets/2025%20logos/PROMON-Logotype_primary.svg",
+    "method": "header-img"
+   }
+  },
+  "radware": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.radware.com/RadwareSite/MediaLibraries/Images/HomePage/color-logos/fiscal-min.jpg",
+    "method": "header-img"
+   }
+  },
+  "spacebar": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://raw.githubusercontent.com/spacebarchat/spacebarchat/master/branding/svg/Spacebar__Logo-Blue.svg",
+    "method": "header-img"
+   }
+  },
+  "tcpshield": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://tcpshield.com/assets/img/logos/minesuperior.png",
+    "method": "header-img"
+   }
+  },
+  "tebex": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.tebex.io/_nuxt/logo.BCN2mLkL.svg",
+    "method": "header-img"
+   }
+  },
+  "touch-portal": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://touch-portal.com/images/logo_key_press.png",
+    "method": "header-img"
+   }
+  },
+  "vanilla": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.higherlogic.com/wp-content/uploads/2023/10/logo-teamviewer-logo.svg",
+    "method": "header-img"
+   }
+  },
+  "zendesk": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://web-assets.zendesk.com/is/image/zendesk/Github_Default?$primary=%2311110D&$secondary=%235d5d59&$tertiary=%23777773&fmt=avif-alpha&qlt=65&scale=2",
+    "method": "header-img"
+   }
+  },
+  "zoom-events-and-webinars": {
+   "reason": "review-2: header candidate wrong/customer/blank",
+   "was": {
+    "source_url": "https://www.zoom.com/en/products/webinars/",
+    "method": "inline-svg"
+   }
+  }
+ }
+}

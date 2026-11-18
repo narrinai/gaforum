@@ -1,0 +1,554 @@
+{
+  "slug": "best-game-backend-platforms",
+  "name": "game backend platforms",
+  "title": "Best Game Backend Platforms in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Game backend platforms host player accounts, economies, inventories, leaderboards and live-service logic so studios do not have to build and run their own servers.",
+  "definition": "A game backend platform is a hosted or self-run server layer that handles what a live game needs outside the client: player identity, saved progress, virtual currency and inventory, leaderboards, matchmaking hooks and scheduled content. Studios call it through SDKs and APIs instead of writing and operating a custom backend.",
+  "intro": "Most live-service games reach the same wall: the client is done, and the server work (accounts, purchases, inventory, ranked ladders, saves) is now larger than the game. This ranking looks at eleven products that take that work off a studio, from Microsoft-scale platforms to open source servers and a store-specific service. We read each vendor's own product and pricing pages, compared the features they list for identity, economy and live operations, noted which ones publish prices, and weighed fit for small and mid-size studios shipping a game that must keep running after launch. We did not run load tests, so every capability below is what the vendor states. Where a page shows no price or no platform list, the entry says so instead of guessing.",
+  "criteria": [
+    {
+      "heading": "Player identity and platform links",
+      "text": "A backend begins with accounts. Check which sign-in routes the platform supports, whether it links console and storefront identities into one player record, and how it treats guests who convert to full accounts later. PlayFab lists integrations with Xbox, Steam, PlayStation, Switch and the mobile stores, while Supabase offers 20+ social providers but no game-specific platform links. A studio shipping on several storefronts should read this line of each vendor page first, because retrofitting account linking after launch is expensive."
+    },
+    {
+      "heading": "Economy, inventory and entitlements",
+      "text": "Virtual currency, item catalogs and purchase validation are where backends earn their cost. Look for named modules, not general storage. AccelByte lists entitlements, PlayFab lists economy and monetization, Steamworks lists an Inventory Service and microtransactions, and LootLocker names a player economy. General app platforms leave these to you. Ask whether server-side rules protect balances from tampering, and whether item data can be changed without a client update."
+    },
+    {
+      "heading": "Ownership of code and data",
+      "text": "Some platforms ship as source code or can be self-hosted; others are hosted services only. Metaplay says it ships as full source code, Nakama offers an open source download, and Supabase says its core tools are open source and self-hostable. Hosted-only services trade that control for less operations work. Decide early who must be able to run the backend if the vendor changes terms, and check whether player data can be exported."
+    },
+    {
+      "heading": "How cost scales with players",
+      "text": "Pricing models differ more than features do. AccelByte bills on peak concurrent players, Beamable's trial counts API calls, PlayFab says pay-as-you-go, and Steamworks charges a per-app fee. Several vendors publish no figures at all. Build a rough model of your expected peak concurrency and monthly active players, then ask each vendor to price it, because a free tier that ends at a few thousand accounts says little about launch month."
+    }
+  ],
+  "market_notes": [
+    "Of the eleven products ranked here, only AccelByte puts a worked cost estimate on its homepage (about $350 per month for 50,000 monthly players at roughly 500 peak concurrent). Pragma, Beamable, Unity's gaming services and PlayFab show no dollar figures on the pages we opened, and Steamworks gives only the phrase small per-app fee. Nine of the eleven offer some free start, whether a plan, trial, credit or open source download; only Pragma and Steamworks do not say so. Buyers should expect to request quotes for anything beyond a prototype.",
+    "The list splits into game-specific backends (PlayFab, AccelByte, Pragma, Metaplay, Beamable, LootLocker, Nakama), engine or store services (Unity, Steamworks) and general application platforms (Firebase, Supabase). The general platforms are cheap to start and flexible, but they leave currency, inventory and leaderboard rules to your own code. The game-specific ones carry those rules out of the box, at the price of tighter coupling to the vendor's data model and SDKs."
+  ],
+  "how_to_choose": [
+    {
+      "title": "List the systems your game needs on day one",
+      "text": "Write down which server features ship in version 1.0: sign-in on each storefront, one currency, an item catalog, a ranked leaderboard, cloud saves. Then mark each as bought or built. A game with only saves and a leaderboard can run on a general platform such as Supabase; a game with purchases, battle passes and seasonal events needs a purpose-built economy layer. Keep the list short so vendor demos stay comparable."
+    },
+    {
+      "title": "Match the server language and engine",
+      "text": "Check the SDKs and the language you will write server logic in. Metaplay uses C#, Nakama accepts JavaScript, Go and Lua, Beamable has native Unity and Unreal SDKs, and PlayFab covers Unreal, Unity and custom engines. If your team has no backend engineer, prefer a hosted service with a dashboard over a self-hosted server that someone must patch and monitor."
+    },
+    {
+      "title": "Price your launch month, not your prototype",
+      "text": "Take a realistic peak concurrent user count and a monthly active player target, and request a written quote from at least two vendors. Compare how each charges: peak concurrency, API calls, account counts or flat tiers. Also ask what happens at free-tier limits, such as PlayFab's 1,000 lifetime accounts per title in Development Mode, so a successful soft launch does not stall on a cap."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best game backend platform in 2026?",
+      "a": "PlayFab is the best fit for most studios because it covers identity, economy, progression and live service management in one Microsoft-run service with a free start. AccelByte is better when you want a modular backend priced on peak concurrency, and Metaplay is better when you want server-authoritative C# code delivered as source."
+    },
+    {
+      "q": "Do I need a game backend or can I use a general database?",
+      "a": "A general platform such as Supabase or Firebase is enough for saves, simple profiles and a leaderboard you write yourself. Once you sell items, run seasons or need entitlements checked on the server, a game-specific backend saves months of rule-writing. The cost is a closer dependency on that vendor's data model."
+    },
+    {
+      "q": "Which game backends are open source?",
+      "a": "Nakama offers an open source download, Supabase says its core tools are open source and self-hostable, and Metaplay ships as full source code, though its license terms are not stated on the pages we read. Check each license before you build on it, since none of the three pages names the license in plain terms."
+    },
+    {
+      "q": "Can a Steam-only game rely on Steamworks alone?",
+      "a": "For a Steam-only release, Steamworks covers inventory, microtransactions, matchmaking lobbies, Workshop and playtests behind a small per-app fee. It does not help on consoles or mobile, so a game that may expand to other storefronts will need a platform-neutral backend as well. Valve does not state revenue-share terms on the page we read."
+    },
+    {
+      "q": "How much does a game backend cost?",
+      "a": "Published numbers are rare. AccelByte estimates about $350 per month for 50,000 monthly players at around 500 peak concurrent players, labeled as an estimate. PlayFab, Beamable, Pragma and Unity show no dollar amounts on their main pages, so request a quote using your own expected concurrency."
+    },
+    {
+      "q": "Is Unity Gaming Services only for Unity games?",
+      "a": "The Unity page we read does not say. It lists Cloud Code, Cloud Save, Authentication, leaderboards, A/B testing and push notifications as Unity Live Services but names no non-Unity engines or platforms. Confirm engine support directly if you ship on Unreal or Godot."
+    },
+    {
+      "q": "What should a small team check before signing up?",
+      "a": "Check four things: free-tier limits, how pricing scales with concurrency, whether you can export player data, and whether the vendor shows customers at your size. LootLocker says it powers 10,000+ live games, which suggests a small-team audience, while Pragma and Metaplay emphasize large studios."
+    }
+  ],
+  "related": [
+    "best-multiplayer-networking-sdks",
+    "best-game-liveops-platforms",
+    "best-dedicated-game-server-orchestration-platforms",
+    "best-game-analytics-software",
+    "best-game-payment-and-web-shop-platforms",
+    "best-player-support-software-for-games"
+  ],
+  "tools": [
+    {
+      "slug": "playfab",
+      "name": "PlayFab",
+      "site": "https://playfab.com/",
+      "company": "Microsoft",
+      "country": "",
+      "tagline": "Microsoft's backend services for live games",
+      "best_for": "Multi-platform live-service games",
+      "pricing": "Free to start, then pay-as-you-go, with no dollar figures on the product page.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free plan",
+      "platforms": "Unreal and Unity SDKs, custom engines; PC, console, mobile",
+      "features": [
+        "Community",
+        "Identity",
+        "Multiplayer",
+        "Player Progression",
+        "Game Data Stream",
+        "Economy, Monetization and UGC"
+      ],
+      "summary": "Broadest published feature list, console and storefront integrations, and a free start make it the safest default for a studio that wants one vendor for most backend work.",
+      "verdict": "PlayFab tops the list because its feature list matches the brief most directly: identity, player progression, economy and monetization, community, multiplayer and live service management. The Microsoft page names integrations with Xbox, Steam, PlayStation 4 and 5, Nintendo Switch and both mobile stores, and says Unreal and Unity SDKs exist alongside support for custom engines. It lists Minecraft, Forza Horizon 5, Sea of Thieves and Street Fighter 6 as running on it. A free-to-start tier lets a team evaluate before paying.",
+      "weaknesses": "The page shows no dollar figures, so budgeting needs a separate calculation. Development Mode caps each title at 1,000 lifetime player account creations and each account at 10 titles. The service sits inside Microsoft's gaming ecosystem, and no self-hosted option is mentioned.",
+      "wrong_for": "Teams that want to own the server code or run it on their own hardware should look at Metaplay or Nakama instead.",
+      "sources": [
+        {
+          "fact": "PlayFab is described on the Microsoft product page as complete backend services for live games, connecting players wherever they want to play.",
+          "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+        },
+        {
+          "fact": "The page says PlayFab offers a free-to-start tier at no additional cost, with pay-as-you-go pricing as games scale and no dollar figures shown.",
+          "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+        },
+        {
+          "fact": "The page limits Development Mode to 1,000 lifetime player account creations per title and 10 titles per account.",
+          "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+        }
+      ]
+    },
+    {
+      "slug": "accelbyte",
+      "name": "AccelByte",
+      "site": "https://accelbyte.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Modular multiplatform game backend with concurrency pricing",
+      "best_for": "Console-bound studios needing modular services",
+      "pricing": "First 30 CCU free during development, no monthly platform fee on Public Cloud after the trial, and usage-based billing that scales with peak concurrency.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "Windows, PlayStation, Xbox, Android, Apple, Switch, Linux; Unity, Unreal",
+      "features": [
+        "Player Accounts",
+        "Cloud Save",
+        "Achievements",
+        "Leaderboards",
+        "Matchmaking",
+        "Game Sessions"
+      ],
+      "summary": "The only entry with a worked cost example on its homepage, plus entitlements, leaderboards and multiplayer servers in modular pieces.",
+      "verdict": "AccelByte describes itself as a multiplatform game backend made of modular online services, and the module list covers player accounts, cloud save, achievements, leaderboards, matchmaking, game sessions, entitlements and multiplayer servers. Its homepage is unusually concrete about money: the first 30 CCU are free in development, there is no monthly platform fee on Public Cloud after the trial, and an example of roughly $350 per month is given for 50,000 monthly players. It names 2K, Krafton, SNK and Telltale Games, and claims 120+ studios.",
+      "weaknesses": "Billing follows peak concurrent players, so the bill moves with success and spiky launches. The $350 figure is labeled an estimate, not a quote. The free allowance is tied to development rather than live play, and the vendor's own numbers are claims, not audited counts.",
+      "wrong_for": "A studio wanting a flat free tier for a tiny live game would do better with LootLocker or the PlayFab free start.",
+      "sources": [
+        {
+          "fact": "AccelByte describes itself on the homepage as a multiplatform game backend that provides modular online services for game developers.",
+          "url": "https://accelbyte.io/"
+        },
+        {
+          "fact": "The homepage says the first 30 CCU are free during development and there is no monthly platform fee on Public Cloud after the trial.",
+          "url": "https://accelbyte.io/"
+        },
+        {
+          "fact": "The homepage says pricing is usage-based and scales with peak concurrent players, with an estimate of about $350 per month for 50,000 monthly players, labeled as an estimate.",
+          "url": "https://accelbyte.io/"
+        },
+        {
+          "fact": "The homepage lists Windows, PlayStation, Xbox, Android, Apple, Nintendo Switch and Linux, with 15+ platform integrations.",
+          "url": "https://accelbyte.io/"
+        }
+      ]
+    },
+    {
+      "slug": "metaplay",
+      "name": "Metaplay",
+      "site": "https://metaplay.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Server-authoritative C# backend that ships as source code",
+      "best_for": "Mobile live-service teams writing C#",
+      "pricing": "Free tier to build and run locally, Pro tier for cloud deployment with no price shown, Enterprise tier for self-hosting at scale.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "C# server code; client engines not listed (Unity mentioned in a testimonial)",
+      "features": [
+        "Server-authoritative C#",
+        "Ships as full source code",
+        "Built-in LiveOps (A/B testing, OTA configs, segments, offers)",
+        "LiveOps dashboard",
+        "Metaplay AI and Agent",
+        "Portal MCP"
+      ],
+      "summary": "Delivers the backend as readable source with built-in segments, offers and remote configs, which suits teams that want control without writing everything.",
+      "verdict": "Metaplay is the pick for a team that wants a complete backend yet insists on reading and changing the code. The homepage says the platform ships as full source code, runs server-authoritative logic in C#, and includes LiveOps features such as A/B testing, over-the-air configs, segments and offers behind a dashboard. A free tier lets you run the game locally before paying, and the vendor names Supercell, Metacore, Trailmix and Lessmore as production users. Self-hosting is an Enterprise option.",
+      "weaknesses": "The Pro tier shows no price, and the page does not list supported client engines, only a Unity testimonial. Server code is C#, so a team without that skill pays a retraining cost. The vendor's AI and Portal MCP features are new surface area to evaluate.",
+      "wrong_for": "Studios with a JavaScript, Go or Lua server team should consider Nakama; those wanting managed economy modules out of the box may prefer PlayFab.",
+      "sources": [
+        {
+          "fact": "Metaplay describes itself on its homepage as a complete backend platform for building and operating live service games.",
+          "url": "https://metaplay.io/"
+        },
+        {
+          "fact": "The homepage lists a Free tier for building and running a game locally, a Pro tier for cloud deployment with no price shown, and an Enterprise tier for self-hosting.",
+          "url": "https://metaplay.io/"
+        },
+        {
+          "fact": "The homepage says the platform is production-proven by Supercell, Metacore, Trailmix and Lessmore.",
+          "url": "https://metaplay.io/"
+        },
+        {
+          "fact": "The homepage says Metaplay ships as full source code.",
+          "url": "https://metaplay.io/"
+        }
+      ]
+    },
+    {
+      "slug": "nakama",
+      "name": "Nakama",
+      "site": "https://heroiclabs.com/",
+      "company": "Heroic Labs",
+      "country": "",
+      "tagline": "Open source social and multiplayer game server",
+      "best_for": "Teams wanting a self-hostable server",
+      "pricing": "Open source download is available; the homepage names no license or price and links to a pricing page for hosted plans.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Apple, Android, Steam, PlayStation, Xbox, Nintendo, HTML5, Windows; server logic in JavaScript, Go, Lua",
+      "features": [
+        "Add social gameplay",
+        "Build rich multiplayer experiences",
+        "Grow competitive communities",
+        "Customise with JavaScript, Go and Lua"
+      ],
+      "summary": "The most established open source option, with server scripting in three languages and a long customer list.",
+      "verdict": "Nakama is described as a popular scalable open source game backend aimed at social multiplayer games, and the homepage lets you download and install the open source edition. Server customization is possible in JavaScript, Go and Lua. The vendor lists Electronic Arts, Paradox Interactive, Remedy, Zynga, Halfbrick, Bandai Namco and Mattel as users, claims 15m+ SDK downloads and 2m+ peak CCU, and shows a SOC 2 Type II badge in its footer. It earns a high place for teams that want to host and inspect their own server.",
+      "weaknesses": "The homepage names no license, which matters before commercial use. Running it yourself means owning upgrades, scaling and monitoring. The hosted Heroic Cloud route is priced separately, with plans starting from $600 per month according to the Heroic Labs pricing page.",
+      "wrong_for": "A studio with no backend engineer should skip self-hosting and look at PlayFab or LootLocker.",
+      "sources": [
+        {
+          "fact": "Nakama is described on its homepage as a popular scalable open source game backend for building social multiplayer games.",
+          "url": "https://heroiclabs.com/"
+        },
+        {
+          "fact": "The homepage offers 'Download and Install Nakama OSS'; it names no license and no price.",
+          "url": "https://heroiclabs.com/"
+        },
+        {
+          "fact": "The homepage lists Electronic Arts, Paradox Interactive, Remedy, Zynga, Halfbrick, Bandai Namco and Mattel as trusted by.",
+          "url": "https://heroiclabs.com/"
+        },
+        {
+          "fact": "The homepage claims 15m+ SDK downloads, $5b+ annual games revenue and 2m+ peak CCU.",
+          "url": "https://heroiclabs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "pragma",
+      "name": "Pragma",
+      "site": "https://pragma.gg/",
+      "company": "",
+      "country": "",
+      "tagline": "Publishing tools platform with a Backend Engine",
+      "best_for": "Larger PC and console studios",
+      "pricing": "The homepage links to a pricing page but states no prices and no free tier.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord and Twitch integrations; no engines or SDKs named",
+      "features": [
+        "Authentication and social",
+        "Orders and monetization",
+        "Telemetry",
+        "Admin dashboards",
+        "Live operations",
+        "Player data"
+      ],
+      "summary": "A studio-scale backend with authentication, orders, telemetry and admin dashboards, held back by a homepage that shows no prices or SDK list.",
+      "verdict": "Pragma calls itself a modern publishing tools platform and its Backend Engine 'the game industry's leading backend', which is a vendor claim. The feature groups on the homepage are authentication and social, orders and monetization, telemetry, admin dashboards, live operations and player data, with integrations for Discord and Twitch. It claims more than half of top PC and console studios as users and cites Gardens, People Can Fly and Omeda as case studies. That profile fits a mid-size or large team talking to sales.",
+      "weaknesses": "The homepage gives no price amounts, no free tier, and no named engines or SDKs, so a small team cannot judge fit without a call. The audience skews to established studios, and self-serve evaluation is not shown.",
+      "wrong_for": "Solo developers and small teams who want to try before talking to sales should start with LootLocker or Supabase.",
+      "sources": [
+        {
+          "fact": "Pragma's homepage describes it as a modern publishing tools platform for game studios.",
+          "url": "https://pragma.gg/"
+        },
+        {
+          "fact": "The homepage describes its Backend Engine as 'The game industry's leading backend'.",
+          "url": "https://pragma.gg/"
+        },
+        {
+          "fact": "The homepage has a Pricing link but states no price amounts and no free tier.",
+          "url": "https://pragma.gg/"
+        },
+        {
+          "fact": "The homepage claims more than 50% of top PC and console studios as users.",
+          "url": "https://pragma.gg/"
+        }
+      ]
+    },
+    {
+      "slug": "beamable",
+      "name": "Beamable",
+      "site": "https://beamable.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Hosted game server and LiveOps with Unity and Unreal SDKs",
+      "best_for": "Unity and Unreal teams avoiding backend hiring",
+      "pricing": "Start for Free leads to a pricing page with no plan prices; trial usage is up to 1,000,000 free API calls.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Native Unity and Unreal SDKs; Web3 integration mentioned",
+      "features": [
+        "Serverless game APIs",
+        "Private Cloud",
+        "Co-Dev Services",
+        "Beamable Network",
+        "Built-in AI automation"
+      ],
+      "summary": "Replaces custom backend work with hosted services and native SDKs, with a trial measured in API calls and a credit program.",
+      "verdict": "Beamable positions itself as a game server and LiveOps platform for Web2 and Web3 games, replacing custom backend work with hosted services. Native Unity and Unreal SDKs make integration direct for those engines, and the feature list names serverless game APIs, a Private Cloud option, co-development services and a Beamable Network. A trial allows up to 1,000,000 free API calls, and LaunchPad offers a $2,500 credit program for backend setup. The vendor claims scale from 100 players to 10 million.",
+      "weaknesses": "No plan prices appear on the homepage, and the trial figure is printed as '1000,000', which suggests the page needs a second look before you rely on it. Web3 emphasis may be irrelevant to a conventional game. Engines beyond Unity and Unreal are not listed.",
+      "wrong_for": "Godot or custom-engine teams should check Nakama or PlayFab, which list broader SDK or language coverage.",
+      "sources": [
+        {
+          "fact": "Beamable describes itself on the homepage as a game server and LiveOps platform for Web2 and Web3 games that replaces custom backend work with hosted services.",
+          "url": "https://beamable.com/"
+        },
+        {
+          "fact": "The homepage offers Start for Free with a link to the pricing page, and no plan prices are listed.",
+          "url": "https://beamable.com/"
+        },
+        {
+          "fact": "The homepage describes trial usage with up to 1,000,000 free API calls; the page prints the figure as 1000,000.",
+          "url": "https://beamable.com/"
+        },
+        {
+          "fact": "The homepage describes Beamable LaunchPad as a $2,500 credit program to accelerate backend setup.",
+          "url": "https://beamable.com/"
+        }
+      ]
+    },
+    {
+      "slug": "unity-gaming-services",
+      "name": "Unity Live Services (Unity Gaming Services)",
+      "site": "https://unity.com/solutions/gaming-services",
+      "company": "Unity Technologies",
+      "country": "",
+      "tagline": "Unity's cloud services for live game operations",
+      "best_for": "Unity-first teams adding live features",
+      "pricing": "Get started for free and a View Pricing link, with no figures or tier details on the page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Not listed; page mentions 25+ supported platforms without naming them",
+      "features": [
+        "Cloud Code",
+        "Cloud Save",
+        "Diagnostics",
+        "Game Overrides",
+        "A/B Testing",
+        "Cloud Content Delivery"
+      ],
+      "summary": "A deep list of live features such as Cloud Code, Cloud Save and A/B testing for Unity projects, but a page with no prices or platform names.",
+      "verdict": "Unity presents these tools as Unity Live Services for post-launch insights and live operations. The page lists achievements, sign-in, leaderboards, in-app purchases, Cloud Code, Cloud Save, Authentication, Analytics, A/B testing, Diagnostics, Cloud Content Delivery, Game Overrides and Push Notifications. Case studies include Subway Surfers, MARVEL SNAP, Warhammer 40k: Warpforge and Power Rangers Mighty Force. For a team already in the Unity editor, the tie-in saves integration time, which earns the middle of the ranking.",
+      "weaknesses": "The page does not use the name Unity Gaming Services and shows no prices. It does not mention Multiplay or Matchmaker, so server hosting needs separate checking. Value drops for teams on other engines, and the page names no non-Unity support.",
+      "wrong_for": "Unreal, Godot or custom-engine studios should look at PlayFab, Nakama or AccelByte.",
+      "sources": [
+        {
+          "fact": "The page presents Unity's LiveOps services, called Unity Live Services, as tools for post-launch insights and live game operations.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page lists achievements, player sign-in, leaderboards, IAP, Cloud Code, Cloud Save, Authentication, Analytics, A/B testing, Diagnostics, Cloud Content Delivery, Game Overrides and Push Notifications.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page says Get started for free and links to a View Pricing page, with no figures shown.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page cites Subway Surfers, MARVEL SNAP, Warhammer 40k: Warpforge and Power Rangers Mighty Force as live game case studies.",
+          "url": "https://unity.com/solutions/gaming-services"
+        }
+      ]
+    },
+    {
+      "slug": "lootlocker",
+      "name": "LootLocker",
+      "site": "https://lootlocker.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Player platform with accounts, CRM and live systems",
+      "best_for": "Small studios and indie publishers",
+      "pricing": "Free to start; the pricing page is linked but shows no figures or free-tier details.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Not named; links to an SDK page, API reference and docs",
+      "features": [
+        "Player Accounts",
+        "Player CRM",
+        "Playtesting",
+        "Progression and content",
+        "Live Operations",
+        "Community and feedback"
+      ],
+      "summary": "A free-to-start platform built around player relationships, content and live systems, and aimed at publishers of many small titles.",
+      "verdict": "LootLocker frames its product as a player platform that lets publishers own player relationships, collected content and live systems. The homepage groups it into Connect, Engage and Reward, with modules for player accounts, a player CRM, playtesting, progression and content, live operations, community feedback and a commerce and player economy. It claims to power 10,000+ live games and names Team17, Astragon Entertainment, Digital Bandidos and Fast Travel Games. The free start and small-publisher customers suit teams without a platform budget.",
+      "weaknesses": "The homepage names no engines, platforms or SDK languages, and the pricing page, as linked, lists no figures, so cost beyond the free start is unclear. The 10,000-game figure is the vendor's own claim and says nothing about concurrency at scale.",
+      "wrong_for": "A studio expecting heavy concurrency and console certification help should compare AccelByte or PlayFab.",
+      "sources": [
+        {
+          "fact": "LootLocker describes itself on the homepage as a player platform that helps publishers own their player relationships, content and live systems.",
+          "url": "https://lootlocker.com/"
+        },
+        {
+          "fact": "The homepage says 'Free to start' and links to a pricing page with no figures.",
+          "url": "https://lootlocker.com/"
+        },
+        {
+          "fact": "The homepage claims to power 10,000+ live games from publishers including Team17, Astragon Entertainment and Fast Travel Games.",
+          "url": "https://lootlocker.com/"
+        },
+        {
+          "fact": "The homepage positions the product across three areas: Connect, Engage and Reward.",
+          "url": "https://lootlocker.com/"
+        }
+      ]
+    },
+    {
+      "slug": "steamworks",
+      "name": "Steamworks",
+      "site": "https://partner.steamgames.com/",
+      "company": "Valve",
+      "country": "",
+      "tagline": "Valve's toolset for operating a game on Steam",
+      "best_for": "Steam-exclusive releases",
+      "pricing": "Joining needs paperwork and a small per-app fee; no revenue-share terms are given on the page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Steam, Steam Deck, Steam VR, Remote Play",
+      "features": [
+        "Steam Workshop",
+        "Steam Input",
+        "Inventory Service",
+        "Microtransactions",
+        "Matchmaking and lobbies",
+        "Steam Playtest"
+      ],
+      "summary": "Inventory, microtransactions and lobbies for games sold on Steam, but of no use off the storefront.",
+      "verdict": "Steamworks is the set of tools Valve provides to configure, manage and operate a game on Steam. Its feature list includes Steam Workshop, Steam Input, an Inventory Service, microtransactions, matchmaking and lobbies, and Steam Playtest, and the vendor claims 132 million monthly active users across 250 countries. For a Steam-first indie release it removes the need for a separate item backend, and the per-app fee is small by the vendor's description. Its rank reflects that narrow but useful scope.",
+      "weaknesses": "It works only with Steam, so console and mobile players are out of reach. The page does not say whether Steamworks itself is free beyond the per-app fee and gives no revenue-share terms. Server-side game logic and live events are not on the listed features.",
+      "wrong_for": "Multi-storefront or mobile games should choose PlayFab or AccelByte for a platform-neutral backend.",
+      "sources": [
+        {
+          "fact": "Steamworks is described on the vendor page as Valve's set of tools and services for configuring, managing and operating games on Steam.",
+          "url": "https://partner.steamgames.com/"
+        },
+        {
+          "fact": "The page says joining requires paperwork and a small per-app fee, and gives no revenue-share terms.",
+          "url": "https://partner.steamgames.com/"
+        },
+        {
+          "fact": "The page claims 132 million monthly active users across 250 countries.",
+          "url": "https://partner.steamgames.com/"
+        },
+        {
+          "fact": "The page lists features including Steam Workshop, Steam Input, Inventory Service, Microtransactions, Matchmaking and lobbies, and Steam Playtest.",
+          "url": "https://partner.steamgames.com/"
+        }
+      ]
+    },
+    {
+      "slug": "firebase",
+      "name": "Firebase",
+      "site": "https://firebase.google.com/",
+      "company": "Google",
+      "country": "",
+      "tagline": "Google's app platform with a Unity SDK",
+      "best_for": "Mobile games already on Google Cloud",
+      "pricing": "$300 in credit when you create a Billing Account; no free-plan or pay-as-you-go figures on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Apple, Android, Web, Flutter, Unity, C++",
+      "features": [
+        "App Hosting",
+        "SQL Connect",
+        "Firebase AI Logic",
+        "App Distribution",
+        "Crashlytics",
+        "Remote Config"
+      ],
+      "summary": "A general application platform with Remote Config and Crashlytics, usable for games but missing game-specific economy and leaderboard modules.",
+      "verdict": "Firebase is described as a Google-backed platform for building and running apps, with managed infrastructure on Google Cloud. The homepage lists SDKs for Apple platforms, Android, Web, Flutter, Unity and C++, and services such as Remote Config, Crashlytics and App Distribution. It names Halfbrick among its users. For a mobile game that needs crash reports, remote tuning values and basic data, it is a quick start, which is why it sits below the purpose-built backends and above Supabase.",
+      "weaknesses": "The homepage lists no game modules such as inventory, currency or leaderboards, so you write those rules yourself. It shows no Spark or Blaze plan figures, only a $300 billing credit. The listed focus is intelligent apps, not live games.",
+      "wrong_for": "Teams needing a ready-made game economy should pick PlayFab, AccelByte or LootLocker.",
+      "sources": [
+        {
+          "fact": "Firebase is described on the homepage as a platform of services for building and running intelligent apps.",
+          "url": "https://firebase.google.com/"
+        },
+        {
+          "fact": "The homepage says Firebase is backed by Google and its managed infrastructure is powered by Google Cloud.",
+          "url": "https://firebase.google.com/"
+        },
+        {
+          "fact": "The homepage offers $300 in credit when you create a Billing Account, with no Spark or Blaze plan figures shown.",
+          "url": "https://firebase.google.com/"
+        },
+        {
+          "fact": "The homepage lists SDK platforms including Apple, Android, Web, Flutter, Unity and C++.",
+          "url": "https://firebase.google.com/"
+        }
+      ]
+    },
+    {
+      "slug": "supabase",
+      "name": "Supabase",
+      "site": "https://supabase.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Open source Postgres backend with auth and realtime",
+      "best_for": "Small teams comfortable with SQL",
+      "pricing": "A Free plan exists, free projects pause after 7 days of low activity, and the homepage shows no other prices.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Any Postgres client; REST, GraphQL, Realtime; TypeScript and Deno Edge Functions",
+      "features": [
+        "Database",
+        "Auth",
+        "Storage",
+        "Edge Functions",
+        "Realtime",
+        "Vector"
+      ],
+      "summary": "Open source and self-hostable with Postgres, auth and realtime, but it offers no game-specific modules.",
+      "verdict": "Supabase describes itself as an open source backend built on Postgres, with database, auth, storage, edge functions, realtime and vector features. The homepage says all core tools are open source and self-hostable, Auth offers 20+ social providers, and Storage is S3-compatible with a CDN in 285+ cities. For a small game that needs accounts, a relational data model and a self-written leaderboard, that is a lot of control for little cost. It ranks last only because currency, inventory and match logic are yours to build.",
+      "weaknesses": "Free-plan projects pause after 7 days of low activity, which hurts a quiet prototype. No game SDK list appears, and no license name is given. Server-authoritative game rules need custom code written against Postgres.",
+      "wrong_for": "A team that wants prebuilt entitlements and economy rules should look at AccelByte or PlayFab.",
+      "sources": [
+        {
+          "fact": "Supabase describes itself on the homepage as an open source backend platform built on Postgres.",
+          "url": "https://supabase.com/"
+        },
+        {
+          "fact": "The homepage says a Free plan exists and that free-plan projects pause after 7 days of low activity, while projects on paid plans do not pause.",
+          "url": "https://supabase.com/"
+        },
+        {
+          "fact": "The homepage says all core tools are open source and self-hostable, without naming a license.",
+          "url": "https://supabase.com/"
+        },
+        {
+          "fact": "The homepage says Auth offers 20+ social sign-in providers and Storage is S3-compatible with a CDN in 285+ cities.",
+          "url": "https://supabase.com/"
+        }
+      ]
+    }
+  ]
+}

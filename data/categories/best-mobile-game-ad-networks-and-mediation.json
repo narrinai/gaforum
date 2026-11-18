@@ -1,0 +1,539 @@
+{
+  "slug": "best-mobile-game-ad-networks-and-mediation",
+  "name": "mobile game ad networks and mediation platforms",
+  "title": "Best Mobile Game Ad Networks and Mediation Platforms in 2026",
+  "group": "Game business",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Mobile game ad networks and mediation platforms sell rewarded video and other formats to advertisers through real-time bidding, letting developers earn from free games.",
+  "definition": "A mobile game ad network buys and sells advertising inside apps, while a mediation platform sits above several networks and runs an auction so each ad slot goes to the highest bidder. Rewarded video, where players choose to watch an ad for an in-game reward, is the format most mobile games build around.",
+  "intro": "Choosing an ad stack for a free-to-play game means choosing both a mediation layer and the networks behind it. We read each vendor's product page, documentation and legal footers, and compared what they name: formats, platforms, bidding support, ownership and whether fees are shown. We did not run integrations or measure fill rates, so no revenue claim here is ours, and every figure is the vendor's. Mediation platforms rank first for a small or mid-size studio because they make switching networks cheap, followed by networks with rewarded and playable formats, then offerwalls, marketing platforms and acquisition-first tools. AppLovin MAX is missing: the address we opened returned a general AppLovin advertising page that did not describe MAX, so we could not verify it.",
+  "criteria": [
+    {
+      "heading": "Mediation, bidding and network coverage",
+      "text": "Find out whether the product runs an auction or only supplies demand. Unity LevelPlay and AdMob describe mediation, AdMob adds bidding across networks, Unity Ads and Meta Audience Network document bidding, and Pangle is a network. A network gives you one buyer, mediation lets many compete for each impression, so most games need both."
+    },
+    {
+      "heading": "Rewarded video and playable formats",
+      "text": "Check which formats each vendor lists. Pangle names rewarded video, interstitial, native, banner, playable and a beta app open format. Mintegral offers tools to build playables. Tapjoy and Digital Turbine list offerwalls, a different rewarded model where players complete tasks. Rewarded video suits games with currencies, while offerwalls fit particular economies."
+    },
+    {
+      "heading": "Ownership and where the product is going",
+      "text": "Several names changed hands. The page says LoopMe acquired Chartboost in 2024, Tapjoy now lives on unity.com, liftoff.io redirects to liftoff.ai, and Mintegral names Mobvista as its parent. Unity owns LevelPlay and Unity Ads, and hosts Tapjoy. Ownership affects contracts, support and whether you depend on one company for both mediation and demand."
+    },
+    {
+      "heading": "Visible terms and pricing",
+      "text": "No vendor here prints a revenue share. AdMob shows an earnings calculator with a no-guarantee disclaimer, and Moloco says pricing is performance-based. Everything else asks you to sign up or talk to sales. Ask for payment terms, minimum payout, data rights and exit conditions in writing before building around any single partner."
+    }
+  ],
+  "market_notes": [
+    "Across the twelve tools ranked, none states a fee or revenue share in the pages we opened, and only Moloco describes its pricing basis. Two belong to Unity Technologies (LevelPlay and Unity Ads) and Tapjoy is now hosted on unity.com, while one is run by Google, one sits under LoopMe and one names Mobvista as parent. Pangle is tied to TikTok for Business. Only AdMob and Digital Turbine publish adoption figures (1 million+ apps; 82K apps), and both are vendor claims. Meta's page documents Android, iOS and Unity setup, which are the platforms it names.",
+    "The practical trade-off is concentration versus control. Mediation reduces dependence on one buyer, but the largest mediation layers are owned by companies that also run ad networks, so a studio should check how bids are treated. Marketing-first platforms such as Moloco and Liftoff sell growth as much as monetization, and InMobi's homepage barely mentions games. For a new release, a free mediation console plus two or three rewarded sources is a manageable starting set."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Start with the mediation layer",
+      "text": "Pick Unity LevelPlay if you build in Unity and want Editor-level integration, or AdMob if you already use Google's tools and want analytics and bidding in one console. Create a test account, integrate one rewarded placement in a development build, and note how long that takes."
+    },
+    {
+      "title": "Add two or three demand sources",
+      "text": "Choose networks that document the formats you use. For rewarded video and playables, Pangle and Mintegral are on this list; for bidding documentation, Meta and Unity Ads. Keep the number small, so you can see which source performs and keep your SDK size and crash surface down."
+    },
+    {
+      "title": "Settle terms before scaling spend",
+      "text": "Ask each vendor for payout terms, revenue share, data rights and how bids are treated in mediation. Where the page states no price, get the answer in writing. Only after that should you grow acquisition with a platform such as Liftoff, Moloco or Digital Turbine."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best mobile game ad network and mediation platform in 2026?",
+      "a": "Unity LevelPlay is the best fit for Unity studios because it integrates from the Editor and is built for mediation. Google AdMob is better for teams that want broad adoption, bidding and analytics in one console. Pangle is a good extra source when rewarded video and playable formats matter."
+    },
+    {
+      "q": "What is the difference between an ad network and mediation?",
+      "a": "A network supplies ads and pays you for impressions or actions, while mediation runs an auction across several networks and picks the highest bid for each slot. Pangle is a network, Unity LevelPlay is mediation, and AdMob offers mediation together with its own ad demand."
+    },
+    {
+      "q": "Is AppLovin MAX included in this ranking?",
+      "a": "No. The address we opened for AppLovin MAX redirected to a general AppLovin advertising page that did not describe MAX, its pricing or its platforms, so we could not verify it. We list only tools whose product pages we could read."
+    },
+    {
+      "q": "Which formats work best for games?",
+      "a": "Rewarded video is the format most mobile games centre on, and Pangle lists it alongside interstitial, native, banner and playable ads. Offerwalls from Tapjoy and Digital Turbine suit some game economies. Vendors give no performance figures we can compare, so test formats in your own game."
+    },
+    {
+      "q": "Do any of these tools publish their revenue share?",
+      "a": "None of the twelve states a revenue share on the pages we opened. AdMob shows an earnings calculator with a no-guarantee disclaimer, and Moloco says pricing is performance-based. Ask for terms in writing, including payment schedule and minimum payout."
+    },
+    {
+      "q": "Does Meta Audience Network work in Unity?",
+      "a": "Its documentation lists setup for Android, iOS and Unity, and describes App Bidding as an open auction with several demand sources. The page states no pricing, and it is documentation for integrators rather than a product overview."
+    },
+    {
+      "q": "Can one company own both mediation and the network?",
+      "a": "Yes. Unity owns LevelPlay and Unity Ads and hosts Tapjoy on its site, and Google runs AdMob with its own demand. That can simplify contracts, but you should ask how bids from rival networks are treated in the auction."
+    }
+  ],
+  "related": [
+    "best-in-game-advertising-platforms",
+    "best-mobile-attribution-tools-for-games",
+    "best-game-analytics-software",
+    "best-game-liveops-platforms",
+    "best-game-payment-and-web-shop-platforms",
+    "best-game-market-intelligence-tools"
+  ],
+  "tools": [
+    {
+      "slug": "unity-levelplay",
+      "name": "Unity LevelPlay",
+      "site": "https://unity.com/products/levelplay",
+      "company": "Unity Technologies",
+      "country": "",
+      "tagline": "Ad mediation integrated into the Unity Editor",
+      "best_for": "Unity games wanting one mediation layer",
+      "pricing": "No price is stated on the product page, which carries only a generic Pricing navigation link.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Unity Editor and SDK integration",
+      "features": [
+        "Ad mediation",
+        "Integration from the Unity Editor",
+        "SDK integration",
+        "Revenue and monetization control"
+      ],
+      "summary": "First because mediation is its only job and the Editor integration shortens setup for the many studios already building in Unity.",
+      "verdict": "LevelPlay positions itself as a mediation platform that helps publishers earn more, acquire players and keep full control of monetization. Integration comes directly from the Unity Editor or through an SDK, so a Unity studio can wire up rewarded video and interstitial demand without leaving its project. Because it belongs to Unity Technologies, the same vendor also owns an ad network and an offerwall, which can simplify contracts for studios that buy several pieces.",
+      "weaknesses": "The page names no fee, revenue share or list of connected networks, so you cannot see cost or demand depth before signing up. Studios outside Unity get less from the Editor integration.",
+      "wrong_for": "Teams that want a Google-run console with broad app usage might prefer AdMob, and non-Unity engines should confirm SDK support first.",
+      "sources": [
+        {
+          "fact": "Unity LevelPlay is an ad mediation platform that helps publishers drive higher revenue, acquire new players and get total monetization control.",
+          "url": "https://unity.com/products/levelplay"
+        },
+        {
+          "fact": "The page footer copyright names Unity Technologies as the owning company.",
+          "url": "https://unity.com/products/levelplay"
+        },
+        {
+          "fact": "LevelPlay integration is available directly from the Unity Editor and an SDK, per the page.",
+          "url": "https://unity.com/products/levelplay"
+        }
+      ]
+    },
+    {
+      "slug": "google-admob",
+      "name": "Google AdMob",
+      "site": "https://admob.google.com/",
+      "company": "Google",
+      "country": "",
+      "tagline": "Google's in-app monetization with mediation and bidding",
+      "best_for": "Teams already in Google's ad stack",
+      "pricing": "No fees or revenue share appear on the page; it offers a Get started button and an earnings calculator that carries a no-guarantee disclaimer.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Mobile apps; operating systems not listed on the page",
+      "features": [
+        "In-app ad monetization",
+        "Mediation",
+        "Bidding across networks",
+        "Analytics",
+        "Earnings calculator"
+      ],
+      "summary": "Broad adoption and a combined mediation, bidding and analytics console make it the default starting point for many small studios.",
+      "verdict": "AdMob says more than a million apps use it. The platform covers in-app ads, mediation, bidding across networks and analytics, and an earnings calculator lets you sketch revenue before integrating. A studio with a Google account and no mediation experience can start from one console. The figures are the vendor's own, but they show how heavily other developers rely on it.",
+      "weaknesses": "The page does not list fees or revenue share. The earnings calculator carries an explicit no-guarantee disclaimer, so its output should not go into a financial plan.",
+      "wrong_for": "Games leaning on rewarded video from many specialized networks may want to compare Unity LevelPlay or a network such as Pangle.",
+      "sources": [
+        {
+          "fact": "AdMob is Google's mobile app monetization platform for in-app ads, analytics and mediation tools.",
+          "url": "https://admob.google.com/"
+        },
+        {
+          "fact": "The page states that 1 million+ apps use AdMob.",
+          "url": "https://admob.google.com/"
+        }
+      ]
+    },
+    {
+      "slug": "pangle",
+      "name": "Pangle",
+      "site": "https://www.pangleglobal.com/",
+      "company": "Pangle",
+      "country": "",
+      "tagline": "TikTok for Business ad network with rewarded and playable formats",
+      "best_for": "Rewarded video and playable ads",
+      "pricing": "No price is stated on the opened page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Rewarded video ads",
+        "Interstitial ads",
+        "Native ads",
+        "App open ads (beta)",
+        "Banner ads",
+        "Playable ads"
+      ],
+      "summary": "Offers the widest list of named formats among networks here, rewarded video included, though terms are not published.",
+      "verdict": "Pangle describes itself as an in-app advertising network that helps publishers grow their user base and increase revenue, and calls itself the Ad Network of TikTok for Business. Its page names rewarded video, interstitial, native, app open (beta), banner and playable ads, plus user acquisition solutions. For a game built around rewarded video, a network that lists those formats directly is a useful demand source beside a mediation layer.",
+      "weaknesses": "Pricing, revenue share and payment terms are missing from the page we read, and the app open format is still labeled beta. It is a network rather than a mediation platform.",
+      "wrong_for": "If you need a single dashboard managing several networks, start with Unity LevelPlay or AdMob and treat Pangle as one source inside it.",
+      "sources": [
+        {
+          "fact": "Pangle is an in-app advertising network that helps app publishers grow their user base and increase revenue through ads.",
+          "url": "https://www.pangleglobal.com/"
+        },
+        {
+          "fact": "The page describes Pangle as the Ad Network of TikTok for Business.",
+          "url": "https://www.pangleglobal.com/"
+        },
+        {
+          "fact": "Ad formats named on the page are rewarded video, interstitial, native, app open (beta), banner and playable ads.",
+          "url": "https://www.pangleglobal.com/"
+        }
+      ]
+    },
+    {
+      "slug": "unity-ads",
+      "name": "Unity Ads",
+      "site": "https://unity.com/products/unity-ads",
+      "company": "Unity Technologies",
+      "country": "",
+      "tagline": "Unity's network with a bidder and user acquisition",
+      "best_for": "Studios wanting buying and selling in one",
+      "pricing": "No price is stated; the page has a Pricing navigation link but no pricing model.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Mobile apps (operating systems not stated)",
+      "features": [
+        "User acquisition",
+        "Monetization",
+        "Vector AI model",
+        "Unity Exchange via a single SDK",
+        "Bidding for leading mediation platforms"
+      ],
+      "summary": "Handles both acquiring players and showing ads, and its bidder works with leading mediation platforms.",
+      "verdict": "Unity Ads is a mobile offering for user acquisition and monetization, powered by Unity's Vector AI model. The Unity Exchange is reached through a single SDK, and the bidding works with leading mediation platforms, which means you can plug it into an existing setup. A case study on the page says Qcplay increased ad ARPDAU 29% with the Unity Ads bidder. That is a vendor example, not a promise.",
+      "weaknesses": "Operating systems and fees are not stated on the page. Its benefit overlaps with LevelPlay under the same owner, so check which contract you are actually signing.",
+      "wrong_for": "Studios that want mediation control rather than another demand source should open the Unity LevelPlay entry.",
+      "sources": [
+        {
+          "fact": "Unity Ads is a mobile app offering for user acquisition and monetization, powered by Unity's Vector AI model.",
+          "url": "https://unity.com/products/unity-ads"
+        },
+        {
+          "fact": "The page copyright line names Unity Technologies.",
+          "url": "https://unity.com/products/unity-ads"
+        },
+        {
+          "fact": "The page says Unity Ads bidding works with leading mediation platforms, with the Unity Exchange reached through a single SDK.",
+          "url": "https://unity.com/products/unity-ads"
+        }
+      ]
+    },
+    {
+      "slug": "meta-audience-network",
+      "name": "Meta Audience Network",
+      "site": "https://developers.facebook.com/docs/audience-network/",
+      "company": "",
+      "country": "",
+      "tagline": "Open-auction bidding documented for Android, iOS and Unity",
+      "best_for": "Adding bidding demand from Meta",
+      "pricing": "No pricing or revenue-share terms are stated on the documentation page, which links to a Help Center article on getting paid.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Android, iOS, Unity",
+      "features": [
+        "App Bidding",
+        "Mediation integration",
+        "Android, iOS and Unity setup",
+        "API reference guides",
+        "Changelogs"
+      ],
+      "summary": "Clean, documented bidding support, but the page is developer documentation and shows no commercial terms.",
+      "verdict": "The vendor documentation describes Audience Network App Bidding as an impartial, open auction that offers each ad opportunity to several demand sources in real time. Setup guides cover Android, iOS and Unity, with API references and changelogs, and mediation integration is listed. It is a reasonable extra bid source for a studio that already runs mediation, and the docs read as a how-to rather than a sales page.",
+      "weaknesses": "The page does not name the operating company in its body and gives no revenue terms. It is documentation for integrators, so you will not find a product comparison or a feature checklist there.",
+      "wrong_for": "Beginners who want a console with analytics should choose AdMob; use Meta only as an added bidding partner.",
+      "sources": [
+        {
+          "fact": "Audience Network App Bidding runs an impartial, open auction that offers each ad opportunity to several demand sources in real time.",
+          "url": "https://developers.facebook.com/docs/audience-network/"
+        },
+        {
+          "fact": "The platform setup section covers Android, iOS and Unity.",
+          "url": "https://developers.facebook.com/docs/audience-network/"
+        },
+        {
+          "fact": "The page links to a Help Center article on getting paid but states no pricing or revenue-share terms.",
+          "url": "https://developers.facebook.com/docs/audience-network/"
+        }
+      ]
+    },
+    {
+      "slug": "mintegral",
+      "name": "Mintegral",
+      "site": "https://www.mintegral.com/",
+      "company": "Mintegral",
+      "country": "",
+      "tagline": "AI-led ad platform with playable ad tools",
+      "best_for": "Playable creatives and user acquisition",
+      "pricing": "No price is stated on the opened homepage.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "AppGrowth user acquisition",
+        "Retargeting",
+        "Monetization",
+        "Mindworks playable ad studio",
+        "Playturbo playable ad tool",
+        "Agency Partner Program"
+      ],
+      "summary": "Pairs monetization with creative tooling for playable ads, tied to a parent company named on the page.",
+      "verdict": "Mintegral describes AI-powered marketing solutions to advertise, monetize and grow a business, and names Mobvista as its parent company. Beyond monetization it lists AppGrowth for acquisition, Retargeting, Mindworks as a playable ad studio and Playturbo as a playable ad tool. Gaming apps are the first vertical named. A game team short on creative resources may find the playable tools as useful as the demand.",
+      "weaknesses": "The homepage gives no fees and little detail on mediation or bidding, and its audience includes subscription apps and e-commerce, so the pitch is broader than games. Expect to ask sales for terms.",
+      "wrong_for": "Teams focused on a single mediation console should look at Unity LevelPlay, and those wanting rewarded demand without creative tooling at Pangle.",
+      "sources": [
+        {
+          "fact": "Mintegral describes itself as offering AI-powered marketing solutions to advertise, monetize and grow a business.",
+          "url": "https://www.mintegral.com/"
+        },
+        {
+          "fact": "The page names Mobvista as Mintegral's parent company.",
+          "url": "https://www.mintegral.com/"
+        },
+        {
+          "fact": "Products named on the page include AppGrowth, Retargeting, Monetization, Mindworks and Playturbo.",
+          "url": "https://www.mintegral.com/"
+        }
+      ]
+    },
+    {
+      "slug": "liftoff",
+      "name": "Liftoff",
+      "site": "https://liftoff.ai/",
+      "company": "Liftoff, Inc.",
+      "country": "",
+      "tagline": "Growth platform with the Vungle Exchange",
+      "best_for": "Studios mixing marketing and monetization",
+      "pricing": "No price is stated on the opened homepage.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Accelerate performance marketing",
+        "Monetize",
+        "Vungle Exchange",
+        "Creative",
+        "Intelligence",
+        "Cortex AI platform"
+      ],
+      "summary": "One vendor for performance marketing, monetization and creative, with customer logos from large mobile games.",
+      "verdict": "Liftoff calls itself a growth acceleration platform for the mobile industry. Its homepage names Accelerate, Monetize, the Vungle Exchange, Creative and Intelligence, and shows customer logos including King, Playrix, Badoo, Just Eat and PrizePicks. The old liftoff.io address redirects to liftoff.ai. A studio that wants to buy installs and sell ad inventory with the same partner can consolidate there.",
+      "weaknesses": "Fees, revenue share and exchange terms are not stated. Logos on the page include non-game companies such as Just Eat, so the strength for games specifically is not documented there.",
+      "wrong_for": "Studios needing a plain mediation tool should compare Unity LevelPlay or AdMob first.",
+      "sources": [
+        {
+          "fact": "Liftoff describes itself as the leading growth acceleration platform for the mobile industry.",
+          "url": "https://liftoff.ai/"
+        },
+        {
+          "fact": "The footer copyright names Liftoff, Inc.",
+          "url": "https://liftoff.ai/"
+        },
+        {
+          "fact": "Products named on the homepage include Accelerate, Monetize, Vungle Exchange, Creative and Intelligence.",
+          "url": "https://liftoff.ai/"
+        }
+      ]
+    },
+    {
+      "slug": "chartboost",
+      "name": "Chartboost",
+      "site": "https://loopme.ai/chartboost/",
+      "company": "LoopMe",
+      "country": "",
+      "tagline": "In-app monetization now part of LoopMe",
+      "best_for": "Brand demand inside mobile apps",
+      "pricing": "No price is stated on the page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Chartboost Direct",
+        "Chartboost Monetize",
+        "Intelligent Marketplace",
+        "In-app monetization",
+        "Programmatic advertising"
+      ],
+      "summary": "A long-known name with new ownership: the page says LoopMe acquired it in 2024, so check where the product is heading.",
+      "verdict": "Chartboost is described as an in-app monetization and programmatic advertising platform that drives higher CPMs and fill rates for publishers, a vendor claim. Chartboost Direct lets publishers run brand demand inside mobile apps without changing their ad technology stack. The page also lists Chartboost Monetize and an Intelligent Marketplace. It can serve as a demand partner for a studio that wants more brand advertisers.",
+      "weaknesses": "Ownership changed in 2024 and the page now sits under LoopMe, so the roadmap is for the vendor to explain. No pricing or terms are shown, and the performance claim is not backed by a figure.",
+      "wrong_for": "Developers who want a self-serve console with an earnings calculator should open AdMob.",
+      "sources": [
+        {
+          "fact": "Chartboost is described on the page as an in-app monetization and programmatic advertising platform, acquired by LoopMe in 2024.",
+          "url": "https://loopme.ai/chartboost/"
+        },
+        {
+          "fact": "The page describes Chartboost as an in-app monetization platform that drives higher CPMs and fill rates.",
+          "url": "https://loopme.ai/chartboost/"
+        },
+        {
+          "fact": "Chartboost Direct gives publishers infrastructure to run brand demand inside mobile apps without changing their ad technology stack, per the page.",
+          "url": "https://loopme.ai/chartboost/"
+        }
+      ]
+    },
+    {
+      "slug": "tapjoy",
+      "name": "Tapjoy",
+      "site": "https://unity.com/products/tapjoy",
+      "company": "",
+      "country": "",
+      "tagline": "Rewarded offerwall marketplace hosted on Unity",
+      "best_for": "Offerwall-based rewarded engagement",
+      "pricing": "No Tapjoy-specific price is stated; the page links to a general Unity products and pricing page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "In-app rewarded offerwall",
+        "Rewarded marketplace",
+        "Offerwall user acquisition"
+      ],
+      "summary": "A rewarded marketplace rather than a mediation layer, now served from Unity's own site.",
+      "verdict": "Tapjoy's Offerwall is described as an in-app rewarded marketplace connecting top advertisers with premium publishers. The tapjoy.com address redirects to a page on unity.com, and its Get started button leads to a sales form for Offerwall user acquisition. In a free-to-play game with soft and hard currencies, an offerwall gives players a way to earn rewards while advertisers pay for completed actions.",
+      "weaknesses": "Only three features are named, and no pricing, formats, SDK platforms or revenue share are given. Offerwalls suit particular game economies and are not a general replacement for rewarded video.",
+      "wrong_for": "Games that need standard rewarded video and interstitials should start with Unity LevelPlay, AdMob or Pangle.",
+      "sources": [
+        {
+          "fact": "The Tapjoy Offerwall is described as an in-app rewarded marketplace connecting top advertisers with premium publishers.",
+          "url": "https://unity.com/products/tapjoy"
+        },
+        {
+          "fact": "The Tapjoy product page is hosted on unity.com; the tapjoy.com address redirects there.",
+          "url": "https://unity.com/products/tapjoy"
+        },
+        {
+          "fact": "The page's Get started button leads to a sales form for Offerwall user acquisition.",
+          "url": "https://unity.com/products/tapjoy"
+        }
+      ]
+    },
+    {
+      "slug": "digital-turbine",
+      "name": "Digital Turbine",
+      "site": "https://www.digitalturbine.com/",
+      "company": "DT (Digital Turbine, Inc)",
+      "country": "",
+      "tagline": "Growth platform with offerwall and on-device engagement",
+      "best_for": "Reaching users at device level",
+      "pricing": "No price is stated on the page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "DT Launchpad app distribution",
+        "DT Ads",
+        "DT Ignite on-device engagement",
+        "DT iQ AI optimization",
+        "Offerwall"
+      ],
+      "summary": "Different from the pure networks: it also reaches users through device partners, which suits larger campaigns.",
+      "verdict": "DT links advertisers, app developers and device partners in the mobile ecosystem. The homepage names DT Launchpad, DT Ads, DT Ignite and DT iQ, and states 82K apps, 1B devices and 3B users, all vendor figures. For a studio with a marketing budget, on-device distribution is a channel that standard mediation partners do not offer, and an offerwall is also listed.",
+      "weaknesses": "The pages are written for advertisers and device partners more than for app publishers wanting simple mediation. No pricing is stated, and the headline numbers are not tied to a year.",
+      "wrong_for": "A small studio that only wants to place rewarded video should choose AdMob or Unity LevelPlay.",
+      "sources": [
+        {
+          "fact": "DT (Digital Turbine, Inc) is a growth platform that links advertisers, app developers and device partners in the mobile ecosystem.",
+          "url": "https://www.digitalturbine.com/"
+        },
+        {
+          "fact": "Products named on the homepage include DT Launchpad, DT Ads, DT Ignite and DT iQ.",
+          "url": "https://www.digitalturbine.com/"
+        },
+        {
+          "fact": "The homepage states 82K apps, 1B devices and 3B users.",
+          "url": "https://www.digitalturbine.com/"
+        }
+      ]
+    },
+    {
+      "slug": "inmobi",
+      "name": "InMobi",
+      "site": "https://www.inmobi.com/",
+      "company": "InMobi",
+      "country": "",
+      "tagline": "Enterprise advertising platform inside a wider consumer business",
+      "best_for": "Larger studios buying through media teams",
+      "pricing": "No price is stated on the opened homepage.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "InMobi Advertising",
+        "Glance shopping agent",
+        "1Weather app"
+      ],
+      "summary": "Listed for completeness: the homepage presents a broad consumer platform, with gaming not featured on the opened page.",
+      "verdict": "InMobi describes itself as a GenAI-powered platform enabling brands and consumers to connect, discover and transact at scale. Its advertising offer, InMobi Advertising, is an enterprise platform with tools, data and expertise for media buyers and owners, and advertiser logos shown include Nike, Unilever and Starbucks. Large publishers with a dedicated ad operations team are the likely audience.",
+      "weaknesses": "The homepage does not mention games, mediation or rewarded video, so fit for a mobile game has to be confirmed with the vendor. No pricing is given.",
+      "wrong_for": "Studios looking for game-specific rewarded video demand should see Pangle or Unity Ads.",
+      "sources": [
+        {
+          "fact": "InMobi describes itself as a GenAI-powered platform enabling brands and consumers to connect, discover and transact at scale.",
+          "url": "https://www.inmobi.com/"
+        },
+        {
+          "fact": "The products named on the homepage are Glance, 1Weather and InMobi Advertising.",
+          "url": "https://www.inmobi.com/"
+        },
+        {
+          "fact": "InMobi Advertising is described as an enterprise platform with tools, data and expertise for media buyers and owners.",
+          "url": "https://www.inmobi.com/"
+        }
+      ]
+    },
+    {
+      "slug": "moloco",
+      "name": "Moloco",
+      "site": "https://www.moloco.com/",
+      "company": "Moloco, Inc.",
+      "country": "",
+      "tagline": "Performance advertising for mobile apps and CTV",
+      "best_for": "User acquisition at scale",
+      "pricing": "Moloco Ads uses performance-based campaign pricing, and overall pricing depends on product, campaign goals, market and level of advertising activity.",
+      "pricing_model": "Performance-based",
+      "free_plan": "Unknown",
+      "platforms": "Mobile apps and CTV",
+      "features": [
+        "User acquisition",
+        "Re-engagement",
+        "Moloco SDK",
+        "Performance CTV",
+        "CARA ad recommendation architecture",
+        "Simplified ad ops"
+      ],
+      "summary": "Mostly a buying platform for growth teams; it ranks last for monetization needs because the page centers on acquiring users.",
+      "verdict": "Moloco offers Moloco Ads for performance marketers across mobile apps and CTV, and Moloco Commerce Media for retailers. The page names user acquisition, re-engagement, a Moloco SDK and a recommendation architecture called CARA. Customer logos include Chewy, Costco and TikTok. For a game that has saturated its monetization setup and now wants to spend on growth, it belongs on the shortlist.",
+      "weaknesses": "The page is about advertisers buying, not publishers selling, and mixes retail media into the same site. Pricing depends on goals and activity, with no figures. Founding year is not stated.",
+      "wrong_for": "Developers who want to monetize their own inventory should use Unity LevelPlay or AdMob instead.",
+      "sources": [
+        {
+          "fact": "Moloco, Inc. offers Moloco Ads for performance marketers across mobile apps and CTV, and Moloco Commerce Media for retailers and marketplaces.",
+          "url": "https://www.moloco.com/"
+        },
+        {
+          "fact": "Moloco Ads uses performance-based campaign pricing, per the page.",
+          "url": "https://www.moloco.com/"
+        },
+        {
+          "fact": "The page says overall pricing depends on product, campaign goals, market and level of advertising activity.",
+          "url": "https://www.moloco.com/"
+        }
+      ]
+    }
+  ]
+}

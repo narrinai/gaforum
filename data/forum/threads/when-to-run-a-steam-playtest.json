@@ -1,0 +1,18 @@
+{
+  "id": "when-to-run-a-steam-playtest",
+  "board": "games",
+  "title": "When in development do you open a Steam playtest?",
+  "created": "2026-11-18T09:35:00Z",
+  "pinned": false,
+  "body": [
+    "Opening a playtest too early wastes the interest of people who might wishlist, and too late leaves no time to act on feedback. At what stage of your build do you start inviting outside players, and how do you pick who gets in?",
+    "The [Steamworks documentation](https://partner.steamgames.com/doc/features/playtest) describes Steam Playtest as a free way for developers to get playtesting data, and says charging customers for access is not allowed. It also notes that developers can request more than 50,000 playtest keys, but Valve reviews such requests case by case and may reject them.",
+    "Paid services recruit and record testers instead, such as the one described on the [PlaytestCloud home page](https://playtestcloud.com/). Share how you combine community playtests with structured sessions, what you track and what you changed because of it."
+  ],
+  "related": [
+    {
+      "title": "Best Playtesting Platforms in 2026",
+      "url": "/software/best-playtesting-platforms"
+    }
+  ]
+}

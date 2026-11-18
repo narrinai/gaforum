@@ -1,0 +1,250 @@
+{
+  "slug": "photon",
+  "subject": "Photon",
+  "subject_site": "https://photonengine.com/",
+  "title": "Photon Alternatives in 2026",
+  "published": "2026-11-18",
+  "category": "best-multiplayer-networking-sdks",
+  "description": "Nine multiplayer netcode options besides Photon: Mirror, FishNet, Netcode for GameObjects, Normcore, Colyseus, coherence, Nakama and more, with pricing facts.",
+  "intro": "Photon is a multiplayer development platform from Photon Engine with networking engines, voice and chat services and cloud hosting, and its homepage claims over 1.4 billion monthly players in the Photon Cloud. It does not publish prices on that page, only a Try Photon free sign-up and a mention of cost-effective plans. Teams swap it for a self-hosted library, a different hosting model or a full backend. Here are nine alternatives and what each vendor says about cost, hosting and engine support.",
+  "why_switch": [
+    "You want a networking library that carries no CCU cap or paywall, which FishNet states in its documentation.",
+    "Hosting should be yours: Colyseus deploys to AWS, Google Cloud, DigitalOcean, Fly.io, Railway or bare metal.",
+    "You want prices you can read before you integrate, as Colyseus Cloud (from $15 a month) does.",
+    "The project uses Unity and you prefer a first-party option, which Netcode for GameObjects is.",
+    "You need accounts, storage and matchmaking in the same product, as Nakama and Unity's live services offer.",
+    "A reactive database-backed approach suits your design better, which SpacetimeDB describes."
+  ],
+  "picks": [
+    {
+      "slug": "mirror",
+      "name": "Mirror",
+      "site": "https://mirror-networking.com/",
+      "best_for": "Open-source Unity networking",
+      "pricing": "Not stated; open source with a Unity Asset Store download.",
+      "free_plan": "Open source",
+      "note": "Mirror is an open source networking library for Unity. Its homepage links to a Unity Asset Store download, to documentation on GitBook and to the source on GitHub, but names no license or price. Compared with Photon, you host the servers yourself, so you gain control and lose the managed cloud. It is a natural first look for Unity teams that already run their own infrastructure.",
+      "sources": [
+        {
+          "fact": "Mirror's homepage describes it as open source networking for Unity.",
+          "url": "https://mirror-networking.com/"
+        },
+        {
+          "fact": "The homepage calls Mirror open source and links to a Unity Asset Store download; no license name or price is stated on the page.",
+          "url": "https://mirror-networking.com/"
+        },
+        {
+          "fact": "The homepage links to documentation at mirror-networking.gitbook.io/docs and to the source on GitHub.",
+          "url": "https://mirror-networking.com/"
+        }
+      ]
+    },
+    {
+      "slug": "netcode-for-gameobjects",
+      "name": "Netcode for GameObjects",
+      "site": "https://unity.com/products/netcode",
+      "best_for": "First-party Unity co-op",
+      "pricing": "No prices on its page; links to gaming services pricing.",
+      "free_plan": "Unknown",
+      "note": "Netcode for GameObjects is Unity's own netcode library, which the multiplayer page aims at casual co-op games and pairs with a Distributed Authority mode. It sits within Unity's multiplayer services, and the page links to a View pricing page without figures. Pick it if you want one vendor for engine and networking. It does not help if your game is not built on Unity.",
+      "sources": [
+        {
+          "fact": "Unity's multiplayer page describes Netcode for GameObjects as aimed at casual co-op games and includes a Distributed Authority mode.",
+          "url": "https://unity.com/products/netcode"
+        },
+        {
+          "fact": "The page does not state prices for Netcode for GameObjects; it links to a 'View pricing' page for Unity gaming services.",
+          "url": "https://unity.com/products/netcode"
+        },
+        {
+          "fact": "The page is published by Unity Technologies, per its copyright line.",
+          "url": "https://unity.com/products/netcode"
+        }
+      ]
+    },
+    {
+      "slug": "fish-networking",
+      "name": "Fish-Networking",
+      "site": "https://fish-networking.gitbook.io/",
+      "best_for": "Free server-authoritative Unity netcode",
+      "pricing": "Free; no CCU caps and no CCU paywalls.",
+      "free_plan": "Free",
+      "note": "FishNet is described in its documentation as an original free and versatile networking solution for Unity, server-authoritative by design, with the source on GitHub under FirstGearGames. The page states there are no CCU caps and no CCU paywalls, which speaks directly to cost at scale. You host the servers, so budget for your own infrastructure and operations.",
+      "sources": [
+        {
+          "fact": "The FishNet documentation describes it as an original free and versatile networking solution for Unity.",
+          "url": "https://fish-networking.gitbook.io/"
+        },
+        {
+          "fact": "The page states there are no CCU caps and no CCU paywalls.",
+          "url": "https://fish-networking.gitbook.io/"
+        },
+        {
+          "fact": "The page links the source code on GitHub at FirstGearGames/FishNet.",
+          "url": "https://fish-networking.gitbook.io/"
+        }
+      ]
+    },
+    {
+      "slug": "normcore",
+      "name": "Normcore",
+      "site": "https://normcore.io/",
+      "best_for": "Unity multiplayer with private hosting",
+      "pricing": "Start for free; pay only for what you use, no hidden fees or CCU caps; prices not stated.",
+      "free_plan": "Free plan",
+      "note": "Normcore is a multiplayer networking solution for Unity from Normal VR LLC of Brooklyn, with Normcore Public and Normcore Private lines. The homepage says you can start free and pay for what you use, with no hidden fees or CCU caps, but it does not state plan prices and shows a Contact Sales button. It also lists Private Cloud, On-Premises Hosting and Enterprise Support, useful when a customer demands data on its own servers.",
+      "sources": [
+        {
+          "fact": "Normcore is a multiplayer networking solution for Unity, published by Normal VR LLC in Brooklyn, NY, per the copyright line.",
+          "url": "https://normcore.io/"
+        },
+        {
+          "fact": "The page says developers can start for free and pay only for what they use, with no hidden fees or CCU caps; plan prices are not stated.",
+          "url": "https://normcore.io/"
+        },
+        {
+          "fact": "The page offers Private Cloud and On-Premises Hosting options and Enterprise Support.",
+          "url": "https://normcore.io/"
+        }
+      ]
+    },
+    {
+      "slug": "colyseus",
+      "name": "Colyseus",
+      "site": "https://colyseus.io/",
+      "best_for": "Node.js rooms and matchmaking",
+      "pricing": "Framework free and MIT licensed; Colyseus Cloud starts at $15 a month.",
+      "free_plan": "Open source",
+      "note": "Colyseus is an open-source real-time multiplayer framework for Node.js with built-in matchmaking, state sync and client SDKs. The homepage says it is MIT licensed and free forever, even for commercial games, and that Colyseus Cloud starts at $15 a month. The server can run on AWS, Google Cloud, DigitalOcean, Fly.io, Railway or bare metal. A good match for web and browser games, and for teams with JavaScript skills.",
+      "sources": [
+        {
+          "fact": "Colyseus's homepage describes it as an open-source real-time multiplayer framework for Node.js with matchmaking, state sync and client SDKs.",
+          "url": "https://colyseus.io/"
+        },
+        {
+          "fact": "The homepage says the framework is MIT licensed and free forever, even for commercial games; Colyseus Cloud starts at $15/mo.",
+          "url": "https://colyseus.io/"
+        },
+        {
+          "fact": "The homepage says the server can be deployed to AWS, Google Cloud, DigitalOcean, Fly.io, Railway or bare metal.",
+          "url": "https://colyseus.io/"
+        }
+      ]
+    },
+    {
+      "slug": "coherence",
+      "name": "coherence",
+      "site": "https://coherence.io/",
+      "best_for": "Unity netcode plus hosting",
+      "pricing": "No plan prices on the homepage; Start for free button.",
+      "free_plan": "Free plan",
+      "note": "coherence describes itself as the simplest way to build and host multiplayer games with Unity, which makes it the closest structural match to Photon: SDK plus hosting. The homepage has a Start for free button but shows no plan prices, and the answer to its cost FAQ is not visible. Customer logos include Devolver Digital and LEGO. Ask for a quote based on your peak players before you commit.",
+      "sources": [
+        {
+          "fact": "coherence describes itself on its homepage as the simplest way to build and host multiplayer games with Unity.",
+          "url": "https://coherence.io/"
+        },
+        {
+          "fact": "The homepage has a 'Start for free' button, but no plan prices are shown; the 'What does coherence cost?' FAQ answer is not visible.",
+          "url": "https://coherence.io/"
+        },
+        {
+          "fact": "The homepage names Devolver Digital and LEGO among its customer logos.",
+          "url": "https://coherence.io/"
+        }
+      ]
+    },
+    {
+      "slug": "spacetimedb",
+      "name": "SpacetimeDB",
+      "site": "https://spacetimedb.com/",
+      "best_for": "Reactive database as backend",
+      "pricing": "No pricing terms on the homepage; a pricing page is linked.",
+      "free_plan": "Unknown",
+      "note": "SpacetimeDB, from Clockwork Labs, is a reactive backend platform that combines a database, server logic, auth, deployment and real-time sync. It replaces the idea of a relay with one where clients subscribe to data. That is a bigger shift than swapping one netcode library for another, so it suits new projects more than rewrites. Pricing sits on a separate page.",
+      "sources": [
+        {
+          "fact": "The homepage describes Spacetime as a reactive backend platform combining database, server logic, auth, deployment and real-time sync.",
+          "url": "https://spacetimedb.com/"
+        },
+        {
+          "fact": "The footer says Spacetime is designed and engineered by Clockwork Labs.",
+          "url": "https://spacetimedb.com/"
+        },
+        {
+          "fact": "The homepage gives no pricing terms and links to a separate pricing page.",
+          "url": "https://spacetimedb.com/"
+        }
+      ]
+    },
+    {
+      "slug": "nakama",
+      "name": "Nakama",
+      "site": "https://heroiclabs.com/",
+      "best_for": "Open-source backend with realtime",
+      "pricing": "No price or license named on the homepage; Nakama OSS download offered.",
+      "free_plan": "Open source",
+      "note": "Nakama is described as a popular scalable open source game backend for building social multiplayer games, from Heroic Labs. The homepage offers a Nakama OSS download and lists Electronic Arts, Paradox Interactive, Remedy, Zynga, Halfbrick, Bandai Namco and Mattel as trusted by. It claims 2m+ peak CCU across its users. Choose it when you want accounts, matchmaking and realtime from one self-hostable server.",
+      "sources": [
+        {
+          "fact": "Nakama is described on its homepage as a popular scalable open source game backend for building social multiplayer games.",
+          "url": "https://heroiclabs.com/"
+        },
+        {
+          "fact": "The homepage offers 'Download and Install Nakama OSS'; it names no license and no price.",
+          "url": "https://heroiclabs.com/"
+        },
+        {
+          "fact": "The homepage lists Electronic Arts, Paradox Interactive, Remedy, Zynga, Halfbrick, Bandai Namco and Mattel as trusted by.",
+          "url": "https://heroiclabs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "unity-gaming-services",
+      "name": "Unity Gaming Services",
+      "site": "https://unity.com/solutions/gaming-services",
+      "best_for": "Unity's live-service tools",
+      "pricing": "Get started for free, then a pricing page; no figures on the page.",
+      "free_plan": "Unknown",
+      "note": "Unity's live services are tools for post-launch insights and live operations, listed on the page as achievements, player sign-in, leaderboards, IAP, Cloud Code, Cloud Save, Authentication, Analytics, A/B testing, Diagnostics, Cloud Content Delivery, Game Overrides and Push Notifications. The page does not use the name Unity Gaming Services. It is a services bundle, so pair it with a netcode library rather than treating it as one.",
+      "sources": [
+        {
+          "fact": "The page presents Unity's LiveOps services, called Unity Live Services, as tools for post-launch insights and live game operations.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page lists achievements, player sign-in, leaderboards, IAP, Cloud Code, Cloud Save, Authentication, Analytics, A/B testing, Diagnostics, Cloud Content Delivery, Game Overrides and Push Notifications.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page says Get started for free and links to a View Pricing page, with no figures shown.",
+          "url": "https://unity.com/solutions/gaming-services"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Split the choice in two. First, where will the servers run? Managed cloud keeps you near Photon's model, so compare coherence and Normcore; self-hosting points to Mirror, FishNet, Colyseus or Nakama. Second, what do you need beyond netcode? If it is accounts and storage, a backend such as Nakama or Unity's services belongs on the list. Ask each vendor for a quote based on your expected peak players, since several pages omit prices.",
+  "faqs": [
+    {
+      "q": "Does Photon publish its pricing?",
+      "a": "Its homepage does not. It shows a Try Photon free sign-up and mentions cost-effective pricing plans without figures, so you need the vendor's pricing pages or a quote. That is the main practical reason some teams look at libraries whose cost is stated plainly."
+    },
+    {
+      "q": "Which alternative has no player cap?",
+      "a": "FishNet states no CCU caps and no CCU paywalls, and Normcore says no CCU caps and no hidden fees. Both are for Unity. A cap-free library still carries hosting costs, since you pay for the servers that run the game."
+    },
+    {
+      "q": "Is there a non-Unity option?",
+      "a": "Colyseus targets Node.js and offers client SDKs, and Nakama and SpacetimeDB are backends rather than Unity plugins. Check each vendor's SDK list for your engine before you plan a migration, because this page only reports what the homepages state."
+    },
+    {
+      "q": "Can I keep voice and chat when leaving Photon?",
+      "a": "Photon bundles voice and chat services with its networking engines. None of the alternatives here is described as a direct voice product, so plan a separate vendor if voice matters. Unity's live services list authentication and cloud tools but no voice product on the page we opened."
+    },
+    {
+      "q": "What is the cheapest published entry price here?",
+      "a": "Colyseus Cloud starts at $15 a month per its homepage, and the Colyseus framework itself is free under MIT. Most other vendors on this list either are free libraries or do not publish plan prices on the page we opened."
+    }
+  ]
+}

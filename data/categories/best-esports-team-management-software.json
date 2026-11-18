@@ -1,0 +1,514 @@
+{
+  "slug": "best-esports-team-management-software",
+  "name": "esports team management software",
+  "title": "Best Esports Team Management Software in 2026",
+  "group": "Esports",
+  "hub": "esports",
+  "summary_line": "Team management tools keep esports rosters, scrim calendars, availability, communication and dues in one place instead of scattered chats and spreadsheets.",
+  "definition": "Esports team management software coordinates the people behind a competitive roster: who plays, when practice and scrims happen, who is available, how announcements reach everyone and how dues or prizes are tracked. Most teams assemble it from a scheduling app, a chat platform and a database or board rather than one product.",
+  "intro": "No dominant product exists for managing an esports roster, so this ranking compares what teams actually use. Dedicated sports apps such as Spond, Heja and TeamSnap handle availability and payments but come from physical sports. Calendars like Teamup add access control, chat tools such as Discord and Slack carry daily talk, and workspaces like Notion, Airtable and Trello hold rosters and playbooks. Challengermode is the one esports-native option, a competition platform with matchmaking. We read vendor pages and pricing tables, noted free tiers and per-seat costs, and ranked by how well each handles the weekly rhythm of availability, scrims and money for an amateur or semi-pro squad.",
+  "criteria": [
+    {
+      "heading": "Availability and scrim scheduling",
+      "text": "A scrim only happens when enough players confirm. Look for invites with yes and no replies, reminders, calendar sync and views for different roles. Apps built for sports teams do this by default; a generic board or database needs setup. Check whether coaches, analysts and substitutes can see different calendars."
+    },
+    {
+      "heading": "Roster and role records",
+      "text": "Teams need a place for player handles, roles, contact details and contract dates. Databases such as Airtable and Notion model this flexibly, while sports apps keep a simple member list. Decide how much structure you want before choosing, since a flexible tool takes an evening to build and a simple one takes minutes."
+    },
+    {
+      "heading": "Money and dues",
+      "text": "Collecting dues, fees or buy-ins is where free chat tools stop. Spond lists payments, TeamSnap lists registration and payments, and Heja lists fundraising. Esports-native prize handling is a different job covered by tournament software. Check the fee model and the countries a payment feature supports."
+    },
+    {
+      "heading": "Cost per seat and free tiers",
+      "text": "A ten-person roster on a per-seat plan pays ten times the sticker price. Compare free tiers first: several tools here are free for the core job. Then read what the paid plan unlocks, such as ad-free use, more users or access control, and whether prices are monthly or annual."
+    }
+  ],
+  "market_notes": [
+    "Eleven products appear, and nine of them have a free route: Challengermode (free to start), Spond, TeamSnap Classic, Heja, Notion, Airtable, Trello, Slack and Teamup's free plan. Teamup, Notion and Slack print prices, from $12 per master calendar, 9.50 euros per member per month and 6.75 euros per user per month on annual billing, while SportsEngine sells by quote. Only Teamup, headquartered in Zurich, and Notion, in San Francisco, name a home in the opened pages.",
+    "The split to understand is sports apps versus general work tools. Sports apps are fast to set up, handle RSVPs and money, and speak the language of coaches, but they assume a physical club. General tools like Notion, Airtable and Trello fit an esports org that needs analysts, content and sponsor tracking, yet require someone to build the system. Discord and Slack fill the chat gap. Most teams end up with a pair: a scheduling app and a chat server."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Count your roles before your players",
+      "text": "A five-player roster with a coach needs RSVPs and a calendar. An organization with academy squads, content staff and sponsors needs a database and permissions. Write down the roles and what each must see, then choose between a sports app and a workspace."
+    },
+    {
+      "title": "Pick the chat home first",
+      "text": "Most esports teams already live in Discord. If that is true for you, add a scheduling app that can post reminders there or sync to calendars, rather than replacing it. If your staff already pays for Slack, test whether its channels and workflows cover scrim announcements."
+    },
+    {
+      "title": "Trial the free tier with a real scrim week",
+      "text": "Run one full week of practice through the tool: post times, collect replies, track attendance and chase dues. If you end up copying data elsewhere, the fit is wrong. Only then compare paid plans on seat price and access control."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best esports team management software in 2026?",
+      "a": "Spond is first for most amateur and semi-pro squads: the team app is free, and it handles events, invites, reminders, availability requests and payments. Teamup is better when you need shared calendars with access control, and Challengermode is better when competition and matchmaking matter more than internal admin."
+    },
+    {
+      "q": "Do esports teams need special software?",
+      "a": "Not always. Most teams combine a scheduling app, a chat server and a shared database. Sports tools such as Spond and Heja cover RSVPs and reminders, and Discord covers talk. Dedicated esports products mostly target tournaments, which is a different job from running your own roster."
+    },
+    {
+      "q": "Which tool is cheapest for a small roster?",
+      "a": "Spond's team app is free, Heja is free with paid plans from $8.33 for ad-free use, and TeamSnap Classic is free. Notion, Airtable, Trello and Slack also have free plans. Teamup is free but has a 3-day trial on paid tiers that start at $12 per master calendar."
+    },
+    {
+      "q": "Can I track scrim schedules in Notion or Airtable?",
+      "a": "Yes, but you build it yourself. Notion offers databases and teamspaces at 9.50 euros per member per month on its first paid tier, and Airtable is a no-code database with a public API and per-seat plans. Neither provides RSVP reminders the way Spond or Heja do."
+    },
+    {
+      "q": "Is Discord enough for team management?",
+      "a": "For communication, usually. Discord offers voice, text and screen streaming on Windows, Mac, browser, phone and console. The homepage does not list scheduling, attendance or payment features, so pair it with a calendar or sports app."
+    },
+    {
+      "q": "How should we collect dues?",
+      "a": "Use a tool with payments built in. Spond and TeamSnap list payments, and TeamSnap also lists registration. Heja lists fundraising. Check fees and countries with each vendor, since the pages we read do not specify rates."
+    },
+    {
+      "q": "What about SportsEngine?",
+      "a": "SportsEngine targets youth clubs, teams, leagues and facilities, with registration, team stores and custom websites. It says it is now part of PlayMetrics and sells by quote, so it fits an academy program or league organizer more than a single roster."
+    }
+  ],
+  "related": [
+    "best-esports-tournament-management-software",
+    "best-esports-analytics-and-coaching-software",
+    "best-esports-data-apis",
+    "best-discord-moderation-and-community-bots",
+    "best-community-chat-platforms-for-gaming-communities",
+    "best-game-anti-cheat-software"
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "tools": [
+    {
+      "slug": "spond",
+      "name": "Spond",
+      "site": "https://www.spond.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Free team app for events, RSVPs and payments",
+      "best_for": "Amateur and semi-pro rosters",
+      "pricing": "The Spond team app is free to use; Spond Club features are listed without public prices on the opened pages.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Team app and Spond Club web features",
+      "features": [
+        "Events",
+        "Invites and reminders",
+        "Messaging",
+        "Payments",
+        "Availability requests",
+        "File storage"
+      ],
+      "summary": "Spond is a free team app for scheduling events, sending invites and reminders, messaging and collecting payments.",
+      "verdict": "Spond covers the weekly loop an esports roster runs on. The team app is free and lists events, invites and reminders, messaging, availability requests, payments and file storage. Spond Club adds club management, membership and course features for larger organizations. A coach who wants every scrim confirmed and every due collected gets there without a bill, which puts it first.",
+      "weaknesses": "Spond Club prices are not on the pages we opened. It is built for physical sports, so esports roles, game handles and match data are not part of the feature list.",
+      "wrong_for": "Skip it if your team needs databases for scouting or sponsor tracking; Airtable or Notion fit that. Competitive matchmaking belongs on Challengermode.",
+      "sources": [
+        {
+          "fact": "Spond is a free sports team management app for scheduling events and sending invites.",
+          "url": "https://www.spond.com/"
+        },
+        {
+          "fact": "Spond offers a separate Spond Club product for clubs, with club management, membership and course features.",
+          "url": "https://www.spond.com/"
+        },
+        {
+          "fact": "Spond lists sports and activities including football, rugby, cricket, basketball and netball.",
+          "url": "https://www.spond.com/"
+        }
+      ]
+    },
+    {
+      "slug": "teamup",
+      "name": "Teamup",
+      "site": "https://www.teamup.com/",
+      "company": "Teamup Solutions AG",
+      "country": "Switzerland",
+      "tagline": "Shared calendar with fine-grained access control",
+      "best_for": "Squads with staff and academy teams",
+      "pricing": "Free plan; paid plans per master calendar in USD: $12 / mo ($15 billed monthly), $30 / mo ($35 billed monthly, 25 users, extra users $3/mo each), $70 / mo ($85 billed monthly), $125 / mo ($160 billed monthly); Contact Sales for larger setups; 3-day free trial.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "Web and mobile browsers, iCalendar feeds, Microsoft Teams integration",
+      "features": [
+        "12 calendar views",
+        "Custom fields",
+        "9 levels of access control",
+        "Sync and combine calendars",
+        "Single sign-on",
+        "API"
+      ],
+      "summary": "Teamup offers a shared calendar with 12 views, 9 access levels, sync and an API, free or from $12 per master calendar.",
+      "verdict": "Teamup is a calendar built for groups with different permissions. The vendor lists 12 calendar views, 9 levels of access control, calendar sync, iCalendar feeds, single sign-on and an API. A professional org can give players, coaches and managers different views of the same scrim and travel calendar. Pricing is per master calendar, which stays flat as the roster grows, and a free plan exists.",
+      "weaknesses": "It schedules but does not collect RSVPs with payments or hold rosters, and paid plans come with a 3-day trial only. The 25-user plan charges $3 per month for extra users.",
+      "wrong_for": "Not for teams that want attendance tracking and dues in one app; Spond fits. Teams wanting chat should add Discord.",
+      "sources": [
+        {
+          "fact": "Teamup is a customizable shared calendar for business with 12 calendar views and 9 levels of access control.",
+          "url": "https://www.teamup.com/"
+        },
+        {
+          "fact": "Teamup offers a free plan and paid plans from $12 / mo, with a 3-day free trial on paid plans.",
+          "url": "https://www.teamup.com/pricing/"
+        },
+        {
+          "fact": "Teamup's pricing applies per master calendar, and its 25-user plan can add users at $3/mo each.",
+          "url": "https://www.teamup.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "challengermode",
+      "name": "Challengermode",
+      "site": "https://www.challengermode.com",
+      "company": "",
+      "country": "",
+      "tagline": "Esports-native competition and matchmaking platform",
+      "best_for": "Teams entering regular competitions",
+      "pricing": "Free to start, per the site; a developer pricing page exists, but its prices were not readable.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "200+ games in 80+ countries (as stated on the site)",
+      "features": [
+        "Tournaments",
+        "Matchmaking",
+        "Gamification"
+      ],
+      "summary": "Challengermode runs tournaments and matchmaking across 200+ games and is free to start, linking a roster to competitive play.",
+      "verdict": "Challengermode is the only entry here made for esports. The vendor says it runs tournaments, matchmaking and gamification across 200+ games in 80+ countries, free to start. A team that wants a regular schedule of matches against outside opponents gets fixtures without arranging each one by hand. It sits third because internal admin, such as RSVPs and dues, is not in the facts.",
+      "weaknesses": "No team scheduling, payments or roster records are described on the pages we read. The developer pricing page showed no figures, and the platform is about competition rather than internal operations.",
+      "wrong_for": "Skip it if your problem is internal coordination; Spond or Teamup solve that. Organizers running events should read our tournament ranking.",
+      "sources": [
+        {
+          "fact": "Challengermode describes itself as a competition management platform for gaming, running tournaments, matchmaking and gamification.",
+          "url": "https://www.challengermode.com"
+        },
+        {
+          "fact": "The Challengermode site says it covers 200+ games and 80+ countries and is trusted by KRAFTON, Ubisoft, EA and BLAST.",
+          "url": "https://www.challengermode.com"
+        },
+        {
+          "fact": "The Challengermode site says it is free to start.",
+          "url": "https://www.challengermode.com"
+        }
+      ]
+    },
+    {
+      "slug": "discord",
+      "name": "Discord",
+      "site": "https://discord.com/",
+      "company": "Discord",
+      "country": "",
+      "tagline": "Voice and text chat where most teams already are",
+      "best_for": "Daily communication and scrim calls",
+      "pricing": "No prices on the homepage; it links to a Nitro page (discord.com/nitro).",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Windows, Mac, browser, phone, console",
+      "features": [
+        "Voice and text chat",
+        "Low-latency streaming",
+        "Custom emoji, stickers and soundboard",
+        "Activities and built-in games",
+        "Developer Portal",
+        "Multiple group chats"
+      ],
+      "summary": "Discord supplies voice, text, video and streaming on PC, phone and console, but lists no scheduling or payment features.",
+      "verdict": "Discord is where scrims actually get discussed. The homepage describes a group chat app for gaming with voice and text chat, low-latency streaming and multiple group chats, on Windows, Mac, browser, phone and console. It also advertises a Developer Portal and Apps and Activities, so teams can add bots for reminders. For talk, nothing on this list competes; for management, it needs help.",
+      "weaknesses": "The homepage shows no prices and no availability, roster or payment tools, so those need bots or another app. Everything stays in chat history, which is hard to audit later.",
+      "wrong_for": "Not a standalone team system; pair it with Spond or Teamup. Staff who want structured records should look at Airtable.",
+      "sources": [
+        {
+          "fact": "Discord describes itself as a group chat app for gaming and for hanging out with friends or building communities.",
+          "url": "https://discord.com"
+        },
+        {
+          "fact": "The homepage says Discord is available on PC, phone and console, with Windows and Mac downloads and browser access.",
+          "url": "https://discord.com"
+        },
+        {
+          "fact": "The homepage links to Nitro (discord.com/nitro) and shows no prices.",
+          "url": "https://discord.com"
+        }
+      ]
+    },
+    {
+      "slug": "heja",
+      "name": "Heja",
+      "site": "https://heja.io",
+      "company": "Heja",
+      "country": "",
+      "tagline": "Free team app for schedules and carpools",
+      "best_for": "Youth and club squads with parents",
+      "pricing": "Free app; paid plans from $8.33 (period not stated on the page) add ad-free use; the vendor offers talks with sales for several club teams.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Mobile app and web",
+      "features": [
+        "Team schedule",
+        "Availability replies",
+        "Team messaging",
+        "Carpool organizing",
+        "Calendar sync",
+        "Fundraising"
+      ],
+      "summary": "Heja handles schedules, availability replies, messaging, carpool organizing and fundraising, free with paid plans from $8.33.",
+      "verdict": "Heja is a communication-first team app. It lists a team schedule, availability replies, team messaging, calendar sync, carpool organizing and fundraising, and the vendor says 500,000+ teams use it. For a youth or school esports club where parents need updates, the carpool and fundraising pieces are unusually relevant. The app is free, and paid plans from $8.33 add ad-free use.",
+      "weaknesses": "The period for the $8.33 price is not stated on the page. The product was designed for physical sports and mentions no esports roles or game data.",
+      "wrong_for": "Skip it for professional rosters needing access control; Teamup fits. Teams that need dues beyond fundraising should read Spond.",
+      "sources": [
+        {
+          "fact": "Heja is a free sports team management and communication app for coaches, parents and players.",
+          "url": "https://heja.io"
+        },
+        {
+          "fact": "Heja's paid plans start from $8.33 and add ad-free use.",
+          "url": "https://heja.io/pricing"
+        },
+        {
+          "fact": "Heja says it is trusted by 500,000+ teams.",
+          "url": "https://heja.io"
+        }
+      ]
+    },
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "site": "https://www.notion.com",
+      "company": "Notion Labs, Inc.",
+      "country": "United States",
+      "tagline": "Workspace for playbooks, rosters and docs",
+      "best_for": "Orgs with staff and sponsor tracking",
+      "pricing": "Free plan at €0 per member per month; paid tiers at €9.50 and €19.50 per member per month; Enterprise by contact sales.",
+      "pricing_model": "Per seat / month",
+      "free_plan": "Free plan",
+      "platforms": "Web and desktop/mobile apps (Download the Notion App)",
+      "features": [
+        "Capture and docs",
+        "Find answers with citations",
+        "AI agents",
+        "Teamspaces",
+        "Databases",
+        "Notion AI"
+      ],
+      "summary": "Notion offers docs, databases and teamspaces, free at 0 euros per member and 9.50 euros on its first paid tier.",
+      "verdict": "Notion suits an organization that has to document more than schedules. The vendor describes docs, databases, teamspaces and AI agents, with a free plan and paid tiers at 9.50 and 19.50 euros per member per month. A coach can keep strategy playbooks, a roster database and sponsor notes in one place. Notion Labs is based in San Francisco, per its About page.",
+      "weaknesses": "It has no RSVP reminders or payment collection in the pages we read, and the setup is manual. A per-member price grows with the staff list.",
+      "wrong_for": "Not for teams that only need availability and dues; Spond does that faster. Teams wanting a visual board may prefer Trello.",
+      "sources": [
+        {
+          "fact": "Notion is an AI workspace where teams capture knowledge, find answers with citations and automate work with agents.",
+          "url": "https://www.notion.com"
+        },
+        {
+          "fact": "Notion Labs, Inc. is the company named in the Notion site footer.",
+          "url": "https://www.notion.com/about"
+        },
+        {
+          "fact": "Notion's pricing page lists a free plan at €0 per member per month, with paid tiers at €9.50 and €19.50 per member per month.",
+          "url": "https://www.notion.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "teamsnap",
+      "name": "TeamSnap",
+      "site": "https://www.teamsnap.com/",
+      "company": "TeamSnap",
+      "country": "",
+      "tagline": "Team and league platform for youth sports",
+      "best_for": "Clubs needing registration and payments",
+      "pricing": "TeamSnap Classic is free; TeamSnap ONE for clubs and leagues is priced to the organization's needs (quote, book a demo); optional TeamSnap+ subscription.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Web and mobile apps (TeamSnap Classic and TeamSnap ONE)",
+      "features": [
+        "Schedules",
+        "Messages",
+        "Roster management",
+        "Registration and payments",
+        "Live streaming",
+        "Website builder"
+      ],
+      "summary": "TeamSnap lists schedules, rosters, registration, payments, a website builder and live streaming, with a free Classic app.",
+      "verdict": "TeamSnap brings team, club and league management together. TeamSnap Classic is free, and TeamSnap ONE for clubs and leagues is priced by quote. Its feature list includes schedules, messages, roster management, registration and payments, tournaments and a website builder. A school or club esports program with many teams and parents can use the registration and payment side. It ranks seventh because the focus is youth sports.",
+      "weaknesses": "TeamSnap ONE prices are not published, and the optional TeamSnap+ subscription is not priced on the pages read. Nothing mentions esports titles or competitive data.",
+      "wrong_for": "Skip it for a single five-player roster; Spond is lighter. Clubs wanting only a calendar should use Teamup.",
+      "sources": [
+        {
+          "fact": "TeamSnap is a team, club and league management platform for youth sports.",
+          "url": "https://www.teamsnap.com/"
+        },
+        {
+          "fact": "TeamSnap says free team management is available through TeamSnap Classic, with paid plans for extra features.",
+          "url": "https://www.teamsnap.com/pricing"
+        },
+        {
+          "fact": "TeamSnap ONE is a paid platform for clubs and leagues, priced by quote.",
+          "url": "https://www.teamsnap.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "airtable",
+      "name": "Airtable",
+      "site": "https://www.airtable.com",
+      "company": "Airtable",
+      "country": "",
+      "tagline": "No-code database for rosters and scouting",
+      "best_for": "Custom roster and contract tracking",
+      "pricing": "Free plan; Team and Business plans are charged per seat for users with edit permission on a base; Enterprise plans by contact sales.",
+      "pricing_model": "Per seat / month",
+      "free_plan": "Free plan",
+      "platforms": "Web, with a public API",
+      "features": [
+        "Custom business apps",
+        "Guest users",
+        "Data visualizations",
+        "CRM data across teams",
+        "Airtable API",
+        "AI workflows"
+      ],
+      "summary": "Airtable lets teams build roster databases and workflows, with a free plan and per-seat paid plans.",
+      "verdict": "Airtable is the flexible option for structured data. The vendor describes a no-code platform for business apps and workflows on shared databases, with guest users, data visualizations and a public API. An esports org can model players, roles, contracts, tryouts and sponsor deliverables in linked tables. Free plans have free users, and Team and Business charge per seat for editors.",
+      "weaknesses": "Nothing in the facts offers RSVP replies or payment collection, and building a good base takes hours. Paid plan prices were not in the text we read.",
+      "wrong_for": "Not for a small squad that wants scrim confirmations; use Spond. Teams wanting simple cards should open Trello.",
+      "sources": [
+        {
+          "fact": "Airtable is a no-code platform for building business apps, workflows and AI agents.",
+          "url": "https://www.airtable.com"
+        },
+        {
+          "fact": "Airtable plans are charged per seat, and on Free plans all users are free.",
+          "url": "https://airtable.com/pricing"
+        },
+        {
+          "fact": "Airtable offers a public API, documented at airtable.com/developers.",
+          "url": "https://www.airtable.com"
+        }
+      ]
+    },
+    {
+      "slug": "trello",
+      "name": "Trello",
+      "site": "https://trello.com",
+      "company": "Trello, Inc.",
+      "country": "",
+      "tagline": "Board-style task tracker with automation",
+      "best_for": "Simple tasks and tryout pipelines",
+      "pricing": "Free plan; paid Standard, Premium and Enterprise plans (prices are not in the extracted text).",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Web and mobile",
+      "features": [
+        "Boards",
+        "Inbox",
+        "Planner",
+        "Automation",
+        "Power-Ups",
+        "Templates"
+      ],
+      "summary": "Trello gives boards, an inbox, planner view, automation and Power-Ups, with a free plan and paid Standard, Premium and Enterprise tiers.",
+      "verdict": "Trello makes a tryout pipeline or content schedule easy to see: cards move across columns from applicant to trial to signed. It lists boards, an Inbox, Planner, automation, templates and Power-Ups, and a free plan exists. Trello became a separate company when it spun off from Fog Creek in July 2014. It handles tasks well but treats calendars and replies as add-ons.",
+      "weaknesses": "Paid plan prices were not in the extracted text. It does not collect availability or payments in the pages read, and Power-Ups are needed for calendar views.",
+      "wrong_for": "Skip it for scrim scheduling; use Teamup or Spond. Data-heavy rosters belong in Airtable.",
+      "sources": [
+        {
+          "fact": "Trello is a board tool for organizing to-dos and projects, with Inbox, Planner and automation.",
+          "url": "https://trello.com"
+        },
+        {
+          "fact": "Trello offers a free plan and paid Standard, Premium and Enterprise plans.",
+          "url": "https://trello.com/pricing"
+        },
+        {
+          "fact": "Trello became a separate company, Trello, Inc., when it spun off from Fog Creek in July 2014.",
+          "url": "https://trello.com/about"
+        }
+      ]
+    },
+    {
+      "slug": "slack",
+      "name": "Slack",
+      "site": "https://slack.com",
+      "company": "Slack Technologies, LLC",
+      "country": "",
+      "tagline": "Team messaging with channels and huddles",
+      "best_for": "Staff-heavy organizations already on Slack",
+      "pricing": "Free plan at €0 forever; paid plans per user per month, with €6.75 per user per month billed annually and €15 per user per month billed annually on the higher tier, per the pricing page.",
+      "pricing_model": "Per user / month",
+      "free_plan": "Free",
+      "platforms": "",
+      "features": [
+        "Channels",
+        "Slack Connect",
+        "Huddles",
+        "Canvas",
+        "Lists",
+        "Workflows"
+      ],
+      "summary": "Slack provides channels, huddles, canvas docs, lists and workflows, with a free plan and paid tiers from 6.75 euros per user.",
+      "verdict": "Slack serves esports organizations that run like small companies, with managers, analysts and partners talking in channels. The vendor lists channels, Slack Connect, huddles, canvas, lists and workflows, with a free plan and paid tiers at 6.75 and 15 euros per user per month on annual billing. Salesforce acquired it in 2021. Players, though, mostly live on Discord.",
+      "weaknesses": "Per-user pricing adds up for large rosters, and the facts show no availability, RSVP or payment tools. Players usually prefer Discord, so you may run two chat systems.",
+      "wrong_for": "Not for player communication; use Discord. Teams needing dues should pick Spond or TeamSnap.",
+      "sources": [
+        {
+          "fact": "Slack is an AI work platform for channels, huddles, canvas docs and workflow automation.",
+          "url": "https://slack.com"
+        },
+        {
+          "fact": "Slack offers a free plan at €0 forever, with paid plans priced per user per month.",
+          "url": "https://slack.com/pricing"
+        },
+        {
+          "fact": "Slack was acquired by Salesforce in 2021, according to its About page.",
+          "url": "https://slack.com/about"
+        }
+      ]
+    },
+    {
+      "slug": "sportsengine",
+      "name": "SportsEngine",
+      "site": "https://www.sportsengine.com/",
+      "company": "SportsEngine, LLC",
+      "country": "",
+      "tagline": "Sports management suite for clubs and leagues",
+      "best_for": "Academies and league organizers",
+      "pricing": "All-inclusive price with no monthly subscription fees, per the HQ pricing page; figures are not in the extracted text. A free demo can be booked.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Web-based management software and live event streaming (SportsEngine Play)",
+      "features": [
+        "Clubs, teams and leagues management",
+        "Live event streaming",
+        "Registration",
+        "Background screenings",
+        "Team stores",
+        "Custom websites"
+      ],
+      "summary": "SportsEngine bundles HQ, Motion, Play, Tourney and AES products for clubs, leagues and facilities, sold by quote.",
+      "verdict": "SportsEngine is the heaviest product on the list. It offers clubs, teams and leagues management, registration, background screenings, team stores, custom websites and live event streaming, and it says 45,000 organizations use it. The vendor was founded in 2008 and now belongs to PlayMetrics, per its banner. An esports academy running several squads and a league might use it, but a single roster will not.",
+      "weaknesses": "Pricing is quote only, described as all-inclusive with no monthly subscription fees but with no figures in the text. It is aimed at traditional youth sports and adds setup overhead.",
+      "wrong_for": "Skip it for one team; Spond or Heja are lighter. Event-only organizers should consider the tournament tools in our other ranking.",
+      "sources": [
+        {
+          "fact": "SportsEngine is sports management software for clubs, teams and leagues, with HQ, Motion, Play, Tourney and AES products.",
+          "url": "https://www.sportsengine.com/"
+        },
+        {
+          "fact": "SportsEngine says its all-inclusive price has no monthly subscription fees.",
+          "url": "https://www.sportsengine.com/hq/pricing"
+        },
+        {
+          "fact": "The SportsEngine site states that SportsEngine is now part of PlayMetrics.",
+          "url": "https://www.sportsengine.com/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "slug": "gamemaker",
+  "subject": "GameMaker",
+  "subject_site": "https://gamemaker.io/",
+  "title": "GameMaker Alternatives in 2026",
+  "published": "2026-11-18",
+  "category": "best-2d-game-engines",
+  "description": "Nine 2D engines and frameworks to try when GameMaker's tiers or workflow stop fitting: Godot, GDevelop, Defold, Solar2D, LOVE, Stencyl and more.",
+  "intro": "GameMaker is a 2D game engine that its vendor calls The Friendly Indie Game Engine, with a free tier, a Professional tier for commercial release and an Enterprise tier that adds console release. Developers who outgrow it usually hit one of three walls: how licenses are tiered, how the project is scripted, or where the game can ship. The nine tools below answer those walls differently, and every claim comes from the vendor's own pages as read on 18 November 2026.",
+  "why_switch": [
+    "Commercial release needs Professional and console release needs Enterprise, and the homepage shows no prices for either, which makes budgeting harder.",
+    "You want an open-source or MIT-licensed engine, such as Godot, Solar2D or LOVE, so the tool cannot change terms under you.",
+    "You prefer a different language: Lua powers Solar2D and LOVE, and Defold and Godot bring their own scripting.",
+    "A no-code editor suits your team better, as GDevelop and Stencyl are built around.",
+    "You want the same project to grow into 3D, which Godot, Defold and Unity cover.",
+    "Your target is the browser or a phone, where a lighter framework or a mobile-leaning engine may fit more directly."
+  ],
+  "picks": [
+    {
+      "slug": "godot",
+      "name": "Godot",
+      "site": "https://godotengine.org/",
+      "best_for": "Free open-source 2D with a 3D path",
+      "pricing": "Free and open source.",
+      "free_plan": "Open source",
+      "note": "Godot is a free, open-source 2D and 3D engine. For a GameMaker developer, the draw is a license question with a one-line answer: the homepage says free and open source and states no other pricing. The creators are Juan Linietsky and Ariel Manzur, and the Godot Foundation hosts the project. You gain 3D headroom and no tiers; you lose GameMaker's narrow 2D focus and its listed Enterprise console route.",
+      "sources": [
+        {
+          "fact": "Godot is described on the vendor homepage as a free, open-source 2D and 3D game engine.",
+          "url": "https://godotengine.org/"
+        },
+        {
+          "fact": "The homepage makes no pricing statement beyond calling Godot a free, open-source game engine.",
+          "url": "https://godotengine.org/"
+        },
+        {
+          "fact": "The latest download listed on the homepage is Godot 4.7.2.",
+          "url": "https://godotengine.org/"
+        }
+      ]
+    },
+    {
+      "slug": "gdevelop",
+      "name": "GDevelop",
+      "site": "https://gdevelop.io/",
+      "best_for": "Event-based, no-code 2D and 3D",
+      "pricing": "Open source engine; Silver and Gold paid plans, prices not shown on the homepage.",
+      "free_plan": "Open source",
+      "note": "GDevelop calls itself a free, open-source, no-code engine for 2D and 3D games. Where GameMaker has tiers tied to release rights, GDevelop lists two paid plans, Silver and Gold, without figures in the page text. Exports include web, Android, Steam and iOS in one click. Good for creators who want to ship fast without writing code, less so for programmers who want full control of the engine.",
+      "sources": [
+        {
+          "fact": "GDevelop is described on the vendor homepage as a free, open-source, no-code game engine for 2D and 3D games.",
+          "url": "https://gdevelop.io/"
+        },
+        {
+          "fact": "The homepage lists Silver and Gold paid plans, but the prices are not shown in the page text.",
+          "url": "https://gdevelop.io/"
+        },
+        {
+          "fact": "The homepage says games can be published to web, Android, Steam and iOS, with one-click exporting.",
+          "url": "https://gdevelop.io/"
+        }
+      ]
+    },
+    {
+      "slug": "defold",
+      "name": "Defold",
+      "site": "https://defold.com/",
+      "best_for": "Cross-platform engine with no royalties",
+      "pricing": "Free forever; no royalties, no runtime fee.",
+      "free_plan": "Free",
+      "note": "Defold is a free, all-in-one engine for cross-platform 2D and 3D games. The homepage says free forever, source available, no royalties and no runtime fee. Its target list includes Xbox, PlayStation 5, PlayStation 4, Switch, Steam, iOS, Android and HTML5, with Xbox support free for approved developers from Defold 1.14.0. A direct answer to GameMaker's console-tier question, though it asks you to learn a different workflow.",
+      "sources": [
+        {
+          "fact": "Defold is described on the homepage as a free, powerful, all-in-one game engine for cross-platform 2D and 3D games.",
+          "url": "https://defold.com/"
+        },
+        {
+          "fact": "The homepage states Defold is free forever, source available under a developer-friendly license, with no royalties and no runtime fee.",
+          "url": "https://defold.com/"
+        },
+        {
+          "fact": "The homepage lists targets including Xbox, PlayStation 5, PlayStation 4, Nintendo Switch, Steam, iOS, Android and HTML5.",
+          "url": "https://defold.com/"
+        }
+      ]
+    },
+    {
+      "slug": "unity",
+      "name": "Unity",
+      "site": "https://unity.com/",
+      "best_for": "Commercial engine, 2D and 3D",
+      "pricing": "Free start or a paid plan; no figures on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Unity is a real-time 3D and 2D engine for developing, deploying and growing games. The homepage lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro. Compared with GameMaker, you gain a much wider platform list and an engine built for 3D as well. You give up simplicity, and you must read the separate plans page to learn what a paid plan costs.",
+      "sources": [
+        {
+          "fact": "Unity is described on its homepage as the world's leading game engine for developing, deploying and growing games.",
+          "url": "https://unity.com/"
+        },
+        {
+          "fact": "The homepage says you can get started for free or find a plan, and links to Plans and pricing without showing figures.",
+          "url": "https://unity.com/"
+        },
+        {
+          "fact": "The homepage lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro as platforms.",
+          "url": "https://unity.com/"
+        }
+      ]
+    },
+    {
+      "slug": "cocos-creator",
+      "name": "Cocos Creator",
+      "site": "https://cocos.com/",
+      "best_for": "2D and 3D with a mobile ecosystem",
+      "pricing": "No price or license statement on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Cocos Creator is a cross-platform graphics engine and real-time 3D content creation platform for 2D and 3D games. The homepage claims it hosts over 70% of game content development and names ARM, Meta, Google and Microsoft among partners. It gives no price or license statement, so confirm terms before switching. It suits teams building for many devices who want a single editor.",
+      "sources": [
+        {
+          "fact": "Cocos Creator is described on the vendor homepage as a cross-platform graphics engine and real-time 3D content creation platform.",
+          "url": "https://cocos.com/"
+        },
+        {
+          "fact": "The homepage gives no price and no product license statement; it shows a download button and a link to a store.",
+          "url": "https://cocos.com/"
+        },
+        {
+          "fact": "The homepage states it hosts over 70% of game content development and lists partners including ARM, Meta, Google and Microsoft.",
+          "url": "https://cocos.com/"
+        }
+      ]
+    },
+    {
+      "slug": "solar2d",
+      "name": "Solar2D",
+      "site": "https://solar2d.com/",
+      "best_for": "Lua-based open-source 2D",
+      "pricing": "Free under the MIT license; no hidden fees, charges or royalties.",
+      "free_plan": "Open source",
+      "note": "Solar2D is a Lua-based, open source 2D engine focused on fast iteration, forked from the Corona SDK. The homepage states an MIT license with no hidden fees, charges or royalties. Build targets include iOS, tvOS, Android, Android TV, macOS, Windows, Linux and HTML5. A fit for developers who like a small scripting language and a quick edit-and-run loop; it has no console targets listed.",
+      "sources": [
+        {
+          "fact": "Solar2D is described on the homepage as a Lua-based, open source 2D game engine, forked from the Corona SDK.",
+          "url": "https://solar2d.com/"
+        },
+        {
+          "fact": "The homepage states Solar2D is released under the MIT license with no hidden fees, charges or royalties.",
+          "url": "https://solar2d.com/"
+        },
+        {
+          "fact": "The homepage lists Solar2D LLC at 30 N Gould St Ste R, Sheridan, WY 82801.",
+          "url": "https://solar2d.com/"
+        }
+      ]
+    },
+    {
+      "slug": "love",
+      "name": "LOVE",
+      "site": "https://love2d.org/",
+      "best_for": "Code-only 2D framework in Lua",
+      "pricing": "Free; zlib/libpng license; commercial use without limitations.",
+      "free_plan": "Open source",
+      "note": "LOVE (LÖVE) is a free, open-source framework for making 2D games in Lua, licensed zlib/libpng. The homepage lists version 11.5 and builds for Windows, macOS, Linux, Android (APK) and iOS (source and libraries). It is a framework with no editor, so you trade GameMaker's visual room and object tools for code. Best for programmers who want the least between them and the game loop.",
+      "sources": [
+        {
+          "fact": "LÖVE is described on the homepage as a free, open-source framework for making 2D games in Lua.",
+          "url": "https://love2d.org/"
+        },
+        {
+          "fact": "The homepage says LÖVE is licensed under the liberal zlib/libpng license and costs nothing, with commercial use without limitations.",
+          "url": "https://love2d.org/"
+        },
+        {
+          "fact": "The homepage lists the current version as 11.5.",
+          "url": "https://love2d.org/"
+        }
+      ]
+    },
+    {
+      "slug": "stencyl",
+      "name": "Stencyl",
+      "site": "https://stencyl.com/",
+      "best_for": "No-code creation for mobile, web, desktop",
+      "pricing": "No prices or plan names on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Stencyl is a no-code game creation tool for mobile, web and desktop. Its homepage lists iOS, Android, Windows, Mac, Linux and HTML5 export targets and claims 500,000 developers have adopted it. It links to a pricing section without stating any figures. A reasonable match for makers who like GameMaker's approachable style and want block-based logic instead of scripts.",
+      "sources": [
+        {
+          "fact": "Stencyl is described on its homepage as the easiest way to create games for mobile, web and desktop without code.",
+          "url": "https://stencyl.com/"
+        },
+        {
+          "fact": "The homepage links to a pricing section but states no prices or plan names.",
+          "url": "https://stencyl.com/"
+        },
+        {
+          "fact": "The homepage lists iOS, Android, Windows, Mac, Linux and HTML5 as export targets.",
+          "url": "https://stencyl.com/"
+        }
+      ]
+    },
+    {
+      "slug": "buildbox",
+      "name": "Buildbox",
+      "site": "https://buildbox.com/",
+      "best_for": "Games without scripting",
+      "pricing": "Not stated; a Get Buildbox link leads to a download page.",
+      "free_plan": "Unknown",
+      "note": "Buildbox describes itself on its games page as software that lets anyone create games regardless of technical skill, with no scripting, programming or software design experience. The page shows a Get Buildbox link but no price or free trial. It is the lightest-touch option here, and the one with the least public detail, so confirm terms and export targets before relying on it.",
+      "sources": [
+        {
+          "fact": "Buildbox's games page describes it as the world's first software that truly allows anyone to create amazing games regardless of technical skill.",
+          "url": "https://buildbox.com/games"
+        },
+        {
+          "fact": "The games page says Buildbox needs no scripting, programming or software design experience.",
+          "url": "https://buildbox.com/games"
+        },
+        {
+          "fact": "The games page shows a Get Buildbox link to a download page and states no price or free trial.",
+          "url": "https://buildbox.com/games"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Sort by what failed you in GameMaker. If it was cost predictability, look at Godot, Solar2D or LOVE, which publish open licenses. If it was console release, read Defold's target list and Unity's. If it was scripting, choose by language: Lua for Solar2D or LOVE, no-code for GDevelop, Stencyl or Buildbox. Then rebuild one small level, a menu and a save screen in the finalist to see how long the move really takes.",
+  "faqs": [
+    {
+      "q": "Which GameMaker rival has no license tiers at all?",
+      "a": "Godot calls itself free and open source, Solar2D and LOVE state permissive licenses, and Defold says free forever with no royalties or runtime fee. None of these ties release rights to a paid tier, according to their own homepages."
+    },
+    {
+      "q": "Do any of these export to consoles?",
+      "a": "Defold lists Xbox, PlayStation 5, PlayStation 4 and Switch. Unity lists Switch, PlayStation and Xbox. GameMaker itself reserves console release for Enterprise. Console programs have their own platform approvals, so treat an engine's target list as a start, not a guarantee."
+    },
+    {
+      "q": "I like GameMaker's ease. Which pick feels closest?",
+      "a": "Stencyl and GDevelop aim at approachable, no-code creation, and GDevelop adds an open-source engine. Godot is friendlier than most code-heavy tools, though it uses its own concepts. Try a one-hour prototype in each rather than judging from screenshots."
+    },
+    {
+      "q": "Is Lua a good reason to move?",
+      "a": "Solar2D and LOVE are both Lua-based, which suits people who prefer a compact scripting language. LOVE is a code-only framework, while Solar2D describes fast iteration. The deciding factor is usually your existing code and whether you want an editor."
+    },
+    {
+      "q": "Which options let me add 3D later?",
+      "a": "Godot, Defold, GDevelop and Unity are described as handling 3D alongside 2D. Solar2D, LOVE and Stencyl are presented as 2D tools on their homepages, so they suit games that will stay flat."
+    }
+  ]
+}

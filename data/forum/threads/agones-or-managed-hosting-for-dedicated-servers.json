@@ -1,0 +1,22 @@
+{
+  "id": "agones-or-managed-hosting-for-dedicated-servers",
+  "board": "games",
+  "title": "Agones on your own cloud or managed hosting for dedicated servers?",
+  "created": "2026-11-18T09:28:00Z",
+  "pinned": false,
+  "body": [
+    "Once a game outgrows peer-to-peer or a single rented box, someone has to run fleets of dedicated servers. Do you operate Kubernetes yourself with an open source tool, or pay a managed platform to handle allocation and regions?",
+    "The [Agones homepage](https://agones.dev/) describes it as an open source platform to host, run and scale dedicated game servers on Kubernetes, and as a Cloud Native Computing Foundation sandbox project. The [Edgegap pricing page](https://edgegap.com/pricing) shows a managed alternative billed by the minute on usage, with a free trial, which is one example of how managed pricing is structured.",
+    "Share what your traffic looks like (spiky or steady), how many regions you cover and who on the team carries the pager. Reports of costs or outages you hit are welcome, with as much specificity as you are able to share."
+  ],
+  "related": [
+    {
+      "title": "Best Dedicated Game Server Orchestration Platforms in 2026",
+      "url": "/software/best-dedicated-game-server-orchestration-platforms"
+    },
+    {
+      "title": "Amazon GameLift Alternatives in 2026",
+      "url": "/alternatives/amazon-gamelift"
+    }
+  ]
+}

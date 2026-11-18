@@ -1,0 +1,457 @@
+{
+  "slug": "best-remote-play-and-game-streaming-software",
+  "name": "remote play and game streaming software",
+  "title": "Best Remote Play and Game Streaming Software in 2026",
+  "group": "Streaming and creators",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Remote play software streams a game from your own PC to a TV, phone or laptop; this ranking weighs client reach, cost and gaming focus.",
+  "definition": "Remote play software captures the screen, audio and controller input of a PC you own or rent and sends them to another device over your network or the internet. It covers couch play from a bedroom PC, travel play on a laptop, and general remote desktop tools that can also carry a game.",
+  "intro": "This category is about one idea: the PC stays where it is, and the game shows up somewhere else. That can mean a living room TV, a handheld, a phone or a hotel laptop. Tools in this space split into three families. Game-first streamers such as Moonlight, Sunshine, Steam Remote Play and Parsec are tuned for frame rate and controllers. Cloud services such as GeForce NOW move the PC into a data center. General remote desktop products such as Splashtop, AnyDesk, TeamViewer, Jump Desktop and Chrome Remote Desktop are designed for support and office work, and gaming is a side use. We read vendor pages, repositories and pricing pages, and we did not benchmark latency. Position comes from gaming focus, device reach, cost and how clearly the vendor documents what it does.",
+  "criteria": [
+    {
+      "heading": "Built for games or for support",
+      "text": "Ask what the tool was designed to carry. Moonlight advertises up to 4K with HDR and up to 120 FPS, while Parsec describes itself as a remote desktop for work or games with a 4:4:4 color mode. Splashtop, AnyDesk and TeamViewer lean on remote support and device management in their own descriptions. Chrome Remote Desktop mentions screen sharing and support. A support tool can show a game, but nothing on the vendor pages promises controller handling or frame pacing."
+    },
+    {
+      "heading": "Where the client runs",
+      "text": "Match the client list to the screens you own. Moonlight lists Windows, macOS, Linux, Steam Link, iOS, Android, Amazon FireOS, ChromeOS, Xbox and more. Chrome Remote Desktop works from a phone, tablet or another computer. Steam Remote Play ties into the Steam Mobile App. Check for a TV or handheld client before choosing, since that is where most players want the stream. The host side is a separate question."
+    },
+    {
+      "heading": "Host setup and ownership",
+      "text": "Some tools require you to run your own host. Sunshine is a self-hosted game stream host for Moonlight and is open source under GPL-3.0. Parsec connects to a computer you own or rent. GeForce NOW removes the host by renting NVIDIA's servers and streaming stores you own. Self-hosting costs nothing in fees but you handle ports, drivers and updates, whereas hosted services cost money and take that work away."
+    },
+    {
+      "heading": "Price and licensing",
+      "text": "Open source tools cost nothing: Moonlight is an open source client and Sunshine is GPL-3.0. Parsec shows Pro at $9.99 or $8.33 depending on billing. Splashtop lists several tiers from $6 per month billed annually, with a free trial. TeamViewer sells annual subscriptions with a 30-day trial, and AnyDesk uses licenses from Solo to Ultimate. Check whether a free tier covers personal and non-commercial use before assuming a tool is free for your situation."
+    }
+  ],
+  "market_notes": [
+    "Across the ten entries, two are open source (Moonlight and Sunshine), four publish prices or tiers in readable text (Parsec, Splashtop and, in part, TeamViewer and AnyDesk by license or trial), and four show no price at all (Steam Remote Play, Chrome Remote Desktop, GeForce NOW and Jump Desktop, whose pricing link returned a 404 when we opened it). Only five entries are built around games first. The rest were designed for remote support and carry games as a secondary use.",
+    "The main trade-off is polish against cost. Open source streaming from Moonlight and Sunshine reaches the most devices at no cost but expects you to configure a host. Steam Remote Play is simple if your library lives on Steam. Parsec trades a subscription for easier setup and a trial. Support-focused tools make sense only when you also need to administer machines, since their pricing is built around technicians and teams, not players."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Count your screens and hosts",
+      "text": "Write down the PC that will host the game and every device that will receive it: TV, phone, handheld, laptop. Compare that list with each client list, starting with Moonlight, which names the widest set of platforms. If the only receiver is another Windows laptop, nearly any tool works; if it is an Apple TV or Fire stick, the list narrows quickly."
+    },
+    {
+      "title": "Test on your home network first",
+      "text": "Run a stream over your own Wi-Fi or a cable to the same router before trying a remote link. Sunshine with Moonlight costs nothing to try, Steam Remote Play is built into Steam, and Parsec offers a trial. If a local stream stutters, a long-distance one will not improve, and you will have learned that without paying for anything."
+    },
+    {
+      "title": "Add paid tiers only for a reason",
+      "text": "Move to a paid product when you need something a free tool lacks: a managed connection, team seats, or a host-free option such as GeForce NOW. Parsec Teams, Splashtop and TeamViewer make sense when several people connect to shared machines. For a single player streaming at home, the free route is usually enough, and the savings pay for a better router."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best remote play and game streaming software in 2026?",
+      "a": "Moonlight with Sunshine is the best choice for most PC owners because both are open source, Moonlight lists clients for Windows, macOS, Linux, iOS, Android and Xbox, and it advertises up to 4K HDR at 120 FPS. Parsec is better if you want a polished app with a trial, and Steam Remote Play is better for a Steam-only library."
+    },
+    {
+      "q": "Is Moonlight free?",
+      "a": "Yes. Moonlight is described as an open source game streaming client, and its site lists no price. It needs a compatible host, and Sunshine, which is licensed under GPL-3.0, is the open source host most people pair with it. Costs come only from your own network and hardware."
+    },
+    {
+      "q": "Do I need a GPU on the host for game streaming?",
+      "a": "The vendor pages we read do not list GPU requirements for the host, so check the Sunshine and Parsec documentation before buying hardware. In general, the host PC runs the game and encodes the video, which is why GeForce NOW can replace it with NVIDIA's servers."
+    },
+    {
+      "q": "Can I use AnyDesk or TeamViewer for gaming?",
+      "a": "You can connect with them, but their pages describe remote access, support and device management, not controller input or frame rate targets. For play, Moonlight, Parsec or Steam Remote Play are described more closely for games. Use AnyDesk or TeamViewer when a technician needs access to a machine."
+    },
+    {
+      "q": "How does Steam Remote Play compare with Moonlight?",
+      "a": "Steam Remote Play is part of the Steam store and links to the Steam Mobile App, so setup is simple if you buy games on Steam. Moonlight is open source, lists more client platforms and can stream any game on the host, not only Steam titles."
+    },
+    {
+      "q": "Which tools show prices?",
+      "a": "Parsec lists Pro at $9.99 or $8.33 and Teams at $35 or $30. Splashtop lists plans from $6 per month billed annually and a free trial. TeamViewer shows annual subscriptions with a 30-day trial. Moonlight and Sunshine are free; Steam Remote Play, Chrome Remote Desktop and Jump Desktop showed no price in the text we read."
+    },
+    {
+      "q": "When is GeForce NOW better than streaming my own PC?",
+      "a": "When your PC is weak or you travel with a thin laptop. GeForce NOW streams games from stores such as Steam, Epic and GOG on NVIDIA servers, with a top tier described as reaching 5K at 120 FPS. If your own PC is strong and you are mostly at home, local streaming costs less."
+    }
+  ],
+  "related": [
+    "best-cloud-gaming-services",
+    "best-game-capture-and-recording-software",
+    "best-streaming-software-for-gamers",
+    "best-pixel-streaming-and-cloud-game-streaming-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "moonlight",
+      "name": "Moonlight",
+      "site": "https://moonlight-stream.org",
+      "company": "",
+      "country": "",
+      "tagline": "Open source client for streaming your PC games",
+      "best_for": "Players with a PC and many screens",
+      "pricing": "No price listed; open source client.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, macOS, Linux, Steam Link, Raspberry Pi 4, iOS, Apple TV, Android, Amazon FireOS, ChromeOS, Xbox One and Xbox Series S|X, plus several homebrew consoles and TVs",
+      "features": [
+        "Game streaming from a PC",
+        "Up to 4K streaming with HDR",
+        "Up to 120 FPS streaming",
+        "Self-hosted cloud gaming server (with Sunshine)",
+        "Open source client"
+      ],
+      "summary": "It lists the broadest client set, advertises 4K HDR at up to 120 FPS and costs nothing.",
+      "verdict": "Moonlight earns first place by reaching almost any screen. The site calls it an open source game streaming client that plays PC games remotely on nearly any device, and lists downloads for Windows, macOS, Linux, Steam Link, iOS, Android, Amazon FireOS, ChromeOS and Xbox One and Series consoles. It states streaming of up to 4K with HDR at up to 120 FPS, and it implements NVIDIA's GameStream protocol.",
+      "weaknesses": "Moonlight is only the client, so you need a host such as Sunshine. The 4K and 120 FPS figures are the vendor's own, and the pages we read do not give host hardware requirements.",
+      "wrong_for": "Skip it if you want a single app that includes the host and support; Parsec packages that. Players with no capable PC should consider GeForce NOW.",
+      "sources": [
+        {
+          "fact": "Moonlight is an open source game streaming client that lets users play their PC games remotely on almost any device.",
+          "url": "https://moonlight-stream.org"
+        },
+        {
+          "fact": "The Moonlight site says it can stream at up to 4K with HDR and at up to 120 FPS with the PC client.",
+          "url": "https://moonlight-stream.org"
+        },
+        {
+          "fact": "The Moonlight site lists client downloads for Windows, macOS, Linux, Steam Link, iOS, Android, Amazon FireOS, ChromeOS and Xbox One and Xbox Series S|X.",
+          "url": "https://moonlight-stream.org"
+        }
+      ]
+    },
+    {
+      "slug": "sunshine",
+      "name": "Sunshine",
+      "site": "https://github.com/SunshineStream/Sunshine",
+      "company": "",
+      "country": "",
+      "tagline": "Self-hosted game stream host for Moonlight",
+      "best_for": "Self-hosters pairing with Moonlight",
+      "pricing": "Open source under the GPL-3.0 license, per the GitHub repository.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Host software for the PC running the games (the GitHub repository and LizardByte site do not list the platforms in the text read)",
+      "features": [
+        "Self-hosted game stream host",
+        "Works with Moonlight clients",
+        "Open source",
+        "Documentation in the repository"
+      ],
+      "summary": "A free, GPL-3.0 host that pairs with Moonlight clients and keeps everything on your own hardware.",
+      "verdict": "Sunshine takes second place as the host half of the open source route. Its repository describes a self-hosted game stream host for Moonlight and licenses it under GPL-3.0, and the LizardByte site presents its projects as self-hosted cloud gaming software. Together with Moonlight it replaces a paid service while keeping you in control of ports, accounts and updates.",
+      "weaknesses": "The repository and LizardByte pages do not list supported host platforms in the text we read, and it has no commercial support listed. You manage network setup yourself.",
+      "wrong_for": "Avoid it if you do not want to configure software; Parsec or Steam Remote Play are simpler. If you want no host at all, look at GeForce NOW.",
+      "sources": [
+        {
+          "fact": "Sunshine is a self-hosted game stream host for Moonlight, according to its GitHub repository description.",
+          "url": "https://github.com/SunshineStream/Sunshine"
+        },
+        {
+          "fact": "The Sunshine repository is licensed under GPL-3.0.",
+          "url": "https://github.com/SunshineStream/Sunshine"
+        }
+      ]
+    },
+    {
+      "slug": "parsec",
+      "name": "Parsec",
+      "site": "https://parsec.app/",
+      "company": "",
+      "country": "",
+      "tagline": "Remote desktop and game streaming in one app",
+      "best_for": "Low-friction setup for friends and teams",
+      "pricing": "The pricing page shows the Pro plan at $9.99 and $8.33 (the page toggles between monthly and annual billing) and a Teams plan at $35 and $30, with a Start Trial button.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "Low-latency remote desktop",
+        "4:4:4 color mode",
+        "Teams plan",
+        "Game streaming"
+      ],
+      "summary": "A single app for streaming a PC, with Pro and Teams plans, a trial and a 4:4:4 color mode.",
+      "verdict": "Parsec ranks third because setup is easy compared with a self-hosted stack. The vendor calls it a remote desktop for connecting to work, games or projects, lists the Pro plan at $9.99 or $8.33 depending on billing and Teams at $35 or $30, and offers a trial. The pricing page mentions improved color through 4:4:4 mode on the professional plan.",
+      "weaknesses": "It is a paid subscription for its full feature set. Client and host platform lists were not in the text we captured, and no company or country detail was recorded.",
+      "wrong_for": "Skip it if you want zero fees; Moonlight with Sunshine is free. Support teams managing many machines may prefer Splashtop.",
+      "sources": [
+        {
+          "fact": "Parsec describes itself as a remote desktop for connecting to work, games or projects wherever you are.",
+          "url": "https://parsec.app/"
+        },
+        {
+          "fact": "The pricing page shows $9.99 and $8.33 for the Pro plan, with a toggle between monthly and annual billing.",
+          "url": "https://parsec.app/pricing"
+        },
+        {
+          "fact": "The pricing page lists a Teams plan at $35 and $30 and offers a Start Trial.",
+          "url": "https://parsec.app/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "steam-link",
+      "name": "Steam Remote Play",
+      "site": "https://store.steampowered.com/remoteplay",
+      "company": "Valve Corporation",
+      "country": "",
+      "tagline": "Valve's built-in way to play Steam games remotely",
+      "best_for": "Steam-only libraries",
+      "pricing": "No price is shown on the Remote Play page opened.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Remote play of Steam games"
+      ],
+      "summary": "Part of Steam with a mobile app link, so no separate account or purchase is shown on the page.",
+      "verdict": "Steam Remote Play fits players whose collection lives entirely on Steam. The page, owned by Valve Corporation, invites you to play your games in new ways and links to the Steam Mobile App. Since it sits inside the Steam store and client, there is nothing extra to buy that the page mentions, and setup is likely quick.",
+      "weaknesses": "The page we opened gave little detail on supported devices or quality settings, and no price. It covers Steam games, so titles from other stores are not part of the pitch.",
+      "wrong_for": "Avoid it if you play on several stores; Moonlight streams the whole desktop. Players without a strong host should look at GeForce NOW.",
+      "sources": [
+        {
+          "fact": "The Steam Remote Play page is titled Steam Remote Play and says: Play your games in exciting new ways with Steam Remote Play.",
+          "url": "https://store.steampowered.com/remoteplay"
+        },
+        {
+          "fact": "The Steam Remote Play page is part of the Steam store and is copyright Valve Corporation.",
+          "url": "https://store.steampowered.com/remoteplay"
+        },
+        {
+          "fact": "The Steam Remote Play page links to the Steam Mobile App.",
+          "url": "https://store.steampowered.com/remoteplay"
+        }
+      ]
+    },
+    {
+      "slug": "geforce-now",
+      "name": "GeForce NOW",
+      "site": "https://www.nvidia.com/en-us/geforce-now/",
+      "company": "NVIDIA Corporation",
+      "country": "",
+      "tagline": "NVIDIA servers instead of your own host",
+      "best_for": "Travelers without a strong PC",
+      "pricing": "Paid Performance and Ultimate memberships; amounts were not readable on the page.",
+      "pricing_model": "Subscription",
+      "free_plan": "Unknown",
+      "platforms": "Cloud streaming (device list not captured from the opened pages)",
+      "features": [
+        "Stream owned games",
+        "Steam, Epic, GOG, PC Game Pass and Ubisoft Connect libraries",
+        "Install-to-Play",
+        "Ultimate membership with 50-Series servers",
+        "DLSS"
+      ],
+      "summary": "It replaces the host PC with NVIDIA servers and streams games from stores you already use.",
+      "verdict": "GeForce NOW is fifth because it solves a different problem. Instead of streaming your PC, it streams games from Steam, Epic, GOG, PC Game Pass and Ubisoft Connect libraries on NVIDIA servers. The membership page lists Performance and Ultimate tiers, with 50-Series servers described as reaching up to 5K at 120 FPS and 360 FPS on Ultimate. Install-to-Play is for paid members.",
+      "weaknesses": "Membership amounts were not readable on the page, and you stream only supported games, not your desktop. Top-tier numbers are the vendor's claims.",
+      "wrong_for": "Skip it if you already own a capable PC; Moonlight and Sunshine cost nothing. Players who want a catalog without buying games should check a cloud service with its own library.",
+      "sources": [
+        {
+          "fact": "GeForce NOW lets players stream games from connected stores such as Steam, Epic, GOG, PC Game Pass and Ubisoft Connect.",
+          "url": "https://www.nvidia.com/en-us/geforce-now/"
+        },
+        {
+          "fact": "The membership page lists Performance and Ultimate membership tiers.",
+          "url": "https://www.nvidia.com/en-us/geforce-now/memberships/"
+        },
+        {
+          "fact": "The membership page says the 50-Series servers enable up to 5K 120 resolution and 360 FPS, available with Ultimate.",
+          "url": "https://www.nvidia.com/en-us/geforce-now/memberships/"
+        }
+      ]
+    },
+    {
+      "slug": "splashtop",
+      "name": "Splashtop",
+      "site": "https://www.splashtop.com",
+      "company": "",
+      "country": "",
+      "tagline": "Remote access and support with published plans",
+      "best_for": "Small teams and IT-adjacent players",
+      "pricing": "Plans from $6 per month (billed annually at $72) for the starting plan; $8.25 per user per month for individual users (billed annually at $99 per user); $13 per user per month (billed annually at $149 per user); $22 per month per concurrent tech licence (billed annually at $259 or $399). Some plans say Get Price Quote.",
+      "pricing_model": "Per user / month",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "Remote access",
+        "Remote support",
+        "Enterprise SSO",
+        "On-prem option",
+        "Endpoint management",
+        "Real-time patch management (add-on)"
+      ],
+      "summary": "Published tiers from $6 per month billed annually, a free trial and enterprise options.",
+      "verdict": "Splashtop is sixth because its pricing is clear but its focus is elsewhere. The site offers remote access for individuals and small teams, remote support for IT teams and enterprise SSO. The pricing page lists a starting plan at $6 per month billed annually at $72, $8.25 per user per month for individuals, $13 per user per month and $22 per month per concurrent tech license, with a free trial.",
+      "weaknesses": "Nothing in the pages we read describes game streaming, controllers or frame rate. Pricing is aimed at users and technicians, and some plans require a price quote.",
+      "wrong_for": "Avoid it if you want gaming performance; Moonlight or Parsec are the better match. Personal use on a budget points to Chrome Remote Desktop.",
+      "sources": [
+        {
+          "fact": "Splashtop offers remote access for individuals and small teams, remote support for IT teams, and enterprise remote access and support with SSO.",
+          "url": "https://www.splashtop.com"
+        },
+        {
+          "fact": "The Splashtop pricing page lists a starting plan at $6 per month, billed annually at $72.",
+          "url": "https://www.splashtop.com/pricing"
+        },
+        {
+          "fact": "The Splashtop pricing page lists $8.25 per user per month for individual users, billed annually at $99 per user, and offers a free trial.",
+          "url": "https://www.splashtop.com/pricing"
+        },
+        {
+          "fact": "The Splashtop pricing page lists $13 per user per month (billed annually at $149 per user) and $22 per month per concurrent tech licence.",
+          "url": "https://www.splashtop.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "chrome-remote-desktop",
+      "name": "Chrome Remote Desktop",
+      "site": "https://remotedesktop.google.com",
+      "company": "",
+      "country": "",
+      "tagline": "Google's browser-linked remote access",
+      "best_for": "Quick access to a home PC",
+      "pricing": "No price is shown on the page opened.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Access from a phone, tablet or another computer (as stated on the page)",
+      "features": [
+        "Access my computer",
+        "Share my screen",
+        "Real-time screen sharing",
+        "Remote support"
+      ],
+      "summary": "Connects to a home or work computer from a phone, tablet or another computer, with screen sharing.",
+      "verdict": "Chrome Remote Desktop is seventh as a no-fuss option for reaching your PC. The page says users can access a home or work computer remotely or share their screen, from a phone, tablet or another computer, and describes real-time screen sharing for collaboration and remote support. It suits checking a download or starting a game launcher from elsewhere.",
+      "weaknesses": "The page shows no price and gives no frame rate, resolution or controller support details. It is described for access and sharing, not for playing.",
+      "wrong_for": "Skip it if you want to play at full quality; Moonlight lists 4K HDR streaming. Teams that need support workflows are better served by Splashtop.",
+      "sources": [
+        {
+          "fact": "Chrome Remote Desktop lets users access their home or work computer remotely or share their screen with others.",
+          "url": "https://remotedesktop.google.com"
+        },
+        {
+          "fact": "The Chrome Remote Desktop page says it can be used from a phone, tablet or another computer.",
+          "url": "https://remotedesktop.google.com"
+        },
+        {
+          "fact": "The Chrome Remote Desktop page describes real-time screen sharing for collaboration and remote support.",
+          "url": "https://remotedesktop.google.com"
+        }
+      ]
+    },
+    {
+      "slug": "jump-desktop",
+      "name": "Jump Desktop",
+      "site": "https://jumpdesktop.com",
+      "company": "",
+      "country": "",
+      "tagline": "Remote desktop with individual and team paths",
+      "best_for": "Apple-leaning users",
+      "pricing": "The home page links to a Pricing page, but the URL jumpdesktop.com/pricing returned HTTP 404 and no prices were read; Enterprise licensing is handled through business inquiries.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Remote desktop",
+        "Automatic setup",
+        "Teams product",
+        "Enterprise licensing"
+      ],
+      "summary": "Fast, secure remote desktop with automatic setup and separate individual and team products.",
+      "verdict": "Jump Desktop is eighth. The home page describes fast, secure remote desktop for any computer, with separate paths for individuals and teams, links to Teams documentation and a security paper, and enterprise licensing through business inquiries. Automatic setup is a listed feature, which helps non-technical users.",
+      "weaknesses": "The pricing URL returned a 404 when we opened it, so no amounts could be read. Nothing on the page addresses games or controllers, and platforms were not listed in the text.",
+      "wrong_for": "Avoid it if you need documented game streaming; Moonlight or Parsec fit better. Enterprise teams should compare TeamViewer.",
+      "sources": [
+        {
+          "fact": "Jump Desktop describes itself as fast, secure remote desktop for any computer.",
+          "url": "https://jumpdesktop.com"
+        },
+        {
+          "fact": "The Jump Desktop home page offers separate paths For Individuals and For Teams, and lists enterprise licensing.",
+          "url": "https://jumpdesktop.com"
+        },
+        {
+          "fact": "The Jump Desktop home page links to Teams documentation and a Teams security paper.",
+          "url": "https://jumpdesktop.com"
+        }
+      ]
+    },
+    {
+      "slug": "anydesk",
+      "name": "AnyDesk",
+      "site": "https://support.anydesk.com",
+      "company": "",
+      "country": "",
+      "tagline": "Remote access with Solo to Ultimate licenses",
+      "best_for": "IT staff managing machines",
+      "pricing": "Licences from Solo to Ultimate, managed as a subscription; the licence prices were not in the text read (the AnyDesk pricing pages returned HTTP 403).",
+      "pricing_model": "Subscription",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Remote access",
+        "Licence registration and management",
+        "Standard, Advanced and Ultimate licences"
+      ],
+      "summary": "Remote access built around licenses from Solo to Ultimate, with documentation in many languages.",
+      "verdict": "AnyDesk comes ninth because its documentation centers on licensing and administration. The help center covers getting started, pricing, license and billing, and user guides, and its index lists licenses from Solo to Ultimate and pages for purchasing, registering and upgrading. The help center is available in 10 languages.",
+      "weaknesses": "License prices were not readable because the pricing pages returned HTTP 403. The pages we read do not mention game streaming, controller input or frame rates.",
+      "wrong_for": "Skip it for play; Moonlight or Parsec target games. If you only need a technician tool with a trial, TeamViewer lists a 30-day one.",
+      "sources": [
+        {
+          "fact": "The AnyDesk help center covers getting started, pricing, licence and billing, and user guides for the AnyDesk client.",
+          "url": "https://support.anydesk.com"
+        },
+        {
+          "fact": "The AnyDesk documentation index lists AnyDesk licences from Solo to Ultimate.",
+          "url": "https://support.anydesk.com/llms.txt"
+        },
+        {
+          "fact": "The AnyDesk documentation index includes pages on purchasing a licence, registering it, managing the subscription and upgrading the licence.",
+          "url": "https://support.anydesk.com/llms.txt"
+        }
+      ]
+    },
+    {
+      "slug": "teamviewer",
+      "name": "TeamViewer",
+      "site": "https://www.teamviewer.com/nl/",
+      "company": "",
+      "country": "",
+      "tagline": "Remote access platform for businesses",
+      "best_for": "Companies with managed device fleets",
+      "pricing": "Annual subscriptions, paid and renewed yearly; a free 30-day trial is listed for the products on the pricing overview (page in Dutch; prices not read).",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "Remote access",
+        "Remote support",
+        "Device monitoring and management",
+        "TeamViewer ONE platform",
+        "Digital employee experience (DEX)"
+      ],
+      "summary": "A digital workplace platform with annual subscriptions and a free 30-day trial.",
+      "verdict": "TeamViewer closes the list because its pitch is organizational. The site describes a digital workplace platform with products including TeamViewer Remote, Tensor, DEX, Frontline and ONE. The pricing overview lists annual subscriptions, paid and renewed yearly, and a free 30-day trial for its products. For a company already using it, remote access to a PC is built in.",
+      "weaknesses": "We read the Dutch-language page, and amounts were not captured. Nothing on the pages mentions games, and an annual commitment is a poor match for casual play.",
+      "wrong_for": "Avoid it if you only want to stream games at home; Moonlight and Sunshine are free. Smaller teams may find Splashtop's tiers simpler.",
+      "sources": [
+        {
+          "fact": "TeamViewer describes itself as a digital workplace platform with products including TeamViewer Remote, Tensor, DEX, Frontline and ONE.",
+          "url": "https://www.teamviewer.com/nl/"
+        },
+        {
+          "fact": "The TeamViewer pricing overview lists a free 30-day trial for its products.",
+          "url": "https://www.teamviewer.com/nl/pricing/overview/"
+        },
+        {
+          "fact": "TeamViewer says it offers annual subscriptions, which are paid and renewed on a yearly basis.",
+          "url": "https://www.teamviewer.com/nl/pricing/overview/"
+        }
+      ]
+    }
+  ]
+}

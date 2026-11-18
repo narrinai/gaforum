@@ -1,0 +1,158 @@
+{
+  "a": "applovin-max",
+  "b": "unity-levelplay",
+  "a_name": "AppLovin MAX",
+  "b_name": "Unity LevelPlay",
+  "a_site": "https://www.applovin.com/en",
+  "b_site": "https://unity.com/products/levelplay",
+  "category": "best-mobile-game-ad-networks-and-mediation",
+  "title": "AppLovin MAX vs Unity LevelPlay: Which Fits Your Team in 2026?",
+  "description": "AppLovin MAX and Unity LevelPlay are ad mediation platforms for mobile games. Compare integration, platforms, payments and what neither publishes about fees.",
+  "intro": "AppLovin MAX and Unity LevelPlay are ad mediation platforms that let a mobile game call several ad networks through one SDK. Neither vendor shows a mediation fee or fill rate on the pages we opened, so this comparison covers what the documentation does state: platforms, integration paths, network support and how money reaches you. Treat fill and fee questions as items to put in writing with each vendor before you integrate.",
+  "verdict": "Choose LevelPlay when your game is built in Unity, or in Flutter or React Native, and you want the SDK and Editor integration Unity documents. Choose MAX when you want AppLovin's own exchange and Ads Manager demand inside the same mediation stack and are happy with the dashboard-led setup AppLovin describes. Because fees and fill are unpublished, run both in a split test before you commit.",
+  "pick_a": "Pick AppLovin MAX if you want bidding and traditional network connections, custom SDK connections and direct payment from AppLovin's Exchange and Ads Manager in one account.",
+  "pick_b": "Pick Unity LevelPlay if you want mediation configured through the LevelPlay platform with SDKs for Unity, Android, iOS, Flutter, React Native and Adobe AIR, and integration from the Unity Editor.",
+  "rows": [
+    {
+      "label": "Company",
+      "a": "AppLovin.",
+      "b": "Unity Technologies."
+    },
+    {
+      "label": "What it is",
+      "a": "MAX, AppLovin's ad mediation for monetizing mobile apps.",
+      "b": "An ad mediation platform for publishers to drive revenue and control monetization."
+    },
+    {
+      "label": "Platforms",
+      "a": "Android, Fire OS and iOS apps.",
+      "b": "SDKs for Unity, Android, iOS, Adobe AIR, Flutter and React Native."
+    },
+    {
+      "label": "Network connections",
+      "a": "Bidding and traditional connections; custom SDK networks for unsupported ones.",
+      "b": "Mediated networks listed per SDK in the documentation."
+    },
+    {
+      "label": "Pricing or fees",
+      "a": "Not stated on the opened documentation pages.",
+      "b": "Not stated; the product page has only a generic Pricing link."
+    },
+    {
+      "label": "Free option",
+      "a": "Unknown.",
+      "b": "Unknown."
+    },
+    {
+      "label": "Own demand",
+      "a": "AppLovin Exchange and Ads Manager pay you directly.",
+      "b": "Not described on the opened pages."
+    },
+    {
+      "label": "Payment methods",
+      "a": "Direct deposit or ACH, wire transfer, check and PayPal, subject to local rules.",
+      "b": "Not described on the opened pages."
+    },
+    {
+      "label": "Setup path",
+      "a": "Seven-step guide: account, ad unit, SDK, test, creative review, waterfall and launch.",
+      "b": "Integrate directly from the Unity Editor or an SDK, then set options in the LevelPlay platform."
+    },
+    {
+      "label": "Children's apps",
+      "a": "Not part of the Families Self Certified Ads SDK Program.",
+      "b": "Check LevelPlay's regulations and settings pages."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "What the pages say, and what they leave out",
+      "text": [
+        "The plan for this page was mediation fill and fees, but neither vendor offers those figures in the documentation we opened. The AppLovin Support Center explains how to monetize with MAX and how payments work, and Unity's product page says LevelPlay helps publishers drive higher revenue and get total monetization control. Neither gives a fee schedule or a fill rate.",
+        "That gap is useful to know. Any claim about fill or take rate that you see elsewhere should come from a vendor contract, your own dashboard or a controlled test, and we do not repeat unsourced numbers here."
+      ]
+    },
+    {
+      "h2": "Platforms and engines",
+      "text": [
+        "AppLovin's guide asks you to choose Android, Fire OS or iOS when you add an app in MAX, and then integrate the AppLovin SDK on that platform. For iOS it points to the App Transparency Tracking prompt and the MAX Terms and Privacy Policy Flow.",
+        "Unity documents LevelPlay SDKs for Unity, Android, iOS, Adobe AIR, Flutter and React Native, plus a LevelPlay Platform for mediation settings. The product page adds that integration is available directly from the Unity Editor. If your studio ships Unity games, that is the shortest path; if you use a Flutter or React Native app, LevelPlay lists those SDKs on its documentation index."
+      ]
+    },
+    {
+      "h2": "Networks and custom connections",
+      "text": [
+        "MAX supports many networks across bidding and traditional connections. You download each network's SDK, add the adapter and register your app with that network first, and the network must approve you. For networks MAX does not officially support, a custom SDK connection exists, with the catch that AppLovin cannot troubleshoot problems with it.",
+        "LevelPlay's documentation has a Mediated networks section for each SDK, with an integration test suite. Open the list for your platform and compare it to the networks you already work with. The difference that matters is the specific partners you need, not the count."
+      ]
+    },
+    {
+      "h2": "How you get paid",
+      "text": [
+        "AppLovin pays you directly for impressions from the AppLovin Exchange and Ads Manager, and your other advertising partners pay you for revenue from their channels. Impressions served through Google Open Bidding are paid by Google. The payment FAQ lists direct deposit or ACH, wire transfer, check and PayPal, with fees and minimum thresholds depending on the option and local regulations.",
+        "The Unity pages we opened do not describe payment methods or thresholds for LevelPlay. Ask for the payment terms, currency options and any minimum payout in writing, and compare them with AppLovin's FAQ."
+      ]
+    },
+    {
+      "h2": "Running a fair test",
+      "text": [
+        "Pick one title with steady daily traffic and run a split of new users between the two stacks for at least two weeks, using the same networks where both support them. Compare revenue per thousand impressions, fill by country, crash rate and SDK size, and note support response times.",
+        "Before the test, request each vendor's fee terms and data-sharing conditions in writing, and check the child-directed settings you need. AppLovin states it is not part of the Families Self Certified Ads SDK Program, which matters if your game is aimed at children."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which one has lower mediation fees?",
+      "a": "We cannot say. The AppLovin and Unity pages we opened do not publish a mediation fee. Ask each vendor for terms in writing and compare them against revenue in a test."
+    },
+    {
+      "q": "Does LevelPlay only work for Unity games?",
+      "a": "No. Unity documents LevelPlay SDKs for Unity, Android, iOS, Adobe AIR, Flutter and React Native. Integration from the Unity Editor is an extra path for Unity projects."
+    },
+    {
+      "q": "Which platforms does MAX support?",
+      "a": "AppLovin's getting-started guide lets you add an app on Android, Fire OS or iOS. Check the SDK integration guides for your engine, since the guide describes platform-specific steps."
+    },
+    {
+      "q": "How do I get paid by AppLovin?",
+      "a": "AppLovin pays directly for impressions from its Exchange and Ads Manager, and lists direct deposit or ACH, wire transfer, check and PayPal, depending on local rules. Other networks pay you for their own channels."
+    },
+    {
+      "q": "Can I use a network that MAX does not support?",
+      "a": "Yes, through a custom SDK connection. You build the adapter with that network and test it yourself, since AppLovin cannot troubleshoot unsupported networks."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "AppLovin's getting-started guide covers monetizing a mobile app with MAX in seven steps for Android, Fire OS or iOS.",
+      "url": "https://support.applovin.com/en/max/getting-started/"
+    },
+    {
+      "fact": "The guide says MAX supports many networks across bidding and traditional connections and mediates unsupported networks through a custom SDK connection that AppLovin cannot troubleshoot.",
+      "url": "https://support.applovin.com/en/max/getting-started/"
+    },
+    {
+      "fact": "The guide says AppLovin pays you directly for impressions from the AppLovin Exchange or Ads Manager and that AppLovin is not part of the Families Self Certified Ads SDK Program.",
+      "url": "https://support.applovin.com/en/max/getting-started/"
+    },
+    {
+      "fact": "The payment FAQ lists direct deposit or ACH, wire transfer, check and PayPal, and says Google Open Bidding impressions are paid by Google.",
+      "url": "https://support.applovin.com/en/max/faq/faq-applovin-monetization-payment"
+    },
+    {
+      "fact": "Unity LevelPlay is an ad mediation platform that helps publishers drive higher revenue, acquire new players and get total monetization control, with integration from the Unity Editor and an SDK.",
+      "url": "https://unity.com/products/levelplay"
+    },
+    {
+      "fact": "The LevelPlay page does not state pricing; it has a generic Pricing link and a Get started button.",
+      "url": "https://unity.com/products/levelplay"
+    },
+    {
+      "fact": "Unity documentation lists LevelPlay SDKs for Unity, Android, iOS, Adobe AIR, Flutter and React Native, plus a LevelPlay Platform for mediation settings.",
+      "url": "https://docs.unity.com/en-us/grow/levelplay"
+    }
+  ],
+  "slug": "applovin-max-vs-unity-levelplay",
+  "published": "2026-11-18"
+}

@@ -1,0 +1,1574 @@
+[
+  {
+    "slug": "ggleap",
+    "name": "GGLeap",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.ggcircuit.com/ggleap",
+    "company": "ggCircuit",
+    "hq": "Brownsburg, Indiana, USA",
+    "country": "United States",
+    "country_code": "US",
+    "what_it_is": "Esports venue management software for gaming centers and LAN cafes, covering PC booking, point of sale, loyalty, tournaments and remote management.",
+    "platforms": "Web admin panel, venue client software on the PCs, and a player web portal",
+    "pricing": "Not published on the opened pages; the vendor asks prospects to request a demo.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "PC booking system",
+      "Point of sale with Stripe payments",
+      "Player web portal",
+      "Event Builder challenges and quests",
+      "Coins and rewards",
+      "Membership user groups",
+      "Coupon system",
+      "Game license management"
+    ],
+    "notable": [
+      "Add-on marketplace for third-party tools such as POS, loyalty and SSO",
+      "Works with ggRock diskless boot platform",
+      "Company overview gives 2008 as the official founding year and says ggCircuit is a brand under Esports Entertainment Group"
+    ],
+    "facts": [
+      {
+        "fact": "ggLeap is esports venue management software for gaming centers and LAN cafes, offered by ggCircuit.",
+        "url": "https://www.ggcircuit.com/ggleap"
+      },
+      {
+        "fact": "ggCircuit is headquartered in Brownsburg, Indiana, USA, and operates as a brand under Esports Entertainment Group.",
+        "url": "https://www.ggcircuit.com/company-overview"
+      },
+      {
+        "fact": "ggLeap includes a PC booking system, a player web portal, a point of sale with Stripe payments and a coupon system.",
+        "url": "https://www.ggcircuit.com/ggleap"
+      },
+      {
+        "fact": "Pricing is not published; the vendor asks prospects to request a demo.",
+        "url": "https://www.ggcircuit.com/ggleap"
+      }
+    ]
+  },
+  {
+    "slug": "repeat-gg",
+    "name": "Repeat.gg",
+    "status": "dropped",
+    "drop_reason": "Repeat.gg has permanently shut down; the vendor site at repeat.gg says it is no longer operating.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "pandascore",
+    "name": "PandaScore",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.pandascore.co/",
+    "company": "PandaScore",
+    "hq": "Paris, France",
+    "country": "France",
+    "country_code": "FR",
+    "what_it_is": "Esports data and odds API with live scores, stats and schedules for LoL, CS2, Dota 2 and more.",
+    "platforms": "Web API covering multiple esports titles",
+    "pricing": "Free plan with schedules, results and context data, limited to 1000 API requests per hour. Stats plans from 400€ and from 1000€ per videogame per month, custom plans configured via sliders; annual plans get a 10% discount.",
+    "pricing_model": "Subscription",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Schedules and results",
+      "Live stats",
+      "Pre-match data",
+      "Odds feed",
+      "Static game data for all games",
+      "Stats for LoL, CS2 and Dota 2"
+    ],
+    "notable": [
+      "Stats plans are not available for betting-related usage, per the pricing page",
+      "Footer address is in Paris (75010)"
+    ],
+    "facts": [
+      {
+        "fact": "PandaScore is an esports data and odds API covering LoL, CS2, Dota 2 and more.",
+        "url": "https://www.pandascore.co/"
+      },
+      {
+        "fact": "PandaScore's address in its footer is 24 Rue Louis Blanc, 75010 Paris, France.",
+        "url": "https://www.pandascore.co/"
+      },
+      {
+        "fact": "All accounts start on a free plan with 1000 API requests per hour, with no credit card required.",
+        "url": "https://www.pandascore.co/pricing"
+      },
+      {
+        "fact": "Stats plans start from 400€ and 1000€ per videogame per month; annual plans come with a 10% discount.",
+        "url": "https://www.pandascore.co/pricing"
+      },
+      {
+        "fact": "Customers with a betting-related usage are not permitted to use PandaScore's stats plans.",
+        "url": "https://www.pandascore.co/pricing"
+      }
+    ]
+  },
+  {
+    "slug": "abios",
+    "name": "Abios",
+    "status": "dropped",
+    "drop_reason": "Merged into Kambi: the Abios site carries the banner 'Abios has moved - Visit kambi.com' and its About page says it became part of Kambi Group plc in 2021, so it is not offered as an independent product.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "bayes-esports",
+    "name": "Bayes Esports",
+    "status": "dropped",
+    "drop_reason": "Vendor site could not be opened: bayesesports.com, www.bayesesports.com and the docs subdomain do not resolve from the fetch environment, even though a web search returned bayesesports.com URLs.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "grid",
+    "name": "GRID",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://grid.gg",
+    "company": "GRID eSports GmbH",
+    "hq": "Berlin, Germany",
+    "country": "Germany",
+    "country_code": "DE",
+    "what_it_is": "Official esports live data platform providing match data, widgets and AI-powered insights to sportsbooks, media and prediction markets.",
+    "platforms": "Data feeds and API, embeddable widgets, for CS2, LoL, Dota 2, VALORANT and Rainbow Six Siege",
+    "pricing": "Commercial plans by audience (rights holders, sportsbooks, prediction exchanges, media); no prices on the plans page, access starts with a form.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Live data",
+      "GRID Odds",
+      "Widgets",
+      "Official data for five titles",
+      "Integrity",
+      "Documentation"
+    ],
+    "notable": [
+      "Founded in 2018, per its About page",
+      "Official esports data for rights holders, sportsbooks, prediction markets and media"
+    ],
+    "facts": [
+      {
+        "fact": "GRID is an official esports live data platform for sportsbooks, prediction markets and media.",
+        "url": "https://grid.gg"
+      },
+      {
+        "fact": "GRID eSports GmbH, Berlin, Germany, is the legal entity named in its imprint.",
+        "url": "https://grid.gg/legal/imprint/"
+      },
+      {
+        "fact": "GRID was founded in 2018 and is headquartered in Berlin.",
+        "url": "https://grid.gg/company/about/"
+      },
+      {
+        "fact": "GRID's plans page offers commercial plans by audience and has no published prices; access starts with a form.",
+        "url": "https://grid.gg/plans/"
+      }
+    ]
+  },
+  {
+    "slug": "oddin-gg",
+    "name": "Oddin.gg",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://oddin.gg",
+    "company": "Oddin.gg",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Esports betting infrastructure for operators, including an odds feed, widgets, an official data feed, fast betting content and a casino product.",
+    "platforms": "Operator-facing odds feed, data feed and widgets",
+    "pricing": "Not published on the opened pages; the vendor asks prospects to request a demo.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Esports odds feed",
+      "Official data feed",
+      "Esports widgets",
+      "BetBuilder",
+      "Fast betting content",
+      "Oddin Casino"
+    ],
+    "notable": [
+      "Founded in 2018, per its About page",
+      "Vendor says it is trusted by 300+ operators and platforms"
+    ],
+    "facts": [
+      {
+        "fact": "Oddin.gg offers esports betting infrastructure for operators, including an odds feed and an official data feed.",
+        "url": "https://oddin.gg"
+      },
+      {
+        "fact": "Oddin.gg was founded in 2018, according to its About page.",
+        "url": "https://oddin.gg/about-us"
+      },
+      {
+        "fact": "Oddin.gg says it is trusted by 300+ operators and platforms worldwide.",
+        "url": "https://oddin.gg"
+      },
+      {
+        "fact": "Pricing is not published; the vendor asks prospects to request a demo.",
+        "url": "https://oddin.gg"
+      }
+    ]
+  },
+  {
+    "slug": "sportradar",
+    "name": "Sportradar",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://sportradar.com",
+    "company": "Sportradar AG",
+    "hq": "St. Gallen, Switzerland",
+    "country": "Switzerland",
+    "country_code": "CH",
+    "what_it_is": "Sports technology company at the intersection of sports, media and betting, offering sports data APIs, odds, streaming and integrity services.",
+    "platforms": "APIs and data products for developers and businesses",
+    "pricing": "Not published on the opened pages; the vendor asks prospects to contact sales.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Sports Data API",
+      "Odds",
+      "Streaming",
+      "Sportsbook platform",
+      "Integrity services",
+      "Synergy coaching and scouting"
+    ],
+    "notable": [
+      "Imprint says the privacy notice is issued on behalf of Sportradar AG, St. Gallen",
+      "Documentation at docs.sportradar.com"
+    ],
+    "facts": [
+      {
+        "fact": "Sportradar describes itself as the world's leading sports technology company, at the intersection of sports, media and betting.",
+        "url": "https://sportradar.com"
+      },
+      {
+        "fact": "Sportradar AG, Feldlistrasse 2, CH-9000 St. Gallen, Switzerland, is named in its imprint.",
+        "url": "https://sportradar.com/imprint/"
+      },
+      {
+        "fact": "Sportradar offers sports data APIs for developers, documented at docs.sportradar.com.",
+        "url": "https://sportradar.com"
+      },
+      {
+        "fact": "Pricing is not published; the vendor asks prospects to contact sales.",
+        "url": "https://sportradar.com/contact/"
+      }
+    ]
+  },
+  {
+    "slug": "liquipedia",
+    "name": "Liquipedia",
+    "status": "dropped",
+    "drop_reason": "Vendor site could not be opened: liquipedia.net and www.liquipedia.net both return HTTP 403 to the fetch environment.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "opendota",
+    "name": "OpenDota",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.opendota.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Open source Dota 2 match data and player statistics platform, with automated replay parsing.",
+    "platforms": "Web, Dota 2 match data",
+    "pricing": "Free and open source; the source code is published on GitHub at odota/core.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Dota 2 match data",
+      "Player statistics",
+      "Automated replay parsing",
+      "Open source code"
+    ],
+    "notable": [
+      "Source code is hosted at github.com/odota/core"
+    ],
+    "facts": [
+      {
+        "fact": "OpenDota describes itself as open source Dota 2 match data and player statistics.",
+        "url": "https://www.opendota.com/"
+      },
+      {
+        "fact": "The OpenDota repository describes it as an open source Dota 2 data platform with automated replay parsing.",
+        "url": "https://github.com/odota/core"
+      },
+      {
+        "fact": "OpenDota's home page presents Dota 2 match data and player statistics as its service.",
+        "url": "https://www.opendota.com/"
+      }
+    ]
+  },
+  {
+    "slug": "stratz",
+    "name": "STRATZ",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://stratz.com",
+    "company": "STRATZ, LLC",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Dota 2 stats and analytics website with personalized data visualizations, match predictions and a GraphQL API.",
+    "platforms": "Web; GraphQL API",
+    "pricing": "The website is free to use; a STRATZ+ paid subscription is offered, with no price on the opened pages.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "Hero, player and match stats",
+      "Match predictions",
+      "GraphQL API",
+      "Guilds",
+      "Leaderboards",
+      "Battle pass"
+    ],
+    "notable": [
+      "Website is completely free to use, per the About text",
+      "Discord community and Medium development updates"
+    ],
+    "facts": [
+      {
+        "fact": "STRATZ is a Dota 2 stats website offering personalized visualizations, AI-powered match predictions and an API.",
+        "url": "https://stratz.com"
+      },
+      {
+        "fact": "The STRATZ website is free to use, according to the vendor's About text.",
+        "url": "https://stratz.com"
+      },
+      {
+        "fact": "STRATZ offers a GraphQL API and a paid STRATZ+ tier.",
+        "url": "https://stratz.com/api"
+      },
+      {
+        "fact": "STRATZ, LLC holds the copyright on the site, which states 2015-2026.",
+        "url": "https://stratz.com"
+      }
+    ]
+  },
+  {
+    "slug": "riot-developer-portal",
+    "name": "Riot Developer Portal",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://developer.riotgames.com",
+    "company": "Riot Games, Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Developer portal giving access to Riot Games' game APIs for League of Legends, Legends of Runeterra, Teamfight Tactics, Valorant, Riftbound and 2XKO.",
+    "platforms": "Web APIs for Riot games",
+    "pricing": "No prices on the portal; access runs through product registration and an application process.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Web APIs",
+      "API keys",
+      "Product registration",
+      "Application process",
+      "Rate limiting",
+      "Versioning"
+    ],
+    "notable": [
+      "Covers League of Legends, Legends of Runeterra, TFT, Valorant, Riftbound and 2XKO"
+    ],
+    "facts": [
+      {
+        "fact": "The Riot Developer Portal gives developers access to Riot game APIs, including League of Legends, TFT and Valorant.",
+        "url": "https://developer.riotgames.com"
+      },
+      {
+        "fact": "Developers get access through product registration and an application process.",
+        "url": "https://developer.riotgames.com/docs/portal"
+      },
+      {
+        "fact": "The portal is published by Riot Games, Inc.",
+        "url": "https://developer.riotgames.com"
+      }
+    ]
+  },
+  {
+    "slug": "mobalytics",
+    "name": "Mobalytics",
+    "status": "dropped",
+    "drop_reason": "Vendor site could not be opened: mobalytics.gg, www.mobalytics.gg and /about all return HTTP 403 to the fetch environment.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "blitz",
+    "name": "Blitz",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://blitz.gg",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Gaming overlay and stats platform offering in-game overlays, personalized stats, meta stats and tier lists for games such as League of Legends, TFT, VALORANT and CS2.",
+    "platforms": "Desktop app (Download Blitz) and web; overlays for supported games",
+    "pricing": "Free to use with an optional premium tier (Get Premium / Go Ad-Free); prices are not on the opened pages.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "In-game overlays",
+      "Personalized stats",
+      "Meta stats",
+      "Tier lists",
+      "Ad-free premium option"
+    ],
+    "notable": [
+      "Vendor claims 240M+ players and 3B+ matches analyzed",
+      "Supports League of Legends, TFT, VALORANT, CS2, Deadlock, Fortnite, Apex Legends and Marvel Rivals"
+    ],
+    "facts": [
+      {
+        "fact": "Blitz offers in-game overlays, personalized stats, meta stats and tier lists for several games.",
+        "url": "https://blitz.gg"
+      },
+      {
+        "fact": "Blitz says it has 240M+ players and 3B+ matches analyzed.",
+        "url": "https://blitz.gg"
+      },
+      {
+        "fact": "Blitz offers a paid Get Premium option alongside a free account, with an ad-free upgrade.",
+        "url": "https://blitz.gg"
+      }
+    ]
+  },
+  {
+    "slug": "op-gg",
+    "name": "OP.GG",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://op.gg",
+    "company": "OP.GG",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Stats and match-history site for League of Legends and other games, with summoner search, rankings, live games and streamer tools.",
+    "platforms": "Web",
+    "pricing": "No pricing shown on the opened pages; business contact is an email address.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Summoner search",
+      "Match history",
+      "Rankings",
+      "Live games",
+      "Champion stats",
+      "Streamer overlay"
+    ],
+    "notable": [
+      "Started as a League of Legends stats search engine in 2012, per its About page",
+      "Covers LoL, TFT, VALORANT, PUBG and Overwatch"
+    ],
+    "facts": [
+      {
+        "fact": "OP.GG provides LoL stats, match history, live games and rankings for League of Legends players.",
+        "url": "https://op.gg"
+      },
+      {
+        "fact": "OP.GG started as a League of Legends stats search engine in 2012, according to its About page.",
+        "url": "https://op.gg/lol/about"
+      },
+      {
+        "fact": "OP.GG offers stats for League of Legends, Teamfight Tactics, Valorant, PUBG and Overwatch.",
+        "url": "https://op.gg"
+      }
+    ]
+  },
+  {
+    "slug": "u-gg",
+    "name": "U.GG",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://u.gg",
+    "company": "Outplayed Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "League of Legends stats site with builds, runes, tier lists, champion counters and guides, also covering Valorant and other games.",
+    "platforms": "Web",
+    "pricing": "The site can be used as a guest; a paid U.GG PLUS tier exists, with prices not on the opened pages.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "Champion builds",
+      "Runes",
+      "Tier list",
+      "Counters",
+      "Probuild stats",
+      "Live games"
+    ],
+    "notable": [
+      "Footer says U.GG Stats is not endorsed by Riot Games",
+      "Copyright held by Outplayed Inc., 2017-2026"
+    ],
+    "facts": [
+      {
+        "fact": "U.GG provides League of Legends builds, runes, tier lists, counters and guides.",
+        "url": "https://u.gg"
+      },
+      {
+        "fact": "U.GG offers a paid U.GG PLUS tier.",
+        "url": "https://u.gg/faq"
+      },
+      {
+        "fact": "U.GG's footer states its copyright to Outplayed Inc. and that U.GG Stats is not endorsed by Riot Games.",
+        "url": "https://u.gg"
+      }
+    ]
+  },
+  {
+    "slug": "dotabuff",
+    "name": "Dotabuff",
+    "status": "dropped",
+    "drop_reason": "Vendor site could not be opened: dotabuff.com, www.dotabuff.com and /about all return HTTP 403 to the fetch environment.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "leetify",
+    "name": "Leetify",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://leetify.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Performance comparison service that gives players detailed match reports, aim and utility ratings and highlights.",
+    "platforms": "Web",
+    "pricing": "Pricing could not be read from the opened pages, which render with JavaScript.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Detailed match reports",
+      "Aim ratings",
+      "Utility ratings",
+      "Highlights",
+      "Friend comparison"
+    ],
+    "notable": [
+      "Opened pages render with JavaScript, so most of the site text was not readable"
+    ],
+    "facts": [
+      {
+        "fact": "Leetify offers detailed match reports with aim and utility ratings and highlights.",
+        "url": "https://leetify.com"
+      },
+      {
+        "fact": "Leetify lets players compare their performance with their friends.",
+        "url": "https://leetify.com"
+      },
+      {
+        "fact": "The Leetify pricing page could not be read from the opened pages, so no prices are recorded.",
+        "url": "https://leetify.com/pricing"
+      }
+    ]
+  },
+  {
+    "slug": "scope-gg",
+    "name": "Scope.gg",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://scope.gg",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "CS2 stats and analytics tracker that evaluates player skill with stats not shown in the in-game scoreboard.",
+    "platforms": "Web",
+    "pricing": "Sign-up is free; no paid price is shown on the opened pages.",
+    "pricing_model": "",
+    "free_plan": "Free",
+    "key_features": [
+      "Performance analysis",
+      "Map performance",
+      "Clips",
+      "Aim stats",
+      "Faceit stats",
+      "Demo viewer",
+      "Match history"
+    ],
+    "notable": [
+      "Lists a public API",
+      "Available in several languages"
+    ],
+    "facts": [
+      {
+        "fact": "Scope.gg provides CS2 stats, analytics and match tracking that evaluates player skill beyond the in-game scoreboard.",
+        "url": "https://scope.gg"
+      },
+      {
+        "fact": "Scope.gg offers sign-up for free.",
+        "url": "https://scope.gg"
+      },
+      {
+        "fact": "Scope.gg's navigation lists an API and tools such as a demo viewer and Faceit stats.",
+        "url": "https://scope.gg"
+      }
+    ]
+  },
+  {
+    "slug": "tracker-network",
+    "name": "Tracker Network",
+    "status": "dropped",
+    "drop_reason": "Vendor site could not be opened: tracker.gg and tracker.network both return HTTP 403 to the fetch environment.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "aim-lab",
+    "name": "Aim Lab",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://aimlabs.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "AI-powered aim trainer for FPS players, with personalized tasks, real-time analytics and game-specific tools.",
+    "platforms": "Web and desktop training app",
+    "pricing": "Play for free; a paid Become PRO membership is offered, with no price on the opened pages.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "50K+ tasks and playlists",
+      "AI coach",
+      "500 FPS game profiles",
+      "Aim analysis",
+      "Multiplayer",
+      "Leaderboards"
+    ],
+    "notable": [
+      "Vendor says it is Valorant and Rainbow Six Siege official partner",
+      "Vendor says more than 40 million players use it"
+    ],
+    "facts": [
+      {
+        "fact": "Aimlabs is an AI-powered aim trainer that offers personalized tasks and real-time analytics.",
+        "url": "https://aimlabs.com/"
+      },
+      {
+        "fact": "Aimlabs can be played for free, with a paid Become PRO membership.",
+        "url": "https://aimlabs.com/"
+      },
+      {
+        "fact": "Aimlabs says it has more than 40 million players and offers 500 FPS game profiles.",
+        "url": "https://aimlabs.com/"
+      }
+    ]
+  },
+  {
+    "slug": "kovaaks",
+    "name": "KovaaK's",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://kovaaks.com/kovaaks/main",
+    "company": "KovaaK Games",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "FPS aim trainer with player-created scenarios, shareable playlists and an in-game map editor.",
+    "platforms": "PC game-based aim trainer",
+    "pricing": "Pricing was not readable on the opened pages.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Player-created scenarios",
+      "Shareable playlists",
+      "In-game map editor",
+      "Customization",
+      "Cloned game physics"
+    ],
+    "notable": [
+      "Site says it has over 175,000 player-created scenarios",
+      "Site footer says KovaaK's earns from Amazon Associate purchases"
+    ],
+    "facts": [
+      {
+        "fact": "KovaaK's Aim Trainer offers over 175,000 player-created scenarios and shareable playlists.",
+        "url": "https://kovaaks.com/kovaaks/main"
+      },
+      {
+        "fact": "KovaaK's includes an in-game map editor and cloned game physics, according to its site.",
+        "url": "https://kovaaks.com/kovaaks/main"
+      },
+      {
+        "fact": "The KovaaK's site is published by KovaaK Games and notes that it earns from qualifying Amazon purchases.",
+        "url": "https://kovaaks.com/kovaaks/main"
+      }
+    ]
+  },
+  {
+    "slug": "gamersensei",
+    "name": "GamerSensei",
+    "status": "dropped",
+    "drop_reason": "gamersensei.com redirects to a Corsair esports business page; no GamerSensei product page could be opened.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "metafy",
+    "name": "Metafy",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://metafy.gg",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Marketplace where game creators and coaches share guides, coaching and events, with a hub for each game.",
+    "platforms": "Web",
+    "pricing": "Creators set their own prices for guides, coaching and events; no platform price list is on the opened pages.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Guides",
+      "Coaching",
+      "Events",
+      "Discords",
+      "Creator program"
+    ],
+    "notable": [
+      "Every game has its own hub on Metafy",
+      "Creators can join as Pro or Core Creator"
+    ],
+    "facts": [
+      {
+        "fact": "Metafy is a community where creators and coaches share guides, coaching and events for games.",
+        "url": "https://metafy.gg/discover"
+      },
+      {
+        "fact": "Metafy organizes its content in a hub for each game, with guides, coaching, events and Discords.",
+        "url": "https://metafy.gg/discover"
+      },
+      {
+        "fact": "Metafy has a creator program in which creators bring their content, coaching and community to the platform.",
+        "url": "https://metafy.gg/discover"
+      }
+    ]
+  },
+  {
+    "slug": "skill-capped",
+    "name": "Skill Capped",
+    "status": "dropped",
+    "drop_reason": "Vendor site could not be opened: skillcapped.com, its /pricing and /about-us pages render with JavaScript and return no readable text.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "teamup",
+    "name": "Teamup",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.teamup.com/",
+    "company": "Teamup Solutions AG",
+    "hq": "Zurich, Switzerland",
+    "country": "Switzerland",
+    "country_code": "CH",
+    "what_it_is": "Customizable shared calendar for teams and businesses, with access control, calendar sync and an API.",
+    "platforms": "Web and mobile browsers, iCalendar feeds, Microsoft Teams integration",
+    "pricing": "Free plan; paid plans per master calendar in USD: $12 / mo ($15 billed monthly), $30 / mo ($35 billed monthly, 25 users, extra users $3/mo each), $70 / mo ($85 billed monthly), $125 / mo ($160 billed monthly); Contact Sales for larger setups; 3-day free trial.",
+    "pricing_model": "Subscription",
+    "free_plan": "Free plan",
+    "key_features": [
+      "12 calendar views",
+      "Custom fields",
+      "9 levels of access control",
+      "Sync and combine calendars",
+      "Single sign-on",
+      "API",
+      "iCalendar feeds",
+      "Zapier integration"
+    ],
+    "notable": [
+      "Developed by Teamup Solutions AG in Zurich, per its About text",
+      "Lists sports among the industries it serves"
+    ],
+    "facts": [
+      {
+        "fact": "Teamup is a customizable shared calendar for business with 12 calendar views and 9 levels of access control.",
+        "url": "https://www.teamup.com/"
+      },
+      {
+        "fact": "Teamup Calendar is developed by Teamup Solutions AG in Zurich, Switzerland.",
+        "url": "https://www.teamup.com/about-us/"
+      },
+      {
+        "fact": "Teamup offers a free plan and paid plans from $12 / mo, with a 3-day free trial on paid plans.",
+        "url": "https://www.teamup.com/pricing/"
+      },
+      {
+        "fact": "Teamup's pricing applies per master calendar, and its 25-user plan can add users at $3/mo each.",
+        "url": "https://www.teamup.com/pricing/"
+      }
+    ]
+  },
+  {
+    "slug": "teamsnap",
+    "name": "TeamSnap",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.teamsnap.com/",
+    "company": "TeamSnap",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Team, club and league management platform for youth sports, covering schedules, messaging, rosters, payments and registration.",
+    "platforms": "Web and mobile apps (TeamSnap Classic and TeamSnap ONE)",
+    "pricing": "TeamSnap Classic is free; TeamSnap ONE for clubs and leagues is priced to the organization's needs (quote, book a demo); optional TeamSnap+ subscription.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "Schedules",
+      "Messages",
+      "Roster management",
+      "Registration and payments",
+      "Live streaming",
+      "Website builder",
+      "Tournaments",
+      "Training content"
+    ],
+    "notable": [
+      "Vendor describes itself as #1 in youth sports team, club and league management",
+      "TeamSnap+ offers training content from pro league partners"
+    ],
+    "facts": [
+      {
+        "fact": "TeamSnap is a team, club and league management platform for youth sports.",
+        "url": "https://www.teamsnap.com/"
+      },
+      {
+        "fact": "TeamSnap says free team management is available through TeamSnap Classic, with paid plans for extra features.",
+        "url": "https://www.teamsnap.com/pricing"
+      },
+      {
+        "fact": "TeamSnap ONE is a paid platform for clubs and leagues, priced by quote.",
+        "url": "https://www.teamsnap.com/pricing"
+      },
+      {
+        "fact": "TeamSnap says it was founded to transform youth sports with technology.",
+        "url": "https://www.teamsnap.com/company"
+      }
+    ]
+  },
+  {
+    "slug": "spond",
+    "name": "Spond",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.spond.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Sports team management app for scheduling events, sending invites and reminders, messaging and collecting payments.",
+    "platforms": "Team app and Spond Club web features",
+    "pricing": "The Spond team app is free to use; Spond Club features are listed without public prices on the opened pages.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Events",
+      "Invites and reminders",
+      "Messaging",
+      "Payments",
+      "Availability requests",
+      "File storage",
+      "Spond Club website"
+    ],
+    "notable": [
+      "Home page says it is chosen by thousands of teams worldwide",
+      "Covers football, rugby, cricket, basketball, netball and many other activities"
+    ],
+    "facts": [
+      {
+        "fact": "Spond is a free sports team management app for scheduling events and sending invites.",
+        "url": "https://www.spond.com/"
+      },
+      {
+        "fact": "Spond offers a separate Spond Club product for clubs, with club management, membership and course features.",
+        "url": "https://www.spond.com/"
+      },
+      {
+        "fact": "Spond lists sports and activities including football, rugby, cricket, basketball and netball.",
+        "url": "https://www.spond.com/"
+      }
+    ]
+  },
+  {
+    "slug": "sportsengine",
+    "name": "SportsEngine",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.sportsengine.com/",
+    "company": "SportsEngine, LLC",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Sports management software for youth clubs, teams, leagues and facilities, including HQ, Motion, Play, Tourney and AES products.",
+    "platforms": "Web-based management software and live event streaming (SportsEngine Play)",
+    "pricing": "All-inclusive price with no monthly subscription fees, per the HQ pricing page; figures are not in the extracted text. A free demo can be booked.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Clubs, teams and leagues management",
+      "Live event streaming",
+      "Registration",
+      "Background screenings",
+      "Team stores",
+      "Custom websites"
+    ],
+    "notable": [
+      "Now part of PlayMetrics, per the vendor banner",
+      "Founded in 2008; vendor says 45,000 organizations and 16 million athletes use it"
+    ],
+    "facts": [
+      {
+        "fact": "SportsEngine is sports management software for clubs, teams and leagues, with HQ, Motion, Play, Tourney and AES products.",
+        "url": "https://www.sportsengine.com/"
+      },
+      {
+        "fact": "SportsEngine was founded in 2008, according to its About page.",
+        "url": "https://www.sportsengine.com/company/about-us/"
+      },
+      {
+        "fact": "SportsEngine says its all-inclusive price has no monthly subscription fees.",
+        "url": "https://www.sportsengine.com/hq/pricing"
+      },
+      {
+        "fact": "The SportsEngine site states that SportsEngine is now part of PlayMetrics.",
+        "url": "https://www.sportsengine.com/"
+      }
+    ]
+  },
+  {
+    "slug": "heja",
+    "name": "Heja",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://heja.io",
+    "company": "Heja",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Sports team management and communication app for coaches, managers, parents and players, covering scheduling, availability, messaging and rosters.",
+    "platforms": "Mobile app and web",
+    "pricing": "Free app; paid plans from $8.33 (period not stated on the page) add ad-free use; the vendor offers talks with sales for several club teams.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "Team schedule",
+      "Availability replies",
+      "Team messaging",
+      "Carpool organizing",
+      "Calendar sync",
+      "Fundraising"
+    ],
+    "notable": [
+      "Vendor says it is trusted by 500,000+ teams",
+      "Rated 4.8/5 from 35K+ ratings on its site"
+    ],
+    "facts": [
+      {
+        "fact": "Heja is a free sports team management and communication app for coaches, parents and players.",
+        "url": "https://heja.io"
+      },
+      {
+        "fact": "Heja's paid plans start from $8.33 and add ad-free use.",
+        "url": "https://heja.io/pricing"
+      },
+      {
+        "fact": "Heja says it is trusted by 500,000+ teams.",
+        "url": "https://heja.io"
+      }
+    ]
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.notion.com",
+    "company": "Notion Labs, Inc.",
+    "hq": "San Francisco, California, USA",
+    "country": "United States",
+    "country_code": "US",
+    "what_it_is": "AI workspace for docs, databases, search and agents, used by teams to capture knowledge and automate tasks.",
+    "platforms": "Web and desktop/mobile apps (Download the Notion App)",
+    "pricing": "Free plan at €0 per member per month; paid tiers at €9.50 and €19.50 per member per month; Enterprise by contact sales.",
+    "pricing_model": "Per seat / month",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Capture and docs",
+      "Find answers with citations",
+      "AI agents",
+      "Teamspaces",
+      "Databases",
+      "Notion AI"
+    ],
+    "notable": [
+      "Enterprise plan workspaces use zero data retention for Notion AI, per the pricing page",
+      "Based in San Francisco, per its About page"
+    ],
+    "facts": [
+      {
+        "fact": "Notion is an AI workspace where teams capture knowledge, find answers with citations and automate work with agents.",
+        "url": "https://www.notion.com"
+      },
+      {
+        "fact": "Notion Labs, Inc. is the company named in the Notion site footer.",
+        "url": "https://www.notion.com/about"
+      },
+      {
+        "fact": "Notion's pricing page lists a free plan at €0 per member per month, with paid tiers at €9.50 and €19.50 per member per month.",
+        "url": "https://www.notion.com/pricing"
+      }
+    ]
+  },
+  {
+    "slug": "airtable",
+    "name": "Airtable",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.airtable.com",
+    "company": "Airtable",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "No-code platform for building business apps, workflows and AI agents on shared databases.",
+    "platforms": "Web, with a public API",
+    "pricing": "Free plan; Team and Business plans are charged per seat for users with edit permission on a base; Enterprise plans by contact sales.",
+    "pricing_model": "Per seat / month",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Custom business apps",
+      "Guest users",
+      "Data visualizations",
+      "CRM data across teams",
+      "Airtable API",
+      "AI workflows"
+    ],
+    "notable": [
+      "Started in 2012, per its About text",
+      "Vendor says more than 500,000 brands use it"
+    ],
+    "facts": [
+      {
+        "fact": "Airtable is a no-code platform for building business apps, workflows and AI agents.",
+        "url": "https://www.airtable.com"
+      },
+      {
+        "fact": "Airtable plans are charged per seat, and on Free plans all users are free.",
+        "url": "https://airtable.com/pricing"
+      },
+      {
+        "fact": "Airtable offers a public API, documented at airtable.com/developers.",
+        "url": "https://www.airtable.com"
+      },
+      {
+        "fact": "Airtable says it started in 2012, according to its About page.",
+        "url": "https://airtable.com/about"
+      }
+    ]
+  },
+  {
+    "slug": "trello",
+    "name": "Trello",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://trello.com",
+    "company": "Trello, Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Visual board tool for organizing tasks and projects, with Inbox, Planner, automation and Power-Ups.",
+    "platforms": "Web and mobile",
+    "pricing": "Free plan; paid Standard, Premium and Enterprise plans (prices are not in the extracted text).",
+    "pricing_model": "Freemium",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Boards",
+      "Inbox",
+      "Planner",
+      "Automation",
+      "Power-Ups",
+      "Templates",
+      "MCP server"
+    ],
+    "notable": [
+      "Spun off from Fog Creek in 2014, per its About page"
+    ],
+    "facts": [
+      {
+        "fact": "Trello is a board tool for organizing to-dos and projects, with Inbox, Planner and automation.",
+        "url": "https://trello.com"
+      },
+      {
+        "fact": "Trello offers a free plan and paid Standard, Premium and Enterprise plans.",
+        "url": "https://trello.com/pricing"
+      },
+      {
+        "fact": "Trello became a separate company, Trello, Inc., when it spun off from Fog Creek in July 2014.",
+        "url": "https://trello.com/about"
+      }
+    ]
+  },
+  {
+    "slug": "slack",
+    "name": "Slack",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://slack.com",
+    "company": "Slack Technologies, LLC",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "AI work platform for team messaging in channels, with huddles, canvas docs, lists and workflow automation.",
+    "platforms": "",
+    "pricing": "Free plan at €0 forever; paid plans per user per month, with €6.75 per user per month billed annually and €15 per user per month billed annually on the higher tier, per the pricing page.",
+    "pricing_model": "Per user / month",
+    "free_plan": "Free",
+    "key_features": [
+      "Channels",
+      "Slack Connect",
+      "Huddles",
+      "Canvas",
+      "Lists",
+      "Workflows",
+      "Slackbot"
+    ],
+    "notable": [
+      "Acquired by Salesforce in 2021, per its About page",
+      "Footer names Slack Technologies, LLC, a Salesforce company"
+    ],
+    "facts": [
+      {
+        "fact": "Slack is an AI work platform for channels, huddles, canvas docs and workflow automation.",
+        "url": "https://slack.com"
+      },
+      {
+        "fact": "Slack offers a free plan at €0 forever, with paid plans priced per user per month.",
+        "url": "https://slack.com/pricing"
+      },
+      {
+        "fact": "Slack was acquired by Salesforce in 2021, according to its About page.",
+        "url": "https://slack.com/about"
+      }
+    ]
+  },
+  {
+    "slug": "casparcg",
+    "name": "CasparCG",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://casparcg.com",
+    "company": "CasparCG",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "CasparCG Server is Windows and Linux software that plays out professional graphics, audio and video to multiple outputs for broadcast production.",
+    "platforms": "Windows and Linux",
+    "pricing": "Free and open source under the GPL license, with no license fees or commercial limitations.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Layer-based compositor",
+      "Open network protocol",
+      "Server and client downloads",
+      "Developer tools",
+      "Guides and wiki"
+    ],
+    "notable": [
+      "In broadcast production since 2006, per the vendor",
+      "Vendor says most European broadcasters have used it"
+    ],
+    "facts": [
+      {
+        "fact": "CasparCG Server is Windows and Linux software used to play out graphics, audio and video to multiple outputs.",
+        "url": "https://www.casparcg.com/docs/downloads/server-client"
+      },
+      {
+        "fact": "CasparCG is free and open source under the GPL license, with no license fees.",
+        "url": "https://casparcg.com"
+      },
+      {
+        "fact": "CasparCG says it has been used in 24/7 broadcast production since 2006.",
+        "url": "https://casparcg.com"
+      }
+    ]
+  },
+  {
+    "slug": "nodecg",
+    "name": "NodeCG",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.nodecg.dev/",
+    "company": "NodeCG contributors",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Framework for creating broadcast graphics with Node.js and the browser, where graphics are ordinary web pages.",
+    "platforms": "Works with OBS Studio, vMix, XSplit and CasparCG",
+    "pricing": "No pricing is shown on the opened pages.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Web-based graphics",
+      "Browser-based controls",
+      "Bundles",
+      "Quick start guide",
+      "Compatible with OBS, vMix, XSplit and CasparCG"
+    ],
+    "notable": [
+      "Home page shows version 2.6.0",
+      "Copyright line names Alex Van Camp, Matthew McNamara and contributors"
+    ],
+    "facts": [
+      {
+        "fact": "NodeCG is a framework for creating broadcast graphics with Node.js and a browser.",
+        "url": "https://www.nodecg.dev/"
+      },
+      {
+        "fact": "NodeCG is compatible with OBS Studio, vMix, xSplit and CasparCG.",
+        "url": "https://www.nodecg.dev/"
+      },
+      {
+        "fact": "The NodeCG home page shows version 2.6.0 and links to installation and bundle-creation docs.",
+        "url": "https://www.nodecg.dev/"
+      }
+    ]
+  },
+  {
+    "slug": "ptzoptics",
+    "name": "PTZOptics",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://ptzoptics.com",
+    "company": "PTZOptics",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Maker of PTZ and fixed live-video cameras (hardware), with firmware, software downloads and developer control tools for them.",
+    "platforms": "Hardware cameras; firmware and software downloads from the vendor docs",
+    "pricing": "No prices on the opened pages.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "PTZ cameras",
+      "Fixed cameras",
+      "Firmware and software downloads",
+      "Developer tools (HTTP and VISCA control)",
+      "Knowledge base"
+    ],
+    "notable": [
+      "Sells camera hardware; no broadcast production software product page was opened",
+      "Listed in a software category in the batch"
+    ],
+    "facts": [
+      {
+        "fact": "PTZOptics sells PTZ and fixed cameras.",
+        "url": "https://ptzoptics.com"
+      },
+      {
+        "fact": "PTZOptics provides developer tools for controlling its cameras over HTTP and VISCA.",
+        "url": "https://ptzoptics.com"
+      },
+      {
+        "fact": "PTZOptics publishes firmware and software downloads through its documentation site.",
+        "url": "https://docs.ptzoptics.com/software/"
+      }
+    ]
+  },
+  {
+    "slug": "3dmark",
+    "name": "3DMark",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.3dmark.com/",
+    "company": "UL Solutions",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Benchmark suite from UL Solutions for testing and comparing the gaming performance of PCs, handhelds, tablets and phones.",
+    "platforms": "Windows and macOS; iOS and Android apps",
+    "pricing": "For Windows $34.99; For macOS $34.99; For Windows and macOS $34.99, sold through UL Solutions, Steam and Epic Games; iOS and Android apps are free; the demo can be tried first.",
+    "pricing_model": "",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Gaming benchmarks",
+      "Ray tracing tests",
+      "Online results comparison",
+      "Hall of Fame",
+      "Mobile benchmarks",
+      "Demo"
+    ],
+    "notable": [
+      "3DMark for macOS is available as a standalone app as well as on Steam",
+      "Page title names UL Solutions as the benchmark owner"
+    ],
+    "facts": [
+      {
+        "fact": "3DMark is a benchmark suite from UL Solutions for testing and comparing gaming performance.",
+        "url": "https://www.3dmark.com/"
+      },
+      {
+        "fact": "3DMark costs $34.99 for Windows, for macOS, or for Windows and macOS.",
+        "url": "https://www.3dmark.com/"
+      },
+      {
+        "fact": "3DMark for iOS and Android is free, and a demo can be tried before buying.",
+        "url": "https://www.3dmark.com/"
+      }
+    ]
+  },
+  {
+    "slug": "cinebench",
+    "name": "Cinebench",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.maxon.net/en/cinebench",
+    "company": "Maxon Computer GmbH",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "CPU and GPU benchmark from Maxon that uses the Redshift rendering engine to measure a computer's performance.",
+    "platforms": "",
+    "pricing": "Download offered on the vendor page; no price is stated on the opened page.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "CPU benchmark",
+      "GPU benchmark",
+      "Redshift rendering engine",
+      "Cinebench 2026"
+    ],
+    "notable": [
+      "Latest version on the page is Cinebench 2026",
+      "Maxon Computer GmbH is part of the Nemetschek Group, per its footer"
+    ],
+    "facts": [
+      {
+        "fact": "Cinebench 2026 uses the Redshift rendering engine to evaluate a computer's CPU and GPU.",
+        "url": "https://www.maxon.net/en/cinebench"
+      },
+      {
+        "fact": "Maxon Computer GmbH is part of the Nemetschek Group, according to the Maxon site footer.",
+        "url": "https://www.maxon.net/en/about-maxon"
+      },
+      {
+        "fact": "Cinebench is available to download from the Maxon Cinebench page.",
+        "url": "https://www.maxon.net/en/cinebench"
+      }
+    ]
+  },
+  {
+    "slug": "geekbench",
+    "name": "Geekbench",
+    "status": "dropped",
+    "drop_reason": "Vendor site could not be opened: geekbench.com, www.geekbench.com and primatelabs.com/geekbench all return HTTP 403 to the fetch environment.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "pcmark-10",
+    "name": "PCMark 10",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://benchmarks.ul.com/pcmark10",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Benchmark for the modern office PC, part of UL's series of industry standard PC benchmarks.",
+    "platforms": "Windows (page says it was updated for Windows 10)",
+    "pricing": "Editions include PCMark 10 Express and Professional Edition; exact prices are not shown on the opened page. The vendor says it is encouraging new customers to choose Procyon.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Office productivity workloads",
+      "Express edition",
+      "Professional edition",
+      "Commercial use license",
+      "Approved drivers and benchmark rules"
+    ],
+    "notable": [
+      "Vendor is encouraging new customers to choose Procyon, its newer benchmark suite"
+    ],
+    "facts": [
+      {
+        "fact": "PCMark 10 is a benchmark for the modern office PC, updated for Windows 10.",
+        "url": "https://benchmarks.ul.com/pcmark10"
+      },
+      {
+        "fact": "PCMark 10 is offered in an Express edition and a Professional Edition.",
+        "url": "https://benchmarks.ul.com/pcmark10"
+      },
+      {
+        "fact": "The vendor says PCMark 10 is licensed for commercial use in its Professional Edition.",
+        "url": "https://benchmarks.ul.com/pcmark10"
+      }
+    ]
+  },
+  {
+    "slug": "unigine-superposition",
+    "name": "Unigine Superposition",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://benchmark.unigine.com/superposition",
+    "company": "UNIGINE",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Stress and performance benchmark for PC hardware such as video cards, power supplies and cooling, with an interactive 3D environment.",
+    "platforms": "Windows (1276 MB) and Linux (1564 MB) downloads",
+    "pricing": "Free download; commercial licenses are listed at $19.95, $495 and $7500 (tax not included), with license types for VR users, hardware manufacturers and commercial companies.",
+    "pricing_model": "",
+    "free_plan": "Free",
+    "key_features": [
+      "Stress test",
+      "Loop stress test",
+      "Leaderboards",
+      "VR mode with Oculus and SteamVR",
+      "Free exploration mode",
+      "Commercial use"
+    ],
+    "notable": [
+      "Commercial use is licensed separately, per the vendor page",
+      "Licensing contact is licensing@unigine.com"
+    ],
+    "facts": [
+      {
+        "fact": "Superposition is an extreme performance and stability test for PC hardware such as video cards, power supplies and cooling.",
+        "url": "https://benchmark.unigine.com/superposition"
+      },
+      {
+        "fact": "Superposition is a free download for Windows and Linux.",
+        "url": "https://benchmark.unigine.com/superposition"
+      },
+      {
+        "fact": "Commercial licenses are listed at $19.95, $495 and $7500 (tax not included) on the vendor page.",
+        "url": "https://benchmark.unigine.com/superposition"
+      }
+    ]
+  }
+]

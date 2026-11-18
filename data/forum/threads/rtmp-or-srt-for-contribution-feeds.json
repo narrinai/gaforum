@@ -1,0 +1,22 @@
+{
+  "id": "rtmp-or-srt-for-contribution-feeds",
+  "board": "livestreaming",
+  "title": "RTMP or SRT for sending the feed from a remote location?",
+  "created": "2026-11-18T10:31:00Z",
+  "pinned": false,
+  "body": [
+    "RTMP is accepted almost everywhere, while SRT promises better recovery on shaky links. If you send a feed from a venue, a mobile connection or a second site, which protocol do you use and what is on the receiving end?",
+    "Many open source servers handle both: the [MediaMTX repository](https://github.com/bluenviron/mediamtx) lists SRT, WebRTC, RTSP, RTMP, LL-HLS, MPEG-TS and RTP, and the [SRS site](https://ossrs.io/lts/en-us/) lists RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH. Whether a platform accepts SRT directly or only RTMP decides how many hops you need.",
+    "Share your link type (wired, bonded cellular, satellite), what loss you saw and how you tuned latency settings."
+  ],
+  "related": [
+    {
+      "title": "Best Streaming Media Servers in 2026",
+      "url": "/software/best-streaming-media-servers"
+    },
+    {
+      "title": "Best Live Production Software in 2026",
+      "url": "/software/best-live-production-software"
+    }
+  ]
+}

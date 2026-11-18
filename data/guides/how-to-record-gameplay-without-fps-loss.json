@@ -1,0 +1,164 @@
+{
+  "slug": "how-to-record-gameplay-without-fps-loss",
+  "title": "How to Record Gameplay Without Losing Frame Rate",
+  "description": "A checklist for recording PC gameplay at low frame rate cost: hardware encoder, capped game frame rate, lean scenes, crash-safe formats and a way to measure.",
+  "kind": "Checklist",
+  "topic": "Livestreaming",
+  "published": "2026-11-18",
+  "intro": "Recording gameplay without losing frame rate comes down to moving the encoding work off the CPU, keeping the game from using every bit of the GPU, and giving the recorder a simple scene to render. OBS Studio's documentation recommends hardware encoders for performance, advises capping the game's frame rate, and lists the Windows features and OBS options that most often cause trouble. This checklist follows that order, from the quickest fixes to the heavier ones, and ends with how to prove which change helped.",
+  "key_takeaways": [
+    "A hardware encoder (NVENC, AMF, Quick Sync or Apple VideoToolbox) takes encoding off the CPU and costs little performance on modern GPUs.",
+    "A game running uncapped can leave very little GPU time for the recorder; cap it at your monitor's refresh rate.",
+    "Record to MKV and remux to MP4 afterward so a crash does not destroy the whole file.",
+    "Every browser source, filter and large media source in your scene costs resources even when idle.",
+    "Change one setting at a time and measure, or you will not know what fixed it."
+  ],
+  "sections": [
+    {
+      "h2": "Decide what you are actually losing",
+      "paras": [
+        "People report two different problems under the same name. In the first, the game itself drops frames while recording, which means the recorder is competing with the game for the GPU, CPU or disk. In the second, the game feels fine but the recording stutters or shows skipped frames, which means the recorder cannot keep up with encoding or compositing.",
+        "OBS's own troubleshooting page describes the second case directly: your game frame rate is fine but OBS cannot keep up, which it attributes to either an overloaded GPU or a bottleneck between the GPU and the rest of the system. It also explains why OBS needs the GPU at all: the program has to composite and render the scene before encoding it, so a heavy scene costs GPU time no matter which encoder you choose.",
+        "Write down which symptom you have before changing anything. The fixes below are ordered from cheap to expensive, and the symptom tells you where to start."
+      ]
+    },
+    {
+      "h2": "Pick the right encoder for your hardware",
+      "paras": [
+        "The OBS Hardware Encoding page says hardware encoders are generally recommended over the built-in x264 software encoder because they move the workload to a specialized part of the GPU. It adds that modern hardware encoders give very good quality with minimal performance impact, while earlier generations trade image quality for speed at the same bitrate.",
+        "Its compatibility notes are concrete enough to check against your own machine:"
+      ],
+      "list": [
+        "NVIDIA NVENC works on Windows and Linux and needs a GeForce 750 Ti, a 900-series card or newer; the page recommends the sixth-generation (Turing) encoder or later for best results, which includes the GTX 1650 revision 2 and higher.",
+        "AMD AMF works on Windows and Linux; check the AMF plugin documentation for supported GPUs.",
+        "Intel Quick Sync needs a Core i-series CPU with integrated graphics from the Sandy Bridge generation onward, with Haswell or newer recommended because early versions were lower quality.",
+        "Apple VideoToolbox runs on Apple Silicon and Intel Macs."
+      ],
+      "after": [
+        "Two cautions from the same page: use the encoder of your primary graphics adapter, so a PC with an NVIDIA or AMD card normally uses NVENC or AMF instead of Quick Sync, and keep drivers current. A separate OBS note says that picking anything other than Same as stream under Recording Quality in Simple mode takes extra resources, because the recording then needs its own encode."
+      ]
+    },
+    {
+      "h2": "Tame the game before touching OBS",
+      "paras": [
+        "The single most effective change in OBS's guide is limiting the game's frame rate. If your GPU is working at full throttle just to run the game, there is little left for compositing. The guide recommends capping the game at your monitor's refresh rate, or enabling V-Sync, and notes that frames beyond your refresh rate bring diminishing returns because neither you nor the recorder can see them. If problems persist, it suggests limiting the game to the frame rate OBS is set to record.",
+        "If the game and the recording still cannot both hold steady, the guide's next step is plain: lower the game's graphics quality. That is the same trade you would make for a weaker GPU, and recording makes the GPU weaker by definition.",
+        "Check what else is using the GPU. A second game in the background, a browser with video, or a compute job will all take a share. Task Manager on Windows and Activity Monitor on macOS show GPU use per program, and OBS cautions against closing programs unless you opened them and know what they are."
+      ]
+    },
+    {
+      "h2": "Run through this quick-fix checklist",
+      "paras": [
+        "These are the lowest-effort steps taken from OBS's encoding performance guide and its game capture notes. Work down the list and retest after each item."
+      ],
+      "list": [
+        "Close OBS, right-click its shortcut and choose Run as administrator. The guide says OBS can ask Windows to reserve GPU capacity this way and that many overload cases are fixed by this alone.",
+        "Cap the game frame rate at your monitor's refresh rate, or turn on V-Sync.",
+        "Open the properties of your Game Capture source and untick Multi-adapter Compatibility unless you use SLI, CrossFire or a laptop with two graphics cards; the guide says you rarely want it on.",
+        "On Windows 10 versions older than 1809, disable Game Mode; the guide says recent versions can leave it on.",
+        "Disable the Windows Game DVR feature, because it records in the background and uses resources OBS needs.",
+        "If a game shows a black capture, check the OBS game capture troubleshooting page; it lists games that need administrator rights, borderless windowed mode, or Window Capture instead of Game Capture."
+      ],
+      "ordered": true
+    },
+    {
+      "h2": "Build a lighter scene",
+      "paras": [
+        "A recording that exists only to capture the game does not need your whole streaming scene. OBS's guide points out that most sources use some resources even when they are not visible, so that scene transitions stay smooth, and that complexity adds up.",
+        "Its recommendations translate into a short audit. Replace full-canvas browser sources with ones sized to the content, since the guide says browser and media sources that cover the entire canvas with empty space use a lot of resources. Use an Image source for static overlays rather than a browser source. Disable alert widgets that run physics in JavaScript to see whether performance improves. Apply filters to the smallest source possible, not to a whole scene, and lower the resolution of video capture sources that are scaled down anyway.",
+        "If your scene collection has grown over months, split it. The guide suggests keeping scene collections small and focused, and creating a new one by duplicating the current collection and deleting the scenes you do not need. Our guide to [stream overlays and alerts](/guides/how-to-set-up-stream-overlays-and-alerts) explains how to keep the visual layer lean."
+      ]
+    },
+    {
+      "h2": "Choose a recording format that survives a crash",
+      "paras": [
+        "OBS's Standard Recording Output Guide recommends MKV as the recording format because MKV does not corrupt the whole file if recording stops without a graceful shutdown, which is what happens in a crash or a power cut. If you need MP4 for editing or uploads, the guide points to the built-in remux option under the File menu, and an advanced setting that remuxes automatically after recording.",
+        "In Advanced output mode you can record several audio tracks. The guide notes this is useful if, for example, copyrighted music is playing that you do not want in the recording, since you can leave that track out of the recorded file while keeping it in the live stream. Putting game audio, voice and music on separate tracks also makes editing cleaner."
+      ]
+    },
+    {
+      "h2": "Reduce output settings last",
+      "paras": [
+        "If you still miss the target, reduce the load of what you record. OBS's guide lists the output resolution, the frame rate and the base canvas resolution as levers, each documented with a caution. Dropping from 60 to 30 frames per second halves the number of frames to render and encode. Lowering the output resolution reduces the encoder's load. Changing the base canvas resolution reduces GPU use more broadly, but the guide recommends it only for systems starved of GPU resources, because it forces you to reposition every source, and it advises creating a new scene collection before you do it.",
+        "Treat these as a last step. A capped game with a hardware encoder and a clean scene usually makes resolution cuts unnecessary, and cutting quality first hides the real cause."
+      ]
+    },
+    {
+      "h2": "Measure with monitoring software, not feel",
+      "paras": [
+        "Impressions of smoothness are unreliable, especially when you are watching the game and not the stats. A monitoring tool shows GPU load, encoder load, temperatures and clock speeds while the game and recorder run together. HWiNFO is one verified option in our ranking of [hardware monitoring and overclocking software](/software/best-hardware-monitoring-and-overclocking-software); its licenses page says it is free for personal and non-commercial use, with a Pro license required for commercial use of the 64-bit and ARM64 builds.",
+        "Run a repeatable test: pick one scene in one game that stresses the GPU, record two minutes, and note the average game frame rate, the OBS count of skipped and dropped frames, and peak GPU and temperature readings. Change one setting, repeat, and keep a short log. If temperatures climb during the test and clocks fall, you have a cooling problem, not a settings problem, and no encoder choice will fix it."
+      ]
+    },
+    {
+      "h2": "When a simpler recorder is the better answer",
+      "paras": [
+        "OBS is flexible, but flexibility costs setup time. If you only want clips of your best moments, a tool built for that may be lighter on you. Medal and Outplayed are both capture apps in our ranking of [game capture and recording software](/software/best-game-capture-and-recording-software); Medal's homepage says it is free to record, edit and share clips on PC, and Outplayed offers a Free tier and a Premium tier. The NVIDIA App lists ShadowPlay among its features for owners of NVIDIA cards.",
+        "None of these removes the physics of the problem. Any recorder needs encoder time and some GPU capacity, so the steps above still apply. What changes is how much configuration stands between you and a clip."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does recording with a hardware encoder cost frame rate?",
+      "a": "Less than software encoding on the CPU. OBS's documentation says modern hardware encoders give very good quality with minimal performance impact, but the GPU still has to render the scene, so a game running at maximum load can still suffer. Capping the game frame rate leaves room for both."
+    },
+    {
+      "q": "Should I record in MKV or MP4?",
+      "a": "OBS recommends MKV for recording because a crash will not corrupt the whole file the way it can with MP4. Afterward you can use the File menu's Remux Recordings option to convert it to MP4 for editing software or uploads, or enable automatic remuxing in advanced settings."
+    },
+    {
+      "q": "Why is my game capture source black?",
+      "a": "It depends on the game. OBS keeps a troubleshooting page listing games with known issues, where the fix is usually running OBS as administrator, using borderless or windowed fullscreen, or switching to Window Capture. Check that list first, then confirm Multi-adapter Compatibility is off unless you have a multi-GPU setup."
+    },
+    {
+      "q": "Will lowering recording resolution fix dropped frames?",
+      "a": "Sometimes, but it is the last step OBS suggests. Lower resolution and frame rate reduce rendering and encoding work, yet capping the game's frame rate, running OBS as administrator and simplifying the scene usually solve the problem without making your recordings look worse."
+    },
+    {
+      "q": "Do browser overlays really slow down a recording?",
+      "a": "They can. OBS's guide says browser sources can be resource intensive, particularly large ones and ones with complex scripts such as physics-based tip jars. Size them to their content, swap static ones for image sources, and turn off heavy widgets while testing."
+    }
+  ],
+  "related_categories": [
+    "best-game-capture-and-recording-software",
+    "best-hardware-monitoring-and-overclocking-software"
+  ],
+  "related_guides": [
+    "how-to-set-up-stream-overlays-and-alerts",
+    "how-to-set-up-a-vtuber-avatar",
+    "how-to-multistream-without-lag"
+  ],
+  "sources": [
+    {
+      "title": "Hardware Encoding",
+      "url": "https://obsproject.com/kb/hardware-encoding",
+      "publisher": "OBS Project"
+    },
+    {
+      "title": "Encoding Performance Troubleshooting",
+      "url": "https://obsproject.com/kb/encoding-performance-troubleshooting",
+      "publisher": "OBS Project"
+    },
+    {
+      "title": "Standard Recording Output Guide",
+      "url": "https://obsproject.com/kb/standard-recording-output-guide",
+      "publisher": "OBS Project"
+    },
+    {
+      "title": "Game Capture Troubleshooting",
+      "url": "https://obsproject.com/kb/game-capture-troubleshooting",
+      "publisher": "OBS Project"
+    },
+    {
+      "title": "HWiNFO licenses",
+      "url": "https://www.hwinfo.com/licenses/",
+      "publisher": "REALiX s.r.o."
+    },
+    {
+      "title": "Medal",
+      "url": "https://medal.tv/",
+      "publisher": "Medal"
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "slug": "best-open-source-game-engines",
+  "name": "open-source game engines",
+  "title": "Best Open-Source Game Engines in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "summary_line": "Open-source engines and game libraries ranked by license clarity, governance and the health signals their own pages publish.",
+  "definition": "An open-source game engine is one whose source code is published under a license that lets you use, study and often modify it, usually without fees or royalties. The terms differ: MIT, BSD, Apache 2.0 and zlib are permissive, while source-available licenses restrict some uses. This list covers engines and libraries for 2D, 3D and the web.",
+  "intro": "Open source answers the question of cost but not the question of risk. A permissive license can sit beside a project with one maintainer, a donation-funded team or a foundation with corporate members, and each model fails differently. For this ranking we read twelve vendor homepages and repository pages and looked for three things: the named license, the governance and funding model, and the signs of activity that the pages themselves show, such as version numbers, sponsors and grants. We did not read source code or count commits. Tools whose homepages do not name a license are ranked lower, with a note that the repository must be checked, because a license you cannot find in two minutes is a license you cannot yet rely on.",
+  "criteria": [
+    {
+      "heading": "Which license, in plain words",
+      "text": "Permissive licenses (MIT, BSD, Apache 2.0, zlib/libpng) allow commercial use with few conditions. Bevy states MIT or Apache 2.0, Stride and Phaser state MIT, Solar2D states MIT, Excalibur.js states BSD 2 Clause, and LÖVE states zlib/libpng. Godot, raylib, KAPLAY and O3DE say open source without naming the license in page text. Babylon.js and Three.js state nothing on their homepages. We credit only what is printed."
+    },
+    {
+      "heading": "Who governs the project",
+      "text": "Governance tells you what happens if the founder leaves. Godot is hosted by the Godot Foundation, O3DE by the Open 3D Foundation with the Linux Foundation running site policies, and Stride has .NET Foundation support. Phaser has a company, Phaser Studio Inc, working alongside a community. Solar2D relies on a small company and sponsors, and Bevy on donors. Foundation hosting lowers key-person risk."
+    },
+    {
+      "heading": "Signs of life on the page",
+      "text": "We looked for evidence a project is moving: Godot 4.7.2, Stride 4.4 announced October 9, 2026, O3DE 26.05, Babylon.js 9.0, LÖVE 11.5 and Phaser 4.2.1 all appear on their own pages. raylib lists grants, and Excalibur.js shows a 2026 copyright. These are vendor-displayed signals, not audits, and a version number alone does not prove health."
+    },
+    {
+      "heading": "How the project pays its bills",
+      "text": "Funding shapes priorities. Bevy publishes donor tiers from $25 to $6,000 monthly, Solar2D takes sponsorship through GitHub Sponsors and Patreon, KAPLAY and Stride take donations through Open Collective, raylib lists GitHub Sponsors, Patreon and Ko-fi plus grants, and Excalibur.js offers a Premium Support page. Projects with several funding channels tend to be steadier than single-channel ones."
+    }
+  ],
+  "market_notes": [
+    "Of the twelve entries, six state a specific permissive license in their own page text (Bevy, Stride, Phaser, Solar2D, Excalibur.js and LÖVE). Four say open source or free without a license name (Godot, O3DE, raylib and KAPLAY), and two (Babylon.js and Three.js) state nothing on their homepages. Three are hosted or supported by a named foundation (Godot, O3DE and Stride). Eight of them target the browser or list web or HTML5 among their outputs.",
+    "The trade-off is between convenience and independence. Editors such as Godot and Stride shorten production, while libraries such as raylib, LÖVE and KAPLAY leave the structure to you. Small, donation-funded projects can move fast but carry key-person risk, and foundation-hosted ones usually move more deliberately. Check what the license says about patents and trademarks if you plan to fork or redistribute an engine."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Open the license text, not the badge",
+      "text": "Find the LICENSE file for each shortlisted engine and read it, including any exceptions for assets, logos or console SDKs. MIT, BSD and zlib are short and permissive; Apache 2.0 adds a patent grant. Where the homepage does not name the license, write the repository's answer in your notes and save the date."
+    },
+    {
+      "title": "Score the governance risk",
+      "text": "Ask who can merge changes, who pays the maintainers and what happens if they stop. A foundation, a company with a product or several funding routes lowers the risk. A single donor-funded maintainer is acceptable for a prototype, but a multi-year commercial game deserves a fallback plan, such as pinning a version and keeping a copy of the source."
+    },
+    {
+      "title": "Test the target platform early",
+      "text": "Open-source status does not guarantee a console path. Godot routes consoles through third parties, Stride names desktop and VR, and web libraries reach browsers first. Build a minimal project for your hardest target in the first week, and count the hours the export takes."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best open-source game engine in 2026?",
+      "a": "Godot is our first pick for most teams: it covers 2D and 3D, is hosted by the Godot Foundation and lists many sponsors. Bevy is better for Rust teams who want a stated MIT or Apache 2.0 license, and Stride is better for C# teams who want MIT-licensed editor and runtime."
+    },
+    {
+      "q": "Which open-source engine has the most permissive license?",
+      "a": "LÖVE uses zlib/libpng, which allows commercial use without limitations, and Bevy offers a choice of MIT or Apache 2.0. Phaser, Stride and Solar2D use MIT, and Excalibur.js uses BSD 2 Clause. All of these are permissive, but Apache 2.0 adds a patent grant."
+    },
+    {
+      "q": "Are open-source engines safe for commercial games?",
+      "a": "Generally yes when the license is permissive and you keep a copy of the version you shipped. The risks are in support and continuity, not legal terms. Read the license for each engine, and note that Babylon.js and Three.js state none on their homepages, so confirm in the repository."
+    },
+    {
+      "q": "Is Defold open source?",
+      "a": "Defold describes itself as source available under a developer-friendly license, which differs from an OSI-style open-source license. It is free with no royalties, but it is not on this list for that reason. Check its license if you plan to fork the engine."
+    },
+    {
+      "q": "Which open-source engine is best for mobile?",
+      "a": "Godot exports to mobile, Bevy lists iOS and Android, Solar2D lists iOS, tvOS, Android and Android TV, and LÖVE offers an Android APK with iOS as source. Solar2D has the broadest mobile list among the Lua tools, while Godot has the largest editor."
+    },
+    {
+      "q": "Which engines are governed by a foundation?",
+      "a": "Godot is hosted by the Godot Foundation, O3DE by the Open 3D Foundation with the Linux Foundation running site policies, and Stride has .NET Foundation support. Phaser is developed by Phaser Studio Inc with a community. Foundation hosting lowers the risk that a single person's departure ends the project."
+    },
+    {
+      "q": "Can I make 3D games with an open-source engine?",
+      "a": "Yes. Godot, Bevy, Stride and O3DE are engines with 3D support, and raylib has 3D with skeletal animation. Babylon.js and Three.js render 3D in the browser. Godot describes its 3D as simple, while O3DE emphasizes high fidelity and a modular design."
+    }
+  ],
+  "related": [
+    "best-2d-game-engines",
+    "best-3d-game-engines-for-small-studios",
+    "best-game-engines-for-mobile-games",
+    "best-version-control-for-game-development"
+  ],
+  "tools": [
+    {
+      "slug": "godot",
+      "name": "Godot",
+      "site": "https://godotengine.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Foundation-hosted engine for 2D and 3D, free and open",
+      "best_for": "Studios wanting governance they can point to",
+      "pricing": "Nothing to pay. Described as a free, open-source engine; the homepage does not state which license applies.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Desktop, mobile and web; console work through partners",
+      "features": [
+        "Scene tree",
+        "GDScript, C# and C++",
+        "2D engine",
+        "3D engine",
+        "XR support"
+      ],
+      "summary": "Community governance through the Godot Foundation and a long sponsor list make it the safest open-source default.",
+      "verdict": "Open-source projects live or die by who holds the keys, and Godot answers with a named structure: the homepage says the Godot Foundation hosts the project and credits Juan Linietsky and Ariel Manzur as creators. Corporate and patron sponsors listed include Scorewarrior, W4 Games, JetBrains and Mega Crit, so funding is not left to one company. It covers both 2D and 3D, supports XR through OpenXR and WebXR, and offers several scripting routes. The latest download shown on the page is version 4.7.2. For readers who rank governance and breadth above all, this entry leads the list.",
+      "weaknesses": "The license name does not appear in the homepage text, so you must check the repository for exact terms. Console support is delegated to third-party publishers. C# web exports are tied to the older Godot 3 line.",
+      "wrong_for": "Rust shops should look at Bevy, and .NET teams at Stride, both of which state MIT terms on their own pages.",
+      "sources": [
+        {
+          "fact": "Godot is described on the vendor homepage as a free, open-source 2D and 3D game engine.",
+          "url": "https://godotengine.org/"
+        },
+        {
+          "fact": "The homepage makes no pricing statement beyond calling Godot a free, open-source game engine.",
+          "url": "https://godotengine.org/"
+        }
+      ]
+    },
+    {
+      "slug": "bevy",
+      "name": "Bevy",
+      "site": "https://bevy.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Rust engine under a dual MIT or Apache 2.0 license",
+      "best_for": "Rust developers who value patent-clear permissive terms",
+      "pricing": "Free of contracts, license fees and sales cuts. Monthly donor tiers exist from $25 up to $6,000.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, macOS, Linux, web, iOS, Android",
+      "features": [
+        "Entity component system",
+        "Hot reloading",
+        "Scenes",
+        "Animation",
+        "Bevy UI"
+      ],
+      "summary": "A permissive dual license, a published donor ladder and a clear no-sales-cut statement give it the cleanest terms here.",
+      "verdict": "Bevy's homepage states its legal position in one breath: open source under MIT or Apache 2.0, with no contracts, license fees or sales cuts. Funding is also transparent, with optional monthly donor tiers published from $25 to $6,000. The engine is described as data-driven and built in Rust, with an ECS core, 2D and 3D renderers, a render graph, UI and hot reloading. Targets include desktop, web and both mobile systems. The page quotes compile times of 0.8 to 3.0 seconds under a fast compiles setup. Governance beyond the donor list is not described, which keeps it one rung under Godot.",
+      "weaknesses": "There is no foundation named on the homepage, so long-term stewardship rests on donors and contributors. A Rust-only toolchain narrows who can contribute. No visual editor appears in the listed features.",
+      "wrong_for": "Readers who need a foundation-backed project should pick Godot; those writing C# should prefer Stride.",
+      "sources": [
+        {
+          "fact": "Bevy is described on its homepage as 'A refreshingly simple data-driven game engine built in Rust'.",
+          "url": "https://bevy.org/"
+        },
+        {
+          "fact": "The homepage says Bevy is open source under the permissive MIT or Apache 2.0 licenses.",
+          "url": "https://bevy.org/"
+        }
+      ]
+    },
+    {
+      "slug": "stride",
+      "name": "Stride",
+      "site": "https://stride3d.net/",
+      "company": "",
+      "country": "",
+      "tagline": "MIT C# engine supported by the .NET Foundation",
+      "best_for": "C# teams wanting MIT source for editor and runtime",
+      "pricing": "Free. Editor and runtime sources carry the MIT license, per the homepage, and a donation page on Open Collective is linked.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Desktop and VR",
+      "features": [
+        "C# 14 on .NET 10",
+        "Vulkan and Direct3D 12",
+        "Game templates",
+        "Asset toolchain"
+      ],
+      "summary": "MIT terms that explicitly cover both editor and runtime, plus a named foundation sponsor, for the C# community.",
+      "verdict": "The detail worth noting on the Stride page is scope of license: it says both the editor and the runtime source code are MIT licensed, which removes a common doubt about open-source engines whose tools are closed. It targets C# developers on .NET 10, lists Vulkan and Direct3D 12 support, and ships templates and an asset creation toolchain. The .NET Foundation supports the project. Version 4.4, announced October 9, 2026, brings a graphics rewrite and Native AOT support. Open Collective donations fund continued work, so a studio can contribute without a contract.",
+      "weaknesses": "Named targets are desktop and VR only, so mobile and console plans lack confirmation. A major graphics rewrite landing in the latest release raises short-term upgrade risk.",
+      "wrong_for": "Teams needing mobile builds should look at Godot or Bevy, which list them.",
+      "sources": [
+        {
+          "fact": "Stride is described on its homepage as a free and open-source cross-platform C# game engine.",
+          "url": "https://stride3d.net/"
+        },
+        {
+          "fact": "The homepage states the editor and runtime source code are MIT licensed.",
+          "url": "https://stride3d.net/"
+        }
+      ]
+    },
+    {
+      "slug": "o3de",
+      "name": "O3DE",
+      "site": "https://o3de.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Linux Foundation-hosted 3D engine with open membership",
+      "best_for": "Larger indie teams wanting a neutral foundation",
+      "pricing": "No price stated. The page promotes donations and Become a Member; the license is not named in the text.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Cross-platform, with details on a separate page",
+      "features": [
+        "Modular design",
+        "Community driven",
+        "Cloud friendly",
+        "ROS integration"
+      ],
+      "summary": "Neutral governance under the Open 3D Foundation is the draw; license wording is missing from the homepage.",
+      "verdict": "Governance is O3DE's strongest card. The homepage credits the Open 3D Foundation, and notes that the Linux Foundation runs the site's policies, while presenting the engine as open source, community-driven and modular. Membership and donations are open to individuals and companies through Become a Member. The page also cites integration with ROS for robotics work, which is unusual for a game engine and attracts simulation users. Release 26.05 is named as the newest. A team that values a multi-company foundation over a single maintainer will find the structure reassuring, even though the license text is not visible on the front page.",
+      "weaknesses": "The software license is not named on the homepage, which is an odd omission for an open-source page, and no platform list is given. Modular systems can require more setup effort than monolithic engines, though that is not quantified in the facts.",
+      "wrong_for": "Solo developers looking for the quickest start should choose Godot or Phaser.",
+      "sources": [
+        {
+          "fact": "O3DE is described on its homepage as an open source, community-driven and continuously evolving 3D engine.",
+          "url": "https://o3de.org/"
+        },
+        {
+          "fact": "The homepage credits the Open 3D Foundation, with the Linux Foundation running the site's policies.",
+          "url": "https://o3de.org/"
+        }
+      ]
+    },
+    {
+      "slug": "phaser",
+      "name": "Phaser",
+      "site": "https://github.com/phaserjs/phaser",
+      "company": "",
+      "country": "",
+      "tagline": "MIT browser framework developed with a commercial company",
+      "best_for": "Web developers shipping HTML5 titles",
+      "pricing": "Free under MIT, as stated on the official repository page.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Browsers, YouTube Playables, Discord Activities, Reddit games, Twitch overlays",
+      "features": [
+        "Canvas and WebGL",
+        "Filter system",
+        "GPU tilemap layer",
+        "TypeScript support"
+      ],
+      "summary": "MIT licensing plus a company, Phaser Studio Inc, that develops it with the community for more than 13 years.",
+      "verdict": "Phaser mixes the two models that most open-source engines choose between. The repository page states an MIT license, reports 40.7k GitHub stars, and says the project has been actively developed for over 13 years, with Phaser Studio Inc building it commercially together with the community. That gives users a license they can read and a company accountable for releases. Version 4.2.1 is the current release, built on a new WebGL renderer with a unified filter system. The framework targets JavaScript or TypeScript and reaches YouTube Playables, Discord Activities, Reddit games and Twitch overlays.",
+      "weaknesses": "Company involvement means roadmap decisions rest partly with Phaser Studio, which some purists treat as a dependency. Native iOS, Android and Steam builds rely on third-party tools. Only 2D games are in scope.",
+      "wrong_for": "Teams that need an editor-based 3D workflow should read the Godot entry instead.",
+      "sources": [
+        {
+          "fact": "Phaser is described on its official GitHub repository as a fun, free and fast 2D game framework for HTML5 games.",
+          "url": "https://github.com/phaserjs/phaser"
+        },
+        {
+          "fact": "The repository page states the project is licensed under the MIT license.",
+          "url": "https://github.com/phaserjs/phaser"
+        }
+      ]
+    },
+    {
+      "slug": "solar2d",
+      "name": "Solar2D",
+      "site": "https://solar2d.com/",
+      "company": "Solar2D LLC",
+      "country": "United States",
+      "tagline": "MIT-licensed Lua engine kept alive by sponsors",
+      "best_for": "Lua developers who accept a community-funded project",
+      "pricing": "Free under MIT with no hidden fees, charges or royalties, per the homepage.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "iOS, tvOS, Android, Android TV, macOS, Windows, Linux, HTML5",
+      "features": [
+        "Lua",
+        "Plugins",
+        "Native libraries",
+        "Live builds"
+      ],
+      "summary": "A transparent MIT license and a story of surviving a vendor's exit, funded by user sponsors.",
+      "verdict": "Solar2D has the clearest rescue story on the list. It is a fork of the Corona SDK, which the homepage says is no longer commercially supported, and it continues under the MIT license with no hidden fees, charges or royalties. Solar2D LLC lists an address in Sheridan, Wyoming, and development is sponsored by users through GitHub Sponsors and Patreon. Governance is therefore a small company plus patrons, a lean model with little corporate backing. The engine is Lua-based, supports plugins and calls into any native library, and the build list covers phones, TV platforms, desktops and HTML5.",
+      "weaknesses": "Funding depends on user sponsorship, so continuity risk is higher than for foundation-hosted projects. The page does not describe contributor counts or release cadence. Lua limits the available talent pool.",
+      "wrong_for": "Organizations needing foundation governance should look at O3DE or Godot.",
+      "sources": [
+        {
+          "fact": "Solar2D is described on the homepage as a Lua-based, open source 2D game engine, forked from the Corona SDK.",
+          "url": "https://solar2d.com/"
+        },
+        {
+          "fact": "The homepage states Solar2D is released under the MIT license with no hidden fees, charges or royalties.",
+          "url": "https://solar2d.com/"
+        }
+      ]
+    },
+    {
+      "slug": "love",
+      "name": "LOVE",
+      "site": "https://love2d.org/",
+      "company": "",
+      "country": "",
+      "tagline": "zlib/libpng-licensed Lua framework",
+      "best_for": "Developers who want the most permissive terms in this list",
+      "pricing": "Costs nothing and can be used commercially without limitations under the zlib/libpng license.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, macOS, Linux, Android, iOS",
+      "features": [
+        "Graphics",
+        "Audio",
+        "Physics",
+        "Input",
+        "Threads"
+      ],
+      "summary": "One of the most liberal licenses on the page, proven by a hit game, though governance details are thin.",
+      "verdict": "zlib/libpng is a short, liberal license, and the LÖVE homepage says it permits commercial use without limitations. That sits well with the vendor's examples: Balatro, Arco and Moonring are cited as games made with it. The framework covers graphics, audio, physics, input with touch, a filesystem, threads and video, and it ships packages for Windows, macOS, Linux and Android, with iOS offered as source and libraries. Version 11.5 is current. Funding is by PayPal donation. Nothing on the homepage describes a foundation or a governance process, so trust rests on track record rather than structure.",
+      "weaknesses": "No governing body or contributor policy appears on the homepage. The project offers a library, not an editor, so teams must assemble tooling. The donation-only funding model is modest.",
+      "wrong_for": "A team needing formal governance should prefer Godot, hosted by the Godot Foundation.",
+      "sources": [
+        {
+          "fact": "LÖVE is described on the homepage as a free, open-source framework for making 2D games in Lua.",
+          "url": "https://love2d.org/"
+        },
+        {
+          "fact": "The homepage says LÖVE is licensed under the liberal zlib/libpng license and costs nothing, with commercial use without limitations.",
+          "url": "https://love2d.org/"
+        }
+      ]
+    },
+    {
+      "slug": "excalibur-js",
+      "name": "Excalibur.js",
+      "site": "https://excaliburjs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "BSD 2 Clause TypeScript engine with paid support option",
+      "best_for": "TypeScript teams wanting BSD terms and documentation",
+      "pricing": "Free under the BSD 2 Clause license; the Premium Support page shows no price.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Browsers, including mobile; Cordova, UWP or Electron packaging",
+      "features": [
+        "TypeScript",
+        "Auto-updated API reference",
+        "Playground",
+        "Tutorial"
+      ],
+      "summary": "A short permissive BSD license with an optional paid support page, written entirely in TypeScript.",
+      "verdict": "Excalibur.js gives a precise legal statement: the homepage says the engine is and always will be free and open source under the BSD 2 Clause license. A Premium Support page offers a commercial route to help, which is a sign of how the project may fund itself, though no price is quoted. The codebase is TypeScript, the documentation includes an auto-updated API reference, and an online playground and a Flappy Bird-style tutorial help newcomers. The footer attributes copyright to the Excalibur.js Project for 2026. For a web studio that wants a permissive license without a company controlling it, this fits.",
+      "weaknesses": "The facts do not show a foundation or a count of contributors. Premium Support terms and prices are unpublished. Scope is limited to 2D games in the browser or wrapped apps.",
+      "wrong_for": "A studio that needs 3D should look at Babylon.js or Three.js.",
+      "sources": [
+        {
+          "fact": "Excalibur.js is described on its homepage as a TypeScript 2D game engine for the web.",
+          "url": "https://excaliburjs.com/"
+        },
+        {
+          "fact": "The homepage says Excalibur is and always will be free and open source, under the BSD 2 Clause license.",
+          "url": "https://excaliburjs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "raylib",
+      "name": "raylib",
+      "site": "https://raylib.com/",
+      "company": "",
+      "country": "",
+      "tagline": "C99 library with no external dependencies",
+      "best_for": "C programmers wanting a very small learning surface",
+      "pricing": "Free and open source, with donations through GitHub Sponsors, Patreon and Ko-fi; the license name is not in the page text.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, Linux, macOS, FreeBSD, Raspberry Pi, Android, HTML5",
+      "features": [
+        "No dependencies",
+        "OpenGL rendering",
+        "3D with skeletal animation",
+        "Shader support"
+      ],
+      "summary": "A plain-C library with grant history, backed by awards, but its homepage skips the license name.",
+      "verdict": "raylib is a simple library for videogame programming, written in C99 with no external dependencies, and it covers hardware-accelerated OpenGL rendering, fonts, shaders, audio streaming and 3D with skeletal animation. Its health signals are grants rather than headcount: the homepage lists a Google Open Source Peer Bonus (2019), an Epic MegaGrant (Fall 2020) and NLnet NGI Zero (2025). Donations come through GitHub Sponsors, Patreon and Ko-fi. A LICENSE page is linked, so the terms can be read, but the name is absent from the page text we read.",
+      "weaknesses": "The license is not named on the homepage text, which weakens a ranking built around licenses. There is no editor, and grants are not the same as ongoing stable funding. The library targets programmers, not designers.",
+      "wrong_for": "People who want a visual editor should look at Godot.",
+      "sources": [
+        {
+          "fact": "raylib is described on its homepage as a simple and easy-to-use library to enjoy videogames programming.",
+          "url": "https://raylib.com/"
+        },
+        {
+          "fact": "The homepage says raylib is free and open source and links to a LICENSE page without naming the license in the page text.",
+          "url": "https://raylib.com/"
+        }
+      ]
+    },
+    {
+      "slug": "kaplay",
+      "name": "KAPLAY",
+      "site": "https://kaplayjs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Free JavaScript and TypeScript library funded by donations",
+      "best_for": "Newcomers and jam teams making small web games",
+      "pricing": "Free; the homepage says it is open source and always will be, with optional donations on Open Collective and Cafecito.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Web and HTML5",
+      "features": [
+        "TypeScript support",
+        "Physics helpers",
+        "Playground",
+        "Examples"
+      ],
+      "summary": "A friendly web library with named sponsors, but with no license name on its homepage.",
+      "verdict": "KAPLAY states a promise rather than a license: open source, free and always will be. Support comes through donations on Open Collective and Cafecito, and the sponsors named are Colyseus, Wavedash and RD Consultance. The code is on GitHub under kaplayjs/kaplay. The library offers a friendly API, TypeScript typing, built-in physics and collision helpers, effects like shake() and flash(), and an online playground called KAPLAYGROUND. The footer shows site version 1.5.12 and a banner for the next version. It is a good open-source starter for the web, held back here by missing license text.",
+      "weaknesses": "The homepage names no license and gives no governance model. Scope is limited to games for the web. A pre-release banner signals a transition that may change APIs.",
+      "wrong_for": "Teams that need a documented permissive license should read Excalibur.js first.",
+      "sources": [
+        {
+          "fact": "KAPLAY is described on its homepage as a JavaScript and TypeScript game library for creating games for the web.",
+          "url": "https://kaplayjs.com/"
+        },
+        {
+          "fact": "The homepage says KAPLAY is open source, free and always will be, with optional donations through Open Collective and Cafecito.",
+          "url": "https://kaplayjs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "babylon-js",
+      "name": "Babylon.js",
+      "site": "https://www.babylonjs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Large web rendering engine with an unstated license",
+      "best_for": "Browser 3D teams that will check the repository",
+      "pricing": "The homepage states neither a price nor a license.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Web and WebGPU; native runtime and React Native",
+      "features": [
+        "Frame Graph",
+        "Gaussian Splat support",
+        "Babylon.js Editor",
+        "Clustered lighting"
+      ],
+      "summary": "A feature-heavy open web renderer whose homepage gives no license, ranked low on that criterion alone.",
+      "verdict": "Babylon.js describes its mission as being one of the most powerful open web rendering engines, and the word open is the only licensing hint the homepage offers. Technically, the page is dense: version 9.0 features clustered lighting, textured area lights, Gaussian Splat support, a Frame Graph, dynamic IBL shadows and a physically based atmosphere. The family includes Babylon Native Runtime, Babylon React Native and a desktop Babylon.js Editor, and a Lite edition is announced for June 17, 2026. Without a stated license or governance text, a legal review has to go to the repository.",
+      "weaknesses": "No license, no pricing and no governance model appear on the homepage. The engine is web-focused, with native paths through separate runtimes. Game-specific tools such as a physics or networking layer are not covered in the facts.",
+      "wrong_for": "Teams that need documented MIT terms in the page itself should look at Phaser or Stride.",
+      "sources": [
+        {
+          "fact": "Babylon.js is described on its homepage as a web rendering engine with the mission of being one of the most powerful open web rendering engines.",
+          "url": "https://www.babylonjs.com/"
+        },
+        {
+          "fact": "The homepage welcomes readers to Babylon.js 9.0.",
+          "url": "https://www.babylonjs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "three-js",
+      "name": "Three.js",
+      "site": "https://threejs.org/",
+      "company": "",
+      "country": "",
+      "tagline": "JavaScript 3D library with source on GitHub",
+      "best_for": "Developers who plan to build their own game layer",
+      "pricing": "The homepage states neither price nor license.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Not stated on the homepage",
+      "features": [
+        "JavaScript",
+        "GitHub repository"
+      ],
+      "summary": "The least documented entry: a title, a release link and a repository, with no license named on the page.",
+      "verdict": "Three.js presents itself as a JavaScript 3D library, with the header linking release r187 on GitHub and the footer pointing to the mrdoob/three.js repository. That is where the open-source story would be told, but the homepage does not tell it: no license, price, governance or platform statement appears. A studio can still read the repository to answer those questions, and the library is a rendering base for those who write their own game logic. In a list that ranks by license clarity, the absence of text on the page itself places it last.",
+      "weaknesses": "Nothing on the homepage identifies the license, the maintainers' governance or any funding route. It is a rendering library, so physics, input and an editor must come from elsewhere.",
+      "wrong_for": "Teams wanting an engine with an editor and a stated license should read Godot or Stride.",
+      "sources": [
+        {
+          "fact": "Three.js is titled on its homepage as a JavaScript 3D Library.",
+          "url": "https://threejs.org/"
+        },
+        {
+          "fact": "The homepage header links to version r187 on GitHub releases.",
+          "url": "https://threejs.org/"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18"
+}

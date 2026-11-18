@@ -1,0 +1,26 @@
+{
+  "id": "godot-or-unity-first-2d-commercial-game",
+  "board": "games",
+  "title": "Godot or Unity for a first commercial 2D game in 2026?",
+  "created": "2026-11-18T09:00:00Z",
+  "pinned": false,
+  "body": [
+    "A solo developer or a team of two is about to commit to an engine for a first commercial 2D game, and the choice is hard to reverse once art, code and tooling pile up. Which of Godot and Unity are you picking, and what decided it?",
+    "Two facts from the vendors themselves frame the choice. The [Godot homepage](https://godotengine.org/) calls it a free, open-source 2D and 3D game engine and makes no other pricing statement. The [Unity homepage](https://unity.com/) says you can get started for free or find a plan, and lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro as platforms, without showing plan figures.",
+    "Console and mobile reach, asset store dependence, scripting language preference and how much you trust a license to stay stable all tend to matter more than raw 2D features. If you shipped or abandoned a 2D project in either engine, share what the deciding factor was and what you would check earlier next time."
+  ],
+  "related": [
+    {
+      "title": "Best 2D Game Engines in 2026",
+      "url": "/software/best-2d-game-engines"
+    },
+    {
+      "title": "Godot vs Unity: Which Fits Your Team in 2026?",
+      "url": "/compare/godot-vs-unity"
+    },
+    {
+      "title": "Godot Alternatives in 2026",
+      "url": "/alternatives/godot"
+    }
+  ]
+}

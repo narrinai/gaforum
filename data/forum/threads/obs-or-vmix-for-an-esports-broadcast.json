@@ -1,0 +1,26 @@
+{
+  "id": "obs-or-vmix-for-an-esports-broadcast",
+  "board": "esports",
+  "title": "OBS or vMix for an esports broadcast?",
+  "created": "2026-11-18T10:52:00Z",
+  "pinned": false,
+  "body": [
+    "A tournament broadcast needs replays, graphics, multiple sources and remote guests, and the production software choice shapes how many operators you need. Which are you using, and where did it start to strain?",
+    "The [OBS Project homepage](https://obsproject.com/) describes free and open source software for recording and live streaming, with scenes composed from multiple sources. The [vMix homepage](https://www.vmix.com/) describes a live production software video mixer and switcher for Windows, with purchase from $50 per month and a free 60-day trial download.",
+    "Tell us your team size, number of sources and whether you use NDI or capture cards. Honest limits of your setup help others avoid the same wall."
+  ],
+  "related": [
+    {
+      "title": "Best Esports Broadcast Production Software in 2026",
+      "url": "/software/best-esports-broadcast-production-software"
+    },
+    {
+      "title": "OBS Studio vs vMix: Which Fits Your Team in 2026?",
+      "url": "/compare/obs-studio-vs-vmix"
+    },
+    {
+      "title": "vMix Alternatives in 2026",
+      "url": "/alternatives/vmix"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+ {
+  "slug": "applovin-max",
+  "name": "AppLovin MAX",
+  "status": "verified",
+  "site": "https://www.applovin.com/en",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "An ad mediation product from AppLovin for monetizing mobile apps, documented in the AppLovin Support Center.",
+  "platforms": "Android, Fire OS and iOS apps",
+  "pricing": "Fees are not stated on the opened documentation pages.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Bidding and traditional network connections",
+   "Custom SDK networks",
+   "Ad Review",
+   "Mediation Debugger"
+  ],
+  "notable": [],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "AppLovin's getting-started guide shows how to monetize a mobile app with MAX in seven steps and lets you add apps on Android, Fire OS or iOS.",
+    "url": "https://support.applovin.com/en/max/getting-started/"
+   },
+   {
+    "fact": "The guide says MAX supports many networks across bidding and traditional connections, and unsupported networks can be mediated through a custom SDK connection that AppLovin cannot troubleshoot.",
+    "url": "https://support.applovin.com/en/max/getting-started/"
+   },
+   {
+    "fact": "The guide says AppLovin pays you directly for impressions served from the AppLovin Exchange or AppLovin's Ads Manager.",
+    "url": "https://support.applovin.com/en/max/getting-started/"
+   },
+   {
+    "fact": "The payment FAQ lists direct deposit or ACH, wire transfer, check and PayPal as payment methods, and says impressions served through Google Open Bidding are paid by Google.",
+    "url": "https://support.applovin.com/en/max/faq/faq-applovin-monetization-payment"
+   },
+   {
+    "fact": "The guide notes AppLovin is not part of the Families Self Certified Ads SDK Program.",
+    "url": "https://support.applovin.com/en/max/getting-started/"
+   }
+  ]
+ }
+]

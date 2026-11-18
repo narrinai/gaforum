@@ -1,0 +1,551 @@
+{
+  "slug": "best-ai-npc-and-dialogue-platforms",
+  "name": "AI NPC and dialogue platforms",
+  "title": "Best AI NPC and Dialogue Platforms in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "AI NPC and dialogue platforms give game characters speech, memory and branching conversation through engine plugins, voice services and authoring tools.",
+  "definition": "An AI NPC and dialogue platform lets a non-player character speak, answer players and remember context, using language models, speech synthesis and animation, or classic branching scripts. The category covers conversational engines such as Convai, authoring languages such as ink and Yarn Spinner, voice services, and tools that generate surrounding assets.",
+  "intro": "Developers asking for an AI NPC tool usually mean one of three different things: a character that improvises, a writer's tool that structures planned scenes, or the art and voice that surround both. This ranking keeps those jobs in one list and orders them by how directly each gets a talking character into a shipped game. We read vendor homepages, documentation, pricing pages and license terms, then compared published prices, supported engines and stated limits. Nothing here comes from running the products ourselves, and vendor claims are marked as such. Conversational platforms sit at the top because they deliver the improvising character most readers want. Authoring tools follow, since many games are better off with written lines. Asset generators close the list because they supply content around the character instead of the conversation itself.",
+  "criteria": [
+    {
+      "heading": "Does the character actually converse?",
+      "text": "Separate live conversation from authored branches. Convai and NVIDIA ACE generate responses with models, while ink, Yarn Spinner and articy:draft X play lines a writer composed. Pixel Crushers sits between them, adding a model addon to a scripted base. Decide whether players will ask open questions or choose from options, because that single answer removes half the list. Asset generators such as Scenario, Layer and Ludo.ai do not converse at all."
+    },
+    {
+      "heading": "Engine plugins and platforms",
+      "text": "Check whether your engine has first-party support. Convai lists Unity and Unreal plugins plus web plugins; Yarn Spinner covers Unity, Godot and Unreal; ink offers Unity natively and Unreal through a community container; Dialogue System for Unity is Unity only; articy:draft X itself runs on Windows and macOS. A tool without a plugin for your engine costs integration hours that never show on a price sheet."
+    },
+    {
+      "heading": "How the bill grows with players",
+      "text": "Per-turn and per-character billing scales with player counts, while a license does not. Convai draws credits on every turn and session. Inworld quotes USD 25 per 1M characters for TTS-2. ElevenLabs sells monthly credit tiers. ink costs nothing under MIT. NVIDIA ACE shows no price at all. Estimate lines spoken per session before you pick a model-backed option."
+    },
+    {
+      "heading": "Voice, latency and where inference runs",
+      "text": "Spoken NPCs add speech-to-text, a language model and text-to-speech to each exchange, and every hop adds delay. NVIDIA ACE can run models on the player's GPU, which removes network round trips but limits hardware. Cloud services such as Inworld and ElevenLabs keep the player's machine free of that load. Read the supported language list for voices and check whether a commercial license is included."
+    }
+  ],
+  "market_notes": [
+    "Of the eleven tools ranked, five publish price figures we could read (Inworld, ElevenLabs, Scenario, Ludo.ai and the free ink), while NVIDIA ACE, Pixel Crushers, Layer and articy:draft X leave amounts out of the pages we opened. Convai's plans exist but render through JavaScript. Three are free or open source in some form: ink under MIT, Yarn Spinner with a free tier, and articy:draft X with a free version. Only articy (Germany) and Layer (founded in San Francisco) state a location on the pages we read.",
+    "The list also shows how loose the label is. Only four entries produce live, model-driven speech; four more author conversations; three generate assets. Inworld now describes itself as voice and inference for consumer applications, so its place reflects what its pages say today. The practical trade-off is control versus improvisation: authored dialogue is predictable and cheap, generated dialogue is flexible but metered and harder to moderate. Charisma.ai was left out because its web address now opens a film production studio page. Ready Player Me could not be opened."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Write down what players may say",
+      "text": "List five example exchanges you want in the game. If every one fits a fixed choice, an authoring tool such as Yarn Spinner or ink is enough and costs nothing in usage fees. If players will type or speak free text, you need a model-backed option like Convai or NVIDIA ACE, and you should add moderation to your plan."
+    },
+    {
+      "title": "Match the tool to your engine",
+      "text": "Open the plugin list for your engine first. Unity teams can use almost anything here; Unreal teams should check Convai, NVIDIA ACE, Yarn Spinner and ink; Godot teams have Yarn Spinner. Install the free or trial version, and see how long it takes to get one character talking in a blank scene."
+    },
+    {
+      "title": "Price one hour of play",
+      "text": "Multiply spoken lines per hour by your expected players, then apply each vendor's unit price: characters for speech, tokens for language, credits for turns. Compare that figure to a flat license. Where the vendor shows no price, ask for a written quote before building on the service."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best AI NPC and dialogue platform in 2026?",
+      "a": "Convai is the best fit for most teams, because it packages characters, voices and Unity and Unreal plugins with a free tier. NVIDIA ACE is better when you have graphics engineers and want models on the player's GPU. Inworld is the better choice when you only need a voice layer with clearly published unit prices."
+    },
+    {
+      "q": "Can an NPC use a language model without a cloud service?",
+      "a": "Yes, in some setups. NVIDIA ACE describes cloud and on-device models, and the Pixel Crushers OpenAI addon says it works with local models run through Ollama, such as Llama 3.2 and 3.3 and Gemma. Local inference depends on the player's hardware and adds memory use."
+    },
+    {
+      "q": "Is branching dialogue still worth using next to AI?",
+      "a": "Yes. Yarn Spinner and ink give writers exact control over plot-critical scenes, and ink is free under the MIT license. Many studios keep story beats authored and add model-driven chatter for minor characters, which Dialogue System for Unity supports through its addon."
+    },
+    {
+      "q": "Which tools here work in Godot?",
+      "a": "Yarn Spinner is the one entry with Godot support in both C# and GDScript. Convai lists Unity, Unreal and web plugins instead. For other options, check that a vendor documents a Godot integration before committing, and consider ink's plain JSON export."
+    },
+    {
+      "q": "How much do AI voices for game characters cost?",
+      "a": "Published figures vary. Inworld lists TTS-2 at USD 25 per 1M characters. ElevenLabs runs from a free 10k-credit tier through $22 Creator and $99 Pro plans up to Enterprise quotes. Convai bills credits per turn, and NVIDIA ACE shows no price."
+    },
+    {
+      "q": "Do asset generators like Scenario or Layer make NPCs talk?",
+      "a": "No. Scenario, Layer and Ludo.ai generate art, 3D, music and sound effects, and some list voice cloning, but they do not run a conversation. Use them to produce portraits and props, then connect a conversational tool for speech."
+    },
+    {
+      "q": "What should I check before shipping AI dialogue to players?",
+      "a": "Confirm the commercial license, data handling terms and moderation controls. Inworld states GDPR and SOC 2 Type II on its plans. Read each vendor's terms on generated content, and plan fallbacks for when a service is slow or offline."
+    }
+  ],
+  "related": [
+    "best-game-audio-middleware",
+    "best-game-localization-platforms",
+    "best-game-qa-and-test-automation-tools",
+    "best-playtesting-platforms",
+    "best-game-liveops-platforms",
+    "best-trust-and-safety-moderation-software-for-games"
+  ],
+  "tools": [
+    {
+      "slug": "convai",
+      "name": "Convai",
+      "site": "https://convai.com/",
+      "company": "Convai",
+      "country": "",
+      "tagline": "Talking AI characters with Unity and Unreal plugins",
+      "best_for": "Voiced NPCs in 3D worlds",
+      "pricing": "Billing is credit-based: every conversation turn, connected session and processed file draws from the plan's credit balance, and the pricing page mentions free-tier access for developers.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free",
+      "platforms": "Unity SDK, Unreal Engine plugin, web plugins",
+      "features": [
+        "AI characters",
+        "Convai Playground",
+        "Avatar Studio",
+        "Unity SDK",
+        "Unreal Engine plugin",
+        "Core API"
+      ],
+      "summary": "Closest to a finished NPC product here: characters, engine plugins and a credit meter in one place, with a free tier to start on.",
+      "verdict": "Convai is built around the character itself rather than the model underneath. You define who an NPC is in its Playground, drop the Unity or Unreal plugin into a project, and the character talks. Documentation also covers web plugins and a modding framework, which helps if a small team wants one vendor for prototype and shipping build. Because billing is metered per conversation turn, you can estimate cost from expected play sessions before committing.",
+      "weaknesses": "Plan amounts sit behind a JavaScript pricing page that we could not read, so cost per player cannot be checked here. Credits draw down on every turn and session, which makes budgeting harder for games with long, chatty play.",
+      "wrong_for": "Teams that want fully scripted, offline dialogue should look at Yarn Spinner or ink, and those who need on-device inference should read the NVIDIA ACE entry.",
+      "sources": [
+        {
+          "fact": "Convai describes its platform as conversational AI for building interactive AI characters for virtual worlds, with Unity and Unreal Engine plugins.",
+          "url": "https://convai.com/"
+        },
+        {
+          "fact": "Convai's documentation says every turn of a conversation, connected session and processed file draws from the plan's credit balance.",
+          "url": "https://docs.convai.com/api-docs/credits-and-billing/convai-credits"
+        },
+        {
+          "fact": "Convai's pricing page describes plans for building AI-powered characters, from free-tier access for developers to plans for studios and enterprises.",
+          "url": "https://convai.com/pricing"
+        },
+        {
+          "fact": "Convai's documentation lists the Convai Unity SDK and Unreal Engine plugin as its plugins and integrations.",
+          "url": "https://docs.convai.com/api-docs"
+        }
+      ]
+    },
+    {
+      "slug": "nvidia-ace",
+      "name": "NVIDIA ACE",
+      "site": "https://developer.nvidia.com/ace-for-games",
+      "company": "NVIDIA",
+      "country": "",
+      "tagline": "Speech, language and animation models for in-game characters",
+      "best_for": "Technical teams with GPU budget",
+      "pricing": "No price is shown on the ACE for Games page, which offers Get Started and Notify Me buttons instead.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Cloud and on-device; Unreal Engine 5 for Audio2Face-3D",
+      "features": [
+        "Small speech, language and animation models for games",
+        "Cloud and on-device inference",
+        "NVIDIA In-Game Inferencing (NVIGI) plugins",
+        "Agentic loop and RAG guides for custom engines",
+        "Audio2Face-3D in Unreal Engine 5"
+      ],
+      "summary": "The deepest technical stack of the group, spanning speech, language and face animation, though it asks you to assemble the parts yourself.",
+      "verdict": "ACE bundles small speech, language and animation models that can run in the cloud or on the player's own GPU, plus In-Game Inferencing plugins that schedule model work next to rendering. The page names Total War: PHARAOH, PUBG Co-Player Characters and inZOI as partner examples, and offers agentic loop and retrieval guides for custom engines. A studio with graphics engineers gets the most control over latency and running cost here.",
+      "weaknesses": "This is a toolkit, not a character editor, so design, memory and dialogue tooling are yours to build. There is no price on the page, and on-device models only help players whose hardware can carry the load.",
+      "wrong_for": "Small teams without engine programmers will move faster with Convai or Inworld, where the plumbing is already assembled.",
+      "sources": [
+        {
+          "fact": "NVIDIA ACE is a suite of AI technologies that helps middleware and game developers build knowledgeable, actionable, conversational in-game characters.",
+          "url": "https://developer.nvidia.com/ace-for-games"
+        },
+        {
+          "fact": "NVIDIA ACE provides cloud and on-device AI models for speech, intelligence and animation.",
+          "url": "https://developer.nvidia.com/ace-for-games"
+        },
+        {
+          "fact": "NVIDIA In-Game Inferencing (NVIGI) plugins schedule AI inference for different models alongside complex graphics workloads.",
+          "url": "https://developer.nvidia.com/ace-for-games"
+        },
+        {
+          "fact": "The ACE for Games page shows no price; it offers Get Started and Notify Me buttons.",
+          "url": "https://developer.nvidia.com/ace-for-games"
+        }
+      ]
+    },
+    {
+      "slug": "inworld",
+      "name": "Inworld",
+      "site": "https://inworld.ai/",
+      "company": "Theai, Inc. dba Inworld AI",
+      "country": "",
+      "tagline": "Realtime voice models and LLM inference for consumer apps",
+      "best_for": "Voice-heavy characters on usage billing",
+      "pricing": "The On-Demand plan costs USD 0 to start and bills per use (TTS-2 at USD 25 per 1M characters, open-model LLM inference from USD 0.07 per 1M tokens); a Creator plan is USD 25 per month.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free",
+      "platforms": "",
+      "features": [
+        "Text to speech",
+        "Speech to text",
+        "Speech to speech",
+        "LLM inference",
+        "Voice cloning and voice design",
+        "Commercial license on the on-demand plan"
+      ],
+      "summary": "Published, metered prices and a voice stack make it easy to model costs, but the pitch has moved from game characters to consumer voice.",
+      "verdict": "Inworld now describes itself as realtime voice models plus LLM inference for consumer applications, and the pricing page spells out unit costs. That openness is rare in this niche. Pricing lists GDPR and SOC 2 Type II on every plan, and the on-demand plan carries a commercial license. For a studio that already has its own dialogue logic and wants a fast speech layer, it is a clear, costable pick.",
+      "weaknesses": "The homepage no longer leads with game characters, so NPC-specific tooling such as personalities or in-engine plugins is not visible in what we read. You will wire the voices into your own conversation logic.",
+      "wrong_for": "If you need a ready-made NPC with an engine plugin, Convai is the closer fit; for the richest voice catalog, see ElevenLabs.",
+      "sources": [
+        {
+          "fact": "Inworld AI describes its product as realtime voice models and LLM inference built for consumer applications.",
+          "url": "https://inworld.ai/"
+        },
+        {
+          "fact": "Inworld's pricing page lists an On-Demand plan at USD 0 pay as you go, with TTS-2 at USD 25 per 1M characters and a Creator plan at USD 25 per month.",
+          "url": "https://inworld.ai/pricing"
+        },
+        {
+          "fact": "Inworld's terms of service name the contracting entity as Theai, Inc. dba Inworld AI.",
+          "url": "https://inworld.ai/terms"
+        }
+      ]
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "site": "https://elevenlabs.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Large voice catalog with APIs, cloning and dubbing",
+      "best_for": "Voice acting for dynamic lines",
+      "pricing": "Free tier with 10k credits per month; Starter is $1 for the first month then $6; Creator $22; Pro $99; Scale $299; Business $990; Enterprise is custom.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free",
+      "platforms": "Web app; API with SDKs",
+      "features": [
+        "Text to speech",
+        "Speech to text",
+        "Voice cloning",
+        "Dubbing",
+        "Music generation",
+        "Sound effects"
+      ],
+      "summary": "Not an NPC brain, but the broadest published voice and sound tooling, with a free tier and prices anyone can read.",
+      "verdict": "ElevenLabs supplies the voice, not the character logic. The homepage meta cites 17,500+ voices in 90+ languages, and the product list adds speech to text, voice cloning, dubbing, sound effects and music generation behind APIs and SDKs. For a narrative game that wants thousands of lines voiced without booking sessions, or an NPC pipeline that already has its own dialogue model, the tiered plans make the monthly bill easy to forecast.",
+      "weaknesses": "Credits are consumed per generation, so a game that voices lines live for many players needs a volume quote beyond the self-serve tiers. There is no game-engine plugin on the pages we read.",
+      "wrong_for": "Studios that want the character, memory and engine plugin in one tool should read Convai; teams that only need scripted branching can skip paid voice altogether and use ink.",
+      "sources": [
+        {
+          "fact": "ElevenLabs describes itself as an AI research and product company with three platforms: ElevenAgents, ElevenCreative and ElevenAPI.",
+          "url": "https://elevenlabs.io/about"
+        },
+        {
+          "fact": "The ElevenLabs free plan includes 10k credits per month; the Starter plan is $1 for the first month, then $6 per month.",
+          "url": "https://elevenlabs.io/pricing"
+        },
+        {
+          "fact": "ElevenLabs paid plans run from Creator at $22 per month after the first month to Business at $990 per month, with Enterprise on custom pricing.",
+          "url": "https://elevenlabs.io/pricing"
+        },
+        {
+          "fact": "ElevenLabs offers text to speech, speech to text, voice cloning, dubbing and sound effects, and provides APIs and SDKs for developers.",
+          "url": "https://elevenlabs.io/"
+        }
+      ]
+    },
+    {
+      "slug": "pixel-crushers",
+      "name": "Dialogue System for Unity",
+      "site": "https://www.pixelcrushers.com/dialogue-system/",
+      "company": "Pixel Crushers",
+      "country": "",
+      "tagline": "Unity dialogue asset with an OpenAI and Ollama addon",
+      "best_for": "Unity teams adding LLM chat",
+      "pricing": "No price appears on the opened pages; an evaluation version can be downloaded and the asset is sold through the Unity Asset Store.",
+      "pricing_model": "Asset purchase",
+      "free_plan": "Free trial",
+      "platforms": "Unity only",
+      "features": [
+        "Dialogue System for Unity",
+        "Addon for OpenAI and Ollama models",
+        "Procedural Dialogue addon",
+        "Quest Machine addon",
+        "Evaluation version",
+        "Integrations with other assets"
+      ],
+      "summary": "The practical bridge between traditional branching dialogue and language models, provided your project already lives in Unity.",
+      "verdict": "Dialogue System for Unity is a conversation and quest toolkit, and Pixel Crushers extends it with an addon that calls OpenAI models and local models through Ollama. The addon page lists GPT-5, GPT-4o and Llama 3.2 and 3.3, Deepseek and Gemma. Authors can keep hand-written scenes where story matters and let a model handle idle chatter. The site quotes the teams behind Disco Elysium and Suzerain.",
+      "weaknesses": "Everything runs inside Unity, so Godot and Unreal projects are out. The OpenAI addon requires Dialogue System 2.2.58 or later, and any model usage fees come from the provider you connect, not from this asset.",
+      "wrong_for": "Unreal or Godot developers should look at Yarn Spinner, which supports all three engines, or at Convai for its Unreal plugin.",
+      "sources": [
+        {
+          "fact": "Dialogue System for Unity is available on the Unity Asset Store, and an evaluation version can be downloaded.",
+          "url": "https://www.pixelcrushers.com/dialogue-system/"
+        },
+        {
+          "fact": "The Pixel Crushers site lists addons for OpenAI, procedural dialogue and quests (Quest Machine).",
+          "url": "https://www.pixelcrushers.com/dialogue-system/"
+        },
+        {
+          "fact": "The OpenAI addon requires Dialogue System for Unity 2.2.58 or later and, per its page, supports GPT-5, GPT-4o and models run through Ollama such as Llama 3.2 and 3.3, Deepseek and Gemma.",
+          "url": "https://www.pixelcrushers.com/dialogue-system-addon-for-openai/"
+        },
+        {
+          "fact": "The site quotes Torpor Games (Suzerain) and ZA/UM (Disco Elysium) praising the Dialogue System.",
+          "url": "https://www.pixelcrushers.com/dialogue-system/"
+        }
+      ]
+    },
+    {
+      "slug": "yarn-spinner",
+      "name": "Yarn Spinner",
+      "site": "https://yarnspinner.dev/",
+      "company": "",
+      "country": "",
+      "tagline": "Screenplay-style dialogue language for three engines",
+      "best_for": "Writers shipping branching dialogue",
+      "pricing": "Free and paid versions exist for each engine, and the pages we opened show no price figures.",
+      "pricing_model": "Free and paid versions",
+      "free_plan": "Free",
+      "platforms": "Unity, Godot (C# and GDScript), Unreal Engine",
+      "features": [
+        "Screenplay-like dialogue language",
+        "Unity, Godot and Unreal support",
+        "Localisation",
+        "Voice-over support",
+        "Version control friendly",
+        "Browser trial"
+      ],
+      "summary": "Best when writers need to own the dialogue: plain-text scripts, three engines, and a long list of shipped games.",
+      "verdict": "Yarn Spinner lets writers draft branching conversations in a screenplay-like language, compile them, and call them from code with simple APIs. The homepage lists drafting, feedback, version control, localisation and voice-over among the chores it simplifies, and its showcase includes A Short Hike, NORCO and DREDGE. Godot and Unreal arrived beside Unity and Godot C#, so engine choice is less of a trap than with Unity-only assets.",
+      "weaknesses": "It produces authored, deterministic dialogue. No language-model chat, generated voice or character memory is described on the pages we read, so open-ended NPC talk needs another layer on top.",
+      "wrong_for": "Teams chasing free-form, generated conversation should start with Convai or Inworld; Yarn Spinner will not improvise.",
+      "sources": [
+        {
+          "fact": "Yarn Spinner says it makes tools for planning, writing, managing and delivering a game's dialogue and narrative.",
+          "url": "https://yarnspinner.dev/"
+        },
+        {
+          "fact": "Yarn Spinner runs in Unity, Godot (C# and GDScript) and Unreal Engine, with free and paid versions.",
+          "url": "https://yarnspinner.dev/"
+        },
+        {
+          "fact": "The homepage lists drafting, feedback, version control, localisation, voice-over and porting among the problems it handles.",
+          "url": "https://yarnspinner.dev/"
+        },
+        {
+          "fact": "Games listed as made with Yarn Spinner include A Short Hike, NORCO, DREDGE and Night in the Woods.",
+          "url": "https://yarnspinner.dev/"
+        }
+      ]
+    },
+    {
+      "slug": "ink",
+      "name": "ink",
+      "site": "https://www.inklestudios.com/ink/",
+      "company": "inkle",
+      "country": "United Kingdom",
+      "tagline": "Open source narrative scripting language with an editor",
+      "best_for": "Text-first branching stories",
+      "pricing": "Free: ink, the Inky editor and the Unity plugin are released under the MIT license.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Inky for Mac, Windows and Linux; Unity plugin; Unreal via Inkpot",
+      "features": [
+        "Markup-first scripting language",
+        "Inky editor with live play pane",
+        "Export to JSON and web",
+        "Unity integration",
+        "Unreal integration through Inkpot"
+      ],
+      "summary": "Zero cost and proven by inkle's own games, but strictly an authoring language rather than an AI character platform.",
+      "verdict": "ink treats text as the main material and slips logic in as markup, which keeps long branching scripts readable. inkle built it as middleware for its own releases and says millions of words have been written in it. Inky plays the story as you type and exports JSON or a web page, and the MIT license means no fee at any budget. It suits solo writers and small studios wanting a durable, engine-agnostic script format.",
+      "weaknesses": "Unity gets the official plugin; Unreal support comes from The Chinese Room's Inkpot container rather than inkle. There is no voice, generation or runtime AI, and no free-form conversation.",
+      "wrong_for": "Anyone expecting a talking character should look at Convai or Inworld; ink only plays what a writer has authored.",
+      "sources": [
+        {
+          "fact": "ink is inkle's narrative scripting language for games, conceived as middleware that slots into a game engine.",
+          "url": "https://www.inklestudios.com/ink/"
+        },
+        {
+          "fact": "ink, Inky and the ink-unity integration plugin are freely available under the MIT license.",
+          "url": "https://www.inklestudios.com/ink/"
+        },
+        {
+          "fact": "Inky is an editor for Mac, Windows and Linux that plays stories as you write and exports to JSON or the web.",
+          "url": "https://www.inklestudios.com/ink/"
+        },
+        {
+          "fact": "Unreal Engine integration comes from The Chinese Room as a container called Inkpot, not from inkle.",
+          "url": "https://www.inklestudios.com/ink/"
+        }
+      ]
+    },
+    {
+      "slug": "articy-draft",
+      "name": "articy:draft X",
+      "site": "https://www.articy.com/en/",
+      "company": "Articy Software GmbH & Co. KG",
+      "country": "Germany",
+      "tagline": "Visual database for storylines, characters and dialogue",
+      "best_for": "Large narrative teams on Windows or Mac",
+      "pricing": "A free version exists; Multi-User and Single-User licenses are sold on a pricing page whose amounts did not appear in the text we read.",
+      "pricing_model": "Free version plus licenses",
+      "free_plan": "Free",
+      "platforms": "Windows and macOS",
+      "features": [
+        "Nested flow view for branching",
+        "Characters and variables database",
+        "Localization",
+        "Unity and Unreal integrations",
+        "Version control and change history",
+        "API"
+      ],
+      "summary": "Strong organization for large branching narratives, with engine exports, though it plans dialogue rather than generating it.",
+      "verdict": "articy:draft X combines a nested flow view with a database of characters, variables and items, so quest designers and writers share one source of truth. The vendor lists integrations for Unity and Unreal, localization, flexible exports and an API, and describes version control with change history for remote teams. Where a game has hundreds of quests and thousands of lines, this kind of structure matters more than any single chat feature.",
+      "weaknesses": "It runs only on Windows and macOS. Amounts for single and multi-user licenses were not readable in what we opened, and no language-model or voice generation is described.",
+      "wrong_for": "Small prototypes with a few conversations are better served by ink or Yarn Spinner, which carry no license cost.",
+      "sources": [
+        {
+          "fact": "articy:draft X is described as a professional narrative design tool and a visual database for storylines, characters and variables.",
+          "url": "https://www.articy.com/en/"
+        },
+        {
+          "fact": "articy:draft X is available for Microsoft Windows and macOS, and the page offers a free version.",
+          "url": "https://www.articy.com/en/"
+        },
+        {
+          "fact": "The page lists ready-made integrations for Unity and Unreal, plus localization, flexible exports and an API.",
+          "url": "https://www.articy.com/en/"
+        },
+        {
+          "fact": "The pricing options page splits offers into Multi-User and Single-User, and shows no amounts in the opened text.",
+          "url": "https://www.articy.com/shop/pricing/pricing-options/"
+        }
+      ]
+    },
+    {
+      "slug": "scenario",
+      "name": "Scenario",
+      "site": "https://www.scenario.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Custom-trained art models plus audio generation",
+      "best_for": "Studios generating on-style assets",
+      "pricing": "Starter is $15 per month, Pro $45 and Max $75, with Enterprise on custom pricing; 50 free daily credits need no card, and annual billing saves 33 percent.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free",
+      "platforms": "Web app; MCP and REST API with TypeScript and Python SDKs; integrations with Claude Code, Codex and Cursor",
+      "features": [
+        "Custom model training",
+        "Image, video, 3D and audio generation",
+        "Workflows and node canvas",
+        "Agents (Genie, Node Agent)",
+        "MCP and REST API",
+        "Skills"
+      ],
+      "summary": "Useful beside an NPC system for portraits and assets, though it generates content, not conversations.",
+      "verdict": "Scenario trains custom models on a team's own art and runs image, video, 3D and audio generation through workflows and agents. The about page names Scopely, Epic Games, Supercell and Tripledot Studios. In an NPC pipeline it covers character portraits, props and ambient audio rather than dialogue. Plans are public, a free daily allowance lets a lead try it, and MCP and REST access allow pipeline automation.",
+      "weaknesses": "It does not handle speech, personalities or conversation state, so it cannot make an NPC talk. Custom model training is listed from the Pro tier upward, not on Starter.",
+      "wrong_for": "If the need is a character that answers players, move up to Convai or Inworld; Scenario only supplies art around them.",
+      "sources": [
+        {
+          "fact": "Scenario is a creative AI platform for production teams that trains models on a team's own art and runs image, video, 3D and audio through workflows and agents.",
+          "url": "https://www.scenario.com/"
+        },
+        {
+          "fact": "Scenario's paid plans are Starter at $15 per month, Pro at $45 per month and Max at $75 per month, with Enterprise on custom pricing and annual billing saving 33 percent.",
+          "url": "https://www.scenario.com/pricing"
+        },
+        {
+          "fact": "Scenario offers 50 free daily credits with no credit card required.",
+          "url": "https://www.scenario.com/pricing"
+        },
+        {
+          "fact": "The Scenario about page names Scopely, Epic Games, Supercell and Tripledot Studios as studios whose creative pipelines it powers.",
+          "url": "https://www.scenario.com/about"
+        }
+      ]
+    },
+    {
+      "slug": "layer",
+      "name": "Layer",
+      "site": "https://layer.ai/",
+      "company": "",
+      "country": "United States",
+      "tagline": "Asset generation for game studios across 500+ models",
+      "best_for": "Art teams mixing many models",
+      "pricing": "Usage-based with unlimited members at $0 per seat; tier amounts were not in the opened text, and the pricing page links to a calculator and to sales.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Unknown",
+      "platforms": "Web app; REST API, TypeScript SDK and MCP for Claude, Claude Code and other agents",
+      "features": [
+        "Image generation and editing",
+        "Video generation and lip sync",
+        "3D asset creation and rigging",
+        "Music and sound effects",
+        "Voice cloning",
+        "REST API, SDK and MCP"
+      ],
+      "summary": "Wide model choice and no seat fees, yet tier amounts are not readable and the output is assets, not NPC speech.",
+      "verdict": "Layer says it was founded in July 2023 in San Francisco and counts 400+ studios as users. Its homepage lists 139 image models, 174 video models and 48 3D models, plus music, sound effects and voice cloning, reachable through a REST API, TypeScript SDK and MCP. For NPC work it can produce character art, rigged 3D bodies and voice lines, and the zero-seat price helps larger crews.",
+      "weaknesses": "Because pricing is usage-based and the tier numbers sit behind a calculator, you cannot compare cost with other entries here. It offers no conversation engine of its own.",
+      "wrong_for": "Teams that primarily need talking characters should choose Convai or Inworld, and use Layer only for the surrounding art.",
+      "sources": [
+        {
+          "fact": "Layer is a creative AI platform for game studios that generates image, video, 3D, audio and playable assets.",
+          "url": "https://layer.ai/about"
+        },
+        {
+          "fact": "Layer was founded in July 2023 in San Francisco and is used by 400+ studios, according to its about page.",
+          "url": "https://layer.ai/about"
+        },
+        {
+          "fact": "Layer lists 139 image models, 174 video models and 48 3D models on its homepage, and offers REST API, SDK and MCP access.",
+          "url": "https://layer.ai/"
+        }
+      ]
+    },
+    {
+      "slug": "ludo-ai",
+      "name": "Ludo.ai",
+      "site": "https://ludo.ai/",
+      "company": "",
+      "country": "",
+      "tagline": "Generator for sprites, UI, music and 3D game assets",
+      "best_for": "Indie prototypes needing quick assets",
+      "pricing": "Indie is $15 per month billed annually ($180 a year, 3,000 credits), Pro $35 per month annually, Studio $300 per month annually; start free with 30 credits.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Web app; API, MCP and CLI access",
+      "features": [
+        "Sprite generation",
+        "2D assets and styles",
+        "Image editor",
+        "Audio generation",
+        "3D assets",
+        "Video pipeline"
+      ],
+      "summary": "An inexpensive way to fill a prototype with art and sound, listed last because it creates assets rather than dialogue.",
+      "verdict": "Ludo.ai produces sprites, animations, icons, UI, textures, music, 3D models and video meant to drop into an engine. The homepage offers 30 free credits, and Pro and Studio include unlimited image generation in the web app, which suits solo developers iterating on looks. API, MCP and CLI calls always draw from credits, so scripted pipelines meter differently from manual use.",
+      "weaknesses": "Nothing on the opened pages covers dialogue, voice acting or character behavior. The Indie plan has only 3,000 credits per year and a single seat.",
+      "wrong_for": "Studios that need an NPC to hold a conversation should start with Convai; Ludo.ai fits the art side only.",
+      "sources": [
+        {
+          "fact": "Ludo.ai generates production-ready game assets, including sprites, icons, UI, textures, music, 3D and video, ready to drop into an engine.",
+          "url": "https://ludo.ai/"
+        },
+        {
+          "fact": "Ludo.ai lists an Indie plan at $15 per month paid annually, a Pro plan at $35 per month paid annually and a Studio plan at $300 per month paid annually.",
+          "url": "https://ludo.ai/pricing"
+        },
+        {
+          "fact": "On Ludo.ai, every API, MCP or CLI call, image generation included, draws from the monthly credit balance; unlimited generation applies to the web app only.",
+          "url": "https://ludo.ai/pricing"
+        },
+        {
+          "fact": "Ludo.ai offers a free start with 30 generation credits.",
+          "url": "https://ludo.ai/"
+        }
+      ]
+    }
+  ]
+}

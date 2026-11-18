@@ -1,0 +1,535 @@
+{
+  "slug": "best-game-anti-cheat-software",
+  "name": "game anti-cheat software",
+  "title": "Best Game Anti-Cheat Software in 2026",
+  "group": "Game development",
+  "summary_line": "Game anti-cheat software detects and blocks cheating in online games through client-side protection, server-side analysis and ban systems that studios license.",
+  "definition": "Game anti-cheat software is a licensed security layer that detects cheats, tampering and exploit tools in an online game, then blocks or bans the offender. Approaches differ: some run protection on the player's machine, some analyze behavior on the server, and some harden the game binary itself. Studios usually integrate a client module, a server component and a ban and appeal workflow.",
+  "intro": "Cheating drives honest players away faster than almost any bug, and a small studio rarely has a security team to answer it. This page compares twelve products a studio can license or consult: dedicated game anti-cheat services, publisher-owned systems from Asia, a game security division inside a larger company, and general mobile app protection vendors that games sometimes borrow. We read each vendor's public homepage and licensing or contact pages, recorded the platforms it names and whether prices exist, and judged fit for independent and mid-size studios. We did not install or attack any of them, and no detection claim on this page is our own measurement. Several vendors publish very little, so the page says plainly what we could and could not confirm.",
+  "criteria": [
+    {
+      "heading": "Detection approach and what the vendor says about it",
+      "text": "Cheat prevention can lean on heuristics and gameplay analysis, on machine learning over player behavior, or on binary hardening that makes tampering harder. Each has different costs for players and for your engineers. We noted how each vendor describes its own method, and flagged cases where the opened pages stay general, so you can ask pointed questions in a vendor call."
+    },
+    {
+      "heading": "Platforms covered, from PC to console and mobile",
+      "text": "A cheat protection module written for desktop does not automatically cover a phone or console build. We recorded the platforms each vendor names on its own site. Cross-platform games need a service that names every target, and a vendor whose pages are silent about consoles should be asked for written confirmation before you plan a launch around it."
+    },
+    {
+      "heading": "Licensing model and visible pricing",
+      "text": "Anti-cheat is almost always sold by contract. A free service tier, such as one Epic offers, changes the math for an indie studio, while quote-only vendors require a sales conversation before you can budget. We checked each homepage and licensing page for tiers, prices or a contact form, and marked every case where nothing was shown."
+    },
+    {
+      "heading": "Player fairness: appeals and false positives",
+      "text": "Banning an innocent customer costs more than missing a cheater, so the workflow around bans matters. We looked for an appeals path, independence from the game publisher and documentation or support listed on the vendor site. A system with no visible way to review a wrong ban pushes that burden onto your community team."
+    }
+  ],
+  "market_notes": [
+    "Only one vendor on this list shows a free tier: Easy Anti-Cheat lists a free service level plus paid Core, Fortified and Premier tiers, with prices behind a licensing form. The other eleven show no prices on the pages we opened. Seven of the twelve sell dedicated game protection (Easy Anti-Cheat, BattlEye, Denuvo, Anybrain, XIGNCODE3, nProtect GameGuard and Tencent ACE), while Irdeto is the parent organization behind Denuvo, and four, Appdome, Promon, Guardsquare and Digital.ai, are app security vendors whose pages describe mobile or application hardening more than gameplay cheating.",
+    "Geography shapes the choice. BattlEye is registered in Reutlingen, Germany, according to its imprint, which may matter to studios that prefer a European vendor. XIGNCODE3 (WELLBIA), nProtect GameGuard (INCA Internet) and Tencent's ACE come from Korean and Chinese companies, and their sites are in Korean, English or Chinese. Language, support hours and the regions where each product is used are practical questions, since an anti-cheat vendor becomes a long-term dependency in your launch pipeline."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Define the cheats you actually face",
+      "text": "Aim bots, wallhacks, memory editing, modified clients and mobile emulators call for different defenses. Review your own telemetry and community reports, rank the three costliest abuses, and bring that list to every vendor call. A vendor that answers in general terms about 'advanced protection' has not yet matched its product to your game."
+    },
+    {
+      "title": "Confirm platforms in writing",
+      "text": "Take your release platform list, including console and mobile builds, and ask each shortlisted vendor to confirm support for each one by email. Public pages for several tools here mention PC only or give a short product list. A written answer protects your schedule, and it surfaces whether console certification needs additional work."
+    },
+    {
+      "title": "Plan the ban and appeal workflow before integration",
+      "text": "Decide who reviews flagged accounts, how long evidence is kept and how a player can appeal. Ask whether the vendor supplies tooling for this or whether your support team builds it. Wrongful bans spread quickly on social media, so design the human process alongside the technical module, not after launch."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best game anti-cheat software in 2026?",
+      "a": "Easy Anti-Cheat is the best starting point for most studios because it lists a free service tier, cross-platform coverage and a player appeals path. BattlEye is better if you want an independent, PC-focused service with a German registered company. Anybrain is worth a call if you want AI-based detection across PC, console and mobile."
+    },
+    {
+      "q": "Is there free anti-cheat for indie games?",
+      "a": "Easy Anti-Cheat's licensing page lists a free service tier alongside paid Core, Fortified and Premier tiers. The paid prices are not shown and are arranged through a form. No other vendor on this page shows a free tier in the pages we opened, so most alternatives need a quote."
+    },
+    {
+      "q": "What is the difference between client-side and server-side anti-cheat?",
+      "a": "Client-side protection runs on the player's device to detect tampering, injected code or known cheat tools. Server-side analysis looks at behavior and game state on your servers to flag impossible actions. Many services combine both. Ask each vendor which parts it supplies and which you must build yourself."
+    },
+    {
+      "q": "Can mobile app security tools replace game anti-cheat?",
+      "a": "Not on their own. Appdome, Promon and Guardsquare describe app hardening for Android and iOS, which makes tampering harder, but their opened pages do not describe gameplay cheat detection. They can complement a game anti-cheat service for mobile builds. Digital.ai's pages describe application hardening, not games."
+    },
+    {
+      "q": "Which anti-cheat vendors are European?",
+      "a": "BattlEye Innovations e.K. is registered in Reutlingen, Germany. Promon and Guardsquare are app security vendors, but the pages we opened do not state their country, so we cannot confirm either. If European hosting or a European company is a requirement, ask every vendor for its registered entity and data location."
+    },
+    {
+      "q": "Are Denuvo and Irdeto the same company?",
+      "a": "Denuvo by Irdeto is presented under the Irdeto brand, and the denuvo.com domain redirects to Irdeto's video games page. The page lists pre-release protection, piracy protection and cheat prevention. We list both entries because buyers search for each name, but they describe one commercial offer."
+    },
+    {
+      "q": "How much does anti-cheat software cost?",
+      "a": "Most vendors here publish no prices. Easy Anti-Cheat names its tiers without figures, Appdome asks buyers to request a quote by choosing features, and the rest offer contact forms or consultations. Budget by asking for a written quote that states the per-title fee, the integration support included and the cost of console builds."
+    }
+  ],
+  "related": [
+    "best-trust-and-safety-moderation-software-for-games",
+    "best-ddos-protection-for-game-servers",
+    "best-game-analytics-software",
+    "best-game-qa-and-test-automation-tools",
+    "best-multiplayer-networking-sdks",
+    "best-game-backend-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "easy-anti-cheat",
+      "name": "Easy Anti-Cheat",
+      "site": "https://www.easy.ac/",
+      "company": "Epic Online Services",
+      "country": "",
+      "tagline": "Epic-run anti-cheat with a free service tier",
+      "best_for": "Cross-platform indie and mid-size games",
+      "pricing": "Free service tier plus paid Core, Fortified and Premier tiers. Paid tiers are arranged through a licensing contact form; no prices are shown.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Cross-platform",
+      "features": [
+        "Cheat prevention",
+        "Heuristic detection",
+        "Gameplay analysis",
+        "Player report signals",
+        "Player appeals"
+      ],
+      "summary": "First because a free service tier, cross-platform scope and a player appeals route make it the easiest licensing decision for a studio.",
+      "verdict": "Easy Anti-Cheat is part of Epic Online Services and takes a prevention-first approach using heuristics, gameplay analysis and player reports. The licensing page lists a free service tier and paid Core, Fortified and Premier tiers, and wrongly banned players can submit an appeal through the vendor site. The vendor says more than 200 games and 35 million players a month are protected. For a studio that needs to start without a contract negotiation, it is the lowest-friction option here.",
+      "weaknesses": "Paid tier prices are not shown and are arranged through a licensing contact form. The vendor figures for games and players are its own claims, and the pages we read do not say what each tier adds beyond naming them.",
+      "wrong_for": "Studios that want an independent vendor with no platform-holder tie should look at BattlEye, and teams wanting AI behavior analysis should call Anybrain.",
+      "sources": [
+        {
+          "fact": "Easy Anti-Cheat is part of Epic Online Services, according to the vendor site.",
+          "url": "https://www.easy.ac/"
+        },
+        {
+          "fact": "Easy Anti-Cheat's vendor site states that 200+ games and 35M+ players every month are protected.",
+          "url": "https://www.easy.ac/"
+        },
+        {
+          "fact": "Easy Anti-Cheat's licensing page lists free service tiers and paid Core, Fortified and Premier tiers, with no prices shown.",
+          "url": "https://www.easy.ac/licensing"
+        }
+      ]
+    },
+    {
+      "slug": "battleye",
+      "name": "BattlEye",
+      "site": "https://www.battleye.com",
+      "company": "BattlEye Innovations e.K.",
+      "country": "Germany",
+      "tagline": "Independent PC anti-cheat from a German company",
+      "best_for": "PC multiplayer shooters wanting independence",
+      "pricing": "Not published on the opened pages; the site has a contact page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Anti-cheat protection",
+        "Permanent bans",
+        "Documentation",
+        "Support",
+        "Downloads"
+      ],
+      "summary": "Second since it is an independent PC-focused service with documentation and support listed, though pricing needs a contact request.",
+      "verdict": "BattlEye calls itself a 100% independent anti-cheat service that updates protection against new exploits and permanently bans cheaters. The imprint names BattlEye Innovations e.K. in Reutlingen, registered at Amtsgericht Stuttgart, which gives a European studio a clear legal counterparty. The site lists documentation, downloads and support, so a technical lead can read before calling. It ranks second because independence and a transparent company record matter when a vendor sits inside your launch.",
+      "weaknesses": "Pricing is not published on the opened pages; the site offers a contact page. It describes itself as a PC game service, and the pages name no console or mobile coverage, so cross-platform games need written confirmation.",
+      "wrong_for": "Teams shipping on mobile or console should check Easy Anti-Cheat or Anybrain first, since both name broader platform coverage.",
+      "sources": [
+        {
+          "fact": "BattlEye describes itself as 100% independent anti-cheat that updates protection against new exploits and permanently bans cheaters.",
+          "url": "https://www.battleye.com"
+        },
+        {
+          "fact": "The BattlEye imprint names BattlEye Innovations e.K. at Gerhard-Kindler-Straße 8, 72770 Reutlingen.",
+          "url": "https://www.battleye.com/imprint/"
+        },
+        {
+          "fact": "The BattlEye imprint gives the registration court as Amtsgericht Stuttgart, registration number HRA 731472.",
+          "url": "https://www.battleye.com/imprint/"
+        }
+      ]
+    },
+    {
+      "slug": "anybrain",
+      "name": "Anybrain",
+      "site": "https://anybrain.gg",
+      "company": "Anybrain",
+      "country": "",
+      "tagline": "AI-driven anti-cheat and anti-fraud for games",
+      "best_for": "Studios wanting behavior-based detection",
+      "pricing": "No pricing shown on the opened page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "PC, console and mobile (per the homepage)",
+      "features": [
+        "AI-driven anti-cheat",
+        "Anti-fraud",
+        "PC support",
+        "Console support",
+        "Mobile support"
+      ],
+      "summary": "Third because it names PC, console and mobile coverage with an AI-based approach, but little detail was readable on its homepage.",
+      "verdict": "Anybrain describes AI-powered anti-cheat and anti-fraud solutions for games and says the anti-cheat works in any game across PC, console and mobile. A behavior-based approach can suit studios whose cheats do not touch the client binary, such as input assistance or account abuse, and the anti-fraud side is relevant to games with real-money economies. That breadth of named platforms is why it sits ahead of vendors that list only PC.",
+      "weaknesses": "The homepage is JavaScript-rendered and little text could be read, and no pricing is shown. Claims such as working in any game are the vendor's own and should be tested in a pilot on your title.",
+      "wrong_for": "Studios that need a documented free tier or a public appeals process should begin with Easy Anti-Cheat.",
+      "sources": [
+        {
+          "fact": "Anybrain describes its offer as AI-powered anti-cheat and anti-fraud solutions for gaming.",
+          "url": "https://anybrain.gg"
+        },
+        {
+          "fact": "Anybrain says its anti-cheat works in any game across PC, console and mobile.",
+          "url": "https://anybrain.gg"
+        },
+        {
+          "fact": "No pricing is shown on the opened Anybrain page.",
+          "url": "https://anybrain.gg"
+        }
+      ]
+    },
+    {
+      "slug": "denuvo-anti-cheat",
+      "name": "Denuvo Anti-Cheat",
+      "site": "https://irdeto.com/video-games",
+      "company": "Irdeto (Denuvo by Irdeto)",
+      "country": "",
+      "tagline": "Cheat prevention from Denuvo by Irdeto",
+      "best_for": "Publishers already using Denuvo protection",
+      "pricing": "Not published on the opened pages.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Game cheat prevention",
+        "Pre-release game protection",
+        "Game piracy protection"
+      ],
+      "summary": "Fourth because it pairs cheat prevention with leak and piracy protection, useful to premium publishers, though pages stay general.",
+      "verdict": "Denuvo by Irdeto provides game security aimed at limiting leaks, piracy and cheating, and Irdeto's video games page lists game cheat prevention as advanced anti-cheat solutions. The attraction is bundling: a publisher that already protects a premium release before launch can discuss cheat prevention with the same vendor. The denuvo.com domain redirects to Irdeto's page, so the corporate relationship is visible.",
+      "weaknesses": "The opened pages describe cheat prevention only in general terms and do not use the name Denuvo Anti-Cheat itself. No pricing is shown, and no platforms or detection methods are listed.",
+      "wrong_for": "Free-to-play studios and indies that want a published tier structure should start with Easy Anti-Cheat; the offer is aimed at large publishers.",
+      "sources": [
+        {
+          "fact": "Denuvo by Irdeto provides game security to help limit leaks, piracy and cheating.",
+          "url": "https://irdeto.com/video-games"
+        },
+        {
+          "fact": "Irdeto's video games page lists game cheat prevention as advanced anti-cheat solutions.",
+          "url": "https://irdeto.com/video-games"
+        },
+        {
+          "fact": "The denuvo.com domain redirects to Irdeto's video games page.",
+          "url": "https://irdeto.com/video-games"
+        }
+      ]
+    },
+    {
+      "slug": "anti-cheat-expert",
+      "name": "Anti-Cheat Expert (Tencent ACE)",
+      "site": "https://ace.qq.com",
+      "company": "Tencent",
+      "country": "",
+      "tagline": "Tencent Game Security anti-cheat and hardening",
+      "best_for": "Studios publishing in China",
+      "pricing": "No pricing shown on the opened page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Android, iOS, HarmonyOS mobile games and PC games",
+      "features": [
+        "Android anti-cheat",
+        "iOS anti-cheat",
+        "PC anti-cheat",
+        "Client hardening",
+        "Content safety"
+      ],
+      "summary": "Fifth because Tencent names Android, iOS and PC anti-cheat plus hardening, but the site is in Chinese and shows no pricing.",
+      "verdict": "ACE is Tencent's game security service, offering anti-cheat and client hardening, and the site says the technology comes from Tencent's own games. It lists anti-cheat for Android, iOS and PC games, hardening for HarmonyOS mobile games and text and image content safety. For a studio operating inside the Chinese market, a service built from that environment's own experience is a logical shortlist entry.",
+      "weaknesses": "The site is in Chinese, which complicates evaluation for most Western teams, and no pricing is shown. The pages do not say how a non-Tencent studio engages the service or whether it is offered outside China.",
+      "wrong_for": "Studios outside the Chinese market, or those that need English documentation, should look at BattlEye or Easy Anti-Cheat.",
+      "sources": [
+        {
+          "fact": "ACE is Tencent's game security service, offering anti-cheat and client hardening for games.",
+          "url": "https://ace.qq.com"
+        },
+        {
+          "fact": "The ACE site lists anti-cheat for Android, iOS and PC games, and hardening for HarmonyOS mobile games.",
+          "url": "https://ace.qq.com"
+        },
+        {
+          "fact": "The ACE site says its security technology comes from Tencent's own games.",
+          "url": "https://ace.qq.com"
+        }
+      ]
+    },
+    {
+      "slug": "xigncode3",
+      "name": "XIGNCODE3",
+      "site": "https://www.wellbia.com",
+      "company": "WELLBIA",
+      "country": "",
+      "tagline": "WELLBIA game protection for PC, mobile and console",
+      "best_for": "Titles launching in Korean markets",
+      "pricing": "No pricing shown on the opened page; the site has a contact form.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "PC, mobile and console",
+      "features": [
+        "PC gaming protection",
+        "Mobile gaming protection",
+        "Console gaming protection"
+      ],
+      "summary": "Sixth since WELLBIA names PC, mobile and console protection and offers English, but the product detail published is thin.",
+      "verdict": "The WELLBIA site names XIGNCODE3 among its products and offers PC, mobile and console gaming protection, in English and Korean, with a contact form for inquiries. A studio launching in Korea, where local vendors may have regional experience, has a reason to request a conversation. The named platform spread is wider than several rivals here, which lifts it above the application security vendors.",
+      "weaknesses": "The opened page gives no pricing, no feature breakdown and no description of detection methods, so there is little to compare before contact. Only a product name and platform list were readable.",
+      "wrong_for": "Teams that want to evaluate documentation before talking to sales should use BattlEye, whose site lists documentation and downloads.",
+      "sources": [
+        {
+          "fact": "The WELLBIA site names XIGNCODE3 among its products.",
+          "url": "https://www.wellbia.com"
+        },
+        {
+          "fact": "WELLBIA offers PC, mobile and console gaming protection.",
+          "url": "https://www.wellbia.com"
+        },
+        {
+          "fact": "The WELLBIA site has a contact form for inquiries.",
+          "url": "https://www.wellbia.com"
+        }
+      ]
+    },
+    {
+      "slug": "nprotect-gameguard",
+      "name": "nProtect GameGuard",
+      "site": "https://www.nprotect.com",
+      "company": "INCA Internet (잉카인터넷)",
+      "country": "",
+      "tagline": "INCA Internet game security product",
+      "best_for": "Korean-market online games",
+      "pricing": "Not published; the site offers a product consultation inquiry.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "GameGuard",
+        "nProtect",
+        "TACHYON",
+        "Security certifications"
+      ],
+      "summary": "Seventh because the vendor names GameGuard and lists security certifications, but the site is mostly about wider security products.",
+      "verdict": "INCA Internet's site presents the nProtect and TACHYON product families for online finance, mobile, game and endpoint security and names GameGuard in its product text. It lists CC, GS, KCMVP and VB100 certifications, which is useful context if procurement asks for formal security credentials. A product consultation inquiry is offered. It earns a place as an established name, though the opened pages say little about the game service itself.",
+      "weaknesses": "The site is in Korean with an English version, no pricing is shown and the pages give no platform list or detection description for GameGuard specifically. Game security is one line among finance and endpoint products.",
+      "wrong_for": "Studios outside Korea wanting a game-only specialist should start with Easy Anti-Cheat or BattlEye.",
+      "sources": [
+        {
+          "fact": "INCA Internet's website presents the nProtect and TACHYON product families for online finance, mobile, game and endpoint security.",
+          "url": "https://www.nprotect.com"
+        },
+        {
+          "fact": "The nProtect site names GameGuard in its product text.",
+          "url": "https://www.nprotect.com"
+        },
+        {
+          "fact": "INCA Internet's site lists certifications CC, GS, KCMVP and VB100.",
+          "url": "https://www.nprotect.com"
+        }
+      ]
+    },
+    {
+      "slug": "irdeto",
+      "name": "Irdeto",
+      "site": "https://irdeto.com",
+      "company": "Irdeto",
+      "country": "",
+      "tagline": "Cybersecurity group behind Denuvo game protection",
+      "best_for": "Large publishers with pre-release risk",
+      "pricing": "No pricing is shown on the opened pages.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Pre-release game protection",
+        "Game piracy protection",
+        "Game cheat prevention",
+        "Video entertainment solutions"
+      ],
+      "summary": "Eighth because it is the corporate home of Denuvo, with a broad security portfolio and no pricing shown, which dilutes its anti-cheat focus.",
+      "verdict": "Irdeto describes itself as a company that protects revenue and fights cybercrime in video entertainment, video games and connected industries. Its video games offering includes pre-release protection, piracy protection and cheat prevention, and Denuvo by Irdeto appears on that page. For a large publisher that wants one security partner across several risk types, contacting the parent company is the direct route.",
+      "weaknesses": "This is a corporate umbrella page, so it adds nothing beyond the Denuvo entry above for cheat prevention itself. No pricing appears, and the portfolio extends well beyond games into video entertainment.",
+      "wrong_for": "Studios seeking a focused anti-cheat product should skip the umbrella and contact BattlEye, Easy Anti-Cheat or Anybrain directly.",
+      "sources": [
+        {
+          "fact": "Irdeto says it provides services and solutions that protect revenue, enable growth and fight cybercrime in video entertainment, video games and connected industries.",
+          "url": "https://irdeto.com/"
+        },
+        {
+          "fact": "Irdeto's video games offering includes pre-release game protection, game piracy protection and game cheat prevention.",
+          "url": "https://irdeto.com/video-games"
+        },
+        {
+          "fact": "Denuvo by Irdeto is presented under the Irdeto brand on the video games page.",
+          "url": "https://irdeto.com/video-games"
+        }
+      ]
+    },
+    {
+      "slug": "appdome",
+      "name": "Appdome",
+      "site": "https://www.appdome.com",
+      "company": "Appdome",
+      "country": "",
+      "tagline": "Mobile app defense built into Android and iOS apps",
+      "best_for": "Mobile games guarding the app binary",
+      "pricing": "Quote only: the pricing page is titled Appdome Pricing Request and asks buyers to choose the features they need and get a quote.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Android and iOS apps",
+      "features": [
+        "Mobile app protection",
+        "Anti-fraud",
+        "Anti-bot defenses",
+        "Device fingerprinting",
+        "Mobile API protection"
+      ],
+      "summary": "Ninth because its defenses harden Android and iOS apps and bots, which helps mobile games but is not gameplay cheat detection.",
+      "verdict": "Appdome describes building security, anti-fraud and anti-bot defenses into Android and iOS apps, with more than 400 defenses listed on the homepage, including device fingerprinting and mobile API protection. For a mobile game that suffers from modified clients, emulators or botted accounts, a build-time defense layer reduces the attack surface. The pricing page works as a quote builder where buyers choose the features they need.",
+      "weaknesses": "The pages we opened are not about games and do not mention cheat detection in play. Pricing is quote only, and coverage is limited to Android and iOS apps, so PC and console titles are outside its scope.",
+      "wrong_for": "PC or console studios, and teams wanting gameplay-level detection, should choose Easy Anti-Cheat or BattlEye.",
+      "sources": [
+        {
+          "fact": "Appdome describes itself as building security, anti-fraud and anti-bot defenses into Android and iOS apps.",
+          "url": "https://www.appdome.com"
+        },
+        {
+          "fact": "The Appdome homepage says the platform offers 400+ security, anti-fraud and anti-bot defenses.",
+          "url": "https://www.appdome.com"
+        },
+        {
+          "fact": "Appdome's pricing page is titled Appdome Pricing Request and asks buyers to choose features and get a quote.",
+          "url": "https://www.appdome.com/appdome-pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "guardsquare",
+      "name": "Guardsquare",
+      "site": "https://www.guardsquare.com",
+      "company": "Guardsquare",
+      "country": "",
+      "tagline": "Android and iOS code hardening and RASP",
+      "best_for": "Mobile titles needing code hardening",
+      "pricing": "A pricing page exists for mobile app security software, but no prices are readable in the opened text.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Android and iOS",
+      "features": [
+        "DexGuard Android protection",
+        "iOS protection",
+        "Code hardening",
+        "RASP"
+      ],
+      "summary": "Tenth since DexGuard hardens Android code with runtime self-protection, a defense for mobile builds rather than a game anti-cheat service.",
+      "verdict": "Guardsquare calls itself a leader in mobile application security, and its homepage says DexGuard protects Android apps and SDKs with multilayered code hardening and runtime application self-protection, with an iOS protection product alongside. A mobile game studio concerned about reverse engineering, repackaged APKs and tampering gets a clear product story here. It sits below dedicated game services because the pages do not discuss games.",
+      "weaknesses": "A pricing page exists but no prices were readable in the text we opened. Coverage is Android and iOS only, and the vendor makes no statement about cheat detection or ban workflows.",
+      "wrong_for": "Studios whose cheating problem happens during live play on PC should select a game service such as BattlEye.",
+      "sources": [
+        {
+          "fact": "Guardsquare describes itself as the leader in mobile application security.",
+          "url": "https://www.guardsquare.com"
+        },
+        {
+          "fact": "The homepage says DexGuard protects Android apps and SDKs with multilayered code hardening and RASP.",
+          "url": "https://www.guardsquare.com"
+        },
+        {
+          "fact": "The homepage lists an iOS Protection product alongside Android Protection.",
+          "url": "https://www.guardsquare.com"
+        }
+      ]
+    },
+    {
+      "slug": "promon",
+      "name": "Promon",
+      "site": "https://promon.io",
+      "company": "Promon",
+      "country": "",
+      "tagline": "Runtime app protection with telemetry",
+      "best_for": "Mobile publishers wanting runtime signals",
+      "pricing": "No pricing is shown on the opened pages; the pricing URL returned 404. The site offers a contact page for demos and questions.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Runtime app protection",
+        "Promon Shield Studio",
+        "Runtime telemetry",
+        "Threat response"
+      ],
+      "summary": "Eleventh because it shields apps after compilation and collects runtime telemetry, useful for mobile builds but not described for games.",
+      "verdict": "Promon describes a runtime app protection and intelligence platform that shields apps after compilation and gathers runtime telemetry, with Promon Shield Studio as its control plane. The homepage says it protects 2 billion app installs. A mobile publisher that wants to see which devices attack its app, not only block them, may value the telemetry view, which also feeds a threat response process.",
+      "weaknesses": "No pricing is shown and the pricing URL returned a 404 on our check. The pages do not mention games, console or PC support, or cheat detection, so a game team would need to ask whether the product fits.",
+      "wrong_for": "Teams that need a service built for game cheating, with bans and appeals, should choose Easy Anti-Cheat instead.",
+      "sources": [
+        {
+          "fact": "Promon describes itself as a runtime app protection and intelligence platform.",
+          "url": "https://promon.io"
+        },
+        {
+          "fact": "Promon's homepage says the platform protects 2 billion app installs.",
+          "url": "https://promon.io"
+        },
+        {
+          "fact": "Promon Shield Studio is listed on the homepage as the control plane of its platform.",
+          "url": "https://promon.io"
+        }
+      ]
+    },
+    {
+      "slug": "digital-ai-application-protection",
+      "name": "Digital.ai Application Protection",
+      "site": "https://digital.ai/",
+      "company": "Digital.ai",
+      "country": "",
+      "tagline": "Arxan application hardening within a DevOps platform",
+      "best_for": "Enterprises hardening mobile and desktop apps",
+      "pricing": "Not shown on the opened pages; digital.ai/pricing returned 404.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Mobile and desktop apps",
+      "features": [
+        "Mobile app hardening",
+        "Desktop app hardening",
+        "Arxan Security",
+        "Release orchestration"
+      ],
+      "summary": "Last because the opened pages describe application hardening inside a DevOps platform and say nothing about games or cheating.",
+      "verdict": "Digital.ai lists Arxan Security under mobile and desktop app hardening within a platform that unifies and secures the software lifecycle. A studio that already uses its release tooling, or a publisher with desktop launchers that need tamper resistance, could ask about hardening a game client. We include it because buyers search for application protection when planning anti-cheat, and a clear statement of fit is more useful than omission.",
+      "weaknesses": "The opened pages describe app hardening, not game anti-cheat, and no pricing is shown; the pricing URL returned a 404. It is the weakest match on this page for the stated purpose.",
+      "wrong_for": "Almost any game studio looking specifically for cheat prevention should choose a game service such as BattlEye or Easy Anti-Cheat.",
+      "sources": [
+        {
+          "fact": "Digital.ai describes its platform as an AI-powered DevOps platform that unifies, secures and generates insights across the software lifecycle.",
+          "url": "https://digital.ai/"
+        },
+        {
+          "fact": "The Digital.ai homepage lists Arxan Security under mobile and desktop app hardening.",
+          "url": "https://digital.ai/"
+        },
+        {
+          "fact": "No pricing is shown on the opened Digital.ai pages.",
+          "url": "https://digital.ai/"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "hub": "games"
+}

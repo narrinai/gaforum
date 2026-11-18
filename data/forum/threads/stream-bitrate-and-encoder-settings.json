@@ -1,0 +1,26 @@
+{
+  "id": "stream-bitrate-and-encoder-settings",
+  "board": "livestreaming",
+  "title": "What bitrate and encoder settings do you stream at?",
+  "created": "2026-11-18T09:56:00Z",
+  "pinned": false,
+  "body": [
+    "Streamers swap settings constantly: encoder, bitrate, keyframe interval, resolution and frame rate. What do you run for a fast game, and did you change it after a drop in viewers or a platform update?",
+    "YouTube's [live encoder help page](https://support.google.com/youtube/answer/2853702) lists a recommended bitrate of 17 Mbps for 1080p at 60 frames per second with H.264, and 12 Mbps for the same resolution with AV1 or H.265. It recommends a keyframe frequency of 2 seconds, says not to exceed 4 seconds, and lists CBR as the bitrate encoding.",
+    "Other platforms publish their own limits, and your upload speed and hardware encoder set the real ceiling. Post your platform, encoder (software or hardware), resolution and what you changed that made a visible difference."
+  ],
+  "related": [
+    {
+      "title": "Best Streaming Software for Gamers in 2026",
+      "url": "/software/best-streaming-software-for-gamers"
+    },
+    {
+      "title": "OBS Studio Alternatives in 2026",
+      "url": "/alternatives/obs-studio"
+    },
+    {
+      "title": "OBS Studio vs vMix: Which Fits Your Team in 2026?",
+      "url": "/compare/obs-studio-vs-vmix"
+    }
+  ]
+}

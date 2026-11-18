@@ -1,0 +1,484 @@
+{
+  "slug": "best-2d-game-engines",
+  "name": "2D game engines",
+  "title": "Best 2D Game Engines in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "summary_line": "A ranking of engines and frameworks built for flat games: sprites, tilemaps, scene tools and the platforms each one can ship to.",
+  "definition": "A 2D game engine is software for making games drawn in flat planes: sprite animation, tilemaps, collision, scene editing and export to devices. Some are full editors with visual tools, others are code libraries for the browser. This ranking covers both and compares editor tools, export targets and license terms published by each vendor.",
+  "intro": "Picking a 2D engine usually fails on one of three points: the tool cannot reach the platform you promised a publisher, the license adds a fee after launch, or the workflow clashes with how your team builds levels. A pixel platformer and a browser puzzle game need different things, even though both are called 2D. We read vendor homepages, documentation pages and license statements for twelve tools and compared what each one publishes about editors, tilemaps, sprite tooling, export targets and cost. We did not run benchmarks, and where a vendor stays silent, such as on price, we say so rather than guess. Ranking weighs fit for small teams first, then breadth of targets, then clarity of terms. Tools that cannot show a price, platform list or license on their own pages rank lower, however well known they are.",
+  "criteria": [
+    {
+      "heading": "Tilemap and sprite tooling",
+      "text": "A flat-game engine lives or dies on how fast you can lay out tiles and animate sprites. Some tools ship dedicated editors: Defold lists tilemap and particle editors, GameMaker has a room workflow, and Stencyl offers a Scene Designer and Actor Editor. Library-style choices such as LOVE and KAPLAY give you drawing calls and expect you to bring your own level tools. Phaser adds GPU-driven tilemap and sprite layers for dense scenes. We checked which tool describes these features on its own pages and gave credit only for what is stated."
+    },
+    {
+      "heading": "Where the build can ship",
+      "text": "Export targets decide whether a game reaches phones, browsers, Steam or consoles. GameMaker lists Xbox Series X|S, PlayStation 5 and Switch; Defold lists Xbox, PlayStation and Switch too; Godot sends consoles through third-party publishers; browser frameworks such as Phaser, KAPLAY and Excalibur.js focus on the web. We recorded the platforms each vendor names and treated unlisted platforms as unconfirmed rather than absent."
+    },
+    {
+      "heading": "License and cost after launch",
+      "text": "Free to start does not always mean free to ship. Defold states no royalties and no runtime fee, Solar2D promises no hidden fees under MIT, and LÖVE allows commercial use under the zlib/libpng license. GameMaker and GDevelop have paid tiers where console release or iOS publishing sits behind a plan, and Stencyl and Cocos Creator show no prices on their homepages. Read the plan page before you promise a platform to a publisher."
+    },
+    {
+      "heading": "Scripting model and team skills",
+      "text": "The language your team already writes is a real cost. GameMaker uses its own GML, Godot offers GDScript, C#, C++ or GDExtension, Phaser, KAPLAY and Excalibur.js use JavaScript or TypeScript, and LÖVE and Solar2D use Lua. GDevelop and Stencyl avoid code with events and blocks. A mismatch means retraining, so we weighed how well each scripting option suits a small group of two to ten people."
+    }
+  ],
+  "market_notes": [
+    "Counting the twelve tools, seven are described by their vendors as free and open source or published under a named open license (Godot, Phaser, Solar2D, LOVE, KAPLAY, Excalibur.js and GDevelop), and Defold is free but source available. None of the twelve homepages prints a paid price, so the open tools are the only ones with a clear cost. Three of the twelve (Phaser, KAPLAY and Excalibur.js) are browser-first frameworks, and two more (LÖVE and Solar2D) are Lua code libraries.",
+    "The trade-off in this niche is control against convenience. Frameworks like LÖVE, Phaser and Excalibur.js are light and free of lock-in but leave level editors, build packaging and console porting to you. Full editors such as GameMaker and Defold shorten that work, yet GameMaker ties console release to a higher tier and Defold's license is source available rather than open source. No-code tools lower the barrier but cap how far custom mechanics can go."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Write down the platforms you promised",
+      "text": "List every store and device a publisher, a portal or your own plan requires, then cross it with each vendor's published target list. Consoles narrow the field fast: GameMaker and Defold name them, Godot routes them through third parties, and most web frameworks do not list them. If a platform is missing from the page, email the vendor before you commit months of work."
+    },
+    {
+      "title": "Match the tool to how your team builds levels",
+      "text": "If your designers place tiles and trigger events, favor an editor with scene and tilemap tools such as Defold, GameMaker or GDevelop. If your developers prefer code and version control, a framework like LÖVE or Phaser removes friction. Try a small vertical slice with two finalists before deciding; a single weekend shows more than a feature table."
+    },
+    {
+      "title": "Cost the license for year two",
+      "text": "Calculate what you pay at launch, not only on day one. Check which tier unlocks your target platforms, whether support is paid, and whether the source license lets you patch the engine. Open tools with MIT, BSD or zlib terms have no such surprise; commercial tools need their pricing page opened and the figures saved with the date."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best 2D game engine in 2026?",
+      "a": "GameMaker is our first choice for most small teams: it is built only for 2D, has a free tier and lists console targets. Godot is better when open-source code and a future 3D option matter, and Phaser is better when the game runs in a browser. Defold ranks fourth and fits teams that want royalty-free consoles."
+    },
+    {
+      "q": "Which 2D engine is completely free with no royalties?",
+      "a": "Defold states that it is free forever with no royalties and no runtime fee, Solar2D says no hidden fees or royalties under MIT, and LÖVE allows commercial use without limitation under zlib/libpng. Godot, Phaser, KAPLAY and Excalibur.js are also free and open source."
+    },
+    {
+      "q": "Can I make a 2D game without coding?",
+      "a": "Yes. GDevelop uses an event system with ready-made behaviors, Stencyl uses a Scratch-inspired block builder, and Buildbox markets itself as needing no scripting. These tools trade depth for speed, so complex custom mechanics may require extensions, and Buildbox publishes no price or platform list."
+    },
+    {
+      "q": "Which engine is best for browser 2D games?",
+      "a": "Phaser is the leading choice here, with MIT licensing, Canvas and WebGL rendering and listings for YouTube Playables and Discord Activities. KAPLAY suits quick TypeScript prototypes, and Excalibur.js suits typed projects with a documented API."
+    },
+    {
+      "q": "Does GameMaker support consoles?",
+      "a": "The homepage lists Xbox Series X|S, PlayStation 5 and Nintendo Switch as targets, and states that the Enterprise tier adds release on major consoles. Neither paid tier shows a price on the homepage, so ask the vendor or check the store before budgeting."
+    },
+    {
+      "q": "Is Godot good for 2D or only for 3D?",
+      "a": "Godot has a dedicated 2D engine, according to its homepage, rather than treating 2D as a flat 3D scene. It takes second place here for that reason. The caveats are that consoles go through third-party publishers and that C# on the web needs Godot 3."
+    },
+    {
+      "q": "How do I choose between Lua and TypeScript engines?",
+      "a": "Choose by team skill and target. Lua suits LÖVE and Solar2D, which both list mobile builds, with Solar2D also naming tvOS and Android TV. TypeScript suits Excalibur.js and KAPLAY for the browser. If neither language is in your team already, an editor with its own scripting, like GameMaker, is quicker."
+    }
+  ],
+  "related": [
+    "best-open-source-game-engines",
+    "best-game-engines-for-mobile-games",
+    "best-3d-game-engines-for-small-studios"
+  ],
+  "tools": [
+    {
+      "slug": "gamemaker",
+      "name": "GameMaker",
+      "site": "https://gamemaker.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Dedicated 2D engine with GML and console targets",
+      "best_for": "Solo 2D developers shipping to consoles",
+      "pricing": "A free tier with no credit card; Professional adds commercial release and Enterprise adds console release, neither with a price on the homepage.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Windows, Mac, Linux, Android, iOS, HTML5, Xbox Series X|S, PlayStation 5, Switch targets",
+      "features": [
+        "GML language",
+        "Asset Bundles",
+        "Marketplace",
+        "Education licenses",
+        "GX.games upload"
+      ],
+      "summary": "Built only for 2D, with Xbox, PlayStation and Switch among its homepage targets and a free tier for prototypes, which settles the top spot for sprite-driven work.",
+      "verdict": "GameMaker takes first place because it makes no attempt to be a 3D tool. The homepage presents GML scripting, a marketplace of assets and tutorials, and a target list that runs from HTML5 and mobile to Xbox Series X|S, PlayStation 5 and Nintendo Switch. The free tier needs no card, so a prototype costs nothing, and the vendor cites UNDERTALE, Hyper Light Drifter and Chicory: A Colorful Tale as titles built with it. For a small team that wants a sprite and room workflow without learning a general engine, the path from first test to console release is the shortest on this list.",
+      "weaknesses": "Console release sits behind the Enterprise tier, and neither paid tier shows a price on the homepage, so budgeting needs a sales or store visit. The page does not state which operating systems run the editor. GML is a proprietary language, which ties project code to this one tool.",
+      "wrong_for": "Teams that insist on open-source code or a 3D roadmap should read the Godot entry; browser-first developers will prefer Phaser.",
+      "sources": [
+        {
+          "fact": "GameMaker is described on the vendor homepage as a free 2D game engine, 'The Friendly Indie Game Engine'.",
+          "url": "https://gamemaker.io/"
+        },
+        {
+          "fact": "The free tier is described as completely free with no credit card required; no trial is mentioned on the homepage.",
+          "url": "https://gamemaker.io/"
+        }
+      ]
+    },
+    {
+      "slug": "godot",
+      "name": "Godot",
+      "site": "https://godotengine.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Open-source engine with a separate 2D renderer",
+      "best_for": "Teams wanting a free engine with no strings",
+      "pricing": "No charge. The homepage calls it free and open source and makes no further pricing claim; it does not name the license in the page text.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Exports to desktop, mobile and web; consoles through third-party publishers",
+      "features": [
+        "Node and scene system",
+        "GDScript, C#, C++ or GDExtension",
+        "Dedicated 2D engine",
+        "Export to desktop, mobile and web"
+      ],
+      "summary": "Free, open source and equipped with a dedicated 2D engine, so a studio pays nothing and keeps full control of the editor and its source.",
+      "verdict": "Where GameMaker locks the toolchain, Godot hands over everything. Its node and scene model lets you compose a level from small reusable pieces, and the vendor describes a dedicated 2D engine alongside its 3D one rather than a flattened 3D view. Scripting comes in GDScript, C#, C++ or GDExtension, and exports reach desktop, mobile and web. Sponsors named on the homepage include Scorewarrior, W4 Games, JetBrains and Mega Crit, and the Godot Foundation hosts the project, which gives a small team some comfort about continuity. The latest download listed is Godot 4.7.2.",
+      "weaknesses": "Console export is not built in: the homepage says consoles run through third-party publishers. The only editor download link shown is for Windows. C# on the web needs Godot 3, according to the homepage, which matters if your team writes C# and ships browser builds.",
+      "wrong_for": "If you want the shortest route to a console port from one vendor, GameMaker is closer; if you write mostly TypeScript, look at Phaser.",
+      "sources": [
+        {
+          "fact": "Godot is described on the vendor homepage as a free, open-source 2D and 3D game engine.",
+          "url": "https://godotengine.org/"
+        },
+        {
+          "fact": "The homepage makes no pricing statement beyond calling Godot a free, open-source game engine.",
+          "url": "https://godotengine.org/"
+        }
+      ]
+    },
+    {
+      "slug": "phaser",
+      "name": "Phaser",
+      "site": "https://github.com/phaserjs/phaser",
+      "company": "",
+      "country": "",
+      "tagline": "MIT-licensed HTML5 framework for browser 2D games",
+      "best_for": "Web studios shipping playable ads and portals",
+      "pricing": "Free under the MIT license, per the official repository page.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Desktop and mobile browsers, YouTube Playables, Discord Activities, Reddit games, Twitch overlays",
+      "features": [
+        "Canvas and WebGL rendering",
+        "TilemapGPULayer",
+        "SpriteGPULayer",
+        "Unified Filter system"
+      ],
+      "summary": "A code-first framework tuned for the browser, with GPU tilemap and sprite layers that suit large 2D scenes.",
+      "verdict": "Phaser belongs near the top for anyone whose game will live in a browser tab. The repository describes a free, fast 2D framework for HTML5 games, written for JavaScript or TypeScript, and the fourth major version is built on a new WebGL renderer with a TilemapGPULayer and a SpriteGPULayer for dense scenes. The reach is unusually wide: the page lists YouTube Playables, Discord Activities, Reddit games and Twitch overlays alongside ordinary browsers. The repository reports 40.7k GitHub stars and more than 13 years of active development, and Phaser Studio Inc develops it commercially with the community.",
+      "weaknesses": "There is no visual editor in the facts we found, so level design relies on external tools. iOS, Android and Steam builds depend on third-party wrappers rather than a first-party exporter. Programming skill is a prerequisite, which rules out a no-code workflow.",
+      "wrong_for": "Designers who want drag-and-drop logic should look at GDevelop; teams targeting consoles should choose GameMaker or Defold.",
+      "sources": [
+        {
+          "fact": "Phaser is described on its official GitHub repository as a fun, free and fast 2D game framework for HTML5 games.",
+          "url": "https://github.com/phaserjs/phaser"
+        },
+        {
+          "fact": "The repository page states the project is licensed under the MIT license.",
+          "url": "https://github.com/phaserjs/phaser"
+        }
+      ]
+    },
+    {
+      "slug": "defold",
+      "name": "Defold",
+      "site": "https://defold.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Free engine with built-in tilemap and particle editors",
+      "best_for": "Small teams wanting royalty-free console targets",
+      "pricing": "Described as free forever with no up-front cost, no licensing cost, no royalties and no runtime fee, under a source-available license.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Xbox, PlayStation, Switch, Steam, desktop, iOS, Android, HTML5, Poki, Facebook",
+      "features": [
+        "Tilemap editor",
+        "ParticleFX editor",
+        "Scene editor",
+        "Hot reload and profiler"
+      ],
+      "summary": "A free, all-in-one engine whose editor bundles tilemap and particle tools, with a broad platform list and no royalties.",
+      "verdict": "Defold earns its place from the editor itself: the homepage lists a visual editor, a scene editor, a code editor and dedicated ParticleFX and Tilemap editors, plus hot reload, a profiler and a debugger. The target list is long, covering Xbox, PlayStation 4 and 5, Switch, Steam, mobile, HTML5, Poki and Facebook. Xbox support arrived with Defold 1.14.0 and is free for approved Xbox developers. Because the vendor states no royalties and no runtime fee, the cost of a small hit is predictable. The editor is localized in English, Russian, Chinese and Portuguese.",
+      "weaknesses": "The license is described as source available, not open source, so check the terms if you plan to fork. Native extensions are the route to custom features, which raises the bar compared with a no-code tool. Editor localization covers four languages.",
+      "wrong_for": "Anyone who needs a very large asset marketplace should compare GameMaker; Godot suits those who want OSI-style open source.",
+      "sources": [
+        {
+          "fact": "Defold is described on the homepage as a free, powerful, all-in-one game engine for cross-platform 2D and 3D games.",
+          "url": "https://defold.com/"
+        },
+        {
+          "fact": "The homepage states Defold is free forever, source available under a developer-friendly license, with no royalties and no runtime fee.",
+          "url": "https://defold.com/"
+        }
+      ]
+    },
+    {
+      "slug": "gdevelop",
+      "name": "GDevelop",
+      "site": "https://gdevelop.io/",
+      "company": "",
+      "country": "",
+      "tagline": "No-code event system for 2D and 3D games",
+      "best_for": "Non-programmers building and publishing quickly",
+      "pricing": "The engine is described as open source, with paid Silver and Gold plans whose prices are not shown in the page text.",
+      "pricing_model": "Subscription",
+      "free_plan": "Open source",
+      "platforms": "Web, Android, Steam and iOS (iOS on the higher plan)",
+      "features": [
+        "Event system",
+        "Ready-made behaviors",
+        "One-click exporting",
+        "Multiplayer and player services",
+        "AI tutor"
+      ],
+      "summary": "A no-code event editor that turns game logic into rules, with one-click exports to web, Android, Steam and iOS.",
+      "verdict": "GDevelop is the pick for readers who would rather click than type. The homepage describes a free, open-source, no-code engine with a drag-and-drop interface, ready-made behaviors and an event system, and it adds multiplayer and player services plus an AI-assisted builder and tutor. One-click exporting covers web, Android, Steam and iOS. As social proof it claims that SPECTRUM was played over 5,000,000 times on the web and that the mobile game Vai Juliette won a 2021 Brazil Mobile Game of the Year title. Starting is free, and the paid plans are named Silver and Gold.",
+      "weaknesses": "iOS publishing sits on the higher paid plan, and neither plan shows a price in the page text. The license name is not given. Event sheets can grow hard to read in large projects, an assumption worth testing before committing a long production.",
+      "wrong_for": "Developers who prefer writing code should pick LOVE or Phaser; a studio that needs console release should look at GameMaker.",
+      "sources": [
+        {
+          "fact": "GDevelop is described on the vendor homepage as a free, open-source, no-code game engine for 2D and 3D games.",
+          "url": "https://gdevelop.io/"
+        },
+        {
+          "fact": "The homepage lists Silver and Gold paid plans, but the prices are not shown in the page text.",
+          "url": "https://gdevelop.io/"
+        }
+      ]
+    },
+    {
+      "slug": "love",
+      "name": "LOVE",
+      "site": "https://love2d.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Lua framework with a permissive zlib/libpng license",
+      "best_for": "Programmers who want a small, readable codebase",
+      "pricing": "Free, with commercial use allowed without limitations under the zlib/libpng license.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, macOS, Linux, Android (APK), iOS (source and libraries)",
+      "features": [
+        "Graphics",
+        "Audio",
+        "Physics",
+        "Touch input",
+        "Filesystem"
+      ],
+      "summary": "A minimal Lua framework whose license allows any commercial use, with a track record that includes Balatro.",
+      "verdict": "LÖVE gives you modules and leaves the rest to you. The homepage lists graphics, audio, physics, input including touch, a filesystem, threads and video, and the license is the liberal zlib/libpng terms, so a paid release needs no permission or fee. Example games cited by the vendor include Balatro, Arco and Moonring, which shows a small framework can carry a commercial hit. Builds exist for Windows, macOS, Linux and Android, while iOS arrives as source and libraries. The current version shown is 11.5. A PayPal donation option funds development.",
+      "weaknesses": "There is no editor, scene designer or tilemap tool in the facts, so everything beyond drawing needs libraries or custom code. iOS is delivered as source, not a ready build. Console targets are not listed on the homepage.",
+      "wrong_for": "Teams that want a visual toolchain should look at Defold or GameMaker; web-only projects fit KAPLAY better.",
+      "sources": [
+        {
+          "fact": "LÖVE is described on the homepage as a free, open-source framework for making 2D games in Lua.",
+          "url": "https://love2d.org/"
+        },
+        {
+          "fact": "The homepage says LÖVE is licensed under the liberal zlib/libpng license and costs nothing, with commercial use without limitations.",
+          "url": "https://love2d.org/"
+        }
+      ]
+    },
+    {
+      "slug": "solar2d",
+      "name": "Solar2D",
+      "site": "https://solar2d.com/",
+      "company": "Solar2D LLC",
+      "country": "United States",
+      "tagline": "Lua engine forked from Corona SDK, MIT licensed",
+      "best_for": "Lua developers targeting phones and TV boxes",
+      "pricing": "Free under the MIT license; the homepage promises no hidden fees, charges or royalties.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "iOS, tvOS, Android, Android TV, macOS, Windows, Linux, HTML5",
+      "features": [
+        "Build Fast simulator",
+        "Live builds",
+        "Plugins",
+        "Native library calls"
+      ],
+      "summary": "A Lua engine with a fast simulator and mobile-first heritage, free and royalty-free under the MIT license.",
+      "verdict": "Solar2D descends from the Corona SDK, which the homepage says is no longer commercially supported, and it keeps the fast-iteration idea: a simulator and live builds let you change code and see the result quickly. The build target list is unusually wide for a Lua tool, taking in iOS, tvOS, Android, Android TV, desktop and HTML5. Plugins and calls into native libraries extend it. The company, Solar2D LLC, lists an address in Sheridan, Wyoming, and development is funded by sponsors through GitHub Sponsors and Patreon, so there are no license fees to plan around.",
+      "weaknesses": "Funding relies on user sponsorship, a thinner base than a foundation or company. The homepage gives no console list. Tilemap and sprite-sheet handling are not described in the facts, so check the documentation before assuming editor support.",
+      "wrong_for": "Anyone needing console exports should look at GameMaker; designers who dislike Lua may prefer Excalibur.js or GDevelop.",
+      "sources": [
+        {
+          "fact": "Solar2D is described on the homepage as a Lua-based, open source 2D game engine, forked from the Corona SDK.",
+          "url": "https://solar2d.com/"
+        },
+        {
+          "fact": "The homepage states Solar2D is released under the MIT license with no hidden fees, charges or royalties.",
+          "url": "https://solar2d.com/"
+        }
+      ]
+    },
+    {
+      "slug": "cocos-creator",
+      "name": "Cocos Creator",
+      "site": "https://cocos.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Cross-platform graphics engine with a Chinese-language homepage",
+      "best_for": "Studios aiming at Asian markets and partner SDKs",
+      "pricing": "The homepage states no price or license; it shows a download button and a link to a store.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Multi-platform publishing, specific targets not listed on the homepage",
+      "features": [
+        "Toolchain",
+        "Debugging and visualization",
+        "Multi-language development",
+        "Multi-platform publishing"
+      ],
+      "summary": "A full toolchain engine for 2D and 3D with strong partner names, held back by a homepage that gives no license or price.",
+      "verdict": "Cocos Creator is described as a cross-platform graphics engine and real-time 3D content creation platform that handles both 2D and 3D games. The homepage lists a high-performance engine, a complete toolchain, debugging and visualization, and multi-language development. It names partners including ARM, Meta, Google, Huawei, Microsoft, Samsung and Tencent and claims to host over 70% of game content development, a statement we repeat only as the vendor's own. The homepage text is in Chinese, which suits teams working in that market and shapes where it ranks for the global reader.",
+      "weaknesses": "No license, price or specific platform list is stated on the homepage, so a studio cannot judge cost or reach from it. Documentation language may be a hurdle for English-only teams. The tilemap and sprite pipeline is not described in the facts.",
+      "wrong_for": "Teams that need clear published terms should choose Defold or Solar2D, both of which state them plainly.",
+      "sources": [
+        {
+          "fact": "Cocos Creator is described on the vendor homepage as a cross-platform graphics engine and real-time 3D content creation platform.",
+          "url": "https://cocos.com/"
+        },
+        {
+          "fact": "The homepage gives no price and no product license statement; it shows a download button and a link to a store.",
+          "url": "https://cocos.com/"
+        }
+      ]
+    },
+    {
+      "slug": "kaplay",
+      "name": "KAPLAY",
+      "site": "https://kaplayjs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "TypeScript library for quick browser games",
+      "best_for": "Hobbyists and jam participants prototyping fast",
+      "pricing": "Free and open source, with optional donations through Open Collective and Cafecito; the license name is not in the page text.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "HTML5 games on the web",
+      "features": [
+        "Friendly API",
+        "TypeScript support",
+        "Physics and collision helpers",
+        "KAPLAYGROUND playground"
+      ],
+      "summary": "A friendly TypeScript game library with an online playground, suited to short projects that live on the web.",
+      "verdict": "KAPLAY aims at people who want a game on screen within an afternoon. The homepage lists a friendly, easy-to-learn API, strong TypeScript support, built-in physics and collision helpers, and screen effects such as shake() and flash(). An online playground called KAPLAYGROUND and a set of examples and assets lower the entry cost. Sponsors named are Colyseus, Wavedash and RD Consultance, and donations go through Open Collective. The code lives in the kaplayjs/kaplay GitHub repository, and the site footer shows version 1.5.12 with a banner promoting the next release line.",
+      "weaknesses": "Its scope is the web only, as far as the page says, with no native or console path. The homepage names no license. A banner steering readers to a pre-release version suggests the stable branch is mid-transition.",
+      "wrong_for": "Developers with a shipping product on mobile or consoles should look at Defold or GameMaker.",
+      "sources": [
+        {
+          "fact": "KAPLAY is described on its homepage as a JavaScript and TypeScript game library for creating games for the web.",
+          "url": "https://kaplayjs.com/"
+        },
+        {
+          "fact": "The homepage says KAPLAY is open source, free and always will be, with optional donations through Open Collective and Cafecito.",
+          "url": "https://kaplayjs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "excalibur-js",
+      "name": "Excalibur.js",
+      "site": "https://excaliburjs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "TypeScript 2D engine with a BSD license",
+      "best_for": "TypeScript teams wanting typed, documented APIs",
+      "pricing": "Free under the BSD 2 Clause license; a Premium Support page is linked with no price shown.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Browsers including mobile; packaging with Cordova, Universal Windows Apps or Electron",
+      "features": [
+        "TypeScript",
+        "API reference",
+        "Online playground",
+        "Cross-platform design"
+      ],
+      "summary": "A TypeScript engine with a permissive BSD license and clear documentation, and an optional paid support route.",
+      "verdict": "Excalibur.js is a TypeScript 2D engine for the web, and the homepage commits to it staying free and open source under the BSD 2 Clause license. It stresses extensive documentation with an auto-updated API reference, an online playground and a Flappy Bird-style tutorial. Games compile to modern JavaScript, and the page mentions packaging through Apache Cordova, Universal Windows Apps or Electron. A Premium Support page exists for teams that want paid help. The footer credits the Excalibur.js Project with a 2026 copyright, a small sign that the project is maintained.",
+      "weaknesses": "No Premium Support price is shown. There is no visual editor in the facts, and native mobile or console builds go through wrappers rather than a native exporter. The community size is not stated.",
+      "wrong_for": "If you want a no-code path choose GDevelop; Phaser offers a larger public footprint for browser games.",
+      "sources": [
+        {
+          "fact": "Excalibur.js is described on its homepage as a TypeScript 2D game engine for the web.",
+          "url": "https://excaliburjs.com/"
+        },
+        {
+          "fact": "The homepage says Excalibur is and always will be free and open source, under the BSD 2 Clause license.",
+          "url": "https://excaliburjs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "stencyl",
+      "name": "Stencyl",
+      "site": "https://stencyl.com/",
+      "company": "Stencyl, LLC",
+      "country": "",
+      "tagline": "Scratch-style block builder aimed at mobile and web",
+      "best_for": "Beginners building simple mobile games",
+      "pricing": "A Pricing section is linked but the homepage states no plan names or amounts.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "iOS, Android, Windows, Mac, Linux, HTML5",
+      "features": [
+        "Block builder",
+        "Scene Designer",
+        "Actor Editor",
+        "In-app purchases",
+        "Ad support"
+      ],
+      "summary": "A block-based builder with a scene designer and monetization hooks, but no published pricing and an aging homepage.",
+      "verdict": "Stencyl pitches itself as the easiest way to make mobile, web and desktop games without code. The homepage describes a Scratch-inspired drag-and-drop block builder, a Scene Designer world editor and an Actor Editor, with custom blocks and code extensions for more control. It lists in-app purchases and ad support, and names ad networks iAds, AdMob and Newgrounds. The vendor claims 500,000 developers have adopted it. Export targets include iPhone and iPad, Android, Windows, Mac, Linux and HTML5, so a sprite-and-scene workflow can reach many devices from one project.",
+      "weaknesses": "No prices or plan names are published, so a team cannot size the spend. The ad networks named on the homepage are iAds, AdMob and Newgrounds, so the ad support description may predate current practice. Console targets are absent from the list.",
+      "wrong_for": "Developers who need console release or active engine updates should choose GameMaker or Godot.",
+      "sources": [
+        {
+          "fact": "Stencyl is described on its homepage as the easiest way to create games for mobile, web and desktop without code.",
+          "url": "https://stencyl.com/"
+        },
+        {
+          "fact": "The homepage links to a pricing section but states no prices or plan names.",
+          "url": "https://stencyl.com/"
+        }
+      ]
+    },
+    {
+      "slug": "buildbox",
+      "name": "Buildbox",
+      "site": "https://buildbox.com/",
+      "company": "",
+      "country": "",
+      "tagline": "No-code game maker with undisclosed pricing",
+      "best_for": "Non-technical creators exploring quick ideas",
+      "pricing": "Not stated on the page; a Get Buildbox link leads to a download page with no price or trial shown.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Not stated; a recent post mentions Android improvements",
+      "features": [
+        "No scripting",
+        "No programming",
+        "No software design experience"
+      ],
+      "summary": "A no-code tool for people with no technical background, ranked last because the facts show no price, platform list or feature detail.",
+      "verdict": "Buildbox describes itself as software that lets anyone create games with no scripting, programming or software design experience, and calls itself the world's first tool that truly allows that. The audience is clear: creators who want a game without writing code. The games page offers a Get Buildbox link that leads to a download page. A recent post title refers to Android improvements, which hints at an active mobile focus, though the page says nothing about 2D tooling, tilemaps or sprite pipelines that this ranking weighs.",
+      "weaknesses": "The page states no price, no free trial, no platform list and no feature list, so almost nothing can be verified before download. The marketing claim of being the first such tool is the vendor's own. Technical depth for custom mechanics is unknown.",
+      "wrong_for": "Anyone who wants verifiable terms should open GDevelop or Stencyl first.",
+      "sources": [
+        {
+          "fact": "Buildbox's games page describes it as the world's first software that truly allows anyone to create amazing games regardless of technical skill.",
+          "url": "https://buildbox.com/games"
+        },
+        {
+          "fact": "The games page says Buildbox needs no scripting, programming or software design experience.",
+          "url": "https://buildbox.com/games"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18"
+}

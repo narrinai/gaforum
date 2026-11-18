@@ -1,0 +1,467 @@
+{
+  "slug": "best-pixel-streaming-and-cloud-game-streaming-platforms",
+  "name": "pixel streaming and cloud game streaming platforms",
+  "title": "Best Pixel Streaming and Cloud Game Streaming Platforms for Studios in 2026",
+  "group": "Game business",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Pixel streaming platforms host your Unreal, Unity or Windows build on cloud GPUs and deliver it to browsers; this list compares studio-facing options.",
+  "definition": "Pixel streaming runs a game or real-time 3D application on a GPU server and sends the rendered video to a browser or device, so viewers need no download or powerful hardware. Studios use it for playable demos, product configurators, trade-show builds and cloud game launches. Platforms differ in engine support, billing and how much infrastructure you operate yourself.",
+  "intro": "A studio that wants players, publishers or clients to try a build without installing it has three routes: rent GPU time and wire up streaming yourself, buy a managed pixel streaming service, or run a cloud game platform at scale. This list covers all three, so the order reflects how quickly a small team can go from a packaged build to a shareable link. We read vendor home pages, pricing pages and About pages on the day of review and did not run load or latency tests. Prices appear only where a vendor published them; several enterprise vendors show none, and we say so. Engine coverage, billing style and how much operations work you inherit decide the position of each entry. Vendors that could not be opened, including Arcware and Furioos, are left out rather than described from memory.",
+  "criteria": [
+    {
+      "heading": "Engine and build support",
+      "text": "Confirm the engine before anything else. Eagle 3D Streaming and Streampixel center on Unreal Engine, PureWeb names Unreal Engine and Unity, and Vagon streams applications from a cloud computer. A generic GPU cloud such as CoreWeave or Paperspace can run anything you can containerize, but you build the streaming layer yourself. Ask whether a plain Windows .exe is accepted, because many demo builds are not packaged for a specific engine plugin."
+    },
+    {
+      "heading": "Billing shape for demos",
+      "text": "Demos are bursty, so how a vendor meters concurrency matters more than the headline rate. Streampixel charges a flat EUR 99 per month with 2 concurrent users and EUR 45 per extra concurrent user. Vagon bills by the minute from $0.25 per hour. Edgegap says per minute with no fixed monthly fee. Eagle 3D Streaming offers a free trial, and CoreWeave lists hourly GPU prices. Estimate peak simultaneous viewers, not total viewers."
+    },
+    {
+      "heading": "Operations you inherit",
+      "text": "Managed services hide GPU orchestration; infrastructure providers do not. Streampixel says it runs its own data centers, and PureWeb positions itself as a platform for distributing apps. Paperspace and CoreWeave sell compute and leave scaling, session handling and security to you. Amazon GameLift Streams is a managed AWS service, though its overview page gave little readable detail. Count the engineer-weeks you would spend, not only the monthly bill."
+    },
+    {
+      "heading": "Delivery and branding controls",
+      "text": "A shareable link is not the same as an embeddable, branded experience. Check for custom loading screens, CI/CD hooks, analytics and security controls. Streampixel lists custom splash screens, a source control connection and real-time analytics. Others did not publish these details in the text we read. If clients will see the stream, also confirm browser coverage on phones and whether end users need any GPU of their own; Eagle 3D Streaming says they do not need a high-end one."
+    }
+  ],
+  "market_notes": [
+    "Counting the ten entries: three publish usable prices (Streampixel, Vagon and CoreWeave), two more describe billing style without amounts (Edgegap and Paperspace), and the rest give no price in the text we read. Streampixel and Vagon are the only entries with a stated trial price or length, and Eagle 3D Streaming also advertises a free trial. Engine-specific services cluster around Unreal; only PureWeb names Unity among the managed options.",
+    "The practical trade-off is control versus speed. A managed service gets a link online in an afternoon but ties you to its engine support and its concurrency pricing. A GPU cloud gives you control and a lower unit cost at scale, but you carry orchestration and security work. Vendor origin varies: Streampixel's operator is Estonian, Ubitus operates from Taipei, Tokyo and Malaysia, and CoreWeave was founded in New Jersey; most other pages named no country."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Package one build first",
+      "text": "Export the exact build you want to show, with its launcher, config files and any required runtime. Check whether each vendor takes a packaged Unreal build, an .exe or a container. Streampixel describes uploading a packaged build or .exe, and Eagle 3D Streaming describes Unreal Engine 5 applications. A build that fails on the vendor's trial machine tells you more than any feature table."
+    },
+    {
+      "title": "Model your peak concurrency",
+      "text": "Write down how many people will be in the demo at the same moment: a launch day, a conference hour, a publisher call. Compare that with included concurrent sessions, such as the 2 in Streampixel's plan, or per-minute metering at Vagon or Edgegap. Include the cost of failing a live demo, because overage and queue rules differ between vendors."
+    },
+    {
+      "title": "Decide who runs the servers",
+      "text": "If nobody on your team wants to manage GPUs, rank managed services above infrastructure. If you already run cloud workloads, CoreWeave, Paperspace or Amazon GameLift Streams may cost less over a year. Ask each vendor about uptime reporting and support channels, and keep a fallback such as a recorded video for the first live event."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best pixel streaming platform for studios in 2026?",
+      "a": "Eagle 3D Streaming is the best starting point for a small studio because it streams Unreal Engine 5 builds to any browser and advertises a free trial with no credit card. Streampixel is better if you want a flat monthly price, and PureWeb is better if your build uses Unity as well as Unreal."
+    },
+    {
+      "q": "Can I stream a Unity game, not only Unreal?",
+      "a": "PureWeb states that it distributes Unreal Engine and Unity apps through Pixel Streaming and Render Streaming. Eagle 3D Streaming and Streampixel are described around Unreal Engine. Vagon runs applications on a cloud computer, and GPU clouds such as CoreWeave can run a Unity build if you set up the streaming layer yourself."
+    },
+    {
+      "q": "How much does pixel streaming cost?",
+      "a": "It varies by model. Streampixel lists EUR 99 per month with unlimited minutes and 2 concurrent users, Vagon bills by the minute from $0.25 per hour, and CoreWeave lists hourly GPU rates. PureWeb, Ubitus and Amazon GameLift Streams showed no plan amounts in the text we read, so request quotes."
+    },
+    {
+      "q": "Do viewers need a powerful PC?",
+      "a": "No, that is the point of the approach. Eagle 3D Streaming says end users do not need a high-end GPU, and Streampixel delivers builds in the browser through a share link. Viewers do need a stable connection, and the vendors publish few minimum bandwidth figures."
+    },
+    {
+      "q": "Is a cloud PC the same as pixel streaming?",
+      "a": "Not quite. A cloud PC such as Vagon or Shadow gives a remote Windows machine you can stream from, while pixel streaming platforms are built to publish a specific application to many viewers with a link and session management. Cloud PCs suit small private demos and creative work."
+    },
+    {
+      "q": "Do I need a game server platform too?",
+      "a": "Only for multiplayer. Pixel streaming renders one session per viewer, while a service such as Edgegap orchestrates dedicated game servers and also lists cloud gaming among its uses. Many studios use streaming for demos and orchestration for the live game."
+    },
+    {
+      "q": "Which vendors publish company or location details?",
+      "a": "Streampixel's footer names Vardexa OÜ and its price is in euros. Ubitus says it was founded in 2012 with operations in Taipei, Tokyo and Malaysia. CoreWeave says it was founded in 2017 in New Jersey. Paperspace names its entity as Paperspace dba DigitalOcean. Most others gave no company details."
+    }
+  ],
+  "related": [
+    "best-cloud-gaming-services",
+    "best-dedicated-game-server-orchestration-platforms",
+    "best-virtual-event-streaming-platforms-for-hybrid-events",
+    "best-live-streaming-apis-and-sdks",
+    "best-playtesting-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "eagle-3d-streaming",
+      "name": "Eagle 3D Streaming",
+      "site": "https://www.eagle3dstreaming.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Unreal Engine 5 streaming to any browser",
+      "best_for": "Small studios sharing UE5 demos",
+      "pricing": "Free trial with no credit card; a plan starts free before scaling with Core, and annual billing includes 2 free months.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Any web browser; end users do not need a high-end GPU",
+      "features": [
+        "Unreal Engine 5 pixel streaming",
+        "Browser delivery",
+        "Free plan",
+        "Core plan",
+        "Annual billing with two free months"
+      ],
+      "summary": "It streams Unreal Engine 5 apps to any browser, needs no end-user GPU and offers a free trial with no credit card.",
+      "verdict": "Eagle 3D Streaming comes first for a studio testing the idea. The home page says users can stream Unreal Engine 5 applications to any web browser and that end users do not need a high-end GPU. The pricing page offers a free trial with no credit card and a plan that begins free before moving to Core, with annual billing that includes 2 free months. That path lets a team validate a demo before paying.",
+      "weaknesses": "The pricing amounts for the Core plan were not in the text we read, the company and country were not captured, and the pages stress Unreal Engine 5 rather than Unity or other engines.",
+      "wrong_for": "Skip it if your build is Unity-first; PureWeb names Unity support. Teams wanting a fixed, published monthly figure may prefer Streampixel.",
+      "sources": [
+        {
+          "fact": "Eagle 3D Streaming lets users stream Unreal Engine 5 applications to any web browser.",
+          "url": "https://www.eagle3dstreaming.com/"
+        },
+        {
+          "fact": "The home page says end users do not need a high-end GPU.",
+          "url": "https://www.eagle3dstreaming.com/"
+        },
+        {
+          "fact": "The pricing page offers a free trial with no credit card required and a plan that starts free before scaling with Core.",
+          "url": "https://www.eagle3dstreaming.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "streampixel",
+      "name": "Streampixel",
+      "site": "https://www.streampixel.io/",
+      "company": "Vardexa OÜ",
+      "country": "Estonia",
+      "tagline": "Flat-rate Unreal pixel streaming in the browser",
+      "best_for": "Studios with predictable demo traffic",
+      "pricing": "EUR 99 per month with unlimited minutes and 2 concurrent users; EUR 45 per month per extra concurrent user; 2-day free trial.",
+      "pricing_model": "Flat monthly plan",
+      "free_plan": "Free trial",
+      "platforms": "Browser delivery of Unreal Engine builds",
+      "features": [
+        "Unreal Engine pixel streaming",
+        "Upload a packaged build or .exe",
+        "Unlimited streaming minutes",
+        "4K streaming",
+        "CI/CD source control connection",
+        "Real-time analytics"
+      ],
+      "summary": "One flat EUR 99 monthly plan with unlimited minutes and 2 concurrent users, plus a 2-day free trial.",
+      "verdict": "Streampixel is second because its pricing is the easiest to forecast. You upload a packaged Unreal build or .exe, receive a share link and pay EUR 99 per month, with 2 concurrent users included and EUR 45 per month for each extra concurrent user. Features listed include 4K streaming, custom splash screens, a CI/CD source control connection, analytics and security controls. The vendor says it runs RTX 6000 Ada GPUs in its own data centers.",
+      "weaknesses": "Concurrency is the constraint: 2 sessions are included, so a busy launch costs more. It is built for Unreal Engine and the trial lasts two days. Performance claims are the vendor's own.",
+      "wrong_for": "Avoid it if you need Unity streaming or per-minute billing for rare demos; PureWeb or Vagon fit those cases better.",
+      "sources": [
+        {
+          "fact": "Streampixel runs Unreal Engine applications in the browser on RTX GPUs; users upload a packaged build or .exe and get a share link.",
+          "url": "https://www.streampixel.io/"
+        },
+        {
+          "fact": "Pricing is a flat EUR 99 per month with unlimited minutes and 2 concurrent users; additional concurrent capacity costs EUR 45 per month per CCU.",
+          "url": "https://www.streampixel.io/pricing"
+        },
+        {
+          "fact": "Included features list 4K streaming, a source control connection for CI/CD, custom splash screens, security controls, analytics and built-in voice, video and text chat.",
+          "url": "https://www.streampixel.io/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "pureweb",
+      "name": "PureWeb",
+      "site": "https://www.pureweb.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Pixel and Render Streaming for Unreal and Unity apps",
+      "best_for": "Teams with Unity or mixed engines",
+      "pricing": "Not stated in the extracted text of the home page.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Web browser delivery of Unreal Engine and Unity apps",
+      "features": [
+        "Pixel Streaming",
+        "Render Streaming",
+        "Unreal Engine support",
+        "Unity support"
+      ],
+      "summary": "It names both Unreal Engine and Unity and offers Pixel Streaming and Render Streaming for browser delivery.",
+      "verdict": "PureWeb takes third place on engine breadth. The home page calls it a real-time 3D pixel streaming platform and says it distributes Unreal Engine and Unity apps through its Pixel Streaming and Render Streaming platform. That makes it the managed option on this list that names Unity, which matters for teams that do not ship on Unreal. Web browser delivery is the stated route.",
+      "weaknesses": "No pricing appeared in the text of the home page, and no company, country or trial terms were captured. Without published rates, you must request a quote to compare it.",
+      "wrong_for": "Skip it if you need a visible price or a self-serve free trial today; Eagle 3D Streaming and Streampixel publish both. Raw GPU control points to CoreWeave.",
+      "sources": [
+        {
+          "fact": "PureWeb is a real-time 3D pixel streaming platform.",
+          "url": "https://www.pureweb.com/"
+        },
+        {
+          "fact": "The home page says it distributes Unreal Engine and Unity apps with its Pixel Streaming and Render Streaming platform.",
+          "url": "https://www.pureweb.com/"
+        },
+        {
+          "fact": "Pricing does not appear in the extracted text of the home page.",
+          "url": "https://www.pureweb.com/"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-gamelift-streams",
+      "name": "Amazon GameLift Streams",
+      "site": "https://aws.amazon.com/gamelift/streams/",
+      "company": "",
+      "country": "",
+      "tagline": "AWS-managed game streaming",
+      "best_for": "Studios already building on AWS",
+      "pricing": "The overview page has a Pricing section and links to AWS Pricing; plan amounts are not in the extracted text.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Game streaming service",
+        "AWS managed service"
+      ],
+      "summary": "A managed streaming service on AWS, useful if your team already holds an AWS account and billing relationship.",
+      "verdict": "Amazon GameLift Streams is fourth because it fits a specific buyer. The AWS overview page identifies it as a game streaming service, with a Pricing section linking to AWS Pricing and the Pricing Calculator. Studios that already use AWS for backend, identity and billing can add streaming without a new vendor. It is the most conventional enterprise route here.",
+      "weaknesses": "The extracted page was mostly AWS navigation, so features and prices could not be read in detail. We cannot confirm engine coverage or limits from the text we saw, so check AWS documentation yourself.",
+      "wrong_for": "Avoid it if you want a quick shareable demo link without cloud setup; Streampixel or Eagle 3D Streaming are quicker. Studios off AWS should compare CoreWeave.",
+      "sources": [
+        {
+          "fact": "The AWS page is titled Amazon GameLift Streams Overview.",
+          "url": "https://aws.amazon.com/gamelift/streams/"
+        },
+        {
+          "fact": "The page has a Pricing section that links to AWS Pricing and the AWS Pricing Calculator.",
+          "url": "https://aws.amazon.com/gamelift/streams/"
+        },
+        {
+          "fact": "The extracted page text is mostly AWS navigation, so features and prices could not be read in detail from it.",
+          "url": "https://aws.amazon.com/gamelift/streams/"
+        }
+      ]
+    },
+    {
+      "slug": "vagon",
+      "name": "Vagon",
+      "site": "https://vagon.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Browser cloud computers with app streaming",
+      "best_for": "Small teams needing flexible GPU time",
+      "pricing": "Billed by the minute from $0.25/hr, with a $7.99/mo monthly fee listed; a trial with 1 hour is listed at $0.99.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "Any device through a browser",
+      "features": [
+        "Cloud computer",
+        "App streaming",
+        "Teams management",
+        "Pay per minute",
+        "Storage plans"
+      ],
+      "summary": "A browser-based cloud computer billed by the minute, with app streaming and team management.",
+      "verdict": "Vagon is fifth as a flexible stand-in for a dedicated streaming platform. The vendor offers cloud computers for creators in any browser, app streaming and secure cloud computers for teams. The pricing page says it bills by the minute, listing $0.25 per hour for a performance tier, a $7.99 monthly fee and a $0.99 one-hour trial. That suits occasional internal reviews and client previews.",
+      "weaknesses": "It is a cloud computer first, so session management for many anonymous viewers is not its focus. Company and country were not captured and the engine-specific tooling that pixel streaming vendors offer is not described.",
+      "wrong_for": "Skip it if you need public, branded, many-viewer demos; Streampixel or PureWeb are built for that. A longer-running studio workstation may suit Shadow.",
+      "sources": [
+        {
+          "fact": "Vagon offers cloud computers for creators in any browser, plus app streaming and secure cloud computers for teams.",
+          "url": "https://vagon.io/"
+        },
+        {
+          "fact": "The pricing page says Vagon bills by the minute, with $0.25/hr listed for a performance tier.",
+          "url": "https://vagon.io/pricing"
+        },
+        {
+          "fact": "The pricing page lists a $7.99/mo monthly fee and a trial with 1 hour for $0.99.",
+          "url": "https://vagon.io/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "ubitus",
+      "name": "Ubitus",
+      "site": "https://ubitus.ai/",
+      "company": "Ubitus K.K.",
+      "country": "Japan, Taiwan and Malaysia (operations per About page)",
+      "tagline": "Cloud game streaming for enterprises and telecoms",
+      "best_for": "Publishers and operators at scale",
+      "pricing": "No prices are shown on the pages opened; the site presents enterprise and business solutions.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Cross-platform and cross-device cloud game streaming (as stated on the site)",
+      "features": [
+        "Cloud gaming streaming",
+        "GPU virtualization",
+        "Cloud streaming platform",
+        "AI applications",
+        "AI robotics solutions",
+        "Model deployment and training"
+      ],
+      "summary": "An established cloud gaming company with GPU virtualization and a cloud streaming platform, aimed at business customers.",
+      "verdict": "Ubitus ranks sixth because it targets larger deployments. It describes itself as an AI and cloud gaming company with cloud gaming and metaverse streaming, GPU virtualization and a cloud streaming platform. The About page says it was founded in 2012 and operates in Taipei, Tokyo and Malaysia, and lists game companies, telecom operators and fashion houses among its customers.",
+      "weaknesses": "No prices are shown, and the site presents enterprise solutions, so a small studio should expect a sales process. The pages mix cloud gaming with AI robotics offerings, which blurs the product focus.",
+      "wrong_for": "Avoid it if you want self-serve signup for one demo; Eagle 3D Streaming has a free trial. Dedicated server hosting is Edgegap's area.",
+      "sources": [
+        {
+          "fact": "Ubitus describes itself as an AI and cloud gaming company offering cloud gaming and metaverse, AI robotics and comprehensive AI solutions.",
+          "url": "https://ubitus.ai/"
+        },
+        {
+          "fact": "Ubitus was founded in 2012 and has operations in Taipei, Tokyo and Malaysia, according to its About page.",
+          "url": "https://ubitus.ai/en/about-us"
+        },
+        {
+          "fact": "The Ubitus pages opened do not show prices; its About page lists game companies, telecom operators and fashion houses among its customers.",
+          "url": "https://ubitus.ai/en/about-us"
+        }
+      ]
+    },
+    {
+      "slug": "edgegap",
+      "name": "Edgegap",
+      "site": "https://edgegap.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Game server orchestration that also lists cloud gaming",
+      "best_for": "Multiplayer studios needing edge hosting",
+      "pricing": "Pay per minute on edge cloud with no upfront costs or fixed monthly fees. No specific prices on the homepage; a pricing calculator is linked.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Unknown",
+      "platforms": "615+ locations and 17+ cloud providers per the page; engines named include Unreal, Unity, Godot, Nakama, Mirror, Photon Fusion, PurrNet and Fish-Networking; also cloud gaming, mobile, VR and web games.",
+      "features": [
+        "Regionless hosting",
+        "Matchmaking",
+        "Server browser (lobbies)",
+        "Bare metal and private fleets",
+        "Container registry",
+        "DDoS protection"
+      ],
+      "summary": "Per-minute game server hosting across many locations, with cloud gaming named among its use cases.",
+      "verdict": "Edgegap is seventh because it solves the multiplayer side rather than the demo link. The homepage calls it automated game server hosting and orchestration for any engine and service, with cloud gaming, mobile, VR and web games named. It says there are no upfront costs or fixed monthly fees, with pay per minute. Customers named on the page include Halfbrick Studios and Starbreeze AB.",
+      "weaknesses": "It is not a turnkey pixel streaming product, and no specific prices appear on the homepage. Its 615+ locations and 17+ provider figures are the vendor's own claims.",
+      "wrong_for": "Skip it if you only need a browser demo; Streampixel or Eagle 3D Streaming fit that. For visual streaming, look at PureWeb.",
+      "sources": [
+        {
+          "fact": "The homepage describes Edgegap as an automated game server hosting and orchestration service for any engine and service.",
+          "url": "https://edgegap.com/"
+        },
+        {
+          "fact": "The homepage says there are no upfront costs or fixed monthly fees and that customers pay per minute on edge cloud; specific prices are not listed.",
+          "url": "https://edgegap.com/"
+        },
+        {
+          "fact": "The homepage names Halfbrick Studios and Starbreeze AB among its customers.",
+          "url": "https://edgegap.com/"
+        }
+      ]
+    },
+    {
+      "slug": "paperspace",
+      "name": "Paperspace",
+      "site": "https://paperspace.com",
+      "company": "Paperspace dba DigitalOcean",
+      "country": "",
+      "tagline": "GPU cloud with Workstream cloud desktops",
+      "best_for": "Developers building their own streaming stack",
+      "pricing": "Exact prices not shown on the homepage; it states low-cost GPUs with per-second billing and savings of up to 70% on compute costs.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free",
+      "platforms": "Cloud GPU machines, hosted Notebooks, Workstream cloud desktops; client platforms not stated on the homepage",
+      "features": [
+        "Gradient Notebooks",
+        "Gradient Machines",
+        "Gradient Deployments",
+        "Workflows (Beta)",
+        "Per-second billing",
+        "Full API"
+      ],
+      "summary": "A cloud GPU platform billed per second, with cloud desktops, notebooks and a full API for teams that assemble their own pipeline.",
+      "verdict": "Paperspace is eighth because it is infrastructure, not a streaming service. The homepage describes a cloud GPU platform for developing, training and deploying AI applications, with per-second billing, free GPUs for hosted Notebooks, and a Workstream cloud desktop product. The footer names Paperspace dba DigitalOcean. Studios with their own devops can rent GPU machines for a bespoke stream.",
+      "weaknesses": "The homepage is AI-focused and shows no exact prices. Nothing on it describes pixel streaming tooling, session management or game builds, so you wire up the stream yourself.",
+      "wrong_for": "Avoid it if you want a ready link for a game demo; Eagle 3D Streaming or Streampixel handle that. Heavy GPU needs at scale are covered by CoreWeave.",
+      "sources": [
+        {
+          "fact": "Paperspace is a cloud GPU platform for developing, training and deploying AI applications, according to its homepage.",
+          "url": "https://paperspace.com"
+        },
+        {
+          "fact": "The homepage offers low-cost GPUs with per-second billing and says users can save up to 70% on compute costs.",
+          "url": "https://paperspace.com"
+        },
+        {
+          "fact": "The homepage offers a Sign up free option and says hosted Notebooks come with free GPUs.",
+          "url": "https://paperspace.com"
+        }
+      ]
+    },
+    {
+      "slug": "coreweave",
+      "name": "CoreWeave",
+      "site": "https://coreweave.com/",
+      "company": "",
+      "country": "",
+      "tagline": "AI-focused GPU cloud with hourly pricing",
+      "best_for": "Large teams renting bulk GPUs",
+      "pricing": "The pricing page lists on-demand GPU instance prices per hour (for example $42.00 per hour for one listed configuration, and spot prices for others); several rows say Contact sales.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Unknown",
+      "platforms": "Cloud infrastructure (GPU and CPU compute, AI object storage, managed Kubernetes)",
+      "features": [
+        "GPU compute",
+        "CPU compute",
+        "Bare metal compute",
+        "AI object storage",
+        "Dedicated storage",
+        "CoreWeave Kubernetes Service"
+      ],
+      "summary": "GPU and CPU compute, storage and managed Kubernetes with published hourly rates, though aimed at AI workloads.",
+      "verdict": "CoreWeave sits ninth because it is raw capacity. It describes an AI cloud for training and serving models, with GPU compute, CPU compute, bare metal, AI object storage and a Kubernetes service. The pricing page lists on-demand GPU instance prices per hour, for example $42.00 per hour for one configuration, and marks some rows as contact sales. It was founded in 2017 in New Jersey and has been Nasdaq-listed since March 2025.",
+      "weaknesses": "Nothing on the pages we read is aimed at game streaming, so a studio would have to build session management, deployment and the browser client. Prices shown are for AI-grade instances.",
+      "wrong_for": "Skip it if you lack infrastructure engineers; Streampixel or PureWeb hide that layer. Smaller GPU use fits Paperspace.",
+      "sources": [
+        {
+          "fact": "CoreWeave calls itself The Essential Cloud for AI and says it was founded in 2017.",
+          "url": "https://coreweave.com/about-us"
+        },
+        {
+          "fact": "CoreWeave describes its platform as an AI cloud purpose-built for training and serving models at scale.",
+          "url": "https://coreweave.com/"
+        },
+        {
+          "fact": "The CoreWeave pricing page lists on-demand GPU instance prices per hour, for example $42.00 per hour, and some configurations are marked Contact sales.",
+          "url": "https://coreweave.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "shadow",
+      "name": "Shadow",
+      "site": "https://shadow.tech/eu/",
+      "company": "",
+      "country": "",
+      "tagline": "A cloud Windows PC for gaming and work",
+      "best_for": "Teams needing a persistent remote PC",
+      "pricing": "Not stated in the extracted text of the opened pages.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Windows PC in the cloud, launched in a browser or on devices",
+      "features": [
+        "Full Windows PC in the cloud",
+        "Launch in browser",
+        "Shadow Drive storage",
+        "Regional sites"
+      ],
+      "summary": "A full Windows PC in the cloud launched from a browser, handy for private demos but not built for public streams.",
+      "verdict": "Shadow ends the list as a stand-in rather than a platform. The site describes a full Windows PC in the cloud with gaming-PC power, a Launch Shadow PC in Browser option and Shadow Drive storage, with regional sites for Europe, North America, France, Germany, the United Kingdom and Spain. A studio could use one to show a build to a single reviewer.",
+      "weaknesses": "Plan prices were not in the readable text, and nothing describes multi-viewer session handling, embedding or analytics. It is a personal PC service, so public demos at scale are out of scope.",
+      "wrong_for": "Avoid it if many people must open your build at once; Streampixel or Eagle 3D Streaming scale by session. Per-minute use fits Vagon.",
+      "sources": [
+        {
+          "fact": "Shadow PC is described as the full Windows PC in the cloud, with the power of a gaming PC on the user's devices.",
+          "url": "https://shadow.tech/eu/"
+        },
+        {
+          "fact": "The site offers a Launch Shadow PC in Browser option and Shadow Drive.",
+          "url": "https://shadow.tech/eu/"
+        },
+        {
+          "fact": "The site has regional pages including Europe, North America, France, Germany, the United Kingdom and Spain.",
+          "url": "https://shadow.tech/eu/"
+        }
+      ]
+    }
+  ]
+}

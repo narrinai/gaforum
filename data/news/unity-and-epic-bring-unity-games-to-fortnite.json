@@ -1,0 +1,24 @@
+{
+  "slug": "unity-and-epic-bring-unity-games-to-fortnite",
+  "title": "Unity and Epic announce plan to bring Unity games into Fortnite",
+  "date": "2025-11-19",
+  "description": "Unity and Epic Games said Unity developers will be able to publish into Fortnite, while Unity's commerce platform adds Unreal Engine support. What it means for studios.",
+  "source": {
+    "name": "Unity Newsroom",
+    "url": "https://unity.com/news/unity-and-epic-games-together-advance-open-interoperable-future-video-gaming"
+  },
+  "extra_sources": [],
+  "summary": [
+    "Unity and Epic Games announced on November 19, 2025 that they are working together to let developers publish Unity games into Fortnite. Unity's release says Fortnite has more than 500 million registered accounts and that publishers would be able to take part in the Fortnite Creator Economy.",
+    "The same announcement, made at Unity's Unite conference, said Unity will add Unreal Engine support to its cross-platform commerce platform. Unreal developers would get another option for managing digital catalogs, payment providers and web shops across PC, mobile and web, plus pricing, promotions and live operations. The release gave early next year as the timing for the Unreal support and stated that further details and product timing would be shared the following year.",
+    "The release gives no release date, technical requirements or revenue terms for publishing Unity games into Fortnite, so those points remain open as of the announcement."
+  ],
+  "why_it_matters": [
+    "For small studios choosing an engine, the announcement separates engine choice from distribution choice a little more than before: a Unity team could aim at Fortnite's audience without moving to Unreal Engine, and an Unreal team could use Unity's commerce tooling. How much that is true in practice depends on details the companies had not published in this release.",
+    "Treat it as a direction rather than a feature. Studios planning around Fortnite distribution should wait for the actual publishing requirements and creator economy terms before committing budget, and compare engines on the criteria in our [3D game engine category](/software/best-3d-game-engines-for-small-studios)."
+  ],
+  "related_categories": [
+    "best-3d-game-engines-for-small-studios",
+    "best-ugc-and-modding-platforms"
+  ]
+}

@@ -28,6 +28,418 @@
  ],
  "threads": [
   {
+   "id": "agones-or-managed-hosting-for-dedicated-servers",
+   "board": "games",
+   "title": "Agones on your own cloud or managed hosting for dedicated servers?",
+   "created": "2026-11-18T09:28:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Once a game outgrows peer-to-peer or a single rented box, someone has to run fleets of dedicated servers. Do you operate Kubernetes yourself with an open source tool, or pay a managed platform to handle allocation and regions?</p><p>The <a href=\"https://agones.dev/\" rel=\"noopener\" target=\"_blank\">Agones homepage</a> describes it as an open source platform to host, run and scale dedicated game servers on Kubernetes, and as a Cloud Native Computing Foundation sandbox project. The <a href=\"https://edgegap.com/pricing\" rel=\"noopener\" target=\"_blank\">Edgegap pricing page</a> shows a managed alternative billed by the minute on usage, with a free trial, which is one example of how managed pricing is structured.</p><p>Share what your traffic looks like (spiky or steady), how many regions you cover and who on the team carries the pager. Reports of costs or outages you hit are welcome, with as much specificity as you are able to share.</p>",
+   "related": [
+    {
+     "title": "Best Dedicated Game Server Orchestration Platforms in 2026",
+     "url": "/software/best-dedicated-game-server-orchestration-platforms"
+    },
+    {
+     "title": "Amazon GameLift Alternatives in 2026",
+     "url": "/alternatives/amazon-gamelift"
+    }
+   ]
+  },
+  {
+   "id": "bracket-tool-for-a-64-team-online-cup",
+   "board": "esports",
+   "title": "Which bracket tool for a 64-team online cup?",
+   "created": "2026-11-18T10:38:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>An online cup with 64 teams strains free tiers and spreadsheet brackets: check-in, match reporting, disputes and a public bracket all need to work. Which tool have you used at that size, and what broke?</p><p>The <a href=\"https://brackethq.com/pricing/\" rel=\"noopener\" target=\"_blank\">Bracket HQ pricing page</a> says the free tier is ad supported with unlimited brackets of up to 32 participants, while Pro allows up to 64 participants. The <a href=\"https://www.start.gg\" rel=\"noopener\" target=\"_blank\">start.gg site</a> describes a destination to create, run, play and watch esports tournaments, and the <a href=\"https://www.challengermode.com\" rel=\"noopener\" target=\"_blank\">Challengermode site</a> describes a competition management platform covering tournaments and matchmaking.</p><p>Share the format you ran, how you handled no-shows and score disputes, and whether the tool could connect to your game for results.</p>",
+   "related": [
+    {
+     "title": "Best Esports Tournament Management Software in 2026",
+     "url": "/software/best-esports-tournament-management-software"
+    },
+    {
+     "title": "Battlefy Alternatives in 2026",
+     "url": "/alternatives/battlefy"
+    },
+    {
+     "title": "Challonge Alternatives in 2026",
+     "url": "/alternatives/challonge"
+    }
+   ]
+  },
+  {
+   "id": "chat-bot-for-a-growing-twitch-channel",
+   "board": "livestreaming",
+   "title": "Which chat bot setup works for a growing Twitch channel?",
+   "created": "2026-11-18T10:17:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>As a channel grows, chat moves faster than a streamer or one moderator can handle. Do you run a hosted bot, a platform-integrated one or something self-hosted, and what rules do you automate?</p><p>The <a href=\"https://docs.nightbot.tv\" rel=\"noopener\" target=\"_blank\">Nightbot documentation</a> describes a chat bot for Twitch, YouTube and SOOP that automates live chat moderation, with sections on commands, variables, spam protection and a Discord integration. The <a href=\"https://streamelements.com/\" rel=\"noopener\" target=\"_blank\">StreamElements homepage</a> lists overlays, tipping, chatbot, alerts and merchandise among its features.</p><p>Share your moderation approach (strict filters, human moderators or both), which commands you actually use and what you stopped automating because viewers disliked it.</p>",
+   "related": [
+    {
+     "title": "Best Twitch Chat Bots in 2026",
+     "url": "/software/best-twitch-chat-bots"
+    },
+    {
+     "title": "Nightbot Alternatives in 2026",
+     "url": "/alternatives/nightbot"
+    },
+    {
+     "title": "StreamElements vs Streamlabs Desktop: Which Fits Your Team in 2026?",
+     "url": "/compare/streamelements-vs-streamlabs-desktop"
+    }
+   ]
+  },
+  {
+   "id": "esports-data-feeds-for-stat-overlays",
+   "board": "esports",
+   "title": "How do you source match data for stat overlays?",
+   "created": "2026-11-18T10:59:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Stat overlays and live scoreboards need structured data, and the options range from manual entry to licensed feeds. How do you feed your overlays, and what did it cost you in time or money?</p><p>The <a href=\"https://www.pandascore.co/pricing\" rel=\"noopener\" target=\"_blank\">PandaScore site</a> says all accounts start on a free plan with 1000 API requests per hour, and that stats plans start from 400 euros and 1000 euros per videogame per month. The <a href=\"https://docs.gamescorekeeper.com/\" rel=\"noopener\" target=\"_blank\">GameScorekeeper documentation</a> lists endpoints for sports, competitions, stages and fixtures.</p><p>Share which games you cover, whether you used an API or a custom pipeline, and how reliable the data was during a live match.</p>",
+   "related": [
+    {
+     "title": "Best Esports Broadcast Production Software in 2026",
+     "url": "/software/best-esports-broadcast-production-software"
+    },
+    {
+     "title": "Best Esports Tournament Management Software in 2026",
+     "url": "/software/best-esports-tournament-management-software"
+    }
+   ]
+  },
+  {
+   "id": "git-lfs-or-perforce-for-large-game-projects",
+   "board": "games",
+   "title": "Git LFS or Perforce for a project with heavy binary assets?",
+   "created": "2026-11-18T09:21:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Texture, audio and scene files make ordinary Git awkward, and teams usually end up choosing between Git with large-file support, Perforce or a newer cloud tool. What did you choose, and how did file locking and repository size behave over time?</p><p>The <a href=\"https://git-lfs.com\" rel=\"noopener\" target=\"_blank\">Git LFS homepage</a> describes it as an open source Git extension for keeping large files on a remote server, keeping the same Git workflow and access controls. The <a href=\"https://www.perforce.com/products/helix-core\" rel=\"noopener\" target=\"_blank\">Perforce product page</a> describes P4 as a version control platform for code and large digital assets, and says it is free for up to 5 users and 20 workspaces. The <a href=\"https://diversion.dev\" rel=\"noopener\" target=\"_blank\">Diversion homepage</a> describes a version control platform for very large repositories with Unreal Engine, Unity and Perforce migration support.</p><p>Tell us your engine, team size and the point at which your first choice started to hurt. Experience with migrating between systems is especially useful.</p>",
+   "related": [
+    {
+     "title": "Best Version Control for Game Development in 2026",
+     "url": "/software/best-version-control-for-game-development"
+    },
+    {
+     "title": "Perforce Helix Core Alternatives in 2026",
+     "url": "/alternatives/perforce-helix-core"
+    }
+   ]
+  },
+  {
+   "id": "godot-or-unity-first-2d-commercial-game",
+   "board": "games",
+   "title": "Godot or Unity for a first commercial 2D game in 2026?",
+   "created": "2026-11-18T09:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>A solo developer or a team of two is about to commit to an engine for a first commercial 2D game, and the choice is hard to reverse once art, code and tooling pile up. Which of Godot and Unity are you picking, and what decided it?</p><p>Two facts from the vendors themselves frame the choice. The <a href=\"https://godotengine.org/\" rel=\"noopener\" target=\"_blank\">Godot homepage</a> calls it a free, open-source 2D and 3D game engine and makes no other pricing statement. The <a href=\"https://unity.com/\" rel=\"noopener\" target=\"_blank\">Unity homepage</a> says you can get started for free or find a plan, and lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro as platforms, without showing plan figures.</p><p>Console and mobile reach, asset store dependence, scripting language preference and how much you trust a license to stay stable all tend to matter more than raw 2D features. If you shipped or abandoned a 2D project in either engine, share what the deciding factor was and what you would check earlier next time.</p>",
+   "related": [
+    {
+     "title": "Best 2D Game Engines in 2026",
+     "url": "/software/best-2d-game-engines"
+    },
+    {
+     "title": "Godot vs Unity: Which Fits Your Team in 2026?",
+     "url": "/compare/godot-vs-unity"
+    },
+    {
+     "title": "Godot Alternatives in 2026",
+     "url": "/alternatives/godot"
+    }
+   ]
+  },
+  {
+   "id": "kernel-anti-cheat-worth-the-player-backlash",
+   "board": "games",
+   "title": "Kernel anti-cheat: worth the player backlash?",
+   "created": "2026-11-18T09:14:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Kernel-level anti-cheat can catch cheats that operate deep in the operating system, but players and security researchers often object to software with that level of access. Where do you draw the line for a competitive game, and what does your community tolerate?</p><p>Vendors present their offerings differently. The <a href=\"https://www.easy.ac/\" rel=\"noopener\" target=\"_blank\">Easy Anti-Cheat site</a> lists support for Windows, Mac, Linux and Steam Deck and says integration is self-service through the Epic Online Services SDK, with basic protection free. The <a href=\"https://www.battleye.com\" rel=\"noopener\" target=\"_blank\">BattlEye homepage</a> describes the service as independent anti-cheat that updates protection against new exploits and permanently bans cheaters.</p><p>Server-side detection, authoritative servers and report-and-review systems are alternatives or complements. If you have weighed these for a launch, or decided to leave a protection layer out, share your reasoning, including what you told players about it.</p>",
+   "related": [
+    {
+     "title": "Best Game Anti-Cheat Software in 2026",
+     "url": "/software/best-game-anti-cheat-software"
+    },
+    {
+     "title": "Easy Anti-Cheat Alternatives in 2026",
+     "url": "/alternatives/easy-anti-cheat"
+    },
+    {
+     "title": "BattlEye Alternatives in 2026",
+     "url": "/alternatives/battleye"
+    }
+   ]
+  },
+  {
+   "id": "mediation-and-attribution-for-a-first-mobile-launch",
+   "board": "games",
+   "title": "What ad mediation and attribution setup for a first mobile launch?",
+   "created": "2026-11-18T09:49:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>A first mobile game with ads and paid user acquisition needs a mediation layer and an attribution provider, and each adds SDKs, reporting and privacy decisions on iOS. What did you pick, and how many networks did you connect at launch?</p><p>AppLovin&#x27;s <a href=\"https://support.applovin.com/en/max/getting-started/\" rel=\"noopener\" target=\"_blank\">MAX getting-started guide</a> says MAX supports many networks across bidding and traditional connections, and that unsupported networks can be mediated through a custom SDK connection that AppLovin cannot troubleshoot. The <a href=\"https://www.appsflyer.com/pricing/\" rel=\"noopener\" target=\"_blank\">AppsFlyer pricing page</a> says users can start for free with no credit card required.</p><p>Share how you decided between waterfall and bidding, how you handled SKAdNetwork on iOS and whether the extra SDKs affected build size or crash rates.</p>",
+   "related": [
+    {
+     "title": "Best Mobile Game Ad Networks and Mediation Platforms in 2026",
+     "url": "/software/best-mobile-game-ad-networks-and-mediation"
+    },
+    {
+     "title": "Best Mobile Attribution Tools for Games in 2026",
+     "url": "/software/best-mobile-attribution-tools-for-games"
+    },
+    {
+     "title": "AppLovin MAX Alternatives in 2026",
+     "url": "/alternatives/applovin-max"
+    }
+   ]
+  },
+  {
+   "id": "merchant-of-record-for-a-pc-game-web-shop",
+   "board": "games",
+   "title": "Do you need a merchant of record for a PC game web shop?",
+   "created": "2026-11-18T09:42:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Selling in-game items or keys directly means handling sales tax or VAT, refunds and chargebacks in many countries. Did you use a merchant of record, or did you register and handle tax yourself, and how did the fees compare?</p><p>The <a href=\"https://www.paddle.com/\" rel=\"noopener\" target=\"_blank\">Paddle homepage</a> describes its product as a merchant of record solution for SaaS and apps, with Nexus Mods among the customer stories it lists. The <a href=\"https://www.tebex.io/\" rel=\"noopener\" target=\"_blank\">Tebex homepage</a> describes a game monetization extension with webstores, checkout and store protection products. Neither opened page states a fee level that we can quote.</p><p>If you run a web shop alongside a platform store, tell us how you linked accounts, what you do about refunds and what surprised you in the first quarter of selling.</p>",
+   "related": [
+    {
+     "title": "Best Game Payment and Web Shop Platforms in 2026",
+     "url": "/software/best-game-payment-and-web-shop-platforms"
+    },
+    {
+     "title": "Xsolla vs Appcharge: Which Fits Your Team in 2026?",
+     "url": "/compare/xsolla-vs-appcharge"
+    },
+    {
+     "title": "Xsolla Alternatives in 2026",
+     "url": "/alternatives/xsolla"
+    }
+   ]
+  },
+  {
+   "id": "moving-off-photon-to-self-hosted-netcode",
+   "board": "games",
+   "title": "Has anyone moved off Photon to self-hosted netcode?",
+   "created": "2026-11-18T09:07:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Hosted multiplayer services are quick to start with, and some teams later look at open source libraries and their own servers for control or cost reasons. Has anyone made that move, and what did the migration actually involve?</p><p>For orientation, the <a href=\"https://photonengine.com/\" rel=\"noopener\" target=\"_blank\">Photon homepage</a> describes the product as a multiplayer development platform with networking engines, voice and chat services and cloud hosting, and does not publish prices. On the self-hosted side, the <a href=\"https://mirror-networking.com/\" rel=\"noopener\" target=\"_blank\">Mirror homepage</a> describes open source networking for Unity, and the <a href=\"https://fish-networking.gitbook.io/\" rel=\"noopener\" target=\"_blank\">FishNet documentation</a> describes a free Unity networking solution with no concurrent-user caps.</p><p>Useful details for others: what drove the decision, how you handled hosting and matchmaking afterward, and what you would keep from the old setup. If you are still on a hosted service and happy, that experience is welcome too.</p>",
+   "related": [
+    {
+     "title": "Best Multiplayer Networking SDKs in 2026",
+     "url": "/software/best-multiplayer-networking-sdks"
+    },
+    {
+     "title": "Photon vs Mirror: Which Fits Your Team in 2026?",
+     "url": "/compare/photon-vs-mirror"
+    },
+    {
+     "title": "Photon Alternatives in 2026",
+     "url": "/alternatives/photon"
+    }
+   ]
+  },
+  {
+   "id": "multistreaming-cloud-service-or-local-outputs",
+   "board": "livestreaming",
+   "title": "Multistreaming: cloud service or local outputs from your PC?",
+   "created": "2026-11-18T10:03:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Going live on several platforms at once can be done by sending one feed to a cloud service or by pushing several outputs from your own encoder. Which way do you do it, and what made you switch?</p><p>The <a href=\"https://restream.io/\" rel=\"noopener\" target=\"_blank\">Restream homepage</a> describes a live video platform that lets users create videos and multistream them to their favorite channels. The <a href=\"https://castr.com/pricing/\" rel=\"noopener\" target=\"_blank\">Castr pricing page</a> lists five plans from $16.67 per month with a 7-day Starter trial. A cloud service saves upload bandwidth but adds a dependency; local outputs multiply your uplink use.</p><p>Tell us how many destinations you run, whether chat is unified and how you handle platform rules that differ. Failure stories, such as a relay dropping a feed, are useful as well.</p>",
+   "related": [
+    {
+     "title": "Best Multistreaming Platforms in 2026",
+     "url": "/software/best-multistreaming-platforms"
+    },
+    {
+     "title": "Castr vs Restream: Which Fits Your Team in 2026?",
+     "url": "/compare/castr-vs-restream"
+    },
+    {
+     "title": "Restream Alternatives in 2026",
+     "url": "/alternatives/restream"
+    }
+   ]
+  },
+  {
+   "id": "obs-or-vmix-for-an-esports-broadcast",
+   "board": "esports",
+   "title": "OBS or vMix for an esports broadcast?",
+   "created": "2026-11-18T10:52:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>A tournament broadcast needs replays, graphics, multiple sources and remote guests, and the production software choice shapes how many operators you need. Which are you using, and where did it start to strain?</p><p>The <a href=\"https://obsproject.com/\" rel=\"noopener\" target=\"_blank\">OBS Project homepage</a> describes free and open source software for recording and live streaming, with scenes composed from multiple sources. The <a href=\"https://www.vmix.com/\" rel=\"noopener\" target=\"_blank\">vMix homepage</a> describes a live production software video mixer and switcher for Windows, with purchase from $50 per month and a free 60-day trial download.</p><p>Tell us your team size, number of sources and whether you use NDI or capture cards. Honest limits of your setup help others avoid the same wall.</p>",
+   "related": [
+    {
+     "title": "Best Esports Broadcast Production Software in 2026",
+     "url": "/software/best-esports-broadcast-production-software"
+    },
+    {
+     "title": "OBS Studio vs vMix: Which Fits Your Team in 2026?",
+     "url": "/compare/obs-studio-vs-vmix"
+    },
+    {
+     "title": "vMix Alternatives in 2026",
+     "url": "/alternatives/vmix"
+    }
+   ]
+  },
+  {
+   "id": "rtmp-or-srt-for-contribution-feeds",
+   "board": "livestreaming",
+   "title": "RTMP or SRT for sending the feed from a remote location?",
+   "created": "2026-11-18T10:31:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>RTMP is accepted almost everywhere, while SRT promises better recovery on shaky links. If you send a feed from a venue, a mobile connection or a second site, which protocol do you use and what is on the receiving end?</p><p>Many open source servers handle both: the <a href=\"https://github.com/bluenviron/mediamtx\" rel=\"noopener\" target=\"_blank\">MediaMTX repository</a> lists SRT, WebRTC, RTSP, RTMP, LL-HLS, MPEG-TS and RTP, and the <a href=\"https://ossrs.io/lts/en-us/\" rel=\"noopener\" target=\"_blank\">SRS site</a> lists RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH. Whether a platform accepts SRT directly or only RTMP decides how many hops you need.</p><p>Share your link type (wired, bonded cellular, satellite), what loss you saw and how you tuned latency settings.</p>",
+   "related": [
+    {
+     "title": "Best Streaming Media Servers in 2026",
+     "url": "/software/best-streaming-media-servers"
+    },
+    {
+     "title": "Best Live Production Software in 2026",
+     "url": "/software/best-live-production-software"
+    }
+   ]
+  },
+  {
+   "id": "self-hosted-media-server-or-managed-live-video",
+   "board": "livestreaming",
+   "title": "Self-hosted media server or a managed live video service?",
+   "created": "2026-11-18T10:10:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Teams building live features, from watch parties to tournament streams, either run an open source media server or buy a managed service. Which route did you take, and where did the work end up?</p><p>The <a href=\"https://github.com/bluenviron/mediamtx\" rel=\"noopener\" target=\"_blank\">MediaMTX repository</a> describes a live media server and proxy supporting SRT, WebRTC, RTSP, RTMP and LL-HLS, among others. The <a href=\"https://ossrs.io/lts/en-us/\" rel=\"noopener\" target=\"_blank\">SRS site</a> describes an open source realtime server supporting RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH. On the managed side, the <a href=\"https://aws.amazon.com/ivs/\" rel=\"noopener\" target=\"_blank\">Amazon IVS page</a> describes a hosted service for low-latency interactive live video.</p><p>Details we would like to hear: expected audience size, whether you needed sub-second delay, who handles transcoding and what monitoring you ended up building.</p>",
+   "related": [
+    {
+     "title": "Best Streaming Media Servers in 2026",
+     "url": "/software/best-streaming-media-servers"
+    },
+    {
+     "title": "Best Live Streaming APIs and SDKs in 2026",
+     "url": "/software/best-live-streaming-apis-and-sdks"
+    },
+    {
+     "title": "Wowza Alternatives in 2026",
+     "url": "/alternatives/wowza"
+    },
+    {
+     "title": "Amazon IVS Alternatives in 2026",
+     "url": "/alternatives/amazon-ivs"
+    }
+   ]
+  },
+  {
+   "id": "stream-bitrate-and-encoder-settings",
+   "board": "livestreaming",
+   "title": "What bitrate and encoder settings do you stream at?",
+   "created": "2026-11-18T09:56:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Streamers swap settings constantly: encoder, bitrate, keyframe interval, resolution and frame rate. What do you run for a fast game, and did you change it after a drop in viewers or a platform update?</p><p>YouTube&#x27;s <a href=\"https://support.google.com/youtube/answer/2853702\" rel=\"noopener\" target=\"_blank\">live encoder help page</a> lists a recommended bitrate of 17 Mbps for 1080p at 60 frames per second with H.264, and 12 Mbps for the same resolution with AV1 or H.265. It recommends a keyframe frequency of 2 seconds, says not to exceed 4 seconds, and lists CBR as the bitrate encoding.</p><p>Other platforms publish their own limits, and your upload speed and hardware encoder set the real ceiling. Post your platform, encoder (software or hardware), resolution and what you changed that made a visible difference.</p>",
+   "related": [
+    {
+     "title": "Best Streaming Software for Gamers in 2026",
+     "url": "/software/best-streaming-software-for-gamers"
+    },
+    {
+     "title": "OBS Studio Alternatives in 2026",
+     "url": "/alternatives/obs-studio"
+    },
+    {
+     "title": "OBS Studio vs vMix: Which Fits Your Team in 2026?",
+     "url": "/compare/obs-studio-vs-vmix"
+    }
+   ]
+  },
+  {
+   "id": "swiss-or-double-elimination-for-an-online-open",
+   "board": "esports",
+   "title": "Swiss or double elimination for an online open event?",
+   "created": "2026-11-18T10:45:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Online opens attract uneven entries and unreliable attendance. Double elimination is familiar, while Swiss gives everyone several matches with a fixed number of rounds. Which format has worked for your event size, and why?</p><p>The <a href=\"https://brackethq.com/\" rel=\"noopener\" target=\"_blank\">Bracket HQ homepage</a> says it builds brackets with single or double elimination and round robin formats, with live updates and score submission. Tools differ in whether they support Swiss pairings at all, so format support is a real selection criterion.</p><p>Share your entry count, how long you could run the event and what you did when a team did not show. Notes on how players reacted to the format are welcome.</p>",
+   "related": [
+    {
+     "title": "Best Esports Tournament Management Software in 2026",
+     "url": "/software/best-esports-tournament-management-software"
+    },
+    {
+     "title": "Challonge Alternatives in 2026",
+     "url": "/alternatives/challonge"
+    }
+   ]
+  },
+  {
+   "id": "vtuber-face-tracking-setup-and-software",
+   "board": "livestreaming",
+   "title": "Which face tracking and avatar software for a new VTuber?",
+   "created": "2026-11-18T10:24:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Starting as a VTuber means choosing between a flat Live2D-style avatar and a three-dimensional one, and then a tracking program. What setup are you using, and what limits did you hit with a webcam versus a phone?</p><p>The <a href=\"https://www.vseeface.icu\" rel=\"noopener\" target=\"_blank\">VSeeFace site</a> describes a free face and hand tracking program for VRM and VSFAvatar avatars. The <a href=\"https://denchisoft.com\" rel=\"noopener\" target=\"_blank\">VTube Studio homepage</a> describes an app for bringing Live2D models to life, and the <a href=\"https://warudo.app\" rel=\"noopener\" target=\"_blank\">Warudo homepage</a> describes 3D VTubing software with built-in face and hand tracking.</p><p>Tell us your avatar type, your camera and what you would change if you started again, including costs of commissioning a rig.</p>",
+   "related": [
+    {
+     "title": "Best VTuber Software in 2026",
+     "url": "/software/best-vtuber-software"
+    }
+   ]
+  },
+  {
+   "id": "welcome-to-the-ga-forum-boards",
+   "board": "general",
+   "title": "Welcome to the GA Forum boards: how this forum works",
+   "created": "2026-11-18T11:06:00Z",
+   "pinned": true,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>GA Forum is a discussion space for game developers, streamers, esports organizers and corporate live-video teams. The boards are Games, Livestreaming, Esports and General, and each is meant for practical questions about tools, workflows and trade-offs.</p><p>Posting rules: be civil and critique ideas, not people. If you work for a vendor or have a financial interest in a tool you mention, say so in the post. New accounts&#x27; posts that contain links are reviewed before they appear, so a short delay is normal. Do not post stream keys, API secrets or private contact details.</p><p>Our rankings and guides are written by the editorial team and sourced from vendor pages; read how in the <a href=\"/editorial-process\">editorial process</a>. Starter threads on the boards were opened by the editorial team to get conversations going and contain no replies from users. Introduce your project or ask your first question on the board that fits.</p>",
+   "related": [
+    {
+     "title": "Best Game Launchers and Library Managers in 2026",
+     "url": "/software/best-game-launchers-and-library-managers"
+    }
+   ]
+  },
+  {
+   "id": "when-to-run-a-steam-playtest",
+   "board": "games",
+   "title": "When in development do you open a Steam playtest?",
+   "created": "2026-11-18T09:35:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>Opening a playtest too early wastes the interest of people who might wishlist, and too late leaves no time to act on feedback. At what stage of your build do you start inviting outside players, and how do you pick who gets in?</p><p>The <a href=\"https://partner.steamgames.com/doc/features/playtest\" rel=\"noopener\" target=\"_blank\">Steamworks documentation</a> describes Steam Playtest as a free way for developers to get playtesting data, and says charging customers for access is not allowed. It also notes that developers can request more than 50,000 playtest keys, but Valve reviews such requests case by case and may reject them.</p><p>Paid services recruit and record testers instead, such as the one described on the <a href=\"https://playtestcloud.com/\" rel=\"noopener\" target=\"_blank\">PlaytestCloud home page</a>. Share how you combine community playtests with structured sessions, what you track and what you changed because of it.</p>",
+   "related": [
+    {
+     "title": "Best Playtesting Platforms in 2026",
+     "url": "/software/best-playtesting-platforms"
+    }
+   ]
+  },
+  {
+   "id": "which-tool-categories-should-ga-forum-cover-next",
+   "board": "general",
+   "title": "Which tool categories should GA Forum rankings cover next?",
+   "created": "2026-11-18T11:13:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "body_html": "<p>The current rankings cover game development, livestreaming, esports and live video for business. Some categories you work with are probably missing, or covered in a way that does not match how you pick tools.</p><p>Tell us the category, the job the tool does and the two or three products you compare. Specific requests are easier to act on than broad ones, for example a niche task inside a pipeline rather than a whole field.</p><p>Vendors are welcome to suggest categories too, with the affiliation disclosed in the post. Suggestions do not buy a place in any ranking; how listings are handled is described in the <a href=\"/editorial-process\">editorial process</a>.</p>",
+   "related": [
+    {
+     "title": "Best Game Market Intelligence Tools in 2026",
+     "url": "/software/best-game-market-intelligence-tools"
+    }
+   ]
+  },
+  {
    "id": "best-2d-game-engines",
    "board": "games",
    "title": "Discuss: Best 2D Game Engines",
@@ -35,7 +447,7 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Our ranking of 2D game engines puts GameMaker first, Godot second and Defold third, out of 10 products we checked on their own pages.</p><p>A ranking of engines and frameworks built for flat games: sprites, tilemaps, scene tools and the platforms each one can ship to.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "body_html": "<p>Our ranking of 2D game engines puts GameMaker first, Godot second and Phaser third, out of 12 products we checked on their own pages.</p><p>A ranking of engines and frameworks built for flat games: sprites, tilemaps, scene tools and the platforms each one can ship to.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
    "related": [
     {
      "title": "Best 2D Game Engines in 2026",
@@ -51,11 +463,75 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Which of these do you actually run? We ranked 10 3D game engines for small studios and landed on Unity, then Godot, then Flax Engine.</p><p>Twelve 3D engines and web 3D frameworks compared for teams of two to thirty, with license and royalty terms as the deciding test.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "body_html": "<p>Which of these do you actually run? We ranked 12 3D game engines for small studios and landed on Unity, then Godot, then Flax Engine.</p><p>Twelve 3D engines and web 3D frameworks compared for teams of two to thirty, with license and royalty terms as the deciding test.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
    "related": [
     {
      "title": "Best 3D Game Engines for Small Studios in 2026",
      "url": "/software/best-3d-game-engines-for-small-studios"
+    }
+   ]
+  },
+  {
+   "id": "best-ai-npc-and-dialogue-platforms",
+   "board": "games",
+   "title": "Discuss: Best AI NPC and Dialogue Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Convai tops our list of AI NPC and dialogue platforms, with NVIDIA ACE and Inworld close behind. 11 products made the cut.</p><p>AI NPC and dialogue platforms give game characters speech, memory and branching conversation through engine plugins, voice services and authoring tools.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best AI NPC and Dialogue Platforms in 2026",
+     "url": "/software/best-ai-npc-and-dialogue-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-clip-and-highlight-editors-for-streamers",
+   "board": "livestreaming",
+   "title": "Discuss: Best Clip and Highlight Editors for Streamers",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 clip and highlight editors for streamers and ordered them for fit: StreamLadder at number one, Eklipse at two, Medal at three.</p><p>AI clippers, in-game capture apps and editors that turn broadcasts and gameplay into vertical shorts for TikTok, Reels and YouTube Shorts.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Clip and Highlight Editors for Streamers in 2026",
+     "url": "/software/best-clip-and-highlight-editors-for-streamers"
+    }
+   ]
+  },
+  {
+   "id": "best-cloud-gaming-services",
+   "board": "games",
+   "title": "Discuss: Best Cloud Gaming Services",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of cloud gaming services puts GeForce NOW first, Xbox Cloud Gaming second and Boosteroid third, out of 10 products we checked on their own pages.</p><p>Cloud gaming services run games on remote hardware and stream them to your screen; this ranking compares libraries, billing models and device support.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Cloud Gaming Services in 2026",
+     "url": "/software/best-cloud-gaming-services"
+    }
+   ]
+  },
+  {
+   "id": "best-community-chat-platforms-for-gaming-communities",
+   "board": "games",
+   "title": "Discuss: Best Community Chat Platforms for Gaming Communities",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 11 community chat platforms for gaming communities and landed on Discord, then TeamSpeak, then Mumble.</p><p>Voice, text and forum platforms where players, clans and studios build communities, from Discord to self-hosted open source options.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Community Chat Platforms for Gaming Communities in 2026",
+     "url": "/software/best-community-chat-platforms-for-gaming-communities"
     }
    ]
   },
@@ -67,11 +543,75 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Discord tops our list of community management tools for game studios, with Khoros and Discourse close behind. 12 products made the cut.</p><p>Community management tools give game studios a place to talk with players, watch social chatter and route feedback to the team.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "body_html": "<p>Discord tops our list of community management tools for game studios, with Khoros and Discourse close behind. 13 products made the cut.</p><p>Community management tools give game studios a place to talk with players, watch social chatter and route feedback to the team.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
    "related": [
     {
      "title": "Best Community Management Tools for Game Studios in 2026",
      "url": "/software/best-community-management-tools-for-game-studios"
+    }
+   ]
+  },
+  {
+   "id": "best-ddos-protection-for-game-servers",
+   "board": "games",
+   "title": "Discuss: Best DDoS Protection for Game Servers",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 DDoS protection for game servers and ordered them for fit: OVHcloud at number one, TCPShield at two, Gcore at three.</p><p>DDoS protection for game servers filters flood traffic aimed at UDP and game-protocol ports while keeping added latency low for players.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best DDoS Protection for Game Servers in 2026",
+     "url": "/software/best-ddos-protection-for-game-servers"
+    }
+   ]
+  },
+  {
+   "id": "best-dedicated-game-server-orchestration-platforms",
+   "board": "games",
+   "title": "Discuss: Best Dedicated Game Server Orchestration Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of dedicated game server orchestration platforms puts Edgegap first, Gameye second and GameFabric third, out of 10 products we checked on their own pages.</p><p>Dedicated game server orchestration platforms let studios start, scale and retire fleets of game server instances across regions and providers, driven by player demand.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Dedicated Game Server Orchestration Platforms in 2026",
+     "url": "/software/best-dedicated-game-server-orchestration-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-discord-moderation-and-community-bots",
+   "board": "games",
+   "title": "Discuss: Best Discord Moderation and Community Bots",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 12 Discord moderation and community bots and landed on Carl-bot, then Sapphire, then Dyno.</p><p>Discord bots for moderation, role menus, support tickets, events, giveaways and server stats, ranked for game communities.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Discord Moderation and Community Bots in 2026",
+     "url": "/software/best-discord-moderation-and-community-bots"
+    }
+   ]
+  },
+  {
+   "id": "best-donation-and-monetization-tools-for-streamers",
+   "board": "livestreaming",
+   "title": "Discuss: Best Donation and Monetization Tools for Streamers",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Streamlabs Desktop tops our list of donation and monetization tools for streamers, with StreamElements and Ko-fi close behind. 10 products made the cut.</p><p>Donation and monetization tools let streamers collect tips, memberships, merch sales and charity funds from viewers, often with on-screen alerts.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Donation and Monetization Tools for Streamers in 2026",
+     "url": "/software/best-donation-and-monetization-tools-for-streamers"
     }
    ]
   },
@@ -83,11 +623,91 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>We went through 10 enterprise live streaming platforms and ordered them for fit: Vbrick at number one, Kaltura at two, Brightcove at three.</p><p>Enterprise live streaming platforms broadcast town halls and product launches to large audiences with security controls, analytics and network-friendly delivery.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "body_html": "<p>We went through 12 enterprise live streaming platforms and ordered them for fit: Vbrick at number one, Hive Streaming at two, Kaltura at three.</p><p>Enterprise live streaming platforms broadcast town halls and product launches to large audiences with security controls, analytics and network-friendly delivery.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
    "related": [
     {
      "title": "Best Enterprise Live Streaming Platforms in 2026",
      "url": "/software/best-enterprise-live-streaming-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-esports-analytics-and-coaching-software",
+   "board": "esports",
+   "title": "Discuss: Best Esports Analytics and Coaching Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of esports analytics and coaching software puts Aim Lab first, Leetify second and Blitz third, out of 11 products we checked on their own pages.</p><p>Esports analytics and coaching tools turn match history, demos and aim data into stats, reviews and training plans for players and teams.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Esports Analytics and Coaching Software in 2026",
+     "url": "/software/best-esports-analytics-and-coaching-software"
+    }
+   ]
+  },
+  {
+   "id": "best-esports-broadcast-production-software",
+   "board": "esports",
+   "title": "Discuss: Best Esports Broadcast Production Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 11 esports broadcast production software and landed on vMix, then OBS Studio, then Wirecast.</p><p>Esports broadcast production software mixes cameras and game feeds, adds overlays and scoreboards, and sends the show to a stream or a venue.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Esports Broadcast Production Software in 2026",
+     "url": "/software/best-esports-broadcast-production-software"
+    }
+   ]
+  },
+  {
+   "id": "best-esports-data-apis",
+   "board": "esports",
+   "title": "Discuss: Best Esports Data APIs",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>PandaScore tops our list of esports data APIs, with GRID and GameScorekeeper close behind. 10 products made the cut.</p><p>Esports data APIs deliver match results, player stats, schedules and betting odds as feeds that apps, media sites and sportsbooks can build on.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Esports Data APIs in 2026",
+     "url": "/software/best-esports-data-apis"
+    }
+   ]
+  },
+  {
+   "id": "best-esports-team-management-software",
+   "board": "esports",
+   "title": "Discuss: Best Esports Team Management Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 11 esports team management software and ordered them for fit: Spond at number one, Teamup at two, Challengermode at three.</p><p>Team management tools keep esports rosters, scrim calendars, availability, communication and dues in one place instead of scattered chats and spreadsheets.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Esports Team Management Software in 2026",
+     "url": "/software/best-esports-team-management-software"
+    }
+   ]
+  },
+  {
+   "id": "best-esports-tournament-management-software",
+   "board": "esports",
+   "title": "Discuss: Best Esports Tournament Management Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of esports tournament management software puts Challengermode first, Matcherino second and start.gg third, out of 10 products we checked on their own pages.</p><p>Tournament platforms handle brackets, registration, check-in, scoring and prize payouts for online and LAN esports events, from community cups to publisher circuits.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Esports Tournament Management Software in 2026",
+     "url": "/software/best-esports-tournament-management-software"
     }
    ]
   },
@@ -99,11 +719,75 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Our ranking of game analytics software puts GameAnalytics first, Unity Gaming Services second and Amplitude third, out of 10 products we checked on their own pages.</p><p>Game analytics software tracks retention, revenue per player and funnels from engine SDKs, so studios can tune design and monetization after launch.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "body_html": "<p>Which of these do you actually run? We ranked 12 game analytics software and landed on GameAnalytics, then Unity Gaming Services, then Amplitude.</p><p>Game analytics software tracks retention, revenue per player and funnels from engine SDKs, so studios can tune design and monetization after launch.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
    "related": [
     {
      "title": "Best Game Analytics Software in 2026",
      "url": "/software/best-game-analytics-software"
+    }
+   ]
+  },
+  {
+   "id": "best-game-anti-cheat-software",
+   "board": "games",
+   "title": "Discuss: Best Game Anti-Cheat Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Easy Anti-Cheat tops our list of game anti-cheat software, with BattlEye and Anybrain close behind. 12 products made the cut.</p><p>Game anti-cheat software detects and blocks cheating in online games through client-side protection, server-side analysis and ban systems that studios license.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Game Anti-Cheat Software in 2026",
+     "url": "/software/best-game-anti-cheat-software"
+    }
+   ]
+  },
+  {
+   "id": "best-game-backend-platforms",
+   "board": "games",
+   "title": "Discuss: Best Game Backend Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 11 game backend platforms and ordered them for fit: PlayFab at number one, AccelByte at two, Metaplay at three.</p><p>Game backend platforms host player accounts, economies, inventories, leaderboards and live-service logic so studios do not have to build and run their own servers.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Game Backend Platforms in 2026",
+     "url": "/software/best-game-backend-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-game-capture-and-recording-software",
+   "board": "livestreaming",
+   "title": "Discuss: Best Game Capture and Recording Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of game capture and recording software puts Outplayed first, Medal second and NVIDIA App third, out of 10 products we checked on their own pages.</p><p>Ten recorders for saving gameplay on PC, from automatic highlight clippers to free open source tools, ranked by fit for players who share clips.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Game Capture and Recording Software in 2026",
+     "url": "/software/best-game-capture-and-recording-software"
+    }
+   ]
+  },
+  {
+   "id": "best-game-ci-cd-and-build-tools",
+   "board": "games",
+   "title": "Discuss: Best Game CI/CD and Build Tools",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 game CI/CD and build tools and landed on GameCI, then Jenkins, then FASTBuild.</p><p>Build servers, compile accelerators and hosted pipelines for game studios that ship Unity or native projects to PC, mobile and Apple platforms.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Game CI/CD and Build Tools in 2026",
+     "url": "/software/best-game-ci-cd-and-build-tools"
     }
    ]
   },
@@ -115,11 +799,75 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Which of these do you actually run? We ranked 11 game engines for mobile games and landed on Unity, then Solar2D, then Defold.</p><p>Twelve engines compared for iOS and Android games, judged on listed targets, store-service support, monetization features and cost.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "body_html": "<p>Unity tops our list of game engines for mobile games, with Solar2D and Defold close behind. 12 products made the cut.</p><p>Twelve engines compared for iOS and Android games, judged on listed targets, store-service support, monetization features and cost.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
    "related": [
     {
      "title": "Best Game Engines for Mobile Games in 2026",
      "url": "/software/best-game-engines-for-mobile-games"
+    }
+   ]
+  },
+  {
+   "id": "best-game-launchers-and-library-managers",
+   "board": "games",
+   "title": "Discuss: Best Game Launchers and Library Managers",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 game launchers and library managers and ordered them for fit: Playnite at number one, GOG Galaxy at two, Heroic Games Launcher at three.</p><p>Game launchers and library managers start, update and organize PC games, and the best ones merge libraries from several stores into one list.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Game Launchers and Library Managers in 2026",
+     "url": "/software/best-game-launchers-and-library-managers"
+    }
+   ]
+  },
+  {
+   "id": "best-game-liveops-platforms",
+   "board": "games",
+   "title": "Discuss: Best Game LiveOps Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of game LiveOps platforms puts Metaplay first, Satori second and PlayFab third, out of 12 products we checked on their own pages.</p><p>Game LiveOps platforms let teams run events, change game settings remotely, target offers to player segments and test changes after launch without shipping a new build.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Game LiveOps Platforms in 2026",
+     "url": "/software/best-game-liveops-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-game-localization-platforms",
+   "board": "games",
+   "title": "Discuss: Best Game Localization Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 game localization platforms and landed on Gridly, then Crowdin, then Lokalise.</p><p>Localization platforms and services for game studios that manage string tables, translator context and releases in many languages.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Game Localization Platforms in 2026",
+     "url": "/software/best-game-localization-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-game-market-intelligence-tools",
+   "board": "games",
+   "title": "Discuss: Best Game Market Intelligence Tools",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Sensor Tower tops our list of game market intelligence tools, with GameDiscoverCo and AppMagic close behind. 10 products made the cut.</p><p>Data services that estimate competitor revenue, downloads, wishlists and genre trends so studios can size a game before and after launch.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Game Market Intelligence Tools in 2026",
+     "url": "/software/best-game-market-intelligence-tools"
     }
    ]
   },
@@ -131,7 +879,7 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Xsolla tops our list of game payment and web shop platforms, with Appcharge and Coda Payments close behind. 11 products made the cut.</p><p>Compare platforms that let game studios sell in-game items and games through their own web stores, with tax, payments and merchant of record handled.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "body_html": "<p>We went through 13 game payment and web shop platforms and ordered them for fit: Xsolla at number one, Appcharge at two, Coda Payments at three.</p><p>Compare platforms that let game studios sell in-game items and games through their own web stores, with tax, payments and merchant of record handled.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
    "related": [
     {
      "title": "Best Game Payment and Web Shop Platforms in 2026",
@@ -147,11 +895,59 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>We went through 10 game QA and test automation tools and ordered them for fit: AltTester at number one, modl.ai at two, Appium at three.</p><p>Game QA and test automation tools drive builds through engine-aware scripts, AI agents, real device clouds and managed testers to catch bugs before players do.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "body_html": "<p>Our ranking of game QA and test automation tools puts AltTester first, Airtest Project second and modl.ai third, out of 11 products we checked on their own pages.</p><p>Game QA and test automation tools drive builds through engine-aware scripts, AI agents, real device clouds and managed testers to catch bugs before players do.</p><p>Using something that is not on the list? Name it and say why.</p>",
    "related": [
     {
      "title": "Best Game QA and Test Automation Tools in 2026",
      "url": "/software/best-game-qa-and-test-automation-tools"
+    }
+   ]
+  },
+  {
+   "id": "best-hardware-monitoring-and-overclocking-software",
+   "board": "games",
+   "title": "Discuss: Best Hardware Monitoring and Overclocking Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 hardware monitoring and overclocking software and landed on HWiNFO, then OCCT, then HWMonitor.</p><p>Hardware monitoring and overclocking software reads temperatures, clocks and voltages, tunes processors, and stress-tests a PC for stability.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Hardware Monitoring and Overclocking Software in 2026",
+     "url": "/software/best-hardware-monitoring-and-overclocking-software"
+    }
+   ]
+  },
+  {
+   "id": "best-in-game-advertising-platforms",
+   "board": "games",
+   "title": "Discuss: Best In-Game Advertising Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Anzu tops our list of in-game advertising platforms, with Gadsme and Frameplay close behind. 10 products made the cut.</p><p>In-game advertising platforms place brand and performance ads inside game worlds through SDKs and programmatic buying, without interrupting play on PC, console and mobile.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best In-Game Advertising Platforms in 2026",
+     "url": "/software/best-in-game-advertising-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-influencer-marketing-tools-for-games",
+   "board": "games",
+   "title": "Discuss: Best Influencer Marketing Tools for Games",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 11 influencer marketing tools for games and ordered them for fit: Keymailer at number one, Lurkit at two, Gamesight at three.</p><p>Platforms for finding streamers and YouTubers, sending game keys, running creator campaigns and paying creators, ranked for game studios.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Influencer Marketing Tools for Games in 2026",
+     "url": "/software/best-influencer-marketing-tools-for-games"
     }
    ]
   },
@@ -163,7 +959,7 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Our ranking of live captioning and translation tools for livestreams puts KUDO first, Wordly second and Ai-Media third, out of 10 products we checked on their own pages.</p><p>Live captioning and translation tools turn a stream&#x27;s speech into on-screen text or interpreted audio in other languages while the event is running.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "body_html": "<p>Our ranking of live captioning and translation tools for livestreams puts Interprefy first, KUDO second and Wordly third, out of 11 products we checked on their own pages.</p><p>Live captioning and translation tools turn a stream&#x27;s speech into on-screen text or interpreted audio in other languages while the event is running.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
    "related": [
     {
      "title": "Best Live Captioning and Translation Tools for Livestreams in 2026",
@@ -179,7 +975,7 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Which of these do you actually run? We ranked 10 live production software and landed on Wirecast, then Blackmagic ATEM, then vMix.</p><p>Live production software switches between cameras, adds graphics and audio, and sends a finished show to a stream, for events, broadcasts and esports.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "body_html": "<p>Which of these do you actually run? We ranked 11 live production software and landed on Wirecast, then Blackmagic ATEM, then vMix.</p><p>Live production software switches between cameras, adds graphics and audio, and sends a finished show to a stream, for events, broadcasts and esports.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
    "related": [
     {
      "title": "Best Live Production Software in 2026",
@@ -195,11 +991,59 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Mux tops our list of live streaming APIs and SDKs, with Amazon IVS and api.video close behind. 13 products made the cut.</p><p>Live streaming APIs and SDKs give developers hosted video infrastructure to add live broadcasts, calls and interactive streams to apps and sites.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "body_html": "<p>Mux tops our list of live streaming APIs and SDKs, with Amazon IVS and api.video close behind. 13 products made the cut.</p><p>Live streaming APIs and SDKs give developers hosted video infrastructure to add live broadcasts, calls and interactive streams to apps and sites.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
    "related": [
     {
      "title": "Best Live Streaming APIs and SDKs in 2026",
      "url": "/software/best-live-streaming-apis-and-sdks"
+    }
+   ]
+  },
+  {
+   "id": "best-mobile-attribution-tools-for-games",
+   "board": "games",
+   "title": "Discuss: Best Mobile Attribution Tools for Games",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 mobile attribution tools for games and ordered them for fit: AppsFlyer at number one, Tenjin at two, Airbridge at three.</p><p>Measurement partners and ad platforms that connect installs and in-game revenue back to the campaigns that paid for them, including iOS SKAdNetwork reporting.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Mobile Attribution Tools for Games in 2026",
+     "url": "/software/best-mobile-attribution-tools-for-games"
+    }
+   ]
+  },
+  {
+   "id": "best-mobile-game-ad-networks-and-mediation",
+   "board": "games",
+   "title": "Discuss: Best Mobile Game Ad Networks and Mediation Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of mobile game ad networks and mediation platforms puts Unity LevelPlay first, Google AdMob second and Pangle third, out of 11 products we checked on their own pages.</p><p>Mobile game ad networks and mediation platforms sell rewarded video and other formats to advertisers through real-time bidding, letting developers earn from free games.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Mobile Game Ad Networks and Mediation Platforms in 2026",
+     "url": "/software/best-mobile-game-ad-networks-and-mediation"
+    }
+   ]
+  },
+  {
+   "id": "best-mod-managers-for-pc-games",
+   "board": "games",
+   "title": "Discuss: Best Mod Managers for PC Games",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 mod managers for PC games and landed on Vortex, then Mod Organizer 2, then r2modman.</p><p>Mod managers install, update and order mods for PC games; this ranking compares game coverage, load order handling and cost.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Mod Managers for PC Games in 2026",
+     "url": "/software/best-mod-managers-for-pc-games"
     }
    ]
   },
@@ -211,11 +1055,91 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>We went through 10 multiplayer networking SDKs and ordered them for fit: Photon at number one, Mirror at two, Fish-Networking at three.</p><p>Multiplayer networking SDKs give game engines the netcode, state synchronization, rooms and relay hosting needed to connect players without writing sockets from scratch.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "body_html": "<p>Photon tops our list of multiplayer networking SDKs, with Mirror and Fish-Networking close behind. 10 products made the cut.</p><p>Multiplayer networking SDKs give game engines the netcode, state synchronization, rooms and relay hosting needed to connect players without writing sockets from scratch.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
    "related": [
     {
      "title": "Best Multiplayer Networking SDKs in 2026",
      "url": "/software/best-multiplayer-networking-sdks"
+    }
+   ]
+  },
+  {
+   "id": "best-multistreaming-platforms",
+   "board": "livestreaming",
+   "title": "Discuss: Best Multistreaming Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 12 multistreaming platforms and ordered them for fit: OneStream Live at number one, Castr at two, Livepush at three.</p><p>Multistreaming platforms send one live video feed to many channels at once, so a business or creator reaches each audience from a single broadcast.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Multistreaming Platforms in 2026",
+     "url": "/software/best-multistreaming-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-open-source-game-engines",
+   "board": "games",
+   "title": "Discuss: Best Open-Source Game Engines",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of open-source game engines puts Godot first, Bevy second and Stride third, out of 12 products we checked on their own pages.</p><p>Open-source engines and game libraries ranked by license clarity, governance and the health signals their own pages publish.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Open-Source Game Engines in 2026",
+     "url": "/software/best-open-source-game-engines"
+    }
+   ]
+  },
+  {
+   "id": "best-pc-benchmarking-software",
+   "board": "games",
+   "title": "Discuss: Best PC Benchmarking Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 PC benchmarking software and landed on CapFrameX, then 3DMark, then PresentMon.</p><p>PC benchmarking software measures CPU, GPU, storage and frame times so you can compare hardware or find out why a game stutters.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best PC Benchmarking Software in 2026",
+     "url": "/software/best-pc-benchmarking-software"
+    }
+   ]
+  },
+  {
+   "id": "best-pixel-streaming-and-cloud-game-streaming-platforms",
+   "board": "games",
+   "title": "Discuss: Best Pixel Streaming and Cloud Game Streaming Platforms for Studios",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Eagle 3D Streaming tops our list of pixel streaming and cloud game streaming platforms, with Streampixel and PureWeb close behind. 10 products made the cut.</p><p>Pixel streaming platforms host your Unreal, Unity or Windows build on cloud GPUs and deliver it to browsers; this list compares studio-facing options.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Pixel Streaming and Cloud Game Streaming Platforms for Studios in 2026",
+     "url": "/software/best-pixel-streaming-and-cloud-game-streaming-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-player-support-software-for-games",
+   "board": "games",
+   "title": "Discuss: Best Player Support Software for Games",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 14 player support software for games and ordered them for fit: Helpshift at number one, AIHelp at two, Zendesk at three.</p><p>Player support software handles tickets, in-game help and multilingual replies so studios can answer players without drowning a small team.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Player Support Software for Games in 2026",
+     "url": "/software/best-player-support-software-for-games"
     }
    ]
   },
@@ -227,11 +1151,139 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Our ranking of playtesting platforms puts PlaytestCloud first, Steam Playtest second and Lookback third, out of 11 products we checked on their own pages.</p><p>Services and free tools for putting a game build in front of remote testers, from player-panel research to simple build delivery.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "body_html": "<p>Our ranking of playtesting platforms puts PlaytestCloud first, Steam Playtest second and Lookback third, out of 12 products we checked on their own pages.</p><p>Services and free tools for putting a game build in front of remote testers, from player-panel research to simple build delivery.</p><p>Using something that is not on the list? Name it and say why.</p>",
    "related": [
     {
      "title": "Best Playtesting Platforms in 2026",
      "url": "/software/best-playtesting-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-remote-play-and-game-streaming-software",
+   "board": "games",
+   "title": "Discuss: Best Remote Play and Game Streaming Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 remote play and game streaming software and landed on Moonlight, then Sunshine, then Parsec.</p><p>Remote play software streams a game from your own PC to a TV, phone or laptop; this ranking weighs client reach, cost and gaming focus.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Remote Play and Game Streaming Software in 2026",
+     "url": "/software/best-remote-play-and-game-streaming-software"
+    }
+   ]
+  },
+  {
+   "id": "best-stream-deck-and-stream-automation-software",
+   "board": "livestreaming",
+   "title": "Discuss: Best Stream Deck and Stream Automation Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Elgato Stream Deck tops our list of Stream Deck and stream automation software, with Touch Portal and Bitfocus Companion close behind. 10 products made the cut.</p><p>Hardware keys, tablet decks and event-driven bots that let a streamer trigger scenes, sounds and chat actions without leaving the game.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Stream Deck and Stream Automation Software in 2026",
+     "url": "/software/best-stream-deck-and-stream-automation-software"
+    }
+   ]
+  },
+  {
+   "id": "best-stream-overlay-and-alert-tools",
+   "board": "livestreaming",
+   "title": "Discuss: Best Stream Overlay and Alert Tools",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 stream overlay and alert tools and ordered them for fit: StreamElements at number one, OWN3D at two, Streamlabs Desktop at three.</p><p>Ten services for stream overlays, follower alerts, widgets and interactive extras, ranked by price clarity, bundled design assets and setup effort.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Stream Overlay and Alert Tools in 2026",
+     "url": "/software/best-stream-overlay-and-alert-tools"
+    }
+   ]
+  },
+  {
+   "id": "best-streaming-media-servers",
+   "board": "livestreaming",
+   "title": "Discuss: Best Streaming Media Servers",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of streaming media servers puts Ant Media Server first, OvenMediaEngine second and SRS third, out of 13 products we checked on their own pages.</p><p>Streaming media servers receive live video over RTMP, SRT or WebRTC and redistribute it, either on your own hardware or as a managed service.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Streaming Media Servers in 2026",
+     "url": "/software/best-streaming-media-servers"
+    }
+   ]
+  },
+  {
+   "id": "best-streaming-software-for-gamers",
+   "board": "livestreaming",
+   "title": "Discuss: Best Streaming Software for Gamers",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 streaming software for gamers and landed on OBS Studio, then Streamlabs Desktop, then XSplit Broadcaster.</p><p>Ten broadcasting apps for PC gamers who stream to Twitch and YouTube, ranked on price, platform support and how much setup each one demands.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Streaming Software for Gamers in 2026",
+     "url": "/software/best-streaming-software-for-gamers"
+    }
+   ]
+  },
+  {
+   "id": "best-trust-and-safety-moderation-software-for-games",
+   "board": "games",
+   "title": "Discuss: Best Trust and Safety Moderation Software for Games",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Modulate tops our list of trust and safety moderation software for games, with GGWP and Bodyguard.ai close behind. 11 products made the cut.</p><p>Trust and safety moderation software detects toxic voice, text and images in games so studios can protect players and meet new online safety rules.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Trust and Safety Moderation Software for Games in 2026",
+     "url": "/software/best-trust-and-safety-moderation-software-for-games"
+    }
+   ]
+  },
+  {
+   "id": "best-twitch-chat-bots",
+   "board": "livestreaming",
+   "title": "Discuss: Best Twitch Chat Bots",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 Twitch chat bots and ordered them for fit: Nightbot at number one, Fossabot at two, Streamlabs Cloudbot at three.</p><p>Ten chat bots for moderating and automating Twitch and YouTube chat, from hosted free services to open source programs you run yourself.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Twitch Chat Bots in 2026",
+     "url": "/software/best-twitch-chat-bots"
+    }
+   ]
+  },
+  {
+   "id": "best-ugc-and-modding-platforms",
+   "board": "games",
+   "title": "Discuss: Best UGC and Modding Platforms for Studios",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of UGC and modding platforms puts mod.io first, CurseForge second and Steam Workshop third, out of 11 products we checked on their own pages.</p><p>UGC and modding platforms host player-made content for your game, from mod hosting and moderation to creator payouts and in-game browsers.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best UGC and Modding Platforms for Studios in 2026",
+     "url": "/software/best-ugc-and-modding-platforms"
     }
    ]
   },
@@ -243,11 +1295,59 @@
    "pinned": false,
    "author": "GA Forum editorial team",
    "kind": "ranking",
-   "body_html": "<p>Which of these do you actually run? We ranked 10 version control for game development and landed on Unity Version Control, then Anchorpoint, then Perforce Helix Core.</p><p>Version control systems that cope with large art files, binary locking and mixed artist and programmer teams, ranked from vendor documentation.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "body_html": "<p>Which of these do you actually run? We ranked 11 version control for game development and landed on Unity Version Control, then Anchorpoint, then Perforce Helix Core.</p><p>Version control systems that cope with large art files, binary locking and mixed artist and programmer teams, ranked from vendor documentation.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
    "related": [
     {
      "title": "Best Version Control for Game Development in 2026",
      "url": "/software/best-version-control-for-game-development"
+    }
+   ]
+  },
+  {
+   "id": "best-virtual-event-streaming-platforms-for-hybrid-events",
+   "board": "livestreaming",
+   "title": "Discuss: Best Virtual Event Streaming Platforms for Hybrid Events",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Cvent tops our list of virtual event streaming platforms for hybrid events, with Accelevents and Virtual PRO close behind. 10 products made the cut.</p><p>Hybrid event platforms join an onsite audience and remote viewers in one program, with registration, streaming, sessions, sponsors and attendee data.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Virtual Event Streaming Platforms for Hybrid Events in 2026",
+     "url": "/software/best-virtual-event-streaming-platforms-for-hybrid-events"
+    }
+   ]
+  },
+  {
+   "id": "best-vtuber-software",
+   "board": "livestreaming",
+   "title": "Discuss: Best VTuber Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 VTuber software and ordered them for fit: VSeeFace at number one, Warudo at two, VTube Studio at three.</p><p>VTuber software tracks a streamer&#x27;s face and body and drives a 2D or 3D avatar that appears on a livestream or video call.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best VTuber Software in 2026",
+     "url": "/software/best-vtuber-software"
+    }
+   ]
+  },
+  {
+   "id": "best-webinar-platforms-for-product-launches",
+   "board": "livestreaming",
+   "title": "Discuss: Best Webinar Platforms for Product Launches",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of webinar platforms for product launches puts Zoom Events and Webinars first, Goldcast second and Kaltura third, out of 10 products we checked on their own pages.</p><p>Launch webinar platforms carry a product announcement from registration page to live session and replay, and pass attendee data to the CRM.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Webinar Platforms for Product Launches in 2026",
+     "url": "/software/best-webinar-platforms-for-product-launches"
     }
    ]
   }

@@ -1,0 +1,154 @@
+{
+  "slug": "castr-vs-restream",
+  "a": "castr",
+  "b": "restream",
+  "a_name": "Castr",
+  "b_name": "Restream",
+  "a_site": "https://castr.com/",
+  "b_site": "https://restream.io/",
+  "category": "best-multistreaming-platforms",
+  "title": "Castr vs Restream: Which Fits Your Team in 2026?",
+  "description": "Castr bundles stream hosting, multistreaming, VOD and OTT with plans from $16.67 a month; Restream offers a free start. Compare cost and fit for streamers.",
+  "published": "2026-11-18",
+  "intro": "Castr and Restream both send one live stream to several destinations, but Castr sells it as part of a hosting platform and Restream as a simple creator tool. The pricing pages show the contrast: Castr lists five plans starting at $16.67 a month with a 7-day Starter trial, while Restream invites visitors to start for free. Reliability claims are harder to compare, and this page is open about what the vendors do and do not publish.",
+  "verdict": "Restream suits a creator who wants to try multistreaming at no cost and stay in a browser-based workflow. Castr suits a team that wants hosting, VOD and OTT with multi-CDN delivery under one roof and accepts a monthly plan. Neither opened page publishes uptime figures, so test your own streams before an important event.",
+  "pick_a": "you want stream hosting, multistreaming, VOD and OTT in one platform, value multi-CDN delivery, and are happy to pay from $16.67 a month after a 7-day trial.",
+  "pick_b": "you want to start multistreaming for free, mostly create live video for social channels, and prefer a simple platform over a hosting stack.",
+  "rows": [
+    {
+      "label": "Company",
+      "a": "Castr (company details not on the opened page)",
+      "b": "Restream, Inc."
+    },
+    {
+      "label": "Positioning",
+      "a": "Live video streaming solution with hosting, multistreaming, VOD and OTT",
+      "b": "Live video platform to create videos and multistream them"
+    },
+    {
+      "label": "Delivery",
+      "a": "Multi-CDN delivery",
+      "b": "Not described on the opened pages"
+    },
+    {
+      "label": "Pricing model",
+      "a": "Subscription, five plans",
+      "b": "Freemium; free start or a paid plan"
+    },
+    {
+      "label": "Entry price",
+      "a": "From $16.67 per month",
+      "b": "Plan prices were not captured"
+    },
+    {
+      "label": "Free option",
+      "a": "7-day Starter trial",
+      "b": "Start multistreaming for free"
+    },
+    {
+      "label": "VOD",
+      "a": "Included in the platform description",
+      "b": "Not listed on the opened pages"
+    },
+    {
+      "label": "OTT",
+      "a": "Included in the platform description",
+      "b": "Not listed on the opened pages"
+    },
+    {
+      "label": "Platform type",
+      "a": "Cloud platform",
+      "b": "Web-based"
+    },
+    {
+      "label": "Main limit",
+      "a": "No permanent free tier on the opened page",
+      "b": "Little detail on hosting or delivery"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Pricing structure",
+      "text": [
+        "Castr's pricing page lists five plans starting at $16.67 a month and offers a 7-day Starter trial. That is a ladder: a team picks the lowest plan that fits its stream count and moves up as needs grow.",
+        "Restream's pricing page says users can start multistreaming for free or choose a plan that fits. The captured text had no plan prices, so a cost comparison above the free level needs a visit to the live page."
+      ]
+    },
+    {
+      "h2": "What the platform does beyond multistreaming",
+      "text": [
+        "Castr describes itself as live video streaming with hosting, multistreaming, VOD and OTT in one platform, delivered over multiple CDNs. For a company that wants to embed a player, keep recordings and also push to social channels, one vendor handles it.",
+        "Restream describes a simpler job: create videos and multistream them to chosen channels. The opened pages do not mention VOD or OTT, so teams that need those features should ask directly."
+      ]
+    },
+    {
+      "h2": "Reliability, honestly",
+      "text": [
+        "Reliability is where buyers worry most, since a dropped destination mid-stream is visible. Castr's multi-CDN claim points at redundancy in delivery, but the opened page gives no uptime figure. Restream's pages do not state one either.",
+        "Run a rehearsal: stream for an hour to every destination you use and note disconnects, delay and chat handling. Do it on the exact plan you would buy, because limits can change behavior."
+      ]
+    },
+    {
+      "h2": "Who each suits",
+      "text": [
+        "A hobbyist or small creator testing three destinations gains most from a free start, which is the Restream pitch. A training team, an event producer or a publisher needing recordings and an embeddable player gains more from Castr's bundle, even at a monthly fee.",
+        "You can also think in terms of growth. Starting free and upgrading is cheap to try. Starting on a platform plan costs a little earlier but may avoid a migration later."
+      ]
+    },
+    {
+      "h2": "Next steps",
+      "text": [
+        "Write down destination count, concurrent streams, expected viewers and whether you need recordings. Match those to Castr's plan ladder and ask Restream for the same details.",
+        "The broader market is covered in the [multistreaming ranking](/software/best-multistreaming-platforms)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does Castr have a free plan?",
+      "a": "The pages we opened show a 7-day Starter trial, not a permanent free tier. After the trial, paid plans start at $16.67 a month according to the pricing page."
+    },
+    {
+      "q": "Can I multistream with Restream without paying?",
+      "a": "Restream's pricing page says you can start multistreaming for free. Limits on the free level were not captured, so check destinations, resolution and branding rules on the live page."
+    },
+    {
+      "q": "Which one records streams for replay?",
+      "a": "Castr lists VOD as part of its platform. Restream's opened pages do not mention VOD, though it may offer recording elsewhere. Confirm on the vendor site if replays matter."
+    },
+    {
+      "q": "Is one more reliable?",
+      "a": "The opened pages publish no uptime numbers for either vendor. Castr mentions multi-CDN delivery. A rehearsal on your own setup is the only honest comparison."
+    },
+    {
+      "q": "Do I need OBS with either tool?",
+      "a": "Both receive a stream from encoding software or hardware. The opened pages do not specify which encoders they accept, so check ingest settings for your setup before an event."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Castr is a live video streaming solution with stream hosting, multistreaming, VOD and OTT, with multi-CDN delivery.",
+      "url": "https://castr.com/"
+    },
+    {
+      "fact": "Castr's pricing page lists five plans starting at $16.67 a month.",
+      "url": "https://castr.com/pricing/"
+    },
+    {
+      "fact": "Castr's pricing page offers a 7-day Starter trial.",
+      "url": "https://castr.com/pricing/"
+    },
+    {
+      "fact": "Restream lets users create videos and multistream them to their favorite channels.",
+      "url": "https://restream.io/"
+    },
+    {
+      "fact": "Restream's pricing page says users can start multistreaming for free or pick a plan.",
+      "url": "https://restream.io/pricing"
+    },
+    {
+      "fact": "Restream's homepage copyright names Restream, Inc.",
+      "url": "https://restream.io/"
+    }
+  ]
+}

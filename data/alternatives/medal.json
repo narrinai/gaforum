@@ -1,0 +1,241 @@
+{
+  "slug": "medal",
+  "subject": "Medal",
+  "subject_site": "https://medal.tv/",
+  "title": "Medal Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Nine Medal alternatives for game clipping: GPU-driver capture, open source recorders, auto-clippers and stream-to-short tools, with sourced pricing notes.",
+  "category": "best-game-capture-and-recording-software",
+  "intro": "Medal is a game clip app for PC that records, edits and shares gameplay clips, and its homepage describes it as free to use. People who leave it usually want one of three things: capture that lives inside software they already run, a recorder without an account or sharing layer, or a tool that cuts clips from a live stream instead of from local gameplay. This page lists nine alternatives, from a GPU vendor app to an open source recorder to AI clippers for Twitch, YouTube and Kick, and says where each one differs from Medal.",
+  "why_switch": [
+    "You want capture handled by the graphics driver app you already install, such as the NVIDIA App or AMD Software Adrenalin, instead of a separate clipping client.",
+    "You prefer software with a free and open source license, so nothing about the recorder depends on a company account.",
+    "Your clips come from live broadcasts, and cutting vertical shorts from a stream VOD fits better than recording local gameplay.",
+    "You need a Windows recorder with a paid license and a free trial, for example for longer sessions or a frame rate target.",
+    "You only need quick screenshots and short screen clips, and a game-focused app feels like more than the job requires."
+  ],
+  "picks": [
+    {
+      "slug": "outplayed",
+      "name": "Outplayed",
+      "site": "https://outplayed.tv/",
+      "best_for": "Auto-captured plays with an editor",
+      "pricing": "Free and Premium tiers; Premium removes ads and unlocks extra features, and no prices appeared on the opened page.",
+      "free_plan": "Free",
+      "note": "Outplayed is the closest match to Medal's idea: it captures your best plays on its own while you play, then gives you an editor and performance tracking in the same app. It also has a free tier and a Premium tier that removes ads. Switch to it if you like the clip-first workflow but want a different interface or editor. Expect the same trade as with Medal, which is that you run a dedicated capture client next to your game.",
+      "sources": [
+        {
+          "fact": "Outplayed is a capture app for gamers that automatically captures their best moments and biggest plays while they play.",
+          "url": "https://outplayed.tv/"
+        },
+        {
+          "fact": "Outplayed offers a Free tier and a Premium tier, and says Premium removes ads and unlocks premium features.",
+          "url": "https://outplayed.tv/"
+        },
+        {
+          "fact": "Outplayed's homepage lists game capture, performance tracking and a video editor as features.",
+          "url": "https://outplayed.tv/"
+        }
+      ]
+    },
+    {
+      "slug": "nvidia-app",
+      "name": "NVIDIA App",
+      "site": "https://www.nvidia.com/en-us/software/nvidia-app/",
+      "best_for": "GeForce users who want built-in capture",
+      "pricing": "No price shown on the download page.",
+      "free_plan": "Unknown",
+      "note": "The NVIDIA App is the driver companion for PC gamers and creators, and NVIDIA lists ShadowPlay and the Broadcast App among its features. If you already own a GeForce card you install it anyway, which makes capture one less program to maintain. You give up the social sharing side that clip apps build around. It only makes sense on NVIDIA hardware, so check your GPU before counting on it.",
+      "sources": [
+        {
+          "fact": "The NVIDIA App is described by NVIDIA as the essential companion for PC gamers and creators, used to keep drivers up to date.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+        },
+        {
+          "fact": "The NVIDIA App download page lists NVIDIA ShadowPlay and the Broadcast App among its features.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+        },
+        {
+          "fact": "NVIDIA's download page for the NVIDIA App is available by region and does not show a price.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+        }
+      ]
+    },
+    {
+      "slug": "obs-studio",
+      "name": "OBS Studio",
+      "site": "https://obsproject.com/",
+      "best_for": "Full control over recording scenes",
+      "pricing": "Free and open source software.",
+      "free_plan": "Open source",
+      "note": "OBS Studio is free and open source recording and live streaming software for Windows 10 and 11, macOS 13.0 or newer, and Linux. Scenes can combine window captures, browser windows, webcams and capture cards. That is far more control than a clip app offers, and it costs nothing. The price is setup time: you build scenes and settings yourself, and nothing here finds highlights for you.",
+      "sources": [
+        {
+          "fact": "OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage says OBS supports Windows 10 and Windows 11, macOS 13.0 or newer, and Linux.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage describes scenes made of multiple sources including window captures, browser windows, webcams and capture cards.",
+          "url": "https://obsproject.com/"
+        }
+      ]
+    },
+    {
+      "slug": "bandicam",
+      "name": "Bandicam",
+      "site": "https://www.bandicam.com/",
+      "best_for": "Windows recording with a paid full version",
+      "pricing": "Free and full versions; prices were not on the opened pages.",
+      "free_plan": "Free",
+      "note": "Bandicam records the PC screen, gameplay and webcam, with built-in editing and AI tools, and it is sold as a free version and a full version. The site links a page comparing the two. Choose it if you want a conventional recorder with a paid upgrade path rather than an ad-supported clip client. The opened pages did not list prices, so confirm the full-version cost on the vendor site before buying.",
+      "sources": [
+        {
+          "fact": "Bandicam is screen recording software for capturing the PC screen, gameplay and webcam, with built-in editing and AI tools.",
+          "url": "https://www.bandicam.com/"
+        },
+        {
+          "fact": "Bandicam's homepage links to a Free vs Full version page, so it is offered in both a free and a full version.",
+          "url": "https://www.bandicam.com/"
+        }
+      ]
+    },
+    {
+      "slug": "action",
+      "name": "Action!",
+      "site": "https://mirillis.com/",
+      "best_for": "High frame rate game recording on Windows",
+      "pricing": "Free trial download, then paid; prices were not on the opened page.",
+      "free_plan": "Free trial",
+      "note": "Action! from Mirillis records and streams desktop, apps and games with webcam and microphone. Its homepage claims recording at 120 FPS with low CPU usage and offers a free trial. It runs on Windows Vista through Windows 11. It suits people who care about frame rate in recordings and are happy to pay for a license. It has no community sharing layer, so sending a clip means exporting the file yourself.",
+      "sources": [
+        {
+          "fact": "Action! is screen and game recording software that records and streams desktop, apps and games with webcam and microphone.",
+          "url": "https://mirillis.com/"
+        },
+        {
+          "fact": "Action!'s homepage states it can record video at 120 FPS with low CPU usage and offers a download to try for free.",
+          "url": "https://mirillis.com/"
+        },
+        {
+          "fact": "Action! runs on Windows Vista, 7, 8.1, 10 and 11, per the vendor homepage.",
+          "url": "https://mirillis.com/"
+        }
+      ]
+    },
+    {
+      "slug": "amd-software-adrenalin",
+      "name": "AMD Software Adrenalin",
+      "site": "https://www.amd.com/en/products/software/adrenalin.html",
+      "best_for": "Radeon users who want in-driver capture",
+      "pricing": "No price shown on the product page.",
+      "free_plan": "Unknown",
+      "note": "AMD Software Adrenalin Edition is the application for AMD products that gives access to software features, game stats and driver updates. AMD says it also lets you capture in-game moments and launch installed games from one place. For Radeon owners it is the counterpart to the NVIDIA App. As with that option, you trade Medal's sharing community for a tool tied to your graphics hardware.",
+      "sources": [
+        {
+          "fact": "AMD Software Adrenalin Edition is an application for AMD products that gives access to software features, game stats and driver updates.",
+          "url": "https://www.amd.com/en/products/software/adrenalin.html"
+        },
+        {
+          "fact": "The AMD page says the app lets users configure, launch or view installed games from one location and capture in-game moments.",
+          "url": "https://www.amd.com/en/products/software/adrenalin.html"
+        }
+      ]
+    },
+    {
+      "slug": "eklipse",
+      "name": "Eklipse",
+      "site": "https://eklipse.gg",
+      "best_for": "Turning streams into vertical clips",
+      "pricing": "A free feature set plus paid plans; amounts were not captured from the page.",
+      "free_plan": "Free plan",
+      "note": "Eklipse is an AI clip maker that turns Twitch, YouTube and Kick streams into vertical clips with captions, and schedules them to TikTok, Reels and Shorts. It starts from a stream, not from your local game footage, so it replaces Medal only if your audience lives on short video. Its pricing page lists free features such as an auto clipper and a YouTube clipper, which makes a trial cheap.",
+      "sources": [
+        {
+          "fact": "Eklipse turns Twitch, YouTube and Kick streams into vertical clips with captions and schedules them to TikTok, Reels and Shorts.",
+          "url": "https://eklipse.gg"
+        },
+        {
+          "fact": "The Eklipse pricing page lists a set of free features, including gaming stream highlights, an auto clipper and a YouTube clipper.",
+          "url": "https://eklipse.gg/pricing/"
+        },
+        {
+          "fact": "Eklipse compares its paid plans on its pricing page.",
+          "url": "https://eklipse.gg/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "streamladder",
+      "name": "StreamLadder",
+      "site": "https://www.streamladder.com/",
+      "best_for": "Cutting stream highlights for short video",
+      "pricing": "From $15 to $39 a month, with a free plan and a 7-day trial on paid plans.",
+      "free_plan": "Free plan",
+      "note": "StreamLadder uses AI to find strong moments in a Twitch, YouTube or Kick stream and edits them for TikTok, Reels and Shorts. Its pricing page lists Starter at $15, Creator at $27 and Pro at $39 a month, plus a free plan. Pick it if your goal is a steady flow of short clips from broadcasts. It will not capture your gameplay locally the way Medal does.",
+      "sources": [
+        {
+          "fact": "StreamLadder turns Twitch, YouTube and Kick streams into short clips for TikTok, Reels and Shorts with AI.",
+          "url": "https://www.streamladder.com/"
+        },
+        {
+          "fact": "StreamLadder costs $15, $27 or $39 a month for its Starter, Creator and Pro plans, with a free plan.",
+          "url": "https://www.streamladder.com/pricing"
+        },
+        {
+          "fact": "StreamLadder offers a 7-day free trial on any paid plan.",
+          "url": "https://www.streamladder.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "sharex",
+      "name": "ShareX",
+      "site": "https://getsharex.com/",
+      "best_for": "Free screenshots and short screen recordings",
+      "pricing": "Completely free with no ads; free forever, open source, no account required.",
+      "free_plan": "Open source",
+      "note": "ShareX is a free and open source Windows tool whose capture modes include fullscreen, active window, region, scrolling capture and screen recording. The vendor says it needs no account and has no advertisements. It is a utility more than a gaming product, so there is no automatic highlight capture. If you mostly want fast captures and tasks that run after capture, it is the lightest option on this list.",
+      "sources": [
+        {
+          "fact": "ShareX is a free and open source screenshot tool for Windows, according to the vendor home page.",
+          "url": "https://getsharex.com/"
+        },
+        {
+          "fact": "The vendor page says the software is completely free with no advertisements, and free forever, open source and requires no account.",
+          "url": "https://getsharex.com/"
+        },
+        {
+          "fact": "The vendor page lists capture modes including fullscreen, active window, region, scrolling capture and screen recording.",
+          "url": "https://getsharex.com/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Start with where the footage comes from. If it is your own gameplay on a PC with a recent graphics card, try the vendor app for that card first, because it costs nothing extra to install. If you want recorder-level control, OBS Studio or a paid Windows recorder fits. If the footage is a live broadcast, look at the stream clippers. Our [ranking of game capture software](/software/best-game-capture-and-recording-software) and [clip and highlight editors](/software/best-clip-and-highlight-editors-for-streamers) show how these groups compare.",
+  "faqs": [
+    {
+      "q": "Is Medal free?",
+      "a": "Medal's homepage description says it is free to record, edit and share gaming clips on PC. The page we opened lists no paid tier, so check the vendor site for anything added after 18 November 2026."
+    },
+    {
+      "q": "Which Medal alternative needs no extra app on a gaming PC?",
+      "a": "The NVIDIA App and AMD Software Adrenalin are driver companions most owners of those graphics cards already install. NVIDIA lists ShadowPlay among the App's features, and AMD says Adrenalin can capture in-game moments."
+    },
+    {
+      "q": "Can I record without an account?",
+      "a": "ShareX says on its own page that it requires no account and is free forever. OBS Studio is free and open source recording software as well. Check each vendor's current terms before relying on that."
+    },
+    {
+      "q": "What if I want clips for TikTok or Shorts?",
+      "a": "Eklipse and StreamLadder both turn Twitch, YouTube and Kick streams into vertical clips for TikTok, Reels and Shorts. They work from a stream, so they suit broadcasters more than players who only record their own matches."
+    },
+    {
+      "q": "Does a paid recorder make sense?",
+      "a": "Bandicam and Action! both offer a free or trial route before payment. Neither opened page showed prices, so a paid recorder is worth it only if you need what the trial proves it does."
+    }
+  ]
+}

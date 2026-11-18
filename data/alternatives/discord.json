@@ -1,0 +1,226 @@
+{
+  "slug": "discord",
+  "subject": "Discord",
+  "subject_site": "https://discord.com/",
+  "title": "Discord Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Discord alternatives for gaming communities that want to own their server, keep data private or get a different voice setup: eight options compared on cost and hosting.",
+  "category": "best-community-chat-platforms-for-gaming-communities",
+  "intro": "Discord is a group chat app for gaming and for communities, with voice, text, video and streaming on PC, phone and console, and it is the default home for many game studios, clans and streamer communities. The options below suit communities that care about who owns the server, where the data sits or how voice is run. Some are free and open source, some are self-hosted, and one is a classic voice server. Each pick is described from its own vendor pages, and the list is ordered by how closely it replaces Discord for a gaming group.",
+  "why_switch": [
+    "Discord runs on the company's own servers, so a community cannot host the service itself; several options below can be installed on hardware you control.",
+    "The Discord homepage shows no prices and links to a Nitro page, so teams cannot read the cost of the paid tier from the front door.",
+    "Studios that moderate player forums may want threaded, searchable discussion rather than one long chat stream, which Zulip and Discourse are built around.",
+    "Open source chat apps such as Stoat and Mumble publish their code, which matters to communities that want to audit what the software does.",
+    "Voice-first groups sometimes prefer a dedicated voice server with its own licensing, which is how TeamSpeak is sold."
+  ],
+  "picks": [
+    {
+      "slug": "teamspeak",
+      "name": "TeamSpeak",
+      "site": "https://teamspeak.com/en/",
+      "best_for": "Dedicated voice servers",
+      "pricing": "Server licences are described on TeamSpeak's licensing page, and TeamSpeak 6 licences are moving to myTeamSpeak; no prices were in the text read.",
+      "free_plan": "Unknown",
+      "note": "TeamSpeak is the closest thing to a voice-first replacement: it calls itself a voice communication platform for gaming, business and communities, and a group can run its own server. Version 6 adds one-to-one voice and video calls. You gain control over where the voice server lives. You give up Discord's all-in-one feel, since text channels, bots and community discovery are not the centerpiece here.",
+      "sources": [
+        {
+          "fact": "TeamSpeak describes itself as the trusted voice communication platform for gaming, business and communities.",
+          "url": "https://teamspeak.com/en/"
+        },
+        {
+          "fact": "The TeamSpeak home page says one-to-one voice and video calls are now available in TeamSpeak 6.",
+          "url": "https://teamspeak.com/en/"
+        },
+        {
+          "fact": "The TeamSpeak licensing page says server licences for TeamSpeak 6 are being brought to myTeamSpeak.",
+          "url": "https://teamspeak.com/en/features/licensing/"
+        }
+      ]
+    },
+    {
+      "slug": "mumble",
+      "name": "Mumble",
+      "site": "https://www.mumble.info",
+      "best_for": "Free low-latency voice",
+      "pricing": "Free and open source, per the project site.",
+      "free_plan": "Open source",
+      "note": "Mumble is a free, open source voice chat application with a client and a server, and its downloads page offers official Windows and macOS builds. It suits a raid group or a LAN party that mostly needs clear voice and does not need a social layer. The trade is polish: expect to host the server yourself and to accept a plainer interface than Discord offers.",
+      "sources": [
+        {
+          "fact": "Mumble describes itself as a free, open source, low latency, high quality voice chat application.",
+          "url": "https://www.mumble.info"
+        },
+        {
+          "fact": "The Mumble downloads page offers official client and server programs, including Windows client and server and macOS downloads.",
+          "url": "https://www.mumble.info/downloads/"
+        },
+        {
+          "fact": "The Mumble site notes that Linux distributions may provide their own packages with their own maintainers.",
+          "url": "https://www.mumble.info/downloads/"
+        }
+      ]
+    },
+    {
+      "slug": "stoat",
+      "name": "Stoat",
+      "site": "https://stoat.chat",
+      "best_for": "Open source Discord-style chat",
+      "pricing": "Free and open source, per the vendor site, with no subscription needed for the extras it lists.",
+      "free_plan": "Open source",
+      "note": "Stoat is the most Discord-shaped option on this list, with servers, channels, voice chat and file sharing in an open-source package. Its site says there are no ads and no data mining, and it lists custom emojis and a 20MB upload limit without a subscription. The cost is size: a smaller user base means fewer of your players will already have an account.",
+      "sources": [
+        {
+          "fact": "Stoat is an open-source group chat app for friends and communities, with servers, channels, voice chat and file sharing.",
+          "url": "https://stoat.chat"
+        },
+        {
+          "fact": "Stoat says it is free and open source, now and forever.",
+          "url": "https://stoat.chat"
+        },
+        {
+          "fact": "Stoat says it has no ads and no data mining.",
+          "url": "https://stoat.chat"
+        }
+      ]
+    },
+    {
+      "slug": "element",
+      "name": "Element",
+      "site": "https://element.io/en",
+      "best_for": "Private, self-hosted community chat",
+      "pricing": "The self-hosted frontend and backend are free of charge; Element Server Suite is priced per seat per month.",
+      "free_plan": "Free",
+      "note": "Element is built on the Matrix standard and offers self-hosted and enterprise setups, so a studio can keep messages on its own infrastructure. Long-term support versions ship every six months with critical security backports, which helps a team that cannot upgrade weekly. The price of that control is administration work and a steeper first week for community members used to Discord.",
+      "sources": [
+        {
+          "fact": "Element describes itself as secure collaboration and messaging, with Element, Element Server Suite and self-hosted options.",
+          "url": "https://element.io/en"
+        },
+        {
+          "fact": "The Element plans page lists the self-hosted frontend and backend as free of charge.",
+          "url": "https://element.io/en/pricing"
+        },
+        {
+          "fact": "The Element plans page says the Element Server Suite is priced per seat per month.",
+          "url": "https://element.io/en/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "zulip",
+      "name": "Zulip",
+      "site": "https://zulip.com",
+      "best_for": "Threaded discussion for large teams",
+      "pricing": "A free plan exists; paid Zulip Cloud plans run $6.67 or $10 per user per month billed annually.",
+      "free_plan": "Free",
+      "note": "Zulip organizes chat into topics, which keeps a busy modding team or an open-source game project from drowning in a single scroll of messages. It is available as managed Zulip Cloud or as fully open-source self-hosted software. It works better for working groups than for a casual voice hangout, and the per-user cloud pricing adds up for a public server with thousands of members.",
+      "sources": [
+        {
+          "fact": "Zulip describes itself as an organized team chat app for distributed teams of all sizes.",
+          "url": "https://zulip.com"
+        },
+        {
+          "fact": "The Zulip plans page says customers can sign up for a managed cloud solution or self-host its 100% open-source software.",
+          "url": "https://zulip.com/plans/"
+        },
+        {
+          "fact": "The Zulip plans page lists paid Zulip Cloud plans at $6.67 per user per month billed annually or $8 billed monthly, and $10 per user per month billed annually or $12 billed monthly.",
+          "url": "https://zulip.com/plans/"
+        }
+      ]
+    },
+    {
+      "slug": "discourse",
+      "name": "Discourse",
+      "site": "https://discourse.org/",
+      "best_for": "Long-lived forum for players",
+      "pricing": "The codebase is free on GitHub; hosting plans are listed on a pricing page with no amounts on the homepage.",
+      "free_plan": "Open source",
+      "note": "Discourse is a forum rather than a chat app. Its site says more than 22,000 communities run on it, and it can be managed or self-hosted. A studio that wants player feedback to stay searchable, instead of vanishing in a chat backlog, gains a lot. It does not replace live voice, so most communities pair it with a voice tool rather than switching entirely.",
+      "sources": [
+        {
+          "fact": "Discourse describes itself as a customizable, open-source community platform that can be managed or self-hosted.",
+          "url": "https://discourse.org"
+        },
+        {
+          "fact": "The homepage copyright notice names Civilized Discourse Construction Kit, Inc.",
+          "url": "https://discourse.org"
+        },
+        {
+          "fact": "The homepage says the codebase is on GitHub and freely available.",
+          "url": "https://discourse.org"
+        }
+      ]
+    },
+    {
+      "slug": "mattermost",
+      "name": "Mattermost",
+      "site": "https://mattermost.com",
+      "best_for": "Regulated or air-gapped teams",
+      "pricing": "All plans are quote-based; buyers are directed to contact sales.",
+      "free_plan": "Unknown",
+      "note": "Mattermost targets self-hosted, private cloud and air-gapped deployments for regulated enterprises, which makes it a fit for a studio with a security-conscious publisher or a defense-adjacent client. It is an odd choice for a public gaming community, since it is aimed at organizations and sold on quotes. Consider it for internal studio chat, not for a fan server.",
+      "sources": [
+        {
+          "fact": "Mattermost describes itself as zero-trust collaboration, automation and AI in private cloud, self-hosted and air-gapped environments.",
+          "url": "https://mattermost.com"
+        },
+        {
+          "fact": "The Mattermost pricing page says all plans are quote-based.",
+          "url": "https://mattermost.com/pricing/"
+        },
+        {
+          "fact": "The Mattermost pricing page describes its offering as self-hosted and air-gap ready for national security, defense, critical infrastructure and regulated enterprises.",
+          "url": "https://mattermost.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "telegram",
+      "name": "Telegram",
+      "site": "https://telegram.org",
+      "best_for": "Mobile-first groups and channels",
+      "pricing": "No pricing on the page opened; the API and source code are described as free for everyone.",
+      "free_plan": "Unknown",
+      "note": "Telegram is a cloud messaging app that lists Communities and ephemeral messages in groups among its features, and it offers an open API. It works for announcement channels and casual mobile chat with a very low barrier to joining. For a server with role permissions, voice rooms and bot tooling like Discord, you will be rebuilding more than you would with Stoat or TeamSpeak.",
+      "sources": [
+        {
+          "fact": "Telegram describes itself as a cloud-based mobile and desktop messaging app with a focus on security and speed.",
+          "url": "https://telegram.org"
+        },
+        {
+          "fact": "Telegram says it has an open API and source code free for everyone.",
+          "url": "https://telegram.org"
+        },
+        {
+          "fact": "The Telegram home page lists Communities and ephemeral messages in groups among its features.",
+          "url": "https://telegram.org"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Start with what you want to own. If it is the voice server, compare TeamSpeak and Mumble. If it is the whole chat layer, look at Stoat for a familiar layout or Element if privacy and federation matter more than looks. If the real problem is that useful answers disappear, add Discourse or Zulip next to your voice tool. Run a trial with your officers before moving members, because the hard part of leaving Discord is getting people to follow.",
+  "faqs": [
+    {
+      "q": "Is there a free replacement for Discord?",
+      "a": "Stoat and Mumble both describe themselves as free and open source, Discourse's codebase is free on GitHub, and Element's self-hosted frontend and backend are free of charge. Free here means no license fee; you still pay for any server you run yourself and you carry the administration work."
+    },
+    {
+      "q": "Which option keeps my data on my own server?",
+      "a": "Element, Mumble, Zulip, Discourse and Mattermost can all be self-hosted according to their own sites, and TeamSpeak lets you run your own server. Stoat is open source, but check its site for current hosting options before you commit a community to it."
+    },
+    {
+      "q": "What should a game studio use for player feedback instead of Discord?",
+      "a": "A forum such as Discourse keeps threads searchable and open to people who never join a chat. Zulip's topic model also helps with beta feedback. Many studios keep a chat server for live talk and send formal bug and suggestion posts to the forum."
+    },
+    {
+      "q": "Can Slack stand in for Discord?",
+      "a": "Slack is built for work channels, huddles and canvas docs, and it offers a free plan at zero euros with paid plans per user per month. It lacks the always-on voice rooms and public community focus of Discord, so it fits a studio team better than a fan server."
+    },
+    {
+      "q": "How hard is it to move a community off Discord?",
+      "a": "The tooling is the easy part. Members must install something new, and your bots, roles and history do not carry over automatically. Pilot with moderators, run both in parallel for a few weeks, and keep the old invite alive until activity has clearly shifted."
+    }
+  ]
+}

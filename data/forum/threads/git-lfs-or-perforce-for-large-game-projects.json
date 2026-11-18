@@ -1,0 +1,22 @@
+{
+  "id": "git-lfs-or-perforce-for-large-game-projects",
+  "board": "games",
+  "title": "Git LFS or Perforce for a project with heavy binary assets?",
+  "created": "2026-11-18T09:21:00Z",
+  "pinned": false,
+  "body": [
+    "Texture, audio and scene files make ordinary Git awkward, and teams usually end up choosing between Git with large-file support, Perforce or a newer cloud tool. What did you choose, and how did file locking and repository size behave over time?",
+    "The [Git LFS homepage](https://git-lfs.com) describes it as an open source Git extension for keeping large files on a remote server, keeping the same Git workflow and access controls. The [Perforce product page](https://www.perforce.com/products/helix-core) describes P4 as a version control platform for code and large digital assets, and says it is free for up to 5 users and 20 workspaces. The [Diversion homepage](https://diversion.dev) describes a version control platform for very large repositories with Unreal Engine, Unity and Perforce migration support.",
+    "Tell us your engine, team size and the point at which your first choice started to hurt. Experience with migrating between systems is especially useful."
+  ],
+  "related": [
+    {
+      "title": "Best Version Control for Game Development in 2026",
+      "url": "/software/best-version-control-for-game-development"
+    },
+    {
+      "title": "Perforce Helix Core Alternatives in 2026",
+      "url": "/alternatives/perforce-helix-core"
+    }
+  ]
+}

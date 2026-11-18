@@ -1,0 +1,470 @@
+{
+  "slug": "best-stream-deck-and-stream-automation-software",
+  "name": "Stream Deck and stream automation software",
+  "title": "Best Stream Deck and Stream Automation Software in 2026",
+  "group": "Streaming and creators",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Hardware keys, tablet decks and event-driven bots that let a streamer trigger scenes, sounds and chat actions without leaving the game.",
+  "definition": "Stream Deck and stream automation software gives a streamer or event crew a panel of keys, on a device or a screen, that fires scenes, audio changes, alerts and other actions in broadcast tools. Some products are physical keypads, some are apps that turn a tablet into one, and some react to stream events instead of button presses.",
+  "intro": "A streamer who runs a game, a chat and a scene switcher at once ends up needing a way to fire actions without alt-tabbing. This ranking compares ten tools that do that job, from a hardware keypad to free event bots to a cloud platform. We read each vendor's own homepage, pricing page and documentation and compared the published terms, platforms and integrations; we did not run the products ourselves, and vendor claims are marked as such. Order reflects fit for a working streamer or small event crew: how easily a new user gets a working panel, how many other tools plug in, and what the cost looks like. Loupedeck was left off because its maker has stopped selling the line. Where a price was not on the page we read, we say so rather than guess.",
+  "criteria": [
+    {
+      "heading": "Physical keys or software buttons",
+      "text": "The first split is whether you want keys under your fingers. A hardware keypad lets you press a button blind during a hectic round, which a touchscreen cannot match. Software decks cost less and can live on a phone or tablet you already own. This ranking favors tools that let you start in software and add hardware later, and it gives credit to products that support both, since many streamers eventually do."
+    },
+    {
+      "heading": "Reaction to events versus manual triggers",
+      "text": "A button only helps when you are free to press it. Event-driven tools run actions when a follower arrives, a raid starts or a chat command fires, which keeps the stream moving while you play. We looked at whether each product documents event triggers for named platforms, and gave extra weight to tools with documented integrations with Twitch, YouTube Live, Kick and OBS."
+    },
+    {
+      "heading": "Ecosystem and plugin support",
+      "text": "A control surface is only as useful as the things it can control. We checked which tools publish plug-in APIs, icon packs or documented bridges to others on this page. Several here name Stream Deck as a supported device, so a smaller product with a plugin for the big one scores better than an isolated app, since it lets you migrate or combine them."
+    },
+    {
+      "heading": "Cost, platforms and published terms",
+      "text": "Prices range from free and open source to per-device hardware and monthly subscriptions. We noted what the vendor actually states, flagged the products that publish no price on the page we read, and checked operating system coverage. A Windows-only app is a hard stop for a Mac streamer, and a closed source tool carries different risks than an open source one."
+    }
+  ],
+  "market_notes": [
+    "Looking at the ten tools together, four are free in some form: Macro Deck is open source, SAMMI, Streamer.bot and Mix It Up are listed as free, and Elgato offers six free keys through its mobile app. Only Lumia Stream publishes subscription prices on the page we read ($5.99 per month up to $59.99 per year). Four more, Touch Portal, Bitfocus Companion, LioranBoard and StreamElements, show no amounts on the pages we opened, so a buyer has to confirm cost with the vendor.",
+    "The trade-off is between convenience and flexibility. A hardware keypad with a large plugin library is the easiest start, but the real depth comes from event bots and scripting tools such as Streamer.bot and SAMMI, which cost nothing and ask for more setup time. Most serious setups combine a deck with an automation app, and several tools here publish plugins for each other, so the choice is rarely exclusive. Platform coverage matters too, since Streamer.bot is Windows-first while Touch Portal and Macro Deck list Windows, macOS and Linux."
+  ],
+  "how_to_choose": [
+    {
+      "title": "List the actions you repeat most",
+      "text": "Write down the five things you press or type most often during a stream: switching scenes, muting a mic, playing a sound, posting a chat command, starting a clip. If most are single presses, a keypad or tablet deck covers you. If most should happen when something occurs, such as a follow, start with an event bot like Streamer.bot or Mix It Up and add buttons afterward."
+    },
+    {
+      "title": "Check your operating system and platform",
+      "text": "Confirm that the tool runs on your computer and talks to your streaming service. Streamer.bot lists Windows, while Touch Portal and Macro Deck list Windows, macOS and Linux. Mix It Up names Twitch, YouTube, Kick and Velora. A mismatch here wastes more time than any feature difference, so verify it against the vendor page before you download anything."
+    },
+    {
+      "title": "Start free, then add hardware only if you miss it",
+      "text": "Try Stream Deck Mobile's six free keys or a free tool like Macro Deck for a week of real streams. Notice whether you wish for physical keys. If you do, buy a keypad and keep the software layer you have already built, since several products on this list name Stream Deck as a supported device and will carry your work across."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best Stream Deck and stream automation software in 2026?",
+      "a": "Elgato Stream Deck ranks first because it is the physical keypad that most other tools on this page support, and its free mobile app lets you try six keys at no cost. Touch Portal is better if you want to use a tablet you own, and Bitfocus Companion is better for event crews controlling broadcast gear."
+    },
+    {
+      "q": "Do I need to buy hardware to automate my stream?",
+      "a": "No. Macro Deck is free and open source and can be opened from a phone, tablet or browser, and Streamer.bot, SAMMI and Mix It Up are listed as free. Hardware helps when you want tactile keys, but nothing on this page requires it. Elgato also offers six keys free in its mobile app."
+    },
+    {
+      "q": "Can a phone or tablet replace a keypad?",
+      "a": "For most tasks, yes. Touch Portal and Macro Deck both turn a phone or tablet into a control surface for a computer. The compromise is feel: a touchscreen has no raised keys, so you need to look at it, and you depend on a stable connection to your PC."
+    },
+    {
+      "q": "Which tools react to chat or follows without a button press?",
+      "a": "Streamer.bot and Mix It Up run actions on stream events, and SAMMI documents integrations with Twitch, YouTube Live and OBS for the same purpose. StreamElements and Lumia Stream add alerts and chat features. A keypad alone only reacts when you press it."
+    },
+    {
+      "q": "Is Streamer.bot available on Mac?",
+      "a": "The homepage describes it as a Windows app that also runs on Linux via Wine. It does not list a native Mac version in the facts we read. A Mac streamer would do better to begin with Touch Portal or Macro Deck, which list macOS support."
+    },
+    {
+      "q": "What happened to Loupedeck?",
+      "a": "According to Loupedeck's own notice, dated 28 March 2025, the product line is no longer sold and development has moved to the Logitech MX Creative Console, while warranty and support continue. We left it out of the ranking for that reason."
+    },
+    {
+      "q": "Which option suits a live event crew?",
+      "a": "Bitfocus Companion, because the vendor says it controls presentation switchers, broadcast equipment and video playback software from Stream Deck and similar devices. Pair it with hardware keys when several operators need to cue a show, and confirm licensing terms with the vendor first since no price was published on the page we read."
+    }
+  ],
+  "related": [
+    "best-stream-overlay-and-alert-tools",
+    "best-twitch-chat-bots",
+    "best-streaming-software-for-gamers",
+    "best-multistreaming-platforms",
+    "best-voice-changer-and-streaming-audio-software",
+    "best-live-production-software"
+  ],
+  "tools": [
+    {
+      "slug": "elgato-stream-deck",
+      "name": "Elgato Stream Deck",
+      "site": "https://www.elgato.com/eu/en/p/stream-deck",
+      "company": "",
+      "country": "",
+      "tagline": "Hardware keypad with 15 LCD keys",
+      "best_for": "Dedicated physical key control",
+      "pricing": "Hardware is priced per model in the EU store (Mini, Classic, XL, Neo and Stream Deck +) in euro; Stream Deck Mobile gives six keys for free.",
+      "pricing_model": "Hardware plus free mobile app",
+      "free_plan": "Free plan",
+      "platforms": "Hardware; mobile app",
+      "features": [
+        "15 LCD keys",
+        "Plugins",
+        "Icon packs",
+        "Stream Deck Mobile",
+        "Royalty-free tracks"
+      ],
+      "summary": "Physical keys, a plugin ecosystem and a free six-key mobile version make it the default surface the rest of this list plugs into.",
+      "verdict": "Elgato sells the hardware itself, and that is the reason it leads this ranking. The vendor lists 15 customizable LCD keys, plugins and icon packs, and several other tools here (Companion, SAMMI, LioranBoard, Lumia Stream) name Stream Deck as a supported surface. The free Stream Deck Mobile app gives six keys with plugin and hotkey support, so a streamer can try the workflow before buying a device. For a solo creator who wants one reliable set of buttons for scenes, audio and chat actions, nothing else on the page has the same level of third-party support.",
+      "weaknesses": "Hardware means money up front, and the EU store lists several models (Mini, Classic, XL, Neo and Stream Deck +) at different euro prices, so cost depends on key count. The mobile version is capped at six keys. Logic beyond simple triggers needs a plugin or a companion automation app.",
+      "wrong_for": "Skip it if you only want software and no extra desk device, or if you need event-driven automation that reacts to chat; Streamer.bot or Mix It Up cover that without hardware.",
+      "sources": [
+        {
+          "fact": "Stream Deck gives you 15 fully customizable LCD keys to control apps and tools.",
+          "url": "https://www.elgato.com/eu/en/p/stream-deck"
+        },
+        {
+          "fact": "Stream Deck Mobile gives six keys for free, with full plugin and hotkey support.",
+          "url": "https://www.elgato.com/eu/en/p/stream-deck"
+        },
+        {
+          "fact": "The EU store lists Stream Deck hardware models including Mini, Classic, XL, Neo and Stream Deck +.",
+          "url": "https://www.elgato.com/eu/en/p/stream-deck"
+        }
+      ]
+    },
+    {
+      "slug": "touch-portal",
+      "name": "Touch Portal",
+      "site": "https://touch-portal.com",
+      "company": "",
+      "country": "",
+      "tagline": "Phone or tablet turned into a macro deck",
+      "best_for": "Using a spare tablet as a deck",
+      "pricing": "Paid software; the FAQ says prices differ per country and store. Amounts not captured from the page.",
+      "pricing_model": "Paid software",
+      "free_plan": "Unknown",
+      "platforms": "Windows, macOS, Linux; control from phone or tablet",
+      "features": [
+        "Phone and tablet control",
+        "Plug-ins",
+        "API",
+        "Icon packs",
+        "Action docs"
+      ],
+      "summary": "A tablet you already own becomes the control surface, and the plug-in API lets other tools add buttons.",
+      "verdict": "Touch Portal takes the idea behind a keypad and puts it on a phone or tablet that is probably already sitting on the desk. According to the vendor it runs against Windows, macOS and Linux, which is wider desktop coverage than several tools below. Documentation covers actions and an API for building plug-ins, and Lumia Stream publishes a Touch Portal plugin, so it fits into a larger automation setup. It earns second place because it removes the hardware purchase while keeping the same one-tap workflow.",
+      "weaknesses": "The vendor does not publish a single price on the homepage; its FAQ says prices differ per country and store, so a buyer has to check their own store. A touchscreen has no tactile keys, so pressing a button without looking takes practice during a fast scene change.",
+      "wrong_for": "Not a fit for someone who needs physical keys that work with no phone or network link; Elgato Stream Deck is the better answer there.",
+      "sources": [
+        {
+          "fact": "Touch Portal is a remote macro control deck for Windows, macOS and Linux.",
+          "url": "https://touch-portal.com"
+        },
+        {
+          "fact": "Touch Portal offers action documentation and an API documentation for building plug-ins.",
+          "url": "https://touch-portal.com"
+        },
+        {
+          "fact": "The Touch Portal homepage links to a FAQ explaining why prices differ per country and store.",
+          "url": "https://touch-portal.com"
+        }
+      ]
+    },
+    {
+      "slug": "bitfocus-companion",
+      "name": "Bitfocus Companion",
+      "site": "https://bitfocus.io/companion",
+      "company": "",
+      "country": "",
+      "tagline": "Control surface software for broadcast gear",
+      "best_for": "Live events and broadcast switchers",
+      "pricing": "Pricing is not stated on the page opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Stream Deck and similar devices",
+        "Broadcast equipment control",
+        "Video playback control",
+        "Home automation"
+      ],
+      "summary": "It points cheap key devices at professional gear such as switchers and playback software, which suits event crews more than solo streamers.",
+      "verdict": "Companion is aimed at people who run shows rather than people who only stream games. The vendor says it turns the Elgato Stream Deck and similar devices into control surfaces for presentation switchers, broadcast equipment, video playback software and home automation. That makes it the natural choice for a tournament organizer or a hybrid-event crew that has to cue cameras, graphics and playback from one panel. It sits third because its audience is narrower, but within that audience it has no direct rival on this list.",
+      "weaknesses": "The page opened does not show a price, so cost and license terms need checking with the vendor. It is built around controlling external equipment, so a streamer who only wants chat-triggered effects will find little to use.",
+      "wrong_for": "Skip it if your setup is a single PC and a webcam; SAMMI or Streamer.bot give you more for a game-streaming rig.",
+      "sources": [
+        {
+          "fact": "Companion turns the Elgato Stream Deck and similar devices into professional control surfaces.",
+          "url": "https://bitfocus.io/companion"
+        },
+        {
+          "fact": "Companion supports control of presentation switchers, broadcast equipment, video playback software and home automation systems.",
+          "url": "https://bitfocus.io/companion"
+        },
+        {
+          "fact": "The Companion page opened does not show a price.",
+          "url": "https://bitfocus.io/companion"
+        }
+      ]
+    },
+    {
+      "slug": "macro-deck",
+      "name": "Macro Deck",
+      "site": "https://macro-deck.app/",
+      "company": "",
+      "country": "",
+      "tagline": "Free open source macro pad software",
+      "best_for": "Zero-cost deck on any device",
+      "pricing": "Free and open source.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, macOS, Linux; control from phone, tablet or web browser",
+      "features": [
+        "Buttons",
+        "Sliders",
+        "Media controls",
+        "Live widgets",
+        "Plugins"
+      ],
+      "summary": "Free and open source, with sliders and live widgets, and it can be driven from a phone, tablet or browser.",
+      "verdict": "Macro Deck is the cheapest route to a software deck on this list and the license is open source. Buttons, sliders, media controls and live widgets are all listed, and the control surface can be opened from a phone, tablet or web browser, which means nothing special has to be bought. A documentation site with guides and a plugin tutorial helps new users get started. It ranks fourth because it matches the first three on core function while charging nothing, though its integration catalog is smaller than the commercial tools above it.",
+      "weaknesses": "The facts available do not list integrations with specific streaming platforms, so a user must check that a plugin exists for their chat or alert service. Being a community project, support depends on documentation and plugin authors rather than a company help desk.",
+      "wrong_for": "Wrong for a team that needs vendor support and written terms; Bitfocus Companion or Lumia Stream are the more supported options.",
+      "sources": [
+        {
+          "fact": "Macro Deck is the free, open-source macro pad for Windows, macOS and Linux.",
+          "url": "https://macro-deck.app/"
+        },
+        {
+          "fact": "Macro Deck control surfaces can be operated from a phone, tablet or web browser.",
+          "url": "https://macro-deck.app/"
+        },
+        {
+          "fact": "Macro Deck has documentation with guides and a plugin tutorial on its docs site.",
+          "url": "https://macro-deck.app/"
+        }
+      ]
+    },
+    {
+      "slug": "streamer-bot",
+      "name": "Streamer.bot",
+      "site": "https://streamer.bot",
+      "company": "",
+      "country": "",
+      "tagline": "Windows app that runs actions on stream events",
+      "best_for": "Event-driven automation on Windows",
+      "pricing": "Free for everyone, portable with nothing to install.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows; Linux via Wine",
+      "features": [
+        "Event-triggered actions",
+        "Stream Deck decks",
+        "Chat integration",
+        "OBS Studio integration",
+        "Twitch, YouTube and Kick"
+      ],
+      "summary": "A free Windows app that reacts to what happens on stream and links Twitch, YouTube, Kick, OBS Studio and Streamlabs.",
+      "verdict": "Where the tools above wait for a button press, Streamer.bot waits for something to happen. The vendor says it connects Twitch, YouTube, Kick, OBS Studio and Streamlabs and runs actions when events occur, and it can also drive Stream Deck decks. It is free for everyone and portable, so there is nothing to install. For a streamer who wants a follow, raid or chat command to trigger a scene change, this is the most direct fit here, which is why it leads the software-only group.",
+      "weaknesses": "It is a Windows app; Linux works only through Wine, according to the homepage, and there is no native Mac build listed. Building actions is closer to scripting than clicking, which asks more from a non-technical creator than a keypad does.",
+      "wrong_for": "Skip it if you use a Mac and want a native app, or if you only need physical shortcuts; Touch Portal or Elgato Stream Deck are simpler.",
+      "sources": [
+        {
+          "fact": "Streamer.bot is a free Windows app that connects Twitch, YouTube, Kick, OBS Studio and Streamlabs.",
+          "url": "https://streamer.bot"
+        },
+        {
+          "fact": "Streamer.bot is free for everyone and portable, with nothing to install.",
+          "url": "https://streamer.bot"
+        },
+        {
+          "fact": "The homepage says Streamer.bot also runs on Linux via Wine.",
+          "url": "https://streamer.bot"
+        }
+      ]
+    },
+    {
+      "slug": "sammi",
+      "name": "SAMMI",
+      "site": "https://sammi.solutions",
+      "company": "",
+      "country": "",
+      "tagline": "Free stream automation tool",
+      "best_for": "Building custom stream interactions",
+      "pricing": "Completely free, per the homepage.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "",
+      "features": [
+        "Twitch integration",
+        "YouTube Live integration",
+        "OBS integration",
+        "Voice control",
+        "Stream Deck integration"
+      ],
+      "summary": "It costs nothing and documents integrations with Twitch, YouTube Live, OBS, Meld Studio, Mix It Up and Stream Deck.",
+      "verdict": "SAMMI describes itself as completely free, and its documentation lists integration pages for Twitch, YouTube Live, OBS, Meld Studio, Mix It Up and Elgato Stream Deck. Voice control is documented too, and so is an integration with Voicemod. That mix suits streamers who want to build their own reactions and wire several apps together. It is sixth because it overlaps heavily with Streamer.bot, and the documents read more like a toolkit than a finished product.",
+      "weaknesses": "The download page does not state the platform in the extracted text, so confirm operating system support before committing. As a build-your-own tool, it asks for time spent wiring bridges and buttons before anything useful happens on stream.",
+      "wrong_for": "A poor choice for someone who wants a ready-made dashboard; Lumia Stream ships more finished features out of the box.",
+      "sources": [
+        {
+          "fact": "SAMMI is a completely free tool to automate your streams.",
+          "url": "https://sammi.solutions"
+        },
+        {
+          "fact": "SAMMI's documentation has integration pages for Twitch, YouTube Live, OBS, Meld Studio, Mix It Up and Elgato Stream Deck.",
+          "url": "https://sammi.solutions"
+        },
+        {
+          "fact": "SAMMI documents voice control.",
+          "url": "https://sammi.solutions"
+        }
+      ]
+    },
+    {
+      "slug": "lumia-stream",
+      "name": "Lumia Stream",
+      "site": "https://lumiastream.com/",
+      "company": "Lumia Stream",
+      "country": "",
+      "tagline": "All-in-one app with chat, alerts and smart lights",
+      "best_for": "Viewer-controlled lights and alerts",
+      "pricing": "Free to download; Premium is listed at $5.99 per month, $32.99 every 6 months, or $59.99 per year (Most Popular), with automatic renewal. A lifetime option is listed without a price.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Windows, Mac and Linux; chat from Twitch, TikTok, YouTube, Discord, Kick and Facebook; overlays for Twitch, YouTube, Kick, TikTok and Facebook",
+      "features": [
+        "Multistream chat",
+        "Real-time alerts",
+        "OBS overlays",
+        "Loyalty points",
+        "Stream Deck and Touch Portal plugins"
+      ],
+      "summary": "It bundles chat, alerts, overlays, loyalty points and light control, with plugins for both Stream Deck and Touch Portal.",
+      "verdict": "Lumia Stream is the one tool here that advertises viewer-controlled lights and devices. The vendor lists multistream chat, alerts, OBS overlays, a loyalty system and a Control Room dashboard, plus Stream Deck and Touch Portal plugins. A free download exists, and Premium is $5.99 per month, $32.99 every 6 months or $59.99 per year. It sits seventh for this angle because lights and loyalty points go beyond control-surface work, but the plugin support makes it a good companion to the top three.",
+      "weaknesses": "Premium subscriptions renew automatically unless cancelled, and a lifetime option is listed without a price. The breadth is also a weakness for this page: most of the features are overlay and chat tooling rather than key-and-macro control.",
+      "wrong_for": "Skip it if you want only a keypad layer; Macro Deck covers that at no cost.",
+      "sources": [
+        {
+          "fact": "Lumia Stream describes itself as an all-in-one streaming tool with multistreaming, light control, loyalty rewards and overlays in one app.",
+          "url": "https://lumiastream.com/"
+        },
+        {
+          "fact": "The pricing page lists a free plan with a 'Download for free' call to action.",
+          "url": "https://lumiastream.com/pricing"
+        },
+        {
+          "fact": "The pricing page lists Premium at $5.99 per month, $32.99 every 6 months, or $59.99 per year, and says subscriptions renew automatically unless cancelled.",
+          "url": "https://lumiastream.com/pricing"
+        },
+        {
+          "fact": "The home page lists a Stream Deck plugin and a Touch Portal plugin among its companion services.",
+          "url": "https://lumiastream.com/"
+        }
+      ]
+    },
+    {
+      "slug": "lioranboard",
+      "name": "LioranBoard",
+      "site": "https://lioranwaters.github.io/lioranboard2docs/",
+      "company": "",
+      "country": "",
+      "tagline": "Closed source Stream Deck app for OBS",
+      "best_for": "OBS-centered custom layouts",
+      "pricing": "The docs pages opened do not state a price.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Windows",
+      "features": [
+        "Customizable layouts",
+        "OBS integration",
+        "Stream Deck support",
+        "Migration guide from LB1"
+      ],
+      "summary": "A long-standing OBS-focused deck app made in GameMaker Studio 2, with a documented step-by-step tutorial.",
+      "verdict": "LioranBoard 2 is described in its own docs as one of the most popular customizable OBS Stream Decks. It is a closed source application built in GameMaker Studio 2, and it works with Stream Deck hardware. The docs include a download page, a step by step tutorial, an update and backup guide and a migration guide for people moving from LioranBoard 1. It ranks eighth because the scope is narrow (OBS control) and the documentation shows no price or platform detail beyond a Windows download.",
+      "weaknesses": "The docs pages opened do not state a price, and the app is closed source, so users cannot inspect or fork it. There is no listed integration with chat platforms in the facts we read, which limits it to OBS-side control.",
+      "wrong_for": "Wrong for people who want event triggers from Twitch or YouTube; Streamer.bot connects those platforms directly.",
+      "sources": [
+        {
+          "fact": "LioranBoard 2 is a closed source app made in GameMaker Studio 2 and described as one of the most popular customizable OBS Stream Decks.",
+          "url": "https://lioranwaters.github.io/lioranboard2docs/about"
+        },
+        {
+          "fact": "The LioranBoard 2 documentation has a download page, a step by step tutorial and a guide for migrating from LB1.",
+          "url": "https://lioranwaters.github.io/lioranboard2docs/about"
+        },
+        {
+          "fact": "The LioranBoard 2 docs pages opened do not state a price.",
+          "url": "https://lioranwaters.github.io/lioranboard2docs/about"
+        }
+      ]
+    },
+    {
+      "slug": "mix-it-up",
+      "name": "Mix It Up",
+      "site": "https://mixitup.bot/",
+      "company": "",
+      "country": "",
+      "tagline": "Free streaming bot with 43 integrations",
+      "best_for": "Chat commands and overlays",
+      "pricing": "Free.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Twitch, YouTube, Kick, Velora, VPZone",
+      "features": [
+        "Commands",
+        "Overlays",
+        "Events",
+        "Giveaways",
+        "Moderation"
+      ],
+      "summary": "A free bot for Twitch, YouTube, Kick and Velora that lists 133 features and 43 integrations on its homepage.",
+      "verdict": "Mix It Up is free and focuses on the chat side of automation. The homepage lists 133 features and 43 integrations, and documentation exists for Twitch, YouTube, Kick, Velora and VPZone. Commands, overlays, events, giveaways and moderation are all part of the feature list, and SAMMI documents a Mix It Up integration. It comes ninth here because a bot for chat is further from the hardware and macro angle of this page, even though it is strong for what it does.",
+      "weaknesses": "The facts do not list a desktop platform, so check whether it runs on your operating system. It is a bot, not a control surface, so you still need something like a keypad or Touch Portal if you want physical or tablet buttons.",
+      "wrong_for": "Skip it if you want a button panel; Elgato Stream Deck or Touch Portal are built for that.",
+      "sources": [
+        {
+          "fact": "Mix It Up is a free streaming bot for Twitch, YouTube, Kick and Velora.",
+          "url": "https://mixitup.bot/"
+        },
+        {
+          "fact": "The Mix It Up homepage lists 133 features and 43 integrations.",
+          "url": "https://mixitup.bot/"
+        },
+        {
+          "fact": "Mix It Up has platform documentation for Twitch, YouTube, Kick, Velora and VPZone.",
+          "url": "https://mixitup.bot/"
+        }
+      ]
+    },
+    {
+      "slug": "streamelements",
+      "name": "StreamElements",
+      "site": "https://streamelements.com/",
+      "company": "StreamElements",
+      "country": "",
+      "tagline": "Cloud streamer platform with chatbot and overlays",
+      "best_for": "Cloud-hosted overlays and chatbot",
+      "pricing": "Pricing is not stated on the home page opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Twitch, YouTube and Facebook Gaming",
+      "features": [
+        "Alerts and overlays",
+        "Chatbot",
+        "SE.Live OBS plugin",
+        "SE.Tips",
+        "Ground Control"
+      ],
+      "summary": "A cloud platform with an OBS plugin and a multistreaming companion app, placed last because it automates the stream more than it controls keys.",
+      "verdict": "StreamElements lists overlays, tipping, a chatbot and alerts for Twitch, YouTube and Facebook Gaming, along with SE.Live, a plugin for OBS Studio. Ground Control is described as an all-in-one multistreaming companion app. Because it lives in the cloud, setup does not depend on one desktop. It is included because many streamers pair it with a hardware deck, but it automates chat and alerts rather than providing key and macro control, so it takes the final place on this particular ranking.",
+      "weaknesses": "The home page opened shows no price, so what is free and what is paid has to be checked on the vendor site. Its focus on overlays and tipping means it does not replace a macro or key-binding tool.",
+      "wrong_for": "Skip it if you want local, offline control of scenes and audio; Macro Deck or Streamer.bot keep everything on your machine.",
+      "sources": [
+        {
+          "fact": "StreamElements lists overlays, tipping, chatbot, alerts and merchandise among its features for Twitch, YouTube and Facebook Gaming.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "SE.Live is a plugin for OBS Studio, and Ground Control is a multistreaming stream management companion app.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "The StreamElements home page opened does not show a price.",
+          "url": "https://streamelements.com/"
+        }
+      ]
+    }
+  ]
+}

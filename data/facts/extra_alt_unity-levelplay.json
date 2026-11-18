@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "unity-levelplay",
+  "name": "Unity LevelPlay",
+  "status": "verified",
+  "site": "https://unity.com/products/levelplay",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "An ad mediation platform from Unity Technologies, documented with SDKs and a platform dashboard.",
+  "platforms": "Unity, Android, iOS, Adobe AIR, Flutter and React Native SDKs",
+  "pricing": "Not stated on opened pages.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Ad mediation",
+   "Unity Editor integration",
+   "Multi-engine SDKs"
+  ],
+  "notable": [],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "Unity LevelPlay is an ad mediation platform that helps publishers drive higher revenue, acquire new players and get total monetization control.",
+    "url": "https://unity.com/products/levelplay"
+   },
+   {
+    "fact": "LevelPlay integration is available directly from the Unity Editor and an SDK, per the product page.",
+    "url": "https://unity.com/products/levelplay"
+   },
+   {
+    "fact": "The Unity documentation lists LevelPlay SDKs for Unity, Android, iOS, Adobe AIR, Flutter and React Native, plus a LevelPlay Platform for mediation settings.",
+    "url": "https://docs.unity.com/en-us/grow/levelplay"
+   },
+   {
+    "fact": "The product page does not state LevelPlay pricing; it has a generic Pricing navigation link and a Get started button.",
+    "url": "https://unity.com/products/levelplay"
+   }
+  ]
+ }
+]

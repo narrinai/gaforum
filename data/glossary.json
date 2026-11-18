@@ -1,0 +1,472 @@
+{
+  "terms": [
+    {
+      "slug": "one-percent-lows",
+      "term": "1% lows",
+      "definition": "The 1% low is a benchmark figure that summarizes the slowest frames in a run, usually reported as frames per second equivalent to the worst slice of frame times. It reflects how a game feels better than the average does, since a few long frames are what you notice as stutter. Methods differ between tools, so compare like with like.",
+      "related": "/software/best-pc-benchmarking-software"
+    },
+    {
+      "slug": "ad-mediation",
+      "term": "Ad mediation",
+      "definition": "Ad mediation is software inside a mobile game that asks several ad networks to compete for each ad slot and shows the winning ad. It raises fill and income compared with a single network and centralizes reporting. Studios integrate one mediation SDK and then add networks through adapters, which also means more SDK code to keep updated.",
+      "related": "/software/best-mobile-game-ad-networks-and-mediation"
+    },
+    {
+      "slug": "anti-smurf",
+      "term": "Anti-smurf",
+      "definition": "Anti-smurf measures stop experienced players from entering with new, low-ranked accounts to beat weaker opponents. Organizers use account verification, rank requirements, linking to platform profiles and checks on match history. It is a constant balance between fairness and keeping the entry process simple for legitimate new players.",
+      "related": "/software/best-esports-tournament-management-software"
+    },
+    {
+      "slug": "arpdau",
+      "term": "ARPDAU",
+      "definition": "ARPDAU stands for average revenue per daily active user: revenue in a day divided by the number of players active that day. It combines purchases and ad income into one daily yield figure and is useful for tracking the effect of monetization changes. Because it ignores how long players stay, it should be read together with retention, never alone.",
+      "related": "/software/best-game-analytics-software"
+    },
+    {
+      "slug": "authoritative-server",
+      "term": "Authoritative server",
+      "definition": "An authoritative server is a game server that owns the true game state and decides what actually happened, while clients only send input and render what the server reports. This design makes many cheats harder, because a modified client cannot simply declare that it hit someone. The trade-off is added latency and the hosting cost of running simulation on the server side.",
+      "related": "/software/best-dedicated-game-server-orchestration-platforms"
+    },
+    {
+      "slug": "benchmarking",
+      "term": "Benchmarking",
+      "definition": "Benchmarking is measuring hardware or software performance under repeatable conditions so results can be compared. For games it means playing the same scene or scripted run and recording frame times, temperatures and power. Results are only useful if drivers, settings and background programs are the same between runs.",
+      "related": "/software/best-pc-benchmarking-software"
+    },
+    {
+      "slug": "bitrate",
+      "term": "Bitrate",
+      "definition": "Bitrate is the amount of data per second used to encode a video or audio stream, usually measured in megabits per second. Higher bitrate generally means better quality at the cost of more upload bandwidth and viewer bandwidth. Platforms publish recommended ranges per resolution and frame rate, and exceeding what your connection can sustain causes dropped frames.",
+      "related": "/software/best-streaming-software-for-gamers"
+    },
+    {
+      "slug": "bracket",
+      "term": "Bracket",
+      "definition": "A bracket is the diagram and rule set that defines who plays whom in a tournament and how winners advance. Common formats include single elimination, double elimination, round robin and Swiss. The format sets how many matches are needed, how forgiving it is to a bad round and how long the event runs.",
+      "related": "/software/best-esports-tournament-management-software"
+    },
+    {
+      "slug": "browser-source",
+      "term": "Browser source",
+      "definition": "A browser source is a streaming-software element that displays a web page inside the scene, with a transparent background if the page asks for it. It is how most alerts, chat boxes and overlays reach the stream. Because it is a real web page, it can be tested in a normal browser and updated without touching the stream settings.",
+      "related": "/software/best-stream-overlay-and-alert-tools"
+    },
+    {
+      "slug": "cdn",
+      "term": "CDN (content delivery network)",
+      "definition": "A content delivery network is a distributed set of servers that cache and deliver content close to viewers, so a stream or download does not travel from one origin to everyone. Live video relies on CDNs to reach large audiences at a reasonable cost. Their pricing is usually per amount of data delivered.",
+      "related": "/software/best-streaming-media-servers"
+    },
+    {
+      "slug": "chat-bot",
+      "term": "Chat bot",
+      "definition": "A chat bot is an automated account in a live chat that runs commands, moderates messages, posts timers and sometimes runs games or giveaways. It reduces a moderator's workload and keeps rules consistent. Streamers choose between hosted bots and self-hosted ones; the former is simpler, the latter offers more control over data and features.",
+      "related": "/software/best-twitch-chat-bots"
+    },
+    {
+      "slug": "ci-cd",
+      "term": "CI/CD for games",
+      "definition": "CI/CD, continuous integration and delivery, is a build pipeline that compiles the game, runs automated tests and produces installable builds every time code changes. Games make it harder than web software because builds are large, take long and depend on big binary assets. Dedicated build farms and caching are common for that reason.",
+      "related": "/software/best-game-ci-cd-and-build-tools"
+    },
+    {
+      "slug": "clip",
+      "term": "Clip",
+      "definition": "A clip is a short excerpt from a stream, usually cut by a viewer or moderator at the moment something notable happens. Clips are the main discovery engine for streamers on short-form platforms, and editing tools can turn them into vertical videos. Clips usually remain on the platform even if the full broadcast expires.",
+      "related": "/software/best-clip-and-highlight-editors-for-streamers"
+    },
+    {
+      "slug": "cloud-gaming",
+      "term": "Cloud gaming",
+      "definition": "Cloud gaming runs a game on a remote server and streams the video to the player's device, which sends controls back. It lets weak hardware play demanding games, but depends on a good connection and nearby servers, since delay shows up as input lag. Services differ in the library, the resolution and whether you own the games.",
+      "related": "/software/best-cloud-gaming-services"
+    },
+    {
+      "slug": "d1-d7-retention",
+      "term": "D1 and D7 retention",
+      "definition": "D1 and D7 retention measure the share of a player cohort that returns on the first and the seventh day after installing. They are the standard early health check for a mobile or free-to-play game, because weak day-one return usually means the first session failed to hook players. Compare them against games of the same genre, since norms differ widely.",
+      "related": "/software/best-game-analytics-software"
+    },
+    {
+      "slug": "ddos-mitigation",
+      "term": "DDoS mitigation",
+      "definition": "DDoS mitigation is the filtering of floods of fake traffic aimed at knocking a game server or website offline, typically done by routing traffic through a provider's network that absorbs and discards the attack. Game servers are awkward to protect because they use UDP and need low latency. Providers differ in how they handle game protocols and in where their scrubbing sits.",
+      "related": "/software/best-ddos-protection-for-game-servers"
+    },
+    {
+      "slug": "dedicated-server",
+      "term": "Dedicated server",
+      "definition": "A dedicated server is a game server process that runs the match without a player attached, usually in a data center or cloud region. Compared with peer-to-peer or player-hosted sessions, it gives a stable connection, a trusted authority for anti-cheat and the ability to keep a match alive when a player leaves. Someone has to pay for and operate the capacity.",
+      "related": "/software/best-dedicated-game-server-orchestration-platforms"
+    },
+    {
+      "slug": "double-elimination",
+      "term": "Double elimination",
+      "definition": "Double elimination is a bracket in which a team must lose twice to be out, with a second path called the lower bracket for those who lose once. It is fairer than single elimination at the cost of more matches and a more complicated schedule. Many esports finals use it.",
+      "related": "/software/best-esports-tournament-management-software"
+    },
+    {
+      "slug": "ecpm",
+      "term": "eCPM",
+      "definition": "eCPM is effective cost per thousand impressions, the revenue an ad placement earns for every thousand ads shown, regardless of how the network pays. It lets a studio compare networks, formats and countries on one scale. Rewarded video usually earns more per impression than banners, so eCPM should be read per format, never as one blended figure.",
+      "related": "/software/best-mobile-game-ad-networks-and-mediation"
+    },
+    {
+      "slug": "encoder",
+      "term": "Encoder",
+      "definition": "An encoder is the software or hardware that compresses raw video and audio into a stream a platform can ingest. In gaming it is usually a program like OBS using either the CPU or the graphics card, or a dedicated device. The choice affects quality per bitrate, how much performance the game loses and what codecs are available.",
+      "related": "/software/best-streaming-software-for-gamers"
+    },
+    {
+      "slug": "esports-data-feed",
+      "term": "Esports data feed",
+      "definition": "An esports data feed is a live stream of structured match data, such as scores, kills and objectives, delivered by an API so that broadcasts, apps and analysis tools can use it. Providers license it by game, and coverage varies per title. Organizers use it for stat overlays, and data companies sell it onward.",
+      "related": "/software/best-esports-broadcast-production-software"
+    },
+    {
+      "slug": "face-tracking",
+      "term": "Face tracking",
+      "definition": "Face tracking uses a webcam or phone camera to detect a person's head pose and expressions and pass them to an avatar in real time. It is the core of VTubing. Quality depends on lighting, camera and the avatar rig, and phone-based tracking with depth sensors usually captures more subtle expressions than a plain webcam.",
+      "related": "/software/best-vtuber-software"
+    },
+    {
+      "slug": "file-locking",
+      "term": "File locking",
+      "definition": "File locking is a version control feature that lets one person claim a file so others cannot edit it at the same time. Game projects need it because art, scenes and prefabs are binary and cannot be merged like text. Without locks, two people can edit the same asset and one set of work is lost.",
+      "related": "/software/best-version-control-for-game-development"
+    },
+    {
+      "slug": "frame-time",
+      "term": "Frame time",
+      "definition": "Frame time is how long it takes to produce one frame, usually in milliseconds. It reveals stutter that an average frames-per-second figure hides, because a smooth game has even frame times and a stuttering one has spikes. Benchmark tools plot frame times over a run to show consistency.",
+      "related": "/software/best-pc-benchmarking-software"
+    },
+    {
+      "slug": "game-backend",
+      "term": "Game backend",
+      "definition": "A game backend is the set of server-side services behind a game that are not the match simulation itself: accounts, inventories, leaderboards, cloud saves, matchmaking, economy and configuration. Studios either assemble these on a cloud provider, run an open source backend, or buy a game-specific platform. The choice mostly trades control against engineering time.",
+      "related": "/software/best-game-backend-platforms"
+    },
+    {
+      "slug": "game-engine",
+      "term": "Game engine",
+      "definition": "A game engine is the software framework that handles rendering, physics, input, audio, asset management and tools, so a team builds a game instead of its foundations. Engines differ in language, licensing, platforms and strengths in flat or three-dimensional games. The choice is hard to reverse, which makes it one of the first decisions of a project.",
+      "related": "/software/best-2d-game-engines"
+    },
+    {
+      "slug": "game-server-orchestration",
+      "term": "Game server orchestration",
+      "definition": "Game server orchestration is the automation that starts, stops, scales and monitors fleets of dedicated game servers so there is capacity when players queue and little waste when they do not. It typically covers allocation, health checks, regional placement and version rollouts. Kubernetes-based tools and managed hosting platforms both fill this role.",
+      "related": "/software/best-dedicated-game-server-orchestration-platforms"
+    },
+    {
+      "slug": "git-lfs",
+      "term": "Git LFS",
+      "definition": "Git LFS is an open source extension that keeps large files, such as textures and audio, on a separate server while the Git repository stores only small pointers to them. It lets teams keep the familiar Git workflow for projects with heavy binary assets. It does not by itself solve the problem of two people editing the same binary file.",
+      "related": "/software/best-version-control-for-game-development"
+    },
+    {
+      "slug": "glass-to-glass-latency",
+      "term": "Glass-to-glass latency",
+      "definition": "Glass-to-glass latency is the total delay between something happening in front of a camera or on a game screen and a viewer seeing it on their screen. It adds up capture, encoding, upload, platform processing, delivery and player buffering. Interactive features such as chat reactions or auctions are what make teams measure it.",
+      "related": "/software/best-live-streaming-apis-and-sdks"
+    },
+    {
+      "slug": "hls",
+      "term": "HLS",
+      "definition": "HLS, HTTP Live Streaming, delivers video by cutting it into short segments served over ordinary web servers, with a playlist that lets the player switch quality as bandwidth changes. It scales cheaply through content delivery networks and plays almost everywhere. The price is delay: standard HLS runs many seconds behind real time.",
+      "related": "/software/best-streaming-media-servers"
+    },
+    {
+      "slug": "ingest",
+      "term": "Ingest",
+      "definition": "Ingest is the point where a live stream enters a platform or media server, and the server address a broadcaster sends to. Platforms provide ingest endpoints in many regions, and choosing a nearby one lowers the chance of dropped frames. Ingest settings such as protocol, keys and limits are the first thing to check when a stream fails to connect.",
+      "related": "/software/best-streaming-media-servers"
+    },
+    {
+      "slug": "kernel-level-anti-cheat",
+      "term": "Kernel-level anti-cheat",
+      "definition": "Kernel-level anti-cheat is cheat detection software that runs with the highest privileges of the operating system, so it can see and block tampering that user-mode tools cannot. It is effective against cheats that also run at that level. Critics point to security risk, system instability and privacy concerns, and Linux compatibility is a recurring complaint.",
+      "related": "/software/best-game-anti-cheat-software"
+    },
+    {
+      "slug": "keyframe-interval",
+      "term": "Keyframe interval",
+      "definition": "The keyframe interval is the time between full reference frames in an encoded video, with the frames in between storing only changes. Streaming platforms require a regular, short interval, because viewers can only start playback or switch quality at a keyframe. A long interval makes streams slow to start and can break platform checks.",
+      "related": "/software/best-streaming-software-for-gamers"
+    },
+    {
+      "slug": "live-captioning",
+      "term": "Live captioning",
+      "definition": "Live captioning produces on-screen text of speech while an event is happening, either by human captioners, by automatic speech recognition or by a mix. It makes streams accessible and, with translation, reaches more viewers. Accuracy varies with audio quality, accents and specialist terms, so a glossary and a clean microphone feed help.",
+      "related": "/software/best-live-captioning-and-translation-for-livestreams"
+    },
+    {
+      "slug": "live2d",
+      "term": "Live2D",
+      "definition": "Live2D is a technique and software family for animating illustrations by splitting artwork into layers and deforming them, so a drawing can turn its head and blink. It is widely used for VTuber avatars and in games. The models are rigged in an editor and then driven by tracking software.",
+      "related": "/software/best-vtuber-software"
+    },
+    {
+      "slug": "liveops",
+      "term": "LiveOps",
+      "definition": "LiveOps is the practice of running a game as an ongoing service after launch, through events, offers, content drops, balance changes and experiments. It depends on being able to change the game without shipping a new build, so remote configuration, scheduling and segmentation tools matter. The discipline blends design, analytics and customer support.",
+      "related": "/software/best-game-liveops-platforms"
+    },
+    {
+      "slug": "ll-hls",
+      "term": "LL-HLS",
+      "definition": "LL-HLS, Low-Latency HLS, is an extension of HLS that delivers partial segments so viewers can be only a few seconds behind the live action instead of many. It keeps the cheap delivery of web servers and CDNs. It needs support from the encoder, origin, CDN and player, so one outdated link in the chain removes the benefit.",
+      "related": "/software/best-streaming-media-servers"
+    },
+    {
+      "slug": "localization",
+      "term": "Localization",
+      "definition": "Localization is adapting a game for a specific market beyond words: text, voice, images, date and currency formats, cultural references, ratings and sometimes content. Translation is one part of it. Planning for it early, with text kept out of code and room in the interface for longer strings, costs far less than retrofitting it later.",
+      "related": "/software/best-game-localization-platforms"
+    },
+    {
+      "slug": "lqa",
+      "term": "LQA (linguistic quality assurance)",
+      "definition": "LQA is the testing pass in which native speakers play the localized game to find language problems in context: mistranslations, text that overflows buttons, wrong gender or plural forms and missing strings. Reading a spreadsheet misses these. It is usually the last step before release for each language and a common source of late schedule changes.",
+      "related": "/software/best-game-localization-platforms"
+    },
+    {
+      "slug": "ltv",
+      "term": "LTV (lifetime value)",
+      "definition": "Lifetime value is the total revenue, or ideally profit, a player is expected to bring over the whole time they play. Studios compare it with the cost of acquiring that player to decide how much marketing is worth buying. Early LTV is a prediction built from young cohorts, so it deserves wide error bars until data matures.",
+      "related": "/software/best-game-analytics-software"
+    },
+    {
+      "slug": "matchmaking",
+      "term": "Matchmaking",
+      "definition": "Matchmaking is the system that groups players into a match using rules such as skill rating, latency, party size, platform and queue time. The hard part is balance: tighter rules give fairer games but longer waits. Matchmaking usually sits in a game backend and hands the finished lobby to a server allocation system.",
+      "related": "/software/best-game-backend-platforms"
+    },
+    {
+      "slug": "media-server",
+      "term": "Media server",
+      "definition": "A media server is software that receives live video from encoders and redistributes it, with optional transcoding, recording and protocol conversion. Studios and event teams run one to control their own pipeline or to turn an RTMP feed into WebRTC or HLS. Open source and commercial options exist, with different protocol and scaling support.",
+      "related": "/software/best-streaming-media-servers"
+    },
+    {
+      "slug": "merchant-of-record",
+      "term": "Merchant of record",
+      "definition": "A merchant of record is the company legally selling a product to the customer, handling payment processing, sales tax or VAT, invoicing and refunds on the seller's behalf. Using one removes the need to register for tax in many countries, in exchange for a fee on each sale. The studio becomes the supplier to that company rather than to the player.",
+      "related": "/software/best-game-payment-and-web-shop-platforms"
+    },
+    {
+      "slug": "middleware",
+      "term": "Middleware",
+      "definition": "Middleware is a third-party software component that a game uses for a specialized job, such as audio, physics, animation, networking or video playback, instead of building it in-house. It saves engineering time and brings tested tools, but adds a license cost and a dependency. Game audio middleware is the best known example.",
+      "related": "/software/best-game-audio-middleware"
+    },
+    {
+      "slug": "mobile-attribution",
+      "term": "Mobile attribution",
+      "definition": "Mobile attribution is the process of crediting an install or purchase to the ad, campaign or channel that caused it. An attribution provider matches ad clicks and views to installs and reports the result to ad networks. It is how studios know which user acquisition spend worked, and it is also where privacy rules on iOS bite hardest.",
+      "related": "/software/best-mobile-attribution-tools-for-games"
+    },
+    {
+      "slug": "mod-loader",
+      "term": "Mod loader",
+      "definition": "A mod loader is software that injects community-made modifications into a game and manages their load order and compatibility, either built into the game or provided by third parties. Good support from the developer, such as documented hooks, prevents mods from breaking after every patch. Players rely on mod managers to install and update them.",
+      "related": "/software/best-mod-managers-for-pc-games"
+    },
+    {
+      "slug": "multistreaming",
+      "term": "Multistreaming",
+      "definition": "Multistreaming is sending one live broadcast to several platforms at once, such as Twitch, YouTube and Kick. It can be done by a cloud service that receives one stream and forwards copies, or by an encoder sending multiple outputs. Cloud forwarding saves upload bandwidth, while local outputs avoid depending on a middleman.",
+      "related": "/software/best-multistreaming-platforms"
+    },
+    {
+      "slug": "netcode",
+      "term": "Netcode",
+      "definition": "Netcode is the collection of techniques a multiplayer game uses to keep every player's view of the match in sync over an unreliable network. It covers how input is sent, how state is shared, how lag is hidden and how disagreements are resolved. Good netcode is mostly invisible; bad netcode shows up as rubber banding, missed hits and arguments about who shot first.",
+      "related": "/software/best-multiplayer-networking-sdks"
+    },
+    {
+      "slug": "nvenc",
+      "term": "NVENC",
+      "definition": "NVENC is the hardware video encoder built into NVIDIA graphics cards. Because it is a dedicated block on the chip, it can encode a stream with little effect on game frame rates, unlike a software encoder that borrows CPU cores. Quality per bitrate depends on the card generation and on the encoder settings.",
+      "related": "/software/best-streaming-software-for-gamers"
+    },
+    {
+      "slug": "observer-mode",
+      "term": "Observer mode",
+      "definition": "Observer or spectator mode lets someone watch a live match without taking part, usually with free camera control and extra information such as team stats. Broadcasts depend on it to show the game to viewers. Whether a game provides a proper observer client is one of the first questions for any tournament planned around it.",
+      "related": "/software/best-esports-broadcast-production-software"
+    },
+    {
+      "slug": "overclocking",
+      "term": "Overclocking",
+      "definition": "Overclocking is running a processor, graphics card or memory faster than the manufacturer's default settings to gain performance. It raises heat and power use and can cause crashes if pushed too far, so it needs monitoring and stability testing. Gains are often modest, and modern chips already boost automatically.",
+      "related": "/software/best-hardware-monitoring-and-overclocking-software"
+    },
+    {
+      "slug": "pixel-streaming",
+      "term": "Pixel streaming",
+      "definition": "Pixel streaming renders a three-dimensional application on a server GPU and sends the video to a browser, while input travels back, so the viewer needs no powerful device or install. Businesses use it for product configurators, virtual venues and demos. It is simple for users but costly in GPU capacity, which scales with concurrent sessions.",
+      "related": "/software/best-pixel-streaming-and-cloud-game-streaming-platforms"
+    },
+    {
+      "slug": "playtest",
+      "term": "Playtest",
+      "definition": "A playtest is a session in which people outside the development team play a build while the team watches, records or collects feedback. Early playtests check whether the game is understood and fun, later ones check balance and stability. What matters is observing what players do rather than only what they say.",
+      "related": "/software/best-playtesting-platforms"
+    },
+    {
+      "slug": "qa-automation",
+      "term": "QA test automation",
+      "definition": "QA test automation uses scripts or bots to play through parts of a game and check for crashes, broken flows or regressions after each build. It suits repetitive checks such as menus, purchases and smoke tests. It complements human testers rather than replacing them, because fun and feel cannot be asserted by a script.",
+      "related": "/software/best-game-qa-and-test-automation-tools"
+    },
+    {
+      "slug": "remote-play",
+      "term": "Remote play",
+      "definition": "Remote play streams a game from your own PC or console to another device, such as a phone, laptop or TV, usually over your home network or the internet. It uses the same ideas as cloud gaming, but you provide the hardware. Open source hosts and clients, and platform apps, offer different latency and quality options.",
+      "related": "/software/best-remote-play-and-game-streaming-software"
+    },
+    {
+      "slug": "rollback-netcode",
+      "term": "Rollback netcode",
+      "definition": "Rollback netcode is a synchronization method where each client predicts the opponent's input, keeps playing, and rewinds and replays a few frames when the real input arrives and differs from the guess. It hides latency far better than waiting for input, which is why fighting games adopted it. The cost is deterministic simulation code and enough CPU headroom to resimulate frames quickly.",
+      "related": "/software/best-multiplayer-networking-sdks"
+    },
+    {
+      "slug": "rtmp",
+      "term": "RTMP",
+      "definition": "RTMP is the Real-Time Messaging Protocol, an older protocol that remains the most common way to send a live stream from an encoder to a streaming platform. Almost every streaming program and platform supports it. Its weaknesses are age, no native encryption and limited support for newer codecs, which is why RTMPS and SRT are growing.",
+      "related": "/software/best-streaming-media-servers"
+    },
+    {
+      "slug": "rtmps",
+      "term": "RTMPS",
+      "definition": "RTMPS is RTMP carried over an encrypted TLS connection. It protects the stream key and content from being read in transit and is the encrypted option some platforms offer next to plain RTMP. For the streamer it usually means changing the server URL prefix in their encoder; the settings otherwise stay the same.",
+      "related": "/software/best-streaming-media-servers"
+    },
+    {
+      "slug": "scrim",
+      "term": "Scrim",
+      "definition": "A scrim is a practice match between two teams, played under tournament conditions but with no stakes. Teams use scrims to rehearse strategies and test rosters, and they usually arrange them privately. Some platforms offer scrim finders and scheduling tools for teams without existing contacts.",
+      "related": "/software/best-esports-tournament-management-software"
+    },
+    {
+      "slug": "seeding",
+      "term": "Seeding",
+      "definition": "Seeding is ranking entrants before a bracket is drawn so that the strongest do not meet early. It can come from rankings, qualifiers or ratings. Poor seeding creates lopsided early rounds and hurts viewership. Tournament tools can seed automatically, but organizers often adjust by hand for regional or sponsor reasons.",
+      "related": "/software/best-esports-tournament-management-software"
+    },
+    {
+      "slug": "server-side-anti-cheat",
+      "term": "Server-side anti-cheat",
+      "definition": "Server-side anti-cheat looks for cheating by analyzing what happens on the game server, such as impossible movement, inhuman reaction times or statistical aim patterns, instead of inspecting the player's computer. It avoids installing invasive software on players' machines and can run retroactively. It cannot see everything, so many games combine it with a client-side component.",
+      "related": "/software/best-game-anti-cheat-software"
+    },
+    {
+      "slug": "simulcast",
+      "term": "Simulcast",
+      "definition": "Simulcast is the simultaneous broadcast of the same content on more than one channel. In streaming it is usually another word for multistreaming, but in real-time video tools it also means sending several quality layers of one stream so a server can pick one per viewer. Context tells you which sense is intended.",
+      "related": "/software/best-multistreaming-platforms"
+    },
+    {
+      "slug": "skadnetwork",
+      "term": "SKAdNetwork (SKAN)",
+      "definition": "SKAdNetwork, usually shortened to SKAN, is Apple's privacy-preserving system for measuring iOS ad campaigns without user-level identifiers. Apple sends aggregated, delayed and coarse postbacks to the ad network instead of per-user data. It limits how precisely a studio can optimize campaigns, so teams lean on modeled conversion values and on analytics from their own game.",
+      "related": "/software/best-mobile-attribution-tools-for-games"
+    },
+    {
+      "slug": "srt",
+      "term": "SRT (Secure Reliable Transport)",
+      "definition": "SRT is an open source transport protocol that sends video reliably over unpredictable networks, with encryption and recovery of lost packets. It suits contribution feeds from the field, remote production and cellular links. It is supported by many encoders and media servers, though large consumer platforms still mostly accept RTMP.",
+      "related": "/software/best-streaming-media-servers"
+    },
+    {
+      "slug": "overlay",
+      "term": "Stream overlay",
+      "definition": "A stream overlay is graphic elements layered over a live video, such as a webcam frame, scoreboard, chat box or alert animation. Streamers build them with tools that generate a web address and then add that address to their streaming software. Cluttered overlays hide the game, so most designs keep them small.",
+      "related": "/software/best-stream-overlay-and-alert-tools"
+    },
+    {
+      "slug": "swiss-system",
+      "term": "Swiss system",
+      "definition": "The Swiss system pairs players or teams with similar records in each round without eliminating anyone early, and runs a fixed number of rounds. It gives every entrant several matches and a fairly reliable ranking with fewer rounds than round robin. It requires software to handle pairings, which is why most major events use a tool.",
+      "related": "/software/best-esports-tournament-management-software"
+    },
+    {
+      "slug": "telemetry",
+      "term": "Telemetry",
+      "definition": "Telemetry is the automatic collection of data about how a game runs and how players behave, such as session length, progression, crashes and performance. It feeds analytics, balance decisions and bug fixing. Collecting it brings privacy obligations, so teams define what they need, tell players and avoid gathering personal data they cannot justify.",
+      "related": "/software/best-game-analytics-software"
+    },
+    {
+      "slug": "thermal-throttling",
+      "term": "Thermal throttling",
+      "definition": "Thermal throttling is a chip lowering its own clock speed to avoid overheating, which shows up as sudden frame rate drops during long sessions. It is common in laptops and small cases. Hardware monitoring tools show temperatures and clocks together so you can see whether cooling, rather than the game, is the limit.",
+      "related": "/software/best-hardware-monitoring-and-overclocking-software"
+    },
+    {
+      "slug": "tick-rate",
+      "term": "Tick rate",
+      "definition": "Tick rate is how often a game server updates its simulation and sends state to clients, usually expressed in updates per second. A higher rate gives finer-grained hit detection and fresher positions, but it raises server CPU load and bandwidth. Many games run the simulation at one rate and send updates to clients at a lower one, so the two figures are worth checking separately.",
+      "related": "/software/best-multiplayer-networking-sdks"
+    },
+    {
+      "slug": "check-in",
+      "term": "Tournament check-in",
+      "definition": "Check-in is a step before a tournament in which registered players or teams confirm they will attend, usually within a time window. It removes no-shows from the bracket so that rounds are not wasted waiting for absent opponents. Organizers set the deadline and may promote waitlisted teams into the free spots.",
+      "related": "/software/best-esports-tournament-management-software"
+    },
+    {
+      "slug": "transcoding",
+      "term": "Transcoding",
+      "definition": "Transcoding is converting a video stream into other resolutions, bitrates or formats so viewers on different devices and connections can watch. Large platforms do it for you, which is why a single source feed becomes several quality options. When you run your own media server, transcoding is a major cost and needs real compute.",
+      "related": "/software/best-streaming-media-servers"
+    },
+    {
+      "slug": "translation-vs-localization",
+      "term": "Translation versus localization",
+      "definition": "Translation converts text from one language to another, while localization adapts the whole experience to a market. A translated game may still use jokes, idioms, units or imagery that do not land with players there. Most studios need both: translators for accuracy and localization review for tone, interface fit and cultural check.",
+      "related": "/software/best-game-localization-platforms"
+    },
+    {
+      "slug": "trust-and-safety",
+      "term": "Trust and safety",
+      "definition": "Trust and safety is the function and tooling that keeps players from harassment, hate, scams and illegal content, covering reporting, moderation queues, automated text and voice screening and enforcement policy. In games it spans in-game chat, voice, user-generated content and community platforms. It also carries legal duties, including rules for minors and platform regulation.",
+      "related": "/software/best-trust-and-safety-moderation-software-for-games"
+    },
+    {
+      "slug": "ugc",
+      "term": "UGC (user-generated content)",
+      "definition": "User-generated content is anything players create and share inside or around a game, from levels and skins to full mods and maps. It can extend a game's life far beyond what the studio ships, but it needs tools, hosting, moderation and clear rules on ownership and monetization. Platforms like workshops and mod hubs exist to handle part of that.",
+      "related": "/software/best-ugc-and-modding-platforms"
+    },
+    {
+      "slug": "vod",
+      "term": "VOD (video on demand)",
+      "definition": "A VOD is the recording of a live stream stored by a platform so viewers can watch it later. For streamers it is a source of clips, highlights and for esports teams, material for review. Platforms limit how long VODs stay available and may mute copyrighted audio, so important material is worth downloading.",
+      "related": "/software/best-clip-and-highlight-editors-for-streamers"
+    },
+    {
+      "slug": "vod-review",
+      "term": "VOD review",
+      "definition": "VOD review is the practice of watching recordings of past matches to study decisions, positioning and mistakes. Teams and coaches annotate the footage and share timestamps. It is the esports equivalent of film study, and the quality of the review depends more on structure than on hours spent watching.",
+      "related": "/software/best-esports-broadcast-production-software"
+    },
+    {
+      "slug": "vtuber",
+      "term": "VTuber",
+      "definition": "A VTuber, or virtual YouTuber, is a streamer or content creator who appears as an animated avatar instead of their own face, with the avatar moving in sync with the performer's expressions and movements. Avatars are typically rigged flat models or full three-dimensional models. The craft combines modeling, tracking software and streaming tools.",
+      "related": "/software/best-vtuber-software"
+    },
+    {
+      "slug": "webrtc",
+      "term": "WebRTC",
+      "definition": "WebRTC is a browser standard for real-time audio, video and data between endpoints, typically with delay well under a second. It powers video calls and interactive live streams where viewers talk back or bid. Scaling it to large audiences needs specialized servers, which is why it costs more to run than conventional HLS delivery.",
+      "related": "/software/best-live-streaming-apis-and-sdks"
+    }
+  ]
+}

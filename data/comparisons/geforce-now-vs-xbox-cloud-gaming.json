@@ -1,0 +1,159 @@
+{
+  "slug": "geforce-now-vs-xbox-cloud-gaming",
+  "a": "geforce-now",
+  "b": "xbox-cloud-gaming",
+  "a_name": "GeForce NOW",
+  "b_name": "Xbox Cloud Gaming",
+  "a_site": "https://www.nvidia.com/en-us/geforce-now/",
+  "b_site": "https://play.xbox.com/",
+  "category": "best-cloud-gaming-services",
+  "title": "GeForce NOW vs Xbox Cloud Gaming: Which Fits Your Team in 2026?",
+  "description": "GeForce NOW streams games you own from connected stores; Xbox Cloud Gaming streams the Game Pass catalog. Compare libraries, tiers and who each suits.",
+  "published": "2026-11-18",
+  "intro": "GeForce NOW streams games you already own from connected stores such as Steam, Epic, GOG, PC Game Pass and Ubisoft Connect, while Xbox Cloud Gaming streams cloud-playable titles from the Xbox Game Pass catalog. One is a way to play your own library on someone else's GPU; the other is a subscription catalog with streaming included. This page compares the two on library model, tiers and device reach, using the vendors' pages, and says where prices were missing from the text we could read.",
+  "verdict": "Players with a large existing Steam or Epic library, or who want the highest stated resolution and frame rate, have a reason to look at GeForce NOW and its Ultimate tier. Players who want a rotating catalog for one monthly fee, especially on an Xbox console or a PC with no strong graphics card, fit Xbox Cloud Gaming. Neither page we read showed a price, so compare current rates before paying.",
+  "pick_a": "Pick GeForce NOW if you want to stream games you already own, value the option of a higher-end tier and use several stores.",
+  "pick_b": "Pick Xbox Cloud Gaming if you prefer a catalog subscription, already use Game Pass, or want to try games without buying each one.",
+  "rows": [
+    {
+      "label": "Company",
+      "a": "NVIDIA Corporation",
+      "b": "Xbox, through Xbox Game Pass"
+    },
+    {
+      "label": "Library model",
+      "a": "Stream games you own from connected stores",
+      "b": "Cloud-playable games in the Game Pass catalog"
+    },
+    {
+      "label": "Connected stores",
+      "a": "Steam, Epic, GOG, PC Game Pass, Ubisoft Connect",
+      "b": "Not applicable; catalog is the Game Pass library"
+    },
+    {
+      "label": "Pricing model",
+      "a": "Subscription; Performance and Ultimate tiers",
+      "b": "Subscription as part of Game Pass"
+    },
+    {
+      "label": "Price shown",
+      "a": "Not in the extracted text",
+      "b": "Not in the extracted text; described as one low monthly price"
+    },
+    {
+      "label": "Top-tier stream",
+      "a": "Ultimate: 50-Series servers, up to 5K 120 and 360 FPS",
+      "b": "No resolution or frame rate claim found on opened pages"
+    },
+    {
+      "label": "Install option",
+      "a": "Install-to-Play for Performance and Ultimate members",
+      "b": "Not stated"
+    },
+    {
+      "label": "Devices",
+      "a": "Cloud streaming; device list not captured",
+      "b": "Xbox console, PC and more devices"
+    },
+    {
+      "label": "New content",
+      "a": "Depends on your stores",
+      "b": "New games added each month"
+    },
+    {
+      "label": "Main strength",
+      "a": "Plays your own purchases",
+      "b": "Catalog value in one fee"
+    },
+    {
+      "label": "Main limit",
+      "a": "You still buy the games",
+      "b": "Only games in the cloud catalog"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Library you own versus library you rent",
+      "text": [
+        "GeForce NOW lets players stream games from connected stores such as Steam, Epic, GOG, PC Game Pass and Ubisoft Connect. The service supplies the machine, and the game license comes from your account. If you already own hundreds of titles, that matters.",
+        "Xbox Cloud Gaming sits inside Xbox Game Pass, which the vendor describes as hundreds of PC and console games for one low monthly price. You pick from what the catalog offers, and new games are added each month."
+      ]
+    },
+    {
+      "h2": "Tiers and the top of the range",
+      "text": [
+        "GeForce NOW lists Performance and Ultimate membership tiers. The membership page says the 50-Series servers enable up to 5K 120 resolution and 360 FPS, available with Ultimate. Those are ceilings stated by the vendor, and your connection and display decide what you actually see.",
+        "Xbox Cloud Gaming is sold as part of Game Pass tiers, with Game Pass Ultimate named on the pages. The pages we opened gave no resolution or frame rate figure for cloud play, so a comparison of image quality would have to come from your own trial."
+      ]
+    },
+    {
+      "h2": "Price: what we could not read",
+      "text": [
+        "Membership prices do not appear in the extracted text of the GeForce NOW membership page, and the Game Pass page we read gives no figure either. The play.xbox.com page opened with almost no readable text.",
+        "Because prices vary by region and change, check both pages in a browser. Compare a month of each against the games you would actually play, including whether you would need to buy titles for GeForce NOW that are already in Game Pass."
+      ]
+    },
+    {
+      "h2": "Devices and environment",
+      "text": [
+        "The Game Pass page says cloud gaming works on Xbox console, PC and more devices. The GeForce NOW pages we opened did not give a device list, so confirm that your laptop, TV box or phone is supported before subscribing.",
+        "A studio staff room or a streamer testing a game on a thin laptop has the same constraint: the cloud removes the GPU requirement but adds a dependence on network quality. Test on the connection you will use."
+      ]
+    },
+    {
+      "h2": "Install-to-Play and library gaps",
+      "text": [
+        "GeForce NOW offers Install-to-Play, available only to Performance and Ultimate members according to the membership details. That points at a way to bring in games that are not preinstalled on the service, though the pages do not explain limits.",
+        "With Xbox Cloud Gaming, a title missing from the cloud list cannot be streamed, whatever you own elsewhere. Check your top five games against each service before paying. Further options appear in [best cloud gaming services](/software/best-cloud-gaming-services)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to own the games on GeForce NOW?",
+      "a": "Yes, the service streams games from connected stores such as Steam, Epic, GOG, PC Game Pass and Ubisoft Connect, so the license comes from your own accounts."
+    },
+    {
+      "q": "Is Xbox Cloud Gaming a separate subscription?",
+      "a": "It is part of Xbox Game Pass, according to the Game Pass page, so access comes through a Game Pass plan rather than a separate product."
+    },
+    {
+      "q": "Which has the higher stated quality?",
+      "a": "GeForce NOW's Ultimate tier lists up to 5K 120 resolution and 360 FPS on 50-Series servers. We found no comparable claim for Xbox Cloud Gaming."
+    },
+    {
+      "q": "What do they cost?",
+      "a": "The pages we read did not show prices, so check each vendor's current page for your region."
+    },
+    {
+      "q": "Can I play on a console?",
+      "a": "The Game Pass page lists Xbox console among supported devices for cloud gaming. A device list for GeForce NOW was not on the pages we opened."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "GeForce NOW lets players stream games from connected stores such as Steam, Epic, GOG, PC Game Pass and Ubisoft Connect.",
+      "url": "https://www.nvidia.com/en-us/geforce-now/"
+    },
+    {
+      "fact": "The membership page lists Performance and Ultimate membership tiers.",
+      "url": "https://www.nvidia.com/en-us/geforce-now/memberships/"
+    },
+    {
+      "fact": "The membership page says the 50-Series servers enable up to 5K 120 resolution and 360 FPS, available with Ultimate.",
+      "url": "https://www.nvidia.com/en-us/geforce-now/memberships/"
+    },
+    {
+      "fact": "Membership prices do not appear in the extracted text of the membership page.",
+      "url": "https://www.nvidia.com/en-us/geforce-now/memberships/"
+    },
+    {
+      "fact": "Xbox Cloud Gaming is part of Xbox Game Pass, which the page describes as hundreds of PC and console games for one low monthly price.",
+      "url": "https://www.xbox.com/en-US/xbox-game-pass"
+    },
+    {
+      "fact": "The Game Pass page says cloud gaming works on Xbox console, PC and more devices, with new games added each month.",
+      "url": "https://www.xbox.com/en-US/xbox-game-pass"
+    }
+  ]
+}

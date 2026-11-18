@@ -1,0 +1,213 @@
+{
+  "slug": "battleye",
+  "subject": "BattlEye",
+  "subject_site": "https://www.battleye.com",
+  "title": "BattlEye Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Nine BattlEye alternatives for PC shooters and survival games, led by Easy Anti-Cheat, with Denuvo, Anybrain and regional services also covered.",
+  "category": "best-game-anti-cheat-software",
+  "intro": "BattlEye is an independent PC game anti-cheat service that detects cheats and permanently bans cheaters, operated by BattlEye Innovations e.K. in Reutlingen, Germany. It is a common choice in competitive shooters and survival games. If you are shipping that kind of title and want a second opinion, nine alternatives follow, from the free-to-start Easy Anti-Cheat to regional services and mobile hardening kits. Where an option only fits part of the problem, the note says so.",
+  "why_switch": [
+    "Opaque terms: BattlEye does not publish prices on the opened pages and points to a contact page.",
+    "Tier structure: Easy Anti-Cheat lists a free service tier, which attracts small teams that want to test before paying.",
+    "Cross-platform needs: a shooter that adds console or mobile builds may want a vendor that states coverage across all three.",
+    "Supplier consolidation: publishers that already buy piracy and leak protection may prefer one security vendor.",
+    "Regional launches: games aimed at Korea or China sometimes need an anti-cheat vendor local to those markets."
+  ],
+  "picks": [
+    {
+      "slug": "easy-anti-cheat",
+      "name": "Easy Anti-Cheat",
+      "site": "https://www.easy.ac/",
+      "best_for": "Teams that want a free starting tier",
+      "pricing": "Free service tier plus paid Core, Fortified and Premier tiers, arranged through a licensing form.",
+      "free_plan": "Free",
+      "note": "Easy Anti-Cheat sits inside Epic Online Services and says 200+ games and 35M+ players a month are protected. Its licensing page lists free service tiers and paid Core, Fortified and Premier ones. You gain a low-risk way to start; you give up BattlEye's independence from a platform owner, and the paid tiers still have no public prices. Players can appeal wrong bans through the vendor site.",
+      "sources": [
+        {
+          "fact": "Easy Anti-Cheat's vendor site states that 200+ games and 35M+ players every month are protected.",
+          "url": "https://www.easy.ac/"
+        },
+        {
+          "fact": "Easy Anti-Cheat's licensing page lists free service tiers and paid Core, Fortified and Premier tiers, with no prices shown.",
+          "url": "https://www.easy.ac/licensing"
+        }
+      ]
+    },
+    {
+      "slug": "denuvo-anti-cheat",
+      "name": "Denuvo Anti-Cheat",
+      "site": "https://irdeto.com/video-games",
+      "best_for": "Publishers bundling security",
+      "pricing": "Not published on the opened pages.",
+      "free_plan": "Unknown",
+      "note": "Denuvo by Irdeto presents game cheat prevention within a game security offer that also targets leaks and piracy. For a publisher with an unreleased shooter, one vendor covering pre-release protection and cheating can simplify procurement. You give up the single-purpose focus BattlEye has, and detection methods are not described in detail on the opened pages.",
+      "sources": [
+        {
+          "fact": "Denuvo by Irdeto provides game security to help limit leaks, piracy and cheating.",
+          "url": "https://irdeto.com/video-games"
+        },
+        {
+          "fact": "No pricing is shown on the opened Denuvo by Irdeto pages.",
+          "url": "https://irdeto.com/video-games"
+        }
+      ]
+    },
+    {
+      "slug": "anybrain",
+      "name": "Anybrain",
+      "site": "https://anybrain.gg",
+      "best_for": "Multi-platform behavior analysis",
+      "pricing": "No pricing shown on the opened page.",
+      "free_plan": "Unknown",
+      "note": "Anybrain offers AI-powered anti-cheat and anti-fraud, and says it works in any game across PC, console and mobile. A shooter planning a console port may like that reach. You gain platform breadth; you give up a long public reference list on the opened page, so request customer examples before relying on it for a competitive title.",
+      "sources": [
+        {
+          "fact": "Anybrain says its anti-cheat works in any game across PC, console and mobile.",
+          "url": "https://anybrain.gg"
+        },
+        {
+          "fact": "Anybrain describes its offer as AI-powered anti-cheat and anti-fraud solutions for gaming.",
+          "url": "https://anybrain.gg"
+        }
+      ]
+    },
+    {
+      "slug": "xigncode3",
+      "name": "XIGNCODE3",
+      "site": "https://www.wellbia.com",
+      "best_for": "Asian market launches",
+      "pricing": "No pricing shown; contact form.",
+      "free_plan": "Unknown",
+      "note": "WELLBIA lists XIGNCODE3 among its products and offers protection for PC, mobile and console games. Choose it when your shooter targets players where WELLBIA is already established. You gain regional familiarity; you give up readily available English details, as the opened site shows a product name and a contact form for inquiries.",
+      "sources": [
+        {
+          "fact": "The WELLBIA site names XIGNCODE3 among its products.",
+          "url": "https://www.wellbia.com"
+        },
+        {
+          "fact": "The WELLBIA site has a contact form for inquiries.",
+          "url": "https://www.wellbia.com"
+        }
+      ]
+    },
+    {
+      "slug": "nprotect-gameguard",
+      "name": "nProtect GameGuard",
+      "site": "https://www.nprotect.com",
+      "best_for": "Certified security vendor ties",
+      "pricing": "Not published; product consultation inquiry.",
+      "free_plan": "Unknown",
+      "note": "INCA Internet's nProtect site names GameGuard in its product text and lists certifications CC, GS, KCMVP and VB100. That documentation helps if procurement asks for formal credentials. You give up public pricing and a clear product page for GameGuard alone, since the site presents several product families.",
+      "sources": [
+        {
+          "fact": "The nProtect site names GameGuard in its product text.",
+          "url": "https://www.nprotect.com"
+        },
+        {
+          "fact": "INCA Internet's site lists certifications CC, GS, KCMVP and VB100.",
+          "url": "https://www.nprotect.com"
+        }
+      ]
+    },
+    {
+      "slug": "anti-cheat-expert",
+      "name": "Anti-Cheat Expert",
+      "site": "https://ace.qq.com",
+      "best_for": "Mobile shooters in China",
+      "pricing": "No pricing shown on the opened page.",
+      "free_plan": "Unknown",
+      "note": "Tencent's ACE service covers anti-cheat for Android, iOS and PC games, and says its technology comes from Tencent's own games. That is a relevant pedigree for mobile shooters. You give up easy access if you operate outside China, and pricing is not shown on the opened page.",
+      "sources": [
+        {
+          "fact": "The ACE site lists anti-cheat for Android, iOS and PC games, and hardening for HarmonyOS mobile games.",
+          "url": "https://ace.qq.com"
+        },
+        {
+          "fact": "No pricing is shown on the opened ACE page.",
+          "url": "https://ace.qq.com"
+        }
+      ]
+    },
+    {
+      "slug": "irdeto",
+      "name": "Irdeto",
+      "site": "https://irdeto.com",
+      "best_for": "Pre-release and live protection",
+      "pricing": "No pricing is shown on the opened pages.",
+      "free_plan": "Unknown",
+      "note": "Irdeto's video games offering lists pre-release game protection, game piracy protection and game cheat prevention. A studio worried about a build leaking before launch and about cheaters after it may find that pairing useful. You gain breadth; you give up depth on cheat-specific mechanics, since the opened pages describe categories rather than detection methods.",
+      "sources": [
+        {
+          "fact": "Irdeto's video games offering includes pre-release game protection, game piracy protection and game cheat prevention.",
+          "url": "https://irdeto.com/video-games"
+        },
+        {
+          "fact": "Irdeto says it provides services and solutions that protect revenue, enable growth and fight cybercrime in video entertainment, video games and connected industries.",
+          "url": "https://irdeto.com/"
+        }
+      ]
+    },
+    {
+      "slug": "appdome",
+      "name": "Appdome",
+      "site": "https://www.appdome.com",
+      "best_for": "Hardening a mobile client",
+      "pricing": "Quote only through a pricing request form.",
+      "free_plan": "Unknown",
+      "note": "Appdome adds security, anti-fraud and anti-bot defenses to Android and iOS apps, with 400+ defenses stated on its homepage. If your survival game has a mobile companion app, this protects the client from tampering. It does not replace a PC anti-cheat driver, so treat it as an extra layer, priced by a quote.",
+      "sources": [
+        {
+          "fact": "Appdome describes itself as building security, anti-fraud and anti-bot defenses into Android and iOS apps.",
+          "url": "https://www.appdome.com"
+        },
+        {
+          "fact": "Appdome's pricing page is titled Appdome Pricing Request and asks buyers to choose features and get a quote.",
+          "url": "https://www.appdome.com/appdome-pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "promon",
+      "name": "Promon",
+      "site": "https://promon.io",
+      "best_for": "Runtime shielding of compiled apps",
+      "pricing": "No pricing shown; contact page for demos.",
+      "free_plan": "Unknown",
+      "note": "Promon shields apps after compilation and collects runtime telemetry through Promon Shield Studio, and says it protects 2 billion app installs. For PC shooters it is not a direct substitute. It makes sense when a mobile build ships alongside, and you can add it without touching source code. The pricing URL returned 404 on the day it was opened.",
+      "sources": [
+        {
+          "fact": "Promon describes itself as a runtime app protection and intelligence platform.",
+          "url": "https://promon.io"
+        },
+        {
+          "fact": "Promon's homepage says the platform protects 2 billion app installs.",
+          "url": "https://promon.io"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Decide platform first. A PC-only shooter has the shortest list: Easy Anti-Cheat for a free-to-start path, Denuvo Anti-Cheat or Irdeto if you also want leak protection, Anybrain if you expect console builds. Add a regional vendor only if a large share of players sits in Korea or China. Appdome and Promon belong on the list only when a mobile client exists. Whatever you pick, get a written answer on false-ban appeals and update speed, then see the [anti-cheat ranking](/software/best-game-anti-cheat-software).",
+  "faqs": [
+    {
+      "q": "What is the closest alternative to BattlEye for a PC shooter?",
+      "a": "Easy Anti-Cheat is the closest like-for-like option: both target online PC games and both issue bans. It differs in ownership, since it is part of Epic Online Services, and in having a free service tier alongside paid Core, Fortified and Premier tiers."
+    },
+    {
+      "q": "Does BattlEye publish prices?",
+      "a": "Not on the pages opened for this page; the site offers a contact page instead. The same is true for most alternatives here, so comparing cost means requesting quotes from two or three vendors with the same player-count assumptions."
+    },
+    {
+      "q": "Is mobile hardening enough for a survival game?",
+      "a": "No, if the cheating happens on PC. Appdome, Promon and Guardsquare-style tools protect mobile app binaries, not a PC client. They are an extra layer when a mobile companion exists."
+    },
+    {
+      "q": "Which vendors state console coverage?",
+      "a": "Anybrain says its anti-cheat works across PC, console and mobile, and WELLBIA lists PC, mobile and console protection. Confirm the exact consoles and certification process directly, because the opened pages do not list them."
+    },
+    {
+      "q": "Can I run two anti-cheat systems together?",
+      "a": "Running two kernel-level or driver-based tools in one client can cause conflicts and is something to settle with each vendor before you try it. A more common pattern is one anti-cheat plus separate server-side checks of your own."
+    }
+  ]
+}

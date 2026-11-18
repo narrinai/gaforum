@@ -1,0 +1,203 @@
+{
+  "slug": "spine",
+  "subject": "Spine",
+  "subject_site": "https://esotericsoftware.com",
+  "title": "Spine Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Seven Spine alternatives for 2D character animation in games, from Live2D and Rive to Spriter, Moho, Blender, Cascadeur and Houdini, with licensing notes.",
+  "category": "best-2d-game-engines",
+  "intro": "Spine is 2D skeletal animation software for video games, made by Esoteric Software LLC. It is sold as a one-time license with free future updates, in Essential and Professional tiers, and a Spine license also permits use of the Spine Runtimes in games. Teams look elsewhere when the price tier, the revenue threshold or the animation style stops fitting: mesh-based puppets, vector motion graphics, frame-by-frame film work or full 3D character rigs. Seven options follow, each tied to a different reason to leave.",
+  "why_switch": [
+    "Spine's purchase page lists Essential at $69 (down from $99) and Professional at $379 (down from $449), which is a real outlay for a solo developer who only needs basic rigging.",
+    "Esoteric Software says businesses with more than $500,000 USD annual revenue need a Spine Enterprise license, so growing studios hit a licensing step they may not want.",
+    "Spine is 2D skeletal animation. Projects that need illustration-driven face and body movement look at Live2D Cubism, which builds 2D-based three-dimensional expression from a single illustration.",
+    "UI and app animation shipped to many platforms is a different target. Rive pairs an editor with open-source runtimes, which suits interface motion more than character sheets.",
+    "Studios moving into 3D characters, mocap cleanup or procedural effects look at Cascadeur, Blender or Houdini rather than a 2D rig tool."
+  ],
+  "picks": [
+    {
+      "slug": "live2d-cubism",
+      "name": "Live2D Cubism",
+      "site": "https://www.live2d.com/",
+      "best_for": "Illustration-driven 2D character rigs",
+      "pricing": "Cubism Editor has PRO and FREE versions; PRO can be tried for 42 days, then the FREE version continues; PRO prices are not on the pages opened.",
+      "free_plan": "Free plan",
+      "note": "Live2D Cubism turns a single illustration into a 2D-based three-dimensional expression. Its SDK covers Unity, Native, Web, Java, Unreal Engine and Cocos Creator. You trade Spine's bone-and-mesh sprite workflow for a layered-illustration workflow, which suits anime-style characters and VTuber models more than platformer sprites.",
+      "sources": [
+        {
+          "fact": "Live2D Cubism Editor creates 2D-based three-dimensional expression from a single illustration, per the vendor's product page.",
+          "url": "https://www.live2d.com/cubism/about/"
+        },
+        {
+          "fact": "Cubism Editor PRO can be tried for 42 days, after which users continue with the FREE version.",
+          "url": "https://www.live2d.com/en/cubism/"
+        },
+        {
+          "fact": "The Cubism SDK is offered for Unity, Native, Web, Java, Unreal Engine and Cocos Creator on the vendor site.",
+          "url": "https://www.live2d.com/"
+        }
+      ]
+    },
+    {
+      "slug": "rive",
+      "name": "Rive",
+      "site": "https://rive.app",
+      "best_for": "Interactive 2D and UI animation",
+      "pricing": "Free to build; free exports show a Rive splash screen. Cadet $9, Voyager $32 and Enterprise $120 per seat per month.",
+      "free_plan": "Free",
+      "note": "Rive calls itself a 2D and 3D engine for games, apps and UI, with a Rive Editor and open-source runtimes for every platform. It prices per seat per month, unlike Spine's one-time license. The free tier lets you test everything, but exports carry a splash screen until you upgrade, so it is a poor fit for a free prototype you want to ship clean.",
+      "sources": [
+        {
+          "fact": "Rive describes itself as an agent-native 2D and 3D engine for games, apps and UI.",
+          "url": "https://rive.app"
+        },
+        {
+          "fact": "Rive's pricing page lists Free, Cadet at $9 per seat per month, Voyager at $32 per seat per month and Enterprise at $120 per seat per month.",
+          "url": "https://rive.app/pricing"
+        },
+        {
+          "fact": "Rive's pricing page says building with Rive is free, but free exports play a Rive splash screen that is removed on upgrade.",
+          "url": "https://rive.app/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "spriter",
+      "name": "Spriter",
+      "site": "https://brashmonkey.com",
+      "best_for": "Low-cost 2D game animation",
+      "pricing": "A free version is available; Spriter Pro is listed at $59.99.",
+      "free_plan": "Free",
+      "note": "Spriter from BrashMonkey is the cheapest route here, with a free download and a Pro purchase at $59.99. The page says over 260 free animations can be used royalty free, and runtimes and integrations exist for engines such as Construct. The homepage also promotes a Spriter 2 pre-order, so check which version a given plan covers.",
+      "sources": [
+        {
+          "fact": "BrashMonkey's homepage presents Spriter as a 2D game animation tool with a free download and a Spriter Pro purchase option.",
+          "url": "https://brashmonkey.com"
+        },
+        {
+          "fact": "The Spriter Pro page lists Spriter Pro at $59.99 alongside a free version.",
+          "url": "https://brashmonkey.com/spriter-pro/"
+        },
+        {
+          "fact": "The Spriter Pro page says over 260 free Spriter animations are available for use in games royalty free.",
+          "url": "https://brashmonkey.com/spriter-pro/"
+        }
+      ]
+    },
+    {
+      "slug": "moho",
+      "name": "Moho",
+      "site": "https://moho.lostmarble.com",
+      "best_for": "Vector and frame-by-frame animation with game export",
+      "pricing": "One-time purchase: Moho Pro 14 at $399.99 and Moho Debut 14 at $59.99, with discounted upgrades.",
+      "free_plan": "Unknown",
+      "note": "Moho from LOSTMARBLE LLC is aimed at 2D movies, cartoons and commercials, and the homepage says it exports to game engines. Debut costs about what Spine Essential does, while Pro costs more than Spine Professional. It fits teams that also make trailers or cutscenes in the same tool.",
+      "sources": [
+        {
+          "fact": "Moho's homepage describes it as animation software for 2D movies, films, commercials, cartoons, vector animation, stop motion and frame-by-frame animation.",
+          "url": "https://moho.lostmarble.com"
+        },
+        {
+          "fact": "The Moho buy page lists Moho Pro 14 as a one-time purchase at $399.99 and Moho Debut 14 at $59.99.",
+          "url": "https://moho.lostmarble.com/pages/buy"
+        },
+        {
+          "fact": "The Moho buy page offers a discounted upgrade to Moho Pro 14 for owners of Moho Pro 13.x, Moho Pro 12 or Moho Debut 14.",
+          "url": "https://moho.lostmarble.com/pages/buy"
+        }
+      ]
+    },
+    {
+      "slug": "blender",
+      "name": "Blender",
+      "site": "https://www.blender.org/",
+      "best_for": "Free 3D and pipeline work with an open license",
+      "pricing": "No price on the opened manual pages; the manual has a section on free software and the GPL.",
+      "free_plan": "Open source",
+      "note": "Blender's manual documents installs on Linux, macOS, Windows and Steam, and the GitHub repository blender/blender is described as the official mirror. It is the zero-cost route if you can accept a bigger, more general tool than a dedicated 2D rig editor, and its license section covers the GPL terms.",
+      "sources": [
+        {
+          "fact": "The official Blender Manual is titled Blender 5.3 Manual and documents installation on Linux, macOS, Windows and Steam.",
+          "url": "https://docs.blender.org/manual/en/latest/"
+        },
+        {
+          "fact": "The Blender Manual has a section titled 'About Free Software and the GPL'.",
+          "url": "https://docs.blender.org/manual/en/latest/getting_started/about/license.html"
+        },
+        {
+          "fact": "The GitHub repository blender/blender is described as the official mirror of Blender.",
+          "url": "https://github.com/blender/blender"
+        }
+      ]
+    },
+    {
+      "slug": "cascadeur",
+      "name": "Cascadeur",
+      "site": "https://cascadeur.com",
+      "best_for": "3D character animation and mocap cleanup",
+      "pricing": "A free plan; paid plans at EUR 19 and EUR 49 per month, or EUR 8 and EUR 33 per month billed annually.",
+      "free_plan": "Free",
+      "note": "Cascadeur describes 3D animation for character animation, mocap cleanup and AI motion generation, with Free, Pro, Business and Enterprise plans from Nekki Limited. It makes sense when a project moves from 2D sprites to 3D characters. Yearly plans include perpetual builds of released versions during the subscription, per its plans page.",
+      "sources": [
+        {
+          "fact": "Cascadeur's homepage describes it as 3D animation software for character animation, mocap cleanup, AI motion generation and editing.",
+          "url": "https://cascadeur.com"
+        },
+        {
+          "fact": "Cascadeur's plans page lists paid plans at EUR 19 per month and EUR 49 per month, or EUR 8 and EUR 33 per month billed annually.",
+          "url": "https://cascadeur.com/plans"
+        },
+        {
+          "fact": "Cascadeur's plans page says yearly Indie and Yearly Pro licences include perpetual licence builds of the released versions during the subscription.",
+          "url": "https://cascadeur.com/plans"
+        }
+      ]
+    },
+    {
+      "slug": "houdini",
+      "name": "Houdini",
+      "site": "https://www.sidefx.com/products/houdini/",
+      "best_for": "Procedural 3D, effects and pipelines",
+      "pricing": "Free trial available; Commercial, Indie and Education licenses are listed, with prices not readable in the captured text.",
+      "free_plan": "Free trial",
+      "note": "SideFX describes Houdini as 3D procedural software for modeling, rigging, animation, VFX and lighting across film, TV, advertising and game pipelines. It is not a drop-in Spine replacement. Consider it when the animation need is effects-driven, and treat the trial as the way to find out whether the licence tier fits.",
+      "sources": [
+        {
+          "fact": "SideFX's Houdini page describes Houdini as 3D procedural software for modelling, rigging, animation, VFX, look development, lighting and rendering in film, TV, advertising and video game pipelines.",
+          "url": "https://www.sidefx.com/products/houdini/"
+        },
+        {
+          "fact": "SideFX's Houdini page offers a free trial with the call to action 'Try Houdini for FREE'.",
+          "url": "https://www.sidefx.com/products/houdini/"
+        },
+        {
+          "fact": "SideFX's Houdini licensing menu lists Commercial, Indie and Education licences.",
+          "url": "https://www.sidefx.com/products/houdini/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Name your character style first. Anime-style illustrated characters point to Live2D Cubism. Interface and app motion points to Rive. Cheap sprite rigs with engine runtimes point to Spriter, and broadcast-style vector cartoons to Moho. If the next game is 3D, Blender, Cascadeur or Houdini are the realistic moves, in that order of cost. Whatever you choose, test the engine runtime you will ship with before buying, because runtime support differs more than editor features do.",
+  "faqs": [
+    {
+      "q": "Is Spine worth buying for a solo developer?",
+      "a": "Esoteric Software lists Spine Essential at $69 and Professional at $379 as one-time licenses with free future updates. That is a modest cost against subscription tools priced per seat per month, but a free option such as Spriter's free version is enough for a first prototype."
+    },
+    {
+      "q": "What happens when my studio grows past the revenue limit?",
+      "a": "The purchase page says businesses with more than $500,000 USD annual revenue require a Spine Enterprise license. Teams approaching that line should price the Enterprise tier before they commit to a pipeline built entirely around Spine."
+    },
+    {
+      "q": "Can Live2D Cubism replace Spine for games?",
+      "a": "Live2D offers an SDK for Unity, Native, Web, Java, Unreal Engine and Cocos Creator, so it can run in games. It animates layered illustrations, though, so platformer-style sprite sheets are a poorer match than portrait characters."
+    },
+    {
+      "q": "Which alternatives have a free tier?",
+      "a": "Rive is free to build with and adds a splash screen on free exports. Spriter has a free version, Cascadeur has a Free plan, and Houdini offers a free trial. Blender is distributed under the GPL per its manual."
+    },
+    {
+      "q": "Does Rive use the same pricing model as Spine?",
+      "a": "No. Rive charges per seat per month at its paid tiers, while Spine is a one-time license with free future updates. Over several years that difference can matter more than the sticker prices."
+    }
+  ]
+}

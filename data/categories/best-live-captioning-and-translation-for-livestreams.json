@@ -1,0 +1,508 @@
+{
+  "slug": "best-live-captioning-and-translation-for-livestreams",
+  "name": "live captioning and translation tools for livestreams",
+  "title": "Best Live Captioning and Translation Tools for Livestreams in 2026",
+  "group": "Live streaming (business)",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Live captioning and translation tools turn a stream's speech into on-screen text or interpreted audio in other languages while the event is running.",
+  "definition": "Live captioning and translation for livestreams converts spoken words into text within seconds, and can translate that text or speech into other languages using AI, human interpreters or both. The output appears as captions on the viewer's screen, a separate audio channel, or a text feed that a player can display.",
+  "intro": "Captions and translation decide whether a livestream reaches everyone who registered. Viewers watch muted at work, speak other languages, or rely on text for access, and a keynote without them quietly loses part of its audience. The tools here approach the job from three directions: turnkey interpreting and caption services, caption vendors with broadcast or accessibility roots, and speech APIs a developer wires into a player. We read each vendor's pages for product descriptions, pricing, language claims, certifications and company details, and did not test accuracy or latency ourselves. Language counts and security statements are the vendors' own. Ranking favors tools that document live use and language coverage, then those with clear prices, with turnkey services above building blocks for event teams without engineers.",
+  "criteria": [
+    {
+      "heading": "Human interpreters or machine only",
+      "text": "AI translation is quick and cheap, and human simultaneous interpretation handles nuance, humor and regulated content. Interprefy and KUDO offer both; Wordly describes an AI-only service; Rev lists human captions in English and Spanish. Decide by the stakes: a gaming community stream may accept AI, while a shareholder or legal broadcast may need a person on the line."
+    },
+    {
+      "heading": "Language coverage and where output appears",
+      "text": "KUDO states 200 languages on any device or platform. Other vendors give no count on the pages we read. Check whether translation arrives as captions inside the stream, as a separate audio channel, or in a listener app, since Interprefy offers a web platform and a mobile app, and Wordly works inside Zoom. Match the delivery method to how viewers watch."
+    },
+    {
+      "heading": "Fit with your streaming stack",
+      "text": "Turnkey services plug into meeting and event platforms; speech APIs need engineering. Speechmatics, Deepgram and AssemblyAI give you transcription to build around, while Wordly's Zoom integration and KUDO's meeting-platform integrations ask for less work. Also consider caption embedding in a broadcast chain, where Ai-Media's encoder heritage is relevant."
+    },
+    {
+      "heading": "Price visibility and trial credits",
+      "text": "Speechmatics lists $0.12 per hour with $100 of free credit, Deepgram a $200 credit and prepaid plans from $4,000 a year, and Otter plans from free to $30. The turnkey services mostly ask for a quote. Request prices per event hour and per language, and ask what a second language or a human interpreter adds."
+    }
+  ],
+  "market_notes": [
+    "Eleven tools, three kinds of vendor. Four deliver event translation and live captions as a service (Interprefy, KUDO, Wordly, Ai-Media), three sell captioning and transcription with accessibility or legal roots (Verbit, 3Play Media, Rev), three are speech APIs (Speechmatics, Deepgram, AssemblyAI) and one is a meeting notetaker (Otter). Only Speechmatics, Deepgram and Otter print dollar figures on the pages we read, and four tools offer free credits, a free plan or a free API trial: Speechmatics, Deepgram, AssemblyAI and Otter.",
+    "The trade-off is effort against control. APIs are cheap per hour and flexible, but your engineers own latency, display and language handling. Services take that work away and add interpreters, at a price you learn only on a sales call. We left out Microsoft Teams live events because Microsoft Learn says that format retired on June 30, 2026, and 3Play Media's pricing page returned a 404, so its entry rests on the homepage."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Name the languages and the stakes",
+      "text": "List the languages viewers actually use, from registration data if you have it, and decide which sessions can use machine output. A launch keynote may need a human interpreter in two languages and AI captions in ten more. Having this list ready turns vendor quotes from vague to comparable."
+    },
+    {
+      "title": "Decide where captions will appear",
+      "text": "Embedded captions in the video, a separate caption feed for the player, a listener app or Zoom's built-in translation each require different setup. Ask each vendor how output reaches your platform and what delay to expect. Test with the real stream key and the real speakers, because accents and product names are where errors cluster."
+    },
+    {
+      "title": "Price per event hour and plan the archive",
+      "text": "Ask for a rate per hour per language, and what rehearsals cost. Then decide how the recording gets proper subtitles afterward: Rev, Verbit and 3Play Media focus on recorded transcripts and captions, which can polish the on-demand version after the live event. Keep a custom vocabulary list for names and game terms in every case."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best live captioning and translation tool for livestreams in 2026?",
+      "a": "Interprefy is our first pick for multilingual events because it offers human simultaneous interpretation, AI translation and live captions with stated ISO 27001 certification. KUDO is better when you need the widest language range (200, per the vendor), and Wordly when the stream already runs in Zoom."
+    },
+    {
+      "q": "Are AI captions accurate enough for a livestream?",
+      "a": "Often for clear speech, less so with accents, jargon or crosstalk. We did not measure accuracy and vendors give no figures on the pages we read. Test with your own speakers and product names, and use a human service for high-stakes events."
+    },
+    {
+      "q": "How much does live translation cost?",
+      "a": "Event services such as Interprefy, KUDO and Wordly publish no prices on the pages we read. Speech APIs do: Speechmatics from $0.12 per hour and Deepgram with a $200 credit. Human interpreters add cost, so ask for a rate per hour per language."
+    },
+    {
+      "q": "Do I need a developer to add captions?",
+      "a": "Not for turnkey services; KUDO and Wordly integrate with meeting platforms. For Speechmatics, Deepgram or AssemblyAI, yes: you receive transcription through an API and must build the caption display and delay handling."
+    },
+    {
+      "q": "Can I get captions for a stream that is not on Zoom?",
+      "a": "Yes. KUDO states it works on any device or platform, Interprefy offers a web platform and mobile app, and the APIs accept audio from any source. Wordly's Zoom integration is the most platform-specific option in the list."
+    },
+    {
+      "q": "What about captions for the recording afterward?",
+      "a": "Rev lists human captions in English and Spanish, Verbit lists captioning, dubbing and translation, and 3Play Media lists captioning and localization. These suit the on-demand version, where you can fix names and timing before publishing."
+    },
+    {
+      "q": "Is Otter good for livestream captions?",
+      "a": "It is good for meeting transcripts: the free plan gives 300 monthly minutes and it works with Zoom, Teams and Google Meet. The pages we read do not describe translation for viewers, so it fits internal notes better than public captions."
+    }
+  ],
+  "related": [
+    "best-multistreaming-platforms",
+    "best-virtual-event-streaming-platforms-for-hybrid-events",
+    "best-webinar-platforms-for-product-launches"
+  ],
+  "tools": [
+    {
+      "slug": "interprefy",
+      "name": "Interprefy",
+      "site": "https://www.interprefy.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Remote simultaneous interpreting, AI translation and captions for events",
+      "best_for": "Multilingual live events with human interpreters",
+      "pricing": "Not stated on the pages opened; the homepage links to a pricing page that was not opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Interprefy Web Platform; Interprefy Mobile App; integrations",
+      "features": [
+        "Remote simultaneous interpretation",
+        "AI speech translation",
+        "Live captions",
+        "Web platform",
+        "Mobile app",
+        "Integrations"
+      ],
+      "summary": "Combines human interpreters and AI under one service, with security claims a corporate buyer can check.",
+      "verdict": "When a livestream has paying or regulated viewers, a single mistranslated line matters, and Interprefy lets the organizer choose between human simultaneous interpreters and AI speech translation inside one service. Live captions come from the same platform, and attendees can listen through a web platform or a mobile app. The vendor states ISO 27001 certification and end-to-end encryption, which helps a procurement team, and a Professional Services page covers interpreting staff. That mix of human and machine options earns the lead for events with several languages.",
+      "weaknesses": "No price appears on the pages we read, so budgeting needs a quote, and the cost of human interpreters is likely to be higher than AI alone. Headquarters and company details are not stated on the opened pages.",
+      "wrong_for": "A team that only wants cheap English captions on a stream should look at Otter or a speech API such as Deepgram.",
+      "sources": [
+        {
+          "fact": "Interprefy offers remote simultaneous interpretation, AI speech translation and live captions for multilingual events and meetings.",
+          "url": "https://www.interprefy.com/"
+        },
+        {
+          "fact": "Interprefy's Web Platform and Mobile App are two access modes for its service.",
+          "url": "https://www.interprefy.com/"
+        },
+        {
+          "fact": "Interprefy states that it is ISO 27001 certified and uses end-to-end encryption.",
+          "url": "https://www.interprefy.com/"
+        },
+        {
+          "fact": "Interprefy's homepage links to a pricing page.",
+          "url": "https://www.interprefy.com/"
+        }
+      ]
+    },
+    {
+      "slug": "kudo",
+      "name": "KUDO",
+      "site": "https://kudo.ai/",
+      "company": "KUDO Inc.",
+      "country": "",
+      "tagline": "Live speech translation and captions in 200 languages, AI or human",
+      "best_for": "Large multilingual meetings and hybrid events",
+      "pricing": "Plans and features sit on a separate page that could not be opened; the homepage asks visitors to request a demo.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Any device or platform; integrates with meeting and event platforms; in-person, online and hybrid",
+      "features": [
+        "AI speech translation",
+        "Live captions",
+        "Human interpretation",
+        "200 languages",
+        "Meeting platform integrations"
+      ],
+      "summary": "Widest stated language range in the group, with a human option beside the AI one.",
+      "verdict": "KUDO says its live translated speech and captions cover 200 languages on any device or platform, using either AI speech translation or professional human interpretation. For a livestream aimed at a global audience, such as a product keynote with viewers in many regions, the language range is the reason to look at it. It works with meeting and event platforms and handles in-person, online and hybrid sessions, and a partner and reseller program exists for agencies.",
+      "weaknesses": "The 200-language figure is the vendor's claim and quality per language is not documented on the page we read. Prices could not be read because the plans page did not open, and the homepage steers buyers to a demo.",
+      "wrong_for": "A buyer that wants security certifications spelled out should compare Interprefy first.",
+      "sources": [
+        {
+          "fact": "KUDO is a platform for live speech translation and captions, using AI speech translation or professional human interpretation.",
+          "url": "https://kudo.ai/"
+        },
+        {
+          "fact": "KUDO states that its live translated speech and captions cover 200 languages on any device or platform.",
+          "url": "https://kudo.ai/"
+        },
+        {
+          "fact": "KUDO's homepage links to a Plans and Features page and asks visitors to request a demo for pricing.",
+          "url": "https://kudo.ai/"
+        },
+        {
+          "fact": "KUDO Inc. is named in the copyright notice on its site.",
+          "url": "https://kudo.ai/about-us/"
+        }
+      ]
+    },
+    {
+      "slug": "wordly",
+      "name": "Wordly",
+      "site": "https://www.wordly.ai/",
+      "company": "",
+      "country": "",
+      "tagline": "AI translation, captions and summaries that run inside Zoom or on the web",
+      "best_for": "Teams adding translation to existing meetings",
+      "pricing": "Not shown on the opened pricing page, which lists products and contact options only.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Zoom integration; web platform",
+      "features": [
+        "Live translation",
+        "AI captioning",
+        "AI transcription",
+        "AI summaries",
+        "Audience engagement",
+        "Zoom translation"
+      ],
+      "summary": "AI-only service with a Zoom integration and extras such as summaries and Silent Theater.",
+      "verdict": "Wordly offers live AI translation, captioning, transcription and summaries, and it integrates with Zoom, so a webinar already on Zoom can add multilingual viewers without changing the stream. The product list also includes Caption Bridge, Silent Theater and Sponsor Logos, which hints at conference use where audiences listen on their own devices and sponsors want visibility. Audience engagement features sit beside translation. It ranks third because it names concrete products, yet its pricing page withholds figures.",
+      "weaknesses": "Everything described is AI-driven, so no human interpreter option is listed on the pages we read. No price is shown and the page offers only a contact link.",
+      "wrong_for": "If a human interpreter is required for a regulated or high-stakes broadcast, use Interprefy or KUDO.",
+      "sources": [
+        {
+          "fact": "Wordly is a provider of AI translation, captions and audience engagement for meetings and events.",
+          "url": "https://www.wordly.ai/"
+        },
+        {
+          "fact": "Wordly's product list includes live translation, AI captioning, AI transcription, AI summaries and Zoom translation.",
+          "url": "https://www.wordly.ai/pricing"
+        },
+        {
+          "fact": "The Wordly pricing page does not show prices in the text that could be read; it offers a contact link.",
+          "url": "https://www.wordly.ai/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "ai-media",
+      "name": "Ai-Media",
+      "site": "https://www.ai-media.tv/",
+      "company": "",
+      "country": "",
+      "tagline": "Captioning and translation built from broadcast caption encoder technology",
+      "best_for": "Broadcast-grade live captions",
+      "pricing": "Not stated on the pages opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "AI captioning",
+        "Live captions",
+        "Translation",
+        "Broadcast captioning"
+      ],
+      "summary": "Broadcast heritage, serving television, corporate, education and event customers.",
+      "verdict": "Ai-Media describes AI-powered captioning technology from automated captions through translation, and says its EEG caption encoder technology is the basis for its broadcast captioning. A livestream that must be sent into a television chain or a streaming encoder with embedded captions is the reasoning for putting it fourth. The homepage lists broadcast, corporate, education and event sectors, so one vendor can serve both the studio feed and the corporate webinar.",
+      "weaknesses": "The pages we read give no price, free plan, language count or accuracy statement, and no company details are recorded. It is less clear for a small team that just wants to turn on captions.",
+      "wrong_for": "A small team that wants to start free should consider Otter or the free credits at Speechmatics.",
+      "sources": [
+        {
+          "fact": "Ai-Media provides AI-powered captioning technology and solutions, from automated captioning to translation.",
+          "url": "https://www.ai-media.tv/"
+        },
+        {
+          "fact": "Ai-Media describes its EEG caption encoder technology as the basis of its captioning for broadcast.",
+          "url": "https://www.ai-media.tv/"
+        },
+        {
+          "fact": "Ai-Media serves broadcast, corporate, education and event sectors, according to its homepage.",
+          "url": "https://www.ai-media.tv/"
+        }
+      ]
+    },
+    {
+      "slug": "verbit",
+      "name": "Verbit",
+      "site": "https://verbit.ai/",
+      "company": "",
+      "country": "",
+      "tagline": "Captioning, transcription, dubbing and translation across several sectors",
+      "best_for": "Teams combining live and recorded captions",
+      "pricing": "Custom plans; the plans page describes pricing tailored to the customer, with no amounts in the readable text.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Captioning",
+        "Transcription",
+        "Audio description",
+        "Dubbing",
+        "Translation",
+        "Live captioning"
+      ],
+      "summary": "Wide service list, from live captions to dubbing, but sold through custom plans.",
+      "verdict": "Verbit sells AI-based transcription and captioning to law firms, courts, media, higher education and corporations, and lists live captioning with audio description, dubbing, note taking and translation. That breadth fits a company whose livestream archive also needs polished transcripts and translated versions later. The products Captivate, Legal Visor and Campus Complete show the audiences it targets, and custom plans let a buyer shape scope.",
+      "weaknesses": "Prices are not published and customization means a sales process. The focus on legal and education may be heavier than a game studio's keynote needs, and the page we read does not list live languages.",
+      "wrong_for": "Developers who want to wire captions into their own player should look at the APIs from Deepgram or AssemblyAI.",
+      "sources": [
+        {
+          "fact": "Verbit provides AI-based transcription and captioning services aimed at law firms, courts, media, higher education and corporates.",
+          "url": "https://verbit.ai/"
+        },
+        {
+          "fact": "Verbit's plans page describes custom plans with pricing tailored to the customer.",
+          "url": "https://verbit.ai/plans/"
+        },
+        {
+          "fact": "Verbit lists captioning, transcription, audio description, dubbing, note taking and translation among its core capabilities.",
+          "url": "https://verbit.ai/"
+        }
+      ]
+    },
+    {
+      "slug": "3play-media",
+      "name": "3Play Media",
+      "site": "https://www.3playmedia.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Captioning, audio description and localization with AI plus human review",
+      "best_for": "Accessibility-driven video programs",
+      "pricing": "No price recorded; the pricing URL we tried returned HTTP 404.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Captioning",
+        "Transcription",
+        "Localization"
+      ],
+      "summary": "Compliance-minded vendor whose homepage promises AI output perfected by humans.",
+      "verdict": "3Play Media's homepage describes a video content platform powered by responsible AI and perfected by humans, with captioning, transcription, audio description and localization to take video global. For a livestream followed by an on-demand library that must meet accessibility needs, the human review layer is the pitch. It earns a middle slot because documented detail is thin: our facts rest on the homepage alone.",
+      "weaknesses": "The pricing page returned a 404 error and the homepage gives no price, language list or live-captioning specifics, so this entry is the least verifiable. Judge it on a direct quote.",
+      "wrong_for": "A team needing documented per-hour costs should use Speechmatics or Deepgram, whose pages publish them.",
+      "sources": [
+        {
+          "fact": "3Play Media is a video content platform whose homepage says it is powered by responsible AI and perfected by humans.",
+          "url": "https://www.3playmedia.com/"
+        },
+        {
+          "fact": "3Play Media's homepage describes its goal as taking video content global, which points to captioning and localization services.",
+          "url": "https://www.3playmedia.com/"
+        },
+        {
+          "fact": "The 3Play Media pricing URL returned HTTP 404, so no pricing is recorded.",
+          "url": "https://www.3playmedia.com/"
+        }
+      ]
+    },
+    {
+      "slug": "speechmatics",
+      "name": "Speechmatics",
+      "site": "https://www.speechmatics.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Speech-to-text API for multiple speakers, accents and languages",
+      "best_for": "Developers building captions into a player",
+      "pricing": "Speech to text from $0.12 per hour (pay as you go by model); $100 in free credits to start with no card required; custom enterprise pricing through sales.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free",
+      "platforms": "API",
+      "features": [
+        "Speech to text API",
+        "Multilingual speech",
+        "Multiple speakers",
+        "Accent handling"
+      ],
+      "summary": "A published hourly rate and free credits make it easy to test caption quality before committing.",
+      "verdict": "Speechmatics is an API, so a developer team can feed a stream's audio in and show captions in its own player or overlay. The vendor builds for conversations with several speakers and mixed accents and languages, which resembles a panel stream. The pricing page lists speech to text from $0.12 an hour and $100 of free credits without a card, which is rare transparency in this group. Enterprise terms go through sales.",
+      "weaknesses": "It is a building block, not a finished captioning service: no human interpreters, no event dashboard and no translation product are described on the pages we read. A developer must integrate it.",
+      "wrong_for": "A producer without engineers should pick a turnkey service such as Wordly or Interprefy.",
+      "sources": [
+        {
+          "fact": "Speechmatics builds speech-to-text APIs for voice AI and real conversations with multiple speakers and multilingual speech.",
+          "url": "https://www.speechmatics.com/"
+        },
+        {
+          "fact": "Speechmatics' pricing page states speech to text from $0.12 per hour.",
+          "url": "https://www.speechmatics.com/pricing"
+        },
+        {
+          "fact": "Speechmatics' pricing page says it offers $100 in free credits with no card required, and custom enterprise pricing through sales.",
+          "url": "https://www.speechmatics.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "deepgram",
+      "name": "Deepgram",
+      "site": "https://deepgram.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Voice AI APIs for speech-to-text, text-to-speech and agents",
+      "best_for": "Engineering teams wanting prepaid volume",
+      "pricing": "Free $200 credit, then pay as you go with no minimums or expiration and no card to start; pre-paid credits for the year from $4,000 or more per year.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "API",
+      "features": [
+        "Speech-to-text API",
+        "Text-to-speech API",
+        "Voice agent API",
+        "Audio intelligence"
+      ],
+      "summary": "Larger free starting credit than its peers and a prepaid annual route for heavy volume.",
+      "verdict": "Deepgram's pricing page offers a free $200 credit that has no expiration, followed by pay-as-you-go use, and a pre-paid annual path starting at $4,000 per year for steady volume. It supplies speech-to-text, text-to-speech and voice agent APIs, so a team can build captions today and spoken translation output later. An engineering group with a custom player and many hours of streams has a clear cost path.",
+      "weaknesses": "Like other APIs here it is not a product that a producer can switch on; someone has to build the caption display, language handling and delay management. The facts say nothing about live translation of text.",
+      "wrong_for": "Non-technical event teams should pick Wordly, KUDO or Interprefy.",
+      "sources": [
+        {
+          "fact": "Deepgram offers speech-to-text, text-to-speech and voice agent APIs for enterprise voice AI.",
+          "url": "https://deepgram.com/"
+        },
+        {
+          "fact": "Deepgram's pricing page states a free $200 credit, then pay-as-you-go pricing with no card required to start.",
+          "url": "https://deepgram.com/pricing"
+        },
+        {
+          "fact": "Deepgram's pricing page lists pre-paid credits for the year from $4,000+ per year.",
+          "url": "https://deepgram.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "assemblyai",
+      "name": "AssemblyAI",
+      "site": "https://www.assemblyai.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Speech transcription and understanding models offered as an API",
+      "best_for": "Developers who want a free trial of the API",
+      "pricing": "Pay-as-you-go pricing by product; the API can be tried for free and custom plans go through sales.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "API",
+      "features": [
+        "Speech-to-text API",
+        "Text-to-speech",
+        "Audio intelligence",
+        "API reference"
+      ],
+      "summary": "Another developer path, with understanding features beyond pure transcription.",
+      "verdict": "AssemblyAI provides models that transcribe and understand speech through an API, with audio intelligence features and a text-to-speech model for voice agents. A team captioning its own stream or indexing a livestream archive by topic could use it. The pricing page describes pay-as-you-go pricing by product and invites a free trial of the API, so the first test costs nothing.",
+      "weaknesses": "The page we read gives no dollar rates, so cost per hour is unknown until you check the pricing by product. It does not describe interpreters, event dashboards or live translation.",
+      "wrong_for": "Teams without developers should choose KUDO or Wordly.",
+      "sources": [
+        {
+          "fact": "AssemblyAI provides AI models to transcribe and understand speech, offered through an API.",
+          "url": "https://www.assemblyai.com/"
+        },
+        {
+          "fact": "AssemblyAI's pricing page describes pay-as-you-go pricing by product, with the option to try the API for free or contact sales for a custom plan.",
+          "url": "https://www.assemblyai.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "rev",
+      "name": "Rev",
+      "site": "https://www.rev.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Human and AI transcription and captioning with a legal service",
+      "best_for": "Post-event transcripts and captions in English or Spanish",
+      "pricing": "No price in the facts recorded.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Web platform",
+      "features": [
+        "Transcript editor",
+        "Clipping",
+        "Human captions",
+        "Legal transcription"
+      ],
+      "summary": "Better for recorded sessions than for live translation; human captions are limited to two languages.",
+      "verdict": "Rev lists a transcript editor, clipping and human captions, and the homepage says its human captions come in English and Spanish and that formatted legal transcripts arrive in three days or less. After a livestream ends, a studio can turn the recording into captions and clean transcripts for the on-demand version. The editor and clipping tools help repurpose the session.",
+      "weaknesses": "The pages we read do not describe live captioning or real-time translation, and prices were not recorded. Human captions are stated only in English and Spanish, and the platform is oriented toward legal and investigative work.",
+      "wrong_for": "Teams that need live multilingual output should use KUDO or Interprefy.",
+      "sources": [
+        {
+          "fact": "Rev is a platform for investigative intelligence and legal transcription, with transcription and captioning services.",
+          "url": "https://www.rev.com/"
+        },
+        {
+          "fact": "Rev's homepage states that its human captions are available in English and Spanish.",
+          "url": "https://www.rev.com/"
+        },
+        {
+          "fact": "Rev's homepage states that formatted legal transcripts are delivered in 3 days or less.",
+          "url": "https://www.rev.com/"
+        }
+      ]
+    },
+    {
+      "slug": "otter",
+      "name": "Otter",
+      "site": "https://otter.ai/",
+      "company": "",
+      "country": "",
+      "tagline": "AI meeting notetaker with live transcription for Zoom, Teams and Meet",
+      "best_for": "Small teams who want captions at low cost",
+      "pricing": "Free plan with 300 monthly transcription minutes; Pro $16.99 per user per month; Business $30 (and $24 on the other billing option); Enterprise on request.",
+      "pricing_model": "Per user / month",
+      "free_plan": "Free",
+      "platforms": "Works with Zoom, MS Teams and Google Meet",
+      "features": [
+        "Meeting transcription",
+        "Notetaker",
+        "Live Assist",
+        "Work Mode",
+        "Team vocabulary",
+        "CRM sync"
+      ],
+      "summary": "Cheapest way to start with transcripts, built for meetings rather than public livestreams.",
+      "verdict": "Otter is a notetaker that transcribes Zoom, Microsoft Teams and Google Meet sessions, with a free plan of 300 monthly minutes and Pro at $16.99 per user per month. For a small team streaming a webinar through one of those tools, it adds a transcript and notes at low cost, and team vocabulary helps with product names. It lands last because the facts describe meetings, not public livestream captions or translation.",
+      "weaknesses": "The pages describe transcription and notes, not translation into other languages or captions for viewers on a stream. Free minutes run out quickly for long events, and per-user pricing grows with team size.",
+      "wrong_for": "If viewers need captions in several languages, pick KUDO, Interprefy or Wordly.",
+      "sources": [
+        {
+          "fact": "Otter is an AI meeting agent that provides a notetaker, transcription and insights for meetings.",
+          "url": "https://otter.ai/"
+        },
+        {
+          "fact": "Otter's Free plan includes 300 monthly transcription minutes and works with Zoom, MS Teams and Google Meet.",
+          "url": "https://www.otter.ai/pricing"
+        },
+        {
+          "fact": "Otter's Pro plan is listed at $16.99 per user per month on its pricing page.",
+          "url": "https://www.otter.ai/pricing"
+        },
+        {
+          "fact": "Otter's Business plan is listed at $30 on its pricing page, with a $24 figure shown for the other billing option.",
+          "url": "https://www.otter.ai/pricing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+ {
+  "slug": "edgegap",
+  "name": "Edgegap",
+  "status": "verified",
+  "site": "https://edgegap.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "An automated game server hosting and orchestration service for any engine and service.",
+  "platforms": "615+ edge cloud locations; 58 bare metal locations",
+  "pricing": "Edge cloud $0.00115 per vCPU per minute, billed on usage; Private Fleet bare metal $0.0261 per vCPU per hour ($280 per host per month on a 12 month rate, $350 monthly).",
+  "pricing_model": "Usage-based",
+  "free_plan": "Free trial",
+  "key_features": [
+   "Edge cloud",
+   "Private fleets",
+   "Matchmaking",
+   "Server browser"
+  ],
+  "notable": [],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "The homepage describes Edgegap as an automated game server hosting and orchestration service for any engine and service.",
+    "url": "https://edgegap.com/"
+   },
+   {
+    "fact": "The pricing page lists edge cloud at $0.00115 per vCPU per minute, billed by the minute on usage, across 615+ locations, with $0.10 per GB of monthly egress and deployments from 0.25 to 4 vCPU.",
+    "url": "https://edgegap.com/pricing"
+   },
+   {
+    "fact": "The pricing page lists Private Fleet (bare metal) reserved capacity at $0.0261 per vCPU per hour, or $280 per host per month on a 12 month rate and $350 monthly, with 16 vCPU per host (14.7 usable), 58 locations and 6 TB of egress included per host per month.",
+    "url": "https://edgegap.com/pricing"
+   },
+   {
+    "fact": "The free trial on the pricing page is $0 with no credit card and offers 1.5 vCPU, 1 app with 2 versions and usage caps.",
+    "url": "https://edgegap.com/pricing"
+   },
+   {
+    "fact": "The pricing page lists reserved Private Fleet commitments of 1, 6 or 12 months and automatic overflow to edge cloud.",
+    "url": "https://edgegap.com/pricing"
+   }
+  ]
+ }
+]

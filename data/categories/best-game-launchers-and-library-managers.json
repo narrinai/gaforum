@@ -1,0 +1,469 @@
+{
+  "slug": "best-game-launchers-and-library-managers",
+  "name": "game launchers and library managers",
+  "title": "Best Game Launchers and Library Managers in 2026",
+  "group": "Gaming-adjacent",
+  "hub": "games",
+  "summary_line": "Game launchers and library managers start, update and organize PC games, and the best ones merge libraries from several stores into one list.",
+  "definition": "A game launcher is the desktop app a store or publisher uses to download, update and start its games. A library manager sits above the stores and merges several launchers' collections into one searchable list, often with playtime, tags and controller-friendly screens. Some tools also handle emulators or a single game such as Minecraft.",
+  "intro": "A player with games in five stores ends up with five apps, five friend lists and five update queues. A developer testing a release has the opposite chore: checking how the game installs and launches in each store's client. This ranking covers ten programs that answer different halves of that problem, from open source aggregators to the stores' own launchers. We read vendor homepages, FAQs, download pages and license statements, and did not install or run them. Claims about features are the vendors' own. The order favors tools that bring several stores together and state clearly what they cost, so single-store clients land lower, and one tool built for a single game ranks last because its scope is narrow by design.",
+  "criteria": [
+    {
+      "heading": "How many stores it merges",
+      "text": "The main promise of a library manager is one list. Playnite links games from Steam, Epic, Origin, GOG, Battle.net, Ubisoft Connect and other services, even games that are not installed. GOG Galaxy combines multiple libraries and connects friends across platforms, consoles included. Heroic covers Epic, GOG and Amazon Prime Games, and Lutris reaches Steam, Epic, GOG and Humble Bundle on Linux. Store clients such as Battle.net or the EA app show only their own catalogs."
+    },
+    {
+      "heading": "Operating system and Steam Deck fit",
+      "text": "Platform decides more than preference. Heroic lists Linux, Windows, macOS and the Steam Deck. Lutris is Linux only. Battle.net is offered for Windows, Mac and mobile, and the Ubisoft Connect desktop app targets PC. Playnite's homepage did not state platforms in the facts we read. Pick on the machine you actually play on, since a manager that does not run there is not a solution at all."
+    },
+    {
+      "heading": "Openness and cost",
+      "text": "Most aggregators are free and open source: Playnite, Heroic and Lutris. LaunchBox is free to download with a paid Premium license at $15 per year for updates or $45 for a forever-updates license. Store clients are free to install, but their games are sold separately. Open source also matters to a studio that wants to inspect behavior or add plugins, which Playnite offers through extensions."
+    },
+    {
+      "heading": "Beyond PC stores",
+      "text": "Some collections are not store purchases. LaunchBox manages DOSBox, emulators and arcade cabinet setups with a box-art database, and Playnite lists emulation support. A preservation-minded or retro player should weigh this heavily. Prism Launcher goes the other way, managing multiple Minecraft instances, accounts and mods. Decide early whether your library is modern store games, retro titles, a single moddable game, or a mix."
+    }
+  ],
+  "market_notes": [
+    "Six of the ten tools are free and open source or plainly free: Playnite, Heroic, Lutris, Prism Launcher, Ubisoft Connect and Battle.net. LaunchBox is the one aggregator with a stated paid tier, with a free download and a Premium license from $15 per renewal. Steam, GOG Galaxy and the EA app show no client price on the pages we read, since they are free clients attached to game stores. Only Heroic and Lutris clearly serve Linux, and only Playnite and GOG Galaxy explicitly describe one list across many stores in their own words.",
+    "The tension in this niche is between convenience and dependence. Aggregators read other stores' libraries through integrations, so a change on the store side can break an import until the plugin catches up. Store launchers are reliable for their own games but fragment a library. Social features also split: Steam, GOG Galaxy and Ubisoft Connect each keep their own friends, chat or rewards. Players who value one friend list tend to stay inside one ecosystem, while collectors who value one catalog accept some upkeep."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Count your stores and your platforms",
+      "text": "List every store where you own games and every device you play on. If you own games in four or more stores on Windows, an aggregator such as Playnite or GOG Galaxy pays off. If you play on Linux or a Steam Deck, start with Heroic or Lutris. A one-store library needs no aggregator; the store's own client is the simplest answer."
+    },
+    {
+      "title": "Decide how much tinkering you accept",
+      "text": "Open source managers reward patience: themes, extensions, plugins and a fullscreen mode exist, but updates to integrations occasionally break. A store client is quiet but narrow. Be honest about whether you will keep a plugin working. If not, a client like GOG Galaxy, which describes a combined library as a core feature, may suit you better."
+    },
+    {
+      "title": "Test the import with your real library",
+      "text": "Install one or two candidates and import a few hundred games before moving everything. Check that installed and uninstalled games both appear, that playtime and tags survive, and that the controller or fullscreen mode works if you play from a couch. Because Playnite can link games that are not installed, test those first. Keep the store clients installed anyway, since many aggregators launch through them."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best game launcher and library manager in 2026?",
+      "a": "Playnite is our first pick because it is completely free, open source and imports Steam, Epic, Origin, GOG, Battle.net and Ubisoft Connect libraries into one interface, with themes, extensions and a fullscreen mode with controller support. GOG Galaxy is better if you want friends across platforms, and Heroic is better on Linux or the Steam Deck."
+    },
+    {
+      "q": "Can one app show Steam, Epic and GOG games together?",
+      "a": "Yes. Playnite links games from Steam, Epic, GOG and other services, and GOG Galaxy says it combines multiple game libraries into one. Lutris lists access to Steam, Epic Games Store, GOG and Humble Bundle libraries on Linux. Games still usually launch through the original store client, so keep those installed."
+    },
+    {
+      "q": "What is the best launcher for Linux or Steam Deck?",
+      "a": "Heroic is a free and open source launcher for Epic, GOG and Amazon Prime Games that lists Linux, Windows, macOS and the Steam Deck, under GPLv3. Lutris is an open source gaming platform for Linux with emulators and compatibility layers. Both are free; Heroic covers more operating systems."
+    },
+    {
+      "q": "Is Playnite really free?",
+      "a": "Yes. The Playnite homepage describes it as completely free and open source, with Steam, Epic, Origin, GOG, Battle.net and Ubisoft Connect importers, emulation support, themes and a playtime counter. It can run from portable storage, which suits a USB drive or a test machine."
+    },
+    {
+      "q": "What is LaunchBox for?",
+      "a": "LaunchBox is a portable, box-art-based games database and launcher for DOSBox, emulators, arcade cabinets and PC games, made by Unbroken Software, LLC. The Windows version is free to download, with a Premium license renewable for $15 for another year of updates or upgradeable for $45 to forever updates."
+    },
+    {
+      "q": "Do I still need Battle.net, the EA app or Ubisoft Connect?",
+      "a": "For games sold through those publishers, usually yes. Battle.net launches Blizzard games and lists a free download with free-to-play titles. Ubisoft Connect is a free service needing a Ubisoft account, and the EA app downloads and runs EA games. Aggregators can list those games, but they typically rely on the original client to install them."
+    },
+    {
+      "q": "Is Prism Launcher a general game launcher?",
+      "a": "No. Prism Launcher is an open source Minecraft launcher that manages multiple instances, accounts and mods, and installs and updates mods through Modrinth and CurseForge. It belongs here for readers who run many modded Minecraft setups, but it will not organize a general PC game library."
+    }
+  ],
+  "related": [
+    "best-hardware-monitoring-and-overclocking-software",
+    "best-pc-benchmarking-software",
+    "best-mod-managers-for-pc-games",
+    "best-remote-play-and-game-streaming-software",
+    "best-ugc-and-modding-platforms",
+    "best-game-payment-and-web-shop-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "playnite",
+      "name": "Playnite",
+      "site": "https://playnite.link/",
+      "company": "",
+      "country": "",
+      "tagline": "Open source manager that merges every store",
+      "best_for": "One library across many PC stores",
+      "pricing": "Completely free. Playnite is open source.",
+      "pricing_model": "Open source",
+      "free_plan": "Free",
+      "platforms": "",
+      "features": [
+        "Import of Steam, Epic, Origin, GOG, Battle.net and Ubisoft Connect libraries",
+        "Emulation support",
+        "Themes",
+        "Extensions and plugins",
+        "Fullscreen mode with controller support",
+        "Playtime counter"
+      ],
+      "summary": "Playnite is free and open source, imports from Steam, Epic, Origin, GOG, Battle.net and Ubisoft Connect, and adds themes and extensions.",
+      "verdict": "Playnite does the central job best: it puts every store's games in one interface. Its homepage lists import of Steam, Epic, Origin, GOG, Battle.net and Ubisoft Connect libraries, emulation support, themes, extensions and plugins, a fullscreen mode with controller support and a playtime counter. It can link games that are not installed and can run from portable storage. With a stated price of nothing and open source code, there is little barrier to trying it.",
+      "weaknesses": "The pages we read state no platform list, and the integrations depend on plugins keeping pace with store changes. Playnite is a manager, not a store, so friend lists and purchases still happen in the original clients.",
+      "wrong_for": "Linux and Steam Deck players should look at Heroic or Lutris, and anyone wanting friend chat should consider GOG Galaxy.",
+      "sources": [
+        {
+          "fact": "Playnite is an open source video game library manager with one simple goal: a unified interface for all of your games.",
+          "url": "https://playnite.link/"
+        },
+        {
+          "fact": "Playnite can link games from Steam, Epic, Origin, GOG, Battle.net, Ubisoft Connect and other services, including games that are not installed.",
+          "url": "https://playnite.link/"
+        },
+        {
+          "fact": "The homepage describes Playnite as completely free.",
+          "url": "https://playnite.link/"
+        }
+      ]
+    },
+    {
+      "slug": "gog-galaxy",
+      "name": "GOG Galaxy",
+      "site": "https://www.gog.com/galaxy",
+      "company": "GOG sp. z o.o.",
+      "country": "",
+      "tagline": "GOG client that combines libraries and friends",
+      "best_for": "Players who want one list plus cross-platform friends",
+      "pricing": "Pricing for the GOG Galaxy client is not stated on the opened page. The GOG store sells DRM-free games with a 30-day money-back guarantee.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Combined game library",
+        "Friends across platforms",
+        "Cross-platform library view"
+      ],
+      "summary": "GOG Galaxy combines multiple game libraries into one and connects friends across platforms, consoles included.",
+      "verdict": "GOG Galaxy attaches a social layer to the combined library idea. GOG says it allows players to combine multiple game libraries into one and connect with friends across all gaming platforms, consoles included. The GOG store behind it sells DRM-free games for Windows, Mac and Linux with a 30-day money-back guarantee. For someone already buying from GOG, the client is a natural home base. It sits second because it is a store-owned client, and the pages we read show no open source code or theme system.",
+      "weaknesses": "The price of the client itself is not stated on the opened page. The library view depends on GOG's own integrations, and the pages we read give no detail on customization, themes or emulator support.",
+      "wrong_for": "Players who want open source themes and emulation should pick Playnite; Linux users should choose Heroic.",
+      "sources": [
+        {
+          "fact": "GOG GALAXY allows you to combine multiple game libraries into one and connect with your friends across all gaming platforms, consoles included.",
+          "url": "https://www.gog.com/galaxy"
+        },
+        {
+          "fact": "The GOG homepage describes its catalogue as DRM-free, for Windows, Mac and Linux, with a 30-day money-back guarantee.",
+          "url": "https://www.gog.com/en/"
+        },
+        {
+          "fact": "The copyright notice on the GOG about page is held by GOG sp. z o.o.",
+          "url": "https://www.gog.com/about_gog"
+        }
+      ]
+    },
+    {
+      "slug": "heroic-games-launcher",
+      "name": "Heroic Games Launcher",
+      "site": "https://heroicgameslauncher.com",
+      "company": "",
+      "country": "",
+      "tagline": "Free launcher for Epic, GOG and Amazon on Linux",
+      "best_for": "Steam Deck and Linux players with Epic or GOG libraries",
+      "pricing": "Free. The homepage says there is no paid tier, and the FAQ says Heroic is completely free to use.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Linux, Windows, macOS, Steam Deck",
+      "features": [
+        "Epic, GOG and Amazon Prime Games support",
+        "Linux, Windows and macOS builds",
+        "Steam Deck support",
+        "Custom themes",
+        "40+ languages",
+        "GPLv3 license"
+      ],
+      "summary": "Heroic is a free GPLv3 launcher for Epic, GOG and Amazon Prime Games on Linux, Windows, macOS and the Steam Deck.",
+      "verdict": "Heroic fills the gap that store clients leave on Linux. The homepage describes a free and open source launcher for Epic, GOG and Amazon Prime Games for Linux, Windows and macOS, also available on the Steam Deck, with custom themes and more than 40 languages. The FAQ says it is completely free and licensed under GPLv3, and the homepage states there is no paid tier. It claims 20M+ downloads and 500K+ monthly users, per the vendor.",
+      "weaknesses": "It covers three stores, not every one, and Steam is not among its named services. The usage figures are the vendor's own, and a free community project offers no formal support desk.",
+      "wrong_for": "Players with many other stores in the mix should use Playnite; Lutris reaches Steam and Humble Bundle on Linux.",
+      "sources": [
+        {
+          "fact": "Heroic is a free and open source Epic, GOG and Amazon Prime Games launcher for Linux, Windows and macOS, also available on the Steam Deck.",
+          "url": "https://heroicgameslauncher.com"
+        },
+        {
+          "fact": "The FAQ says Heroic is completely free to use, and the homepage says it has no paid tier.",
+          "url": "https://heroicgameslauncher.com/faq"
+        },
+        {
+          "fact": "Heroic is licensed under the GNU General Public License v3.0, according to the FAQ.",
+          "url": "https://heroicgameslauncher.com/faq"
+        }
+      ]
+    },
+    {
+      "slug": "lutris",
+      "name": "Lutris",
+      "site": "https://lutris.net",
+      "company": "",
+      "country": "",
+      "tagline": "Open source Linux gaming platform with many sources",
+      "best_for": "Linux players mixing stores, emulators and Wine",
+      "pricing": "Free and open source. The homepage says Lutris is built only using open source technology, and it has a Donate link.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Linux",
+      "features": [
+        "Access to Steam, Epic Games Store, GOG and Humble Bundle libraries",
+        "Emulators and compatibility layers",
+        "Game engine re-implementations",
+        "Donation support"
+      ],
+      "summary": "Lutris installs and launches games on Linux from Steam, Epic, GOG and Humble Bundle libraries, with emulators and compatibility layers.",
+      "verdict": "For Linux players with a messy collection, Lutris offers the broadest reach. The homepage presents an open source gaming platform that installs and launches games so players can start without setting up each one manually, with direct access to Steam, Epic Games Store, GOG and Humble Bundle libraries, plus emulators, compatibility layers and game engine re-implementations. It frames itself as a video game preservation platform and is built only with open source technology.",
+      "weaknesses": "It is Linux only, so Windows and Mac players cannot use it. A Donate link suggests community funding rather than a company, and the pages we read include no support terms.",
+      "wrong_for": "Windows and Mac players should choose Playnite or Heroic respectively, which list those platforms.",
+      "sources": [
+        {
+          "fact": "Lutris is an open source gaming platform for Linux that installs and launches games so players can start without setting up each game manually.",
+          "url": "https://lutris.net"
+        },
+        {
+          "fact": "Lutris gives direct access to Steam, Epic Games Store, GOG and Humble Bundle game libraries from the Lutris client.",
+          "url": "https://lutris.net"
+        },
+        {
+          "fact": "The homepage says Lutris is built only using open source technology and provides emulators and compatibility layers.",
+          "url": "https://lutris.net"
+        }
+      ]
+    },
+    {
+      "slug": "steam",
+      "name": "Steam",
+      "site": "https://store.steampowered.com",
+      "company": "Valve Corporation",
+      "country": "",
+      "tagline": "Valve's game store with community and broadcast features",
+      "best_for": "Players whose library is mostly on Steam",
+      "pricing": "No prices are shown on the pages opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Game store",
+        "Community discussions",
+        "Workshop",
+        "Market",
+        "Broadcasts",
+        "Remote Play"
+      ],
+      "summary": "Steam is Valve's digital store and community platform, with workshop, market, broadcasts and Remote Play, but only for its own catalog.",
+      "verdict": "Steam is the default launcher for many PC players, and its pages show why: a store with discovery queue and wishlist, community discussions, a Workshop, a Market and Broadcasts, plus Remote Play and a mobile app. It is operated by Valve Corporation, per the Remote Play page copyright. If most of your games live here, nothing else is required. It ranks mid-table because it manages Steam games only and does not merge other stores' libraries.",
+      "weaknesses": "The pages we read show no prices for the client, and no feature for importing other stores. Friends, chat and purchases stay inside Steam, so a multi-store collector still needs another tool.",
+      "wrong_for": "Collectors with games across several stores should use Playnite or GOG Galaxy as the overview.",
+      "sources": [
+        {
+          "fact": "The Steam store home page is titled Welcome to Steam and lists the store, discovery queue, wishlist and community sections.",
+          "url": "https://store.steampowered.com"
+        },
+        {
+          "fact": "The Steam store links to Discussions, Workshop, Market and Broadcasts under its Community menu.",
+          "url": "https://store.steampowered.com"
+        },
+        {
+          "fact": "The Steam Remote Play page is copyright Valve Corporation.",
+          "url": "https://store.steampowered.com/remoteplay"
+        }
+      ]
+    },
+    {
+      "slug": "launchbox",
+      "name": "LaunchBox",
+      "site": "https://www.launchbox-app.com/",
+      "company": "Unbroken Software, LLC",
+      "country": "",
+      "tagline": "Box-art launcher for emulators, DOSBox and PC games",
+      "best_for": "Retro and emulation collections",
+      "pricing": "LaunchBox for Windows is available for free download. The Premium license can be renewed for $15 for another year of updates, or upgraded for $45 to a never-expiring forever-updates license.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Windows and Android",
+      "features": [
+        "Box-art game database",
+        "Emulator and DOSBox frontend",
+        "Arcade cabinet support",
+        "Genre, platform, ESRB and developer filters",
+        "Custom status and source fields"
+      ],
+      "summary": "LaunchBox is a portable box-art games database and launcher for DOSBox, emulators and arcade cabinets, free with a paid Premium license.",
+      "verdict": "Retro collectors get more from LaunchBox than from any store client. Unbroken Software, LLC describes a portable, box-art-based games database and launcher for DOSBox, emulators, arcade cabinets and PC games, with filters for genre, platform, ESRB and developer and custom status and source fields. The Windows version is free to download, Premium renews at $15 per year of updates or upgrades for $45 to a forever-updates license, and an Android version is listed.",
+      "weaknesses": "The page we read does not describe Steam, Epic or GOG importers in detail, so modern store libraries are not its focus. The Premium tier adds a recurring cost for updates unless you pay the one-time upgrade.",
+      "wrong_for": "Players whose collection is mostly modern store games should choose Playnite, which lists store importers.",
+      "sources": [
+        {
+          "fact": "LaunchBox is a portable, box-art-based games database and launcher for DOSBox, emulators, arcade cabinets and PC games.",
+          "url": "https://www.launchbox-app.com/"
+        },
+        {
+          "fact": "LaunchBox for Windows is available for free download from the vendor site.",
+          "url": "https://www.launchbox-app.com/"
+        },
+        {
+          "fact": "The renew page offers a Premium license renewal for $15 for another year of updates or an upgrade to a forever-updates license for $45.",
+          "url": "https://www.launchbox-app.com/renew"
+        }
+      ]
+    },
+    {
+      "slug": "battle-net",
+      "name": "Battle.net",
+      "site": "https://download.battle.net/en-us/desktop",
+      "company": "",
+      "country": "",
+      "tagline": "Blizzard's desktop launcher with shop and chat",
+      "best_for": "Blizzard game libraries",
+      "pricing": "Download is free. The download page says some titles can be played for free and that free trials are available for many titles; other games and goodies are sold in the shop.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows and Mac, plus mobile",
+      "features": [
+        "Launch games from one place",
+        "Friends list",
+        "Real-time messaging and voice chat",
+        "Two-factor authentication",
+        "Shop for games and goodies",
+        "Free-to-play titles"
+      ],
+      "summary": "Battle.net launches Blizzard games from one app, with friends, voice chat, two-factor authentication and a shop.",
+      "verdict": "Battle.net does one publisher's catalog well. The download page says players can launch their games, connect with friends and follow news from one desktop app, with real-time messaging and voice chat, two-factor authentication and a shop for games and goodies. The download is free, some titles are free to play, and free trials exist for many titles, with Overwatch 2 and Call of Duty: Warzone 2.0 mentioned. It is available for Windows, Mac and mobile.",
+      "weaknesses": "It manages Blizzard-family games only and cannot merge other stores. Games and extras are sold separately, and the page we read names no controller or fullscreen mode.",
+      "wrong_for": "Players wanting a single list across stores should use Playnite or GOG Galaxy and keep Battle.net just for installs.",
+      "sources": [
+        {
+          "fact": "Battle.net lets players launch their games, connect with friends and keep up with the latest news from one desktop app.",
+          "url": "https://download.battle.net/en-us/desktop"
+        },
+        {
+          "fact": "The download page says players can play some games for free and get free trials for many other titles.",
+          "url": "https://download.battle.net/en-us/desktop"
+        },
+        {
+          "fact": "Battle.net offers two-factor authentication and a shop for games and digital gifts.",
+          "url": "https://download.battle.net/en-us/desktop"
+        }
+      ]
+    },
+    {
+      "slug": "ubisoft-connect",
+      "name": "Ubisoft Connect",
+      "site": "https://www.ubisoft.com/en-us/ubisoft-connect",
+      "company": "",
+      "country": "",
+      "tagline": "Free Ubisoft account service with desktop launcher",
+      "best_for": "Ubisoft games with cross-progression",
+      "pricing": "Free service that only requires a Ubisoft account.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "PC (desktop app) and console",
+      "features": [
+        "Cross-platform chat",
+        "Friends",
+        "Rewards",
+        "Cross-progression",
+        "Cross-play (varies by game)"
+      ],
+      "summary": "Ubisoft Connect is a free multi-platform service for Ubisoft games with chat, friends, rewards and cross-progression.",
+      "verdict": "Ubisoft Connect is a publisher ecosystem more than a library tool. Ubisoft calls it a multi-platform ecosystem of player services and the go-to destination for its games, with a desktop app and in-game access on PC and console. It offers cross-platform chat, friends, rewards and cross-progression, with cross-play varying by game, and requires only a Ubisoft account. For Ubisoft fans the account side matters more than the launcher itself.",
+      "weaknesses": "It shows Ubisoft's own games and offers no multi-store library. The vendor notes cross-play varies by game, and the page lists no customization features.",
+      "wrong_for": "Players needing a single catalog across stores should use Playnite, and Linux players should pick Heroic or Lutris.",
+      "sources": [
+        {
+          "fact": "Ubisoft Connect is a multi-platform ecosystem of player services and the go-to destination for Ubisoft games.",
+          "url": "https://www.ubisoft.com/en-us/ubisoft-connect"
+        },
+        {
+          "fact": "Ubisoft Connect is a free service that only requires a Ubisoft account.",
+          "url": "https://www.ubisoft.com/en-us/ubisoft-connect"
+        },
+        {
+          "fact": "Ubisoft Connect offers cross-platform chat, friends, rewards and cross-progression, with cross-play varying between games.",
+          "url": "https://www.ubisoft.com/en-us/ubisoft-connect"
+        }
+      ]
+    },
+    {
+      "slug": "ea-app",
+      "name": "EA app",
+      "site": "https://www.ea.com/ea-app",
+      "company": "Electronic Arts Inc.",
+      "country": "United States",
+      "tagline": "Electronic Arts' PC app for EA games and friends",
+      "best_for": "Players of EA sports and shooter titles",
+      "pricing": "Pricing is not stated on the opened page. The page links an EA Play offer and EA app deals; individual games are sold separately.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "PC",
+      "features": [
+        "Game library",
+        "Friends",
+        "EA Play offers",
+        "EA app deals"
+      ],
+      "summary": "The EA app downloads and plays EA games on PC and links EA Play offers, with games sold separately.",
+      "verdict": "The EA app is the client you need for EA titles. The page invites players to download it to connect with friends and play RPGs, shooters, sports games and more, and links an EA Play offer and app deals. Electronic Arts is headquartered in Redwood City, California, and the about page names EA Swiss Sarl in Geneva as seller. It is reasonable to install it for the games but unlikely to be your daily library hub.",
+      "weaknesses": "Pricing is not stated on the opened page, and games are sold separately. It lists only EA's catalog, so it does not combine other stores. No details on customization or controller mode appear in our facts.",
+      "wrong_for": "Anyone with a multi-store collection should use Playnite or GOG Galaxy for the overview.",
+      "sources": [
+        {
+          "fact": "The EA app page invites players to download the EA app to connect with friends and play RPGs, shooters, sports games and more.",
+          "url": "https://www.ea.com/ea-app"
+        },
+        {
+          "fact": "Electronic Arts develops and delivers games, content and online services, and is headquartered in Redwood City, California.",
+          "url": "https://www.ea.com/about"
+        },
+        {
+          "fact": "The EA about page names EA Swiss Sàrl in Geneva as seller and gives its registered company number.",
+          "url": "https://www.ea.com/about"
+        }
+      ]
+    },
+    {
+      "slug": "prism-launcher",
+      "name": "Prism Launcher",
+      "site": "https://prismlauncher.org/",
+      "company": "Prism Launcher Contributors",
+      "country": "",
+      "tagline": "Open source Minecraft launcher for many instances",
+      "best_for": "Managing several modded Minecraft setups",
+      "pricing": "Free; the project accepts donations and publishes under open-source licenses.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "",
+      "features": [
+        "Isolated instances",
+        "One-click mod loader install (Forge, Fabric, Quilt, LiteLoader)",
+        "Modpacks from CurseForge, Modrinth, Technic, FTB",
+        "Per-mod install from CurseForge and Modrinth",
+        "Log upload to mclo.gs",
+        "Theming"
+      ],
+      "summary": "Prism Launcher manages multiple Minecraft instances, accounts and mods, with Modrinth and CurseForge integration, and is free and open source.",
+      "verdict": "Prism Launcher is a specialist. The homepage describes an open source Minecraft launcher that manages multiple instances, accounts and mods, and interfaces directly with Modrinth and CurseForge to install and update individual mods. It focuses on user freedom and free redistributability and carries a donate option. For a player who keeps a vanilla instance, a modpack and a test world side by side, it removes a lot of manual folder juggling.",
+      "weaknesses": "It handles Minecraft only, so it cannot hold a general game library. The pages we read list no platform and no store integrations beyond mod hosts.",
+      "wrong_for": "Players needing a launcher for many games should choose Playnite or Heroic.",
+      "sources": [
+        {
+          "fact": "Prism Launcher is an open-source Minecraft launcher that manages multiple instances, accounts and mods.",
+          "url": "https://prismlauncher.org/"
+        },
+        {
+          "fact": "It installs mod loaders such as Forge, Fabric, Quilt and LiteLoader in one click and installs modpacks from CurseForge, Modrinth, Technic, FTB and FTB Legacy.",
+          "url": "https://prismlauncher.org/about"
+        },
+        {
+          "fact": "The project was forked from MultiMC over packaging and redistribution concerns and states it is not affiliated with Mojang or Microsoft.",
+          "url": "https://prismlauncher.org/about"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18"
+}

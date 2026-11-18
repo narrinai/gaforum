@@ -1,0 +1,167 @@
+{
+  "slug": "how-to-plan-a-game-liveops-calendar",
+  "title": "How to Plan a Game LiveOps Calendar",
+  "description": "A LiveOps calendar maps updates, events and store beats to dates. Build one with store limits, content lead times and metrics, using Apple and Steam rules.",
+  "kind": "Playbook",
+  "topic": "Game development",
+  "published": "2026-11-18",
+  "intro": "A game LiveOps calendar is a dated plan that lines up content drops, in-game events, store promotions and measurement windows so a small team ships something worth returning for on a rhythm it can sustain. The useful version is not a poster of ideas. It is a schedule built backward from what each store allows, how long each piece of content takes to make, and which number you expect the event to move. This guide walks through that build, with the real limits that Apple and Steam publish.",
+  "key_takeaways": [
+    "Plan from the supply side first: store event limits and content lead times decide how many beats a quarter can hold.",
+    "Give every calendar slot one job, one metric and one owner before it gets a date.",
+    "Apple allows an In-App Event to run up to 31 days and be promoted up to 14 days ahead, so submission dates come before start dates.",
+    "Steam Update Visibility Rounds are meant for major updates, so save them for content that justifies a reminder to existing players.",
+    "Keep a hold-out slot in every month for fixes and surprises; a calendar with no slack breaks on its first incident."
+  ],
+  "sections": [
+    {
+      "h2": "Start with the rhythm your team can actually sustain",
+      "paras": [
+        "Most calendars fail because the cadence was chosen by ambition rather than capacity. Before you pick a single event, count the people who touch a live beat: design, art, QA, community, and whoever configures the backend. A beat that needs all of them for two weeks can only happen as often as those two weeks fit.",
+        "Work out your sustainable unit first. A small studio often lands on one larger content beat per month and one lighter event between each pair of them. A bigger team can run overlapping tracks, such as a seasonal track and a weekly track. Write the unit down as a sentence, for example: one content update every four weeks, one limited-time event in each gap, one fix window every week.",
+        "The calendar you build in the rest of this guide is only a container for that rhythm. If the rhythm is wrong, a good-looking calendar just documents the wrong plan."
+      ]
+    },
+    {
+      "h2": "Sort beats into three kinds",
+      "paras": [
+        "Not every calendar entry is the same sort of work, and mixing them is how plans go vague. Sorting them also tells you which entries need a store submission and which only need a config change."
+      ],
+      "list": [
+        "Content beats: a new season, mode, map, character set or storyline. Long lead time, store-facing, usually tied to a build.",
+        "Event beats: limited-time challenges, competitions or collaborations that reuse existing systems. Medium lead time, often driven by remote configuration.",
+        "Maintenance beats: balance passes, bug-fix builds, store page refreshes, localization top-ups and server work. Short lead time, but they eat the slack you need."
+      ],
+      "after": [
+        "Color-code the three kinds on one timeline. When two content beats sit within a week of each other, or an event lands on a maintenance build, the problem shows at a glance."
+      ]
+    },
+    {
+      "h2": "Read the store rules before you pick dates",
+      "paras": [
+        "Stores set hard edges on what you can schedule, and they publish them. Apple's In-App Events page says an event can last up to 31 days and can be promoted on the App Store up to 14 days before its start date. It also says an app can have up to 10 events published at a time and up to 15 approved in App Store Connect, and that events can be submitted for review independently of a new app version.",
+        "Those numbers turn into calendar rules. If an event needs review, the real deadline is the submission date, not the start date. A queue of 15 approved events also tells you the practical ceiling: you can stack a quarter of events ahead, but you cannot stack a year.",
+        "Apple also lists what does not qualify. Repetitive activities such as daily tasks or rewards, price promotions that do not add new content, features or goods, and general promotions that only raise awareness of the game are not good candidates. If your calendar has a weekly login bonus, keep it as an in-game feature and do not file it as a store event.",
+        "Steam works differently. Its documentation on visibility describes Update Visibility Rounds as a way to highlight a major update, new content, new DLC or new features to customers who own or wishlisted your game. You have to wait until your initial launch visibility has concluded before using one, and for a game in Early Access the wait is two weeks after launch. The page says there is no required gap between rounds, and also advises thinking ahead so you keep one in reserve for a future update."
+      ]
+    },
+    {
+      "h2": "Build the calendar backward from each beat",
+      "paras": [
+        "Pick one beat and work backward. The method is the same for a season or a weekend event, only the lead times differ. Do this on paper or in a spreadsheet with one row per beat."
+      ],
+      "ordered": true,
+      "list": [
+        "Write the start and end date of the beat as players will see it, in the time zone you promise them.",
+        "Subtract the store lead time. For an Apple In-App Event, that means the date you submit for review plus the date it can appear on the store, up to 14 days before the start.",
+        "Subtract the promotion window: announcement post, social posts, any influencer or creator briefing, and community channel pins.",
+        "Subtract the content freeze: the date art, text, localization and balance numbers stop changing.",
+        "Subtract QA time for the build or config, including a rehearsal on the live backend with a test account.",
+        "Mark the review point after the beat ends, when you read the metric you promised."
+      ],
+      "after": [
+        "Once every beat has these six dates, you can see where two beats compete for the same people in the same week. Move the one with the more flexible audience date."
+      ]
+    },
+    {
+      "h2": "Give each slot one job and one number",
+      "paras": [
+        "An event with no stated purpose cannot be judged, and a calendar full of them ends up being judged by gut feeling. Apple's page asks you to indicate an event's purpose in App Store Connect: attracting new users, keeping active users informed, or bringing lapsed users back. That three-way split is a useful frame for your whole calendar, even for games that never touch the App Store.",
+        "Pick one job per slot, then one metric that reflects it. New-user events point at installs and first-session completion. Active-user events point at session count and feature use during the window. Lapsed-user events point at return rate for players who had been away.",
+        "Set a rough expectation before the beat runs and write it down, even if it is only a range. A range you wrote beforehand is worth more than a good-sounding explanation afterward."
+      ]
+    },
+    {
+      "h2": "Decide how you will measure the result",
+      "paras": [
+        "Measurement needs tooling decided before the event, not after. Remote configuration and player segmentation let you change an event without a new build, and A/B testing lets you compare variants. Microsoft's PlayFab page lists a Live Service Management feature described as tuning gameplay remotely, segmenting players in real time and A/B testing to improve engagement and retention. GameAnalytics lists A/B testing and remote configs among its features as well. For a longer look at the tool landscape, see [Best Game LiveOps Platforms](/software/best-game-liveops-platforms) and [Best Game Analytics Software](/software/best-game-analytics-software).",
+        "Tooling is only half of it. Decide the comparison before launch: against the previous event, against a hold-out group, or against the same week last season. If the audience is small, comparing against a hold-out group is usually cleaner than comparing against last month, because both groups feel the same weather, patch and news cycle.",
+        "For the numbers themselves and what each one means, [Game Analytics KPIs Explained](/guides/game-analytics-kpis-explained) covers the definitions."
+      ]
+    },
+    {
+      "h2": "Plan the store and community beats around the build",
+      "paras": [
+        "Store-facing work has its own small calendar inside the main one. Apple's guidance on event metadata is specific: an event name up to 30 characters in title case, a short description up to 50 characters, a long description up to 120 characters, and no specific prices because pricing and currencies vary by region. Writing those strings during content freeze, not on submission day, saves a rejected review.",
+        "Deep links need a test slot too. Apple advises testing the event deep link, and routing users sensibly: to the event itself if it is live, to a landing page if it has not started, and through onboarding first for new users. Put the link test in the QA row of your calendar.",
+        "On Steam, the visibility page notes that players are more likely to be shown games in languages they speak, and that wishlisters get an email when a game is discounted at 20% or more. If a discount is part of a beat, the 20% line is a planning input, because it decides who is notified. Localization top-ups belong on the calendar ahead of the beat, which the [game localization workflow guide](/guides/game-localization-workflow-guide) walks through."
+      ]
+    },
+    {
+      "h2": "Checklist before you commit a month",
+      "paras": [
+        "Run this list on a month before you share the calendar with the team."
+      ],
+      "list": [
+        "Every beat has a kind, a job, a metric, an owner and six working-back dates.",
+        "No two content beats fall within the same week, and no event starts on a maintenance build day.",
+        "Store submissions are dated, not just start dates.",
+        "Each event creates something new for players: content, a feature or goods. Pure promotions are marked as promotions.",
+        "One slot per month is held empty for fixes and surprises.",
+        "Localization and community posts have dates, not just the English version.",
+        "The measurement comparison is chosen and the dashboard is ready.",
+        "A rollback plan exists for any beat driven by remote configuration."
+      ]
+    },
+    {
+      "h2": "Run the calendar as a living document",
+      "paras": [
+        "Review the calendar on a fixed rhythm, such as the first working day after each content beat. Read the metric you promised, write one line on what you learned, and move any slipped beats. Do not silently shift dates; write the reason, because the same reason tends to recur.",
+        "Keep a short log of what each beat cost in team days, not only what it earned. After a few cycles you will see which beats pay back their effort and which are habits. Cutting a habit is usually the cheapest way to make room for something players would actually return for."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far ahead should a LiveOps calendar run?",
+      "a": "Plan the next quarter in detail and the following one in outline. Store limits shape the detail: Apple lets you hold up to 15 approved events in App Store Connect, so a few months of queued events is workable, while a year is not. Treat anything beyond the second quarter as a list of themes, not dated commitments."
+    },
+    {
+      "q": "What belongs in a LiveOps calendar besides events?",
+      "a": "Content updates, maintenance builds, store page refreshes, localization top-ups, community posts, creator briefings, measurement reviews and any paid-media windows. Events are the visible part. The rest is the work that makes them land, and leaving it off is the usual cause of a plan that looks fine and slips."
+    },
+    {
+      "q": "Are daily login rewards a store event?",
+      "a": "On Apple's In-App Events page, repetitive activities such as daily tasks or rewards are listed as poor candidates. Run them as an ordinary game feature, and keep your store events for limited-time moments that introduce new content, features or goods or give players a goal with an end date."
+    },
+    {
+      "q": "How often can a Steam game use an Update Visibility Round?",
+      "a": "Steam's visibility documentation says there is no minimum gap between rounds, so you could use them back to back. It also notes that rounds are meant for major updates, new content, DLC or features, and suggests holding some back for future updates. A game in Early Access waits two weeks after launch before its first round."
+    },
+    {
+      "q": "Who should own the calendar on a small team?",
+      "a": "One person should own the master file, usually a producer or the lead designer, with each beat owned by whoever delivers it. Shared ownership of the master tends to mean nobody updates it. The owner's job is to keep dates honest, not to approve content."
+    }
+  ],
+  "related_categories": [
+    "best-game-liveops-platforms",
+    "best-game-analytics-software"
+  ],
+  "related_guides": [
+    "game-analytics-kpis-explained",
+    "game-localization-workflow-guide",
+    "how-to-pick-a-game-monetization-stack"
+  ],
+  "sources": [
+    {
+      "title": "In-App Events - App Store",
+      "url": "https://developer.apple.com/app-store/in-app-events/",
+      "publisher": "Apple Developer"
+    },
+    {
+      "title": "Visibility on Steam (Steamworks Documentation)",
+      "url": "https://partner.steamgames.com/doc/marketing/visibility",
+      "publisher": "Valve, Steamworks"
+    },
+    {
+      "title": "PlayFab product page",
+      "url": "https://developer.microsoft.com/en-us/games/products/playfab/",
+      "publisher": "Microsoft"
+    },
+    {
+      "title": "GameAnalytics",
+      "url": "https://www.gameanalytics.com/",
+      "publisher": "GameAnalytics"
+    }
+  ]
+}

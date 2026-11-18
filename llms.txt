@@ -1,0 +1,194 @@
+# GA Forum
+
+> GA Forum ranks and compares the software behind games, livestreams and esports: engines, backends, anti-cheat, streaming tools, tournament platforms and more, with sourced facts and an open forum.
+
+GA Forum (https://ga-forum.com) is an independent software research site with a discussion forum. Every ranking lists the vendor pages checked under each product and shows a last-reviewed date. Vendors can pay for more visibility; how that works is explained in our disclosure, linked above every ranking. No commission is earned on clicks or purchases, and we do not work as an affiliate.
+
+## Game development and publishing
+
+- [Best 2D Game Engines in 2026](https://ga-forum.com/software/best-2d-game-engines): A ranking of engines and frameworks built for flat games: sprites, tilemaps, scene tools and the platforms each one can ship to. Top three: GameMaker, Godot, Phaser.
+- [Best 3D Game Engines for Small Studios in 2026](https://ga-forum.com/software/best-3d-game-engines-for-small-studios): Twelve 3D engines and web 3D frameworks compared for teams of two to thirty, with license and royalty terms as the deciding test. Top three: Unity, Godot, Flax Engine.
+- [Best AI NPC and Dialogue Platforms in 2026](https://ga-forum.com/software/best-ai-npc-and-dialogue-platforms): AI NPC and dialogue platforms give game characters speech, memory and branching conversation through engine plugins, voice services and authoring tools. Top three: Convai, NVIDIA ACE, Inworld.
+- [Best Cloud Gaming Services in 2026](https://ga-forum.com/software/best-cloud-gaming-services): Cloud gaming services run games on remote hardware and stream them to your screen; this ranking compares libraries, billing models and device support. Top three: GeForce NOW, Xbox Cloud Gaming, Boosteroid.
+- [Best Community Chat Platforms for Gaming Communities in 2026](https://ga-forum.com/software/best-community-chat-platforms-for-gaming-communities): Voice, text and forum platforms where players, clans and studios build communities, from Discord to self-hosted open source options. Top three: Discord, TeamSpeak, Mumble.
+- [Best Community Management Tools for Game Studios in 2026](https://ga-forum.com/software/best-community-management-tools-for-game-studios): Community management tools give game studios a place to talk with players, watch social chatter and route feedback to the team. Top three: Discord, Khoros, Discourse.
+- [Best DDoS Protection for Game Servers in 2026](https://ga-forum.com/software/best-ddos-protection-for-game-servers): DDoS protection for game servers filters flood traffic aimed at UDP and game-protocol ports while keeping added latency low for players. Top three: OVHcloud, TCPShield, Gcore.
+- [Best Dedicated Game Server Orchestration Platforms in 2026](https://ga-forum.com/software/best-dedicated-game-server-orchestration-platforms): Dedicated game server orchestration platforms let studios start, scale and retire fleets of game server instances across regions and providers, driven by player demand. Top three: Edgegap, Gameye, GameFabric.
+- [Best Discord Moderation and Community Bots in 2026](https://ga-forum.com/software/best-discord-moderation-and-community-bots): Discord bots for moderation, role menus, support tickets, events, giveaways and server stats, ranked for game communities. Top three: Carl-bot, Sapphire, Dyno.
+- [Best Game Analytics Software in 2026](https://ga-forum.com/software/best-game-analytics-software): Game analytics software tracks retention, revenue per player and funnels from engine SDKs, so studios can tune design and monetization after launch. Top three: GameAnalytics, Unity Gaming Services, Amplitude.
+- [Best Game Anti-Cheat Software in 2026](https://ga-forum.com/software/best-game-anti-cheat-software): Game anti-cheat software detects and blocks cheating in online games through client-side protection, server-side analysis and ban systems that studios license. Top three: Easy Anti-Cheat, BattlEye, Anybrain.
+- [Best Game Backend Platforms in 2026](https://ga-forum.com/software/best-game-backend-platforms): Game backend platforms host player accounts, economies, inventories, leaderboards and live-service logic so studios do not have to build and run their own servers. Top three: PlayFab, AccelByte, Metaplay.
+- [Best Game CI/CD and Build Tools in 2026](https://ga-forum.com/software/best-game-ci-cd-and-build-tools): Build servers, compile accelerators and hosted pipelines for game studios that ship Unity or native projects to PC, mobile and Apple platforms. Top three: GameCI, Jenkins, FASTBuild.
+- [Best Game Engines for Mobile Games in 2026](https://ga-forum.com/software/best-game-engines-for-mobile-games): Twelve engines compared for iOS and Android games, judged on listed targets, store-service support, monetization features and cost. Top three: Unity, Solar2D, Defold.
+- [Best Game Launchers and Library Managers in 2026](https://ga-forum.com/software/best-game-launchers-and-library-managers): Game launchers and library managers start, update and organize PC games, and the best ones merge libraries from several stores into one list. Top three: Playnite, GOG Galaxy, Heroic Games Launcher.
+- [Best Game LiveOps Platforms in 2026](https://ga-forum.com/software/best-game-liveops-platforms): Game LiveOps platforms let teams run events, change game settings remotely, target offers to player segments and test changes after launch without shipping a new build. Top three: Metaplay, Satori, PlayFab.
+- [Best Game Localization Platforms in 2026](https://ga-forum.com/software/best-game-localization-platforms): Localization platforms and services for game studios that manage string tables, translator context and releases in many languages. Top three: Gridly, Crowdin, Lokalise.
+- [Best Game Market Intelligence Tools in 2026](https://ga-forum.com/software/best-game-market-intelligence-tools): Data services that estimate competitor revenue, downloads, wishlists and genre trends so studios can size a game before and after launch. Top three: Sensor Tower, GameDiscoverCo, AppMagic.
+- [Best Game Payment and Web Shop Platforms in 2026](https://ga-forum.com/software/best-game-payment-and-web-shop-platforms): Compare platforms that let game studios sell in-game items and games through their own web stores, with tax, payments and merchant of record handled. Top three: Xsolla, Appcharge, Coda Payments.
+- [Best Game QA and Test Automation Tools in 2026](https://ga-forum.com/software/best-game-qa-and-test-automation-tools): Game QA and test automation tools drive builds through engine-aware scripts, AI agents, real device clouds and managed testers to catch bugs before players do. Top three: AltTester, Airtest Project, modl.ai.
+- [Best Hardware Monitoring and Overclocking Software in 2026](https://ga-forum.com/software/best-hardware-monitoring-and-overclocking-software): Hardware monitoring and overclocking software reads temperatures, clocks and voltages, tunes processors, and stress-tests a PC for stability. Top three: HWiNFO, OCCT, HWMonitor.
+- [Best In-Game Advertising Platforms in 2026](https://ga-forum.com/software/best-in-game-advertising-platforms): In-game advertising platforms place brand and performance ads inside game worlds through SDKs and programmatic buying, without interrupting play on PC, console and mobile. Top three: Anzu, Gadsme, Frameplay.
+- [Best Influencer Marketing Tools for Games in 2026](https://ga-forum.com/software/best-influencer-marketing-tools-for-games): Platforms for finding streamers and YouTubers, sending game keys, running creator campaigns and paying creators, ranked for game studios. Top three: Keymailer, Lurkit, Gamesight.
+- [Best Mobile Attribution Tools for Games in 2026](https://ga-forum.com/software/best-mobile-attribution-tools-for-games): Measurement partners and ad platforms that connect installs and in-game revenue back to the campaigns that paid for them, including iOS SKAdNetwork reporting. Top three: AppsFlyer, Tenjin, Airbridge.
+- [Best Mobile Game Ad Networks and Mediation Platforms in 2026](https://ga-forum.com/software/best-mobile-game-ad-networks-and-mediation): Mobile game ad networks and mediation platforms sell rewarded video and other formats to advertisers through real-time bidding, letting developers earn from free games. Top three: Unity LevelPlay, Google AdMob, Pangle.
+- [Best Mod Managers for PC Games in 2026](https://ga-forum.com/software/best-mod-managers-for-pc-games): Mod managers install, update and order mods for PC games; this ranking compares game coverage, load order handling and cost. Top three: Vortex, Mod Organizer 2, r2modman.
+- [Best Multiplayer Networking SDKs in 2026](https://ga-forum.com/software/best-multiplayer-networking-sdks): Multiplayer networking SDKs give game engines the netcode, state synchronization, rooms and relay hosting needed to connect players without writing sockets from scratch. Top three: Photon, Mirror, Fish-Networking.
+- [Best Open-Source Game Engines in 2026](https://ga-forum.com/software/best-open-source-game-engines): Open-source engines and game libraries ranked by license clarity, governance and the health signals their own pages publish. Top three: Godot, Bevy, Stride.
+- [Best PC Benchmarking Software in 2026](https://ga-forum.com/software/best-pc-benchmarking-software): PC benchmarking software measures CPU, GPU, storage and frame times so you can compare hardware or find out why a game stutters. Top three: CapFrameX, 3DMark, PresentMon.
+- [Best Pixel Streaming and Cloud Game Streaming Platforms for Studios in 2026](https://ga-forum.com/software/best-pixel-streaming-and-cloud-game-streaming-platforms): Pixel streaming platforms host your Unreal, Unity or Windows build on cloud GPUs and deliver it to browsers; this list compares studio-facing options. Top three: Eagle 3D Streaming, Streampixel, PureWeb.
+- [Best Player Support Software for Games in 2026](https://ga-forum.com/software/best-player-support-software-for-games): Player support software handles tickets, in-game help and multilingual replies so studios can answer players without drowning a small team. Top three: Helpshift, AIHelp, Zendesk.
+- [Best Playtesting Platforms in 2026](https://ga-forum.com/software/best-playtesting-platforms): Services and free tools for putting a game build in front of remote testers, from player-panel research to simple build delivery. Top three: PlaytestCloud, Steam Playtest, Lookback.
+- [Best Remote Play and Game Streaming Software in 2026](https://ga-forum.com/software/best-remote-play-and-game-streaming-software): Remote play software streams a game from your own PC to a TV, phone or laptop; this ranking weighs client reach, cost and gaming focus. Top three: Moonlight, Sunshine, Parsec.
+- [Best Trust and Safety Moderation Software for Games in 2026](https://ga-forum.com/software/best-trust-and-safety-moderation-software-for-games): Trust and safety moderation software detects toxic voice, text and images in games so studios can protect players and meet new online safety rules. Top three: Modulate, GGWP, Bodyguard.ai.
+- [Best UGC and Modding Platforms for Studios in 2026](https://ga-forum.com/software/best-ugc-and-modding-platforms): UGC and modding platforms host player-made content for your game, from mod hosting and moderation to creator payouts and in-game browsers. Top three: mod.io, CurseForge, Steam Workshop.
+- [Best Version Control for Game Development in 2026](https://ga-forum.com/software/best-version-control-for-game-development): Version control systems that cope with large art files, binary locking and mixed artist and programmer teams, ranked from vendor documentation. Top three: Unity Version Control, Anchorpoint, Perforce Helix Core.
+
+## Livestreaming and creator tools
+
+- [Best Clip and Highlight Editors for Streamers in 2026](https://ga-forum.com/software/best-clip-and-highlight-editors-for-streamers): AI clippers, in-game capture apps and editors that turn broadcasts and gameplay into vertical shorts for TikTok, Reels and YouTube Shorts. Top three: StreamLadder, Eklipse, Medal.
+- [Best Donation and Monetization Tools for Streamers in 2026](https://ga-forum.com/software/best-donation-and-monetization-tools-for-streamers): Donation and monetization tools let streamers collect tips, memberships, merch sales and charity funds from viewers, often with on-screen alerts. Top three: Streamlabs Desktop, StreamElements, Ko-fi.
+- [Best Enterprise Live Streaming Platforms in 2026](https://ga-forum.com/software/best-enterprise-live-streaming-platforms): Enterprise live streaming platforms broadcast town halls and product launches to large audiences with security controls, analytics and network-friendly delivery. Top three: Vbrick, Hive Streaming, Kaltura.
+- [Best Game Capture and Recording Software in 2026](https://ga-forum.com/software/best-game-capture-and-recording-software): Ten recorders for saving gameplay on PC, from automatic highlight clippers to free open source tools, ranked by fit for players who share clips. Top three: Outplayed, Medal, NVIDIA App.
+- [Best Live Captioning and Translation Tools for Livestreams in 2026](https://ga-forum.com/software/best-live-captioning-and-translation-for-livestreams): Live captioning and translation tools turn a stream's speech into on-screen text or interpreted audio in other languages while the event is running. Top three: Interprefy, KUDO, Wordly.
+- [Best Live Production Software in 2026](https://ga-forum.com/software/best-live-production-software): Live production software switches between cameras, adds graphics and audio, and sends a finished show to a stream, for events, broadcasts and esports. Top three: Wirecast, Blackmagic ATEM, vMix.
+- [Best Live Streaming APIs and SDKs in 2026](https://ga-forum.com/software/best-live-streaming-apis-and-sdks): Live streaming APIs and SDKs give developers hosted video infrastructure to add live broadcasts, calls and interactive streams to apps and sites. Top three: Mux, Amazon IVS, api.video.
+- [Best Multistreaming Platforms in 2026](https://ga-forum.com/software/best-multistreaming-platforms): Multistreaming platforms send one live video feed to many channels at once, so a business or creator reaches each audience from a single broadcast. Top three: OneStream Live, Castr, Livepush.
+- [Best Stream Deck and Stream Automation Software in 2026](https://ga-forum.com/software/best-stream-deck-and-stream-automation-software): Hardware keys, tablet decks and event-driven bots that let a streamer trigger scenes, sounds and chat actions without leaving the game. Top three: Elgato Stream Deck, Touch Portal, Bitfocus Companion.
+- [Best Stream Overlay and Alert Tools in 2026](https://ga-forum.com/software/best-stream-overlay-and-alert-tools): Ten services for stream overlays, follower alerts, widgets and interactive extras, ranked by price clarity, bundled design assets and setup effort. Top three: StreamElements, OWN3D, Streamlabs Desktop.
+- [Best Streaming Media Servers in 2026](https://ga-forum.com/software/best-streaming-media-servers): Streaming media servers receive live video over RTMP, SRT or WebRTC and redistribute it, either on your own hardware or as a managed service. Top three: Ant Media Server, OvenMediaEngine, SRS.
+- [Best Streaming Software for Gamers in 2026](https://ga-forum.com/software/best-streaming-software-for-gamers): Ten broadcasting apps for PC gamers who stream to Twitch and YouTube, ranked on price, platform support and how much setup each one demands. Top three: OBS Studio, Streamlabs Desktop, XSplit Broadcaster.
+- [Best Twitch Chat Bots in 2026](https://ga-forum.com/software/best-twitch-chat-bots): Ten chat bots for moderating and automating Twitch and YouTube chat, from hosted free services to open source programs you run yourself. Top three: Nightbot, Fossabot, Streamlabs Cloudbot.
+- [Best Virtual Event Streaming Platforms for Hybrid Events in 2026](https://ga-forum.com/software/best-virtual-event-streaming-platforms-for-hybrid-events): Hybrid event platforms join an onsite audience and remote viewers in one program, with registration, streaming, sessions, sponsors and attendee data. Top three: Cvent, Accelevents, Virtual PRO.
+- [Best VTuber Software in 2026](https://ga-forum.com/software/best-vtuber-software): VTuber software tracks a streamer's face and body and drives a 2D or 3D avatar that appears on a livestream or video call. Top three: VSeeFace, Warudo, VTube Studio.
+- [Best Webinar Platforms for Product Launches in 2026](https://ga-forum.com/software/best-webinar-platforms-for-product-launches): Launch webinar platforms carry a product announcement from registration page to live session and replay, and pass attendee data to the CRM. Top three: Zoom Events and Webinars, Goldcast, Kaltura.
+
+## Esports operations
+
+- [Best Esports Analytics and Coaching Software in 2026](https://ga-forum.com/software/best-esports-analytics-and-coaching-software): Esports analytics and coaching tools turn match history, demos and aim data into stats, reviews and training plans for players and teams. Top three: Aim Lab, Leetify, Blitz.
+- [Best Esports Broadcast Production Software in 2026](https://ga-forum.com/software/best-esports-broadcast-production-software): Esports broadcast production software mixes cameras and game feeds, adds overlays and scoreboards, and sends the show to a stream or a venue. Top three: vMix, OBS Studio, Wirecast.
+- [Best Esports Data APIs in 2026](https://ga-forum.com/software/best-esports-data-apis): Esports data APIs deliver match results, player stats, schedules and betting odds as feeds that apps, media sites and sportsbooks can build on. Top three: PandaScore, GRID, GameScorekeeper.
+- [Best Esports Team Management Software in 2026](https://ga-forum.com/software/best-esports-team-management-software): Team management tools keep esports rosters, scrim calendars, availability, communication and dues in one place instead of scattered chats and spreadsheets. Top three: Spond, Teamup, Challengermode.
+- [Best Esports Tournament Management Software in 2026](https://ga-forum.com/software/best-esports-tournament-management-software): Tournament platforms handle brackets, registration, check-in, scoring and prize payouts for online and LAN esports events, from community cups to publisher circuits. Top three: Challengermode, Matcherino, start.gg.
+
+## Comparisons
+
+- [Amazon IVS vs Mux: Which Fits Your Team in 2026?](https://ga-forum.com/compare/amazon-ivs-vs-mux)
+- [AppLovin MAX vs Unity LevelPlay: Which Fits Your Team in 2026?](https://ga-forum.com/compare/applovin-max-vs-unity-levelplay)
+- [Castr vs Restream: Which Fits Your Team in 2026?](https://ga-forum.com/compare/castr-vs-restream)
+- [Challengermode vs Battlefy: Which Fits Your Team in 2026?](https://ga-forum.com/compare/challengermode-vs-battlefy)
+- [Construct vs GDevelop: Which Fits Your Team in 2026?](https://ga-forum.com/compare/construct-vs-gdevelop)
+- [Easy Anti-Cheat vs BattlEye: Which Fits Your Team in 2026?](https://ga-forum.com/compare/easy-anti-cheat-vs-battleye)
+- [Edgegap vs Hathora: Which Fits Your Team in 2026?](https://ga-forum.com/compare/edgegap-vs-hathora)
+- [GeForce NOW vs Xbox Cloud Gaming: Which Fits Your Team in 2026?](https://ga-forum.com/compare/geforce-now-vs-xbox-cloud-gaming)
+- [Godot vs GameMaker: Which Fits Your Team in 2026?](https://ga-forum.com/compare/godot-vs-gamemaker)
+- [Godot vs Unity: Which Fits Your Team in 2026?](https://ga-forum.com/compare/godot-vs-unity)
+- [Helpshift vs Zendesk: Which Fits Your Team in 2026?](https://ga-forum.com/compare/helpshift-vs-zendesk)
+- [Medal vs Outplayed: Which Fits Your Team in 2026?](https://ga-forum.com/compare/medal-vs-outplayed)
+- [MEE6 vs Dyno: Which Fits Your Team in 2026?](https://ga-forum.com/compare/mee6-vs-dyno)
+- [OBS Studio vs vMix: Which Fits Your Team in 2026?](https://ga-forum.com/compare/obs-studio-vs-vmix)
+- [Parsec vs Moonlight: Which Fits Your Team in 2026?](https://ga-forum.com/compare/parsec-vs-moonlight)
+- [Perforce Helix Core vs Unity Version Control: Which Fits Your Team in 2026?](https://ga-forum.com/compare/perforce-helix-core-vs-unity-version-control)
+- [Photon vs Mirror: Which Fits Your Team in 2026?](https://ga-forum.com/compare/photon-vs-mirror)
+- [PlayFab vs Nakama: Which Fits Your Team in 2026?](https://ga-forum.com/compare/playfab-vs-nakama)
+- [PlaytestCloud vs Lookback: Which Fits Your Team in 2026?](https://ga-forum.com/compare/playtestcloud-vs-lookback)
+- [Sensor Tower vs AppMagic: Which Fits Your Team in 2026?](https://ga-forum.com/compare/sensor-tower-vs-appmagic)
+- [Spine vs Live2D Cubism: Which Fits Your Team in 2026?](https://ga-forum.com/compare/spine-vs-live2d-cubism)
+- [StreamElements vs Streamlabs Desktop: Which Fits Your Team in 2026?](https://ga-forum.com/compare/streamelements-vs-streamlabs-desktop)
+- [VTube Studio vs Warudo: Which Fits Your Team in 2026?](https://ga-forum.com/compare/vtube-studio-vs-warudo)
+- [Wowza vs Ant Media Server: Which Fits Your Team in 2026?](https://ga-forum.com/compare/wowza-vs-ant-media-server)
+- [Xsolla vs Appcharge: Which Fits Your Team in 2026?](https://ga-forum.com/compare/xsolla-vs-appcharge)
+
+## Alternatives
+
+- [Amazon GameLift Alternatives in 2026](https://ga-forum.com/alternatives/amazon-gamelift)
+- [Amazon IVS Alternatives in 2026](https://ga-forum.com/alternatives/amazon-ivs)
+- [AppLovin MAX Alternatives in 2026](https://ga-forum.com/alternatives/applovin-max)
+- [Battlefy Alternatives in 2026](https://ga-forum.com/alternatives/battlefy)
+- [BattlEye Alternatives in 2026](https://ga-forum.com/alternatives/battleye)
+- [Challonge Alternatives in 2026](https://ga-forum.com/alternatives/challonge)
+- [Discord Alternatives in 2026](https://ga-forum.com/alternatives/discord)
+- [Easy Anti-Cheat Alternatives in 2026](https://ga-forum.com/alternatives/easy-anti-cheat)
+- [GameAnalytics Alternatives in 2026](https://ga-forum.com/alternatives/gameanalytics)
+- [GameMaker Alternatives in 2026](https://ga-forum.com/alternatives/gamemaker)
+- [GeForce NOW Alternatives in 2026](https://ga-forum.com/alternatives/geforce-now)
+- [Godot Alternatives in 2026](https://ga-forum.com/alternatives/godot)
+- [Helpshift Alternatives in 2026](https://ga-forum.com/alternatives/helpshift)
+- [Medal Alternatives in 2026](https://ga-forum.com/alternatives/medal)
+- [MEE6 Alternatives in 2026](https://ga-forum.com/alternatives/mee6)
+- [Mobalytics Alternatives in 2026](https://ga-forum.com/alternatives/mobalytics)
+- [Nightbot Alternatives in 2026](https://ga-forum.com/alternatives/nightbot)
+- [OBS Studio Alternatives in 2026](https://ga-forum.com/alternatives/obs-studio)
+- [ON24 Alternatives in 2026](https://ga-forum.com/alternatives/on24)
+- [Overwolf Alternatives in 2026](https://ga-forum.com/alternatives/overwolf)
+- [Parsec Alternatives in 2026](https://ga-forum.com/alternatives/parsec)
+- [Perforce Helix Core Alternatives in 2026](https://ga-forum.com/alternatives/perforce-helix-core)
+- [Photon Alternatives in 2026](https://ga-forum.com/alternatives/photon)
+- [PlayFab Alternatives in 2026](https://ga-forum.com/alternatives/playfab)
+- [Restream Alternatives in 2026](https://ga-forum.com/alternatives/restream)
+- [Sensor Tower Alternatives in 2026](https://ga-forum.com/alternatives/sensor-tower)
+- [Spine Alternatives in 2026](https://ga-forum.com/alternatives/spine)
+- [Steam Alternatives in 2026](https://ga-forum.com/alternatives/steam)
+- [StreamElements Alternatives in 2026](https://ga-forum.com/alternatives/streamelements)
+- [Streamlabs Desktop Alternatives in 2026](https://ga-forum.com/alternatives/streamlabs-desktop)
+- [Substance 3D Painter Alternatives in 2026](https://ga-forum.com/alternatives/substance-3d-painter)
+- [Unreal Engine Alternatives in 2026](https://ga-forum.com/alternatives/unreal-engine)
+- [vMix Alternatives in 2026](https://ga-forum.com/alternatives/vmix)
+- [Voicemod Alternatives in 2026](https://ga-forum.com/alternatives/voicemod)
+- [VTube Studio Alternatives in 2026](https://ga-forum.com/alternatives/vtube-studio)
+- [Wirecast Alternatives in 2026](https://ga-forum.com/alternatives/wirecast)
+- [Wowza Alternatives in 2026](https://ga-forum.com/alternatives/wowza)
+- [Xsolla Alternatives in 2026](https://ga-forum.com/alternatives/xsolla)
+
+## Guides
+
+- [RTMP, SRT and WebRTC: Streaming Latency Explained](https://ga-forum.com/guides/rtmp-srt-webrtc-streaming-latency-explained): RTMP, SRT and WebRTC compared in plain terms: where streaming latency comes from, what each protocol is good at, and how to pick one for your stream or event.
+- [How to Stream a Hybrid Event or Game Showcase](https://ga-forum.com/guides/how-to-stream-a-hybrid-event-or-game-showcase): A planning playbook for hybrid events and game showcases: set latency by interactivity, size bitrate, add captions and interpreters, and rehearse failures.
+- [How to Start Streaming Games on Twitch and YouTube](https://ga-forum.com/guides/how-to-start-streaming-games-on-twitch-and-youtube): A first-stream playbook for games: choose a platform, set up OBS Studio with sane encoder settings, add chat tools, run a private test and build a weekly routine.
+- [How to Set Up Stream Overlays and Alerts](https://ga-forum.com/guides/how-to-set-up-stream-overlays-and-alerts): Set up stream overlays and alerts in OBS Studio: browser source settings, layer order, alert audio levels, hotkeys, testing and a pre-stream routine for you.
+- [How to Set Up Anti-Cheat for a Multiplayer Game](https://ga-forum.com/guides/how-to-set-up-anti-cheat-for-a-multiplayer-game): A layered checklist for multiplayer anti-cheat: server authority, input validation, a client-side service, ban policy and appeals, and DDoS protection.
+- [How to Set Up a VTuber Avatar for Streaming](https://ga-forum.com/guides/how-to-set-up-a-vtuber-avatar): A practical path from model file to live broadcast: pick 2D or 3D, choose tracking, wire the avatar into OBS with transparency, and protect game frame rates.
+- [How to Run an Online Esports Tournament](https://ga-forum.com/guides/how-to-run-an-online-esports-tournament): Run an online esports tournament: choose a format, count matches, write rules, handle check-in and disputes, staff match day and plan the broadcast well.
+- [How to Run a Game Playtest That Produces Usable Findings](https://ga-forum.com/guides/how-to-run-a-game-playtest): Run a game playtest that leads to decisions: define questions, recruit the right players, watch instead of ask, and turn notes into a ranked fix list.
+- [How to Record Gameplay Without Losing Frame Rate](https://ga-forum.com/guides/how-to-record-gameplay-without-fps-loss): A checklist for recording PC gameplay at low frame rate cost: hardware encoder, capped game frame rate, lean scenes, crash-safe formats and a way to measure.
+- [How to Plan a Game LiveOps Calendar](https://ga-forum.com/guides/how-to-plan-a-game-liveops-calendar): A LiveOps calendar maps updates, events and store beats to dates. Build one with store limits, content lead times and metrics, using Apple and Steam rules.
+- [How to Pick a Game Monetization Stack](https://ga-forum.com/guides/how-to-pick-a-game-monetization-stack): Choose how your game earns before choosing tools: match the revenue model to store rules, then add payments, ad mediation and measurement in a sensible order.
+- [How to Multistream Without Lag or Dropped Frames](https://ga-forum.com/guides/how-to-multistream-without-lag): Multistream to Twitch and YouTube without dropped frames: budget your upload, choose local or cloud relay, set encoders and troubleshoot with a ranked checklist.
+- [How to Moderate a Discord Server for a Game Community](https://ga-forum.com/guides/how-to-moderate-a-discord-server): A moderation checklist for game Discord servers: roles, AutoMod rules, raid defenses, time outs, slowmode and a moderator routine from Discord's help pages.
+- [How to Host a Dedicated Server for an Indie Game](https://ga-forum.com/guides/how-to-host-a-dedicated-server-for-an-indie-game): A playbook for indie teams: build a separate server, run it headless on Linux, choose rented machines or orchestration, and plan ahead for DDoS attacks.
+- [How to Choose a Live Streaming Platform for Company Events](https://ga-forum.com/guides/how-to-choose-a-live-streaming-platform-for-company-events): A practical way to pick a live streaming platform for town halls, launches and hybrid events: audience size, latency, encoders, security and a pilot checklist.
+- [How to Choose a Game Engine: A Decision Guide](https://ga-forum.com/guides/how-to-choose-a-game-engine): A practical guide to choosing a game engine: start from target platforms, team language, license terms and genre, then test with a one-week vertical slice.
+- [How to Build a Multiplayer Game Backend](https://ga-forum.com/guides/how-to-build-a-multiplayer-game-backend): Plan a multiplayer game backend in layers: authoritative game servers, a netcode library, accounts and matchmaking, and hosting. Includes a launch checklist.
+- [How to Build a Modding Community Around Your Game](https://ga-forum.com/guides/how-to-build-a-modding-community): A step-by-step plan for opening your game to mods: pick a Workshop model, ship tools and docs, set content rules, host the files and keep modders engaged.
+- [Game Localization Workflow: From String Table to Release](https://ga-forum.com/guides/game-localization-workflow-guide): A game localization workflow from string tables to release: placeholders, plurals, pseudolocalization, translator context, in-game tests and store languages.
+- [Game Analytics KPIs Explained: Retention, ARPDAU and LTV](https://ga-forum.com/guides/game-analytics-kpis-explained): Plain definitions of DAU, retention, ARPDAU, ARPPU and LTV, how GameAnalytics calculates them, and how to read the KPIs together instead of one at a time.
+
+## Research and statistics
+
+- [Creator Economy and Streamer Statistics 2026](https://ga-forum.com/research/creator-economy-and-streamer-statistics): Creator earnings, platform viewing hours, Twitch and YouTube monetization rules and Patreon payouts, drawn from 2025 and 2026 reports opened on 18 November 2026.
+- [Enterprise Live Video and Streaming Statistics 2026](https://ga-forum.com/research/enterprise-live-video-and-streaming-statistics): Surveys and trackers on enterprise video and live streaming in 2025 and 2026: platform sprawl, latency priorities, AI use, governance and public live viewing.
+- [Esports Audience and Revenue Statistics 2026](https://ga-forum.com/research/esports-audience-and-revenue-statistics): Esports audience and revenue figures for 2026: Esports World Cup viewers and prize pool, Worlds peak viewership, and two research firms' market size and sponsorship estimates.
+- [Game Developer Survey: Engines, Tools and Pipelines 2026](https://ga-forum.com/research/game-developer-survey-tools-and-engines): Figures from Unity's 2026 survey of 300 game developers: project scope, AI tool use, MCP servers, multiplayer features, discoverability and Unity Editor data.
+- [Game Engine Market Share Statistics 2026](https://ga-forum.com/research/game-engine-market-share-statistics): Game engine market share in 2026: Unity, Unreal Engine and Godot shares from Steam scans, developer surveys and game jams, plus Godot release counts, with sources.
+- [Live Streaming Viewership Statistics 2026](https://ga-forum.com/research/live-streaming-viewership-statistics): Sourced live streaming viewership figures for 2026: GTA VI launch peaks, multistreaming share, World Cup watch time, award shows and creator events on Twitch, YouTube and Kick.
+- [Mobile Game Monetization Statistics 2026](https://ga-forum.com/research/mobile-game-monetization-statistics): Mobile game monetization figures for 2026: in-app purchase revenue, free-to-play share, ad network results, subscription data and developer survey answers, with sources.
+- [Multiplayer and Live-Service Game Statistics 2026](https://ga-forum.com/research/multiplayer-and-live-service-game-statistics): Multiplayer and live-service game statistics for 2026: developer survey results, live ops tooling adoption, Roblox and Steam player counts, and online play rates.
+- [Steam Platform Statistics 2026](https://ga-forum.com/research/steam-platform-statistics): Steam statistics from Valve's own pages: October 2026 hardware survey shares for Windows, Linux, GPUs, RAM and languages, plus catalog, community and most-played figures.
+- [Video Game Industry Market Size Statistics 2026](https://ga-forum.com/research/video-game-industry-market-size-statistics): Market size figures for the video game industry in 2026: US consumer spending, Europe revenue, global mobile spending and the latest publisher results, each with its source.
+
+## News and analysis
+
+- [TwitchCon San Diego 2026: clips, hosting and Host Trains for streamers](https://ga-forum.com/news/twitchcon-san-diego-2026-announcements)
+- [YouTube adds GTA VI gifts to YouTube Live and plans a 24-hour launch livestream](https://ga-forum.com/news/youtube-gta-vi-launch-live-gifts-and-24-hour-stream)
+- [Twitch launches Recaps Spotlight to promote streamer clips on social media](https://ga-forum.com/news/twitch-recaps-spotlight-clip-promotion)
+- [Twitch introduces Stream Recaps: clip highlight reels for followers](https://ga-forum.com/news/twitch-introduces-stream-recaps)
+- [PlayVS acquires LeagueSpot to expand league and tournament software](https://ga-forum.com/news/playvs-acquires-leaguespot)
+- [Discord at GDC 2026: Social SDK updates for game developers](https://ga-forum.com/news/gdc-2026-discord-developer-tools)
+- [Unity and Epic announce plan to bring Unity games into Fortnite](https://ga-forum.com/news/unity-and-epic-bring-unity-games-to-fortnite)
+
+## About
+
+- [Methodology](https://ga-forum.com/editorial-process)
+- [Disclosure](https://ga-forum.com/disclosure)
+- [History of the domain](https://ga-forum.com/history)
+- [Forum](https://ga-forum.com/forum)
+- [llms-full.txt](https://ga-forum.com/llms-full.txt): every ranking as plain text

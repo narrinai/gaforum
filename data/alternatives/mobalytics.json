@@ -1,0 +1,194 @@
+{
+  "slug": "mobalytics",
+  "subject": "Mobalytics",
+  "subject_site": "https://mobalytics.gg/",
+  "title": "Mobalytics Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Eight game stats, coaching and training tools to weigh against Mobalytics, from League of Legends sites to CS2 analytics, Dota 2 data and an aim trainer.",
+  "category": "best-esports-analytics-and-coaching-software",
+  "intro": "Mobalytics is a game stats and coaching site, and players often compare it with narrower tools that focus on one title or one skill. Its website returned HTTP 403 to our research fetcher, so this page does not claim anything about Mobalytics features or prices; each alternative is described only from its own pages. The picks run from League of Legends builds and match history to CS2 performance reports, Dota 2 analytics, aim training and a coaching marketplace. They are grouped by the job they do, so you can replace the part of Mobalytics you actually use. The [esports analytics and coaching software ranking](/software/best-esports-analytics-and-coaching-software) gives a wider view.",
+  "why_switch": [
+    "A player who only needs one game may prefer a site built around that title, such as STRATZ for Dota 2 or Scope.gg for CS2.",
+    "Players who want an in-game overlay can look at Blitz, which offers overlays plus meta stats and tier lists.",
+    "Those who want human coaching can use Metafy, where coaches and creators sell guides, coaching and events.",
+    "Improving raw aim is a different skill from reading stats, and Aim Lab is built only for that.",
+    "Several rivals publish a free tier plainly, which makes a switch low risk."
+  ],
+  "picks": [
+    {
+      "slug": "blitz",
+      "name": "Blitz",
+      "site": "https://blitz.gg",
+      "best_for": "Overlay and tier lists",
+      "pricing": "Free to use, with an optional premium tier; prices are not on the opened pages.",
+      "free_plan": "Free",
+      "note": "Blitz offers in-game overlays, personalized stats, meta stats and tier lists for games including League of Legends, TFT, VALORANT and CS2. It says it has analyzed more than three billion matches. Choose it when you want information shown while you play rather than after. It needs a desktop app, and the premium and ad-free prices were not readable.",
+      "sources": [
+        {
+          "fact": "Blitz offers in-game overlays, personalized stats, meta stats and tier lists for several games.",
+          "url": "https://blitz.gg"
+        },
+        {
+          "fact": "Blitz says it has 240M+ players and 3B+ matches analyzed.",
+          "url": "https://blitz.gg"
+        }
+      ]
+    },
+    {
+      "slug": "op-gg",
+      "name": "OP.GG",
+      "site": "https://op.gg",
+      "best_for": "League of Legends match history",
+      "pricing": "No pricing shown on the opened pages.",
+      "free_plan": "Unknown",
+      "note": "OP.GG began as a League of Legends stats search engine in 2012 and now covers Teamfight Tactics, Valorant, PUBG and Overwatch as well. It provides summoner search, match history, live game views and rankings. It suits players who mainly want to look up themselves and opponents. Coaching content is not part of what we read on its pages.",
+      "sources": [
+        {
+          "fact": "OP.GG provides LoL stats, match history, live games and rankings for League of Legends players.",
+          "url": "https://op.gg"
+        },
+        {
+          "fact": "OP.GG offers stats for League of Legends, Teamfight Tactics, Valorant, PUBG and Overwatch.",
+          "url": "https://op.gg"
+        }
+      ]
+    },
+    {
+      "slug": "u-gg",
+      "name": "U.GG",
+      "site": "https://u.gg",
+      "best_for": "Builds, runes and counters",
+      "pricing": "Usable as a guest; a paid U.GG PLUS tier exists, with no price shown.",
+      "free_plan": "Free",
+      "note": "U.GG focuses on League of Legends builds, runes, tier lists, counters and guides, and also covers Valorant and other games. It is the straightforward option when the Mobalytics feature you use is champion guidance. The PLUS tier prices were not on the pages we opened.",
+      "sources": [
+        {
+          "fact": "U.GG provides League of Legends builds, runes, tier lists, counters and guides.",
+          "url": "https://u.gg"
+        },
+        {
+          "fact": "U.GG offers a paid U.GG PLUS tier.",
+          "url": "https://u.gg/faq"
+        }
+      ]
+    },
+    {
+      "slug": "stratz",
+      "name": "STRATZ",
+      "site": "https://stratz.com",
+      "best_for": "Dota 2 analytics and API",
+      "pricing": "The website is free; a STRATZ+ subscription exists, with no price shown.",
+      "free_plan": "Free",
+      "note": "STRATZ is a Dota 2 stats website with personalized visualizations, AI-powered match predictions and a GraphQL API. If your game is Dota 2 and you want data you can query, it is more specific than a general coaching site. Other titles are not its focus.",
+      "sources": [
+        {
+          "fact": "The STRATZ website is free to use, according to the vendor's About text.",
+          "url": "https://stratz.com"
+        },
+        {
+          "fact": "STRATZ offers a GraphQL API and a paid STRATZ+ tier.",
+          "url": "https://stratz.com/api"
+        }
+      ]
+    },
+    {
+      "slug": "leetify",
+      "name": "Leetify",
+      "site": "https://leetify.com",
+      "best_for": "CS2 match reports",
+      "pricing": "Prices could not be read because the pages render with JavaScript.",
+      "free_plan": "Unknown",
+      "note": "Leetify provides detailed match reports with aim and utility ratings and highlights, and lets players compare their performance with friends. It fits Counter-Strike players who want a review after each match. Its pricing page was not readable, so confirm costs on the vendor site.",
+      "sources": [
+        {
+          "fact": "Leetify offers detailed match reports with aim and utility ratings and highlights.",
+          "url": "https://leetify.com"
+        },
+        {
+          "fact": "Leetify lets players compare their performance with their friends.",
+          "url": "https://leetify.com"
+        }
+      ]
+    },
+    {
+      "slug": "scope-gg",
+      "name": "Scope.gg",
+      "site": "https://scope.gg",
+      "best_for": "CS2 stats beyond the scoreboard",
+      "pricing": "Sign-up is free; no paid price is shown.",
+      "free_plan": "Free",
+      "note": "Scope.gg tracks CS2 matches and evaluates players with stats the in-game scoreboard does not show. Its navigation lists an API, a demo viewer and Faceit stats. It is a good alternative when the CS2 detail matters more than breadth across many games.",
+      "sources": [
+        {
+          "fact": "Scope.gg provides CS2 stats, analytics and match tracking that evaluates player skill beyond the in-game scoreboard.",
+          "url": "https://scope.gg"
+        },
+        {
+          "fact": "Scope.gg's navigation lists an API and tools such as a demo viewer and Faceit stats.",
+          "url": "https://scope.gg"
+        }
+      ]
+    },
+    {
+      "slug": "aim-lab",
+      "name": "Aim Lab",
+      "site": "https://aimlabs.com/",
+      "best_for": "Aim training",
+      "pricing": "Free to play; a paid PRO membership exists, with no price shown.",
+      "free_plan": "Free",
+      "note": "Aimlabs is an AI-powered aim trainer with personalized tasks and real-time analytics, and says it has more than 40 million players and 500 FPS game profiles. It replaces the practice part of coaching rather than the stats part. It will not tell you about your match history.",
+      "sources": [
+        {
+          "fact": "Aimlabs is an AI-powered aim trainer that offers personalized tasks and real-time analytics.",
+          "url": "https://aimlabs.com/"
+        },
+        {
+          "fact": "Aimlabs says it has more than 40 million players and offers 500 FPS game profiles.",
+          "url": "https://aimlabs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "metafy",
+      "name": "Metafy",
+      "site": "https://metafy.gg",
+      "best_for": "Paid coaching and guides",
+      "pricing": "Creators set their own prices; no platform price list was on the opened pages.",
+      "free_plan": "Unknown",
+      "note": "Metafy is a community where coaches and creators offer guides, coaching and events, organized in a hub per game. Choose it when you want a person to review your play. Prices vary by creator, so budget by browsing profiles instead of expecting a flat subscription.",
+      "sources": [
+        {
+          "fact": "Metafy is a community where creators and coaches share guides, coaching and events for games.",
+          "url": "https://metafy.gg/discover"
+        },
+        {
+          "fact": "Metafy organizes its content in a hub for each game, with guides, coaching, events and Discords.",
+          "url": "https://metafy.gg/discover"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Name the job first. Looking up matches in League of Legends points to OP.GG or U.GG. Playing with an overlay points to Blitz. CS2 reviews point to Leetify or Scope.gg, and Dota 2 data to STRATZ. If your problem is mechanical skill, try Aim Lab. If you want feedback from a person, browse Metafy. Most of these are free to try, so use two for a week and keep the one you actually open after games.",
+  "faqs": [
+    {
+      "q": "Why does this page not describe Mobalytics features?",
+      "a": "Its website returned HTTP 403 to our fetcher, so we could not verify anything it offers or charges. We chose to describe only the alternatives from pages we opened."
+    },
+    {
+      "q": "Which tools are free to start?",
+      "a": "Blitz, U.GG, STRATZ, Scope.gg and Aim Lab each describe a free way to use them, with optional paid tiers on several. Leetify's prices could not be read, and Metafy depends on what each coach charges."
+    },
+    {
+      "q": "I only play CS2. What fits?",
+      "a": "Leetify and Scope.gg both focus on Counter-Strike 2 analytics. Leetify emphasizes match reports and highlights, while Scope.gg emphasizes stats beyond the scoreboard and lists a demo viewer and API."
+    },
+    {
+      "q": "Can any of these replace a human coach?",
+      "a": "Metafy lets you book coaches and buy guides from creators. The stats sites and Aim Lab give data and practice, not personal feedback."
+    },
+    {
+      "q": "Is there a data source for developers?",
+      "a": "STRATZ offers a GraphQL API, and Scope.gg lists an API in its navigation. Both are worth reading for rate limits and terms before you build on them."
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "slug": "best-streaming-software-for-gamers",
+  "name": "streaming software for gamers",
+  "title": "Best Streaming Software for Gamers in 2026",
+  "group": "Streaming and creators",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Ten broadcasting apps for PC gamers who stream to Twitch and YouTube, ranked on price, platform support and how much setup each one demands.",
+  "definition": "Streaming software for gamers is the program that captures a game, a webcam and a microphone, combines them into scenes, and sends the result to Twitch, YouTube or another service as a live video feed. It also records locally, and many tools add overlays, alerts or multistreaming on top.",
+  "intro": "Choosing broadcasting software looks easy until the first stream: the wrong pick means a logo burned into your video, a resolution cap, a trial that ends mid-season, or an app that only runs on an operating system you do not use. This ranking covers ten tools that a PC gamer might realistically open before going live. We read each vendor's homepage, pricing page and download page, compared the published price, platform list and limits, and weighed how well each fits someone streaming a game to Twitch or YouTube from a single PC. We did not run benchmarks, so nothing here claims frame rates or encoder quality. Where a vendor does not publish a figure, we say so instead of guessing. Order reflects fit for a solo or small-team gaming channel, not company size.",
+  "criteria": [
+    {
+      "heading": "What it costs once you outgrow the free tier",
+      "text": "Several tools here start at zero and then gate resolution, scene count, stream length or branding behind a paid plan. Read the limits before you pick, because a 720p cap or a visible logo changes how a channel looks. One vendor charges per month from the start, and two sell on a trial. Compare the cheapest paid step against what you would actually unlock, not the headline price."
+    },
+    {
+      "heading": "Which operating system and hardware it assumes",
+      "text": "A gaming rig usually runs Windows, but not always. Some programs are Windows only, some cover Windows and macOS, one is open source across three systems, and one runs entirely in a browser while a cloud service captures the console. A graphics-card app only helps if you own that vendor's card. Check the platform line before anything else; it removes options quickly."
+    },
+    {
+      "heading": "How much work a first stream takes",
+      "text": "Scene building, audio routing and encoder settings are where new streamers lose an evening. Tools with templates, an overlay gallery or a built-in layout helper cut that time, while mixer-style production software expects you to know broadcast vocabulary. We weighed what each vendor says about layouts, templates and bundled alerts, since those are the parts that decide the first hour."
+    },
+    {
+      "heading": "Reach beyond a single destination",
+      "text": "Streaming to Twitch and YouTube together, or adding a vertical feed, is common now. Some products bundle multistreaming, some route it through a cloud service, and some leave it to a plugin or a companion app. Count how many destinations the free tier allows and whether sending extra feeds costs more, because that is where small channels hit a paywall."
+    }
+  ],
+  "market_notes": [
+    "Counting the ten records, five publish a price on the page we opened (Meld, XSplit, Lightstream, vMix and Wirecast), one is free and open source, and three give no amount at all: Streamlabs Desktop, StreamElements and the NVIDIA App. Five offer a usable free tier or free software, two lean on trials, and vMix starts at $50 per month. For a hobby channel, the free group covers the job; the paid products target people who produce shows with several cameras and guests.",
+    "Platform choice narrows the list faster than price does. Two tools run on Windows only, one covers Mac and Windows, Prism lists Windows and Apple Silicon Macs, and OBS spans three systems. Lightstream is the outlier: it runs in a browser and can capture Xbox and PlayStation in the cloud, which matters if the game is not on your PC. The trade-off is a free tier limited to 720p, so console streamers pay for resolution."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Start from your operating system",
+      "text": "Write down whether you stream from Windows, a Mac or a console, then drop every tool that does not run there. That alone removes two or three names. If you play on a console, only the browser-based option handles it without a capture card, and if you use a Mac, XSplit and vMix are out. Everything else is a question of price and taste."
+    },
+    {
+      "title": "Match the free tier to your destinations",
+      "text": "List the places you will stream to this month. If the answer is one platform at 1080p, free software is enough and you should spend nothing. If you want several destinations at once, check how each vendor handles the second feed, since some include it and some route it through a paid cloud plan. Pick the tool whose free limits do not block your plan."
+    },
+    {
+      "title": "Try one scene before you commit",
+      "text": "Download or open your top two, build a single scene with game capture, webcam and microphone, and go through the settings screens. How quickly you reach a working scene tells you more than any feature list. Keep the second choice installed for a week as a fallback; switching between free tools costs only the time it takes to rebuild your scenes, so the risk of trying both is small."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best streaming software for gamers in 2026?",
+      "a": "OBS Studio is our first pick for most PC gamers: it is free, open source and runs on Windows, macOS and Linux. Streamlabs Desktop is better if you want alerts and overlays bundled in, and XSplit Broadcaster is better on Windows if you prefer a guided layout. For console streams without a capture card, Lightstream is the better fit."
+    },
+    {
+      "q": "Is OBS Studio really free to use?",
+      "a": "Yes. The OBS project describes the software as free and open source, and its homepage lists no paid tier. It supports Windows 10 and 11, macOS 13 or newer and Linux. The cost is your own setup time, since scenes, audio and encoder settings are yours to configure."
+    },
+    {
+      "q": "Can I stream from a console without a capture card?",
+      "a": "Lightstream says it offers cloud capture for Xbox and PlayStation and runs in the browser with nothing to download. Its free tier is limited to 720p, a 10 hour limit per stream and three scenes, with a Lightstream logo on the video, so the paid plan matters for a clean 1080p channel."
+    },
+    {
+      "q": "Which streaming programs run on a Mac?",
+      "a": "OBS Studio supports macOS 13 or newer, Wirecast lists Mac and Windows, and Prism Live Studio lists macOS on Apple Silicon, Monterey 12.3 or higher. Meld Studio and Lightstream are reached through a desktop download and a browser respectively. XSplit Broadcaster and vMix are Windows applications, so skip them on a Mac."
+    },
+    {
+      "q": "Do I need paid software to stream at 1080p?",
+      "a": "Not always. OBS Studio and Meld Studio are free, and Meld lists a free plan at $0 per month. Lightstream limits its free tier to 720p, while XSplit says Premium adds higher-resolution output and commercial use. Check the exact limits of any free plan before you rely on it for a monetized channel."
+    },
+    {
+      "q": "Is the NVIDIA App a replacement for streaming software?",
+      "a": "Not on its own. NVIDIA describes the app as a companion for gamers and creators that keeps drivers current, and its download page lists ShadowPlay and a Broadcast App among its features. It needs an NVIDIA GPU, and it does not replace a scene-based program for overlays, webcams and multiple sources."
+    },
+    {
+      "q": "When is vMix or Wirecast worth the money?",
+      "a": "When you run a produced show rather than a solo channel. vMix is a Windows video mixer from $50 per month with a 60-day trial, and Wirecast starts at $34 per month billed yearly with unlimited cameras and remote guests. A single-camera gaming stream rarely uses those features."
+    }
+  ],
+  "related": [
+    "best-multistreaming-platforms",
+    "best-stream-overlay-and-alert-tools",
+    "best-game-capture-and-recording-software",
+    "best-twitch-chat-bots",
+    "best-stream-deck-and-stream-automation-software",
+    "best-voice-changer-and-streaming-audio-software"
+  ],
+  "tools": [
+    {
+      "slug": "obs-studio",
+      "name": "OBS Studio",
+      "site": "https://obsproject.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Free open source recorder and streaming app",
+      "best_for": "Free setup on any desktop OS",
+      "pricing": "Free and open source software.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows 10 and 11, macOS 13 or newer, Linux",
+      "features": [
+        "Scenes with multiple sources",
+        "Window capture",
+        "Browser sources",
+        "Capture cards",
+        "H264/AAC encoding"
+      ],
+      "summary": "Free, open source and available for Windows, macOS and Linux, which makes it the safest default for a gamer who wants no recurring cost.",
+      "verdict": "Nothing about the price or platform list is hard to beat: the vendor describes OBS as free and open source software for recording and live streaming, with scenes built from window captures, browser windows, webcams and capture cards. That covers the usual gamer stack of game, camera and chat window. It supports Windows 10 and 11, macOS 13 or newer and Linux, so a platform change later does not force a new tool. For a solo Twitch or YouTube channel it is the baseline everything else gets measured against.",
+      "weaknesses": "OBS ships as a blank canvas, so you build scenes, audio routing and encoder settings yourself. The pages we read mention no bundled alerts, templates or hosted chat tools, and there is no vendor support desk listed on the homepage.",
+      "wrong_for": "Skip it if you want alerts, tipping and templates in one install, or a guided layout on day one. Streamlabs Desktop or XSplit Broadcaster come with more handholding.",
+      "sources": [
+        {
+          "fact": "OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage says OBS supports Windows 10 and Windows 11, macOS 13.0 or newer, and Linux.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage describes scenes made of multiple sources including window captures, browser windows, webcams and capture cards.",
+          "url": "https://obsproject.com/"
+        }
+      ]
+    },
+    {
+      "slug": "streamlabs-desktop",
+      "name": "Streamlabs Desktop",
+      "site": "https://streamlabs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Streaming app tied to alerts, tipping and merch",
+      "best_for": "Alerts and tips in one install",
+      "pricing": "Plan amounts for the desktop app were not readable on the vendor page; the pricing page says Streamlabs takes zero cut of donations.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Streamlabs Desktop",
+        "Alerts",
+        "Overlays",
+        "Tipping",
+        "Merch"
+      ],
+      "summary": "Streamlabs bundles broadcasting with alerts, overlays and tipping, so a new channel gets its extras from a single vendor and a single login.",
+      "verdict": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, with the desktop app sitting beside alerts, overlays, tipping and merch. The pricing page says the company takes zero cut of donations, which matters when tips are part of the plan. Putting broadcast, alerts and a tip page under one account removes the plugin hunt that new streamers face with a bare encoder. It earns second place because the bundle saves the most time for the least money we can confirm.",
+      "weaknesses": "The Streamlabs Desktop product page was rendered by JavaScript and we could not read its plans, so we cannot state its price tiers, platform list or free limits. Some extras may sit behind a paid subscription.",
+      "wrong_for": "Not for anyone who wants every feature and price confirmed before installing. OBS Studio publishes a clear free offer, and Meld Studio lists its tiers openly.",
+      "sources": [
+        {
+          "fact": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, offering Streamlabs Desktop, alerts, overlays, tipping and merch.",
+          "url": "https://streamlabs.com/"
+        },
+        {
+          "fact": "The Streamlabs pricing page states that the company takes zero cut of your donations.",
+          "url": "https://streamlabs.com/pricing"
+        },
+        {
+          "fact": "The Streamlabs Desktop product page on the vendor site could not be read in full because the page is rendered by JavaScript, so its plans are not recorded here.",
+          "url": "https://streamlabs.com/streamlabs-desktop/tip"
+        }
+      ]
+    },
+    {
+      "slug": "xsplit-broadcaster",
+      "name": "XSplit Broadcaster",
+      "site": "https://www.xsplit.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Windows studio with a free tier and layout helper",
+      "best_for": "Windows streamers wanting guided layouts",
+      "pricing": "Broadcaster Free $0. Premium $14.99 per month, or $59.99 per year (about $5 per month). Lifetime option also offered. Premium adds higher-resolution output and commercial use.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Windows desktop app",
+      "features": [
+        "Scenes and sources",
+        "Layout Wizard",
+        "Live streaming",
+        "Recording",
+        "Media Manager",
+        "VCam"
+      ],
+      "summary": "XSplit pairs a free Windows tier with a layout helper and low-cost Premium, so beginners get structure without leaving the desktop.",
+      "verdict": "XSplit Broadcaster is streaming and recording software for games, podcasts and presentations, and the vendor lists a Layout Wizard, Media Manager and VCam alongside scenes and sources. Broadcaster Free costs $0, and Premium is $14.99 per month or $59.99 per year with a lifetime option also offered. The pricing page says Premium adds higher-resolution output and commercial use, so the paid step is easy to judge. It sits third because the cost to upgrade is clear and the free tier is real.",
+      "weaknesses": "It is a Windows desktop app only, so Mac and Linux streamers are out. The free tier holds back higher-resolution output and commercial use, which a channel earning money would need to unlock with Premium.",
+      "wrong_for": "Mac or Linux owners should look at OBS Studio instead. Someone who wants multistreaming from a browser, with no install at all, should consider Lightstream.",
+      "sources": [
+        {
+          "fact": "XSplit Broadcaster is live streaming and recording software for games, podcasts and presentations.",
+          "url": "https://www.xsplit.com/"
+        },
+        {
+          "fact": "XSplit's pricing page lists Broadcaster Free at $0 and a Premium plan at $14.99 per month or $59.99 per year.",
+          "url": "https://www.xsplit.com/buy"
+        },
+        {
+          "fact": "XSplit's pricing page says Premium adds higher-resolution output and commercial use.",
+          "url": "https://www.xsplit.com/buy"
+        },
+        {
+          "fact": "XSplit Media Manager is offered free and needs no login, according to the homepage.",
+          "url": "https://www.xsplit.com/"
+        }
+      ]
+    },
+    {
+      "slug": "meld-studio",
+      "name": "Meld Studio",
+      "site": "https://meldstudio.co/",
+      "company": "",
+      "country": "",
+      "tagline": "Free app with cloud multistreaming and overlays",
+      "best_for": "Multistreaming without extra plugins",
+      "pricing": "Meld Studio is free. Meld Free $0 per month. Meld Pro $17 per month, or $200 billed annually. A higher tier is $50 per month, or $600 billed annually. Overlays from the gallery are free.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Desktop app (Download Meld); cloud multistreaming",
+      "features": [
+        "Multistreaming",
+        "Cloud multistreaming",
+        "4K recording",
+        "Multitrack audio",
+        "Clipping",
+        "Overlay gallery"
+      ],
+      "summary": "Meld Studio is free, records in 4K and multistreams to every platform at once, with overlays from a free gallery.",
+      "verdict": "Meld describes Meld Studio as free streaming and recording software with multistreaming to every platform at once and 4K recording. Its pricing page lists a free plan at $0, Meld Pro at $17 per month or $200 billed annually, and a higher tier at $50 per month. Overlays from the gallery are free, and Meld Spark covers interactive overlays and alerts. It lands fourth only because its platform list is thinner than OBS: it is a desktop download, and we did not see Linux listed.",
+      "weaknesses": "The facts we gathered do not list supported operating systems beyond a desktop download, so check compatibility before installing. Cloud multistreaming sits alongside paid tiers, and the top tier costs $50 per month.",
+      "wrong_for": "If you need a proven three-platform option with no tiers, take OBS Studio. For Windows-only layout helpers, XSplit Broadcaster is the closer match.",
+      "sources": [
+        {
+          "fact": "Meld Studio is free streaming and recording software with multistreaming to every platform at once and 4K recording.",
+          "url": "https://meldstudio.co/pricing/"
+        },
+        {
+          "fact": "Meld's pricing page lists a free plan at $0 per month and Meld Pro at $17 per month, or $200 billed annually.",
+          "url": "https://meldstudio.co/pricing/"
+        },
+        {
+          "fact": "Meld's homepage describes Meld Spark as the tool for interactive overlays and alerts.",
+          "url": "https://meldstudio.co/"
+        }
+      ]
+    },
+    {
+      "slug": "prism-live-studio",
+      "name": "Prism Live Studio",
+      "site": "https://prismlive.com/en_us/",
+      "company": "",
+      "country": "",
+      "tagline": "Free desktop app with a mobile companion",
+      "best_for": "Streamers who also go live from a phone",
+      "pricing": "The PRISM Live Studio desktop app is offered free. A Plus subscription is sold through the PRISM mobile app; Credits are sold only in the mobile app.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Windows 10 and 11 (64-bit); macOS (Apple Silicon), Monterey 12.3 or higher; mobile app",
+      "features": [
+        "Stream to live platforms simultaneously",
+        "Screen sharing",
+        "AvatarLive",
+        "Video effects and filters",
+        "Video editing",
+        "Multistream"
+      ],
+      "summary": "Prism Live Studio is a free desktop app for Windows and Apple Silicon Macs that multistreams and edits video, with a mobile companion.",
+      "verdict": "PRISM Live Studio is offered free on Windows 10 and 11 (64-bit) and on macOS Apple Silicon, Monterey 12.3 or higher. The homepage lists simultaneous streaming to live platforms, screen sharing, AvatarLive and video effects, so it covers more than a bare encoder. A Plus subscription is bought in the mobile app. For someone who streams from both a PC and a phone, the shared account is the reason to pick it over a desktop-only program.",
+      "weaknesses": "Plus and Credits are sold only through the mobile app, which makes paid features awkward to buy from a desktop. A beta Windows version built on OBS is offered, and installing it removes the existing Prism Live Studio.",
+      "wrong_for": "Intel Mac users or anyone on Linux should look at OBS Studio. A streamer who wants all pricing visible on the vendor site should consider XSplit Broadcaster.",
+      "sources": [
+        {
+          "fact": "PRISM Live Studio is free live streaming and recording software that provides multi-platform streaming and video editing.",
+          "url": "https://prismlive.com/en_us/"
+        },
+        {
+          "fact": "PRISM Live Studio runs on Windows 10 and 11 (64-bit) and on macOS (Apple Silicon), Monterey 12.3 or higher.",
+          "url": "https://prismlive.com/en_us/"
+        },
+        {
+          "fact": "The Plus subscription can be bought through the PRISM mobile app, and Credits are currently available only in the mobile app.",
+          "url": "https://prismlive.com/en_us/"
+        },
+        {
+          "fact": "The homepage lists stream to live platforms simultaneously, screen sharing, AvatarLive and Max Multistream as features.",
+          "url": "https://prismlive.com/en_us/"
+        }
+      ]
+    },
+    {
+      "slug": "lightstream",
+      "name": "Lightstream",
+      "site": "https://golightstream.com/",
+      "company": "Infiniscene, Inc.",
+      "country": "",
+      "tagline": "Browser-based studio with console cloud capture",
+      "best_for": "Console players without a capture card",
+      "pricing": "Free tier: $0 with Lightstream logo on streams, 720p, 10 hour limit per stream, up to 3 scenes. Premium: $12 or $9/mo on an annual subscription, no logo, 720p and 1080p, 48 hour limit per stream, up to 20 scenes.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Browser-based, no downloads needed; cloud capture for Xbox and PlayStation",
+      "features": [
+        "Lightstream Studio",
+        "Simulcasting to up to 5 destinations",
+        "Cloud capture for Xbox and PlayStation",
+        "Stream templates and overlays",
+        "XPN alerts and overlays",
+        "Up to 10 guests on premium"
+      ],
+      "summary": "Lightstream runs in a browser, captures Xbox and PlayStation in the cloud, and publishes a clear free tier and a $12 Premium plan.",
+      "verdict": "Lightstream is cloud-native streaming software that needs no download. The free tier costs $0 with a Lightstream logo, 720p, a 10 hour stream limit and up to three scenes. Premium is $12, or $9 per month on an annual subscription, and drops the logo while adding 1080p and 20 scenes. It simulcasts to up to five destinations, including custom RTMP. For console players it is the only option here that handles capture in the cloud, which earns it a mid-table spot.",
+      "weaknesses": "A 720p cap and a visible logo on the free tier make it a trial for most channels, not a free home. The vendor, Infiniscene, Inc., was acquired by Creative Solutions, part of the Videndum Group, in April 2021.",
+      "wrong_for": "PC streamers who want free 1080p should use OBS Studio or Meld Studio. Anyone needing a deep desktop plugin ecosystem will find a browser tool limiting.",
+      "sources": [
+        {
+          "fact": "Lightstream is a cloud-native live streaming software that runs in the browser and needs no downloads.",
+          "url": "https://golightstream.com/"
+        },
+        {
+          "fact": "Lightstream's free tier costs $0 and includes 720p streaming, a 10 hour limit per stream and up to 3 scenes, with a Lightstream logo on all streams.",
+          "url": "https://golightstream.com/"
+        },
+        {
+          "fact": "The Premium plan costs $12, or $9 per month on an annual subscription, and removes the Lightstream logo and adds 1080p and 20 scenes.",
+          "url": "https://golightstream.com/"
+        },
+        {
+          "fact": "Lightstream allows simulcasting to up to five destinations at once, including custom RTMP.",
+          "url": "https://golightstream.com/"
+        }
+      ]
+    },
+    {
+      "slug": "streamelements",
+      "name": "StreamElements",
+      "site": "https://streamelements.com/",
+      "company": "StreamElements",
+      "country": "",
+      "tagline": "Cloud streaming platform with overlays and chatbot",
+      "best_for": "Overlays, alerts and chat in one cloud account",
+      "pricing": "Pricing is not stated on the home page opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Twitch, YouTube and Facebook Gaming, per the vendor",
+      "features": [
+        "Alerts and overlays",
+        "Chatbot",
+        "SE.Live OBS plugin",
+        "SE.Tips tipping",
+        "Ground Control multistreaming app"
+      ],
+      "summary": "StreamElements is a cloud platform for overlays, alerts, chatbot and tipping, with an OBS plugin called SE.Live and a multistreaming companion.",
+      "verdict": "StreamElements describes itself as cloud-based and integrated with the stream. It lists overlays, tipping, a chatbot, alerts and merchandise for Twitch, YouTube and Facebook Gaming. SE.Live is a plugin for OBS Studio, and Ground Control is a companion app for managing multistreams. The strength is breadth: one account covers the extras around the encoder. It ranks in the middle because it adds to a broadcasting app instead of replacing one.",
+      "weaknesses": "The homepage we opened showed no price, so the cost of any paid tier is unknown. It relies on OBS through the SE.Live plugin, so you still need a separate broadcasting program installed.",
+      "wrong_for": "Not a standalone encoder. Choose OBS Studio or Streamlabs Desktop as your core app, and add StreamElements only for overlays, alerts and chat tools.",
+      "sources": [
+        {
+          "fact": "StreamElements lists overlays, tipping, chatbot, alerts and merchandise among its features for Twitch, YouTube and Facebook Gaming.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "SE.Live is a plugin for OBS Studio, and Ground Control is a multistreaming stream management companion app.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "The StreamElements home page opened does not show a price.",
+          "url": "https://streamelements.com/"
+        }
+      ]
+    },
+    {
+      "slug": "vmix",
+      "name": "vMix",
+      "site": "https://www.vmix.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Windows video mixer for produced live shows",
+      "best_for": "Multi-camera Windows production",
+      "pricing": "Homepage shows purchase from $50 per month; a free 60-day trial is offered.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Windows",
+      "features": [
+        "Video mixing and switching",
+        "NDI input",
+        "SRT input",
+        "Instant replay",
+        "Video calls input",
+        "GT Title Designer"
+      ],
+      "summary": "vMix is a Windows video mixer and switcher from $50 per month, aimed at produced shows more than solo gaming channels.",
+      "verdict": "vMix is live streaming and production software for Windows with video mixing and switching, NDI and SRT input, instant replay, video call input and GT Title Designer. The homepage shows purchase from $50 per month and offers a free 60-day trial, so you can test before paying. It earns its spot for esports shows and multi-camera casts, where the replay and call inputs are used. For a one-person gaming stream the same features sit idle.",
+      "weaknesses": "It runs only on Windows, and the entry price of $50 per month is far above free alternatives. We saw only the starting price, not a full edition breakdown, so the real cost of added features is unknown.",
+      "wrong_for": "A solo streamer should start with OBS Studio. Teams that need Mac support for production work should compare Wirecast, which lists Mac and Windows.",
+      "sources": [
+        {
+          "fact": "vMix is a live streaming and live production software video mixer and switcher for Windows.",
+          "url": "https://www.vmix.com/"
+        },
+        {
+          "fact": "The homepage shows the purchase option from $50 per month.",
+          "url": "https://www.vmix.com/"
+        },
+        {
+          "fact": "The homepage offers a free 60-day trial download.",
+          "url": "https://www.vmix.com/"
+        }
+      ]
+    },
+    {
+      "slug": "wirecast",
+      "name": "Wirecast",
+      "site": "https://www.wirecast.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Mac and Windows broadcast production software",
+      "best_for": "Multi-camera shows with remote guests",
+      "pricing": "Studio from $34/mo billed yearly ($408/yr) or $59 month to month; Pro from $42/mo billed yearly. The free trial includes every feature.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Mac and Windows",
+      "features": [
+        "Multi-camera switching",
+        "Remote guests",
+        "Multistreaming",
+        "Free trial"
+      ],
+      "summary": "Wirecast covers Mac and Windows, supports unlimited cameras and remote guests, and publishes subscription prices with a full-featured trial.",
+      "verdict": "Wirecast is live video streaming and broadcast software for Mac and Windows with unlimited cameras, remote guests and multistreaming. The pricing page lists Studio from $34 per month billed yearly ($408 per year) or $59 month to month, and Pro from $42 per month billed yearly. The free trial includes every feature, which lets a production team evaluate the whole product. It ranks ninth for gamers because the cost and feature set target studios and event crews.",
+      "weaknesses": "Subscription-only pricing starts at $34 per month when billed yearly, which is hard to justify for a hobby channel. The product leans toward broadcast production, not game-centric tools like alerts or clip sharing.",
+      "wrong_for": "A gaming channel on a budget should pick OBS Studio or Meld Studio. A Windows-only production crew might consider vMix for its replay features.",
+      "sources": [
+        {
+          "fact": "Wirecast is live video streaming and broadcast software for Mac and Windows, with unlimited cameras, remote guests and multistreaming.",
+          "url": "https://www.wirecast.io/"
+        },
+        {
+          "fact": "The pricing page lists Wirecast Studio from $34/mo billed yearly ($408/yr) or $59 month to month, and Pro from $42/mo billed yearly.",
+          "url": "https://www.wirecast.io/pricing/"
+        },
+        {
+          "fact": "The pricing page states that the free trial includes every feature.",
+          "url": "https://www.wirecast.io/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "nvidia-app",
+      "name": "NVIDIA App",
+      "site": "https://www.nvidia.com/en-us/software/nvidia-app/",
+      "company": "NVIDIA",
+      "country": "",
+      "tagline": "NVIDIA driver app with ShadowPlay and Broadcast",
+      "best_for": "NVIDIA GPU owners adding light capture",
+      "pricing": "The download page does not show a price; the app is offered through NVIDIA's regional download page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "PC (Windows); NVIDIA GPUs",
+      "features": [
+        "NVIDIA drivers",
+        "NVIDIA ShadowPlay",
+        "Broadcast App",
+        "Game optimization"
+      ],
+      "summary": "The NVIDIA App keeps GPU drivers current and lists ShadowPlay and the Broadcast App as features, but it is not a full scene-based broadcaster.",
+      "verdict": "NVIDIA describes its app as the essential companion for PC gamers and creators, used to keep drivers up to date. The download page lists NVIDIA ShadowPlay and the Broadcast App among its features, so a GeForce owner gets capture and camera tools without another install. It makes the list as a supplement: pair it with a broadcasting program for scenes and overlays. We rank it last because it does not replace a streaming studio.",
+      "weaknesses": "It needs an NVIDIA GPU and runs on Windows PCs. The download page shows no price and no list of limits, and it offers no scene composition, so webcams and overlays still need another program.",
+      "wrong_for": "Anyone without an NVIDIA card, or who needs real scenes, should use OBS Studio. A Windows streamer wanting a guided studio could look at XSplit Broadcaster.",
+      "sources": [
+        {
+          "fact": "The NVIDIA App is described by NVIDIA as the essential companion for PC gamers and creators, used to keep drivers up to date.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+        },
+        {
+          "fact": "The NVIDIA App download page lists NVIDIA ShadowPlay and the Broadcast App among its features.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+        },
+        {
+          "fact": "NVIDIA's download page for the NVIDIA App is available by region and does not show a price.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+        }
+      ]
+    }
+  ]
+}

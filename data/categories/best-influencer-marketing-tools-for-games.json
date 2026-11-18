@@ -1,0 +1,348 @@
+{
+  "slug": "best-influencer-marketing-tools-for-games",
+  "name": "influencer marketing tools for games",
+  "title": "Best Influencer Marketing Tools for Games in 2026",
+  "group": "Game business",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Platforms for finding streamers and YouTubers, sending game keys, running creator campaigns and paying creators, ranked for game studios.",
+  "definition": "Influencer marketing tools for games help a studio find streamers and video creators who play its genre, send them review keys, run paid or reward-based campaigns, track coverage and pay creators. Game-specific tools work with keys and storefront data; general creator platforms handle outreach, contracts and reporting across social networks.",
+  "intro": "A studio with a launch date and no marketing team faces a practical problem: which creators play this kind of game, how do they get a key, and how do you know it worked. Eleven tools are ranked here. Some are built around games, with key distribution and creator tracking on Twitch and YouTube. Others are general influencer platforms from fashion and e-commerce that games teams borrow. We read vendor homepages and pricing pages, noted platform coverage, payout features and published prices, and judged fit for an indie or mid-size studio. We did not run campaigns or measure creator results. A twelfth planned vendor, Woovit, turned out to be a betting directory and was removed. Vendor reach claims, such as creator counts, are quoted as claims.",
+  "criteria": [
+    {
+      "heading": "Key handling and creator verification",
+      "text": "For a game, the first transaction is usually a free key, and keys leak. Check how each tool sends keys, whether creators are verified before they receive one, and how you can see who redeemed what. A portal that checks creators manually costs time but reduces resale. Also look at whether the tool supports both Steam keys and console codes, and whether you can set limits per creator or per campaign."
+    },
+    {
+      "heading": "Where the creators actually are",
+      "text": "Games audiences live on Twitch, YouTube, TikTok and, in some regions, Kick or Bilibili. General influencer platforms emphasize Instagram, which rarely matters for a Steam release. Compare each vendor's listed platforms with where your genre is watched. A tool that tracks Twitch and YouTube Shorts is better for a co-op shooter than one built on Instagram profiles. Check that discovery search can filter by game or genre rather than only by follower count."
+    },
+    {
+      "heading": "Measurement of what creators deliver",
+      "text": "Views alone do not sell a game. Look for tracking tied to outcomes: wishlist adds, link clicks, redemptions or promo-code sales. Some tools offer post tracking and reports, some add storefront-linked measurement, and general platforms track e-commerce sales that mean little for a game. Ask what you can export, and whether coverage appears automatically or needs manual entry. Missing outcome data forces you to guess which creators were worth the cost."
+    },
+    {
+      "heading": "Payout and contract mechanics",
+      "text": "Paying creators across countries is its own chore: tax forms, escrow, currency and timing. A few platforms in this list hold funds in escrow or run payouts for you, which saves a studio admin time and gives creators confidence. Others leave payment to you. Also compare fee structures: a subscription, a percentage of deposits or a quote. For a small campaign, a percentage fee on a small wallet can be cheaper than a high monthly plan."
+    }
+  ],
+  "market_notes": [
+    "Five of the eleven are built around games: Keymailer, Lurkit, Gamesight, Impress and Terminals. The remaining six are general creator platforms: Grin, Modash, HypeAuditor, Upfluence, CreatorIQ and Collabstr. Published prices are rare. Grin lists four tiers from free to $1,500 per month, Modash starts at $199 per month, and Impress lists $0 up to $69 per month for its bundles. Keymailer says creators join free and publishers can trial it, while CreatorIQ, Gamesight, Lurkit, Terminals and Upfluence show no prices on the pages we read.",
+    "The main trade-off is fit against scale. Game-specific tools bring key distribution and verified game creators but have smaller, narrower databases, while general platforms offer large creator databases, such as Collabstr's 1.3m+ creators or HypeAuditor's claimed 227.2M+ accounts, with weaker support for keys. Several general tools mainly cover Instagram, TikTok and YouTube, so Twitch coverage is thin: only Lurkit, Impress and HypeAuditor name Twitch among platforms. Reach and customer claims are vendor figures that we could not verify."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Define what a creator should do for you",
+      "text": "Decide whether the goal is review coverage at launch, a sponsored stream, a long-running creator program or wishlist growth ahead of a demo. Free key outreach needs a different tool from paid campaigns with contracts. If keys are the main currency, shortlist Keymailer, Lurkit, Gamesight or Impress; if you plan paid sponsorships across social channels, look at Grin, Modash or Upfluence. Writing the goal first stops you from paying for a CRM you will not use."
+    },
+    {
+      "title": "Compare cost at your campaign size",
+      "text": "Take the number of creators you expect to contact and pay in one quarter, then price each option. Grin's free tier carries a 20% management fee on wallet deposits, Starter charges $200 per month plus 10%, and Modash starts at $199 per month. Impress starts free with paid tiers from $9 per month. Quote-only vendors need the same calculation in writing, including seat limits, key volume limits and any minimum term, before you accept a demo."
+    },
+    {
+      "title": "Check a sample of creators before paying",
+      "text": "Ask each vendor to show ten creators that match your game, with platform, typical audience and past games covered. Check a few of them by hand on Twitch or YouTube to see if their channels actually play your genre. Verified creator pools, like Lurkit's manual checks, reduce the risk of fake accounts. If a vendor cannot show relevant creators during the demo, the database will not improve after you sign."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best influencer marketing tool for games in 2026?",
+      "a": "Keymailer is the strongest all-round fit for studios giving out keys: a portal connecting game influencers and promoters, with a free creator account and a publisher free trial. Lurkit is better if you want creator prospecting, paid quests and a CRM, and Gamesight is better when measurement is the priority."
+    },
+    {
+      "q": "How do I get streamers to play my indie game?",
+      "a": "Send keys to creators who already play your genre, and make the ask short. Tools such as Keymailer, Lurkit and Impress help you find those creators and track who responded. Impress also lists a Coverage Bot and free Steam tools. Check each channel manually before sending, since follower count says little about genre fit."
+    },
+    {
+      "q": "Are there free influencer tools for game developers?",
+      "a": "A few. Impress offers a free account at $0 and says its Steam tools, including a revenue calculator and publisher database, are free. Keymailer lets creators sign up free and offers publishers a trial. Grin lists a Free plan at $0 per month with a 20% management fee on wallet deposits, and HypeAuditor has a free tier."
+    },
+    {
+      "q": "How much does an influencer platform cost?",
+      "a": "It ranges widely. Impress paid tiers run from $9 to $69 per month, Modash starts at $199 per month, and Grin's tiers run from $200 to $1,500 per month plus deposit fees. Gamesight, CreatorIQ, Lurkit and Upfluence show no prices on the pages we read and sell through demos or custom plans."
+    },
+    {
+      "q": "Which tools cover Twitch creators?",
+      "a": "Lurkit says it tracks creators on Twitch, YouTube, YouTube Shorts and TikTok. Impress lists Twitch and Kick among its platforms, and HypeAuditor lists Twitch alongside Instagram, TikTok, YouTube and X. Modash covers Instagram, TikTok and YouTube only, so it fits less well for a Twitch-first genre."
+    },
+    {
+      "q": "Do I need an enterprise tool like CreatorIQ for a game launch?",
+      "a": "Probably not. CreatorIQ describes itself as an enterprise creator marketing platform trusted by 1,300+ brands and agencies, naming Dentsu, Nestlé and Unilever. It suits large programs across many markets. An indie or mid-size studio will usually get more from a game-specific tool with key distribution."
+    },
+    {
+      "q": "Can these tools pay creators for me?",
+      "a": "Some can. Grin offers a wallet with escrow, Collabstr offers secure global payments with escrow and tax forms handled for the brand, and Upfluence has Upfluence Pay. Gamesight lists creator payments and Lurkit offers paid quests. Others, like Keymailer's key portal, focus on outreach rather than payment."
+    }
+  ],
+  "related": [
+    "best-game-market-intelligence-tools",
+    "best-mobile-attribution-tools-for-games",
+    "best-game-payment-and-web-shop-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "keymailer",
+      "name": "Keymailer",
+      "site": "https://keymailer.co/",
+      "company": "Keymailer",
+      "country": "",
+      "tagline": "Portal connecting game influencers and promoters",
+      "best_for": "Key outreach to game creators",
+      "pricing": "Creators can create a free account and publishers have a free trial; specific prices are not on the home page, and a linked pricing page was not opened.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": ["View campaigns", "Creator programs", "Game.Press", "Agency services", "Security mode", "MeetToMatch"],
+      "summary": "First because it is the most direct route from a studio to game creators, with a free creator side, a publisher trial and a security mode.",
+      "verdict": "Keymailer calls itself the leading portal connecting game influencers and promoters. The home page lists creator programs, campaign browsing, Game.Press, agency services, a security mode and MeetToMatch, and says creators join with a free account while publishers can use a free trial. It claims 60,000 content creators, 3.6 billion followers and 200 new titles each month, and shows logos of Warner Bros Interactive Entertainment, Konami, Xbox Game Studios, Bandai Namco and Techland. For a studio wanting to hand out keys without building outreach tooling, the focus is clear.",
+      "weaknesses": "No publisher prices appear on the home page, so the cost after the trial is unknown. Creator and follower counts are self-reported, and the pages do not describe payments or sales tracking.",
+      "wrong_for": "Studios planning paid sponsorships with contracts and payouts should look at Grin or Gamesight. Those wanting a CRM for long creator programs may prefer Lurkit.",
+      "sources": [
+        {"fact": "Keymailer describes itself as 'the leading portal connecting game influencers and promoters.'", "url": "https://keymailer.co/"},
+        {"fact": "Keymailer's home page says creators can create a free account, and that publishers have a free trial available.", "url": "https://keymailer.co/"},
+        {"fact": "Keymailer's home page claims 60,000 content creators, 3.6 billion followers and 200 new titles each month.", "url": "https://keymailer.co/"},
+        {"fact": "Keymailer's home page shows logos of publishers including Warner Bros Interactive Entertainment, Konami, Xbox Game Studios, Bandai Namco and Techland.", "url": "https://keymailer.co/"}
+      ]
+    },
+    {
+      "slug": "lurkit",
+      "name": "Lurkit",
+      "site": "https://lurkit.gg/",
+      "company": "LURKIT AB",
+      "country": "",
+      "tagline": "All-in-one creator platform for game growth",
+      "best_for": "Structured creator programs on Twitch and YouTube",
+      "pricing": "A Pricing page link exists; no prices or free plan are described on the home page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Twitch, YouTube, YouTube Shorts and TikTok; web platform",
+      "features": ["Creator prospecting", "Creator programs", "Quests (paid campaigns)", "Key distribution", "Creator CRM", "Missions and rewards"],
+      "summary": "Second because verified creators, paid quests and a CRM cover the whole loop for a studio running a program, though no price is shown.",
+      "verdict": "Lurkit describes itself as the all-in-one creator platform built to power games' growth. It tracks creators on Twitch, YouTube, YouTube Shorts and TikTok, says it manually verifies every creator who signs up, and bundles prospecting, creator programs, paid Quests, key distribution, a CRM and missions with rewards. A Bohemia Interactive case study covers DayZ Frostline's creator program. For a studio that wants to run a continuing program with Twitch viewers rather than a one-off key drop, the range of tools is wider than in a pure key portal.",
+      "weaknesses": "The home page shows no prices or free plan. The claim that 900+ publishers and studios use it is the vendor's own, and the page does not say how manual verification is done.",
+      "wrong_for": "Teams needing only a quick batch of review keys can use Keymailer. Studios wanting measurement across platforms should compare Gamesight.",
+      "sources": [
+        {"fact": "Lurkit describes itself as 'the all-in-one creator platform built to power games' growth.'", "url": "https://lurkit.gg/"},
+        {"fact": "Lurkit's home page says it tracks creators on Twitch, YouTube, YouTube Shorts and TikTok.", "url": "https://lurkit.gg/"},
+        {"fact": "Lurkit's home page links to a Pricing page but does not state prices or a free plan.", "url": "https://lurkit.gg/"},
+        {"fact": "Lurkit's home page says it manually verifies every creator that signs up on the platform.", "url": "https://lurkit.gg/"}
+      ]
+    },
+    {
+      "slug": "gamesight",
+      "name": "Gamesight",
+      "site": "https://gamesight.io/",
+      "company": "Gamesight",
+      "country": "",
+      "tagline": "Creator marketing and measurement for games",
+      "best_for": "Mid-size studios wanting measured campaigns",
+      "pricing": "Not on the page; calls to action are Book a Demo and Talk to an Expert.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": ["Data and intelligence", "Measurement", "Creator platform", "Key distribution", "Creator services", "Creator CRM", "Creator payments"],
+      "summary": "Third because measurement, creator services and payments sit beside key distribution, which suits a studio that must report results.",
+      "verdict": "Gamesight's headline reads Creator Marketing and Measurement for Games, and the product list backs it up: Data and Intelligence, Measurement, a Creator Platform, Key Distribution and Creator Services, with a CRM and creator payments as features. The home page shows testimonials from staff at Netflix, Krafton, Reddit and Avalanche Studios Group, and a SINCE 2011 mark under its trusted-by heading. Because measurement is a named product, a team accountable to a publisher or board can see outcomes rather than only reach. It is the pick for managed, reported campaigns.",
+      "weaknesses": "No prices are shown, and the demo-led sales route suits larger budgets. The SINCE 2011 mark is not stated as a founding year, and the pages do not list supported creator platforms.",
+      "wrong_for": "Indie teams with a small budget should look at Impress or Keymailer. Anyone wanting a self-serve creator database should check Modash.",
+      "sources": [
+        {"fact": "Gamesight describes itself as creator marketing and measurement for games, under the headline 'Creator Marketing & Measurement for Games'.", "url": "https://gamesight.io/"},
+        {"fact": "Gamesight's home page lists products including Data & Intelligence, Measurement, Creator Platform, Key Distribution and Creator Services.", "url": "https://gamesight.io/"},
+        {"fact": "Gamesight's home page shows no prices; its calls to action are 'Book a Demo' and 'Talk to an Expert'.", "url": "https://gamesight.io/"},
+        {"fact": "Gamesight's home page includes testimonials from staff at Netflix, Krafton, Reddit and Avalanche Studios Group.", "url": "https://gamesight.io/"}
+      ]
+    },
+    {
+      "slug": "impress",
+      "name": "Impress",
+      "site": "https://impress.games/",
+      "company": "IMPRESS",
+      "country": "",
+      "tagline": "All-in-one indie game marketing toolkit with press and creators",
+      "best_for": "Indie studios on a tight budget",
+      "pricing": "Free account at $0; paid tiers from $69 per month (Launchpad), $24 per month (Coverage Bot) and $9 per month (Press Kitty and Newsroom); annual billing gives 2 months free, with no fixed contract on bundles.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "Press, YouTube, Twitch, Kick, Reddit, podcasts, TikTok, Bilibili and Niconico; Steam tools, Discord, Slack and webhook integrations",
+      "features": ["Coverage Bot", "Press Kitty and Newsroom", "Launchpad", "Steam Tools", "Academy"],
+      "summary": "Fourth because published tiers from $0 and a wide channel list suit an indie budget, though it is a toolkit rather than a creator database.",
+      "verdict": "IMPRESS describes itself as the all-in-one indie game marketing toolkit, and it is one of few vendors here that prints every price: a free account, then $9 for Press Kitty and Newsroom, $24 for Coverage Bot and $69 for Launchpad. Annual billing gives 2 months free and bundles have no fixed contract. Its coverage tracking spans press, YouTube, Twitch, Kick, Reddit, podcasts, TikTok, Bilibili and Niconico, and the Steam tools, including a revenue calculator and publisher database, are listed as free. A one-person studio can start without spending anything.",
+      "weaknesses": "It is a marketing toolkit, so it does not offer a large creator search database or creator payouts in the text we read. The logos on its page are not described as paying customers.",
+      "wrong_for": "Teams wanting a deep creator database with outreach CRM should look at Lurkit or Modash. Studios needing contracts and payouts should see Grin.",
+      "sources": [
+        {"fact": "IMPRESS describes itself as 'the all-in-one indie game marketing toolkit.'", "url": "https://impress.games/"},
+        {"fact": "IMPRESS's home page lists a free account at $0 and paid tiers from $9/mo for Press Kitty & Newsroom, $24/mo for Coverage Bot and $69/mo for Launchpad.", "url": "https://impress.games/"},
+        {"fact": "IMPRESS's home page says annual billing gives '2 months free' and that bundles have no fixed contract.", "url": "https://impress.games/"},
+        {"fact": "IMPRESS's home page lists Steam Tools, including a revenue calculator and a publisher database, as free.", "url": "https://impress.games/"}
+      ]
+    },
+    {
+      "slug": "terminals",
+      "name": "Terminals",
+      "site": "https://terminals.io/",
+      "company": "Terminals Technology, Inc.",
+      "country": "",
+      "tagline": "Games site with a paid service reaching verified media and creators",
+      "best_for": "Studios buying a managed reach push",
+      "pricing": "Not on the page; no pricing or free plan is shown on the home page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Not stated for the site itself",
+      "features": ["Game browse", "News", "Services for developers and publishers", "Event calendar"],
+      "summary": "Fifth because the services offer claims reach to 29,000+ verified media and creators, but the pages give little proof or price.",
+      "verdict": "Terminals is a games industry site with Browse, News, Services and Calendar sections, and the Services offer is the part that matters here: it says it can put a game in front of more than 29,000 verified media, streamers and YouTube content creators. The copyright line reads 2015-2026 Terminals Technology, Inc., which shows a long-running operator. For a studio that would rather buy a managed push than run outreach itself, it is a different model from a self-serve tool, combining a news audience with direct pitching.",
+      "weaknesses": "The reach figure is a vendor claim, and the home page shows no prices, platforms or how the verified list is built. It is not a software product with a dashboard that we could assess.",
+      "wrong_for": "Studios wanting software they operate themselves should choose Lurkit or Keymailer. Teams needing measurement should look at Gamesight.",
+      "sources": [
+        {"fact": "Terminals describes its Services offer as a way to get your game in front of more than 29,000 verified media, streamers and YouTube content creators.", "url": "https://terminals.io/"},
+        {"fact": "Terminals' home page has Browse, News, Services and Calendar sections.", "url": "https://terminals.io/"},
+        {"fact": "Terminals' home page does not show pricing or a free plan.", "url": "https://terminals.io/"},
+        {"fact": "Terminals' home page copyright line reads '© 2015-2026 Terminals Technology, Inc.'", "url": "https://terminals.io/"}
+      ]
+    },
+    {
+      "slug": "grin",
+      "name": "Grin",
+      "site": "https://grin.co/",
+      "company": "GRIN",
+      "country": "",
+      "tagline": "Creator marketing platform with CRM, gifting and wallet",
+      "best_for": "Studios with e-commerce-style merch or paid programs",
+      "pricing": "Free: $0 per month plus a 20% management fee on wallet deposits. Starter: $200 per month after a 30-day free trial, plus 10%. Growth: $500 per month plus 7%. Scale: $1,500 per month plus 5%. Enterprise: priced with sales.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "Not specified; web app and a free Creator App",
+      "features": ["Gia AI teammate", "GRIN Marketplace", "Creator CRM and inbox", "Gifting, affiliate and paid programs", "Wallet with escrow", "Post tracking"],
+      "summary": "Sixth because the published four-tier pricing and escrow wallet are clear, but the product is built for consumer brands more than games.",
+      "verdict": "GRIN describes itself as a creator marketing platform with an AI teammate called Gia, covering creator discovery, outreach, gifting, affiliate and paid programs. The home page prints a fee structure that is rare in this list: a Free plan with a 20% management fee on wallet deposits, then Starter, Growth and Scale with falling deposit percentages from 10% to 5%. A wallet with escrow, a creator CRM and inbox, and post tracking cover payment and reporting. A studio selling merchandise or running a paid creator program can model costs exactly.",
+      "weaknesses": "Examples on the home page come from Uber, Stio and Rookie Wellness, not games, and no game platforms such as Twitch are named. The $1.2B+ GMV and 5,000 brands claims are vendor figures.",
+      "wrong_for": "Studios sending game keys should use Keymailer or Lurkit. Anyone needing Twitch discovery should check HypeAuditor or Impress.",
+      "sources": [
+        {"fact": "GRIN describes itself as a creator marketing platform with an AI teammate called Gia.", "url": "https://grin.co/"},
+        {"fact": "GRIN's home page lists a Free plan at $0/month plus a 20% management fee on wallet deposits.", "url": "https://grin.co/"},
+        {"fact": "GRIN's home page lists a Starter plan at $200/month after a 30-day free trial, plus 10% on deposits.", "url": "https://grin.co/"},
+        {"fact": "GRIN's home page says it has supported 5,000 brands since 2017 and claims $1.2B+ in creator-driven GMV.", "url": "https://grin.co/"}
+      ]
+    },
+    {
+      "slug": "modash",
+      "name": "Modash",
+      "site": "https://modash.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Shopify-first creator discovery, tracking and payment platform",
+      "best_for": "Self-serve creator search on social networks",
+      "pricing": "Plans start at $199 per month and scale by searches, emails, tracked creators and seats; a 14-day free trial needs no credit card, and no permanent free plan is listed.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Instagram, TikTok and YouTube",
+      "features": ["AI search", "Email inbox", "Shopify integration", "Gifting", "Affiliates", "Paid partnerships", "API and MCP"],
+      "summary": "Seventh because it offers self-serve creator search at a stated $199 per month, but covers Instagram, TikTok and YouTube only.",
+      "verdict": "Modash calls itself a Shopify-first influencer marketing platform for finding creators, managing partnerships, tracking performance and paying creators. The home page says plans start at $199 per month and scale by searches, emails, tracked creators and seats, with a 14-day free trial and no credit card. Features include AI search, an email inbox, gifting, affiliates, paid partnerships and API and MCP access. A studio running merch or a store on Shopify, or targeting TikTok and YouTube creators, can search and contact people without a sales call.",
+      "weaknesses": "Twitch is not listed, the Shopify focus is built for e-commerce and not for key distribution, and a permanent free plan is not offered. Brand logos on the home page are not described as customers.",
+      "wrong_for": "Streaming-first genres should look at Lurkit or Impress. Teams wanting a games-specific creator pool should choose Keymailer.",
+      "sources": [
+        {"fact": "Modash describes itself as a Shopify-first influencer marketing platform.", "url": "https://modash.io/"},
+        {"fact": "Modash's home page says plans start at $199/month and scale by searches, emails, tracked creators and seats.", "url": "https://modash.io/"},
+        {"fact": "Modash's home page offers a 14-day free trial with no credit card required and does not list a permanent free plan.", "url": "https://modash.io/"},
+        {"fact": "Modash's home page says it covers Instagram, TikTok and YouTube.", "url": "https://modash.io/"}
+      ]
+    },
+    {
+      "slug": "hypeauditor",
+      "name": "HypeAuditor",
+      "site": "https://hypeauditor.com/",
+      "company": "HypeAuditor",
+      "country": "",
+      "tagline": "Creator vetting and analytics across five social platforms",
+      "best_for": "Checking creator audience quality",
+      "pricing": "Paid plans, with pricing depending on plan, features and usage limits; exact prices are not on the page. A free tier includes free media plans, campaign management and demo versions of other features.",
+      "pricing_model": "Quote only",
+      "free_plan": "Free plan",
+      "platforms": "Instagram, TikTok, YouTube, Twitch and X; the FAQ also lists Snapchat",
+      "features": ["AI and lookalike discovery", "Influencer analytics", "Influencer outreach", "Campaign management", "Media monitor", "Chrome extension", "API"],
+      "summary": "Eighth because the vetting and analytics help catch weak audiences and Twitch is covered, but nothing is built around game keys.",
+      "verdict": "HypeAuditor describes itself as an influencer marketing platform to find, vet and activate creators. It covers Instagram, TikTok, YouTube, Twitch and X, and lists AI and lookalike discovery, influencer analytics, outreach, campaign management, a media monitor, a Chrome extension and an API. The home page claims 227.2M+ accounts in its database. Because it begins with analytics and vetting, it is useful as a second opinion on a creator you are about to pay, especially on Twitch. A free tier lets you try demo versions.",
+      "weaknesses": "Exact paid prices are not shown, and its customers named on the page are retailers such as Notino and MediaMarkt, not game studios. The database size and report counts are vendor claims.",
+      "wrong_for": "Studios sending keys at scale should use Keymailer. Teams that want published prices should compare Modash or Grin.",
+      "sources": [
+        {"fact": "HypeAuditor describes itself as an influencer marketing platform to find, vet and activate creators.", "url": "https://hypeauditor.com/"},
+        {"fact": "HypeAuditor's home page says paid plan prices depend on plan, features and usage limits, and does not show exact prices.", "url": "https://hypeauditor.com/"},
+        {"fact": "HypeAuditor's home page says users can start with free media plans, campaign management and demo versions of other features.", "url": "https://hypeauditor.com/"},
+        {"fact": "HypeAuditor's home page lists Instagram, TikTok, YouTube, Twitch and X (Twitter) as platforms it covers.", "url": "https://hypeauditor.com/"}
+      ]
+    },
+    {
+      "slug": "upfluence",
+      "name": "Upfluence",
+      "site": "https://upfluence.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Influencer software with AI co-pilot, marketplace and payments",
+      "best_for": "Brands tying creators to store sales",
+      "pricing": "No specific prices; the page says most platforms use custom plans rather than a single sticker price and directs visitors to the pricing page or a demo.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Integrations include Shopify, WooCommerce, Magento, BigCommerce, Amazon (via Amazon Attribution) and Klaviyo",
+      "features": ["Jaice AI campaign co-pilot", "Influencer search and discovery", "Upfluence Marketplace", "Affiliate promo codes", "Sales and ROI tracking", "Upfluence Pay", "API and MCP access"],
+      "summary": "Ninth because the sales tracking and payments are mature, but its integrations point at online stores, not game platforms.",
+      "verdict": "Upfluence describes itself as influencer marketing software covering creator discovery, campaign management, analytics and creator payments. The home page lists the Jaice AI campaign co-pilot, search, a marketplace, affiliate promo codes, sales and ROI tracking, Upfluence Pay and API and MCP access. Case studies name Branded, Nocibé Group, Marriott and Universal. A studio selling merchandise, bundles or a launcher storefront through Shopify or similar can tie creator posts to sales, which game-only tools rarely do.",
+      "weaknesses": "Integrations listed are e-commerce ones, and the page shows no game platforms or key distribution. Prices come only through custom plans, and the logos of Kodak, Amazon, Netflix and Verizon are not described as customers.",
+      "wrong_for": "Studios giving away review keys should choose Keymailer or Lurkit. Teams wanting printed prices should look at Grin or Impress.",
+      "sources": [
+        {"fact": "Upfluence describes itself as influencer marketing software covering creator discovery, campaign management, analytics and creator payments.", "url": "https://upfluence.com/"},
+        {"fact": "Upfluence's home page says most platforms use custom plans rather than a single sticker price.", "url": "https://upfluence.com/"},
+        {"fact": "Upfluence's home page names Shopify, WooCommerce, Magento, BigCommerce, Amazon and Klaviyo among its integrations.", "url": "https://upfluence.com/"},
+        {"fact": "Upfluence's home page offers API and MCP access and a Jaice AI campaign co-pilot.", "url": "https://upfluence.com/"}
+      ]
+    },
+    {
+      "slug": "creatoriq",
+      "name": "CreatorIQ",
+      "site": "https://creatoriq.com/",
+      "company": "SocialEdge, Inc.",
+      "country": "",
+      "tagline": "Enterprise creator marketing and intelligence platform",
+      "best_for": "Large publishers running global programs",
+      "pricing": "Not on page; a Pricing link exists in the navigation, but no prices or free plan are shown.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Instagram, TikTok, YouTube, Facebook, Snapchat and Amazon; integrations include Shopify, Google Analytics, Tableau and affiliate networks",
+      "features": ["Creator discovery", "Creator evaluation", "Creator management", "Campaign execution", "Measurement", "Creator payments", "Community insights"],
+      "summary": "Tenth because its enterprise scope suits global programs, while the customers and platforms listed point away from games.",
+      "verdict": "CreatorIQ describes itself as connecting every creator, campaign and signal into one intelligence advantage, and its home page lists Creator Discovery, Management, Campaign Execution and Measurement. It says it is trusted by 1,300+ brands and agencies and names Dentsu, Nestlé, Unilever, Google and Sephora. Integrations include Shopify, Google Analytics, Tableau and several affiliate networks, and the platform list includes Instagram, TikTok, YouTube, Facebook, Snapchat and Amazon. A large publisher with a global marketing team and agency partners will recognize the scale and reporting fit.",
+      "weaknesses": "No prices or free plan are shown, Twitch is not among the listed platforms, and no game company appears in the customers named. The setup is heavier than an indie team needs.",
+      "wrong_for": "Indie and mid-size studios should choose Keymailer, Lurkit or Impress. Teams needing a self-serve search at a posted price should see Modash.",
+      "sources": [
+        {"fact": "CreatorIQ describes itself as connecting every creator, campaign and signal into one intelligence advantage.", "url": "https://creatoriq.com/"},
+        {"fact": "CreatorIQ's home page lists product areas including Creator Discovery, Creator Management, Campaign Execution and Measurement.", "url": "https://creatoriq.com/"},
+        {"fact": "CreatorIQ's home page shows no prices and no free plan; it has a Pricing link in its navigation.", "url": "https://creatoriq.com/"},
+        {"fact": "CreatorIQ's home page says it is trusted by 1,300+ brands and agencies and names Dentsu, Nestlé, Unilever and Google among its customers.", "url": "https://creatoriq.com/"}
+      ]
+    },
+    {
+      "slug": "collabstr",
+      "name": "Collabstr",
+      "site": "https://collabstr.com",
+      "company": "",
+      "country": "",
+      "tagline": "Influencer marketplace with escrow payments",
+      "best_for": "One-off paid creator bookings",
+      "pricing": "The pricing page offers a Contact sales option; no prices are shown in the fetched text.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": ["Creator search", "Creator chat and management", "Performance tracking", "Campaign briefs and outreach", "Escrow payments", "Team workspace"],
+      "summary": "Eleventh because the marketplace and escrow payments suit one-off bookings, yet the pages show no gaming focus or prices.",
+      "verdict": "Collabstr is an influencer platform and marketplace where brands search creators, run campaigns, track content and pay creators. It states a vetted catalogue of 1.3m+ creators and offers secure global payments with escrow, with tax forms handled for the brand. Features include creator chat, campaign briefs and outreach, performance tracking and a team workspace. For a studio that wants to book a handful of paid creators for a one-off sponsored video and have the payment mechanics handled, the marketplace route is simpler than running a full platform.",
+      "weaknesses": "The pages we read name no game categories, platforms or key distribution, and the pricing page offers only a Contact sales option with no figures. The 1.3m+ catalogue is a vendor claim.",
+      "wrong_for": "Studios needing game-specific creators and key tracking should choose Keymailer or Lurkit. Teams wanting a posted price should use Impress or Grin.",
+      "sources": [
+        {"fact": "Collabstr is an influencer platform and marketplace with a vetted catalogue of 1.3m+ creators.", "url": "https://collabstr.com"},
+        {"fact": "Collabstr offers secure global payments with escrow and tax forms handled for the brand.", "url": "https://collabstr.com"},
+        {"fact": "The Collabstr pricing page offers a Contact sales option and shows no prices in the fetched text.", "url": "https://collabstr.com/pricing"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "youtube-gta-vi-launch-live-gifts-and-24-hour-stream",
+  "title": "YouTube adds GTA VI gifts to YouTube Live and plans a 24-hour launch livestream",
+  "date": "2026-11-12",
+  "description": "YouTube's November 12, 2026 blog post details five limited-edition Grand Theft Auto VI gifts on YouTube Live and a 24-hour launch livestream starting November 19 at 12 AM ET.",
+  "source": {
+    "name": "YouTube Blog",
+    "url": "https://blog.youtube/news-and-events/youtube-rockstar-games-gta-vi-launch/"
+  },
+  "extra_sources": [],
+  "summary": [
+    "On November 12, 2026, YouTube and Rockstar Games announced launch-week features for Grand Theft Auto VI, which launches November 19. YouTube Live is adding five limited-edition, game-themed gifts, with animations that appear on screen during streams, and eligible viewers of select creator streams can claim and send one for free while supplies last.",
+    "YouTube is also running a 24-hour launch livestream on youtube.com/youtube from November 19 at 12 AM ET, with a pre-show from 11 PM ET on November 18. The post lists live gameplay, creator podcasts and on-the-ground coverage from Miami. A GTA VI Shorts effect and soundtrack playlists on YouTube Music round out the package.",
+    "YouTube cites its own data that the Grand Theft Auto series has over 900 billion views on YouTube, and that pre-launch GTA VI videos had passed 40 billion views."
+  ],
+  "why_it_matters": [
+    "For streamers, a major launch concentrates audience attention in a short window, and platform-run events can compete with individual channels for it. The gifts only apply to select creator streams, so most channels will not see the effect directly.",
+    "Teams that stream to several platforms should plan for demand spikes on launch day, including chat volume and stream stability. Our [multistreaming platforms category](/software/best-multistreaming-platforms) and [live streaming APIs category](/software/best-live-streaming-apis-and-sdks) cover tools that help with distribution and capacity."
+  ],
+  "related_categories": [
+    "best-multistreaming-platforms",
+    "best-live-streaming-apis-and-sdks"
+  ]
+}

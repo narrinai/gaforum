@@ -1,0 +1,490 @@
+{
+  "slug": "best-dedicated-game-server-orchestration-platforms",
+  "name": "dedicated game server orchestration platforms",
+  "title": "Best Dedicated Game Server Orchestration Platforms in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Dedicated game server orchestration platforms let studios start, scale and retire fleets of game server instances across regions and providers, driven by player demand.",
+  "definition": "Dedicated game server orchestration is the studio-side software that launches game server builds on demand, places them near players, scales fleets up and down, and reports their health. It sits between a matchmaker and the machines, and differs from renting a single server for a community.",
+  "intro": "When a multiplayer game outgrows a handful of hand-managed servers, someone has to decide where each match runs and how many machines stay warm overnight. This ranking covers ten options for that job, from managed orchestration services to an open source Kubernetes project and infrastructure providers with game offerings. Our scope is studio-side fleet management, not consumer server rental for communities. We read each vendor's public product pages, noted regions, supported engines and billing units, and checked which pages publish prices. We did not deploy a fleet, so scale numbers are vendor claims. One planned entry, Unity Multiplay Hosting, was left out because its vendor page could not be opened, and Hathora is covered through the GameFabric site it now redirects to.",
+  "criteria": [
+    {
+      "heading": "Placement and provider reach",
+      "text": "Where servers can run decides latency and failover. Edgegap claims 615+ locations across 17+ providers, Gameye lists 21 providers and 200+ datacenters, and GameFabric lists 22 bare metal regions plus cloud. A broad footprint helps when your players are spread across continents, and multi-provider setups help when one cloud has capacity trouble. Check whether the vendor owns hardware or resells clouds, since that changes pricing and support."
+    },
+    {
+      "heading": "Billing unit and idle cost",
+      "text": "Fleet bills depend on the billing unit more than the headline rate. Gameye publishes $0.07 per vCPU hour on demand, billed per second with no minimum session length, and Edgegap bills per minute with no fixed monthly fee. Others quote individually. Ask how pre-warmed capacity is charged, whether egress is included, and what a quiet night costs, because many games spend most hours well below peak."
+    },
+    {
+      "heading": "Engine and build packaging",
+      "text": "Most orchestrators run any server packaged as a container, but integration work differs. Gameye needs no SDK inside the game server and works with Unreal, Unity and Godot, Edgegap names engines and netcode libraries it supports, and Agones supplies an engine-agnostic SDK. If your server is a custom C++ binary, confirm that the container route and health reporting work without code changes before you commit."
+    },
+    {
+      "heading": "Control versus managed service",
+      "text": "A hosted service saves operations effort, while an open source system such as Agones gives control and requires Kubernetes skill. Hybrid models sit between: GameFabric offers bare metal, managed cloud or your own cloud accounts under one API. Decide whether your team can run a cluster, and whether procurement prefers existing cloud commitments, such as AWS for GameLift, over a new vendor."
+    }
+  ],
+  "market_notes": [
+    "Pricing transparency is thin. Of ten products, only Gameye ($0.07 per vCPU hour on demand, from $0.035 reserved) and Rivet (Free at $0, then $18, $156 and $740 per month for its control plane) publish figures on pages we opened. Edgegap states per-minute billing without rates, GameFabric and i3D.net route you to sales, GameLift defers to general AWS pricing, AccelByte shows usage-based concurrency pricing, and Agones is open source. A short call with sales is usual before you can model cost.",
+    "Two product shapes coexist. Managed orchestrators (Edgegap, Gameye, GameFabric, GameLift) take a server container and run it, while building blocks (Agones, Vultr, i3D.net's bare metal) hand you capacity or a framework and expect you to assemble the rest. Backend suites such as AccelByte and Pragma include or integrate server management inside a wider platform. Pick the shape that matches your engineering headcount, because the cheapest rate card often hides staff time."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Measure your peak and your valley",
+      "text": "Pull a realistic estimate of peak concurrent matches and the quietest hour. Fleets that idle for most of the day favor per-second or per-minute billing and scale-to-zero, as Gameye and Edgegap describe. A steady, predictable load can justify reserved or bare metal capacity, which GameFabric, Gameye's reserved rate and i3D.net's bare metal offer. Write both numbers down before asking for quotes."
+    },
+    {
+      "title": "Count your regions and your platform ties",
+      "text": "List the countries your players live in and the latency you can tolerate. Then check each vendor's location count and whether you can bring your own cloud account. If your studio already has AWS or Google commitments, GameLift or GameFabric's bring-your-own-cloud mode may use them. If you target consoles, ask each vendor how certification and platform networking requirements are handled."
+    },
+    {
+      "title": "Run a deployment trial with your real server build",
+      "text": "Package the actual dedicated server as a container and deploy it to your top two choices. Time the first deployment, a scale-up under load, a rolling update and a failed-instance recovery. Gameye offers a self-serve developer trial, and Rivet has a free plan, which lets you test without sales calls. Compare dashboards, logs and API ergonomics, because you will use them daily."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best dedicated game server orchestration platform in 2026?",
+      "a": "Edgegap is the best starting choice for most studios because it hosts any engine, spans 615+ locations across 17+ providers, and bills per minute with no fixed monthly fee. Gameye is better if you want published per-vCPU rates, and Amazon GameLift is better if your studio already runs on AWS."
+    },
+    {
+      "q": "What is the difference between orchestration and game server hosting?",
+      "a": "Hosting provides machines; orchestration decides which machines run which match, scales them with demand and replaces failed ones. Some products combine both. i3D.net, for example, lists bare metal servers, a game server orchestrator and managed game hosting as separate offers."
+    },
+    {
+      "q": "Is Agones a good option without Kubernetes experience?",
+      "a": "Probably not. Agones is an open source platform for hosting, running and scaling dedicated game servers on Kubernetes, and it runs wherever Kubernetes runs. You get control and no license fee, but your team operates the cluster. A managed service such as Gameye or Edgegap removes that work."
+    },
+    {
+      "q": "How much does game server orchestration cost?",
+      "a": "Gameye publishes $0.07 per vCPU hour on demand and from $0.035 reserved, billed per second. Edgegap charges per minute without listing rates. GameFabric, i3D.net and others use individual quotes, and GameLift links to general AWS pricing. Model your own peak and idle hours before comparing."
+    },
+    {
+      "q": "Can these platforms work with any game engine?",
+      "a": "Most accept any server packaged as a Docker container. Gameye names Unreal, Unity and Godot, Edgegap names Unreal, Unity, Godot, Nakama, Mirror, Photon Fusion, PurrNet and Fish-Networking, and Agones offers an engine-agnostic SDK. Confirm health-check and shutdown signals with your build."
+    },
+    {
+      "q": "What happened to Hathora?",
+      "a": "When we checked, hathora.dev redirected to gamefabric.com, and the GameFabric site carries a Hathora link in its navigation. We ranked the product under the GameFabric name and describe only what its pages state. Existing customers should confirm account and contract details directly with the vendor."
+    },
+    {
+      "q": "Do I need DDoS protection for game servers?",
+      "a": "Public game servers attract attacks, so check what each platform bundles. Edgegap lists DDoS protection, GameFabric describes its SteelShield UDP and TCP protection, and i3D.net lists DDoS protection among its services. For a deeper comparison see our guide to DDoS protection for game servers."
+    }
+  ],
+  "related": [
+    "best-ddos-protection-for-game-servers",
+    "best-game-backend-platforms",
+    "best-multiplayer-networking-sdks",
+    "best-cloud-gaming-services",
+    "best-game-anti-cheat-software",
+    "best-game-liveops-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "edgegap",
+      "name": "Edgegap",
+      "site": "https://edgegap.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Automated game server hosting across hundreds of locations",
+      "best_for": "Studios wanting regionless, any-engine hosting",
+      "pricing": "Pay per minute on edge cloud with no upfront costs or fixed monthly fees; specific prices are not listed and a calculator is linked.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Unknown",
+      "platforms": "615+ locations, 17+ cloud providers; Unreal, Unity, Godot and netcode libraries",
+      "features": [
+        "Regionless hosting",
+        "Matchmaking",
+        "Server browser (lobbies)",
+        "Bare metal and private fleets",
+        "Container registry",
+        "DDoS protection"
+      ],
+      "summary": "Widest stated location reach, per-minute billing without a monthly fee, and matchmaking and lobbies bundled with orchestration.",
+      "verdict": "Edgegap describes automated game server hosting and orchestration for any engine and service. The homepage lists regionless hosting, matchmaking, a server browser for lobbies, bare metal and private fleets, a container registry, DDoS protection and an automated build tool, spread over 615+ locations and 17+ providers. Pay-per-minute billing with no fixed fee suits games whose load varies. Halfbrick Studios and Starbreeze AB are named customers. The engine list is the most explicit of any entry, which places it first.",
+      "weaknesses": "The homepage gives no rates, only a pricing calculator link, and does not mention a free tier or trial. Location and provider counts are vendor claims. Extra bundled features such as matchmaking may duplicate a backend you already run.",
+      "wrong_for": "Studios that already commit to one cloud may prefer Amazon GameLift; teams wanting a published rate card should read Gameye.",
+      "sources": [
+        {
+          "fact": "The homepage describes Edgegap as an automated game server hosting and orchestration service for any engine and service.",
+          "url": "https://edgegap.com/"
+        },
+        {
+          "fact": "The homepage says there are no upfront costs or fixed monthly fees and that customers pay per minute on edge cloud; specific prices are not listed.",
+          "url": "https://edgegap.com/"
+        },
+        {
+          "fact": "The homepage names Halfbrick Studios and Starbreeze AB among its customers.",
+          "url": "https://edgegap.com/"
+        }
+      ]
+    },
+    {
+      "slug": "gameye",
+      "name": "Gameye",
+      "site": "https://gameye.com/",
+      "company": "",
+      "country": "",
+      "tagline": "One REST API to deploy dedicated servers worldwide",
+      "best_for": "Teams that want published per-vCPU rates",
+      "pricing": "On demand $0.07 per vCPU per hour, reserved from $0.035, billed per second, bandwidth included.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "Any Docker container; Unreal, Unity, Godot; 21 providers, 200+ datacenters",
+      "features": [
+        "REST API orchestration",
+        "Zero egress fees",
+        "Multi-provider failover",
+        "Bare metal support",
+        "Matchmaker-agnostic",
+        "No SDK required in the game server"
+      ],
+      "summary": "The clearest price sheet in the list, per-second billing with no egress charge, and no SDK needed inside the server.",
+      "verdict": "Gameye deploys dedicated servers through one REST API, and its homepage is more specific on cost than most: $0.07 per vCPU per hour on demand, reserved from $0.035, billed per second with no minimum session length and no separate egress charge. Any server packaged as a Docker container works, with Unreal, Unity and Godot named, and no SDK is required in the server. The FAQ says it was founded in 2017, and customers include Chivalry 2 and Clone Drone in the Danger Zone. A self-serve trial is offered.",
+      "weaknesses": "It is matchmaker-agnostic, which means you bring your own matchmaking. Support terms, uptime commitments and console-specific handling are not on the homepage. Customer claims such as launch concurrency are vendor statements.",
+      "wrong_for": "A team wanting matchmaking, lobbies and orchestration bundled should read Edgegap; an AWS-centered studio should read Amazon GameLift.",
+      "sources": [
+        {
+          "fact": "The Gameye homepage describes it as a game server orchestration platform that deploys dedicated servers globally through one REST API.",
+          "url": "https://gameye.com/"
+        },
+        {
+          "fact": "The homepage lists on-demand pricing of $0.07 per vCPU per hour and reserved pricing from $0.035 per vCPU per hour, billed per second.",
+          "url": "https://gameye.com/"
+        },
+        {
+          "fact": "The homepage states Gameye has 21 providers and 200+ datacenters across six continents, and a self-serve Developer Trial is offered.",
+          "url": "https://gameye.com/"
+        }
+      ]
+    },
+    {
+      "slug": "gamefabric",
+      "name": "GameFabric",
+      "site": "https://gamefabric.com/",
+      "company": "GameFabric (formerly Hathora)",
+      "country": "",
+      "tagline": "Bare metal plus cloud fleets under one API",
+      "best_for": "Studios wanting hybrid fleets and DDoS shielding",
+      "pricing": "Individual pricing tailored to each studio; no price amounts are published and a demo request is required.",
+      "pricing_model": "Custom quote",
+      "free_plan": "Unknown",
+      "platforms": "22 bare metal regions; GameFabric Cloud on Google Cloud, or bring your own AWS, Azure, GCP",
+      "features": [
+        "Bare metal fleets",
+        "GameFabric Cloud",
+        "Bring your own cloud",
+        "Hybrid burst",
+        "SteelShield DDoS protection",
+        "Usage and cost reporting"
+      ],
+      "summary": "Combines dedicated hardware and elastic cloud in one dashboard, with bundled UDP and TCP DDoS protection and quote-only pricing.",
+      "verdict": "GameFabric describes an orchestration layer for studios shipping multiplayer games, deployable on bare metal, cloud or both under one API, one dashboard and one fleet. Its homepage lists 22 bare metal regions across five continents, a managed GameFabric Cloud on Google Cloud, and a bring-your-own-cloud mode for AWS, Azure or GCP. SteelShield DDoS protection is included in the pitch, and the pricing page claims savings of as much as 60% on server fees. The site's navigation also lists Hathora.",
+      "weaknesses": "No price amounts appear, only a demo request, so cost comparison needs sales contact. The 60% savings claim is the vendor's and depends on the baseline. The Hathora rename means older documentation and customer references may use the earlier name.",
+      "wrong_for": "Teams that want self-serve pricing and a trial without a call should read Gameye or Rivet.",
+      "sources": [
+        {
+          "fact": "The GameFabric homepage describes an orchestration layer for studios shipping multiplayer titles, deployable on bare metal, cloud or both under one API, one dashboard and one fleet.",
+          "url": "https://gamefabric.com/"
+        },
+        {
+          "fact": "The homepage lists 22 bare metal regions across five continents and cloud options through GameFabric Cloud on Google Cloud or bring-your-own AWS, Azure or GCP accounts.",
+          "url": "https://gamefabric.com/"
+        },
+        {
+          "fact": "The pricing page offers individual pricing tailored to each studio with a demo request and no price amounts.",
+          "url": "https://gamefabric.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-gamelift",
+      "name": "Amazon GameLift",
+      "site": "https://aws.amazon.com/gamelift/",
+      "company": "Amazon Web Services, Inc.",
+      "country": "",
+      "tagline": "AWS managed multiplayer servers and game streaming",
+      "best_for": "Studios already on AWS",
+      "pricing": "No GameLift-specific prices on the page; it links general AWS pricing and the AWS Pricing Calculator.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "GameLift Servers platforms not stated; GameLift Streams works in a browser",
+      "features": [
+        "Predictive game server scaling",
+        "Autoscaling",
+        "FlexMatch matchmaking",
+        "Game streaming up to 1080p at 60 fps",
+        "GPU instances for streaming"
+      ],
+      "summary": "A fully managed AWS service with predictive autoscaling and FlexMatch matchmaking, best for teams that already run on AWS.",
+      "verdict": "The AWS page describes Amazon GameLift as a fully managed service with game streaming and multiplayer game server capabilities, split into GameLift Servers and GameLift Streams. The page lists predictive game server scaling, autoscaling that can launch up to 9,000 game servers per minute, FlexMatch matchmaking connecting up to 200 players per game session, and free network bandwidth on eligible instances for GameLift Servers. For studios with AWS accounts, identity and billing, procurement is simple, which justifies fourth place.",
+      "weaknesses": "Pricing is spread across general AWS pages, so estimates need the calculator. The page does not name the engines or platforms that GameLift Servers supports. Launch rate and player-count figures are claims, and lock-in to AWS regions applies.",
+      "wrong_for": "Studios wanting multi-provider failover from day one should look at Edgegap or Gameye.",
+      "sources": [
+        {
+          "fact": "The AWS page describes Amazon GameLift as a fully managed service with game streaming and multiplayer game server capabilities, provided by Amazon Web Services, Inc.",
+          "url": "https://aws.amazon.com/gamelift/"
+        },
+        {
+          "fact": "The page links only general AWS pricing pages and the AWS Pricing Calculator; no GameLift-specific prices are shown.",
+          "url": "https://aws.amazon.com/gamelift/"
+        },
+        {
+          "fact": "The page states autoscaling can launch up to 9,000 game servers per minute and FlexMatch connects up to 200 players per game session.",
+          "url": "https://aws.amazon.com/gamelift/"
+        }
+      ]
+    },
+    {
+      "slug": "agones",
+      "name": "Agones",
+      "site": "https://agones.dev/",
+      "company": "LF Projects, LLC",
+      "country": "",
+      "tagline": "Open source dedicated game servers on Kubernetes",
+      "best_for": "Teams with Kubernetes skills",
+      "pricing": "Open source; no pricing, and the license is not stated on the page.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Any place Kubernetes runs; engine SDK included",
+      "features": [
+        "Orchestrate game servers",
+        "Engine-agnostic SDK",
+        "Metrics and monitoring (OpenCensus)",
+        "YAML and API configuration"
+      ],
+      "summary": "The free, engine-agnostic route for teams that can operate Kubernetes themselves, backed by a foundation sandbox project.",
+      "verdict": "Agones is described as an open source platform to host, run and scale dedicated game servers on Kubernetes. The homepage lists orchestration of game servers, an engine-agnostic SDK, metrics and monitoring through OpenCensus, and YAML and API configuration. It is a Cloud Native Computing Foundation sandbox project with an LF Projects copyright line, and the release menu shows 1.62.0 as newest. No license fee and no vendor tie make it attractive to teams with platform engineers; the work sits with you.",
+      "weaknesses": "You run and upgrade the Kubernetes cluster yourself, and no support contract is described. The page names no license, no regions and no hosting partner. Matchmaking and global placement are not part of what the page lists.",
+      "wrong_for": "A studio without platform engineers should choose Gameye or Edgegap for a managed experience.",
+      "sources": [
+        {
+          "fact": "The Agones homepage describes it as an open source platform to host, run and scale dedicated game servers on Kubernetes.",
+          "url": "https://agones.dev/"
+        },
+        {
+          "fact": "The homepage describes Agones as a Cloud Native Computing Foundation sandbox project and carries an LF Projects, LLC copyright line.",
+          "url": "https://agones.dev/"
+        },
+        {
+          "fact": "The homepage lists version 1.62.0 as the newest release in its release menu.",
+          "url": "https://agones.dev/"
+        }
+      ]
+    },
+    {
+      "slug": "i3d-net",
+      "name": "i3D.net",
+      "site": "https://www.i3d.net/",
+      "company": "i3D.net",
+      "country": "",
+      "tagline": "Bare metal, private cloud and a game server orchestrator",
+      "best_for": "Studios wanting infrastructure plus anti-cheat",
+      "pricing": "Not published on the pages we opened; the site offers expert advice and a call scheduling option.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Bare Metal Servers",
+        "GPU Server",
+        "Bare Metal Cloud",
+        "Game Server Orchestrator",
+        "Anti Cheat",
+        "Managed Game Hosting"
+      ],
+      "summary": "An infrastructure provider whose Game Online Services include an orchestrator, managed hosting, anti-cheat and DDoS protection.",
+      "verdict": "i3D.net describes itself as a managed private cloud and global network provider, with bare metal servers, GPU servers, bare metal cloud and colocation. Its Game Online Services add a Game Server Orchestrator for scaling game instances with automated global orchestration, managed game hosting, server-side tech-agnostic anti-cheat and DDoS protection. A single provider for hardware and orchestration appeals to studios wanting fewer vendors. Its middle position reflects thin public detail on the orchestrator itself.",
+      "weaknesses": "No prices are published, and a contract is required with terms on the legal page. The opened pages give few details on engine support, regions or the orchestrator's API. Sales conversations replace self-serve testing.",
+      "wrong_for": "Teams wanting a published rate card and quick trial should read Gameye.",
+      "sources": [
+        {
+          "fact": "i3D.net describes itself as a managed private cloud and global network provider.",
+          "url": "https://www.i3d.net/"
+        },
+        {
+          "fact": "i3D.net's Game Online Services include a Game Server Orchestrator for scaling game instances with automated global orchestration.",
+          "url": "https://www.i3d.net/"
+        },
+        {
+          "fact": "i3D.net's Game Online Services include Anti Cheat, described as effective server-side and tech-agnostic cheat detection.",
+          "url": "https://www.i3d.net/"
+        },
+        {
+          "fact": "i3D.net does not publish prices on the opened pages; the site offers expert advice and a call scheduling option.",
+          "url": "https://www.i3d.net/"
+        }
+      ]
+    },
+    {
+      "slug": "accelbyte",
+      "name": "AccelByte",
+      "site": "https://accelbyte.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Backend suite that includes game sessions and multiplayer servers",
+      "best_for": "Studios buying backend and servers together",
+      "pricing": "First 30 CCU free during development, no monthly platform fee on Public Cloud afterward, usage-based pricing on peak concurrency.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "Windows, PlayStation, Xbox, Android, Apple, Switch, Linux; Unity, Unreal",
+      "features": [
+        "Player Accounts",
+        "Cloud Save",
+        "Achievements",
+        "Leaderboards",
+        "Matchmaking",
+        "Game Sessions"
+      ],
+      "summary": "Fleet management arrives as one module of a wider backend, with concurrency pricing and a cost estimate shown on the homepage.",
+      "verdict": "AccelByte is a multiplatform game backend, and its module list includes game sessions, matchmaking and multiplayer servers next to accounts, cloud save and entitlements. Buying orchestration this way keeps one contract and one set of APIs, and the homepage is open about billing: usage-based on peak concurrent players, about $350 per month for 50,000 monthly players at roughly 500 peak, labeled as an estimate. It claims 120+ studios and names 2K and Krafton. The server module is one part of a bigger purchase.",
+      "weaknesses": "Fleet-specific detail such as regions, providers and per-minute rates is absent from the homepage, so orchestration depth is hard to judge. You pay for a wider suite even if you only need servers. The free allowance applies to development.",
+      "wrong_for": "A team that already has accounts and economy and only needs fleets should compare Edgegap, Gameye or Agones.",
+      "sources": [
+        {
+          "fact": "AccelByte describes itself on the homepage as a multiplatform game backend that provides modular online services for game developers.",
+          "url": "https://accelbyte.io/"
+        },
+        {
+          "fact": "The homepage says the first 30 CCU are free during development and there is no monthly platform fee on Public Cloud after the trial.",
+          "url": "https://accelbyte.io/"
+        },
+        {
+          "fact": "The homepage says pricing is usage-based and scales with peak concurrent players, with an estimate of about $350 per month for 50,000 monthly players, labeled as an estimate.",
+          "url": "https://accelbyte.io/"
+        },
+        {
+          "fact": "The homepage lists Windows, PlayStation, Xbox, Android, Apple, Nintendo Switch and Linux, with 15+ platform integrations.",
+          "url": "https://accelbyte.io/"
+        }
+      ]
+    },
+    {
+      "slug": "rivet",
+      "name": "Rivet",
+      "site": "https://rivet.dev/",
+      "company": "",
+      "country": "",
+      "tagline": "Open source actor platform, self-hostable or hosted",
+      "best_for": "Experimental or real-time server logic",
+      "pricing": "Rivet Cloud control plane: Free $0/month (1 Actor Node), Hobby $18, Team $156, Enterprise $740 per month; 50% off for 12 months for Y Combinator and a16z Speedrun companies.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "Self-host on Kubernetes, AWS ECS or Railway; Rivet Cloud",
+      "features": [
+        "Rivet Actors",
+        "Durable execution",
+        "Persistent state (SQLite per Actor)",
+        "Sandboxes",
+        "Workflows",
+        "Self-hosting"
+      ],
+      "summary": "Published tiers and self-hosting, but its pages now center on agents and actors rather than game server fleets.",
+      "verdict": "Rivet's homepage describes Rivet Actors with durable execution, persistent state and sandboxes, open source and self-hostable on Kubernetes, AWS ECS or Railway. Its pricing page lists Free at $0 per month for up to 1 Actor Node, Hobby at $18 for 3, Team at $156 for 10 and Enterprise at $740 for 50. Those published tiers make it easy to try. It ranks low because the opened pages treat game server hosting as no longer the headline, and its fit for dedicated game servers is unproven here.",
+      "weaknesses": "The pages we opened center on agents and actors, not on game fleets, regions or matchmaking. The rivet.gg domain redirects to rivet.dev, so older game-focused material may be outdated. Actor Node caps apply to each tier.",
+      "wrong_for": "Studios needing a game-focused orchestration product with regions and matchmaking should read Edgegap or GameFabric.",
+      "sources": [
+        {
+          "fact": "Rivet describes its product as Rivet Actors that give agents durable execution, persistent state and untrusted code execution, open-source and self-hostable.",
+          "url": "https://rivet.dev/"
+        },
+        {
+          "fact": "Rivet Cloud pricing lists a Free plan at $0/month, Hobby at $18/month, Team at $156/month and Enterprise at $740/month for the control plane.",
+          "url": "https://rivet.dev/pricing/"
+        },
+        {
+          "fact": "The Team plan allows up to 10 Actor Nodes per cluster and the Enterprise plan up to 50, according to the Rivet pricing page.",
+          "url": "https://rivet.dev/pricing/"
+        },
+        {
+          "fact": "Rivet's documentation links on its homepage describe self-hosting on Kubernetes, AWS ECS and Railway.",
+          "url": "https://rivet.dev/"
+        }
+      ]
+    },
+    {
+      "slug": "pragma",
+      "name": "Pragma",
+      "site": "https://pragma.gg/",
+      "company": "",
+      "country": "",
+      "tagline": "Backend engine and live operations tools for studios",
+      "best_for": "Large studios buying a publishing platform",
+      "pricing": "The homepage links to a pricing page but states no prices and no free tier.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Discord and Twitch integrations; no engines or SDKs named",
+      "features": [
+        "Authentication and social",
+        "Orders and monetization",
+        "Telemetry",
+        "Admin dashboards",
+        "Live operations",
+        "Player data"
+      ],
+      "summary": "Listed for completeness: a backend engine and live operations suite whose homepage shows no fleet management features.",
+      "verdict": "Pragma calls itself a modern publishing tools platform for game studios, with a Backend Engine and live operations tools. Feature groups on the homepage are authentication and social, orders and monetization, telemetry, admin dashboards, live operations and player data. The vendor claims more than half of top PC and console studios and cites Gardens, People Can Fly and Omeda. It earns a place because studios often buy server management inside such suites, but its homepage does not describe fleet orchestration at all.",
+      "weaknesses": "No orchestration, regions or scaling features are named on the page, so it may not cover this job. No prices, no free tier and no SDK list appear. Evaluation requires a sales conversation.",
+      "wrong_for": "If fleet scaling is your main need, choose Edgegap, Gameye or Amazon GameLift.",
+      "sources": [
+        {
+          "fact": "Pragma's homepage describes it as a modern publishing tools platform for game studios.",
+          "url": "https://pragma.gg/"
+        },
+        {
+          "fact": "The homepage describes its Backend Engine as 'The game industry's leading backend'.",
+          "url": "https://pragma.gg/"
+        },
+        {
+          "fact": "The homepage has a Pricing link but states no price amounts and no free tier.",
+          "url": "https://pragma.gg/"
+        },
+        {
+          "fact": "The homepage claims more than 50% of top PC and console studios as users.",
+          "url": "https://pragma.gg/"
+        }
+      ]
+    },
+    {
+      "slug": "vultr",
+      "name": "Vultr",
+      "site": "https://www.vultr.com/",
+      "company": "",
+      "country": "",
+      "tagline": "General cloud compute, Kubernetes and GPU infrastructure",
+      "best_for": "Teams building their own fleet layer",
+      "pricing": "Not readable on the pages we opened; the homepage and pricing page blocked our fetcher and only the docs site opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Cloud Compute",
+        "Kubernetes",
+        "GPU",
+        "Marketplace",
+        "Product documentation"
+      ],
+      "summary": "Raw infrastructure rather than orchestration: compute and Kubernetes you can pair with Agones, but nothing game-specific is documented here.",
+      "verdict": "Vultr's documentation describes the platform as The Everywhere Cloud, with cloud compute, Kubernetes and GPU products plus a marketplace and product, platform and support documentation. It is infrastructure you could run an Agones cluster on, but we found no game server orchestration product on the pages we could open. It stays on the list as a capacity option for teams building their own layer, and sits last because nothing here manages fleets for you.",
+      "weaknesses": "We could not read pricing, regions or game-specific features, so claims about its fit are limited to what the documentation site shows. No orchestrator, matchmaker or DDoS product is described on the opened pages. You build and operate everything on top.",
+      "wrong_for": "Anyone who wants fleets managed for them should read Edgegap, Gameye or GameFabric.",
+      "sources": [
+        {
+          "fact": "Vultr's documentation site describes the platform as The Everywhere Cloud, with cloud compute, Kubernetes and GPU tutorials.",
+          "url": "https://docs.vultr.com"
+        },
+        {
+          "fact": "Vultr's documentation is organised into product documentation, platform documentation and support documentation.",
+          "url": "https://docs.vultr.com"
+        },
+        {
+          "fact": "Vultr pricing could not be read on any opened Vultr page, so no price is recorded.",
+          "url": "https://docs.vultr.com"
+        }
+      ]
+    }
+  ]
+}

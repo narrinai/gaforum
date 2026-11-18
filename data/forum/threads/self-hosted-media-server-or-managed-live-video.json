@@ -1,0 +1,30 @@
+{
+  "id": "self-hosted-media-server-or-managed-live-video",
+  "board": "livestreaming",
+  "title": "Self-hosted media server or a managed live video service?",
+  "created": "2026-11-18T10:10:00Z",
+  "pinned": false,
+  "body": [
+    "Teams building live features, from watch parties to tournament streams, either run an open source media server or buy a managed service. Which route did you take, and where did the work end up?",
+    "The [MediaMTX repository](https://github.com/bluenviron/mediamtx) describes a live media server and proxy supporting SRT, WebRTC, RTSP, RTMP and LL-HLS, among others. The [SRS site](https://ossrs.io/lts/en-us/) describes an open source realtime server supporting RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH. On the managed side, the [Amazon IVS page](https://aws.amazon.com/ivs/) describes a hosted service for low-latency interactive live video.",
+    "Details we would like to hear: expected audience size, whether you needed sub-second delay, who handles transcoding and what monitoring you ended up building."
+  ],
+  "related": [
+    {
+      "title": "Best Streaming Media Servers in 2026",
+      "url": "/software/best-streaming-media-servers"
+    },
+    {
+      "title": "Best Live Streaming APIs and SDKs in 2026",
+      "url": "/software/best-live-streaming-apis-and-sdks"
+    },
+    {
+      "title": "Wowza Alternatives in 2026",
+      "url": "/alternatives/wowza"
+    },
+    {
+      "title": "Amazon IVS Alternatives in 2026",
+      "url": "/alternatives/amazon-ivs"
+    }
+  ]
+}

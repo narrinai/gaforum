@@ -1,0 +1,133 @@
+{
+  "slug": "playfab-vs-nakama",
+  "a": "playfab",
+  "b": "nakama",
+  "a_name": "PlayFab",
+  "b_name": "Nakama",
+  "a_site": "https://developer.microsoft.com/en-us/games/products/playfab/",
+  "b_site": "https://heroiclabs.com/",
+  "category": "best-game-backend-platforms",
+  "title": "PlayFab vs Nakama: Which Fits Your Team in 2026?",
+  "description": "PlayFab is Microsoft's managed backend with a free-to-start tier; Nakama is an Apache-2 open source backend you can self-host or run on Heroic Cloud.",
+  "intro": "PlayFab is Microsoft's managed backend for live games with a free-to-start tier and pay-as-you-go pricing, while Nakama is an open source game backend from Heroic Labs that you can host yourself or run on Heroic Cloud. The practical difference is who runs the servers and whose rules govern the data. This page compares both on pricing structure, SDK reach, server customization and scale evidence from the vendors' own pages.",
+  "verdict": "Pick PlayFab when you want a managed service inside Microsoft's gaming ecosystem and accept usage-based billing. Pick Nakama when you want open source you can run anywhere, server logic in Go, Lua or JavaScript, and an optional hosted path. Teams with no ops capacity should price Heroic Cloud against PlayFab's meter.",
+  "pick_a": "Pick PlayFab if you want Microsoft hosting, Unreal and Unity SDKs, and no servers to operate on day one.",
+  "pick_b": "Pick Nakama if you need to self-host, read the backend source or customize server logic in your own language.",
+  "rows": [
+    {
+      "label": "Operator",
+      "a": "Microsoft",
+      "b": "Heroic Labs"
+    },
+    {
+      "label": "License model",
+      "a": "Managed commercial service",
+      "b": "Open source (Apache-2 license on GitHub), plus Heroic Cloud"
+    },
+    {
+      "label": "Free entry",
+      "a": "Free-to-start tier; Development Mode limited to 1,000 lifetime player accounts per title and 10 titles per account",
+      "b": "Download and install Nakama OSS"
+    },
+    {
+      "label": "Pricing shape",
+      "a": "Pay as you go as games scale; no figures on the page",
+      "b": "Heroic Cloud priced by Nakama CPU and database CPU on a calculator; Enterprise adds no DAU, MAU or CCU limits"
+    },
+    {
+      "label": "Engine SDKs",
+      "a": "Unreal and Unity SDKs plus custom engine support",
+      "b": "Apple, Android, Steam, PlayStation, Xbox, Nintendo, HTML5, Windows, Vision Pro, HoloLens, Oculus listed"
+    },
+    {
+      "label": "Server customization",
+      "a": "Not detailed on the opened page",
+      "b": "JavaScript, Go and Lua"
+    },
+    {
+      "label": "Feature areas",
+      "a": "Identity, multiplayer, progression, economy, live service management",
+      "b": "Social gameplay, multiplayer, matchmaking, leaderboards, chat"
+    },
+    {
+      "label": "Scale evidence",
+      "a": "Lists Minecraft, Forza Horizon 5, Sea of Thieves, Street Fighter 6",
+      "b": "Public AWS scale test by Code Wizards over 2 million CCU"
+    },
+    {
+      "label": "Compliance",
+      "a": "Not stated on the opened page",
+      "b": "SOC 2 Type II compliance for Heroic Labs"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Who runs the servers",
+      "text": [
+        "PlayFab is a hosted service. Microsoft's page describes complete backend services for live games and places it within the Microsoft gaming ecosystem, with integrations for Xbox, Steam, PlayStation, Nintendo Switch and the main mobile stores.",
+        "Nakama's code is on GitHub under an Apache-2 license, and Heroic Labs' pricing page offers a hosted Heroic Cloud as well. That lets you start self-hosted and move to managed later, or the reverse. The flexibility is the central argument for Nakama."
+      ]
+    },
+    {
+      "h2": "Pricing structure",
+      "text": [
+        "PlayFab says the free-to-start tier carries no additional cost and that you pay as you go as games scale. Development Mode is free to evaluate, capped at 1,000 lifetime player account creations per title and 10 titles per account. The page shows no dollar figures, so a cost model needs the vendor's calculator or a sales contact.",
+        "Heroic Cloud pricing is driven by the number of Nakama CPUs and database CPUs, and the page includes a slider-style estimator. Its all-plans list says there are no DAU, MAU or CCU limits, so cost follows hardware rather than player counts."
+      ]
+    },
+    {
+      "h2": "Customization",
+      "text": [
+        "Nakama lets you write server modules in JavaScript, Go or Lua, which suits teams with custom matchmaking or economy rules. The Heroic Cloud plans mention continuous integration for server modules.",
+        "The PlayFab page opened for this comparison lists feature areas such as identity, economy and live service management, but not a scripting model, so check its documentation if custom server code matters."
+      ]
+    },
+    {
+      "h2": "Scale and trust signals",
+      "text": [
+        "Heroic Labs reports a public scale test where Code Wizards ran Nakama on Heroic Cloud at over 2 million concurrent users, and the pricing page lists SOC 2 Type II compliance. Microsoft names Minecraft, Forza Horizon 5, Sea of Thieves and Street Fighter 6 as titles running on PlayFab. Those are vendor statements; validate them against your own load profile."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Nakama free?",
+      "a": "The server is open source and its GitHub page shows an Apache-2 license, with a Download and Install Nakama OSS option. Heroic Cloud, the managed option, is paid and priced by CPU resources."
+    },
+    {
+      "q": "Is PlayFab free to start?",
+      "a": "Yes. Microsoft's page says there is a free-to-start tier at no additional cost, then pay-as-you-go pricing. Development Mode is limited to 1,000 lifetime player account creations per title and 10 titles per account."
+    },
+    {
+      "q": "Which works with Unreal Engine?",
+      "a": "PlayFab lists Unreal and Unity SDKs and support for custom engines. Nakama's page lists many device platforms and server languages but the opened pages do not name engines, so check its client library list."
+    },
+    {
+      "q": "Can I leave later?",
+      "a": "With Nakama you can self-host the open source server, which keeps an exit open. PlayFab is a managed Microsoft service, so moving away means rebuilding the backend features elsewhere."
+    },
+    {
+      "q": "Which suits a small team without DevOps?",
+      "a": "PlayFab removes server work entirely. Nakama on Heroic Cloud does as well but is paid by CPU. Self-hosted Nakama gives the most control and the most operating work."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "PlayFab: backend services for live games, part of Microsoft gaming ecosystem, free-to-start tier, Development Mode limits.",
+      "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+    },
+    {
+      "fact": "Nakama homepage: open source game backend, OSS download, trusted-by list.",
+      "url": "https://heroiclabs.com/"
+    },
+    {
+      "fact": "Heroic Cloud pricing: CPU-based estimator, no DAU/MAU/CCU limits, 2M CCU scale test, SOC 2 Type II.",
+      "url": "https://heroiclabs.com/pricing"
+    },
+    {
+      "fact": "Nakama GitHub repository shows an Apache-2 license.",
+      "url": "https://github.com/heroiclabs/nakama"
+    }
+  ],
+  "published": "2026-11-18"
+}

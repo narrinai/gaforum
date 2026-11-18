@@ -1,0 +1,165 @@
+{
+  "slug": "how-to-start-streaming-games-on-twitch-and-youtube",
+  "title": "How to Start Streaming Games on Twitch and YouTube",
+  "description": "A first-stream playbook for games: choose a platform, set up OBS Studio with sane encoder settings, add chat tools, run a private test and build a weekly routine.",
+  "kind": "Playbook",
+  "topic": "Livestreaming",
+  "published": "2026-11-18",
+  "intro": "To start streaming games on Twitch or YouTube you need a verified channel, an encoder such as OBS Studio that sends video to the platform over RTMP with a stream key, a stable upload connection and a short test run before you go public. Everything else, from overlays to chat bots, can wait until the basic stream is reliable. This playbook follows the order that avoids the most common first-week problems and cites the platform documentation for every setting it gives.",
+  "key_takeaways": [
+    "Verify your channel and read the platform's live streaming eligibility rules before your first planned stream day.",
+    "A stream key is a password: keep it out of screenshots and recordings, and reset it if it leaks.",
+    "Use constant bitrate and a two-second keyframe interval, and pick a resolution your upload speed can hold with headroom.",
+    "Test privately with real gameplay and audio, then check the platform's stream health view before going live.",
+    "Add overlays, alerts and chat bots one at a time after the plain stream works."
+  ],
+  "sections": [
+    {
+      "h2": "Pick a home platform before you pick gear",
+      "paras": [
+        "Choose one platform for your first month. Splitting attention across two chats and two dashboards makes it hard to tell what works, and the technical side is almost identical on both. Both accept an RTMP stream from the same kinds of encoders, so the skills transfer if you add a second platform later.",
+        "YouTube's help center states the entry conditions clearly. To live stream you need to have no live streaming restrictions in the past 90 days and you need to verify your channel, and you must be at least 16 years old. Check your account's status early, because verification is a step you cannot rush on the day of your first stream. Twitch's developer documentation describes how video reaches it: a broadcaster sends a stream to the platform's ingest system using a streaming encoder such as OBS Studio, Streamlabs or XSplit, or a console, over RTMP."
+      ]
+    },
+    {
+      "h2": "Choose how you will send video",
+      "paras": [
+        "YouTube lists four ways to stream: mobile, webcam, encoder and game console. For gameplay, the help center says encoders let you stream gameplay, add overlays and use hardware such as preamps, microphones and cameras, and calls this type common for gaming. Consoles from PlayStation, Xbox and Nintendo can stream directly, and YouTube sends you to each console maker's manual for the steps.",
+        "On a PC, the usual choice is encoder software. OBS Studio is free and open source and runs on Windows 10 and 11, macOS 13 or newer and Linux. Other verified options include Streamlabs Desktop, Meld Studio and Lightstream; see the ranking of [streaming software for gamers](/software/best-streaming-software-for-gamers) for the full comparison. If you have never used one, start with OBS Studio and its first-run tools."
+      ]
+    },
+    {
+      "h2": "Set up OBS Studio in five moves",
+      "paras": [
+        "The OBS Quick Start Guide walks through wizard, sources, audio and a test run. Add the stream connection as the last move and you have a good skeleton for a first session; the order matters."
+      ],
+      "list": [
+        "Run the Auto-Configuration Wizard, which takes your use case, your hardware and, for streaming, your network conditions into account. It opens on first run and lives under the Tools menu afterward.",
+        "Add sources to a scene: Game Capture on Windows for 3D games, Display Capture or Window Capture otherwise, and Video Capture for a webcam or capture card.",
+        "Check audio in the mixer. OBS captures desktop audio and your microphone by default; if the meters do not move, choose the devices under Settings, Audio.",
+        "Review Settings, Output, then start a recording or stream and run a test for a few minutes.",
+        "Connect your account or paste the stream key from the platform into Settings, Stream."
+      ],
+      "ordered": true,
+      "after": [
+        "Twitch states that stream keys are assigned by the platform and can be retrieved from the broadcaster dashboard or through its API. Its ingest address follows the pattern rtmp://<ingest-server>/app/<stream-key>, and an optional bandwidth test parameter disables live viewing, which is useful when you only want to check connection health. Never show the key on screen."
+      ]
+    },
+    {
+      "h2": "Settings that matter for a first stream",
+      "paras": [
+        "Do not copy settings from a video you watched two years ago. Use the platform's current table. YouTube's encoder page lists, for H.264, a recommended bitrate of 14 Mbps at 1080p30 (minimum 5), 17 Mbps at 1080p60 (minimum 6), and 8 Mbps at 720p30 or 720p60 (minimum 3). It recommends constant bitrate, a keyframe interval of 2 seconds that should not exceed 4, AAC audio at 128 kbps for stereo, and a 44.1 kHz audio sample rate for stereo.",
+        "Your bitrate has to fit inside your real upload speed. The OBS troubleshooting guide suggests 75% of your total upload speed as a starting point, so a connection that uploads 10 Mbps steadily supports a video bitrate near 7.5 Mbps before audio and overhead. When in doubt, lower the resolution rather than letting frames drop. Twitch also publishes its own broadcasting guidelines, so check them for the current recommendations for the platform you chose."
+      ],
+      "list": [
+        "Resolution and frame rate: 720p60 is a safe starting point if your upload is modest; move to 1080p once your tests show no dropped frames.",
+        "Encoder: hardware encoders on modern GPUs, such as NVENC, take work off the CPU, and OBS notes that earlier-generation hardware encoders give lower image quality at the same bitrate.",
+        "Rate control: constant bitrate, which YouTube lists as its recommended bitrate encoding.",
+        "Network: use a wired connection. OBS recommends wired over WiFi for streaming."
+      ]
+    },
+    {
+      "h2": "Run a private test before going live",
+      "paras": [
+        "YouTube recommends testing before you start, and its test advice is specific: include audio and movement in the video similar to what you will do during the stream, and monitor stream health during the event. Mirror that advice. Play the actual game, with the actual microphone, for at least a full match or level, and watch the platform's stream health view while you do it.",
+        "Check these before you press the final button: the game audio is not louder than your voice, your microphone does not pick up keyboard noise, the capture shows the game and nothing private such as notifications or browser tabs, and the stream key field is not visible in any window you capture."
+      ]
+    },
+    {
+      "h2": "Chat, overlays and alerts, added one at a time",
+      "paras": [
+        "Once the plain stream is stable, add one extra at a time so you can tell which one causes a problem. Chat bots handle commands, timers and moderation; Nightbot and Fossabot are verified cloud-hosted options that work on Twitch and YouTube, and the ranking of [Twitch chat bots](/software/best-twitch-chat-bots) compares more. Overlays and alerts show follows, subscriptions and donations on stream; StreamElements and Streamlabs Desktop combine them with other tools, and the ranking of [stream overlay and alert tools](/software/best-stream-overlay-and-alert-tools) lists the rest. Our guide to [setting up stream overlays and alerts](/guides/how-to-set-up-stream-overlays-and-alerts) goes through the steps.",
+        "Each browser-based overlay adds load to your machine, so check CPU and dropped frames after every addition. If something hurts performance, remove it and try again later."
+      ]
+    },
+    {
+      "h2": "Reach viewers who watch on their phones",
+      "paras": [
+        "YouTube's live streaming page says streams started from the Live Control Room go live in both horizontal 16:9 and vertical 9:16 formats at the same time by default, with the vertical stream a center crop of the horizontal one. Viewers on mobile get a full-screen experience for vertical streams, and the same live chat is shown to both. With a third-party encoder you can send a second stream key for a separate vertical layout, and the page notes that you cannot add the vertical format once the stream has started.",
+        "For a first stream, accept the default crop and make sure your game's key action stays near the center of the frame."
+      ]
+    },
+    {
+      "h2": "A routine for the first four weeks",
+      "paras": [
+        "Consistency teaches you more than any single stream. Use a fixed loop and write down what you notice."
+      ],
+      "list": [
+        "Before each stream: restart the encoder, run a one-minute test recording, check audio levels and close apps you do not need.",
+        "During the stream: glance at the stream health panel every few minutes, and have a scene ready for \"be right back\" and one for technical problems.",
+        "After the stream: scan the recording for audio problems and dropped frames, and note one thing to fix next time.",
+        "Weekly: change one thing only, such as bitrate, layout or the schedule, so you can see its effect.",
+        "Monthly: review the platform's analytics and decide whether to add a second platform."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a high-end PC to stream games?",
+      "a": "You need enough headroom to run the game and the encoder together. OBS says hardware encoders take the workload off the CPU and move it to a specialized part of the GPU, with modern ones giving very good quality at minimal performance cost. If your PC struggles, lower the game's graphics settings or the stream resolution before buying new parts."
+    },
+    {
+      "q": "What happens if my stream key leaks?",
+      "a": "Anyone with the key can broadcast to your channel. Reset the key in your platform dashboard and update it in your encoder. Twitch's documentation says keys are assigned by the platform and can be retrieved from the broadcaster dashboard or an API call, so regenerating it there is the right first step."
+    },
+    {
+      "q": "Should I stream at 1080p or 720p?",
+      "a": "Choose the resolution your connection can hold without drops. YouTube's table recommends 14 Mbps for 1080p30 and 8 Mbps for 720p30 with H.264, and OBS suggests staying around 75% of your upload speed. A clean 720p stream looks better than a 1080p stream that drops frames."
+    },
+    {
+      "q": "Can I stream a console game?",
+      "a": "Yes. YouTube says modern PlayStation, Xbox and Nintendo consoles can stream directly from the device, and each console maker's instructions apply. For more control over overlays, a capture card and a PC with an encoder is the other route, and Lightstream describes cloud capture for Xbox and PlayStation."
+    },
+    {
+      "q": "When should I add a second platform?",
+      "a": "After your single-platform stream runs without dropped frames for several sessions. Sending to two destinations multiplies your upload demand, so the technical part is harder. Read our guide on [multistreaming without lag](/guides/how-to-multistream-without-lag) before you try it."
+    }
+  ],
+  "related_categories": [
+    "best-streaming-software-for-gamers",
+    "best-stream-overlay-and-alert-tools",
+    "best-twitch-chat-bots"
+  ],
+  "related_guides": [
+    "how-to-multistream-without-lag",
+    "how-to-set-up-stream-overlays-and-alerts",
+    "how-to-record-gameplay-without-fps-loss"
+  ],
+  "sources": [
+    {
+      "title": "Get started with live streaming",
+      "url": "https://support.google.com/youtube/answer/2474026?hl=en",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "Choose live encoder settings, bitrates, and resolutions",
+      "url": "https://support.google.com/youtube/answer/2853702?hl=en",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "Video Broadcast",
+      "url": "https://dev.twitch.tv/docs/video-broadcast/",
+      "publisher": "Twitch Developers"
+    },
+    {
+      "title": "Quick Start Guide",
+      "url": "https://obsproject.com/kb/quick-start-guide",
+      "publisher": "OBS Project"
+    },
+    {
+      "title": "Hardware Encoding",
+      "url": "https://obsproject.com/kb/hardware-encoding",
+      "publisher": "OBS Project"
+    },
+    {
+      "title": "Stream Connection Troubleshooting",
+      "url": "https://obsproject.com/kb/stream-connection-troubleshooting",
+      "publisher": "OBS Project"
+    },
+    {
+      "title": "OBS Studio",
+      "url": "https://obsproject.com/",
+      "publisher": "OBS Project"
+    }
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "slug": "best-in-game-advertising-platforms",
+  "name": "in-game advertising platforms",
+  "title": "Best In-Game Advertising Platforms in 2026",
+  "group": "Game business",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "In-game advertising platforms place brand and performance ads inside game worlds through SDKs and programmatic buying, without interrupting play on PC, console and mobile.",
+  "definition": "An in-game advertising platform inserts advertisements into the game itself, for example as billboards, posters or audio spots, and sells that inventory to brands. Unlike full-screen interstitials, native in-game formats aim not to interrupt play. Developers add an SDK, advertisers buy through a platform, and the vendor measures views and clicks.",
+  "intro": "Studios that make PC and console games rarely want full-screen ads, which is why this niche exists. We looked at what each vendor says about placement style, supported platforms, engines, buying method and visible terms, using homepages, product pages, footers and published pricing. We did not run campaigns or see revenue, and every performance figure on this page is the vendor's own. Entries that clearly place ads inside the game world sit at the top; publisher-side monetization and then pure mobile buying tools follow. Bidstack and AdInMo were left out because their websites could not be opened during our review, and no readable page was available to verify them. Few vendors here show a price, so asking for terms is the main task for any studio on this list.",
+  "criteria": [
+    {
+      "heading": "Native placement versus interruption",
+      "text": "Look at where the ad appears. Gadsme says its ads are native in-world assets with no overlays, interstitials or pop-ups, and Frameplay describes intrinsic placements in game scenes. Venatus groups placements into in the game, around the game and away from the game. Odeeo uses audio. Decide whether a poster in a street scene or a billboard in a stadium suits your art direction."
+    },
+    {
+      "heading": "Platforms and engines",
+      "text": "Check PC and console coverage in writing. Anzu lists Mobile and PC and Console solutions, and Gadsme names Unity, Unreal and C++ engines. Odeeo and Bigabid are mobile. Kayzen targets mobile apps. Playwire lists websites, mobile and desktop apps. Venatus lists websites, apps and browser games. An SDK for your engine matters more than a long feature list."
+    },
+    {
+      "heading": "Buying model and demand",
+      "text": "Programmatic means advertisers buy through an exchange, direct means campaigns are sold by hand. Anzu works programmatically on standard IAB sizes. Gadsme lists both. Venatus mentions direct sales and header bidding, and Playwire offers managed and self-service routes with 15+ demand partners on mobile. More demand paths raise fill, but also add moving parts."
+    },
+    {
+      "heading": "Fees you can read",
+      "text": "Only Kayzen prints prices, with plans from $1,250 to $15,000 a month, and it is a buying tool. Every publisher-side platform asks for a demo, an application or a contact request. Before any integration, ask about revenue share, minimum traffic, payment schedule, brand safety controls and who owns the player data collected."
+    }
+  ],
+  "market_notes": [
+    "Of the ten platforms, only one (Kayzen) publishes plan prices on the pages we opened, and none of the publisher-side vendors shows a revenue share. Two list PC and console (Anzu and Gadsme), while Odeeo, Bigabid and Kayzen are mobile-only. Azerion describes itself as European and states 17 countries; Odeeo gives its location as Israel. Gadsme says it was founded in early 2020, and Anzu dates its mission to 2017.",
+    "The category mixes two kinds of company. One kind builds ad units inside the game world and sells them to brands. The other is a general advertising or acquisition business that touches games. Ranking prefers the first kind for PC and console studios, because the second kind rarely describes native formats. Vendor claims such as ARPDAU uplift, time in view and recall boosts come without independent data in the pages we read, so test one placement in a live build and measure retention before expanding."
+  ],
+  "how_to_choose": [
+    {
+      "title": "List your platforms and engine",
+      "text": "Write down whether you ship on PC, console, mobile or browser, and the engine you use. Drop vendors that list none of them. Ask for an SDK for your engine and version, and for a build you can drop into a test scene before talking about money."
+    },
+    {
+      "title": "Pick the format you can live with",
+      "text": "Decide whether in-world posters, clickable units or audio spots suit your game. Ask each vendor for example screenshots from games like yours, and for the list of ad categories and brands that can be blocked. A realistic racing game and a stylized platformer need different placements."
+    },
+    {
+      "title": "Ask for terms and run a small pilot",
+      "text": "Request revenue share, payment dates, minimums and data policies in writing. Then run a limited pilot in one level or one region and compare retention and session length against a control. Only widen the rollout if player metrics hold steady."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best in-game advertising platform in 2026?",
+      "a": "Anzu is the best starting point for most PC and console studios because it lists mobile, PC and console and buys programmatically on standard sizes. Gadsme is better when native in-world placements and named Unity and Unreal support matter, and Frameplay suits teams that want a self-service platform."
+    },
+    {
+      "q": "Do in-game ads hurt player retention?",
+      "a": "Vendors say native placements avoid interrupting play, and Gadsme claims zero impact on retention, but these are vendor claims with no published method. Test with a limited release and compare retention with and without the placement before committing."
+    },
+    {
+      "q": "Which platforms support PC and console games?",
+      "a": "Anzu lists PC and console solutions, and Gadsme states mobile, PC and console with Unity, Unreal and C++ engine support. Playwire lists desktop apps, and Venatus lists browser games. Odeeo, Bigabid and Kayzen are mobile focused."
+    },
+    {
+      "q": "Why are Bidstack and AdInMo missing?",
+      "a": "Both vendors' sites could not be opened during our review (one returned a not-found error, the other a server error), so we had no readable page to verify. We rank only vendors whose pages we could read."
+    },
+    {
+      "q": "How much does in-game advertising cost for developers?",
+      "a": "For publishers, it is usually free to integrate and the vendor takes a share, but none of the publisher-side pages we read states one. Kayzen, a buyer-side tool, lists $1,250, $5,750 and $15,000 monthly plans. Ask for revenue share in writing."
+    },
+    {
+      "q": "What is the difference between in-game and rewarded mobile ads?",
+      "a": "In-game ads appear as part of the scene, such as a poster, and do not stop play. Rewarded mobile ads are full-screen videos that a player chooses to watch for a reward. Odeeo's audio ads are a third format, built for quiet moments."
+    },
+    {
+      "q": "Is Azerion a good fit for a European studio?",
+      "a": "Azerion calls itself Europe's leading digital advertising company and offers Game Distribution alongside advertising. Its pages speak mostly to advertisers, and no pricing or native format is described, so ask what it offers for your platform."
+    }
+  ],
+  "related": [
+    "best-mobile-game-ad-networks-and-mediation",
+    "best-game-market-intelligence-tools",
+    "best-game-analytics-software",
+    "best-mobile-attribution-tools-for-games",
+    "best-influencer-marketing-tools-for-games",
+    "best-game-payment-and-web-shop-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "anzu",
+      "name": "Anzu",
+      "site": "https://www.anzu.io/",
+      "company": "Anzu",
+      "country": "",
+      "tagline": "Programmatic in-game ads for mobile, PC and console",
+      "best_for": "Brand and performance buyers across platforms",
+      "pricing": "No price is stated on the homepage; advertiser and publisher terms are linked from the site.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Mobile, PC and console",
+      "features": [
+        "Brand and performance formats",
+        "Fraud detection",
+        "Brand uplift",
+        "Programmatic setup on standard IAB sizes",
+        "Mobile",
+        "PC and console"
+      ],
+      "summary": "Covers all three platforms through programmatic buying on standard IAB sizes, which lowers the barrier for advertisers who already buy that way.",
+      "verdict": "Anzu connects game developers with brand and performance advertisers through programmatic in-game advertising, and its Monetize menu lists both Mobile and PC and Console solutions. Setup uses standard IAB sizes, and the product list includes fraud detection and brand uplift measurement. The company page says it has worked to make advertising in games better since 2017. For a PC or console studio, programmatic buying means demand arrives without negotiating each campaign directly.",
+      "weaknesses": "No fees, revenue share or minimum traffic are stated on the homepage, and the pages do not describe how ads are placed in a 3D scene. Console engine support is not listed in what we read.",
+      "wrong_for": "Studios that want ads built as in-world objects with direct brand deals should compare Gadsme, and mobile-only audio buyers might read Odeeo.",
+      "sources": [
+        {
+          "fact": "Anzu connects game developers with brand and performance advertisers through programmatic in-game advertising.",
+          "url": "https://www.anzu.io/"
+        },
+        {
+          "fact": "The Monetize menu lists Mobile and PC & Console solutions.",
+          "url": "https://www.anzu.io/"
+        },
+        {
+          "fact": "The company page says Anzu's mission has been to make advertising in games better since 2017.",
+          "url": "https://www.anzu.io/company"
+        },
+        {
+          "fact": "The homepage does not state pricing; advertiser and publisher terms are linked from the site.",
+          "url": "https://www.anzu.io/"
+        }
+      ]
+    },
+    {
+      "slug": "gadsme",
+      "name": "Gadsme",
+      "site": "https://www.gadsme.com/",
+      "company": "Gadsme",
+      "country": "",
+      "tagline": "Native in-world ads for mobile, PC and console games",
+      "best_for": "Immersive placements with clickable units",
+      "pricing": "No price is stated on the opened pages; visitors are asked to request a demo.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Mobile, PC and console; Unity, Unreal and C++ engines",
+      "features": [
+        "Native in-world ad placements",
+        "Clickable in-game ad units",
+        "Programmatic and direct demand",
+        "Lightweight SDK",
+        "Publisher control over placements",
+        "Real-time reporting"
+      ],
+      "summary": "Closest to the native, no-overlay ideal for PC and console, with an SDK that names Unity, Unreal and custom C++ engines.",
+      "verdict": "Gadsme renders ads as native in-world assets, which its pages say avoids overlays, interstitials and pop-ups. The SDK is described as compatible with Unity, Unreal and all C++ proprietary engines, and publishers keep control over where and how often ads appear. It also lists clickable in-game units and both programmatic and direct demand. The vendor says publishers typically see an 8% to 20% ARPDAU uplift, a claim from its own page. A studio protecting immersion has a clear option here.",
+      "weaknesses": "The vendor gives no price and asks for a demo, and the uplift range is its own figure with no named study. It was founded in early 2020, so its track record is shorter than some entries here.",
+      "wrong_for": "Teams wanting a self-service dashboard with no sales call should look at Frameplay, and those with web or browser games at Venatus.",
+      "sources": [
+        {
+          "fact": "Gadsme describes its product as an in-game advertising platform with ads built into gameplay for mobile, PC and console.",
+          "url": "https://www.gadsme.com/"
+        },
+        {
+          "fact": "The publisher page says the SDK is compatible with Unity, Unreal and all C++ proprietary engines.",
+          "url": "https://www.gadsme.com/publishers"
+        },
+        {
+          "fact": "The publisher page says publishers typically achieve 8% to 20% ARPDAU uplift (vendor figure) and ads render as native assets with no overlays.",
+          "url": "https://www.gadsme.com/publishers"
+        },
+        {
+          "fact": "The about page says Gadsme was founded in early 2020 on 100% proprietary technology built in-house.",
+          "url": "https://www.gadsme.com/about-us"
+        }
+      ]
+    },
+    {
+      "slug": "frameplay",
+      "name": "Frameplay",
+      "site": "https://frameplay.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Self-service intrinsic ads placed inside game worlds",
+      "best_for": "Self-serve advertisers and developers",
+      "pricing": "No price is stated; the homepage offers a Book a demo button.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Intrinsic in-game ads",
+        "Self-service platform",
+        "Advertiser solutions",
+        "Developer monetization",
+        "Analytics"
+      ],
+      "summary": "Pairs intrinsic placements with a self-service platform, so smaller advertisers can run campaigns without an agency.",
+      "verdict": "Frameplay describes itself as a self-service intrinsic advertising platform that places virtual ads in video games, with separate solutions for advertisers and developers plus analytics. The homepage cites an average intrinsic time in view of 33 seconds, a vendor figure. Its about page calls the company a pioneer in video game advertising. Studios that dislike intrusive pop-ups, and brands that want to book without a long procurement cycle, are the audience.",
+      "weaknesses": "No pricing is shown, platforms are not listed on the pages we read, and the 33 second figure is the vendor's own average with no stated sample. A demo is the only next step.",
+      "wrong_for": "If you need documented Unity and Unreal SDK support, see Gadsme, and for broad programmatic reach see Anzu.",
+      "sources": [
+        {
+          "fact": "Frameplay describes its platform as a self-service intrinsic advertising platform that places virtual ads in video games.",
+          "url": "https://frameplay.com/"
+        },
+        {
+          "fact": "Frameplay's About page is headed 'Pioneering innovation in the video game advertising industry.'",
+          "url": "https://frameplay.com/about-us/"
+        },
+        {
+          "fact": "The homepage lists separate solutions for advertisers and for developers.",
+          "url": "https://frameplay.com/"
+        },
+        {
+          "fact": "Pricing is not published on the page; the homepage offers a Book a demo button.",
+          "url": "https://frameplay.com/"
+        }
+      ]
+    },
+    {
+      "slug": "adverty",
+      "name": "Adverty",
+      "site": "https://adverty.com/",
+      "company": "",
+      "country": "",
+      "tagline": "In-play ads with viewability measurement",
+      "best_for": "Developers wanting measured in-play ads",
+      "pricing": "No price is stated on the homepage.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "In-play ads",
+        "Developer monetization",
+        "Advertiser portal",
+        "BrainImpression viewability",
+        "Brand safety"
+      ],
+      "summary": "Focuses on in-play placement with viewability measurement and a self-serve portal for both sides.",
+      "verdict": "Adverty calls itself an in-play advertising platform that connects brands with engaged gaming audiences and gives developers new revenue streams. A portal lets self-served clients track revenue, spend and campaigns, and the page says its ad technology follows the latest IAB and MRC measurement guidelines. It names BrainImpression for viewability and lists brand safety. Partner testimonials on the homepage come from PubMatic and Mindshare FAST.",
+      "weaknesses": "The homepage states no price, supported engines or platforms. Measurement alignment is a vendor statement, and its two named partner quotes are not evidence of results.",
+      "wrong_for": "Teams that need confirmed Unity and Unreal SDK support should read the Gadsme entry first.",
+      "sources": [
+        {
+          "fact": "Adverty describes itself as an In-Play advertising platform that connects brands with engaged gaming audiences and enables new gaming revenue streams for developers.",
+          "url": "https://adverty.com/"
+        },
+        {
+          "fact": "The page offers a developer and advertiser portal for self-served clients to track revenue, spend and campaigns.",
+          "url": "https://adverty.com/"
+        },
+        {
+          "fact": "The page says its ad technology is in line with the latest IAB and MRC measurement guidelines.",
+          "url": "https://adverty.com/"
+        },
+        {
+          "fact": "The homepage does not state pricing.",
+          "url": "https://adverty.com/"
+        }
+      ]
+    },
+    {
+      "slug": "venatus",
+      "name": "Venatus",
+      "site": "https://www.venatus.com/",
+      "company": "Venatus",
+      "country": "",
+      "tagline": "Gaming ad platform with in-game and around-game placements",
+      "best_for": "Web and app games with direct sales",
+      "pricing": "No price is stated; the homepage offers a Request demo button.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Websites, apps and browser games",
+      "features": [
+        "Prosper platform",
+        "Ad mediation",
+        "App and browser game monetization",
+        "In-game, around-the-game and away-from-the-game placements",
+        "Direct sales and header bidding",
+        "Consent management"
+      ],
+      "summary": "Strong on direct sales and mediation for web and app games, with less visible console specialization.",
+      "verdict": "Venatus runs Prosper, which covers ad mediation, app and browser game monetization, direct sales, header bidding and consent management. Placements are grouped as in the game, around the game and away from the game. The homepage claims 900+ directly sold campaigns a year and says in-game campaigns are up to 63% more memorable than standard ads, both vendor claims. Google Certified Publishing Partner status is also stated.",
+      "weaknesses": "Its navigation lists websites, apps and browser games, not PC or console titles, so console fit is unconfirmed. No pricing is shown, and the memorability figure is the vendor's own.",
+      "wrong_for": "A console or PC studio that wants objects inside the game world should pick Gadsme or Anzu.",
+      "sources": [
+        {
+          "fact": "Venatus describes itself as a gaming and entertainment advertising growth engine and names its platform Prosper.",
+          "url": "https://www.venatus.com/"
+        },
+        {
+          "fact": "The navigation lists Ad-Mediation, App Monetization, Browser Game Monetization and ad placements In the Game, Around the Game and Away from the Game.",
+          "url": "https://www.venatus.com/"
+        },
+        {
+          "fact": "The homepage says Venatus runs 900+ directly sold campaigns every year (vendor figure).",
+          "url": "https://www.venatus.com/"
+        },
+        {
+          "fact": "The homepage says in-game campaigns are shown to be up to 63% more memorable than standard ads, a vendor claim.",
+          "url": "https://www.venatus.com/"
+        }
+      ]
+    },
+    {
+      "slug": "playwire",
+      "name": "Playwire",
+      "site": "https://www.playwire.com/",
+      "company": "Playwire",
+      "country": "",
+      "tagline": "Managed or self-service ad monetization for publishers",
+      "best_for": "Publishers wanting managed ad ops",
+      "pricing": "No price is stated; publishers are asked to apply.",
+      "pricing_model": "Apply to join",
+      "free_plan": "Unknown",
+      "platforms": "Websites, mobile apps and desktop apps",
+      "features": [
+        "RAMP Managed Service",
+        "RAMP Self-Service",
+        "RAMP Mobile App (single SDK)",
+        "Flex Suite",
+        "PEI Index"
+      ],
+      "summary": "A publisher-side monetization stack with a single mobile SDK, less specific to native in-game formats.",
+      "verdict": "Playwire describes itself as an ad monetization platform for publishers, with managed and self-service options under the RAMP name. RAMP Mobile App is a single SDK that connects publishers to 15+ premium demand partners, and the homepage says 1,000+ publishers trust it. A small studio with no ad operations staff may value the managed service, since the vendor handles optimization. The website, app and desktop coverage suits cross-surface publishers.",
+      "weaknesses": "Console is not listed among its surfaces, and the pages describe publisher monetization rather than in-game native placements. Pricing is by application only, and the trust figure is self-reported.",
+      "wrong_for": "Teams whose priority is ads inside the game world should rank Gadsme or Frameplay above it.",
+      "sources": [
+        {
+          "fact": "Playwire describes itself as an ad monetization platform for publishers, with managed and self-service options.",
+          "url": "https://www.playwire.com/"
+        },
+        {
+          "fact": "RAMP Mobile App is described as a single SDK connecting publishers to 15+ premium demand partners.",
+          "url": "https://www.playwire.com/"
+        },
+        {
+          "fact": "The homepage states that it is trusted by 1,000+ publishers.",
+          "url": "https://www.playwire.com/"
+        },
+        {
+          "fact": "Pricing is not stated on the page; publishers are asked to apply.",
+          "url": "https://www.playwire.com/"
+        }
+      ]
+    },
+    {
+      "slug": "azerion",
+      "name": "Azerion",
+      "site": "https://www.azerion.com/",
+      "company": "Azerion",
+      "country": "",
+      "tagline": "European ad company with game distribution",
+      "best_for": "Studios wanting European demand and distribution",
+      "pricing": "No price is stated; the site asks visitors to get in touch.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Azerion DSP",
+        "Azerion Identity Graph",
+        "Game Distribution",
+        "Azerion Edge",
+        "Advertising formats"
+      ],
+      "summary": "Broad advertising company with a game distribution arm, but its pages talk to advertisers more than to PC and console developers.",
+      "verdict": "Azerion calls itself Europe's leading digital advertising company and lists its own DSP, an Identity Graph, Game Distribution and Azerion Edge. The homepage states 400k+ advertisers, 300k+ publishers, 13bn+ ad impressions per month, 17 countries and 912 team members, all vendor figures. A casual or browser game developer wanting to reach European audiences and distribute at the same time has one relationship to manage.",
+      "weaknesses": "No pricing is stated and the pages do not describe native in-game formats or PC and console support. Scale numbers are vendor figures and not tied to games alone.",
+      "wrong_for": "Studios looking for objects placed inside a 3D scene should look at Gadsme or Anzu.",
+      "sources": [
+        {
+          "fact": "Azerion describes itself as Europe's leading digital advertising company, offering global reach and local expertise.",
+          "url": "https://www.azerion.com/"
+        },
+        {
+          "fact": "The homepage lists Azerion DSP, Azerion Identity Graph and Game Distribution among its products.",
+          "url": "https://www.azerion.com/"
+        },
+        {
+          "fact": "The homepage states 17 countries and 912 team members.",
+          "url": "https://www.azerion.com/"
+        },
+        {
+          "fact": "Pricing is not stated on the page; it asks visitors to get in touch.",
+          "url": "https://www.azerion.com/"
+        }
+      ]
+    },
+    {
+      "slug": "odeeo",
+      "name": "Odeeo",
+      "site": "https://odeeo.io/",
+      "company": "Sonic Odeeo Ltd.",
+      "country": "Israel",
+      "tagline": "Audio ads inside mobile games through an SDK",
+      "best_for": "Brand audio on mobile",
+      "pricing": "No price is stated on the page; the site asks visitors to contact the company.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Mobile games (via SDK)",
+      "features": [
+        "In-game audio ads",
+        "Proprietary SDK",
+        "Developer monetization",
+        "AdMob mediation support for display banners"
+      ],
+      "summary": "A different format: audio spots rather than visuals, aimed at mobile, which narrows its use for PC and console readers.",
+      "verdict": "Odeeo describes its platform as a way to introduce brand advertising into games through digital audio, delivered by a proprietary SDK. The footer names Sonic Odeeo Ltd. with an address in Hertsliya, Israel, and the company section says it was founded in Hertzliya. News on the homepage says Odeeo SDK 3.12 supports AdMob mediation for display banners. Audio fits quiet moments where visual ads would intrude.",
+      "weaknesses": "Its pages describe mobile games only, so console and PC studios cannot use it. No price is given, and the AdMob note concerns display banners, not the audio product.",
+      "wrong_for": "PC and console developers should choose Anzu or Gadsme, which list those platforms.",
+      "sources": [
+        {
+          "fact": "Odeeo describes its ad platform as a way for developers to introduce brand advertising into games through digital audio.",
+          "url": "https://odeeo.io/"
+        },
+        {
+          "fact": "The footer names Sonic Odeeo Ltd. with an address in Hertsliya, Israel.",
+          "url": "https://odeeo.io/"
+        },
+        {
+          "fact": "The company section says Odeeo was founded in Hertzliya, Israel.",
+          "url": "https://odeeo.io/"
+        },
+        {
+          "fact": "Odeeo SDK 3.12 supports AdMob mediation for display banners, per the homepage news list.",
+          "url": "https://odeeo.io/"
+        }
+      ]
+    },
+    {
+      "slug": "kayzen",
+      "name": "Kayzen",
+      "site": "https://kayzen.io/",
+      "company": "Kayzen",
+      "country": "",
+      "tagline": "Mobile DSP with subscription plans",
+      "best_for": "Mobile advertisers who want published fees",
+      "pricing": "Starter is $1,250 per month (up to $10,000 ad spend, 15% overage), Pro $5,750 per month (up to $50,000, 13% overage) and Enterprise $15,000 per month (up to $150,000, 10% overage).",
+      "pricing_model": "Subscription",
+      "free_plan": "None",
+      "platforms": "Mobile apps",
+      "features": [
+        "Customer acquisition",
+        "Retargeting",
+        "Brand performance",
+        "Video+ (Pro plan)",
+        "Customizable dashboard and reports with API",
+        "CPM bid shading"
+      ],
+      "summary": "Rare in publishing real fees, but it is a demand-side tool for mobile, so it fits readers buying ads, not placing them in PC and console games.",
+      "verdict": "Kayzen describes itself as a mobile-first DSP that lets apps, agencies, media buyers and brands run acquisition, retargeting and brand performance campaigns. Its pricing page lists three subscription plans with monthly, quarterly and annual terms and a stated overage on ad spend above each limit. Video+ appears on the Pro plan, and a customizable dashboard with an API is listed. Knowing the fee in advance makes budgeting easier than at most entries.",
+      "weaknesses": "It buys mobile traffic and does not place ads inside game worlds, so a studio looking to earn revenue from PC or console players gets nothing from it. Overage rates apply when spend passes each plan limit.",
+      "wrong_for": "Developers seeking publisher-side monetization should look at Gadsme, Anzu or Playwire.",
+      "sources": [
+        {
+          "fact": "Kayzen describes itself as a mobile-first DSP enabling apps, agencies, media buyers and brands to run acquisition, retargeting and brand performance campaigns.",
+          "url": "https://kayzen.io/"
+        },
+        {
+          "fact": "Kayzen's pricing page lists a Starter Plan at $1,250 per month with up to $10,000 ad spend per month.",
+          "url": "https://kayzen.io/pricing"
+        },
+        {
+          "fact": "The pricing page lists a Pro Plan at $5,750 per month (quarterly term) and an Enterprise Plan at $15,000 per month (annual term).",
+          "url": "https://kayzen.io/pricing"
+        },
+        {
+          "fact": "Each pricing plan has an overage: 15% above $10,000 on Starter, 13% above $50,000 on Pro and 10% above $150,000 on Enterprise.",
+          "url": "https://kayzen.io/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "bigabid",
+      "name": "Bigabid",
+      "site": "https://www.bigabid.com/user-acquisition/",
+      "company": "Bigabid",
+      "country": "",
+      "tagline": "Programmatic mobile user acquisition and retargeting",
+      "best_for": "App installs from contextual data",
+      "pricing": "No price is stated on the page; it offers a Let's Get Started button.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Android and iOS",
+      "features": [
+        "User acquisition",
+        "Retargeting",
+        "Deep Categories (1000+ app categories)",
+        "Real-time data analysis",
+        "Contextual data instead of IDFA-dependent data"
+      ],
+      "summary": "An acquisition platform for mobile apps with contextual targeting, included as a neighbor to in-game advertising rather than a core member.",
+      "verdict": "Bigabid describes a programmatic mobile user acquisition platform for apps, with retargeting and real-time data analysis. Its Deep Categories feature distinguishes over 1000 app categories, which the page contrasts with a few dozen at other platforms, a vendor claim. The technology works on Android and iOS and uses contextual data instead of data that depends on IDFA. It suits studios buying installs for a mobile launch.",
+      "weaknesses": "This is not in-game advertising: it acquires users and retargets them. Pricing is not stated, and the category comparison to other platforms is unverified.",
+      "wrong_for": "A PC or console studio wanting to carry brand ads inside the game should choose Gadsme or Frameplay.",
+      "sources": [
+        {
+          "fact": "Bigabid's user acquisition page describes a programmatic mobile user acquisition platform for apps.",
+          "url": "https://www.bigabid.com/user-acquisition/"
+        },
+        {
+          "fact": "The page says Deep Categories distinguishes over 1000 app categories, versus a few dozen at other platforms (vendor claim).",
+          "url": "https://www.bigabid.com/user-acquisition/"
+        },
+        {
+          "fact": "The page says the technology works for Android and iOS and uses contextual data instead of IDFA-dependent data.",
+          "url": "https://www.bigabid.com/user-acquisition/"
+        },
+        {
+          "fact": "Pricing is not stated on the page; it offers a Let's Get Started button.",
+          "url": "https://www.bigabid.com/user-acquisition/"
+        }
+      ]
+    }
+  ]
+}

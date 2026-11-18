@@ -1,0 +1,470 @@
+{
+  "slug": "best-twitch-chat-bots",
+  "name": "Twitch chat bots",
+  "title": "Best Twitch Chat Bots in 2026",
+  "group": "Streaming and creators",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Ten chat bots for moderating and automating Twitch and YouTube chat, from hosted free services to open source programs you run yourself.",
+  "definition": "A Twitch chat bot is an automated account that reads a channel's chat and acts on it: answering commands, posting timed messages, filtering spam and links, and enforcing rules. Some bots run in the vendor's cloud, while others are programs you install and keep running on your own computer.",
+  "intro": "Every busy chat needs the same basics: a command that shares your schedule, a timer that reminds people to follow, and filters that stop link spam before a moderator sees it. What differs between bots is where they run, which platforms they speak to, what they cost and how far you can bend them. We reviewed ten bots by reading each vendor's homepage, documentation and pricing text, then compared hosting model, platform coverage and price. We did not run any bot in a live channel, so nothing below claims moderation accuracy or uptime. When a vendor page showed no price, we say so. The ranking favors a small or mid-size channel that wants working moderation within an afternoon.",
+  "criteria": [
+    {
+      "heading": "Where the bot actually runs",
+      "text": "Cloud bots stay online without your computer, so commands work even when your stream software is closed. Desktop bots run on your machine and can react to local events, but go quiet when the program closes. Pick based on whether you stream from one fixed PC and how much you care about the bot being reachable while you are offline."
+    },
+    {
+      "heading": "Which chat platforms are covered",
+      "text": "Some bots serve Twitch only, others add YouTube, Kick or X, and a few speak to platforms we rarely see elsewhere. If you simulcast, a bot that joins every chat saves you running several. Look at the vendor's own platform list, and note whether alerts and commands behave the same on each service."
+    },
+    {
+      "heading": "Moderation tools out of the box",
+      "text": "Spam filters, link blocking, banned terms and moderator roles are the minimum. Better bots offer timers, polls, minigames or an import tool so you can move commands from another bot. We compared the feature lists vendors publish and noted which ones lean toward moderation and which lean toward fun or automation."
+    },
+    {
+      "heading": "Room to customize without code",
+      "text": "Actions on events, variables inside commands and a visual builder let a streamer create custom behavior without programming. Others offer scripting for people who prefer code. Open source projects add the ability to read and change the source. Decide how much you want to tinker before choosing, because the most flexible bots ask for the most setup time."
+    }
+  ],
+  "market_notes": [
+    "Counting the ten records, six are described as free (Streamlabs Cloudbot, Fossabot, Mix It Up, Streamer.bot, Firebot and PhantomBot, with Firebot and PhantomBot open source), and the rest show no price on the pages we opened. Five run in the cloud with nothing to install: Cloudbot, Fossabot, Moobot, Wizebot and StreamElements. The others are programs you run yourself, which suits channels that tie the bot to OBS or Stream Deck actions.",
+    "Platform reach splits the list. Nightbot covers Twitch, YouTube and SOOP, Fossabot covers Twitch, YouTube, Kick and X, Mix It Up adds Velora and VPZone, while Moobot and Wizebot name Twitch only. The trade-off is simplicity against power: hosted bots are quicker to start but less flexible, and local tools like Streamer.bot and Firebot reward patience with deeper automation. Windows dominates the desktop options, with Streamer.bot running on Linux through Wine."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Pick hosted or local first",
+      "text": "If you want moderation that works with your computer off, choose a cloud bot. If you want the bot to trigger scene changes, sounds or hotkeys, choose a desktop tool. Many channels run a hosted bot for chat rules and a local one for automation, since they do not conflict. Decide this before comparing anything else."
+    },
+    {
+      "title": "Check your chat platforms",
+      "text": "Write down every service you stream to, then check each vendor's platform line. A Twitch-only bot is fine for a single channel, but it will leave a YouTube or Kick chat unmoderated if you simulcast. Also check alerts: some bots send follow and subscription messages on every platform, while others handle only the main one."
+    },
+    {
+      "title": "Rebuild three commands to compare",
+      "text": "Create a schedule command, a social-links timer and a link filter in your top two choices. The time each takes, plus how clear the settings screens are, shows more than a feature list. If you are leaving another bot, check whether the new one imports commands, timers and filters, since Fossabot says it can import them from Nightbot."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best Twitch chat bot in 2026?",
+      "a": "Nightbot is our first pick for most channels: it is a cloud bot for Twitch, YouTube and SOOP with commands, timers, variables and spam protection, plus a Discord integration. Fossabot is better if you also stream to Kick or X, and Streamlabs Cloudbot is better if you already use Streamlabs."
+    },
+    {
+      "q": "Are Twitch chat bots free?",
+      "a": "Several are. Streamlabs Cloudbot, Fossabot, Mix It Up and Streamer.bot are described as free, and Firebot and PhantomBot are free and open source. Nightbot, Moobot and StreamElements showed no price on the pages we opened, and Streamlabs Ultra adds a custom Cloudbot name."
+    },
+    {
+      "q": "Do I need to keep my computer on for a chat bot?",
+      "a": "Not with a cloud bot. Streamlabs Cloudbot runs entirely in the cloud with no files to install, Fossabot is cloud hosted, and Moobot connects through your Twitch account with no download. Desktop tools such as Streamer.bot, Firebot and PhantomBot run on your own machine."
+    },
+    {
+      "q": "Which bot works with Kick as well as Twitch?",
+      "a": "Fossabot lists Twitch, YouTube, Kick and X, and Mix It Up lists Twitch, YouTube, Kick, Velora and VPZone. Streamer.bot connects Twitch, YouTube, Kick, OBS Studio and Streamlabs. Nightbot lists Twitch, YouTube and SOOP, so it does not cover Kick."
+    },
+    {
+      "q": "Can I move commands from Nightbot to another bot?",
+      "a": "Fossabot says it can import commands, timers, spam filters and blocked terms from Nightbot. For other bots we found no import statement on the pages we opened, so expect to recreate commands by hand or check each vendor's documentation first."
+    },
+    {
+      "q": "What is the best open source chat bot?",
+      "a": "Firebot and PhantomBot are the open source options here. Firebot is described as an all-in-one Twitch bot with an effects system and a desktop interface, with its wiki and source on GitHub. PhantomBot is an actively developed multipurpose Twitch bot with a control panel and guides at phantombot.dev."
+    },
+    {
+      "q": "Is Streamer.bot a chat bot or an automation tool?",
+      "a": "Both. The vendor describes a free Windows app that connects Twitch, YouTube, Kick, OBS Studio and Streamlabs and runs actions when something happens on stream. It is portable with nothing to install, and the homepage says it also runs on Linux through Wine."
+    }
+  ],
+  "related": [
+    "best-stream-overlay-and-alert-tools",
+    "best-stream-deck-and-stream-automation-software",
+    "best-discord-moderation-and-community-bots",
+    "best-donation-and-monetization-tools-for-streamers",
+    "best-streaming-software-for-gamers",
+    "best-multistreaming-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "nightbot",
+      "name": "Nightbot",
+      "site": "https://nightbot.tv",
+      "company": "",
+      "country": "",
+      "tagline": "Cloud chat bot for Twitch, YouTube and SOOP",
+      "best_for": "Straightforward moderation and commands",
+      "pricing": "Pricing is not stated on the pages opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Twitch, YouTube, SOOP",
+      "features": [
+        "Commands",
+        "Spam protection",
+        "Variables",
+        "Timers",
+        "Discord integration"
+      ],
+      "summary": "Nightbot is a cloud chat bot for Twitch, YouTube and SOOP with commands, timers, variables, spam protection and a Discord integration.",
+      "verdict": "Nightbot automates live chat with moderation, and its documentation has sections for commands, variables, spam protection and a Discord integration. Timers handle recurring messages, and the three-platform list covers most single-streamer setups. The reason it comes first is how little it asks of a new channel: sign in, add a few commands, turn on a link filter. It does the plain jobs that most chats need, and it has the widest set of documented basics among the ten.",
+      "weaknesses": "The homepage text we extracted shows no price, so whether any plan costs money is unknown. It lists Twitch, YouTube and SOOP, leaving out Kick and X, and deep event automation is not part of the documented feature set.",
+      "wrong_for": "Channels that simulcast to Kick should use Fossabot. Streamers who want chat to trigger OBS actions should look at Streamer.bot.",
+      "sources": [
+        {
+          "fact": "Nightbot is a chat bot for Twitch, YouTube and SOOP that automates live stream chat with moderation.",
+          "url": "https://docs.nightbot.tv"
+        },
+        {
+          "fact": "Nightbot's documentation has sections for commands, variables, spam protection and a Discord integration.",
+          "url": "https://docs.nightbot.tv"
+        },
+        {
+          "fact": "The Nightbot homepage does not show a price in the text extracted from the page.",
+          "url": "https://nightbot.tv"
+        }
+      ]
+    },
+    {
+      "slug": "fossabot",
+      "name": "Fossabot",
+      "site": "https://fossabot.com",
+      "company": "",
+      "country": "",
+      "tagline": "Free cloud bot for Twitch, YouTube, Kick and X",
+      "best_for": "Simulcasters who want one free bot",
+      "pricing": "Free, cloud hosted, with nothing to download.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Twitch, YouTube, Kick, X",
+      "features": [
+        "Spam filters",
+        "Commands",
+        "Timers",
+        "Alerts",
+        "Moderator roles"
+      ],
+      "summary": "Fossabot is a free, cloud-hosted chat bot for Twitch, YouTube, Kick and X, with spam filters, commands, timers and alerts.",
+      "verdict": "The vendor describes Fossabot as free and cloud hosted with nothing to download, covering Twitch, YouTube, Kick and X with alerts for each platform's events. Spam filters, commands, timers and moderator roles are on the feature list, and timers can post while the streamer is offline. A built-in import for commands, timers, spam filters and blocked terms from Nightbot eases a switch. It ranks second because it matches Nightbot's basics and adds two platforms at no cost.",
+      "weaknesses": "The pages we read give no detail on advanced automation or scripting, so it is a chat tool more than an event engine. A free hosted service also depends on the vendor staying online, with no self-hosting option mentioned.",
+      "wrong_for": "Streamers wanting full control and source access should pick Firebot or PhantomBot. If you want the bot bundled with overlays, use StreamElements.",
+      "sources": [
+        {
+          "fact": "Fossabot is a chat bot for Twitch, YouTube, Kick and X, and the vendor describes it as free and cloud hosted.",
+          "url": "https://fossabot.com"
+        },
+        {
+          "fact": "Fossabot supports Twitch, YouTube, Kick and X, with alerts for each platform's events.",
+          "url": "https://fossabot.com"
+        },
+        {
+          "fact": "Fossabot can import commands, timers, spam filters and blocked terms from Nightbot.",
+          "url": "https://fossabot.com"
+        }
+      ]
+    },
+    {
+      "slug": "streamlabs-cloudbot",
+      "name": "Streamlabs Cloudbot",
+      "site": "https://streamlabs.com/cloudbot",
+      "company": "",
+      "country": "",
+      "tagline": "Free cloud bot from Streamlabs",
+      "best_for": "Channels already using Streamlabs",
+      "pricing": "Free. Streamlabs Ultra adds a custom bot name plus overlays, widget themes and multistreaming.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Twitch, YouTube, X",
+      "features": [
+        "Automated moderation",
+        "Custom commands and variables",
+        "Minigames",
+        "Timeouts and bans",
+        "Cloud hosting"
+      ],
+      "summary": "Streamlabs Cloudbot is a free, cloud-based chat bot for Twitch, YouTube and X with moderation, custom commands and minigames.",
+      "verdict": "Cloudbot operates entirely in the cloud, so nothing has to be installed and your computer's CPU is not used. It offers automated moderation, custom commands and variables, minigames, timeouts and bans, and the FAQ says it supports X chat. A custom Cloudbot name, overlays, widget themes and multistreaming come with Streamlabs Ultra. It ranks third because it is free and cloud hosted, and it fits best for people who already use the Streamlabs account.",
+      "weaknesses": "Kick is not on the platform list we read, and the custom bot name sits behind the paid Ultra plan. The tool belongs to the Streamlabs account system, so leaving later means exporting commands yourself.",
+      "wrong_for": "Kick streamers should choose Fossabot. Someone who wants a standalone bot without a larger platform account could use Nightbot.",
+      "sources": [
+        {
+          "fact": "Streamlabs Cloudbot is a free, cloud-based chatbot for Twitch, YouTube and X.",
+          "url": "https://streamlabs.com/cloudbot"
+        },
+        {
+          "fact": "Streamlabs Cloudbot operates completely in the cloud, so no files have to be installed.",
+          "url": "https://streamlabs.com/cloudbot"
+        },
+        {
+          "fact": "A custom Cloudbot name, overlays, widget themes and multistreaming are offered with Streamlabs Ultra.",
+          "url": "https://streamlabs.com/cloudbot"
+        }
+      ]
+    },
+    {
+      "slug": "streamelements",
+      "name": "StreamElements",
+      "site": "https://streamelements.com/",
+      "company": "StreamElements",
+      "country": "",
+      "tagline": "Chatbot inside a cloud overlay platform",
+      "best_for": "Bot, alerts and tipping under one login",
+      "pricing": "Pricing is not stated on the home page opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Twitch, YouTube and Facebook Gaming, per the vendor",
+      "features": [
+        "Alerts and overlays",
+        "Chatbot",
+        "SE.Live OBS plugin",
+        "SE.Tips tipping",
+        "Ground Control multistreaming app"
+      ],
+      "summary": "StreamElements includes a chatbot beside overlays, alerts, tipping and merchandise tools, for Twitch, YouTube and Facebook Gaming.",
+      "verdict": "StreamElements calls itself a cloud-based streaming platform and lists a chatbot among overlays, tipping, alerts and merchandise for Twitch, YouTube and Facebook Gaming. The OBS plugin SE.Live and the multistreaming app Ground Control belong to the same account. Its place here is fourth because the bot shares a dashboard with alerts and tips, which helps a channel that wants everything linked. The detail on moderation filters is thinner than on the dedicated bots.",
+      "weaknesses": "The homepage we opened lists the chatbot as one feature and shows no price. We found no description of spam filters or timers on the pages we read, so compare the bot's settings before relying on it.",
+      "wrong_for": "A channel that only needs moderation should use Nightbot or Fossabot. Those who prefer a local, scriptable tool might choose Mix It Up.",
+      "sources": [
+        {
+          "fact": "StreamElements lists overlays, tipping, chatbot, alerts and merchandise among its features for Twitch, YouTube and Facebook Gaming.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "SE.Live is a plugin for OBS Studio, and Ground Control is a multistreaming stream management companion app.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "The StreamElements home page opened does not show a price.",
+          "url": "https://streamelements.com/"
+        }
+      ]
+    },
+    {
+      "slug": "mix-it-up",
+      "name": "Mix It Up",
+      "site": "https://mixitup.bot/",
+      "company": "",
+      "country": "",
+      "tagline": "Free desktop bot with a long feature list",
+      "best_for": "Chat commands plus overlays and events",
+      "pricing": "Free.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Twitch, YouTube, Kick, Velora, VPZone",
+      "features": [
+        "Commands",
+        "Overlays",
+        "Events",
+        "Giveaways",
+        "Moderation"
+      ],
+      "summary": "Mix It Up is a free streaming bot for Twitch, YouTube, Kick, Velora and VPZone, with commands, overlays, events and giveaways.",
+      "verdict": "The homepage describes Mix It Up as free and lists 133 features and 43 integrations, with documentation for Twitch, YouTube, Kick, Velora and VPZone. Commands, overlays, events, giveaways and moderation are named features. It runs as a program, so it can connect chat to on-screen effects. It ranks fifth because the breadth is large and the price is nil, while the longer feature list means more to learn than with a hosted bot.",
+      "weaknesses": "The extracted pages do not state supported operating systems, so check the download page before installing. A large feature set means a longer setup, and the bot is only live while the program is open.",
+      "wrong_for": "A streamer who wants a bot that works while the PC is off should pick Fossabot. Those who prefer a leaner action builder might try Streamer.bot.",
+      "sources": [
+        {
+          "fact": "Mix It Up is a free streaming bot for Twitch, YouTube, Kick and Velora.",
+          "url": "https://mixitup.bot/"
+        },
+        {
+          "fact": "The Mix It Up homepage lists 133 features and 43 integrations.",
+          "url": "https://mixitup.bot/"
+        },
+        {
+          "fact": "Mix It Up has platform documentation for Twitch, YouTube, Kick, Velora and VPZone.",
+          "url": "https://mixitup.bot/"
+        }
+      ]
+    },
+    {
+      "slug": "streamer-bot",
+      "name": "Streamer.bot",
+      "site": "https://streamer.bot",
+      "company": "",
+      "country": "",
+      "tagline": "Free Windows app that runs actions on stream events",
+      "best_for": "Chat-triggered OBS and Stream Deck actions",
+      "pricing": "Free for everyone, portable with nothing to install.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows; runs on Linux via Wine (per the homepage)",
+      "features": [
+        "Actions triggered by stream events",
+        "Stream Deck decks",
+        "Chat integration",
+        "OBS Studio integration"
+      ],
+      "summary": "Streamer.bot is a free, portable Windows app that links Twitch, YouTube, Kick, OBS Studio and Streamlabs and runs actions on events.",
+      "verdict": "The homepage describes Streamer.bot as free for everyone and portable, with nothing to install, and lists Stream Deck decks, chat integration and OBS Studio integration alongside actions triggered by stream events. It connects Twitch, YouTube, Kick, OBS Studio and Streamlabs, and it also runs on Linux via Wine. For a channel where chat should change scenes or fire sounds, it does the job without a monthly fee, which is why it takes sixth place.",
+      "weaknesses": "It is a Windows app, with Linux only through Wine, so it is unavailable on macOS in the pages we read. Building actions takes effort, and it works as a general automation engine more than a ready-made moderation bot.",
+      "wrong_for": "Channels wanting quick spam filters should use Nightbot. Mac users should consider Firebot or a hosted bot such as Fossabot.",
+      "sources": [
+        {
+          "fact": "Streamer.bot is a free Windows app that connects Twitch, YouTube, Kick, OBS Studio and Streamlabs.",
+          "url": "https://streamer.bot"
+        },
+        {
+          "fact": "Streamer.bot is free for everyone and portable, with nothing to install.",
+          "url": "https://streamer.bot"
+        },
+        {
+          "fact": "The homepage says Streamer.bot also runs on Linux via Wine.",
+          "url": "https://streamer.bot"
+        }
+      ]
+    },
+    {
+      "slug": "firebot",
+      "name": "Firebot",
+      "site": "https://firebot.app",
+      "company": "",
+      "country": "",
+      "tagline": "Open source all-in-one bot with effects",
+      "best_for": "Tinkerers who want source access",
+      "pricing": "Free and open source.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Desktop app (platforms not stated in the extracted text)",
+      "features": [
+        "Effects system",
+        "Chat moderation",
+        "Modern UI",
+        "Commands",
+        "Alerts"
+      ],
+      "summary": "Firebot is a free, open source, all-in-one Twitch bot with an effects system, chat moderation and a desktop interface.",
+      "verdict": "Firebot calls itself a free, open source, all-in-one bot for Twitch with an effects system and several chat moderation features, and its wiki, issue tracker and source code sit on GitHub. Commands and alerts are on the list. Because it is open source, you can read how it works and watch its issue tracker for fixes. It ranks seventh since it targets people comfortable with a desktop tool and a project wiki.",
+      "weaknesses": "The pages we read state Twitch only, and the extracted text does not list operating systems for the desktop app. It runs locally, so it stops when your computer does, and support comes from the community.",
+      "wrong_for": "YouTube or Kick chats need Mix It Up or Fossabot. Someone who wants zero installation should pick a cloud bot like Streamlabs Cloudbot.",
+      "sources": [
+        {
+          "fact": "Firebot is a free, open source, all-in-one bot for Twitch.",
+          "url": "https://firebot.app"
+        },
+        {
+          "fact": "Firebot's wiki, issue tracking and source code are on GitHub.",
+          "url": "https://firebot.app"
+        },
+        {
+          "fact": "Firebot includes an effects system and several chat moderation features.",
+          "url": "https://firebot.app"
+        }
+      ]
+    },
+    {
+      "slug": "moobot",
+      "name": "Moobot",
+      "site": "https://moo.bot",
+      "company": "",
+      "country": "",
+      "tagline": "Twitch-only bot that signs in with your account",
+      "best_for": "Twitch-only channels wanting fast setup",
+      "pricing": "Pricing is not shown on the pages opened; the homepage says signing up needs no payment, registration or download.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Twitch",
+      "features": [
+        "Twitch sign-in",
+        "Auto moderation",
+        "Subscriber-only features",
+        "Polls"
+      ],
+      "summary": "Moobot is a Twitch chat bot you connect with your Twitch account, offering auto moderation, polls and subscriber-only features.",
+      "verdict": "Moobot signs in through Twitch in a few seconds, and the homepage says no payment, registration or download is needed to connect. The feature list includes auto moderation, subscriber-only features and polls. It is a hosted service, so the bot is available whenever the channel is. We rank it eighth because it is quick to start but narrow: one platform and a short documented feature set compared with the leaders.",
+      "weaknesses": "It is limited to Twitch, and the pricing page we opened showed no price, so paid features are unclear. The feature list on the page is brief, with no mention of timers or imports.",
+      "wrong_for": "Simulcasters should look at Fossabot or Mix It Up. Channels wanting deep automation should consider Streamer.bot.",
+      "sources": [
+        {
+          "fact": "Moobot is a Twitch chat bot that users connect with their Twitch account.",
+          "url": "https://moo.bot"
+        },
+        {
+          "fact": "The Moobot homepage says no payment, registration or download is needed to connect.",
+          "url": "https://moo.bot"
+        },
+        {
+          "fact": "The Moobot pricing page opened does not show a price in the text extracted from the page.",
+          "url": "https://moo.bot/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "wizebot",
+      "name": "Wizebot",
+      "site": "https://wizebot.tv/en/index",
+      "company": "",
+      "country": "",
+      "tagline": "Cloud Twitch bot with analytics and overlays",
+      "best_for": "Twitch channels wanting analytics too",
+      "pricing": "Start for free; the homepage labels it Free and says no software is required. Paid tiers are not shown on the pages opened.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Twitch (cloud, no software to install)",
+      "features": [
+        "Moderation",
+        "Alerts",
+        "Overlays",
+        "Real-time analytics",
+        "Commands"
+      ],
+      "summary": "WizeBot is a cloud-hosted Twitch moderation bot with alerts, overlays and real-time analytics, labeled Free on its homepage.",
+      "verdict": "WizeBot describes itself as a cloud-hosted moderation bot and streaming assistant for Twitch with commands, alerts, overlays and analytics. The homepage labels the service Free, says no software needs to be installed and claims more than a million streamers have joined. Adding analytics and overlays gives it a wider remit than a pure chat bot. It ranks ninth because the platform list stops at Twitch and paid tiers are not visible.",
+      "weaknesses": "The million-streamer figure is the vendor's own claim and we could not verify it. Paid tiers were not shown on the pages opened, so the cost of extras is unknown, and only Twitch is named.",
+      "wrong_for": "YouTube streamers should choose Nightbot or Fossabot. A streamer who wants source code access should pick Firebot.",
+      "sources": [
+        {
+          "fact": "WizeBot is a cloud-hosted moderation bot and streaming assistant for Twitch with alerts, overlays and analytics.",
+          "url": "https://wizebot.tv/en/index"
+        },
+        {
+          "fact": "The WizeBot homepage labels its service Free and says no software needs to be installed.",
+          "url": "https://wizebot.tv/en/index"
+        },
+        {
+          "fact": "The WizeBot homepage claims that more than a million streamers have joined.",
+          "url": "https://wizebot.tv/en/index"
+        }
+      ]
+    },
+    {
+      "slug": "phantombot",
+      "name": "PhantomBot",
+      "site": "https://phantombot.dev",
+      "company": "",
+      "country": "",
+      "tagline": "Open source Java-style Twitch bot",
+      "best_for": "Self-hosters comfortable with guides",
+      "pricing": "Open source; the homepage does not state a price.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "",
+      "features": [
+        "Moderation",
+        "Interactive chat features",
+        "Control panel",
+        "Guides",
+        "JavaDoc"
+      ],
+      "summary": "PhantomBot is an actively developed, open source, multipurpose Twitch bot with a control panel, setup guides and JavaDoc.",
+      "verdict": "PhantomBot's site describes an actively developed open source interactive Twitch bot, with code on GitHub and a downloadable latest release, a control panel and setup guides. Moderation and interactive chat features are listed. It is aimed at people who want to run the bot themselves and read the documentation. It ranks last here because hosting it takes more effort than signing into a hosted bot. Note that the project lives at phantombot.dev.",
+      "weaknesses": "The input domain phantom.bot is a parked domain offered for sale, so use phantombot.dev instead. The pages show no platform list beyond Twitch and no price, and you must host it yourself.",
+      "wrong_for": "Anyone who does not want to run software should use Nightbot or Fossabot. Those who want a modern desktop interface might compare Firebot.",
+      "sources": [
+        {
+          "fact": "PhantomBot is described by its site as an actively developed open source interactive Twitch bot.",
+          "url": "https://phantombot.dev"
+        },
+        {
+          "fact": "PhantomBot's code is on GitHub, where the vendor invites contributions.",
+          "url": "https://phantombot.dev"
+        },
+        {
+          "fact": "PhantomBot offers a downloadable latest release, a control panel and setup guides on its site.",
+          "url": "https://phantombot.dev"
+        },
+        {
+          "fact": "The domain phantom.bot shows a premium domain for sale and is not the bot's site.",
+          "url": "https://phantom.bot"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+[
+ {
+  "slug": "easy-anti-cheat",
+  "name": "Easy Anti-Cheat",
+  "status": "verified",
+  "site": "https://www.easy.ac/",
+  "company": "Epic Online Services",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Anti-cheat service for online games, part of Epic Online Services.",
+  "platforms": "Windows, Mac, Linux and Steam Deck; compatible with crossplay on console",
+  "pricing": "Free tier plus paid Core, Fortified and Premier tiers via contact form; no prices shown.",
+  "pricing_model": "Freemium",
+  "free_plan": "Free",
+  "key_features": [
+   "Prevention-first",
+   "Heuristics",
+   "Dashboards"
+  ],
+  "notable": [],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "Easy Anti-Cheat is part of Epic Online Services, according to the vendor site.",
+    "url": "https://www.easy.ac/"
+   },
+   {
+    "fact": "Easy Anti-Cheat's vendor site states that 200+ games and 35M+ players every month are protected.",
+    "url": "https://www.easy.ac/"
+   },
+   {
+    "fact": "The vendor home page lists support for Windows, Mac, Linux and Steam Deck and says it is compatible with crossplay on console.",
+    "url": "https://www.easy.ac/"
+   },
+   {
+    "fact": "The home page says basic protection is free with no credit card and no usage limits, and that integration is self-service through the Epic Online Services SDK.",
+    "url": "https://www.easy.ac/"
+   },
+   {
+    "fact": "Easy Anti-Cheat's licensing page lists free service tiers and paid Core, Fortified and Premier tiers, with no prices shown and a contact form for business inquiries.",
+    "url": "https://www.easy.ac/licensing"
+   }
+  ]
+ }
+]

@@ -1,0 +1,467 @@
+{
+  "slug": "best-voice-changer-and-streaming-audio-software",
+  "name": "voice changer and streaming audio software",
+  "title": "Best Voice Changer and Streaming Audio Software in 2026",
+  "group": "Streaming and creators",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Streaming audio software mixes mic and game sound, removes noise and applies voice effects so a broadcast sounds clean and intentional.",
+  "definition": "Streaming audio software controls what viewers hear. It mixes a microphone with game, music and chat sources, removes background noise, routes each source to the right output and sometimes changes the voice itself. Some tools run live between your devices and OBS, while editors such as Audacity work on recordings afterward.",
+  "intro": "Bad audio loses viewers faster than bad video, yet the tools for fixing it come in four separate groups: mixers, noise removers, voice changers and editors. A streamer who buys the wrong group ends up with a funny voice and a noisy fan, or a clean signal and no way to route Discord separately. This ranking read vendor pages, terms and pricing pages for ten products and judged them on what each is for, what it costs, which operating systems it supports and how it reaches OBS or a call. We did not run them ourselves. Free tools sit high because most streamers start on a budget, while services built for other jobs, such as meetings or speech synthesis, sit lower and say why.",
+  "criteria": [
+    {
+      "heading": "Routing versus effects",
+      "text": "Decide first whether the problem is where sound goes or how it sounds. Elgato Wave Link and Voicemeeter route sources into separate channels. NVIDIA Broadcast and Krisp clean a voice. Voicemod and MorphVOX change it. Few products do all three, so a typical setup pairs a mixer with one effect tool. Buying an effects app to solve a routing problem is the most common error."
+    },
+    {
+      "heading": "Operating system and hardware",
+      "text": "Platform lists differ sharply. Voicemeeter and SteelSeries Sonar are Windows programs, Wave Link and Voicemod list Windows and Mac, and Audacity and REAPER add Linux. NVIDIA Broadcast depends on Windows drivers for NVIDIA hardware. Confirm your system on the vendor page, because a Mac streamer who downloads a Windows-only mixer loses an afternoon."
+    },
+    {
+      "heading": "Virtual devices and latency",
+      "text": "Most live tools install a virtual microphone or audio device so OBS and Discord can see them. That is convenient, and also a place where audio breaks after an update. Look at how many virtual devices a tool adds and whether it offers ASIO or WASAPI drivers, as Voicemeeter lists. Fewer hops usually means less lag between your voice and the face on screen."
+    },
+    {
+      "heading": "License terms and extras",
+      "text": "Wave Link is free but sells plug-ins separately, Voicemeeter asks for a donation after 30 days, Voicemod gates some content behind PRO, and Krisp bills per user. Read what stays free and what turns into a prompt. Check the terms for commercial use if the channel earns money, as free hobby licenses do not always carry over."
+    }
+  ],
+  "market_notes": [
+    "Of the ten products on this page, five are free to use in some form (Wave Link, Voicemeeter, SteelSeries Sonar, Audacity and Voicemod's free download), one is a donationware model, and only two list real price figures on the pages we opened: Krisp and ElevenLabs. REAPER, NVIDIA Broadcast and MorphVOX show no license price. That gap makes budgeting harder than the large number of free options suggests.",
+    "The category also blurs. Krisp and ElevenLabs come from meetings and speech synthesis, REAPER and Audacity from music production, and SteelSeries Sonar from a hardware maker. Only Voicemod and MorphVOX are voice changers by trade. Vendors based in Spain, the United States and elsewhere sell into the same market, and a stream setup usually combines two or three of these tools, so check that their virtual devices do not conflict."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Name the audio problem in one sentence",
+      "text": "Write down what is wrong: game sound drowns your voice, a fan hums, Discord leaks into the stream, or you want a different voice. Routing problems point to Wave Link or Voicemeeter, noise problems to NVIDIA Broadcast or Krisp, and character voices to Voicemod or MorphVOX. A one-line problem statement stops you buying a bundle of features you will never touch."
+    },
+    {
+      "title": "Test the free layer first",
+      "text": "Wave Link, Voicemeeter, Sonar LP and Audacity cost nothing to try, and Voicemod has a free download. Install one candidate, send it to OBS and record a five minute test with game sound playing. Listen for hiss, delay and clipping on a different pair of headphones. If it holds up, you have saved the budget for a microphone upgrade."
+    },
+    {
+      "title": "Keep a fallback input",
+      "text": "Whatever you pick, set a plain microphone input in OBS as a backup. Virtual devices can disappear after a driver or app update, and a stream with no audio is worse than one with a slightly noisy mic. Save your mixer settings, note the version number and update tools between streams, not before one."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best voice changer and streaming audio software in 2026?",
+      "a": "Elgato Wave Link is the best overall pick here: it is free on Windows and Mac, includes a soundboard, routing and dual-PC audio. Voicemod is better if you want live voice effects, and Voicemeeter is better on Windows when you need exact control over every route and driver."
+    },
+    {
+      "q": "Do I need both a mixer and a voice changer?",
+      "a": "Only if you want both jobs done. A mixer such as Wave Link or Voicemeeter controls levels and routes sources. A voice changer such as Voicemod alters the sound of the voice. Many streamers use a mixer alone, and add Voicemod for a themed segment or a gag."
+    },
+    {
+      "q": "Is there a free alternative to Voicemod?",
+      "a": "For effects, the choices on this list are limited, since MorphVOX lists no price and Voicemod itself has a free download. For mixing, Voicemeeter and Elgato Wave Link are free. Audacity handles recorded voice edits for free as well. Free voice effects live in a single app only with Voicemod's free tier."
+    },
+    {
+      "q": "How do I remove keyboard and fan noise from a stream?",
+      "a": "Use an AI noise filter. NVIDIA Broadcast adds noise removal on Windows with a supported graphics card, and Krisp offers noise cancellation with a 7 day free trial. Place the filter before your mixer so only the cleaned signal reaches OBS. A better microphone position helps more than any software."
+    },
+    {
+      "q": "Can Voicemeeter work on a Mac?",
+      "a": "No. The vendor page lists Windows audio interfaces such as MME, WASAPI and ASIO, and no macOS version appears. Mac streamers can use Elgato Wave Link, which supports macOS with AU effects, or Voicemod, which the vendor lists for PC and Mac."
+    },
+    {
+      "q": "Is ElevenLabs a live voice changer?",
+      "a": "Not according to the pages we read. ElevenLabs lists text to speech, speech to text, voice cloning, dubbing and sound effects, with APIs and SDKs. It suits narration and dubbing of finished content. For changing a voice in real time during a broadcast, look at Voicemod or MorphVOX."
+    },
+    {
+      "q": "Do I need a DAW like REAPER to stream?",
+      "a": "No. A digital audio workstation is for recording and producing music, podcasts and voice-over. REAPER offers a 60 day full evaluation, which is useful for trying production work, but live streaming needs only a mixer and perhaps a noise filter. Add a DAW if you edit audio away from the stream."
+    }
+  ],
+  "related": [
+    "best-streaming-software-for-gamers",
+    "best-vtuber-software",
+    "best-stream-deck-and-stream-automation-software",
+    "best-live-captioning-and-translation-for-livestreams",
+    "best-game-capture-and-recording-software"
+  ],
+  "tools": [
+    {
+      "slug": "elgato-wave-link",
+      "name": "Elgato Wave Link",
+      "site": "https://www.elgato.com/us/en/s/wave-link-app",
+      "company": "",
+      "country": "",
+      "tagline": "Free mixer with soundboard and dual-PC audio",
+      "best_for": "Streamers on Windows or Mac",
+      "pricing": "Free for Windows and Mac, per the Wave Link 3.5 text on the page. Some effects plug-ins are sold separately on the Elgato Marketplace (Windows only).",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows and macOS (VST3 effects on Windows, AU on macOS)",
+      "features": [
+        "Mixing and routing",
+        "Built-in soundboard",
+        "Smart Switch",
+        "Audio Flow",
+        "Wave Cast dual-PC audio",
+        "VST3 and AU effects"
+      ],
+      "summary": "Wave Link is free on Windows and Mac, routes audio like a broadcast desk, includes a soundboard and adds dual-PC audio through Wave Cast.",
+      "verdict": "Wave Link opens the list because it covers the most daily needs for no charge. According to the vendor page, version 3.5 is free for Windows and Mac and adds a built-in soundboard, Smart Switch, Audio Flow and Wave Cast for dual-PC audio. Effects use VST3 on Windows and AU on macOS, so existing plug-ins carry over. A streamer who plays on one PC and encodes on another gets the dual-PC path inside one app.",
+      "weaknesses": "Extra effects plug-ins are sold separately on the Elgato Marketplace and are Windows only, so the free app does not cover every polish step. The pages we read describe no voice changing or AI noise removal inside Wave Link itself.",
+      "wrong_for": "A streamer who wants playful voice effects should look at Voicemod, because Wave Link is a mixer first.",
+      "sources": [
+        {
+          "fact": "Wave Link is audio software built for creators, offering broadcast-level routing and effects.",
+          "url": "https://www.elgato.com/us/en/s/wave-link-app"
+        },
+        {
+          "fact": "Wave Link 3.5 adds a built-in soundboard, Smart Switch, Audio Flow and Wave Cast for dual-PC audio, and the page says it is free for Windows and Mac.",
+          "url": "https://www.elgato.com/us/en/s/wave-link-app"
+        },
+        {
+          "fact": "The page says effects plug-ins are sold separately on the Elgato Marketplace and are Windows only.",
+          "url": "https://www.elgato.com/us/en/s/wave-link-app"
+        }
+      ]
+    },
+    {
+      "slug": "voicemod",
+      "name": "Voicemod",
+      "site": "https://www.voicemod.net/",
+      "company": "Voicemod Inc., Sucursal en España",
+      "country": "",
+      "tagline": "Real-time AI voice changer with a soundboard",
+      "best_for": "Playful voices in games and chat",
+      "pricing": "Free to download. Some functions and content need a Voicemod PRO license or in-app purchases, according to the terms of use.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "PC and Mac (desktop); mobile app and soundboard app for remote control (per vendor site)",
+      "features": [
+        "Real-time voice changing",
+        "AI voices (200+)",
+        "Soundboard with keybinds",
+        "Voicelab voice tweaking",
+        "Instant Replay recorder",
+        "Virtual microphone"
+      ],
+      "summary": "Voicemod changes your voice live on PC and Mac, offers more than 200 voices, a soundboard and a virtual microphone, and is free to download.",
+      "verdict": "Voicemod is the clearest voice-effects pick for gaming streams. The vendor describes a real-time AI voice changer and soundboard for PC and Mac that works in voice apps and in-game chat, and advertises more than 200 voices, keybinds, Voicelab tweaking and an Instant Replay recorder. Setup installs a virtual microphone, so Discord and OBS see it as an ordinary input. The terms say some functions and content need a PRO license or in-app purchases, so the free download is a trial of the idea. It ranks second because voice effects are a narrower need than mixing.",
+      "weaknesses": "Part of the catalog and some functions sit behind PRO or in-app purchases, and the page we read gives no price. A virtual microphone adds one more device to troubleshoot when audio drops out.",
+      "wrong_for": "A streamer who needs clean, routed audio from several apps should start with Voicemeeter instead.",
+      "sources": [
+        {
+          "fact": "Voicemod describes itself as a real-time AI voice changer and soundboard for PC and Mac.",
+          "url": "https://www.voicemod.net/"
+        },
+        {
+          "fact": "Some Voicemod products are free, and extra functions and content can be accessed with a Voicemod PRO license or in-app purchases.",
+          "url": "https://www.voicemod.net/en/terms-of-use/"
+        },
+        {
+          "fact": "The vendor home page advertises more than 200 Voicemod voices.",
+          "url": "https://www.voicemod.net/"
+        }
+      ]
+    },
+    {
+      "slug": "voicemeeter",
+      "name": "Voicemeeter",
+      "site": "https://vb-audio.com/Voicemeeter/",
+      "company": "VB-Audio",
+      "country": "",
+      "tagline": "Virtual audio mixer for routing between apps",
+      "best_for": "Windows users who want full routing control",
+      "pricing": "Donationware: free to use with all functions except optional features. After 30 days the About box invites a license purchase; the webshop offers five price amounts and users pay what they want.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows (the page lists MME, Direct-X, KS, WaveRT, WASAPI and ASIO audio interface support)",
+      "features": [
+        "Virtual audio device",
+        "Audio mixing and routing",
+        "ASIO and WASAPI support",
+        "Donationware licensing"
+      ],
+      "summary": "Voicemeeter is a donationware virtual mixer for Windows that routes audio between applications and devices through MME, WASAPI, ASIO and other drivers.",
+      "verdict": "Voicemeeter gives the deepest routing control among the free options here. VB-Audio describes an audio mixer with a virtual audio device for mixing and managing sources, with MME, Direct-X, KS, WaveRT, WASAPI and ASIO interface support. The license is donationware: all functions run free apart from optional features, the About box prompts for a license after 30 days, and the webshop proposes five amounts. That is a fair deal for a creator who wants a hardware-style console without a hardware bill, and the reward is an exact feed to each destination.",
+      "weaknesses": "It is a Windows program, and the learning curve is real because inputs, buses and virtual devices must all be wired by hand. The pages we read describe no built-in noise removal or voice effects.",
+      "wrong_for": "A Mac user or a first-time streamer should pick Elgato Wave Link, which has a simpler layout and macOS support.",
+      "sources": [
+        {
+          "fact": "Voicemeeter is an audio mixer application with a virtual audio device used to mix and manage audio sources.",
+          "url": "https://vb-audio.com/Voicemeeter/"
+        },
+        {
+          "fact": "Voicemeeter is free to use with all functions available except optional features, under a donationware model.",
+          "url": "https://vb-audio.com/Voicemeeter/"
+        },
+        {
+          "fact": "The licensing page says the webshop proposes five different amounts for the donationware license.",
+          "url": "https://vb-audio.com/Services/licensing.htm"
+        }
+      ]
+    },
+    {
+      "slug": "nvidia-broadcast",
+      "name": "NVIDIA Broadcast",
+      "site": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/",
+      "company": "NVIDIA Corporation",
+      "country": "",
+      "tagline": "GPU-based noise removal and background effects",
+      "best_for": "Streamers with NVIDIA graphics cards",
+      "pricing": "Not stated on the opened page; the app is offered as a download.",
+      "pricing_model": "Not stated",
+      "free_plan": "Unknown",
+      "platforms": "Windows 10 64-bit, Windows 11 64-bit, Windows on Arm (per the page)",
+      "features": [
+        "Noise removal",
+        "Virtual background",
+        "Livestream effects",
+        "Video call effects"
+      ],
+      "summary": "NVIDIA Broadcast adds AI noise removal and virtual backgrounds to livestreams, voice chats and video calls on Windows.",
+      "verdict": "NVIDIA Broadcast is the quickest answer to keyboard clatter and fan noise for someone who already owns a supported card. The page says the app adds AI effects such as noise removal and virtual background to livestreams, voice chats and video calls, and it lists Windows 10 64-bit, Windows 11 64-bit and Windows on Arm. Driver versions are listed per Windows variant, for example Game Ready or Studio Driver 572.61 and above. It fits beside a mixer such as Voicemeeter, not in place of one, since the facts show noise and video effects only.",
+      "weaknesses": "The opened page states no price and no minimum graphics card, so hardware support has to be confirmed in the download notes. No macOS version is listed, and the effects are not a mixer or a voice changer.",
+      "wrong_for": "A creator on a Mac or on non-NVIDIA hardware should use Krisp, which the vendor describes as noise cancellation software.",
+      "sources": [
+        {
+          "fact": "The NVIDIA Broadcast App adds AI effects such as noise removal and virtual background to livestreams, voice chats and video calls.",
+          "url": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/"
+        },
+        {
+          "fact": "The page lists Windows 10 64-bit, Windows 11 64-bit and Windows on Arm as supported platforms.",
+          "url": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/"
+        },
+        {
+          "fact": "Pricing is not stated on the opened Broadcast App page.",
+          "url": "https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app/"
+        }
+      ]
+    },
+    {
+      "slug": "steelseries-sonar",
+      "name": "SteelSeries Sonar",
+      "site": "https://steelseries.com/gg/sonar",
+      "company": "",
+      "country": "",
+      "tagline": "Per-sound game audio balancing",
+      "best_for": "Gamers who want to tune in-game sounds",
+      "pricing": "A free download button for Sonar LP is shown on the vendor page.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows 10 (RS5+)",
+      "features": [
+        "Game audio customization",
+        "Per-sound amplify or reduce",
+        "Sound balancing"
+      ],
+      "summary": "SteelSeries Sonar lets players amplify or reduce specific in-game sounds, with a free Sonar LP download for Windows 10.",
+      "verdict": "Sonar targets the listening side of streaming more than the broadcast side. The vendor page says it lets users amplify or reduce specific in-game sounds and fine-tune the audio spectrum, and it shows a free download button for Sonar LP. The listed platform is Windows 10 (RS5+). A streamer who wants footsteps louder and explosions softer in headphones gets a direct tool for that, which is why it appears here. SteelSeries is a peripherals maker, so a matching headset is the natural pairing.",
+      "weaknesses": "The page names only Windows 10 (RS5+), with nothing on macOS or newer Windows versions. It describes game sound shaping but no stream mixing, noise removal or voice effects, so it solves a narrow problem.",
+      "wrong_for": "A creator who needs to send separate audio channels to OBS should choose Elgato Wave Link or Voicemeeter.",
+      "sources": [
+        {
+          "fact": "The Sonar page describes it as a way to amplify or reduce specific in-game sounds and fine-tune the audio spectrum.",
+          "url": "https://steelseries.com/gg/sonar"
+        },
+        {
+          "fact": "The page lists Windows 10 (RS5+) as the platform.",
+          "url": "https://steelseries.com/gg/sonar"
+        },
+        {
+          "fact": "The page shows a free download button for Sonar LP.",
+          "url": "https://steelseries.com/gg/sonar"
+        }
+      ]
+    },
+    {
+      "slug": "krisp",
+      "name": "Krisp",
+      "site": "https://krisp.ai/",
+      "company": "",
+      "country": "",
+      "tagline": "Noise cancellation aimed at calls and meetings",
+      "best_for": "Remote calls and guest interviews",
+      "pricing": "Free Trial at $0 (free for 7 days). Core is listed at $8 and $16 per user per month (the extracted text does not make the billing term of each price clear). Advanced is also offered, and enterprise and SDK buyers use Talk to Sales.",
+      "pricing_model": "Per user / month",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "Noise cancellation",
+        "Accent conversion",
+        "AI meeting note taker",
+        "Call center AI",
+        "Voice security",
+        "Developer SDK"
+      ],
+      "summary": "Krisp removes background noise and offers accent conversion, with a 7 day free trial and per-user plans.",
+      "verdict": "Krisp matters to streamers who spend time on calls: interviews, sponsor meetings and co-streams with remote guests. The vendor calls it voice AI for meetings and call centers with noise cancellation, accent conversion and an AI note taker, and the pricing page lists a Free Trial at $0 for 7 days, Core at $8 and $16 per user per month, an Advanced tier and a developer SDK. Its per-user design makes sense for a small team sharing one subscription budget, which is how many production crews work.",
+      "weaknesses": "The pricing text does not make the billing term of each price clear, and the pages describe business meetings and call centers, not live game streams. No platform list appeared in what we read.",
+      "wrong_for": "A solo streamer who just needs a free noise filter should check NVIDIA Broadcast first, if the hardware allows.",
+      "sources": [
+        {
+          "fact": "Krisp describes itself as voice AI for meetings, with noise cancellation and an AI note taker.",
+          "url": "https://krisp.ai/"
+        },
+        {
+          "fact": "The pricing page lists a Free Trial at $0 that is free for 7 days.",
+          "url": "https://krisp.ai/pricing/"
+        },
+        {
+          "fact": "The pricing page lists Core at $8 and $16 per user per month, with the billing term of each price not clear in the extracted text.",
+          "url": "https://krisp.ai/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "audacity",
+      "name": "Audacity",
+      "site": "https://www.audacityteam.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Free open source recorder and editor",
+      "best_for": "Cleaning up recordings after the stream",
+      "pricing": "Free. The FAQ on the vendor page says Audacity has always been and will always remain free.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, macOS, Linux",
+      "features": [
+        "Audio recording",
+        "Audio editing",
+        "Cross-platform",
+        "AI plugins for macOS",
+        "Audacity 4 release"
+      ],
+      "summary": "Audacity is a free, open source audio editor and recorder for Windows, macOS and Linux, now at version 4.",
+      "verdict": "Audacity is the pick for post-stream cleanup, voice-over and podcast edits at no cost. The vendor calls it the world's most popular free, open source audio editor and recorder, says it has always been and will always remain free, runs on Windows, macOS and Linux, and reports more than 100 million downloads since 2000. The current download shown is Audacity 4.0.2. It is not a live tool, so it ranks mid-list: it helps with VODs and edited clips, not with the signal reaching viewers during a show.",
+      "weaknesses": "It is an editor, not a live mixer, so it cannot sit in the signal chain during a broadcast. Some AI plug-ins are listed for macOS only, and the interface is a general editing view with no streaming presets.",
+      "wrong_for": "A creator who needs live routing during a broadcast should use Voicemeeter or Elgato Wave Link.",
+      "sources": [
+        {
+          "fact": "Audacity describes itself as the world's most popular free, open source audio editor and recorder.",
+          "url": "https://www.audacityteam.org/"
+        },
+        {
+          "fact": "The vendor page says Audacity has always been and will always remain free.",
+          "url": "https://www.audacityteam.org/"
+        },
+        {
+          "fact": "The vendor page says Audacity runs on Windows, macOS and Linux.",
+          "url": "https://www.audacityteam.org/"
+        }
+      ]
+    },
+    {
+      "slug": "reaper",
+      "name": "REAPER",
+      "site": "https://www.reaper.fm/",
+      "company": "",
+      "country": "",
+      "tagline": "Full digital audio workstation with a 60 day trial",
+      "best_for": "Producers who want a complete studio",
+      "pricing": "No license price stated on the vendor page. The page describes the license as affordably priced and DRM-free, with unlimited free updates through REAPER version 8.99 for a REAPER 7 license. Full evaluation for 60 days.",
+      "pricing_model": "Not stated",
+      "free_plan": "Free trial",
+      "platforms": "Windows, macOS, Linux",
+      "features": [
+        "Multitrack recording",
+        "Editing",
+        "Mixing",
+        "Mastering",
+        "LV2 and CLAP plugin support",
+        "Portable or network drive install"
+      ],
+      "summary": "REAPER is a full audio production application for Windows, macOS and Linux with a 60 day evaluation and a DRM-free license.",
+      "verdict": "REAPER suits the streamer who also produces music, trailers or a podcast and wants one deep program. The vendor describes multitrack recording, editing, processing, mixing and mastering, support for LV2 and CLAP plug-ins, and a portable or network-drive install. It runs on Windows, macOS and Linux and can be evaluated in full for 60 days. The license is described as DRM-free with updates through version 8.99 for a REAPER 7 license, and the page lists version 7.86 dated 13 November 2026 as current.",
+      "weaknesses": "The page states no license price, so the cost needs checking in the store. A full workstation is far more than a live streamer needs, and it has no stream-specific mixer or voice effect built in.",
+      "wrong_for": "A streamer who only needs to route game and mic audio should skip it for Elgato Wave Link, which is built for that.",
+      "sources": [
+        {
+          "fact": "REAPER is a full digital audio production application for computers covering multitrack recording, editing, processing, mixing and mastering.",
+          "url": "https://www.reaper.fm/"
+        },
+        {
+          "fact": "REAPER can be evaluated in full for 60 days.",
+          "url": "https://www.reaper.fm/"
+        },
+        {
+          "fact": "A REAPER 7 license is described as DRM-free and includes unlimited free updates through REAPER version 8.99; no license price is stated on the page.",
+          "url": "https://www.reaper.fm/"
+        }
+      ]
+    },
+    {
+      "slug": "morphvox",
+      "name": "MorphVOX",
+      "site": "https://screamingbee.com/",
+      "company": "Screaming Bee Inc",
+      "country": "",
+      "tagline": "Voice changer from Screaming Bee",
+      "best_for": "Mac users who want voice morphing",
+      "pricing": "Not stated on the opened home page.",
+      "pricing_model": "Not stated",
+      "free_plan": "Unknown",
+      "platforms": "macOS (MorphVOX Mac); Windows products are listed on the same site",
+      "features": [
+        "Voice morphing",
+        "Voice packs",
+        "Sound effects",
+        "Backgrounds"
+      ],
+      "summary": "MorphVOX Mac is Screaming Bee's voice changer, with voice packs, sound effects and backgrounds listed on the vendor site.",
+      "verdict": "MorphVOX comes from a vendor with a long track record: the footer carries a 2005 to 2026 copyright for Screaming Bee Inc. The home page describes MorphVOX Mac as voice changer software for Macintosh computers and lists voice packs, sound effects and backgrounds as products. Windows products are listed on the same site. For a Mac streamer who finds Voicemod too busy or too tied to subscriptions, it is a plain alternative to look at, though the opened page gives few details.",
+      "weaknesses": "The home page states no price, and its text says little about features, platforms beyond macOS or integration with OBS. Anyone comparing it with Voicemod has less to go on from the vendor.",
+      "wrong_for": "A buyer who wants a documented list of voices should read the Voicemod entry, which names more than 200.",
+      "sources": [
+        {
+          "fact": "Screaming Bee Software sells MorphVOX Mac, described on the site as voice changer software that runs on Macintosh computers.",
+          "url": "https://screamingbee.com/"
+        },
+        {
+          "fact": "The site also lists MorphVOX Voice Packs, Sound Effects and MorphVOX Backgrounds as products.",
+          "url": "https://screamingbee.com/"
+        },
+        {
+          "fact": "The site footer carries a 2005-2026 copyright for Screaming Bee Inc.",
+          "url": "https://screamingbee.com/"
+        }
+      ]
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "site": "https://elevenlabs.io/",
+      "company": "",
+      "country": "",
+      "tagline": "AI voice platform for speech, cloning and dubbing",
+      "best_for": "Producing voice-over and dubbed content",
+      "pricing": "Free: $0/mo with 10k credits per month. Starter: $1 first month, then $6/mo. Creator: $11 first month, then $22/mo (30k credits). Pro: $99/mo (121k credits). Scale: $299/mo. Business: $990/mo. Enterprise: custom pricing.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free",
+      "platforms": "Web app; API with SDKs",
+      "features": [
+        "Text to speech",
+        "Speech to text",
+        "Voice cloning",
+        "Dubbing",
+        "Music generation",
+        "Sound effects"
+      ],
+      "summary": "ElevenLabs offers text to speech, speech to text, voice cloning, dubbing and sound effects, with a free plan of 10k credits per month.",
+      "verdict": "ElevenLabs ends the list because it is a production service, not a live voice changer. The pages describe text to speech, speech to text, voice cloning, dubbing, music generation and sound effects, with APIs and SDKs for developers. Plans run from Free at $0 with 10k credits a month, through Starter at $6 after a $1 first month, to Creator at $22, Pro at $99, Scale at $299 and Business at $990, with Enterprise on request. A channel making narrated videos or dubbed clips can use it after the stream, in credits.",
+      "weaknesses": "Nothing on the pages we read describes real-time voice changing during a live broadcast. Credit-based pricing means a high-volume channel must watch usage, and it is a web service, not a desktop mixer.",
+      "wrong_for": "A streamer who wants live voice effects in Discord should use Voicemod or MorphVOX.",
+      "sources": [
+        {
+          "fact": "The ElevenLabs free plan includes 10k credits per month; the Starter plan is $1 for the first month, then $6 per month.",
+          "url": "https://elevenlabs.io/pricing"
+        },
+        {
+          "fact": "ElevenLabs paid plans run from Creator at $22 per month after the first month to Business at $990 per month, with Enterprise on custom pricing.",
+          "url": "https://elevenlabs.io/pricing"
+        },
+        {
+          "fact": "ElevenLabs offers text to speech, speech to text, voice cloning, dubbing and sound effects, and provides APIs and SDKs for developers.",
+          "url": "https://elevenlabs.io/"
+        }
+      ]
+    }
+  ]
+}

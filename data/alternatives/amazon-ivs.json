@@ -1,0 +1,272 @@
+{
+  "slug": "amazon-ivs",
+  "subject": "Amazon IVS",
+  "subject_site": "https://aws.amazon.com/ivs/",
+  "title": "Amazon IVS Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Amazon IVS alternatives for low-latency live video outside AWS: ten managed video APIs and streaming platforms with their pricing models compared.",
+  "category": "best-live-streaming-apis-and-sdks",
+  "intro": "Amazon IVS is a hosted live-streaming service from Amazon Web Services that delivers video worldwide with low delay so developers can build interactive live experiences, and it is billed pay-as-you-go with per-hour rates. Reasons to look past it include AWS lock-in, a different billing model or a need for more than one-way video. The ten picks below range from video APIs to real-time communications SDKs, each described from its own vendor pages.",
+  "why_switch": [
+    "IVS prices are per hour of channel input and output, with a free usage tier limited to the first 12 months; teams with steady volume may want per-minute or flat monthly pricing instead.",
+    "Interactive products with many people on camera need real-time rooms, which LiveKit, 100ms, Agora and Vonage are built around.",
+    "Teams that avoid single-cloud dependence may prefer a vendor that is not part of a hyperscaler.",
+    "A content business may want hosting, analytics and on-demand together, as Mux and api.video package them.",
+    "Some regions or buyers favor European providers; api.video and Ceeblue list European addresses or entities."
+  ],
+  "picks": [
+    {
+      "slug": "mux",
+      "name": "Mux",
+      "site": "https://www.mux.com/",
+      "best_for": "Live and on-demand video API",
+      "pricing": "Pay as you go has no platform or per-seat fee and a $20 monthly usage credit; live 1080p Plus encoding is $0.03125 per minute.",
+      "free_plan": "Free",
+      "note": "Mux covers streaming, analytics, moderation and video transformation behind one developer API, and it says no credit card is needed to start. Per-minute pricing is simple to model against IVS's hourly rates. You gain analytics in the same product and a billing model that fits spiky events. You lose the tight integration with other AWS services if your stack already lives there.",
+      "sources": [
+        {
+          "fact": "Mux is a video API platform for developers covering streaming, moderation, search, analytics and video transformation.",
+          "url": "https://www.mux.com/"
+        },
+        {
+          "fact": "Mux states it is free to start with no credit card required and that Pay as you go has no platform fee and no per-seat fee.",
+          "url": "https://www.mux.com/pricing"
+        },
+        {
+          "fact": "The pricing page lists live 1080p Plus encoding at $0.03125 per minute and storage at $0.003 per minute per month, with 100,000 delivery minutes free each month.",
+          "url": "https://www.mux.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "api-video",
+      "name": "api.video",
+      "site": "https://api.video/",
+      "best_for": "Simple hosting and live from France",
+      "pricing": "Pay-as-you-go with free encoding; hosting from $0.00285 per minute stored per month and delivery from $0.0017 per minute delivered.",
+      "free_plan": "Free",
+      "note": "api.video offers hosting, management and delivery of live and on-demand video through an API, with a registered address in Roubaix, France. A free sandbox exists but caps videos at 30 seconds with a watermark. It suits product teams that want to add video quickly and prefer a European vendor. Check live latency in your own test, because the pages do not state a figure.",
+      "sources": [
+        {
+          "fact": "api.video is a video API platform that lets developers host, manage and deliver on-demand and live-streaming video in their websites and apps.",
+          "url": "https://api.video/"
+        },
+        {
+          "fact": "The homepage gives an OVHcloud OCT1 address in Roubaix, France.",
+          "url": "https://api.video/"
+        },
+        {
+          "fact": "Pricing is pay-as-you-go with free encoding, hosting from $0.00285 per minute stored per month and delivery from $0.0017 per minute delivered.",
+          "url": "https://api.video/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "dolby-optiview",
+      "name": "Dolby OptiView",
+      "site": "https://optiview.dolby.com/",
+      "best_for": "Sports and ad-supported streams",
+      "pricing": "Not stated on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Dolby OptiView is a live sports platform for service providers with streaming, Sports Intelligence clipping, OptiView Ads for dynamic ad insertion and a player. It makes sense for an esports league or broadcaster that wants clips and ads built in. It is a sales-led platform for operators, so a small indie app will find it a heavier engagement than a self-serve API.",
+      "sources": [
+        {
+          "fact": "Dolby OptiView is described on its homepage as a live sports platform that helps service providers create fan experiences and new revenue.",
+          "url": "https://optiview.dolby.com/"
+        },
+        {
+          "fact": "The homepage lists products including Sports Intelligence clipping, OptiView Ads for dynamic ad insertion, OptiView Streaming and the OptiView Player.",
+          "url": "https://optiview.dolby.com/"
+        },
+        {
+          "fact": "The homepage does not state pricing.",
+          "url": "https://optiview.dolby.com/"
+        }
+      ]
+    },
+    {
+      "slug": "livekit",
+      "name": "LiveKit",
+      "site": "https://livekit.com/",
+      "best_for": "Open source real-time video and voice",
+      "pricing": "A free account needs no credit card and includes 1,000 free agent session minutes monthly; paid plans are quoted.",
+      "free_plan": "Free",
+      "note": "LiveKit is an open source framework and developer platform for voice, video and AI agents. It is the choice when your product needs participants talking back, such as co-streaming or live Q&A, rather than one-way broadcast. The open source base also eases moving to your own infrastructure later. Expect to design more of the experience yourself than with a turnkey broadcast service.",
+      "sources": [
+        {
+          "fact": "LiveKit is an open source framework and developer platform for building, testing, deploying, scaling and observing voice, video and physical AI agents.",
+          "url": "https://livekit.com/"
+        },
+        {
+          "fact": "The free plan includes 1,000 free agent session minutes per month and needs no credit card.",
+          "url": "https://livekit.com/"
+        },
+        {
+          "fact": "Paid plans are not listed with prices; custom pricing is offered through sales.",
+          "url": "https://livekit.com/"
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare-stream",
+      "name": "Cloudflare Stream",
+      "site": "https://www.cloudflare.com/products/cloudflare-stream/",
+      "best_for": "Video on an existing Cloudflare stack",
+      "pricing": "Per-minute prices and a free tier are not shown on the product page; it links to a separate pricing page.",
+      "free_plan": "Unknown",
+      "note": "Cloudflare Stream stores, encodes and delivers live and on-demand video, with RTMP and SRT ingest and HLS and DASH output. Teams already routing traffic through Cloudflare may find billing and delivery familiar. It is a broadcast pipeline, not a real-time room product, so interactive formats need another tool alongside it.",
+      "sources": [
+        {
+          "fact": "Cloudflare Stream is a managed video platform for storing, encoding and delivering live and on-demand video.",
+          "url": "https://www.cloudflare.com/products/cloudflare-stream/"
+        },
+        {
+          "fact": "The product page lists RTMP/SRT ingest and HLS/DASH output, with automatic encoding and global delivery.",
+          "url": "https://www.cloudflare.com/products/cloudflare-stream/"
+        },
+        {
+          "fact": "Per-minute prices are not shown on the product page; the vendor refers to a separate pricing page.",
+          "url": "https://www.cloudflare.com/products/cloudflare-stream/"
+        }
+      ]
+    },
+    {
+      "slug": "100ms",
+      "name": "100ms",
+      "site": "https://www.100ms.live/",
+      "best_for": "Audio and video rooms in apps",
+      "pricing": "Not stated on the homepage; a Try for Free button and a pricing page are linked.",
+      "free_plan": "Free trial",
+      "note": "100ms is a live video infrastructure provider with SDKs and APIs for audio and video in apps. It addresses the room-based use case that a one-to-many broadcast service does not, such as coaching sessions or watch parties. Start with the free trial and measure join times on your target devices, since the homepage gives no latency numbers.",
+      "sources": [
+        {
+          "fact": "100ms is a live video infrastructure provider offering SDKs and APIs for building audio and video experiences into apps.",
+          "url": "https://www.100ms.live/"
+        },
+        {
+          "fact": "The copyright notice on the homepage names 100ms, Inc.",
+          "url": "https://www.100ms.live/"
+        },
+        {
+          "fact": "The homepage has a Try for Free button and links to a pricing page; prices are not on the homepage.",
+          "url": "https://www.100ms.live/"
+        }
+      ]
+    },
+    {
+      "slug": "ceeblue",
+      "name": "Ceeblue",
+      "site": "https://www.ceeblue.net/",
+      "best_for": "Near real-time delivery with European roots",
+      "pricing": "Transcoding starts at 375 EUR per month and the Real Time Service Mesh at 460 EUR per month.",
+      "free_plan": "Unknown",
+      "note": "Ceeblue's Media Fabric platform transcodes and delivers streams in near real time, aiming for sub-second latency, and the company is Ceeblue B.V. Published starting prices in euros are rare in this category and help with budgeting. Starting prices are not total cost, so ask how much a given viewer load adds above those entry fees.",
+      "sources": [
+        {
+          "fact": "Ceeblue is a live video company whose Media Fabric platform transcodes and delivers streams in near real time, aiming for sub-second latency at scale.",
+          "url": "https://www.ceeblue.net/"
+        },
+        {
+          "fact": "The homepage footer names Ceeblue B.V.",
+          "url": "https://www.ceeblue.net/"
+        },
+        {
+          "fact": "The homepage states transcoding starts at 375 EUR per month and the Real Time Service Mesh starts at 460 EUR per month.",
+          "url": "https://www.ceeblue.net/"
+        }
+      ]
+    },
+    {
+      "slug": "agora",
+      "name": "Agora",
+      "site": "https://www.agora.io/en/",
+      "best_for": "Real-time engagement at scale",
+      "pricing": "A free tier of 10,000 minutes to start; paid rates are not on the page.",
+      "free_plan": "Free",
+      "note": "Agora offers low-latency APIs for voice, video, chat and conversational AI, with video calling and interactive live streaming among its products. It is geared toward apps where audiences interact in real time, with many participants. The free tier is a quick way to prototype, but you must request paid rates from the vendor before planning a launch.",
+      "sources": [
+        {
+          "fact": "Agora describes itself as a real-time engagement platform providing low-latency APIs for voice, video, chat and conversational AI.",
+          "url": "https://www.agora.io/en/"
+        },
+        {
+          "fact": "The homepage states a free tier of 10,000 minutes to start, with payment beginning when usage scales; paid rates are not on the page.",
+          "url": "https://www.agora.io/en/"
+        },
+        {
+          "fact": "The homepage lists products including video calling, voice calling and interactive live streaming.",
+          "url": "https://www.agora.io/en/"
+        }
+      ]
+    },
+    {
+      "slug": "wowza",
+      "name": "Wowza",
+      "site": "https://www.wowza.com",
+      "best_for": "Server software with a cloud option",
+      "pricing": "A trial and premium support plans are listed; no price amounts appeared in the pages opened.",
+      "free_plan": "Free trial",
+      "note": "Wowza Streaming Engine is video server software that can run on-prem, in the cloud, at the edge or air-gapped, and Flowplayer OVP is its managed platform. It gives more control over where video runs than a hosted service does. The price of that control is operations work and a quote-based purchase.",
+      "sources": [
+        {
+          "fact": "Wowza describes its Streaming Engine as video streaming server software for live and on-demand video, deployable on-prem, in the cloud, at the edge or air-gapped.",
+          "url": "https://www.wowza.com"
+        },
+        {
+          "fact": "Wowza's product list includes Flowplayer OVP, described as a fully managed, cloud-based streaming platform for live and on-demand video.",
+          "url": "https://www.wowza.com"
+        },
+        {
+          "fact": "The Wowza pricing page offers a Start a Trial option and lists premium support plans.",
+          "url": "https://www.wowza.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "vonage",
+      "name": "Vonage",
+      "site": "https://www.vonage.com/",
+      "best_for": "Video inside a wider communications stack",
+      "pricing": "The homepage links to pricing pages for communications APIs and unified communications; no prices are shown there.",
+      "free_plan": "Unknown",
+      "note": "Vonage offers voice, messaging, video and data capabilities across communications APIs, unified communications and contact centers. It fits a company that wants video next to SMS or voice calls under one supplier. For a game or esports stream, a specialist video vendor will usually offer more streaming-specific features.",
+      "sources": [
+        {
+          "fact": "Vonage offers voice, messaging, video and data capabilities across unified communications, contact centers and communications APIs.",
+          "url": "https://www.vonage.com/"
+        },
+        {
+          "fact": "The homepage links to a communications APIs pricing page and a unified communications pricing page; no prices are shown on the homepage.",
+          "url": "https://www.vonage.com/"
+        },
+        {
+          "fact": "The homepage also lists contact center products alongside its communications APIs.",
+          "url": "https://www.vonage.com/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Separate broadcast from interaction. If viewers only watch, compare Mux, api.video, Cloudflare Stream and Dolby OptiView on price per viewer hour and latency. If viewers speak or join the stage, compare LiveKit, 100ms, Agora and Vonage. Run the same two-hour test event on a shortlist of two vendors, record join time and delay, and ask for a quote at your expected peak audience.",
+  "faqs": [
+    {
+      "q": "What is the main reason to leave Amazon IVS?",
+      "a": "Typical reasons are avoiding dependence on one cloud, preferring a different billing model, or needing real-time participants rather than one-way video. IVS is billed per hour with a first-12-months free tier, so teams with steady volume sometimes compare it with per-minute or flat plans."
+    },
+    {
+      "q": "Which alternatives suit interactive streams with guests?",
+      "a": "LiveKit, 100ms, Agora and Vonage focus on real-time audio and video in apps. Broadcast-oriented products such as Mux and Cloudflare Stream deliver to large audiences but are not designed around many speaking participants."
+    },
+    {
+      "q": "Is there a European option?",
+      "a": "api.video lists an address in Roubaix, France, and Ceeblue is a B.V. with euro prices on its homepage. Confirm data residency and contract terms with each vendor, since an address alone does not settle where streams are processed."
+    },
+    {
+      "q": "Which alternatives list a free start?",
+      "a": "Mux and LiveKit say you can start free with no credit card, Agora lists a free tier of 10,000 minutes, and 100ms has a Try for Free button. api.video offers a limited sandbox. Always read the limits, because free tiers differ widely."
+    },
+    {
+      "q": "Can I run my own servers instead?",
+      "a": "Yes, with Wowza Streaming Engine or an open-source server, though those are covered more fully on our [Wowza alternatives page](/alternatives/wowza). Self-hosting trades a monthly service bill for infrastructure and staff time."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+[
+ {
+  "slug": "openal-soft",
+  "name": "OpenAL Soft",
+  "status": "verified",
+  "site": "https://openal-soft.org/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "An LGPL-licensed, cross-platform software implementation of the OpenAL 3D audio API.",
+  "platforms": "Linux, Windows, Android, OS X, iOS and more",
+  "pricing": "Free; LGPL license.",
+  "pricing_model": "Open source",
+  "free_plan": "Open source",
+  "key_features": [
+   "Distance attenuation and doppler",
+   "EFX reverb, occlusion and obstruction",
+   "HRTF and ambisonic B-Format",
+   "Mono to 7.1 and UHJ output",
+   "Many audio backends",
+   "Streaming and capture"
+  ],
+  "notable": [
+   "Release 1.25.2 is announced on the site"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.",
+    "url": "https://openal-soft.org/"
+   },
+   {
+    "fact": "The EFX extension adds air absorption, occlusion and environmental reverb to the API.",
+    "url": "https://openal-soft.org/"
+   },
+   {
+    "fact": "OpenAL Soft supports mono, stereo, 4-channel, 5.1, 7.1, HRTF, UHJ and B-Format output.",
+    "url": "https://openal-soft.org/"
+   },
+   {
+    "fact": "The site lists OpenAL Soft 1.25.2 as the current release, and support is offered through IRC and a GitHub issue tracker.",
+    "url": "https://openal-soft.org/"
+   }
+  ]
+ },
+ {
+  "slug": "miniaudio",
+  "name": "miniaudio",
+  "status": "verified",
+  "site": "https://miniaud.io/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "A single-file C and C++ audio playback and capture library with a node-graph engine and 3D spatialization, in the public domain.",
+  "platforms": "Windows, macOS, iOS, Linux, BSD, Android and Web (Emscripten)",
+  "pricing": "Free; public domain or MIT No Attribution, at your choice.",
+  "pricing_model": "Open source",
+  "free_plan": "Open source",
+  "key_features": [
+   "Single source file, no dependencies",
+   "Node graph for mixing and effects",
+   "Resource manager with streaming",
+   "3D spatialization",
+   "Built-in decoders",
+   "Low-level device API"
+  ],
+  "notable": [],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "miniaudio is an audio playback and capture library for C and C++ made of a single source file with no external dependencies.",
+    "url": "https://miniaud.io/"
+   },
+   {
+    "fact": "miniaudio is released into the public domain, with MIT No Attribution as an alternative license.",
+    "url": "https://miniaud.io/"
+   },
+   {
+    "fact": "The high level engine places sounds in a 3D scene with spatialization, built on a node graph and resource manager.",
+    "url": "https://miniaud.io/"
+   },
+   {
+    "fact": "miniaudio works on Windows, macOS, iOS, Linux, BSD, Android and Web through Emscripten.",
+    "url": "https://miniaud.io/"
+   }
+  ]
+ },
+ {
+  "slug": "soloud",
+  "name": "SoLoud",
+  "status": "verified",
+  "site": "https://solhsa.com/soloud/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "A free, easy-to-use C and C++ audio engine for games with bindings for several languages.",
+  "platforms": "C and C++ with C-API bindings for Python, Ruby, C#, D and others; Emscripten",
+  "pricing": "Free; ZLib/LibPNG license.",
+  "pricing_model": "Open source",
+  "free_plan": "Open source",
+  "key_features": [
+   "Voices, faders and mixing busses",
+   "Filters such as echo and low/high pass",
+   "3D positional audio",
+   "Up to 8 speaker surround",
+   "Sound effect and speech synthesizers",
+   "Language bindings"
+  ],
+  "notable": [
+   "The author says it has no artist tools, only limited engine integration, and no console backends in the package"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "SoLoud is released under the ZLib/LibPNG license and can be used in free or commercial applications.",
+    "url": "https://solhsa.com/soloud/"
+   },
+   {
+    "fact": "The author says SoLoud has no artist tools, limited engine integration, and no vendor support compared with FMOD or Wwise.",
+    "url": "https://solhsa.com/soloud/"
+   },
+   {
+    "fact": "Console backends are not included in the package because of SDK license issues, though the author says software using SoLoud has shipped on current-gen consoles as of 2018.",
+    "url": "https://solhsa.com/soloud/"
+   },
+   {
+    "fact": "The license page states SoLoud proper is a clean-room implementation under the ZLib/LibPNG license, with bundled parts under Unlicense, CC0, WTFPL or public domain terms.",
+    "url": "https://solhsa.com/soloud/legal.html"
+   }
+  ]
+ },
+ {
+  "slug": "krotos-studio",
+  "name": "Krotos Studio",
+  "status": "verified",
+  "site": "https://krotos.studio/",
+  "company": "Krotos",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Sound design software and libraries for creating sound effects, including creature voice, weapon, vehicle and real-time transformation plugins and an AI Video to Sound feature.",
+  "platforms": "Plugins for Premiere Pro and DaVinci Resolve workflows; plugin formats not listed on the opened pages",
+  "pricing": "Plans are listed on a pricing page whose amounts were not readable in the opened text.",
+  "pricing_model": "Subscription and one-off purchases",
+  "free_plan": "Free trial",
+  "key_features": [
+   "Dehumaniser 2 creature voices",
+   "Weaponiser weapon layering",
+   "Reformer Pro real-time transformation",
+   "Igniter vehicle sounds",
+   "Video to Sound",
+   "Sound effect libraries"
+  ],
+  "notable": [
+   "Krotos says its software has been used on Stranger Things, Game of Thrones and AAA games"
+  ],
+  "logo_hint": "",
+  "facts": [
+   {
+    "fact": "Krotos Studio offers Pro and Max platforms plus iconic plugins: Dehumaniser 2, Weaponiser, Reformer Pro, Igniter and Simple Monsters.",
+    "url": "https://krotos.studio/"
+   },
+   {
+    "fact": "The site offers Video to Sound for Premiere Pro, DaVinci Resolve and a browser version.",
+    "url": "https://krotos.studio/"
+   },
+   {
+    "fact": "Krotos says its software has powered titles such as Stranger Things, Game of Thrones and countless AAA games.",
+    "url": "https://krotos.studio/about"
+   },
+   {
+    "fact": "The pricing page has Start Free Trial buttons, but the opened text shows no amounts.",
+    "url": "https://krotos.studio/pricing"
+   }
+  ]
+ }
+]

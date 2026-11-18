@@ -1,0 +1,513 @@
+{
+  "slug": "best-esports-analytics-and-coaching-software",
+  "name": "esports analytics and coaching software",
+  "title": "Best Esports Analytics and Coaching Software in 2026",
+  "group": "Esports",
+  "hub": "esports",
+  "summary_line": "Esports analytics and coaching tools turn match history, demos and aim data into stats, reviews and training plans for players and teams.",
+  "definition": "Esports analytics and coaching software helps players and teams improve by measuring performance and prescribing practice. The category spans stat trackers and overlays for League of Legends and Valorant, demo viewers and round analysis for Counter-Strike 2, aim trainers for first-person shooters, and marketplaces where coaches sell reviews and lessons.",
+  "intro": "A player who wants to improve has three questions: what went wrong in the last match, what should I practice, and who can tell me. The eleven products here answer those questions in different ways. Stat sites and overlays such as Blitz, U.GG and OP.GG answer the first for MOBA and tactical shooter players. Aim trainers like Aim Lab and KovaaK's own the second, and Refrag mixes review with practice for Counter-Strike 2. Metafy answers the third with human coaches. We read vendor pages and pricing tables, noted what runs only in the browser versus a desktop app, and favored tools that show their cost and cover more than one use. Pages that render with JavaScript are flagged where that limited what we could verify.",
+  "criteria": [
+    {
+      "heading": "Which games each tool understands",
+      "text": "Analytics tools are game-specific by nature. U.GG and OP.GG began with League of Legends, Leetify and Scope.gg center on Counter-Strike 2, STRATZ on Dota 2, and Blitz spans eight titles. Check that your main game is on the supported list before you weigh anything else, because a stat tool without your game is useless."
+    },
+    {
+      "heading": "From numbers to a practice plan",
+      "text": "Raw stats tell you what happened, but coaching software tells you what to do. Look for automated reviews after each match, round-level breakdowns, routine builders or lessons attached to weaknesses. Aim trainers add measurement of mechanical skill, and a coach marketplace adds a person who can see context a dashboard misses."
+    },
+    {
+      "heading": "Team features and review tooling",
+      "text": "Teams need shared access, scrim support, demo viewers and tactic detection, not only personal dashboards. Compare seat counts, replay tools and whether the vendor sells team licenses. One CS2 platform here costs more per month than most solo tools cost per year, and the audience is professional squads."
+    },
+    {
+      "heading": "Pricing and the cost of free",
+      "text": "Many products are free with ads and a premium tier. Read what the paid tier removes or adds: ad-free use, extra detail, demo access. Where a vendor shows no prices, treat the premium as unknown and test the free account first, since limits often appear only after sign-up."
+    }
+  ],
+  "market_notes": [
+    "Only two of the eleven tools print price figures that we could capture: Refrag (from $5.83 per month on annual billing) and Skybox Edge (from 350 euros per month). Five more offer a free entry route, namely Aim Lab, Blitz, U.GG, STRATZ and Scope.gg, and Aim Lab, Blitz, U.GG and STRATZ list paid tiers whose prices we did not find. Leetify, KovaaK's, OP.GG and Metafy gave no readable platform pricing, and Metafy lets creators set their own rates.",
+    "Counter-Strike 2 has the deepest tooling in this list, with four products aimed at it (Leetify, Scope.gg, Refrag and Skybox Edge), while League of Legends is served by Blitz, U.GG and OP.GG and Dota 2 by STRATZ. The trade-off is between automated feedback and human judgment: software scales cheaply but misses intent, and a coach on Metafy costs more per hour but reviews your decisions. Most improving players combine one stat tool, one trainer and occasional human review."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Start with the game and the question",
+      "text": "Name your main title and the one thing you want fixed: aim, positioning, utility use, draft or macro. A Counter-Strike 2 player with a utility problem gets more from a round-level reviewer than from an aim trainer, while a League of Legends player drafting champions needs a build site."
+    },
+    {
+      "title": "Run a free account for a week",
+      "text": "Almost every consumer tool here has a free route. Link your account, play ten matches and check whether the output changes what you do next. If a report only repeats the scoreboard, move on before paying for a premium tier."
+    },
+    {
+      "title": "Pay for depth only when a team needs it",
+      "text": "Solo players rarely need more than a stat site and a trainer. Teams with scrims and a coach can justify Refrag's team plan or Skybox's tiers because shared demos and tactic detection save hours of review. Compare the monthly cost per player rather than the headline."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best esports analytics and coaching software in 2026?",
+      "a": "Aim Lab is first for most players: it is free to play, uses an AI coach, and offers 500 FPS game profiles, according to the vendor. Leetify is better for Counter-Strike 2 match reports, and Blitz is better for League of Legends, VALORANT and other titles with an overlay."
+    },
+    {
+      "q": "Which tool is best for Counter-Strike 2 improvement?",
+      "a": "Leetify and Scope.gg give match reports and stats beyond the scoreboard, Refrag adds an AI coach with training routines, and Skybox Edge targets full teams with a 2D replayer and tactic detection. Pick by budget: Refrag starts at $5.83 per month, Skybox at 350 euros per month."
+    },
+    {
+      "q": "Are aim trainers worth paying for?",
+      "a": "Start with the free versions. Aim Lab is free to play with an optional PRO membership, and KovaaK's offers player-created scenarios, though its price was not readable. Pay only if the paid tier adds something you used in the free week."
+    },
+    {
+      "q": "Can I hire a coach through these tools?",
+      "a": "Metafy is a marketplace where creators and coaches share guides, coaching and events, with a hub for each game. Creators set their own prices. Software tools like Refrag and Leetify give automated feedback but do not sell human sessions in the pages we read."
+    },
+    {
+      "q": "Which League of Legends stat sites are free?",
+      "a": "U.GG can be used as a guest, with a paid U.GG PLUS tier, and Blitz is free with an optional premium. OP.GG shows stats for League of Legends, TFT, VALORANT, PUBG and Overwatch with no price on the pages opened."
+    },
+    {
+      "q": "What do esports teams need beyond a stat tracker?",
+      "a": "Teams need shared review: demo viewers, scrim tools, tactic spotting and multiple seats. Refrag's Team plan covers seven players, and Skybox Edge lists team statistics, voice comm integration and match reports in its higher tier."
+    },
+    {
+      "q": "Is there a Dota 2 option?",
+      "a": "STRATZ offers Dota 2 statistics, match predictions and a GraphQL API, and the site is free to use according to the vendor. A STRATZ+ subscription exists but its price was not on the opened pages."
+    }
+  ],
+  "related": [
+    "best-esports-tournament-management-software",
+    "best-esports-team-management-software",
+    "best-esports-data-apis",
+    "best-game-analytics-software",
+    "best-game-anti-cheat-software",
+    "best-game-capture-and-recording-software"
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "tools": [
+    {
+      "slug": "aim-lab",
+      "name": "Aim Lab",
+      "site": "https://aimlabs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "AI-assisted aim trainer, free to play",
+      "best_for": "FPS players training mechanics",
+      "pricing": "Play for free; a paid Become PRO membership is offered, with no price on the opened pages.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Web and desktop training app",
+      "features": [
+        "50K+ tasks and playlists",
+        "AI coach",
+        "500 FPS game profiles",
+        "Aim analysis",
+        "Multiplayer",
+        "Leaderboards"
+      ],
+      "summary": "Aim Lab is free to play, uses an AI coach and personalized tasks, and offers 500 FPS game profiles with a paid PRO membership.",
+      "verdict": "Aim Lab leads because it lowers the barrier to deliberate practice. The vendor says it offers more than 50K tasks and playlists, an AI coach, aim analysis, multiplayer and leaderboards, and that over 40 million players use it. It is free to play with a Become PRO membership above that. Because it covers 500 FPS game profiles, a player can practice for the title they actually play.",
+      "weaknesses": "The PRO price is not on the pages we opened. It measures and trains aim, not positioning or decisions, and the player and partner claims come from the vendor.",
+      "wrong_for": "Skip it if your problem is map knowledge or utility; Refrag or Leetify address that for Counter-Strike 2. Players who prefer scenario-heavy custom drills may like KovaaK's.",
+      "sources": [
+        {
+          "fact": "Aimlabs is an AI-powered aim trainer that offers personalized tasks and real-time analytics.",
+          "url": "https://aimlabs.com/"
+        },
+        {
+          "fact": "Aimlabs can be played for free, with a paid Become PRO membership.",
+          "url": "https://aimlabs.com/"
+        },
+        {
+          "fact": "Aimlabs says it has more than 40 million players and offers 500 FPS game profiles.",
+          "url": "https://aimlabs.com/"
+        }
+      ]
+    },
+    {
+      "slug": "leetify",
+      "name": "Leetify",
+      "site": "https://leetify.com",
+      "company": "",
+      "country": "",
+      "tagline": "Match reports with aim and utility ratings",
+      "best_for": "CS2 players comparing with friends",
+      "pricing": "Pricing could not be read from the opened pages, which render with JavaScript.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Web",
+      "features": [
+        "Detailed match reports",
+        "Aim ratings",
+        "Utility ratings",
+        "Highlights",
+        "Friend comparison"
+      ],
+      "summary": "Leetify produces detailed match reports with aim and utility ratings and highlights, and lets players compare against friends.",
+      "verdict": "Leetify focuses on the question after the match. Its pages describe detailed reports with aim ratings, utility ratings and highlights, plus a friend comparison view that makes progress visible to a squad. For a player who wants numbers beyond the scoreboard without installing a trainer, that is the cleaner fit. We place it second because the reports address Counter-Strike 2 weaknesses directly, but the evidence we could read is brief.",
+      "weaknesses": "Its pages render with JavaScript, so most of the text and the pricing page were not readable, and no prices are recorded. Feature detail beyond reports, ratings and highlights is unconfirmed.",
+      "wrong_for": "Not for players who want guided practice routines; Refrag attaches training to its review. Teams needing a replayer should look at Skybox Edge.",
+      "sources": [
+        {
+          "fact": "Leetify offers detailed match reports with aim and utility ratings and highlights.",
+          "url": "https://leetify.com"
+        },
+        {
+          "fact": "Leetify lets players compare their performance with their friends.",
+          "url": "https://leetify.com"
+        },
+        {
+          "fact": "The Leetify pricing page could not be read from the opened pages, so no prices are recorded.",
+          "url": "https://leetify.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "blitz",
+      "name": "Blitz",
+      "site": "https://blitz.gg",
+      "company": "",
+      "country": "",
+      "tagline": "Overlay and stats app for several competitive games",
+      "best_for": "Multi-game ladder players",
+      "pricing": "Free to use with an optional premium tier (Get Premium / Go Ad-Free); prices are not on the opened pages.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Desktop app (Download Blitz) and web; overlays for supported games",
+      "features": [
+        "In-game overlays",
+        "Personalized stats",
+        "Meta stats",
+        "Tier lists",
+        "Ad-free premium option"
+      ],
+      "summary": "Blitz adds in-game overlays, personalized stats, meta stats and tier lists for League, TFT, VALORANT, CS2 and more.",
+      "verdict": "Blitz works as a desktop companion while you play. It lists in-game overlays, personalized stats, meta stats and tier lists, and supports League of Legends, TFT, VALORANT, CS2, Deadlock, Fortnite, Apex Legends and Marvel Rivals. The vendor says it has analyzed 3B+ matches across 240M+ players. A player who rotates between titles gets one app instead of several tabs, which puts it third.",
+      "weaknesses": "Premium is offered with an ad-free upgrade but no price appears on the opened pages. The match and player counts are vendor claims, and it needs a desktop download for overlays.",
+      "wrong_for": "Skip it if you play only Dota 2; STRATZ is built for that. Pure Counter-Strike 2 reviewers will get more from Leetify.",
+      "sources": [
+        {
+          "fact": "Blitz offers in-game overlays, personalized stats, meta stats and tier lists for several games.",
+          "url": "https://blitz.gg"
+        },
+        {
+          "fact": "Blitz says it has 240M+ players and 3B+ matches analyzed.",
+          "url": "https://blitz.gg"
+        },
+        {
+          "fact": "Blitz offers a paid Get Premium option alongside a free account, with an ad-free upgrade.",
+          "url": "https://blitz.gg"
+        }
+      ]
+    },
+    {
+      "slug": "refrag",
+      "name": "Refrag",
+      "site": "https://refrag.gg/",
+      "company": "Refrag",
+      "country": "Unknown",
+      "tagline": "CS2 AI coach, trainers and demo viewer",
+      "best_for": "Counter-Strike 2 players and small teams",
+      "pricing": "Core $5.83 per month billed annually ($8.50 monthly); Prime $11.5 per month annually ($15 monthly); Team $60 per month annually ($79 monthly) for 7 player slots.",
+      "pricing_model": "Subscription tiers",
+      "free_plan": "Free plan",
+      "platforms": "Web; on-demand practice servers in 26 listed locations",
+      "features": [
+        "Refrag Coach (AI, beta)",
+        "Aim trainers",
+        "Utility Hub",
+        "2D demo viewer",
+        "Scrim and Restrat",
+        "On-demand servers"
+      ],
+      "summary": "Refrag links an AI coach with aim and utility training, scrims and a 2D demo viewer, from $5.83 per month on annual billing.",
+      "verdict": "Refrag is the only product here that prices solo, premium and team access in the open: Core at $5.83 per month billed annually, Prime at $11.5, and Team at $60 for seven player slots. Its coach is marked beta, reviews each match and builds routines from gameplay. Prime adds feedback after every match, scrims, Restrat, a 2D demo viewer and Academy. That mix of review and practice earns fourth place.",
+      "weaknesses": "The AI coach is labeled beta on the vendor's own page. It covers Counter-Strike 2 only, and the legal entity and base are not named in what we read.",
+      "wrong_for": "Not for League or Dota players; use Blitz or STRATZ. Professional squads needing tactic detection may prefer Skybox Edge.",
+      "sources": [
+        {
+          "fact": "Refrag says it explains why a player loses CS2 rounds, recommends training and builds routines from gameplay.",
+          "url": "https://refrag.gg/"
+        },
+        {
+          "fact": "Refrag lists Core at $5.83 per month billed annually ($8.50 monthly), Prime at $11.5 ($15 monthly) and Team at $60 ($79 monthly) with 7 player slots.",
+          "url": "https://refrag.gg/"
+        },
+        {
+          "fact": "Prime adds coach feedback after every match, scrims, Restrat, Utility Hub, detailed aim stats, a 2D demo viewer and Academy; Core lacks these.",
+          "url": "https://refrag.gg/"
+        }
+      ]
+    },
+    {
+      "slug": "scope-gg",
+      "name": "Scope.gg",
+      "site": "https://scope.gg",
+      "company": "",
+      "country": "",
+      "tagline": "CS2 stats tracker with demo viewer",
+      "best_for": "Free CS2 stats beyond the scoreboard",
+      "pricing": "Sign-up is free; no paid price is shown on the opened pages.",
+      "pricing_model": "",
+      "free_plan": "Free",
+      "platforms": "Web",
+      "features": [
+        "Performance analysis",
+        "Map performance",
+        "Clips",
+        "Aim stats",
+        "Faceit stats",
+        "Demo viewer"
+      ],
+      "summary": "Scope.gg tracks CS2 matches with map performance, aim stats, clips, a demo viewer and Faceit stats, with free sign-up.",
+      "verdict": "Scope.gg evaluates player skill with statistics the in-game scoreboard omits. Its navigation lists performance analysis, map performance, clips, aim stats, Faceit stats, a demo viewer and match history, and it advertises a public API. Sign-up is free. A Counter-Strike 2 player who wants a no-cost second opinion on matchmaking games will find enough here, which gives it fifth place.",
+      "weaknesses": "No paid tier or price was visible on the opened pages, so the business model is unclear. Coaching content and routines are absent from the description, and it covers one game.",
+      "wrong_for": "Skip it for guided training; Refrag provides routines. League and Valorant players should use Blitz.",
+      "sources": [
+        {
+          "fact": "Scope.gg provides CS2 stats, analytics and match tracking that evaluates player skill beyond the in-game scoreboard.",
+          "url": "https://scope.gg"
+        },
+        {
+          "fact": "Scope.gg offers sign-up for free.",
+          "url": "https://scope.gg"
+        },
+        {
+          "fact": "Scope.gg's navigation lists an API and tools such as a demo viewer and Faceit stats.",
+          "url": "https://scope.gg"
+        }
+      ]
+    },
+    {
+      "slug": "skybox-edge",
+      "name": "Skybox Edge",
+      "site": "https://skybox.gg/",
+      "company": "Skybox Technologies ApS",
+      "country": "Denmark",
+      "tagline": "CS2 team analysis with replayer and tactic AI",
+      "best_for": "Professional CS2 squads",
+      "pricing": "Tier 2 is EUR 350 per month or EUR 3,570 per year; Tier 1 is EUR 1,299 per month or EUR 11,400 per year; education licenses on request.",
+      "pricing_model": "Subscription tiers",
+      "free_plan": "None",
+      "platforms": "Web",
+      "features": [
+        "2D replayer",
+        "Team statistics",
+        "Voice comm integration",
+        "Role detection AI",
+        "Tactic-spotter AI (Tier 1)",
+        "Match reports (Tier 1)"
+      ],
+      "summary": "Skybox Edge gives teams a 2D replayer, statistics and AI tactic detection at 350 euros per month or more.",
+      "verdict": "Skybox Edge is aimed at organizations. Tier 2 costs 350 euros per month or 3,570 euros per year and includes an advanced 2D replayer, team statistics, voice comm integration and role detection AI. Tier 1 costs 1,299 euros per month or 11,400 euros per year and adds Tactic-spotter AI, tactic filters and match reports. Skybox Technologies ApS in Copenhagen is licensed by Valve, and schools can ask for non-profit licenses.",
+      "weaknesses": "Pricing starts far above solo tools and there is no free plan. It supports Counter-Strike 2 only, and broadcast tools are a separate product.",
+      "wrong_for": "Skip it as an individual player; Leetify and Scope.gg cost less. Players wanting aim practice should choose Aim Lab.",
+      "sources": [
+        {
+          "fact": "Skybox describes CS2 analytics, replays and broadcast tools, with Skybox Edge helping teams improve, prepare and play.",
+          "url": "https://skybox.gg/"
+        },
+        {
+          "fact": "The footer names Skybox Technologies ApS, Copenhagen, Denmark, and says it is licensed by Valve Corporation.",
+          "url": "https://skybox.gg/"
+        },
+        {
+          "fact": "Skybox lists Tier 2 at EUR 350 per month or EUR 3,570 per year and Tier 1 at EUR 1,299 per month or EUR 11,400 per year; Tier 1 adds Tactic-spotter AI, tactic filters and match reports.",
+          "url": "https://skybox.gg/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "metafy",
+      "name": "Metafy",
+      "site": "https://metafy.gg",
+      "company": "",
+      "country": "",
+      "tagline": "Marketplace for game coaches and guides",
+      "best_for": "Human coaching and lessons",
+      "pricing": "Creators set their own prices for guides, coaching and events; no platform price list is on the opened pages.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Web",
+      "features": [
+        "Guides",
+        "Coaching",
+        "Events",
+        "Discords",
+        "Creator program"
+      ],
+      "summary": "Metafy connects players with creators and coaches who sell guides, coaching sessions and events, organized by game hub.",
+      "verdict": "Metafy is the only entry that sells human judgment. Creators and coaches share guides, coaching and events, every game has its own hub with Discords, and a creator program lets coaches join as Pro or Core Creator. A player stuck at a rank gets feedback on decisions that no dashboard captures. It sits seventh because quality depends on the individual coach.",
+      "weaknesses": "No platform price list is on the opened pages, as creators set their own prices. Quality and availability vary by coach and game, and it offers no stat tracking of its own.",
+      "wrong_for": "Skip it if you want automated feedback after every match; Refrag or Leetify provide that. Budget players should start with free trainers.",
+      "sources": [
+        {
+          "fact": "Metafy is a community where creators and coaches share guides, coaching and events for games.",
+          "url": "https://metafy.gg/discover"
+        },
+        {
+          "fact": "Metafy organizes its content in a hub for each game, with guides, coaching, events and Discords.",
+          "url": "https://metafy.gg/discover"
+        },
+        {
+          "fact": "Metafy has a creator program in which creators bring their content, coaching and community to the platform.",
+          "url": "https://metafy.gg/discover"
+        }
+      ]
+    },
+    {
+      "slug": "kovaaks",
+      "name": "KovaaK's",
+      "site": "https://kovaaks.com/kovaaks/main",
+      "company": "KovaaK Games",
+      "country": "",
+      "tagline": "Aim trainer with player-made scenarios",
+      "best_for": "Custom scenario aim drills",
+      "pricing": "Pricing was not readable on the opened pages.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "PC game-based aim trainer",
+      "features": [
+        "Player-created scenarios",
+        "Shareable playlists",
+        "In-game map editor",
+        "Customization",
+        "Cloned game physics"
+      ],
+      "summary": "KovaaK's is a PC aim trainer with over 175,000 player-created scenarios, shareable playlists and an in-game map editor.",
+      "verdict": "KovaaK's builds practice around community content. The site says it has over 175,000 player-created scenarios, shareable playlists, an in-game map editor and cloned game physics. Players who want to follow a coach's playlist or craft a drill get flexibility that preset trainers lack. It ranks eighth because it covers mechanics only and its price was unreadable.",
+      "weaknesses": "Pricing was not readable on the opened pages. It is a PC game-based trainer with no match analysis, and the site notes it earns from qualifying Amazon purchases.",
+      "wrong_for": "Not for players who need match reviews; use Leetify. Those who prefer an AI-guided plan should choose Aim Lab.",
+      "sources": [
+        {
+          "fact": "KovaaK's Aim Trainer offers over 175,000 player-created scenarios and shareable playlists.",
+          "url": "https://kovaaks.com/kovaaks/main"
+        },
+        {
+          "fact": "KovaaK's includes an in-game map editor and cloned game physics, according to its site.",
+          "url": "https://kovaaks.com/kovaaks/main"
+        },
+        {
+          "fact": "The KovaaK's site is published by KovaaK Games and notes that it earns from qualifying Amazon purchases.",
+          "url": "https://kovaaks.com/kovaaks/main"
+        }
+      ]
+    },
+    {
+      "slug": "stratz",
+      "name": "STRATZ",
+      "site": "https://stratz.com",
+      "company": "STRATZ, LLC",
+      "country": "",
+      "tagline": "Dota 2 statistics with predictions and GraphQL API",
+      "best_for": "Dota 2 players and analysts",
+      "pricing": "The website is free to use; a STRATZ+ paid subscription is offered, with no price on the opened pages.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Web; GraphQL API",
+      "features": [
+        "Hero, player and match stats",
+        "Match predictions",
+        "GraphQL API",
+        "Guilds",
+        "Leaderboards",
+        "Battle pass"
+      ],
+      "summary": "STRATZ provides Dota 2 hero, player and match statistics, match predictions, guilds and leaderboards, free to use with a paid tier.",
+      "verdict": "STRATZ is the Dota 2 pick. The vendor describes personalized data visualizations, AI-powered match predictions, hero, player and match stats, guilds, leaderboards and a GraphQL API. The website is free to use, with a STRATZ+ subscription above it. A Dota 2 player or coach wanting numbers by hero and match can get them without paying, and an analyst can query the API.",
+      "weaknesses": "Covers only Dota 2, and the STRATZ+ price is not on the pages opened. Team review tools such as a demo viewer are not mentioned.",
+      "wrong_for": "Not for other games; Blitz spans eight titles. League players should open U.GG or OP.GG.",
+      "sources": [
+        {
+          "fact": "STRATZ is a Dota 2 stats website offering personalized visualizations, AI-powered match predictions and an API.",
+          "url": "https://stratz.com"
+        },
+        {
+          "fact": "The STRATZ website is free to use, according to the vendor's About text.",
+          "url": "https://stratz.com"
+        },
+        {
+          "fact": "STRATZ offers a GraphQL API and a paid STRATZ+ tier.",
+          "url": "https://stratz.com/api"
+        }
+      ]
+    },
+    {
+      "slug": "u-gg",
+      "name": "U.GG",
+      "site": "https://u.gg",
+      "company": "Outplayed Inc.",
+      "country": "",
+      "tagline": "League of Legends builds, runes and tier lists",
+      "best_for": "League champion builds and counters",
+      "pricing": "The site can be used as a guest; a paid U.GG PLUS tier exists, with prices not on the opened pages.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Web",
+      "features": [
+        "Champion builds",
+        "Runes",
+        "Tier list",
+        "Counters",
+        "Probuild stats",
+        "Live games"
+      ],
+      "summary": "U.GG offers League builds, runes, tier lists and counters, usable as a guest with a paid U.GG PLUS tier.",
+      "verdict": "U.GG answers the draft and build question for League of Legends players. It lists champion builds, runes, tier lists, counters, probuild stats and live games, and also covers Valorant and other titles. The site can be used as a guest, and a paid U.GG PLUS tier exists. Outplayed Inc. holds the copyright, and the footer states it is not endorsed by Riot Games.",
+      "weaknesses": "U.GG PLUS pricing is not on the opened pages. Its depth is in League, and it offers no practice or coaching tools for mechanics.",
+      "wrong_for": "Skip it for shooters; Leetify or Scope.gg fit CS2. Players who want an overlay in game should consider Blitz.",
+      "sources": [
+        {
+          "fact": "U.GG provides League of Legends builds, runes, tier lists, counters and guides.",
+          "url": "https://u.gg"
+        },
+        {
+          "fact": "U.GG offers a paid U.GG PLUS tier.",
+          "url": "https://u.gg/faq"
+        },
+        {
+          "fact": "U.GG's footer states its copyright to Outplayed Inc. and that U.GG Stats is not endorsed by Riot Games.",
+          "url": "https://u.gg"
+        }
+      ]
+    },
+    {
+      "slug": "op-gg",
+      "name": "OP.GG",
+      "site": "https://op.gg",
+      "company": "OP.GG",
+      "country": "",
+      "tagline": "Match history and rankings for League and more",
+      "best_for": "Summoner lookups and live games",
+      "pricing": "No pricing shown on the opened pages; business contact is an email address.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Web",
+      "features": [
+        "Summoner search",
+        "Match history",
+        "Rankings",
+        "Live games",
+        "Champion stats",
+        "Streamer overlay"
+      ],
+      "summary": "OP.GG began as a League of Legends stats search in 2012 and now covers TFT, VALORANT, PUBG and Overwatch.",
+      "verdict": "OP.GG is a lookup tool first: summoner search, match history, rankings, live games, champion stats and a streamer overlay. The About page says it started as a League of Legends stats search engine in 2012, and the site now offers stats for TFT, VALORANT, PUBG and Overwatch. It is useful for scouting an opponent in seconds, but it provides little guidance on what to practice.",
+      "weaknesses": "No pricing is shown on the opened pages and business contact is an email address. It reports what happened rather than prescribing training, so it works best beside a coach or trainer.",
+      "wrong_for": "Not for players who need practice plans; Refrag or Aim Lab provide them. Dota 2 players should use STRATZ.",
+      "sources": [
+        {
+          "fact": "OP.GG provides LoL stats, match history, live games and rankings for League of Legends players.",
+          "url": "https://op.gg"
+        },
+        {
+          "fact": "OP.GG started as a League of Legends stats search engine in 2012, according to its About page.",
+          "url": "https://op.gg/lol/about"
+        },
+        {
+          "fact": "OP.GG offers stats for League of Legends, Teamfight Tactics, Valorant, PUBG and Overwatch.",
+          "url": "https://op.gg"
+        }
+      ]
+    }
+  ]
+}

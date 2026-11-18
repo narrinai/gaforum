@@ -1,0 +1,249 @@
+{
+  "slug": "on24",
+  "subject": "ON24",
+  "subject_site": "https://www.on24.com/",
+  "title": "ON24 Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "ON24 alternatives for enterprise event and launch teams: nine platforms for webinars, hybrid events and corporate video, with pricing models and trade-offs.",
+  "category": "best-webinar-platforms-for-product-launches",
+  "intro": "ON24 is a webinar and digital events platform for enterprise marketing teams; its support site lists separate North America and EU data centers, and its homepage did not open for our fetcher, so we describe it only in general terms here. The nine alternatives below cover three different jobs: webinar and B2B video content (Goldcast, Zoom, Airmeet), full event management (Cvent, Bizzabo, Swapcard), and enterprise video with live streaming (Vbrick, Kaltura, Brightcove). Everything stated about the picks comes from their own vendor pages.",
+  "why_switch": [
+    "Enterprise webinar platforms are usually quoted rather than priced online, so teams often want a vendor that publishes at least a free trial before they commit to a sales cycle.",
+    "A launch program may need in-person registration and badge scanning as well as webinars, which event suites such as Cvent and Bizzabo cover in one product.",
+    "Some companies want video content to outlive the live session, with repurposing and an on-demand library, which is how Goldcast and Brightcove position themselves.",
+    "Internal town halls and company-wide broadcasts are a different job from a lead-generation webinar, and enterprise video vendors such as Vbrick sell to that case.",
+    "Teams already on a meeting tool may prefer to run webinars inside it, as Zoom allows."
+  ],
+  "picks": [
+    {
+      "slug": "goldcast",
+      "name": "Goldcast",
+      "site": "https://www.goldcast.io/",
+      "best_for": "B2B webinars and video content",
+      "pricing": "Quote only; the pricing page offers a free trial and a demo for custom bundles.",
+      "free_plan": "Free trial",
+      "note": "Goldcast calls itself an AI-first video content platform for B2B webinars and events. Its enterprise offer lists team workspaces, SSO, custom reports and permissions, and multi-language support. A marketing team that wants one product for live sessions and the clips that follow gains a closer fit to content workflows. You give up the registration depth of a dedicated event suite.",
+      "sources": [
+        {
+          "fact": "Goldcast describes itself as an AI-first video content platform for B2B videos, webinars and events.",
+          "url": "https://www.goldcast.io/"
+        },
+        {
+          "fact": "Goldcast's pricing page offers a free trial and asks visitors to get a demo for custom bundles, so pricing is not published.",
+          "url": "https://www.goldcast.io/pricing"
+        },
+        {
+          "fact": "Goldcast's enterprise offer includes team workspaces, SSO, custom reports, custom permissions and multi-language support.",
+          "url": "https://www.goldcast.io/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "cvent",
+      "name": "Cvent",
+      "site": "https://www.cvent.com/",
+      "best_for": "Full event programs with registration",
+      "pricing": "No prices on the home page; a pricing page exists and the home page offers a free trial of event registration.",
+      "free_plan": "Free trial",
+      "note": "Cvent is an event platform for in-person, virtual and hybrid events and webinars, headquartered in Tysons Corner, Virginia. It makes sense when a launch is one part of a larger calendar of conferences and customer events that share registration data. It is a heavier purchase than a webinar-only tool, and teams that run only a handful of webinars a year will pay for breadth they do not use.",
+      "sources": [
+        {
+          "fact": "Cvent, Inc. is named as the company on the vendor site (copyright line reads Cvent Inc.).",
+          "url": "https://www.cvent.com/"
+        },
+        {
+          "fact": "Cvent describes its product as an event platform for in-person, virtual and hybrid events and webinars.",
+          "url": "https://www.cvent.com/"
+        },
+        {
+          "fact": "The home page offers a free trial of Cvent event registration and shows no prices.",
+          "url": "https://www.cvent.com/"
+        }
+      ]
+    },
+    {
+      "slug": "bizzabo",
+      "name": "Bizzabo",
+      "site": "https://www.bizzabo.com/",
+      "best_for": "B2B event leaders measuring impact",
+      "pricing": "No prices or plan names on the home page; a pricing page is linked and a demo is offered.",
+      "free_plan": "Unknown",
+      "note": "Bizzabo sells an Event Experience OS for B2B event leaders, with registration, a mobile event app, networking, sponsor ROI and SmartBadges listed on its home page. It leans toward in-person and hybrid flagship events. A pure webinar team will find much of that surface unused. Choose it when sponsors and on-site attendee data matter as much as the stream.",
+      "sources": [
+        {
+          "fact": "Bizzabo sells its platform as the 'Event Experience OS' for B2B event leaders.",
+          "url": "https://www.bizzabo.com/"
+        },
+        {
+          "fact": "The home page links to a pricing page, but shows no prices or plan names.",
+          "url": "https://www.bizzabo.com/"
+        },
+        {
+          "fact": "The home page offers a demo and does not mention a free plan or trial.",
+          "url": "https://www.bizzabo.com/"
+        }
+      ]
+    },
+    {
+      "slug": "vbrick",
+      "name": "Vbrick",
+      "site": "https://vbrick.com/",
+      "best_for": "Secure enterprise video and webcasts",
+      "pricing": "No prices published; visitors are directed to a Contact Us page.",
+      "free_plan": "Unknown",
+      "note": "Vbrick is an enterprise video platform that lists live webcasting, an eCDN and analytics, and describes itself as FedRAMP-certified. That combination suits large employers and public bodies that stream to thousands of employees on managed networks. It is aimed at internal and regulated video more than at lead-generation webinars, so marketing teams should check the registration and engagement tooling carefully.",
+      "sources": [
+        {
+          "fact": "Vbrick describes itself as an enterprise video intelligence platform for managing, securing and streaming video, with AI-ready data output.",
+          "url": "https://vbrick.com/"
+        },
+        {
+          "fact": "The Vbrick homepage lists live webcasting, an eCDN and video analytics among its capabilities.",
+          "url": "https://vbrick.com/"
+        },
+        {
+          "fact": "The Vbrick homepage describes its enterprise video platform as FedRAMP-certified.",
+          "url": "https://vbrick.com/"
+        }
+      ]
+    },
+    {
+      "slug": "kaltura",
+      "name": "Kaltura",
+      "site": "https://corp.kaltura.com",
+      "best_for": "Webinars plus a video portal",
+      "pricing": "Free and limited trials exist; other plans, including webinars and virtual events, are quoted.",
+      "free_plan": "Free trial",
+      "note": "Kaltura is an enterprise video company with products for video portals, events and webinars, virtual classrooms and streaming. It fits an organization that wants event video and a searchable library on one vendor, especially in education or media. Mixing and matching solutions through a sales quote gives flexibility, but also means no list price to compare against.",
+      "sources": [
+        {
+          "fact": "Kaltura describes itself as an enterprise video company with products for video portals, events and webinars, virtual classrooms and streaming.",
+          "url": "https://corp.kaltura.com"
+        },
+        {
+          "fact": "The Kaltura pricing page offers a free trial and a limited trial, and lists quoted plans for webinars, virtual events and digital video.",
+          "url": "https://corp.kaltura.com/pricing/"
+        },
+        {
+          "fact": "The Kaltura homepage lists education, media and telecom suites, and a developer suite.",
+          "url": "https://corp.kaltura.com"
+        }
+      ]
+    },
+    {
+      "slug": "brightcove",
+      "name": "Brightcove",
+      "site": "https://www.brightcove.com",
+      "best_for": "Hosting and monetizing video",
+      "pricing": "No prices shown; Contact Sales and Request a Demo are offered.",
+      "free_plan": "Unknown",
+      "note": "Brightcove describes a secure video hosting and streaming platform for hosting, sharing and monetizing video, with live streaming, OTT and developer APIs. It leans toward publishers and brands that treat video as a product. For a webinar program it is more infrastructure than application, so expect to assemble registration and engagement features around it.",
+      "sources": [
+        {
+          "fact": "Brightcove describes its platform as a secure, scalable video hosting and streaming platform for hosting, sharing and monetizing video.",
+          "url": "https://www.brightcove.com"
+        },
+        {
+          "fact": "The Brightcove site footer reads 2026 Brightcove Inc.",
+          "url": "https://www.brightcove.com"
+        },
+        {
+          "fact": "The Brightcove homepage lists live streaming, OTT and developer APIs among its product features.",
+          "url": "https://www.brightcove.com"
+        }
+      ]
+    },
+    {
+      "slug": "zoom-events-and-webinars",
+      "name": "Zoom Events and Webinars",
+      "site": "https://www.zoom.com/en/products/webinars/",
+      "best_for": "Teams already on Zoom",
+      "pricing": "Three plans are listed (Webinars, Webinars Plus, Events); dollar amounts are on a separate events pricing page.",
+      "free_plan": "Unknown",
+      "note": "Zoom's webinar offer is a platform for one-to-many presentations with branding, production tools and analytics. The Webinars plan covers up to 500 attendees, Webinars Plus adds AI, on-demand video and pro production tools, and Events is the larger tier. Familiarity is the main gain, since speakers and attendees already know the interface. Deep marketing-automation reporting is where specialized tools differ.",
+      "sources": [
+        {
+          "fact": "Zoom Webinars is described as a platform for one-to-many presentations, from simple sessions to full broadcasts, with branding, production tools and analytics.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        },
+        {
+          "fact": "The page lists three plans: Webinars (up to 500 attendees), Webinars Plus (adds AI, on-demand video and pro production tools) and Events.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        },
+        {
+          "fact": "Dollar prices are not shown on the page; the vendor refers to a separate events pricing page for current rates.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        }
+      ]
+    },
+    {
+      "slug": "airmeet",
+      "name": "Airmeet",
+      "site": "https://www.airmeet.com/",
+      "best_for": "Interactive events on one AI video platform",
+      "pricing": "No prices or plan names on the home page; a free trial link is offered.",
+      "free_plan": "Free trial",
+      "note": "Airmeet presents itself as an AI-powered video platform combining live events, recording, streaming, podcasts and AI video tools, with Airmeet Inc. based in Covina, California. A free trial lets a team test the format before talking to sales. It suits community-style and interactive sessions. Very large, security-reviewed broadcasts may call for a vendor with a stronger enterprise video record.",
+      "sources": [
+        {
+          "fact": "Airmeet Inc. is named as the legal entity on the vendor site.",
+          "url": "https://www.airmeet.com/"
+        },
+        {
+          "fact": "Airmeet describes itself as 'THE AI POWERED VIDEO PLATFORM', combining live events, recording, streaming, podcasts and AI video tools.",
+          "url": "https://www.airmeet.com/"
+        },
+        {
+          "fact": "The home page offers a 'Start Your Free Trial' link and shows no prices.",
+          "url": "https://www.airmeet.com/"
+        }
+      ]
+    },
+    {
+      "slug": "swapcard",
+      "name": "Swapcard",
+      "site": "https://www.swapcard.com/",
+      "best_for": "Networking-heavy conferences",
+      "pricing": "Pricing, a free plan and a trial are not stated on the home page.",
+      "free_plan": "Unknown",
+      "note": "Swapcard combines registration, an event app, exhibitor tools and AI matchmaking in one event management platform, and its meta description cites a G2 rating for ease of use and support. It earns a look when attendee-to-attendee meetings drive the value of an event. Webinar-style content delivery is not its main selling point, so check that against your launch plan.",
+      "sources": [
+        {
+          "fact": "Swapcard describes itself as one event management platform for registration, the event app, exhibitor tools and AI matchmaking.",
+          "url": "https://www.swapcard.com/"
+        },
+        {
+          "fact": "The home page does not state pricing, a free plan or a trial.",
+          "url": "https://www.swapcard.com/"
+        },
+        {
+          "fact": "The meta description on the home page says the platform is 'Top rated for ease of use and support on G2'.",
+          "url": "https://www.swapcard.com/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Sort your use case first. A webinar-led launch fits Goldcast, Zoom or Airmeet. A conference calendar with registration, sponsors and badges fits Cvent, Bizzabo or Swapcard. Employee broadcasts and regulated video fit Vbrick, Kaltura or Brightcove. Then compare how each vendor sells: a free trial lets you test in days, while a quote-only vendor will need a demo and a scoped proposal before you see a price.",
+  "faqs": [
+    {
+      "q": "What kind of tool is ON24?",
+      "a": "ON24 is an enterprise platform for webinars and digital events. We could not open its main site with our fetcher, so we avoid detailed feature or price statements about it. Check ON24's own materials for current plans before you compare."
+    },
+    {
+      "q": "Which alternative publishes a free trial?",
+      "a": "Goldcast, Cvent's event registration, Kaltura and Airmeet each mention a free trial on their own pages. Vbrick, Brightcove, Bizzabo and Swapcard point to sales or demo requests instead. Zoom lists three plans and sends buyers to a separate page for dollar amounts."
+    },
+    {
+      "q": "Do I need an event suite or a webinar platform for a product launch?",
+      "a": "A single-session launch rarely needs badge scanning, an event app or sponsor management, so a webinar platform is enough. If the launch sits inside a conference with exhibitors and in-person attendees, an event suite such as Cvent or Bizzabo covers registration across both."
+    },
+    {
+      "q": "Can these tools handle company all-hands streaming?",
+      "a": "Vbrick lists live webcasting and an eCDN for corporate video, and Kaltura and Brightcove cover live streaming for organizations. Marketing-led webinar tools may not offer the same network delivery controls, so confirm your network requirements with the vendor."
+    },
+    {
+      "q": "Why are so many prices hidden?",
+      "a": "Enterprise event and video software is commonly sold as a custom bundle based on audience size, events per year and add-ons. Goldcast, Kaltura and Vbrick all steer buyers to sales. Ask each vendor for a written quote with the same attendee count so the numbers compare."
+    }
+  ]
+}

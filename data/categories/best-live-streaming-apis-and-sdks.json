@@ -1,0 +1,597 @@
+{
+  "slug": "best-live-streaming-apis-and-sdks",
+  "name": "live streaming APIs and SDKs",
+  "title": "Best Live Streaming APIs and SDKs in 2026",
+  "group": "Live streaming (business)",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Live streaming APIs and SDKs give developers hosted video infrastructure to add live broadcasts, calls and interactive streams to apps and sites.",
+  "definition": "A live streaming API is a hosted service that ingests video from an encoder or device, converts it, and delivers it to viewers through code you control. SDKs wrap the same service for web, iOS and Android. They let a product team add live video without building servers, encoders and global delivery themselves.",
+  "intro": "Developers shopping for live video face two different products wearing the same label. One broadcasts a feed from a stage to a large audience; the other connects people in a room who talk to each other. Pricing, latency and SDK design differ between the two, and so does the bill when your audience grows. This ranking is written for engineering leads and product managers choosing a vendor for an app, a game site or an esports platform. We read each vendor's homepage, product and pricing pages, compared the published rates, and noted what is missing. We ran no load tests and make no latency claims beyond what vendors state. Thirteen services are ranked, with published pricing and live broadcast focus weighted most.",
+  "criteria": [
+    {
+      "heading": "Broadcast or conversation",
+      "text": "Decide first whether viewers watch or talk. Services such as Mux and Cloudflare Stream accept RTMP or SRT and fan out HLS to many viewers. Services such as Twilio Video, Daily and Agora are built for participants who send video too. A few, including Amazon IVS and LiveKit, cover both. We ranked broadcast-capable services higher here because the category is live streaming, and noted where a product is call-first."
+    },
+    {
+      "heading": "Rate card you can model",
+      "text": "A usage bill is a spreadsheet exercise only if the rates are public. Mux, api.video, Amazon IVS and Twilio print per-minute or per-hour figures. Others link to a pricing page or ask for contact. We favored vendors whose numbers appear in the pages we read, and we flagged the units, because per-participant, per-minute and per-hour billing scale very differently as audiences grow."
+    },
+    {
+      "heading": "Ingest and output protocols",
+      "text": "Your encoder or app dictates the entry protocol, and your viewers' devices dictate the output. Cloudflare Stream lists RTMP and SRT ingest with HLS and DASH output. Many broadcast services accept RTMP, while WebRTC ingest is rarer and worth checking. Check that the service takes what your stack sends and plays where your audience watches, before judging features around the edges."
+    },
+    {
+      "heading": "Open source and exit options",
+      "text": "Video infrastructure is hard to leave once your player and ingest are wired in. LiveKit is open source and can be self-hosted; Daily maintains the open source Pipecat project. Hosted-only services trade that portability for convenience. We noted open components where the vendors state them, since they give a way out if prices or terms change."
+    }
+  ],
+  "market_notes": [
+    "The rate cards in this list barely compare. Amazon IVS bills by channel hour, Mux by encoding and delivery minute, api.video by minutes stored and delivered, Twilio by participant minute, and Ceeblue by monthly package in euros. Five of thirteen services state concrete amounts on the pages we read: Mux, Amazon IVS, api.video, Twilio and Ceeblue. Agora, Daily, 100ms, Cloudflare Stream and Vonage state a free start or link to a pricing page, and Dolby OptiView, LiveKit's paid tiers and Livepeer give no customer rates at all.",
+    "Free entry is common: Mux, Amazon IVS, api.video, Agora, LiveKit, Daily and Twilio each offer a free tier, credit or trial on the pages we read. Only one, api.video, shows a France address on its homepage, and Ceeblue lists offices in the Netherlands, Germany and Spain; the rest give no location in what we read. The split to remember is that call-first SDKs are cheaper to start with but expensive per large audience, while broadcast services price delivery minutes."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Sketch the audience shape on paper",
+      "text": "Count how many people send video and how many only watch. If the answer is a handful and thousands, shortlist Mux, Amazon IVS or Cloudflare Stream. If everyone is both, shortlist LiveKit, Daily or Agora. Writing the shape down before comparing prices prevents choosing a call tool for a broadcast and discovering the per-participant bill later."
+    },
+    {
+      "title": "Model one month of real usage",
+      "text": "Take your expected viewer minutes, stream hours and storage, and run them through the published rates of your top three. Mux and Amazon IVS give enough numbers to do this today. For vendors that do not publish rates, ask for a quote against the same sheet. A realistic month of use shows which services stay affordable when the audience doubles."
+    },
+    {
+      "title": "Build a one-day prototype before committing",
+      "text": "Most services offer a free tier or trial. Wire an encoder or camera app into two candidates, stream for an hour, and watch on the devices your viewers use. Note delay, setup effort and documentation clarity. Check what happens after the free period ends, such as api.video's sandbox deleting content after 24 hours, so a prototype does not become a trap."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best live streaming API in 2026?",
+      "a": "Mux is our top pick because it publishes live encoding, storage and delivery rates and bundles a player and analytics. Amazon IVS is better if your stack is already on AWS and you need built-in chat. api.video is a good third option for teams that want free encoding and simple hosting rates."
+    },
+    {
+      "q": "What is the difference between a streaming API and a WebRTC SDK?",
+      "a": "A streaming API takes a feed from an encoder and delivers it to many viewers, usually over HLS. A WebRTC SDK connects participants in rooms with very low delay. Mux and Cloudflare Stream are streaming APIs; Twilio Video, Daily and Agora lean toward WebRTC. LiveKit and Amazon IVS cover real-time as well."
+    },
+    {
+      "q": "Which live streaming APIs have a free tier?",
+      "a": "Mux is free to start with a monthly usage credit, Amazon IVS has a first-12-months free tier, api.video has a limited sandbox, Agora gives 10,000 minutes, LiveKit gives 1,000 agent session minutes, and Twilio offers a trial without a credit card. Limits differ, so read them before building a demo on one."
+    },
+    {
+      "q": "Is there a European live streaming API?",
+      "a": "api.video shows a French address on its homepage, and Ceeblue B.V. lists offices in the Netherlands, Germany and Spain. Others on this page do not state a location in what we read. If data residency matters, ask each vendor where video is processed and stored, not just where the company sits."
+    },
+    {
+      "q": "Can I self-host instead of paying per minute?",
+      "a": "Yes, for some components. LiveKit is open source and Daily maintains the open source Pipecat framework. You then pay for servers and operations rather than per-minute fees, which is cheaper at high volume only if your team can run it. For servers that accept RTMP or SRT, see our streaming media server ranking."
+    },
+    {
+      "q": "How much does live streaming cost per hour?",
+      "a": "It varies by unit. Amazon IVS lists basic channel input at $0.20 per hour, and Mux lists live 1080p Plus encoding at $0.03125 per minute, which is $1.875 per hour before delivery. Twilio charges from $0.004 per participant per minute. Add storage and delivery, then multiply by audience size."
+    },
+    {
+      "q": "Do I need an API if I just stream a tournament?",
+      "a": "Usually not. A tournament stream typically goes from production software to a platform such as Twitch or YouTube. A streaming API makes sense when you embed the stream in your own site or app, or need custom chat, overlays or access control. Our live production software ranking covers the tools that feed these services."
+    }
+  ],
+  "related": [
+    "best-enterprise-live-streaming-platforms",
+    "best-streaming-media-servers",
+    "best-live-production-software"
+  ],
+  "tools": [
+    {
+      "slug": "mux",
+      "name": "Mux",
+      "site": "https://www.mux.com/",
+      "company": "Mux, Inc.",
+      "country": "",
+      "tagline": "Video API for live and on-demand streaming with open rates",
+      "best_for": "Startups shipping live video fast",
+      "pricing": "Pay as you go has no platform fee, with live 1080p Plus encoding at $0.03125 per minute; Launch is $20 per month and Scale is $500 per month.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free",
+      "platforms": "API for on-demand and live video; Mux Player (per vendor page)",
+      "features": [
+        "Live and on-demand video API",
+        "Encoding and delivery",
+        "Mux Player",
+        "Transcripts and thumbnails",
+        "Mux Robots AI workflows",
+        "Mux Data video analytics"
+      ],
+      "summary": "Mux prints its live encoding, storage and delivery rates and ships a player and analytics, so a small team can estimate a bill before writing code.",
+      "verdict": "Mux earns first place on transparency and scope. The pricing page lists live 1080p Plus encoding at $0.03125 per minute, storage at $0.003 per minute per month and 100,000 free delivery minutes each month, with no platform or per-seat fee on Pay as you go. A Launch plan costs $20 per month for a $100 credit, and Scale costs $500 per month for a $1,000 credit. The product also includes Mux Player and Mux Data analytics. A developer can read the numbers, model a launch and decide in an afternoon.",
+      "weaknesses": "Large-volume pricing is quoted by sales, so very big audiences leave the published rates behind. Mux is video infrastructure only: chat, registration and a production studio are yours to build. Billing per minute makes long, heavily watched streams expensive without a forecast.",
+      "wrong_for": "If your product is two-way video calls rather than one-to-many broadcast, LiveKit or Daily are closer to the job.",
+      "sources": [
+        {
+          "fact": "Mux is a video API platform for developers covering streaming, moderation, search, analytics and video transformation.",
+          "url": "https://www.mux.com/"
+        },
+        {
+          "fact": "Mux states it is free to start with no credit card required and that Pay as you go has no platform fee and no per-seat fee.",
+          "url": "https://www.mux.com/pricing"
+        },
+        {
+          "fact": "The pricing page lists live 1080p Plus encoding at $0.03125 per minute and storage at $0.003 per minute per month, with 100,000 delivery minutes free each month.",
+          "url": "https://www.mux.com/pricing"
+        },
+        {
+          "fact": "The pricing page lists plans Launch ($20/month for a $100 credit) and Scale ($500/month for a $1,000 credit).",
+          "url": "https://www.mux.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-ivs",
+      "name": "Amazon IVS",
+      "site": "https://aws.amazon.com/ivs/",
+      "company": "Amazon Web Services, Inc.",
+      "country": "",
+      "tagline": "Managed low-latency live streaming service from AWS",
+      "best_for": "Teams already building on AWS",
+      "pricing": "Pay as you go from $0.20 per hour for basic channel input, with a first-year free usage tier.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free",
+      "platforms": "AWS managed service; delivers video to audiences worldwide (per vendor page)",
+      "features": [
+        "Managed live streaming",
+        "Low-latency streaming",
+        "Amazon IVS Chat",
+        "Polls via timed metadata",
+        "Multiple hosts",
+        "Real-Time Streaming"
+      ],
+      "summary": "Amazon IVS is a hosted live service with built-in chat and published hourly rates, a natural fit for interactive streams inside an AWS account.",
+      "verdict": "IVS is a managed service that delivers video worldwide with low delay, and it includes Amazon IVS Chat, polls through timed metadata, multiple hosts and Real-Time Streaming. The pricing page spells out rates in hours: basic channel input at $0.20 per hour, standard channel input at $2.00 per hour, and North America first-tier HD output at $0.0720 per hour. New accounts get a first-year free usage tier. If your application, billing and identity already sit in AWS, the single bill and shared tooling count for a lot.",
+      "weaknesses": "The rate card has several line items (input type, output tier, region, participant hours), so estimating a real bill takes some arithmetic. It is an AWS service, so you inherit AWS account setup and console conventions; teams outside that ecosystem gain little.",
+      "wrong_for": "A developer who wants a single flat per-minute price and a vendor-neutral setup should compare Mux or api.video.",
+      "sources": [
+        {
+          "fact": "Amazon IVS is a hosted live-streaming service that delivers video worldwide with low or near-instant delay so developers can build interactive live experiences.",
+          "url": "https://aws.amazon.com/ivs/"
+        },
+        {
+          "fact": "The IVS product page sits under AWS Media Services and carries the copyright of Amazon Web Services, Inc.",
+          "url": "https://aws.amazon.com/ivs/"
+        },
+        {
+          "fact": "IVS is pay-as-you-go, with a first-12-months free usage tier and per-hour rates such as basic channel input at $0.20 per hour.",
+          "url": "https://aws.amazon.com/ivs/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "api-video",
+      "name": "api.video",
+      "site": "https://api.video/",
+      "company": "",
+      "country": "France",
+      "tagline": "French video API for on-demand and live streaming",
+      "best_for": "Developers wanting simple hosting rates",
+      "pricing": "Pay-as-you-go with free encoding; hosting from $0.00285 per minute stored per month and delivery from $0.0017 per minute delivered. A free sandbox limits videos to 30 seconds with a watermark, deleted after 24 hours. Enterprise is quoted by sales.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free",
+      "platforms": "API and player for web and apps (per vendor page)",
+      "features": [
+        "Video on demand",
+        "Live streaming",
+        "Analytics",
+        "Video player",
+        "AI transcription",
+        "AI summarization"
+      ],
+      "summary": "api.video gives developers one API for hosting, live streaming, a player and AI transcripts, with free encoding and a free sandbox.",
+      "verdict": "api.video targets developers who want to embed video without running pipelines. Per its pricing page, encoding is free, hosting starts at $0.00285 per minute stored per month and delivery at $0.0017 per minute delivered. A free sandbox contains every feature but limits videos to 30 seconds with a watermark, deleted after 24 hours. Features include live streaming, a player, analytics, AI transcription and summarization. The homepage gives an address in Roubaix, France, which may matter to buyers who prefer a European vendor. Enterprise carries a 99.9% SLA with credits.",
+      "weaknesses": "The sandbox is designed for testing, not for a pilot with real audiences, because clips vanish after a day. The pages we read do not describe real-time sub-second streaming, so interactive use cases need verification. Enterprise pricing is quoted.",
+      "wrong_for": "Products that need sub-second interactive video should look at Amazon IVS or LiveKit instead.",
+      "sources": [
+        {
+          "fact": "api.video is a video API platform that lets developers host, manage and deliver on-demand and live-streaming video in their websites and apps.",
+          "url": "https://api.video/"
+        },
+        {
+          "fact": "The homepage gives an OVHcloud OCT1 address in Roubaix, France.",
+          "url": "https://api.video/"
+        },
+        {
+          "fact": "Pricing is pay-as-you-go with free encoding, hosting from $0.00285 per minute stored per month and delivery from $0.0017 per minute delivered.",
+          "url": "https://api.video/pricing/"
+        },
+        {
+          "fact": "The free plan is a sandbox with all features where videos are limited to 30 seconds, carry a watermark and are deleted after 24 hours.",
+          "url": "https://api.video/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "livekit",
+      "name": "LiveKit",
+      "site": "https://livekit.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Open source real-time video and voice framework with a cloud",
+      "best_for": "Interactive and AI-agent video",
+      "pricing": "Free account with no credit card, including 1,000 free agent session minutes per month. Paid plans are not listed; custom pricing is available through sales.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Open source framework plus cloud platform (per vendor page)",
+      "features": [
+        "Open source framework",
+        "Inference gateway (TTS, LLM and STT)",
+        "Cloud platform",
+        "Phone numbers and SIP integrations",
+        "Full-stack observability"
+      ],
+      "summary": "LiveKit is an open source framework with a hosted cloud, favored where participants talk back to the stream or an AI agent joins.",
+      "verdict": "LiveKit describes itself as an open source framework and developer platform for building, deploying and observing voice, video and physical AI agents. The open source base means you can self-host, while the cloud platform adds inference, phone numbers and SIP integrations and observability. The free plan needs no credit card and includes 1,000 agent session minutes per month. For a live product where viewers speak, vote or interact in real time, that is a more natural base than a broadcast-only service.",
+      "weaknesses": "Public paid plans are not listed; custom pricing runs through sales. The homepage emphasizes AI agents, so one-to-many broadcast to huge passive audiences is not its main pitch. Self-hosting shifts operations work to your team.",
+      "wrong_for": "A team that just needs to push a studio feed to many viewers should go for Mux or Cloudflare Stream.",
+      "sources": [
+        {
+          "fact": "LiveKit is an open source framework and developer platform for building, testing, deploying, scaling and observing voice, video and physical AI agents.",
+          "url": "https://livekit.com/"
+        },
+        {
+          "fact": "The free plan includes 1,000 free agent session minutes per month and needs no credit card.",
+          "url": "https://livekit.com/"
+        },
+        {
+          "fact": "Paid plans are not listed with prices; custom pricing is offered through sales.",
+          "url": "https://livekit.com/"
+        }
+      ]
+    },
+    {
+      "slug": "ceeblue",
+      "name": "Ceeblue",
+      "site": "https://www.ceeblue.net/",
+      "company": "Ceeblue B.V.",
+      "country": "",
+      "tagline": "Dutch-registered live delivery with published euro entry prices",
+      "best_for": "Near real-time delivery at set prices",
+      "pricing": "Transcoding starts at 375 EUR per month and the Real Time Service Mesh starts at 460 EUR per month.",
+      "pricing_model": "Subscription",
+      "free_plan": "Unknown",
+      "platforms": "Media Fabric transcoding and delivery; device-agnostic player (per vendor page)",
+      "features": [
+        "Media Fabric",
+        "Unified Origin",
+        "Fast-as-Light Transcoding",
+        "Real Time Service Mesh",
+        "WebRTS",
+        "Ceeblue API"
+      ],
+      "summary": "Ceeblue transcodes and delivers streams in near real time and is one of few here to print monthly euro starting prices.",
+      "verdict": "Ceeblue's Media Fabric platform transcodes and delivers live streams, aiming for sub-second latency at scale. The homepage states transcoding starts at 375 EUR per month and the Real Time Service Mesh at 460 EUR per month, with hourly and 24x7 packages mentioned but not priced. Product names include Unified Origin, Fast-as-Light Transcoding, WebRTS and a Ceeblue API. The footer names Ceeblue B.V. and the site lists offices in the Netherlands, Germany and Spain. It suits a team that wants managed live delivery with a stated monthly floor.",
+      "weaknesses": "The entry prices are starting amounts, not full bills, and package prices are not shown. It is a delivery specialist: there is no player studio, chat or on-demand library story on the page we read. Smaller community than the hyperscalers.",
+      "wrong_for": "For a complete developer toolkit with chat and a player, Amazon IVS bundles more in one place.",
+      "sources": [
+        {
+          "fact": "Ceeblue is a live video company whose Media Fabric platform transcodes and delivers streams in near real time, aiming for sub-second latency at scale.",
+          "url": "https://www.ceeblue.net/"
+        },
+        {
+          "fact": "The homepage footer names Ceeblue B.V.",
+          "url": "https://www.ceeblue.net/"
+        },
+        {
+          "fact": "The homepage states transcoding starts at 375 EUR per month and the Real Time Service Mesh starts at 460 EUR per month.",
+          "url": "https://www.ceeblue.net/"
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare-stream",
+      "name": "Cloudflare Stream",
+      "site": "https://www.cloudflare.com/products/cloudflare-stream/",
+      "company": "",
+      "country": "",
+      "tagline": "Managed storage, encoding and delivery inside Cloudflare",
+      "best_for": "Sites already served through Cloudflare",
+      "pricing": "The page does not state per-minute prices or a free tier; it describes pricing as simple and predictable and links to a separate pricing page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Browser player, HLS/DASH output, RTMP/SRT ingest (per vendor page)",
+      "features": [
+        "Unified video API",
+        "Automatic encoding",
+        "RTMP/SRT ingest",
+        "HLS/DASH output",
+        "Built-in player",
+        "Global delivery"
+      ],
+      "summary": "Cloudflare Stream accepts RTMP and SRT, outputs HLS and DASH, and sits in the same account as many sites' DNS and security.",
+      "verdict": "Stream is a managed platform for storing, encoding and delivering live and on-demand video, with RTMP and SRT ingest, HLS and DASH output, automatic encoding, a built-in player and global delivery. Teams whose websites already run on Cloudflare can add video without a new vendor relationship. The vendor describes pricing as simple and predictable. A unified video API keeps integration short. It is a sensible default for sites that just need reliable streams.",
+      "weaknesses": "The product page does not state per-minute prices or a free tier, only a link to a separate pricing page, so we cannot quote rates. The page does not describe chat, real-time interactivity or analytics beyond delivery. Less specialized than dedicated video APIs.",
+      "wrong_for": "If you need two-way, sub-second interaction, choose LiveKit or Amazon IVS.",
+      "sources": [
+        {
+          "fact": "Cloudflare Stream is a managed video platform for storing, encoding and delivering live and on-demand video.",
+          "url": "https://www.cloudflare.com/products/cloudflare-stream/"
+        },
+        {
+          "fact": "The product page lists RTMP/SRT ingest and HLS/DASH output, with automatic encoding and global delivery.",
+          "url": "https://www.cloudflare.com/products/cloudflare-stream/"
+        },
+        {
+          "fact": "Per-minute prices are not shown on the product page; the vendor refers to a separate pricing page.",
+          "url": "https://www.cloudflare.com/products/cloudflare-stream/"
+        }
+      ]
+    },
+    {
+      "slug": "100ms",
+      "name": "100ms",
+      "site": "https://www.100ms.live/",
+      "company": "100ms, Inc.",
+      "country": "",
+      "tagline": "SDKs and APIs for live video, classrooms and conferencing",
+      "best_for": "Apps combining live streams and calls",
+      "pricing": "Not stated on the homepage; the page has a Try for Free button and links to a pricing page.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "SDKs and APIs (per vendor page)",
+      "features": [
+        "Prebuilt",
+        "SDKs",
+        "Interactivity APIs",
+        "Live streaming",
+        "Video conferencing",
+        "Virtual classrooms"
+      ],
+      "summary": "100ms offers prebuilt rooms plus SDKs for apps that mix broadcast and conversation, such as classes and community events.",
+      "verdict": "100ms calls itself a live video infrastructure provider and lists prebuilt components, SDKs, interactivity APIs, live streaming, video conferencing and virtual classrooms. That range suits an app where a few presenters talk and a larger audience watches. The homepage offers a Try for Free button and its comparison pages are against Twilio, Zoom and Agora, which tells you who the vendor thinks it competes with. A prebuilt option shortens the path to a working demo.",
+      "weaknesses": "Pricing is not on the homepage, only a link, so we cannot quote it. The company name appears as 100ms, Inc. and little else about scale, locations or customers appears on the page we read. You must verify the live streaming limits yourself.",
+      "wrong_for": "A pure broadcast product with large passive audiences is simpler on Mux or Cloudflare Stream.",
+      "sources": [
+        {
+          "fact": "100ms is a live video infrastructure provider offering SDKs and APIs for building audio and video experiences into apps.",
+          "url": "https://www.100ms.live/"
+        },
+        {
+          "fact": "The copyright notice on the homepage names 100ms, Inc.",
+          "url": "https://www.100ms.live/"
+        },
+        {
+          "fact": "The homepage has a Try for Free button and links to a pricing page; prices are not on the homepage.",
+          "url": "https://www.100ms.live/"
+        }
+      ]
+    },
+    {
+      "slug": "agora",
+      "name": "Agora",
+      "site": "https://www.agora.io/en/",
+      "company": "",
+      "country": "",
+      "tagline": "Low-latency real-time engagement APIs with interactive live streaming",
+      "best_for": "Apps needing voice, video and chat together",
+      "pricing": "A free tier of 10,000 minutes is offered; paid rates are not stated on the homepage.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "SDK and API based (per vendor page)",
+      "features": [
+        "Video calling",
+        "Voice calling",
+        "Interactive live streaming",
+        "Real-time chat",
+        "Conversational AI Engine",
+        "Recording"
+      ],
+      "summary": "Agora combines video and voice calling, interactive live streaming, chat and a conversational AI engine behind SDKs.",
+      "verdict": "Agora provides low-latency APIs for voice, video, chat and conversational AI, and its product list includes interactive live streaming and recording. A free tier of 10,000 minutes lets teams build before paying, according to the homepage. It is a fit when your live feature is part of a larger communication app, for example a shopping stream with chat and guests joining. The company is a communications specialist rather than a video hosting service.",
+      "weaknesses": "Paid rates are not on the homepage, so cost planning needs the pricing documentation or sales. There is no hosting library for recordings in the pages we read beyond a recording feature. It targets real-time apps, so simple one-way broadcasts may be overbuilt here.",
+      "wrong_for": "For straightforward one-to-many streaming with a transparent rate card, Mux is easier to price.",
+      "sources": [
+        {
+          "fact": "Agora describes itself as a real-time engagement platform providing low-latency APIs for voice, video, chat and conversational AI.",
+          "url": "https://www.agora.io/en/"
+        },
+        {
+          "fact": "The homepage states a free tier of 10,000 minutes to start, with payment beginning when usage scales; paid rates are not on the page.",
+          "url": "https://www.agora.io/en/"
+        },
+        {
+          "fact": "The homepage lists products including video calling, voice calling and interactive live streaming.",
+          "url": "https://www.agora.io/en/"
+        }
+      ]
+    },
+    {
+      "slug": "daily",
+      "name": "Daily",
+      "site": "https://www.daily.co/",
+      "company": "DAILY",
+      "country": "",
+      "tagline": "WebRTC video SDK with prebuilt UI and Pipecat for AI agents",
+      "best_for": "WebRTC apps and voice AI",
+      "pricing": "Free sign-up is offered; the homepage links to separate pricing pages and shows no prices.",
+      "pricing_model": "",
+      "free_plan": "Free",
+      "platforms": "WebRTC video SDK and open-source Pipecat framework (per vendor page)",
+      "features": [
+        "Pipecat (open source)",
+        "Pipecat Cloud",
+        "Daily Video SDK",
+        "Recording",
+        "Prebuilt",
+        "Live streaming"
+      ],
+      "summary": "Daily is a WebRTC platform that maintains the open source Pipecat framework and offers a video SDK with recording and live streaming.",
+      "verdict": "Daily describes realtime voice, video and AI infrastructure and says it has run global WebRTC infrastructure since 2016. The homepage lists the Daily Video SDK, a prebuilt interface, recording and live streaming, plus Pipecat (open source) and Pipecat Cloud for conversational AI. Developers who want a call-first product with the option to broadcast will find the pieces. Signup is free to start. Its recent emphasis is clearly on AI voice agents, which may or may not match your roadmap.",
+      "weaknesses": "The homepage lists no prices and points to separate pricing pages for Daily Video and Pipecat Cloud. The headline message centers on conversational AI, so live broadcast features get less space. Verify audience-size limits before you commit.",
+      "wrong_for": "Teams focused on a live event stream with a big viewing audience should compare Amazon IVS or Mux.",
+      "sources": [
+        {
+          "fact": "Daily is a realtime voice, video and AI infrastructure company whose WebRTC platform supports low-latency conversational AI.",
+          "url": "https://www.daily.co/"
+        },
+        {
+          "fact": "The homepage maintains the open-source Pipecat framework and names Pipecat Cloud and the Daily Video SDK.",
+          "url": "https://www.daily.co/"
+        },
+        {
+          "fact": "The homepage offers Get started for free and links to separate pricing pages; no prices are on the homepage.",
+          "url": "https://www.daily.co/"
+        }
+      ]
+    },
+    {
+      "slug": "twilio",
+      "name": "Twilio",
+      "site": "https://www.twilio.com/en-us/video",
+      "company": "Twilio Inc.",
+      "country": "",
+      "tagline": "Twilio Video SDKs for web, iOS and Android",
+      "best_for": "Embedding video chat in existing apps",
+      "pricing": "Pay-as-you-go from $0.004 per participant per minute, with volume discounts and no upfront commitment. A free trial needs no credit card.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "JavaScript, iOS and Android SDKs (per vendor page)",
+      "features": [
+        "Virtual backgrounds",
+        "Background blur",
+        "AI noise cancellation",
+        "Screen sharing",
+        "Real-time transcriptions",
+        "Network Quality API"
+      ],
+      "summary": "Twilio Video prices per participant minute and ships SDKs for JavaScript, iOS and Android, aimed at calls more than broadcasts.",
+      "verdict": "Twilio Video is described as a real-time video calling platform for embedding video chat in web and mobile apps. Pay-as-you-go starts at $0.004 per participant per minute, with volume discounts and no upfront commitment, and a free trial needs no credit card. Features include virtual backgrounds, noise cancellation, screen sharing, transcriptions and a Network Quality API. For a company already using Twilio for messaging, the single vendor is a plus. It sits mid-ranking here because the focus is calls, not streaming to audiences.",
+      "weaknesses": "The page describes calling, not RTMP ingest, HLS output or large-audience live streaming, so it is a poor base for one-to-many events. Per-participant pricing climbs quickly for large rooms.",
+      "wrong_for": "A broadcast to thousands should go to Amazon IVS, Mux or Cloudflare Stream.",
+      "sources": [
+        {
+          "fact": "Twilio Video is a real-time video calling platform that lets developers embed video chat in web and mobile apps using SDKs for JavaScript, iOS and Android.",
+          "url": "https://www.twilio.com/en-us/video"
+        },
+        {
+          "fact": "Pricing is pay-as-you-go from $0.004 per participant per minute, with volume discounts and no upfront commitments.",
+          "url": "https://www.twilio.com/en-us/video"
+        },
+        {
+          "fact": "The page describes a free trial that requires no credit card.",
+          "url": "https://www.twilio.com/en-us/video"
+        }
+      ]
+    },
+    {
+      "slug": "vonage",
+      "name": "Vonage",
+      "site": "https://www.vonage.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Communications APIs with video among voice and messaging",
+      "best_for": "Companies consolidating communications vendors",
+      "pricing": "The homepage links to pricing pages for communications APIs and unified communications; no prices are on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Cloud communications and APIs (per vendor page)",
+      "features": [
+        "Unified communications",
+        "Contact centers",
+        "Communications APIs",
+        "Video capabilities"
+      ],
+      "summary": "Vonage bundles video with voice, messaging and contact center products, which helps buyers who want one telecom vendor.",
+      "verdict": "Vonage offers voice, messaging, video and data across unified communications, contact centers and communications APIs, and its homepage links to developer documentation and two pricing pages. For a business that already buys phone and messaging services, adding video from the same vendor simplifies contracts. The pages we opened do not detail live broadcast products, so it ranks low for streaming specifically.",
+      "weaknesses": "No prices appear on the homepage, and the page gives little detail about live streaming, RTMP ingest or audience scale. The catalog is broad, so finding the video API takes digging. Treat it as a communications purchase, not a streaming specialist.",
+      "wrong_for": "Teams that need a streaming-first product should start with Mux or Amazon IVS.",
+      "sources": [
+        {
+          "fact": "Vonage offers voice, messaging, video and data capabilities across unified communications, contact centers and communications APIs.",
+          "url": "https://www.vonage.com/"
+        },
+        {
+          "fact": "The homepage links to a communications APIs pricing page and a unified communications pricing page; no prices are shown on the homepage.",
+          "url": "https://www.vonage.com/"
+        },
+        {
+          "fact": "The homepage also lists contact center products alongside its communications APIs.",
+          "url": "https://www.vonage.com/"
+        }
+      ]
+    },
+    {
+      "slug": "dolby-optiview",
+      "name": "Dolby OptiView",
+      "site": "https://optiview.dolby.com/",
+      "company": "Dolby Laboratories, Inc.",
+      "country": "",
+      "tagline": "Live sports streaming platform for service providers",
+      "best_for": "Sports and operator streaming businesses",
+      "pricing": "Pricing is not stated on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Service provider and sports streaming (per vendor page)",
+      "features": [
+        "Sports Intelligence (live and VOD clipping)",
+        "OptiView Ads (hybrid dynamic ad insertion)",
+        "OptiView Ad Engine",
+        "OptiView Streaming",
+        "OptiView Player",
+        "Test Center"
+      ],
+      "summary": "Dolby OptiView combines streaming, clipping, ad insertion and a player for providers building fan experiences.",
+      "verdict": "OptiView is described on its homepage as a live sports platform for service providers. Its products include OptiView Streaming, the OptiView Player, OptiView Ads for hybrid dynamic ad insertion, an Ad Engine, Sports Intelligence clipping for live and on-demand video, and a Test Center. That is a specific audience: companies selling streams to fans and monetizing with ads. It is a narrower choice than the general APIs above.",
+      "weaknesses": "Pricing is not stated on the homepage, and nothing there describes a self-serve developer path. The focus on service providers and sports means a small app team may find it oversized.",
+      "wrong_for": "A developer prototyping a generic live feature will move faster on Mux or api.video.",
+      "sources": [
+        {
+          "fact": "Dolby OptiView is described on its homepage as a live sports platform that helps service providers create fan experiences and new revenue.",
+          "url": "https://optiview.dolby.com/"
+        },
+        {
+          "fact": "The homepage lists products including Sports Intelligence clipping, OptiView Ads for dynamic ad insertion, OptiView Streaming and the OptiView Player.",
+          "url": "https://optiview.dolby.com/"
+        },
+        {
+          "fact": "The homepage does not state pricing.",
+          "url": "https://optiview.dolby.com/"
+        }
+      ]
+    },
+    {
+      "slug": "livepeer",
+      "name": "Livepeer",
+      "site": "https://livepeer.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Open inference network for AI video workloads",
+      "best_for": "AI video processing experiments",
+      "pricing": "No customer pricing is listed; GPU providers set their own prices and are paid per completed job.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Decentralized GPU network (per vendor page)",
+      "features": [
+        "Livepeer Agent",
+        "Provide Compute",
+        "Livepeer token",
+        "Delegate LPT",
+        "Documentation",
+        "Changelog"
+      ],
+      "summary": "Livepeer now describes itself as an open inference network for AI video jobs, so its current fit is GPU compute more than classic streaming.",
+      "verdict": "Livepeer's homepage calls it the open inference network, a decentralized network where GPU providers run AI video jobs and are paid per completed job. It lists a Livepeer Agent, a way to provide compute, a token and documentation. The homepage says it is built by independent teams, with 259 contributors, rather than one company. That is interesting for AI video experiments but different from a service with a customer rate card, so it sits last in this ranking.",
+      "weaknesses": "No customer pricing is listed; providers set their own prices. The page we read does not describe a managed live streaming API, a player or an SLA, and a decentralized network brings its own support questions.",
+      "wrong_for": "Anyone who needs a dependable live streaming API today should choose Mux, Amazon IVS or api.video.",
+      "sources": [
+        {
+          "fact": "Livepeer describes itself as the open inference network, a network for AI video workloads.",
+          "url": "https://livepeer.org/"
+        },
+        {
+          "fact": "The homepage says Livepeer is built by independent teams rather than one company, with 259 contributors.",
+          "url": "https://livepeer.org/"
+        },
+        {
+          "fact": "No customer pricing is listed; GPU providers set their own prices and are paid for each completed job.",
+          "url": "https://livepeer.org/"
+        }
+      ]
+    }
+  ]
+}

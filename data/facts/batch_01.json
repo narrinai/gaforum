@@ -1,0 +1,663 @@
+[
+  {
+    "slug": "gamemaker", "name": "GameMaker", "status": "verified", "drop_reason": "",
+    "site": "https://gamemaker.io/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "GameMaker is a 2D game engine that the vendor calls a free, friendly indie game engine.",
+    "platforms": "Lists Windows, Mac, Linux, Android, iOS, HTML5, Xbox Series X|S, PlayStation 5 and Nintendo Switch as game targets; the page does not say which platforms the editor runs on.",
+    "pricing": "Free: completely free, no credit card required. Professional: allows commercial release, no price shown. Enterprise: adds console release, no price shown. Education licenses exist, no figures.",
+    "pricing_model": "Freemium", "free_plan": "Free plan",
+    "key_features": ["GML programming language", "Tutorials", "Asset Bundles", "Marketplace", "Education licenses", "Upload to GX.games", "Showcase"],
+    "notable": ["Free tier includes upload to GX.games", "Professional and Enterprise prices are not shown on the homepage", "Homepage cites UNDERTALE, Hyper Light Drifter and Chicory: A Colorful Tale as backed titles"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "GameMaker is described on the vendor homepage as a free 2D game engine, 'The Friendly Indie Game Engine'.", "url": "https://gamemaker.io/"},
+      {"fact": "The free tier is described as completely free with no credit card required; no trial is mentioned on the homepage.", "url": "https://gamemaker.io/"},
+      {"fact": "Professional allows commercial release and Enterprise adds release on major console platforms; the homepage gives no prices for either.", "url": "https://gamemaker.io/"},
+      {"fact": "The homepage lists Windows, Mac, Linux, Android, iOS, HTML5, Xbox Series X|S, PlayStation 5 and Nintendo Switch as game targets.", "url": "https://gamemaker.io/"}
+    ]
+  },
+  {
+    "slug": "godot", "name": "Godot", "status": "verified", "drop_reason": "",
+    "site": "https://godotengine.org/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Godot is a free, open-source 2D and 3D game engine.",
+    "platforms": "The only editor download link on the homepage is for Windows. Exports to desktop, mobile and the web; consoles are supported through third-party publishers.",
+    "pricing": "Free and open source. The homepage says 'Your free, open-source game engine' and makes no other pricing statement; the license name is not given in the page text.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["Node and Scene system", "GDScript, C#, C++ or GDExtension", "Dedicated 2D engine", "Simple and powerful 3D", "OpenXR and WebXR support", "Export to desktop, mobile and web"],
+    "notable": ["Latest download on the homepage: Godot 4.7.2", "Named patron and corporate sponsors include Scorewarrior, W4 Games, JetBrains and Mega Crit", "C# on the Web needs Godot 3, per the homepage"],
+    "logo_hint": "https://godotengine.org/assets/logo.svg",
+    "facts": [
+      {"fact": "Godot is described on the vendor homepage as a free, open-source 2D and 3D game engine.", "url": "https://godotengine.org/"},
+      {"fact": "The homepage makes no pricing statement beyond calling Godot a free, open-source game engine.", "url": "https://godotengine.org/"},
+      {"fact": "The latest download listed on the homepage is Godot 4.7.2.", "url": "https://godotengine.org/"},
+      {"fact": "The homepage names Juan Linietsky and Ariel Manzur as creators and says the project is hosted by the Godot Foundation.", "url": "https://godotengine.org/"}
+    ]
+  },
+  {
+    "slug": "gdevelop", "name": "GDevelop", "status": "verified", "drop_reason": "",
+    "site": "https://gdevelop.io/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "GDevelop is a free, open-source, no-code game engine for 2D and 3D games.",
+    "platforms": "Desktop, web and mobile export with one-click exporting. The homepage mentions publishing to web, Android, Steam and iOS; iOS is listed on the higher-tier plan.",
+    "pricing": "Two paid plans, Silver and Gold, are listed on the homepage but the prices do not appear in the page text. The engine is described as open source; no license name is given.",
+    "pricing_model": "Subscription", "free_plan": "Open source",
+    "key_features": ["Drag and drop interface", "No-code event system", "Ready-made behaviors", "One-click exporting", "Multiplayer and player services", "AI-assisted building and AI tutor"],
+    "notable": ["Paid plans are named Silver and Gold; prices are not shown in the page text", "Homepage claims SPECTRUM was played over 5,000,000 times on the web", "Homepage claims the mobile game Vai Juliette! was the 2021 Brazil Mobile Game of the Year"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "GDevelop is described on the vendor homepage as a free, open-source, no-code game engine for 2D and 3D games.", "url": "https://gdevelop.io/"},
+      {"fact": "The homepage lists Silver and Gold paid plans, but the prices are not shown in the page text.", "url": "https://gdevelop.io/"},
+      {"fact": "The homepage says games can be published to web, Android, Steam and iOS, with one-click exporting.", "url": "https://gdevelop.io/"}
+    ]
+  },
+  {
+    "slug": "defold", "name": "Defold", "status": "verified", "drop_reason": "",
+    "site": "https://defold.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Defold is a free, all-in-one game engine for cross-platform 2D and 3D games.",
+    "platforms": "Xbox, PlayStation 5, PlayStation 4, Nintendo Switch, Steam, Linux, Windows, macOS, iOS, Android, HTML5, Poki and Facebook, as listed on the homepage.",
+    "pricing": "Free forever, source available under a developer-friendly license. No up-front cost, no licensing cost, no royalties, no runtime fee.",
+    "pricing_model": "Free", "free_plan": "Free",
+    "key_features": ["Visual Editor", "Code Editor", "Scene Editor", "ParticleFX and Tilemap editors", "Live Update", "Hot reload, profiler and debugger", "Native extensions"],
+    "notable": ["Homepage states no royalties and no runtime fee", "Xbox support from Defold 1.14.0, free of charge for approved Xbox developers", "Editor localized in English, Russian, Chinese and Portuguese"],
+    "logo_hint": "https://defold.com/images/logo/defold/logo/logo-ver-outline-bright.svg",
+    "facts": [
+      {"fact": "Defold is described on the homepage as a free, powerful, all-in-one game engine for cross-platform 2D and 3D games.", "url": "https://defold.com/"},
+      {"fact": "The homepage states Defold is free forever, source available under a developer-friendly license, with no royalties and no runtime fee.", "url": "https://defold.com/"},
+      {"fact": "The homepage lists targets including Xbox, PlayStation 5, PlayStation 4, Nintendo Switch, Steam, iOS, Android and HTML5.", "url": "https://defold.com/"},
+      {"fact": "The homepage says Xbox support is available from Defold 1.14.0, free of charge for approved Xbox developers.", "url": "https://defold.com/"}
+    ]
+  },
+  {
+    "slug": "cocos-creator", "name": "Cocos Creator", "status": "verified", "drop_reason": "",
+    "site": "https://cocos.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Cocos Creator is a cross-platform graphics engine and real-time 3D content creation platform for 2D and 3D games.",
+    "platforms": "The homepage mentions cross-platform capability and multi-platform publishing without listing specific platforms. Homepage text is in Chinese; facts are summarized in English.",
+    "pricing": "No pricing or product license statement on the homepage. It shows a download button and a link to a store.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["High-performance engine", "Complete toolchain", "Cross-platform capability", "Debugging and visualization", "Multi-language development", "Multi-platform publishing"],
+    "notable": ["Homepage states it hosts over 70% of game content development", "Partners listed include ARM, Meta, Google, Huawei, Microsoft, Samsung and Tencent"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "Cocos Creator is described on the vendor homepage as a cross-platform graphics engine and real-time 3D content creation platform.", "url": "https://cocos.com/"},
+      {"fact": "The homepage gives no price and no product license statement; it shows a download button and a link to a store.", "url": "https://cocos.com/"},
+      {"fact": "The homepage states it hosts over 70% of game content development and lists partners including ARM, Meta, Google and Microsoft.", "url": "https://cocos.com/"}
+    ]
+  },
+  {
+    "slug": "phaser", "name": "Phaser", "status": "verified", "drop_reason": "",
+    "site": "https://github.com/phaserjs/phaser", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Phaser is a free, fast 2D game framework for HTML5 games that run in desktop and mobile browsers.",
+    "platforms": "Web browsers on desktop and mobile; YouTube Playables, Discord Activities, Reddit games and Twitch overlays; iOS, Android and Steam and native apps via third-party tools. Written for JavaScript or TypeScript.",
+    "pricing": "Free, MIT license, per the official repository page.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["Canvas and WebGL rendering", "Node-based render architecture", "Unified Filter system", "SpriteGPULayer", "TilemapGPULayer", "Overhauled tint system"],
+    "notable": ["Repository page references v4.2.1 as the current release", "Repository page reports 40.7k GitHub stars", "Repository page says Phaser has been actively developed for over 13 years"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "Phaser is described on its official GitHub repository as a fun, free and fast 2D game framework for HTML5 games.", "url": "https://github.com/phaserjs/phaser"},
+      {"fact": "The repository page states the project is licensed under the MIT license.", "url": "https://github.com/phaserjs/phaser"},
+      {"fact": "The repository page references v4.2.1 as the current release, with Phaser 4 built on a new WebGL renderer.", "url": "https://github.com/phaserjs/phaser"},
+      {"fact": "The repository page says Phaser Studio Inc develops the framework commercially together with an open source community.", "url": "https://github.com/phaserjs/phaser"}
+    ]
+  },
+  {
+    "slug": "solar2d", "name": "Solar2D", "status": "verified", "drop_reason": "",
+    "site": "https://solar2d.com/", "company": "Solar2D LLC", "hq": "Sheridan, Wyoming, United States", "country": "United States", "country_code": "US",
+    "what_it_is": "Solar2D is a Lua-based, open source 2D game engine focused on fast iteration, forked from the Corona SDK.",
+    "platforms": "iOS, tvOS, Android, Android TV, macOS, Windows, Linux and HTML5 build targets, as listed on the homepage.",
+    "pricing": "Free, released under the MIT license. The homepage states 'No hidden fees, charges, or royalties.'",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["Lua-based", "Cross-platform from one code base", "Build Fast simulator and live builds", "Plugins", "Call any native library", "Privacy aware"],
+    "notable": ["Homepage says the Corona SDK it forked from is no longer commercially supported", "Development is sponsored by users through GitHub Sponsors and Patreon"],
+    "logo_hint": "https://solar2d.com/images/logo-banner.svg",
+    "facts": [
+      {"fact": "Solar2D is described on the homepage as a Lua-based, open source 2D game engine, forked from the Corona SDK.", "url": "https://solar2d.com/"},
+      {"fact": "The homepage states Solar2D is released under the MIT license with no hidden fees, charges or royalties.", "url": "https://solar2d.com/"},
+      {"fact": "The homepage lists Solar2D LLC at 30 N Gould St Ste R, Sheridan, WY 82801.", "url": "https://solar2d.com/"},
+      {"fact": "The homepage lists iOS, tvOS, Android, Android TV, macOS, Windows, Linux and HTML5 as build targets.", "url": "https://solar2d.com/"}
+    ]
+  },
+  {
+    "slug": "love", "name": "LOVE", "status": "verified", "drop_reason": "",
+    "site": "https://love2d.org/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "LOVE (LÖVE) is a free, open-source framework for making 2D games in Lua.",
+    "platforms": "Windows, macOS, Linux, Android and iOS. Packages: Windows installers and zip builds, macOS 64-bit zip, Linux Ubuntu PPA and AppImage, Android APK, iOS source and libraries.",
+    "pricing": "Free. The homepage says it costs nothing and can be used commercially without limitations. License: zlib/libpng.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["Graphics", "Audio", "Physics", "Input including touch", "Filesystem", "Thread", "Video"],
+    "notable": ["Current version on the homepage: 11.5", "Example games cited include Balatro, Arco and Moonring", "Homepage offers a PayPal donation option"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "LÖVE is described on the homepage as a free, open-source framework for making 2D games in Lua.", "url": "https://love2d.org/"},
+      {"fact": "The homepage says LÖVE is licensed under the liberal zlib/libpng license and costs nothing, with commercial use without limitations.", "url": "https://love2d.org/"},
+      {"fact": "The homepage lists the current version as 11.5.", "url": "https://love2d.org/"},
+      {"fact": "The homepage lists builds for Windows, macOS, Linux, Android (APK) and iOS (source and libraries).", "url": "https://love2d.org/"}
+    ]
+  },
+  {
+    "slug": "kaplay", "name": "KAPLAY", "status": "verified", "drop_reason": "",
+    "site": "https://kaplayjs.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "KAPLAY is a JavaScript and TypeScript game library for making games for the web.",
+    "platforms": "HTML5 games and the web.",
+    "pricing": "Free and open source; the homepage says 'It's Open Source, free and always will be' and offers optional donations via Open Collective and Cafecito. No license name is given in the page text.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["Friendly, easy-to-learn API", "Strong TypeScript support", "Built-in physics and collision helpers", "Effects such as shake() and flash()", "KAPLAYGROUND online playground", "Examples and assets"],
+    "notable": ["Sponsors listed on the homepage: Colyseus, Wavedash and RD Consultance", "Site footer shows KAPLAY website version 1.5.12; a banner promotes the @next version"],
+    "logo_hint": "https://kaplayjs.com/_astro/kaplay-logo-sm-og.DN-EC99e_Z1kkjtN.png",
+    "facts": [
+      {"fact": "KAPLAY is described on its homepage as a JavaScript and TypeScript game library for creating games for the web.", "url": "https://kaplayjs.com/"},
+      {"fact": "The homepage says KAPLAY is open source, free and always will be, with optional donations through Open Collective and Cafecito.", "url": "https://kaplayjs.com/"},
+      {"fact": "The homepage lists Colyseus, Wavedash and RD Consultance as sponsors.", "url": "https://kaplayjs.com/"},
+      {"fact": "The homepage links to the project's GitHub repository at github.com/kaplayjs/kaplay.", "url": "https://kaplayjs.com/"}
+    ]
+  },
+  {
+    "slug": "excalibur-js", "name": "Excalibur.js", "status": "verified", "drop_reason": "",
+    "site": "https://excaliburjs.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Excalibur.js is a TypeScript 2D game engine for the web.",
+    "platforms": "Web browsers including mobile; games compile to modern JavaScript. The homepage also mentions packaging with Apache Cordova, Universal Windows Apps or Electron.",
+    "pricing": "Free and open source under the BSD 2 Clause license; the homepage says it 'is and always will be free and open source'. A Premium Support page is linked with no price shown.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["Free and open source", "Made with TypeScript", "Extensive documentation with auto-updated API reference", "Designed for cross-platform", "Online playground", "Flappy Bird-style tutorial"],
+    "notable": ["License: BSD 2 Clause, per the homepage", "A Premium Support page is linked but no price is stated"],
+    "logo_hint": "https://excaliburjs.com/img/ex-logo.png",
+    "facts": [
+      {"fact": "Excalibur.js is described on its homepage as a TypeScript 2D game engine for the web.", "url": "https://excaliburjs.com/"},
+      {"fact": "The homepage says Excalibur is and always will be free and open source, under the BSD 2 Clause license.", "url": "https://excaliburjs.com/"},
+      {"fact": "The homepage links to a Premium Support page but states no price for it.", "url": "https://excaliburjs.com/"},
+      {"fact": "The homepage footer credits the Excalibur.js Project with a 2026 copyright.", "url": "https://excaliburjs.com/"}
+    ]
+  },
+  {
+    "slug": "stencyl", "name": "Stencyl", "status": "verified", "drop_reason": "",
+    "site": "https://stencyl.com/", "company": "Stencyl, LLC", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Stencyl is a no-code game creation tool for mobile, web and desktop games.",
+    "platforms": "iOS (iPhone and iPad), Android, Windows, Mac, Linux and HTML5, as listed on the homepage.",
+    "pricing": "The homepage links to a Pricing section but states no prices or plan names. A Download Stencyl button is shown.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Scratch-inspired drag-and-drop block builder", "Scene Designer world editor", "Actor Editor", "Custom blocks and code extensions", "In-app purchases and ad support", "Sponsorship and store-sales options"],
+    "notable": ["Homepage claims 500,000 developers have adopted Stencyl", "Ad networks named on the homepage: iAds, AdMob and Newgrounds"],
+    "logo_hint": "https://static.stencyl.com/v3/images/logo.png",
+    "facts": [
+      {"fact": "Stencyl is described on its homepage as the easiest way to create games for mobile, web and desktop without code.", "url": "https://stencyl.com/"},
+      {"fact": "The homepage links to a pricing section but states no prices or plan names.", "url": "https://stencyl.com/"},
+      {"fact": "The homepage lists iOS, Android, Windows, Mac, Linux and HTML5 as export targets.", "url": "https://stencyl.com/"},
+      {"fact": "The homepage claims 500,000 developers have adopted Stencyl.", "url": "https://stencyl.com/"}
+    ]
+  },
+  {
+    "slug": "buildbox", "name": "Buildbox", "status": "verified", "drop_reason": "",
+    "site": "https://buildbox.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Buildbox is software that lets people create games without scripting or programming, per the vendor's games page.",
+    "platforms": "Not stated on the page; a recent post title mentions Android improvements.",
+    "pricing": "Not stated on the page. A 'Get Buildbox' link leads to a download page; no price or free trial is shown.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": [],
+    "notable": ["Vendor calls it 'the world's first software that truly allows anyone to create amazing games regardless of technical skill'"],
+    "logo_hint": "https://www.buildbox.com/wp-content/uploads/2020/04/LogoBB_Normal_smaller.png",
+    "facts": [
+      {"fact": "Buildbox's games page describes it as the world's first software that truly allows anyone to create amazing games regardless of technical skill.", "url": "https://buildbox.com/games"},
+      {"fact": "The games page says Buildbox needs no scripting, programming or software design experience.", "url": "https://buildbox.com/games"},
+      {"fact": "The games page shows a Get Buildbox link to a download page and states no price or free trial.", "url": "https://buildbox.com/games"}
+    ]
+  },
+  {
+    "slug": "construct", "name": "Construct", "status": "dropped",
+    "drop_reason": "vendor site could not be opened: construct.net, www.construct.net and construct.net/en all returned HTTP 403",
+    "site": "", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "logo_hint": "", "facts": []
+  },
+  {
+    "slug": "unreal-engine", "name": "Unreal Engine", "status": "dropped",
+    "drop_reason": "vendor site could not be opened: unrealengine.com, its license page and www.unrealengine.com/en-US all returned HTTP 403",
+    "site": "", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "logo_hint": "", "facts": []
+  },
+  {
+    "slug": "unity", "name": "Unity", "status": "verified", "drop_reason": "",
+    "site": "https://unity.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Unity is a real-time 3D and 2D game engine for developing, deploying and growing games.",
+    "platforms": "Desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro; the page says 25+ platforms.",
+    "pricing": "No figures or named paid tiers on the homepage. It links to 'Plans and pricing' and says 'Get started for free, or find a plan that suits you'.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Unity Engine", "Collaboration", "Multiplatform", "LiveOps", "User acquisition", "In-App Purchase", "Monetization", "Unity Spark"],
+    "notable": ["Unity 6.6 is described on the homepage as available", "Unity 7 is announced as the next major version of the Editor and runtime", "Unity Fellowship backs 10 indie teams with $50K and no recoup, applications due December 18"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "Unity is described on its homepage as the world's leading game engine for developing, deploying and growing games.", "url": "https://unity.com/"},
+      {"fact": "The homepage says you can get started for free or find a plan, and links to Plans and pricing without showing figures.", "url": "https://unity.com/"},
+      {"fact": "The homepage lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro as platforms.", "url": "https://unity.com/"},
+      {"fact": "The homepage says Unity 6.6 is available and announces Unity 7 as the next major version.", "url": "https://unity.com/"}
+    ]
+  },
+  {
+    "slug": "flax-engine", "name": "Flax Engine", "status": "verified", "drop_reason": "",
+    "site": "https://flaxengine.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Flax Engine is a game engine that advertises full source code and a feature set for solo developers and larger teams.",
+    "platforms": "Not stated on the homepage.",
+    "pricing": "The homepage says 'Full source code' and links to a Licensing page; no license name, royalty terms or prices are in the page text.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["C++, C# and Visual Scripting support", "Extensible Flax Editor", "Version control system support", "Scales from small to larger teams", "Full source code"],
+    "notable": ["Flax 1.13 release post linked; the post says it included over 999 commits", "Homepage says the site is made in Poland"],
+    "logo_hint": "https://flaxengine.com/wp-content/uploads/2020/12/logo_1_150x100.png",
+    "facts": [
+      {"fact": "Flax Engine describes itself on the homepage as 'The most agile game engine is now available' and advertises full source code.", "url": "https://flaxengine.com/"},
+      {"fact": "The homepage lists scripting support for C++, C# and Visual Scripting.", "url": "https://flaxengine.com/"},
+      {"fact": "The homepage links to a Licensing page; the license name and pricing are not stated in the page text.", "url": "https://flaxengine.com/"}
+    ]
+  },
+  {
+    "slug": "cryengine", "name": "CryEngine", "status": "verified", "drop_reason": "",
+    "site": "https://cryengine.com/", "company": "Crytek GmbH", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "CRYENGINE is Crytek's game development platform, with a real-time editor and full source code available.",
+    "platforms": "PC, Xbox, PlayStation and Oculus named; the page says it supports all of today's high end platforms.",
+    "pricing": "Free to use. A 5% royalty applies when you ship, and the first $5K of annual revenue per project is royalty-free. Full source code access is listed.",
+    "pricing_model": "Revenue share", "free_plan": "Free",
+    "key_features": ["Sandbox editor", "Realtime lighting and global illumination", "Physics and dynamic destruction", "Particles", "Animation system", "Audio Translation Layer"],
+    "notable": ["5% royalty; first $5K of annual revenue per project is royalty-free", "Current release listed: CRYENGINE 5.6", "Showcased titles include Kingdom Come: Deliverance, Prey and Star Citizen"],
+    "logo_hint": "https://cryengine.com/build/images/cryengine-logo.svg",
+    "facts": [
+      {"fact": "CRYENGINE is described on its homepage as Crytek's game development platform with a real-time editor and full source code available.", "url": "https://cryengine.com/"},
+      {"fact": "The homepage says CRYENGINE is free to use, with a 5% royalty when you ship and the first $5K of annual revenue per project royalty-free.", "url": "https://cryengine.com/"},
+      {"fact": "The homepage names PC, Xbox, PlayStation and Oculus as platforms.", "url": "https://cryengine.com/"},
+      {"fact": "The homepage lists Kingdom Come: Deliverance, Prey, Star Citizen and the Sniper: Ghost Warrior series as showcased titles.", "url": "https://cryengine.com/"}
+    ]
+  },
+  {
+    "slug": "o3de", "name": "O3DE", "status": "verified", "drop_reason": "",
+    "site": "https://o3de.org/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "O3DE (Open 3D Engine) is an open source, community-driven 3D engine supported by the Open 3D Foundation.",
+    "platforms": "Cross Platform is listed as a feature; the homepage names no specific platforms and links to a Supported Platforms page.",
+    "pricing": "No pricing stated. The page promotes a donation option and membership through 'Become a Member'. The engine's software license is not named.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["High Fidelity", "Modular", "Inter-operable", "Cross Platform", "Community Driven", "Cloud Friendly"],
+    "notable": ["Latest release on the homepage: O3DE 26.05", "Robotics support includes integration with ROS, per the page"],
+    "logo_hint": "https://o3de.org/wp-content/uploads/2024/09/o3de_mascot_nav_logo_sm.svg",
+    "facts": [
+      {"fact": "O3DE is described on its homepage as an open source, community-driven and continuously evolving 3D engine.", "url": "https://o3de.org/"},
+      {"fact": "The homepage credits the Open 3D Foundation, with the Linux Foundation running the site's policies.", "url": "https://o3de.org/"},
+      {"fact": "The homepage names O3DE 26.05 as the latest release, announced as now available.", "url": "https://o3de.org/"},
+      {"fact": "The homepage states no pricing and promotes donations and membership through 'Become a Member'.", "url": "https://o3de.org/"}
+    ]
+  },
+  {
+    "slug": "bevy", "name": "Bevy", "status": "verified", "drop_reason": "",
+    "site": "https://bevy.org/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Bevy is a data-driven game engine built in Rust.",
+    "platforms": "Windows, macOS, Linux, Web, iOS and Android.",
+    "pricing": "Free. The page states there are no contracts, license fees or sales cuts, and lists optional monthly donor tiers from $25 to $6,000 per month.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["Bevy ECS", "2D Renderer", "3D Renderer", "Render Graph", "Animation", "Bevy UI", "Scenes", "Hot Reloading"],
+    "notable": ["Dual-licensed under MIT or Apache 2.0", "Compile times of 0.8 to 3.0 seconds with the fast compiles configuration, per the page"],
+    "logo_hint": "https://bevy.org/assets/bevy_logo_dark.svg",
+    "facts": [
+      {"fact": "Bevy is described on its homepage as 'A refreshingly simple data-driven game engine built in Rust'.", "url": "https://bevy.org/"},
+      {"fact": "The homepage says Bevy is open source under the permissive MIT or Apache 2.0 licenses.", "url": "https://bevy.org/"},
+      {"fact": "The homepage states there are no contracts, license fees or sales cuts, and lists optional donor tiers from $25 to $6,000 per month.", "url": "https://bevy.org/"},
+      {"fact": "The homepage lists Windows, macOS, Linux, Web, iOS and Android as targets.", "url": "https://bevy.org/"}
+    ]
+  },
+  {
+    "slug": "fyrox", "name": "Fyrox", "status": "verified", "drop_reason": "",
+    "site": "https://fyrox.rs/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Fyrox is a feature-rich game engine built in Rust, per its homepage title.",
+    "platforms": "Not stated on the homepage.",
+    "pricing": "Not stated on the homepage; it links to a sponsor page with no pricing details.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": [],
+    "notable": ["Homepage footer reads 'Fyrox Engine 2019 - 2026'"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "Fyrox's homepage describes it as 'A feature-rich game engine built in Rust'.", "url": "https://fyrox.rs/"},
+      {"fact": "The homepage footer reads 'Fyrox Engine 2019 - 2026'.", "url": "https://fyrox.rs/"},
+      {"fact": "The homepage states no license or pricing; it links to a sponsor page.", "url": "https://fyrox.rs/"}
+    ]
+  },
+  {
+    "slug": "wonderland-engine", "name": "Wonderland Engine", "status": "verified", "drop_reason": "",
+    "site": "https://wonderlandengine.com/", "company": "Wonderland GmbH", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Wonderland Engine is a next-generation 3D engine for the web, used for configurators, visualizations and interactive 3D and XR experiences in the browser.",
+    "platforms": "Desktop, tablet, phone and VR headsets from a single build; iOS Safari; designed for WebXR.",
+    "pricing": "Teams can 'start with a free license' and there is a Get started free option; the Pricing page is linked but no plan names or prices appear in the page text.",
+    "pricing_model": "", "free_plan": "Free plan",
+    "key_features": ["Instant delivery via shareable URL", "Multi-device support including VR headsets", "C++ compiled to WebAssembly", "Visual editor with live reload", "Automatic asset optimization", "TypeScript development"],
+    "notable": ["Latest release listed: Wonderland Engine 1.6.1 (April 23, 2026)", "Morgan Motor Company case study reports $0 per-user server costs"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "Wonderland Engine is described on its homepage as a next-generation 3D engine for the web, used to build interactive 3D and XR experiences.", "url": "https://wonderlandengine.com/"},
+      {"fact": "The homepage says teams can start with a free license and offers a Get started free option; no plan prices are shown.", "url": "https://wonderlandengine.com/"},
+      {"fact": "The homepage lists the latest release as Wonderland Engine 1.6.1, dated April 23, 2026.", "url": "https://wonderlandengine.com/"},
+      {"fact": "The homepage says the engine code is built in C++ and compiled to WebAssembly.", "url": "https://wonderlandengine.com/"}
+    ]
+  },
+  {
+    "slug": "needle-engine", "name": "Needle Engine", "status": "verified", "drop_reason": "",
+    "site": "https://needle.tools/", "company": "Needle Tools GmbH", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Needle Engine is a tool for shipping interactive 3D to the web from Unity, Blender or code, with no app store or install needed.",
+    "platforms": "Unity, Blender and three.js (as a Web Component); integrations for SvelteKit, Vue/Nuxt, React and plain HTML/JavaScript; content hosted on Needle Cloud.",
+    "pricing": "Free for personal projects. Go Pro for commercial use. The homepage links to a pricing page with no figures.",
+    "pricing_model": "Freemium", "free_plan": "Free plan",
+    "key_features": ["FastHDR environment lighting", "Interactive AR and VR", "Lightmaps", "Shader Graph export", "Automatic optimization and compression", "PBR materials and MaterialX"],
+    "notable": ["Free for personal projects; Go Pro is needed for commercial use", "Homepage claims thousands of spatial websites are powered by Needle"],
+    "logo_hint": "https://needle.tools/assets/needle-logo-black.DKGPMr0D.svg",
+    "facts": [
+      {"fact": "Needle Engine is described on its homepage as a tool for shipping interactive 3D to the web from Unity, Blender or code.", "url": "https://needle.tools/"},
+      {"fact": "The homepage says it is free for personal projects and asks users to go Pro for commercial use; no prices are shown.", "url": "https://needle.tools/"},
+      {"fact": "The homepage lists Unity, Blender and three.js as sources, with integrations for SvelteKit, Vue/Nuxt, React and plain HTML/JavaScript.", "url": "https://needle.tools/"},
+      {"fact": "The homepage claims FastHDR loads 10 times faster than EXR.", "url": "https://needle.tools/"}
+    ]
+  },
+  {
+    "slug": "babylon-js", "name": "Babylon.js", "status": "verified", "drop_reason": "",
+    "site": "https://www.babylonjs.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Babylon.js is a web rendering engine whose stated mission is to be one of the most powerful open web rendering engines.",
+    "platforms": "The web and WebGPU; the homepage also lists Babylon Native Runtime, Babylon React Native and a desktop Babylon.js Editor.",
+    "pricing": "Not stated on the homepage; the homepage states no license either.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Clustered Lighting", "Textured Area Lights", "Gaussian Splat support", "Frame Graph", "Dynamic IBL Shadows", "Physically Based Atmosphere"],
+    "notable": ["Homepage welcomes readers to Babylon.js 9.0", "Babylon.js Lite is listed as coming June 17, 2026"],
+    "logo_hint": "https://www.babylonjs.com/assets/img/BabylonIdentity.svg",
+    "facts": [
+      {"fact": "Babylon.js is described on its homepage as a web rendering engine with the mission of being one of the most powerful open web rendering engines.", "url": "https://www.babylonjs.com/"},
+      {"fact": "The homepage welcomes readers to Babylon.js 9.0.", "url": "https://www.babylonjs.com/"},
+      {"fact": "The homepage lists Babylon Native Runtime, Babylon React Native and a desktop Babylon.js Editor.", "url": "https://www.babylonjs.com/"},
+      {"fact": "The homepage does not state a license or pricing.", "url": "https://www.babylonjs.com/"}
+    ]
+  },
+  {
+    "slug": "three-js", "name": "Three.js", "status": "verified", "drop_reason": "",
+    "site": "https://threejs.org/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Three.js is a JavaScript 3D library, per its homepage title.",
+    "platforms": "Not stated on the homepage.",
+    "pricing": "Not stated on the homepage; no license is stated either.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": [],
+    "notable": ["Homepage header links to version r187 on GitHub releases", "Source is on GitHub at mrdoob/three.js"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "Three.js is titled on its homepage as a JavaScript 3D Library.", "url": "https://threejs.org/"},
+      {"fact": "The homepage header links to version r187 on GitHub releases.", "url": "https://threejs.org/"},
+      {"fact": "The homepage links to the mrdoob/three.js GitHub repository.", "url": "https://threejs.org/"},
+      {"fact": "The homepage states no license or pricing.", "url": "https://threejs.org/"}
+    ]
+  },
+  {
+    "slug": "roblox-studio", "name": "Roblox Studio", "status": "verified", "drop_reason": "",
+    "site": "https://create.roblox.com/", "company": "Roblox Corporation", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Roblox Studio is Roblox's creation tool; the creator documentation covers building experiences and working with Studio. The docs page does not define Studio in one sentence.",
+    "platforms": "Not stated on the docs page.",
+    "pricing": "Pricing and DevEx or revenue-share terms are not stated on the docs page.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Build experiences", "AI-accelerated creation", "Engine API reference", "Connect tools with MCP", "File-based workflows", "Work with Blender"],
+    "notable": ["Docs include a For Agents section with documentation, Engine API and Cloud API indexes"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "The Roblox creator documentation at create.roblox.com/docs has topics including Build experiences and Work with Studio.", "url": "https://create.roblox.com/docs"},
+      {"fact": "The docs page includes topics for Work with Blender and Connect tools with MCP.", "url": "https://create.roblox.com/docs"},
+      {"fact": "The docs page footer reads ©2026 Roblox Corporation.", "url": "https://create.roblox.com/docs"},
+      {"fact": "The docs page does not state pricing or revenue share terms.", "url": "https://create.roblox.com/docs"}
+    ]
+  },
+  {
+    "slug": "unreal-editor-for-fortnite", "name": "Unreal Editor for Fortnite", "status": "dropped",
+    "drop_reason": "vendor pages could not be read: fortnite.com/creative returned HTTP 403, and the dev.epicgames.com UEFN docs page returned no page text",
+    "site": "", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "logo_hint": "", "facts": []
+  },
+  {
+    "slug": "raylib", "name": "raylib", "status": "verified", "drop_reason": "",
+    "site": "https://raylib.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "raylib is a simple and easy-to-use library for videogame programming.",
+    "platforms": "Windows, Linux, macOS, FreeBSD, Raspberry Pi, Android and HTML5; the page says it runs on any platform that supports C and OpenGL or similar.",
+    "pricing": "Free and open source; optional donations via GitHub Sponsors, Patreon, Ko-fi and others. The license name is not given in the page text.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["No external dependencies", "Hardware-accelerated OpenGL rendering", "Fonts module", "3D support with skeletal animation", "Shader support", "Audio loading and streaming"],
+    "notable": ["Written in plain C (C99)", "Homepage lists awards: Google Open Source Peer Bonus (2019), Epic MegaGrant (Fall 2020), NLnet NGI Zero (2025)"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "raylib is described on its homepage as a simple and easy-to-use library to enjoy videogames programming.", "url": "https://raylib.com/"},
+      {"fact": "The homepage says raylib is free and open source and links to a LICENSE page without naming the license in the page text.", "url": "https://raylib.com/"},
+      {"fact": "The homepage lists supported platforms including Windows, Linux, macOS, FreeBSD, Raspberry Pi, Android and HTML5.", "url": "https://raylib.com/"},
+      {"fact": "The homepage lists the awards Google Open Source Peer Bonus (2019), Epic MegaGrant (Fall 2020) and NLnet NGI Zero (2025).", "url": "https://raylib.com/"}
+    ]
+  },
+  {
+    "slug": "stride", "name": "Stride", "status": "verified", "drop_reason": "",
+    "site": "https://stride3d.net/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Stride is a free and open-source cross-platform C# game engine for 2D and 3D games and other interactive content on desktop and VR.",
+    "platforms": "Desktop and VR named as targets; Vulkan and Direct3D 12 support; C# 14 scripting on .NET 10.",
+    "pricing": "Free. The MIT license covers the editor and runtime source code, per the homepage; an Open Collective donation option is linked.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["Next-gen graphics API support", "Photorealistic rendering and VR readiness", "Multi-threaded", "Built-in game templates", "Full asset creation toolchain", "Flexible rendering pipeline"],
+    "notable": ["Stride 4.4 announced October 9, 2026, with a Vulkan and Direct3D 12 rewrite and Native AOT support", "Supported by the .NET Foundation"],
+    "logo_hint": "https://stride3d.net/images/svg/stride-logo-light.svg",
+    "facts": [
+      {"fact": "Stride is described on its homepage as a free and open-source cross-platform C# game engine.", "url": "https://stride3d.net/"},
+      {"fact": "The homepage states the editor and runtime source code are MIT licensed.", "url": "https://stride3d.net/"},
+      {"fact": "The homepage announces Stride 4.4, dated October 9, 2026, with a Vulkan and Direct3D 12 rewrite and Native AOT support.", "url": "https://stride3d.net/"},
+      {"fact": "The homepage says Stride is supported by the .NET Foundation.", "url": "https://stride3d.net/"}
+    ]
+  },
+  {
+    "slug": "gb-studio", "name": "GB Studio", "status": "verified", "drop_reason": "",
+    "site": "https://gbstudio.dev/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "GB Studio is a quick and easy drag-and-drop creator for retro Game Boy games.",
+    "platforms": "Windows, Mac and Linux; exports real Game Boy ROM files and web builds with mobile controls.",
+    "pricing": "No price stated. The page links to a download on Itch.io and to Patreon for supporting development.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Drag-and-drop visual scripting", "Built-in debugger", "Multiple game types", "Music tools with piano roll and tracker modes", "Build ROMs", "Export for web with mobile controls"],
+    "notable": ["Homepage claims over 1000 games made with GB Studio", "Copyright line names Chris Maltby, 2026"],
+    "logo_hint": "https://gbstudio.dev/img/icon.png",
+    "facts": [
+      {"fact": "GB Studio is described on its homepage as a quick and easy drag-and-drop retro game creator for handheld video game systems.", "url": "https://gbstudio.dev/"},
+      {"fact": "The homepage says GB Studio is available on Windows, Mac and Linux.", "url": "https://gbstudio.dev/"},
+      {"fact": "The homepage says you can create real ROM files to play on any Game Boy emulator, and export for web.", "url": "https://gbstudio.dev/"},
+      {"fact": "The homepage links to a download on Itch.io and to Patreon for supporting development; no price is stated.", "url": "https://gbstudio.dev/"}
+    ]
+  },
+  {
+    "slug": "rpg-maker", "name": "RPG Maker", "status": "verified", "drop_reason": "",
+    "site": "https://www.rpgmakerofficial.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "RPG Maker is an official series of tools for making role-playing games; the site lists MZ, MV, RPG Tsukuru U2U, UNITE and ACTION GAME MAKER.",
+    "platforms": "The site says RPG Tsukuru U2U has a Steam store page and WITH is optimized for home game consoles; UNITE runs on Unity and ACTION GAME MAKER is built on Godot Engine.",
+    "pricing": "No prices are listed on the page for any product, including MZ and MV. A trial section exists; a P2D map editor trial for U2U was released 2026.10.20.",
+    "pricing_model": "", "free_plan": "Free trial",
+    "key_features": ["3D character converter", "Pixel scaler", "P2D map editor", "TilesetBuilder", "ISEKAI CREATORS asset collection", "Official DLC"],
+    "notable": ["RPG Tsukuru U2U is set for release January 28, 2027 (announced 2026.11.17)", "TilesetBuilder was released 2026.07.24"],
+    "logo_hint": "https://www.rpgmakerofficial.com/wp-content/themes/official/assets/img/common/logo.png",
+    "facts": [
+      {"fact": "The official RPG Maker site lists MZ and MV among its products, with no prices shown for any product on the page.", "url": "https://www.rpgmakerofficial.com/"},
+      {"fact": "The site says RPG Tsukuru U2U has a Steam store page published 2026.08.27 and a P2D map editor trial released 2026.10.20.", "url": "https://www.rpgmakerofficial.com/"},
+      {"fact": "The site says UNITE runs on Unity and ACTION GAME MAKER is built on Godot Engine.", "url": "https://www.rpgmakerofficial.com/"},
+      {"fact": "The site says RPG Tsukuru U2U is set for release on January 28, 2027.", "url": "https://www.rpgmakerofficial.com/"}
+    ]
+  },
+  {
+    "slug": "playfab", "name": "PlayFab", "status": "verified", "drop_reason": "",
+    "site": "https://playfab.com/", "company": "Microsoft", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "PlayFab is a set of backend services for live games that connects players across platforms, part of Microsoft's gaming ecosystem.",
+    "platforms": "Unreal and Unity SDKs plus language support for custom engines; PC, console, mobile and streaming; integrations with Xbox, Steam, PlayStation 4 and 5, Nintendo Switch, App Store and Google Play.",
+    "pricing": "A free-to-start tier at no additional cost; pay-as-you-go as games scale, with no dollar figures on the page. Development Mode is free to evaluate, limited to 1,000 lifetime player account creations and 10 titles per account.",
+    "pricing_model": "Usage-based", "free_plan": "Free plan",
+    "key_features": ["Community", "Identity", "Multiplayer", "Player Progression", "Game Data Stream", "Economy, Monetization and UGC", "Live Service Management"],
+    "notable": ["Page lists Minecraft, Forza Horizon 5, Sea of Thieves and Street Fighter 6 as running on PlayFab", "Development Mode limit: 1,000 lifetime player account creations per title"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "PlayFab is described on the Microsoft product page as complete backend services for live games, connecting players wherever they want to play.", "url": "https://developer.microsoft.com/en-us/games/products/playfab/"},
+      {"fact": "The page says PlayFab is part of Microsoft's Gaming ecosystem.", "url": "https://developer.microsoft.com/en-us/games/products/playfab/"},
+      {"fact": "The page says PlayFab offers a free-to-start tier at no additional cost, with pay-as-you-go pricing as games scale and no dollar figures shown.", "url": "https://developer.microsoft.com/en-us/games/products/playfab/"},
+      {"fact": "The page limits Development Mode to 1,000 lifetime player account creations per title and 10 titles per account.", "url": "https://developer.microsoft.com/en-us/games/products/playfab/"}
+    ]
+  },
+  {
+    "slug": "accelbyte", "name": "AccelByte", "status": "verified", "drop_reason": "",
+    "site": "https://accelbyte.io/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "AccelByte is a multiplatform game backend as a service that provides modular online services for game developers.",
+    "platforms": "Windows, PlayStation, Xbox, Android, Apple, Nintendo Switch and Linux; 15+ platform integrations; Unity, Unreal and other engines.",
+    "pricing": "'Start building for free'; the first 30 CCU are free during development; no monthly platform fee on Public Cloud after the trial; usage-based pricing that scales with peak concurrent players. The page gives an estimate of about $350 per month for 50,000 monthly players with peak concurrency of about 500, labeled as an estimate.",
+    "pricing_model": "Usage-based", "free_plan": "Free trial",
+    "key_features": ["Player Accounts", "Cloud Save", "Achievements", "Leaderboards", "Matchmaking", "Game Sessions", "Entitlements", "Multiplayer Servers"],
+    "notable": ["Claims 120+ studios and 250+ titles live or in production", "Named customers include 2K, Krafton, SNK and Telltale Games"],
+    "logo_hint": "https://accelbyte.io/_astro/logo-ab.DA1UM5fG_1w63k6.svg",
+    "facts": [
+      {"fact": "AccelByte describes itself on the homepage as a multiplatform game backend that provides modular online services for game developers.", "url": "https://accelbyte.io/"},
+      {"fact": "The homepage says the first 30 CCU are free during development and there is no monthly platform fee on Public Cloud after the trial.", "url": "https://accelbyte.io/"},
+      {"fact": "The homepage says pricing is usage-based and scales with peak concurrent players, with an estimate of about $350 per month for 50,000 monthly players, labeled as an estimate.", "url": "https://accelbyte.io/"},
+      {"fact": "The homepage lists Windows, PlayStation, Xbox, Android, Apple, Nintendo Switch and Linux, with 15+ platform integrations.", "url": "https://accelbyte.io/"}
+    ]
+  },
+  {
+    "slug": "pragma", "name": "Pragma", "status": "verified", "drop_reason": "",
+    "site": "https://pragma.gg/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Pragma is a modern publishing tools platform for game studios, with a Backend Engine and live operations tools.",
+    "platforms": "Integrations with Discord, Twitch and other providers; no platforms or SDKs named on the homepage.",
+    "pricing": "The homepage has a Pricing link and a Get started button pointing to /pricing; it states no price amounts and no free tier.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Authentication and social", "Orders and monetization", "Telemetry", "Admin dashboards", "Live operations", "Player data"],
+    "notable": ["Homepage claims more than 50% of top PC and console studios", "Case studies include Gardens, People Can Fly and Omeda"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "Pragma's homepage describes it as a modern publishing tools platform for game studios.", "url": "https://pragma.gg/"},
+      {"fact": "The homepage describes its Backend Engine as 'The game industry's leading backend'.", "url": "https://pragma.gg/"},
+      {"fact": "The homepage has a Pricing link but states no price amounts and no free tier.", "url": "https://pragma.gg/"},
+      {"fact": "The homepage claims more than 50% of top PC and console studios as users.", "url": "https://pragma.gg/"}
+    ]
+  },
+  {
+    "slug": "nakama", "name": "Nakama", "status": "verified", "drop_reason": "",
+    "site": "https://heroiclabs.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Nakama is a popular scalable open source game backend for building social multiplayer games.",
+    "platforms": "Apple, Android, Steam, PlayStation, Xbox, Nintendo, HTML5, Microsoft Windows, Apple Vision Pro, Microsoft HoloLens and Oculus listed as devices; server customization in JavaScript, Go and Lua.",
+    "pricing": "No explicit pricing or free-tier wording; the page has a Pricing link and a 'Download and Install Nakama OSS' option. No license name is given.",
+    "pricing_model": "Open source", "free_plan": "Open source",
+    "key_features": ["Add social gameplay", "Build rich multiplayer experiences", "Grow competitive communities", "Customise with JavaScript, Go and Lua"],
+    "notable": ["Homepage claims 15m+ SDK downloads and 2m+ peak CCU", "Homepage lists Electronic Arts, Paradox Interactive, Remedy, Zynga, Halfbrick, Bandai Namco and Mattel as trusted by", "Footer shows a SOC 2 Type II Certified badge"],
+    "logo_hint": "https://heroiclabs.com/images/brand/Nakama.e0f2609d288d494df7ebc78e4173c0bbbc626c31fffe00f549fb26663bc29d52.svg",
+    "facts": [
+      {"fact": "Nakama is described on its homepage as a popular scalable open source game backend for building social multiplayer games.", "url": "https://heroiclabs.com/"},
+      {"fact": "The homepage offers 'Download and Install Nakama OSS'; it names no license and no price.", "url": "https://heroiclabs.com/"},
+      {"fact": "The homepage lists Electronic Arts, Paradox Interactive, Remedy, Zynga, Halfbrick, Bandai Namco and Mattel as trusted by.", "url": "https://heroiclabs.com/"},
+      {"fact": "The homepage claims 15m+ SDK downloads, $5b+ annual games revenue and 2m+ peak CCU.", "url": "https://heroiclabs.com/"}
+    ]
+  },
+  {
+    "slug": "beamable", "name": "Beamable", "status": "verified", "drop_reason": "",
+    "site": "https://beamable.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Beamable is a game server and LiveOps platform for Web2 and Web3 games that replaces custom backend work with hosted services.",
+    "platforms": "Native Unity and Unreal SDKs; Web3 integration mentioned.",
+    "pricing": "'Start for Free' links to the pricing page, with no plan prices listed. Trial usage is described as up to 1,000,000 free API calls (the page prints '1000,000'). LaunchPad is a $2,500 credit program.",
+    "pricing_model": "", "free_plan": "Free trial",
+    "key_features": ["Serverless game APIs", "Private Cloud", "Co-Dev Services", "Beamable Network", "Built-in AI automation"],
+    "notable": ["Homepage claims scalability from 100 players to 10 million", "Beamable LaunchPad is a $2,500 credit program for backend setup"],
+    "logo_hint": "https://beamable.com/wp-content/uploads/2021/11/beamable-logo.svg",
+    "facts": [
+      {"fact": "Beamable describes itself on the homepage as a game server and LiveOps platform for Web2 and Web3 games that replaces custom backend work with hosted services.", "url": "https://beamable.com/"},
+      {"fact": "The homepage offers Start for Free with a link to the pricing page, and no plan prices are listed.", "url": "https://beamable.com/"},
+      {"fact": "The homepage describes trial usage with up to 1,000,000 free API calls; the page prints the figure as 1000,000.", "url": "https://beamable.com/"},
+      {"fact": "The homepage describes Beamable LaunchPad as a $2,500 credit program to accelerate backend setup.", "url": "https://beamable.com/"}
+    ]
+  },
+  {
+    "slug": "unity-gaming-services", "name": "Unity Gaming Services", "status": "verified", "drop_reason": "",
+    "site": "https://unity.com/solutions/gaming-services", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Unity's gaming services are LiveOps tools for post-launch insights and live game operations; the page calls them Unity Live Services and does not use the name Unity Gaming Services.",
+    "platforms": "The page does not list specific platforms; a navigation item mentions 25+ platforms Unity supports without naming them.",
+    "pricing": "A 'Get started for free' button and a View Pricing link are shown; the page gives no prices, figures or tier details.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Cloud Code", "Cloud Save", "Diagnostics", "Game Overrides", "A/B Testing", "Cloud Content Delivery", "Push Notifications", "Authentication"],
+    "notable": ["Case studies cited: Subway Surfers, MARVEL SNAP, Warhammer 40k: Warpforge and Power Rangers Mighty Force", "The page does not mention Multiplay or Matchmaker"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "The page presents Unity's LiveOps services, called Unity Live Services, as tools for post-launch insights and live game operations.", "url": "https://unity.com/solutions/gaming-services"},
+      {"fact": "The page lists achievements, player sign-in, leaderboards, IAP, Cloud Code, Cloud Save, Authentication, Analytics, A/B testing, Diagnostics, Cloud Content Delivery, Game Overrides and Push Notifications.", "url": "https://unity.com/solutions/gaming-services"},
+      {"fact": "The page says Get started for free and links to a View Pricing page, with no figures shown.", "url": "https://unity.com/solutions/gaming-services"},
+      {"fact": "The page cites Subway Surfers, MARVEL SNAP, Warhammer 40k: Warpforge and Power Rangers Mighty Force as live game case studies.", "url": "https://unity.com/solutions/gaming-services"}
+    ]
+  },
+  {
+    "slug": "epic-online-services", "name": "Epic Online Services", "status": "dropped",
+    "drop_reason": "vendor site could not be opened: dev.epicgames.com and dev.epicgames.com/en-US/services both returned HTTP 403",
+    "site": "", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "logo_hint": "", "facts": []
+  },
+  {
+    "slug": "lootlocker", "name": "LootLocker", "status": "verified", "drop_reason": "",
+    "site": "https://lootlocker.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "LootLocker is a player platform that helps game publishers own their player relationships, the content players collect and the live systems that support their games.",
+    "platforms": "The page links to an SDK page, an API reference and developer docs but names no specific platforms, engines or SDK languages.",
+    "pricing": "'Free to start'; the page links to a pricing page with no figures or free-tier details.",
+    "pricing_model": "Freemium", "free_plan": "Free plan",
+    "key_features": ["Player Accounts", "Player CRM", "Playtesting", "Progression and content", "Live Operations", "Community and feedback", "Commerce and player economy"],
+    "notable": ["Homepage claims to power 10,000+ live games", "Named publishers include Team17, Astragon Entertainment, Digital Bandidos and Fast Travel Games"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "LootLocker describes itself on the homepage as a player platform that helps publishers own their player relationships, content and live systems.", "url": "https://lootlocker.com/"},
+      {"fact": "The homepage says 'Free to start' and links to a pricing page with no figures.", "url": "https://lootlocker.com/"},
+      {"fact": "The homepage claims to power 10,000+ live games from publishers including Team17, Astragon Entertainment and Fast Travel Games.", "url": "https://lootlocker.com/"},
+      {"fact": "The homepage positions the product across three areas: Connect, Engage and Reward.", "url": "https://lootlocker.com/"}
+    ]
+  },
+  {
+    "slug": "metaplay", "name": "Metaplay", "status": "verified", "drop_reason": "",
+    "site": "https://metaplay.io/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Metaplay is a complete backend platform for building and operating live service games.",
+    "platforms": "Server-side code in C#; the page links to Get the SDK and does not list client engines; a testimonial references Unity.",
+    "pricing": "Free: build with Metaplay and run your game locally (Start Free). Pro: deploy to the cloud and publish to players (Choose Plan), no price listed. Enterprise: self-hosting at scale (Contact Us).",
+    "pricing_model": "Freemium", "free_plan": "Free plan",
+    "key_features": ["Server-authoritative C#", "Ships as full source code", "Built-in LiveOps (A/B testing, OTA configs, segments, offers)", "LiveOps dashboard", "Metaplay AI and Agent", "Portal MCP"],
+    "notable": ["Homepage says the platform is production-proven by Supercell, Metacore, Trailmix and Lessmore", "Ships as full source code"],
+    "logo_hint": "https://metaplay.io/metaplay_logo_white.svg",
+    "facts": [
+      {"fact": "Metaplay describes itself on its homepage as a complete backend platform for building and operating live service games.", "url": "https://metaplay.io/"},
+      {"fact": "The homepage lists a Free tier for building and running a game locally, a Pro tier for cloud deployment with no price shown, and an Enterprise tier for self-hosting.", "url": "https://metaplay.io/"},
+      {"fact": "The homepage says the platform is production-proven by Supercell, Metacore, Trailmix and Lessmore.", "url": "https://metaplay.io/"},
+      {"fact": "The homepage says Metaplay ships as full source code.", "url": "https://metaplay.io/"}
+    ]
+  },
+  {
+    "slug": "steamworks", "name": "Steamworks", "status": "verified", "drop_reason": "",
+    "site": "https://partner.steamgames.com/", "company": "Valve", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Steamworks is Valve's set of tools and services for configuring, managing and operating games on Steam.",
+    "platforms": "Steam, with Steam VR, Steam Deck and Remote Play to phones, tablets and TVs mentioned.",
+    "pricing": "Joining requires filling out paperwork and paying a 'small per-app fee'. No revenue-share terms are given, and the page does not say whether Steamworks itself is free to use.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Steam Workshop", "Steam Input", "Inventory Service", "Microtransactions", "Matchmaking and lobbies", "Steam Playtest"],
+    "notable": ["Homepage claims 132 million monthly active users across 250 countries", "Joining requires a small per-app fee, per the page"],
+    "logo_hint": "https://partner.steamgames.com/public/images/steamworks_logo.png",
+    "facts": [
+      {"fact": "Steamworks is described on the vendor page as Valve's set of tools and services for configuring, managing and operating games on Steam.", "url": "https://partner.steamgames.com/"},
+      {"fact": "The page says joining requires paperwork and a small per-app fee, and gives no revenue-share terms.", "url": "https://partner.steamgames.com/"},
+      {"fact": "The page claims 132 million monthly active users across 250 countries.", "url": "https://partner.steamgames.com/"},
+      {"fact": "The page lists features including Steam Workshop, Steam Input, Inventory Service, Microtransactions, Matchmaking and lobbies, and Steam Playtest.", "url": "https://partner.steamgames.com/"}
+    ]
+  },
+  {
+    "slug": "firebase", "name": "Firebase", "status": "verified", "drop_reason": "",
+    "site": "https://firebase.google.com/", "company": "Google", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Firebase is a platform of services for building and running intelligent apps, with an emphasis on speed, security and scalability.",
+    "platforms": "Apple platforms, Android, Web, Flutter, Unity and C++.",
+    "pricing": "The homepage offers $300 in credit when you create a Billing Account, for services such as hosting and storage. No Spark or Blaze plan or free-tier figures are shown.",
+    "pricing_model": "", "free_plan": "Free trial",
+    "key_features": ["App Hosting", "SQL Connect", "Firebase AI Logic", "App Distribution", "Crashlytics", "Remote Config", "Genkit", "Extensions"],
+    "notable": ["Offers $300 in credit when creating a Billing Account", "Named users include NPR, Halfbrick, Duolingo and Venmo"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "Firebase is described on the homepage as a platform of services for building and running intelligent apps.", "url": "https://firebase.google.com/"},
+      {"fact": "The homepage says Firebase is backed by Google and its managed infrastructure is powered by Google Cloud.", "url": "https://firebase.google.com/"},
+      {"fact": "The homepage offers $300 in credit when you create a Billing Account, with no Spark or Blaze plan figures shown.", "url": "https://firebase.google.com/"},
+      {"fact": "The homepage lists SDK platforms including Apple, Android, Web, Flutter, Unity and C++.", "url": "https://firebase.google.com/"}
+    ]
+  },
+  {
+    "slug": "supabase", "name": "Supabase", "status": "verified", "drop_reason": "",
+    "site": "https://supabase.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Supabase is an open source backend platform built on Postgres for building web and mobile applications.",
+    "platforms": "Any Postgres client, driver or ORM; REST, GraphQL and Realtime APIs generated from the schema; TypeScript and Deno Edge Functions; Supabase CLI and an MCP server. No client SDK list on the page.",
+    "pricing": "No exact prices on the homepage. A Free plan exists; free-plan projects pause after 7 days of low activity, and paid-plan projects do not pause. Full pricing is at supabase.com/pricing.",
+    "pricing_model": "Freemium", "free_plan": "Free plan",
+    "key_features": ["Database", "Auth", "Storage", "Edge Functions", "Realtime", "Vector"],
+    "notable": ["Free-plan projects pause after 7 days of low activity, per the homepage", "Auth offers 20+ social sign-in providers, per the homepage"],
+    "logo_hint": "",
+    "facts": [
+      {"fact": "Supabase describes itself on the homepage as an open source backend platform built on Postgres.", "url": "https://supabase.com/"},
+      {"fact": "The homepage says a Free plan exists and that free-plan projects pause after 7 days of low activity, while projects on paid plans do not pause.", "url": "https://supabase.com/"},
+      {"fact": "The homepage says all core tools are open source and self-hostable, without naming a license.", "url": "https://supabase.com/"},
+      {"fact": "The homepage says Auth offers 20+ social sign-in providers and Storage is S3-compatible with a CDN in 285+ cities.", "url": "https://supabase.com/"}
+    ]
+  }
+]

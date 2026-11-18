@@ -1,0 +1,492 @@
+{
+  "slug": "best-live-production-software",
+  "name": "live production software",
+  "title": "Best Live Production Software in 2026",
+  "group": "Live streaming (business)",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Live production software switches between cameras, adds graphics and audio, and sends a finished show to a stream, for events, broadcasts and esports.",
+  "definition": "Live production software is the control room of a stream. It takes several inputs, such as cameras, screens and remote guests, lets an operator cut between them, adds titles and replays, mixes audio, and outputs one program feed to a platform or server. It can be a program on a computer or a hardware switcher.",
+  "intro": "An esports final or a hybrid conference needs more than a webcam and a Start button. Someone has to cut between cameras, bring in a remote commentator, show a score graphic and keep audio balanced, all while the stream is live. The tools that do this range from free software to broadcast hardware. This ranking is for tournament organizers, event teams and producers deciding what to run in the control room. We read each vendor's homepage, pricing page and product pages, compared platforms, prices, inputs and what is missing, and did not operate the software ourselves. Eleven products are ranked, and order reflects fit for events and esports crews rather than solo creators.",
+  "criteria": [
+    {
+      "heading": "Operating system and hardware",
+      "text": "Production software is tied to its machine. vMix runs only on Windows, Ecamm Live only on Mac, Wirecast on both, and OBS Studio on Windows, macOS and Linux. Hardware switchers such as ATEM sidestep the question. Check what your crew already owns, because a platform mismatch costs more than any subscription. We ranked cross-platform and hardware options above single-platform ones on this page."
+    },
+    {
+      "heading": "Inputs and remote guests",
+      "text": "A real show pulls in many sources: SDI or HDMI cameras, NDI over the network, SRT feeds, phones and remote guests. vMix lists NDI, SRT and video-call inputs; Wirecast lists remote guests; ATEM Constellation models go up to 80 inputs. We compared how many source types each product states and whether the producer can bring in a guest without extra software."
+    },
+    {
+      "heading": "Graphics and replay",
+      "text": "Scoreboards, lower thirds and instant replays are what make an esports broadcast read as professional. vMix includes a title designer and instant replay. Singular.live and Vizrt focus on graphics. OBS relies on browser sources and plugins. We weighed whether graphics and replay are built in, add-on, or a separate product, since that decides how many machines and operators you need."
+    },
+    {
+      "heading": "Price model",
+      "text": "Prices come three ways: free (OBS Studio, NDI Tools, Larix Broadcaster), subscription (Wirecast, Ecamm Live, vMix) and hardware purchase (ATEM). Subscriptions are cheap to start and expensive over years, and hardware is the reverse. Vizrt and LiveU do not publish prices. We recorded stated prices only and noted where amounts were not available to us."
+    }
+  ],
+  "market_notes": [
+    "Three products on this list are free to use: OBS Studio is open source, NDI Tools is a free download, and Larix Broadcaster is free. Three more sell subscriptions with published amounts: Wirecast from $34 per month billed yearly, Ecamm Live from $16 per month, and vMix from $50 per month. Four trials exist: vMix 60 days, Ecamm Live and Switcher Studio 14 days, and Wirecast with every feature included. Singular.live has a watermarked free tier. Vizrt, LiveU Studio and the ATEM page show no prices.",
+    "Platform lock-in is the pattern to notice. Windows-only vMix, Mac-only Ecamm Live and hardware-only ATEM each bind you to a kind of machine, while Wirecast and OBS are the two that run on both Windows and macOS (OBS also runs on Linux). Most professional crews combine tools: a switcher, a graphics service such as Singular.live, NDI Tools to link machines, and phones with Larix Broadcaster as extra cameras."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Count sources and operators first",
+      "text": "Write down how many cameras, screens and guests the show needs and how many people will operate. Two cameras and one operator fit Ecamm Live or OBS Studio. Eight sources with replay and graphics suggest vMix or an ATEM switcher with a graphics service. The number of sources sets the shortlist faster than any feature comparison."
+    },
+    {
+      "title": "Match the software to the machines you own",
+      "text": "If the crew uses Macs, rule out vMix. If the venue has a rack and technicians who like physical buttons, look at ATEM hardware. If your producers are on mixed laptops, Wirecast or OBS Studio are the cross-platform choices. Use the free trials, 60 days for vMix and the full-feature Wirecast trial, and rehearse the real show, not a demo."
+    },
+    {
+      "title": "Plan graphics and delivery before show day",
+      "text": "Decide where scoreboards and lower thirds come from, whether built in as in vMix, browser sources in OBS, or a service like Singular.live. Then decide where the program feed goes: a platform directly, or your own media server. Test the full chain with the same internet connection you will have at the venue, and keep a backup output ready."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best live production software in 2026?",
+      "a": "Wirecast is our top pick for event and esports crews because it runs on both Mac and Windows, supports unlimited cameras and remote guests, and publishes prices. Blackmagic ATEM is better if you want hardware in a fixed venue. vMix is better for a Windows crew that needs replay and a title designer."
+    },
+    {
+      "q": "Is OBS Studio good enough for an esports tournament?",
+      "a": "For many community events, yes: it is free, runs on Windows, macOS and Linux, and builds scenes from cameras, capture cards and browser windows. Larger productions with several operators, replays and vendor support often move to vMix or Wirecast. The choice depends on crew size, not just on features."
+    },
+    {
+      "q": "Does vMix work on Mac?",
+      "a": "No. The vendor describes it as live production software for Windows PCs. A Mac-based team can use Wirecast, which runs on Mac and Windows, or Ecamm Live, which is built for Mac. A Mac user who wants vMix would need a Windows computer."
+    },
+    {
+      "q": "How much does live production software cost?",
+      "a": "It ranges from free to hundreds of dollars a year. OBS Studio is free. Ecamm Live is listed at $16 or $32 per month, Wirecast Studio from $34 per month billed yearly, and vMix from $50 per month. ATEM hardware, Vizrt and LiveU Studio do not show prices on the pages we read."
+    },
+    {
+      "q": "Do I need hardware or software for switching?",
+      "a": "Software is cheaper to start and easier to update, but depends on the computer. Hardware switchers such as ATEM give physical buttons and stable operation in fixed venues. Many crews use both: a hardware switcher for cameras and software for graphics and streaming."
+    },
+    {
+      "q": "What is NDI and why does it matter?",
+      "a": "NDI is a way to send video between devices over a regular network, so a camera or computer can appear as an input in your mixer without special cables. NDI Tools provides free utilities for Windows and macOS. vMix lists NDI input, and Nimble Streamer also lists NDI among its protocols."
+    },
+    {
+      "q": "Where does the stream go after the production software?",
+      "a": "Either directly to a platform such as Twitch or YouTube, or to your own server for custom players and private events. See our ranking of streaming media servers for the second route, and the live streaming APIs ranking if you embed the stream in your own app."
+    }
+  ],
+  "related": [
+    "best-streaming-media-servers",
+    "best-live-streaming-apis-and-sdks",
+    "best-enterprise-live-streaming-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "wirecast",
+      "name": "Wirecast",
+      "site": "https://www.wirecast.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Cross-platform switcher with remote guests and multistreaming",
+      "best_for": "Event crews on Mac and Windows",
+      "pricing": "Studio is from $34 per month billed yearly ($408 per year) or $59 month to month; Pro is from $42 per month billed yearly.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Mac and Windows",
+      "features": [
+        "Multi-camera switching",
+        "Remote guests",
+        "Multistreaming",
+        "Free trial"
+      ],
+      "summary": "Wirecast runs on both Mac and Windows, takes unlimited cameras, brings in remote guests and prints its monthly prices.",
+      "verdict": "Wirecast leads because it removes two common blockers for a mixed team: it runs on Mac and Windows, and its prices are on the page. Studio is listed from $34 per month billed yearly ($408 per year) or $59 month to month, and Pro from $42 per month billed yearly. The vendor describes unlimited cameras, remote guests and multistreaming, and says the free trial includes every feature, so a producer can test the full product before paying. That fits an events company with some staff on laptops and others on a Windows rack.",
+      "weaknesses": "It is a subscription, so the cost continues every month or year, unlike buying a hardware switcher outright. The pages we read list no hardware control surface or built-in graphics designer. Monthly pricing is higher than OBS, which costs nothing.",
+      "wrong_for": "A volunteer-run tournament with no budget should use OBS Studio, which is free and open source.",
+      "sources": [
+        {
+          "fact": "Wirecast is live video streaming and broadcast software for Mac and Windows, with unlimited cameras, remote guests and multistreaming.",
+          "url": "https://www.wirecast.io/"
+        },
+        {
+          "fact": "The pricing page lists Wirecast Studio from $34/mo billed yearly ($408/yr) or $59 month to month, and Pro from $42/mo billed yearly.",
+          "url": "https://www.wirecast.io/pricing/"
+        },
+        {
+          "fact": "The pricing page states that the free trial includes every feature.",
+          "url": "https://www.wirecast.io/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "blackmagic-atem",
+      "name": "Blackmagic ATEM",
+      "site": "https://www.blackmagicdesign.com/products/atem",
+      "company": "",
+      "country": "",
+      "tagline": "Hardware production switchers from 1 M/E to 4 M/E",
+      "best_for": "Fixed venues and arenas needing hardware",
+      "pricing": "Hardware product; prices are not on the page, and ATEM Software Control is included.",
+      "pricing_model": "Hardware purchase",
+      "free_plan": "Unknown",
+      "platforms": "Hardware switchers with ATEM Software Control (per vendor page)",
+      "features": [
+        "DVEs",
+        "Advanced chroma key",
+        "Media players",
+        "Multi-views",
+        "SuperSource",
+        "Built-in audio mixer"
+      ],
+      "summary": "Blackmagic's ATEM Constellation line puts dedicated switcher hardware with up to 80 inputs behind a free control application.",
+      "verdict": "ATEM is the hardware answer. Blackmagic Design's Constellation line runs from 1 M/E models with 10 inputs up to a 4 M/E 4K Plus model with 80 inputs, and the vendor lists DVEs, advanced chroma key, media players, multi-views, SuperSource and a built-in audio mixer. The free ATEM Software Control is included and an ATEM Advanced Panel can be added for tactile control. For an arena crew or a venue that needs a switcher that does not crash with a desktop operating system, hardware is a calm choice.",
+      "weaknesses": "Hardware means a purchase, and prices are not on the page we opened. A switcher needs cabling, monitors and a place to put them, so it does not travel as light as software. It feeds a streaming encoder rather than streaming by itself.",
+      "wrong_for": "A solo streamer working from a laptop is better served by Ecamm Live or OBS Studio.",
+      "sources": [
+        {
+          "fact": "ATEM Constellation is Blackmagic Design's live production switcher line, offered in 1 M/E to 4 M/E models.",
+          "url": "https://www.blackmagicdesign.com/products/atemconstellation"
+        },
+        {
+          "fact": "The page lists models from 1 M/E with 10 inputs up to a 4 M/E 4K Plus model with 80 inputs.",
+          "url": "https://www.blackmagicdesign.com/products/atemconstellation"
+        },
+        {
+          "fact": "The page states that the free ATEM Software Control is included, with an optional ATEM Advanced Panel.",
+          "url": "https://www.blackmagicdesign.com/products/atemconstellation"
+        }
+      ]
+    },
+    {
+      "slug": "vmix",
+      "name": "vMix",
+      "site": "https://www.vmix.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Windows video mixer with NDI, SRT, replay and title designer",
+      "best_for": "Windows-based esports and event production",
+      "pricing": "Homepage shows purchase from $50 per month; a free 60-day trial is offered.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Windows",
+      "features": [
+        "Video mixing and switching",
+        "NDI input",
+        "SRT input",
+        "Instant replay",
+        "Video calls input",
+        "GT Title Designer"
+      ],
+      "summary": "vMix is a Windows video mixer with instant replay, NDI and SRT inputs and a title designer, with a 60-day trial.",
+      "verdict": "vMix describes itself as live production software and a video mixer and switcher for Windows PCs. Its feature list includes NDI input, SRT input, instant replay, video calls as an input and the GT Title Designer, which is what a tournament crew wants for replays and graphics from one machine. The homepage shows purchase from $50 per month and a free 60-day trial download, a long window to evaluate. It ranks third because it asks for Windows hardware while the first two do not.",
+      "weaknesses": "It is Windows only, so Mac-based crews cannot run it. The $50 per month figure is a starting point from the homepage, and a larger edition costs more. Performance depends on how powerful a PC you build for it.",
+      "wrong_for": "A Mac-based team should look at Wirecast or Ecamm Live.",
+      "sources": [
+        {
+          "fact": "vMix is a live streaming and live production software video mixer and switcher for Windows.",
+          "url": "https://www.vmix.com/"
+        },
+        {
+          "fact": "The homepage shows the purchase option from $50 per month.",
+          "url": "https://www.vmix.com/"
+        },
+        {
+          "fact": "The homepage offers a free 60-day trial download.",
+          "url": "https://www.vmix.com/"
+        }
+      ]
+    },
+    {
+      "slug": "obs-studio",
+      "name": "OBS Studio",
+      "site": "https://obsproject.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Free open source recording and streaming software",
+      "best_for": "Zero-budget crews and learners",
+      "pricing": "Free and open source software.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows 10 and 11, macOS 13 or newer, Linux",
+      "features": [
+        "Scenes with multiple sources",
+        "Window capture",
+        "Browser sources",
+        "Capture cards",
+        "H264/AAC encoding"
+      ],
+      "summary": "OBS Studio costs nothing, runs on Windows, macOS and Linux, and composes scenes from webcams, capture cards and browser windows.",
+      "verdict": "OBS is free and open source software for video recording and live streaming, and the homepage lists Windows 10 and 11, macOS 13.0 or newer and Linux. Scenes can combine window captures, browser windows, webcams and capture cards, which covers a surprising range of productions. For a community tournament or a streamer learning the craft, the lack of a license fee is decisive. It sits fourth because multi-operator control and replay need add-ons.",
+      "weaknesses": "The pages we read describe no built-in replay, remote guest feature or vendor support, so you rely on community resources and plugins. Multi-camera events with several operators can outgrow it. Setup takes time because it offers few guided workflows.",
+      "wrong_for": "A production crew that wants vendor support and a bundled replay should consider vMix or Wirecast.",
+      "sources": [
+        {
+          "fact": "OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage says OBS supports Windows 10 and Windows 11, macOS 13.0 or newer, and Linux.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage describes scenes made of multiple sources including window captures, browser windows, webcams and capture cards.",
+          "url": "https://obsproject.com/"
+        }
+      ]
+    },
+    {
+      "slug": "vizrt",
+      "name": "Vizrt",
+      "site": "https://www.vizrt.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Real-time 3D graphics and live production systems",
+      "best_for": "Broadcast studios with graphics-heavy shows",
+      "pricing": "Pricing is not stated on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Software and live production systems (per vendor page)",
+      "features": [
+        "Real-time 3D graphics",
+        "Live production systems",
+        "Studio automation"
+      ],
+      "summary": "Vizrt provides software-defined real-time 3D graphics, live production systems and studio automation for broadcasters.",
+      "verdict": "Vizrt says it provides software-defined visual storytelling, including real-time 3D graphics, live production systems and studio automation tools, and its homepage title calls it real-time graphics and live production software. That points to television-style productions with virtual sets and complex graphics, not a two-camera meetup. It earns fifth place because the scale is larger than most readers of this page need, but a broadcaster building a studio will find it relevant.",
+      "weaknesses": "No price appears on the homepage, and the page does not list system requirements or entry-level options. It is positioned for professional studios, so a small crew will find the reach and cost out of proportion to their show.",
+      "wrong_for": "A small team that wants simple graphics should try Singular.live, which has a free tier.",
+      "sources": [
+        {
+          "fact": "Vizrt provides software-defined visual storytelling solutions, including real-time 3D graphics, live production systems and studio automation tools.",
+          "url": "https://www.vizrt.com/"
+        },
+        {
+          "fact": "The homepage title describes Vizrt as real-time graphics and live production software.",
+          "url": "https://www.vizrt.com/"
+        },
+        {
+          "fact": "Pricing is not stated on the homepage.",
+          "url": "https://www.vizrt.com/"
+        }
+      ]
+    },
+    {
+      "slug": "singular-live",
+      "name": "Singular.live",
+      "site": "https://www.singular.live/",
+      "company": "",
+      "country": "",
+      "tagline": "Browser-based live graphics and overlays",
+      "best_for": "Esports overlays and lower thirds",
+      "pricing": "A free tier carries a watermark; Professional and Enterprise plans exist, with amounts on the pricing page.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Web-based (per vendor page)",
+      "features": [
+        "Free access with watermark",
+        "Professional plan",
+        "Enterprise plan with SSO"
+      ],
+      "summary": "Singular.live is a web graphics platform for broadcast and esports with a watermarked free tier and an Enterprise plan with SSO.",
+      "verdict": "Singular.live focuses on one job: live graphics. It describes a live graphics platform for productions, with a free tier that carries a watermark, a Professional plan for small productions, and an Enterprise plan with scalability and SSO. A tournament organizer can try overlays without paying and upgrade when the watermark must go. It is not a switcher, so it complements one of the tools above instead of replacing them.",
+      "weaknesses": "It does not switch cameras or encode a stream by itself. Prices are on the pricing page but were not captured by us, so confirm current amounts. The free watermark limits it to tests and rehearsals.",
+      "wrong_for": "If you want one product that mixes cameras and graphics, use vMix or Wirecast.",
+      "sources": [
+        {
+          "fact": "Singular.live is a live graphics platform for productions, with a free tier that carries a watermark.",
+          "url": "https://www.singular.live/"
+        },
+        {
+          "fact": "The homepage links to a pricing page with Free, Professional (for small productions) and Enterprise (scalability and SSO) tiers.",
+          "url": "https://www.singular.live/"
+        },
+        {
+          "fact": "The pricing page is titled Singular.live Pricing; amounts are not captured in this fact set.",
+          "url": "https://www.singular.live/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "ndi-tools",
+      "name": "NDI Tools",
+      "site": "https://ndi.video/tools/",
+      "company": "",
+      "country": "",
+      "tagline": "Free NDI utilities for moving video over a network",
+      "best_for": "Linking computers and cameras on one network",
+      "pricing": "Downloadable from the vendor page, which shows no prices.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows and macOS",
+      "features": [
+        "Discovery",
+        "Studio Monitor",
+        "NDI Free Audio",
+        "Discovery Service"
+      ],
+      "summary": "NDI Tools bundles free utilities such as Discovery, Studio Monitor and NDI Free Audio for Windows and macOS.",
+      "verdict": "NDI Tools is a free download that helps set up, test and manage NDI streams on Windows and macOS. The vendor page lists Discovery, Studio Monitor and NDI Free Audio, and the NDI inputs in mixers like vMix depend on this kind of tooling. For a crew with several computers and cameras on one network, it turns separate machines into one production chain. It is a support tool rather than a switcher, so it lands in the middle.",
+      "weaknesses": "It does not switch, mix or stream anything on its own. The page shows no price because it is a free download, but it assumes you already have NDI-capable software. Network quality decides how well it works.",
+      "wrong_for": "A crew looking for a complete production application should choose Wirecast or OBS Studio.",
+      "sources": [
+        {
+          "fact": "NDI Tools is a set of tools and plugins for setting up, testing and managing NDI streams on Windows and macOS.",
+          "url": "https://ndi.video/tools/"
+        },
+        {
+          "fact": "The NDI Tools page lists Discovery, Studio Monitor and NDI Free Audio among the included tools.",
+          "url": "https://ndi.video/tools/"
+        },
+        {
+          "fact": "NDI Tools can be downloaded from the vendor page; no price is shown.",
+          "url": "https://ndi.video/tools/"
+        }
+      ]
+    },
+    {
+      "slug": "ecamm-live",
+      "name": "Ecamm Live",
+      "site": "https://ecamm.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Mac-only live studio with saved scenes and Stream Deck support",
+      "best_for": "Solo presenters on a Mac",
+      "pricing": "Plans are $16 per month (one payment of $192) or $32 per month (one payment of $384), with a 14-day free trial.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "macOS 11.2 or newer",
+      "features": [
+        "Saved scenes",
+        "Stream Deck support",
+        "On-screen titles",
+        "Split screens"
+      ],
+      "summary": "Ecamm Live is built for Mac and supports saved scenes, split screens, titles and Stream Deck control.",
+      "verdict": "Ecamm Live is described as a live streaming and video production studio built for Mac, and it requires macOS 11.2 or newer. The key features are saved scenes, Stream Deck support, on-screen titles and split screens. The pricing page lists $16 per month (billed as one payment of $192) and $32 per month (billed as one payment of $384), with a 14-day trial that needs no credit card. A presenter running a webinar from a Mac will find it easy to learn.",
+      "weaknesses": "It runs only on macOS, so Windows PCs are out. The pages we read mention no multi-operator workflow or hardware control beyond Stream Deck, which limits large events. The plans are billed as annual single payments.",
+      "wrong_for": "A Windows-based esports crew should use vMix.",
+      "sources": [
+        {
+          "fact": "Ecamm Live is described as a live streaming and video production studio built for Mac and requiring macOS 11.2 or newer.",
+          "url": "https://ecamm.com/"
+        },
+        {
+          "fact": "The pricing page lists two plans at $16/mo (billed as one payment of $192) and $32/mo (billed as one payment of $384).",
+          "url": "https://appg2.ecamm.com/users/pricingplans"
+        },
+        {
+          "fact": "The pricing page states the free trial lasts 14 days and does not require a credit card.",
+          "url": "https://appg2.ecamm.com/users/pricingplans"
+        }
+      ]
+    },
+    {
+      "slug": "switcher-studio",
+      "name": "Switcher Studio",
+      "site": "https://www.switcherstudio.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Multi-camera streaming that switches several cameras to many platforms",
+      "best_for": "Small teams using phones as cameras",
+      "pricing": "14-day free trial; the pricing page lists Studio plans and an annual Studio option, with amounts not captured.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Software (per vendor page)",
+      "features": [
+        "Multi-camera live streaming",
+        "Multistreaming",
+        "14-day free trial"
+      ],
+      "summary": "Switcher Studio is multi-camera live streaming software that sends a stream to several platforms, with a 14-day trial.",
+      "verdict": "Switcher Studio describes multi-camera live streaming software that lets users stream to several platforms, and the homepage offers a 14-day free trial. The pricing page lists Studio plans and an annual option, though amounts were not captured in our reading. It suits small organizations that want to combine a few cameras and reach more than one destination without building a Windows rig. For a larger event with graphics, replay and many sources, the tools above go further.",
+      "weaknesses": "We could not capture the plan amounts, and the pages we read say little about graphics, replay or audio mixing. It is aimed at creators and small teams, so broadcast-style infrastructure is not its focus.",
+      "wrong_for": "A tournament crew that needs replay and titles should choose vMix.",
+      "sources": [
+        {
+          "fact": "Switcher Studio is multi-camera live streaming software that lets users stream to several platforms.",
+          "url": "https://www.switcherstudio.com/"
+        },
+        {
+          "fact": "The homepage offers a 14-day free trial.",
+          "url": "https://www.switcherstudio.com/"
+        },
+        {
+          "fact": "The pricing page is titled Switcher Studio Pricing with a free 14-day trial offer.",
+          "url": "https://www.switcherstudio.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "liveu-studio",
+      "name": "LiveU Studio",
+      "site": "https://www.liveu.tv/",
+      "company": "LiveU",
+      "country": "",
+      "tagline": "Cloud-based live production within LiveU's IP-bonded video lineup",
+      "best_for": "Teams already using LiveU transmitters",
+      "pricing": "Not stated on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Cloud-based IP-bonded live video (per vendor page)",
+      "features": [
+        "Cloud-based live video",
+        "IP-bonded transmission",
+        "Cloud production",
+        "IP distribution"
+      ],
+      "summary": "LiveU Studio sits inside a cloud-based, IP-bonded live video lineup for contribution, production and distribution.",
+      "verdict": "LiveU lists LiveU Studio on its homepage with the description: return live video from the studio to the field. The company describes cloud-based, IP-bonded live video solutions for contribution, production and distribution. For a crew that already sends field video over LiveU, keeping production in the same ecosystem makes sense. For others, the public information is thin, so it ranks lower while we wait for more detail.",
+      "weaknesses": "The homepage does not state pricing, and the capabilities of the Studio product are described in one line. Without more public detail it is hard to compare against full switchers. It ties you to the LiveU family.",
+      "wrong_for": "If you do not use LiveU hardware, pick Wirecast or vMix instead.",
+      "sources": [
+        {
+          "fact": "LiveU Studio is listed on the LiveU homepage with the description: return live video from the studio to the field.",
+          "url": "https://www.liveu.tv/"
+        },
+        {
+          "fact": "The homepage describes LiveU as offering cloud-based, IP-bonded live video solutions for contribution, production and distribution.",
+          "url": "https://www.liveu.tv/"
+        },
+        {
+          "fact": "Pricing for LiveU Studio is not stated on the homepage.",
+          "url": "https://www.liveu.tv/"
+        }
+      ]
+    },
+    {
+      "slug": "larix-broadcaster",
+      "name": "Larix Broadcaster",
+      "site": "https://softvelum.com/larix/",
+      "company": "",
+      "country": "",
+      "tagline": "Free iOS and Android broadcasting app from Softvelum",
+      "best_for": "Phones as remote contribution cameras",
+      "pricing": "Free.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "iOS and Android",
+      "features": [
+        "Mobile streaming",
+        "Remote contribution"
+      ],
+      "summary": "Larix Broadcaster is a free mobile app for sending video from iOS and Android devices to a server.",
+      "verdict": "Larix Broadcaster is free mobile broadcasting software for iOS and Android, and the page describes its apps as tools for remote contribution streaming. In a production chain it acts as a camera: a reporter or a second angle on a phone feeding a server that a mixer then picks up. There is a documentation reference linked from the page. It ranks last only because it is one input, not a production suite.",
+      "weaknesses": "It does not switch, add graphics or produce a show. The page lists limited feature detail, so check the documentation for supported protocols and settings. Image quality depends on the phone and the mobile network.",
+      "wrong_for": "For a full production desk, choose Wirecast, vMix or OBS Studio.",
+      "sources": [
+        {
+          "fact": "Larix Broadcaster is free mobile broadcasting software for iOS and Android devices.",
+          "url": "https://softvelum.com/larix/"
+        },
+        {
+          "fact": "The page describes the apps as tools for remote contribution streaming from Android and iOS.",
+          "url": "https://softvelum.com/larix/"
+        },
+        {
+          "fact": "The page links to a documentation reference for the Larix apps.",
+          "url": "https://softvelum.com/larix/"
+        }
+      ]
+    }
+  ]
+}

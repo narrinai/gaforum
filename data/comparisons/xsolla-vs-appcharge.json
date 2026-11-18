@@ -1,0 +1,162 @@
+{
+  "slug": "xsolla-vs-appcharge",
+  "a": "xsolla",
+  "b": "appcharge",
+  "a_name": "Xsolla",
+  "b_name": "Appcharge",
+  "a_site": "https://www.xsolla.com/",
+  "b_site": "https://www.appcharge.com/",
+  "category": "best-game-payment-and-web-shop-platforms",
+  "title": "Xsolla vs Appcharge: Which Fits Your Team in 2026?",
+  "description": "Xsolla offers payments, web shop and publishing tools for many game types; Appcharge focuses on mobile web stores with merchant of record. Compare them.",
+  "published": "2026-11-18",
+  "intro": "Xsolla and Appcharge both help game companies sell items to players through a web shop and act as the payment layer, but they start from different places. Xsolla presents itself as a game commerce company with a long product list, while Appcharge is a payments company centered on mobile game web stores. Here is what each says publicly, including the gap that matters most: neither opened site shows a price list.",
+  "verdict": "Pick Xsolla if you publish on PC or web as well as mobile, or you want publishing and distribution tools next to payments. Pick Appcharge if you run a mobile game and want branded web stores, payment links and merchant of record as the whole offer. Because both hide pricing behind contact forms, get written fee terms first.",
+  "pick_a": "your portfolio spans mobile, PC and web, you want a broad suite that includes publishing, an SDK and LiveOps, or the stated share of each sale kept matters to your model.",
+  "pick_b": "you run a mobile title and want personalized web stores, in-app payment links and a self-optimized checkout from a team that describes itself as built by game studio alumni.",
+  "rows": [
+    {
+      "label": "Self-description",
+      "a": "Global video game commerce company",
+      "b": "Direct-to-consumer payments platform for mobile games"
+    },
+    {
+      "label": "Main product",
+      "a": "Web Shop, Xsolla Pay, Publishing Suite",
+      "b": "Personalized web stores, in-app payment links, checkout"
+    },
+    {
+      "label": "Platforms",
+      "a": "Mobile, PC and web games",
+      "b": "Mobile games"
+    },
+    {
+      "label": "Merchant of record",
+      "a": "Not stated on the opened pages",
+      "b": "Stated on the homepage"
+    },
+    {
+      "label": "Payment reach",
+      "a": "200+ geographies, 1000+ payment methods, 130+ currencies",
+      "b": "500+ payment methods, 100+ currencies"
+    },
+    {
+      "label": "Other tools",
+      "a": "Publishing Suite, SDK, LiveOps, Offerwall",
+      "b": "Mobile payments SDK, subscriptions"
+    },
+    {
+      "label": "Revenue share claim",
+      "a": "Studios keep up to 95% of each sale in Web Shop",
+      "b": "No share figure on the opened pages"
+    },
+    {
+      "label": "Pricing page",
+      "a": "Leads to a contact form",
+      "b": "Returns 404; site uses contact forms"
+    },
+    {
+      "label": "Entry terms",
+      "a": "No upfront costs, per the homepage",
+      "b": "Not stated"
+    },
+    {
+      "label": "Scale claims",
+      "a": "Not stated in a comparable form",
+      "b": "$89M+ in funding, 150+ games, $1BN annual transactions (vendor figures)"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Two different shapes of company",
+      "text": [
+        "Xsolla calls itself the global video game commerce company. Its homepage lists Web Shop, Publishing Suite, Payments and Xsolla Pay, and other pages mention an SDK, LiveOps and an offerwall. A studio can adopt one part or several.",
+        "Appcharge describes itself as a payments company built by people from game studios, and its homepage describes branded web stores, global payments and gamified offers for mobile publishers. The product is narrower, and the pitch is depth in one use case."
+      ]
+    },
+    {
+      "h2": "Platform coverage",
+      "text": [
+        "The platform line is the quickest filter. Xsolla lists mobile, PC and web games as audiences. Appcharge states mobile games. A studio shipping on Steam and the Epic store as well as phones will find Xsolla's coverage closer to that spread, while a mobile-only team does not need it.",
+        "Check this against your roadmap, not just your current release. Moving from mobile to a PC port in a year changes which vendor you want."
+      ]
+    },
+    {
+      "h2": "Merchant of record and reach",
+      "text": [
+        "Appcharge states merchant of record on its homepage, along with 500+ payment methods and 100+ currencies. Under that model the vendor becomes the seller of record to the player, which typically moves tax collection to the vendor. Confirm the details in the contract.",
+        "Xsolla's About page says its solutions work in 200+ geographies with 1000+ payment methods and 130+ currencies. The opened pages do not state merchant of record in the same words, so ask how tax and chargebacks are handled."
+      ]
+    },
+    {
+      "h2": "What you pay",
+      "text": [
+        "Xsolla's homepage says tools launch with no upfront costs and that Web Shop lets studios keep up to 95% of each sale. That is a vendor claim about a best case, so ask which payment methods and regions fall inside it.",
+        "Appcharge's pricing URL returned a 404 and the site uses contact forms. That means no number to compare yet. Request fees per transaction, any monthly minimums, payout timing and the handling of refunds from both, in writing."
+      ]
+    },
+    {
+      "h2": "Choosing for a small studio",
+      "text": [
+        "With no published prices, the decision falls back on fit. A two-person mobile team that wants a branded store quickly may prefer a focused offer. A studio planning several platforms and a live service calendar may prefer a larger suite.",
+        "The full list of options sits in the [payment and web shop ranking](/software/best-game-payment-and-web-shop-platforms), which includes tools that do publish prices."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do both act as merchant of record?",
+      "a": "Appcharge states merchant of record on its homepage. Xsolla's opened pages do not use those words, so confirm in a sales call who is the seller, who collects tax and who handles disputes before you sign."
+    },
+    {
+      "q": "Which one is cheaper?",
+      "a": "The opened pages do not allow a fair answer. Xsolla mentions no upfront costs and up to 95% of each sale kept in Web Shop, while Appcharge shows no pricing at all. Ask both for a quote on your expected volume."
+    },
+    {
+      "q": "Can a PC-only game use Appcharge?",
+      "a": "Appcharge describes itself as a payments platform for mobile games, so a PC-only title is outside its stated focus. Xsolla lists mobile, PC and web audiences and fits that case more directly."
+    },
+    {
+      "q": "Is a web shop allowed for mobile games?",
+      "a": "That depends on current app store policies in each region, which change. Neither vendor page settles it. Read the platform rules for your markets and ask the vendor how its stores comply."
+    },
+    {
+      "q": "What proof of scale does each give?",
+      "a": "Appcharge's About page states $89M+ in funding and 150+ games, and its homepage claims $1BN in annual transactions. Xsolla's About page cites its geographic and payment reach. All are vendor figures, so ask for references."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Xsolla describes itself as the global video game commerce company.",
+      "url": "https://xsolla.com/about-us"
+    },
+    {
+      "fact": "Xsolla's solutions work in 200+ geographies, with 1000+ payment methods and 130+ currencies.",
+      "url": "https://xsolla.com/about-us"
+    },
+    {
+      "fact": "Xsolla's homepage lists Web Shop, Publishing Suite, Payments and Xsolla Pay.",
+      "url": "https://www.xsolla.com/"
+    },
+    {
+      "fact": "Xsolla's homepage says Web Shop lets studios keep up to 95% of each sale.",
+      "url": "https://www.xsolla.com/"
+    },
+    {
+      "fact": "Xsolla's pricing URL leads to a contact form.",
+      "url": "https://xsolla.com/contact-us"
+    },
+    {
+      "fact": "Appcharge helps mobile game publishers sell items directly with branded web stores, global payments and gamified offers.",
+      "url": "https://www.appcharge.com/"
+    },
+    {
+      "fact": "Appcharge's homepage states merchant of record, 500+ payment methods and 100+ currencies.",
+      "url": "https://www.appcharge.com/"
+    },
+    {
+      "fact": "Appcharge's About page states $89M+ in funding and 150+ games.",
+      "url": "https://www.appcharge.com/company/about-us"
+    }
+  ]
+}

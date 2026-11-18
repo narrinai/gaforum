@@ -1,0 +1,163 @@
+{
+  "a": "edgegap",
+  "b": "gamefabric",
+  "a_name": "Edgegap",
+  "b_name": "GameFabric (formerly Hathora)",
+  "a_site": "https://edgegap.com/",
+  "b_site": "https://gamefabric.com/",
+  "category": "best-dedicated-game-server-orchestration-platforms",
+  "title": "Edgegap vs Hathora: Which Fits Your Team in 2026?",
+  "description": "Edgegap publishes per-minute and per-host server prices; Hathora now sits behind GameFabric, which quotes studios individually. Compare terms, regions and fit.",
+  "intro": "Edgegap and Hathora are both multiplayer server orchestration services, but they now differ most in how they handle price. Edgegap publishes its rates, starting at $0.00115 per vCPU per minute on edge cloud. Hathora's former domain, hathora.dev, redirected to gamefabric.com when we checked, and GameFabric offers individual pricing after a demo request. This page therefore compares Edgegap with GameFabric, the platform that Hathora's address now leads to.",
+  "verdict": "Choose Edgegap when you want to read a rate card, start on a free trial and scale a small fleet without a sales call. Choose GameFabric when you run a larger title, want dedicated bare metal in a long list of regions and are comfortable negotiating a quote. Neither page shows enough to prove which is cheaper for your player count, so model your own concurrency against Edgegap's calculator and ask GameFabric for a written quote.",
+  "pick_a": "Pick Edgegap if you need published prices, a free trial and the option to pay only for minutes when players are connected, with reserved bare metal as a later step.",
+  "pick_b": "Pick GameFabric if you want bare metal and cloud under one API, a studio-specific quote and a vendor that talks about fleets for established multiplayer titles.",
+  "rows": [
+    {
+      "label": "Current status of the brand",
+      "a": "Edgegap operates under its own name at edgegap.com.",
+      "b": "hathora.dev redirected to gamefabric.com when checked, and the GameFabric navigation carries a Hathora link."
+    },
+    {
+      "label": "What it is",
+      "a": "Automated game server hosting and orchestration for any engine and service.",
+      "b": "A developer-first orchestration layer that deploys on bare metal, cloud or both under one API, dashboard and fleet."
+    },
+    {
+      "label": "Pricing model",
+      "a": "Usage-based on edge cloud, reserved monthly on bare metal.",
+      "b": "Individual pricing tailored to each studio."
+    },
+    {
+      "label": "Entry price",
+      "a": "$0.00115 per vCPU per minute on edge cloud; bare metal at $0.0261 per vCPU per hour.",
+      "b": "No price amounts published; a demo request is required."
+    },
+    {
+      "label": "Free option",
+      "a": "Free trial: $0, no credit card, 1.5 vCPU, 1 app with 2 versions, usage caps.",
+      "b": "None stated on the opened pages."
+    },
+    {
+      "label": "Regions",
+      "a": "615+ edge cloud locations and 58 bare metal locations.",
+      "b": "22 bare metal regions across five continents, plus cloud options."
+    },
+    {
+      "label": "Cloud options",
+      "a": "Edgegap's own edge cloud across 17+ providers, with automatic overflow from private fleets.",
+      "b": "GameFabric Cloud on Google Cloud, or bring-your-own AWS, Azure or GCP accounts."
+    },
+    {
+      "label": "Commitment",
+      "a": "None on edge cloud; 1, 6 or 12 months on private fleets.",
+      "b": "Set in the quote."
+    },
+    {
+      "label": "Main strength",
+      "a": "Transparent rates and a calculator for modeling cost.",
+      "b": "Hybrid bare metal and cloud with SteelShield DDoS protection."
+    },
+    {
+      "label": "Main limit",
+      "a": "Bills vary with game type and player count, so the rate card alone does not give a total.",
+      "b": "No visible price, so comparing cost needs a sales conversation."
+    },
+    {
+      "label": "Best for",
+      "a": "Indie and mid-size teams that want to start small.",
+      "b": "Studios with a launched or large multiplayer title."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Hathora is now GameFabric, so what are you comparing?",
+      "text": [
+        "The plan for this page named Hathora, but the Hathora address no longer serves its own site. When we opened hathora.dev it returned a redirect to gamefabric.com, and the GameFabric site navigation still carries a Hathora link. The GameFabric company record in our data describes it as formerly Hathora, so anything below about the Hathora side is drawn from the GameFabric pages, not from old Hathora documentation.",
+        "If you hold a Hathora contract or SDK integration today, treat the pricing and region figures here as a prompt for questions to your account contact, not as a statement of what your existing agreement says. We did not open any Hathora-era pricing page, and we do not repeat numbers from memory."
+      ]
+    },
+    {
+      "h2": "Pricing: a rate card against a quote",
+      "text": [
+        "Edgegap's pricing page opens with the line that you pay only when players play, and it backs that with numbers. Edge cloud is billed by the minute at $0.00115 per vCPU, with deployments from 0.25 to 4 vCPU, $0.10 per GB of monthly egress and zero cost when no servers are active. Reserved private fleets on bare metal run at $0.0261 per vCPU per hour, or $280 per host per month on a 12 month rate and $350 on a monthly one, and each host includes 6 TB of egress.",
+        "GameFabric takes the opposite approach. Its pricing page offers individual pricing tailored to each studio and asks you to request a demo, with no amounts shown. The page claims savings of as much as 60% on server fees by scaling from bare metal to cloud. That is a vendor claim, and the page does not say what it is measured against, so ask for the baseline when you request the quote."
+      ]
+    },
+    {
+      "h2": "Infrastructure and regions",
+      "text": [
+        "Edgegap advertises 615+ edge cloud locations across 17+ cloud providers and a separate 58-location bare metal footprint. A private fleet host is 16 vCPU in total, of which 14.7 are usable, and overflow can spill into edge cloud automatically. For a studio with spiky evening peaks and quiet mornings, that overflow design is the feature to examine.",
+        "GameFabric lists 22 bare metal regions across five continents and says its bare metal servers are dedicated hardware with no shared tenants. For cloud it offers GameFabric Cloud, managed and running on Google Cloud, or your own AWS, Azure or GCP accounts. The hybrid burst option lets you run baseline load on bare metal and add cloud when demand rises."
+      ]
+    },
+    {
+      "h2": "Engines, services and who uses them",
+      "text": [
+        "Edgegap's homepage names Unreal, Unity, Godot, Nakama, Mirror, Photon Fusion, PurrNet and Fish-Networking, and lists matchmaking, a server browser, relays and a container registry next to hosting. Its pricing page carries a news line about Heroic Labs and Edgegap bringing regionless hosting to Nakama. Halfbrick Studios and Starbreeze AB appear as named customers.",
+        "GameFabric focuses on the orchestration layer itself: fleets, one API, one dashboard and usage and cost reporting. The page says it is built on 25 years of operating game servers in production. Check the success stories section and the docs at docs.gamefabric.com against your engine before you commit, since the homepage does not list engines."
+      ]
+    },
+    {
+      "h2": "How to run a fair trial",
+      "text": [
+        "Start with a written concurrency curve: peak players, average session length and servers per match. Feed it into Edgegap's estimator and read the bill it predicts for edge cloud and for a reserved host. Then send the same curve to GameFabric with a request for a bare metal, a cloud and a hybrid quote, and ask which regions carry your players.",
+        "Use the Edgegap free trial to measure start-up time and latency from your biggest regions. Ask GameFabric whether a proof of concept is possible before you sign. Whichever way you go, keep the fleet logic behind your own matchmaker interface so that moving between orchestrators is a configuration change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Hathora still available as a separate product?",
+      "a": "When we opened hathora.dev it redirected to gamefabric.com, and the GameFabric navigation includes a Hathora link. We could not find a standalone Hathora pricing page to quote. Existing customers should ask their account contact what has changed for contracts and SDKs."
+    },
+    {
+      "q": "Can I see Edgegap prices without talking to sales?",
+      "a": "Yes. The pricing page lists $0.00115 per vCPU per minute for edge cloud and $0.0261 per vCPU per hour for reserved bare metal, plus egress rates. A separate pricing estimator models a bill for your usage."
+    },
+    {
+      "q": "Does either service have a free tier?",
+      "a": "Edgegap offers a free trial at $0 with no credit card, limited to 1.5 vCPU, one app with two versions and usage caps. The GameFabric pages we opened do not state a free option; they point to a demo request."
+    },
+    {
+      "q": "Which has more server locations?",
+      "a": "By the numbers each vendor publishes, Edgegap lists 615+ edge cloud locations and 58 bare metal locations, and GameFabric lists 22 bare metal regions plus cloud regions through its partners. The counts measure different things, so check the specific cities your players connect from."
+    },
+    {
+      "q": "Do I need to commit to a contract?",
+      "a": "On Edgegap edge cloud there is no commitment. Private fleets take a 1, 6 or 12 month commitment, with a discount for the longer terms. GameFabric terms come with the individual quote."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Edgegap lists edge cloud at $0.00115 per vCPU per minute, billed on usage, with $0.10 per GB of monthly egress.",
+      "url": "https://edgegap.com/pricing"
+    },
+    {
+      "fact": "Edgegap lists Private Fleet bare metal at $0.0261 per vCPU per hour, $280 per host per month on a 12 month rate, with 58 locations and 6 TB of egress included.",
+      "url": "https://edgegap.com/pricing"
+    },
+    {
+      "fact": "Edgegap's free trial is $0 with no credit card, 1.5 vCPU and usage caps.",
+      "url": "https://edgegap.com/pricing"
+    },
+    {
+      "fact": "Edgegap describes itself as automated game server hosting and orchestration for any engine and service, and names Halfbrick Studios and Starbreeze AB as customers.",
+      "url": "https://edgegap.com/"
+    },
+    {
+      "fact": "GameFabric offers individual pricing tailored to each studio with a demo request and no price amounts, and claims savings of as much as 60% on server fees.",
+      "url": "https://gamefabric.com/pricing"
+    },
+    {
+      "fact": "GameFabric lists 22 bare metal regions across five continents and cloud via GameFabric Cloud on Google Cloud or bring-your-own AWS, Azure or GCP accounts.",
+      "url": "https://gamefabric.com/"
+    },
+    {
+      "fact": "hathora.dev redirected to gamefabric.com when checked, and the GameFabric navigation carries a Hathora link.",
+      "url": "https://gamefabric.com/"
+    }
+  ],
+  "slug": "edgegap-vs-hathora",
+  "published": "2026-11-18"
+}

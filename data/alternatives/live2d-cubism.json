@@ -1,0 +1,180 @@
+{
+  "slug": "live2d-cubism",
+  "subject": "Live2D Cubism",
+  "subject_site": "https://www.live2d.com/",
+  "title": "Live2D Cubism Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Six Live2D Cubism alternatives for avatar rigging: Inochi2D, VRoid Studio, Blender, Reallusion, Spine and Rive, with licensing and cost notes from vendor pages.",
+  "category": "best-vtuber-software",
+  "intro": "Live2D Cubism Editor builds 2D-based three-dimensional expression from a single illustration, and it is the rigging tool behind many VTuber avatars. Operated by 株式会社 Live2D, the editor comes in PRO and FREE versions, with a 42-day PRO trial before the free version continues. Artists who want a fully open framework, a 3D avatar pipeline or a different animation style look elsewhere. The six options here lean toward free or open tools, since that was the angle of this page.",
+  "why_switch": [
+    "Cubism Editor PRO is sold through the Live2D Store, and the amounts were not on the pages we opened, so artists budget by checking the store directly.",
+    "After the 42-day PRO trial, the FREE version continues, which keeps some artists on a reduced feature set they would rather replace with an open tool.",
+    "Open-source fans prefer Inochi2D, a framework for real-time 2D puppet animation that says real-time character animation is royalty-free.",
+    "Some creators want a 3D avatar instead of a 2D puppet. VRoid Studio and Reallusion are built around 3D characters.",
+    "Game animators who need bones and meshes for sprite work, not face expressions, move to Spine or Rive."
+  ],
+  "picks": [
+    {
+      "slug": "inochi2d",
+      "name": "Inochi2D",
+      "site": "https://inochi2d.com",
+      "best_for": "Open framework for 2D puppet avatars",
+      "pricing": "No price on the homepage; it has Download and Donate links.",
+      "free_plan": "Unknown",
+      "note": "Inochi2D describes itself as a framework for real-time 2D puppet animation using 2D meshes and layering, used for VTubing and games development. It says real-time character animation is royalty-free. It is the most direct swap for the free-or-open angle, though you should expect a smaller ecosystem of tutorials and model sellers than Live2D has.",
+      "sources": [
+        {
+          "fact": "Inochi2D's homepage describes it as a framework for real-time 2D puppet animation using 2D meshes and layering.",
+          "url": "https://inochi2d.com"
+        },
+        {
+          "fact": "Inochi2D's homepage says it is used for VTubing and games development.",
+          "url": "https://inochi2d.com"
+        },
+        {
+          "fact": "Inochi2D's homepage says real-time character animation is royalty-free.",
+          "url": "https://inochi2d.com"
+        }
+      ]
+    },
+    {
+      "slug": "vroid-studio",
+      "name": "VRoid Studio",
+      "site": "https://vroid.pixiv.help/hc/en-us",
+      "best_for": "Making a 3D anime-style character",
+      "pricing": "No pricing shown on the FAQ hub page opened.",
+      "free_plan": "Unknown",
+      "note": "VRoid Studio is listed as a 3D character creation tool on the VRoid FAQ hub, alongside VRoid Hub, Mobile, SDK and WEAR. It changes the workflow from rigging a drawing to sculpting a 3D character. The hub is in English and Japanese, which helps when you need to look up how to export for tracking apps.",
+      "sources": [
+        {
+          "fact": "The VRoid FAQ hub lists VRoid Studio as a 3D character creation tool, version 1.0.0 and later in its stable release.",
+          "url": "https://vroid.pixiv.help/hc/en-us"
+        },
+        {
+          "fact": "The VRoid FAQ hub lists VRoid Hub, VRoid Mobile, VRoid SDK and VRoid WEAR as other products in the VRoid family.",
+          "url": "https://vroid.pixiv.help/hc/en-us"
+        },
+        {
+          "fact": "The VRoid FAQ hub is published in English and Japanese.",
+          "url": "https://vroid.pixiv.help/hc/en-us"
+        }
+      ]
+    },
+    {
+      "slug": "blender",
+      "name": "Blender",
+      "site": "https://www.blender.org/",
+      "best_for": "Free general 3D tool with GPL terms",
+      "pricing": "No price on the opened manual pages; the manual has a section on free software and the GPL.",
+      "free_plan": "Open source",
+      "note": "Blender is documented in an official 5.3 manual for Linux, macOS, Windows and Steam. It is the free route to 3D avatars and animation, but the learning curve is steeper than a purpose-built avatar rigger. Use it if you want full control over the model and can invest the time.",
+      "sources": [
+        {
+          "fact": "The official Blender Manual is titled Blender 5.3 Manual and documents installation on Linux, macOS, Windows and Steam.",
+          "url": "https://docs.blender.org/manual/en/latest/"
+        },
+        {
+          "fact": "The Blender Manual has a section titled 'About Free Software and the GPL'.",
+          "url": "https://docs.blender.org/manual/en/latest/getting_started/about/license.html"
+        },
+        {
+          "fact": "The GitHub repository blender/blender is described as the official mirror of Blender.",
+          "url": "https://github.com/blender/blender"
+        }
+      ]
+    },
+    {
+      "slug": "reallusion",
+      "name": "Reallusion",
+      "site": "https://www.reallusion.com/",
+      "best_for": "3D character production and 2D cartoon animation",
+      "pricing": "No pricing shown on the homepage opened.",
+      "free_plan": "Unknown",
+      "note": "Reallusion describes 3D character production and 2D cartoon animation across entertainment, metaverse and simulation uses, and its news section mentions a stylized 3D character creator for Unreal. It is a commercial suite, so it will not meet a strict free-tool requirement. Check the store for current prices before planning a budget.",
+      "sources": [
+        {
+          "fact": "Reallusion's homepage describes it as a platform for 3D character creation and animation across media entertainment, metaverse, digital twinning, ArchViz and AI simulation.",
+          "url": "https://www.reallusion.com/"
+        },
+        {
+          "fact": "Reallusion's homepage headline describes it as 3D character production and 2D cartoon animation.",
+          "url": "https://www.reallusion.com/"
+        },
+        {
+          "fact": "Reallusion's homepage includes a news item on how a game studio uses the Stylized 3D Character Creator for Unreal.",
+          "url": "https://www.reallusion.com/"
+        }
+      ]
+    },
+    {
+      "slug": "spine",
+      "name": "Spine",
+      "site": "https://esotericsoftware.com",
+      "best_for": "Bone-based 2D rigs for games",
+      "pricing": "Free trial; Essential at $69 and Professional at $379 as one-time licenses with free updates.",
+      "free_plan": "Free trial",
+      "note": "Spine is 2D skeletal animation software for video games, with runtimes for Unity, C#, cocos2d-x, iOS, Android, C++, HTML5 and JS. It is a poor choice for expressive faces compared with Live2D but a strong one for game sprites. The trial lets you check the workflow before you pay.",
+      "sources": [
+        {
+          "fact": "Esoteric Software describes Spine as 2D skeletal animation software for video games.",
+          "url": "https://esotericsoftware.com"
+        },
+        {
+          "fact": "Esoteric Software's purchase page lists Spine Essential at $99 and $69, and Spine Professional at $449 and $379.",
+          "url": "https://esotericsoftware.com/spine-purchase"
+        },
+        {
+          "fact": "Esoteric Software's purchase page says all future updates are included without additional charges and that a Spine licence also permits use of the Spine Runtimes in games.",
+          "url": "https://esotericsoftware.com/spine-purchase"
+        }
+      ]
+    },
+    {
+      "slug": "rive",
+      "name": "Rive",
+      "site": "https://rive.app",
+      "best_for": "Interactive animation with open runtimes",
+      "pricing": "Free to build, with a splash screen on free exports; paid seats start at $9 per month.",
+      "free_plan": "Free",
+      "note": "Rive pairs an editor with open-source runtimes for every platform, which helps when an avatar must live in an app or web page rather than a streaming program. Free exports show a splash screen that upgrades remove. It is less suited to VTuber face tracking, so verify your tracking app supports the format first.",
+      "sources": [
+        {
+          "fact": "Rive describes itself as an agent-native 2D and 3D engine for games, apps and UI.",
+          "url": "https://rive.app"
+        },
+        {
+          "fact": "Rive's pricing page lists Free, Cadet at $9 per seat per month, Voyager at $32 per seat per month and Enterprise at $120 per seat per month.",
+          "url": "https://rive.app/pricing"
+        },
+        {
+          "fact": "Rive's pricing page says building with Rive is free, but free exports play a Rive splash screen that is removed on upgrade.",
+          "url": "https://rive.app/pricing"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Decide whether your avatar stays 2D. If it does and you want open tools, Inochi2D is the first thing to download. If you are willing to switch to 3D, VRoid Studio gives the quickest start and Blender the deepest control. Game developers should weigh Spine or Rive against the engine they use. Before you commit, export a test model into your tracking app, because compatibility with VTube Studio or a similar program decides more than editor features.",
+  "faqs": [
+    {
+      "q": "Is there a fully free alternative to Live2D Cubism?",
+      "a": "Inochi2D and Blender are the free-leaning options in this list. Inochi2D's homepage has Download and Donate links with no price, and Blender's manual covers the GPL. Live2D itself also keeps a FREE editor version after the 42-day PRO trial."
+    },
+    {
+      "q": "Can I use Inochi2D models for streaming?",
+      "a": "The Inochi2D homepage says it is used for VTubing and games development. Check that your tracking software lists support for it, since not every app loads every format."
+    },
+    {
+      "q": "Does Live2D Cubism have a student discount?",
+      "a": "The Live2D site mentions a Student Discount Program with a 76% OFF coupon for a 3-year Cubism Editor PRO subscription for eligible students. Confirm eligibility rules on Live2D's own page."
+    },
+    {
+      "q": "Which options make 3D avatars?",
+      "a": "VRoid Studio, Reallusion and Blender work with 3D characters. VRoid Studio is listed as a 3D character creation tool, and Reallusion describes 3D character production. Blender is the general-purpose route."
+    },
+    {
+      "q": "Why is Ready Player Me not on this page?",
+      "a": "We could not confirm its facts from pages opened for this review, so it is left out until it can be sourced."
+    }
+  ]
+}

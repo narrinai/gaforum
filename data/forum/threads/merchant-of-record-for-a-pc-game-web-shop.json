@@ -1,0 +1,26 @@
+{
+  "id": "merchant-of-record-for-a-pc-game-web-shop",
+  "board": "games",
+  "title": "Do you need a merchant of record for a PC game web shop?",
+  "created": "2026-11-18T09:42:00Z",
+  "pinned": false,
+  "body": [
+    "Selling in-game items or keys directly means handling sales tax or VAT, refunds and chargebacks in many countries. Did you use a merchant of record, or did you register and handle tax yourself, and how did the fees compare?",
+    "The [Paddle homepage](https://www.paddle.com/) describes its product as a merchant of record solution for SaaS and apps, with Nexus Mods among the customer stories it lists. The [Tebex homepage](https://www.tebex.io/) describes a game monetization extension with webstores, checkout and store protection products. Neither opened page states a fee level that we can quote.",
+    "If you run a web shop alongside a platform store, tell us how you linked accounts, what you do about refunds and what surprised you in the first quarter of selling."
+  ],
+  "related": [
+    {
+      "title": "Best Game Payment and Web Shop Platforms in 2026",
+      "url": "/software/best-game-payment-and-web-shop-platforms"
+    },
+    {
+      "title": "Xsolla vs Appcharge: Which Fits Your Team in 2026?",
+      "url": "/compare/xsolla-vs-appcharge"
+    },
+    {
+      "title": "Xsolla Alternatives in 2026",
+      "url": "/alternatives/xsolla"
+    }
+  ]
+}

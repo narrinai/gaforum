@@ -1,0 +1,173 @@
+{
+  "slug": "rtmp-srt-webrtc-streaming-latency-explained",
+  "title": "RTMP, SRT and WebRTC: Streaming Latency Explained",
+  "description": "RTMP, SRT and WebRTC compared in plain terms: where streaming latency comes from, what each protocol is good at, and how to pick one for your stream or event.",
+  "kind": "Field guide",
+  "topic": "Livestreaming",
+  "published": "2026-11-18",
+  "intro": "RTMP, SRT and WebRTC are three ways to move live video across a network: RTMP is the long-standing standard for sending a stream from an encoder to a streaming service, SRT is a transport built to survive unreliable links, and WebRTC is the browser-native protocol for conversation-speed video. They are not interchangeable, and the delay your audience sees depends on the whole chain from camera to player, not only on the first hop. This guide explains where the delay comes from and how to choose.",
+  "key_takeaways": [
+    "Latency is the sum of capture, encoding, ingest, processing, delivery and player buffering, so changing one protocol rarely fixes all of it.",
+    "RTMP and RTMPS remain the default ingest for large platforms; YouTube recommends RTMPS.",
+    "SRT adds retransmission and a configurable latency window for lossy networks, and OBS Studio can send it with a custom URL.",
+    "WebRTC aims at the lowest possible delay, and WHIP (RFC 9725) gives it a simple HTTP-based ingest.",
+    "Pick the protocol from the weakest link in your path: the contribution network, the platform or the viewer device."
+  ],
+  "sections": [
+    {
+      "h2": "Where the delay actually comes from",
+      "paras": [
+        "A viewer's delay is built from stages. The camera and capture card add a little. The encoder needs time to compress frames. The link to the streaming service adds network travel time and, for some protocols, a safety buffer. The service may transcode the stream into several qualities. A delivery network then repackages it, and finally the player keeps a buffer so playback survives bumps.",
+        "YouTube's help center points at the last stage as the main one: it says the amount of read-ahead buffer in the player is the main source of stream latency. That is why a protocol change on your side may move the total by only a second or two. The protocol you choose matters most for the first hop, called contribution or ingest, and for the final hop, called delivery. Keep those two separate in your head and the rest of this guide gets easier."
+      ]
+    },
+    {
+      "h2": "RTMP and RTMPS: the ingest everyone supports",
+      "paras": [
+        "Real-Time Messaging Protocol, RTMP, is the ingest that encoders and platforms have supported for years. Almost every broadcasting tool offers it, so it is the lowest-friction way to reach a platform. YouTube's encoder guidance recommends RTMPS, the secure variant, and says that encrypts the data all the way into Google's servers. The same page recommends a keyframe frequency of 2 seconds and says not to exceed 4 seconds.",
+        "Its weaknesses are practical. It rides on an ordered, reliable connection, so a congested uplink can stall the stream instead of skipping ahead, and codec support depends on the encoder and platform. YouTube notes that if you want HDR with H.265 and your encoder cannot do it over RTMP, you may consider HLS ingest instead. For a typical gaming stream on a stable home connection, RTMP is a fine choice and the viewer-side buffering still dominates the delay."
+      ]
+    },
+    {
+      "h2": "SRT: for links you do not trust",
+      "paras": [
+        "Secure Reliable Transport, SRT, sends video over UDP and adds its own recovery for lost packets. The Haivision repository, which hosts the reference implementation, describes it as created primarily for live streaming and explains that a common payload is MPEG-TS cut into 1316-byte units, a size chosen to fit inside a standard 1500-byte Ethernet packet after IP, UDP and SRT headers. The SRT Alliance describes itself as a community of more than 700 broadcasters, cloud platforms and streaming providers.",
+        "The setting that matters is the latency window. OBS Studio's knowledge base explains that SRT latency is entered in microseconds, defaults to 120 ms, and should be at least 2.5 times the round-trip time between encoder and ingest server. Raise it for a long route or a lossy mobile uplink and the receiver gets more time to recover missing packets, at the price of extra delay. Lower it on a clean short route and you save time but lose protection."
+      ]
+    },
+    {
+      "h2": "WebRTC: conversation-speed video",
+      "paras": [
+        "WebRTC was designed for real-time communication in browsers. RFC 8825, the IETF overview, describes a protocol suite for real-time applications deployed in browsers. Because it targets conversation, it trades the large player buffer of broadcast delivery for much lower delay, and it can carry two-way audio and video. That makes it the right base for live Q&A, auctions, betting-adjacent products and remote guests in a production.",
+        "The cost is scale and tooling. Delivering WebRTC to a large audience needs infrastructure that differs from ordinary video delivery, and quality adaptation is more sensitive to the viewer's connection. For broadcast-style events where nobody needs to answer within a second, regular delivery is cheaper and smoother."
+      ]
+    },
+    {
+      "h2": "WHIP: bringing WebRTC to the encoder side",
+      "paras": [
+        "WebRTC historically lacked a simple standard for pushing a stream into a service. RFC 9725, the WebRTC-HTTP Ingestion Protocol, addresses that. It describes an HTTP-based protocol for WebRTC ingestion into streaming services and content delivery networks, built on an HTTP POST that carries the session description. Its stated aims include being easy to implement, being as easy to use as popular broadcast protocols, and enabling the lowest possible latency on platforms that are WebRTC end to end.",
+        "In practice this means more encoders and services can offer a WebRTC ingest without custom signaling. If a platform lists WHIP support, you can test sub-second-feeling contribution from a compatible encoder. If it does not, the choice is RTMP or SRT."
+      ]
+    },
+    {
+      "h2": "A decision guide",
+      "paras": [
+        "Use these steps in order and stop at the first one that decides the question."
+      ],
+      "list": [
+        "Check what the destination accepts. If the platform only ingests RTMP, your choice is made.",
+        "If viewers must respond to the speaker in real time, plan a WebRTC path end to end, and check how many viewers the platform supports in that mode.",
+        "If you stream from a remote venue, a mobile network or a long-distance route, prefer SRT or a bonded cellular uplink with SRT and tune the latency window from measured round-trip time.",
+        "If the stream goes to a public platform for a general audience and a few seconds of delay is fine, use RTMPS from your usual encoder.",
+        "If you operate your own server, pick one that speaks several protocols so you can change the ingest later without rebuilding the pipeline."
+      ],
+      "ordered": true,
+      "after": [
+        "Write down the measured result of every test: round-trip time, packet loss, the latency setting and what the viewer saw. You will need the numbers when something degrades on event day."
+      ]
+    },
+    {
+      "h2": "Servers that translate between protocols",
+      "paras": [
+        "Many setups accept one protocol and deliver another. Verified open source and commercial servers describe their protocol support in their own materials: MediaMTX lists SRT, WebRTC, RTSP, RTMP, LL-HLS, MPEG-TS and RTP; SRS lists RTMP, WebRTC, HLS, HTTP-FLV, SRT and MPEG-DASH; Ant Media Server lists WebRTC, CMAF, HLS, RTMP, RTSP and SRT. Use our ranking of [streaming media servers](/software/best-streaming-media-servers) to compare the options, and the list of [live streaming APIs and SDKs](/software/best-live-streaming-apis-and-sdks) if you would rather rent than host.",
+        "A server that converts SRT to HLS, for example, lets you send over a rugged link and still deliver to ordinary players. Each conversion adds a processing step and often a segment buffer, so measure the end-to-end delay and do not assume the contribution protocol sets it."
+      ]
+    },
+    {
+      "h2": "Setting up a quick SRT test in OBS Studio",
+      "paras": [
+        "OBS Studio can send SRT without plugins. The knowledge base steps are short: open Settings and Stream, choose the Custom service, and enter an address in the form srt://IP:port. Leave the key empty, because it is not used. Extra options follow the address as query parameters, such as latency or mode, and the page links the full list supported by FFmpeg.",
+        "The mode option decides who opens the connection. The default is caller, which is what you want when you send to a server. Use listener only when OBS should wait for a receiver such as VLC on the same network. If a connection keeps dropping, the OBS page reports that some users found a longer timeout value helped. Start with the default latency, measure the round-trip time to the server, and then raise latency to at least 2.5 times that figure if you see glitches."
+      ]
+    },
+    {
+      "h2": "Common mistakes to avoid",
+      "paras": [
+        "Teams often chase a protocol when the real culprit is elsewhere. A low-latency ingest does nothing if the player settings are conservative. A short SRT window on a congested network causes dropped frames that look like encoder trouble. A keyframe interval longer than the platform expects can cause connection or quality problems; YouTube's guidance is explicit about the 2 and 4 second figures.",
+        "Another common error is testing only once on a quiet network. Run the test at the time of day you will broadcast, on the same uplink, and keep a backup route such as a second ISP or a phone hotspot configured in advance. For multistreaming, where one encoder feeds several services at once, also read our guide on [multistreaming without lag](/guides/how-to-multistream-without-lag)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is SRT lower latency than RTMP?",
+      "a": "Not by default. SRT has a configurable latency window, with OBS Studio documenting a 120 ms default, and its strength is recovering from packet loss on poor links. On a clean connection both can feel similar. The total delay your viewers see is still dominated by processing and player buffering."
+    },
+    {
+      "q": "Can I stream to Twitch or YouTube with WebRTC?",
+      "a": "That depends on whether the platform offers a WebRTC or WHIP ingest. Check the platform's current documentation, because support changes. YouTube's published guidance recommends RTMPS and mentions HLS ingest for some codec cases, so use those unless the help center says otherwise."
+    },
+    {
+      "q": "Why does my stream show a ten second delay even with a fast connection?",
+      "a": "Because the delay is built up after your upload. Transcoding, packaging and the player's buffer all add time. On YouTube, the latency setting controls part of it: its help center says low latency usually lands under 10 seconds and ultra-low under 5 seconds for most viewers."
+    },
+    {
+      "q": "Do I need to know the RFCs to use these protocols?",
+      "a": "No. Most people need only the settings in their encoder and the platform's ingest address. The RFCs matter when you build or evaluate infrastructure, for example when a vendor claims WHIP support and you want to know what that promises."
+    },
+    {
+      "q": "What is a keyframe interval and why does it matter?",
+      "a": "A keyframe is a complete picture that the player can start from, and the interval is how often your encoder sends one. YouTube recommends 2 seconds and says not to exceed 4 seconds, partly because players and platforms use keyframes to start playback and cut segments."
+    }
+  ],
+  "related_categories": [
+    "best-streaming-media-servers",
+    "best-live-streaming-apis-and-sdks"
+  ],
+  "related_guides": [
+    "how-to-multistream-without-lag",
+    "how-to-choose-a-live-streaming-platform-for-company-events"
+  ],
+  "sources": [
+    {
+      "title": "Understand live streaming latency",
+      "url": "https://support.google.com/youtube/answer/7444635",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "Choose live encoder settings, bitrates, and resolutions",
+      "url": "https://support.google.com/youtube/answer/2853702",
+      "publisher": "YouTube Help"
+    },
+    {
+      "title": "SRT Protocol Streaming Guide",
+      "url": "https://obsproject.com/kb/srt-protocol-streaming-guide",
+      "publisher": "OBS Knowledge Base"
+    },
+    {
+      "title": "Live Streaming with SRT - Guidelines",
+      "url": "https://github.com/Haivision/srt/blob/master/docs/features/live-streaming.md",
+      "publisher": "Haivision, SRT repository"
+    },
+    {
+      "title": "RFC 8825: Overview: Real-Time Protocols for Browser-Based Applications",
+      "url": "https://www.rfc-editor.org/info/rfc8825/",
+      "publisher": "RFC Editor"
+    },
+    {
+      "title": "RFC 9725: WebRTC-HTTP Ingestion Protocol (WHIP)",
+      "url": "https://www.rfc-editor.org/info/rfc9725/",
+      "publisher": "RFC Editor"
+    },
+    {
+      "title": "SRT Alliance",
+      "url": "https://srtalliance.org/",
+      "publisher": "SRT Alliance"
+    },
+    {
+      "title": "MediaMTX",
+      "url": "https://github.com/bluenviron/mediamtx",
+      "publisher": "bluenviron"
+    },
+    {
+      "title": "SRS (Simple Realtime Server)",
+      "url": "https://ossrs.io/lts/en-us/",
+      "publisher": "OSSRS Community"
+    },
+    {
+      "title": "Ant Media Server",
+      "url": "https://antmedia.io/",
+      "publisher": "Ant Media"
+    }
+  ]
+}

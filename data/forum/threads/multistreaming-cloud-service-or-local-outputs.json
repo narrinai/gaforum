@@ -1,0 +1,26 @@
+{
+  "id": "multistreaming-cloud-service-or-local-outputs",
+  "board": "livestreaming",
+  "title": "Multistreaming: cloud service or local outputs from your PC?",
+  "created": "2026-11-18T10:03:00Z",
+  "pinned": false,
+  "body": [
+    "Going live on several platforms at once can be done by sending one feed to a cloud service or by pushing several outputs from your own encoder. Which way do you do it, and what made you switch?",
+    "The [Restream homepage](https://restream.io/) describes a live video platform that lets users create videos and multistream them to their favorite channels. The [Castr pricing page](https://castr.com/pricing/) lists five plans from $16.67 per month with a 7-day Starter trial. A cloud service saves upload bandwidth but adds a dependency; local outputs multiply your uplink use.",
+    "Tell us how many destinations you run, whether chat is unified and how you handle platform rules that differ. Failure stories, such as a relay dropping a feed, are useful as well."
+  ],
+  "related": [
+    {
+      "title": "Best Multistreaming Platforms in 2026",
+      "url": "/software/best-multistreaming-platforms"
+    },
+    {
+      "title": "Castr vs Restream: Which Fits Your Team in 2026?",
+      "url": "/compare/castr-vs-restream"
+    },
+    {
+      "title": "Restream Alternatives in 2026",
+      "url": "/alternatives/restream"
+    }
+  ]
+}

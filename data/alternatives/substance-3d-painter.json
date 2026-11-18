@@ -1,0 +1,249 @@
+{
+  "slug": "substance-3d-painter",
+  "subject": "Substance 3D Painter",
+  "subject_site": "https://www.adobe.com/products/substance3d-painter.html",
+  "title": "Substance 3D Painter Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Nine Substance 3D Painter alternatives for texturing game art, from Marmoset Toolbag and 3D-Coat to ArmorPaint, Material Maker, Mari, Blender, ZBrush and Krita.",
+  "category": "best-3d-game-engines-for-small-studios",
+  "intro": "Substance 3D Painter is Adobe's 3D texturing application, and this page treats it as the reference point for game artists who texture models. Adobe's product pages blocked our fetcher on 18 November 2026, so we make no claims about its price or feature list here. The nine alternatives below are described only from their own vendor pages and cover painting on a mesh, procedural materials, baking and rendering, and sculpting. Several are free or open source, which is why teams compare them when licensing becomes a topic.",
+  "why_switch": [
+    "Cost models differ widely. Material Maker is open source with a donation link, while Mari lists subscriptions from EUR 78 per month, so teams price a switch by tool.",
+    "Some artists want a procedural workflow. Material Maker creates PBR materials using graphs of over 200 nodes, which is a different method from painting directly on a mesh.",
+    "Open and local tools appeal to studios with data rules. ArmorPaint says its AI models are published under open source licences and run locally.",
+    "Teams that already use Blender or Krita for modeling and painting prefer to keep the texturing step in the same free tool.",
+    "Pipelines that bake and render in one place look at Marmoset Toolbag, which describes baking, texturing and rendering in a single package."
+  ],
+  "picks": [
+    {
+      "slug": "marmoset-toolbag",
+      "name": "Marmoset Toolbag",
+      "site": "https://marmoset.co",
+      "best_for": "Baking, texturing and rendering in one package",
+      "pricing": "Homepage links to a free trial and a Buy Now page; prices were not in the captured text.",
+      "free_plan": "Free trial",
+      "note": "Marmoset describes Toolbag as an all-in-one package for 3D artists to bake, texture and render, and says Toolbag 5 adds UDIMs, a Bevel shader and new painting tools. The free trial makes it easy to test. It is the natural pick when you want presentation renders alongside textures.",
+      "sources": [
+        {
+          "fact": "Marmoset's homepage describes Toolbag as the all-in-one creative software package for 3D artists to bake, texture and render.",
+          "url": "https://marmoset.co"
+        },
+        {
+          "fact": "Marmoset's homepage says Toolbag 5 is available now, with UDIMs, a Bevel shader and new painting tools.",
+          "url": "https://marmoset.co"
+        },
+        {
+          "fact": "Marmoset's homepage has Free Trial and Buy Now links.",
+          "url": "https://marmoset.co"
+        }
+      ]
+    },
+    {
+      "slug": "blender",
+      "name": "Blender",
+      "site": "https://www.blender.org/",
+      "best_for": "Free modeling with texture painting in one app",
+      "pricing": "No price on the opened manual pages; the manual has a section on free software and the GPL.",
+      "free_plan": "Open source",
+      "note": "Blender's official manual documents installs on Linux, macOS, Windows and Steam. It saves a license fee and a round trip between programs, but it is a general tool, so expect to set up your own texturing workflow rather than follow a dedicated painter's layout.",
+      "sources": [
+        {
+          "fact": "The official Blender Manual is titled Blender 5.3 Manual and documents installation on Linux, macOS, Windows and Steam.",
+          "url": "https://docs.blender.org/manual/en/latest/"
+        },
+        {
+          "fact": "The Blender Manual has a section titled 'About Free Software and the GPL'.",
+          "url": "https://docs.blender.org/manual/en/latest/getting_started/about/license.html"
+        },
+        {
+          "fact": "The GitHub repository blender/blender is described as the official mirror of Blender.",
+          "url": "https://github.com/blender/blender"
+        }
+      ]
+    },
+    {
+      "slug": "3d-coat",
+      "name": "3D-Coat",
+      "site": "https://3dcoat.com",
+      "best_for": "Voxel and polygon sculpting with painting",
+      "pricing": "Licence at EUR 379; updates at EUR 45 from month 13 or EUR 90 from month 25, with 12 months of free updates.",
+      "free_plan": "Unknown",
+      "note": "3DCoat combines voxels and polygons for 3D model creation, and a 3DCoatTextura version is also offered. Professional, Educational and Floating licenses are available for Windows, macOS and Linux. It is a one-time purchase with paid update steps, which differs from subscription tools.",
+      "sources": [
+        {
+          "fact": "3DCoat's homepage describes the application as combining voxels and polygons for 3D model creation.",
+          "url": "https://3dcoat.com"
+        },
+        {
+          "fact": "3DCoat's buy page lists a licence at EUR 379.",
+          "url": "https://3dcoat.com/buy/"
+        },
+        {
+          "fact": "3DCoat's buy page says Professional, Educational and Floating licences are available for Windows, macOS and Linux.",
+          "url": "https://3dcoat.com/buy/"
+        }
+      ]
+    },
+    {
+      "slug": "mari",
+      "name": "Mari",
+      "site": "https://www.foundry.com/products/mari",
+      "best_for": "High-end 3D painting for large productions",
+      "pricing": "Subscribe at EUR 629 per year or EUR 78 per month, rent at EUR 859 per quarter, or subscribe at EUR 1,009; free trial available.",
+      "free_plan": "Free trial",
+      "note": "The Foundry's Mari handles 3D texture and digital painting, and its page offers a free trial download. The price list is the highest in this group, so it suits studios already invested in film or VFX pipelines more than small game teams on a tight budget.",
+      "sources": [
+        {
+          "fact": "The Foundry's Mari page describes Mari as 3D painting software that handles all aspects of 3D texture and digital painting.",
+          "url": "https://www.foundry.com/products/mari"
+        },
+        {
+          "fact": "The Foundry's Mari page lists subscribe at EUR 629 per year or EUR 78 per month, rent at EUR 859 per quarter and subscribe at EUR 1,009.",
+          "url": "https://www.foundry.com/products/mari"
+        },
+        {
+          "fact": "The Foundry's Mari page offers a free trial download.",
+          "url": "https://www.foundry.com/products/mari"
+        }
+      ]
+    },
+    {
+      "slug": "armorpaint",
+      "name": "ArmorPaint",
+      "site": "https://armorpaint.org",
+      "best_for": "Stand-alone PBR painting with local AI",
+      "pricing": "No price on the pages opened; AI models are published under open source licences.",
+      "free_plan": "Unknown",
+      "note": "ArmorPaint is stand-alone software for physically-based texture painting on 3D models, using node-based materials, fill layers and brush nodes. The homepage says AI models run locally and recommends at least 6 GB of video memory. It fits artists who want a painting-first interface without a subscription.",
+      "sources": [
+        {
+          "fact": "ArmorPaint's homepage describes it as stand-alone software for physically-based texture painting on 3D models.",
+          "url": "https://armorpaint.org"
+        },
+        {
+          "fact": "ArmorPaint's homepage says it uses node-based materials, fill layers and brush nodes.",
+          "url": "https://armorpaint.org"
+        },
+        {
+          "fact": "ArmorPaint's homepage says its AI models are published under open source licences and run locally, with a recommended minimum of 6 GB of video memory.",
+          "url": "https://armorpaint.org"
+        }
+      ]
+    },
+    {
+      "slug": "material-maker",
+      "name": "Material Maker",
+      "site": "https://materialmaker.org",
+      "best_for": "Open source procedural materials",
+      "pricing": "Open source; the site has a Donate link (Patreon).",
+      "free_plan": "Open source",
+      "note": "Material Maker is described as the open source procedural materials authoring tool, with graphs of over 200 nodes for PBR materials and export for game engines. It is on itch.io and Steam. It replaces the material side of a painter, not hand painting on a mesh.",
+      "sources": [
+        {
+          "fact": "Material Maker's homepage describes it as the open source procedural materials authoring tool.",
+          "url": "https://materialmaker.org"
+        },
+        {
+          "fact": "Material Maker's homepage says it creates PBR materials using graphs of over 200 nodes.",
+          "url": "https://materialmaker.org"
+        },
+        {
+          "fact": "Material Maker's homepage says materials can be exported for use in game engines and movie assets.",
+          "url": "https://materialmaker.org"
+        }
+      ]
+    },
+    {
+      "slug": "zbrush",
+      "name": "ZBrush",
+      "site": "https://www.maxon.net/en/zbrush",
+      "best_for": "Sculpting with texture tools included",
+      "pricing": "Sold as a subscription including desktop, iPad and Windows on Arm; prices were not in the captured text.",
+      "free_plan": "Unknown",
+      "note": "Maxon's ZBrush page lists a dynamic brush system, base mesh creation and remeshing, and says subscriptions include ZBrush on desktop, iPad and Windows on Arm devices. It leads with sculpting, so choose it if high-poly detail comes before texturing in your pipeline.",
+      "sources": [
+        {
+          "fact": "Maxon's ZBrush page describes a dynamic brush system, base mesh creation tools and remeshing for sculpting.",
+          "url": "https://www.maxon.net/en/zbrush"
+        },
+        {
+          "fact": "Maxon's ZBrush page says every ZBrush subscription includes ZBrush on desktop, iPad and Windows on Arm devices with premium features.",
+          "url": "https://www.maxon.net/en/zbrush"
+        },
+        {
+          "fact": "Maxon's ZBrush page lists free access to Redshift CPU and ZBrush Classroom as subscription inclusions.",
+          "url": "https://www.maxon.net/en/zbrush"
+        }
+      ]
+    },
+    {
+      "slug": "houdini",
+      "name": "Houdini",
+      "site": "https://www.sidefx.com/products/houdini/",
+      "best_for": "Procedural look development",
+      "pricing": "Free trial; Commercial, Indie and Education licenses are listed, with prices not readable in the captured text.",
+      "free_plan": "Free trial",
+      "note": "SideFX describes Houdini as 3D procedural software covering modeling, look development, lighting and rendering. It is a heavy move for texturing alone. It fits technical artists who already work procedurally and want materials and assets built from the same network.",
+      "sources": [
+        {
+          "fact": "SideFX's Houdini page describes Houdini as 3D procedural software for modelling, rigging, animation, VFX, look development, lighting and rendering in film, TV, advertising and video game pipelines.",
+          "url": "https://www.sidefx.com/products/houdini/"
+        },
+        {
+          "fact": "SideFX's Houdini page offers a free trial with the call to action 'Try Houdini for FREE'.",
+          "url": "https://www.sidefx.com/products/houdini/"
+        },
+        {
+          "fact": "SideFX's Houdini licensing menu lists Commercial, Indie and Education licences.",
+          "url": "https://www.sidefx.com/products/houdini/"
+        }
+      ]
+    },
+    {
+      "slug": "krita",
+      "name": "Krita",
+      "site": "https://krita.org/en/",
+      "best_for": "Free 2D painting for hand-painted textures",
+      "pricing": "Free and open source.",
+      "free_plan": "Open source",
+      "note": "Krita is described as a professional, free and open source painting program made by artists, with more than 25 interface languages. It paints in 2D, so you project or paint flat texture sheets rather than directly on a mesh. The download page lists Krita 5.3.4.1 released on 7 October 2026.",
+      "sources": [
+        {
+          "fact": "Krita's site describes it as a professional, free and open source painting program made by artists.",
+          "url": "https://krita.org/en/"
+        },
+        {
+          "fact": "Krita's download page lists more than 25 interface languages.",
+          "url": "https://krita.org/en/download/"
+        },
+        {
+          "fact": "Krita's download page lists Krita 5.3.4.1 as the current download, released on 7 October 2026.",
+          "url": "https://krita.org/en/download/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Decide how your textures are made. Painted directly on a mesh points to ArmorPaint, 3D-Coat or Mari. Built from graphs points to Material Maker or Houdini. If you also need renders, Marmoset Toolbag fits. If your budget is zero, Blender, Krita, Material Maker and ArmorPaint are the places to start. Since we could not read Adobe's pages, compare the current Substance price and your trial results yourself before you leave it.",
+  "faqs": [
+    {
+      "q": "Why does this page say nothing about Substance 3D Painter's price?",
+      "a": "Adobe's pages returned an access error to our fetcher on 18 November 2026, so we did not state a price or feature we could not read. Check Adobe's current page for those details."
+    },
+    {
+      "q": "Which options are free?",
+      "a": "Krita is free and open source, Material Maker is open source with a donation link, and Blender's manual covers the GPL. ArmorPaint shows no price on the pages opened and its AI models are under open source licences."
+    },
+    {
+      "q": "What is the cheapest paid alternative?",
+      "a": "On the pages opened, 3D-Coat lists a licence at EUR 379 with paid update steps, and Mari's subscription starts at EUR 78 per month. Marmoset and ZBrush did not show prices in the captured text."
+    },
+    {
+      "q": "Can I paint textures without a sculpting tool?",
+      "a": "Yes. ArmorPaint and Mari focus on painting, and Material Maker builds materials from nodes. Sculpting tools such as ZBrush and 3D-Coat are optional if your models arrive from elsewhere."
+    },
+    {
+      "q": "Do these tools run on Mac and Linux?",
+      "a": "3D-Coat lists Windows, macOS and Linux, and Blender documents Linux, macOS and Windows. ZBrush lists desktop and iPad. Check the other vendors' system pages, since several did not state platforms on the pages opened."
+    }
+  ]
+}

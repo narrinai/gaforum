@@ -1,0 +1,155 @@
+{
+  "slug": "medal-vs-outplayed",
+  "a": "medal",
+  "b": "outplayed",
+  "a_name": "Medal",
+  "b_name": "Outplayed",
+  "a_site": "https://medal.tv/",
+  "b_site": "https://outplayed.tv/",
+  "category": "best-game-capture-and-recording-software",
+  "title": "Medal vs Outplayed: Which Fits Your Team in 2026?",
+  "description": "Medal is a free PC clip recorder with sharing built in; Outplayed auto-captures plays and adds a Premium tier. See pricing, features and who each suits.",
+  "published": "2026-11-18",
+  "intro": "Medal and Outplayed are both clip capture apps for PC gamers, and the difference sits in how each frames the job. Medal presents itself as a tool to record, edit and share gaming clips, free on PC. Outplayed presents itself as an app that captures your best plays automatically, with performance tracking and a Premium tier that removes ads. This page lines up what each vendor states on its own site, flags what could not be read, and suggests which one suits a streamer, a coach or a small esports roster.",
+  "verdict": "Streamers and community managers who mostly care about getting a clip onto social channels can start with Medal, since its stated price on PC is zero. Players who want the software to notice highlights without being told, and who also want performance stats beside the footage, have a stronger case for Outplayed. Neither vendor page we opened gave a clip length or bitrate limit, so test both on your own hardware.",
+  "pick_a": "Pick Medal if sharing is the point of capture, you want a free tool on PC and a built-in editor with a games library around it.",
+  "pick_b": "Pick Outplayed if you want plays flagged automatically while you play, performance tracking next to the clips, and you accept a free tier with ads.",
+  "rows": [
+    {
+      "label": "What it is",
+      "a": "App to record, edit and share gaming clips and gameplay videos",
+      "b": "Capture app that automatically records a gamer's best plays"
+    },
+    {
+      "label": "Pricing model",
+      "a": "Free, per the homepage description",
+      "b": "Freemium with Free and Premium tiers"
+    },
+    {
+      "label": "Entry price",
+      "a": "Free to record, edit and share clips on PC",
+      "b": "Free tier; Premium price not shown on the opened page"
+    },
+    {
+      "label": "Ads",
+      "a": "Not mentioned on the pages opened",
+      "b": "Premium is said to remove ads, so the free tier carries them"
+    },
+    {
+      "label": "Highlight detection",
+      "a": "Not stated on the pages opened",
+      "b": "Automatic capture of best moments and biggest plays"
+    },
+    {
+      "label": "Editing",
+      "a": "Clip editing listed as a feature",
+      "b": "Video editor listed as a feature"
+    },
+    {
+      "label": "Performance tracking",
+      "a": "Not listed",
+      "b": "Listed as a feature"
+    },
+    {
+      "label": "Sharing and library",
+      "a": "Sharing and a games library are listed features",
+      "b": "Sharing not highlighted on the homepage text opened"
+    },
+    {
+      "label": "Platforms",
+      "a": "PC",
+      "b": "PC; Android icons appear on the vendor site"
+    },
+    {
+      "label": "Main strength",
+      "a": "Zero stated cost and a sharing-first workflow",
+      "b": "Hands-off highlight capture plus stats"
+    },
+    {
+      "label": "Main limit",
+      "a": "No automatic highlight claim found",
+      "b": "Ads on the free tier; Premium price unknown"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Two ways of describing the same job",
+      "text": [
+        "Medal describes itself as a tool to record, edit and share gaming clips and gameplay videos, and its homepage description says doing so on PC is free. The wording puts the clip first and the audience second: you record, you trim, you send it somewhere.",
+        "Outplayed describes itself as a capture app that automatically captures a gamer's best moments and biggest plays. The verb that matters is automatically. The app is meant to be running while you play and to keep what mattered, instead of leaving you to scrub through a long session afterward."
+      ]
+    },
+    {
+      "h2": "What each costs",
+      "text": [
+        "Medal's homepage description says it is free to record, edit and share gaming clips on PC. We found no paid tier named on the pages we opened, so a team can assume a zero entry cost but should check the current terms before building a workflow around it.",
+        "Outplayed lists a Free tier and a Premium tier. The vendor says Premium removes ads and unlocks premium features, and the page we opened shows no Premium price. For a single streamer the ads on the free tier may be tolerable. For a roster that records on several machines, ads inside the app are a reason to price Premium early."
+      ]
+    },
+    {
+      "h2": "Highlights versus control",
+      "text": [
+        "Automatic capture sounds like a clear win, but it changes who decides what a highlight is. If the app picks the moments, you save time on a ranked session and you may still miss a clutch that the detector ignored. Medal's listed feature set is recording, editing, sharing and a games library, which leaves the choice of moment with you.",
+        "Outplayed adds performance tracking and a video editor to the capture function. For a coach reviewing a player across a week, stats beside the footage can help locate the rounds worth watching. That use depends on the games you play being supported, and the pages we opened do not list supported titles."
+      ]
+    },
+    {
+      "h2": "Platforms and reach",
+      "text": [
+        "Medal lists PC as its platform. Outplayed also lists PC and its icon set on the vendor site includes Android, though the pages we read do not describe an Android feature set, so treat that as a hint and not a promise.",
+        "Neither page we opened stated a maximum resolution, frame rate, clip length or export format. Those limits decide whether a clip suits a 4K upload or a vertical short, and the only reliable way to learn them is to install each app and record a short session on the machine you will actually use."
+      ]
+    },
+    {
+      "h2": "A practical way to decide",
+      "text": [
+        "Run each app for one week of normal play. Note how many clips you kept, how many you would have missed without the automatic capture, how long editing took, and whether ads got in the way. A small team can split the test, one person on each tool, and compare the clips that ended up posted.",
+        "If the posted clips look the same, take the free option with fewer interruptions. If one app consistently found moments the other did not, that is a better reason to choose than any feature list. Related reading: [best game capture and recording software](/software/best-game-capture-and-recording-software)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I use either app for free on PC?",
+      "a": "Medal's homepage description says recording, editing and sharing clips on PC is free. Outplayed has a Free tier, with a Premium tier that removes ads and unlocks extra features. Prices for Premium were not on the page we opened, so confirm them on the vendor site."
+    },
+    {
+      "q": "Which one finds highlights without me pressing a button?",
+      "a": "Outplayed states that it automatically captures best moments and biggest plays. Medal's opened pages describe recording, editing and sharing, and do not make an automatic detection claim."
+    },
+    {
+      "q": "Does Outplayed show performance stats?",
+      "a": "Yes, its homepage lists performance tracking among its features. Medal's pages we opened did not list a comparable feature."
+    },
+    {
+      "q": "Is Android supported?",
+      "a": "Outplayed's vendor site shows Android icons, but the text we read does not describe what the Android app does. Medal's pages list PC only."
+    },
+    {
+      "q": "Which suits a streamer who posts clips daily?",
+      "a": "Medal fits that habit on paper because sharing is part of its description and the stated PC price is zero. Test the export quality against your channel needs first."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Medal is a tool to record, edit and share gaming clips and gameplay videos.",
+      "url": "https://medal.tv/"
+    },
+    {
+      "fact": "Medal's homepage description says it is free to record, edit and share gaming clips on PC.",
+      "url": "https://medal.tv/"
+    },
+    {
+      "fact": "Outplayed is a capture app for gamers that automatically captures their best moments and biggest plays while they play.",
+      "url": "https://outplayed.tv/"
+    },
+    {
+      "fact": "Outplayed offers a Free tier and a Premium tier, and says Premium removes ads and unlocks premium features.",
+      "url": "https://outplayed.tv/"
+    },
+    {
+      "fact": "Outplayed's homepage lists game capture, performance tracking and a video editor as features.",
+      "url": "https://outplayed.tv/"
+    }
+  ]
+}

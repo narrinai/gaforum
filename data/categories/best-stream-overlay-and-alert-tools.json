@@ -1,0 +1,493 @@
+{
+  "slug": "best-stream-overlay-and-alert-tools",
+  "name": "stream overlay and alert tools",
+  "title": "Best Stream Overlay and Alert Tools in 2026",
+  "group": "Streaming and creators",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Ten services for stream overlays, follower alerts, widgets and interactive extras, ranked by price clarity, bundled design assets and setup effort.",
+  "definition": "Stream overlay and alert tools supply the graphics that sit on top of a live video: webcam frames, scene backgrounds, follower and donation pop-ups, goal bars and chat boxes. They usually run as browser sources inside a broadcasting app, and some also sell ready-made design packs or interactive viewer features.",
+  "intro": "A channel's look usually comes from three places: an alert service that reacts to follows and tips, a pack of designed scenes, and a few widgets for goals and chat. The ten tools below cover all three, from cloud platforms that do everything to marketplaces that only sell art. We read each vendor's homepage, pricing page and legal notice, noted what is free, and compared the published prices and revenue terms. We did not run any alert through a test stream, so nothing here claims latency or reliability. Where a page showed no price, we say the price is unknown. Ordering favors a working streamer who wants good-looking scenes without paying for three separate subscriptions.",
+  "criteria": [
+    {
+      "heading": "Free alerts versus paid design packs",
+      "text": "Alerts that fire on a follow or tip are often free, while polished scene packs, animated stingers and matching emotes are sold. Work out which half you need. A channel with its own art can use a free alert service; a new channel without art may be better served by a subscription that bundles hundreds of designs than by buying single packs."
+    },
+    {
+      "heading": "Cut taken from money viewers send",
+      "text": "Tipping and interactive card systems sit between your viewers and your income. Some vendors say they take nothing from donations, others share revenue at a stated percentage, and some publish no terms at all. Read the revenue lines carefully, because a small percentage on every tip adds up over a year of streaming, and a flat fee may be cheaper for a busy channel."
+    },
+    {
+      "heading": "How the overlay reaches your scene",
+      "text": "Most tools give you a browser-source link that you paste into a broadcasting program, while others plug in directly or run as a viewer-facing extension on Twitch. Check which programs the vendor lists, whether a plugin is required, and whether the same account covers chat widgets and goals. Fewer moving parts means fewer things breaking mid-stream, and a single vendor to ask when one does."
+    },
+    {
+      "heading": "Fit for the channel's size and style",
+      "text": "A big esports-style channel needs consistent branding across scenes, alerts and panels; a small variety channel may only want a cheap template and a goal bar. We looked at how each vendor sells its assets, whether it offers a maker tool for custom changes, and how much of the catalog a free account reaches, since a free tier that shows only a sliver tells you little."
+    }
+  ],
+  "market_notes": [
+    "Three of the ten (StreamElements, Streamlabs and OWN3D) combine overlays with alerts, chat tools or tipping, while Lumia Stream and SAMMI add automation, lights or button control on top. Streamloots, Muxy and the Elgato Marketplace sell or run viewer-facing extras and assets instead. Published prices exist for Lumia Stream ($5.99 per month), Placeit (from $7.47) and the revenue split at Streamloots; Muxy sells on quote, and StreamElements, Streamlabs and Canva show no amount in the text we read.",
+    "What separates the ten is mostly who earns from what. OWN3D and Placeit sell art by subscription, Streamloots keeps a share of revenue (creators keep 80%, or 90% for Partners), and Muxy builds custom Twitch extensions for studios and publishers. SAMMI is the only one whose vendor calls it completely free. Most tools list Twitch and YouTube, but Muxy centers on Twitch, so channels on other platforms have fewer choices there."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Sort needs into alerts, art and interaction",
+      "text": "Write three short lists: alerts you want (follows, tips, subscriptions), art you want (scenes, frames, stingers) and interaction you want (cards, buttons, lights). Most channels need the first two and skip the third. Each list points at a different tool, and the cheapest route is usually a free alert service plus one art subscription, bought only after the free part works."
+    },
+    {
+      "title": "Compare what you pay over twelve months",
+      "text": "Convert every plan to a yearly cost and add any revenue share on tips. A subscription at a low monthly price can still cost more than a one-off pack, while a free tool with a percentage on donations can cost more than a flat fee once your tips grow. Use your real tip volume, even if it is small."
+    },
+    {
+      "title": "Test the link in your broadcasting app",
+      "text": "Before paying, paste a free alert or overlay link into your broadcasting program, trigger a test event and watch how it appears. Confirm the font, animation length and sound all behave. If the vendor requires a plugin or a desktop client, install it now rather than ten minutes before going live, and note what you changed so a restore is easy."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best stream overlay and alert tool in 2026?",
+      "a": "StreamElements is our first pick for most streamers because it combines overlays, alerts, a chatbot and tipping in one cloud account with an OBS plugin. OWN3D is better if you want a large library of designs, and Streamlabs Desktop is better if you already use its broadcasting app."
+    },
+    {
+      "q": "Are stream alerts free?",
+      "a": "Often, yes. SAMMI says it is completely free, Lumia Stream lists a free plan with Premium from $5.99 per month, and OWN3D says its chat widget, chatbot, donation page and goal bars are free for OWN3D Pro users. Paid tiers mainly unlock design packs and extra features."
+    },
+    {
+      "q": "Do alert services take a cut of donations?",
+      "a": "It depends on the vendor. Streamlabs states on its pricing page that it takes zero cut of donations. Streamloots says creators keep 80% of subscription revenue, or 90% for Partners, and Partners keep 90% of every tip. For others we found no stated percentage, so read the terms."
+    },
+    {
+      "q": "Where can I buy ready-made overlay designs?",
+      "a": "OWN3D sells overlays, alerts, panels, emotes and badges, and its Stream Pass lists 500+ overlays and 12,000+ designs in its Overlay Maker. Placeit has Twitch templates and lower third banners from $7.47, and the Elgato Marketplace offers live designs and OBS scene collections."
+    },
+    {
+      "q": "Can Canva be used for stream graphics?",
+      "a": "Yes, for static graphics such as banners and thumbnails. Canva describes itself as a free-to-use online design tool for social posts, presentations, posters and videos, with Free, Pro, Business and Enterprise plans. It does not run alerts or live widgets, so pair it with an alert service."
+    },
+    {
+      "q": "Which tools work beyond Twitch?",
+      "a": "StreamElements lists Twitch, YouTube and Facebook Gaming. Lumia Stream lists overlays for Twitch, YouTube, Kick, TikTok and Facebook, and OWN3D lists designs for Twitch, YouTube, Kick, Facebook and Trovo. Muxy centers on Twitch extensions, with Discord, TikTok and YouTube shown under reach."
+    },
+    {
+      "q": "Do overlay tools need OBS?",
+      "a": "Mostly they work with it. SE.Live is a plugin for OBS Studio, SAMMI connects through OBS WebSocket, and OWN3D lists OBS Studio, Streamlabs and StreamElements as compatible. Streamlabs Desktop is itself a broadcasting app, so it needs no separate program."
+    }
+  ],
+  "related": [
+    "best-streaming-software-for-gamers",
+    "best-twitch-chat-bots",
+    "best-stream-deck-and-stream-automation-software",
+    "best-donation-and-monetization-tools-for-streamers",
+    "best-clip-and-highlight-editors-for-streamers",
+    "best-voice-changer-and-streaming-audio-software"
+  ],
+  "tools": [
+    {
+      "slug": "streamelements",
+      "name": "StreamElements",
+      "site": "https://streamelements.com/",
+      "company": "StreamElements",
+      "country": "",
+      "tagline": "Cloud overlays, alerts, chatbot and tipping",
+      "best_for": "One account for the whole overlay stack",
+      "pricing": "Pricing is not stated on the home page opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Twitch, YouTube and Facebook Gaming, per the vendor",
+      "features": [
+        "Alerts and overlays",
+        "Chatbot",
+        "SE.Live OBS plugin",
+        "SE.Tips tipping",
+        "Ground Control multistreaming app"
+      ],
+      "summary": "StreamElements packs overlays, alerts, a chatbot and tipping into one cloud account, with an OBS plugin and a multistreaming companion.",
+      "verdict": "StreamElements calls itself cloud-based and lists overlays, tipping, a chatbot, alerts and merchandise for Twitch, YouTube and Facebook Gaming. SE.Live is its plugin for OBS Studio, and Ground Control is a companion for managing multistreams. The appeal is that alerts, widgets and chat tooling share one dashboard, so a new channel avoids stitching vendors together. It takes first place for breadth across the three things most streamers need first.",
+      "weaknesses": "The homepage we opened did not show a price, so we cannot say what any paid tier costs. The plugin route assumes OBS Studio, and the vendor says nothing in the pages we read about a library of premium art.",
+      "wrong_for": "Channels that want a large catalog of professional scene packs should look at OWN3D. Those who prefer a single broadcasting app should check Streamlabs Desktop.",
+      "sources": [
+        {
+          "fact": "StreamElements lists overlays, tipping, chatbot, alerts and merchandise among its features for Twitch, YouTube and Facebook Gaming.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "SE.Live is a plugin for OBS Studio, and Ground Control is a multistreaming stream management companion app.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "The StreamElements home page opened does not show a price.",
+          "url": "https://streamelements.com/"
+        }
+      ]
+    },
+    {
+      "slug": "own3d",
+      "name": "OWN3D",
+      "site": "https://www.own3d.tv/en/",
+      "company": "StreamTV Media GmbH",
+      "country": "Austria",
+      "tagline": "Overlay shop and maker with a Stream Pass",
+      "best_for": "Big libraries of designs and alerts",
+      "pricing": "All Stream Pass billed per month, paid quarterly and renewing automatically after 3 months (price amount not present in the extracted page text); the streaming tools are free for all OWN3D Pro users.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free",
+      "platforms": "Twitch, YouTube, Kick, Facebook and Trovo designs; works with OBS Studio, Streamlabs, StreamElements and other broadcasting tools (as listed on the vendor site)",
+      "features": [
+        "Overlay Maker",
+        "Stream overlays and alerts",
+        "Emote Maker",
+        "Chatbot",
+        "Donation page",
+        "Goal bars"
+      ],
+      "summary": "OWN3D sells overlays, alerts, panels, emotes and badges, with a Stream Pass and free tools for its Pro users.",
+      "verdict": "OWN3D is operated by StreamTV Media GmbH in Steyr, Austria, and says it was founded in 2017. A Stream Pass gives access to 500+ overlays, 12,000 stream designs in the Overlay Maker and 500 alert designs, and it works with OBS Studio, Streamlabs and StreamElements per the vendor. The chat widget, chatbot, donation page and goal bars are free to Pro users. We rank it second because the catalog is the largest we could confirm, and the maker tool lets you adjust designs.",
+      "weaknesses": "The Stream Pass is billed per month, paid quarterly and renewing automatically after three months, and the price amount did not appear in the text we read. Auto-renewal means you must cancel to stop charges.",
+      "wrong_for": "Streamers who want only free alerts should use SAMMI or StreamElements. Anyone who needs custom viewer extensions should talk to Muxy instead.",
+      "sources": [
+        {
+          "fact": "OWN3D is operated by StreamTV Media GmbH, Grunmarkt 8, Steyr, Austria, according to its legal notice.",
+          "url": "https://www.own3d.tv/en/legal/"
+        },
+        {
+          "fact": "OWN3D states that it was founded in 2017.",
+          "url": "https://www.own3d.tv/en/about/"
+        },
+        {
+          "fact": "The Stream Pass is billed per month, paid quarterly, and renews automatically after three months.",
+          "url": "https://www.own3d.tv/en/pro/sub/"
+        },
+        {
+          "fact": "With an active Stream Pass, users can use more than 500 overlays, 12,000 stream designs and 500 alert designs in the Scene Builder.",
+          "url": "https://www.own3d.tv/en/pro/sub/"
+        }
+      ]
+    },
+    {
+      "slug": "streamlabs-desktop",
+      "name": "Streamlabs Desktop",
+      "site": "https://streamlabs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Broadcasting app bundled with alerts and tips",
+      "best_for": "Alerts inside the app you stream with",
+      "pricing": "Plan amounts were not readable on the product page; the pricing page says Streamlabs takes zero cut of donations.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Streamlabs Desktop",
+        "Alerts",
+        "Overlays",
+        "Tipping",
+        "Merch"
+      ],
+      "summary": "Streamlabs Desktop puts alerts, overlays, tipping and merch beside the broadcasting app, and its pricing page states zero cut of donations.",
+      "verdict": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, offering Streamlabs Desktop, alerts, overlays, tipping and merch. The pricing page states that the company takes zero cut of your donations, which is the clearest donation statement among the services here. Because the same login drives the broadcasting app and the alerts, setup is short. It ranks third because the bundle is convenient, but we could not confirm its plan details.",
+      "weaknesses": "The Streamlabs Desktop product page is rendered by JavaScript and we could not read it fully, so plans and limits are unconfirmed. Extra overlay themes may sit behind a paid subscription.",
+      "wrong_for": "Channels that already broadcast with another program should skip the bundle and look at StreamElements or OWN3D. Those who need price transparency should read Lumia Stream.",
+      "sources": [
+        {
+          "fact": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, offering Streamlabs Desktop, alerts, overlays, tipping and merch.",
+          "url": "https://streamlabs.com/"
+        },
+        {
+          "fact": "The Streamlabs pricing page states that the company takes zero cut of your donations.",
+          "url": "https://streamlabs.com/pricing"
+        },
+        {
+          "fact": "The Streamlabs Desktop product page on the vendor site could not be read in full because the page is rendered by JavaScript, so its plans are not recorded here.",
+          "url": "https://streamlabs.com/streamlabs-desktop/tip"
+        }
+      ]
+    },
+    {
+      "slug": "lumia-stream",
+      "name": "Lumia Stream",
+      "site": "https://lumiastream.com/",
+      "company": "Lumia Stream",
+      "country": "",
+      "tagline": "Alerts, overlays and viewer-controlled lights in one app",
+      "best_for": "Streamers who want lights and loyalty points",
+      "pricing": "Free to download; Premium is listed at $5.99 per month, $32.99 every 6 months, or $59.99 per year (Most Popular), with automatic renewal. A lifetime option is listed without a price.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Windows, Mac and Linux; chat from Twitch, TikTok, YouTube, Discord, Kick and Facebook; overlays for Twitch, YouTube, Kick, TikTok and Facebook",
+      "features": [
+        "Multistream chat",
+        "Real-time alerts",
+        "OBS overlays",
+        "Loyalty points system",
+        "Control Room dashboard",
+        "Stream Deck plugin"
+      ],
+      "summary": "Lumia Stream combines multistream chat, alerts, OBS overlays, loyalty points and connected lights, with a free plan and a $5.99 Premium.",
+      "verdict": "Lumia Stream calls itself an all-in-one streaming tool with multistreaming chat, real-time alerts, OBS overlays, a loyalty system and control of lights and devices. It runs on Windows, Mac and Linux, and the pricing page lists Premium at $5.99 per month, $32.99 every 6 months or $59.99 per year. It sits fourth because it is cheap and unusually broad, though the lights and loyalty features suit only some channels.",
+      "weaknesses": "A lifetime option is listed without a price, and subscriptions renew automatically unless cancelled. The homepage claims 40+ exclusive features, a figure we could not verify independently, and lights are of no use without compatible hardware.",
+      "wrong_for": "If you want a large art library, look at OWN3D. Channels that only need free alerts and a goal bar can start with SAMMI.",
+      "sources": [
+        {
+          "fact": "Lumia Stream describes itself as an all-in-one streaming tool with multistreaming, light control, loyalty rewards and overlays in one app.",
+          "url": "https://lumiastream.com/"
+        },
+        {
+          "fact": "The pricing page lists a free plan with a 'Download for free' call to action.",
+          "url": "https://lumiastream.com/pricing"
+        },
+        {
+          "fact": "The pricing page lists Premium at $5.99 per month, $32.99 every 6 months, or $59.99 per year, and says subscriptions renew automatically unless cancelled.",
+          "url": "https://lumiastream.com/pricing"
+        },
+        {
+          "fact": "The home page lists Windows, Mac and Linux among the operating systems it supports.",
+          "url": "https://lumiastream.com/"
+        }
+      ]
+    },
+    {
+      "slug": "elgato-marketplace",
+      "name": "Elgato Marketplace",
+      "site": "https://marketplace.elgato.com/",
+      "company": "Elgato (part of Corsair Gaming, Inc.)",
+      "country": "Germany and California (US)",
+      "tagline": "Store for Stream Deck plugins, designs and OBS scenes",
+      "best_for": "Streamers using Stream Deck and OBS",
+      "pricing": "Mix of free and paid items; each listing sets its own price.",
+      "pricing_model": "Marketplace",
+      "free_plan": "Free plan",
+      "platforms": "Web store; assets install to Stream Deck, Wave Link and OBS",
+      "features": [
+        "Stream Deck plugins",
+        "Icons and profiles",
+        "OBS scene collections",
+        "Marketplace Connect",
+        "Audio effects"
+      ],
+      "summary": "The Elgato Marketplace lists plugins, icons, profiles and OBS scene collections, installed straight into Stream Deck, Wave Link and OBS.",
+      "verdict": "Elgato's Marketplace describes itself as a place to find plugins, designs and more, curated by Elgato, with items marked free or priced. For streamers it lists live designs and interactive widgets that apply directly in OBS, plus OBS scene collections through Marketplace Connect. Elgato says it was founded in 1999, was acquired by Corsair Gaming, Inc. in 2018 and is based in Germany and California. It ranks fifth because the assets are broad but alerts are not its job.",
+      "weaknesses": "It is a store, not an alert service, so tipping and follower pop-ups need another tool. Each listing sets its own price, and the pages we read show no catalog size. Several items assume Stream Deck hardware or OBS.",
+      "wrong_for": "Streamers who want an alert dashboard should choose StreamElements, which covers follows and tips. For a subscription library of full overlay sets, look at OWN3D.",
+      "sources": [
+        {
+          "fact": "The marketplace describes itself as a place to find plugins, designs and more, curated by Elgato, with items listed as Free or priced.",
+          "url": "https://marketplace.elgato.com/"
+        },
+        {
+          "fact": "For streamers it lists live designs and interactive widgets that apply directly in OBS, and OBS Scene Collections through Marketplace Connect.",
+          "url": "https://marketplace.elgato.com/"
+        },
+        {
+          "fact": "Elgato says it was founded in 1999, was acquired by Corsair Gaming, Inc. in 2018, and is based in Germany and California.",
+          "url": "https://www.elgato.com/us/en/s/about"
+        }
+      ]
+    },
+    {
+      "slug": "sammi",
+      "name": "SAMMI",
+      "site": "https://sammi.solutions/",
+      "company": "",
+      "country": "",
+      "tagline": "Free visual automation for Twitch, YouTube and OBS",
+      "best_for": "Interactive streams without writing code",
+      "pricing": "Described by the vendor as completely free; license details are on a separate license page.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Desktop app (download page), plus SAMMI Panel on desktop and web browsers",
+      "features": [
+        "Visual button programming",
+        "OBS WebSocket control",
+        "Twitch events and chat",
+        "YouTube Live events",
+        "SAMMI Panel"
+      ],
+      "summary": "SAMMI is a free automation toolkit that lets viewers trigger buttons, OBS actions and events on Twitch and YouTube Live.",
+      "verdict": "SAMMI is described by its homepage as a completely free tool to automate streams, with a free Core app and visual programming. It connects to OBS WebSocket, listens to Twitch and YouTube Live events, sends chat messages and edits channel point rewards. The documentation lists integrations with Crowd Control, Elgato Stream Deck, Meld Studio, Mix It Up, Pulsoid and Voicemod. It ranks sixth because it triggers effects well but ships no art.",
+      "weaknesses": "SAMMI supplies logic, not visuals, so you still need overlays from elsewhere. Visual programming has its own learning curve, and licensing details live on a separate license page that we did not open in full.",
+      "wrong_for": "Beginners who want finished scenes should choose OWN3D. Streamers wanting hosted alerts with a dashboard and no scripting should use StreamElements.",
+      "sources": [
+        {
+          "fact": "The homepage calls SAMMI a completely free tool to automate your streams, with a free Core app.",
+          "url": "https://sammi.solutions/"
+        },
+        {
+          "fact": "It connects to OBS WebSocket, listens to Twitch and YouTube Live events, sends chat messages and edits channel point rewards, using visual programming.",
+          "url": "https://sammi.solutions/"
+        },
+        {
+          "fact": "The documentation lists integrations with Crowd Control, Elgato Stream Deck, Meld Studio, Mix It Up, OBS Studio, Pulsoid, Twitch, Voicemod and YouTube Live.",
+          "url": "https://sammi.solutions/docs"
+        }
+      ]
+    },
+    {
+      "slug": "streamloots",
+      "name": "Streamloots",
+      "site": "https://streamloots.com/",
+      "company": "Streamloots",
+      "country": "",
+      "tagline": "Viewer-triggered cards with revenue share",
+      "best_for": "Channels monetizing through collectible cards",
+      "pricing": "The only pricing wording is 'Join Now for Free'. Creators keep 80% of subscription revenue (90% for Partners); Partners keep 90% of every tip. No plan tiers or fees are listed.",
+      "pricing_model": "Revenue share",
+      "free_plan": "Free",
+      "platforms": "Logins via Twitch, YouTube, Kick, Facebook, Google and Trovo; the page says it works on all major streaming platforms",
+      "features": [
+        "Cards",
+        "Subscriptions",
+        "Auctions",
+        "Marathon timer",
+        "Tips",
+        "Revenue share payouts"
+      ],
+      "summary": "Streamloots lets viewers buy cards that fire on-screen effects, with creators keeping 80% of subscription revenue and 90% as Partners.",
+      "verdict": "Streamloots is a monetization platform with interactive cards, subscriptions, auctions, a marathon timer and tips. The vendor says creators keep 80% of subscription revenue, rising to 90% for Partners, and Partners keep 90% of every tip. Payouts run twice a month, on the 1st and 15th, and the page cites 100,000+ creators. It suits channels that want viewers to trigger visible effects. It ranks seventh because it is a revenue tool first and an overlay tool second.",
+      "weaknesses": "Viewer purchases are the product, so you give up a share of income at the stated percentages. No plan tiers or fees are listed, and the footer carries a 2024 copyright line, so check how recently the service was updated.",
+      "wrong_for": "Creators who dislike revenue sharing should pick SAMMI or Lumia Stream. If you want ready-made scene art, OWN3D fits better.",
+      "sources": [
+        {
+          "fact": "Streamloots is a monetization platform for streamers that offers interactive cards, subscriptions, auctions, a marathon timer and tips.",
+          "url": "https://streamloots.com/"
+        },
+        {
+          "fact": "The vendor page says creators keep 80% of subscription revenue, rising to 90% for Partners, and Partners keep 90% of every tip.",
+          "url": "https://streamloots.com/"
+        },
+        {
+          "fact": "The vendor page's only pricing call to action is 'Join Now for Free' and it lists no plan tiers or fees.",
+          "url": "https://streamloots.com/"
+        },
+        {
+          "fact": "The vendor page says payouts run twice a month, on the 1st and 15th.",
+          "url": "https://streamloots.com/"
+        }
+      ]
+    },
+    {
+      "slug": "placeit",
+      "name": "Placeit",
+      "site": "https://placeit.net/",
+      "company": "",
+      "country": "",
+      "tagline": "Template maker with Twitch and lower-third designs",
+      "best_for": "Cheap one-off graphics for small channels",
+      "pricing": "Free account with free templates; Unlimited Subscription shown from $7.47 (monthly plan with a one-month minimum commitment); the annual plan is 33 percent cheaper than the monthly plan, per the pricing page.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "Mockups",
+        "Logo maker",
+        "Video templates",
+        "Twitch templates",
+        "YouTube templates",
+        "Lower third banners"
+      ],
+      "summary": "Placeit offers browser templates for logos, videos and mockups, including Twitch templates and lower third banners, from $7.47.",
+      "verdict": "Placeit describes itself as a tool to create and customize logos, videos, mockups, flyers and business cards from templates. Its homepage lists Twitch Templates, YouTube Templates and Lower Third Banners among categories. A free account reaches a selection of free templates, and the Unlimited Subscription starts at $7.47 with a one-month minimum, with the annual plan 33 percent cheaper. It sits eighth because it makes static art, not live alerts.",
+      "weaknesses": "Templates are general design assets, so they will not trigger on follows or tips, and results may resemble other channels using the same layouts. The price shown is a starting figure with a one-month minimum.",
+      "wrong_for": "Streamers who need working alerts should choose StreamElements. For a gaming-specific design library with an overlay maker, look at OWN3D.",
+      "sources": [
+        {
+          "fact": "Placeit describes itself as a tool to create and customize logos, videos, mockups, flyers and business cards from templates.",
+          "url": "https://placeit.net/"
+        },
+        {
+          "fact": "Placeit's homepage lists Twitch Templates, YouTube Templates and Lower Third Banners among its design categories.",
+          "url": "https://placeit.net/"
+        },
+        {
+          "fact": "Placeit's Unlimited Subscription is shown from $7.47 with a one-month minimum commitment, and its annual plan is 33 percent off the monthly subscription.",
+          "url": "https://placeit.net/pricing"
+        },
+        {
+          "fact": "Placeit offers a free account with free templates.",
+          "url": "https://placeit.net/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "canva",
+      "name": "Canva",
+      "site": "https://www.canva.com/",
+      "company": "",
+      "country": "",
+      "tagline": "General online design tool for stream graphics",
+      "best_for": "Thumbnails, banners and panels",
+      "pricing": "Free, Pro, Business and Enterprise plans (compare on the pricing page; amounts not present in the extracted text).",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "Social media posts",
+        "Presentations",
+        "Posters",
+        "Video editing",
+        "Logo design"
+      ],
+      "summary": "Canva is a free-to-use online design tool for posts, posters, videos and logos that can produce stream banners and panels.",
+      "verdict": "Canva describes itself as a free-to-use online graphic design tool for social media posts, presentations, posters, videos and logos, and its pricing page compares Free, Pro, Business and Enterprise plans. For a streamer it is a sensible place to make thumbnails, banners and panels without learning a design program. It ranks ninth because nothing in its page shows live overlays, alerts or widgets.",
+      "weaknesses": "Canva has no stream-specific tools in the pages we read, and plan prices did not appear in the extracted text. Graphics are static, so you must export and load them into your broadcasting app yourself.",
+      "wrong_for": "A channel that needs alerts or goal bars should use StreamElements or SAMMI. For templates built around Twitch, Placeit is closer to the task.",
+      "sources": [
+        {
+          "fact": "Canva describes itself as a free-to-use online graphic design tool for social media posts, presentations, posters, videos and logos.",
+          "url": "https://www.canva.com/"
+        },
+        {
+          "fact": "Canva's pricing page compares Free, Pro, Business and Enterprise plans.",
+          "url": "https://www.canva.com/pricing/"
+        },
+        {
+          "fact": "Canva's homepage links to a Docs section and a Contact Sales page.",
+          "url": "https://www.canva.com/"
+        }
+      ]
+    },
+    {
+      "slug": "muxy",
+      "name": "Muxy",
+      "site": "https://muxy.io/",
+      "company": "Muxy",
+      "country": "",
+      "tagline": "Custom interactive Twitch extensions for studios",
+      "best_for": "Game studios running Twitch campaigns",
+      "pricing": "Pricing is not published; the vendor sells on quote through a contact page.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Twitch (core platform); the page also shows Discord, TikTok and YouTube under reach",
+      "features": [
+        "Interactive Twitch extensions",
+        "SDK and tools",
+        "Campaign analytics",
+        "AI translation (captioning)",
+        "Dynamic audience scaling",
+        "Live game code integration"
+      ],
+      "summary": "Muxy builds interactive Twitch extensions and live stream experiences, with an SDK, campaign analytics and no published pricing.",
+      "verdict": "Muxy describes itself as a company that builds interactive live stream experiences with Twitch extensions at the core, and says it has done so since 2014. The page lists an SDK, campaign analytics for views and interaction rates, live game code integration and AI translation. Clients shown include 2K, WB Games, Psyonix, THQ Nordic and SEGA. It ranks last for a solo streamer because it works with studios and publishers on custom projects.",
+      "weaknesses": "Pricing is not published: the only call to action is Build Your Extension, which leads to a contact page with no prices. It centers on Twitch, and the vendor claims a backend for over 2 million concurrent users, which we cannot verify.",
+      "wrong_for": "An individual streamer should look at StreamElements or Streamloots. A studio that wants a ready tool without custom work could still compare Lumia Stream.",
+      "sources": [
+        {
+          "fact": "Muxy describes itself as a company that builds interactive live stream experiences, with Twitch extensions as its core.",
+          "url": "https://muxy.io/"
+        },
+        {
+          "fact": "The vendor page says the company has been creating Twitch extensions and live stream technology since 2014.",
+          "url": "https://muxy.io/"
+        },
+        {
+          "fact": "Pricing is not published; the vendor page's only call to action is 'Build Your Extension', which links to a contact page.",
+          "url": "https://muxy.io/"
+        },
+        {
+          "fact": "The vendor page lists campaign analytics (views, interaction rates and channel attribution) and an SDK among its tools.",
+          "url": "https://muxy.io/"
+        }
+      ]
+    }
+  ]
+}

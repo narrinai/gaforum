@@ -1,0 +1,546 @@
+{
+  "slug": "best-game-analytics-software",
+  "name": "game analytics software",
+  "title": "Best Game Analytics Software in 2026",
+  "group": "Game business",
+  "summary_line": "Game analytics software tracks retention, revenue per player and funnels from engine SDKs, so studios can tune design and monetization after launch.",
+  "definition": "Game analytics software collects events from a game client or server, such as sessions, level progress and purchases, and turns them into retention curves, revenue per daily active user, funnels and cohort comparisons. Some products are built only for games, some are general product analytics with SDKs that studios adapt, and some cover neighboring jobs such as attribution or market data.",
+  "intro": "A studio shipping its first live game usually asks the same thing: which tool will show us where players quit, what they pay for and whether last week's patch helped, without a data engineer on staff? This ranking compares twelve products against that question. We read each vendor's own homepage and pricing pages, noted which engines and platforms the vendor names, checked whether a free allowance exists and whether prices are printed, and then weighed fit for small and mid-size studios. We did not run any of these tools or measure their numbers. Where a page showed no prices or a figure could not be read, we say so instead of guessing. The order reflects how directly each product answers the retention, ARPDAU and funnel questions, and how little setup it asks for before the first useful chart.",
+  "criteria": [
+    {
+      "heading": "Game-native metrics out of the box",
+      "text": "Retention by install cohort, revenue per daily active user and level funnels are the reports a live game team opens every morning. A game-built product ships them as defaults, while a general product analytics tool expects you to model them from raw events. When reading each vendor page we looked for game-specific language, named game platforms and engine support, because that signals whether the dashboards arrive ready or need a week of event design first."
+    },
+    {
+      "heading": "SDK coverage for your engine",
+      "text": "An analytics tool is only as easy as its integration. Unity and Unreal teams want a drop-in SDK, Roblox creators need something that runs on that platform, and console or PC projects may need server-side event intake. We recorded the platforms each vendor names on its own pages. Where a page names none, we say so, and you should ask the vendor before assuming support for your engine."
+    },
+    {
+      "heading": "Free allowance and pricing visibility",
+      "text": "Analytics bills grow with events, sessions or tracked conversions, so a game with a large casual audience can surprise its owner. We noted which vendors print a free monthly allowance, which publish a price point, and which sell through a demo request. A published allowance lets a small team estimate cost before integrating; a hidden price means a sales call comes first."
+    },
+    {
+      "heading": "Experiments, configs and live operations",
+      "text": "Seeing a problem is half the job; the other half is changing something safely. A/B testing, remote configuration and feature flags let a team adjust difficulty, offers or store layout without shipping a new build. We weighed whether each product pairs measurement with those controls, or stays a read-only reporting layer that needs a second tool beside it."
+    }
+  ],
+  "market_notes": [
+    "The list splits into three groups. Four products are analytics first (GameAnalytics, Amplitude, Mixpanel, PostHog), four are wider backend or live service suites that include analytics among other services (Unity Gaming Services, Firebase, PlayFab, Metaplay), and four solve adjacent problems: Game Refinery sells market intelligence, Solsten player psychology, and AppsFlyer and Tenjin attribution. Treating all twelve as interchangeable is the most common buying mistake, because an attribution platform will not show you where players leave level four.",
+    "Cost transparency is uneven. Amplitude, Mixpanel and PostHog print free monthly allowances (2 million events, 1 million events and 1 million source rows respectively), and AppsFlyer and Tenjin print price points ($0.07 per conversion after a free first-year package, and plans from $200 per month). GameAnalytics, Solsten, Metaplay's paid tier and Unity's live services page show no figures on the pages we opened. None of the twelve vendor pages we read states a European headquarters, so studios with data residency requirements should ask each vendor directly."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Decide whether you need game metrics or product metrics",
+      "text": "Write down the five questions your producer asks every week. If they are retention by cohort, spend per player and level drop-off, start with a game-built product. If they are broader (sign-up flows, feature adoption, subscriptions across a launcher and a website), a product analytics tool may cover more of the business, at the cost of modeling game events yourself."
+    },
+    {
+      "title": "Check your engine and platform list against the vendor pages",
+      "text": "List every platform you ship on, including Roblox, console or WebGL if relevant, and compare it with the platforms each vendor names. Where the page is silent, email the vendor and ask for an SDK link for your engine version. Do this before looking at price, because an unsupported platform makes the cheapest plan irrelevant."
+    },
+    {
+      "title": "Estimate your monthly event volume before you compare plans",
+      "text": "Multiply daily active players by the events your design will send per session, then by thirty. Compare that figure with each free allowance. Studios often discover that a rich event schema costs more than the headline plan suggests. If the price is quote-only, send the same estimate with your request so the answer is specific."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best game analytics software in 2026?",
+      "a": "GameAnalytics is the first pick for most small and mid-size studios because it is built for games and names mobile, Roblox, VR/AR and PC/console support. Unity Gaming Services is better if your game already runs on Unity and you want analytics beside cloud code and A/B tests. Amplitude suits teams that want a documented 2 million event free plan and general funnel tooling."
+    },
+    {
+      "q": "Is there a free game analytics tool for a small studio?",
+      "a": "Yes, several. Amplitude, Mixpanel and PostHog all print free monthly allowances, PlayFab offers a free-to-start tier with a limited Development Mode, Metaplay lets you build and run a game locally for free, and AppsFlyer has a free Zero plan. GameAnalytics runs a startup pricing program for VC-backed studios, but we could not read its prices."
+    },
+    {
+      "q": "Should a game studio use Mixpanel or Amplitude?",
+      "a": "Both are product analytics platforms with free plans, session replay and experiments, so the choice is mostly about volume and fit. Amplitude states 2 million free events per month and Mixpanel 1 million. Run a trial with your own event schema, because neither vendor page we read describes a game-specific dashboard set."
+    },
+    {
+      "q": "Can I use Firebase for game analytics?",
+      "a": "Firebase lists SDKs for Unity and C++ alongside Apple platforms, Android, Web and Flutter, and its product list includes Crashlytics and Remote Config. The homepage we read mentions a $300 billing credit but no analytics reports or plan figures, so confirm the exact analytics features on Google's documentation before committing."
+    },
+    {
+      "q": "What is the difference between game analytics and mobile attribution?",
+      "a": "Game analytics measures what players do inside the game: sessions, progression, purchases. Attribution measures where installs came from and what each acquisition channel returned. AppsFlyer and Tenjin sit in the second group. Most mobile studios eventually run one tool of each kind and connect the revenue data between them."
+    },
+    {
+      "q": "Do I need a backend platform to get game analytics?",
+      "a": "No. GameAnalytics, Amplitude, Mixpanel and PostHog collect events without hosting your game servers. Backend suites such as PlayFab, Metaplay and Unity Gaming Services are worth considering when you also need player accounts, economy or live operations, because the analytics then sits beside the data it explains."
+    },
+    {
+      "q": "Which tools here are not really analytics products?",
+      "a": "Game Refinery is a market intelligence dataset about other mobile games, not a tracker for your own players. Solsten is a consumer insights platform with a games user research solution. Both inform design decisions, but neither replaces an event pipeline that reports your own retention and revenue."
+    }
+  ],
+  "related": [
+    "best-game-liveops-platforms",
+    "best-game-backend-platforms",
+    "best-mobile-attribution-tools-for-games",
+    "best-game-market-intelligence-tools",
+    "best-playtesting-platforms",
+    "best-game-anti-cheat-software"
+  ],
+  "tools": [
+    {
+      "slug": "gameanalytics",
+      "name": "GameAnalytics",
+      "site": "https://www.gameanalytics.com",
+      "company": "GameAnalytics",
+      "country": "",
+      "tagline": "Analytics suite built around game studios",
+      "best_for": "Studios wanting game-native reports",
+      "pricing": "The pricing page offers an Overview plan and a Startup program for VC-backed studios. No prices were readable in the opened text.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Mobile, Roblox, VR/AR, PC/Console",
+      "features": [
+        "AnalyticsIQ",
+        "PipelineIQ",
+        "MarketIQ",
+        "A/B testing and remote configs",
+        "Data export"
+      ],
+      "summary": "Takes first place because it is the only product here built purely for games, with named support for mobile, Roblox, VR/AR and PC/console.",
+      "verdict": "GameAnalytics describes itself as analytics for mobile, Roblox, VR/AR and PC/console games, and its product set covers analytics, data pipeline and market views plus SDKs and integrations. That scope matches what a small studio asks for: one place for retention and monetization, with remote configs and A/B testing nearby. A Startup pricing program for VC-backed studios adds a reason to look at it early. It leads this list because the reader does not have to translate generic events into game language first.",
+      "weaknesses": "Prices were not readable on the pricing page we opened, so cost cannot be estimated without contacting the vendor. The page lists an Overview plan and a Startup program, but no allowance figures, and the vendor does not state a country or headquarters.",
+      "wrong_for": "Teams that need web funnels, subscriptions and in-app feedback beside the game should look at Amplitude or Mixpanel instead, where session replay is part of the product.",
+      "sources": [
+        {
+          "fact": "GameAnalytics offers analytics for mobile, Roblox, VR/AR and PC/console games, according to its solutions menu.",
+          "url": "https://www.gameanalytics.com/"
+        },
+        {
+          "fact": "GameAnalytics' product set includes AnalyticsIQ, PipelineIQ and MarketIQ, along with SDKs and integrations.",
+          "url": "https://www.gameanalytics.com/"
+        },
+        {
+          "fact": "GameAnalytics offers a Startup pricing program for VC-backed studios, linked from its pricing page.",
+          "url": "https://www.gameanalytics.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "unity-gaming-services",
+      "name": "Unity Gaming Services",
+      "site": "https://unity.com/solutions/gaming-services",
+      "company": "",
+      "country": "",
+      "tagline": "Live operations tools tied to the Unity engine",
+      "best_for": "Unity teams running live games",
+      "pricing": "A 'Get started for free' button and a View Pricing link are shown; the page gives no prices, figures or tier details.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "The page does not list specific platforms; a navigation item mentions 25+ platforms Unity supports without naming them.",
+      "features": [
+        "Analytics",
+        "A/B Testing",
+        "Cloud Code",
+        "Cloud Save",
+        "Game Overrides",
+        "Push Notifications"
+      ],
+      "summary": "Second because analytics, experiments and cloud services share one account for Unity projects, though the page we read lists no figures.",
+      "verdict": "Unity presents these tools under the name Unity Live Services on the page we opened, grouped as LiveOps for post-launch insight. The list includes analytics, A/B testing, diagnostics, game overrides, cloud code, cloud save and authentication, so a Unity team can measure a problem and change a setting from the same dashboard family. The page cites Subway Surfers and MARVEL SNAP as live game examples. It ranks high for Unity studios because the pieces already belong together.",
+      "weaknesses": "The page shows a Get started for free button and a pricing link, but no prices or tier details. It names no specific platforms, and it does not describe use outside the Unity engine, so Unreal or custom-engine teams get little from it.",
+      "wrong_for": "Studios on Unreal, Godot or a custom engine should skip it and read the GameAnalytics or PostHog pages, which are not tied to a single engine.",
+      "sources": [
+        {
+          "fact": "The page presents Unity's LiveOps services, called Unity Live Services, as tools for post-launch insights and live game operations.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page lists achievements, player sign-in, leaderboards, IAP, Cloud Code, Cloud Save, Authentication, Analytics, A/B testing, Diagnostics, Cloud Content Delivery, Game Overrides and Push Notifications.",
+          "url": "https://unity.com/solutions/gaming-services"
+        },
+        {
+          "fact": "The page says Get started for free and links to a View Pricing page, with no figures shown.",
+          "url": "https://unity.com/solutions/gaming-services"
+        }
+      ]
+    },
+    {
+      "slug": "amplitude",
+      "name": "Amplitude",
+      "site": "https://amplitude.com",
+      "company": "Amplitude",
+      "country": "",
+      "tagline": "Product analytics with a large free event allowance",
+      "best_for": "Funnel-minded teams on a budget",
+      "pricing": "Free plan: 2M events per month forever, with 10K monthly session replays. Growth plan starts at $0 and adds more events and session replays. Enterprise is by sales.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "Product analytics",
+        "Session replay",
+        "Feature experimentation",
+        "Heatmaps",
+        "Feature management"
+      ],
+      "summary": "Placed third for its printed free plan of 2 million events a month and depth in funnels and experiments, though it is not game-specific.",
+      "verdict": "Amplitude's pricing page states a free plan of 2 million events per month forever, with 10,000 monthly session replays, and a Growth plan that starts at $0. Funnels, experimentation and feature management are listed, which covers the conversion questions a game store or onboarding flow raises. Startups under $10 million in funding with fewer than 20 employees receive a free Growth year. For a studio that wants numbers it can plan against, the published allowance is the strongest of the general tools.",
+      "weaknesses": "Amplitude describes itself as a product platform, and the pages we read name no game engines or game-specific reports such as ARPDAU. A studio must design its own event schema and cohorts, and the volume-based Growth estimates require careful forecasting.",
+      "wrong_for": "Teams that want ready-made game dashboards and engine SDKs should start with GameAnalytics, and Unity projects with Unity Gaming Services.",
+      "sources": [
+        {
+          "fact": "Amplitude's free plan includes 2M events per month forever.",
+          "url": "https://amplitude.com/pricing"
+        },
+        {
+          "fact": "Amplitude's Growth plan starts at $0 and has volume-based estimates on its pricing page.",
+          "url": "https://amplitude.com/pricing"
+        },
+        {
+          "fact": "Startups with under $10M in funding and fewer than 20 employees receive one free year on Amplitude's Growth plan.",
+          "url": "https://amplitude.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "mixpanel",
+      "name": "Mixpanel",
+      "site": "https://mixpanel.com",
+      "company": "Mixpanel",
+      "country": "",
+      "tagline": "Event analytics with replay, experiments and flags",
+      "best_for": "Small teams tracking in-game funnels",
+      "pricing": "Free plan: free forever, unlimited seats, up to 1M events per month, 10K session replays per month, up to 1k MEU per month for experiments, up to 10 active feature flags. Growth plan starts at $0 with volume discounts. Enterprise is by sales.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "Analytics",
+        "Session replay",
+        "Experiments",
+        "Feature flags",
+        "Metric trees"
+      ],
+      "summary": "Fourth because a free plan with unlimited seats and replay suits small teams, while its generic design leaves game reports to build.",
+      "verdict": "Mixpanel's free plan is free forever with unlimited seats, up to 1 million events and 10,000 session replays a month, plus experiments and up to ten active feature flags. For a lean studio that wants everyone from design to marketing in the same dashboard without per-seat fees, that is attractive. The pricing page claims more than 29,000 companies as customers. Funnels, flags and experiments mean a designer can test a tutorial change and read the result in one product.",
+      "weaknesses": "The pages opened describe a product intelligence platform and name no game engines, so SDK fit must be confirmed. The free event cap is half of Amplitude's stated figure, and no game-specific metrics such as ARPDAU are mentioned.",
+      "wrong_for": "Studios with very high event volume from a large casual audience, or those wanting game dashboards pre-built, should compare PostHog's usage pricing or GameAnalytics.",
+      "sources": [
+        {
+          "fact": "Mixpanel's free plan is free forever and includes up to 1M events per month and 10K session replays per month.",
+          "url": "https://mixpanel.com/pricing/"
+        },
+        {
+          "fact": "Mixpanel's Growth plan starts at $0, with volume discounts available.",
+          "url": "https://mixpanel.com/pricing/"
+        },
+        {
+          "fact": "The Mixpanel pricing page says the company is trusted by 29,000+ companies.",
+          "url": "https://mixpanel.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "posthog",
+      "name": "PostHog",
+      "site": "https://posthog.com",
+      "company": "PostHog",
+      "country": "",
+      "tagline": "Usage-priced analytics with replays and pipelines",
+      "best_for": "Engineering-led studios wanting one data stack",
+      "pricing": "Free monthly allowances on every product, then usage-based pricing. The free tier includes 1M rows of sources with free historical data, 100K AI observability events per month, and PostHog AI credits. Free allowances reset monthly.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "Product analytics",
+        "Session replay",
+        "Error tracking",
+        "No-code A/B testing",
+        "Data pipelines"
+      ],
+      "summary": "Fifth for its usage-based pricing and breadth, which pleases engineers but asks designers to build their own game views.",
+      "verdict": "PostHog describes itself as a product context layer that ingests analytics, errors, replays and business data. Its free monthly tiers apply to every product, after which pricing is usage-based, and the homepage cites more than 500,000 teams. A studio with an engineer who likes owning the data stack can combine event analytics, error tracking and data pipelines with more than 1,000 sources in one place, rather than gluing three tools together.",
+      "weaknesses": "The opened pages name no game engines or game metrics, and the free tier is described in rows of source data and AI events rather than player events, which makes forecasting a game's bill harder. Usage pricing can rise with a hit title.",
+      "wrong_for": "Producer-led teams with no engineer for event design should choose GameAnalytics, whose product set is built around game questions.",
+      "sources": [
+        {
+          "fact": "PostHog's pricing page says it has generous monthly free tiers on every product, with usage-based pricing after that.",
+          "url": "https://posthog.com/pricing"
+        },
+        {
+          "fact": "PostHog's free tier includes 1M rows of sources with free historical data, resetting monthly.",
+          "url": "https://posthog.com/pricing"
+        },
+        {
+          "fact": "The PostHog homepage says more than 500,000 teams are shipping with PostHog.",
+          "url": "https://posthog.com"
+        }
+      ]
+    },
+    {
+      "slug": "playfab",
+      "name": "PlayFab",
+      "site": "https://playfab.com/",
+      "company": "Microsoft",
+      "country": "",
+      "tagline": "Microsoft backend services for live games",
+      "best_for": "Teams needing accounts, economy and data",
+      "pricing": "A free-to-start tier at no additional cost; pay-as-you-go as games scale, with no dollar figures on the page. Development Mode is free to evaluate, limited to 1,000 lifetime player account creations and 10 titles per account.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free plan",
+      "platforms": "Unreal and Unity SDKs plus language support for custom engines; PC, console, mobile and streaming; integrations with Xbox, Steam, PlayStation 4 and 5, Nintendo Switch, App Store and Google Play.",
+      "features": [
+        "Identity",
+        "Multiplayer",
+        "Player Progression",
+        "Game Data Stream",
+        "Economy and Monetization",
+        "Live Service Management"
+      ],
+      "summary": "Sixth because analytics arrives as part of a wide backend suite with Unreal and Unity SDKs, which suits teams needing more than reports.",
+      "verdict": "PlayFab is described by Microsoft as complete backend services for live games, with identity, multiplayer, progression, a game data stream and economy tools. It lists Unreal and Unity SDKs, language support for custom engines and integrations with Xbox, Steam, PlayStation, Nintendo Switch and the mobile stores. Minecraft and Forza Horizon 5 are named as running on it. If your game needs player accounts and a store as well as dashboards, the data lives beside the systems that generate it.",
+      "weaknesses": "The free tier is limited to a Development Mode of 1,000 lifetime player account creations per title and 10 titles per account, and the page shows no dollar figures for pay-as-you-go. It is a backend platform first, so analytics depth is not the headline.",
+      "wrong_for": "Studios that only want reports and already run their own servers should use GameAnalytics or Mixpanel rather than adopting a full backend.",
+      "sources": [
+        {
+          "fact": "PlayFab is described on the Microsoft product page as complete backend services for live games, connecting players wherever they want to play.",
+          "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+        },
+        {
+          "fact": "The page says PlayFab offers a free-to-start tier at no additional cost, with pay-as-you-go pricing as games scale and no dollar figures shown.",
+          "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+        },
+        {
+          "fact": "The page limits Development Mode to 1,000 lifetime player account creations per title and 10 titles per account.",
+          "url": "https://developer.microsoft.com/en-us/games/products/playfab/"
+        }
+      ]
+    },
+    {
+      "slug": "metaplay",
+      "name": "Metaplay",
+      "site": "https://metaplay.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Source-available backend with built-in LiveOps",
+      "best_for": "Unity studios wanting server-authoritative C#",
+      "pricing": "Free: build with Metaplay and run your game locally (Start Free). Pro: deploy to the cloud and publish to players (Choose Plan), no price listed. Enterprise: self-hosting at scale (Contact Us).",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Server-side code in C#; the page links to Get the SDK and does not list client engines; a testimonial references Unity.",
+      "features": [
+        "Server-authoritative C#",
+        "Full source code",
+        "A/B testing",
+        "OTA configs",
+        "LiveOps dashboard"
+      ],
+      "summary": "Seventh since its analytics are one part of a C# backend with a LiveOps dashboard, which asks more commitment than a plug-in tracker.",
+      "verdict": "Metaplay calls itself a complete backend platform for building and operating live service games. The homepage lists a Free tier for building and running locally, a Pro tier for cloud deployment and an Enterprise tier for self-hosting, and says Supercell, Metacore, Trailmix and Lessmore have used it in production. Because it ships as full source code with built-in A/B testing, segments and offers, a studio that wants to own its server logic gets analytics and operations inside the same codebase.",
+      "weaknesses": "Pro pricing is not listed, and the page links an SDK without listing client engines beyond a Unity testimonial. Server code is C#, which fixes your language choice, and adopting a backend framework is a larger decision than adding an analytics SDK.",
+      "wrong_for": "Teams that only need to see retention and revenue should skip it and take GameAnalytics or Amplitude, which need no server rewrite.",
+      "sources": [
+        {
+          "fact": "Metaplay describes itself on its homepage as a complete backend platform for building and operating live service games.",
+          "url": "https://metaplay.io/"
+        },
+        {
+          "fact": "The homepage lists a Free tier for building and running a game locally, a Pro tier for cloud deployment with no price shown, and an Enterprise tier for self-hosting.",
+          "url": "https://metaplay.io/"
+        },
+        {
+          "fact": "The homepage says the platform is production-proven by Supercell, Metacore, Trailmix and Lessmore.",
+          "url": "https://metaplay.io/"
+        }
+      ]
+    },
+    {
+      "slug": "firebase",
+      "name": "Firebase",
+      "site": "https://firebase.google.com/",
+      "company": "Google",
+      "country": "",
+      "tagline": "Google app platform with Unity and C++ SDKs",
+      "best_for": "Mobile games already on Google services",
+      "pricing": "The homepage offers $300 in credit when you create a Billing Account, for services such as hosting and storage. No Spark or Blaze plan or free-tier figures are shown.",
+      "pricing_model": "Not published",
+      "free_plan": "Free trial",
+      "platforms": "Apple platforms, Android, Web, Flutter, Unity and C++.",
+      "features": [
+        "Crashlytics",
+        "Remote Config",
+        "App Distribution",
+        "App Hosting",
+        "Firebase AI Logic"
+      ],
+      "summary": "Eighth because the SDK list includes Unity and C++, but the page we read offers few game analytics specifics and no plan figures.",
+      "verdict": "Firebase calls itself a platform of services for building and running intelligent apps, backed by Google and powered by Google Cloud. The SDK list includes Apple platforms, Android, Web, Flutter, Unity and C++, and the product list names Crashlytics and Remote Config, both useful to a mobile game team. Halfbrick appears among named users. It earns a place for studios already inside the Google ecosystem who want crash data and remote settings from a familiar vendor.",
+      "weaknesses": "The homepage mentions a $300 billing credit but shows no Spark or Blaze plan figures, and it does not describe game metrics such as retention or ARPDAU. Analytics reports must be confirmed in documentation outside the pages we opened.",
+      "wrong_for": "Studios wanting game-specific retention and monetization reports out of the box should choose GameAnalytics or Unity Gaming Services.",
+      "sources": [
+        {
+          "fact": "Firebase is described on the homepage as a platform of services for building and running intelligent apps.",
+          "url": "https://firebase.google.com/"
+        },
+        {
+          "fact": "The homepage offers $300 in credit when you create a Billing Account, with no Spark or Blaze plan figures shown.",
+          "url": "https://firebase.google.com/"
+        },
+        {
+          "fact": "The homepage lists SDK platforms including Apple, Android, Web, Flutter, Unity and C++.",
+          "url": "https://firebase.google.com/"
+        }
+      ]
+    },
+    {
+      "slug": "game-refinery",
+      "name": "Game Refinery",
+      "site": "https://www.gamerefinery.com/",
+      "company": "GameRefinery, a Liftoff company",
+      "country": "",
+      "tagline": "Mobile game market data and live event tracker",
+      "best_for": "Designers studying competitors' live events",
+      "pricing": "The homepage offers Access for free and a Contact us or schedule a trial option. No paid prices are shown on the opened pages.",
+      "pricing_model": "Not published",
+      "free_plan": "Free",
+      "platforms": "Mobile games; the homepage says it covers all platforms for live events data",
+      "features": [
+        "Live Events Tracker",
+        "Game Intelligence dataset",
+        "Player motivations",
+        "Mobile game genres and features",
+        "AppRefinery"
+      ],
+      "summary": "Ninth because it analyzes other mobile games rather than your own players, which makes it a research aid and not an event tracker.",
+      "verdict": "GameRefinery describes its product as a dataset for mobile games covering live events, gameplay mechanics, player motivations and monetization strategies, and the footer says it is a Liftoff company. The homepage offers free access and a contact route for a trial. For a design team planning a seasonal event or choosing a genre, seeing how competing games schedule events is useful context that no first-party analytics product can supply.",
+      "weaknesses": "It does not collect events from your own game, so it cannot report your retention or revenue. Paid prices are not shown on the pages we opened, and the coverage described is mobile games only.",
+      "wrong_for": "Anyone who needs to measure their own players should use GameAnalytics or Amplitude and treat this as a complement.",
+      "sources": [
+        {
+          "fact": "GameRefinery describes itself as the market's most comprehensive dataset for mobile games, covering live events, gameplay mechanics, player motivations and monetization strategies.",
+          "url": "https://www.gamerefinery.com/"
+        },
+        {
+          "fact": "The GameRefinery homepage offers access for free, and a contact option for a trial.",
+          "url": "https://www.gamerefinery.com/"
+        },
+        {
+          "fact": "The site lists a Live Events Tracker and a newer AppRefinery product.",
+          "url": "https://www.gamerefinery.com/"
+        }
+      ]
+    },
+    {
+      "slug": "solsten",
+      "name": "Solsten",
+      "site": "https://solsten.io",
+      "company": "Solsten",
+      "country": "",
+      "tagline": "Consumer insights and games user research",
+      "best_for": "Research-minded publishers",
+      "pricing": "Not published on the opened pages; the site offers a Request demo call to action.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Elaris",
+        "Traits",
+        "Navigator",
+        "Games user research",
+        "Validation study"
+      ],
+      "summary": "Tenth because it studies player psychology and audiences rather than in-game events, and it sells by demo with no published prices.",
+      "verdict": "Solsten describes itself as an AI consumer insights platform with products named Elaris, Traits and Navigator, and it lists games user research among its solutions and gaming among its industries. The About page names Joe Schaeppi and Bastian Bergmann as founders. A publisher deciding who a game is for, or testing a concept before building it, gets a different kind of evidence from it than a retention chart provides.",
+      "weaknesses": "No prices are published on the pages we opened; the call to action is a demo request. It does not track in-game events, so it cannot replace a funnel or revenue dashboard, and the pages name no engines or SDKs.",
+      "wrong_for": "Studios whose question is where players drop out of a live build should choose Mixpanel or GameAnalytics instead.",
+      "sources": [
+        {
+          "fact": "Solsten describes itself as an AI consumer insights platform, with products Elaris, Traits and Navigator.",
+          "url": "https://solsten.io"
+        },
+        {
+          "fact": "Solsten lists Games User Research among its solutions and gaming among the industries it serves.",
+          "url": "https://solsten.io"
+        },
+        {
+          "fact": "Solsten's About page names Joe Schaeppi and Bastian Bergmann as the founders.",
+          "url": "https://solsten.io/about"
+        }
+      ]
+    },
+    {
+      "slug": "appsflyer",
+      "name": "AppsFlyer",
+      "site": "https://www.appsflyer.com",
+      "company": "AppsFlyer",
+      "country": "",
+      "tagline": "Attribution and marketing measurement across platforms",
+      "best_for": "Mobile studios buying installs",
+      "pricing": "Zero plan (free) includes core marketing analytics and a Welcome Package with 12K free conversions for the first year. Growth plan: after the Welcome Package, conversions cost $0.07 each. Other plans are compared on the pricing page.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free plan",
+      "platforms": "Mobile, web, CTV, PC and console",
+      "features": [
+        "Mobile attribution",
+        "PC and console attribution",
+        "Cross-platform measurement",
+        "ROI measurement",
+        "Fraud protection"
+      ],
+      "summary": "Eleventh because it measures acquisition and not in-game behavior, though its free Zero plan and PC and console reach help growth teams.",
+      "verdict": "AppsFlyer calls itself a Modern Marketing Cloud for measurement, deep linking and marketing analytics across mobile, web, CTV, PC and console. The free Zero plan includes a Welcome Package of 12,000 conversions for the first year, after which Growth conversions cost $0.07 each, and no credit card is needed to start. A studio buying installs needs to know which campaigns paid back, and these published figures make that cost easy to model.",
+      "weaknesses": "It answers where players came from, not what they do after the tutorial, so it does not replace an analytics product. Per-conversion pricing rises with paid user acquisition volume, and the free package covers only the first year.",
+      "wrong_for": "Teams that have no paid acquisition should skip it and put the effort into GameAnalytics or PostHog event tracking.",
+      "sources": [
+        {
+          "fact": "AppsFlyer describes itself as a Modern Marketing Cloud for measurement, deep linking and marketing analytics across mobile, web, CTV and console.",
+          "url": "https://www.appsflyer.com"
+        },
+        {
+          "fact": "AppsFlyer's free Zero plan includes a Welcome Package with 12K free conversions for the first year.",
+          "url": "https://www.appsflyer.com/pricing/"
+        },
+        {
+          "fact": "After the Welcome Package, Growth plan conversions are priced at $0.07 each.",
+          "url": "https://www.appsflyer.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "tenjin",
+      "name": "Tenjin",
+      "site": "https://tenjin.com",
+      "company": "Tenjin",
+      "country": "",
+      "tagline": "Mobile attribution and ad monetization analytics",
+      "best_for": "Small mobile studios tracking ad revenue",
+      "pricing": "Flexible plans from $200/month, according to the homepage. Free to start with pay-as-you-grow attribution.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free",
+      "platforms": "",
+      "features": [
+        "Mobile attribution",
+        "Cost aggregation",
+        "LTV prediction",
+        "Fraud prevention",
+        "Ad monetization suite"
+      ],
+      "summary": "Twelfth because it focuses on marketing analytics and attribution, with a clear $200 monthly starting price but no player behavior reports.",
+      "verdict": "Tenjin describes itself as a mobile marketing analytics and attribution platform with cost aggregation, LTV prediction, fraud prevention and an ad monetization suite. Plans start from $200 per month according to the homepage, and it says the service is free to start with pay-as-you-grow attribution. An MCP server is listed for querying data. For a small mobile team that earns from ads and needs lifetime value estimates per channel, a stated starting price is a practical advantage.",
+      "weaknesses": "Scope is marketing measurement, so in-game funnels, retention cohorts and level analysis are absent. The homepage names no engines or PC and console support, and the $200 entry price may exceed what a hobby project needs.",
+      "wrong_for": "Premium PC or console studios, or anyone needing gameplay analytics, should choose AppsFlyer for broader platform reach or GameAnalytics for in-game data.",
+      "sources": [
+        {
+          "fact": "Tenjin describes itself as a mobile marketing analytics and attribution platform.",
+          "url": "https://tenjin.com"
+        },
+        {
+          "fact": "Tenjin's plans start from $200 per month, according to its homepage.",
+          "url": "https://tenjin.com"
+        },
+        {
+          "fact": "The Tenjin homepage says the service is free to start, with pay-as-you-grow attribution.",
+          "url": "https://tenjin.com"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "hub": "games"
+}

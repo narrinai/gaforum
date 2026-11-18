@@ -1,0 +1,574 @@
+[
+  {
+    "slug": "reaper", "name": "REAPER", "status": "verified", "drop_reason": "",
+    "site": "https://www.reaper.fm/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A full digital audio production application for computers covering multitrack recording, editing, processing, mixing and mastering.",
+    "platforms": "Windows, macOS, Linux",
+    "pricing": "No license price stated on the vendor page. The page describes the license as affordably priced and DRM-free, with unlimited free updates through REAPER version 8.99 for a REAPER 7 license. Full evaluation for 60 days.",
+    "pricing_model": "", "free_plan": "Free trial",
+    "key_features": ["Multitrack recording", "Editing", "Mixing", "Mastering", "LV2 and CLAP plugin support", "Portable or network drive install"],
+    "notable": ["Current version listed as 7.86, dated 13 November 2026", "60-day full evaluation", "REAPER 7 license includes unlimited free updates through 8.99"],
+    "logo_hint": "https://www.reaper.fm/v5img/logo.jpg",
+    "facts": [
+      {"fact": "REAPER is a full digital audio production application for computers covering multitrack recording, editing, processing, mixing and mastering.", "url": "https://www.reaper.fm/"},
+      {"fact": "REAPER runs on Windows, macOS and Linux.", "url": "https://www.reaper.fm/"},
+      {"fact": "REAPER can be evaluated in full for 60 days.", "url": "https://www.reaper.fm/"},
+      {"fact": "A REAPER 7 license is described as DRM-free and includes unlimited free updates through REAPER version 8.99; no license price is stated on the page.", "url": "https://www.reaper.fm/"},
+      {"fact": "The page lists REAPER 7.86 as the current version, dated November 13, 2026.", "url": "https://www.reaper.fm/"}
+    ]
+  },
+  {
+    "slug": "gamesynth", "name": "GameSynth", "status": "dropped",
+    "drop_reason": "Opened tsugi-studio.com: the page is JavaScript-only and shows just the word 'tsugi', so no GameSynth content could be read. Search results point to Tsugi products (GameSynth, GameSynth Runtime) but not from a readable vendor page. Re-check before use.",
+    "site": "https://www.tsugi-studio.com/", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "facts": []
+  },
+  {
+    "slug": "soundly", "name": "Soundly", "status": "verified", "drop_reason": "",
+    "site": "https://getsoundly.com/", "company": "Soundly AS", "hq": "Oslo, Norway", "country": "Norway", "country_code": "NO",
+    "what_it_is": "A sound effects platform with a cloud sound library, search and organization for local audio files, and drag-and-drop transfer of sounds into editors and DAWs.",
+    "platforms": "Mac and PC (macOS 10.10 or later, Windows 7 or later)",
+    "pricing": "Annual plans advertised as 14 months for the price of 12 in the first year. Monthly and yearly billing shown without prices. Free plan available. Enterprise is custom pricing via a contact form, with volume discounts for teams.",
+    "pricing_model": "Freemium", "free_plan": "Free plan",
+    "key_features": ["Cloud sound library", "Local file search and organization", "Drag and drop into editors and DAWs", "Voice Designer renders", "Soundly Pro Library", "Team volume discounts"],
+    "notable": ["Pro Library with 250,000 sounds", "Free plan includes 10,000 local files and 10GB cloud storage", "Page shows logos for Netflix, BBC, Sony, Ubisoft and Electronic Arts among others under a professional users section"],
+    "facts": [
+      {"fact": "Soundly AS is the company, listed at Sagveien 23F, 0459 Oslo, Norway.", "url": "https://getsoundly.com/"},
+      {"fact": "Soundly is a sound effects platform with a cloud sound library and drag-and-drop transfer of sounds into editors and DAWs.", "url": "https://getsoundly.com/"},
+      {"fact": "Soundly has a free plan with access to the free cloud library, 10,000 local files and 10GB cloud storage.", "url": "https://getsoundly.com/"},
+      {"fact": "The Pro plan includes the Soundly Pro Library with 250,000 sounds; no Pro price is shown on the page.", "url": "https://getsoundly.com/"},
+      {"fact": "Soundly supports Mac and PC, with macOS 10.10 or later and Windows 7 or later.", "url": "https://getsoundly.com/"}
+    ]
+  },
+  {
+    "slug": "applovin-max", "name": "AppLovin MAX", "status": "dropped",
+    "drop_reason": "applovin.com/max redirects to applovin.com/en, a generic AppLovin advertising page for reaching mobile game players that does not describe MAX mediation, pricing or platforms. dev.applovin.com timed out. MAX is not confirmed from a readable vendor page; re-check the MAX docs before use.",
+    "site": "https://www.applovin.com/en", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "facts": []
+  },
+  {
+    "slug": "unity-levelplay", "name": "Unity LevelPlay", "status": "verified", "drop_reason": "",
+    "site": "https://unity.com/products/levelplay", "company": "Unity Technologies", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "An ad mediation platform that, per the vendor page, helps publishers drive higher revenue, acquire new players and get total monetization control.",
+    "platforms": "",
+    "pricing": "Not stated on the page. The page has only a generic Pricing navigation link.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Ad mediation", "Integration from the Unity Editor", "SDK integration"],
+    "notable": ["Footer copyright names Unity Technologies"],
+    "facts": [
+      {"fact": "Unity LevelPlay is an ad mediation platform that helps publishers drive higher revenue, acquire new players and get total monetization control.", "url": "https://unity.com/products/levelplay"},
+      {"fact": "The page footer copyright names Unity Technologies as the owning company.", "url": "https://unity.com/products/levelplay"},
+      {"fact": "LevelPlay integration is available directly from the Unity Editor and an SDK, per the page.", "url": "https://unity.com/products/levelplay"},
+      {"fact": "The page does not state LevelPlay pricing; it has a generic Pricing navigation link and a Get started button.", "url": "https://unity.com/products/levelplay"}
+    ]
+  },
+  {
+    "slug": "google-admob", "name": "Google AdMob", "status": "verified", "drop_reason": "",
+    "site": "https://admob.google.com/", "company": "Google", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Google's mobile app monetization platform for earning revenue through in-app ads, analytics and mediation tools.",
+    "platforms": "Mobile apps (operating systems not listed on the page)",
+    "pricing": "No fees or revenue share stated on the page. It offers a Get started button and an earnings calculator with the disclaimer that there is no guarantee or commitment to the amount shown.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["In-app ad monetization", "Mediation", "Analytics", "Bidding across networks", "Earnings calculator"],
+    "notable": ["Page states 1 million+ apps use AdMob", "Page states 81% of the Android top 1000 use AdMob"],
+    "facts": [
+      {"fact": "AdMob is Google's mobile app monetization platform for in-app ads, analytics and mediation tools.", "url": "https://admob.google.com/"},
+      {"fact": "The page states that 1 million+ apps use AdMob.", "url": "https://admob.google.com/"},
+      {"fact": "The page states that 81% of the Android top 1000 use AdMob.", "url": "https://admob.google.com/"},
+      {"fact": "The page states that all participating networks compete at the same priority and the highest-paying bid wins each impression.", "url": "https://admob.google.com/"},
+      {"fact": "The page does not state fees or a revenue share; it offers a Get started button and an earnings calculator.", "url": "https://admob.google.com/"}
+    ]
+  },
+  {
+    "slug": "unity-ads", "name": "Unity Ads", "status": "verified", "drop_reason": "",
+    "site": "https://unity.com/products/unity-ads", "company": "Unity Technologies", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A mobile app offering for user acquisition and monetization, powered by Unity's Vector AI model.",
+    "platforms": "Mobile apps (operating systems not stated)",
+    "pricing": "Not stated on the page. The page has a Pricing navigation link but no pricing model.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["User acquisition", "Monetization", "Vector AI model", "Unity Exchange via a single SDK", "Bidding for leading mediation platforms"],
+    "notable": ["Case study headline: Qcplay increases ad ARPDAU 29% with the Unity Ads bidder", "Case study named: Lihuhu, a match-three game developer"],
+    "facts": [
+      {"fact": "Unity Ads is a mobile app offering for user acquisition and monetization, powered by Unity's Vector AI model.", "url": "https://unity.com/products/unity-ads"},
+      {"fact": "The page copyright line names Unity Technologies.", "url": "https://unity.com/products/unity-ads"},
+      {"fact": "The page says Unity Ads bidding works with leading mediation platforms, with the Unity Exchange reached through a single SDK.", "url": "https://unity.com/products/unity-ads"},
+      {"fact": "The page does not state Unity Ads pricing; it has a Pricing navigation link but no pricing model.", "url": "https://unity.com/products/unity-ads"}
+    ]
+  },
+  {
+    "slug": "mintegral", "name": "Mintegral", "status": "verified", "drop_reason": "",
+    "site": "https://www.mintegral.com/", "company": "Mintegral (parent company Mobvista, per the page)", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "An AI-powered marketing and advertising platform for advertising, monetizing and growing app businesses, per the vendor homepage.",
+    "platforms": "", "pricing": "Not stated on the page.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["AppGrowth user acquisition", "Retargeting", "Monetization", "Mindworks playable ad studio", "Playturbo playable ad tool", "Agency Partner Program"],
+    "notable": ["Parent company named as Mobvista", "Verticals named: gaming apps, subscription apps, e-commerce"],
+    "facts": [
+      {"fact": "Mintegral describes itself as offering AI-powered marketing solutions to advertise, monetize and grow a business.", "url": "https://www.mintegral.com/"},
+      {"fact": "The page names Mobvista as Mintegral's parent company.", "url": "https://www.mintegral.com/"},
+      {"fact": "Products named on the page include AppGrowth, Retargeting, Monetization, Mindworks and Playturbo.", "url": "https://www.mintegral.com/"},
+      {"fact": "The page lists solutions for gaming apps, subscription apps and e-commerce, plus an Agency Partner Program.", "url": "https://www.mintegral.com/"},
+      {"fact": "The page does not state pricing, headquarters or a founding year.", "url": "https://www.mintegral.com/"}
+    ]
+  },
+  {
+    "slug": "liftoff", "name": "Liftoff", "status": "verified", "drop_reason": "",
+    "site": "https://liftoff.ai/", "company": "Liftoff, Inc.", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A mobile industry growth platform offering performance marketing, monetization and creative solutions, per the vendor homepage.",
+    "platforms": "", "pricing": "Not stated on the page.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Accelerate (performance marketing)", "Monetize", "Vungle Exchange", "Creative", "Intelligence", "Cortex AI platform"],
+    "notable": ["Homepage shows customer logos including King, Playrix, Badoo, Just Eat and PrizePicks", "liftoff.io redirects to liftoff.ai"],
+    "facts": [
+      {"fact": "Liftoff describes itself as the leading growth acceleration platform for the mobile industry.", "url": "https://liftoff.ai/"},
+      {"fact": "The footer copyright names Liftoff, Inc.", "url": "https://liftoff.ai/"},
+      {"fact": "Products named on the homepage include Accelerate, Monetize, Vungle Exchange, Creative and Intelligence.", "url": "https://liftoff.ai/"},
+      {"fact": "The page names Cortex as its AI platform.", "url": "https://liftoff.ai/"},
+      {"fact": "The page does not state pricing or headquarters location.", "url": "https://liftoff.ai/"}
+    ]
+  },
+  {
+    "slug": "inmobi", "name": "InMobi", "status": "verified", "drop_reason": "",
+    "site": "https://www.inmobi.com/", "company": "InMobi", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A GenAI-powered platform, per the homepage, that enables brands and consumers to connect, discover and transact at scale; its advertising offer is InMobi Advertising.",
+    "platforms": "", "pricing": "Not stated on the page.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Glance shopping agent", "1Weather app", "InMobi Advertising"],
+    "notable": ["Homepage shows advertiser logos for Nike, Unilever and Starbucks", "InMobi Advertising described as an enterprise platform for media buyers and owners"],
+    "facts": [
+      {"fact": "InMobi describes itself as a GenAI-powered platform enabling brands and consumers to connect, discover and transact at scale.", "url": "https://www.inmobi.com/"},
+      {"fact": "The products named on the homepage are Glance, 1Weather and InMobi Advertising.", "url": "https://www.inmobi.com/"},
+      {"fact": "InMobi Advertising is described as an enterprise platform with tools, data and expertise for media buyers and owners.", "url": "https://www.inmobi.com/"},
+      {"fact": "The page does not state pricing, headquarters location or a founding year.", "url": "https://www.inmobi.com/"}
+    ]
+  },
+  {
+    "slug": "chartboost", "name": "Chartboost", "status": "verified", "drop_reason": "",
+    "site": "https://loopme.ai/chartboost/", "company": "LoopMe (Chartboost is part of LoopMe, per the page)", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "An in-app monetization and programmatic advertising platform for app developers, which the page says LoopMe acquired in 2024.",
+    "platforms": "", "pricing": "Not stated on the page.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Chartboost Direct", "Chartboost Monetize", "Intelligent Marketplace", "In-app monetization", "Programmatic advertising"],
+    "notable": ["Page says Chartboost was acquired by LoopMe in 2024", "Page says Chartboost drives higher CPMs and fill rates for publishers"],
+    "logo_hint": "https://loopme.ai/wp-content/themes/loopme-wpbootstrap-child/includes/favicon/apple-touch-icon.png",
+    "facts": [
+      {"fact": "Chartboost is described on the page as an in-app monetization and programmatic advertising platform, acquired by LoopMe in 2024.", "url": "https://loopme.ai/chartboost/"},
+      {"fact": "The page describes Chartboost as an in-app monetization platform that drives higher CPMs and fill rates.", "url": "https://loopme.ai/chartboost/"},
+      {"fact": "Chartboost Direct gives publishers infrastructure to run brand demand inside mobile apps without changing their ad technology stack, per the page.", "url": "https://loopme.ai/chartboost/"},
+      {"fact": "The page does not state Chartboost pricing or its headquarters location.", "url": "https://loopme.ai/chartboost/"}
+    ]
+  },
+  {
+    "slug": "digital-turbine", "name": "Digital Turbine", "status": "verified", "drop_reason": "",
+    "site": "https://www.digitalturbine.com/", "company": "DT (Digital Turbine, Inc)", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A growth platform, per the homepage, that links advertisers, app developers and device partners in the mobile ecosystem.",
+    "platforms": "", "pricing": "Not stated on the page.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["DT Launchpad app distribution", "DT Ads", "DT Ignite on-device engagement", "DT iQ AI optimization", "Offerwall"],
+    "notable": ["Homepage states 82K apps, 1B devices and 3B users"],
+    "facts": [
+      {"fact": "DT (Digital Turbine, Inc) is a growth platform that links advertisers, app developers and device partners in the mobile ecosystem.", "url": "https://www.digitalturbine.com/"},
+      {"fact": "Products named on the homepage include DT Launchpad, DT Ads, DT Ignite and DT iQ.", "url": "https://www.digitalturbine.com/"},
+      {"fact": "The homepage states 82K apps, 1B devices and 3B users.", "url": "https://www.digitalturbine.com/"},
+      {"fact": "The page does not state pricing, headquarters location or a founding year.", "url": "https://www.digitalturbine.com/"}
+    ]
+  },
+  {
+    "slug": "pangle", "name": "Pangle", "status": "verified", "drop_reason": "",
+    "site": "https://www.pangleglobal.com/", "company": "Pangle", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "An in-app advertising network that helps app publishers grow their user base and increase revenue through ads.",
+    "platforms": "", "pricing": "Not stated on the page.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Rewarded video ads", "Interstitial ads", "Native ads", "App open ads (beta)", "Banner ads", "Playable ads", "User acquisition solutions"],
+    "notable": ["Page describes Pangle as the Ad Network of TikTok for Business"],
+    "facts": [
+      {"fact": "Pangle is an in-app advertising network that helps app publishers grow their user base and increase revenue through ads.", "url": "https://www.pangleglobal.com/"},
+      {"fact": "The page describes Pangle as the Ad Network of TikTok for Business.", "url": "https://www.pangleglobal.com/"},
+      {"fact": "Ad formats named on the page are rewarded video, interstitial, native, app open (beta), banner and playable ads.", "url": "https://www.pangleglobal.com/"},
+      {"fact": "The page does not state pricing or company headquarters.", "url": "https://www.pangleglobal.com/"}
+    ]
+  },
+  {
+    "slug": "meta-audience-network", "name": "Meta Audience Network", "status": "verified", "drop_reason": "",
+    "site": "https://developers.facebook.com/docs/audience-network/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "Audience Network App Bidding, as documented by the vendor: an impartial open auction that offers each ad opportunity to several demand sources in real time.",
+    "platforms": "Android, iOS, Unity",
+    "pricing": "Not stated on the page. The page lists a benefit of more revenue from optimizing each ad request and links to a Help Center page on getting paid.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["App Bidding", "Mediation integration", "Android, iOS and Unity setup", "API reference guides and changelogs"],
+    "notable": ["Page does not name the operating company in its body"],
+    "facts": [
+      {"fact": "Audience Network App Bidding runs an impartial, open auction that offers each ad opportunity to several demand sources in real time.", "url": "https://developers.facebook.com/docs/audience-network/"},
+      {"fact": "The platform setup section covers Android, iOS and Unity.", "url": "https://developers.facebook.com/docs/audience-network/"},
+      {"fact": "The page links to a Help Center article on getting paid but states no pricing or revenue-share terms.", "url": "https://developers.facebook.com/docs/audience-network/"}
+    ]
+  },
+  {
+    "slug": "tapjoy", "name": "Tapjoy", "status": "verified", "drop_reason": "",
+    "site": "https://unity.com/products/tapjoy", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "The Tapjoy Offerwall, described as an in-app rewarded marketplace connecting top advertisers with premium publishers.",
+    "platforms": "", "pricing": "No Tapjoy-specific price stated. The page links to a general unity.com products and pricing page.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["In-app rewarded offerwall", "Rewarded marketplace", "Offerwall user acquisition"],
+    "notable": ["Tapjoy product page is hosted on unity.com (the tapjoy.com address redirects there)"],
+    "facts": [
+      {"fact": "The Tapjoy Offerwall is described as an in-app rewarded marketplace connecting top advertisers with premium publishers.", "url": "https://unity.com/products/tapjoy"},
+      {"fact": "The Tapjoy product page is hosted on unity.com; the tapjoy.com address redirects there.", "url": "https://unity.com/products/tapjoy"},
+      {"fact": "The page's Get started button leads to a sales form for Offerwall user acquisition.", "url": "https://unity.com/products/tapjoy"},
+      {"fact": "No Tapjoy-specific price is stated; the page links to a general unity.com products pricing page.", "url": "https://unity.com/products/tapjoy"}
+    ]
+  },
+  {
+    "slug": "moloco", "name": "Moloco", "status": "verified", "drop_reason": "",
+    "site": "https://www.moloco.com/", "company": "Moloco, Inc.", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "AI-driven advertising platforms: Moloco Ads for performance marketers across mobile apps and CTV, and Moloco Commerce Media for retailers and marketplaces.",
+    "platforms": "Mobile apps and CTV (per the page)",
+    "pricing": "Moloco Ads uses performance-based campaign pricing. Commerce Media is structured around each retailer's or marketplace's needs. Overall pricing depends on product, campaign goals, market and level of advertising activity.",
+    "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["User acquisition", "Re-engagement", "Moloco SDK", "Performance CTV", "CARA ad recommendation architecture", "Simplified ad ops"],
+    "notable": ["Page says the founders left big tech companies in 2013; no founding year stated", "Customer logos shown include Chewy, Costco and TikTok"],
+    "facts": [
+      {"fact": "Moloco, Inc. offers Moloco Ads for performance marketers across mobile apps and CTV, and Moloco Commerce Media for retailers and marketplaces.", "url": "https://www.moloco.com/"},
+      {"fact": "Moloco Ads uses performance-based campaign pricing, per the page.", "url": "https://www.moloco.com/"},
+      {"fact": "The page says overall pricing depends on product, campaign goals, market and level of advertising activity.", "url": "https://www.moloco.com/"},
+      {"fact": "The page names the Moloco SDK, Performance CTV and CARA as products or technology.", "url": "https://www.moloco.com/"},
+      {"fact": "The page does not state a founding year, headquarters location or ownership.", "url": "https://www.moloco.com/"}
+    ]
+  },
+  {
+    "slug": "anzu", "name": "Anzu", "status": "verified", "drop_reason": "",
+    "site": "https://www.anzu.io/", "company": "Anzu", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A programmatic in-game advertising platform that connects game developers with brand and performance advertisers.",
+    "platforms": "Mobile, PC and console (per the Monetize menu)",
+    "pricing": "Not stated on the page. The site links advertiser and publisher terms.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Brand and performance formats", "Fraud detection", "Brand uplift", "Programmatic setup on standard IAB sizes", "Mobile", "PC and console"],
+    "notable": ["Company page says Anzu's mission dates from 2017 ('Since 2017')"],
+    "facts": [
+      {"fact": "Anzu connects game developers with brand and performance advertisers through programmatic in-game advertising.", "url": "https://www.anzu.io/"},
+      {"fact": "The Monetize menu lists Mobile and PC & Console solutions.", "url": "https://www.anzu.io/"},
+      {"fact": "The company page says Anzu's mission has been to make advertising in games better since 2017.", "url": "https://www.anzu.io/company"},
+      {"fact": "The homepage does not state pricing; advertiser and publisher terms are linked from the site.", "url": "https://www.anzu.io/"}
+    ]
+  },
+  {
+    "slug": "bidstack", "name": "Bidstack", "status": "dropped",
+    "drop_reason": "bidstack.com returns HTTP 404 on the homepage, the privacy policy and a product page. A search points to bidstack.com as the official site, but no page could be read. Re-check before use.",
+    "site": "https://www.bidstack.com/", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "facts": []
+  },
+  {
+    "slug": "adverty", "name": "Adverty", "status": "verified", "drop_reason": "",
+    "site": "https://adverty.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "An in-play advertising platform that connects brands with engaged gaming audiences and gives game developers new revenue streams.",
+    "platforms": "", "pricing": "Not stated on the page.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["In-play ads", "Developer monetization", "Advertiser portal", "BrainImpression viewability", "Brand safety"],
+    "notable": ["Homepage names PubMatic and Mindshare FAST in partner testimonials"],
+    "facts": [
+      {"fact": "Adverty describes itself as an In-Play advertising platform that connects brands with engaged gaming audiences and enables new gaming revenue streams for developers.", "url": "https://adverty.com/"},
+      {"fact": "The page offers a developer and advertiser portal for self-served clients to track revenue, spend and campaigns.", "url": "https://adverty.com/"},
+      {"fact": "The page says its ad technology is in line with the latest IAB and MRC measurement guidelines.", "url": "https://adverty.com/"},
+      {"fact": "The homepage does not state pricing.", "url": "https://adverty.com/"}
+    ]
+  },
+  {
+    "slug": "adinmo", "name": "AdInMo", "status": "dropped",
+    "drop_reason": "adinmo.com returns HTTP 525 (origin error) on the homepage and the /about page. The site could not be opened.",
+    "site": "https://www.adinmo.com/", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "facts": []
+  },
+  {
+    "slug": "frameplay", "name": "Frameplay", "status": "verified", "drop_reason": "",
+    "site": "https://frameplay.com/", "company": "", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A self-service intrinsic in-game advertising platform that places virtual ads in video games, per the homepage.",
+    "platforms": "", "pricing": "Not stated on the page; the homepage offers a Book a demo button.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Intrinsic in-game ads", "Self-service platform", "Advertiser solutions", "Developer monetization", "Analytics"],
+    "notable": ["Homepage states a 33 sec average intrinsic time-in-view (vendor figure)"],
+    "facts": [
+      {"fact": "Frameplay describes its platform as a self-service intrinsic advertising platform that places virtual ads in video games.", "url": "https://frameplay.com/"},
+      {"fact": "Frameplay's About page is headed 'Pioneering innovation in the video game advertising industry.'", "url": "https://frameplay.com/about-us/"},
+      {"fact": "The homepage lists separate solutions for advertisers and for developers.", "url": "https://frameplay.com/"},
+      {"fact": "Pricing is not published on the page; the homepage offers a Book a demo button.", "url": "https://frameplay.com/"}
+    ]
+  },
+  {
+    "slug": "odeeo", "name": "Odeeo", "status": "verified", "drop_reason": "",
+    "site": "https://odeeo.io/", "company": "Sonic Odeeo Ltd.", "hq": "Hertzliya, Israel", "country": "Israel", "country_code": "IL",
+    "what_it_is": "An in-game audio advertising platform that places brand audio ads in games through its proprietary SDK.",
+    "platforms": "Mobile games (via SDK)",
+    "pricing": "Not stated on the page; the site asks visitors to contact the company.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["In-game audio ads", "Proprietary SDK", "Developer monetization", "AdMob mediation support for display banners"],
+    "notable": ["Odeeo SDK 3.12 supports AdMob mediation for display banners (vendor news item)"],
+    "facts": [
+      {"fact": "Odeeo describes its ad platform as a way for developers to introduce brand advertising into games through digital audio.", "url": "https://odeeo.io/"},
+      {"fact": "The footer names Sonic Odeeo Ltd. with an address in Hertsliya, Israel.", "url": "https://odeeo.io/"},
+      {"fact": "The company section says Odeeo was founded in Hertzliya, Israel.", "url": "https://odeeo.io/"},
+      {"fact": "Odeeo SDK 3.12 supports AdMob mediation for display banners, per the homepage news list.", "url": "https://odeeo.io/"}
+    ]
+  },
+  {
+    "slug": "playwire", "name": "Playwire", "status": "verified", "drop_reason": "",
+    "site": "https://www.playwire.com/", "company": "Playwire", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "An ad monetization platform for publishers, offering managed and self-service options (RAMP) plus advertiser products.",
+    "platforms": "Websites, mobile apps and desktop apps (per the publisher menu)",
+    "pricing": "Not stated on the page; publishers are asked to apply.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["RAMP Managed Service", "RAMP Self-Service", "RAMP Mobile App (single SDK)", "Flex Suite", "PEI Index"],
+    "notable": ["Homepage says 1,000+ publishers trust Playwire"],
+    "facts": [
+      {"fact": "Playwire describes itself as an ad monetization platform for publishers, with managed and self-service options.", "url": "https://www.playwire.com/"},
+      {"fact": "RAMP Mobile App is described as a single SDK connecting publishers to 15+ premium demand partners.", "url": "https://www.playwire.com/"},
+      {"fact": "The homepage states that it is trusted by 1,000+ publishers.", "url": "https://www.playwire.com/"},
+      {"fact": "Pricing is not stated on the page; publishers are asked to apply.", "url": "https://www.playwire.com/"}
+    ]
+  },
+  {
+    "slug": "azerion", "name": "Azerion", "status": "verified", "drop_reason": "",
+    "site": "https://www.azerion.com/", "company": "Azerion", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A European digital advertising company with an omnichannel platform connecting advertisers with audiences, plus game distribution for publishers.",
+    "platforms": "", "pricing": "Not stated on the page; the site asks visitors to get in touch.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Azerion DSP", "Azerion Identity Graph", "Game Distribution", "Azerion Edge", "Advertising formats"],
+    "notable": ["Homepage states 400k+ advertisers, 300k+ publishers, 13bn+ ad impressions per month and 17 countries (vendor figures)"],
+    "facts": [
+      {"fact": "Azerion describes itself as Europe's leading digital advertising company, offering global reach and local expertise.", "url": "https://www.azerion.com/"},
+      {"fact": "The homepage lists Azerion DSP, Azerion Identity Graph and Game Distribution among its products.", "url": "https://www.azerion.com/"},
+      {"fact": "The homepage states 17 countries and 912 team members.", "url": "https://www.azerion.com/"},
+      {"fact": "Pricing is not stated on the page; it asks visitors to get in touch.", "url": "https://www.azerion.com/"}
+    ]
+  },
+  {
+    "slug": "kayzen", "name": "Kayzen", "status": "verified", "drop_reason": "",
+    "site": "https://kayzen.io/", "company": "Kayzen", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A mobile-first DSP for apps, agencies, media buyers and brands running customer acquisition, retargeting and brand performance campaigns.",
+    "platforms": "Mobile apps (app-to-app, app-to-web, web-to-app and web-to-web conversion paths, per the pricing page)",
+    "pricing": "Starter Plan $1,250/month, monthly term, up to $10,000 ad spend per month, 15% overage above that. Pro Plan $5,750/month, quarterly term, up to $50,000 ad spend per month, 13% overage. Enterprise Plan $15,000/month, annual term, up to $150,000 ad spend per month, 10% overage.",
+    "pricing_model": "Subscription", "free_plan": "None",
+    "key_features": ["Customer acquisition", "Retargeting", "Brand performance", "Video+ (Pro plan)", "Customizable dashboard and reports with API", "CPM bid shading"],
+    "notable": ["Starter Plan $1,250/month", "Pro Plan $5,750/month", "Enterprise Plan $15,000/month"],
+    "facts": [
+      {"fact": "Kayzen describes itself as a mobile-first DSP enabling apps, agencies, media buyers and brands to run acquisition, retargeting and brand performance campaigns.", "url": "https://kayzen.io/"},
+      {"fact": "Kayzen's pricing page lists a Starter Plan at $1,250 per month with up to $10,000 ad spend per month.", "url": "https://kayzen.io/pricing"},
+      {"fact": "The pricing page lists a Pro Plan at $5,750 per month (quarterly term) and an Enterprise Plan at $15,000 per month (annual term).", "url": "https://kayzen.io/pricing"},
+      {"fact": "Each pricing plan has an overage: 15% above $10,000 on Starter, 13% above $50,000 on Pro and 10% above $150,000 on Enterprise.", "url": "https://kayzen.io/pricing"},
+      {"fact": "Kayzen's About page says it aims to democratize programmatic advertising with full transparency and control for marketers.", "url": "https://kayzen.io/about"}
+    ]
+  },
+  {
+    "slug": "bigabid", "name": "Bigabid", "status": "verified", "drop_reason": "",
+    "site": "https://www.bigabid.com/user-acquisition/", "company": "Bigabid", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A programmatic mobile user acquisition and retargeting platform for apps, using machine learning and contextual data.",
+    "platforms": "Android and iOS (per the page)",
+    "pricing": "Not stated on the page; it offers a Let's Get Started button.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["User acquisition", "Retargeting", "Deep Categories (1000+ app categories)", "Real-time data analysis", "Contextual data instead of IDFA-dependent data"],
+    "notable": ["Deep Categories is described as covering over 1000 app categories, versus a few dozen at other platforms (vendor claim)"],
+    "facts": [
+      {"fact": "Bigabid's user acquisition page describes a programmatic mobile user acquisition platform for apps.", "url": "https://www.bigabid.com/user-acquisition/"},
+      {"fact": "The page says Deep Categories distinguishes over 1000 app categories, versus a few dozen at other platforms (vendor claim).", "url": "https://www.bigabid.com/user-acquisition/"},
+      {"fact": "The page says the technology works for Android and iOS and uses contextual data instead of IDFA-dependent data.", "url": "https://www.bigabid.com/user-acquisition/"},
+      {"fact": "Pricing is not stated on the page; it offers a Let's Get Started button.", "url": "https://www.bigabid.com/user-acquisition/"}
+    ]
+  },
+  {
+    "slug": "xsolla", "name": "Xsolla", "status": "verified", "drop_reason": "",
+    "site": "https://www.xsolla.com/", "company": "Xsolla", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A video game commerce company offering payments, web shop, publishing and distribution tools for games.",
+    "platforms": "Web shop for mobile, PC and web games (audiences listed on the page)",
+    "pricing": "Not stated on the opened pages. The pricing URL leads to a contact form. The homepage says the tools launch with no upfront costs.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Web Shop", "Xsolla Pay", "Publishing Suite", "Xsolla SDK", "LiveOps", "Offerwall"],
+    "notable": ["About page says solutions work in 200+ geographies, with 1000+ payment methods and 130+ currencies", "Homepage says Web Shop lets studios keep up to 95% of each sale"],
+    "facts": [
+      {"fact": "Xsolla describes itself as the global video game commerce company that helps developers and publishers grow their businesses.", "url": "https://xsolla.com/about-us"},
+      {"fact": "The About page says Xsolla's solutions work in 200+ geographies, with 1000+ payment methods and 130+ currencies.", "url": "https://xsolla.com/about-us"},
+      {"fact": "The homepage lists Web Shop, Publishing Suite, Payments and Xsolla Pay among its products.", "url": "https://www.xsolla.com/"},
+      {"fact": "The homepage says Web Shop lets studios keep up to 95% of each sale.", "url": "https://www.xsolla.com/"},
+      {"fact": "The pricing URL does not show a price list; it leads to a contact form.", "url": "https://xsolla.com/contact-us"}
+    ]
+  },
+  {
+    "slug": "appcharge", "name": "Appcharge", "status": "verified", "drop_reason": "",
+    "site": "https://www.appcharge.com/", "company": "Appcharge", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A direct-to-consumer payments platform for mobile games that sells in-game items to players through branded web stores, with merchant of record.",
+    "platforms": "Mobile games", "pricing": "Not stated on the opened pages; the /pricing URL returns 404 and the site uses contact forms.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Personalized web stores", "In-app payment links", "Self-optimized checkout", "Merchant of record", "Mobile payments SDK", "Subscriptions"],
+    "notable": ["About page states $89M+ in funding and 150+ games", "Homepage states $1BN in annual transactions (vendor figure)"],
+    "facts": [
+      {"fact": "Appcharge helps mobile game publishers sell in-game items directly to players with branded web stores, global payments and gamified offers.", "url": "https://www.appcharge.com/"},
+      {"fact": "The About page describes Appcharge as a payments company built by people from game studios.", "url": "https://www.appcharge.com/company/about-us"},
+      {"fact": "The About page states $89M+ in funding and 150+ games.", "url": "https://www.appcharge.com/company/about-us"},
+      {"fact": "The homepage states merchant of record, 500+ payment methods and 100+ currencies.", "url": "https://www.appcharge.com/"},
+      {"fact": "The opened pages do not state pricing; the site directs visitors to Get in touch.", "url": "https://www.appcharge.com/"}
+    ]
+  },
+  {
+    "slug": "stash", "name": "Stash", "status": "verified", "drop_reason": "",
+    "site": "https://www.stash.gg/", "company": "Stash", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A direct-to-consumer platform for game developers offering in-app payments, webshops, a launcher, loyalty and merchant of record.",
+    "platforms": "", "pricing": "Not published; the site offers a Contact Sales link.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["In-App Payments", "Webshop", "Launcher", "Loyalty", "Merchant of Record"],
+    "notable": ["Homepage says Snowprint runs Stash across 64 countries and 21 currencies", "Case studies named: Hutch (F1 Clash) and Tacticus"],
+    "facts": [
+      {"fact": "Stash describes itself as a direct-to-consumer platform for game developers.", "url": "https://www.stash.gg/"},
+      {"fact": "The products listed on the site are In-App Payments, Webshop, Launcher, Loyalty and Merchant of Record.", "url": "https://www.stash.gg/"},
+      {"fact": "The homepage says Snowprint runs Stash across 64 countries and 21 currencies.", "url": "https://www.stash.gg/"},
+      {"fact": "Pricing is not published on the page; the site offers a Contact Sales link.", "url": "https://www.stash.gg/"}
+    ]
+  },
+  {
+    "slug": "aghanim", "name": "Aghanim", "status": "verified", "drop_reason": "",
+    "site": "https://aghanim.com/", "company": "Aghanim, Inc.", "hq": "Los Angeles (tech hub in Lisbon, per the homepage)", "country": "", "country_code": "",
+    "what_it_is": "A direct-to-consumer enablement platform for mobile games, covering commerce, billing, merchant of record and player incentive tools.",
+    "platforms": "Mobile games", "pricing": "Not stated on the opened pages. The About page describes a performance-based model with no upfront costs.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Billing engine", "Merchant of Record", "Incentives", "Motivation programs", "Web-based payments for mobile games"],
+    "notable": ["Founders are listed as former executives of Xsolla and Xsolla Labs", "Homepage announces a strategic partnership with Adyen"],
+    "facts": [
+      {"fact": "Aghanim is a direct-to-consumer enablement platform for mobile games covering commerce, payments and retention tools.", "url": "https://aghanim.com/"},
+      {"fact": "The footer names Aghanim, Inc. with a copyright range of 2023 to 2026.", "url": "https://aghanim.com/"},
+      {"fact": "The homepage says HQ is in Los Angeles with its tech hub in Lisbon.", "url": "https://aghanim.com/"},
+      {"fact": "The About page describes a performance-based business with no upfront costs.", "url": "https://aghanim.com/about"},
+      {"fact": "The homepage does not state pricing or fee percentages.", "url": "https://aghanim.com/"}
+    ]
+  },
+  {
+    "slug": "tebex", "name": "Tebex", "status": "verified", "drop_reason": "",
+    "site": "https://www.tebex.io/", "company": "Tebex", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A game monetization platform that handles webstores, checkout, store protection and payments for game studios.",
+    "platforms": "", "pricing": "Not stated on the page; the site offers Talk to sales and Open Account buttons.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Webstores", "Checkout", "Store Protection", "D2C", "Server monetization", "Operations"],
+    "notable": ["Homepage states $1.5B processed, 45K+ businesses monetizing, 130+ payment methods and 70+ countries (vendor figures)"],
+    "facts": [
+      {"fact": "Tebex describes itself as a game monetization extension that carries the operational complexity behind game monetization.", "url": "https://www.tebex.io/"},
+      {"fact": "The products in the menu are Webstores, Checkout and Store Protection.", "url": "https://www.tebex.io/"},
+      {"fact": "The homepage states $1.5B processed, 45K+ businesses monetizing, 130+ payment methods and 70+ countries.", "url": "https://www.tebex.io/"},
+      {"fact": "Pricing is not stated on the page; it offers Talk to sales and Open Account buttons.", "url": "https://www.tebex.io/"}
+    ]
+  },
+  {
+    "slug": "paddle", "name": "Paddle", "status": "verified", "drop_reason": "",
+    "site": "https://www.paddle.com/", "company": "Paddle.com Market Limited", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A merchant of record platform for SaaS and apps that handles billing, checkout, subscriptions, tax and compliance.",
+    "platforms": "SaaS, apps and games (use-case pages)",
+    "pricing": "The pricing page says it shows Paddle's fees and offers a custom enterprise quote; the fee figures are not in the captured page text.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Checkout", "Subscriptions", "Payments", "Tax and compliance", "Invoicing", "Fraud protection", "Retention tools"],
+    "notable": ["Customer stories named on the homepage: Nexus Mods and HubX"],
+    "facts": [
+      {"fact": "Paddle describes its product as the only complete merchant of record solution purpose-built for SaaS and apps.", "url": "https://www.paddle.com/"},
+      {"fact": "The About page is for Paddle.com Market Limited.", "url": "https://www.paddle.com/about"},
+      {"fact": "The pricing page says it shows Paddle's fees and offers a custom enterprise quote.", "url": "https://www.paddle.com/pricing"},
+      {"fact": "The homepage lists customer stories including Nexus Mods and HubX.", "url": "https://www.paddle.com/"}
+    ]
+  },
+  {
+    "slug": "fastspring", "name": "FastSpring", "status": "verified", "drop_reason": "",
+    "site": "https://fastspring.com/", "company": "FastSpring", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A full-stack digital commerce platform, operating as merchant of record, for software, SaaS, content and digital goods.",
+    "platforms": "", "pricing": "One flat rate with no hidden fees, per the pricing page headline.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Merchant of Record", "Global online payments", "Subscription management", "Checkout", "Tax compliance", "Digital invoicing", "Affiliate marketing"],
+    "notable": ["Homepage lists a Video Games use case for selling games or in-game items direct to consumers"],
+    "facts": [
+      {"fact": "FastSpring describes itself as a full-stack digital commerce platform for software, SaaS, content or anything-as-a-service.", "url": "https://fastspring.com/company/"},
+      {"fact": "FastSpring's merchant-of-record model covers global payments, tax and compliance.", "url": "https://fastspring.com/"},
+      {"fact": "The pricing page says FastSpring offers one flat rate with no hidden fees.", "url": "https://fastspring.com/pricing/"},
+      {"fact": "The homepage lists a Video Games use case for selling video games or in-game items direct to consumers.", "url": "https://fastspring.com/"}
+    ]
+  },
+  {
+    "slug": "stripe", "name": "Stripe", "status": "verified", "drop_reason": "",
+    "site": "https://stripe.com/en-nl", "company": "Stripe", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A financial services platform that helps businesses accept payments, build flexible billing models and manage money movement.",
+    "platforms": "", "pricing": "The Pricing and Fees page lists card processing fees, pricing models and pay-as-you-go fees; the figures are not in the captured page text.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Online payments", "Checkout", "Billing", "Subscriptions", "Tax", "Invoicing", "Payouts"],
+    "notable": ["Homepage states 99.999% historical uptime and 200m+ active subscriptions on Stripe Billing"],
+    "facts": [
+      {"fact": "Stripe is a financial services platform that helps businesses accept payments, build flexible billing models and manage money movement.", "url": "https://stripe.com/en-nl"},
+      {"fact": "The homepage states 135+ currencies and payment methods supported and US$1.9tn in payments volume processed in 2025.", "url": "https://stripe.com/en-nl"},
+      {"fact": "The homepage says OpenRouter is now part of Stripe.", "url": "https://stripe.com/en-nl"},
+      {"fact": "The Pricing and Fees page lists processing fees, pricing models and pay-as-you-go fees.", "url": "https://stripe.com/en-nl/pricing"}
+    ]
+  },
+  {
+    "slug": "adyen", "name": "Adyen", "status": "verified", "drop_reason": "",
+    "site": "https://www.adyen.com/", "company": "Adyen", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A fintech platform for enterprises that runs payments, data and financial products on one platform.",
+    "platforms": "",
+    "pricing": "Pay per transaction with no setup or monthly fees: a fixed processing fee plus a fee set by the payment method, per the pricing page. Other products are priced separately.",
+    "pricing_model": "Usage-based", "free_plan": "None",
+    "key_features": ["Accept payments", "Send payouts globally", "In-person payments", "Adyen for Platforms", "Intelligent money movement"],
+    "notable": ["Homepage states 150+ currencies, 200+ local payment methods and 99.999% uptime", "Pricing page states no setup fee"],
+    "facts": [
+      {"fact": "Adyen describes itself as a fintech platform for enterprises running payments, data and financial products on one platform.", "url": "https://www.adyen.com/"},
+      {"fact": "The pricing page says Adyen charges a fixed processing fee plus a fee determined by the payment method, per transaction.", "url": "https://www.adyen.com/pricing"},
+      {"fact": "The pricing page says there are no setup or monthly fees.", "url": "https://www.adyen.com/pricing"},
+      {"fact": "The homepage states 150+ currencies and 200+ local payment methods.", "url": "https://www.adyen.com/"}
+    ]
+  },
+  {
+    "slug": "nuvei", "name": "Nuvei", "status": "verified", "drop_reason": "",
+    "site": "https://www.nuvei.com/", "company": "Nuvei", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A global payments infrastructure provider covering pay-ins, payouts, acquiring, bank transfers and payment orchestration.",
+    "platforms": "", "pricing": "Not stated on the page; merchants are directed to contact sales.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Pay-ins", "Payouts", "Global acquiring", "Fraud and risk management", "Chargeback resolution", "Payment orchestration"],
+    "notable": ["Homepage says over 720 payment options", "Homepage lists use cases for online gaming and video gaming monetization"],
+    "facts": [
+      {"fact": "Nuvei describes itself as the infrastructure for every payment, everywhere.", "url": "https://www.nuvei.com/"},
+      {"fact": "The Who we are page presents Nuvei as a global payments infrastructure provider.", "url": "https://www.nuvei.com/who-we-are"},
+      {"fact": "The homepage says Nuvei offers over 720 trusted payment options.", "url": "https://www.nuvei.com/"},
+      {"fact": "The homepage lists use cases for online gaming and video gaming monetization.", "url": "https://www.nuvei.com/"}
+    ]
+  },
+  {
+    "slug": "digital-river", "name": "Digital River", "status": "dropped",
+    "drop_reason": "digitalriver.com returns HTTP 403 on the homepage and the /about page. The site could not be opened.",
+    "site": "https://www.digitalriver.com/", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "facts": []
+  },
+  {
+    "slug": "coda-payments", "name": "Coda Payments", "status": "verified", "drop_reason": "",
+    "site": "https://www.coda.co/", "company": "Coda", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A global digital commerce company offering payments (Codapay), link-out payments, webstores and distribution for digital goods.",
+    "platforms": "",
+    "pricing": "Standard pricing starts from 1% per transaction, with other standard rates of 5% per transaction and a flat rate of 15% per transaction. Custom pricing with volume discounts for companies expecting at least $100K USD of volume per month.",
+    "pricing_model": "Usage-based", "free_plan": "Unknown",
+    "key_features": ["Codapay payments", "Coda Links", "Coda Webstore", "Coda Distribution", "Merchant of Record", "Coda Consumer Platforms"],
+    "notable": ["Pricing page: custom pricing for $100K+ monthly volume", "Homepage says Coda reaches more than 380 million consumers across its platforms"],
+    "facts": [
+      {"fact": "Coda describes itself as a global digital commerce company helping publishers and brands simplify monetization, distribution and payments.", "url": "https://www.coda.co/about-us/"},
+      {"fact": "The pricing page lists standard transaction rates starting from 1% per transaction, 5% per transaction and a flat 15% per transaction.", "url": "https://www.coda.co/pricing/"},
+      {"fact": "Custom pricing is offered to companies expecting at least $100K USD of volume per month.", "url": "https://www.coda.co/pricing/"},
+      {"fact": "The homepage says Coda reaches more than 380 million consumers through its portfolio of platforms.", "url": "https://www.coda.co/"}
+    ]
+  },
+  {
+    "slug": "paymentwall", "name": "Paymentwall", "status": "verified", "drop_reason": "",
+    "site": "https://www.paymentwall.com/", "company": "Paymentwall", "hq": "San Francisco (listed as Global HQ on the About page)", "country": "", "country_code": "",
+    "what_it_is": "A global payment provider for credit card processing and local payment methods in 200 countries and territories.",
+    "platforms": "", "pricing": "Not stated on the opened pages; the site invites a consultation.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Brick card processing", "PayAlto local payment methods", "Gateway", "eInvoicing", "Passport", "Subscriptions"],
+    "notable": ["Homepage says more than 150 local payment methods through one API", "Plugins listed for Shopify, WooCommerce and Magento"],
+    "facts": [
+      {"fact": "Paymentwall describes itself as a global payment provider for credit cards and local payment methods in 200 countries and territories.", "url": "https://www.paymentwall.com/"},
+      {"fact": "The products listed are Brick, PayAlto, Gateway, eInvoicing, Passport and Subscriptions.", "url": "https://www.paymentwall.com/"},
+      {"fact": "The About page lists San Francisco as the Global HQ.", "url": "https://www.paymentwall.com/about"},
+      {"fact": "Pricing is not stated on the opened pages; the site invites a consultation.", "url": "https://www.paymentwall.com/"}
+    ]
+  },
+  {
+    "slug": "boku", "name": "Boku", "status": "verified", "drop_reason": "",
+    "site": "https://www.boku.com/", "company": "Boku", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "A global network of local payment methods for digital merchants, plus subscription bundling through distribution partners.",
+    "platforms": "", "pricing": "Not stated on the page; it offers a Talk to an expert contact.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Online payments", "Bundling", "200+ local payment methods", "Wallets and direct carrier billing", "Single API"],
+    "notable": ["Homepage states 7B+ consumer accounts reachable and live payment methods in 60+ countries", "Press release on the site describes Boku as listed on AIM (BOKU)"],
+    "facts": [
+      {"fact": "Boku describes itself as a global network of local payment methods for digital merchants.", "url": "https://www.boku.com/"},
+      {"fact": "Boku's products on the homepage are Online payments and Bundling.", "url": "https://www.boku.com/"},
+      {"fact": "The homepage states 200+ local payment methods in 40+ markets and live payment methods in 60+ countries.", "url": "https://www.boku.com/"},
+      {"fact": "A July 2026 press item on the homepage describes Boku as listed on AIM under the ticker BOKU.", "url": "https://www.boku.com/"}
+    ]
+  },
+  {
+    "slug": "adjust", "name": "Adjust", "status": "dropped",
+    "drop_reason": "adjust.com returned HTTP 429 (too many requests) on the homepage and the /product/ page on every attempt. The site could not be opened.",
+    "site": "https://www.adjust.com/", "company": "", "hq": "", "country": "", "country_code": "", "what_it_is": "", "platforms": "", "pricing": "", "pricing_model": "", "free_plan": "", "key_features": [], "notable": [], "facts": []
+  },
+  {
+    "slug": "singular", "name": "Singular", "status": "verified", "drop_reason": "",
+    "site": "https://www.singular.net/", "company": "Singular", "hq": "", "country": "", "country_code": "",
+    "what_it_is": "An AI-powered marketing attribution and analytics platform for unifying marketing data and measuring ROI.",
+    "platforms": "Mobile, web, PC and console, and CTV (per the solutions menu)",
+    "pricing": "The pricing page's captured text shows no plan prices. It offers Let's Talk, Book a Demo and Start Free buttons.", "pricing_model": "", "free_plan": "Unknown",
+    "key_features": ["Mobile attribution", "Marketing analytics", "Fraud prevention", "Deep linking", "Cost aggregation", "SKAdNetwork attribution", "CTV attribution"],
+    "notable": ["Homepage comparison pages: Singular vs AppsFlyer, Adjust, Branch and Kochava"],
+    "facts": [
+      {"fact": "Singular describes itself as an AI-powered attribution and analytics platform that unifies marketing data.", "url": "https://www.singular.net/"},
+      {"fact": "The solutions menu lists Mobile Attribution, SKAdNetwork Attribution, Deep Linking, CTV Attribution and Fraud Prevention.", "url": "https://www.singular.net/"},
+      {"fact": "The pricing page's captured text shows no plan prices; it offers Let's Talk, Book a Demo and Start Free buttons.", "url": "https://www.singular.net/pricing/"},
+      {"fact": "The homepage links comparison pages for Singular vs AppsFlyer, Adjust, Branch and Kochava.", "url": "https://www.singular.net/"}
+    ]
+  }
+]

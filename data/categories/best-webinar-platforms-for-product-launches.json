@@ -1,0 +1,503 @@
+{
+  "slug": "best-webinar-platforms-for-product-launches",
+  "name": "webinar platforms for product launches",
+  "title": "Best Webinar Platforms for Product Launches in 2026",
+  "group": "Live streaming (business)",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Launch webinar platforms carry a product announcement from registration page to live session and replay, and pass attendee data to the CRM.",
+  "definition": "A webinar platform for product launches hosts a live presentation to a registered audience, collects sign-ups, supports polls and questions, records the session and passes attendee data to sales systems. Launch use puts weight on registration pages, simulive playback, replay hosting and CRM sync.",
+  "intro": "A product launch webinar has a clear job: turn announcement interest into registered attendees, keep them watching, and hand sales a list of who engaged. Most generic webinar tools do the middle step well and leave the ends to other software. This ranking covers ten tools that touch some or all of that chain, from full webinar suites to video hosts and one audience-interaction add-on. We read each vendor's pages for product descriptions, plan names, pricing, integrations and company details, and did not run a launch on any of them. Where a number comes from the vendor, such as customer counts, the text says so. Order follows how much of the registration-to-replay chain each tool documents, then price clarity, then how much extra software it assumes.",
+  "criteria": [
+    {
+      "heading": "Registration through replay in one chain",
+      "text": "List the steps a launch needs: landing page, confirmation emails, live room, on-demand recording, follow-up. Zoom lists simulive and a production studio, Goldcast lists Content Lab and a Recording Studio, Airmeet lists custom landing pages, and Vimeo and Brightcove focus on hosting the replay. A tool that covers more of the chain means fewer imports and exports on a busy launch week."
+    },
+    {
+      "heading": "CRM and attendee data",
+      "text": "The value of a launch is the list of engaged leads. Zoom names CRM integrations among its features, Goldcast lists integrations, and Airmeet lists attendee analytics. Pages for Vimeo, Brightcove and Vbrick do not describe lead handoff, so a team using them should plan how names, questions and poll answers reach the CRM before the event."
+    },
+    {
+      "heading": "Capacity and format fit",
+      "text": "Zoom's entry Webinars plan covers up to 500 attendees; other pages did not state caps. Vbrick adds an eCDN for managed networks, which matters when thousands of employees watch together. Compare the plan cap with the registration count you expect, and check whether a simulive replay counts against any limits."
+    },
+    {
+      "heading": "Cost clarity before the deadline",
+      "text": "Not a single tool here prints a full webinar price table in the pages we read. Zoom names three plans without amounts, Slido lists plan types, and the rest use quotes or demos. When the launch date is fixed, a long sales cycle is a risk, so ask early for a trial or a quote and note which tools offer a free plan or a trial first."
+    }
+  ],
+  "market_notes": [
+    "Ten tools, three families. Webinar and event suites (Zoom Events and Webinars, Goldcast, Airmeet, Cvent, Bizzabo) cover registration and live rooms; video platforms (Kaltura, Vimeo, Brightcove, Vbrick) host and stream with webinar features of varying depth; Slido adds interaction only. Free access exists for Vimeo and Slido, free trials are mentioned for Goldcast, Airmeet, Cvent and Kaltura, and Zoom, Brightcove, Vbrick and Bizzabo show no trial on the pages we read.",
+    "The main trade-off is who owns the registrant list. Suites keep attendee data in one place and push it to a CRM, while video hosts leave registration and lead capture to other software. ON24, a well-known webinar name, could not be opened by our fetcher and is not ranked here, and Microsoft Teams live events is left out because Microsoft Learn says that format retired on June 30, 2026."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Decide how leads will move",
+      "text": "Before comparing features, decide which system receives registrants and engagement data. If the answer is a CRM already in daily use, shortlist tools that name integrations, such as Zoom and Goldcast. If marketing exports a spreadsheet, a simpler host like Vimeo may do. Write the handoff down; a launch without it produces an audience and no follow-up."
+    },
+    {
+      "title": "Match capacity to your registration forecast",
+      "text": "Take the registrations of your last big campaign and add a margin, then compare with plan caps. Zoom's entry plan stops at 500 attendees, and larger programs move up a tier. Ask quote-only vendors for the cap in writing, and for the cost of exceeding it, so the launch day does not hit a wall."
+    },
+    {
+      "title": "Plan the replay as a product",
+      "text": "Many viewers arrive after the live session. Decide where the replay lives, whether it needs a gate, and who clips highlights. Vimeo, Brightcove and Kaltura are strongest at hosting; Goldcast and Airmeet describe clip tools. Publish the replay within a day while interest is high, and keep captions on for accessibility."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best webinar platform for product launches in 2026?",
+      "a": "Zoom Events and Webinars is our first pick: it lists simulive, a production studio, polls, Q&A, AI captions and CRM integrations in three tiers. Goldcast is better for B2B teams that want to turn the recording into clips, and Kaltura for companies that want launch video inside a wider library."
+    },
+    {
+      "q": "What is simulive and why use it for a launch?",
+      "a": "Simulive plays a prerecorded session as if it were live, often with live chat and Q&A. For launches it removes the risk of a stumbling live demo while keeping the sense of an event. Zoom lists simulive among its webinar features."
+    },
+    {
+      "q": "How many attendees can a launch webinar hold?",
+      "a": "It varies by plan. Zoom's entry Webinars plan covers up to 500 attendees, and higher tiers exist. Other vendors in this list did not state caps on the pages we read, so request the number in writing before booking."
+    },
+    {
+      "q": "Do these platforms sync with a CRM?",
+      "a": "Zoom lists CRM integrations and Goldcast lists integrations, while Airmeet describes attendee analytics. Vimeo, Brightcove and Vbrick pages do not describe lead handoff. Verify which CRM objects are written, such as contacts, poll answers and attendance, before choosing."
+    },
+    {
+      "q": "Is there a free option?",
+      "a": "Vimeo has a free plan and Slido's core features are free, though neither is a full webinar suite. Goldcast, Airmeet, Cvent and Kaltura mention free trials. Free options are good for rehearsal, but check caps before relying on them for the event day."
+    },
+    {
+      "q": "Where should the launch replay live?",
+      "a": "On a platform whose player you control. Vimeo, Brightcove and Kaltura focus on hosting and delivery, and Vimeo also lists On Demand sales. Embed the replay on the product page, add captions and track views separately from live attendance."
+    },
+    {
+      "q": "Why is ON24 not in the ranking?",
+      "a": "Our fetcher received an HTTP 403 error from its site, so we could not read facts from pages we opened, and we rank only tools whose vendor pages we read. Buyers who need it can request it separately from the vendor."
+    }
+  ],
+  "related": [
+    "best-virtual-event-streaming-platforms-for-hybrid-events",
+    "best-multistreaming-platforms",
+    "best-live-captioning-and-translation-for-livestreams"
+  ],
+  "tools": [
+    {
+      "slug": "zoom-events-and-webinars",
+      "name": "Zoom Events and Webinars",
+      "site": "https://www.zoom.com/en/products/webinars/",
+      "company": "Zoom Communications, Inc.",
+      "country": "",
+      "tagline": "Three-tier webinar line from 500-attendee sessions to full events",
+      "best_for": "Launches with CRM follow-up and a simulive option",
+      "pricing": "Plans named Webinars (up to 500 attendees, billed monthly or annually), Webinars Plus and Events; dollar amounts are not on the page, which refers to a separate events pricing page.",
+      "pricing_model": "Subscription",
+      "free_plan": "Unknown",
+      "platforms": "Web-based",
+      "features": [
+        "Simulive",
+        "Production Studio",
+        "Breakout rooms",
+        "Polls and Q&A",
+        "AI-generated captions",
+        "CRM integrations"
+      ],
+      "summary": "Lists the pieces a launch webinar needs, from simulive playback to CRM hookups, under a name most registrants already trust.",
+      "verdict": "For a launch webinar, the first question is whether the stack gets people from sign-up to replay without friction. Zoom's page lists simulive (a prerecorded session shown as live), a production studio, polls, Q&A, breakout rooms, AI captions and CRM integrations, and the Webinars Plus tier adds on-demand video and pro production tools. Registrants rarely need to learn a new interface, which lifts attendance on the day. The entry plan starts at 500 attendees, enough for most product reveals, and larger audiences move up to Events.",
+      "weaknesses": "The page gives no dollar prices, so a budget needs the separate pricing page. It says little about landing page design or deep marketing automation, so teams that want branded registration journeys may need an add-on.",
+      "wrong_for": "A marketing team that wants video content tools such as clip repurposing should compare Goldcast.",
+      "sources": [
+        {
+          "fact": "Zoom Webinars is described as a platform for one-to-many presentations, from simple sessions to full broadcasts, with branding, production tools and analytics.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        },
+        {
+          "fact": "The page lists three plans: Webinars (up to 500 attendees), Webinars Plus (adds AI, on-demand video and pro production tools) and Events.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        },
+        {
+          "fact": "Dollar prices are not shown on the page; the vendor refers to a separate events pricing page for current rates.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        },
+        {
+          "fact": "The copyright notice on the page names Zoom Communications, Inc.",
+          "url": "https://www.zoom.com/en/products/webinars/"
+        }
+      ]
+    },
+    {
+      "slug": "goldcast",
+      "name": "Goldcast",
+      "site": "https://www.goldcast.io/",
+      "company": "Goldcast, Inc.",
+      "country": "",
+      "tagline": "B2B webinar and event platform built for turning sessions into content",
+      "best_for": "Demand-generation teams",
+      "pricing": "Quote only; the pricing page offers a demo request and a free trial and describes custom bundles.",
+      "pricing_model": "Quote only",
+      "free_plan": "Free trial",
+      "platforms": "Web platform",
+      "features": [
+        "Goldcast Events",
+        "Content Lab",
+        "Recording Studio",
+        "Goldcast Agents",
+        "Smart Events",
+        "Integrations"
+      ],
+      "summary": "Built for marketers who judge a launch by pipeline and by what the recording becomes afterward.",
+      "verdict": "Goldcast frames itself as an AI-first video platform for B2B and that angle matches a launch where the webinar is a campaign asset. Content Lab and a Recording Studio sit beside the events product, so the live session can turn into clips and a replay page, while integrations connect the registrant data to the tools sales already uses. Enterprise plans bring SSO, custom reports, custom permissions and multi-language support. A free trial gives a team room to rehearse the launch before committing to a custom bundle.",
+      "weaknesses": "No prices are published, and the pricing FAQ even asks whether monthly payment is possible, which suggests commitments are not monthly by default. The pages we read do not state attendee caps.",
+      "wrong_for": "Teams wanting a fixed, public price should choose a platform that lists one, such as a Zoom plan with a known cap.",
+      "sources": [
+        {
+          "fact": "Goldcast describes itself as an AI-first video content platform for B2B videos, webinars and events.",
+          "url": "https://www.goldcast.io/"
+        },
+        {
+          "fact": "Goldcast's pricing page offers a free trial and asks visitors to get a demo for custom bundles, so pricing is not published.",
+          "url": "https://www.goldcast.io/pricing"
+        },
+        {
+          "fact": "Goldcast's enterprise offer includes team workspaces, SSO, custom reports, custom permissions and multi-language support.",
+          "url": "https://www.goldcast.io/pricing"
+        },
+        {
+          "fact": "Goldcast's copyright notice names Goldcast, Inc.",
+          "url": "https://www.goldcast.io/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "kaltura",
+      "name": "Kaltura",
+      "site": "https://corp.kaltura.com",
+      "company": "Kaltura",
+      "country": "",
+      "tagline": "Enterprise video suite with webinars, virtual events and a streaming platform",
+      "best_for": "Companies that want launch video inside one library",
+      "pricing": "Free trial and a limited trial are listed; other plans for webinars, virtual events and digital video are quoted by sales, who can mix and match solutions.",
+      "pricing_model": "Quote only",
+      "free_plan": "Free trial",
+      "platforms": "Cloud video platform; webinars; virtual classroom; streaming",
+      "features": [
+        "Video portal",
+        "Events and webinars",
+        "Streaming platform",
+        "Video content management system",
+        "Virtual classroom",
+        "Conversational AI avatars"
+      ],
+      "summary": "Puts launch webinars in the same library as the rest of the company's video, with trials before a quote.",
+      "verdict": "Kaltura earns a high slot by solving the aftermath of a launch: the webinar, its replay and the rest of the product video can live in one portal and one content system. The pricing page leads with a free trial and a limited trial before it moves to quotes, and sales can combine webinar, virtual event and video modules. A company with an existing video library, or one that wants a replay hub for launches, gets the most from that structure. Education and media suites also exist, per the homepage.",
+      "weaknesses": "Because the company sells a wide suite, the webinar module can be hard to price on its own, and the pages we read give no figures. A small team with one launch a year may find the platform larger than the task.",
+      "wrong_for": "If you only need a one-off live session, a focused tool like Zoom Events and Webinars is lighter.",
+      "sources": [
+        {
+          "fact": "Kaltura describes itself as an enterprise video company with products for video portals, events and webinars, virtual classrooms and streaming.",
+          "url": "https://corp.kaltura.com"
+        },
+        {
+          "fact": "The Kaltura pricing page offers a free trial and a limited trial, and lists quoted plans for webinars, virtual events and digital video.",
+          "url": "https://corp.kaltura.com/pricing/"
+        },
+        {
+          "fact": "The Kaltura homepage lists education, media and telecom suites, and a developer suite.",
+          "url": "https://corp.kaltura.com"
+        },
+        {
+          "fact": "Kaltura's pricing page states visitors can get a quote from sales to mix and match solutions.",
+          "url": "https://corp.kaltura.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "vimeo",
+      "name": "Vimeo",
+      "site": "https://vimeo.com",
+      "company": "Vimeo.com, Inc.",
+      "country": "",
+      "tagline": "Video host with webinars, live streaming and paid on-demand access",
+      "best_for": "Teams that want the replay to live on a clean player",
+      "pricing": "Free plan with Start for free; paid plans through the upgrade page; enterprise through Contact sales. Prices are not in the text of the pages opened.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "Browser and mobile app; live streaming; webinars; OTT",
+      "features": [
+        "Video hosting and player",
+        "Video editor",
+        "Webinars",
+        "Live streaming",
+        "Vimeo OTT",
+        "Vimeo On Demand"
+      ],
+      "summary": "A good home for the recording, and a webinar tool that comes with the same account.",
+      "verdict": "Vimeo is the pick when the replay matters as much as the live session. It lists webinars and live streaming next to a hosted player, an editor, OTT and On Demand sales, so a launch recording can be trimmed, embedded on the product page and even sold. A free plan means the team can try the hosting side before paying. The footer names Vimeo.com, Inc. and the homepage claims 287 million users, a figure the vendor makes itself.",
+      "weaknesses": "The pages we read do not describe registration pages, CRM syncing or attendee scoring, so a launch that depends on lead data needs another system. Plan prices are not shown in the opened text.",
+      "wrong_for": "A demand-gen team that needs CRM-ready attendee data should look at Goldcast or Zoom.",
+      "sources": [
+        {
+          "fact": "Vimeo describes itself as an all-in-one video platform for creating, managing and sharing video.",
+          "url": "https://vimeo.com"
+        },
+        {
+          "fact": "The Vimeo homepage offers a Start for free option, and its upgrade page describes plans from free to enterprise.",
+          "url": "https://vimeo.com/upgrade-plan"
+        },
+        {
+          "fact": "The Vimeo homepage lists webinars, live streaming, Vimeo OTT and Vimeo On Demand among its products.",
+          "url": "https://vimeo.com"
+        },
+        {
+          "fact": "The Vimeo site footer reads 2026 Vimeo.com, Inc.",
+          "url": "https://vimeo.com"
+        }
+      ]
+    },
+    {
+      "slug": "airmeet",
+      "name": "Airmeet",
+      "site": "https://www.airmeet.com/",
+      "company": "Airmeet Inc.",
+      "country": "United States",
+      "tagline": "Browser-based webinar and event tool with recording and AI clips",
+      "best_for": "Interactive launches with a Q&A crowd",
+      "pricing": "No prices or plan names on the opened home page; a free trial link exists and the pricing page was not opened.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Browser-based; live streaming; event embeds",
+      "features": [
+        "Webinars and hybrid events",
+        "Networking",
+        "Airstudio recording and streaming",
+        "Airshots AI clips",
+        "Custom landing pages",
+        "X-ray attendee analytics"
+      ],
+      "summary": "Custom landing pages and attendee analytics support the registration end of a launch, though prices stay hidden.",
+      "verdict": "Airmeet lists custom landing pages, webinars and attendee analytics, which line up with the front and back of a launch campaign. Airstudio can record and stream from the browser, and Airshots uses AI to cut clips from the recording. The vendor's page shows logos such as Kaiser Permanente, Comcast and ADP and says more than 4,000 organizations use it. Those are its claims. A free trial lets a marketing team build a registration page and rehearse before spending.",
+      "weaknesses": "The home page gives no prices and the pricing page was not opened, so budget is unknown. Its structured data lists a Bangalore address next to the California one, which leaves the contracting entity worth confirming.",
+      "wrong_for": "A team that wants a clearly public price should start with Zoom or Vimeo.",
+      "sources": [
+        {
+          "fact": "Airmeet describes itself as 'THE AI POWERED VIDEO PLATFORM', combining live events, recording, streaming, podcasts and AI video tools.",
+          "url": "https://www.airmeet.com/"
+        },
+        {
+          "fact": "The home page offers a 'Start Your Free Trial' link and shows no prices.",
+          "url": "https://www.airmeet.com/"
+        },
+        {
+          "fact": "The home page lists the address 440 N Barranca Ave, Covina, California 91723, United States.",
+          "url": "https://www.airmeet.com/"
+        }
+      ]
+    },
+    {
+      "slug": "cvent",
+      "name": "Cvent",
+      "site": "https://www.cvent.com/",
+      "company": "Cvent, Inc.",
+      "country": "United States",
+      "tagline": "Event management suite whose webinar module sits beside registration and insights",
+      "best_for": "Launches tied to a wider events program",
+      "pricing": "No prices on the opened home page; a pricing link exists and a free trial of event registration is offered.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Mobile apps; virtual experience platform; webinars",
+      "features": [
+        "Event registration and marketing",
+        "Virtual experience and webinars",
+        "Event and attendee insights",
+        "CventIQ AI",
+        "Trade show lead capture"
+      ],
+      "summary": "Fits a company whose product launch is one of many events managed from a single registration system.",
+      "verdict": "Cvent describes an event platform for in-person, virtual, hybrid and webinar formats, and the webinar piece benefits from the registration, marketing and attendee insights around it. The vendor claims 34K+ customers and says 89% of the Fortune 100 use it, which are its numbers. A company that runs a launch webinar, then a roadshow, then a user conference can keep one attendee record across all three.",
+      "weaknesses": "As a suite, the webinar function is one product among many, so a team that only runs launch webinars may pay for tools it ignores. The page lists no prices, and CRM sync details were not given on the page we opened.",
+      "wrong_for": "A small team running a single launch webinar should compare Zoom or Vimeo first.",
+      "sources": [
+        {
+          "fact": "Cvent, Inc. is named as the company on the vendor site (copyright line reads Cvent Inc.).",
+          "url": "https://www.cvent.com/"
+        },
+        {
+          "fact": "Cvent describes its product as an event platform for in-person, virtual and hybrid events and webinars.",
+          "url": "https://www.cvent.com/"
+        },
+        {
+          "fact": "The home page offers a free trial of Cvent event registration and shows no prices.",
+          "url": "https://www.cvent.com/"
+        },
+        {
+          "fact": "The home page gives a Tysons Corner, Virginia address (1765 Greensboro Station Place, 7th Floor).",
+          "url": "https://www.cvent.com/"
+        }
+      ]
+    },
+    {
+      "slug": "brightcove",
+      "name": "Brightcove",
+      "site": "https://www.brightcove.com",
+      "company": "Brightcove Inc.",
+      "country": "",
+      "tagline": "Video hosting and live streaming with developer APIs",
+      "best_for": "Launches embedded in a branded site",
+      "pricing": "No prices; the site directs visitors to Contact Sales and Request a Demo.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Video Cloud, live streaming, OTT",
+      "features": [
+        "Video hosting and library",
+        "Live streaming",
+        "OTT",
+        "Video analytics",
+        "Developer APIs"
+      ],
+      "summary": "A hosting and live platform with APIs, suited to a launch embedded in an owned website.",
+      "verdict": "Brightcove describes a secure, scalable video hosting and streaming platform for hosting, sharing and monetizing video, with live streaming and developer APIs on the product list. A company that wants the launch stream and replay inside its own site or app, with analytics on top, can build that through the APIs. The footer names Brightcove Inc. and the site mentions a training academy.",
+      "weaknesses": "It is a video platform rather than a webinar tool, so registration, polls and CRM follow-up are not described on the page we read. Pricing is by contact only.",
+      "wrong_for": "A marketer who needs a ready-made webinar flow should pick Zoom Events and Webinars or Goldcast.",
+      "sources": [
+        {
+          "fact": "Brightcove describes its platform as a secure, scalable video hosting and streaming platform for hosting, sharing and monetizing video.",
+          "url": "https://www.brightcove.com"
+        },
+        {
+          "fact": "The Brightcove site footer reads 2026 Brightcove Inc.",
+          "url": "https://www.brightcove.com"
+        },
+        {
+          "fact": "The Brightcove homepage lists live streaming, OTT and developer APIs among its product features.",
+          "url": "https://www.brightcove.com"
+        },
+        {
+          "fact": "The Brightcove homepage offers Contact Sales and Request a Demo instead of published prices.",
+          "url": "https://www.brightcove.com"
+        }
+      ]
+    },
+    {
+      "slug": "vbrick",
+      "name": "Vbrick",
+      "site": "https://vbrick.com/",
+      "company": "Vbrick",
+      "country": "",
+      "tagline": "Enterprise video platform with live webcasting and an eCDN",
+      "best_for": "Internal and regulated launch broadcasts",
+      "pricing": "No prices published; the site directs visitors to a Contact Us page.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Enterprise video platform; eCDN; live webcasting",
+      "features": [
+        "Live webcasting",
+        "Video content management",
+        "eCDN solutions",
+        "Video analytics",
+        "Security controls"
+      ],
+      "summary": "Aimed at corporate and government broadcasts where security and network delivery are the constraints.",
+      "verdict": "Vbrick calls itself an enterprise video intelligence platform and lists live webcasting, an eCDN and analytics, with an eCDN for Microsoft Teams and Webex Webinars. The vendor describes the platform as FedRAMP-certified. A launch that goes first to employees or partners on a managed corporate network, say a channel partner briefing before public release, is where those features help.",
+      "weaknesses": "The page describes webcasting rather than lead capture or registration for a public launch, and it gives no price. Public marketing webinars are not its documented focus.",
+      "wrong_for": "A growth team running a public launch with CRM sync should look at Goldcast or Zoom.",
+      "sources": [
+        {
+          "fact": "Vbrick describes itself as an enterprise video intelligence platform for managing, securing and streaming video, with AI-ready data output.",
+          "url": "https://vbrick.com/"
+        },
+        {
+          "fact": "The Vbrick homepage lists live webcasting, an eCDN and video analytics among its capabilities.",
+          "url": "https://vbrick.com/"
+        },
+        {
+          "fact": "The Vbrick homepage describes its enterprise video platform as FedRAMP-certified.",
+          "url": "https://vbrick.com/"
+        },
+        {
+          "fact": "The Vbrick homepage shows no prices and directs visitors to a Contact Us page.",
+          "url": "https://vbrick.com/"
+        }
+      ]
+    },
+    {
+      "slug": "slido",
+      "name": "Slido",
+      "site": "https://www.slido.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Audience interaction layer for polls, Q&A and quizzes",
+      "best_for": "Adding live questions to any launch stream",
+      "pricing": "Core features are free; one-time, annual and education plans exist, with exact prices not visible on the opened pricing page.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Web; integrations with meeting tools",
+      "features": [
+        "Live polls",
+        "Live Q&A",
+        "Word cloud",
+        "Quizzes",
+        "Surveys",
+        "Analytics"
+      ],
+      "summary": "Not a webinar host, but a free add-on that improves the interactive part of one.",
+      "verdict": "Slido handles polls, Q&A, word clouds, ideas, quizzes and surveys, and Slido AI can suggest poll questions. For a launch, a few polls and a moderated question queue keep a long session lively, and the free core means you can try it without approval. It works beside a webinar host rather than replacing one, so it ranks near the end as a supplement.",
+      "weaknesses": "It does not host or stream video or register attendees. Exact plan prices were not visible on the page we opened, so plan costs beyond the free core are unknown.",
+      "wrong_for": "Anyone who needs the actual webinar room should choose Zoom, Goldcast or Vimeo and add Slido on top.",
+      "sources": [
+        {
+          "fact": "Slido is an audience interaction platform for live polls, Q&A, word clouds, ideas, quizzes and surveys in meetings and events.",
+          "url": "https://www.slido.com/"
+        },
+        {
+          "fact": "Slido's pricing page says the core features of Slido are free, with one-time and annual plans for more.",
+          "url": "https://www.slido.com/pricing?plan=annual"
+        },
+        {
+          "fact": "Slido offers separate one-time, annual and education plans.",
+          "url": "https://www.slido.com/pricing?plan=annual"
+        }
+      ]
+    },
+    {
+      "slug": "bizzabo",
+      "name": "Bizzabo",
+      "site": "https://www.bizzabo.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Event experience platform with registration and streaming features",
+      "best_for": "Programs where launches are part of larger events",
+      "pricing": "No prices or plan names on the opened home page; a pricing page link exists and a demo is offered, with no free plan or trial mentioned.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Mobile event app; web event pages; onsite software",
+      "features": [
+        "Event registration",
+        "Website and agenda editor",
+        "Email and marketing management",
+        "Sponsor ROI",
+        "Video, broadcasting and streaming"
+      ],
+      "summary": "Broad event software where a webinar is a small part, so it sits last for this narrow job.",
+      "verdict": "Bizzabo lists registration, a website and agenda editor, email and marketing management and video, broadcasting and streaming. A launch tied to a larger conference program can reuse the registration and email tools, and event leaders can follow sponsor ROI across events. It is a fit for companies that think in programs rather than single webinars.",
+      "weaknesses": "The tool set leans toward live events and onsite hardware such as SmartBadges, which a webinar launch never needs, and the home page shows neither prices nor a trial.",
+      "wrong_for": "A team that only runs online launches should skip it for Zoom Events and Webinars or Goldcast.",
+      "sources": [
+        {
+          "fact": "Bizzabo sells its platform as the 'Event Experience OS' for B2B event leaders.",
+          "url": "https://www.bizzabo.com/"
+        },
+        {
+          "fact": "The home page links to a pricing page, but shows no prices or plan names.",
+          "url": "https://www.bizzabo.com/"
+        },
+        {
+          "fact": "The home page offers a demo and does not mention a free plan or trial.",
+          "url": "https://www.bizzabo.com/"
+        },
+        {
+          "fact": "The home page lists event registration, a mobile event app, event networking, sponsor ROI and Klik SmartBadges among its features.",
+          "url": "https://www.bizzabo.com/"
+        }
+      ]
+    }
+  ]
+}

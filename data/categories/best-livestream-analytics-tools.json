@@ -1,0 +1,469 @@
+{
+  "slug": "best-livestream-analytics-tools",
+  "name": "livestream analytics tools",
+  "title": "Best Livestream Analytics Tools in 2026",
+  "group": "Streaming and creators",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Livestream analytics tools measure viewers, watch time, game performance and channel growth so streamers and studios can decide what to stream and who to partner with.",
+  "definition": "Livestream analytics tools collect and display statistics about channels, games and audiences on platforms such as Twitch, YouTube and Kick. They report concurrent viewers, hours watched, follower growth and rankings, and enterprise versions add creator discovery, fake audience scoring and campaign reporting for publishers and agencies.",
+  "intro": "Streamers ask three different questions of analytics: which game should I play, how is my channel growing, and who is worth partnering with. Public stat sites answer the first two for free. Business platforms answer the third for brands and studios on a quote. A few overlay suites are listed here too, because streamers often assume they include reporting. This ranking read vendor homepages, about pages, plans and pricing pages for ten products and judged them on platform coverage, what the pages say is measured, whether a price is published and who the tool is built for. We did not run the tools. Three planned entries could not be opened and were left out, and the facts for two suites show no analytics features, which the entries say plainly.",
+  "criteria": [
+    {
+      "heading": "Platforms covered",
+      "text": "Coverage splits by network. SullyGnome and TwitchTracker are Twitch sites, Twitchmetrics adds YouTube and Kick, Social Blade lists YouTube, TikTok, Twitch, Facebook and Instagram, and vidIQ and TubeBuddy focus on YouTube. Hatchet cites 32 platforms. Pick the tool that matches where your audience actually watches, or you will read numbers for the wrong channel."
+    },
+    {
+      "heading": "What is measured",
+      "text": "Look for the metric that answers your question: concurrent viewers, hours watched, game rankings, follower growth, keyword research or campaign results. TwitchTracker lists viewers, watch time, stream time and languages, Social Blade lists growth and report cards, and Hatchet lists mention tracking and fake audience scoring. A tool with many charts but not your metric wastes time."
+    },
+    {
+      "heading": "Public data versus your own data",
+      "text": "Stat sites show public numbers that anyone can look up, which suits research and competitor checks. Your own retention, revenue and chat data live in the platform dashboards. Twitchmetrics offers advanced analytics on a streamer's own channel in its streamer plan. Decide whether you need to study the market or your own channel before paying."
+    },
+    {
+      "heading": "Price transparency and audience size",
+      "text": "Prices vary from free browsing to quotes. Social Blade lists $59.99 per year, vidIQ lists Boost at $19 per month, and Hatchet and Gamesight send buyers to a demo. Twitchmetrics records only streams with 10 or more concurrent viewers, so tiny channels may not appear. Check minimum thresholds before relying on a ranking."
+    }
+  ],
+  "market_notes": [
+    "Counting the ten entries, only two publish clear prices, Social Blade and vidIQ, while Hatchet and Gamesight sell by demo, and SullyGnome, TwitchTracker, Twitchmetrics, StreamElements and Streamlabs show no plan amounts in the pages we opened. TubeBuddy lists plans without readable prices. Three public stat sites, SullyGnome, TwitchTracker and Twitchmetrics, show no price in the pages we read and, unlike Hatchet and Gamesight, do not send buyers to a demo call.",
+    "The gap between hobby and business tools is wide. Hatchet, based in Barcelona and part of GameSquare, and Gamesight target studios and agencies with creator discovery and campaign measurement. The rest serve individual creators. Three tools planned for this page, Streams Charts, Esports Charts and a separate Stream Hatchet listing, could not be verified from their vendor pages, which is why Hatchet appears under its new address and the esports charts sit outside this ranking."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Write the question before opening a tool",
+      "text": "Choose between three tasks: research games and peers, track your own growth, or plan a sponsored campaign. Game and peer research points to SullyGnome, TwitchTracker or Twitchmetrics. Cross-network growth points to Social Blade. YouTube optimization points to vidIQ or TubeBuddy. Campaign planning points to Hatchet or Gamesight. One clear question keeps you from drowning in charts."
+    },
+    {
+      "title": "Compare one channel in two tools",
+      "text": "Look up your own channel, or one you know well, in two stat sites and compare peak viewers and hours watched for the same week. Differences show you how each tool samples data. If both agree within a small margin, trust either. If they differ widely, read each tool's about page and use the one with the clearer method."
+    },
+    {
+      "title": "Keep the platform dashboard as the source of truth",
+      "text": "Public stat sites estimate from visible data, while the Twitch or YouTube dashboard holds your actual retention and revenue. Use outside tools for context and for pitching sponsors, and use the official dashboard for decisions about your own schedule. Save screenshots monthly so you can show a trend, not a single peak."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best livestream analytics tool in 2026?",
+      "a": "Social Blade is the best all-round pick here: it covers five platforms, publishes a $59.99 yearly membership and has free browsing. SullyGnome is better for Twitch game research, and Hatchet is better for a studio or brand that needs creator discovery and campaign reporting on a quote."
+    },
+    {
+      "q": "Which analytics site is best for Twitch?",
+      "a": "SullyGnome and TwitchTracker both focus on Twitch statistics for channels and games. SullyGnome emphasizes channels, games, teams and milestones, while TwitchTracker lists rankings, watch time, stream time and clips. Twitchmetrics adds YouTube and Kick. Try two and compare, since the vendor pages do not show how the data is sampled."
+    },
+    {
+      "q": "Are livestream analytics tools free?",
+      "a": "Many are. The public stat sites here, including SullyGnome, TwitchTracker and Twitchmetrics, show data without a stated charge, though their pages do not list premium options clearly. Social Blade is free with ads and lists a $59.99 yearly membership, and vidIQ has a free plan."
+    },
+    {
+      "q": "Can analytics tools tell me which game to stream?",
+      "a": "They can help. SullyGnome and TwitchTracker publish game statistics, so you can compare viewers against the number of channels. A game with decent viewers and few streamers gives a small channel more room to be seen. Treat it as a guide, because your own interest and skill matter for retention."
+    },
+    {
+      "q": "What do studios use to measure streamer campaigns?",
+      "a": "Studios use business platforms. Hatchet describes creator discovery, fake audience scoring, mention tracking and campaign reporting, and Gamesight lists measurement, a creator CRM and key distribution. Both route buyers to a demo and show no prices on the pages we opened."
+    },
+    {
+      "q": "Does vidIQ work for Twitch?",
+      "a": "No, the vendor describes vidIQ as a YouTube growth tool with keyword research, competitor tracking and channel audits. It helps a streamer whose VODs and clips live on YouTube. For Twitch viewership, use a site such as SullyGnome or TwitchTracker."
+    },
+    {
+      "q": "Do StreamElements and Streamlabs include analytics?",
+      "a": "The pages we read describe overlays, alerts, tipping, chatbot and merch, and do not describe analytics dashboards. They may include some reporting inside the product, but we could not confirm it. For hours watched and rankings, use a dedicated stat site."
+    }
+  ],
+  "related": [
+    "best-donation-and-monetization-tools-for-streamers",
+    "best-stream-overlay-and-alert-tools",
+    "best-clip-and-highlight-editors-for-streamers",
+    "best-streaming-software-for-gamers",
+    "best-game-analytics-software"
+  ],
+  "tools": [
+    {
+      "slug": "social-blade",
+      "name": "Social Blade",
+      "site": "https://socialblade.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Daily growth stats across five platforms",
+      "best_for": "Streamers who also post on YouTube or TikTok",
+      "pricing": "Free to browse with ads. Personal Premium Bronze is listed at $59.99 per year, billed annually ($5.00 per month equivalent), and removes ads.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free",
+      "platforms": "Web",
+      "features": [
+        "Daily statistics",
+        "Growth tracking",
+        "Creator comparisons",
+        "Report cards",
+        "Top lists",
+        "Historical data"
+      ],
+      "summary": "Social Blade tracks daily statistics for YouTube, TikTok, Twitch, Facebook and Instagram, with a $59.99 yearly membership that removes ads.",
+      "verdict": "Social Blade heads the list because it is the only tool here that publishes a price and covers more than one network. The home page says it tracks daily statistics and growth for creators across YouTube, TikTok, Twitch, Facebook and Instagram, with creator comparisons, report cards and top lists. Browsing is free with ads, and the Personal Premium Bronze subscription is listed at $59.99 per year, billed annually. A membership unlocks up to 3+ years of daily historical data. A streamer who clips to TikTok and uploads to YouTube can read the whole picture in one place.",
+      "weaknesses": "Free browsing carries ads, and long history sits behind the paid membership. The pages we read describe public channel numbers, not your own private analytics such as retention or revenue.",
+      "wrong_for": "A Twitch-only streamer who wants hour-by-hour viewer history should read the SullyGnome entry.",
+      "sources": [
+        {
+          "fact": "Social Blade tracks daily statistics and growth for creators across five platforms: YouTube, TikTok, Twitch, Facebook and Instagram.",
+          "url": "https://socialblade.com/"
+        },
+        {
+          "fact": "A Social Blade membership removes ads and unlocks up to 3+ years of daily historical data, report cards and bigger top lists.",
+          "url": "https://socialblade.com/"
+        },
+        {
+          "fact": "The Personal Premium Bronze subscription is listed at $59.99 per year, billed annually, which the page shows as $5.00 per month.",
+          "url": "https://socialblade.com/products/subscription/personal"
+        }
+      ]
+    },
+    {
+      "slug": "sullygnome",
+      "name": "SullyGnome",
+      "site": "https://sullygnome.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Twitch statistics for channels, games and teams",
+      "best_for": "Twitch streamers studying games and peers",
+      "pricing": "No price is shown in the readable text of the opened pages.",
+      "pricing_model": "Not stated",
+      "free_plan": "Unknown",
+      "platforms": "Web",
+      "features": [
+        "Channel statistics",
+        "Game statistics",
+        "Team statistics",
+        "Milestones",
+        "Past 30 days statistics",
+        "Dark mode"
+      ],
+      "summary": "SullyGnome shows Twitch statistics for channels, games, teams and milestones, with a past 30 days view on the home page.",
+      "verdict": "SullyGnome is the Twitch specialist that a streamer opens when choosing a game to play or checking a rival. The home page presents Twitch statistics and analytics for channels, games, teams and milestones, with the past 30 days shown by default, and the about page describes tools and stats to help streamers make decisions. Game pages let a small channel see where viewers are heavy and where competition is thin. It sits second because it covers only Twitch, while Social Blade reaches other networks.",
+      "weaknesses": "No price is shown in the readable text of the opened pages, and the home page links to Patreon, which hints at donation support but states nothing about plans. Only Twitch is covered.",
+      "wrong_for": "A creator who streams on YouTube too should use Social Blade or vidIQ.",
+      "sources": [
+        {
+          "fact": "SullyGnome provides Twitch statistics and analytics for channels, games, teams and milestones.",
+          "url": "https://sullygnome.com/"
+        },
+        {
+          "fact": "The about page describes SullyGnome as tools and Twitch stats to help streamers make decisions.",
+          "url": "https://sullygnome.com/about"
+        },
+        {
+          "fact": "The home page shows Twitch statistics for the past 30 days.",
+          "url": "https://sullygnome.com/"
+        }
+      ]
+    },
+    {
+      "slug": "twitchtracker",
+      "name": "TwitchTracker",
+      "site": "https://twitchtracker.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Twitch rankings, game stats and stream history",
+      "best_for": "Looking up any channel's history",
+      "pricing": "Not stated on the opened pages.",
+      "pricing_model": "Not stated",
+      "free_plan": "Unknown",
+      "platforms": "Web",
+      "features": [
+        "Channel rankings",
+        "Game statistics",
+        "Viewer and watch time stats",
+        "Clips",
+        "Languages",
+        "Stream history"
+      ],
+      "summary": "TwitchTracker publishes Twitch viewer stats, channel rankings, game statistics, clips and stream history in tables and charts.",
+      "verdict": "TwitchTracker is the lookup page for a channel's past. The vendor describes viewer stats, channel rankings and game statistics, with home page sections for channels, games, clips, viewers, watch time, stream time and languages. The about page gives a streamer overview with activities, statistics, played games and past streams, which is handy when preparing a collaboration or a sponsor pitch. It lands third because it overlaps heavily with SullyGnome on features, and the facts we read show no extra export or API details to separate it.",
+      "weaknesses": "Pricing is not stated on the opened pages, and nothing in the facts says whether exports or premium views exist. Like SullyGnome, it covers Twitch only.",
+      "wrong_for": "A manager who needs data across several platforms should choose Social Blade or Hatchet.",
+      "sources": [
+        {
+          "fact": "TwitchTracker publishes Twitch viewer stats, channel rankings and game statistics for streams.",
+          "url": "https://twitchtracker.com/"
+        },
+        {
+          "fact": "The home page lists sections for channels, games, clips, viewers, watch time, stream time and languages.",
+          "url": "https://twitchtracker.com/"
+        },
+        {
+          "fact": "The about page is a streamer overview with activities, statistics, played games and past streams.",
+          "url": "https://twitchtracker.com/about"
+        }
+      ]
+    },
+    {
+      "slug": "twitchmetrics",
+      "name": "Twitchmetrics",
+      "site": "https://www.twitchmetrics.net",
+      "company": "",
+      "country": "",
+      "tagline": "Twitch, YouTube and Kick channel and game stats",
+      "best_for": "Spotting fast-growing channels",
+      "pricing": "No price is shown in the readable text of the opened pages; the site separates a Business plan from a Streamer plan.",
+      "pricing_model": "Plans, prices not shown",
+      "free_plan": "Unknown",
+      "platforms": "Web",
+      "features": [
+        "Twitch channels",
+        "YouTube channels",
+        "Kick channels",
+        "Game statistics",
+        "Emotes",
+        "Fastest growing channels"
+      ],
+      "summary": "Twitchmetrics covers Twitch, YouTube and Kick channels, games and emotes, with separate business and streamer plan options.",
+      "verdict": "Twitchmetrics extends the stat-site idea to three platforms. The home page lists Twitch, YouTube and Kick channels, games, emotes and a fastest growing channels view, and its plan chooser splits business buyers from individual streamers, who get advanced analytics on their own channel. According to its FAQ, the site records streams that reach 10 or more concurrent viewers, a rule that tells a small channel when it will first appear. It sits fourth because pricing is hidden and the facts on what each plan includes are thin.",
+      "weaknesses": "No price is shown in the opened pages, and the 10 viewer threshold means very small streams are not recorded. The pricing page address we tried returned a not found error.",
+      "wrong_for": "A streamer under 10 concurrent viewers should rely on the platform's own dashboard or vidIQ instead.",
+      "sources": [
+        {
+          "fact": "Twitchmetrics offers statistics on Twitch, YouTube and Kick channels, games and emotes.",
+          "url": "https://www.twitchmetrics.net"
+        },
+        {
+          "fact": "The plan chooser offers a Business option and a Streamer option with advanced analytics only on the streamer's own channel.",
+          "url": "https://www.twitchmetrics.net"
+        },
+        {
+          "fact": "According to its FAQ, the site records streams that reach 10 or more concurrent viewers.",
+          "url": "https://www.twitchmetrics.net/faq"
+        }
+      ]
+    },
+    {
+      "slug": "vidiq",
+      "name": "VidIQ",
+      "site": "https://vidiq.com/",
+      "company": "",
+      "country": "",
+      "tagline": "YouTube growth tool with keyword research and stats",
+      "best_for": "Streamers who publish VODs to YouTube",
+      "pricing": "Free plan; Boost at $19 per month or $199 per year; Max at $49 per month or $468 per year (US list prices, local pricing may vary, per the plans page).",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "Web",
+      "features": [
+        "Keyword research",
+        "AI YouTube Coach",
+        "Competitor tracking",
+        "Channel audit",
+        "Outlier videos",
+        "Real-time stats"
+      ],
+      "summary": "vidIQ offers keyword research, AI coaching, competitor tracking, channel audits and real-time stats, with a free plan and paid Boost and Max tiers.",
+      "verdict": "vidIQ helps the YouTube half of a streaming career. The plans page lists a Free plan, Boost at $19 per month or $199 per year, and Max at $49 per month or $468 per year, in US list prices. Features include keyword research, an AI YouTube Coach, competitor tracking, channel audit, outlier videos and real-time stats. A streamer who turns VODs into searchable videos gets title and tag guidance. It ranks fifth because the facts show nothing about live viewership on Twitch or Kick.",
+      "weaknesses": "The tool is about YouTube, so Twitch hours watched and game rankings are outside it. Local pricing may vary from the US list prices shown, per the plans page.",
+      "wrong_for": "A Twitch-first creator should start with SullyGnome or TwitchTracker.",
+      "sources": [
+        {
+          "fact": "vidIQ offers a Free plan alongside paid Boost and Max plans.",
+          "url": "https://vidiq.com/plans/"
+        },
+        {
+          "fact": "The plans page lists Boost at $19 per month or $199 per year, and Max at $49 per month or $468 per year.",
+          "url": "https://vidiq.com/plans/"
+        },
+        {
+          "fact": "The plans page lists features including keyword research, AI YouTube Coach, competitor tracking, channel audit and real-time stats.",
+          "url": "https://vidiq.com/plans/"
+        }
+      ]
+    },
+    {
+      "slug": "hatchet",
+      "name": "Hatchet",
+      "site": "https://hatchet.gg",
+      "company": "Hatchet (part of GameSquare)",
+      "country": "Spain",
+      "tagline": "Gaming and creator intelligence, formerly Stream Hatchet",
+      "best_for": "Publishers and brands running creator campaigns",
+      "pricing": "Three plans (Community, Data License, Full License) with no prices shown; the vendor routes buyers to a demo call.",
+      "pricing_model": "Quote-based plans",
+      "free_plan": "Unknown",
+      "platforms": "Web",
+      "features": [
+        "Creator and game discovery",
+        "Fake audience scoring",
+        "Chat and stream-title mention tracking",
+        "YouTube VOD analytics",
+        "Esports benchmarking",
+        "Campaign reporting"
+      ],
+      "summary": "Hatchet tracks creators and games across 32 platforms with fake audience scoring, mention tracking and esports benchmarking, sold by quote.",
+      "verdict": "Hatchet is a business tool, not a streamer's dashboard. The vendor describes intelligence for gaming, esports and live streaming for brands, publishers and agencies, and the Data License plan covers creator and game discovery, fake audience scoring across 55M+ creators and 32 platforms, mention tracking, YouTube VOD analytics and esports benchmarking. It was founded in Barcelona in 2016 and is part of GameSquare. The old streamhatchet.com address redirects to hatchet.gg. A studio that must prove campaign results will value the reporting, which is why it ranks sixth.",
+      "weaknesses": "No price is shown: three plans lead to a demo call. It is aimed at marketing teams, so an individual streamer will likely find it beyond need and budget.",
+      "wrong_for": "A solo streamer should use SullyGnome or TwitchTracker, which are public lookup sites.",
+      "sources": [
+        {
+          "fact": "Hatchet describes itself as business intelligence for gaming, esports and live streaming, for brands, publishers, research agencies and teams.",
+          "url": "https://hatchet.gg"
+        },
+        {
+          "fact": "The Data License covers creator and game discovery, fake audience scoring across 55M+ creators and 32 platforms, mention tracking, YouTube VOD analytics and esports benchmarking.",
+          "url": "https://hatchet.gg/pricing/"
+        },
+        {
+          "fact": "Hatchet was founded in Barcelona in 2016, started as a tool for streamers to understand their audiences and is now part of GameSquare.",
+          "url": "https://hatchet.gg/about/"
+        }
+      ]
+    },
+    {
+      "slug": "gamesight",
+      "name": "Gamesight",
+      "site": "https://gamesight.io/",
+      "company": "Gamesight",
+      "country": "",
+      "tagline": "Creator marketing and measurement for game launches",
+      "best_for": "Game studios measuring creator campaigns",
+      "pricing": "Not on page. Calls to action are 'Book a Demo' and 'Talk to an Expert'.",
+      "pricing_model": "Quote only",
+      "free_plan": "Unknown",
+      "platforms": "Not listed; the page references consoles and Steam as game platforms.",
+      "features": [
+        "Data and intelligence",
+        "Measurement",
+        "Creator platform",
+        "Key distribution",
+        "Creator services",
+        "Creator CRM"
+      ],
+      "summary": "Gamesight sells creator marketing and measurement for games, with data and intelligence, a creator CRM, key distribution and creator payments.",
+      "verdict": "Gamesight serves the publisher side of livestream data. The home page describes creator marketing and measurement for games, and lists Data and Intelligence, Measurement, Creator Platform, Key Distribution, Creator Services, a creator CRM and creator payments. Testimonials come from staff at Netflix, Krafton, Reddit and Avalanche Studios Group. A studio planning a launch with streamer keys can run discovery, key handout and results in one product, which explains a seventh place for the games reader and a lower one for individual creators.",
+      "weaknesses": "The page shows no prices; calls to action are Book a Demo and Talk to an Expert. It is built for studios and agencies, and the facts show no view for a single streamer's own channel.",
+      "wrong_for": "A small streamer who only wants to see their own growth should use Social Blade or TwitchTracker.",
+      "sources": [
+        {
+          "fact": "Gamesight describes itself as creator marketing and measurement for games, under the headline 'Creator Marketing & Measurement for Games'.",
+          "url": "https://gamesight.io/"
+        },
+        {
+          "fact": "Gamesight's home page lists products including Data & Intelligence, Measurement, Creator Platform, Key Distribution and Creator Services.",
+          "url": "https://gamesight.io/"
+        },
+        {
+          "fact": "Gamesight's home page shows no prices; its calls to action are 'Book a Demo' and 'Talk to an Expert'.",
+          "url": "https://gamesight.io/"
+        }
+      ]
+    },
+    {
+      "slug": "tubebuddy",
+      "name": "TubeBuddy",
+      "site": "https://www.tubebuddy.com/",
+      "company": "",
+      "country": "",
+      "tagline": "YouTube channel management toolkit",
+      "best_for": "YouTube channel upkeep and optimization",
+      "pricing": "The pricing page lists plans, but the amounts did not appear in the text returned.",
+      "pricing_model": "Plans, prices not captured",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Video optimization",
+        "Channel management",
+        "Free tools",
+        "Revenue calculator"
+      ],
+      "summary": "TubeBuddy is a toolkit for optimizing YouTube videos and growing subscribers, with free tools and a revenue calculator.",
+      "verdict": "TubeBuddy covers the YouTube side with an optimization lens. The pricing page calls it a YouTube channel management toolkit that helps users choose tools to grow a channel, optimize videos and increase subscribers, and the navigation lists Free Tools and a Revenue Calculator. For a streamer maintaining a VOD channel it adds a checklist-style workflow to publishing. It sits below vidIQ because the facts we could read give fewer specifics on analytics features, and nothing on live stream data.",
+      "weaknesses": "Plan prices did not appear in the text the page returned, so costs are unconfirmed. Feature detail is thin in the pages we opened, and it addresses YouTube alone.",
+      "wrong_for": "A Twitch streamer who needs viewership data should read SullyGnome or Twitchmetrics.",
+      "sources": [
+        {
+          "fact": "TubeBuddy's pricing page is titled as the premier YouTube channel management toolkit.",
+          "url": "https://www.tubebuddy.com/pricing"
+        },
+        {
+          "fact": "The pricing page says it helps users choose tools to grow a YouTube channel, optimize videos and increase subscribers.",
+          "url": "https://www.tubebuddy.com/pricing"
+        },
+        {
+          "fact": "The pricing page navigation includes Free Tools and a Revenue Calculator.",
+          "url": "https://www.tubebuddy.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "streamelements",
+      "name": "StreamElements",
+      "site": "https://streamelements.com/",
+      "company": "StreamElements",
+      "country": "",
+      "tagline": "Cloud overlay and tipping suite with chatbot",
+      "best_for": "Streamers who want tools and stats in one suite",
+      "pricing": "The home page opened does not show prices.",
+      "pricing_model": "Not stated",
+      "free_plan": "Unknown",
+      "platforms": "Twitch, YouTube and Facebook Gaming, per the vendor",
+      "features": [
+        "Alerts and overlays",
+        "Chatbot",
+        "SE.Live OBS plugin",
+        "SE.Tips tipping",
+        "Ground Control multistreaming app"
+      ],
+      "summary": "StreamElements is a cloud platform with overlays, alerts, a chatbot, tipping and the SE.Live OBS plugin; its pages read do not describe an analytics dashboard.",
+      "verdict": "StreamElements appears here because many streamers expect their overlay suite to double as a dashboard. The vendor lists overlays, tipping, chatbot, alerts and merchandise for Twitch, YouTube and Facebook Gaming, with SE.Live as an OBS Studio plugin and Ground Control for multistreaming. The pages we read do not describe viewership reports or game statistics, so it ranks ninth as a supporting tool beside the stat sites above. It still earns a place for channels that want alerts and bot data under a single login.",
+      "weaknesses": "The home page opened shows no price, and nothing in the facts describes analytics features. Treat it as a stream toolkit that may include some reporting, which should be confirmed in the product.",
+      "wrong_for": "A creator who needs audience research should use SullyGnome or Social Blade instead.",
+      "sources": [
+        {
+          "fact": "StreamElements lists overlays, tipping, chatbot, alerts and merchandise among its features for Twitch, YouTube and Facebook Gaming.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "SE.Live is a plugin for OBS Studio, and Ground Control is a multistreaming stream management companion app.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "The StreamElements home page opened does not show a price.",
+          "url": "https://streamelements.com/"
+        }
+      ]
+    },
+    {
+      "slug": "streamlabs-desktop",
+      "name": "Streamlabs Desktop",
+      "site": "https://streamlabs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Streaming software with alerts, tipping and merch",
+      "best_for": "Streamers who already use Streamlabs for production",
+      "pricing": "Prices were not captured; the pricing page states Streamlabs takes zero cut of donations.",
+      "pricing_model": "Not stated",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Streamlabs Desktop",
+        "Alerts",
+        "Overlays",
+        "Tipping",
+        "Merch"
+      ],
+      "summary": "Streamlabs Desktop sits beside alerts, overlays, tipping and merch tools, and the pages read do not describe analytics features.",
+      "verdict": "Streamlabs closes the list as a stream production suite, not an analytics product. The vendor describes a platform for Twitch, YouTube and Facebook offering Streamlabs Desktop, alerts, overlays, tipping and merch, and its pricing page states that the company takes zero cut of donations. The pages we could read name no viewership or channel statistics features. A streamer who already works in this ecosystem may find some numbers inside it, so it is listed for completeness while the stat sites do the real analysis.",
+      "weaknesses": "The Streamlabs Desktop page is rendered by JavaScript, so plans and reporting could not be read. No analytics feature is confirmed by the facts, which makes this a lower fit for the page topic.",
+      "wrong_for": "A streamer who needs hours watched, peak viewers and game comparisons should use TwitchTracker or SullyGnome.",
+      "sources": [
+        {
+          "fact": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, offering Streamlabs Desktop, alerts, overlays, tipping and merch.",
+          "url": "https://streamlabs.com/"
+        },
+        {
+          "fact": "The Streamlabs pricing page states that the company takes zero cut of your donations.",
+          "url": "https://streamlabs.com/pricing"
+        }
+      ]
+    }
+  ]
+}

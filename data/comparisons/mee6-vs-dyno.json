@@ -1,0 +1,146 @@
+{
+  "slug": "mee6-vs-dyno",
+  "a": "mee6",
+  "b": "dyno",
+  "a_name": "MEE6",
+  "b_name": "Dyno",
+  "a_site": "https://mee6.xyz",
+  "b_site": "https://dyno.gg",
+  "category": "best-discord-moderation-and-community-bots",
+  "title": "MEE6 vs Dyno: Which Fits Your Team in 2026?",
+  "description": "MEE6 adds leveling and creator notifications; Dyno leans on web configuration, anti-spam and auto roles. Compare what each Discord bot does and how premium works.",
+  "intro": "MEE6 and Dyno are both Discord bots that help run a community server, but their own descriptions emphasize different jobs. MEE6 lists leveling, moderation and Twitch, YouTube and Reddit notifications. Dyno calls itself modular and lists web configuration, moderation, anti-spam, auto roles and custom commands. Both have a premium tier, and neither site showed readable prices to our fetcher. This page compares what each vendor says it does and where the open questions on premium remain.",
+  "verdict": "Choose MEE6 when engagement features such as leveling and creator-post notifications are the draw. Choose Dyno when you want a modular moderation tool with a web dashboard, anti-spam and auto roles. Because neither premium price could be read, confirm the paid terms inside Discord or on the vendor page before building a plan around them.",
+  "pick_a": "Pick MEE6 if your server rewards activity with levels and you want Twitch, YouTube and Reddit notifications handled by the same bot as moderation.",
+  "pick_b": "Pick Dyno if the priority is control: web configuration, anti-spam, auto roles and custom commands, with premium available when you outgrow the free setup.",
+  "rows": [
+    {
+      "label": "Platform",
+      "a": "Discord",
+      "b": "Discord"
+    },
+    {
+      "label": "Self-description",
+      "a": "A way to manage a Discord server with leveling, moderation and notifications",
+      "b": "A feature-rich, modular Discord bot with web configuration"
+    },
+    {
+      "label": "Moderation",
+      "a": "Listed",
+      "b": "Listed, with anti-spam called out"
+    },
+    {
+      "label": "Leveling",
+      "a": "Listed",
+      "b": "Not listed on the pages opened"
+    },
+    {
+      "label": "Creator notifications",
+      "a": "Twitch, YouTube and Reddit",
+      "b": "Not listed on the pages opened"
+    },
+    {
+      "label": "Roles and commands",
+      "a": "Not itemized on the pages opened",
+      "b": "Auto roles and custom commands"
+    },
+    {
+      "label": "Dashboard",
+      "a": "Not described on the pages opened",
+      "b": "Web configuration"
+    },
+    {
+      "label": "Premium",
+      "a": "A premium page exists; prices were not readable because the page is rendered by JavaScript",
+      "b": "Get Premium and a Battle Pass appear on the site; no prices in the text read"
+    },
+    {
+      "label": "Operator named",
+      "a": "Not named on the pages opened",
+      "b": "Swift Media Entertainment"
+    },
+    {
+      "label": "Free use",
+      "a": "Unknown from the pages opened",
+      "b": "Unknown from the pages opened"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "What the bots say they do",
+      "text": [
+        "MEE6's site describes it as a way to manage a Discord server with leveling, moderation, and Twitch, YouTube and Reddit notifications. The mix reads as an engagement bot first: members earn levels, and the community gets automatic posts when a creator goes live or uploads.",
+        "Dyno's description is more about control. It calls itself a feature-rich and modular Discord bot, with web configuration, moderation, anti-spam, auto roles and custom commands. The word modular suggests you switch on only the parts you need, and the web configuration means a moderator can change settings from a browser instead of typing commands."
+      ]
+    },
+    {
+      "h2": "Moderation and community roles",
+      "text": [
+        "Both name moderation, so neither is missing the basics. Dyno goes further in its own wording by naming anti-spam and auto roles, which are the features that save the most routine work in a growing server: new members get a role when they join, and spam gets filtered before a human sees it.",
+        "MEE6 pairs moderation with leveling. That is a different bet, using visible progression to keep people talking rather than relying on rules alone. Which approach suits you depends on whether your server is a support space, a fan community or a creator hub."
+      ]
+    },
+    {
+      "h2": "Creator and stream features",
+      "text": [
+        "Streamers and organizers will notice that MEE6 lists Twitch, YouTube and Reddit notifications. A channel that announces every stream without a person remembering to post it removes a chore from a small team. Dyno's description on the pages opened has no notification features, so a Dyno server that wants stream alerts would need another bot or a Discord feature.",
+        "That gap is one reason to treat the two as a pair rather than direct rivals. Plenty of servers run more than one bot, each assigned to a job. Check permission overlap before doing so, because two bots that both delete messages can fight."
+      ]
+    },
+    {
+      "h2": "What we could and could not confirm about premium",
+      "text": [
+        "Both vendors have a premium offer. MEE6 has a premium page, but its text is rendered by JavaScript and no prices could be read. Dyno's home page shows a Get Premium option and a Battle Pass, again with no price in the text read.",
+        "So the honest answer to the free versus premium question is partial: both exist, and the amounts and exact feature splits are not confirmed here. Open each bot's premium page in a browser, note which features sit behind payment, and decide whether the paid ones are the ones you actually need."
+      ]
+    },
+    {
+      "h2": "Choosing for a streamer or esports server",
+      "text": [
+        "For the [Discord moderation and community bots](/software/best-discord-moderation-and-community-bots) category, a sensible way to start is to write down three jobs the bot must do on day one. If two of them are leveling and stream alerts, begin with MEE6. If two are anti-spam and auto roles, begin with Dyno.",
+        "Run the free setup for a week on a test server before you invite either bot to your main one, and ask a few trusted members what felt noisy."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which bot has leveling?",
+      "a": "MEE6 lists leveling on its site. The Dyno pages opened list moderation, anti-spam, auto roles, custom commands and web configuration but do not mention leveling."
+    },
+    {
+      "q": "Do both bots have premium plans?",
+      "a": "Both show a premium option. MEE6 has a premium page, and Dyno's site shows Get Premium and a Battle Pass. The prices could not be read from either, so check them on the vendor pages."
+    },
+    {
+      "q": "Can MEE6 announce Twitch streams?",
+      "a": "Yes, its site lists Twitch, YouTube and Reddit notifications. That makes it useful for creator communities that want posts when a channel goes live or uploads."
+    },
+    {
+      "q": "Does Dyno have a dashboard?",
+      "a": "Dyno lists web configuration, meaning settings can be changed on a website. MEE6's pages opened do not describe a dashboard, though that may simply be missing from the text read."
+    },
+    {
+      "q": "Can I run both on one server?",
+      "a": "Discord allows several bots on a server. Give each a clear job, and review permissions so that two bots do not apply conflicting moderation actions to the same message."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "MEE6 describes itself as a way to manage a Discord server with leveling, moderation, and Twitch, YouTube and Reddit notifications.",
+      "url": "https://mee6.xyz"
+    },
+    {
+      "fact": "MEE6 has a premium page on its site, but the text is rendered by JavaScript and no prices could be read.",
+      "url": "https://mee6.xyz/premium"
+    },
+    {
+      "fact": "Dyno describes itself as a feature-rich and modular Discord bot with web configuration, moderation, anti-spam, auto roles and custom commands.",
+      "url": "https://dyno.gg/premium"
+    },
+    {
+      "fact": "The Dyno home page shows a Get Premium option and a Battle Pass and names Swift Media Entertainment as the copyright holder.",
+      "url": "https://dyno.gg"
+    }
+  ],
+  "published": "2026-11-18"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "gdc-2026-discord-developer-tools",
+  "title": "Discord at GDC 2026: Social SDK updates for game developers",
+  "date": "2026-03-09",
+  "description": "Discord's GDC 2026 post lists Social SDK updates: simpler account linking, persistent messages, server-side moderation APIs and refined Rich Presence for game developers.",
+  "source": {
+    "name": "Discord Blog",
+    "url": "https://discord.com/blog/building-on-the-social-layer-of-games-whats-new-from-gdc-2026"
+  },
+  "extra_sources": [],
+  "summary": [
+    "Discord published its GDC 2026 update on March 9, 2026, focused on the Social SDK it launched the year before. The SDK lets a game connect a player's Discord account to their in-game account, so friends can see what they are playing and join more easily.",
+    "The post lists several additions. Account linking can now start from within Discord, with contextual prompts, publisher authentication across a studio's multiple titles, and native mobile linking on iOS and Android. Linked accounts get persistent message history, richer audio handling, and server-side moderation APIs so developers can use their preferred moderation services. Rich Presence gains custom display names, buttons and new activity types such as listening, watching and competing.",
+    "Discord also cites its own figure from initial integration partners: linked players show a median 25% increase in active game days and 16% longer session duration. This is a vendor claim from partner data, and the post does not describe the underlying method in the part we reviewed."
+  ],
+  "why_it_matters": [
+    "For game developers, the practical change is lower integration effort for social features that many studios would otherwise build themselves: friend lists, chat history and moderation hooks. The moderation API detail matters for teams that already pay for a moderation vendor and want to keep it.",
+    "Weigh the retention figure carefully. It comes from Discord's own early partners, which are already large multiplayer titles, so a small studio should not assume the same lift. Teams evaluating community tooling can compare options in our [community chat platforms category](/software/best-community-chat-platforms-for-gaming-communities)."
+  ],
+  "related_categories": [
+    "best-community-chat-platforms-for-gaming-communities"
+  ]
+}

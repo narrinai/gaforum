@@ -1,0 +1,469 @@
+{
+  "slug": "best-ddos-protection-for-game-servers",
+  "name": "DDoS protection for game servers",
+  "title": "Best DDoS Protection for Game Servers in 2026",
+  "group": "Game development",
+  "summary_line": "DDoS protection for game servers filters flood traffic aimed at UDP and game-protocol ports while keeping added latency low for players.",
+  "definition": "DDoS protection for game servers is a service or appliance that absorbs and filters flood attacks aimed at game hosts, whose traffic is mostly UDP and custom protocols rather than web requests. It works by routing traffic through scrubbing capacity or by filtering at the network edge, and the key trade-off is how much latency and routing change it adds for players.",
+  "intro": "A game server under attack is a business problem within minutes: players disconnect, streamers move on and refund requests start. Web-oriented protection is not always a fit, because game traffic is mostly UDP and an extra routing hop can add the milliseconds players notice. This ranking covers ten providers, from a hosting company that markets a game-specific offer, to a Minecraft-focused proxy service, to carrier-grade vendors and large content delivery networks. We read each vendor homepage, noted what it says about games, capacity, deployment and price, and weighed fit for studios and community server operators. We did not simulate attacks, and every capacity figure below is the vendor's claim. Where the opened page showed no game-specific wording, we say so.",
+  "criteria": [
+    {
+      "heading": "Game and UDP awareness",
+      "text": "Web DDoS tools inspect HTTP, while a game server needs filtering that understands UDP floods and custom protocols without breaking sessions. We looked for explicit game wording on each homepage, such as a game offer, a gaming customer list or protocol-level filtering. A vendor with only web terms (WAF, CDN, bot rules) on its page may still help, but you must ask how it handles non-HTTP traffic."
+    },
+    {
+      "heading": "Added latency and routing model",
+      "text": "Always-on proxying, on-demand diversion, hosting-level filtering and on-premises appliances each change the path packets take. The fewer hops between player and server, the lower the added delay. We noted the deployment options each vendor states, and flagged vendors that publish a latency-related claim, because a player in a ranked match feels ten extra milliseconds."
+    },
+    {
+      "heading": "Capacity claims and where they come from",
+      "text": "Terabit figures look impressive but are marketing until a contract states what you receive. We recorded published filtering capacity only where the homepage printed a number, and treated every figure as a vendor claim. More useful questions are where the scrubbing sites are, how fast mitigation starts and whether attacks beyond the stated capacity cause extra charges."
+    },
+    {
+      "heading": "Cost model and free entry points",
+      "text": "Protection can be bundled with hosting, billed by clean traffic, charged by subscription or sold by quote. A community server operator needs a free or low entry point, while a studio running its own data centers wants a contract. We noted which vendors show a free start, a price, a trial or only a sales form."
+    }
+  ],
+  "market_notes": [
+    "Three vendors on this list show a free entry point on their homepages: TCPShield (free protection for gaming networks), Gcore (a free-start option plus a time-limited free offer for citizen-facing sites) and StormWall (a free trial period). OVHcloud is the only one that prints a price for a related product, dedicated servers from €13.99 per month excluding VAT. Corero, Nexusguard, Akamai and Imperva rely on subscription, demo or sales routes, and Cloudflare bills by usage on the product the homepage features.",
+    "Only two entries speak directly to games on their homepages: OVHcloud, with a DDoS Protection Game offer for video games and e-sports, and TCPShield, which is aimed at Minecraft and gaming networks. Gcore lists Fawkes Games among its case studies. The others market to websites, carriers and enterprises, and may still protect game traffic, but the opened pages do not say so. Link11 states it is a European provider (company name Link11 GmbH), OVHcloud prices in euros, and StormWall describes itself as Russian."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Map your traffic before you shop",
+      "text": "Write down your protocols, ports, regions and peak concurrent players. Separate game traffic (UDP) from your web store and API (HTTP), because you may want different products for each. Vendors that show only web terms on their pages need to be asked about UDP handling, and a clear answer here narrows the field quickly."
+    },
+    {
+      "title": "Ask each vendor for latency and failover numbers",
+      "text": "Request the expected added round-trip time for your player regions, the list of scrubbing locations and what happens when the protection layer itself fails. A provider that cannot answer in writing is telling you something. Run a pilot server behind the service and measure ping from your top three player regions before signing."
+    },
+    {
+      "title": "Match the contract to your growth",
+      "text": "A free tier or a low server price suits a community network, but a studio launching a hit may exceed it in a week. Ask how the bill changes under attack, whether overage fees apply and how quickly you can move to an enterprise plan. Keep a second provider in mind in case one is overwhelmed."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best DDoS protection for game servers in 2026?",
+      "a": "OVHcloud is the strongest fit for most studios and server operators because its homepage features a DDoS Protection Game offer and says Anti-DDoS Infrastructure is on by default across its products. TCPShield is better for Minecraft and community networks that want a free start. Gcore is the pick when you want a large published filtering capacity plus a cloud platform."
+    },
+    {
+      "q": "Does DDoS protection add lag for players?",
+      "a": "It can. Any service that proxies traffic adds a hop, and the effect depends on how close the scrubbing site is to the player. TCPShield lists low latency among its features, and hosting-level filtering such as OVHcloud's avoids a separate proxy. Test with your own player regions, because vendor pages do not publish latency numbers."
+    },
+    {
+      "q": "Is free DDoS protection good enough for a game server?",
+      "a": "For a small community server, often yes. TCPShield offers protection at no cost for gaming networks, and StormWall offers a free test period. A commercial game with a large audience needs written capacity, support hours and a failover plan, which free tiers rarely guarantee. Treat free tiers as an entry point, not a launch plan."
+    },
+    {
+      "q": "Can Cloudflare protect a game server?",
+      "a": "Cloudflare's homepage lists WAF, CDN, DNS, rate limiting and bot mitigation on a global network, which fits a game's website, store and APIs. The page we opened did not describe protection for raw UDP game traffic, so ask Cloudflare which product covers that before relying on it."
+    },
+    {
+      "q": "Which DDoS protection providers are European?",
+      "a": "Link11 GmbH presents itself as a European provider with its footer company in Germany, and OVHcloud sells in euros with pricing excluding VAT. If European hosting or jurisdiction is a requirement, ask each vendor where traffic is scrubbed and which legal entity signs the contract."
+    },
+    {
+      "q": "What is the difference between on-premises and cloud DDoS protection?",
+      "a": "Cloud protection diverts traffic to a provider's scrubbing network and handles very large floods, while on-premises appliances filter at your own data center edge with no external hop. Corero lists on-premises and hybrid options, Nexusguard lists cloud, on-premises and hybrid, and many others are cloud-only. Hybrid models try to combine both."
+    },
+    {
+      "q": "Do I need DDoS protection for my game's website too?",
+      "a": "Yes, because attackers often hit login pages, stores and APIs when the game servers are well defended. Web-focused products such as Imperva, Akamai and Cloudflare list WAF and bot tools for that layer, and a mixed setup is common: a game-aware layer for servers and a web layer for everything else."
+    }
+  ],
+  "related": [
+    "best-dedicated-game-server-orchestration-platforms",
+    "best-game-anti-cheat-software",
+    "best-multiplayer-networking-sdks",
+    "best-game-backend-platforms",
+    "best-trust-and-safety-moderation-software-for-games",
+    "best-cloud-gaming-services"
+  ],
+  "tools": [
+    {
+      "slug": "ovhcloud",
+      "name": "OVHcloud",
+      "site": "https://ovhcloud.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Hosting provider with a game-specific DDoS offer",
+      "best_for": "Studios hosting servers with the protection",
+      "pricing": "Dedicated servers (Eco) from €13.99 excluding VAT per month, according to the homepage; the DDoS Protection Game offer is featured without a separate price on that page.",
+      "pricing_model": "Subscription",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "DDoS Protection Game",
+        "Anti-DDoS Infrastructure",
+        "Dedicated servers",
+        "VPS",
+        "SSL Gateway"
+      ],
+      "summary": "First because the homepage features a DDoS Protection Game offer for video games and e-sports, with protection included across its products.",
+      "verdict": "OVHcloud is a cloud and hosting provider, and its homepage describes Anti-DDoS Infrastructure as rolled out by default on all products, alongside a DDoS Protection Game offer aimed at video games and e-sports. Filtering at the hosting layer means no extra proxy hop between player and server, and the homepage lists dedicated servers from €13.99 per month excluding VAT, a figure a small studio can budget against. The homepage names no game studios, but its direct game wording earns the top place.",
+      "weaknesses": "The game offer is a headline on the homepage and its detailed terms were not opened, so mitigation limits and attack handling are unconfirmed. Protection is tied to hosting with OVHcloud, which does not help if your servers sit elsewhere.",
+      "wrong_for": "Studios whose servers already run on another cloud, or in their own data centers, should consider Gcore or Corero instead of migrating hosting.",
+      "sources": [
+        {
+          "fact": "The homepage describes Anti-DDoS Infrastructure as rolled out by default on all products.",
+          "url": "https://ovhcloud.com"
+        },
+        {
+          "fact": "The homepage lists dedicated servers (Eco) from € 13,99 excl. VAT per month.",
+          "url": "https://ovhcloud.com"
+        },
+        {
+          "fact": "The homepage features a DDoS Protection Game offer for video games and e-sports.",
+          "url": "https://ovhcloud.com"
+        }
+      ]
+    },
+    {
+      "slug": "tcpshield",
+      "name": "TCPShield",
+      "site": "https://tcpshield.com/",
+      "company": "DatPixel Entertainment Inc.",
+      "country": "",
+      "tagline": "DDoS protection platform built for Minecraft networks",
+      "best_for": "Community and Minecraft server networks",
+      "pricing": "Homepage: 'Get Protected for Free' and 'Start protecting your network at no cost'. Plan names and prices are on a Pricing page that was not opened.",
+      "pricing_model": "Not published",
+      "free_plan": "Free",
+      "platforms": "",
+      "features": [
+        "Layer 7 Filtering",
+        "Load Balancing",
+        "Low Latency",
+        "Fault Tolerant",
+        "Unified Management"
+      ],
+      "summary": "Second because it is made for gaming networks, offers a free start and lists low latency, though only Minecraft-style customers are shown.",
+      "verdict": "TCPShield describes itself as a DDoS protection platform for Minecraft and gaming networks and says it has operated since 2015. The homepage offers to start protecting a network at no cost and lists load balancing, layer 7 filtering, low latency and fault tolerance. Customers named include MineSuperior, Minehut and Pika Network. For a community operator with limited budget, a game-first service with a free start is the closest match on this page.",
+      "weaknesses": "Plan names and prices sit on a pricing page we did not open, and the named customers are Minecraft networks, so evidence for other game types or large studios is absent. The homepage states no capacity figure.",
+      "wrong_for": "Studios with a commercial title on a custom UDP protocol, and a need for a contract and support hours, should look at Gcore or Link11.",
+      "sources": [
+        {
+          "fact": "TCPShield's homepage describes it as a DDoS protection platform for Minecraft and gaming networks.",
+          "url": "https://tcpshield.com"
+        },
+        {
+          "fact": "The homepage states 'Start protecting your network at no cost' and 'Get Protected for Free'; plan prices are not shown on the opened page.",
+          "url": "https://tcpshield.com"
+        },
+        {
+          "fact": "The homepage lists Layer 7 filtering, load balancing and fault tolerance among its features.",
+          "url": "https://tcpshield.com"
+        }
+      ]
+    },
+    {
+      "slug": "gcore",
+      "name": "Gcore",
+      "site": "https://gcore.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Edge cloud with DDoS filtering and game case studies",
+      "best_for": "Studios wanting cloud and protection together",
+      "pricing": "Homepage: 'Start for FREE' and 'Keep your citizen-facing sites and APIs protected at no cost until 31 December 2026.' A Pricing link is shown but no prices appear on the opened page.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "",
+      "features": [
+        "DDoS Protection",
+        "Edge Proxy",
+        "WAF",
+        "Bot Management",
+        "API Security"
+      ],
+      "summary": "Third because the homepage cites 200Tbps of filtering capacity and a free start, plus a game studio among its case studies.",
+      "verdict": "Gcore offers cloud, edge network, security and AI products through one platform, and its homepage cites 200Tbps of DDoS filtering capacity and a Start for FREE option. Fawkes Games appears among the case studies, a hint that game traffic is a familiar workload. The homepage also says citizen-facing sites and APIs are protected at no cost until 31 December 2026. A studio that wants hosting, edge delivery and protection under one vendor gets that combination here.",
+      "weaknesses": "The free offer in the homepage text is aimed at citizen-facing sites, not game servers, and no prices appear on the opened page. The 200Tbps figure is a vendor claim, and the page does not describe UDP game-protocol handling.",
+      "wrong_for": "Operators who want a free, game-only network proxy should compare TCPShield, and studios that prefer protection bundled into hosting should read OVHcloud.",
+      "sources": [
+        {
+          "fact": "Gcore's homepage describes its cloud, edge network, security and AI products as available through one platform.",
+          "url": "https://gcore.com"
+        },
+        {
+          "fact": "The homepage cites 200Tbps of DDoS filtering capacity.",
+          "url": "https://gcore.com"
+        },
+        {
+          "fact": "The homepage links a Pricing page, but no prices are shown on the opened homepage.",
+          "url": "https://gcore.com"
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare",
+      "name": "Cloudflare",
+      "site": "https://cloudflare.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Global network with WAF, rate limiting and CDN",
+      "best_for": "Game websites, stores and APIs",
+      "pricing": "Homepage: 'Pay for What You Use', with CPU-time based billing, not wall-clock time. A 'See what it costs' link points to a plans page that was not opened.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Unknown",
+      "platforms": "Runs on Cloudflare's global network of data centers; homepage lists JavaScript, TypeScript, Python, Rust and WASM as languages.",
+      "features": [
+        "Workers",
+        "WAF",
+        "Rate Limiting",
+        "Bot Mitigation",
+        "CDN",
+        "Load Balancing"
+      ],
+      "summary": "Fourth because its network protects web layers well, but the page we opened did not describe raw UDP game server protection.",
+      "verdict": "Cloudflare's homepage presents a global network platform with DNS, CDN, WAF, load balancing, rate limiting and bot mitigation, plus the Workers serverless platform. For the web side of a game business (login, store, patch downloads, APIs), that is a familiar and widely used foundation. Billing is described as pay for what you use, with CPU-time based charging for Workers. It ranks fourth because the page shows no game-server-specific wording.",
+      "weaknesses": "Plan prices are not shown on the opened homepage, and a plans page was not opened. Nothing on the page we read addresses UDP or custom game protocols, so game server coverage must be confirmed with the vendor.",
+      "wrong_for": "Teams whose main exposure is a UDP game server should prioritize OVHcloud or TCPShield, which state game focus.",
+      "sources": [
+        {
+          "fact": "Cloudflare's homepage describes Cloudflare Workers as a serverless platform that runs code across Cloudflare's global network of data centers.",
+          "url": "https://cloudflare.com"
+        },
+        {
+          "fact": "The homepage lists network services including DNS, CDN, WAF, Load Balancing, Rate Limiting and Bot Mitigation.",
+          "url": "https://cloudflare.com"
+        },
+        {
+          "fact": "The homepage states pricing is 'Pay for What You Use', with CPU-time based billing rather than wall-clock time.",
+          "url": "https://cloudflare.com"
+        }
+      ]
+    },
+    {
+      "slug": "link11",
+      "name": "Link11",
+      "site": "https://link11.com/",
+      "company": "Link11 GmbH",
+      "country": "Germany",
+      "tagline": "European DDoS protection with always-on mitigation",
+      "best_for": "Studios wanting a German DDoS provider",
+      "pricing": "Homepage: 'Always-on, no surcharge' for network mitigation. A Pricing link is present but no figures or free-plan details are shown.",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Network DDoS Protection",
+        "NetFlow DDoS Detector",
+        "Clean Transit",
+        "Web DDoS Protection",
+        "Bot Management"
+      ],
+      "summary": "Fifth for its European base, always-on network mitigation with no surcharge and enterprise customers, though no game wording was found.",
+      "verdict": "Link11 GmbH presents itself as a European cybersecurity provider offering DDoS protection, web application security and application performance. The homepage lists network DDoS protection, a NetFlow detector and Clean Transit, and says network mitigation is always on with no surcharge. Offices are listed in Frankfurt, Vancouver, Lisbon and Tel Aviv, and customers include SCHUFA, Fraport and DFS. For a studio that wants a German vendor and predictable cost, the always-on wording is attractive.",
+      "weaknesses": "The pricing link shows no figures, and the homepage names no game customers or UDP game traffic handling. Its customer list is finance, travel and public sector, so game-specific experience is unproven on the page.",
+      "wrong_for": "Community Minecraft operators wanting a free start should choose TCPShield, and teams wanting a gaming offer should read OVHcloud.",
+      "sources": [
+        {
+          "fact": "The homepage describes Link11 as a European cybersecurity provider offering DDoS protection, web application security and application performance.",
+          "url": "https://link11.com"
+        },
+        {
+          "fact": "The homepage states 'Always-on, no surcharge' for network mitigation; no prices are shown.",
+          "url": "https://link11.com"
+        },
+        {
+          "fact": "The homepage names SCHUFA, Fraport, DFS Deutsche Flugsicherung and Hermes among its customers.",
+          "url": "https://link11.com"
+        }
+      ]
+    },
+    {
+      "slug": "akamai",
+      "name": "Akamai",
+      "site": "https://akamai.com/",
+      "company": "Akamai Technologies",
+      "country": "",
+      "tagline": "CDN and security giant with Prolexic DDoS service",
+      "best_for": "Large studios with enterprise budgets",
+      "pricing": "Homepage: 'Try Akamai Cloud with US$100 in credits' (footnoted); free trials are linked under Security and Delivery pricing.",
+      "pricing_model": "Not published",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "Prolexic",
+        "DDoS Protection",
+        "App & API Protector",
+        "Bot Manager",
+        "Edge DNS"
+      ],
+      "summary": "Sixth because Prolexic and a free-trial route suit large operators, while the opened page shows no game focus or price.",
+      "verdict": "Akamai describes itself as a provider of cloud computing, cybersecurity and content delivery, and its homepage lists Prolexic and a DDoS Protection solution among security products. The homepage offers US$100 in credits for Akamai Cloud and links free trials under Security and Delivery pricing. A publisher with a large audience and an enterprise procurement process can evaluate a long-established network with trial access before a contract.",
+      "weaknesses": "No game wording, UDP detail or prices appear on the opened homepage, and the credits apply to Akamai Cloud rather than to DDoS protection. Enterprise contracts can be heavy for an indie team.",
+      "wrong_for": "Indie studios and community operators should start with TCPShield or Gcore, which show a free entry point.",
+      "sources": [
+        {
+          "fact": "The homepage lists Prolexic and a DDoS Protection solution among its security products.",
+          "url": "https://akamai.com"
+        },
+        {
+          "fact": "The homepage says 'Try Akamai Cloud with US$100 in credits'.",
+          "url": "https://akamai.com"
+        },
+        {
+          "fact": "The homepage links to free trials under Security and Delivery pricing.",
+          "url": "https://akamai.com"
+        }
+      ]
+    },
+    {
+      "slug": "imperva",
+      "name": "Imperva",
+      "site": "https://imperva.com/",
+      "company": "Imperva, Inc.",
+      "country": "",
+      "tagline": "Application security with DDoS and DNS protection",
+      "best_for": "Game stores, accounts and APIs",
+      "pricing": "'Start for Free' and 'Free Trial' appear on the homepage; no prices are stated.",
+      "pricing_model": "Not published",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "DDoS Protection",
+        "DNS Protection",
+        "Web Application Firewall",
+        "Advanced Bot Protection",
+        "API Security"
+      ],
+      "summary": "Seventh since it protects the web and account side with free-trial entry, but its page shows no game-server features.",
+      "verdict": "Imperva's homepage identifies Imperva, Inc. as a cybersecurity company offering application, API and data security, with DDoS protection, DNS protection, a web application firewall and bot protection. Free trial and Start for Free buttons appear. For a game company, the account system, web store and API are frequent attack targets, and bot protection helps against credential stuffing as well as floods. That is a different job from keeping a UDP server alive.",
+      "weaknesses": "The page names customers such as Tower, Smallpdf and Discovery Inc., none of which are game servers, and no prices appear. It does not state any protection for non-HTTP game traffic.",
+      "wrong_for": "Teams that need protection specifically for UDP game ports should choose OVHcloud, TCPShield or Corero.",
+      "sources": [
+        {
+          "fact": "The homepage lists DDoS Protection, DNS Protection and Web Application Firewall among its products.",
+          "url": "https://imperva.com"
+        },
+        {
+          "fact": "The homepage shows 'Start for Free' and 'Free Trial' buttons; no prices are stated.",
+          "url": "https://imperva.com"
+        },
+        {
+          "fact": "The homepage names Tower, Smallpdf, Discovery Inc. and Banco Popular Dominicano among its customers.",
+          "url": "https://imperva.com"
+        }
+      ]
+    },
+    {
+      "slug": "corero",
+      "name": "Corero",
+      "site": "https://corero.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Adaptive on-premises and hybrid DDoS defense",
+      "best_for": "Operators running their own network edge",
+      "pricing": "Not stated; the homepage describes its services as subscription-based and gives no prices or free-plan details.",
+      "pricing_model": "Subscription",
+      "free_plan": "Unknown",
+      "platforms": "Deployment options listed on the homepage: On-Premises and Hybrid.",
+      "features": [
+        "SmartWall ONE",
+        "CORE",
+        "Zero Trust Admission Control",
+        "DDoS Protection-as-a-Service",
+        "Traffic Analysis"
+      ],
+      "summary": "Eighth because its on-premises and hybrid deployment keeps filtering at your edge, fitting data center operators more than small studios.",
+      "verdict": "Corero describes itself as a DDoS protection provider with adaptive, automated defense, and its homepage lists SmartWall ONE, CORE and DDoS Protection-as-a-Service, with on-premises and hybrid deployment options. Placing filtering in your own network avoids a detour for player traffic, a real advantage for operators of their own data centers or hosting platforms. TierPoint, Forte Telecom and Myriad360 are named customers.",
+      "weaknesses": "Services are described as subscription-based with no prices or free-plan details, and no game wording appears on the opened page. Appliances suit operators with network teams and are heavy for a small studio.",
+      "wrong_for": "Studios hosting on a public cloud with no network edge of their own should use a cloud-based option such as Gcore or OVHcloud.",
+      "sources": [
+        {
+          "fact": "Corero's homepage describes it as a DDoS protection provider offering adaptive, automated defense.",
+          "url": "https://corero.com"
+        },
+        {
+          "fact": "The homepage lists SmartWall ONE, CORE and DDoS Protection-as-a-Service among its products.",
+          "url": "https://corero.com"
+        },
+        {
+          "fact": "The homepage describes Corero's services as subscription-based; no prices are stated.",
+          "url": "https://corero.com"
+        }
+      ]
+    },
+    {
+      "slug": "stormwall",
+      "name": "StormWall",
+      "site": "https://stormwall.pro/",
+      "company": "",
+      "country": "Russia",
+      "tagline": "Russian DDoS protection with a free test period",
+      "best_for": "Teams wanting DNS or BGP connection options",
+      "pricing": "No prices listed. The homepage says 'Connect for free' (Подключить бесплатно), offers a free trial period, and states that only legitimate traffic is paid for.",
+      "pricing_model": "Usage-based",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "StormWall for websites",
+        "StormWall for networks",
+        "StormWall for services",
+        "StormWall Appliance",
+        "Anti-bot"
+      ],
+      "summary": "Ninth because it offers DNS and BGP connection with a free trial, though it is Russian-based and its page lists no game focus.",
+      "verdict": "StormWall describes itself as a Russian provider of DDoS protection for websites, networks, services and IT infrastructure. New customers get a free test period, only legitimate traffic is paid for, and the homepage cites a global cleaning network with more than 10 Tbps of capacity and both DNS-based and BGP connection options. A team that wants to try protection at network level without commitment can use the trial.",
+      "weaknesses": "Prices are not listed, the page is Russian-language in the quoted text and no game server wording appears. Studios with sanctions-compliance or data-residency concerns should check the vendor's jurisdiction before signing.",
+      "wrong_for": "European studios needing a vendor in the EU should compare Link11 or OVHcloud.",
+      "sources": [
+        {
+          "fact": "StormWall's homepage describes it as a Russian provider of DDoS protection for websites, networks, services and IT infrastructure.",
+          "url": "https://stormwall.pro"
+        },
+        {
+          "fact": "The homepage states that new customers get a free test period, and that only legitimate traffic is paid for.",
+          "url": "https://stormwall.pro"
+        },
+        {
+          "fact": "The homepage states a global cleaning network with more than 10 Tbps of filtering capacity.",
+          "url": "https://stormwall.pro"
+        }
+      ]
+    },
+    {
+      "slug": "nexusguard",
+      "name": "Nexusguard",
+      "site": "https://nexusguard.com/",
+      "company": "",
+      "country": "",
+      "tagline": "DDoS protection sold to communications providers",
+      "best_for": "Telecom and hosting providers",
+      "pricing": "No pricing stated. The homepage offers a virtual demo ('Take a Virtual Demo', 'Schedule Your Virtual Demo').",
+      "pricing_model": "Not published",
+      "free_plan": "Unknown",
+      "platforms": "Cloud, on-premises and true-hybrid deployment options.",
+      "features": [
+        "Application Protection",
+        "Network Protection",
+        "DNS Protection",
+        "Clean Pipe",
+        "Managed SOC Service"
+      ],
+      "summary": "Tenth because it targets carriers and hosting providers, with demo-only selling and no game wording on the page we read.",
+      "verdict": "Nexusguard describes itself as a DDoS protection provider for communications service providers, with application, network and DNS protection, Clean Pipe, a managed SOC service and DDoS penetration testing. Cloud, on-premises and hybrid deployments are listed. A hosting company that rents game servers could buy it to protect its own customers. Named customers are TIM in the Philippines, Ezecom/Cellcard in Cambodia and Wind Telecom in the Dominican Republic.",
+      "weaknesses": "The homepage offers a virtual demo and no pricing, and its audience is carriers, not game studios. No game customers or UDP game traffic wording appear.",
+      "wrong_for": "A studio buying protection for its own game servers should choose a direct-to-customer service such as TCPShield or Gcore.",
+      "sources": [
+        {
+          "fact": "Nexusguard's homepage describes it as a DDoS protection provider for Communications Service Providers.",
+          "url": "https://nexusguard.com"
+        },
+        {
+          "fact": "The homepage lists Application Protection, Network Protection, DNS Protection and Clean Pipe among its products.",
+          "url": "https://nexusguard.com"
+        },
+        {
+          "fact": "The homepage offers a virtual demo; no pricing is stated.",
+          "url": "https://nexusguard.com"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "hub": "games"
+}

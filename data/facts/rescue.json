@@ -1,0 +1,1685 @@
+[
+ {
+  "slug": "6connex",
+  "name": "6Connex",
+  "status": "dropped",
+  "drop_reason": "6connex.com redirects to www.brandlive.com, which describes Brandlive (BrandTV and Brandlive Studios video services). No 6Connex product name appears on the opened pages, so the product is merged away or renamed.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "adinmo",
+  "name": "AdInMo",
+  "status": "dropped",
+  "drop_reason": "adinmo.com returns Cloudflare error 525 (SSL handshake failed with the origin) on the homepage; no vendor page could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "adjust",
+  "name": "Adjust",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://adjust.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Adjust is a mobile app measurement and growth platform; its homepage is titled 'Accelerate your app's growth with Adjust'.",
+  "platforms": "Mobile apps (the pricing page refers to app growth and conversions); the product list includes Datascape, Deep Linking, Fraud Prevention and Measurement.",
+  "pricing": "Plans are priced by annual conversions: Base (up to 18,000 annual conversions; sign-up for free with email support and up to 1,500 monthly conversions for the first year), Core (up to 250,000 annual conversions; includes volume discounts; contact us), Enterprise (over 2,500,000 annual conversions; contact us). Plan amounts are not shown in the readable text.",
+  "pricing_model": "Usage-based",
+  "free_plan": "Free",
+  "key_features": [
+   "Measurement",
+   "Attribution",
+   "Deep Linking",
+   "Fraud Prevention",
+   "Datascape visualizations",
+   "Engage",
+   "Adjust AI Solutions"
+  ],
+  "notable": [
+   "Base tier is free to sign up for, with up to 1,500 monthly conversions in the first year, per the pricing page",
+   "Core and Enterprise tiers are priced on annual conversion volume and are quote-based on the page"
+  ],
+  "facts": [
+   {
+    "fact": "The pricing page is titled 'Choose your plan!' and presents Base, Core and Enterprise tiers by annual conversions.",
+    "url": "https://adjust.com/pricing"
+   },
+   {
+    "fact": "The pricing page says the Base tier is for small independent developers and offers a free sign-up with up to 1,500 monthly conversions for the first year.",
+    "url": "https://adjust.com/pricing"
+   },
+   {
+    "fact": "The pricing page says the Core tier is for medium-size developers and the Enterprise tier for large developers, with 'Contact us' on both.",
+    "url": "https://adjust.com/pricing"
+   },
+   {
+    "fact": "The Adjust homepage is titled 'Accelerate your app's growth with Adjust'.",
+    "url": "https://adjust.com/"
+   }
+  ]
+ },
+ {
+  "slug": "aitum",
+  "name": "Aitum",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://aitum.tv/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Aitum is an automation tool for streamers that triggers actions (such as Stream Deck buttons and Twitch or YouTube events) and runs multistreaming and OBS plugins, according to its homepage.",
+  "platforms": "OBS Studio 32+ (Stream Suite plugin); Stream Deck (automation); Twitch and YouTube events as triggers.",
+  "pricing": "All for £4.99 per month with a 14 day free trial, per the homepage. The homepage also has a FREE Presets section.",
+  "pricing_model": "Subscription",
+  "free_plan": "Free trial",
+  "key_features": [
+   "Stream Deck automation",
+   "Stream Suite for OBS",
+   "Multistreaming",
+   "Twitch and YouTube event triggers",
+   "Free presets"
+  ],
+  "notable": [
+   "Stream Suite requires OBS Studio 32 or newer, per the homepage",
+   "Priced in pounds sterling"
+  ],
+  "facts": [
+   {
+    "fact": "The Aitum homepage describes it as the best automation tool for streamers.",
+    "url": "https://aitum.tv/"
+   },
+   {
+    "fact": "The homepage describes Stream Suite as a plugin for OBS Studio 32+ that combines vertical and multistream plugins.",
+    "url": "https://aitum.tv/"
+   },
+   {
+    "fact": "The homepage says 'All for £4.99 per month' with a 14 day free trial.",
+    "url": "https://aitum.tv/"
+   },
+   {
+    "fact": "The homepage offers automation that 'Automatically trigger[s] ANY action on Stream Deck'.",
+    "url": "https://aitum.tv/"
+   }
+  ]
+ },
+ {
+  "slug": "arcware",
+  "name": "Arcware",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: arcware.cloud timed out on the headless renderer and on the direct fetch, and its /pricing and /about pages returned no text.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "bayes-esports",
+  "name": "Bayes Esports",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: bayesesports.com does not resolve from the fetch environment (DNS lookup fails), and the headless renderer returned no text.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "bidstack",
+  "name": "Bidstack",
+  "status": "dropped",
+  "drop_reason": "bidstack.com returns HTTP 404 'Page not found' on the homepage.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "botisimo",
+  "name": "Botisimo",
+  "status": "dropped",
+  "drop_reason": "botisimo.com shows an unrelated article page about live streaming platforms and its /pricing page has no product text (a parked or ad-led domain). No Botisimo product page could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "challonge",
+  "name": "Challonge",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://challonge.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Challonge is a competition management platform for building brackets and running tournaments, offered as a web service and as an API, per its about page.",
+  "platforms": "Web-based SaaS and API (per the about page).",
+  "pricing": "Standard $0, supported by advertising; Premier $12 per month or $6.99 per month billed yearly. The pricing page offers monthly and annual subscriptions.",
+  "pricing_model": "Freemium",
+  "free_plan": "Free plan",
+  "key_features": [
+   "Single elimination",
+   "Double elimination",
+   "Round robin",
+   "Swiss",
+   "Group stage",
+   "API"
+  ],
+  "notable": [
+   "The free Standard plan allows up to 256 participants per tournament, per the pricing page",
+   "The about page says the company was founded in 2009 and offers more than 25 competition types"
+  ],
+  "facts": [
+   {
+    "fact": "Challonge describes itself on its about page as a global competition platform that helps organizers streamline registration, progression and record keeping.",
+    "url": "https://challonge.com/about"
+   },
+   {
+    "fact": "The about page says Challonge was founded in 2009 and offers more than 25 competition types as a web-based SaaS platform and as an API.",
+    "url": "https://challonge.com/about"
+   },
+   {
+    "fact": "The pricing page lists a Standard plan at $0, supported by advertising.",
+    "url": "https://challonge.com/pricing"
+   },
+   {
+    "fact": "The pricing page lists a Premier plan at $12 per month, or $6.99 per month billed yearly.",
+    "url": "https://challonge.com/pricing"
+   },
+   {
+    "fact": "The homepage advertises single and double elimination, round robin, Swiss and group stage tournament formats.",
+    "url": "https://challonge.com/"
+   }
+  ]
+ },
+ {
+  "slug": "charisma-ai",
+  "name": "Charisma.ai",
+  "status": "dropped",
+  "drop_reason": "Vendor site now presents an AI film, TV and animation studio ('Charismatic AI Studio', 'Human creativity, accelerated by AI'). The opened home, about and pricing pages do not describe the interactive NPC dialogue platform, so the product as ranked is not shown as offered.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "cirrus-ci",
+  "name": "Cirrus CI",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: cirrus-ci.org does not resolve and cirrus-ci.com resets the connection; the headless renderer returned no text.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "clownfish-voice-changer",
+  "name": "Clownfish Voice Changer",
+  "status": "dropped",
+  "drop_reason": "clownfish-translator.com describes only Clownfish Translator for Skype, a translation tool. No voice changer product is named on the opened pages.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "digital-river",
+  "name": "Digital River",
+  "status": "dropped",
+  "drop_reason": "digitalriver.com returns a Cloudflare error 1000 page ('DNS points to prohibited IP') and no vendor text could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "dotabuff",
+  "name": "Dotabuff",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://dotabuff.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Dotabuff is a Dota 2 statistics site with hero, item, player, match and esports pages, and an optional Plus membership, per its homepage and Plus page.",
+  "platforms": "Web browser; mobile support is listed as a Basic account feature on the Plus page.",
+  "pricing": "Basic account is listed as ad supported, with no price stated for it on the Plus page. Dotabuff Plus costs $6 per month or $56 per year (save 22%).",
+  "pricing_model": "Subscription",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Hero statistics",
+   "Match history",
+   "Player profiles",
+   "Esports section",
+   "Plus match analysis"
+  ],
+  "notable": [
+   "Plus subscribers have a greatly increased chance of being featured in Hero Guides, according to the Plus page",
+   "Sign-in with Steam is used to show a Dota 2 profile"
+  ],
+  "facts": [
+   {
+    "fact": "The Dotabuff homepage is titled 'DOTABUFF - Dota 2 Statistics' and offers hero, item, player and match pages.",
+    "url": "https://dotabuff.com/"
+   },
+   {
+    "fact": "The Plus page says Dotabuff Plus costs $56 per year (save 22%) or $6 per month.",
+    "url": "https://dotabuff.com/plus"
+   },
+   {
+    "fact": "The Plus page says Plus helps players with advanced match analysis and personal improvement tools.",
+    "url": "https://dotabuff.com/plus"
+   },
+   {
+    "fact": "The Plus page lists a Basic account with public statistics and mobile support, which is ad supported.",
+    "url": "https://dotabuff.com/plus"
+   },
+   {
+    "fact": "The homepage invites visitors to sign in with Steam to see their Dota 2 profile.",
+    "url": "https://dotabuff.com/"
+   }
+  ]
+ },
+ {
+  "slug": "elgato-4k-capture-utility",
+  "name": "Elgato 4K Capture Utility",
+  "status": "dropped",
+  "drop_reason": "elgato.com/4k-capture-utility returns 'Page Not Found'. No other Elgato product page for the 4K Capture Utility was opened.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "epic-games-launcher",
+  "name": "Epic Games Launcher",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: epicgames.com/site/en-US/epic-games-store returns 404, and the epicgames.com store page returns HTTP 403 to the fetch tool and no readable text to the renderer.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "epic-games-store",
+  "name": "Epic Games Store",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: store.epicgames.com and epicgames.com/store/en-US/ return HTTP 403 or no text in both the fetch tool and the renderer.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "epic-online-services",
+  "name": "Epic Online Services",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://dev.epicgames.com/en-US/services",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Epic Online Services is a suite of open, modular online services for game developers, usable with any engine and across stores and platforms, per the Epic developer services page.",
+  "platforms": "Any game engine; any combination of stores and platforms, according to the page.",
+  "pricing": "Free: the services page says the suite is available to everyone and is free ('all for free'). The page at /en-US/services/pricing returns 'Page not found'.",
+  "pricing_model": "Free",
+  "free_plan": "Free",
+  "key_features": [
+   "Open modular online services",
+   "Works with any engine",
+   "Works across stores and platforms",
+   "Scales with player count"
+  ],
+  "notable": [
+   "The services page says the services are available to everyone and are free",
+   "The dedicated pricing URL returns a not-found page, so pricing is taken from the services page"
+  ],
+  "facts": [
+   {
+    "fact": "The Epic Online Services page describes a suite of open, modular online services that let developers focus on making games.",
+    "url": "https://dev.epicgames.com/en-US/services"
+   },
+   {
+    "fact": "The page says the services can be built on any engine, launched on any combination of stores and platforms, and scaled up as players grow, 'all for free'.",
+    "url": "https://dev.epicgames.com/en-US/services"
+   },
+   {
+    "fact": "The page offers 'Get started' and 'Go to documentation' buttons.",
+    "url": "https://dev.epicgames.com/en-US/services"
+   }
+  ]
+ },
+ {
+  "slug": "esports-charts",
+  "name": "Esports Charts",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: escharts.com shows a Cloudflare 'Just a moment' security check on every attempt, so no content could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "fmod",
+  "name": "FMOD",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://fmod.com/",
+  "company": "Firelight Technologies Pty Ltd",
+  "hq": "Melbourne",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "FMOD is audio middleware for games, described on its homepage as the solution for adaptive audio, with FMOD Studio, FMOD for Unity, FMOD Core and FMOD.io.",
+  "platforms": "Game platforms; the licensing page lists 'All' platforms for each tier.",
+  "pricing": "Free Indie License for developers with under $200k revenue per year and a development budget under $600k. Basic: $6,000 per game (budget $600k to $1.8M). Premium: $18,000 per game (budget over $1.8M). All pricing is in USD; non-game pricing is by quote.",
+  "pricing_model": "One-time license",
+  "free_plan": "Free",
+  "key_features": [
+   "FMOD Studio",
+   "FMOD for Unity",
+   "FMOD Core",
+   "FMOD.io",
+   "Adaptive audio"
+  ],
+  "notable": [
+   "Level 1 email support is 1 year with Basic and 2 years with Premium, per the licensing table",
+   "The Indie tier is free or $2,000 per the licensing note"
+  ],
+  "facts": [
+   {
+    "fact": "The FMOD homepage describes FMOD as 'Made for games' and 'the solution for adaptive audio'.",
+    "url": "https://fmod.com/"
+   },
+   {
+    "fact": "The FMOD site footer names Firelight Technologies Pty Ltd and reads 'Made in Melbourne'.",
+    "url": "https://fmod.com/"
+   },
+   {
+    "fact": "The licensing page offers a Free Indie License for developers with less than $200k revenue per year and a development budget under $600k.",
+    "url": "https://fmod.com/licensing"
+   },
+   {
+    "fact": "The licensing page lists a Basic fee of $6,000 per game for development budgets between $600k and $1.8M, and a Premium fee of $18,000 for budgets over $1.8M.",
+    "url": "https://fmod.com/licensing"
+   },
+   {
+    "fact": "The licensing page states that all pricing is in USD.",
+    "url": "https://fmod.com/licensing"
+   }
+  ]
+ },
+ {
+  "slug": "furioos",
+  "name": "Furioos",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: furioos.com refuses the connection (connection refused) on every attempt, and the headless renderer returned no text.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "game-jolt",
+  "name": "Game Jolt",
+  "status": "dropped",
+  "drop_reason": "gamejolt.com was rendered, but the readable text is only a sign-up prompt and a cookie consent notice; no product description could be checked on the opened pages.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "gamedistribution",
+  "name": "GameDistribution",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://gamedistribution.com/",
+  "company": "Azerion (copyright line on the about page)",
+  "hq": "Schiphol-Rijk, The Netherlands",
+  "country": "Netherlands",
+  "country_code": "NL",
+  "what_it_is": "GameDistribution offers HTML5 games for websites and messengers, with a Games For Business section and a white label gaming solution, per its homepage and about page.",
+  "platforms": "Websites and messengers (HTML5 games), per the homepage.",
+  "pricing": "Not published on the opened pages; the site has a Games For Business section and a Dev Panel link.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "HTML5 games",
+   "White label gaming solution",
+   "Direct game integration",
+   "Licensed content",
+   "Dev Panel"
+  ],
+  "notable": [
+   "The homepage lists 3K+ puzzle games, 5K+ exclusive games and 22K+ casual games",
+   "The about page gives the address Boeing Avenue 30, 1119 PE Schiphol-Rijk, The Netherlands"
+  ],
+  "facts": [
+   {
+    "fact": "The GameDistribution homepage describes HTML5 games for websites and messengers, with a Games For Business section.",
+    "url": "https://gamedistribution.com/"
+   },
+   {
+    "fact": "The homepage lists a White Label Gaming Solution and 'Direct Game Integration'.",
+    "url": "https://gamedistribution.com/"
+   },
+   {
+    "fact": "The about page gives the address Boeing Avenue 30, 1119 PE Schiphol-Rijk, The Netherlands.",
+    "url": "https://gamedistribution.com/about"
+   },
+   {
+    "fact": "The about page footer reads '© Azerion 2026'.",
+    "url": "https://gamedistribution.com/about"
+   }
+  ]
+ },
+ {
+  "slug": "gamersensei",
+  "name": "GamerSensei",
+  "status": "dropped",
+  "drop_reason": "gamersensei.com redirects to a Corsair esports page about Aimlabs. No GamerSensei product page could be opened.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "gamesynth",
+  "name": "GameSynth",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://tsugi-studio.com/",
+  "company": "Tsugi",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "GameSynth is a procedural audio tool from Tsugi studio that creates sound effects and can be controlled from game middleware through the GameSynth Tool API, per the Tsugi homepage and blog.",
+  "platforms": "Controllable from game middleware (the homepage blog mentions Unity as an example engine) and from DaVinci Resolve through a Python script.",
+  "pricing": "Not read on the opened pages. The homepage has a STORE link.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Procedural audio",
+   "Sound effect creation",
+   "GameSynth Tool API",
+   "Game middleware control",
+   "DaVinci Resolve script"
+  ],
+  "notable": [
+   "The homepage claims the largest installed base of procedural audio tools",
+   "The Tsugi homepage nav lists Home, Company, Products, Services, Store, Blog and Careers"
+  ],
+  "facts": [
+   {
+    "fact": "The Tsugi studio homepage describes the company as 'Software for Creatives'.",
+    "url": "https://tsugi-studio.com/"
+   },
+   {
+    "fact": "A Tsugi blog post on the homepage says GameSynth can be controlled from game middleware via the GameSynth Tool API to create sound effects in real time.",
+    "url": "https://tsugi-studio.com/"
+   },
+   {
+    "fact": "The homepage claims the 'Largest installed base of procedural audio tools'.",
+    "url": "https://tsugi-studio.com/"
+   }
+  ]
+ },
+ {
+  "slug": "geekbench",
+  "name": "Geekbench",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://geekbench.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Geekbench 7 is a cross-platform benchmark that measures system performance, per the homepage.",
+  "platforms": "Android, iOS, macOS, Windows and Linux (per the homepage).",
+  "pricing": "Not read on the opened pages; the homepage links to a Store.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "CPU benchmark",
+   "GPU benchmark with OpenCL, Metal, Vulkan and CUDA",
+   "Machine learning tests",
+   "Geekbench Browser",
+   "Benchmark Charts"
+  ],
+  "notable": [
+   "Geekbench 7 adds a focus on machine learning and support for NVIDIA CUDA, per the homepage",
+   "Results are shared through the Geekbench Browser"
+  ],
+  "facts": [
+   {
+    "fact": "The Geekbench homepage introduces Geekbench 7 as a cross-platform benchmark that measures system performance.",
+    "url": "https://geekbench.com/"
+   },
+   {
+    "fact": "The homepage says Geekbench 7 supports Android, iOS, macOS, Windows and Linux.",
+    "url": "https://geekbench.com/"
+   },
+   {
+    "fact": "The homepage says the Geekbench Browser lets users upload results and see Benchmark Charts built from aggregated real-user results.",
+    "url": "https://geekbench.com/"
+   }
+  ]
+ },
+ {
+  "slug": "gpu-z",
+  "name": "GPU-Z",
+  "status": "dropped",
+  "drop_reason": "techpowerup.com returns 'HTTP 403 Access Denied' to the fetch tool, and the renderer returns the same block page, so no GPU-Z page could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "hubilo",
+  "name": "Hubilo",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: hubilo.com fails the TLS handshake (internal error alert) on every attempt, and the renderer returned no text.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "incredibuild",
+  "name": "Incredibuild",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://incredibuild.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Incredibuild is a build acceleration product for development teams, with Build Cache and Remove Redundant Execution features and a CI acceleration offer, per its homepage.",
+  "platforms": "Not stated on the opened homepage.",
+  "pricing": "Not published on the opened pages. The homepage banner says 'Get 8x faster CI runners for free'.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Build Cache",
+   "Remove Redundant Execution",
+   "CI acceleration",
+   "Accelerate Everything"
+  ],
+  "notable": [
+   "Homepage banner promotes 8x faster CI runners for free (CI acceleration)"
+  ],
+  "facts": [
+   {
+    "fact": "The Incredibuild homepage is titled 'Incredibuild: Accelerate Your Development'.",
+    "url": "https://incredibuild.com/"
+   },
+   {
+    "fact": "The homepage lists product features including Build Cache and Remove Redundant Execution under an 'Accelerate Everything' heading.",
+    "url": "https://incredibuild.com/"
+   },
+   {
+    "fact": "The homepage has a CI acceleration banner that says 'Get 8x faster CI runners for free'.",
+    "url": "https://incredibuild.com/"
+   }
+  ]
+ },
+ {
+  "slug": "intel-xtu",
+  "name": "Intel XTU",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://intel.com/content/www/us/en/download/17881",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Intel Extreme Tuning Utility (Intel XTU) is a utility that Intel distributes from its download center, per the download page.",
+  "platforms": "Intel processors (per the download page's processor context); operating system not read.",
+  "pricing": "No price shown on the download page; the page is a free download listing.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Processor tuning utility",
+   "Download center listing"
+  ],
+  "notable": [
+   "The download page lists version 10.0.1.248 as the latest, dated 11/16/2026"
+  ],
+  "facts": [
+   {
+    "fact": "Intel's download page is titled 'Intel Extreme Tuning Utility (Intel XTU)' with ID 17881.",
+    "url": "https://intel.com/content/www/us/en/download/17881"
+   },
+   {
+    "fact": "The download page lists version 10.0.1.248 as the latest version, dated 11/16/2026.",
+    "url": "https://intel.com/content/www/us/en/download/17881"
+   },
+   {
+    "fact": "The page sits in Intel's Drivers & Downloads section of intel.com.",
+    "url": "https://intel.com/content/www/us/en/download/17881"
+   }
+  ]
+ },
+ {
+  "slug": "lingotek",
+  "name": "Lingotek",
+  "status": "dropped",
+  "drop_reason": "merged away: the vendor site states 'Lingotek is now part of Arbitr' and sends visitors to Arbitr for what comes next. The Lingotek TMS is kept for existing customers under the Arbitr name.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "liquipedia",
+  "name": "Liquipedia",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: liquipedia.net shows a 'Verify you are human' check on every attempt, so no content could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "maya",
+  "name": "Maya",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: autodesk.com/products/maya returns HTTP 403 to the fetch tool and an empty page to the renderer.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "meta-horizon-store",
+  "name": "Meta Horizon Store",
+  "status": "dropped",
+  "drop_reason": "developers.meta.com/horizon/distribution returns HTTP 400, and the rendered page reads 'This page isn't available'. No store page could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "mimo-live",
+  "name": "Mimo Live",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://mimolive.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "mimoLive is professional live video production software and virtual camera for Mac, per its homepage title and pricing page.",
+  "platforms": "Mac (the homepage title names a virtual camera for Mac).",
+  "pricing": "Plan prices were not readable on the opened pricing page. A promotion gives 6 months of mimoLive for Mac free with the purchase of selected BirdDog camera bundles.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Live video production",
+   "Virtual camera for Mac",
+   "Remote presentations",
+   "Event production"
+  ],
+  "notable": [
+   "Pricing page promotes 6 months free with selected BirdDog camera bundles",
+   "Use cases listed include lecture recording, virtual presentations, worship services, sports and eSports, and concerts"
+  ],
+  "facts": [
+   {
+    "fact": "The homepage title describes mimoLive as professional live video production software and a virtual camera for Mac.",
+    "url": "https://mimolive.com/"
+   },
+   {
+    "fact": "The pricing page says there is a promotion to get 6 months of mimoLive for Mac free with the purchase of selected BirdDog camera bundles.",
+    "url": "https://mimolive.com/pricing"
+   },
+   {
+    "fact": "The pricing page lists use cases including lecture recording, virtual presentations, sports and eSports, and concerts.",
+    "url": "https://mimolive.com/pricing"
+   }
+  ]
+ },
+ {
+  "slug": "mixamo",
+  "name": "Mixamo",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: mixamo.com does not resolve from the fetch environment, and www.mixamo.com renders only a 'Loading Mixamo' screen with no text.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "mobalytics",
+  "name": "Mobalytics",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://mobalytics.gg/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Mobalytics is an all-in-one companion for gamers with in-game overlays, tier lists and match tools for many games, per its homepage and pricing page.",
+  "platforms": "Windows desktop app (per the pricing page); web.",
+  "pricing": "The desktop app is free ('It's free!' per the pricing page). Other plan prices were not read on the opened pages.",
+  "pricing_model": "",
+  "free_plan": "Free",
+  "key_features": [
+   "League of Legends in-game overlay",
+   "LoL tier list",
+   "Match history",
+   "Summoner search",
+   "Champion pages"
+  ],
+  "notable": [
+   "The homepage says 'Join over 10 million gamers'",
+   "Covers League of Legends, TFT, PoE2, Diablo 4, Borderlands 4, Nightreign, Deadlock and MH Wilds, per the homepage"
+  ],
+  "facts": [
+   {
+    "fact": "The Mobalytics homepage describes it as 'The All-in-One Companion for Every Gamer'.",
+    "url": "https://mobalytics.gg/"
+   },
+   {
+    "fact": "The homepage lists games including LoL, TFT, PoE2, Diablo 4, Borderlands 4, Nightreign, Deadlock and MH Wilds.",
+    "url": "https://mobalytics.gg/"
+   },
+   {
+    "fact": "The pricing page offers a desktop app for Windows with League of Legends in-game overlay features and says it is free.",
+    "url": "https://mobalytics.gg/pricing"
+   }
+  ]
+ },
+ {
+  "slug": "moddb",
+  "name": "ModDB",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: moddb.com shows a Cloudflare 'Just a moment' security check on every attempt, and fetch returns HTTP 403.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "msi-afterburner",
+  "name": "MSI Afterburner",
+  "status": "dropped",
+  "drop_reason": "only two facts could be checked on the opened pages (brief needs 3); no further vendor page was readable",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "munch",
+  "name": "Munch",
+  "status": "dropped",
+  "drop_reason": "wrong product: getmunch.com redirects to munchstudio.com, a done-for-you social media service for businesses. No clip or highlight editor is named on the vendor pages.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "nerd-or-die",
+  "name": "Nerd or Die",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: nerdordie.com shows a Cloudflare 'Just a moment' security check and fetch returns HTTP 403 on every page tried.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "newgrounds",
+  "name": "Newgrounds",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: newgrounds.com shows an 'NG Guard' bot puzzle on every attempt, and fetch returns HTTP 403.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "newzoo",
+  "name": "Newzoo",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://newzoo.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Newzoo is a games market intelligence company that publishes market reports, forecasts, gamer research and store data, per its homepage.",
+  "platforms": "Not applicable (data and research products).",
+  "pricing": "Not published on the opened pages; the homepage offers reports, forecasts and custom research.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Games Market Reports and Forecasts",
+   "Global Gamer Study",
+   "Game Performance Monitor",
+   "Game Health Tracker",
+   "Store Insights",
+   "Custom Research"
+  ],
+  "notable": [
+   "The homepage lists both market intelligence and business and store intelligence products"
+  ],
+  "facts": [
+   {
+    "fact": "The Newzoo homepage lists Games Market Reports and Forecasts among its products.",
+    "url": "https://newzoo.com/"
+   },
+   {
+    "fact": "The homepage lists Gamer Research with the Global Gamer Study and a Game Performance Monitor.",
+    "url": "https://newzoo.com/"
+   },
+   {
+    "fact": "The homepage lists Market Intelligence, Business and Store Intelligence, and Custom Research.",
+    "url": "https://newzoo.com/"
+   }
+  ]
+ },
+ {
+  "slug": "nexus-mods",
+  "name": "Nexus Mods",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://nexusmods.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Nexus Mods is a modding community and mod hosting site for PC games, per its homepage and about page.",
+  "platforms": "PC games (per the about page's game and mod counts).",
+  "pricing": "Not read on the opened pages.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Mod downloads",
+   "Collections",
+   "Community",
+   "Media",
+   "Creator payouts"
+  ],
+  "notable": [
+   "About page: over 990,000 mods across 5,800+ games",
+   "About page: 80.6 million community users and 26.9 billion file downloads",
+   "About page: pays creators over $4.2 million a year"
+  ],
+  "facts": [
+   {
+    "fact": "The Nexus Mods about page says the site hosts over 990,000 mods across 5,800+ games.",
+    "url": "https://nexusmods.com/about"
+   },
+   {
+    "fact": "The about page says Nexus Mods has 80.6 million community users and 26.9 billion file downloads.",
+    "url": "https://nexusmods.com/about"
+   },
+   {
+    "fact": "The about page says the company pays creators over $4.2 million a year.",
+    "url": "https://nexusmods.com/about"
+   },
+   {
+    "fact": "The homepage is titled 'Nexus Mods - Mods and Community' and offers Games, Mods, Collections, Media and Community sections.",
+    "url": "https://nexusmods.com/"
+   }
+  ]
+ },
+ {
+  "slug": "nizima",
+  "name": "Nizima",
+  "status": "dropped",
+  "drop_reason": "not an animation or rigging tool: nizima.com is a marketplace for buying and selling Live2D VTuber models, and its text is almost entirely JavaScript-rendered, so no product features could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "on24",
+  "name": "ON24",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://on24.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "ON24 is an AI webinar and engagement platform, per its homepage title and tagline.",
+  "platforms": "Web-based webinar platform (per the homepage).",
+  "pricing": "Not published on the opened pages.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Webinars",
+   "Engagement tracking",
+   "Sales-ready lead data",
+   "AI features"
+  ],
+  "notable": [
+   "Footer on the about URL lists offices in San Francisco, Charlotte and London"
+  ],
+  "facts": [
+   {
+    "fact": "The ON24 homepage is titled 'AI Webinar & Engagement Platform | ON24'.",
+    "url": "https://on24.com/"
+   },
+   {
+    "fact": "The homepage tagline says 'Turn webinar data into sales-ready leads and deeper engagement'.",
+    "url": "https://on24.com/"
+   },
+   {
+    "fact": "The page footer at on24.com/about lists offices in San Francisco, Charlotte and London.",
+    "url": "https://on24.com/about"
+   }
+  ]
+ },
+ {
+  "slug": "quixel-mixer",
+  "name": "Quixel Mixer",
+  "status": "dropped",
+  "drop_reason": "not offered: quixel.com/mixer redirects to the Quixel Megascans homepage, which lists Megascans and Megaplants and names no Mixer product.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "ready-player-me",
+  "name": "Ready Player Me",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: readyplayer.me does not resolve from the fetch environment, and the renderer returned no text.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "skill-capped",
+  "name": "Skill Capped",
+  "status": "dropped",
+  "drop_reason": "skillcapped.com is a parked domain (GoDaddy 'parked free' page with search links). No Skill Capped product page could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "steamdb",
+  "name": "SteamDB",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: steamdb.info shows a Cloudflare 'Just a moment' check, and fetch returns HTTP 403.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "stream-hatchet",
+  "name": "Stream Hatchet",
+  "status": "dropped",
+  "drop_reason": "streamhatchet.com redirects to hatchet.gg, a business intelligence platform for gaming, esports and brand teams. The opened pages do not name a product called Stream Hatchet.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "streams-charts",
+  "name": "Streams Charts",
+  "status": "dropped",
+  "drop_reason": "vendor site could not be opened: streamscharts.com shows a Cloudflare 'Just a moment' security check and fetch returns HTTP 403.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "substance-3d-painter",
+  "name": "Substance 3D Painter",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://adobe.com/products/substance3d-painter",
+  "company": "Adobe",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Substance 3D Painter is 3D painting software for real-time texturing, sold by Adobe as part of Substance 3D, per the Adobe product page.",
+  "platforms": "Not stated in the readable text.",
+  "pricing": "30 day free trial, then Buy now; the page says businesses can call for a consultation. Prices were not in the readable text.",
+  "pricing_model": "",
+  "free_plan": "Free trial",
+  "key_features": [
+   "Real-time texture painting",
+   "Substance 3D Collection",
+   "Painter 11.0 features"
+  ],
+  "notable": [
+   "Adobe page offers a 30 day free trial"
+  ],
+  "facts": [
+   {
+    "fact": "The Adobe product page is titled '3D painting software for texturing' and describes Substance 3D Painter.",
+    "url": "https://adobe.com/products/substance3d-painter"
+   },
+   {
+    "fact": "The page says 'Paint game-changing textures in real time' and offers Try Painter and the Substance 3D Collection.",
+    "url": "https://adobe.com/products/substance3d-painter"
+   },
+   {
+    "fact": "The page says 'Get started with a 30 day free trial' and has a Buy now button.",
+    "url": "https://adobe.com/products/substance3d-painter"
+   }
+  ]
+ },
+ {
+  "slug": "throne",
+  "name": "Throne",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://throne.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Throne is a wishlist and gifting platform for creators, where fans can send gifts without sharing personal information, per its homepage and pricing page.",
+  "platforms": "Creators on all platforms (per the pricing page).",
+  "pricing": "Not read on the opened pages.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Wishlists",
+   "Gifting for fans",
+   "Creator profiles",
+   "Wishlist for brands",
+   "Charity"
+  ],
+  "notable": [
+   "Homepage nav lists Wishlist For Brands and Charity sections"
+  ],
+  "facts": [
+   {
+    "fact": "The Throne homepage is titled 'Throne - Wishlist & Gifting Platform for Creators'.",
+    "url": "https://throne.com/"
+   },
+   {
+    "fact": "The pricing page says fans can support creators by sending gifts without sharing personal information.",
+    "url": "https://throne.com/pricing"
+   },
+   {
+    "fact": "The pricing page says Throne is built for creators of all platforms.",
+    "url": "https://throne.com/pricing"
+   }
+  ]
+ },
+ {
+  "slug": "tracker-network",
+  "name": "Tracker Network",
+  "status": "dropped",
+  "drop_reason": "only two facts could be checked on the opened pages (brief needs 3); no further vendor page was readable",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "unity-multiplay-hosting",
+  "name": "Unity Multiplay Hosting",
+  "status": "dropped",
+  "drop_reason": "unity.com/products/multiplay-hosting returns HTTP 404 and the Unity game server hosting pricing page the renderer reached shows only navigation with no hosting text, so no product description could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "unreal-editor-for-fortnite",
+  "name": "Unreal Editor for Fortnite",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://fortnite.com/creative",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Unreal Editor for Fortnite (UEFN) is the tool for building, publishing and monetizing games inside Fortnite, per Fortnite's creative page.",
+  "platforms": "Fortnite (publishing target).",
+  "pricing": "Not stated on the opened page; the page says 'Monetize your way'.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Unreal Engine tools inside Fortnite",
+   "Publish in Fortnite",
+   "Developer tools",
+   "Monetization"
+  ],
+  "notable": [
+   "UEFN brings Unreal Engine rendering, lighting, VFX, animation and worldbuilding tools to Fortnite, per the page"
+  ],
+  "facts": [
+   {
+    "fact": "The Fortnite creative page describes Unreal Editor for Fortnite (UEFN) as bringing Unreal Engine's rendering, lighting, VFX, animation and worldbuilding tools to Fortnite.",
+    "url": "https://fortnite.com/creative"
+   },
+   {
+    "fact": "The page says 'Build fast. Publish in Fortnite. Monetize your way.'",
+    "url": "https://fortnite.com/creative"
+   },
+   {
+    "fact": "The page has a 'Get Unreal Editor for Fortnite' button and a documentation link.",
+    "url": "https://fortnite.com/creative"
+   }
+  ]
+ },
+ {
+  "slug": "unreal-engine",
+  "name": "Unreal Engine",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://unrealengine.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Unreal Engine is a real-time 3D creation tool, described on its homepage as the most powerful real-time 3D creation tool.",
+  "platforms": "Not read on the opened pages.",
+  "pricing": "Free for game developers below $1 million USD in gross product revenue; royalties apply after $1 million USD gross product revenue, per the license page.",
+  "pricing_model": "Revenue share",
+  "free_plan": "Free",
+  "key_features": [
+   "Real-time 3D creation",
+   "Game development",
+   "Licensing tiers"
+  ],
+  "notable": [
+   "License page: individuals and small businesses with less than $1 million USD in annual gross revenue are in the free category"
+  ],
+  "facts": [
+   {
+    "fact": "The Unreal Engine homepage is titled 'The most powerful real-time 3D creation tool - Unreal Engine'.",
+    "url": "https://unrealengine.com/"
+   },
+   {
+    "fact": "The license page says game developers are free under $1 million USD in revenue, and royalties apply after $1 million USD gross product revenue.",
+    "url": "https://unrealengine.com/en-US/license"
+   },
+   {
+    "fact": "The license page lists individuals and small businesses with less than $1 million USD in annual gross revenue as a free category.",
+    "url": "https://unrealengine.com/en-US/license"
+   }
+  ]
+ },
+ {
+  "slug": "utomik",
+  "name": "Utomik",
+  "status": "dropped",
+  "drop_reason": "utomik.com is a domain for sale (GoDaddy 'is for sale' page) and its pricing URLs have no product text, so no Utomik service page could be read.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "visuals-by-impulse",
+  "name": "Visuals by Impulse",
+  "status": "dropped",
+  "drop_reason": "visualsbyimpulse.com redirects to the Elgato Marketplace (marketplace.elgato.com). No Visuals by Impulse product page could be opened.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "voxility",
+  "name": "Voxility",
+  "status": "verified",
+  "drop_reason": "",
+  "site": "https://voxility.com/",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "Voxility is a cloud and network infrastructure provider whose homepage lists Anti DDoS protection, dedicated servers, storage boxes and internet access.",
+  "platforms": "Not applicable (infrastructure services).",
+  "pricing": "A Prices page is linked from the homepage; plan amounts were not read.",
+  "pricing_model": "",
+  "free_plan": "Unknown",
+  "key_features": [
+   "Anti DDoS",
+   "Dedicated servers",
+   "Storage boxes",
+   "Internet access",
+   "Cloud service"
+  ],
+  "notable": [
+   "Homepage title: 'Voxility - The secure infrastructure for your amazing Cloud Service'"
+  ],
+  "facts": [
+   {
+    "fact": "The Voxility homepage is titled 'Voxility - The secure infrastructure for your amazing Cloud Service'.",
+    "url": "https://voxility.com/"
+   },
+   {
+    "fact": "The homepage navigation lists Anti DDoS, Dedicated Servers, Storage Boxes and Internet Access.",
+    "url": "https://voxility.com/"
+   },
+   {
+    "fact": "The homepage navigation has a Prices item.",
+    "url": "https://voxility.com/"
+   }
+  ]
+ },
+ {
+  "slug": "xbox-app",
+  "name": "Xbox app",
+  "status": "dropped",
+  "drop_reason": "vendor page could not be read beyond navigation and a cookie notice: xbox.com/en-US/apps/xbox-app-for-pc returns a 301 to the fetch tool, and the rendered page has only the title 'XBOX PC app'.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ },
+ {
+  "slug": "xbox-game-bar",
+  "name": "Xbox Game Bar",
+  "status": "dropped",
+  "drop_reason": "vendor page could not be read: xbox.com/en-US/apps/xbox-game-bar returns 404 to the fetch tool, and the rendered page contains only the cookie notice and navigation.",
+  "site": "",
+  "company": "",
+  "hq": "",
+  "country": "",
+  "country_code": "",
+  "what_it_is": "",
+  "platforms": "",
+  "pricing": "",
+  "pricing_model": "",
+  "free_plan": "",
+  "key_features": [],
+  "notable": [],
+  "facts": []
+ }
+]

@@ -1,0 +1,501 @@
+{
+  "slug": "best-version-control-for-game-development",
+  "name": "version control for game development",
+  "title": "Best Version Control for Game Development in 2026",
+  "group": "Game development",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Version control systems that cope with large art files, binary locking and mixed artist and programmer teams, ranked from vendor documentation.",
+  "definition": "Version control for game development tracks changes to code and to heavy binary assets such as textures, meshes, audio and scenes. Unlike code-only tools, it must handle files that cannot be merged, so most systems add exclusive locking, partial checkouts and large-file storage so programmers and artists can work in one repository.",
+  "intro": "A game repository is not a code repository. Source files merge cleanly, but a 400 MB scene file does not, and two artists editing it at once means somebody loses a day. That is why this ranking weighs locking, large-file handling and artist-friendly clients ahead of branch features. We read each vendor page for its description, platforms, pricing and licence terms, compared what is published, and weighed fit for an indie or mid-size studio. We did not run the tools. Where a page states no price or no feature list, the entry says so. Eleven products are listed, from purpose-built game systems to general Git hosts, and the order reflects how well each handles big binary projects with mixed teams.",
+  "criteria": [
+    {
+      "heading": "Locking and binary conflict handling",
+      "text": "Binary assets rarely merge, so the first question is whether a tool can stop two people editing the same file. Perforce lists exclusive file locking, Unity Version Control lists Smart Locks, and Anchorpoint lists file locking on top of Git. Plain Git hosts leave this to add-ons. We gave the most weight to tools whose vendor pages name locking directly, and we marked entries whose opened pages are silent on the subject."
+    },
+    {
+      "heading": "Repository size and checkout control",
+      "text": "Studios hit size limits long before they hit feature limits. Partial and shallow checkouts, selective checkout and delta transfers let an artist pull only the folders they need. Diversion and Anchorpoint advertise partial or selective checkouts, Perforce lists delta transfers and edge servers, and Git LFS replaces large files with pointers. Entries that never mention large repositories rank lower."
+    },
+    {
+      "heading": "Fit for artists and engine integration",
+      "text": "Artists will not use a command line for long. We looked for desktop clients, review and approval steps, and named support for Unity, Unreal Engine or Godot. Anchorpoint and Perforce publish customer and integration lists; general DevOps suites mostly describe code workflows. A good client matters as much as a good server when half the team draws for a living."
+    },
+    {
+      "heading": "Published price and exit options",
+      "text": "A studio needs to know what the fifth seat costs and how to leave later. Perforce, Unity Version Control, GitLab and Fork publish figures; Diversion, Anchorpoint and Azure DevOps do not on the pages we opened. Git-based tools score on portability, since the repository can move to another Git server, while a proprietary depot needs a conversion step."
+    }
+  ],
+  "market_notes": [
+    "Of the eleven tools, four are free or open source at the product level (Git LFS, Subversion, Sourcetree and Perforce for small teams), and four more start with a free tier or trial. Only Perforce, GitLab, Fork and Unity Version Control state concrete figures on the pages we opened; Diversion, Anchorpoint, GitHub and Azure DevOps leave pricing to separate pages or to sales. One vendor, Anchorpoint, publishes a German address; the others do not state a country in the pages we read.",
+    "The trade-off is control against convenience. Perforce and Subversion centralize files, which suits locking but asks someone to administer a server. Git-based tools such as Anchorpoint, Git LFS and the clients keep the distributed model and portability, at the cost of extra parts to assemble. General hosts like GitHub, GitLab and Azure DevOps shine for build and review automation, but their opened pages say little about huge art files, so many studios split code and assets across two systems."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Measure your largest repository first",
+      "text": "Add up the size of your current project, including art source files, and project how much it grows each month. A repository under a few gigabytes fits almost any tool here; one in the hundreds of gigabytes points toward Perforce or Diversion. Write the number down before comparing vendors, because storage allowances are quoted in different units, such as GB-hours for Unity Version Control."
+    },
+    {
+      "title": "Split the team by how they work",
+      "text": "List who touches what: programmers on code, artists on scenes and textures, designers on spreadsheets. If artists outnumber programmers, favor a visual client with locking such as Anchorpoint or Unity Version Control. If programmers dominate, a Git host plus Git LFS and a client like Fork keeps familiar pull request habits."
+    },
+    {
+      "title": "Price five seats, then twenty",
+      "text": "Ask each shortlisted vendor for the monthly cost at your current headcount and at double. Perforce states $39 per user per month for P4 Cloud under 100 users, and GitLab states $29 for Premium; vendors without published prices need a quote. Also check how a trial converts, so a 14-day evaluation does not end mid-milestone."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best version control for game development in 2026?",
+      "a": "Unity Version Control is our first pick for small teams because it offers a free tier with three seats, locking and use with any engine. Anchorpoint is better when artists want Git with a friendly client, and Perforce Helix Core is better once the repository grows very large or the team needs edge servers."
+    },
+    {
+      "q": "Can Git handle large game assets?",
+      "a": "Only with help. Git stores whole files in its history, so repositories bloat quickly. Git LFS keeps large files on a server and leaves pointers in the repository, while Anchorpoint adds selective checkout and locking on top of Git. Studios with very large asset trees often choose Perforce instead."
+    },
+    {
+      "q": "Is Perforce free for small studios?",
+      "a": "According to the vendor page, P4 is free for up to 5 users and 20 workspaces. Beyond that, P4 Cloud is listed at $39 per user per month for teams under 100 users. Check the vendor page for current terms, because limits can change."
+    },
+    {
+      "q": "Do artists really need file locking?",
+      "a": "Yes, whenever a file format cannot be merged, which covers most scenes, textures and meshes. Without locking, the last person to save overwrites the other. Perforce, Unity Version Control and Anchorpoint all list locking, while general Git hosts leave it to extensions."
+    },
+    {
+      "q": "Which tools work with Unreal Engine?",
+      "a": "Perforce lists Unreal Engine integration, Diversion offers an Unreal integration with UGS and Horde support, Anchorpoint lists Unreal Engine and Unreal Game Sync for Git, and Unity Version Control says it works with Unreal. Check engine plugins before committing to a tool."
+    },
+    {
+      "q": "Can I migrate from Perforce to something else?",
+      "a": "Diversion advertises depot-to-repo conversion and Perforce migration, and Anchorpoint works on Git servers where a converted repository could live. Plan migration as a project with a test run on a copy, because history and permissions rarely map one to one."
+    },
+    {
+      "q": "Is a Git GUI client enough for a game team?",
+      "a": "A client such as Fork or Sourcetree improves daily Git use, but neither adds server-side locking on the pages we read. Pair a client with Git LFS for large files, and add a locking-aware tool if artists share scene files."
+    }
+  ],
+  "related": [
+    "best-game-ci-cd-and-build-tools",
+    "best-game-qa-and-test-automation-tools",
+    "best-3d-game-engines-for-small-studios",
+    "best-playtesting-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "unity-version-control",
+      "name": "Unity Version Control",
+      "site": "https://unity.com/solutions/version-control",
+      "company": "Unity Technologies",
+      "country": "",
+      "tagline": "Engine-agnostic version control with per-seat pricing",
+      "best_for": "Small teams starting out",
+      "pricing": "Unity says to start free, then pay as you go: the free tier covers three seats and 5 GB-hour of storage, and each seat after the fourth is billed monthly.",
+      "pricing_model": "Per user / month",
+      "free_plan": "Free plan",
+      "platforms": "Works with Unity and Unreal; the page says it works with any engine.",
+      "features": [
+        "Smart Locks",
+        "Large file and binary handling",
+        "Hub-based management",
+        "On-prem seats",
+        "Deploy anywhere"
+      ],
+      "summary": "A free tier for three seats, locking for binaries and no engine lock-in make it the easiest first repository for a small studio.",
+      "verdict": "Unity Version Control is the entry point we would hand a three-person team. The vendor page promises a free tier with three seats, locking through Smart Locks, speed with large binaries, and use with Unity, Unreal or any other engine. Because costs start at zero and rise per seat after the fourth user, a studio can grow into paid use without migrating on day one. The page also lists on-prem seats for teams that must keep data in-house.",
+      "weaknesses": "The storage allowance is stated in GB-hours, a unit that is hard to translate into a monthly bill for a project with heavy art files. The opened page gives no per-seat price after the free tier, so budgeting beyond four people means asking the vendor.",
+      "wrong_for": "Studios that already run Perforce depots with custom triggers, or teams that want a plain Git workflow with pull requests, will find Anchorpoint or GitHub closer to what they already use.",
+      "sources": [
+        {
+          "fact": "The Unity Version Control page describes it as a scalable, engine-agnostic version control and source code management tool for game development studios.",
+          "url": "https://unity.com/solutions/version-control"
+        },
+        {
+          "fact": "The page states the product includes a free tier with three free seats and 5 GB-hour of storage.",
+          "url": "https://unity.com/solutions/version-control"
+        },
+        {
+          "fact": "The page says after the fourth user, customers pay monthly per seat.",
+          "url": "https://unity.com/solutions/version-control"
+        }
+      ]
+    },
+    {
+      "slug": "anchorpoint",
+      "name": "Anchorpoint",
+      "site": "https://anchorpoint.app/",
+      "company": "Anchorpoint Software GmbH",
+      "country": "Germany",
+      "tagline": "Git-based version control for artists and real-time projects",
+      "best_for": "Artist-heavy Git teams",
+      "pricing": "Anchorpoint offers a 14-day free trial; plan names and prices are not stated on the opened homepage, which links to a separate pricing page.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Windows and macOS desktop apps; supports Unreal Engine, Unity and Godot; Git servers GitHub, GitLab, Azure DevOps and Gitea.",
+      "features": [
+        "Git with binary support",
+        "Selective checkout",
+        "File locking",
+        "Reviews and approvals",
+        "Unreal Game Sync for Git"
+      ],
+      "summary": "Wraps Git with locking, selective checkout and review tools aimed at artists, with named studios among its customers.",
+      "verdict": "Anchorpoint keeps the studio on Git while adding what artists miss in plain Git: file locking, selective checkout of large asset folders and an approval step for reviews. The vendor lists support for Unreal Engine, Unity and Godot, and it connects to GitHub, GitLab, Azure DevOps and Gitea servers, so the repository stays portable. It names Supercell, InnoGames and Cipsoft as customers, and the German company behind it publishes a Koblenz address. That mix of Git portability and art-team tooling earns the second slot.",
+      "weaknesses": "It runs as Windows and macOS desktop apps only, so Linux workstations are out. Plan names and prices are not shown on the homepage, which makes cost comparison harder until the trial ends.",
+      "wrong_for": "Programmers who live in the command line, or studios on Linux build machines and workstations, should look at Git LFS with a hosted server, or at Perforce for centralized control.",
+      "sources": [
+        {
+          "fact": "The homepage describes Anchorpoint as a Git-based version control tool for 3D and real-time production files.",
+          "url": "https://anchorpoint.app"
+        },
+        {
+          "fact": "Anchorpoint Software GmbH is the company name in the homepage footer copyright line.",
+          "url": "https://anchorpoint.app"
+        },
+        {
+          "fact": "The homepage offers a 14-day free trial download; plan names and prices are not stated.",
+          "url": "https://anchorpoint.app"
+        }
+      ]
+    },
+    {
+      "slug": "perforce-helix-core",
+      "name": "Perforce Helix Core",
+      "site": "https://www.perforce.com/products/helix-core",
+      "company": "Perforce Software Inc.",
+      "country": "",
+      "tagline": "Centralized version control for code and large digital assets",
+      "best_for": "Large studios, huge repositories",
+      "pricing": "The vendor says P4 is free for up to 5 users and 20 workspaces, and lists P4 Cloud at $39 per user per month for teams under 100.",
+      "pricing_model": "Per user / month",
+      "free_plan": "Free",
+      "platforms": "Operating systems not stated; integrations include GitHub, GitLab, Bitbucket, Jenkins, Unity, Unreal Engine, Visual Studio, Jira, Maya and Slack.",
+      "features": [
+        "Exclusive file locking",
+        "Delta transfers",
+        "Streams",
+        "Proxy and edge servers",
+        "P4 Visual Client"
+      ],
+      "summary": "The long-standing depot model for huge binary repositories, with exclusive locking, edge servers and a free tier for five users.",
+      "verdict": "Perforce earns its place through scale features that other tools on this list lack: exclusive file locking, delta transfers, streams for branching, and proxy and edge servers for distributed offices. The vendor claims it is trusted by 19 of the top 20 AAA game studios, though it names none of them, and it lists Unity, Unreal Engine, Maya and Jenkins integrations. The free tier of five users and 20 workspaces lets a small team try it before paying $39 per user per month for P4 Cloud.",
+      "weaknesses": "Administration is heavier than for Git-based tools: someone has to own server, permissions and streams layout. The opened page does not state operating systems, and the $39 price applies only to teams under 100.",
+      "wrong_for": "A team of artists who want a friendly desktop client without server administration should start with Unity Version Control or Anchorpoint and move to Perforce when the repository outgrows them.",
+      "sources": [
+        {
+          "fact": "The page says P4 is free for up to 5 users and 20 workspaces, and lists P4 Cloud at 'only $39/user/month' for teams under 100.",
+          "url": "https://www.perforce.com/products/helix-core"
+        },
+        {
+          "fact": "The page describes P4 as a version control platform for code and large digital assets.",
+          "url": "https://www.perforce.com/products/helix-core"
+        },
+        {
+          "fact": "The page names DNEG and Halon Entertainment as customers.",
+          "url": "https://www.perforce.com/products/helix-core"
+        }
+      ]
+    },
+    {
+      "slug": "diversion",
+      "name": "Diversion",
+      "site": "https://diversion.dev/",
+      "company": "Diversion Company, Inc.",
+      "country": "",
+      "tagline": "Cloud version control for very large repositories",
+      "best_for": "Unreal teams leaving Perforce",
+      "pricing": "Diversion lists no plan prices on its homepage; it advertises a free Unreal Engine integration and says there are no annual licensing traps.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Unreal Engine (with UGS and Horde support), Unity, and Perforce migration; web-based desktop app, IDE plugins, CLI and API.",
+      "features": [
+        "Partial and shallow checkouts",
+        "Smart branching and merging",
+        "Real-time synchronization",
+        "Depot-to-repo conversion",
+        "GitHub mirroring"
+      ],
+      "summary": "A newer cloud service that targets Perforce users with depot conversion, partial checkouts and an Unreal integration.",
+      "verdict": "Diversion positions itself directly against Perforce. Its homepage describes a version control and collaboration platform for very large repositories, with partial and shallow checkouts, real-time synchronization, depot-to-repo conversion and GitHub mirroring. It supports Unreal Engine (including UGS and Horde) and Unity, plus a desktop app, IDE plugins, a CLI and an API. The vendor claims costs up to 70% lower than Perforce, which is a marketing figure we could not check. Fourth place reflects missing public prices rather than missing features.",
+      "weaknesses": "No plan prices appear on the opened homepage, and we did not open the pricing page, so the cost claim cannot be verified here. As a younger product it has a shorter track record on very large game projects than Perforce.",
+      "wrong_for": "Teams that need published, comparable pricing today should look at Unity Version Control or Perforce, both of which state a free tier and a per-user figure.",
+      "sources": [
+        {
+          "fact": "The homepage offers a 'Free Unreal Engine integration, officially recommended by Epic' and says 'no annual licensing traps'; no plan prices are listed.",
+          "url": "https://diversion.dev"
+        },
+        {
+          "fact": "The homepage supports Unreal Engine, Unity and Perforce migration, and offers a desktop app, IDE plugins, CLI and API.",
+          "url": "https://diversion.dev"
+        },
+        {
+          "fact": "The homepage describes Diversion as a version control and collaboration platform for very large repositories.",
+          "url": "https://diversion.dev"
+        }
+      ]
+    },
+    {
+      "slug": "git-lfs",
+      "name": "Git LFS",
+      "site": "https://git-lfs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Open source Git extension for large files",
+      "best_for": "Git teams adding big assets",
+      "pricing": "Pricing is not stated on the vendor page; Git LFS is described as an open source project, and storage costs depend on the Git host you pair it with.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows, macOS (Intel and Apple Silicon) and Linux (x86-64); installable via Homebrew, MacPorts and PackageCloud.",
+      "features": [
+        "Large file versioning",
+        "Faster cloning and fetching",
+        "Same Git workflow",
+        "Same access controls",
+        "Extra repository space"
+      ],
+      "summary": "Keeps big files out of the Git history by storing pointers, so the normal Git workflow and permissions carry over.",
+      "verdict": "Git LFS solves one problem cleanly: large files live on a remote server while the repository holds small text pointers, which keeps clones and fetches quicker. The vendor page says the Git workflow and access controls stay the same, and it lists Windows, macOS (Intel and Apple Silicon) and Linux x86-64. Installation works through Homebrew, MacPorts and PackageCloud. For a studio that already hosts code on Git, it is the lowest-friction way to version textures and audio, though it does not add locking features by itself on the opened page.",
+      "weaknesses": "The opened page does not mention file locking, merge handling for binaries or a licence name. Whoever hosts the Git server decides storage limits and bandwidth costs, which the vendor page does not discuss.",
+      "wrong_for": "Artists who need exclusive locks and a visual client out of the box should choose Anchorpoint or Perforce instead of assembling Git, LFS and a separate GUI.",
+      "sources": [
+        {
+          "fact": "The Git LFS homepage describes it as an open source Git extension for keeping large files on a remote server.",
+          "url": "https://git-lfs.com"
+        },
+        {
+          "fact": "The page lists support for Windows, macOS (Intel and Apple Silicon) and Linux (x86-64).",
+          "url": "https://git-lfs.com"
+        },
+        {
+          "fact": "The page says Git LFS keeps the same Git workflow and access controls while adding more repository space and faster cloning.",
+          "url": "https://git-lfs.com"
+        }
+      ]
+    },
+    {
+      "slug": "fork",
+      "name": "Fork",
+      "site": "https://git-fork.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Paid desktop Git client for Mac and Windows",
+      "best_for": "Programmers wanting a fast Git GUI",
+      "pricing": "The homepage shows $59.99 for each platform and offers a free evaluation.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Mac (OS X 10.11+) and Windows (Windows 7+).",
+      "features": [
+        "Interactive rebase",
+        "Merge conflict tools",
+        "Image diffs",
+        "GitHub notifications",
+        "Git LFS support"
+      ],
+      "summary": "A one-time-priced Git client with image diffs and LFS support, useful for programmers rather than whole art teams.",
+      "verdict": "Fork is a client, not a server: it gives programmers a quick interface over Git with interactive rebase, merge conflict handling, GitHub notifications, submodules and Git LFS support. The image diff view helps when reviewing texture changes. It costs $59.99 per platform with a free evaluation, according to the homepage, so a mixed Mac and Windows team pays for both. It sits mid-table because it improves the Git experience without adding the locking or large-repository features studios often need.",
+      "weaknesses": "It supports only Mac (OS X 10.11 or newer) and Windows (7 or newer); there is no Linux client on the opened page. The licence is per platform, and nothing on the page covers file locking.",
+      "wrong_for": "Teams that need server-side locking and artist approval flows should pick Anchorpoint; those wanting a no-cost GUI can use Sourcetree.",
+      "sources": [
+        {
+          "fact": "The homepage shows a price of $59.99 for each platform, with a 'free evaluation' option.",
+          "url": "https://git-fork.com"
+        },
+        {
+          "fact": "The homepage lists Mac (OS X 10.11+) and Windows (Windows 7+) as supported platforms.",
+          "url": "https://git-fork.com"
+        },
+        {
+          "fact": "The homepage features Interactive Rebase, Merge Conflicts, Image Diffs and GitHub Notifications.",
+          "url": "https://git-fork.com"
+        }
+      ]
+    },
+    {
+      "slug": "sourcetree",
+      "name": "Sourcetree",
+      "site": "https://www.sourcetreeapp.com/",
+      "company": "Atlassian",
+      "country": "",
+      "tagline": "Free Git graphical client from Atlassian",
+      "best_for": "Free Git GUI for Windows and Mac",
+      "pricing": "The homepage says to download Sourcetree for free and describes no paid tiers.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Mac OS X and Windows; works with Git and Mercurial (Hg).",
+      "features": [
+        "Git Large File Support",
+        "Git-flow",
+        "Submodules",
+        "Interactive rebase",
+        "Local commit search"
+      ],
+      "summary": "A no-cost Git GUI with LFS and Git-flow support, limited to Windows and macOS.",
+      "verdict": "Sourcetree costs nothing and covers the Git basics through a visual interface: Git Large File Support, Git-flow, submodules, interactive rebase and local commit search, plus a remote repository manager. It works with Git and Mercurial, and Atlassian lists an enterprise edition for Windows. For small teams on a tight budget, pairing it with Git LFS gives a workable if basic game repository. A testimonial from Red Giant appears on the page. Ranking is held back because it adds no locking or binary-specific tooling.",
+      "weaknesses": "Only Mac OS X and Windows are named, so Linux users are excluded. The page does not describe file locking or large-repository optimizations, and any binary handling relies on Git LFS.",
+      "wrong_for": "Studios with many artists should pick a tool built around locking, such as Unity Version Control, rather than a general-purpose Git client.",
+      "sources": [
+        {
+          "fact": "The Sourcetree homepage describes it as a free Git graphical client for Windows and Mac.",
+          "url": "https://www.sourcetreeapp.com"
+        },
+        {
+          "fact": "The footer copyright reads '© 2026 Atlassian'.",
+          "url": "https://www.sourcetreeapp.com"
+        },
+        {
+          "fact": "The homepage lists Git Large File Support, Git-flow and submodule support among its features.",
+          "url": "https://www.sourcetreeapp.com"
+        }
+      ]
+    },
+    {
+      "slug": "subversion",
+      "name": "Subversion",
+      "site": "https://subversion.apache.org/",
+      "company": "Apache Software Foundation",
+      "country": "",
+      "tagline": "Apache open source centralized version control",
+      "best_for": "Teams with existing SVN servers",
+      "pricing": "The vendor page does not state a price; Subversion is an open source project under the Apache License 2.0.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "",
+      "features": [
+        "Centralized repository",
+        "Open source licensing",
+        "Apache Software Foundation project"
+      ],
+      "summary": "An established open source system many studios still run for binary assets, but the opened page lists no features.",
+      "verdict": "Apache Subversion is an open source version control system developed as a project of the Apache Software Foundation, and its footer names the Apache License, Version 2.0. Studios that grew up on SVN often keep it for art assets because the centralized model suits large binary files better than a distributed clone. The homepage links to a features section, but the opened page names none, so we cannot confirm locking or performance claims here. It is placed in the lower half because of that thin evidence and the lack of game-specific tools.",
+      "weaknesses": "No features, platforms or support options are named on the opened page, and there is no game-specific client or engine integration listed. Hosting and maintenance fall entirely on the team.",
+      "wrong_for": "Anyone starting fresh in 2026 should begin with Unity Version Control or Perforce, which state locking and game engine integrations outright.",
+      "sources": [
+        {
+          "fact": "The Subversion homepage describes it as an open source version control system.",
+          "url": "https://subversion.apache.org"
+        },
+        {
+          "fact": "The page says Subversion is developed as a project of the Apache Software Foundation.",
+          "url": "https://subversion.apache.org"
+        },
+        {
+          "fact": "The footer states the Apache License, Version 2.0.",
+          "url": "https://subversion.apache.org"
+        }
+      ]
+    },
+    {
+      "slug": "github",
+      "name": "GitHub",
+      "site": "https://github.com/",
+      "company": "GitHub, Inc.",
+      "country": "",
+      "tagline": "Git hosting with Actions, review and security tools",
+      "best_for": "Code-focused teams on Git",
+      "pricing": "The homepage offers an Enterprise free trial and a link to plans and pricing, but states no plan prices.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "",
+      "features": [
+        "Copilot",
+        "Actions",
+        "Code security",
+        "Codespaces",
+        "GitHub CLI"
+      ],
+      "summary": "The default Git host for code, with review and automation, but the opened page says nothing about large game assets.",
+      "verdict": "GitHub hosts repositories and adds code review, Actions for automation, Codespaces, a CLI, Copilot and security products. Customers named on the homepage include Duolingo, FedEx and Mercado Libre, none of them game studios. For a game team it works well for gameplay code and tooling, and it pairs with Git LFS or Anchorpoint for assets. We list it ninth because the opened homepage does not discuss large binaries, locking or game engines, and plan prices are not shown.",
+      "weaknesses": "No plan prices appear on the opened page, and the page does not mention binary file limits or locking. Large asset repositories need an add-on such as Git LFS, whose storage rules the page does not describe.",
+      "wrong_for": "Art-heavy teams should not rely on GitHub alone; look at Perforce or Unity Version Control for the asset repository.",
+      "sources": [
+        {
+          "fact": "The homepage describes its GitHub product as repository hosting, code review and collaboration.",
+          "url": "https://github.com"
+        },
+        {
+          "fact": "The homepage offers 'Start Enterprise free trial' and links 'See plans and pricing'; plan prices are not stated.",
+          "url": "https://github.com"
+        },
+        {
+          "fact": "The homepage names Duolingo, FedEx, American Airlines, Postmates and Mercado Libre among its customers.",
+          "url": "https://github.com"
+        }
+      ]
+    },
+    {
+      "slug": "gitlab",
+      "name": "GitLab",
+      "site": "https://gitlab.com/",
+      "company": "GitLab, Inc.",
+      "country": "",
+      "tagline": "DevSecOps platform with a free tier and published prices",
+      "best_for": "Teams wanting Git plus built-in CI",
+      "pricing": "GitLab lists Free at $0 per user per month, Premium at $29 per user per month billed annually, and Ultimate at custom pricing.",
+      "pricing_model": "Per user / month",
+      "free_plan": "Free",
+      "platforms": "",
+      "features": [
+        "Advanced CI/CD",
+        "Static application security testing",
+        "Project management",
+        "Compliance and governance"
+      ],
+      "summary": "One application for repositories, CI/CD and security, with published tiers starting at a free plan.",
+      "verdict": "GitLab publishes prices plainly: Free at $0, Premium at $29 per user per month billed annually, Ultimate on request. The free tier covers 5 users per top-level group, 400 compute minutes a month and 10 GiB of storage, which is tight for a game project but fine for tooling. Customers named on the pricing page include NVIDIA and Ericsson. It ranks above GitHub on this page because the price sheet is open and CI/CD ships in the same product, though game binaries still need LFS.",
+      "weaknesses": "The 10 GiB free storage and 400 compute minutes are small for asset-heavy projects, and the pricing page says nothing about game engines or file locking. A self-managed setup adds administration.",
+      "wrong_for": "Studios whose main pain is huge binary repositories should start with Perforce or Unity Version Control instead of a general DevOps suite.",
+      "sources": [
+        {
+          "fact": "The pricing page lists a Free tier at $0 per user/month, Premium at $29 per user/month billed annually, and Ultimate at custom pricing.",
+          "url": "https://about.gitlab.com/pricing/"
+        },
+        {
+          "fact": "The GitLab pricing page describes GitLab as an intelligent orchestration platform for DevSecOps.",
+          "url": "https://about.gitlab.com/pricing/"
+        },
+        {
+          "fact": "The pricing page names NVIDIA, Barclays, Lockheed Martin, Thales, Ericsson and Deutsche Telekom among its customers.",
+          "url": "https://about.gitlab.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "azure-devops",
+      "name": "Azure DevOps",
+      "site": "https://azure.microsoft.com/en-us/products/devops/",
+      "company": "Microsoft",
+      "country": "",
+      "tagline": "Microsoft suite of repos, boards, pipelines and test plans",
+      "best_for": "Teams already on Microsoft tooling",
+      "pricing": "The product page does not state plan prices; it mentions flexible licensing for bundles and individual services and pay as you go.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Pipelines run in parallel on Linux, macOS and Windows and can deploy to any cloud or on-premises environment.",
+      "features": [
+        "Azure Repos",
+        "Azure Pipelines",
+        "Azure Boards",
+        "Azure Test Plans",
+        "Azure Artifacts"
+      ],
+      "summary": "A broad suite with Git repos and pipelines on Linux, macOS and Windows, but no prices or game specifics on the opened page.",
+      "verdict": "Azure DevOps bundles Azure Repos, Boards, Pipelines, Test Plans and Artifacts, and its pipelines run in parallel on Linux, macOS and Windows. Integrations with GitHub, Slack, Docker and Sentry are listed, along with customers such as Novo Nordisk and Vodafone. A studio already inside Microsoft services could keep source, tickets and builds under one roof. We rank it last here because the opened page gives no prices, no free tier limits and nothing about large binaries or locking.",
+      "weaknesses": "Prices and free tier limits are not stated on the opened page, and nothing indicates game-oriented handling of big assets. The suite is broader than a version control decision needs.",
+      "wrong_for": "Small studios looking only for a repository should choose a focused tool such as Anchorpoint or Unity Version Control.",
+      "sources": [
+        {
+          "fact": "The page lists Azure Boards, Azure Pipelines, Azure Test Plans, Azure Repos and Azure Artifacts among its services.",
+          "url": "https://azure.microsoft.com/en-us/products/devops/"
+        },
+        {
+          "fact": "The page says plan prices are not stated and mentions flexible licensing options for bundles and individual services.",
+          "url": "https://azure.microsoft.com/en-us/products/devops/"
+        },
+        {
+          "fact": "The page names Novo Nordisk, Visma, Vodafone and Lumen among its customers.",
+          "url": "https://azure.microsoft.com/en-us/products/devops/"
+        }
+      ]
+    }
+  ]
+}

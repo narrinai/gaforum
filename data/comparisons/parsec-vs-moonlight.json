@@ -1,0 +1,163 @@
+{
+  "slug": "parsec-vs-moonlight",
+  "a": "parsec",
+  "b": "moonlight",
+  "a_name": "Parsec",
+  "b_name": "Moonlight",
+  "a_site": "https://parsec.app/",
+  "b_site": "https://moonlight-stream.org",
+  "category": "best-remote-play-and-game-streaming-software",
+  "title": "Parsec vs Moonlight: Which Fits Your Team in 2026?",
+  "description": "Parsec is a subscription remote desktop with a Teams plan; Moonlight is an open source game streaming client. Compare price, platforms, quality and setup.",
+  "published": "2026-11-18",
+  "intro": "Parsec is a hosted remote desktop and streaming app with paid Pro and Teams plans, and Moonlight is an open source client that streams a PC's games to almost any device. They solve a similar problem with different ownership: Parsec is a company service you subscribe to, while Moonlight is a free client you pair with a host you run yourself. This page compares price, platforms, stated quality limits and setup effort, and explains where each vendor's page left a gap.",
+  "verdict": "Teams that need accounts, a Teams plan and a vendor to call when sessions fail have a reason to pay for Parsec. Individuals and tinkerers who own a capable host PC, want zero license cost and are comfortable configuring a server will find Moonlight cheaper and more flexible on client devices. Latency depends on your network and hardware, and neither vendor page gave a latency number.",
+  "pick_a": "Pick Parsec if you want a managed service with a trial, a Teams plan, and remote desktop use for work as well as games.",
+  "pick_b": "Pick Moonlight if you want an open source client on many devices, you will host with Sunshine or similar, and you do not want a subscription.",
+  "rows": [
+    {
+      "label": "What it is",
+      "a": "Remote desktop for work, games or projects",
+      "b": "Open source game streaming client"
+    },
+    {
+      "label": "License model",
+      "a": "Subscription",
+      "b": "Open source"
+    },
+    {
+      "label": "Entry price",
+      "a": "Pro shown at $9.99 or $8.33, depending on billing toggle",
+      "b": "No price listed on the vendor site"
+    },
+    {
+      "label": "Team option",
+      "a": "Teams plan shown at $35 or $30",
+      "b": "None; community project"
+    },
+    {
+      "label": "Free option",
+      "a": "Free trial via Start Trial",
+      "b": "Free open source client"
+    },
+    {
+      "label": "Stated quality",
+      "a": "4:4:4 color mode in the professional plan",
+      "b": "Up to 4K with HDR and up to 120 FPS, per the site"
+    },
+    {
+      "label": "Host side",
+      "a": "Parsec software connects hosts and clients",
+      "b": "Pairs with a host, such as Sunshine for self-hosted streaming"
+    },
+    {
+      "label": "Client platforms",
+      "a": "Not listed on the pages opened",
+      "b": "Windows, macOS, Linux, Steam Link, iOS, Android, Amazon FireOS, ChromeOS, Xbox One and Series S|X"
+    },
+    {
+      "label": "Protocol base",
+      "a": "Vendor's own",
+      "b": "Open source implementation of NVIDIA's GameStream protocol"
+    },
+    {
+      "label": "Main strength",
+      "a": "Managed accounts and team features",
+      "b": "No cost and wide client reach"
+    },
+    {
+      "label": "Main limit",
+      "a": "Recurring fee for paid features",
+      "b": "You run and troubleshoot the host"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Service versus software",
+      "text": [
+        "Parsec describes itself as a remote desktop for connecting to work, games or projects wherever you are. That wording covers a studio artist reaching an office workstation as much as a friend joining a couch co-op session.",
+        "Moonlight describes itself as an open source game streaming client that lets users play their PC games remotely on almost any device. It is an implementation of NVIDIA's GameStream protocol. The difference in scope shows in the feature lists: Parsec lists low-latency remote desktop, 4:4:4 color and a Teams plan, while Moonlight lists game streaming from a PC and a self-hosted cloud gaming server option with Sunshine."
+      ]
+    },
+    {
+      "h2": "Cost on the page",
+      "text": [
+        "The Parsec pricing page shows $9.99 and $8.33 for the Pro plan, with a toggle between monthly and annual billing, and a Teams plan at $35 and $30 with a Start Trial button. We did not see which figure maps to which billing period beyond the toggle, and prices can change.",
+        "Moonlight's site lists no price and describes an open source client. Software is not the whole bill, though. A self-hosted setup needs a host PC that stays on, a decent upload connection and time for configuration."
+      ]
+    },
+    {
+      "h2": "Stated quality ceilings",
+      "text": [
+        "The Moonlight site says it can stream at up to 4K with HDR and at up to 120 FPS with the PC client. Parsec's pricing page mentions improved colors through 4:4:4 color mode in its professional plan, which matters for text clarity and design work more than for fast action games.",
+        "These are different kinds of claims, so they cannot be ranked against each other. A designer reviewing sharp UI text might care about color mode. A player on a living room TV might care about frame rate and HDR."
+      ]
+    },
+    {
+      "h2": "Where each one runs",
+      "text": [
+        "The Moonlight site lists client downloads for Windows, macOS, Linux, Steam Link, iOS, Android, Amazon FireOS, ChromeOS and Xbox One and Xbox Series S|X. That is a broad set, and it includes living room hardware.",
+        "The Parsec pages we opened did not list platforms. Check the download page for the operating systems of both host and client before you commit, especially if your remote machine is not Windows."
+      ]
+    },
+    {
+      "h2": "Support and responsibility",
+      "text": [
+        "With a paid service, someone answers when a session drops. Parsec has a support center with categories for the app and for Teams. For a team that depends on remote workstations, that matters.",
+        "With Moonlight you read community documentation, including a setup guide and troubleshooting pages on its wiki, and you fix problems yourself. Many players prefer that trade. Compare other options in [best remote play and game streaming software](/software/best-remote-play-and-game-streaming-software)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Moonlight really free?",
+      "a": "The vendor site lists no price and describes an open source client. You still need a host PC and a way to run the server side, so factor in hardware and time."
+    },
+    {
+      "q": "What does Parsec cost?",
+      "a": "The pricing page shows the Pro plan at $9.99 and $8.33, depending on a monthly or annual toggle, and Teams at $35 and $30, with a Start Trial option."
+    },
+    {
+      "q": "Which supports more client devices?",
+      "a": "Moonlight lists many clients, from Windows and macOS to iOS, Android, Steam Link and Xbox consoles. Parsec's pages we opened gave no platform list."
+    },
+    {
+      "q": "Which has better latency?",
+      "a": "Neither page we read gave a latency figure, and results depend on network and hardware. Test both between the same two machines."
+    },
+    {
+      "q": "Can I use Parsec for non-game work?",
+      "a": "Yes, it describes itself as a remote desktop for work, games or projects, and offers a Teams plan."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Parsec describes itself as a remote desktop for connecting to work, games or projects wherever you are.",
+      "url": "https://parsec.app/"
+    },
+    {
+      "fact": "The pricing page shows $9.99 and $8.33 for the Pro plan, with a toggle between monthly and annual billing.",
+      "url": "https://parsec.app/pricing"
+    },
+    {
+      "fact": "The pricing page lists a Teams plan at $35 and $30 and offers a Start Trial.",
+      "url": "https://parsec.app/pricing"
+    },
+    {
+      "fact": "The pricing page mentions improved colors through 4:4:4 color mode in its professional plan.",
+      "url": "https://parsec.app/pricing"
+    },
+    {
+      "fact": "Moonlight is an open source game streaming client that lets users play their PC games remotely on almost any device.",
+      "url": "https://moonlight-stream.org"
+    },
+    {
+      "fact": "The Moonlight site says it can stream at up to 4K with HDR and at up to 120 FPS with the PC client.",
+      "url": "https://moonlight-stream.org"
+    },
+    {
+      "fact": "The Moonlight site lists client downloads for Windows, macOS, Linux, Steam Link, iOS, Android, Amazon FireOS, ChromeOS and Xbox One and Xbox Series S|X.",
+      "url": "https://moonlight-stream.org"
+    }
+  ]
+}

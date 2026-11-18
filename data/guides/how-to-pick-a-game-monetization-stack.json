@@ -1,0 +1,194 @@
+{
+  "slug": "how-to-pick-a-game-monetization-stack",
+  "title": "How to Pick a Game Monetization Stack",
+  "description": "Choose how your game earns before choosing tools: match the revenue model to store rules, then add payments, ad mediation and measurement in a sensible order.",
+  "kind": "Field guide",
+  "topic": "Game development",
+  "published": "2026-11-18",
+  "intro": "A game monetization stack is the set of services that collect money or ad revenue and prove where it came from: a payment layer for purchases, an ad network or mediation layer if you show ads, and analytics and attribution to measure both. Pick the revenue model first, because store rules decide which pieces are allowed. Steam does not accept ad-funded games, for example, while mobile stores take a commission on in-app purchases. This guide orders the decisions so you buy only what your model needs.",
+  "key_takeaways": [
+    "Choose the revenue model (premium, free-to-play, ads, subscription) before choosing any vendor.",
+    "Store rules and fees are fixed inputs; read them before modeling revenue.",
+    "Ads need a mediation layer so networks compete per impression; premium PC games need almost none of this stack.",
+    "A direct web shop can lower the commission on mobile and PC, but adds support and tax duties unless the vendor acts as merchant of record.",
+    "Add measurement early; retrofitting analytics after launch leaves a gap in the data you most need."
+  ],
+  "sections": [
+    {
+      "h2": "Fix the revenue model, then the platform",
+      "paras": [
+        "Four models cover most indie games: a one-time purchase, free-to-play with in-game purchases, ad-supported play, and recurring subscriptions or passes. Many shipped games mix two of them, but each extra model adds integration work and player-facing complexity. Pick a primary model, and add a secondary only when you can explain why players would accept it.",
+        "The platform narrows your choices more than preference does. Steamworks pricing documentation states that Steam does not support paid ads or referral revenue from showing ads for other games or products, and says that a game whose revenue relies on advertising on other platforms needs another model, suggesting a single purchase, or free-to-play with microtransactions or DLC. It also says Steam does not support models in which a customer is blocked and must pay to continue playing, though free demos are welcome. So a PC game bound for Steam is a premium or free-to-play title, and an ad network is the wrong tool for it."
+      ]
+    },
+    {
+      "h2": "Read the fee schedules as fixed inputs",
+      "paras": [
+        "Platform fees reduce every purchase made inside the store, so model revenue after the fee, not before it. A few published facts, as of 18 November 2026:",
+        "Steam charges a Steam Direct fee of 100 US dollars per product you distribute, which the Steamworks Partner Program page says is not refundable but is recoupable in a payment after the product has at least 1,000 US dollars in adjusted gross revenue; it also describes a 21-day waiting period between paying the fee and releasing the game. Apple's App Store Small Business Program offers a reduced commission of 15 percent on paid apps and in-app purchases to developers who earned up to 1 million US dollars in proceeds in the prior calendar year, and new developers qualify too; if you pass the threshold, the standard rate applies to later sales. Google's Play Console page says there is no single service fee, that 97 percent of developers pay no service fee, and that for markets where updated fees have not yet been rolled out, the rate is 15 percent on the first 1 million US dollars earned each year and 30 percent above it, with 15 percent on automatically renewing subscriptions.",
+        "These pages change. Check them again on the week you finalize your pricing, and keep the date next to any number in your financial model."
+      ]
+    },
+    {
+      "h2": "A decision order that saves rework",
+      "paras": [
+        "Make the following decisions in this order. Each one narrows the next, and skipping ahead usually means redoing integration work."
+      ],
+      "list": [
+        "Primary revenue model and target platforms.",
+        "Where purchases happen: only inside the store, or also on your own web shop.",
+        "Who handles tax and compliance on direct sales: you, a payment processor, or a merchant of record.",
+        "Whether you show ads, and if so, which formats and which mediation layer.",
+        "Analytics and attribution, covering both purchases and ad revenue.",
+        "A cadence for reviewing results and changing prices or placements."
+      ],
+      "ordered": true
+    },
+    {
+      "h2": "Payments and web shops",
+      "paras": [
+        "If you sell in-game items outside the store, you need a checkout and, usually, someone to handle sales tax and local payment methods. Our ranking of [game payment and web shop platforms](/software/best-game-payment-and-web-shop-platforms) lists verified vendors, and they fall into two groups.",
+        "Gaming-focused commerce platforms include Xsolla, which says its Web Shop lets studios keep up to 95 percent of each sale and lists 1,000-plus payment methods across 200-plus geographies on its About page; Appcharge, which describes branded web stores for mobile game publishers and states that it acts as merchant of record; and Tebex, which says it processes 1.5 billion dollars and supports 130-plus payment methods. General payment and merchant-of-record services include Stripe, Paddle and FastSpring. Paddle describes itself as a merchant of record built for SaaS and apps, and FastSpring's homepage lists a video games use case and a flat-rate pricing page.",
+        "The important distinction is merchant of record. A merchant of record is the legal seller, so it collects and remits sales tax and handles disputes for you. A processor alone moves money and leaves tax duties with you. For a team of a few people selling worldwide, that difference is often worth more than a small difference in percentage fees. Check each vendor's pricing page for current rates, since several of the vendors above publish no figures on their public pages."
+      ]
+    },
+    {
+      "h2": "Ads and mediation, if the model includes them",
+      "paras": [
+        "Ad-supported mobile games rarely use a single network. A mediation layer lets several networks bid for each impression so the best price wins. Google AdMob's page says all participating networks compete at the same priority and the highest-paying bid wins each impression, and states that more than 1 million apps use it. Unity LevelPlay describes itself as an ad mediation platform, with integration available from the Unity Editor and an SDK.",
+        "Our ranking of [mobile game ad networks and mediation](/software/best-mobile-game-ad-networks-and-mediation) lists more options, including Pangle, Mintegral, Liftoff, Chartboost and Moloco. Start with one mediation layer and two or three networks. Each added network brings another SDK, more app size and more privacy disclosure, and the gain from the sixth network is usually small.",
+        "Ads change player behavior. Rewarded formats, where a player chooses to watch a video for a benefit, tend to sit better inside a game loop than forced interruptions, but you should confirm that in your own retention data rather than assume it."
+      ]
+    },
+    {
+      "h2": "Measurement from day one",
+      "paras": [
+        "A monetization stack is only as good as your ability to see what it does. You need two views: what players do in the game, and where they came from. Game analytics tools such as GameAnalytics and PlayFab record events and economy data; the GameAnalytics site lists a Startup pricing program for venture-backed studios, and PlayFab's page describes a free-to-start tier with pay-as-you-go pricing. Attribution tools connect installs to ad campaigns; AppsFlyer's pricing page lists a free Zero plan with a Welcome Package of 12,000 free conversions for the first year, and conversions at 0.07 dollars each on the Growth plan after that.",
+        "Decide which events you will track before you write them in code. At a minimum: first session, tutorial completion, first purchase, each ad view with its revenue, and the days since install on every event. Our guide to [game analytics KPIs](/guides/game-analytics-kpis-explained) explains how to read them, and our ranking of [game analytics software](/software/best-game-analytics-software) compares tools."
+      ]
+    },
+    {
+      "h2": "Sample stacks for three kinds of game",
+      "paras": [
+        "These are starting points, not prescriptions. Substitute vendors from the rankings as your needs differ."
+      ],
+      "list": [
+        "Premium PC game on Steam: the store handles payment. Add DLC through the store, an analytics tool of your choice for crash and progression data, and a web shop only if you sell outside Steam, such as a launcher you operate.",
+        "Free-to-play mobile game with ads: one mediation layer, two or three networks, store billing for in-app purchases, an attribution tool, and a game analytics tool for economy data. Add a web shop later, once purchases justify it.",
+        "Live-service PC game with cosmetics: store billing for in-store purchases, a web shop run by a merchant of record for direct sales, an analytics tool for economy and retention, and a backend for inventory. See [liveops planning](/guides/how-to-plan-a-game-liveops-calendar) for how to schedule offers."
+      ]
+    },
+    {
+      "h2": "Review before you integrate anything",
+      "paras": [
+        "Run through these questions for each vendor you are considering, and write the answers in one document the whole team can see.",
+        "What does the vendor's public page say about pricing and, if it says nothing, who will you ask? Does it act as merchant of record? Which store policies does the integration have to satisfy? How much does the SDK add to your build size? What happens to your data and to your players' data if you leave? Who answers when a payment fails on a Saturday?",
+        "Vendors that cannot answer these questions in writing before you sign are likely to be hard to deal with after you have integrated them. Treat the answers as part of the price."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a game on Steam use ads for revenue?",
+      "a": "Not as its revenue model. Steamworks documentation says Steam does not support paid ads or referral revenue from showing ads for other games or products. It suggests selling the game as a single purchase, or making it free-to-play with microtransactions or DLC. Games that block players until they pay are also not supported."
+    },
+    {
+      "q": "What does merchant of record mean for a web shop?",
+      "a": "It means the vendor is the legal seller to the customer. It collects and remits sales tax and handles payment disputes, which a plain payment processor does not do. Appcharge says it acts as merchant of record, and Paddle and FastSpring describe merchant-of-record models. Confirm the arrangement in the vendor's contract."
+    },
+    {
+      "q": "How many ad networks should a small mobile game use?",
+      "a": "Start with one mediation layer and two or three networks. Mediation platforms such as AdMob let networks compete on each impression, so you gain most of the benefit with a few. Every additional network adds an SDK, app size and privacy disclosure, so add them only when data shows a gain."
+    },
+    {
+      "q": "Does the Apple commission always equal 30 percent?",
+      "a": "No. Apple's Small Business Program gives a reduced 15 percent commission on paid apps and in-app purchases to developers whose proceeds were up to 1 million US dollars in the prior calendar year, and to new developers. Above that threshold the standard rate applies to later sales, so check the program page."
+    },
+    {
+      "q": "When should I set up analytics?",
+      "a": "Before launch, ideally before your first external playtest. Define the events you need, including first purchase and ad revenue per view, and tag every event with the days since install. Adding analytics later leaves a gap in the earliest and most informative player data."
+    }
+  ],
+  "related_categories": [
+    "best-mobile-game-ad-networks-and-mediation",
+    "best-game-payment-and-web-shop-platforms",
+    "best-in-game-advertising-platforms"
+  ],
+  "related_guides": [
+    "game-analytics-kpis-explained",
+    "how-to-plan-a-game-liveops-calendar",
+    "how-to-build-a-multiplayer-game-backend"
+  ],
+  "sources": [
+    {
+      "title": "Pricing (Steamworks Documentation)",
+      "url": "https://partner.steamgames.com/doc/store/pricing",
+      "publisher": "Valve"
+    },
+    {
+      "title": "Steamworks Partner Program",
+      "url": "https://partner.steamgames.com/steamdirect",
+      "publisher": "Valve"
+    },
+    {
+      "title": "App Store Small Business Program",
+      "url": "https://developer.apple.com/app-store/small-business-program/",
+      "publisher": "Apple"
+    },
+    {
+      "title": "Service fees",
+      "url": "https://support.google.com/googleplay/android-developer/answer/112622",
+      "publisher": "Google Play Console Help"
+    },
+    {
+      "title": "Xsolla",
+      "url": "https://www.xsolla.com/",
+      "publisher": "Xsolla"
+    },
+    {
+      "title": "Appcharge",
+      "url": "https://www.appcharge.com/",
+      "publisher": "Appcharge"
+    },
+    {
+      "title": "Google AdMob",
+      "url": "https://admob.google.com/",
+      "publisher": "Google"
+    },
+    {
+      "title": "AppsFlyer pricing",
+      "url": "https://www.appsflyer.com/pricing/",
+      "publisher": "AppsFlyer"
+    },
+    {
+      "title": "Tebex",
+      "url": "https://www.tebex.io/",
+      "publisher": "Tebex"
+    },
+    {
+      "title": "Paddle",
+      "url": "https://www.paddle.com/",
+      "publisher": "Paddle.com Market Limited"
+    },
+    {
+      "title": "FastSpring",
+      "url": "https://fastspring.com/",
+      "publisher": "FastSpring"
+    },
+    {
+      "title": "Unity LevelPlay",
+      "url": "https://unity.com/products/levelplay",
+      "publisher": "Unity Technologies"
+    },
+    {
+      "title": "GameAnalytics pricing",
+      "url": "https://www.gameanalytics.com/pricing",
+      "publisher": "GameAnalytics"
+    },
+    {
+      "title": "PlayFab",
+      "url": "https://developer.microsoft.com/en-us/games/products/playfab/",
+      "publisher": "Microsoft"
+    }
+  ]
+}

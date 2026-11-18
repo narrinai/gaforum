@@ -1,0 +1,232 @@
+{
+  "slug": "parsec",
+  "subject": "Parsec",
+  "subject_site": "https://parsec.app/",
+  "title": "Parsec Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Ten remote play and remote desktop tools to consider instead of Parsec, including open source Moonlight and Sunshine, Steam Link, AnyDesk and Splashtop.",
+  "category": "best-remote-play-and-game-streaming-software",
+  "intro": "Parsec is a remote desktop and streaming app for connecting to work or games from anywhere; its pricing page shows a Pro plan at $9.99 or $8.33 and a Teams plan at $35 or $30, depending on billing. Alternatives matter when latency behavior, licensing or the use case differs: some tools are open source, some come from a store you already use, and some are built for IT support instead of games. This page sorts ten of them by what they do best, using only vendor pages we opened. See the [remote play and game streaming software ranking](/software/best-remote-play-and-game-streaming-software) too.",
+  "why_switch": [
+    "Parsec is a subscription product with a Teams plan, while Moonlight and Sunshine are described as open source.",
+    "Steam players may prefer Steam Remote Play since it lives inside the store they already use.",
+    "Parsec is aimed at low-latency remote desktop, whereas AnyDesk, TeamViewer and Splashtop target support and IT teams.",
+    "Those who want to rent hardware instead of using their own PC can look at GeForce NOW or Shadow.",
+    "A free Google service, Chrome Remote Desktop, covers basic access to your own computer."
+  ],
+  "picks": [
+    {
+      "slug": "moonlight",
+      "name": "Moonlight",
+      "site": "https://moonlight-stream.org",
+      "best_for": "Open source game streaming client",
+      "pricing": "The vendor lists no price; described as an open source client.",
+      "free_plan": "Open source",
+      "note": "Moonlight is an open source game streaming client that plays your PC games remotely, up to 4K with HDR and up to 120 FPS with its PC client. It runs on many clients, from Windows, macOS and Linux to iOS, Android and Xbox. It is an open source implementation of NVIDIA's GameStream protocol, so you also need a host on the PC. That setup is more manual than Parsec.",
+      "sources": [
+        {
+          "fact": "Moonlight is an open source game streaming client that lets users play their PC games remotely on almost any device.",
+          "url": "https://moonlight-stream.org"
+        },
+        {
+          "fact": "The Moonlight site says it can stream at up to 4K with HDR and at up to 120 FPS with the PC client.",
+          "url": "https://moonlight-stream.org"
+        }
+      ]
+    },
+    {
+      "slug": "sunshine",
+      "name": "Sunshine",
+      "site": "https://github.com/SunshineStream/Sunshine",
+      "best_for": "Self-hosted host for Moonlight",
+      "pricing": "Open source under the GPL-3.0 license.",
+      "free_plan": "Open source",
+      "note": "Sunshine is the host half: a self-hosted game stream host for Moonlight, licensed under GPL-3.0. Pair it with Moonlight and you have a stack you control. It is for people comfortable with self-hosting. The pages we read did not list supported platforms.",
+      "sources": [
+        {
+          "fact": "Sunshine is a self-hosted game stream host for Moonlight, according to its GitHub repository description.",
+          "url": "https://github.com/SunshineStream/Sunshine"
+        },
+        {
+          "fact": "The Sunshine repository is licensed under GPL-3.0.",
+          "url": "https://github.com/SunshineStream/Sunshine"
+        }
+      ]
+    },
+    {
+      "slug": "steam-link",
+      "name": "Steam Link",
+      "site": "https://store.steampowered.com/remoteplay",
+      "best_for": "Streaming Steam games",
+      "pricing": "No price is shown on the Remote Play page.",
+      "free_plan": "Unknown",
+      "note": "Steam Remote Play is Valve's way to stream your Steam games to other devices, linked to the Steam mobile app. It fits Steam-only households, with no separate account. It is not a general remote desktop.",
+      "sources": [
+        {
+          "fact": "The Steam Remote Play page is titled Steam Remote Play and says: Play your games in exciting new ways with Steam Remote Play.",
+          "url": "https://store.steampowered.com/remoteplay"
+        },
+        {
+          "fact": "The Steam Remote Play page links to the Steam Mobile App.",
+          "url": "https://store.steampowered.com/remoteplay"
+        }
+      ]
+    },
+    {
+      "slug": "geforce-now",
+      "name": "GeForce NOW",
+      "site": "https://www.nvidia.com/en-us/geforce-now/",
+      "best_for": "Rented RTX servers",
+      "pricing": "Paid Performance and Ultimate memberships; prices were not in the readable text.",
+      "free_plan": "Unknown",
+      "note": "GeForce NOW streams games from connected stores on NVIDIA servers, so you do not need a strong home PC. Ultimate offers 50-Series servers with up to 5K 120 resolution. It is the pick when hardware at home is the limit. You can only play titles available through its connected stores.",
+      "sources": [
+        {
+          "fact": "GeForce NOW lets players stream games from connected stores such as Steam, Epic, GOG, PC Game Pass and Ubisoft Connect.",
+          "url": "https://www.nvidia.com/en-us/geforce-now/"
+        },
+        {
+          "fact": "The membership page says the 50-Series servers enable up to 5K 120 resolution and 360 FPS, available with Ultimate.",
+          "url": "https://www.nvidia.com/en-us/geforce-now/memberships/"
+        }
+      ]
+    },
+    {
+      "slug": "anydesk",
+      "name": "AnyDesk",
+      "site": "https://support.anydesk.com",
+      "best_for": "Remote support with licences",
+      "pricing": "Licences from Solo to Ultimate; prices were not read.",
+      "free_plan": "Unknown",
+      "note": "AnyDesk is remote desktop software installed as a client to control other computers, with licences from Solo to Ultimate. It leans toward support and administration. Choose it for office use rather than gaming.",
+      "sources": [
+        {
+          "fact": "The AnyDesk help center covers getting started, pricing, licence and billing, and user guides for the AnyDesk client.",
+          "url": "https://support.anydesk.com"
+        },
+        {
+          "fact": "The AnyDesk documentation index lists AnyDesk licences from Solo to Ultimate.",
+          "url": "https://support.anydesk.com/llms.txt"
+        }
+      ]
+    },
+    {
+      "slug": "splashtop",
+      "name": "Splashtop",
+      "site": "https://www.splashtop.com",
+      "best_for": "Business remote access",
+      "pricing": "Starting plan at $6 per month billed annually at $72; individual plans from $8.25 per user per month billed annually.",
+      "free_plan": "Free trial",
+      "note": "Splashtop offers remote access for individuals and small teams, remote support for IT teams and enterprise access with SSO. It publishes clear plan prices and a free trial. It is a fit for managed business access. Gaming is not its stated focus.",
+      "sources": [
+        {
+          "fact": "Splashtop offers remote access for individuals and small teams, remote support for IT teams, and enterprise remote access and support with SSO.",
+          "url": "https://www.splashtop.com"
+        },
+        {
+          "fact": "The Splashtop pricing page lists $8.25 per user per month for individual users, billed annually at $99 per user, and offers a free trial.",
+          "url": "https://www.splashtop.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "teamviewer",
+      "name": "TeamViewer",
+      "site": "https://www.teamviewer.com/nl/",
+      "best_for": "Enterprise remote workplace",
+      "pricing": "Annual subscriptions; a free 30-day trial is listed.",
+      "free_plan": "Free trial",
+      "note": "TeamViewer describes itself as a digital workplace platform with products including TeamViewer Remote, Tensor, DEX, Frontline and ONE. It suits large organizations that need support and device management. Individuals will find it broad compared with Parsec.",
+      "sources": [
+        {
+          "fact": "TeamViewer describes itself as a digital workplace platform with products including TeamViewer Remote, Tensor, DEX, Frontline and ONE.",
+          "url": "https://www.teamviewer.com/nl/"
+        },
+        {
+          "fact": "The TeamViewer pricing overview lists a free 30-day trial for its products.",
+          "url": "https://www.teamviewer.com/nl/pricing/overview/"
+        }
+      ]
+    },
+    {
+      "slug": "jump-desktop",
+      "name": "Jump Desktop",
+      "site": "https://jumpdesktop.com",
+      "best_for": "Remote desktop for Apple users",
+      "pricing": "Prices were not read; the pricing URL returned HTTP 404.",
+      "free_plan": "Unknown",
+      "note": "Jump Desktop describes itself as fast, secure remote desktop for any computer, with separate paths for individuals and teams, a Teams security paper and enterprise licensing. It is a neutral alternative if you want a simple connection tool. Verify the current prices on its site.",
+      "sources": [
+        {
+          "fact": "Jump Desktop describes itself as fast, secure remote desktop for any computer.",
+          "url": "https://jumpdesktop.com"
+        },
+        {
+          "fact": "The Jump Desktop home page offers separate paths For Individuals and For Teams, and lists enterprise licensing.",
+          "url": "https://jumpdesktop.com"
+        }
+      ]
+    },
+    {
+      "slug": "chrome-remote-desktop",
+      "name": "Chrome Remote Desktop",
+      "site": "https://remotedesktop.google.com",
+      "best_for": "Free basic access",
+      "pricing": "No price is shown on the page opened.",
+      "free_plan": "Unknown",
+      "note": "Chrome Remote Desktop is Google's service for reaching your home or work computer or sharing your screen, from a phone, tablet or another computer. It suits occasional access. It does not advertise game streaming features.",
+      "sources": [
+        {
+          "fact": "Chrome Remote Desktop lets users access their home or work computer remotely or share their screen with others.",
+          "url": "https://remotedesktop.google.com"
+        },
+        {
+          "fact": "The Chrome Remote Desktop page says it can be used from a phone, tablet or another computer.",
+          "url": "https://remotedesktop.google.com"
+        }
+      ]
+    },
+    {
+      "slug": "shadow",
+      "name": "Shadow",
+      "site": "https://shadow.tech/eu/",
+      "best_for": "A cloud Windows PC",
+      "pricing": "Plan prices did not appear in the readable text.",
+      "free_plan": "Unknown",
+      "note": "Shadow gives you a full Windows PC in the cloud that you can launch in a browser or on devices. That replaces the need to host your own machine. It differs from Parsec in that you rent the computer instead of connecting to yours.",
+      "sources": [
+        {
+          "fact": "Shadow PC is described as the full Windows PC in the cloud, with the power of a gaming PC on the user's devices.",
+          "url": "https://shadow.tech/eu/"
+        },
+        {
+          "fact": "The site offers a Launch Shadow PC in Browser option and Shadow Drive.",
+          "url": "https://shadow.tech/eu/"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Begin with where the games run. On your own PC, compare Parsec with Moonlight plus Sunshine, or with Steam Remote Play if you only play Steam titles. If your home hardware is weak, rent instead with GeForce NOW or Shadow. If the need is office access or IT support, look at Splashtop, AnyDesk or TeamViewer. The open source route has no license fee but costs setup time, so give it an afternoon before deciding.",
+  "faqs": [
+    {
+      "q": "Which Parsec alternative is open source?",
+      "a": "Moonlight is an open source client, and Sunshine is a self-hosted host for it under GPL-3.0. Together they cover the same job as Parsec without a subscription."
+    },
+    {
+      "q": "What is the simplest option for Steam games?",
+      "a": "Steam Remote Play is built into the Steam ecosystem and links to the Steam mobile app. It does not cover non-Steam desktop use."
+    },
+    {
+      "q": "What if my PC is not powerful enough?",
+      "a": "GeForce NOW streams from NVIDIA servers and Shadow rents a full Windows PC. Both move the hardware into the cloud."
+    },
+    {
+      "q": "Which tool publishes clear prices?",
+      "a": "Splashtop lists plans from $6 per month billed annually, and Parsec shows $9.99 or $8.33 for Pro. Many others kept prices out of the text we could read."
+    },
+    {
+      "q": "Is there a free option for basic remote access?",
+      "a": "Chrome Remote Desktop lets you reach your computer remotely and share your screen. It does not advertise gaming features."
+    }
+  ]
+}

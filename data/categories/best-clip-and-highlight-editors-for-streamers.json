@@ -1,0 +1,452 @@
+{
+  "slug": "best-clip-and-highlight-editors-for-streamers",
+  "name": "clip and highlight editors for streamers",
+  "title": "Best Clip and Highlight Editors for Streamers in 2026",
+  "group": "Streaming and creators",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "AI clippers, in-game capture apps and editors that turn broadcasts and gameplay into vertical shorts for TikTok, Reels and YouTube Shorts.",
+  "definition": "A clip and highlight editor for streamers finds or records the best moments of a broadcast or play session and turns them into short, often vertical, videos for TikTok, Instagram Reels and YouTube Shorts. Some tools capture clips while you play, others use AI on a finished stream, and others are general editors for polishing the result.",
+  "intro": "Streaming produces hours of video and a few minutes worth sharing. The work is finding those minutes, cutting them, adding captions and re-framing for a phone screen. This ranking looks at ten tools for that job, covering stream-based AI clippers, in-game capture apps and general editors. We read each vendor's homepage, pricing page and feature listing, compared what is published about sources, platforms and plans, and did not run the products ourselves. Vendor claims are attributed to the vendor. Placement reflects fit for a working streamer who wants vertical clips with the least manual work. Where a price was missing from the page we read, we state that instead of guessing, and we left out tools whose pages we could not verify.",
+  "criteria": [
+    {
+      "heading": "Where the footage comes from",
+      "text": "Some tools read a live or finished stream from Twitch, YouTube or Kick, while others record your game as you play. A streamer with a daily broadcast will care most about the first group, because the clips already exist in the VOD. A player who rarely streams will prefer capture apps. We checked which sources each vendor actually names."
+    },
+    {
+      "heading": "Automatic highlight finding",
+      "text": "Finding the good moment is the slow part. We looked for stated AI or automatic detection, either during play or across a recording, and weighted it above manual trimming alone. Where the facts mention only a timeline editor or capture, the tool is ranked as a helper rather than a clipper."
+    },
+    {
+      "heading": "Vertical output and posting",
+      "text": "Short-video platforms want tall frames, captions and quick publishing. We noted which tools state export for TikTok, Reels and Shorts, and which add scheduling. A tool that only saves a landscape file leaves reformatting to another product, which adds a step for every clip."
+    },
+    {
+      "heading": "Cost model and limits",
+      "text": "Plans here run from free to credit packs to subscriptions. We recorded what each vendor publishes, including free tiers, trial terms and billing options, and we flagged where amounts were not on the page we read. For high-volume creators, per-credit pricing can cost more than a flat plan, so the model matters as much as the headline price."
+    }
+  ],
+  "market_notes": [
+    "Counting the ten tools, eight offer some free entry: Medal is free on PC, StreamLadder, Eklipse, Vizard and CapCut list free plans, Outplayed has a free tier with ads, OpusClip gives a free trial without a card, and OBS Studio is open source. Only StreamLadder ($15 to $39 a month) and Vizard (free with 60 credits a month) show actual amounts on the pages we read. The others list plan names but not figures, and the two graphics-card apps list no price at all.",
+    "The market splits into three groups. Stream-first AI clippers such as StreamLadder and Eklipse start from a broadcast and finish with vertical posts. Capture apps such as Medal, Outplayed, the NVIDIA App and AMD Software Adrenalin work during play. General editors such as CapCut and OpusClip polish or cut any video. Many creators combine one from each group, using capture or OBS for source footage and an AI clipper for the shorts. The practical trade-off is automation versus control: AI picks fast but not always well."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Decide where your clips start",
+      "text": "If you stream regularly, begin with a tool that reads Twitch, YouTube or Kick streams, such as StreamLadder or Eklipse. If you mostly play and want to save a moment mid-match, begin with Medal or Outplayed. If you already have finished videos from any source, a general clipper like OpusClip or Vizard will do. Picking the starting point first removes half the list."
+    },
+    {
+      "title": "Run a free pass on one real stream",
+      "text": "Take a broadcast you already did and run it through a free plan or trial. Count how many suggested clips you would post, how much captioning you must fix, and how long export takes. Vizard's 60 free credits and OpusClip's no-card trial are quick to test. Judge by clips kept, not clips generated, since over-detection wastes review time."
+    },
+    {
+      "title": "Check hardware and platform limits",
+      "text": "The NVIDIA App and AMD Software Adrenalin depend on a matching graphics card, Medal is listed for PC, and Outplayed lists PC and Android. Confirm your device is supported before building a workflow around any of them. Also check whether your posting targets are covered: tools that name TikTok, Reels and Shorts export save a manual reformatting step."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best clip and highlight editor for streamers in 2026?",
+      "a": "StreamLadder ranks first because it turns Twitch, YouTube and Kick streams into vertical clips with AI and publishes its plan prices. Eklipse is better if you want scheduling built in, and Medal is better if you mainly clip during play on PC and want a free recorder."
+    },
+    {
+      "q": "Is there a free tool that clips streams automatically?",
+      "a": "Yes. StreamLadder and Eklipse both list free plans, and Eklipse names an auto clipper and gaming stream highlights among its free features. Vizard gives 60 credits a month at no cost. Limits differ, so read each pricing page before committing."
+    },
+    {
+      "q": "Do I need a separate clipper if I use OBS Studio?",
+      "a": "Usually yes. OBS Studio records and streams, but the facts we read do not list automatic highlights or vertical export. Pairing OBS recordings with StreamLadder, Eklipse or OpusClip covers the missing steps."
+    },
+    {
+      "q": "Can I clip on console?",
+      "a": "The capture apps here are mostly PC tools: Medal is listed for PC, the NVIDIA App and AMD Software Adrenalin depend on PC graphics cards, and Outplayed lists PC and Android. For console footage, use a clipper that accepts uploaded or streamed video, such as StreamLadder from a Twitch stream."
+    },
+    {
+      "q": "Are GPU driver apps good enough for clips?",
+      "a": "They are good for capture without extra software, because the NVIDIA App lists ShadowPlay and AMD Software Adrenalin lists in-game capture. They do not, in the facts we read, find highlights or reformat for vertical video, so most creators add an editor afterward."
+    },
+    {
+      "q": "What does AI clipping cost?",
+      "a": "StreamLadder lists $15, $27 and $39 a month for Starter, Creator and Pro, with a 7-day trial. Vizard has a free plan with 60 credits a month, and the other clippers publish plan names but not amounts on the pages we read. Confirm the current price on each vendor site."
+    },
+    {
+      "q": "Is CapCut a clip tool or an editor?",
+      "a": "It is a general editor with AI features, templates and effects, not a stream clipper. It fits as the polishing step after an auto-clipper picks the moment, and its pricing page compares Free, Pro, Ultra and Teams plans."
+    }
+  ],
+  "related": [
+    "best-game-capture-and-recording-software",
+    "best-streaming-software-for-gamers",
+    "best-multistreaming-platforms",
+    "best-stream-overlay-and-alert-tools",
+    "best-vtuber-software",
+    "best-livestream-analytics-tools"
+  ],
+  "tools": [
+    {
+      "slug": "streamladder",
+      "name": "StreamLadder",
+      "site": "https://www.streamladder.com/",
+      "company": "",
+      "country": "",
+      "tagline": "AI clipper that reformats streams for short video",
+      "best_for": "Twitch and Kick streamers posting vertical clips",
+      "pricing": "Free to start; paid plans from $15 to $39 a month for Starter, Creator and Pro, with a 7-day free trial on any paid plan.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free plan",
+      "platforms": "Web; mobile app linked",
+      "features": [
+        "AI clip finding",
+        "Clip editing",
+        "Captions",
+        "TikTok, Reels and Shorts export"
+      ],
+      "summary": "Starts from a Twitch, YouTube or Kick stream and ends with vertical clips for short-video apps, with prices published on the page.",
+      "verdict": "StreamLadder does the whole chain a streamer repeats after a broadcast: it picks moments out of a Twitch, YouTube or Kick stream with AI, lets you edit them and exports for TikTok, Reels and Shorts. It also gives a free plan and lists Starter, Creator and Pro at $15, $27 and $39 a month, with a 7-day trial on any paid plan. That clear price ladder, plus the stream-first design, puts it at the top for a creator whose main goal is vertical output.",
+      "weaknesses": "The free plan exists but the facts do not say what it limits, so the cap on clips has to be read on the pricing page. It is built around the three listed stream sources; a creator who records locally in other formats should check import options first.",
+      "wrong_for": "Not ideal for someone who wants a full timeline editor for long-form video; CapCut is nearer to that.",
+      "sources": [
+        {
+          "fact": "StreamLadder turns Twitch, YouTube and Kick streams into short clips for TikTok, Reels and Shorts with AI.",
+          "url": "https://www.streamladder.com/"
+        },
+        {
+          "fact": "StreamLadder costs $15, $27 or $39 a month for its Starter, Creator and Pro plans, with a free plan.",
+          "url": "https://www.streamladder.com/pricing"
+        },
+        {
+          "fact": "StreamLadder offers a 7-day free trial on any paid plan.",
+          "url": "https://www.streamladder.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "eklipse",
+      "name": "Eklipse",
+      "site": "https://eklipse.gg",
+      "company": "",
+      "country": "",
+      "tagline": "AI clip maker with a scheduler for short-form posts",
+      "best_for": "Streamers who want publishing handled too",
+      "pricing": "A free feature set plus paid plans compared on the pricing page (amounts not captured from the page).",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Web; mobile app linked",
+      "features": [
+        "Gaming stream highlights",
+        "Auto clipper",
+        "YouTube clipper",
+        "Content Publisher",
+        "Voice command"
+      ],
+      "summary": "Turns Twitch, YouTube and Kick streams into captioned vertical clips and schedules them to TikTok, Reels and Shorts.",
+      "verdict": "Eklipse reads like a close sibling of StreamLadder but leans further into posting. The vendor says it converts streams from Twitch, YouTube and Kick into vertical clips with captions and schedules them to TikTok, Reels and Shorts. Its pricing page lists free features such as gaming stream highlights, an auto clipper and a YouTube clipper, so a streamer can see real output before paying. Its listed voice command and meme-editing functions are extras worth a look, and the scheduler saves a separate tool for the posting step.",
+      "weaknesses": "Paid plan amounts were not captured from the pricing page we read, so the real monthly cost needs checking directly. A feature list this broad makes it harder to judge quickly which tier covers your volume.",
+      "wrong_for": "Skip it if you only need to capture clips during play on your own PC; Medal or Outplayed record in the game itself.",
+      "sources": [
+        {
+          "fact": "Eklipse turns Twitch, YouTube and Kick streams into vertical clips with captions and schedules them to TikTok, Reels and Shorts.",
+          "url": "https://eklipse.gg"
+        },
+        {
+          "fact": "The Eklipse pricing page lists a set of free features, including gaming stream highlights, an auto clipper and a YouTube clipper.",
+          "url": "https://eklipse.gg/pricing/"
+        },
+        {
+          "fact": "Eklipse compares its paid plans on its pricing page.",
+          "url": "https://eklipse.gg/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "medal",
+      "name": "Medal",
+      "site": "https://medal.tv/",
+      "company": "",
+      "country": "",
+      "tagline": "Game clip recorder with editing and sharing",
+      "best_for": "Players who clip during the match",
+      "pricing": "Free to download and use on PC, per the homepage meta description.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "PC",
+      "features": [
+        "Game clip recording",
+        "Clip editing",
+        "Clip sharing",
+        "Games library"
+      ],
+      "summary": "Free on PC to record, edit and share gaming clips, which makes it the cheapest start for a player who clips mid-match.",
+      "verdict": "Medal handles the stage before reformatting: recording the moment. Per the homepage description, recording, editing and sharing gaming clips on PC costs nothing, and the app also lists a games library. For a streamer or an ordinary player who wants a clip of a lucky round without running a full stream, it is the easiest on-ramp in this list. It sits third because it captures and trims well but is not the tool that cuts a long VOD into vertical posts automatically.",
+      "weaknesses": "Medal is PC-only according to the listing, and the facts do not describe any stream-to-vertical conversion. Premium terms were not on the page we opened, so the boundary between free and paid features is unclear.",
+      "wrong_for": "A weak match for turning two-hour broadcasts into shorts; StreamLadder or OpusClip do that from a finished video.",
+      "sources": [
+        {
+          "fact": "Medal is a tool to record, edit and share gaming clips and gameplay videos.",
+          "url": "https://medal.tv/"
+        },
+        {
+          "fact": "Medal's homepage description says it is free to record, edit and share gaming clips on PC.",
+          "url": "https://medal.tv/"
+        }
+      ]
+    },
+    {
+      "slug": "opusclip",
+      "name": "OpusClip",
+      "site": "https://www.opus.pro/",
+      "company": "",
+      "country": "",
+      "tagline": "AI video clipper with Starter and Pro plans",
+      "best_for": "Creators with long videos to cut",
+      "pricing": "Starter and Pro plans with monthly or yearly billing; free trial without a credit card (amounts not captured from the page).",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Web",
+      "features": [
+        "AI video clipping",
+        "Editing",
+        "Starter and Pro plans",
+        "No-card free trial"
+      ],
+      "summary": "Cuts long videos into short clips and offers a free trial that needs no credit card.",
+      "verdict": "OpusClip describes itself as an AI video clipping and editing tool that cuts long videos into short clips. It is not built specifically for gaming, which is the reason it ranks below the stream-focused tools, but a streamer with a finished VOD or a podcast-style show can use it the same way. The pricing page lists Starter and Pro plans with monthly or yearly billing and a free trial without a credit card, so testing costs nothing.",
+      "weaknesses": "The pricing amounts were not captured from the page we read. Without any statement about Twitch or Kick input, a streamer may have to download or upload the video first, which adds a step compared with StreamLadder.",
+      "wrong_for": "Skip it if you want in-game capture; Outplayed records while you play.",
+      "sources": [
+        {
+          "fact": "OpusClip describes itself as an AI video clipping and editing tool.",
+          "url": "https://www.opus.pro/"
+        },
+        {
+          "fact": "OpusClip's pricing page offers Starter and Pro plans with monthly or yearly billing.",
+          "url": "https://www.opus.pro/pricing"
+        },
+        {
+          "fact": "OpusClip's pricing page offers a free trial that requires no credit card.",
+          "url": "https://www.opus.pro/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "vizard",
+      "name": "Vizard",
+      "site": "https://vizard.ai",
+      "company": "",
+      "country": "",
+      "tagline": "Credit-based AI clipping and editing tool",
+      "best_for": "Long-form video to short social clips",
+      "pricing": "Free plan at $0 with 60 credits a month; paid plans with credit packs billed monthly or yearly (yearly shown with a 50 percent discount).",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Web",
+      "features": [
+        "AI clipping",
+        "Vizard Agent",
+        "AI Studio",
+        "Captions"
+      ],
+      "summary": "A web clipper with a free tier of 60 credits per month and a yearly price marked 50 percent off.",
+      "verdict": "Vizard turns long form videos into short clips using AI, and its pricing page shows a free plan at $0 with 60 credits a month. Credit packs are billed monthly or yearly, with the yearly option marked 50 percent off. The listing mentions an agent and an AI studio alongside captions. It earns the fifth place as a general clipper whose credit model makes cost easy to predict for light use, but it has no stream-specific features in the facts we read.",
+      "weaknesses": "Credits are consumed per job, so a streamer cutting many hours of VODs may burn through 60 credits fast. Nothing in the facts mentions Twitch, YouTube or Kick as a source, so check how a broadcast gets in.",
+      "wrong_for": "Wrong for someone who wants automatic detection inside a game session; Medal and Outplayed handle that.",
+      "sources": [
+        {
+          "fact": "Vizard turns long form videos into engaging short clips with AI.",
+          "url": "https://vizard.ai"
+        },
+        {
+          "fact": "Vizard's pricing page shows a free plan at $0 with 60 credits per month.",
+          "url": "https://vizard.ai/pricing"
+        },
+        {
+          "fact": "Vizard's pricing page offers monthly and yearly billing, with a yearly option marked 50 percent off.",
+          "url": "https://vizard.ai/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "outplayed",
+      "name": "Outplayed",
+      "site": "https://outplayed.tv/",
+      "company": "",
+      "country": "",
+      "tagline": "Automatic highlight capture with a built-in editor",
+      "best_for": "Competitive players who hate manual clipping",
+      "pricing": "Free and Premium tiers. Premium removes ads and unlocks premium features; prices were not on the opened page.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "PC; Android",
+      "features": [
+        "Game capture",
+        "Automatic highlight capture",
+        "Performance tracking",
+        "Video editor"
+      ],
+      "summary": "Records your best plays automatically while you play and adds a video editor and performance tracking.",
+      "verdict": "Outplayed is a capture app that, according to the vendor, automatically records the best moments and biggest plays as you play. The homepage lists game capture, performance tracking and a video editor, and there are Free and Premium tiers, with Premium removing ads. For someone who streams little but plays a lot, that automatic capture means highlights exist before any editing begins. It lands sixth because it solves capture, not vertical reformatting for short-video feeds.",
+      "weaknesses": "Premium prices were not on the page we opened, and the free tier carries ads. The app is aimed at PC players, with an Android icon set noted by the vendor, so console clips need another path.",
+      "wrong_for": "Skip it if your content starts as a finished stream; StreamLadder or Eklipse start from the broadcast.",
+      "sources": [
+        {
+          "fact": "Outplayed is a capture app for gamers that automatically captures their best moments and biggest plays while they play.",
+          "url": "https://outplayed.tv/"
+        },
+        {
+          "fact": "Outplayed offers a Free tier and a Premium tier, and says Premium removes ads and unlocks premium features.",
+          "url": "https://outplayed.tv/"
+        },
+        {
+          "fact": "Outplayed's homepage lists game capture, performance tracking and a video editor as features.",
+          "url": "https://outplayed.tv/"
+        }
+      ]
+    },
+    {
+      "slug": "capcut",
+      "name": "CapCut",
+      "site": "https://www.capcut.com",
+      "company": "",
+      "country": "",
+      "tagline": "General AI video editor on desktop, mobile and web",
+      "best_for": "Editors who want templates and effects",
+      "pricing": "Free, Pro, Ultra and Teams plans, with monthly or yearly billing (amounts not captured from the page).",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Desktop, mobile and online editor",
+      "features": [
+        "AI video editing",
+        "Smart templates",
+        "Creative effects",
+        "AI image and video generation"
+      ],
+      "summary": "A full editor with templates and effects, and Free, Pro, Ultra and Teams plans, rather than a gaming clipper.",
+      "verdict": "CapCut is the most general tool here. The vendor describes an AI-powered video editor with smart templates and creative effects on desktop, mobile and online. The pricing page compares Free, Pro, Ultra and Teams plans with monthly and yearly billing. Streamers use editors like this to polish a clip after an auto-clipper has chosen it, so it works as a finishing stage. It ranks seventh because it does not find highlights in a stream by itself in the facts we read.",
+      "weaknesses": "Plan amounts were not captured, and the product is not stream-aware, so you must bring in your own footage. The breadth of effects can slow a workflow where speed matters more than polish.",
+      "wrong_for": "Wrong for someone who wants clips found automatically; use StreamLadder or Eklipse for that step.",
+      "sources": [
+        {
+          "fact": "CapCut is an AI-powered video editor with smart templates and creative effects, available on desktop, mobile and online.",
+          "url": "https://www.capcut.com"
+        },
+        {
+          "fact": "CapCut's pricing page compares Free, Pro, Ultra and Teams plans.",
+          "url": "https://www.capcut.com/pricing"
+        },
+        {
+          "fact": "CapCut's pricing page offers monthly and yearly billing.",
+          "url": "https://www.capcut.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "nvidia-app",
+      "name": "NVIDIA App",
+      "site": "https://www.nvidia.com/en-us/software/nvidia-app/",
+      "company": "NVIDIA",
+      "country": "",
+      "tagline": "Driver companion with ShadowPlay and Broadcast tools",
+      "best_for": "GeForce owners wanting built-in capture",
+      "pricing": "The download page shows no price; ShadowPlay and the Broadcast App are listed as features of the app.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Windows; NVIDIA GPUs",
+      "features": [
+        "NVIDIA drivers",
+        "ShadowPlay",
+        "Broadcast App",
+        "Game optimization"
+      ],
+      "summary": "Lists ShadowPlay and the Broadcast App beside driver updates, so capture is already on a machine with an NVIDIA GPU.",
+      "verdict": "NVIDIA describes the app as the essential companion for PC gamers and creators that keeps drivers current, and its page lists ShadowPlay and the Broadcast App among the features. A player with an NVIDIA graphics card therefore gets a capture route without installing another tool. It is eighth because it records and does not auto-detect highlights or reformat for vertical video in the facts we read.",
+      "weaknesses": "It only makes sense with NVIDIA hardware, and the page opened shows no clip editor or vertical export. No price appears on the download page, and the facts do not say whether any features are tied to specific GPU generations.",
+      "wrong_for": "Not for someone on an AMD or Intel graphics card or on a console; AMD Software Adrenalin is the equivalent for Radeon, and Medal works across hardware.",
+      "sources": [
+        {
+          "fact": "The NVIDIA App is described by NVIDIA as the essential companion for PC gamers and creators, used to keep drivers up to date.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+        },
+        {
+          "fact": "The NVIDIA App download page lists NVIDIA ShadowPlay and the Broadcast App among its features.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+        },
+        {
+          "fact": "NVIDIA's download page for the NVIDIA App is available by region and does not show a price.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/"
+        }
+      ]
+    },
+    {
+      "slug": "amd-software-adrenalin",
+      "name": "AMD Software Adrenalin",
+      "site": "https://www.amd.com/en/products/software/adrenalin.html",
+      "company": "AMD",
+      "country": "",
+      "tagline": "Radeon software with in-game capture",
+      "best_for": "Radeon owners who want driver-level capture",
+      "pricing": "No price is shown on the AMD page opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Windows PC; AMD products",
+      "features": [
+        "Driver updates",
+        "Game stats",
+        "In-game capture",
+        "Installed game library"
+      ],
+      "summary": "AMD's own application for driver updates, game stats and capturing in-game moments on its graphics products.",
+      "verdict": "AMD Software Adrenalin Edition is described by the vendor as the application for AMD products that provides software features, game stats and driver updates. The page says users can configure, launch or view installed games in one place and capture in-game moments. For a Radeon owner it is the capture path that comes with the graphics software already on the machine. It ranks ninth since it stops at capture: no automatic highlight finding or vertical reformatting appears in the facts.",
+      "weaknesses": "The listing shows no price and no editing features, so every clip needs another tool before it can be posted. It is tied to AMD products, so it does nothing for players on other GPUs.",
+      "wrong_for": "Skip it if you want editing or AI highlights; Outplayed and Medal add editors, while StreamLadder adds reformatting.",
+      "sources": [
+        {
+          "fact": "AMD Software Adrenalin Edition is an application for AMD products that gives access to software features, game stats and driver updates.",
+          "url": "https://www.amd.com/en/products/software/adrenalin.html"
+        },
+        {
+          "fact": "The AMD page says the app lets users configure, launch or view installed games from one location and capture in-game moments.",
+          "url": "https://www.amd.com/en/products/software/adrenalin.html"
+        }
+      ]
+    },
+    {
+      "slug": "obs-studio",
+      "name": "OBS Studio",
+      "site": "https://obsproject.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Open source recorder and streaming program",
+      "best_for": "Streamers who already run OBS",
+      "pricing": "Free and open source software.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows 10 and 11, macOS 13 or newer, Linux",
+      "features": [
+        "Scenes with multiple sources",
+        "Window capture",
+        "Browser sources",
+        "Capture cards",
+        "H264/AAC encoding"
+      ],
+      "summary": "Free and open source recording and streaming software that feeds the rest of these tools with source video.",
+      "verdict": "OBS Studio does not clip or reformat anything on its own in the facts we read, yet most streamers on this list already use it. The homepage calls it free and open source software for video recording and live streaming, with scenes built from window captures, browser windows, webcams and capture cards, on Windows 10 and 11, macOS 13 or newer and Linux. It sits last on this ranking because it is the source of footage rather than a clip editor.",
+      "weaknesses": "The facts do not list auto-highlighting, an editor or vertical export, so you need a second tool such as StreamLadder or Eklipse to produce clips from OBS recordings.",
+      "wrong_for": "Wrong for a creator who wants finished short clips with no extra step; start with StreamLadder or Eklipse.",
+      "sources": [
+        {
+          "fact": "OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage says OBS supports Windows 10 and Windows 11, macOS 13.0 or newer, and Linux.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage describes scenes made of multiple sources including window captures, browser windows, webcams and capture cards.",
+          "url": "https://obsproject.com/"
+        }
+      ]
+    }
+  ]
+}

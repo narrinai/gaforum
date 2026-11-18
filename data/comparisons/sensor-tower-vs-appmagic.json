@@ -1,0 +1,163 @@
+{
+  "slug": "sensor-tower-vs-appmagic",
+  "a": "sensor-tower",
+  "b": "appmagic",
+  "a_name": "Sensor Tower",
+  "b_name": "AppMagic",
+  "a_site": "https://sensortower.com/",
+  "b_site": "https://appmagic.rocks/",
+  "category": "best-game-market-intelligence-tools",
+  "title": "Sensor Tower vs AppMagic: Which Fits Your Team in 2026?",
+  "description": "Sensor Tower covers apps, ads, web and gaming; AppMagic is built for mobile app market research. See how they differ on scope, pricing and fit.",
+  "published": "2026-11-18",
+  "intro": "Sensor Tower is a broad digital market insights platform, while AppMagic is a narrower service for mobile app market intelligence. For a game studio sizing a genre, tracking a competitor or checking a soft launch, the two overlap on mobile data but differ in how much else they cover. This page sets out what each vendor says about itself, where the public pricing information stops, and which kind of team tends to land on which tool.",
+  "verdict": "Choose Sensor Tower when game data is one input among several, such as advertising or web traffic. Choose AppMagic when the work is mobile genre and publisher research and you want to assemble a plan from the parts you need. Neither vendor publishes paid prices on the pages we opened, so a quote decides the final comparison.",
+  "pick_a": "you need mobile game research alongside advertising, web or retail media data, or you want a free account and a free browser extension to start with.",
+  "pick_b": "your work is centered on mobile app genres, publisher comparisons and soft launch detection, and a build-your-own plan appeals more than a fixed bundle.",
+  "rows": [
+    {
+      "label": "Company focus",
+      "a": "Digital market insights across apps, advertising, web, retail media and gaming",
+      "b": "Mobile app market intelligence for market research"
+    },
+    {
+      "label": "Gaming product",
+      "a": "Gaming Insights (GameIQ) listed as one product area",
+      "b": "Games are covered inside a mobile app data service; no separate gaming product named on the opened page"
+    },
+    {
+      "label": "Pricing model",
+      "a": "Freemium, per the home page",
+      "b": "Plans built from dashboards, tools and data access"
+    },
+    {
+      "label": "Published prices",
+      "a": "None on the home page; Request Demo and Contact Sales offered",
+      "b": "Not in the fetched text of the pricing page"
+    },
+    {
+      "label": "Free option",
+      "a": "Sign Up for Free button and a free Chrome extension (Web Insights)",
+      "b": "Not stated on the pages opened"
+    },
+    {
+      "label": "Data sources",
+      "a": "Global consumer panel and app store APIs, per the vendor",
+      "b": "Not described on the pages opened"
+    },
+    {
+      "label": "Genre analysis",
+      "a": "Not highlighted on the home page",
+      "b": "High-precision classification of app genres"
+    },
+    {
+      "label": "Comparison tools",
+      "a": "App performance and advertising insights (Pathmatics)",
+      "b": "Comparison of multiple apps and publishers"
+    },
+    {
+      "label": "Launch tracking",
+      "a": "Not highlighted on the home page",
+      "b": "Detection of successful soft launches"
+    },
+    {
+      "label": "Named users",
+      "a": "Activision Blizzard, Duolingo, Spotify, Coca-Cola",
+      "b": "No customer names on the opened page"
+    },
+    {
+      "label": "Main limit",
+      "a": "Paid prices are hidden behind sales contact",
+      "b": "Little detail visible without opening the pricing builder"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "What each tool says it is",
+      "text": [
+        "Sensor Tower presents itself as a digital market insights platform for mobile apps, advertising and audiences. Its home page lists App Performance Insights, Pathmatics, Web Insights and Gaming Insights (GameIQ) as product areas, so a game team buys into a wider catalog than it may need.",
+        "AppMagic describes itself as a service for mobile app market intelligence designed for market research. The meta description on its home page names three jobs: classifying app genres, comparing several apps and publishers, and detecting successful soft launches. That is a shorter list, and it maps closely to what a strategy or business development person at a studio does in a week."
+      ]
+    },
+    {
+      "h2": "Scope: wide catalog or focused service",
+      "text": [
+        "The practical difference is scope. Sensor Tower spans advertising channels such as Facebook, Instagram, TikTok, YouTube and Reddit, plus web and retail media. A publisher that wants to see who is buying ads for a competing title, or how a brand shows up on the web, can stay inside one login.",
+        "AppMagic does not claim that breadth on the pages we opened. If your questions stop at mobile titles, their revenue, their publishers and their genres, a narrower service can be easier to evaluate, because there are fewer modules to price and fewer dashboards to ignore."
+      ]
+    },
+    {
+      "h2": "Pricing and getting started",
+      "text": [
+        "Sensor Tower lists a Sign Up for Free button and a free Chrome extension called Web Insights, which lets a team try the interface before talking to sales. Paid prices are not on the home page; it routes to Request Demo and Contact Sales.",
+        "AppMagic takes a different route. Its pricing page lets visitors compare options and build their own feature set from dashboards, tools and data access. The fetched text of that page did not include figures, so any cost estimate has to come from the vendor. Ask both for a quote that covers the same titles, countries and history before comparing totals."
+      ]
+    },
+    {
+      "h2": "Evidence and its limits",
+      "text": [
+        "Both vendors publish estimates, not audited store data, and the quality of an estimate varies by country, genre and title size. Sensor Tower states that its data comes from a global panel of consumers and app store APIs. AppMagic's opened page does not describe its method.",
+        "The sensible check is to pick five games you already know the real numbers for, such as your own, and compare what each tool reports for them during a trial or demo. That test tells you more than any feature list, and it fits the way both vendors sell."
+      ]
+    },
+    {
+      "h2": "Which team lands where",
+      "text": [
+        "Large publishers with marketing, user acquisition and market research staff tend to value one catalog that spans ads, web and gaming, which is the shape of the Sensor Tower pitch. Smaller studios, indie publishers and analysts who need genre maps and publisher comparisons often want fewer modules, which is the shape of the AppMagic pitch.",
+        "Related reading: see the full ranking at [market intelligence tools](/software/best-game-market-intelligence-tools)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can a small studio use either tool for free?",
+      "a": "Sensor Tower advertises a free sign-up and a free Chrome extension, so some access exists without a contract. AppMagic's opened pages do not mention a free tier. In both cases paid data depth is quoted by the vendor, so a free account should be treated as a preview."
+    },
+    {
+      "q": "Which one is better for soft launch research?",
+      "a": "AppMagic names soft launch detection as one of its three headline jobs. Sensor Tower's home page lists app performance and gaming insights without singling out soft launches. If tracking regional test releases is your main task, ask both vendors to show a recent example."
+    },
+    {
+      "q": "Do both cover games and non-game apps?",
+      "a": "Sensor Tower covers apps broadly, with gaming as a named product area. AppMagic is described as mobile app market intelligence and classifies app genres. Both therefore reach beyond games, so confirm game-specific metrics such as genre revenue before you buy."
+    },
+    {
+      "q": "Are the prices public?",
+      "a": "Not on the pages we opened. Sensor Tower directs buyers to a demo or sales contact, and AppMagic offers a plan builder whose figures were not captured. Plan on requesting quotes from both."
+    },
+    {
+      "q": "What should I test before signing?",
+      "a": "Check five titles whose real revenue or downloads you know, in the countries you care about, and compare each tool's estimate. Also confirm how far back history goes and whether exports and API access are in the base plan."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Sensor Tower describes itself as a digital market insights platform covering mobile apps, advertising and audiences.",
+      "url": "https://sensortower.com/"
+    },
+    {
+      "fact": "Sensor Tower lists App Performance Insights, Pathmatics, Web Insights and Gaming Insights (GameIQ) as product areas.",
+      "url": "https://sensortower.com/"
+    },
+    {
+      "fact": "Sensor Tower offers a Sign Up for Free button and a free Chrome extension; paid prices are not listed.",
+      "url": "https://sensortower.com/"
+    },
+    {
+      "fact": "Sensor Tower says its data comes from a global panel of consumers and app store APIs.",
+      "url": "https://sensortower.com/"
+    },
+    {
+      "fact": "AppMagic is a service for mobile app market intelligence, designed for market research.",
+      "url": "https://appmagic.rocks/"
+    },
+    {
+      "fact": "AppMagic offers genre classification, comparison of apps and publishers, and detection of successful soft launches.",
+      "url": "https://appmagic.rocks/"
+    },
+    {
+      "fact": "AppMagic's pricing page lets you build your own feature set from dashboards, tools and data access.",
+      "url": "https://appmagic.rocks/pricing"
+    }
+  ]
+}

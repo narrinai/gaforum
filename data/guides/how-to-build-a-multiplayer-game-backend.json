@@ -1,0 +1,175 @@
+{
+  "slug": "how-to-build-a-multiplayer-game-backend",
+  "title": "How to Build a Multiplayer Game Backend",
+  "description": "Plan a multiplayer game backend in layers: authoritative game servers, a netcode library, accounts and matchmaking, and hosting. Includes a launch checklist.",
+  "kind": "Field guide",
+  "topic": "Game development",
+  "published": "2026-11-18",
+  "intro": "A multiplayer game backend is a stack of four separable layers: the game server that decides what is true, the netcode that moves state between server and clients, the services that know who players are and match them, and the hosting that keeps server processes running. Teams that treat these as one blob struggle to change any part later. This field guide separates the layers, shows what the Godot, Unity, Agones and Steamworks documentation say about each, and ends with a checklist you can run before a public test.",
+  "key_takeaways": [
+    "Decide who is authoritative over game state before you pick any product; the rest of the stack follows from that choice.",
+    "Keep real-time netcode, player services and server hosting as separate layers so you can swap one without rewriting the others.",
+    "Authenticate peers and validate every client request before the game is reachable by the public internet.",
+    "Plan your hosting model early: peer-hosted, a single dedicated server, or a fleet orchestrated on demand.",
+    "Run a soak test with simulated latency and packet loss before inviting outsiders."
+  ],
+  "sections": [
+    {
+      "h2": "Four layers, four decisions",
+      "paras": [
+        "Most backend confusion comes from using one word, \"server,\" for four different jobs. Name them separately in your design document and you can evaluate products honestly.",
+        "The first layer is the authoritative game simulation, the process that owns the truth about positions, health and scores. The second is netcode, the library that serializes state and sends it over the network. The third is the services layer: accounts, inventory, matchmaking, lobbies, leaderboards. The fourth is hosting and orchestration, which starts and stops the processes from the first layer on real machines. Different vendors cover different layers, and several cover more than one, so keep a table of which layer each candidate actually handles."
+      ]
+    },
+    {
+      "h2": "Settle who owns the truth",
+      "paras": [
+        "The authority model is the decision with the longest reach. In a server-authoritative design, clients send inputs and the server decides outcomes. In a client-authoritative or peer-hosted design, one player's machine decides, which is simpler to build and easier to cheat. Valve's Steamworks anti-cheat page recommends running servers for your game and having them handle game state and only transmit what a client needs, and it says that if a game uses peer-to-peer, each user should validate the others so the host does not hold full control of game state.",
+        "Godot's high-level multiplayer API makes the same point at the code level. The server's peer ID is always 1, RPCs default to the authority mode where only the authority can call remotely, and the any_peer mode that lets clients call functions is described as useful for transferring user input. Treat every any_peer function as an entry point that needs validation."
+      ],
+      "list": [
+        "Cooperative game with friends only: peer-hosted or relay-based sessions may be enough.",
+        "Competitive or ranked game: server-authoritative from the first prototype.",
+        "Persistent world or economy: server-authoritative plus a durable database behind it."
+      ]
+    },
+    {
+      "h2": "Choose a netcode layer that fits your engine",
+      "paras": [
+        "Netcode choice is mostly dictated by the engine. In Godot, the built-in high-level API uses a MultiplayerPeer, with ENetMultiplayerPeer as the documented example; each peer gets a unique ID and you react to peer_connected and peer_disconnected signals. In Unity, the multiplayer documentation lists two netcode frameworks: Unity Netcode, a server-authoritative solution with a client prediction framework, and Netcode for GameObjects, a higher-level library for GameObject workflows, with Unity Transport below them as a low-level layer over UDP and WebSockets.",
+        "Third-party layers fill other gaps. Mirror is an open source networking library for Unity, FishNet is described by its documentation as a free server-authoritative solution for Unity with no CCU caps, Photon sells networking engines, voice and chat services and cloud hosting, and Colyseus is an open source multiplayer framework for Node.js with built-in matchmaking and state sync. Compare them in the ranking of [multiplayer networking SDKs](/software/best-multiplayer-networking-sdks)."
+      ]
+    },
+    {
+      "h2": "Add the services layer: accounts, sessions, matchmaking",
+      "paras": [
+        "Real-time netcode does not know who a player is. A backend platform supplies identity, persistence and matchmaking so your game server can stay focused on simulation. Nakama's homepage presents it as a scalable open source backend for social multiplayer games. PlayFab's page describes backend services for live games with a free-to-start tier and pay-as-you-go growth. Unity's multiplayer documentation lists lobbies, matchmaking and relay services, and Steamworks provides lobbies, matchmaking and networking for games on Steam.",
+        "Pick one source of truth for player identity and use it everywhere: the game server should accept a signed token from this system rather than trusting a name sent by the client. The ranking of [game backend platforms](/software/best-game-backend-platforms) compares verified options, and its criteria are a useful checklist for your own vendor questions."
+      ]
+    },
+    {
+      "h2": "Plan how server processes get hosted",
+      "paras": [
+        "Hosting has three common shapes, and each changes your costs and your operational work.",
+        "Peer-hosted: a player's machine runs the server. Godot's documentation warns that a server on a home connection usually needs a port forwarded on the router, and that its high-level API uses only UDP, so the port must be forwarded in UDP, not just TCP. Dedicated single host: you run one machine and a headless server build. Godot 4 can run any binary in headless mode with the --headless argument, and recommends export templates over the editor binary for servers because they are smaller and more optimized. Fleet on demand: an orchestrator starts server processes as matches begin.",
+        "For fleets, Agones is an open source library for hosting, running and scaling dedicated game servers on Kubernetes, with fleets, autoscaling and a game server SDK for health checking and state management. Edgegap and Amazon GameLift are managed alternatives; Edgegap's pricing page lists edge cloud usage at $0.00115 per vCPU per minute across 615+ locations. See [dedicated game server orchestration platforms](/software/best-dedicated-game-server-orchestration-platforms) for the full comparison, and our guide to [hosting a dedicated server for an indie game](/guides/how-to-host-a-dedicated-server-for-an-indie-game) for the smaller-scale route."
+      ]
+    },
+    {
+      "h2": "Close the front door before you open it",
+      "paras": [
+        "Godot's multiplayer documentation advises that before hosting a game online to a public audience you should consider authentication and protecting your RPCs against unauthenticated access, and shows the built-in SceneMultiplayer authentication callback with a timeout and a complete_auth call. Whatever engine you use, the same pattern applies: a new connection is untrusted until it presents proof, and it is disconnected if proof does not arrive quickly.",
+        "Validate every request after authentication too. A client that is allowed to connect is not allowed to set its own health, teleport or grant itself items. Our guide to [setting up anti-cheat for a multiplayer game](/guides/how-to-set-up-anti-cheat-for-a-multiplayer-game) covers the protection layers that sit on top, and the ranking of [DDoS protection for game servers](/software/best-ddos-protection-for-game-servers) covers network-level defenses."
+      ]
+    },
+    {
+      "h2": "Checklist before a public test",
+      "paras": [
+        "Run these steps in order and record the result of each."
+      ],
+      "list": [
+        "Write down, in one page, which layer owns which responsibility and which product handles it.",
+        "Confirm the server rejects any state change a client should not be able to make, by sending deliberately invalid requests from a test client.",
+        "Add authentication to the connection handshake with a short timeout, and test an expired or malformed token.",
+        "Export a dedicated server build with no GPU or display requirement, and start it from the command line on a clean machine.",
+        "Open only the ports you need, and confirm UDP is allowed if your netcode uses it.",
+        "Put the server behind monitoring that records connections, crashes and tick duration.",
+        "Simulate latency and packet loss with your engine's tools and play a full match.",
+        "Rehearse a restart: update the server build while players are connected or queued, and confirm nobody loses progress.",
+        "Decide what happens when a server process crashes mid-match: who is told, and what is saved."
+      ],
+      "ordered": true
+    },
+    {
+      "h2": "Costs and signals to watch after launch",
+      "paras": [
+        "Backend bills grow with concurrency, bandwidth and storage, not with downloads. Ask each vendor which metric they bill on, and whether free tiers have caps such as lifetime player account limits; PlayFab's page, for example, mentions a Development Mode limited to 1,000 lifetime player account creations. Track a small set of operational numbers from day one: time to first connection, matches started versus abandoned, server crashes per thousand matches, and the age of the oldest player waiting in the queue.",
+        "If you plan live events later, our guide to [planning a LiveOps calendar](/guides/how-to-plan-a-game-liveops-calendar) shows how the backend and the content schedule interact."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I run a multiplayer game without dedicated servers?",
+      "a": "Yes. Peer-hosted games and relay-based sessions work for cooperative play and small groups. Unity's documentation describes a Relay service for connecting players without dedicated game servers. The trade-off is authority: the host or the relay path can influence game state, so competitive games with rankings usually move to server-authoritative hosting."
+    },
+    {
+      "q": "Do I need Kubernetes to host game servers?",
+      "a": "No. A single dedicated machine with a headless build is enough for early tests. Kubernetes becomes relevant when you need fleets that scale with demand, which is the job Agones does by extending Kubernetes. Managed services such as Edgegap or Amazon GameLift offer fleet hosting without running a cluster yourself."
+    },
+    {
+      "q": "Which netcode library is the safest default?",
+      "a": "Use the one your engine documents and supports natively: Godot's high-level multiplayer API for Godot, and Unity Netcode or Netcode for GameObjects for Unity. Third-party libraries can add features, but they add an extra dependency to maintain. Choose on authority model, platform support and how well the documentation matches your game type."
+    },
+    {
+      "q": "How do I test for lag before launch?",
+      "a": "Simulate bad networks on purpose. Unity's Multiplayer Tools package includes a profiler and network simulator for Netcode for GameObjects, and most engines have equivalents or work with OS-level tools. Test with added latency, jitter and packet loss, then watch for rubber-banding, desync and timeouts in a complete match."
+    },
+    {
+      "q": "When should I add matchmaking?",
+      "a": "Add it when players you do not know need to find each other. For private lobbies and friends, join codes and invites can be enough. Skill-based matchmaking needs player ratings and enough concurrent players to fill queues, so it is usually a later addition. Pick a services platform that exposes matchmaking so you are not rebuilding identity later."
+    }
+  ],
+  "related_categories": [
+    "best-game-backend-platforms",
+    "best-multiplayer-networking-sdks",
+    "best-dedicated-game-server-orchestration-platforms"
+  ],
+  "related_guides": [
+    "how-to-choose-a-game-engine",
+    "how-to-host-a-dedicated-server-for-an-indie-game",
+    "how-to-set-up-anti-cheat-for-a-multiplayer-game"
+  ],
+  "sources": [
+    {
+      "title": "High-level multiplayer",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html",
+      "publisher": "Godot Engine documentation"
+    },
+    {
+      "title": "Exporting for dedicated servers",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_dedicated_servers.html",
+      "publisher": "Godot Engine documentation"
+    },
+    {
+      "title": "Multiplayer",
+      "url": "https://docs.unity.com/en-us/multiplayer",
+      "publisher": "Unity Documentation"
+    },
+    {
+      "title": "Agones overview",
+      "url": "https://agones.dev/site/docs/overview/",
+      "publisher": "Agones"
+    },
+    {
+      "title": "Anti-cheat and Game Bans",
+      "url": "https://partner.steamgames.com/doc/features/anticheat",
+      "publisher": "Valve, Steamworks Documentation"
+    },
+    {
+      "title": "Nakama",
+      "url": "https://heroiclabs.com/",
+      "publisher": "Heroic Labs"
+    },
+    {
+      "title": "PlayFab",
+      "url": "https://developer.microsoft.com/en-us/games/products/playfab/",
+      "publisher": "Microsoft"
+    },
+    {
+      "title": "Edgegap pricing",
+      "url": "https://edgegap.com/pricing",
+      "publisher": "Edgegap"
+    },
+    {
+      "title": "FishNet documentation",
+      "url": "https://fish-networking.gitbook.io/",
+      "publisher": "Fish-Networking"
+    },
+    {
+      "title": "Colyseus",
+      "url": "https://colyseus.io/",
+      "publisher": "Colyseus"
+    }
+  ]
+}

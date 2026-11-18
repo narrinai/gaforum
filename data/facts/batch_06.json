@@ -1,0 +1,1606 @@
+[
+  {
+    "slug": "kochava",
+    "name": "Kochava",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://kochava.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An omnichannel measurement and attribution platform for advertisers and publishers, per the vendor's home page.",
+    "platforms": "App attribution across iOS, Android and Huawei; connected TV (Roku, Fire TV, Apple TV), web and other platforms, per the vendor's home page.",
+    "pricing": "Home page shows a free tier, 'Free App Analytics', with a 'Start Free' button and a 'Compare Plans & Pricing' link; no specific prices on the page. Marketing Mix Modeling pricing is based on ad spend volume and number of unique models.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Mobile measurement partner services",
+      "Omnichannel measurement and attribution",
+      "Real-time analytics and reporting",
+      "Marketing mix modeling",
+      "AI-powered fraud prevention",
+      "Deep linking",
+      "SKAN and AAK for iOS",
+      "Consent management"
+    ],
+    "notable": [
+      "Home page says 'Founded in 2011'",
+      "Case study with Starcom citing 20M+ CTV impressions attributed (vendor claim)",
+      "Marketing mix modeling priced on ad spend volume and unique models"
+    ],
+    "facts": [
+      {
+        "fact": "Kochava describes itself as an omnichannel measurement and attribution platform for advertisers and publishers.",
+        "url": "https://kochava.com/"
+      },
+      {
+        "fact": "Kochava's home page says the company was founded in 2011.",
+        "url": "https://kochava.com/"
+      },
+      {
+        "fact": "Kochava's home page offers a free tier called 'Free App Analytics' with a 'Start Free' button, and lists no specific prices.",
+        "url": "https://kochava.com/"
+      },
+      {
+        "fact": "Kochava's home page says Marketing Mix Modeling pricing is based on ad spend volume and the number of unique models; exact tiers are not shown.",
+        "url": "https://kochava.com/"
+      },
+      {
+        "fact": "Kochava's home page says its attribution covers iOS, Android and Huawei apps, plus connected TV, web and other platforms.",
+        "url": "https://kochava.com/"
+      }
+    ]
+  },
+  {
+    "slug": "branch",
+    "name": "Branch",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://branch.io/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A platform that connects customer journeys across ads, email, SMS, social, web, app and chat, with mobile, web and CTV attribution, per the vendor's home page.",
+    "platforms": "App, web, CTV and iOS (SKAN) measurement, per the vendor's home page. Android is not explicitly named on the page.",
+    "pricing": "No prices shown on the home page; it links to a Pricing section that was not opened.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Mobile attribution",
+      "Web and cross-platform attribution",
+      "SKAN and iOS measurement",
+      "CTV attribution",
+      "Deep linking",
+      "Fraud protection",
+      "Data exports",
+      "Multitouch analytics"
+    ],
+    "notable": [
+      "Home page claims a 3 billion-device network (vendor claim)",
+      "Home page says it connects 80+ tools in a growth stack",
+      "Customers named on the home page include Western Union, T-Mobile, Under Armour, PUMA and KFC",
+      "Home page says it has been 'trusted by more than 100,000 brands since 2014'; this is not a stated founding year"
+    ],
+    "facts": [
+      {
+        "fact": "Branch describes itself as a platform that connects every customer journey across ads, email, SMS, social, web, app and chat.",
+        "url": "https://branch.io/"
+      },
+      {
+        "fact": "Branch's home page lists attribution for mobile, web, cross-platform, SKAN and iOS, and CTV.",
+        "url": "https://branch.io/"
+      },
+      {
+        "fact": "Branch's home page shows no prices and no free plan; it links to a Pricing section.",
+        "url": "https://branch.io/"
+      },
+      {
+        "fact": "Branch's home page names Western Union, T-Mobile, Under Armour, PUMA and KFC among its customers.",
+        "url": "https://branch.io/"
+      },
+      {
+        "fact": "Branch's home page says it has been trusted by more than 100,000 brands since 2014.",
+        "url": "https://branch.io/"
+      }
+    ]
+  },
+  {
+    "slug": "airbridge",
+    "name": "Airbridge",
+    "status": "dropped",
+    "drop_reason": "airbridge.com returns a 301 redirect to cdc.company/innovation, an unrelated site; the Airbridge product site could not be opened.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "apple-search-ads",
+    "name": "Apple Search Ads",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://ads.apple.com/app-store/",
+    "company": "Apple",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Apple's paid advertising service on the App Store, described on the vendor page as helping 'drive downloads with flexible ad placement and campaign management options'.",
+    "platforms": "App Store placements: Today tab, Search tab, Search Results and Product Pages.",
+    "pricing": "Cost-per-tap pricing ('Pay only when customers engage with your ad'); set-price amounts not on the page. 'Try it for free with a 100 USD credit', with full terms and conditions applying.",
+    "pricing_model": "Usage-based",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Flexible creative options",
+      "Maximize Conversions strategy",
+      "Price assurance",
+      "Campaign management API",
+      "Attribution API",
+      "Insights analytics",
+      "Apple Ads Basic"
+    ],
+    "notable": [
+      "Eligible developers who sign up get a 100 USD credit"
+    ],
+    "facts": [
+      {
+        "fact": "Apple's Apple Ads page says it helps drive app downloads with flexible ad placement and campaign management options.",
+        "url": "https://ads.apple.com/app-store/"
+      },
+      {
+        "fact": "Apple's Apple Ads page says ads run on the App Store across the Today tab, Search tab, Search Results and Product Pages.",
+        "url": "https://ads.apple.com/app-store/"
+      },
+      {
+        "fact": "Apple's Apple Ads page uses cost-per-tap pricing: 'Pay only when customers engage with your ad.'",
+        "url": "https://ads.apple.com/app-store/"
+      },
+      {
+        "fact": "Apple's Apple Ads page offers 'Try it for free with a 100 USD credit', with full terms and conditions applying.",
+        "url": "https://ads.apple.com/app-store/"
+      }
+    ]
+  },
+  {
+    "slug": "sensor-tower",
+    "name": "Sensor Tower",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://sensortower.com/",
+    "company": "Sensor Tower",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A digital market insights platform covering mobile apps, advertising, web, retail media and gaming, per the vendor's home page.",
+    "platforms": "Mobile apps, web, advertising channels (Facebook, Instagram, TikTok, X, Reddit, OTT, YouTube), retail media, gaming and audiences, per the vendor's home page.",
+    "pricing": "Home page has a 'Sign Up for Free' button and a free Chrome extension, 'Web Insights'; paid prices are not listed, and it offers 'Request Demo' and 'Contact Sales'.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free plan",
+    "key_features": [
+      "App performance insights",
+      "App advertising insights",
+      "Web insights",
+      "Pathmatics",
+      "Retail media insights",
+      "Gaming insights (GameIQ)",
+      "Audience insights"
+    ],
+    "notable": [
+      "Home page names Activision Blizzard, Duolingo, Spotify and Coca-Cola among its users",
+      "Home page lists WSJ, Fortune, CNBC, TechCrunch, NYT and Bloomberg as outlets that cite its data"
+    ],
+    "facts": [
+      {
+        "fact": "Sensor Tower describes itself as a digital market insights platform covering mobile apps, advertising and audiences.",
+        "url": "https://sensortower.com/"
+      },
+      {
+        "fact": "Sensor Tower's home page lists product areas including App Performance Insights, Pathmatics, Web Insights and Gaming Insights (GameIQ).",
+        "url": "https://sensortower.com/"
+      },
+      {
+        "fact": "Sensor Tower's home page offers a 'Sign Up for Free' button and a free Chrome extension called Web Insights; paid prices are not listed.",
+        "url": "https://sensortower.com/"
+      },
+      {
+        "fact": "Sensor Tower's home page names Activision Blizzard, Duolingo, Spotify and Coca-Cola among the companies that use its data.",
+        "url": "https://sensortower.com/"
+      },
+      {
+        "fact": "Sensor Tower's home page says its data comes from a global panel of consumers and app store APIs.",
+        "url": "https://sensortower.com/"
+      }
+    ]
+  },
+  {
+    "slug": "appmagic",
+    "name": "AppMagic",
+    "status": "dropped",
+    "drop_reason": "appmagic.rocks opened but returned only the page title 'AppMagic' with no product description, so no checkable fact could be recorded.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "newzoo",
+    "name": "Newzoo",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened: newzoo.com returned a fetch error and www.newzoo.com was refused by the fetch tool.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "steamdb",
+    "name": "SteamDB",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened: steamdb.info returned HTTP 403.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "gamalytic",
+    "name": "Gamalytic",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://gamalytic.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A database of 100,000+ Steam games with estimated revenue, sales and player data, per the vendor's home page.",
+    "platforms": "Steam game data, web database.",
+    "pricing": "A Pricing link appears in the navigation, but no plan details or prices are on the home page; the pricing page was not opened.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Steam analytics",
+      "Games list",
+      "Publishers list",
+      "Genres and tags",
+      "Revenue and sales estimates",
+      "Player data"
+    ],
+    "notable": [
+      "Home page says it covers 100,000+ Steam games",
+      "Home page states it is not affiliated with Valve or Steam"
+    ],
+    "facts": [
+      {
+        "fact": "Gamalytic describes itself as a database of 100,000+ Steam games with estimated revenue, sales and player data.",
+        "url": "https://gamalytic.com/"
+      },
+      {
+        "fact": "Gamalytic's home page says it is built for game developers, market researchers and game enthusiasts.",
+        "url": "https://gamalytic.com/"
+      },
+      {
+        "fact": "Gamalytic's home page states: 'We are not affiliated with Valve or Steam in any way.'",
+        "url": "https://gamalytic.com/"
+      },
+      {
+        "fact": "Gamalytic's home page has a Pricing link in its navigation, but no plans or prices appear on the home page.",
+        "url": "https://gamalytic.com/"
+      }
+    ]
+  },
+  {
+    "slug": "vginsights",
+    "name": "VGInsights",
+    "status": "dropped",
+    "drop_reason": "vginsights.com redirects to app.sensortower.com/vgi/, whose page gives only the tagline 'Games industry data and analysis'; nothing checkable recorded.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "gamediscoverco",
+    "name": "GameDiscoverCo",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://gamediscover.co/",
+    "company": "GameDiscoverCo",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A games-industry data service offering Steam, console and MCP/API data on sales, revenue, wishlists and audiences, per the vendor's home page.",
+    "platforms": "Steam, PlayStation, Xbox and Switch data; MCP and API access for use with ChatGPT and Claude, per the vendor's home page.",
+    "pricing": "No prices on the home page. Features are sold under 'GameDiscoverCo Pro'; MCP access 'Requires Pro with access enabled'. The page offers 'Book a demo' and 'Ask about access'.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Steam sales and revenue data",
+      "Wishlists",
+      "Console data",
+      "MCP and API access",
+      "Audience insights",
+      "Sales forecasts from comparable games",
+      "Next Fest rankings"
+    ],
+    "notable": [
+      "Home page says it is 'Trusted by over 110 teams'",
+      "Home page names Bandai Namco, Krafton, Team17 and Raw Fury among its customers"
+    ],
+    "facts": [
+      {
+        "fact": "GameDiscoverCo's home page offers Steam, console (PlayStation, Xbox, Switch) and MCP/API data for games-industry analysis.",
+        "url": "https://gamediscover.co/"
+      },
+      {
+        "fact": "GameDiscoverCo's home page says MCP access requires its Pro plan with access enabled.",
+        "url": "https://gamediscover.co/"
+      },
+      {
+        "fact": "GameDiscoverCo's home page shows no prices and offers 'Book a demo' and 'Ask about access' instead.",
+        "url": "https://gamediscover.co/"
+      },
+      {
+        "fact": "GameDiscoverCo's home page says it is trusted by over 110 teams and names Bandai Namco, Krafton, Team17 and Raw Fury among them.",
+        "url": "https://gamediscover.co/"
+      }
+    ]
+  },
+  {
+    "slug": "appfigures",
+    "name": "Appfigures",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://appfigures.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A platform for tracking app downloads, revenue, rankings, reviews and keywords, per the vendor's home page.",
+    "platforms": "Live App Store and Google Play data; the home page says it 'Works with every major store' but names only these two.",
+    "pricing": "No pricing tiers on the home page. It shows a 'Get Started Free' button and says 'No credit card required'; plan limits are not described.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "App Intelligence",
+      "Apple Ads Intelligence",
+      "ASO tools",
+      "Universal Analytics",
+      "Mobile Market Index",
+      "Keyword tracking",
+      "Review monitoring"
+    ],
+    "notable": [
+      "Home page gives self-reported figures: $13B revenue processed, 11B downloads tracked, 28M apps tracked this year (not verified)",
+      "Tracks SDK additions and removals for SDK makers"
+    ],
+    "facts": [
+      {
+        "fact": "Appfigures describes itself as a platform for tracking app downloads, revenue and market trends, researching competitors and finding keywords.",
+        "url": "https://appfigures.com/"
+      },
+      {
+        "fact": "Appfigures' home page says it works with every major store and shows live App Store and Google Play data.",
+        "url": "https://appfigures.com/"
+      },
+      {
+        "fact": "Appfigures' home page shows a 'Get Started Free' button and says 'No credit card required'; it does not list pricing tiers.",
+        "url": "https://appfigures.com/"
+      },
+      {
+        "fact": "Appfigures' home page reports self-reported figures of 28M apps tracked and 11B downloads tracked this year, without saying how they were verified.",
+        "url": "https://appfigures.com/"
+      }
+    ]
+  },
+  {
+    "slug": "apptopia",
+    "name": "Apptopia",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened: apptopia.com returned HTTP 405 Method Not Allowed.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "streams-charts",
+    "name": "Streams Charts",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened: streamscharts.com returned HTTP 403.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "keymailer",
+    "name": "Keymailer",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://keymailer.co/",
+    "company": "Keymailer",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A portal connecting game influencers and promoters, which the vendor calls 'the leading portal connecting game influencers and promoters'.",
+    "platforms": "",
+    "pricing": "Creators can create a free account; publishers have a free trial available. Specific prices are not on the home page; a pricing page is linked but was not opened.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free plan",
+    "key_features": [
+      "View campaigns",
+      "Creator programs",
+      "Game.Press",
+      "Agency services",
+      "Security mode",
+      "MeetToMatch"
+    ],
+    "notable": [
+      "Home page claims 60,000 content creators and 3.6 billion followers",
+      "Home page shows logos of Warner Bros Interactive Entertainment, Konami, Xbox Game Studios, Bandai Namco and Techland"
+    ],
+    "facts": [
+      {
+        "fact": "Keymailer describes itself as 'the leading portal connecting game influencers and promoters.'",
+        "url": "https://keymailer.co/"
+      },
+      {
+        "fact": "Keymailer's home page says creators can create a free account, and that publishers have a free trial available.",
+        "url": "https://keymailer.co/"
+      },
+      {
+        "fact": "Keymailer's home page does not list prices and links to a pricing page that was not opened.",
+        "url": "https://keymailer.co/"
+      },
+      {
+        "fact": "Keymailer's home page claims 60,000 content creators, 3.6 billion followers and 200 new titles each month.",
+        "url": "https://keymailer.co/"
+      },
+      {
+        "fact": "Keymailer's home page shows logos of publishers including Warner Bros Interactive Entertainment, Konami, Xbox Game Studios, Bandai Namco and Techland.",
+        "url": "https://keymailer.co/"
+      }
+    ]
+  },
+  {
+    "slug": "woovit",
+    "name": "Woovit",
+    "status": "dropped",
+    "drop_reason": "woovit.com opened and is a Vietnamese sports-betting directory (betting brands and promotions), not a game-industry tool.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "lurkit",
+    "name": "Lurkit",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://lurkit.gg/",
+    "company": "LURKIT AB",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An all-in-one creator platform for games, for prospecting creators, running campaigns and boosting game visibility, per the vendor's home page.",
+    "platforms": "Tracks creators on Twitch, YouTube, YouTube Shorts and TikTok; a web platform.",
+    "pricing": "A Pricing page link exists; no prices or free plan are described on the home page.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Creator prospecting",
+      "Creator programs",
+      "Quests (paid campaigns)",
+      "Key distribution",
+      "Creator CRM",
+      "Missions and rewards"
+    ],
+    "notable": [
+      "Case study: Bohemia Interactive's DayZ Frostline creator program",
+      "Page claims 900+ publishers and studios use Lurkit (vendor claim)"
+    ],
+    "facts": [
+      {
+        "fact": "Lurkit describes itself as 'the all-in-one creator platform built to power games' growth.'",
+        "url": "https://lurkit.gg/"
+      },
+      {
+        "fact": "Lurkit's home page says it tracks creators on Twitch, YouTube, YouTube Shorts and TikTok.",
+        "url": "https://lurkit.gg/"
+      },
+      {
+        "fact": "Lurkit's home page links to a Pricing page but does not state prices or a free plan.",
+        "url": "https://lurkit.gg/"
+      },
+      {
+        "fact": "Lurkit's home page says it manually verifies every creator that signs up on the platform.",
+        "url": "https://lurkit.gg/"
+      }
+    ]
+  },
+  {
+    "slug": "gamesight",
+    "name": "Gamesight",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://gamesight.io/",
+    "company": "Gamesight",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A creator marketing and measurement provider for games, per the vendor's home page.",
+    "platforms": "Not listed; the page references consoles and Steam as game platforms.",
+    "pricing": "Not on page. Calls to action are 'Book a Demo' and 'Talk to an Expert'.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Data and intelligence",
+      "Measurement",
+      "Creator platform",
+      "Key distribution",
+      "Creator services",
+      "Creator CRM",
+      "Creator payments"
+    ],
+    "notable": [
+      "Home page shows 'SINCE 2011' under its trusted-by heading (not stated as a founding year)",
+      "Testimonials come from staff at Netflix, Krafton, Reddit and Avalanche Studios Group"
+    ],
+    "facts": [
+      {
+        "fact": "Gamesight describes itself as creator marketing and measurement for games, under the headline 'Creator Marketing & Measurement for Games'.",
+        "url": "https://gamesight.io/"
+      },
+      {
+        "fact": "Gamesight's home page lists products including Data & Intelligence, Measurement, Creator Platform, Key Distribution and Creator Services.",
+        "url": "https://gamesight.io/"
+      },
+      {
+        "fact": "Gamesight's home page shows no prices; its calls to action are 'Book a Demo' and 'Talk to an Expert'.",
+        "url": "https://gamesight.io/"
+      },
+      {
+        "fact": "Gamesight's home page includes testimonials from staff at Netflix, Krafton, Reddit and Avalanche Studios Group.",
+        "url": "https://gamesight.io/"
+      }
+    ]
+  },
+  {
+    "slug": "grin",
+    "name": "Grin",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://grin.co/",
+    "company": "GRIN",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A creator marketing platform with an AI teammate called Gia, for finding creators, outreach, gifting, affiliate and paid programs, per the vendor's home page.",
+    "platforms": "Not specified on the page; it references a web app and a free Creator App for creators.",
+    "pricing": "Free: $0/month plus a 20% management fee on wallet deposits. Starter: $200/month after a 30-day free trial, plus 10% on deposits. Growth: $500/month plus 7%. Scale: $1,500/month plus 5%. Enterprise: priced with sales.",
+    "pricing_model": "Subscription",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Gia AI teammate",
+      "GRIN Marketplace",
+      "Creator CRM and inbox",
+      "Gifting, affiliate and paid programs",
+      "Wallet with escrow",
+      "Post tracking",
+      "Reporting"
+    ],
+    "notable": [
+      "Home page cites Uber, Stio and Rookie Wellness results (vendor claims)",
+      "Home page claims $1.2B+ in creator-driven GMV and 5,000 brands since 2017"
+    ],
+    "facts": [
+      {
+        "fact": "GRIN describes itself as a creator marketing platform with an AI teammate called Gia.",
+        "url": "https://grin.co/"
+      },
+      {
+        "fact": "GRIN's home page lists a Free plan at $0/month plus a 20% management fee on wallet deposits.",
+        "url": "https://grin.co/"
+      },
+      {
+        "fact": "GRIN's home page lists a Starter plan at $200/month after a 30-day free trial, plus 10% on deposits.",
+        "url": "https://grin.co/"
+      },
+      {
+        "fact": "GRIN's home page says it has supported 5,000 brands since 2017 and claims $1.2B+ in creator-driven GMV.",
+        "url": "https://grin.co/"
+      }
+    ]
+  },
+  {
+    "slug": "creatoriq",
+    "name": "CreatorIQ",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://creatoriq.com/",
+    "company": "SocialEdge, Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An enterprise creator marketing platform that connects creators, campaigns and signals into one intelligence platform, per the vendor's home page.",
+    "platforms": "Logos shown for Instagram, TikTok, YouTube, Facebook, Snapchat and Amazon; integrations include Shopify, Google Analytics, Tableau and several affiliate networks.",
+    "pricing": "Not on page; a Pricing link exists in the navigation, but no prices or free plan are shown.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Creator discovery",
+      "Creator evaluation",
+      "Creator management",
+      "Campaign execution",
+      "Measurement",
+      "Creator payments",
+      "Community insights"
+    ],
+    "notable": [
+      "Home page says it is 'Trusted by 1,300+' brands and agencies",
+      "Home page names Dentsu, Nestlé, Unilever, Google and Sephora among its customers"
+    ],
+    "facts": [
+      {
+        "fact": "CreatorIQ describes itself as connecting every creator, campaign and signal into one intelligence advantage.",
+        "url": "https://creatoriq.com/"
+      },
+      {
+        "fact": "CreatorIQ's home page lists product areas including Creator Discovery, Creator Management, Campaign Execution and Measurement.",
+        "url": "https://creatoriq.com/"
+      },
+      {
+        "fact": "CreatorIQ's home page shows no prices and no free plan; it has a Pricing link in its navigation.",
+        "url": "https://creatoriq.com/"
+      },
+      {
+        "fact": "CreatorIQ's home page says it is trusted by 1,300+ brands and agencies and names Dentsu, Nestlé, Unilever and Google among its customers.",
+        "url": "https://creatoriq.com/"
+      }
+    ]
+  },
+  {
+    "slug": "upfluence",
+    "name": "Upfluence",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://upfluence.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Influencer marketing software covering creator discovery, campaign management, performance analytics and creator payments, per the vendor's home page.",
+    "platforms": "Integrations named include Shopify, WooCommerce, Magento, BigCommerce, Amazon (via Amazon Attribution) and Klaviyo.",
+    "pricing": "No specific prices; the page says 'Most platforms, use custom plans rather than a single sticker price' and directs visitors to the pricing page or a demo.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Jaice AI campaign co-pilot",
+      "Influencer search and discovery",
+      "Upfluence Marketplace",
+      "Campaign and creator relationship management",
+      "Affiliate promo codes",
+      "Sales and ROI tracking",
+      "Upfluence Pay",
+      "API and MCP access"
+    ],
+    "notable": [
+      "Testimonials and case studies name Branded, Nocibé Group, Marriott and Universal",
+      "Logos shown include Kodak, Amazon, Netflix and Verizon (not described as customers)"
+    ],
+    "facts": [
+      {
+        "fact": "Upfluence describes itself as influencer marketing software covering creator discovery, campaign management, analytics and creator payments.",
+        "url": "https://upfluence.com/"
+      },
+      {
+        "fact": "Upfluence's home page says most platforms use custom plans rather than a single sticker price.",
+        "url": "https://upfluence.com/"
+      },
+      {
+        "fact": "Upfluence's home page names Shopify, WooCommerce, Magento, BigCommerce, Amazon and Klaviyo among its integrations.",
+        "url": "https://upfluence.com/"
+      },
+      {
+        "fact": "Upfluence's home page offers API and MCP access and a Jaice AI campaign co-pilot.",
+        "url": "https://upfluence.com/"
+      }
+    ]
+  },
+  {
+    "slug": "modash",
+    "name": "Modash",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://modash.io/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A Shopify-first influencer marketing platform for finding creators, managing partnerships, tracking performance and paying creators, per the vendor's home page.",
+    "platforms": "Instagram, TikTok and YouTube.",
+    "pricing": "Starting at $199/month, with plans scaling by searches, emails, tracked creators and seats (per the home page FAQ). A 14-day free trial with no credit card required; no permanent free plan is listed.",
+    "pricing_model": "Subscription",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Discover with AI search",
+      "Manage",
+      "Track",
+      "Pay",
+      "Email inbox",
+      "Shopify integration",
+      "Gifting",
+      "Affiliates",
+      "Paid partnerships",
+      "API and MCP"
+    ],
+    "notable": [
+      "Home page logos include Sennheiser, Birkenstock, Stanley and NordVPN (logos, not described as customers)",
+      "Plans start at $199/month"
+    ],
+    "facts": [
+      {
+        "fact": "Modash describes itself as a Shopify-first influencer marketing platform.",
+        "url": "https://modash.io/"
+      },
+      {
+        "fact": "Modash's home page says plans start at $199/month and scale by searches, emails, tracked creators and seats.",
+        "url": "https://modash.io/"
+      },
+      {
+        "fact": "Modash's home page offers a 14-day free trial with no credit card required and does not list a permanent free plan.",
+        "url": "https://modash.io/"
+      },
+      {
+        "fact": "Modash's home page says it covers Instagram, TikTok and YouTube.",
+        "url": "https://modash.io/"
+      }
+    ]
+  },
+  {
+    "slug": "collabstr",
+    "name": "Collabstr",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened: collabstr.com returned HTTP 403 Forbidden.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "terminals",
+    "name": "Terminals",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://terminals.io/",
+    "company": "Terminals Technology, Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A games-industry site with a games browse section, news and calendar, and a services offer that puts developers' games in front of verified media and creators, per the vendor's home page.",
+    "platforms": "Not stated for the site itself.",
+    "pricing": "Not on page.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Game browse",
+      "News",
+      "Services for developers and publishers",
+      "Event calendar"
+    ],
+    "notable": [
+      "Services offer claims reach to more than 29,000 verified media, streamers and YouTube creators (vendor claim)"
+    ],
+    "facts": [
+      {
+        "fact": "Terminals describes its Services offer as a way to get your game in front of more than 29,000 verified media, streamers and YouTube content creators.",
+        "url": "https://terminals.io/"
+      },
+      {
+        "fact": "Terminals' home page has Browse, News, Services and Calendar sections.",
+        "url": "https://terminals.io/"
+      },
+      {
+        "fact": "Terminals' home page does not show pricing or a free plan.",
+        "url": "https://terminals.io/"
+      },
+      {
+        "fact": "Terminals' home page copyright line reads '© 2015-2026 Terminals Technology, Inc.'",
+        "url": "https://terminals.io/"
+      }
+    ]
+  },
+  {
+    "slug": "impress",
+    "name": "Impress",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://impress.games/",
+    "company": "IMPRESS",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An all-in-one indie game marketing toolkit, per the vendor's home page.",
+    "platforms": "Press, YouTube, Twitch, Kick, Reddit, podcasts, TikTok, Bilibili and Niconico; Steam tools, Discord, Slack and webhook integrations.",
+    "pricing": "Free account at $0 ('Free to start!'); paid tiers from $69/mo (Launchpad), $24/mo (Coverage Bot) and $9/mo (Press Kitty & Newsroom); annual billing with '2 months free'; no fixed contract on bundles.",
+    "pricing_model": "Subscription",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Coverage Bot",
+      "Press Kitty and Newsroom",
+      "Launchpad",
+      "Steam Tools",
+      "Academy"
+    ],
+    "notable": [
+      "Logo strip includes Plan of Attack, Abiding Bridge, Oro Interactive and Pixel Split (not described as paying customers)"
+    ],
+    "facts": [
+      {
+        "fact": "IMPRESS describes itself as 'the all-in-one indie game marketing toolkit.'",
+        "url": "https://impress.games/"
+      },
+      {
+        "fact": "IMPRESS's home page lists a free account at $0 and paid tiers from $9/mo for Press Kitty & Newsroom, $24/mo for Coverage Bot and $69/mo for Launchpad.",
+        "url": "https://impress.games/"
+      },
+      {
+        "fact": "IMPRESS's home page says annual billing gives '2 months free' and that bundles have no fixed contract.",
+        "url": "https://impress.games/"
+      },
+      {
+        "fact": "IMPRESS's home page lists Steam Tools, including a revenue calculator and a publisher database, as free.",
+        "url": "https://impress.games/"
+      }
+    ]
+  },
+  {
+    "slug": "hypeauditor",
+    "name": "HypeAuditor",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://hypeauditor.com/",
+    "company": "HypeAuditor",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An influencer marketing platform to find, vet and activate creators, per the vendor's home page.",
+    "platforms": "Instagram, TikTok, YouTube, Twitch and X (Twitter); the FAQ also lists Snapchat.",
+    "pricing": "Paid plans, with pricing depending on plan, features and usage limits; exact prices are not on the page. A free tier includes free media plans, campaign management and demo versions of other features.",
+    "pricing_model": "Quote only",
+    "free_plan": "Free plan",
+    "key_features": [
+      "AI and lookalike discovery",
+      "Influencer analytics",
+      "Influencer outreach",
+      "Campaign management",
+      "Media monitor",
+      "E-commerce tracking",
+      "Chrome extension",
+      "API"
+    ],
+    "notable": [
+      "Home page claims 227.2M+ accounts in its database and 5M+ report requests processed (vendor claims)",
+      "Home page names Notino, MediaMarkt, Migros and MSI among its customers"
+    ],
+    "facts": [
+      {
+        "fact": "HypeAuditor describes itself as an influencer marketing platform to find, vet and activate creators.",
+        "url": "https://hypeauditor.com/"
+      },
+      {
+        "fact": "HypeAuditor's home page says paid plan prices depend on plan, features and usage limits, and does not show exact prices.",
+        "url": "https://hypeauditor.com/"
+      },
+      {
+        "fact": "HypeAuditor's home page says users can start with free media plans, campaign management and demo versions of other features.",
+        "url": "https://hypeauditor.com/"
+      },
+      {
+        "fact": "HypeAuditor's home page lists Instagram, TikTok, YouTube, Twitch and X (Twitter) as platforms it covers.",
+        "url": "https://hypeauditor.com/"
+      }
+    ]
+  },
+  {
+    "slug": "mod-io",
+    "name": "mod.io",
+    "status": "dropped",
+    "drop_reason": "mod.io returned only the page title 'Cross Platform Mod Support for Games - mod.io'; no product description or other content was on the page.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "overwolf",
+    "name": "Overwolf",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://overwolf.com/",
+    "company": "Overwolf",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A platform that delivers in-game content through desktop apps and overlays, mods (via CurseForge), game servers and websites, per the vendor's home page.",
+    "platforms": "Desktop apps and overlays for PC games; a cross-platform modding service for studios.",
+    "pricing": "Not on page.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "App Path",
+      "Mod Path",
+      "Server Path",
+      "Website Path",
+      "Creator Fund",
+      "Appstore",
+      "CurseForge API and SDK",
+      "Tebex",
+      "Nitropay"
+    ],
+    "notable": [
+      "Home page shows 113M monthly active users and 1,500+ supported games (vendor claims)",
+      "Logos under 'Trusted by' include Logitech, Intel Capital, PUBG and Ubisoft"
+    ],
+    "facts": [
+      {
+        "fact": "Overwolf describes its purpose as empowering players, developers and creators to make the best games even better through in-game content.",
+        "url": "https://overwolf.com/"
+      },
+      {
+        "fact": "Overwolf's home page lists App Path, Mod Path, Server Path and Website Path among its offerings.",
+        "url": "https://overwolf.com/"
+      },
+      {
+        "fact": "Overwolf's home page mentions a $50M creator fund and monetization tools, but no pricing or free plan.",
+        "url": "https://overwolf.com/"
+      },
+      {
+        "fact": "Overwolf's home page reports 113M monthly active users and 1,500+ supported games (vendor claims).",
+        "url": "https://overwolf.com/"
+      }
+    ]
+  },
+  {
+    "slug": "curseforge",
+    "name": "CurseForge",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://curseforge.com/",
+    "company": "Overwolf",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A mods and addons platform; the vendor's home page says 'CurseForge makes modding easy, safe, and rewarding.'",
+    "platforms": "PC, Mac and Linux for players; PC, console and mobile distribution for studios; supported games include Minecraft, World of Warcraft and The Sims 4.",
+    "pricing": "Free client ('Download the CurseForge Client for free'). CurseForge Premium is an ad-free upgrade; its price is not on the page.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free plan",
+    "key_features": [
+      "One-click installs",
+      "Easy mod management",
+      "Create, share and earn",
+      "Paid to creators",
+      "Multi-platform exposure"
+    ],
+    "notable": [
+      "Home page shows 620K+ mods, 150B+ downloads and $33.5M+ paid to creators (vendor claims)"
+    ],
+    "facts": [
+      {
+        "fact": "CurseForge describes itself as a mods and addons platform: 'CurseForge makes modding easy, safe, and rewarding.'",
+        "url": "https://curseforge.com/"
+      },
+      {
+        "fact": "CurseForge's home page says the CurseForge Client can be downloaded for free.",
+        "url": "https://curseforge.com/"
+      },
+      {
+        "fact": "CurseForge's home page describes CurseForge Premium as an ad-free upgrade, without showing its price.",
+        "url": "https://curseforge.com/"
+      },
+      {
+        "fact": "CurseForge's home page shows 620K+ mods and 150B+ downloads (vendor claims).",
+        "url": "https://curseforge.com/"
+      }
+    ]
+  },
+  {
+    "slug": "steam-workshop",
+    "name": "Steam Workshop",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://steamcommunity.com/workshop",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "The Steam Workshop, where users submit, find, rate and download content and modifications for Steam games, per the page.",
+    "platforms": "Web via Steam Community; the Steam client (beta), where Workshop subscriptions are managed; mobile and Steam Deck friendly browsing.",
+    "pricing": "Not on page.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Workshop collections",
+      "Saved search queries",
+      "Game branch versions",
+      "Subscriptions with load ordering",
+      "Change notes"
+    ],
+    "notable": [
+      "Page says the team plans to keep improving the Steam Workshop (27 May announcement)"
+    ],
+    "facts": [
+      {
+        "fact": "The Steam Workshop page describes itself as the place to 'submit, find, rate, and download new content and modifications for your favorite Steam games.'",
+        "url": "https://steamcommunity.com/workshop"
+      },
+      {
+        "fact": "The Steam Workshop page lists Workshop collections, saved search queries, game branch versions and a subscriptions list with dependency-based load ordering.",
+        "url": "https://steamcommunity.com/workshop"
+      },
+      {
+        "fact": "The Steam Workshop page is available on the web via Steam Community and in the Steam client (beta).",
+        "url": "https://steamcommunity.com/workshop"
+      },
+      {
+        "fact": "The Steam Workshop page shows no pricing.",
+        "url": "https://steamcommunity.com/workshop"
+      }
+    ]
+  },
+  {
+    "slug": "thunderstore",
+    "name": "Thunderstore",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://thunderstore.io/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A mod database, per the vendor's home page: 'Choose from over 110,000 mods across 300+ games.'",
+    "platforms": "Thunderstore Mod Manager for Windows; game communities such as Lethal Company, Valheim and Risk of Rain 2.",
+    "pricing": "Not on page.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Thunderstore Mod Manager",
+      "Communities",
+      "Modding wiki",
+      "API documentation",
+      "Manifest validator"
+    ],
+    "notable": [
+      "Home page claims over 110,000 mods across 300+ games"
+    ],
+    "facts": [
+      {
+        "fact": "Thunderstore describes itself as a mod database: 'Choose from over 110,000 mods across 300+ games.'",
+        "url": "https://thunderstore.io/"
+      },
+      {
+        "fact": "Thunderstore's home page offers the Thunderstore Mod Manager for Windows.",
+        "url": "https://thunderstore.io/"
+      },
+      {
+        "fact": "Thunderstore's home page lists game communities including Lethal Company, Valheim and Risk of Rain 2.",
+        "url": "https://thunderstore.io/"
+      },
+      {
+        "fact": "Thunderstore's home page shows no pricing or free plan.",
+        "url": "https://thunderstore.io/"
+      }
+    ]
+  },
+  {
+    "slug": "modrinth",
+    "name": "Modrinth",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://modrinth.com/",
+    "company": "Rinth, Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An open-source platform for discovering, playing and sharing Minecraft content, per the vendor's home page.",
+    "platforms": "Minecraft only; Fabric, Forge and NeoForge mod loaders.",
+    "pricing": "Not shown on the page; it links to Modrinth+, Modrinth App and Modrinth Hosting with no prices. Creators can earn ad revenue from project pages.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Modrinth App",
+      "Modrinth+",
+      "Modrinth Hosting",
+      "Modrinth API",
+      "Team management",
+      "Monetization",
+      "Rewards program"
+    ],
+    "notable": [
+      "Page carries the disclaimer 'NOT AN OFFICIAL MINECRAFT SERVICE. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.'"
+    ],
+    "facts": [
+      {
+        "fact": "Modrinth describes itself as an open-source platform built for the community to discover, play and share Minecraft content.",
+        "url": "https://modrinth.com/"
+      },
+      {
+        "fact": "Modrinth's home page lists Modrinth+, Modrinth App and Modrinth Hosting, without showing prices.",
+        "url": "https://modrinth.com/"
+      },
+      {
+        "fact": "Modrinth's home page says creators can earn ad revenue from project pages and withdraw the funds.",
+        "url": "https://modrinth.com/"
+      },
+      {
+        "fact": "Modrinth's home page states it is 'NOT AN OFFICIAL MINECRAFT SERVICE' and not approved by or associated with Mojang or Microsoft.",
+        "url": "https://modrinth.com/"
+      }
+    ]
+  },
+  {
+    "slug": "nexus-mods",
+    "name": "Nexus Mods",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened: nexusmods.com returned HTTP 403 Forbidden.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "roblox",
+    "name": "Roblox",
+    "status": "dropped",
+    "drop_reason": "roblox.com returned only the page title 'Roblox: Play Free Online Games - Sign Up to Play!'; no product description was on the page.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "gamebanana",
+    "name": "GameBanana",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://gamebanana.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A game modding community site, per its home page title 'The Game Modding Community - Since 2001'.",
+    "platforms": "",
+    "pricing": "The home page says 'We don't have paywalls or sell mods - we never will.' and states that ads keep the site online.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [],
+    "notable": [
+      "Home page title says 'Since 2001'"
+    ],
+    "facts": [
+      {
+        "fact": "GameBanana's home page title reads 'GameBanana | The Game Modding Community - Since 2001'.",
+        "url": "https://gamebanana.com/"
+      },
+      {
+        "fact": "GameBanana's home page says: 'We don't have paywalls or sell mods - we never will.'",
+        "url": "https://gamebanana.com/"
+      },
+      {
+        "fact": "GameBanana's home page says 'Ads keep us online' and asks visitors to unblock ads.",
+        "url": "https://gamebanana.com/"
+      }
+    ]
+  },
+  {
+    "slug": "moddb",
+    "name": "ModDB",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened: moddb.com returned HTTP 403 Forbidden.",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "helpshift",
+    "name": "Helpshift",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://helpshift.com/",
+    "company": "Helpshift",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An AI-native player engagement platform, per the vendor's home page: 'Helpshift is the AI-native player engagement platform.'",
+    "platforms": "In-game support SDKs for mobile, PC and web; console support via QR codes and links; community and trust and safety coverage across in-game chat, Discord, forums and social platforms.",
+    "pricing": "Not on page.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "CARE AI",
+      "AI agent copilot",
+      "Proactive engagement",
+      "Policy enforcement workflows",
+      "Community insights",
+      "QR code console handoff",
+      "Human services"
+    ],
+    "notable": [
+      "Case studies name Zynga, Jam City, Rovio, Gameloft and Kixeye",
+      "Logos shown include Krafton, EA, Sega, Ubisoft and Supercell (not described as case studies)"
+    ],
+    "facts": [
+      {
+        "fact": "Helpshift describes itself as 'the AI-native player engagement platform.'",
+        "url": "https://helpshift.com/"
+      },
+      {
+        "fact": "Helpshift's home page says it offers in-game support SDKs for mobile, PC and web, plus console support via QR codes and links.",
+        "url": "https://helpshift.com/"
+      },
+      {
+        "fact": "Helpshift's home page names Zynga, Jam City, Rovio and Gameloft among its case studies.",
+        "url": "https://helpshift.com/"
+      },
+      {
+        "fact": "Helpshift's home page lists CARE AI, an AI agent copilot and policy enforcement workflows among its features.",
+        "url": "https://helpshift.com/"
+      }
+    ]
+  },
+  {
+    "slug": "aihelp",
+    "name": "AIHelp",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://aihelp.net/",
+    "company": "AIHelp",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An in-app and web customer support platform with AI chatbots and messaging, offered as a mobile SDK and web chat, per the vendor's home page.",
+    "platforms": "Mobile via SDK, and web; the page says it is 'compatible with all major platforms'.",
+    "pricing": "A 'Get Free Trial' offer; pricing details are on a separate Pricing page that was not opened.",
+    "pricing_model": "",
+    "free_plan": "Free trial",
+    "key_features": [
+      "In-app messaging",
+      "AI chat bots",
+      "Push notifications",
+      "Smart auto-form",
+      "Web chat",
+      "Customizable AI forms",
+      "Chat API"
+    ],
+    "notable": [
+      "Page claims 30K happy clients and 800M+ monthly active users (vendor claims)"
+    ],
+    "facts": [
+      {
+        "fact": "AIHelp describes itself as an in-app and web customer support platform with AI chatbots, messaging and operations tools.",
+        "url": "https://aihelp.net/"
+      },
+      {
+        "fact": "AIHelp's home page offers a 'Get Free Trial' and links to a separate Pricing page.",
+        "url": "https://aihelp.net/"
+      },
+      {
+        "fact": "AIHelp's home page lists in-app messaging, AI chat bots, push notifications and web chat.",
+        "url": "https://aihelp.net/"
+      },
+      {
+        "fact": "AIHelp's home page claims 30K happy clients and 800M+ monthly active users (vendor claims).",
+        "url": "https://aihelp.net/"
+      }
+    ]
+  },
+  {
+    "slug": "zendesk",
+    "name": "Zendesk",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.zendesk.com/",
+    "company": "Zendesk",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An AI-first customer service platform with self-learning AI agents and the Zendesk Resolution Platform, per the vendor's home page.",
+    "platforms": "Email, messaging, live chat, phone, social media and help centers.",
+    "pricing": "14 days free trial, no credit card required; eligible startups can get up to 2 years free; plan prices are not on the page, which links to plans and pricing.",
+    "pricing_model": "",
+    "free_plan": "Free trial",
+    "key_features": [
+      "AI agents",
+      "Zendesk AI",
+      "Copilot",
+      "Quality assurance",
+      "Workforce management",
+      "Knowledge base",
+      "Voice",
+      "Ticketing",
+      "Marketplace of 1,800+ apps"
+    ],
+    "notable": [
+      "Logo wall includes Siemens, GitHub, Uber, Box, Vimeo and Tesco",
+      "Home page claims over 22,000 service teams and 80,000+ companies (vendor claims)"
+    ],
+    "facts": [
+      {
+        "fact": "Zendesk's home page describes it as an AI-first service platform with self-learning AI agents and the Zendesk Resolution Platform.",
+        "url": "https://www.zendesk.nl/#georedirect"
+      },
+      {
+        "fact": "Zendesk's home page offers a 14-day free trial with no credit card required.",
+        "url": "https://www.zendesk.nl/#georedirect"
+      },
+      {
+        "fact": "Zendesk's home page says eligible startups can get up to 2 years of Zendesk free.",
+        "url": "https://www.zendesk.nl/#georedirect"
+      },
+      {
+        "fact": "Zendesk's home page lists channels including email, messaging, live chat, phone, social media and help centers.",
+        "url": "https://www.zendesk.nl/#georedirect"
+      }
+    ]
+  },
+  {
+    "slug": "intercom",
+    "name": "Intercom",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://intercom.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "A customer service platform combining a helpdesk with the Fin AI Agent, per the vendor's home page.",
+    "platforms": "Phone, email, chat and Slack channels; a desktop app and a customer-facing messenger; no operating systems listed.",
+    "pricing": "Helpdesk with Fin AI Agent: $19 per seat per month plus $0.99 per outcome; spending limits can be set; 14 day free trial with no credit card required; no free plan mentioned.",
+    "pricing_model": "Per seat / month",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Copilot",
+      "Ticketing",
+      "Outbound messaging",
+      "Fin AI Agent",
+      "Centralized knowledge hub",
+      "Omnichannel inbox",
+      "Product tours"
+    ],
+    "notable": [
+      "Home page names Anthropic, Clay, Lightspeed and Rocket Money among its customers",
+      "Claims Fin resolution rates averaging 76% across 12,000+ customers (self-reported)"
+    ],
+    "facts": [
+      {
+        "fact": "Intercom describes its product as the only helpdesk with a natively integrated AI Agent, Fin.",
+        "url": "https://intercom.com/"
+      },
+      {
+        "fact": "Intercom's home page lists the helpdesk with Fin AI Agent at $19 per seat per month plus $0.99 per outcome.",
+        "url": "https://intercom.com/"
+      },
+      {
+        "fact": "Intercom's home page offers a 14 day free trial with no credit card required and mentions no free plan.",
+        "url": "https://intercom.com/"
+      },
+      {
+        "fact": "Intercom's home page names Anthropic, Clay, Lightspeed and Rocket Money among its customers.",
+        "url": "https://intercom.com/"
+      }
+    ]
+  },
+  {
+    "slug": "kustomer",
+    "name": "Kustomer",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://kustomer.com/",
+    "company": "Kustomer",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An AI-native customer platform covering omnichannel support, CRM, workflows and analytics, per the vendor's home page.",
+    "platforms": "Omnichannel support across every channel; specific devices or operating systems not listed.",
+    "pricing": "Not on page; a Pricing link exists but no prices or free-plan details are shown.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Concierge",
+      "Envoy",
+      "Architect",
+      "CRM",
+      "Omnichannel",
+      "Workflows and automation",
+      "Conversation intelligence",
+      "Reporting and analytics"
+    ],
+    "notable": [
+      "Home page names sweetgreen, Turo, Skims and Everlane among its customers",
+      "Home page says it is trusted by 600+ B2C and B2B companies"
+    ],
+    "facts": [
+      {
+        "fact": "Kustomer describes its platform as AI-native and built for the full customer relationship, from the first hello to retaining customers.",
+        "url": "https://kustomer.com/"
+      },
+      {
+        "fact": "Kustomer's home page lists AI features including Concierge, Envoy, Architect, Data Explorer and AI QA.",
+        "url": "https://kustomer.com/"
+      },
+      {
+        "fact": "Kustomer's home page names sweetgreen, Turo, Skims and Everlane among its customers.",
+        "url": "https://kustomer.com/"
+      },
+      {
+        "fact": "Kustomer's home page links to a Pricing page but shows no prices or free plan.",
+        "url": "https://kustomer.com/"
+      }
+    ]
+  },
+  {
+    "slug": "ada",
+    "name": "Ada",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://ada.cx/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "An AI-native company offering an AI agent platform (ACX Platform) for customer experience over voice, messaging and email, per the vendor's home page.",
+    "platforms": "Voice, messaging and email channels; open APIs and SDKs.",
+    "pricing": "Not on page.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "AI agent overview",
+      "Playbooks",
+      "Integrations",
+      "Trust and safety",
+      "Omnichannel multilingual CX"
+    ],
+    "notable": [
+      "Home page names Pinterest, monday.com, Sky, Barnes & Noble and GoFundMe among its customers",
+      "Claims include an 84% automated resolution rate and 350+ businesses served (vendor-reported)"
+    ],
+    "facts": [
+      {
+        "fact": "Ada describes itself as an AI-native company on a mission to make customer experience extraordinary for everyone.",
+        "url": "https://ada.cx/"
+      },
+      {
+        "fact": "Ada's home page lists voice, messaging and email as its channels.",
+        "url": "https://ada.cx/"
+      },
+      {
+        "fact": "Ada's home page names Pinterest, monday.com, Sky, Barnes & Noble and GoFundMe among its customers.",
+        "url": "https://ada.cx/"
+      },
+      {
+        "fact": "Ada's home page lists compliance certifications including HIPAA, SOC 2, GDPR, PCI DSS and AIUC-1.",
+        "url": "https://ada.cx/"
+      }
+    ]
+  }
+]

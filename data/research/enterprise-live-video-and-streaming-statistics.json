@@ -1,0 +1,244 @@
+{
+  "slug": "enterprise-live-video-and-streaming-statistics",
+  "title": "Enterprise Live Video and Streaming Statistics 2026",
+  "description": "Surveys and trackers on enterprise video and live streaming in 2025 and 2026: platform sprawl, latency priorities, AI use, governance and public live viewing.",
+  "category": "best-enterprise-live-streaming-platforms",
+  "published": "2026-11-18",
+  "intro": "The average large enterprise runs 5 different video platforms, according to Vimeo's 2025 survey of 1,000 enterprise business leaders, and 73% of them expect video volume to keep accelerating. Live delivery adds its own pressure: Bitmovin's 2026/27 developer survey found low latency is now the top concern for 36% of video teams. The statistics below combine vendor surveys from Vimeo, Bitmovin, Kaltura, HeyGen and Wowza with Streams Charts viewing data. Most come from vendors, so treat them as directional.",
+  "sections": [
+    {
+      "h2": "Video volume and platform sprawl",
+      "facts": [
+        {
+          "text": "65% of the organizations in Vimeo's 2025 survey of 1,000 enterprise business leaders experienced a surge in video content creation over the previous two years.",
+          "source_name": "Vimeo, 2025 State of Video at Work key findings",
+          "source_url": "https://vimeo.com/blog/post/video-at-work-report-2025",
+          "year": "2025",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "73% of enterprise leaders in the same Vimeo survey expect video volume to keep accelerating over the next three years.",
+          "source_name": "Vimeo, 2025 State of Video at Work key findings",
+          "source_url": "https://vimeo.com/blog/post/video-at-work-report-2025",
+          "year": "2025",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Vimeo reports that the average large enterprise uses 5 different video platforms.",
+          "source_name": "Vimeo, 2025 State of Video at Work key findings",
+          "source_url": "https://vimeo.com/blog/post/video-at-work-report-2025",
+          "year": "2025",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "57% of surveyed organizations admit they lack a video strategy that is clear, consistent and well communicated across the organization.",
+          "source_name": "Vimeo, 2025 State of Video at Work key findings",
+          "source_url": "https://vimeo.com/blog/post/video-at-work-report-2025",
+          "year": "2025",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "48% of enterprise leaders say they struggle to scale video creation while keeping quality consistent, and 46% say they are ineffective at repurposing content.",
+          "source_name": "Vimeo, 2025 State of Video at Work key findings",
+          "source_url": "https://vimeo.com/blog/post/video-at-work-report-2025",
+          "year": "2025",
+          "kind": "vendor-claim"
+        }
+      ]
+    },
+    {
+      "h2": "Compliance, data and governance",
+      "facts": [
+        {
+          "text": "63% of enterprise leaders in Vimeo's survey cite privacy regulations as a top concern with video, and 57% worry about compliance.",
+          "source_name": "Vimeo, 2025 State of Video at Work key findings",
+          "source_url": "https://vimeo.com/blog/post/video-at-work-report-2025",
+          "year": "2025",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "98% of enterprise leaders say the insights inside their video data are valuable, but only 45% have the tools to extract them effectively.",
+          "source_name": "Vimeo, 2025 State of Video at Work key findings",
+          "source_url": "https://vimeo.com/blog/post/video-at-work-report-2025",
+          "year": "2025",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "HeyGen reports that 84% of organizations in its State of Enterprise Video 2026 survey call pre-publication review essential or important, yet 37% publish video without formal review at least sometimes.",
+          "source_name": "HeyGen, The State of Enterprise Video 2026 (blog summary)",
+          "source_url": "https://www.heygen.com/blog/the-state-of-enterprise-video-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "53% of leaders in HeyGen's 2026 enterprise video survey cannot account for what their organization published in the previous 90 days.",
+          "source_name": "HeyGen, The State of Enterprise Video 2026 (blog summary)",
+          "source_url": "https://www.heygen.com/blog/the-state-of-enterprise-video-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "47% of organizations in HeyGen's 2026 survey cannot confirm that their video spend delivers measurable value.",
+          "source_name": "HeyGen, The State of Enterprise Video 2026 (blog summary)",
+          "source_url": "https://www.heygen.com/blog/the-state-of-enterprise-video-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        }
+      ]
+    },
+    {
+      "h2": "Live streaming priorities and latency",
+      "facts": [
+        {
+          "text": "Bitmovin's 10th Video Developer Report, covered by TV Tech on 11 September 2026, found that low latency for live streaming overtook controlling costs as the top challenge, named by 36% of respondents.",
+          "source_name": "TV Tech, Bitmovin Video Developer Report 2026/27 coverage",
+          "source_url": "https://www.tvtechnology.com/platform/streaming/survey-low-latency-for-live-streaming-is-industrys-top-challenge",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "In the same Bitmovin survey, controlling costs was named by 35% of respondents and consistent monitoring and analytics by 28%.",
+          "source_name": "TV Tech, Bitmovin Video Developer Report 2026/27 coverage",
+          "source_url": "https://www.tvtechnology.com/platform/streaming/survey-low-latency-for-live-streaming-is-industrys-top-challenge",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "In Bitmovin's 2026/27 survey, 16% of respondents expect latency under five seconds, compared with 60% who expected that in 2020, while 28% now expect latency under 10 seconds.",
+          "source_name": "TV Tech, Bitmovin Video Developer Report 2026/27 coverage",
+          "source_url": "https://www.tvtechnology.com/platform/streaming/survey-low-latency-for-live-streaming-is-industrys-top-challenge",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "28% of respondents in Bitmovin's 2026/27 survey of 486 video professionals plan to use Media over QUIC in the next 12 months.",
+          "source_name": "TV Tech, Bitmovin Video Developer Report 2026/27 coverage",
+          "source_url": "https://www.tvtechnology.com/platform/streaming/survey-low-latency-for-live-streaming-is-industrys-top-challenge",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Wowza's 2021 Video Streaming Latency Report gathered data from more than 200 broadcasters across industries from media and entertainment to fitness and surveillance.",
+          "source_name": "Wowza, 2021 Video Streaming Latency Report",
+          "source_url": "https://wowza.com/blog/2021-video-streaming-latency-report",
+          "year": "2021",
+          "kind": "survey"
+        },
+        {
+          "text": "In Wowza's 2021 report, more than 52% of survey participants experienced a lag of more than three seconds in their live broadcasts.",
+          "source_name": "Wowza, 2021 Video Streaming Latency Report",
+          "source_url": "https://wowza.com/blog/2021-video-streaming-latency-report",
+          "year": "2021",
+          "kind": "survey"
+        },
+        {
+          "text": "Most broadcasters in Wowza's 2021 survey aimed to reach real-time delivery for audiences of 300 or more viewers.",
+          "source_name": "Wowza, 2021 Video Streaming Latency Report",
+          "source_url": "https://wowza.com/blog/2021-video-streaming-latency-report",
+          "year": "2021",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "AI in the video workflow",
+      "facts": [
+        {
+          "text": "98% of the 486 respondents in Bitmovin's 2026/27 survey report using AI or machine learning for video, and 46% use AI tools every day.",
+          "source_name": "TV Tech, Bitmovin Video Developer Report 2026/27 coverage",
+          "source_url": "https://www.tvtechnology.com/platform/streaming/survey-low-latency-for-live-streaming-is-industrys-top-challenge",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Audio transcription, translation and dubbing is the most common AI application in the Bitmovin survey at 48%, ahead of content recommendations at 34%.",
+          "source_name": "TV Tech, Bitmovin Video Developer Report 2026/27 coverage",
+          "source_url": "https://www.tvtechnology.com/platform/streaming/survey-low-latency-for-live-streaming-is-industrys-top-challenge",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "HeyGen reports that 77% of organizations use AI video in some capacity and 50% use it regularly or extensively.",
+          "source_name": "HeyGen, The State of Enterprise Video 2026 (blog summary)",
+          "source_url": "https://www.heygen.com/blog/the-state-of-enterprise-video-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "72% of organizations in HeyGen's survey can produce a finished video within three days, and 26% can do it the same day.",
+          "source_name": "HeyGen, The State of Enterprise Video 2026 (blog summary)",
+          "source_url": "https://www.heygen.com/blog/the-state-of-enterprise-video-2026",
+          "year": "2026",
+          "kind": "vendor-claim"
+        }
+      ]
+    },
+    {
+      "h2": "Who streams and how large public live viewing is",
+      "facts": [
+        {
+          "text": "Wowza and the Help Me Stream Research Foundation collected 264 survey responses in March and April 2020, with 39% of respondents from North America and 28% from Europe.",
+          "source_name": "Wowza, Streaming Challenges and Optimization Needs (2020)",
+          "source_url": "https://www.wowza.com/blog/streaming-challenges-and-optimization-needs",
+          "year": "2020",
+          "kind": "survey"
+        },
+        {
+          "text": "In that 2020 Wowza survey, education and media and entertainment each made up 14% of respondents, event production 13% and religious organizations 9%.",
+          "source_name": "Wowza, Streaming Challenges and Optimization Needs (2020)",
+          "source_url": "https://www.wowza.com/blog/streaming-challenges-and-optimization-needs",
+          "year": "2020",
+          "kind": "survey"
+        },
+        {
+          "text": "Kaltura's 2026 survey of 300 enterprise marketing leaders found video is used by 58% at the top of the funnel and 62% in the middle, but by only 22% after purchase.",
+          "source_name": "Kaltura, 2026 Marketing Survey",
+          "source_url": "https://corp.kaltura.com/resources/whitepapers-and-guides/2026-marketing-survey/",
+          "year": "2026",
+          "kind": "vendor-claim"
+        },
+        {
+          "text": "Streams Charts counted a record 31.698 billion hours watched across tracked livestreaming platforms in Q3 2026, up 0.8% from Q2.",
+          "source_name": "Streamer.guide, Q3 2026 livestreaming report (Streams Charts data)",
+          "source_url": "https://streamer.guide/blog/q3-2026-livestreaming-landscape",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "YouTube set an all-time livestream concurrency record of 36.06 million viewers during the 2026 FIFA World Cup final, according to the Streams Charts Q3 2026 report as summarized by Streamer.guide.",
+          "source_name": "Streamer.guide, Q3 2026 livestreaming report (Streams Charts data)",
+          "source_url": "https://streamer.guide/blog/q3-2026-livestreaming-landscape",
+          "year": "2026",
+          "kind": "study"
+        }
+      ]
+    }
+  ],
+  "methodology": [
+    "On 18 November 2026 we opened the Vimeo report summary, the TV Tech article on Bitmovin's report, two Wowza blog pages, Kaltura's survey landing page, HeyGen's report summary and a Streamer.guide article that republishes Streams Charts data. Only figures printed on those pages are used. The full Vimeo, Bitmovin and HeyGen reports sit behind forms and were not opened.",
+    "Almost every source is a vendor that sells video products, and sample sizes and question wording are set by the vendor. Wowza's latency and challenge surveys date from 2021 and 2020 and are kept only as labeled historical baselines. Streams Charts blocked direct access, so the viewing figures come from a secondary summary that cites it, and they describe consumer platforms, not corporate webcasts."
+  ],
+  "faqs": [
+    {
+      "q": "What is the most cited challenge for live video teams in 2026?",
+      "a": "In Bitmovin's 2026/27 survey of 486 video professionals, low latency for live streaming was the top challenge at 36%, narrowly ahead of controlling costs at 35%. Bitmovin sells video infrastructure, so the sample leans toward technical teams."
+    },
+    {
+      "q": "How many video platforms does a large company run?",
+      "a": "Vimeo's 2025 survey of 1,000 enterprise business leaders reports an average of 5 platforms at large enterprises. The figure is Vimeo's and it markets consolidation, so check whether it matches your own inventory before using it in a business case."
+    },
+    {
+      "q": "Are the Wowza figures current?",
+      "a": "No. Wowza's latency report is from 2021 and its challenges survey from 2020. They are included as baselines, for example that more than 52% of broadcasters then had lag above three seconds, and should not be read as 2026 behavior."
+    },
+    {
+      "q": "Do the Streams Charts numbers cover corporate events?",
+      "a": "No. They track public livestreaming platforms such as YouTube, TikTok LIVE, Twitch and Kick. They show how large live viewing has become but not how many employees watch internal town halls or webinars."
+    }
+  ],
+  "related_guides": [
+    "how-to-choose-a-live-streaming-platform-for-company-events",
+    "rtmp-srt-webrtc-streaming-latency-explained",
+    "how-to-stream-a-hybrid-event-or-game-showcase"
+  ]
+}

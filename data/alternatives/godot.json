@@ -1,0 +1,273 @@
+{
+  "slug": "godot",
+  "subject": "Godot",
+  "subject_site": "https://godotengine.org/",
+  "title": "Godot Alternatives in 2026",
+  "published": "2026-11-18",
+  "category": "best-open-source-game-engines",
+  "description": "Ten engines to weigh if Godot is not the right open-source fit: Unity, GameMaker, Defold, GDevelop, Stride, Bevy and more, with license and pricing notes.",
+  "intro": "Godot is a free, open-source 2D and 3D game engine, created by Juan Linietsky and Ariel Manzur and hosted by the Godot Foundation, with Godot 4.7.2 as the latest download on its homepage. Teams look past it for many reasons: a different scripting language, a no-code editor, a Rust or C# codebase, or a commercial engine with a larger tool ecosystem. This page lists ten engines that overlap with Godot in some way, and says plainly where each one differs on license, price and platform reach, using only what the vendors state themselves.",
+  "why_switch": [
+    "You want an engine written in a language you already use, such as C# (Stride) or Rust (Bevy), instead of Godot's own tooling.",
+    "Your designers need a no-code or event-based editor, which GDevelop is built around.",
+    "The project is browser-first, and a HTML5 framework like Phaser fits better than a full editor.",
+    "You need console targets with a vendor behind the export, as GameMaker (Enterprise tier) and Defold (Xbox, PlayStation 5, Switch) list on their homepages.",
+    "You want full source of the engine plus a company contract, which Flax Engine advertises and Unity does not.",
+    "The studio has a heavy 3D scope and prefers a foundation-backed 3D engine such as O3DE."
+  ],
+  "picks": [
+    {
+      "slug": "unity",
+      "name": "Unity",
+      "site": "https://unity.com/",
+      "best_for": "Largest commercial engine ecosystem",
+      "pricing": "Unity's homepage says you can get started for free or find a plan, and shows no figures.",
+      "free_plan": "Unknown",
+      "note": "Unity is the obvious commercial counterweight to Godot. Its homepage lists desktop, iOS, Android, Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro as platforms, and announces Unity 7 as the next major version. You gain a vendor-run engine with a very wide target list. You give up Godot's plain statement that the engine is free and open source, because Unity's pricing sits on a separate plans page.",
+      "sources": [
+        {
+          "fact": "Unity is described on its homepage as the world's leading game engine for developing, deploying and growing games.",
+          "url": "https://unity.com/"
+        },
+        {
+          "fact": "The homepage says you can get started for free or find a plan, and links to Plans and pricing without showing figures.",
+          "url": "https://unity.com/"
+        },
+        {
+          "fact": "The homepage lists desktop, iOS, Android, Nintendo Switch, PlayStation, Xbox, Meta Quest, web and Apple Vision Pro as platforms.",
+          "url": "https://unity.com/"
+        }
+      ]
+    },
+    {
+      "slug": "gamemaker",
+      "name": "GameMaker",
+      "site": "https://gamemaker.io/",
+      "best_for": "2D games with a free starting tier",
+      "pricing": "Free tier with no credit card; Professional and Enterprise tiers have no prices shown on the homepage.",
+      "free_plan": "Free plan",
+      "note": "GameMaker calls itself The Friendly Indie Game Engine and is 2D only, so it narrows rather than widens what Godot offers. The free tier needs no credit card, while commercial release needs Professional and console release needs Enterprise. Its target list covers Windows, Mac, Linux, Android, iOS, HTML5, Xbox Series X|S, PlayStation 5 and Switch. Pick it when 2D scope and console export matter more than an open-source license.",
+      "sources": [
+        {
+          "fact": "GameMaker is described on the vendor homepage as a free 2D game engine, 'The Friendly Indie Game Engine'.",
+          "url": "https://gamemaker.io/"
+        },
+        {
+          "fact": "The free tier is described as completely free with no credit card required; no trial is mentioned on the homepage.",
+          "url": "https://gamemaker.io/"
+        },
+        {
+          "fact": "Professional allows commercial release and Enterprise adds release on major console platforms; the homepage gives no prices for either.",
+          "url": "https://gamemaker.io/"
+        }
+      ]
+    },
+    {
+      "slug": "defold",
+      "name": "Defold",
+      "site": "https://defold.com/",
+      "best_for": "Free engine with console exports",
+      "pricing": "Free forever, no royalties and no runtime fee, per the homepage.",
+      "free_plan": "Free",
+      "note": "Defold is the closest match on cost: the homepage says it is free forever, source available, with no royalties and no runtime fee. It targets 2D and 3D games and lists Xbox, PlayStation 5, PlayStation 4, Switch, Steam, iOS, Android and HTML5. Xbox support arrives with Defold 1.14.0, free for approved Xbox developers. Note the wording is source available, not open source, which matters if license purity is why you chose Godot.",
+      "sources": [
+        {
+          "fact": "Defold is described on the homepage as a free, powerful, all-in-one game engine for cross-platform 2D and 3D games.",
+          "url": "https://defold.com/"
+        },
+        {
+          "fact": "The homepage states Defold is free forever, source available under a developer-friendly license, with no royalties and no runtime fee.",
+          "url": "https://defold.com/"
+        },
+        {
+          "fact": "The homepage lists targets including Xbox, PlayStation 5, PlayStation 4, Nintendo Switch, Steam, iOS, Android and HTML5.",
+          "url": "https://defold.com/"
+        }
+      ]
+    },
+    {
+      "slug": "gdevelop",
+      "name": "GDevelop",
+      "site": "https://gdevelop.io/",
+      "best_for": "No-code 2D and 3D games",
+      "pricing": "Open source engine; Silver and Gold paid plans are listed without prices on the homepage.",
+      "free_plan": "Open source",
+      "note": "GDevelop is described as a free, open-source, no-code engine for 2D and 3D games, so it shares Godot's license stance while removing scripting from the picture. One-click export covers web, Android, Steam and iOS. The cost is the paid Silver and Gold plans, whose prices are not shown in the page text. Choose it for teams where designers, not programmers, build most of the game.",
+      "sources": [
+        {
+          "fact": "GDevelop is described on the vendor homepage as a free, open-source, no-code game engine for 2D and 3D games.",
+          "url": "https://gdevelop.io/"
+        },
+        {
+          "fact": "The homepage lists Silver and Gold paid plans, but the prices are not shown in the page text.",
+          "url": "https://gdevelop.io/"
+        },
+        {
+          "fact": "The homepage says games can be published to web, Android, Steam and iOS, with one-click exporting.",
+          "url": "https://gdevelop.io/"
+        }
+      ]
+    },
+    {
+      "slug": "stride",
+      "name": "Stride",
+      "site": "https://stride3d.net/",
+      "best_for": "C# developers wanting an MIT engine",
+      "pricing": "Free; editor and runtime source are MIT licensed.",
+      "free_plan": "Open source",
+      "note": "Stride is a cross-platform C# engine for 2D and 3D games and other interactive content on desktop and VR. The homepage states the editor and runtime source are MIT licensed and that the .NET Foundation supports the project. Stride 4.4, dated October 9, 2026, brings a Vulkan and Direct3D 12 rewrite and Native AOT support. It suits .NET teams; it offers a narrower platform story than Godot's wider export list.",
+      "sources": [
+        {
+          "fact": "Stride is described on its homepage as a free and open-source cross-platform C# game engine.",
+          "url": "https://stride3d.net/"
+        },
+        {
+          "fact": "The homepage states the editor and runtime source code are MIT licensed.",
+          "url": "https://stride3d.net/"
+        },
+        {
+          "fact": "The homepage announces Stride 4.4, dated October 9, 2026, with a Vulkan and Direct3D 12 rewrite and Native AOT support.",
+          "url": "https://stride3d.net/"
+        }
+      ]
+    },
+    {
+      "slug": "bevy",
+      "name": "Bevy",
+      "site": "https://bevy.org/",
+      "best_for": "Rust teams, code-first workflow",
+      "pricing": "Free under MIT or Apache 2.0; no contracts, license fees or sales cuts.",
+      "free_plan": "Open source",
+      "note": "Bevy is a data-driven engine written in Rust, free under MIT or Apache 2.0, with no contracts, license fees or sales cuts. Targets are Windows, macOS, Linux, Web, iOS and Android. Optional donor tiers run from $25 to $6,000 per month, and they are voluntary. What you give up against Godot is a visual editor-first workflow: Bevy is a code-driven engine, which suits Rust programmers best.",
+      "sources": [
+        {
+          "fact": "Bevy is described on its homepage as 'A refreshingly simple data-driven game engine built in Rust'.",
+          "url": "https://bevy.org/"
+        },
+        {
+          "fact": "The homepage says Bevy is open source under the permissive MIT or Apache 2.0 licenses.",
+          "url": "https://bevy.org/"
+        },
+        {
+          "fact": "The homepage states there are no contracts, license fees or sales cuts, and lists optional donor tiers from $25 to $6,000 per month.",
+          "url": "https://bevy.org/"
+        }
+      ]
+    },
+    {
+      "slug": "flax-engine",
+      "name": "Flax Engine",
+      "site": "https://flaxengine.com/",
+      "best_for": "Full source with a commercial licence",
+      "pricing": "License name and prices are not stated on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Flax Engine advertises full source code and scripting in C++, C# and Visual Scripting, and calls itself the most agile game engine. Its homepage links to a Licensing page but states no license name, royalty terms or prices, so read that page before committing. Consider it when you want source access and a 3D-oriented editor, and accept that its terms are less visible up front than Godot's free, open-source label.",
+      "sources": [
+        {
+          "fact": "Flax Engine describes itself on the homepage as 'The most agile game engine is now available' and advertises full source code.",
+          "url": "https://flaxengine.com/"
+        },
+        {
+          "fact": "The homepage lists scripting support for C++, C# and Visual Scripting.",
+          "url": "https://flaxengine.com/"
+        },
+        {
+          "fact": "The homepage links to a Licensing page; the license name and pricing are not stated in the page text.",
+          "url": "https://flaxengine.com/"
+        }
+      ]
+    },
+    {
+      "slug": "cocos-creator",
+      "name": "Cocos Creator",
+      "site": "https://cocos.com/",
+      "best_for": "Cross-platform 2D and 3D creation",
+      "pricing": "No price or product license statement on the homepage; it shows a download button.",
+      "free_plan": "Unknown",
+      "note": "Cocos Creator is a cross-platform graphics engine and real-time 3D content creation platform covering 2D and 3D games. The homepage claims it hosts over 70% of game content development and lists ARM, Meta, Google and Microsoft among partners. The vendor page offers no license or price statement, so verify terms before choosing it over Godot. It is a fit when your target markets already lean on the Cocos ecosystem.",
+      "sources": [
+        {
+          "fact": "Cocos Creator is described on the vendor homepage as a cross-platform graphics engine and real-time 3D content creation platform.",
+          "url": "https://cocos.com/"
+        },
+        {
+          "fact": "The homepage gives no price and no product license statement; it shows a download button and a link to a store.",
+          "url": "https://cocos.com/"
+        },
+        {
+          "fact": "The homepage states it hosts over 70% of game content development and lists partners including ARM, Meta, Google and Microsoft.",
+          "url": "https://cocos.com/"
+        }
+      ]
+    },
+    {
+      "slug": "o3de",
+      "name": "O3DE",
+      "site": "https://o3de.org/",
+      "best_for": "Foundation-backed 3D engine",
+      "pricing": "No pricing stated; donations and membership are promoted.",
+      "free_plan": "Open source",
+      "note": "O3DE (Open 3D Engine) is an open source, community-driven 3D engine supported by the Open 3D Foundation, with the Linux Foundation running the site's policies. O3DE 26.05 is the release named on the homepage. It matches Godot's open-source ethos but is 3D focused, and the engine's software license is not named on the homepage. Pick it for large 3D projects that want foundation governance.",
+      "sources": [
+        {
+          "fact": "O3DE is described on its homepage as an open source, community-driven and continuously evolving 3D engine.",
+          "url": "https://o3de.org/"
+        },
+        {
+          "fact": "The homepage credits the Open 3D Foundation, with the Linux Foundation running the site's policies.",
+          "url": "https://o3de.org/"
+        },
+        {
+          "fact": "The homepage names O3DE 26.05 as the latest release, announced as now available.",
+          "url": "https://o3de.org/"
+        }
+      ]
+    },
+    {
+      "slug": "phaser",
+      "name": "Phaser",
+      "site": "https://github.com/phaserjs/phaser",
+      "best_for": "HTML5 browser games",
+      "pricing": "Free, MIT license, per the official GitHub repository.",
+      "free_plan": "Open source",
+      "note": "Phaser is a free, fast 2D framework for HTML5 games that run in desktop and mobile browsers, licensed MIT. The repository references v4.2.1 as the current release, with Phaser 4 built on a new WebGL renderer, and says Phaser Studio Inc develops it together with the community. It is a framework rather than a full editor, so you swap Godot's scene tools for code. Best when the browser is the only target.",
+      "sources": [
+        {
+          "fact": "Phaser is described on its official GitHub repository as a fun, free and fast 2D game framework for HTML5 games.",
+          "url": "https://github.com/phaserjs/phaser"
+        },
+        {
+          "fact": "The repository page states the project is licensed under the MIT license.",
+          "url": "https://github.com/phaserjs/phaser"
+        },
+        {
+          "fact": "The repository page references v4.2.1 as the current release, with Phaser 4 built on a new WebGL renderer.",
+          "url": "https://github.com/phaserjs/phaser"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Start with the one constraint that cannot move. If it is the license, stay in the open-source group: Bevy, Stride, GDevelop, Phaser or O3DE. If it is console release, shortlist GameMaker or Defold and read their terms. If it is team skills, match language to people: C# points to Stride, Rust to Bevy, no-code to GDevelop. Treat Unity as the option to price out last, since its plans page holds the figures. Build the same small prototype in two finalists before deciding.",
+  "faqs": [
+    {
+      "q": "Is there a fully free engine that matches Godot on cost?",
+      "a": "Defold states on its homepage that it is free forever with no royalties and no runtime fee, and Bevy, Stride and Phaser are MIT-licensed or dual-licensed per their own pages. Defold is described as source available rather than open source, which is a real difference if license type matters to you."
+    },
+    {
+      "q": "Which Godot alternative needs no programming?",
+      "a": "GDevelop describes itself as a no-code engine for 2D and 3D games, with one-click export to web, Android, Steam and iOS. Stencyl and Buildbox also market no-code creation, but this list keeps to engines that overlap with Godot's 2D and 3D scope."
+    },
+    {
+      "q": "Can I release console games with these engines?",
+      "a": "Defold lists Xbox, PlayStation 5, PlayStation 4 and Switch as targets, and GameMaker lists Xbox Series X|S, PlayStation 5 and Switch, with console release tied to its Enterprise tier. Unity also lists PlayStation, Xbox and Switch. Check each vendor's terms and approval process first."
+    },
+    {
+      "q": "Which option suits a Rust codebase?",
+      "a": "Bevy is built in Rust and says it is free under MIT or Apache 2.0, with no contracts or sales cuts. Fyrox is another Rust engine, but its homepage states no license or pricing, so this page does not rank it."
+    },
+    {
+      "q": "Is Unity a sensible Godot replacement for a small team?",
+      "a": "Unity offers a free start according to its homepage and a long platform list, but its prices live on a separate plans page. A small team should read that page and compare it with Godot's plain free, open-source statement before moving a project."
+    }
+  ]
+}

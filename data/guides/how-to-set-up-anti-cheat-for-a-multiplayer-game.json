@@ -1,0 +1,161 @@
+{
+  "slug": "how-to-set-up-anti-cheat-for-a-multiplayer-game",
+  "title": "How to Set Up Anti-Cheat for a Multiplayer Game",
+  "description": "A layered checklist for multiplayer anti-cheat: server authority, input validation, a client-side service, ban policy and appeals, and DDoS protection.",
+  "kind": "Checklist",
+  "topic": "Game development",
+  "published": "2026-11-18",
+  "intro": "Anti-cheat for a multiplayer game works best as layers: a server that decides outcomes, validation of every client request, an optional client-side protection service, a clear ban and appeals process, and network defenses against denial-of-service attacks. Buying a product for only one layer leaves the others open. This checklist orders the work so that the cheapest and most effective layers come first, and it draws on Valve's Steamworks documentation and vendor pages for Easy Anti-Cheat and BattlEye.",
+  "key_takeaways": [
+    "Make the server authoritative before shopping for any anti-cheat product; it prevents whole categories of cheats for free.",
+    "Validate every client request on the server, including inputs that look harmless, such as movement and fire rate.",
+    "Client-side protection services add detection and bans, but they bring privacy, support and platform questions you must answer.",
+    "Tell players that anti-cheat exists, show clear in-game ban messages and offer an appeal path.",
+    "Treat DDoS protection as part of fair play, because attacks can be used to force opponents out of matches."
+  ],
+  "sections": [
+    {
+      "h2": "Know what you are defending against",
+      "paras": [
+        "Cheats fall into a few families, and each is stopped by a different layer. Information cheats reveal data the player should not see, such as enemy positions through walls. Input cheats automate or enhance control, such as aim assistance. State cheats change values the client should not control, such as speed, health or currency. Exploit abuse uses legitimate features in unintended ways. Network abuse floods or disrupts other players' connections.",
+        "Write this list for your own game, with the three cheats that would hurt your community most at the top. A cooperative game with no rankings needs a lighter plan than a ranked shooter with prizes."
+      ]
+    },
+    {
+      "h2": "Layer one: let the server decide",
+      "paras": [
+        "Valve's Steamworks documentation says running servers for your game is strongly suggested: a server that handles game state and sends it to a user only when necessary can help prevent cheating, for example by transmitting a player's position only when needed. It adds that the server can be authoritative over player position and other game states to prevent speed hacking or god mode. If your game uses peer-to-peer, the documentation says each user should validate the others so the host cannot have full control over the game state.",
+        "Godot's multiplayer documentation reaches the same design from the code side: by default the server is the authority for RPCs, and functions callable by any peer should be limited to things like user input. Whatever engine you use, send inputs up and results down, and never let the client report its own outcome."
+      ]
+    },
+    {
+      "h2": "Layer two: validate everything the client sends",
+      "paras": [
+        "Server authority only works if the server checks requests. Treat every message from a client as untrusted data and confirm it is possible given the current state."
+      ],
+      "list": [
+        "Movement: compare reported movement to the maximum speed and the time elapsed since the last update.",
+        "Actions: enforce cooldowns, ammo counts and range checks on the server, not in the client.",
+        "Economy: grant items and currency only from server-side events, never from client claims.",
+        "Rate limits: reject bursts of requests that no human could produce.",
+        "Logging: record rejected requests per account so patterns show up in review."
+      ],
+      "after": [
+        "Log validation failures without banning on a single event. Lag and bugs can produce impossible-looking inputs, and automatic bans on one signal create false positives that cost you honest players."
+      ]
+    },
+    {
+      "h2": "Layer three: decide whether to add a client-side service",
+      "paras": [
+        "Client-side anti-cheat services look for cheat software and tampering on the player's machine and ban offenders. Easy Anti-Cheat is part of Epic Online Services and its site describes detection using heuristics, gameplay analysis and player report signals, dashboards to configure and monitor protection, and support for Windows, Mac, Linux and Steam Deck, with compatibility for crossplay on console. It offers a free tier with no credit card and no usage limits, and paid tiers handled through a contact form. BattlEye describes itself as an independent PC game anti-cheat service with kernel-based protection, global bans and an RCon administration interface for server admins. Anybrain markets AI-powered anti-cheat for PC, console and mobile.",
+        "These descriptions are vendor claims, and we have not measured detection rates. Compare them in the ranking of [game anti-cheat software](/software/best-game-anti-cheat-software), and ask each vendor about supported platforms, Linux and Steam Deck handling, appeals tooling and who answers when a cheat evades detection. Ask also how the client component runs on players' machines, since kernel-level components raise privacy and stability questions that your community may ask about."
+      ]
+    },
+    {
+      "h2": "Layer four: bans, messages and appeals",
+      "paras": [
+        "A ban system is a product feature as much as a security feature. The Steamworks documentation says that whether you integrate its anti-cheat APIs or use your own solution, you should give customers proper warning that such a system exists and have UI in-game that clearly explains the ban. It adds that a banned or kicked user should receive clear messaging in-game explaining why they cannot play.",
+        "The same page describes Valve's Game Bans: when a player is banned through the ICheatReportingService RequestPlayerGameBan Web API, the ban is publicly visible on that person's Steam profile, the account cannot join secure servers for the banned app, and if the player is using Family Library Sharing the ban also applies to the owner of the game. It says game bans are only designed to manage cheating, should only apply to players who gained an unfair advantage in multiplayer content, and should not be used to block users in other games. Easy Anti-Cheat's site links to a player support area with FAQs and an appeal form, which is a pattern worth copying: bans without an appeal route generate support tickets and bad reviews."
+      ]
+    },
+    {
+      "h2": "Layer five: protect the network",
+      "paras": [
+        "A cheater does not have to modify the game to win. Flooding an opponent's connection or your game server can disconnect players or crash matches. DDoS protection services sit in front of your servers: TCPShield describes itself as a DDoS protection platform for Minecraft and gaming networks, Cloudflare provides WAF, CDN and DNS services on its global network, and OVHcloud offers dedicated servers among its hosting products. The ranking of [DDoS protection for game servers](/software/best-ddos-protection-for-game-servers) compares verified providers.",
+        "Keep your game server addresses out of public view where you can. Use relays or platform-provided networking so players connect through an intermediary instead of seeing each other's IP addresses, and keep admin interfaces off the open internet. Our guide to [building a multiplayer game backend](/guides/how-to-build-a-multiplayer-game-backend) covers authentication and hosting in more detail."
+      ]
+    },
+    {
+      "h2": "The setup checklist",
+      "paras": [
+        "Use this order. Each step is cheap compared with the one after it."
+      ],
+      "list": [
+        "List the top three cheats that would damage your game and note which layer stops each.",
+        "Move game state decisions to a server, and send clients only the data they need.",
+        "Add server-side validation for movement, actions and economy, with logging per account.",
+        "Write the ban policy: what counts as cheating, who reviews cases and how long a ban lasts.",
+        "Build the in-game ban message and the appeals channel before the first ban is issued.",
+        "Choose and integrate a client-side service if your game's risk justifies it, and test on every supported platform.",
+        "Add DDoS protection and hide server addresses.",
+        "Run an internal red-team session: ask a developer to cheat and record what the server and the service caught."
+      ],
+      "ordered": true
+    },
+    {
+      "h2": "Run it as an ongoing process",
+      "paras": [
+        "Cheating changes as soon as you ship, so plan operations. Review ban data weekly, watch reports from players, and track how long it takes from a cheat appearing to a fix. Update your rules when you add game modes, since each new mode creates new things to validate.",
+        "Tell players what you are doing at a level that helps them and does not help cheaters: that anti-cheat runs, what it looks for in general terms, and how to appeal. Keep exact detection details private. For competitive events, our guide to [running an online esports tournament](/guides/how-to-run-an-online-esports-tournament) lists the operational checks that go with them."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a third-party anti-cheat service for a small game?",
+      "a": "Not always. A server-authoritative design with validation stops many cheats at no license cost. Add a client-side service when your game is competitive, has rewards or an economy, or has already attracted cheaters. Easy Anti-Cheat's site describes a free tier, which can be a low-cost way to test whether a service fits your game."
+    },
+    {
+      "q": "Can I use Steam bans if my game is on several stores?",
+      "a": "Steam's Game Bans apply to accounts on Steam for the app in question. The Steamworks documentation says a ban is publicly shown on the player's Steam profile and stops the account joining secure servers for that app. If you sell elsewhere, plan a ban system that covers every store, perhaps through your own account layer."
+    },
+    {
+      "q": "Is peer-to-peer play a problem for anti-cheat?",
+      "a": "It makes cheating easier, because the host's machine holds authority. The Steamworks documentation recommends that each user validates the others in peer-to-peer games so the host cannot control the game state. For ranked or prize play, move to dedicated or server-authoritative hosting and keep peer-hosted modes for casual play."
+    },
+    {
+      "q": "How should I word a ban message?",
+      "a": "Say what happened, that the account is banned for cheating, which game it applies to and how to appeal. Steamworks says banned or kicked players should see clear messaging in-game explaining why they cannot play. Avoid revealing detection methods, and keep the tone factual."
+    },
+    {
+      "q": "What if a ban turns out to be a mistake?",
+      "a": "Reverse it quickly and apologize. That is why an appeal path and case logs matter. Keep records of the evidence behind each ban, review appeals within a stated time window and track the reversal rate, because a rising rate is a signal that a detection rule is too aggressive."
+    }
+  ],
+  "related_categories": [
+    "best-game-anti-cheat-software",
+    "best-ddos-protection-for-game-servers"
+  ],
+  "related_guides": [
+    "how-to-build-a-multiplayer-game-backend",
+    "how-to-run-an-online-esports-tournament",
+    "how-to-host-a-dedicated-server-for-an-indie-game"
+  ],
+  "sources": [
+    {
+      "title": "Anti-cheat and Game Bans",
+      "url": "https://partner.steamgames.com/doc/features/anticheat",
+      "publisher": "Valve, Steamworks Documentation"
+    },
+    {
+      "title": "Easy Anti-Cheat",
+      "url": "https://www.easy.ac/en-us/",
+      "publisher": "Epic Games, Easy Anti-Cheat"
+    },
+    {
+      "title": "BattlEye",
+      "url": "https://www.battleye.com/",
+      "publisher": "BattlEye"
+    },
+    {
+      "title": "High-level multiplayer",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html",
+      "publisher": "Godot Engine documentation"
+    },
+    {
+      "title": "TCPShield",
+      "url": "https://tcpshield.com",
+      "publisher": "TCPShield"
+    },
+    {
+      "title": "Cloudflare",
+      "url": "https://cloudflare.com",
+      "publisher": "Cloudflare"
+    },
+    {
+      "title": "OVHcloud",
+      "url": "https://ovhcloud.com/",
+      "publisher": "OVHcloud"
+    }
+  ]
+}

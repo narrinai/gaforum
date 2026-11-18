@@ -1,0 +1,233 @@
+{
+  "slug": "game-engine-market-share-statistics",
+  "title": "Game Engine Market Share Statistics 2026",
+  "description": "Game engine market share in 2026: Unity, Unreal Engine and Godot shares from Steam scans, developer surveys and game jams, plus Godot release counts, with sources.",
+  "category": "best-open-source-game-engines",
+  "published": "2026-11-18",
+  "intro": "Unity powered 49.4% of the Steam games scanned by GameDiscoverCo in 2025, ahead of Unreal Engine at about 20% and Godot at 7.1%. Share depends on what is counted: GDC's developer survey puts Unreal first as a primary engine, and the 2026 GMTK Game Jam put Godot first. This page lists each measurement with its sample, so the numbers can be compared fairly. Open-source options are covered in [open-source game engines](/software/best-open-source-game-engines).",
+  "sections": [
+    {
+      "h2": "Steam games by engine",
+      "intro": "GameDiscoverCo scanned engine and tech data for more than 33,000 Steam games, adapting SteamDB tech detection.",
+      "facts": [
+        {
+          "text": "Unity held 49.4% of the Steam games GameDiscoverCo scanned in 2025, after regularly sitting at 50 to 51% in earlier years.",
+          "source_name": "GameDiscoverCo, How's PC game engine usage changing (17 March 2026)",
+          "source_url": "https://newsletter.gamediscover.co/p/hows-pc-game-engine-usage-changing",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Unreal Engine's share of scanned Steam games rose from about 15% in 2020 to about 20% in 2025.",
+          "source_name": "GameDiscoverCo, How's PC game engine usage changing (17 March 2026)",
+          "source_url": "https://newsletter.gamediscover.co/p/hows-pc-game-engine-usage-changing",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Godot's share of scanned Steam games rose from 0.9% in 2020 to 7.1% in 2025, and it is 8.6% of unreleased games scanned.",
+          "source_name": "GameDiscoverCo, How's PC game engine usage changing (17 March 2026)",
+          "source_url": "https://newsletter.gamediscover.co/p/hows-pc-game-engine-usage-changing",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Games with no obvious engine fell from 27% of scanned Steam games in 2017 to 13% in 2025.",
+          "source_name": "GameDiscoverCo, How's PC game engine usage changing (17 March 2026)",
+          "source_url": "https://newsletter.gamediscover.co/p/hows-pc-game-engine-usage-changing",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Among Steam games with more than $500,000 in lifetime revenue, Unity's 2025 share was 53.7%, Unreal's 22.5% and Godot's 4.1%.",
+          "source_name": "GameDiscoverCo, How's PC game engine usage changing (17 March 2026)",
+          "source_url": "https://newsletter.gamediscover.co/p/hows-pc-game-engine-usage-changing",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "The 50 top new Unreal games of the last 12 months grossed about $1.8 billion on Steam, against about $930 million for the 50 top new Unity titles.",
+          "source_name": "GameDiscoverCo, How's PC game engine usage changing (17 March 2026)",
+          "source_url": "https://newsletter.gamediscover.co/p/hows-pc-game-engine-usage-changing",
+          "year": "2026",
+          "kind": "study"
+        }
+      ]
+    },
+    {
+      "h2": "Developer surveys",
+      "intro": "What developers say they use as a primary engine.",
+      "facts": [
+        {
+          "text": "In the GDC 2026 State of the Game Industry survey of more than 2,300 professionals, 42% named Unreal Engine as their primary engine.",
+          "source_name": "GDC Festival of Gaming, 2026 State of the Game Industry",
+          "source_url": "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Unity was the primary engine for 30% of respondents in the GDC 2026 survey.",
+          "source_name": "GDC Festival of Gaming, 2026 State of the Game Industry",
+          "source_url": "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Unreal Engine adoption in the GDC 2026 survey was 59% at AA studios and 47% at AAA studios.",
+          "source_name": "GDC Festival of Gaming, 2026 State of the Game Industry",
+          "source_url": "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "A majority, 54%, of developers at older indie studios in the GDC 2026 survey still use Unity.",
+          "source_name": "GDC Festival of Gaming, 2026 State of the Game Industry",
+          "source_url": "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Godot was used by 11% of developers at newer indie studios in the GDC 2026 survey.",
+          "source_name": "GDC Festival of Gaming, 2026 State of the Game Industry",
+          "source_url": "https://gdconf.com/article/gdc-2026-state-of-the-game-industry-reveals-impact-of-layoffs-generative-ai-and-more/",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Unity's 2026 report surveyed 300 developers and drew on data from nearly five million developers who used the Unity Engine and ecosystem in 2025.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    },
+    {
+      "h2": "Game jams",
+      "intro": "Jams skew toward solo developers and small prototypes.",
+      "facts": [
+        {
+          "text": "At GMTK Game Jam 2026, 47% of entries, a little more than 4,900 games, were made with Godot.",
+          "source_name": "Game World Observer, GMTK Game Jam 2026 engine results",
+          "source_url": "https://gameworldobserver.com/2026/07/29/unity-is-no-longer-the-leader-godot-has-become-the-most-popular-engine-at-gmtk-game-jam-2026",
+          "year": "2026",
+          "kind": "directory"
+        },
+        {
+          "text": "Unity placed second at GMTK Game Jam 2026 with 34% of entries, or about 3,600 games, after leading the jam for the previous nine years.",
+          "source_name": "Game World Observer, GMTK Game Jam 2026 engine results",
+          "source_url": "https://gameworldobserver.com/2026/07/29/unity-is-no-longer-the-leader-godot-has-become-the-most-popular-engine-at-gmtk-game-jam-2026",
+          "year": "2026",
+          "kind": "directory"
+        },
+        {
+          "text": "GameMaker had 5% (498 games) and Unreal Engine 3% (319 games) at GMTK Game Jam 2026.",
+          "source_name": "Game World Observer, GMTK Game Jam 2026 engine results",
+          "source_url": "https://gameworldobserver.com/2026/07/29/unity-is-no-longer-the-leader-godot-has-become-the-most-popular-engine-at-gmtk-game-jam-2026",
+          "year": "2026",
+          "kind": "directory"
+        },
+        {
+          "text": "Godot's share of GMTK Game Jam entries went from 16% in 2022 to 19% in 2023, 37% in 2024, 39% in 2025 and 47% in 2026.",
+          "source_name": "Game World Observer, GMTK Game Jam 2026 engine results",
+          "source_url": "https://gameworldobserver.com/2026/07/29/unity-is-no-longer-the-leader-godot-has-become-the-most-popular-engine-at-gmtk-game-jam-2026",
+          "year": "2026",
+          "kind": "directory"
+        }
+      ]
+    },
+    {
+      "h2": "Godot release counts",
+      "intro": "Counts compiled by Godot Foundation board member Clay John from SteamDB and itch.io, as reported by news outlets.",
+      "facts": [
+        {
+          "text": "Godot-made games released on Steam numbered 375 in 2023, 819 in 2024 and 1,229 in 2025, per Godot Foundation statistics reported by GamesRadar.",
+          "source_name": "GamesRadar, report on Godot Steam release statistics",
+          "source_url": "https://www.gamesradar.com/games/roguelike/steam-stats-for-slay-the-spire-2s-engine-godot-show-strong-signs-of-exponential-growth/",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Only 56 Godot games were released on Steam in 2019 and 106 in 2020, according to the Godot Foundation statistics reported by WN Hub.",
+          "source_name": "WN Hub, report on Godot Foundation board member statistics",
+          "source_url": "https://wnhub.io/news/analytics/item-50801",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "An estimated 36,500 Godot games had been released on itch.io by February 2026, about 2.4 times the February 2024 count.",
+          "source_name": "WN Hub, report on Godot Foundation board member statistics",
+          "source_url": "https://wnhub.io/news/analytics/item-50801",
+          "year": "2026",
+          "kind": "study"
+        },
+        {
+          "text": "Slay the Spire 2, made in Godot, reached a Steam peak of 574,638 concurrent players, against 38,905 for the previous largest Godot game, Brotato.",
+          "source_name": "GamesRadar, report on Godot Steam release statistics",
+          "source_url": "https://www.gamesradar.com/games/roguelike/steam-stats-for-slay-the-spire-2s-engine-godot-show-strong-signs-of-exponential-growth/",
+          "year": "2026",
+          "kind": "study"
+        }
+      ]
+    },
+    {
+      "h2": "Inside the Unity ecosystem",
+      "intro": "Telemetry published by Unity for 2025.",
+      "facts": [
+        {
+          "text": "Unity reports the number of gaming projects grew 6%, from 40,933,681 to 43,351,854, over the past year in its ecosystem data.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "The number of Unity developers rose 1.2% year over year, according to Unity's 2026 report.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Unity says 42% of active projects with a build used the Universal Render Pipeline in 2025, up from 29% in 2024.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        },
+        {
+          "text": "Median Unity project development time dropped 77%, from 91 hours in January 2022 to 21 hours by December 2025, per Unity's own Editor data.",
+          "source_name": "Unity, 2026 Unity Game Development Report",
+          "source_url": "https://unity.com/resources/gaming-report",
+          "year": "2026",
+          "kind": "survey"
+        }
+      ]
+    }
+  ],
+  "methodology": [
+    "Pages opened on 18 November 2026: GameDiscoverCo's engine usage newsletter, the GDC 2026 State of the Game Industry article, Game World Observer's GMTK Game Jam report, GamesRadar and WN Hub reports on Godot Foundation statistics, and the Unity Game Development Report. SteamDB blocked automated access, and itch.io's engine browse page did not return usable counts, so neither is cited directly.",
+    "The sources do not agree because they sample different things: Steam scans count shipped games, GDC counts professionals who answered a survey (likely skewed to larger studios and teams with several respondents), and jams count entries. Vendor-published data such as Unity's telemetry covers only its own users. Godot counts are approximate by the author's own account."
+  ],
+  "faqs": [
+    {
+      "q": "Which game engine has the largest market share?",
+      "a": "By number of Steam games, Unity, at 49.4% of those GameDiscoverCo scanned in 2025. By primary engine among GDC survey respondents, Unreal Engine leads with 42% against Unity's 30%. The answer changes with the sample."
+    },
+    {
+      "q": "Is Godot overtaking Unity?",
+      "a": "In game jams, yes: Godot had 47% of GMTK Game Jam 2026 entries against Unity's 34%. On Steam the gap is large, with Godot at 7.1% of scanned games in 2025 and Unity at 49.4%, though Godot Steam releases rose from 375 in 2023 to 1,229 in 2025."
+    },
+    {
+      "q": "Why do survey and Steam numbers differ?",
+      "a": "Surveys ask about a primary engine used by respondents, who often work at larger studios. Steam scans count released games regardless of studio size. GameDiscoverCo itself notes the GDC survey likely skewed to bigger, existing studios."
+    },
+    {
+      "q": "How many developers use Unity?",
+      "a": "Unity says it analyzed data from nearly five million developers who engaged with its engine and ecosystem in 2025, and reports 1.2% year over year growth in developers. That is a count of its own users, not a market-wide figure."
+    }
+  ],
+  "related_guides": [
+    "how-to-choose-a-game-engine"
+  ]
+}

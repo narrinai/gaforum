@@ -1,0 +1,463 @@
+{
+  "slug": "best-donation-and-monetization-tools-for-streamers",
+  "name": "donation and monetization tools for streamers",
+  "title": "Best Donation and Monetization Tools for Streamers in 2026",
+  "group": "Streaming and creators",
+  "hub": "livestreaming",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Donation and monetization tools let streamers collect tips, memberships, merch sales and charity funds from viewers, often with on-screen alerts.",
+  "definition": "Donation and monetization tools for streamers are services that move money from viewers to a channel outside the platform's own subscriptions. They cover tip pages with alerts, memberships, merch and digital product sales and charity fundraising, and they differ mainly in fees, payout timing and how well they connect to live streaming software.",
+  "intro": "A streamer's income rarely comes from one place. Tips arrive during the show, memberships pay monthly, merch sells in bursts and charity streams raise money that never touches the channel. Each of those jobs has its own tool, and the fees stack. This ranking read vendor homepages, pricing pages and terms for ten services and compared them on what they sell, what they take, how they pay out and whether they connect to a live alert system. We did not run payments ourselves. Where a fee was not stated on the pages we opened, the entry says so instead of guessing. The order favors a working streamer who wants tips with alerts first, then ways to add memberships, a shop and a charity option once the audience is there.",
+  "criteria": [
+    {
+      "heading": "What the service keeps",
+      "text": "Fees decide the net income. Streamlabs states a zero cut of donations, Ko-fi lists 5% on Standard, Patreon lists 10% plus processing, and Gumroad lists 10% plus $0.50 per direct sale. Streamloots lists revenue shares of 80% or 90%. Payment processors may add their own charges on top, so compare the full path from viewer to bank, not the headline percentage."
+    },
+    {
+      "heading": "Alerts and stream connection",
+      "text": "A tip means more when it shows up on screen. Streamlabs and StreamElements list alerts, overlays and tipping, Buy Me a Coffee lists Stream Alerts and OWN3D offers a donation page and goal bars. Tools without alert features still work through a link in a panel, but the live moment is lost. Check which platforms each one names, since lists differ."
+    },
+    {
+      "heading": "Revenue types covered",
+      "text": "Separate the jobs. Tips and alerts, recurring memberships, physical merch, digital downloads and charity fundraising each lead to a different product. Fourthwall focuses on shops and memberships, Patreon on monthly backers, Gumroad on files and Tiltify on charities. A single tool rarely covers all five well, and adding a second link is normal."
+    },
+    {
+      "heading": "Payout timing and tax handling",
+      "text": "Cash flow matters to a small channel. Streamloots states payouts on the 1st and 15th. Gumroad handles sales tax worldwide as Merchant of Record, which removes a chore. Many other pages we read do not state payout schedules or tax duties. Ask support before launch and keep records, because tipping income is taxable in most countries."
+    }
+  ],
+  "market_notes": [
+    "Looking at the ten services, only four print a fee you can act on: Streamlabs (zero cut of donations), Ko-fi (5% on Standard), Patreon (10% plus processing) and Gumroad (10% plus $0.50 direct, 30% on Discover). Streamloots prints revenue shares instead. StreamElements, Tiltify, Buy Me a Coffee and OWN3D show no fee or price amount on the pages we opened, so a streamer must confirm those terms directly before building a plan around them.",
+    "The split between stream-native tools and general creator platforms is the main trade-off. Streamlabs, StreamElements, Streamloots and OWN3D live inside the streaming workflow, with alerts and overlays. Ko-fi, Patreon, Buy Me a Coffee and Gumroad serve every kind of creator and bring a wider audience tool set but weaker live features. Tax and payout rules differ by country, so the same sale can net different amounts for different sellers."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Start with one tip link",
+      "text": "Pick the tool that puts a tip on screen with the least setup: Streamlabs or StreamElements if you already use their overlays, otherwise Ko-fi or Buy Me a Coffee. Put the link in your panels and chat command, run a test donation of a small amount and confirm the alert and the payout path before announcing it to viewers."
+    },
+    {
+      "title": "Add a second stream only when demand shows",
+      "text": "Do not open five shops on day one. When viewers ask for merch, try Fourthwall's free plan. When regulars ask for extras, add memberships through Ko-fi or Patreon. When you have a file to sell, use Gumroad. Each added link needs upkeep, and your audience will only remember one or two of them."
+    },
+    {
+      "title": "Plan charity separately",
+      "text": "If you run a marathon or a benefit, use a tool built for it, such as Tiltify, instead of sending money to a personal tip jar. Check the charity's own rules, tell viewers where the money goes and keep a record of totals. Mixing personal income and charity funds in one account creates trust and tax problems later."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best donation and monetization tool for streamers in 2026?",
+      "a": "Streamlabs is the best starting point in this ranking because its pricing page states a zero cut of donations and it bundles tipping, alerts, overlays and merch. StreamElements is better if you want a chatbot and cloud setup, and Ko-fi is better for a flat page with memberships and a stated 5% fee."
+    },
+    {
+      "q": "Which donation platform takes the lowest fee?",
+      "a": "Among the pages we read, Streamlabs states a zero cut of donations, and Ko-fi lists a 5% service fee on Standard. Several others, including Buy Me a Coffee and StreamElements, do not state a fee on the pages we opened. Payment processor fees can still apply on any of them."
+    },
+    {
+      "q": "Can I use Ko-fi and Streamlabs together?",
+      "a": "Yes. They do different jobs, so many channels keep a Ko-fi page for memberships and shop sales and use Streamlabs or StreamElements for live tips and alerts. The tradeoff is two dashboards and two sets of payout records, so keep a simple monthly sheet for taxes."
+    },
+    {
+      "q": "What is the difference between Patreon and Ko-fi?",
+      "a": "Patreon is built around recurring memberships and lists a 10% fee plus processing, currency conversion and payout fees. Ko-fi covers tips, memberships, commissions and shop sales, with no monthly fee on Standard and a 5% service fee. Ko-fi suits small tips better, and Patreon suits steady monthly backers."
+    },
+    {
+      "q": "How do I run a charity stream?",
+      "a": "Use a fundraising platform such as Tiltify, which the vendor describes as made for fundraisers and tools to engage donors. Agree the charity's rules first, set a goal, show totals on screen and report the final amount. Keep the money out of your personal tip account so viewers can see where it went."
+    },
+    {
+      "q": "Do I pay tax on stream donations?",
+      "a": "In most countries, yes, tips and membership income count as earnings, but rules differ by location and by whether the viewer pays for something in return. Gumroad handles sales tax as Merchant of Record for its sales. For everything else, keep records and ask an accountant."
+    },
+    {
+      "q": "Is Streamloots worth it for a small channel?",
+      "a": "It can be if your community enjoys triggering effects on stream. Streamloots says creators keep 80% of subscription revenue and Partners keep 90% of every tip, and joining is free. The catch is that cards need active viewers, so a channel with a handful of chatters may earn very little."
+    }
+  ],
+  "related": [
+    "best-stream-overlay-and-alert-tools",
+    "best-twitch-chat-bots",
+    "best-livestream-analytics-tools",
+    "best-streaming-software-for-gamers",
+    "best-game-payment-and-web-shop-platforms"
+  ],
+  "tools": [
+    {
+      "slug": "streamlabs-desktop",
+      "name": "Streamlabs Desktop",
+      "site": "https://streamlabs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Tipping, alerts and merch from one vendor",
+      "best_for": "Twitch and YouTube streamers who want tips with no platform cut",
+      "pricing": "The pricing page states Streamlabs takes zero cut of donations; plan prices could not be read from the pages opened.",
+      "pricing_model": "Free tipping, paid extras not captured",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Tipping",
+        "Alerts",
+        "Overlays",
+        "Merch",
+        "Streamlabs Desktop"
+      ],
+      "summary": "Streamlabs pairs tipping, alerts, overlays and merch tools, and its pricing page says it takes zero cut of donations.",
+      "verdict": "Streamlabs takes the top slot on one fact that matters to a tipping channel: the pricing page states the company takes zero cut of your donations. Around that sit Streamlabs Desktop, alerts, overlays, tipping and merch tools for Twitch, YouTube and Facebook, so a tip lands as an on-screen alert in the same ecosystem. Payment processors may still charge their own fees, which the pages we read do not detail. For a working streamer who wants the shortest path from a viewer's wallet to a stream alert, this is the most direct route.",
+      "weaknesses": "The Streamlabs Desktop product page is rendered by JavaScript, so its plan names and prices could not be read. The zero-cut line applies to donations and says nothing about merch margins or subscription extras.",
+      "wrong_for": "A creator who sells physical products and memberships should open Fourthwall, which is built around a shop.",
+      "sources": [
+        {
+          "fact": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, offering Streamlabs Desktop, alerts, overlays, tipping and merch.",
+          "url": "https://streamlabs.com/"
+        },
+        {
+          "fact": "The Streamlabs pricing page states that the company takes zero cut of your donations.",
+          "url": "https://streamlabs.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "streamelements",
+      "name": "StreamElements",
+      "site": "https://streamelements.com/",
+      "company": "StreamElements",
+      "country": "",
+      "tagline": "Cloud tipping, chatbot and overlays",
+      "best_for": "Streamers who want tips plus bot and overlay tools",
+      "pricing": "The home page opened does not show prices or fees.",
+      "pricing_model": "Not stated",
+      "free_plan": "Unknown",
+      "platforms": "Twitch, YouTube and Facebook Gaming, per the vendor",
+      "features": [
+        "Alerts and overlays",
+        "Chatbot",
+        "SE.Live OBS plugin",
+        "SE.Tips tipping",
+        "Ground Control multistreaming app"
+      ],
+      "summary": "StreamElements combines SE.Tips tipping, overlays, alerts, a chatbot and merchandise tools for Twitch, YouTube and Facebook Gaming.",
+      "verdict": "StreamElements ranks second as the closest rival to the leader, with a wider feature spread. The vendor lists overlays, tipping, chatbot, alerts and merchandise for Twitch, YouTube and Facebook Gaming, and describes itself as cloud-based and integrated with the stream. It also offers SE.Live, a plugin for OBS Studio, and Ground Control, a multistreaming companion app. A channel that wants the tip page, the chat commands and the alert design under one login will find that bundle practical, and the cloud design means settings follow you between machines.",
+      "weaknesses": "The home page opened does not show a price or fee, so the cost of tips and other tools is unconfirmed from what we read. The three platforms listed leave out Kick and others.",
+      "wrong_for": "A streamer who wants a verified no-cut line on tips should check Streamlabs, which states one on its pricing page.",
+      "sources": [
+        {
+          "fact": "StreamElements lists overlays, tipping, chatbot, alerts and merchandise among its features for Twitch, YouTube and Facebook Gaming.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "SE.Live is a plugin for OBS Studio, and Ground Control is a multistreaming stream management companion app.",
+          "url": "https://streamelements.com/"
+        },
+        {
+          "fact": "The StreamElements home page opened does not show a price.",
+          "url": "https://streamelements.com/"
+        }
+      ]
+    },
+    {
+      "slug": "ko-fi",
+      "name": "Ko-fi",
+      "site": "https://ko-fi.com/",
+      "company": "Ko-fi Labs Limited",
+      "country": "",
+      "tagline": "Tips, memberships and shop with a low fee",
+      "best_for": "Small creators who want one flat page",
+      "pricing": "Creating an account is free with no monthly fee on the Standard plan, which takes a 5% service fee on all payment types. Gold is listed at $12 per month.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Web",
+      "features": [
+        "Tips",
+        "Memberships",
+        "Shop sales",
+        "Commissions",
+        "Supporter-only content",
+        "Scheduled posts"
+      ],
+      "summary": "Ko-fi takes tips, memberships, commissions and shop sales, with no monthly fee on Standard and a 5% service fee.",
+      "verdict": "Ko-fi suits a streamer who wants a single link for every kind of support. The home page says creators receive tips, memberships and sales from fans, and the pricing page says the Standard plan has no monthly fee and takes a 5% service fee on all payment types, including tips, memberships, commissions and shop sales. Gold is listed at $12 per month. Ko-fi Labs Limited is named as the operator in the terms. That clear fee table is the reason it sits above larger, costlier platforms for a modest channel.",
+      "weaknesses": "The 5% fee applies on Standard to everything, and the pages we read do not say how payment-processor fees are handled. Ko-fi is a general creator site, so it has no built-in stream alert in the facts we opened.",
+      "wrong_for": "A channel that wants on-screen tip alerts should pair it with Streamlabs or StreamElements.",
+      "sources": [
+        {
+          "fact": "The Ko-fi Standard plan takes a 5% service fee on all payment types, including tips, memberships, commissions and shop sales.",
+          "url": "https://ko-fi.com/pricing"
+        },
+        {
+          "fact": "The Ko-fi pricing page lists Gold at $12 per month.",
+          "url": "https://ko-fi.com/pricing"
+        },
+        {
+          "fact": "Ko-fi is operated by Ko-fi Labs Limited, according to its terms.",
+          "url": "https://more.ko-fi.com/terms"
+        }
+      ]
+    },
+    {
+      "slug": "fourthwall",
+      "name": "Fourthwall",
+      "site": "https://fourthwall.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Branded shop with free-plan memberships",
+      "best_for": "Streamers selling merch and memberships",
+      "pricing": "Free plan at $0 per month, which includes offering monthly memberships. Pro is the paid upgrade; the pricing page says paying yearly saves $48.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free plan",
+      "platforms": "Web-based shops; a mobile app can be launched (per the vendor site)",
+      "features": [
+        "Product catalog",
+        "Custom product designer",
+        "Shop builder",
+        "Fulfillment and shipping",
+        "Members-only videos",
+        "Monthly memberships"
+      ],
+      "summary": "Fourthwall builds branded shops with custom products, fulfillment and shipping, and its free plan includes monthly memberships.",
+      "verdict": "Fourthwall is where a merch line begins. The vendor describes one platform for custom products and branded shops, with a product catalog, a custom product designer, a shop builder, fulfillment and shipping, and members-only videos. The pricing page lists a Free plan at $0 per month that includes monthly memberships, says it is free forever and notes that paying yearly for Pro saves $48. A creator who does not want to hold stock gets fulfillment handled for them. It lands fourth because merch is one revenue stream, while tips are the daily one for many channels.",
+      "weaknesses": "The Pro price is not captured beyond the $48 yearly saving, and the pages we read show no stream alerts or chat tools. Margins on physical goods depend on product costs, which a creator must check per item.",
+      "wrong_for": "A streamer who mostly wants tip alerts should start with Streamlabs or StreamElements.",
+      "sources": [
+        {
+          "fact": "Fourthwall describes itself as one platform for custom products and branded shops.",
+          "url": "https://fourthwall.com/"
+        },
+        {
+          "fact": "The pricing page lists a Free plan at $0 per month that includes offering monthly memberships.",
+          "url": "https://fourthwall.com/pricing"
+        },
+        {
+          "fact": "The pricing page says the Free plan is free forever and users can upgrade to Pro at any time, with yearly payment saving $48.",
+          "url": "https://fourthwall.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "streamloots",
+      "name": "Streamloots",
+      "site": "https://streamloots.com/",
+      "company": "Streamloots",
+      "country": "",
+      "tagline": "Viewer-triggered cards, auctions and tips",
+      "best_for": "Interactive channels that sell collectible cards",
+      "pricing": "The only pricing wording is 'Join Now for Free'. Creators keep 80% of subscription revenue (90% for Partners); Partners keep 90% of every tip. No plan tiers or fees are listed.",
+      "pricing_model": "Revenue share",
+      "free_plan": "Free",
+      "platforms": "Logins via Twitch, YouTube, Kick, Facebook, Google and Trovo; the page says it works on all major streaming platforms",
+      "features": [
+        "Cards",
+        "Subscriptions",
+        "Auctions",
+        "Marathon timer",
+        "Tips",
+        "Revenue share payouts"
+      ],
+      "summary": "Streamloots sells interactive cards that viewers trigger on stream, plus subscriptions, auctions, a marathon timer and tips.",
+      "verdict": "Streamloots is the most game-like monetization route here. The vendor describes interactive cards that viewers buy and trigger on stream, plus subscriptions, auctions, a marathon timer and tips. Creators keep 80% of subscription revenue (90% for Partners), and Partners keep 90% of every tip. Payouts run twice a month, on the 1st and 15th. Logins through Twitch, YouTube, Kick, Facebook, Google and Trovo make it open to many channels. It ranks fifth because it needs card collections and fan buy-in to pay off.",
+      "weaknesses": "The only pricing wording is 'Join Now for Free', and no plan tiers or fees beyond the revenue shares are listed. The footer on the page reads 2024, which leaves the freshness of the site unclear.",
+      "wrong_for": "A streamer who wants plain donations and no card system should choose Ko-fi, which keeps the model simpler.",
+      "sources": [
+        {
+          "fact": "The vendor page says creators keep 80% of subscription revenue, rising to 90% for Partners, and Partners keep 90% of every tip.",
+          "url": "https://streamloots.com/"
+        },
+        {
+          "fact": "The vendor page's only pricing call to action is 'Join Now for Free' and it lists no plan tiers or fees.",
+          "url": "https://streamloots.com/"
+        },
+        {
+          "fact": "The vendor page says payouts run twice a month, on the 1st and 15th.",
+          "url": "https://streamloots.com/"
+        }
+      ]
+    },
+    {
+      "slug": "tiltify",
+      "name": "Tiltify",
+      "site": "https://tiltify.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Charity fundraising built for streamers and campaigns",
+      "best_for": "Charity streams and fundraising events",
+      "pricing": "Plan amounts did not appear in the readable text of the pricing page.",
+      "pricing_model": "Not stated",
+      "free_plan": "Unknown",
+      "platforms": "Web",
+      "features": [
+        "Donor engagement tools",
+        "Charity fundraising"
+      ],
+      "summary": "Tiltify is a fundraising platform for charities and fundraisers, with tools to engage donors and raise money.",
+      "verdict": "Tiltify belongs on any list for charity streams. The vendor says it is made for fundraisers and gives tools to engage donors and raise more for charities, which sets it apart from the tip-jar tools above. A marathon for a good cause needs donor-facing pages and reporting, and this is that job. It sits sixth because it is not a personal income tool: money goes to the cause, and a streamer's own monetization comes from other products here.",
+      "weaknesses": "The home page is rendered with JavaScript, so product features could not be read, and the pricing page opened without plan amounts. The pages give no fee or payout detail we can quote.",
+      "wrong_for": "A creator who wants to keep tips as income should choose Streamlabs or Ko-fi, since Tiltify targets charities.",
+      "sources": [
+        {
+          "fact": "Tiltify describes itself as made for fundraisers and says it gives tools to engage donors and raise more for charities.",
+          "url": "https://tiltify.com/"
+        },
+        {
+          "fact": "The home page text is mostly rendered with JavaScript, so product features could not be read from it.",
+          "url": "https://tiltify.com/"
+        },
+        {
+          "fact": "The pricing page at tiltify.com/pricing/ opened without readable plan amounts.",
+          "url": "https://tiltify.com/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "patreon",
+      "name": "Patreon",
+      "site": "https://www.patreon.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Recurring memberships with exclusive content",
+      "best_for": "Creators with a loyal paying community",
+      "pricing": "Free to start. Patreon takes 10% of creator earnings, plus payment processing, currency conversion and payout fees, and applicable taxes.",
+      "pricing_model": "Revenue share",
+      "free_plan": "Free",
+      "platforms": "Web",
+      "features": [
+        "Paid memberships",
+        "Exclusive content for fans",
+        "Creator community",
+        "Payment and payout handling"
+      ],
+      "summary": "Patreon runs paid memberships and exclusive content, with a 10% fee plus processing, currency and payout fees.",
+      "verdict": "Patreon is the best known membership service, and it is steady rather than stream-native. The home page says creators can build a community and share exclusive work with fans. The pricing page says starting is free and creators pay only when they earn, with a 10% fee plus payment processing, currency conversion, payout fees and applicable taxes. A channel with regular VOD extras, early access or behind-the-scenes posts can turn viewers into monthly backers. It trails Ko-fi in this ranking because the fee stack is heavier for small tip sums.",
+      "weaknesses": "The 10% platform fee comes before processing and payout costs, so the net share is lower than it looks. The pages we read mention no stream alerts or overlay tools.",
+      "wrong_for": "A streamer who wants a lower fee on tips should read the Ko-fi entry, which lists 5% on Standard.",
+      "sources": [
+        {
+          "fact": "Patreon's home page says creators can build a community and share exclusive work with fans.",
+          "url": "https://www.patreon.com/"
+        },
+        {
+          "fact": "The Patreon pricing page says starting a Patreon is free and creators only pay when they start earning.",
+          "url": "https://www.patreon.com/pricing"
+        },
+        {
+          "fact": "The Patreon pricing page lists a 10% fee, plus payment processing, currency conversion, payout fees and applicable taxes.",
+          "url": "https://www.patreon.com/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "buy-me-a-coffee",
+      "name": "Buy Me a Coffee",
+      "site": "https://buymeacoffee.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Simple support page with stream alerts",
+      "best_for": "New creators wanting a fast start",
+      "pricing": "Free to sign up; the transaction fee is not stated on the opened pages.",
+      "pricing_model": "Not stated",
+      "free_plan": "Free",
+      "platforms": "Web; iOS and Android apps (listed on the home page)",
+      "features": [
+        "One-time supporter payments",
+        "Memberships",
+        "Stream Alerts",
+        "Buttons",
+        "QR Code"
+      ],
+      "summary": "Buy Me a Coffee takes one-time support and memberships, with Stream Alerts, buttons, QR codes and mobile apps.",
+      "verdict": "Buy Me a Coffee keeps setup short: the home page says sign-up is free and takes less than a minute. It describes a way for creators and artists to accept support and membership from fans, with iOS and Android apps, and lists tools including Stream Alerts, Buttons and QR Code. A new streamer can add a QR code to a panel or overlay and take tips the same day. It ranks eighth because the pages opened do not state the transaction fee, which is the figure a creator most needs to compare.",
+      "weaknesses": "Fees are not stated on the opened pages, so cost cannot be compared here. Sparse detail on streaming integration means checking the alert setup yourself before you rely on it.",
+      "wrong_for": "A streamer who needs a stated fee up front should pick Ko-fi, which publishes 5% on Standard.",
+      "sources": [
+        {
+          "fact": "Buy Me a Coffee describes itself as the way for creators and artists to accept support and membership from fans.",
+          "url": "https://buymeacoffee.com/"
+        },
+        {
+          "fact": "The home page lists iOS and Android apps, and tools including Stream Alerts, Buttons and QR Code.",
+          "url": "https://buymeacoffee.com/"
+        },
+        {
+          "fact": "The opened pages do not state the transaction fee.",
+          "url": "https://buymeacoffee.com/"
+        }
+      ]
+    },
+    {
+      "slug": "own3d",
+      "name": "OWN3D",
+      "site": "https://www.own3d.tv/en/",
+      "company": "StreamTV Media GmbH",
+      "country": "Austria",
+      "tagline": "Overlays and alerts with a free donation page",
+      "best_for": "Streamers who also need overlay designs",
+      "pricing": "All Stream Pass billed per month, paid quarterly and renewing automatically after 3 months (price amount not present in the extracted page text); the streaming tools are free for all OWN3D Pro users.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free",
+      "platforms": "Twitch, YouTube, Kick, Facebook and Trovo designs; works with OBS Studio, Streamlabs, StreamElements and other broadcasting tools (as listed on the vendor site)",
+      "features": [
+        "Overlay Maker",
+        "Stream overlays and alerts",
+        "Emote Maker",
+        "Chatbot",
+        "Donation page",
+        "Goal bars"
+      ],
+      "summary": "OWN3D sells overlays, alerts and emotes, and offers a donation page, goal bars and chatbot free to OWN3D Pro users.",
+      "verdict": "OWN3D is mainly a design shop, and the monetization part is a side benefit. According to its legal notice it is operated by StreamTV Media GmbH in Steyr, Austria, and the about page says it was founded in 2017. The Stream Pass page says the chat widget, chatbot, donation page, goal bars and countdown are free for OWN3D Pro users, while the paid pass adds 500 overlays, 12,000 designs and 500 alert designs. For a streamer rebranding the channel, a donation page that matches the overlay is a neat extra.",
+      "weaknesses": "The Stream Pass price amount is not in the extracted page text, and it renews automatically after three months. Donation tools are one part of a design product, not a full payment platform.",
+      "wrong_for": "A creator who wants a deeper tipping and payout setup should use Streamlabs or Ko-fi.",
+      "sources": [
+        {
+          "fact": "OWN3D is operated by StreamTV Media GmbH, Grunmarkt 8, Steyr, Austria, according to its legal notice.",
+          "url": "https://www.own3d.tv/en/legal/"
+        },
+        {
+          "fact": "The Stream Pass is billed per month, paid quarterly, and renews automatically after three months.",
+          "url": "https://www.own3d.tv/en/pro/sub/"
+        },
+        {
+          "fact": "The chat widget, chatbot, donation page, goal bars and countdown are offered for free to OWN3D Pro users.",
+          "url": "https://www.own3d.tv/en/pro/sub/"
+        }
+      ]
+    },
+    {
+      "slug": "gumroad",
+      "name": "Gumroad",
+      "site": "https://gumroad.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Sells digital products, with direct and marketplace fees",
+      "best_for": "Selling presets, overlays and courses",
+      "pricing": "No monthly charge. Direct sales cost 10% plus $0.50 per sale; sales through the Discover marketplace cost 30%. Sales tax is handled as Merchant of Record at no extra cost.",
+      "pricing_model": "Revenue share",
+      "free_plan": "Free",
+      "platforms": "Web",
+      "features": [
+        "One-time payments",
+        "Recurring subscriptions",
+        "Fixed-length payments",
+        "Discover marketplace",
+        "Sales tax handling"
+      ],
+      "summary": "Gumroad sells digital products, lessons and subscriptions, with 10% plus $0.50 per direct sale and 30% on Discover.",
+      "verdict": "Gumroad is the right tool when the thing being sold is a file: overlay packs, presets, guides or video lessons. The pricing page lists no monthly charge, 10% plus $0.50 per direct sale, and 30% for sales through its Discover marketplace. It handles sales tax worldwide as Merchant of Record at no extra cost, which saves a small seller from registering for VAT in several regions. It lands last in this ranking because it is not a donation tool and has no stream alert system in the facts we opened.",
+      "weaknesses": "The fixed $0.50 per sale hurts low-priced items, and the 30% marketplace rate is high. The pages we read show nothing about tipping, memberships tied to stream alerts or live goals.",
+      "wrong_for": "A streamer who wants tips and subscriptions should start with Ko-fi or Streamlabs.",
+      "sources": [
+        {
+          "fact": "Gumroad lets creators sell with one-time, recurring or fixed-length payments in their currency of choice.",
+          "url": "https://gumroad.com/"
+        },
+        {
+          "fact": "The Gumroad pricing page lists 10% + $0.50 per direct sale with no monthly charge.",
+          "url": "https://gumroad.com/pricing"
+        },
+        {
+          "fact": "The Gumroad pricing page lists 30% for sales made through the Discover marketplace.",
+          "url": "https://gumroad.com/pricing"
+        }
+      ]
+    }
+  ]
+}

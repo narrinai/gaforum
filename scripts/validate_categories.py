@@ -83,7 +83,7 @@ def check(slug):
             errs.append(f'{s}: weaknesses too short')
     txt = all_text(c)
     low = txt.lower()
-    if '—' in txt or ' – ' in txt:
+    if '\u2014' in txt or ' \u2013 ' in txt:
         errs.append('em/en dash found')
     for b in BANNED:
         if b in low:

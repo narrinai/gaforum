@@ -1,0 +1,26 @@
+{
+  "id": "bracket-tool-for-a-64-team-online-cup",
+  "board": "esports",
+  "title": "Which bracket tool for a 64-team online cup?",
+  "created": "2026-11-18T10:38:00Z",
+  "pinned": false,
+  "body": [
+    "An online cup with 64 teams strains free tiers and spreadsheet brackets: check-in, match reporting, disputes and a public bracket all need to work. Which tool have you used at that size, and what broke?",
+    "The [Bracket HQ pricing page](https://brackethq.com/pricing/) says the free tier is ad supported with unlimited brackets of up to 32 participants, while Pro allows up to 64 participants. The [start.gg site](https://www.start.gg) describes a destination to create, run, play and watch esports tournaments, and the [Challengermode site](https://www.challengermode.com) describes a competition management platform covering tournaments and matchmaking.",
+    "Share the format you ran, how you handled no-shows and score disputes, and whether the tool could connect to your game for results."
+  ],
+  "related": [
+    {
+      "title": "Best Esports Tournament Management Software in 2026",
+      "url": "/software/best-esports-tournament-management-software"
+    },
+    {
+      "title": "Battlefy Alternatives in 2026",
+      "url": "/alternatives/battlefy"
+    },
+    {
+      "title": "Challonge Alternatives in 2026",
+      "url": "/alternatives/challonge"
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "slug": "best-esports-broadcast-production-software",
+  "name": "esports broadcast production software",
+  "title": "Best Esports Broadcast Production Software in 2026",
+  "group": "Esports",
+  "hub": "esports",
+  "summary_line": "Esports broadcast production software mixes cameras and game feeds, adds overlays and scoreboards, and sends the show to a stream or a venue.",
+  "definition": "Esports broadcast production software is the layer between game feeds, observer clients, cameras, casters and the audience. It switches sources, plays replays, draws scoreboards and lower thirds, mixes audio and sends the finished program to a stream, a venue screen or both. Some products are full switchers; others only handle graphics or video transport.",
+  "intro": "A tournament broadcast fails in small places: an overlay that shows stale scores, a replay that cannot be cued in time, a camera feed that stutters on the network. This ranking looks at eleven products that organizers actually combine to put a match on air. We read vendor homepages, pricing pages, download pages and license terms, and compared what each one states about platforms, price, graphics, inputs and openness. We did not run productions ourselves, so claims about capabilities are the vendors' own and are labeled that way. Order reflects fit for a tournament organizer or production crew running a mid-size online or hybrid event: how much of the show one product covers, how clearly the cost is published, and how many other tools it plays with. Hardware and utilities are included only when they sit in a real esports signal chain.",
+  "criteria": [
+    {
+      "heading": "What the show needs on screen",
+      "text": "Start from the program you want to air. A single-camera online final needs scene switching and a handful of overlays. A multi-camera LAN event needs replay, remote guests, picture-in-picture for player cams and a way to cut between observer feeds. Check which of these a product lists on its own pages instead of assuming it. Switchers such as vMix and Wirecast list multi-camera and replay or guest features, while graphics-only tools such as Singular.live and NodeCG leave the switching to something else, so the real question is which pair or trio of tools covers your list."
+    },
+    {
+      "heading": "Overlay and data hookups",
+      "text": "Esports graphics live on live data: scores, rosters, map vetoes, team logos. Browser-based graphics are the common route, because a web page can be fed by a tournament tool and shown inside any switcher that accepts a browser source. Look for browser sources, an open network protocol or an editor that produces HTML output. A closed template system is fine for a fixed league look, but it becomes slow work when the bracket changes between rounds and the operator must edit text by hand."
+    },
+    {
+      "heading": "Cost model and licensing",
+      "text": "Three models appear here: monthly subscription, free open source, and hardware you buy once. Subscriptions are easy to budget for one season but accumulate; open source software has no license fee yet costs setup hours. Several vendors in this list do not publish prices at all, which means a quote conversation before you can plan. Also read the terms for commercial use: free tiers may add a watermark, and some tools are free to use while the surrounding ecosystem is not."
+    },
+    {
+      "heading": "Network and operating system fit",
+      "text": "The crew's machines decide more than feature lists do. vMix runs on Windows only; Wirecast and OBS Studio cover Windows and Mac, with Linux for OBS; CasparCG runs on Windows and Linux. If cameras and PCs share a network, a transport such as NDI lets one machine send video to another with little cabling. Confirm the platform before buying, because a Mac-only operator laptop will rule out an otherwise good Windows-only switcher."
+    }
+  ],
+  "market_notes": [
+    "The eleven products in this list split into three groups. Five are switchers or all-in-one streaming programs: vMix, Wirecast, OBS Studio, Streamlabs Desktop and the ATEM hardware line. Four are graphics tools: CasparCG, NodeCG, Singular.live and Vizrt. The remaining two, NDI Tools and PTZOptics, support the video path. Only vMix and Wirecast publish a subscription price along with a free trial, and only OBS Studio and CasparCG state plainly that they are free and open source. Vizrt, the ATEM line, PTZOptics and Streamlabs Desktop show no usable price on the pages we read.",
+    "The trade-off most organizers meet is control against convenience. A stack of OBS Studio, NodeCG and NDI costs nothing in licenses and bends to any bracket system, but someone has to build and maintain it, and an event day is a bad time to learn that a bundle broke after an update. A paid switcher with a built-in title designer gets a volunteer crew on air faster. Broadcast-grade options such as Vizrt and ATEM hardware belong to events with budget and engineers, since their pages point toward live production systems and quotes rather than a download button."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Write the show rundown first",
+      "text": "List every element in a typical match: cameras, observer feed, replays, caster video, scoreboard, ad breaks, sponsor bugs. Mark each as must have or nice to have. This turns a vague shopping list into a checklist you can tick against vendor pages. If replay is a must have, vMix lists instant replay among its features, so it deserves a look. If you only need overlays, a graphics tool plus a free switcher may cover the whole show."
+    },
+    {
+      "title": "Pick the operating system before the tool",
+      "text": "Ask what machine the technical director will sit at and what machines the casters use. A Windows-only switcher is fine in a Windows crew and a dead end for a Mac-based one. Also decide whether production will be remote, on one LAN or hybrid. Remote casters need guest features or NDI-style transport; a LAN event needs reliable local video. Write the answer down, then remove anything that does not match."
+    },
+    {
+      "title": "Run a trial show with real data",
+      "text": "Use free trials and free software to put a full mock match on air, with your actual overlay data. Wirecast says its trial includes every feature and vMix offers a 60-day trial, so both can be tested for a whole practice weekend. Test the worst case, such as a late roster change, and time how long the operator needs to correct the on-screen text. Choose the stack that stays calm when the data changes."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best esports broadcast production software in 2026?",
+      "a": "vMix is our first pick for most tournament crews because it combines switching, instant replay, NDI and SRT input and a title designer in one Windows program with a published price and a 60-day trial. OBS Studio is better when budget is zero or the crew works on Mac or Linux, and Wirecast is better when the director needs Mac support and remote guests with a paid, supported product."
+    },
+    {
+      "q": "Can OBS Studio run a full esports tournament broadcast?",
+      "a": "Yes for many online events. OBS Studio is free and open source, supports browser sources, capture cards and multiple sources per scene, and runs on Windows, macOS and Linux. It has no replay system on the pages we read, so a larger production often pairs it with other tools, or switches to vMix or Wirecast when replays and guests matter."
+    },
+    {
+      "q": "How do esports overlays get live scores?",
+      "a": "Most graphics stacks use a web page that reads data from a tournament system and is displayed in the switcher as a browser source. NodeCG is built on that idea: graphics are ordinary web pages controlled from a browser dashboard, and it lists compatibility with OBS Studio, vMix, XSplit and CasparCG. Singular.live offers a hosted version with a web-based editor."
+    },
+    {
+      "q": "Is CasparCG free for commercial broadcasts?",
+      "a": "According to the vendor, CasparCG is free and open source under the GPL license, with no license fees or commercial limitations. It runs on Windows and Linux and has been in 24/7 broadcast production since 2006, per its own homepage. Free also means you supply the operator interface and the engineering time, since it is a server that plays out graphics, audio and video."
+    },
+    {
+      "q": "Do I need hardware like a Blackmagic ATEM for an esports show?",
+      "a": "Not for an online-only show. Software switchers cover cameras and game captures on one PC. Hardware becomes attractive at a venue with many cameras, where a dedicated switcher with inputs, chroma key and a built-in audio mixer takes load off the PC. Blackmagic lists ATEM Constellation models from 10 inputs up to 80, but prices are not on that page."
+    },
+    {
+      "q": "What does NDI Tools do in a broadcast setup?",
+      "a": "NDI Tools is a free set of utilities for setting up, testing and managing NDI video streams on Windows and macOS. Discovery, Studio Monitor and NDI Free Audio are among the tools listed. It does not switch or mix a show; it helps move video between machines on a network, for example from a gameplay PC to the switcher PC."
+    },
+    {
+      "q": "How much does esports production software cost?",
+      "a": "The range is wide. vMix shows a purchase option from $50 per month, Wirecast Studio starts at $34 per month billed yearly, and OBS Studio, CasparCG and NDI Tools are free. Singular.live has a free tier with a watermark. Vizrt, Blackmagic ATEM, PTZOptics and Streamlabs Desktop show no usable price on the pages we read."
+    }
+  ],
+  "related": [
+    "best-live-production-software",
+    "best-esports-tournament-management-software",
+    "best-stream-overlay-and-alert-tools",
+    "best-streaming-software-for-gamers",
+    "best-game-capture-and-recording-software",
+    "best-esports-data-apis"
+  ],
+  "tools": [
+    {
+      "slug": "vmix",
+      "name": "vMix",
+      "site": "https://www.vmix.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Windows switcher with replay and a title designer",
+      "best_for": "Multi-camera tournament shows on Windows",
+      "pricing": "Homepage shows purchase from $50 per month; a free 60-day trial is offered.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Windows",
+      "features": [
+        "Video mixing and switching",
+        "NDI input",
+        "SRT input",
+        "Instant replay",
+        "Video calls input",
+        "GT Title Designer"
+      ],
+      "summary": "vMix packs switching, instant replay, NDI and SRT inputs and a title designer into one Windows program, with a published monthly price and a long trial.",
+      "verdict": "For a crew that wants most of a broadcast in one installer, vMix reads as the most complete on this list. The homepage names video mixing, NDI input, SRT input, instant replay, video calls input and the GT Title Designer, which together cover cameras, remote casters, replays and lower thirds without bolting on other products. Purchase starts from $50 per month, and a 60-day free trial lets a team rehearse a whole season opener before paying. That mix of published cost and breadth earns first place for a tournament producer.",
+      "weaknesses": "It runs on Windows only, so Mac operators are out. The $50 per month figure is a starting point from the homepage and we did not see how it scales by edition. Company and licensing details were not captured.",
+      "wrong_for": "Teams that edit on Macs should look at Wirecast, and teams with no budget should start with OBS Studio.",
+      "sources": [
+        {
+          "fact": "vMix is a live streaming and live production software video mixer and switcher for Windows.",
+          "url": "https://www.vmix.com/"
+        },
+        {
+          "fact": "The homepage shows the purchase option from $50 per month.",
+          "url": "https://www.vmix.com/"
+        },
+        {
+          "fact": "The homepage offers a free 60-day trial download.",
+          "url": "https://www.vmix.com/"
+        }
+      ]
+    },
+    {
+      "slug": "obs-studio",
+      "name": "OBS Studio",
+      "site": "https://obsproject.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Free open source scene-based streaming program",
+      "best_for": "Zero-budget or cross-platform productions",
+      "pricing": "Free and open source software.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows 10 and 11, macOS 13 or newer, Linux",
+      "features": [
+        "Scenes with multiple sources",
+        "Window capture",
+        "Browser sources",
+        "Capture cards",
+        "H264/AAC encoding"
+      ],
+      "summary": "OBS Studio is free and open source, runs on Windows, macOS and Linux, and builds scenes from window captures, browser sources and capture cards.",
+      "verdict": "OBS Studio belongs near the top because the cost of entry is nothing and the base is wide. Its homepage describes scenes composed of window captures, browser windows, webcams and capture cards, and supports Windows 10 and 11, macOS 13 or newer and Linux. Browser sources are the hook for esports: overlays built as web pages drop straight in. Many volunteer-run leagues and student tournaments can run a full show on it, as long as someone in the crew enjoys configuring things.",
+      "weaknesses": "The pages we read list no replay system, remote-guest feature or paid support. Complex shows depend on plugins and outside tools, and you own the setup, so a crash on event day is your problem.",
+      "wrong_for": "Productions that need built-in instant replay and a vendor to call should compare vMix or Wirecast.",
+      "sources": [
+        {
+          "fact": "OBS (Open Broadcaster Software) is free and open source software for video recording and live streaming.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage says OBS supports Windows 10 and Windows 11, macOS 13.0 or newer, and Linux.",
+          "url": "https://obsproject.com/"
+        },
+        {
+          "fact": "The homepage describes scenes made of multiple sources including window captures, browser windows, webcams and capture cards.",
+          "url": "https://obsproject.com/"
+        }
+      ]
+    },
+    {
+      "slug": "wirecast",
+      "name": "Wirecast",
+      "site": "https://www.wirecast.io/",
+      "company": "",
+      "country": "",
+      "tagline": "Mac and Windows production with remote guests",
+      "best_for": "Mac-based crews needing a supported switcher",
+      "pricing": "Studio from $34/mo billed yearly ($408/yr) or $59 month to month; Pro from $42/mo billed yearly. The free trial includes every feature.",
+      "pricing_model": "Subscription",
+      "free_plan": "Free trial",
+      "platforms": "Mac and Windows",
+      "features": [
+        "Multi-camera switching",
+        "Remote guests",
+        "Multistreaming",
+        "Free trial"
+      ],
+      "summary": "Wirecast covers Mac and Windows with unlimited cameras, remote guests and multistreaming, and its trial includes every feature.",
+      "verdict": "Where vMix is Windows only, Wirecast works on both Mac and Windows, which settles the choice for many crews. According to the vendor it offers multi-camera switching, remote guests and multistreaming. Studio costs $34 per month billed yearly ($408 per year) or $59 month to month, and Pro starts at $42 per month billed yearly. Since the free trial includes every feature, a producer can test the whole workflow before committing, and the published tiers make season budgeting straightforward.",
+      "weaknesses": "The pages we read do not mention an esports-specific graphics system, so scoreboards need another tool. Monthly billing costs more than the yearly rate, and the Pro tier's extra features are not detailed in our facts.",
+      "wrong_for": "Free-software-only teams should look at OBS Studio, and teams wanting replay named on the homepage should check vMix.",
+      "sources": [
+        {
+          "fact": "Wirecast is live video streaming and broadcast software for Mac and Windows, with unlimited cameras, remote guests and multistreaming.",
+          "url": "https://www.wirecast.io/"
+        },
+        {
+          "fact": "The pricing page lists Wirecast Studio from $34/mo billed yearly ($408/yr) or $59 month to month, and Pro from $42/mo billed yearly.",
+          "url": "https://www.wirecast.io/pricing/"
+        },
+        {
+          "fact": "The pricing page states that the free trial includes every feature.",
+          "url": "https://www.wirecast.io/pricing/"
+        }
+      ]
+    },
+    {
+      "slug": "casparcg",
+      "name": "CasparCG",
+      "site": "https://casparcg.com",
+      "company": "CasparCG",
+      "country": "",
+      "tagline": "Free broadcast graphics and playout server",
+      "best_for": "Engineers building a custom graphics stack",
+      "pricing": "Free and open source under the GPL license, with no license fees or commercial limitations.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows and Linux",
+      "features": [
+        "Layer-based compositor",
+        "Open network protocol",
+        "Server and client downloads",
+        "Developer tools",
+        "Guides and wiki"
+      ],
+      "summary": "CasparCG is a free GPL server that plays out graphics, audio and video to several outputs, and has been used in broadcast since 2006.",
+      "verdict": "Engineering-heavy productions get the most from CasparCG. The vendor describes a layer-based compositor, an open network protocol and a server that plays graphics, audio and video to multiple outputs on Windows and Linux. It is free under the GPL with no license fees or commercial limitations, and it says it has run in 24/7 broadcast production since 2006 and that most European broadcasters have used it. That track record makes it a credible backbone for league graphics, paired with a control front end.",
+      "weaknesses": "It is a server, not an operator-friendly switcher: you need a client or custom controller to run it live, and a person who can script. No Mac build is listed, and no commercial support appears on the pages we read.",
+      "wrong_for": "Volunteer crews without an engineer should pick a ready-made tool such as vMix or Singular.live.",
+      "sources": [
+        {
+          "fact": "CasparCG is free and open source under the GPL license, with no license fees.",
+          "url": "https://casparcg.com"
+        },
+        {
+          "fact": "CasparCG says it has been used in 24/7 broadcast production since 2006.",
+          "url": "https://casparcg.com"
+        },
+        {
+          "fact": "CasparCG Server is Windows and Linux software used to play out graphics, audio and video to multiple outputs.",
+          "url": "https://www.casparcg.com/docs/downloads/server-client"
+        }
+      ]
+    },
+    {
+      "slug": "nodecg",
+      "name": "NodeCG",
+      "site": "https://www.nodecg.dev/",
+      "company": "NodeCG contributors",
+      "country": "",
+      "tagline": "Node.js framework for browser-based broadcast graphics",
+      "best_for": "Data-driven overlays built by developers",
+      "pricing": "No pricing is shown on the opened pages.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Works with OBS Studio, vMix, XSplit and CasparCG",
+      "features": [
+        "Web-based graphics",
+        "Browser-based controls",
+        "Bundles",
+        "Quick start guide",
+        "Compatible with OBS, vMix, XSplit and CasparCG"
+      ],
+      "summary": "NodeCG turns graphics into ordinary web pages with browser controls, and works with OBS Studio, vMix, XSplit and CasparCG.",
+      "verdict": "NodeCG suits organizers who have a developer and want overlays tied to their own tournament data. Graphics are web pages, controlled through browser dashboards, grouped into bundles, and the project lists compatibility with OBS Studio, vMix, XSplit and CasparCG. That neutrality means the same graphics package can follow you if you change switchers. The home page shows version 2.6.0 with install and bundle-creation guides, which gives a clear starting path for a competent web developer.",
+      "weaknesses": "It is a framework rather than a finished product, so you must write or find bundles. The pages we read state no price, support plan or company, only a contributors line, so responsibility for maintenance sits with you.",
+      "wrong_for": "Crews with no web developer should use a hosted editor like Singular.live or the built-in tools of vMix.",
+      "sources": [
+        {
+          "fact": "NodeCG is a framework for creating broadcast graphics with Node.js and a browser.",
+          "url": "https://www.nodecg.dev/"
+        },
+        {
+          "fact": "NodeCG is compatible with OBS Studio, vMix, xSplit and CasparCG.",
+          "url": "https://www.nodecg.dev/"
+        },
+        {
+          "fact": "The NodeCG home page shows version 2.6.0 and links to installation and bundle-creation docs.",
+          "url": "https://www.nodecg.dev/"
+        }
+      ]
+    },
+    {
+      "slug": "singular-live",
+      "name": "Singular.live",
+      "site": "https://www.singular.live/",
+      "company": "",
+      "country": "",
+      "tagline": "Hosted live graphics platform with a free tier",
+      "best_for": "Teams wanting web-based overlays without code",
+      "pricing": "Free access with a watermark; a Professional plan for small productions and an Enterprise plan with scalability and SSO. Amounts are on the pricing page and were not captured.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Web-based (per vendor page)",
+      "features": [
+        "Free access with watermark",
+        "Professional plan",
+        "Enterprise plan with SSO"
+      ],
+      "summary": "Singular.live is a web-based graphics platform for broadcast and esports with a free watermarked tier, a Professional plan and an Enterprise plan.",
+      "verdict": "Hosted graphics make sense when your crew changes between events and nobody wants to maintain a server. Singular.live describes itself as a live graphics platform for productions, and offers a free tier that carries a watermark, a Professional plan for small productions and an Enterprise plan with scalability and SSO. The free tier allows a real trial of overlay workflows. It pairs with a switcher that can display a browser source, so it fits well beside OBS Studio.",
+      "weaknesses": "The amounts on the pricing page were not captured in our facts, so budget figures need a visit to the vendor. The free tier shows a watermark, and the platform is a graphics layer only, with no switching of its own.",
+      "wrong_for": "Productions wanting an all-in-one switcher should choose vMix or Wirecast; developers wanting full control should look at NodeCG.",
+      "sources": [
+        {
+          "fact": "Singular.live is a live graphics platform for productions, with a free tier that carries a watermark.",
+          "url": "https://www.singular.live/"
+        },
+        {
+          "fact": "The homepage links to a pricing page with Free, Professional (for small productions) and Enterprise (scalability and SSO) tiers.",
+          "url": "https://www.singular.live/"
+        },
+        {
+          "fact": "The pricing page is titled Singular.live Pricing; amounts are not captured in this fact set.",
+          "url": "https://www.singular.live/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "vizrt",
+      "name": "Vizrt",
+      "site": "https://www.vizrt.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Real-time 3D graphics and live production systems",
+      "best_for": "Large events with broadcast engineers",
+      "pricing": "Not stated on the homepage.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Software and live production systems (per vendor page)",
+      "features": [
+        "Real-time 3D graphics",
+        "Live production systems",
+        "Studio automation"
+      ],
+      "summary": "Vizrt provides real-time 3D graphics, live production systems and studio automation, but its homepage shows no pricing.",
+      "verdict": "Vizrt sits in the broadcast-engineering tier. The company says it provides software-defined visual storytelling with real-time 3D graphics, live production systems and studio automation tools, and its homepage title calls it real-time graphics and live production software. For a major final with a studio, augmented stages and dedicated operators, that scope can matter. It ranks mid-table because most tournaments will never need that depth, and there is no public price to plan around.",
+      "weaknesses": "Pricing is not stated on the homepage, so you must ask for a quote. The pages we read give no platform list or free trial, and the breadth of the product line makes it hard to tell which parts an esports team needs.",
+      "wrong_for": "Small and mid-size events should start with OBS Studio, vMix or Wirecast, which publish costs or are free.",
+      "sources": [
+        {
+          "fact": "Vizrt provides software-defined visual storytelling solutions, including real-time 3D graphics, live production systems and studio automation tools.",
+          "url": "https://www.vizrt.com/"
+        },
+        {
+          "fact": "The homepage title describes Vizrt as real-time graphics and live production software.",
+          "url": "https://www.vizrt.com/"
+        },
+        {
+          "fact": "Pricing is not stated on the homepage.",
+          "url": "https://www.vizrt.com/"
+        }
+      ]
+    },
+    {
+      "slug": "ndi-tools",
+      "name": "NDI Tools",
+      "site": "https://ndi.video/tools/",
+      "company": "",
+      "country": "",
+      "tagline": "Free utilities for managing NDI video streams",
+      "best_for": "Sending video between PCs on one network",
+      "pricing": "Downloadable from the vendor page; the page shows no prices.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows and macOS",
+      "features": [
+        "Discovery",
+        "Studio Monitor",
+        "NDI Free Audio",
+        "Discovery Service"
+      ],
+      "summary": "NDI Tools is a free download for Windows and macOS that helps set up, test and manage NDI streams between machines.",
+      "verdict": "NDI is how many esports crews move gameplay and camera video between computers, and this toolkit is the free starting point. The vendor lists Discovery, Studio Monitor and NDI Free Audio among its tools, and offers the download for Windows and macOS with no price shown. It does not switch or mix a show on its own, so its place on the list reflects a supporting role: a technical director who has trouble finding a feed on the network will use it first.",
+      "weaknesses": "It is a utility set, not a production product, so it cannot replace a switcher or a graphics tool. Linux is not named on the page, and the pages we read say nothing about support terms.",
+      "wrong_for": "Anyone looking for a program to cut between cameras should choose vMix, Wirecast or OBS Studio instead.",
+      "sources": [
+        {
+          "fact": "NDI Tools is a set of tools and plugins for setting up, testing and managing NDI streams on Windows and macOS.",
+          "url": "https://ndi.video/tools/"
+        },
+        {
+          "fact": "The NDI Tools page lists Discovery, Studio Monitor and NDI Free Audio among the included tools.",
+          "url": "https://ndi.video/tools/"
+        },
+        {
+          "fact": "NDI Tools can be downloaded from the vendor page; no price is shown.",
+          "url": "https://ndi.video/tools/"
+        }
+      ]
+    },
+    {
+      "slug": "blackmagic-atem",
+      "name": "Blackmagic ATEM",
+      "site": "https://www.blackmagicdesign.com/products/atem",
+      "company": "",
+      "country": "",
+      "tagline": "Hardware live production switchers",
+      "best_for": "Venue shows with many physical cameras",
+      "pricing": "Hardware product; prices are not on the page. ATEM Software Control is included, and an ATEM Advanced Panel can be added.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Hardware switchers with ATEM Software Control (per vendor page)",
+      "features": [
+        "DVEs",
+        "Advanced chroma key",
+        "Media players",
+        "Multi-views",
+        "SuperSource",
+        "Built-in audio mixer"
+      ],
+      "summary": "ATEM is Blackmagic Design's hardware switcher line, from 1 M/E models with 10 inputs to 4 M/E 4K Plus with 80 inputs.",
+      "verdict": "At a LAN venue with many cameras, a hardware switcher takes pressure off the PC. Blackmagic lists the ATEM Constellation line in 1 M/E to 4 M/E models, from 10 inputs up to 80 inputs, with features including DVEs, advanced chroma key, media players, multi-views, SuperSource and a built-in audio mixer. Free ATEM Software Control is included, and an optional ATEM Advanced Panel can be added. For esports it is a venue tool, not an online tool.",
+      "weaknesses": "Prices are not on the page we read, and it is hardware, so you buy and transport it. It does not draw esports scoreboards by itself, so data-driven graphics still need a separate graphics source.",
+      "wrong_for": "Online-only productions should use a software switcher such as vMix or OBS Studio and skip the hardware.",
+      "sources": [
+        {
+          "fact": "ATEM Constellation is Blackmagic Design's live production switcher line, offered in 1 M/E to 4 M/E models.",
+          "url": "https://www.blackmagicdesign.com/products/atemconstellation"
+        },
+        {
+          "fact": "The page lists models from 1 M/E with 10 inputs up to a 4 M/E 4K Plus model with 80 inputs.",
+          "url": "https://www.blackmagicdesign.com/products/atemconstellation"
+        },
+        {
+          "fact": "The page states that the free ATEM Software Control is included, with an optional ATEM Advanced Panel.",
+          "url": "https://www.blackmagicdesign.com/products/atemconstellation"
+        }
+      ]
+    },
+    {
+      "slug": "streamlabs-desktop",
+      "name": "Streamlabs Desktop",
+      "site": "https://streamlabs.com/",
+      "company": "",
+      "country": "",
+      "tagline": "Streaming app tied to alerts, overlays and tipping",
+      "best_for": "Solo streamers on Twitch or YouTube",
+      "pricing": "Desktop plan prices were not captured; the vendor pricing page states the company takes zero cut of donations.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Streamlabs Desktop",
+        "Alerts",
+        "Overlays",
+        "Tipping",
+        "Merch"
+      ],
+      "summary": "Streamlabs Desktop belongs to a creator platform for Twitch, YouTube and Facebook, but its plan details could not be confirmed here.",
+      "verdict": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, offering Streamlabs Desktop alongside alerts, overlays, tipping and merch. Its pricing page also says the company takes zero cut of donations. That makes it a fair choice for a creator who casts a match solo and wants alerts in the same ecosystem. For multi-camera tournament production it ranks lower, since the pages we read give no switching, replay or remote-guest detail.",
+      "weaknesses": "The Desktop product page could not be read in full because it renders with JavaScript, so plans and platforms are not recorded here. The materials are creator-oriented, with no esports production features named.",
+      "wrong_for": "Tournament crews with several operators should look at vMix, Wirecast or OBS Studio.",
+      "sources": [
+        {
+          "fact": "Streamlabs describes itself as a streaming platform for Twitch, YouTube and Facebook, offering Streamlabs Desktop, alerts, overlays, tipping and merch.",
+          "url": "https://streamlabs.com/"
+        },
+        {
+          "fact": "The Streamlabs pricing page states that the company takes zero cut of your donations.",
+          "url": "https://streamlabs.com/pricing"
+        },
+        {
+          "fact": "The Streamlabs Desktop product page on the vendor site could not be read in full because the page is rendered by JavaScript, so its plans are not recorded here.",
+          "url": "https://streamlabs.com/streamlabs-desktop/tip"
+        }
+      ]
+    },
+    {
+      "slug": "ptzoptics",
+      "name": "PTZOptics",
+      "site": "https://ptzoptics.com",
+      "company": "PTZOptics",
+      "country": "",
+      "tagline": "PTZ and fixed camera maker with control tools",
+      "best_for": "Venue camera control by HTTP or VISCA",
+      "pricing": "No prices on the opened pages.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Hardware cameras; firmware and software downloads from the vendor docs",
+      "features": [
+        "PTZ cameras",
+        "Fixed cameras",
+        "Firmware and software downloads",
+        "Developer tools (HTTP and VISCA control)",
+        "Knowledge base"
+      ],
+      "summary": "PTZOptics sells PTZ and fixed cameras and publishes firmware, downloads and HTTP and VISCA developer control tools.",
+      "verdict": "PTZOptics is hardware, and we list it because remotely controlled cameras show up in many studio and venue setups. The vendor says it sells PTZ and fixed cameras, provides developer tools for controlling them over HTTP and VISCA, and publishes firmware and software downloads through its documentation site. That control layer matters when one operator must frame several cameras. It ranks last because no broadcast production software product page was opened.",
+      "weaknesses": "No prices appear on the pages we read, and the product is a camera, not a production program. Its role depends entirely on the switcher and graphics tools you pair it with.",
+      "wrong_for": "Anyone needing software to switch or overlay a show should choose vMix, Wirecast or OBS Studio.",
+      "sources": [
+        {
+          "fact": "PTZOptics sells PTZ and fixed cameras.",
+          "url": "https://ptzoptics.com"
+        },
+        {
+          "fact": "PTZOptics provides developer tools for controlling its cameras over HTTP and VISCA.",
+          "url": "https://ptzoptics.com"
+        },
+        {
+          "fact": "PTZOptics publishes firmware and software downloads through its documentation site.",
+          "url": "https://docs.ptzoptics.com/software/"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18"
+}

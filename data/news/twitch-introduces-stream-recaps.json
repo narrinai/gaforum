@@ -1,0 +1,24 @@
+{
+  "slug": "twitch-introduces-stream-recaps",
+  "title": "Twitch introduces Stream Recaps: clip highlight reels for followers",
+  "date": "2026-10-20",
+  "description": "Twitch's October 20, 2026 blog post introduces Stream Recaps, post-stream highlight reels of clips shown at the top of followers' mobile feeds and on channel pages.",
+  "source": {
+    "name": "Twitch Blog",
+    "url": "https://blog.twitch.tv/en/2026/10/20/stream-recaps/"
+  },
+  "extra_sources": [],
+  "summary": [
+    "Twitch announced Stream Recaps on October 20, 2026. A Stream Recap is a highlight reel of clips from one livestream, assembled so followers can catch up on what they missed. Streamers manage it from their Stream Summary or with the plus button in the mobile app.",
+    "By default, clips made by the streamer and their editors are included, and the streamer can add, remove or edit clips at any time. Followers see the Recap in a shelf at the top of their mobile feed, and it also stays on the channel page. Saying \"Twitch Clip That\" while live creates a clip and adds it to the Recap automatically.",
+    "Twitch also says likes and comments on Recap clips can help it pick clips to recommend to new viewers in the Clips and Live feeds. It adds that a promotion program for clips shared in Recaps, aimed at reaching audiences on third-party social media, would follow later in the month."
+  ],
+  "why_it_matters": [
+    "For streamers, Recaps turn clipping from an occasional task into part of the post-stream routine, because the Recap is only as good as the clips selected. Moderators and editors who already clip during streams now feed directly into what followers see first on mobile.",
+    "Teams that rely on separate clip and highlight tools should check how much of the Recap workflow overlaps with them. Our [clip and highlight editors category](/software/best-clip-and-highlight-editors-for-streamers) covers tools for longer edits, vertical formats and posting to other platforms."
+  ],
+  "related_categories": [
+    "best-clip-and-highlight-editors-for-streamers",
+    "best-livestream-analytics-tools"
+  ]
+}

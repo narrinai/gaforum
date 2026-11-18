@@ -1,0 +1,154 @@
+{
+  "slug": "obs-studio-vs-vmix",
+  "a": "obs-studio",
+  "b": "vmix",
+  "a_name": "OBS Studio",
+  "b_name": "vMix",
+  "a_site": "https://obsproject.com/",
+  "b_site": "https://www.vmix.com/",
+  "category": "best-live-production-software",
+  "title": "OBS Studio vs vMix: Which Fits Your Team in 2026?",
+  "description": "OBS Studio is free, open source and runs on three operating systems; vMix is a paid Windows video mixer. Compare cost, platforms and production features.",
+  "published": "2026-11-18",
+  "intro": "OBS Studio is free open source streaming and recording software, and vMix is a paid live production switcher for Windows. The gap in price is obvious. The gap in what you get for it is narrower to describe, because both mix sources into scenes and send a stream. This page lays out the facts each vendor states, then the questions that decide it: your operating system, your input types and who runs the show.",
+  "verdict": "Start with OBS Studio unless a specific need rules it out. It costs nothing, runs on Windows, macOS and Linux, and handles most single-operator streams. Move to vMix when you are on Windows and want instant replay, NDI and SRT inputs, video call inputs and a title designer built into one switcher, and a monthly fee is acceptable.",
+  "pick_a": "you want zero license cost, you work on macOS or Linux, or you are a solo streamer or small team building scenes from window captures, webcams, browser sources and capture cards.",
+  "pick_b": "your production runs on Windows PCs, you need a switcher with replay, NDI or SRT input, and video call guests, and you prefer a vendor product with a trial over a community project.",
+  "rows": [
+    {
+      "label": "License",
+      "a": "Free and open source",
+      "b": "Commercial; purchase from $50 per month shown on the homepage"
+    },
+    {
+      "label": "Free option",
+      "a": "Entire product is free",
+      "b": "Free 60-day trial"
+    },
+    {
+      "label": "Operating systems",
+      "a": "Windows 10 and 11, macOS 13 or newer, Linux",
+      "b": "Windows"
+    },
+    {
+      "label": "Scene model",
+      "a": "Scenes built from multiple sources",
+      "b": "Video mixer and switcher"
+    },
+    {
+      "label": "Sources named",
+      "a": "Window captures, browser windows, webcams, capture cards",
+      "b": "NDI, SRT and video call inputs"
+    },
+    {
+      "label": "Replay",
+      "a": "Not listed on the homepage",
+      "b": "Instant replay listed"
+    },
+    {
+      "label": "Titles and graphics",
+      "a": "Browser sources",
+      "b": "GT Title Designer"
+    },
+    {
+      "label": "Encoding named",
+      "a": "H264/AAC",
+      "b": "Not specified on the opened page"
+    },
+    {
+      "label": "Support model",
+      "a": "Community project; check the site for channels",
+      "b": "Vendor product"
+    },
+    {
+      "label": "Main limit",
+      "a": "Fewer built-in broadcast tools on the opened page",
+      "b": "Windows only and a recurring cost"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Cost and licensing",
+      "text": [
+        "OBS Studio describes itself as free and open source software for video recording and live streaming. There is no tier and no trial clock to manage, which helps volunteer organizations, schools and tournament scenes with thin budgets.",
+        "vMix shows a purchase option from $50 per month on its homepage and a free 60-day trial download. Sixty days is long enough to run a full event or two before paying, which makes the decision practical rather than a leap."
+      ]
+    },
+    {
+      "h2": "Operating systems decide a lot",
+      "text": [
+        "OBS Studio supports Windows 10 and 11, macOS 13.0 or newer and Linux. vMix is a Windows product. If any producer on your team works on a Mac, or you want a Linux render box, the choice is made for you.",
+        "If everything is Windows, the question moves on to features, and hardware. A switcher with many inputs asks for a strong CPU and graphics card, so test on the machine you will use on show day."
+      ]
+    },
+    {
+      "h2": "Inputs and signal flow",
+      "text": [
+        "OBS Studio's homepage emphasizes scenes made of multiple sources: window captures, browser windows, webcams and capture cards. That covers a game stream, a talking head and an overlay without extra software.",
+        "vMix lists NDI input, SRT input and video calls input as features. Those suit a venue or studio where cameras and remote guests arrive over a network. Many OBS setups can add network sources through plugins, but the opened OBS page does not list them, so verify that before you plan around it."
+      ]
+    },
+    {
+      "h2": "Replay and graphics",
+      "text": [
+        "Instant replay and a title designer are the two vMix features most relevant to esports and sports-style shows. A replay operator can cut highlights live without a second program, and titles come from GT Title Designer.",
+        "OBS Studio relies on browser sources for graphics, which means an overlay can be a web page. That is flexible and cheap, but it asks someone to build and maintain the pages."
+      ]
+    },
+    {
+      "h2": "Choosing by team shape",
+      "text": [
+        "One person streaming games from a single PC rarely needs more than OBS Studio. A crew of three or more running cameras, replays and guest calls from a dedicated Windows machine is the scenario vMix targets.",
+        "You can also pair them: some productions keep OBS as the encoder at the end of the chain. For a wider view see the [live production software ranking](/software/best-live-production-software)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is OBS Studio good enough for events?",
+      "a": "For many events yes, especially with a capable PC and a clear scene plan. The opened pages show scenes, browser sources and capture cards. If you need replay, NDI or SRT as built-in features, check vMix's list instead."
+    },
+    {
+      "q": "Does vMix run on a Mac?",
+      "a": "The vMix homepage describes it as software for Windows. Mac users either run Windows through other means, which adds risk on show day, or choose OBS Studio, which lists macOS 13.0 or newer."
+    },
+    {
+      "q": "How much does vMix cost?",
+      "a": "The homepage shows a purchase option from $50 per month and a free 60-day trial. Other editions and one-time options may exist on pages we did not open, so confirm current terms with the vendor."
+    },
+    {
+      "q": "Can I switch from OBS to vMix later?",
+      "a": "Yes, but scenes do not transfer, so budget time to rebuild layouts and test inputs. Use the vMix trial period to rebuild one real show before you commit."
+    },
+    {
+      "q": "Which has better support?",
+      "a": "OBS Studio is a community-driven open source project, and vMix is a commercial product with a vendor behind it. The opened pages do not compare response times, so ask vMix about support terms and check OBS community channels."
+    }
+  ],
+  "sources": [
+    {
+      "fact": "OBS is free and open source software for video recording and live streaming.",
+      "url": "https://obsproject.com/"
+    },
+    {
+      "fact": "OBS supports Windows 10 and 11, macOS 13.0 or newer, and Linux.",
+      "url": "https://obsproject.com/"
+    },
+    {
+      "fact": "OBS describes scenes made of multiple sources including window captures, browser windows, webcams and capture cards.",
+      "url": "https://obsproject.com/"
+    },
+    {
+      "fact": "vMix is a live streaming and live production software video mixer and switcher for Windows.",
+      "url": "https://www.vmix.com/"
+    },
+    {
+      "fact": "The vMix homepage shows a purchase option from $50 per month.",
+      "url": "https://www.vmix.com/"
+    },
+    {
+      "fact": "The vMix homepage offers a free 60-day trial download.",
+      "url": "https://www.vmix.com/"
+    }
+  ]
+}

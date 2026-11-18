@@ -1,0 +1,199 @@
+{
+  "slug": "overwolf",
+  "subject": "Overwolf",
+  "subject_site": "https://overwolf.com/",
+  "title": "Overwolf Alternatives in 2026",
+  "published": "2026-11-18",
+  "description": "Overwolf alternatives for mods and in-game apps: seven mod hubs, mod managers and studio mod platforms, with notes on what each gains and loses.",
+  "category": "best-ugc-and-modding-platforms",
+  "intro": "Overwolf is a platform for in-game content, and its homepage lists App Path, Mod Path, Server Path and Website Path. It claims 113M monthly active users and 1,500+ supported games, mentions a $50M creator fund and shows no pricing. CurseForge, a mods platform in the same family, appears below with that caveat. People look elsewhere for a mod host outside the Overwolf family, an open-source option or a studio-side tool. Seven alternatives follow, each described from its own page.",
+  "why_switch": [
+    "Overwolf's home page lists no pricing or free plan, so a creator or studio cannot judge cost from it.",
+    "CurseForge is tied to Overwolf's mod offering, so players and authors who want a separate platform need another host.",
+    "Some communities live on a single game and want a site built for it, such as Modrinth for Minecraft.",
+    "Studios that want mods inside their own game may prefer an SDK like mod.io or Steam's built-in Workshop.",
+    "Creators who dislike paywalls can pick a free site like GameBanana, which states it never sells mods."
+  ],
+  "picks": [
+    {
+      "slug": "curseforge",
+      "name": "CurseForge",
+      "site": "https://curseforge.com/",
+      "best_for": "Minecraft and RPG mod distribution",
+      "pricing": "Free client; CurseForge Premium is an ad-free upgrade whose price is not on the page.",
+      "free_plan": "Free plan",
+      "note": "CurseForge is a mods and addons platform that says it makes modding easy, safe and rewarding, and it lists Minecraft, World of Warcraft and The Sims 4 among supported games. Overwolf's homepage lists mods via CurseForge, so it is not independent of the subject. The page claims 620K+ mods and 150B+ downloads. You gain a huge audience; you give up distance from Overwolf, which is the reason for looking elsewhere.",
+      "sources": [
+        {
+          "fact": "CurseForge describes itself as a mods and addons platform: 'CurseForge makes modding easy, safe, and rewarding.'",
+          "url": "https://curseforge.com/"
+        },
+        {
+          "fact": "CurseForge's home page says the CurseForge Client can be downloaded for free.",
+          "url": "https://curseforge.com/"
+        },
+        {
+          "fact": "CurseForge's home page shows 620K+ mods and 150B+ downloads (vendor claims).",
+          "url": "https://curseforge.com/"
+        }
+      ]
+    },
+    {
+      "slug": "thunderstore",
+      "name": "Thunderstore",
+      "site": "https://thunderstore.io/",
+      "best_for": "Mod hosting for Unity-based community games",
+      "pricing": "No pricing or free plan is shown on the homepage.",
+      "free_plan": "Unknown",
+      "note": "Thunderstore is a mod database that offers over 110,000 mods across 300+ games and a Thunderstore Mod Manager for Windows. Communities named on the page include Lethal Company, Valheim and Risk of Rain 2. You gain a mod manager tied to the site and a spread of game communities; you give up Overwolf's in-game overlay apps, since this is a mod library rather than an app platform.",
+      "sources": [
+        {
+          "fact": "Thunderstore describes itself as a mod database: 'Choose from over 110,000 mods across 300+ games.'",
+          "url": "https://thunderstore.io/"
+        },
+        {
+          "fact": "Thunderstore's home page offers the Thunderstore Mod Manager for Windows.",
+          "url": "https://thunderstore.io/"
+        },
+        {
+          "fact": "Thunderstore's home page lists game communities including Lethal Company, Valheim and Risk of Rain 2.",
+          "url": "https://thunderstore.io/"
+        }
+      ]
+    },
+    {
+      "slug": "modrinth",
+      "name": "Modrinth",
+      "site": "https://modrinth.com/",
+      "best_for": "Open-source Minecraft mod discovery",
+      "pricing": "Prices not shown; links to Modrinth+, Modrinth App and Modrinth Hosting. Creators can earn ad revenue.",
+      "free_plan": "Unknown",
+      "note": "Modrinth is an open-source platform for discovering, playing and sharing Minecraft content, supporting Fabric, Forge and NeoForge loaders. It states it is not an official Minecraft service. Creators can earn ad revenue from project pages and withdraw it. You gain a creator payout model and open code; you give up every game except Minecraft.",
+      "sources": [
+        {
+          "fact": "Modrinth describes itself as an open-source platform built for the community to discover, play and share Minecraft content.",
+          "url": "https://modrinth.com/"
+        },
+        {
+          "fact": "Modrinth's home page says creators can earn ad revenue from project pages and withdraw the funds.",
+          "url": "https://modrinth.com/"
+        },
+        {
+          "fact": "Modrinth's home page states it is 'NOT AN OFFICIAL MINECRAFT SERVICE' and not approved by or associated with Mojang or Microsoft.",
+          "url": "https://modrinth.com/"
+        }
+      ]
+    },
+    {
+      "slug": "mod-io",
+      "name": "mod.io",
+      "site": "https://mod.io",
+      "best_for": "Studios adding mod support to their own game",
+      "pricing": "No pricing page was found; the homepage does not state prices.",
+      "free_plan": "Unknown",
+      "note": "mod.io lets game developers support mods on PC, console and mobile, with an API, SDK and plugins for Unity, Unreal Engine and more. Unlike the mod sites above, it is infrastructure that lives inside a studio's game. You gain cross-platform user content and an in-game browser built by you; you give up a ready-made audience, and the opened pages say nothing about cost.",
+      "sources": [
+        {
+          "fact": "mod.io is a platform that lets game developers support mods on PC, console and mobile.",
+          "url": "https://mod.io"
+        },
+        {
+          "fact": "mod.io offers an API, SDK and plugins for Unity, Unreal Engine and more to grow, manage and integrate user-generated content in games.",
+          "url": "https://mod.io"
+        }
+      ]
+    },
+    {
+      "slug": "steam-workshop",
+      "name": "Steam Workshop",
+      "site": "https://steamcommunity.com/workshop",
+      "best_for": "Steam games that want free built-in mod sharing",
+      "pricing": "No pricing is shown on the page.",
+      "free_plan": "Unknown",
+      "note": "The Steam Workshop lets users submit, find, rate and download content and modifications for Steam games. Its page lists collections, saved search queries, game branch versions and a subscriptions list with dependency-based load ordering. You gain players who already have Steam installed; you give up any title that is not sold there and any control beyond what Steam offers.",
+      "sources": [
+        {
+          "fact": "The Steam Workshop page describes itself as the place to 'submit, find, rate, and download new content and modifications for your favorite Steam games.'",
+          "url": "https://steamcommunity.com/workshop"
+        },
+        {
+          "fact": "The Steam Workshop page lists Workshop collections, saved search queries, game branch versions and a subscriptions list with dependency-based load ordering.",
+          "url": "https://steamcommunity.com/workshop"
+        },
+        {
+          "fact": "The Steam Workshop page is available on the web via Steam Community and in the Steam client (beta).",
+          "url": "https://steamcommunity.com/workshop"
+        }
+      ]
+    },
+    {
+      "slug": "gamebanana",
+      "name": "GameBanana",
+      "site": "https://gamebanana.com/",
+      "best_for": "Free community modding across many games",
+      "pricing": "Free; the homepage says there are no paywalls and ads keep the site online.",
+      "free_plan": "Free",
+      "note": "GameBanana describes itself as a game modding community since 2001, and says it does not have paywalls or sell mods. Ads pay for the site. You gain an old, free community hub; you give up creator monetization, which Overwolf's platform advertises, and a studio-facing toolset.",
+      "sources": [
+        {
+          "fact": "GameBanana's home page title reads 'GameBanana | The Game Modding Community - Since 2001'.",
+          "url": "https://gamebanana.com/"
+        },
+        {
+          "fact": "GameBanana's home page says: 'We don't have paywalls or sell mods - we never will.'",
+          "url": "https://gamebanana.com/"
+        },
+        {
+          "fact": "GameBanana's home page says 'Ads keep us online' and asks visitors to unblock ads.",
+          "url": "https://gamebanana.com/"
+        }
+      ]
+    },
+    {
+      "slug": "vortex",
+      "name": "Vortex",
+      "site": "https://github.com/Nexus-Mods/Vortex",
+      "best_for": "Players who need a mod manager, not a store",
+      "pricing": "Free and open source; the repository is under GPL-3.0.",
+      "free_plan": "Open source",
+      "note": "Vortex is the mod manager from Nexus Mods, with a README claiming support for over 250 games and a GPL-3.0 licensed repository. Its aim is to make modding simple for new users while giving experienced modders control. You gain an open-source desktop tool; you give up distribution and monetization, since this installs mods rather than hosting a creator economy.",
+      "sources": [
+        {
+          "fact": "Vortex is the current mod manager from Nexus Mods, designed to make modding a game as simple as possible for new users.",
+          "url": "https://raw.githubusercontent.com/Nexus-Mods/Vortex/master/README.md"
+        },
+        {
+          "fact": "The README says Vortex supports mods for over 250 different games.",
+          "url": "https://raw.githubusercontent.com/Nexus-Mods/Vortex/master/README.md"
+        },
+        {
+          "fact": "The Vortex repository is published under the GPL-3.0 license, with LICENSE.md linked from the repository page.",
+          "url": "https://github.com/Nexus-Mods/Vortex"
+        }
+      ]
+    }
+  ],
+  "how_to_pick": "Decide who the user is. A modder choosing where to publish should compare Thunderstore, Modrinth and GameBanana by game coverage and by whether the site pays creators. A player who only wants installs may need Vortex and nothing else. A studio should look at mod.io for cross-platform support or the Steam Workshop for a Steam-only release. Check each platform's rules on payment and ads before you upload, and keep a copy of every mod outside any single host.",
+  "faqs": [
+    {
+      "q": "Is CurseForge a real alternative to Overwolf?",
+      "a": "It is closely tied, since the Overwolf home page names mods via CurseForge. It suits modders, but for independence from Overwolf you should pick another host."
+    },
+    {
+      "q": "Which option is best for Minecraft mods only?",
+      "a": "Modrinth is built for Minecraft and supports Fabric, Forge and NeoForge, with ad revenue for creators. CurseForge also lists Minecraft among supported games. Modrinth says it is not an official Minecraft service."
+    },
+    {
+      "q": "What can a studio use to add mod support to its game?",
+      "a": "mod.io offers an API, SDK and plugins for Unity, Unreal Engine and more across PC, console and mobile. The Steam Workshop is the free option for games sold on Steam. Neither page states a fee for studios."
+    },
+    {
+      "q": "Do any of these sites charge for mods?",
+      "a": "GameBanana's homepage says it has no paywalls and never sells mods. Modrinth lets creators earn ad revenue. Pricing for Thunderstore, mod.io and the Workshop is not shown on the pages opened."
+    },
+    {
+      "q": "Is Vortex a replacement for Overwolf apps?",
+      "a": "No. Vortex is a mod manager from Nexus Mods that supports over 250 games, while Overwolf also covers overlays and websites. It overlaps only with the mod installation part."
+    }
+  ]
+}

@@ -1,0 +1,1558 @@
+[
+  {
+    "slug": "capframex",
+    "name": "CapFrameX",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.capframex.com/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "CapFrameX is a frametime capture and analysis tool for PC benchmarking, based on Intel's PresentMon and with an overlay provided by RivaTuner Statistics Server.",
+    "platforms": "Windows (x64 installer and portable version; needs the .NET 10.0 Desktop Runtime installed)",
+    "pricing": "Free download. The download page offers an installer and a portable version as .zip files; the homepage also links a Donate page.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Frametime capture",
+      "FPS and frametime analysis and plots",
+      "Sensor recording",
+      "Cloud sharing of results",
+      "RTSS overlay",
+      "Portable version"
+    ],
+    "notable": [
+      "Latest stable release on the download page is 1.9.1",
+      "Support is offered through GitHub issues, community forums and a contact e-mail address on the vendor site"
+    ],
+    "facts": [
+      {
+        "fact": "CapFrameX is a frametimes capture and analysis tool based on Intel's PresentMon, with an overlay provided by Rivatuner Statistics Server.",
+        "url": "https://www.capframex.com/"
+      },
+      {
+        "fact": "CapFrameX can be downloaded for free as an installer or a portable .zip; the installer and portable version need the .NET 10.0 Desktop Runtime (x64).",
+        "url": "https://www.capframex.com/download"
+      },
+      {
+        "fact": "Bugs are reported through GitHub issues, and the developer team can be reached by e-mail at contact@capframex.com.",
+        "url": "https://www.capframex.com/support"
+      }
+    ]
+  },
+  {
+    "slug": "presentmon",
+    "name": "PresentMon",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://github.com/GameTechDev/PresentMon",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "PresentMon is a set of tools that capture and analyze the high-level performance characteristics of graphics applications on Windows.",
+    "platforms": "Windows",
+    "pricing": "Pricing is not stated on the repository page. The source is published on GitHub with a LICENSE.txt file in the repository.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "CPU, GPU and display frame duration capture",
+      "Frame latency metrics",
+      "DirectX, OpenGL and Vulkan support",
+      "Desktop and UWP application support"
+    ],
+    "notable": [
+      "Works across DirectX, OpenGL and Vulkan according to the README",
+      "Published on GitHub under the GameTechDev organisation"
+    ],
+    "facts": [
+      {
+        "fact": "PresentMon is a set of tools to capture and analyze the high-level performance characteristics of graphics applications on Windows.",
+        "url": "https://raw.githubusercontent.com/GameTechDev/PresentMon/main/README.md"
+      },
+      {
+        "fact": "PresentMon traces CPU, GPU and display frame durations and latencies across DirectX, OpenGL and Vulkan, for desktop and UWP applications.",
+        "url": "https://raw.githubusercontent.com/GameTechDev/PresentMon/main/README.md"
+      },
+      {
+        "fact": "The PresentMon source code is hosted in the GameTechDev GitHub repository, which includes a LICENSE.txt file.",
+        "url": "https://github.com/GameTechDev/PresentMon"
+      }
+    ]
+  },
+  {
+    "slug": "nvidia-frameview",
+    "name": "NVIDIA FrameView",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.nvidia.com/en-us/geforce/technologies/frameview/",
+    "company": "NVIDIA Corporation",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "FrameView is a free app from NVIDIA GeForce for benchmarking GPU performance, frames per second, frame times and performance per watt.",
+    "platforms": "",
+    "pricing": "Free. The vendor page describes it as the free FrameView app.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Frames per second measurement",
+      "Frame time measurement",
+      "GPU power measurement",
+      "Performance per watt"
+    ],
+    "notable": [
+      "Published by NVIDIA GeForce",
+      "Download page is titled 'Download FrameView App | NVIDIA'"
+    ],
+    "facts": [
+      {
+        "fact": "NVIDIA FrameView is an application for measuring frame rates, frame times, power and performance-per-watt on a range of GPUs.",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/frameview/"
+      },
+      {
+        "fact": "The vendor describes the FrameView app as free.",
+        "url": "https://www.nvidia.com/en-us/geforce/technologies/frameview/"
+      },
+      {
+        "fact": "The GeForce pages are published by NVIDIA Corporation, which holds the copyright notice on the site.",
+        "url": "https://www.nvidia.com/en-us/geforce/"
+      }
+    ]
+  },
+  {
+    "slug": "furmark",
+    "name": "FurMark",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://geeks3d.com/furmark/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "FurMark is a GPU stress test and graphics card benchmark by Geeks3D, with an OpenGL and Vulkan benchmark and online scores.",
+    "platforms": "Windows and Linux (FurMark 2, 32-bit and 64-bit); FurMark 1 for Windows 32-bit",
+    "pricing": "Free. The vendor page says FurMark is simple to use and is free.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "GPU stress test",
+      "OpenGL and Vulkan benchmark",
+      "Online scores",
+      "Command line support",
+      "Built with GeeXLab"
+    ],
+    "notable": [
+      "FurMark 2 is the successor of FurMark 1, which is still maintained",
+      "Site is run by Geeks3D, which also publishes graphics programming material"
+    ],
+    "facts": [
+      {
+        "fact": "FurMark 2 is a very intensive GPU stress test on Windows and Linux (32-bit and 64-bit) that also works as a quick OpenGL and Vulkan benchmark with online scores.",
+        "url": "https://geeks3d.com/furmark/"
+      },
+      {
+        "fact": "The vendor says FurMark is simple to use and is free.",
+        "url": "https://geeks3d.com/furmark/"
+      },
+      {
+        "fact": "Geeks3D is the publisher of FurMark and describes the site as home of FurMark.",
+        "url": "https://geeks3d.com/about-us/"
+      }
+    ]
+  },
+  {
+    "slug": "crystaldiskmark",
+    "name": "CrystalDiskMark",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://crystalmark.info/en/software/crystaldiskmark/",
+    "company": "Crystal Dew World",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "CrystalDiskMark is a simple disk benchmark program for Windows, published by Crystal Dew World.",
+    "platforms": "Windows XP to Windows 11, Windows Server 2003 to 2025; x86, x64 and ARM64",
+    "pricing": "Freeware. The vendor's About page says all of its programs are freeware, with portions under the MIT license.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Disk benchmark",
+      "Standard, Aoi and Shizuku editions",
+      "Windows and Windows Server support"
+    ],
+    "notable": [
+      "Latest release on the vendor homepage is CrystalDiskMark 9.0.3 (24 May 2026)",
+      "The vendor says all of its programs can be freely distributed"
+    ],
+    "facts": [
+      {
+        "fact": "CrystalDiskMark is a simple disk benchmark software, with a Standard Edition and the Aoi and Shizuku editions.",
+        "url": "https://crystalmark.info/en/software/crystaldiskmark/"
+      },
+      {
+        "fact": "The vendor states that all of its programs are freeware, and that portions are distributed under the MIT license.",
+        "url": "https://crystalmark.info/en/information/about/"
+      },
+      {
+        "fact": "The vendor homepage lists CrystalDiskMark 9.0.3 as released on 24 May 2026.",
+        "url": "https://crystalmark.info/en/"
+      }
+    ]
+  },
+  {
+    "slug": "aida64",
+    "name": "AIDA64",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.aida64.com",
+    "company": "FinalWire Ltd",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "AIDA64 is a system information, diagnostics, monitoring and benchmarking software for Windows PCs, made by FinalWire.",
+    "platforms": "Windows (64-bit editions, including Windows 11 and Windows Server 2025)",
+    "pricing": "Pricing is not shown on the opened pages. AIDA64 is licensed with a product key; the licensing page describes support and maintenance periods, renewals, and trial versions. Editions are Extreme, Engineer, Business and Network Audit.",
+    "pricing_model": "",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Hardware detection",
+      "Software and Windows configuration pages",
+      "Real-time sensor monitoring",
+      "Stress and benchmark tests",
+      "Network audit (Network Audit edition)",
+      "Overclocking support"
+    ],
+    "notable": [
+      "FinalWire has been developing AIDA64 since 1995 (ASMDEMO was its first analyzer, per the vendor's About page)",
+      "AIDA64 8.40 released September 2026 with AMD Verano and Zen 7 server support"
+    ],
+    "facts": [
+      {
+        "fact": "AIDA64 Extreme is a system information tool that provides detailed information about hardware and installed software, and offers diagnostics and benchmarks.",
+        "url": "https://www.aida64.com/products/aida64-extreme"
+      },
+      {
+        "fact": "AIDA64 is licensed by FinalWire Ltd under a product license with a product key and a license agreement, and maintenance periods can be renewed.",
+        "url": "https://www.aida64.com/licensing"
+      },
+      {
+        "fact": "FinalWire Ltd. is the company behind AIDA64; the vendor's About page says the company was established in 2010 and copyright runs 2010 to 2026.",
+        "url": "https://www.aida64.com/about-finalwire"
+      }
+    ]
+  },
+  {
+    "slug": "userbenchmark",
+    "name": "UserBenchmark",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.userbenchmark.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "UserBenchmark is a free PC speed test and a user-driven benchmark database that ranks CPUs, GPUs, SSDs, HDDs, RAM and USB devices.",
+    "platforms": "Web and a free Windows download",
+    "pricing": "Free. The homepage offers a free speed test and a free download.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "PC speed test",
+      "Component rankings for CPU, GPU, SSD, HDD, RAM and USB",
+      "FPS and EFPS estimates",
+      "Compare and build tools",
+      "SkillBench"
+    ],
+    "notable": [
+      "The About page says the team has served users since 2011",
+      "The About page says UserBenchmark declines sponsorship"
+    ],
+    "facts": [
+      {
+        "fact": "UserBenchmark is a free speed test and benchmark site where users can test their PC in under a minute, with a free download.",
+        "url": "https://www.userbenchmark.com"
+      },
+      {
+        "fact": "UserBenchmark describes itself as an independent team serving users since 2011 and states that it declines sponsorship.",
+        "url": "https://www.userbenchmark.com/page/about"
+      },
+      {
+        "fact": "The site lists component rankings for CPU, GPU, SSD, HDD, RAM and USB, plus FPS and EFPS pages, Compare and Build tools.",
+        "url": "https://www.userbenchmark.com"
+      }
+    ]
+  },
+  {
+    "slug": "hwinfo",
+    "name": "HWiNFO",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.hwinfo.com",
+    "company": "REALiX s.r.o.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "HWiNFO is a hardware analysis, monitoring and reporting tool for Windows and DOS, free for personal and non-commercial use.",
+    "platforms": "Windows 7 and later (64-bit, ARM64); Windows 95 and later (32-bit); MS-DOS",
+    "pricing": "Free for personal and non-commercial use. Commercial use of HWiNFO 64 or ARM64 requires the Pro license. The licenses page lists Pro initial prices from $29 and $199 and a renewal price from $14.50 (renewal price shown as 14.5).",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "In-depth hardware information",
+      "Real-time sensor monitoring",
+      "Reporting and command-line logging",
+      "Remote monitoring (Pro)",
+      "Stress test (Pro)",
+      "On-screen display"
+    ],
+    "notable": [
+      "Commercial use needs the Pro license (Engineer or Corporate for commercial use, per the licenses page)",
+      "Pro licenses are perpetual, with a maintenance period for updates"
+    ],
+    "facts": [
+      {
+        "fact": "HWiNFO is free to use in personal and non-commercial environments, and commercial use of HWiNFO 64 or ARM64 requires the Pro license.",
+        "url": "https://www.hwinfo.com/licenses/"
+      },
+      {
+        "fact": "HWiNFO Pro licenses have an initial price from $29 and from $199, with a renewal price from $14.5, according to the licenses page.",
+        "url": "https://www.hwinfo.com/licenses/"
+      },
+      {
+        "fact": "HWiNFO is published by REALiX s.r.o. (copyright notice on the homepage: Martin Malik, REALiX s.r.o.).",
+        "url": "https://www.hwinfo.com/"
+      }
+    ]
+  },
+  {
+    "slug": "msi-afterburner",
+    "name": "MSI Afterburner",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened (msi.com returned HTTP 403 on the landing page, the page under /page/ and the homepage)",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "occt",
+    "name": "OCCT",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.ocbase.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "OCCT is a stability, stress test, benchmark and monitoring tool for Windows and Linux, from the team behind OCBASE.",
+    "platforms": "Windows and Linux",
+    "pricing": "OCCT Personal is free for personal use and cannot be used in a commercial or business environment. Pro, Enterprise and Enterprise+ licenses are required for business use. The download page says a subscription is available via Patreon to support development.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "Stability and stress testing",
+      "Benchmark",
+      "Monitoring",
+      "Personal, Pro, Enterprise and Enterprise+ editions",
+      "Linux support"
+    ],
+    "notable": [
+      "The About page says the team spans Douai (France) and Taipei (Taiwan)",
+      "OCCT Personal is limited to non-commercial use"
+    ],
+    "facts": [
+      {
+        "fact": "OCCT is a free, all-in-one stability, stress test, benchmark and monitoring tool for Windows and Linux.",
+        "url": "https://www.ocbase.com"
+      },
+      {
+        "fact": "OCCT Personal is free of charge for personal use and cannot be used in a commercial or business environment, where a Pro, Enterprise or Enterprise+ license is required.",
+        "url": "https://www.ocbase.com/download-personal"
+      },
+      {
+        "fact": "The vendor's About page says the OCCT team works from Douai (France) to Taipei (Taiwan).",
+        "url": "https://www.ocbase.com/about-us"
+      }
+    ]
+  },
+  {
+    "slug": "hwmonitor",
+    "name": "HWMonitor",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.cpuid.com/softwares/hwmonitor.html",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "HWMonitor is a CPUID hardware monitoring program for Windows that reads voltages, temperatures, powers, currents, fan speeds, utilizations and clock speeds.",
+    "platforms": "Windows x86/x64 and Windows ARM64",
+    "pricing": "The standard HWMonitor is offered free. An extended HWMonitor PRO version is also offered; its price is not shown on the opened page.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "CPU and GPU monitoring",
+      "Super I/O chip monitoring",
+      "Memory thermal sensors",
+      "SSD and hard disk S.M.A.R.T.",
+      "Battery monitoring",
+      "HWMonitor PRO extended version"
+    ],
+    "notable": [
+      "HWMonitor PRO is the extended version named on the product page",
+      "The product page is published by CPUID"
+    ],
+    "facts": [
+      {
+        "fact": "HWMonitor for Windows x86/x64 is a hardware monitoring program that reads PC health sensors, including voltages, temperatures, powers, currents, fan speeds, utilizations and clock speeds.",
+        "url": "https://www.cpuid.com/softwares/hwmonitor.html"
+      },
+      {
+        "fact": "The program handles CPU and GPU-level monitoring, LPCIO chips, memory thermal sensors, SSD and hard disk S.M.A.R.T. data, and batteries.",
+        "url": "https://www.cpuid.com/softwares/hwmonitor.html"
+      },
+      {
+        "fact": "HWMonitor is also available in an extended HWMonitor PRO version, according to the CPUID product page.",
+        "url": "https://www.cpuid.com/softwares/hwmonitor.html"
+      }
+    ]
+  },
+  {
+    "slug": "cpu-z",
+    "name": "CPU-Z",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.cpuid.com/softwares/cpu-z.html",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "CPU-Z is a freeware system information tool from CPUID that reads processor, mainboard, chipset and memory details.",
+    "platforms": "Windows x86/x64, Windows ARM64 and Android",
+    "pricing": "Freeware.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Processor name, codename and cache levels",
+      "Mainboard and chipset details",
+      "Memory type, timings and SPD",
+      "Real-time core frequency measurement",
+      "Windows 11 support"
+    ],
+    "notable": [
+      "Detection engine is available through the CPUID System Information Development Kit (SDK)",
+      "Supports Windows and Android"
+    ],
+    "facts": [
+      {
+        "fact": "CPU-Z for Windows x86/x64 is a freeware that gathers information on processor, mainboard, chipset, memory and other main devices.",
+        "url": "https://www.cpuid.com/softwares/cpu-z.html"
+      },
+      {
+        "fact": "CPU-Z measures the internal frequency of each core and the memory frequency in real time, and is fully supported on Windows 11.",
+        "url": "https://www.cpuid.com/softwares/cpu-z.html"
+      },
+      {
+        "fact": "CPU-Z's detection engine is available for custom use through the CPUID System Information Development Kit.",
+        "url": "https://www.cpuid.com/softwares/cpu-z.html"
+      }
+    ]
+  },
+  {
+    "slug": "gpu-z",
+    "name": "GPU-Z",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened (techpowerup.com served an automated bot check page on the GPU-Z page and the homepage, with no content)",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "ryzen-master",
+    "name": "Ryzen Master",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.amd.com/en/products/software/ryzen-master.html",
+    "company": "Advanced Micro Devices, Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Ryzen Master is AMD's utility for overclocking control and system monitoring of Ryzen processors.",
+    "platforms": "AMD Ryzen processors",
+    "pricing": "Pricing is not stated on the opened product page.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Overclocking control",
+      "Personalized performance profiles",
+      "System monitoring",
+      "Curve Optimizer feature (per the FAQ link)"
+    ],
+    "notable": [
+      "AMD publishes a user guide and a Curve Optimizer FAQ for the utility",
+      "AMD was founded in 1969, per its corporate page"
+    ],
+    "facts": [
+      {
+        "fact": "AMD Ryzen Master is a utility that gives control over AMD Ryzen processors, with personalized performance and system monitoring.",
+        "url": "https://www.amd.com/en/products/software/ryzen-master.html"
+      },
+      {
+        "fact": "The Ryzen Master product page links a user guide and an FAQ on the Curve Optimizer feature in Ryzen Master.",
+        "url": "https://www.amd.com/en/products/software/ryzen-master.html"
+      },
+      {
+        "fact": "The copyright on AMD's corporate pages is held by Advanced Micro Devices, Inc., and the company says it was founded in 1969.",
+        "url": "https://www.amd.com/en/corporate.html"
+      }
+    ]
+  },
+  {
+    "slug": "intel-xtu",
+    "name": "Intel XTU",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened (intel.com returned HTTP 403 on the download page and on the developer article alternative)",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "librehardwaremonitor",
+    "name": "LibreHardwareMonitor",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "LibreHardwareMonitor is free software that monitors temperature sensors, fan speeds, voltages, loads and clock speeds of a computer.",
+    "platforms": "",
+    "pricing": "Free software. The repository links a LICENSE file and a THIRD-PARTY-NOTICES file.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Temperature sensors",
+      "Fan speeds",
+      "Voltages",
+      "Load and clock speed monitoring"
+    ],
+    "notable": [
+      "Published on GitHub under the LibreHardwareMonitor organisation",
+      "The repository links a LICENSE file and third-party license notices"
+    ],
+    "facts": [
+      {
+        "fact": "Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of a computer.",
+        "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+      },
+      {
+        "fact": "The project's source code and license are published in the GitHub repository, with a LICENSE file linked from the repository page.",
+        "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+      },
+      {
+        "fact": "The repository includes a THIRD-PARTY-NOTICES file listing third-party licenses.",
+        "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+      }
+    ]
+  },
+  {
+    "slug": "prime95",
+    "name": "Prime95",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.mersenne.org/download/",
+    "company": "Mersenne Research, Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Prime95 is free software from GIMPS, the Great Internet Mersenne Prime Search, which uses spare processing power to search for Mersenne primes.",
+    "platforms": "Windows, Linux, FreeBSD, macOS",
+    "pricing": "Free. The GIMPS download page offers the software free of charge.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Mersenne prime search (PrimeNet)",
+      "Free downloads for Windows, Linux, FreeBSD and macOS",
+      "Distributed computing"
+    ],
+    "notable": [
+      "GIMPS is run by Mersenne Research, Inc., a non-profit corporation (per the legal page)",
+      "GIMPS has been finding world record primes since 1996 (per the download page)"
+    ],
+    "facts": [
+      {
+        "fact": "GIMPS has free software available for Windows, Linux, FreeBSD and Mac OSX, and contributors use their computer's spare processing power.",
+        "url": "https://www.mersenne.org/download/"
+      },
+      {
+        "fact": "The GIMPS site and its software are owned and operated by Mersenne Research, Inc., described as a non-profit corporation.",
+        "url": "https://www.mersenne.org/legal/"
+      },
+      {
+        "fact": "The download page states that GIMPS has been finding world record primes since 1996.",
+        "url": "https://www.mersenne.org/download/"
+      }
+    ]
+  },
+  {
+    "slug": "rainmeter",
+    "name": "Rainmeter",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.rainmeter.net",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Rainmeter is a desktop customization tool that displays customizable skins, from hardware usage meters to audio visualizers.",
+    "platforms": "Windows 7 or above",
+    "pricing": "Free. Rainmeter has been open source software distributed free of charge under the GNU GPL v2 license since February 2001.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Customizable skins",
+      "Hardware usage meters",
+      "Audio visualizers",
+      "Themes and community skins",
+      "Documentation and getting started guide"
+    ],
+    "notable": [
+      "Open source under GNU GPL v2 since February 2001",
+      "Version 4.5.28 was released on 12 October 2026, per the homepage"
+    ],
+    "facts": [
+      {
+        "fact": "Rainmeter allows you to display customizable skins on your desktop, from hardware usage meters to fully functional audio visualizers.",
+        "url": "https://www.rainmeter.net"
+      },
+      {
+        "fact": "Rainmeter has been open source software distributed free of charge under the GNU GPL v2 license since February 2001.",
+        "url": "https://www.rainmeter.net"
+      },
+      {
+        "fact": "The homepage lists Rainmeter 4.5.28 as released on 12 October 2026 and offers downloads for Windows 7 or above.",
+        "url": "https://www.rainmeter.net"
+      }
+    ]
+  },
+  {
+    "slug": "playnite",
+    "name": "Playnite",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://playnite.link/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Playnite is an open source video game library manager that gives a unified interface for all of a player's games.",
+    "platforms": "",
+    "pricing": "Completely free. Playnite is open source.",
+    "pricing_model": "Open source",
+    "free_plan": "Free",
+    "key_features": [
+      "Import of Steam, Epic, Origin, GOG, Battle.net and Ubisoft Connect libraries",
+      "Emulation support",
+      "Themes",
+      "Extensions and plugins",
+      "Fullscreen mode with controller support",
+      "Playtime counter"
+    ],
+    "notable": [
+      "Can link games that are not installed",
+      "Can run from portable storage"
+    ],
+    "facts": [
+      {
+        "fact": "Playnite is an open source video game library manager with one simple goal: a unified interface for all of your games.",
+        "url": "https://playnite.link/"
+      },
+      {
+        "fact": "Playnite can link games from Steam, Epic, Origin, GOG, Battle.net, Ubisoft Connect and other services, including games that are not installed.",
+        "url": "https://playnite.link/"
+      },
+      {
+        "fact": "The homepage describes Playnite as completely free.",
+        "url": "https://playnite.link/"
+      }
+    ]
+  },
+  {
+    "slug": "gog-galaxy",
+    "name": "GOG Galaxy",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.gog.com/galaxy",
+    "company": "GOG sp. z o.o.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "GOG Galaxy is a launcher that combines multiple game libraries into one and connects a player with friends across gaming platforms, consoles included.",
+    "platforms": "",
+    "pricing": "Pricing for the GOG Galaxy client is not stated on the opened page. The GOG store sells DRM-free games with a 30-day money-back guarantee.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Combined game library",
+      "Friends across platforms",
+      "Cross-platform library view"
+    ],
+    "notable": [
+      "GOG sp. z o.o. is the company named in the copyright notice on the GOG about page",
+      "GOG store is described as DRM-free with a 30-day money-back guarantee"
+    ],
+    "facts": [
+      {
+        "fact": "GOG GALAXY allows you to combine multiple game libraries into one and connect with your friends across all gaming platforms, consoles included.",
+        "url": "https://www.gog.com/galaxy"
+      },
+      {
+        "fact": "The GOG homepage describes its catalogue as DRM-free, for Windows, Mac and Linux, with a 30-day money-back guarantee.",
+        "url": "https://www.gog.com/en/"
+      },
+      {
+        "fact": "The copyright notice on the GOG about page is held by GOG sp. z o.o.",
+        "url": "https://www.gog.com/about_gog"
+      }
+    ]
+  },
+  {
+    "slug": "epic-games-launcher",
+    "name": "Epic Games Launcher",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened (epicgames.com returned HTTP 403 on the Epic Games Store page, the store.epicgames.com homepage and the /store/en-US/ page)",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "heroic-games-launcher",
+    "name": "Heroic Games Launcher",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://heroicgameslauncher.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Heroic is a free and open source launcher for Epic, GOG and Amazon Prime Games, running on Linux, Windows, macOS and the Steam Deck.",
+    "platforms": "Linux, Windows, macOS, Steam Deck",
+    "pricing": "Free. The homepage says there is no paid tier, and the FAQ says Heroic is completely free to use.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Epic, GOG and Amazon Prime Games support",
+      "Linux, Windows and macOS builds",
+      "Steam Deck support",
+      "Custom themes",
+      "40+ languages",
+      "GPLv3 license"
+    ],
+    "notable": [
+      "Licensed under GPLv3, per the FAQ",
+      "The homepage claims 20M+ downloads and 500K+ monthly users"
+    ],
+    "facts": [
+      {
+        "fact": "Heroic is a free and open source Epic, GOG and Amazon Prime Games launcher for Linux, Windows and macOS, also available on the Steam Deck.",
+        "url": "https://heroicgameslauncher.com"
+      },
+      {
+        "fact": "The FAQ says Heroic is completely free to use, and the homepage says it has no paid tier.",
+        "url": "https://heroicgameslauncher.com/faq"
+      },
+      {
+        "fact": "Heroic is licensed under the GNU General Public License v3.0, according to the FAQ.",
+        "url": "https://heroicgameslauncher.com/faq"
+      }
+    ]
+  },
+  {
+    "slug": "lutris",
+    "name": "Lutris",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://lutris.net",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Lutris is an open source gaming platform for Linux that installs and launches games from many sources, with emulators and compatibility layers.",
+    "platforms": "Linux",
+    "pricing": "Free and open source. The homepage says Lutris is built only using open source technology, and it has a Donate link.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Access to Steam, Epic Games Store, GOG and Humble Bundle libraries",
+      "Emulators and compatibility layers",
+      "Game engine re-implementations",
+      "Donation support"
+    ],
+    "notable": [
+      "Presented as a video game preservation platform",
+      "Built only using open source technology, per the homepage"
+    ],
+    "facts": [
+      {
+        "fact": "Lutris is an open source gaming platform for Linux that installs and launches games so players can start without setting up each game manually.",
+        "url": "https://lutris.net"
+      },
+      {
+        "fact": "Lutris gives direct access to Steam, Epic Games Store, GOG and Humble Bundle game libraries from the Lutris client.",
+        "url": "https://lutris.net"
+      },
+      {
+        "fact": "The homepage says Lutris is built only using open source technology and provides emulators and compatibility layers.",
+        "url": "https://lutris.net"
+      }
+    ]
+  },
+  {
+    "slug": "ea-app",
+    "name": "EA app",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.ea.com/ea-app",
+    "company": "Electronic Arts Inc.",
+    "hq": "Redwood City, California, United States",
+    "country": "United States",
+    "country_code": "US",
+    "what_it_is": "The EA app is Electronic Arts' PC app for downloading and playing EA games and connecting with friends.",
+    "platforms": "PC",
+    "pricing": "Pricing is not stated on the opened page. The page links an EA Play offer and EA app deals; individual games are sold separately.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Game library",
+      "Friends",
+      "EA Play offers",
+      "EA app deals"
+    ],
+    "notable": [
+      "Electronic Arts is headquartered in Redwood City, California, per the EA about page",
+      "EA Swiss Sarl is listed as seller on the EA about page"
+    ],
+    "facts": [
+      {
+        "fact": "The EA app page invites players to download the EA app to connect with friends and play RPGs, shooters, sports games and more.",
+        "url": "https://www.ea.com/ea-app"
+      },
+      {
+        "fact": "Electronic Arts develops and delivers games, content and online services, and is headquartered in Redwood City, California.",
+        "url": "https://www.ea.com/about"
+      },
+      {
+        "fact": "The EA about page names EA Swiss Sàrl in Geneva as seller and gives its registered company number.",
+        "url": "https://www.ea.com/about"
+      }
+    ]
+  },
+  {
+    "slug": "ubisoft-connect",
+    "name": "Ubisoft Connect",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.ubisoft.com/en-us/ubisoft-connect",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Ubisoft Connect is a multi-platform ecosystem of player services and the destination for Ubisoft games, with a desktop app and in-game access on PC and console.",
+    "platforms": "PC (desktop app) and console",
+    "pricing": "Free service that only requires a Ubisoft account.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Cross-platform chat",
+      "Friends",
+      "Rewards",
+      "Cross-progression",
+      "Cross-play (varies by game)"
+    ],
+    "notable": [
+      "Free service, requires only a Ubisoft account",
+      "Accessible from the desktop app and from games on PC and console"
+    ],
+    "facts": [
+      {
+        "fact": "Ubisoft Connect is a multi-platform ecosystem of player services and the go-to destination for Ubisoft games.",
+        "url": "https://www.ubisoft.com/en-us/ubisoft-connect"
+      },
+      {
+        "fact": "Ubisoft Connect is a free service that only requires a Ubisoft account.",
+        "url": "https://www.ubisoft.com/en-us/ubisoft-connect"
+      },
+      {
+        "fact": "Ubisoft Connect offers cross-platform chat, friends, rewards and cross-progression, with cross-play varying between games.",
+        "url": "https://www.ubisoft.com/en-us/ubisoft-connect"
+      }
+    ]
+  },
+  {
+    "slug": "battle-net",
+    "name": "Battle.net",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://download.battle.net/en-us/desktop",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Battle.net is Blizzard's desktop app for launching games, connecting with friends and shopping for games.",
+    "platforms": "Windows and Mac, plus mobile",
+    "pricing": "Download is free. The download page says some titles can be played for free and that free trials are available for many titles; other games and goodies are sold in the shop.",
+    "pricing_model": "Free",
+    "free_plan": "Free",
+    "key_features": [
+      "Launch games from one place",
+      "Friends list",
+      "Real-time messaging and voice chat",
+      "Two-factor authentication",
+      "Shop for games and goodies",
+      "Free-to-play titles"
+    ],
+    "notable": [
+      "Download page mentions Overwatch 2 and Call of Duty: Warzone 2.0 as free-to-play access",
+      "Available for Windows, Mac and mobile"
+    ],
+    "facts": [
+      {
+        "fact": "Battle.net lets players launch their games, connect with friends and keep up with the latest news from one desktop app.",
+        "url": "https://download.battle.net/en-us/desktop"
+      },
+      {
+        "fact": "The download page says players can play some games for free and get free trials for many other titles.",
+        "url": "https://download.battle.net/en-us/desktop"
+      },
+      {
+        "fact": "Battle.net offers two-factor authentication and a shop for games and digital gifts.",
+        "url": "https://download.battle.net/en-us/desktop"
+      }
+    ]
+  },
+  {
+    "slug": "launchbox",
+    "name": "LaunchBox",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.launchbox-app.com/",
+    "company": "Unbroken Software, LLC",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "LaunchBox is a portable, box-art-based games database and launcher for DOSBox, emulators, arcade cabinets and PC games.",
+    "platforms": "Windows and Android",
+    "pricing": "LaunchBox for Windows is available for free download. The Premium license can be renewed for $15 for another year of updates, or upgraded for $45 to a never-expiring forever-updates license.",
+    "pricing_model": "Freemium",
+    "free_plan": "Free",
+    "key_features": [
+      "Box-art game database",
+      "Emulator and DOSBox frontend",
+      "Arcade cabinet support",
+      "Genre, platform, ESRB and developer filters",
+      "Custom status and source fields"
+    ],
+    "notable": [
+      "Premium license renewal is $15 per year; forever-updates upgrade is $45",
+      "Copyright notice reads Unbroken Software, LLC"
+    ],
+    "facts": [
+      {
+        "fact": "LaunchBox is a portable, box-art-based games database and launcher for DOSBox, emulators, arcade cabinets and PC games.",
+        "url": "https://www.launchbox-app.com/"
+      },
+      {
+        "fact": "LaunchBox for Windows is available for free download from the vendor site.",
+        "url": "https://www.launchbox-app.com/"
+      },
+      {
+        "fact": "The renew page offers a Premium license renewal for $15 for another year of updates or an upgrade to a forever-updates license for $45.",
+        "url": "https://www.launchbox-app.com/renew"
+      }
+    ]
+  },
+  {
+    "slug": "prism-launcher",
+    "name": "Prism Launcher",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://prismlauncher.org",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Prism Launcher is an open source Minecraft launcher for managing multiple instances, accounts and mods.",
+    "platforms": "",
+    "pricing": "Free and open source, with a donate option on the homepage.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Multiple instances",
+      "Modpack management",
+      "Mod management through Modrinth and CurseForge",
+      "Multiple accounts"
+    ],
+    "notable": [
+      "Focused on user freedom and free redistributability, per the homepage",
+      "Interfaces directly with Modrinth and CurseForge"
+    ],
+    "facts": [
+      {
+        "fact": "Prism Launcher is an open source Minecraft launcher with the ability to manage multiple instances, accounts and mods.",
+        "url": "https://prismlauncher.org"
+      },
+      {
+        "fact": "Prism Launcher interfaces directly with Modrinth and CurseForge to install and update individual mods.",
+        "url": "https://prismlauncher.org"
+      },
+      {
+        "fact": "The homepage says Prism Launcher is focused on user freedom and free redistributability.",
+        "url": "https://prismlauncher.org"
+      }
+    ]
+  },
+  {
+    "slug": "vortex",
+    "name": "Vortex",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://github.com/Nexus-Mods/Vortex",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Vortex is the mod manager from Nexus Mods, designed to make modding a game as simple as possible for new users while keeping control for experienced modders.",
+    "platforms": "",
+    "pricing": "Free and open source. The repository links a GPL-3.0 LICENSE.md file.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Multi-game mod support",
+      "Load order sorting",
+      "Mod file management",
+      "Automation of mod installation tasks"
+    ],
+    "notable": [
+      "README says mod support covers over 250 games",
+      "Source published under GPL-3.0 in the Nexus-Mods repository"
+    ],
+    "facts": [
+      {
+        "fact": "Vortex is the current mod manager from Nexus Mods, designed to make modding a game as simple as possible for new users.",
+        "url": "https://raw.githubusercontent.com/Nexus-Mods/Vortex/master/README.md"
+      },
+      {
+        "fact": "The README says Vortex supports mods for over 250 different games.",
+        "url": "https://raw.githubusercontent.com/Nexus-Mods/Vortex/master/README.md"
+      },
+      {
+        "fact": "The Vortex repository is published under the GPL-3.0 license, with LICENSE.md linked from the repository page.",
+        "url": "https://github.com/Nexus-Mods/Vortex"
+      }
+    ]
+  },
+  {
+    "slug": "mod-organizer-2",
+    "name": "Mod Organizer 2",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://modorganizer2.org/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Mod Organizer 2 is a free and open source mod manager for Windows that installs, enables, disables and organizes mods without changing the original game files.",
+    "platforms": "Windows",
+    "pricing": "Free and open source.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Profiles",
+      "Load order tools",
+      "Virtual file system",
+      "Conflict handling",
+      "Plugin management",
+      "Installation guides"
+    ],
+    "notable": [
+      "Installs and disables mods without cluttering the original game files, per the homepage",
+      "Homepage lists installation guides and FAQs"
+    ],
+    "facts": [
+      {
+        "fact": "Mod Organizer 2 is a free and open source mod manager for Windows, with profiles, load order tools and a virtual file system.",
+        "url": "https://modorganizer2.org/"
+      },
+      {
+        "fact": "Mod Organizer 2 lets users install, enable, disable and organize mods without cluttering the original game files.",
+        "url": "https://modorganizer2.org/"
+      },
+      {
+        "fact": "The vendor site lists About Us, Terms and Conditions and Contact Us pages for the project.",
+        "url": "https://modorganizer2.org/about-us/"
+      }
+    ]
+  },
+  {
+    "slug": "r2modman",
+    "name": "r2modman",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://thunderstore.io/c/riskofrain2/p/ebkr/r2modman/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "r2modman is a simple and easy to use mod manager for many games that uses Thunderstore, listed on Thunderstore by its developer ebkr.",
+    "platforms": "",
+    "pricing": "No price is shown on the Thunderstore listing. The listing names the GitHub repository github.com/ebkr/r2modmanPlus as the project source.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Mod management for Thunderstore games",
+      "Manager app download"
+    ],
+    "notable": [
+      "Listing shows 10.8M downloads and 131 dependant mods",
+      "The listing warns that third-party redistribution sites claim to be official"
+    ],
+    "facts": [
+      {
+        "fact": "r2modman is a simple and easy to use mod manager for many games using Thunderstore, listed under the developer ebkr.",
+        "url": "https://thunderstore.io/c/riskofrain2/p/ebkr/r2modman/"
+      },
+      {
+        "fact": "The Thunderstore listing names https://github.com/ebkr/r2modmanPlus as the project source.",
+        "url": "https://thunderstore.io/c/riskofrain2/p/ebkr/r2modman/"
+      },
+      {
+        "fact": "The listing shows 10.8M downloads and a latest version of 3.2.21.",
+        "url": "https://thunderstore.io/c/riskofrain2/p/ebkr/r2modman/"
+      }
+    ]
+  },
+  {
+    "slug": "wabbajack",
+    "name": "Wabbajack",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.wabbajack.org/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Wabbajack is a free and open source automated modlist installer for various games.",
+    "platforms": "",
+    "pricing": "Free and open source. The repository links a GPL3 LICENSE.txt file.",
+    "pricing_model": "Open source",
+    "free_plan": "Open source",
+    "key_features": [
+      "Automated modlist installation",
+      "Modlist installer for various games"
+    ],
+    "notable": [
+      "Source published under GPL3 in the wabbajack-tools repository",
+      "Homepage describes it as a free and open source automated modlist installer"
+    ],
+    "facts": [
+      {
+        "fact": "Wabbajack is a free and open source automated modlist installer.",
+        "url": "https://www.wabbajack.org/"
+      },
+      {
+        "fact": "The Wabbajack repository describes it as an automated modlist installer for various games.",
+        "url": "https://github.com/wabbajack-tools/wabbajack"
+      },
+      {
+        "fact": "The Wabbajack repository is licensed under GPL3, with a LICENSE.txt file linked from the repository page.",
+        "url": "https://github.com/wabbajack-tools/wabbajack"
+      }
+    ]
+  },
+  {
+    "slug": "freshdesk",
+    "name": "Freshdesk",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.freshworks.com/freshdesk/",
+    "company": "Freshworks Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Freshdesk is AI-powered customer service and helpdesk software from Freshworks, with omnichannel ticketing and automated workflows.",
+    "platforms": "Web (SaaS)",
+    "pricing": "Plans listed at $19 and $55 per agent per month, billed annually (monthly billing is also offered; the page advertises a 20% saving on annual billing). Add-ons include Freddy AI Copilot at $29 per agent per month and AI agent sessions at $49 per 100 sessions. The meta description says pricing starts at $15.",
+    "pricing_model": "Per seat / month",
+    "free_plan": "Free trial",
+    "key_features": [
+      "Omnichannel ticketing",
+      "AI agent",
+      "Automated workflows",
+      "Freddy AI Copilot add-on",
+      "MCP actions and connector apps"
+    ],
+    "notable": [
+      "Trusted by 50,000+ businesses worldwide, per the homepage",
+      "Free trial via the Try it free button on the pricing page"
+    ],
+    "facts": [
+      {
+        "fact": "Freshdesk is an AI-powered customer service solution with omnichannel ticketing and automated workflows, per its Freshworks product page.",
+        "url": "https://www.freshworks.com/freshdesk/"
+      },
+      {
+        "fact": "The Freshdesk pricing page lists $19 and $55 per agent per month, billed annually, and offers a Try it free option.",
+        "url": "https://www.freshworks.com/freshdesk/pricing/"
+      },
+      {
+        "fact": "The Freshdesk pricing page lists Freddy AI Copilot at $29 per agent per month as an add-on.",
+        "url": "https://www.freshworks.com/freshdesk/pricing/"
+      }
+    ]
+  },
+  {
+    "slug": "help-scout",
+    "name": "Help Scout",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.helpscout.com",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Help Scout is an AI-driven customer support platform with a shared inbox, AI assistance, workflow automation and a help docs product.",
+    "platforms": "Web and mobile app",
+    "pricing": "Paid plans at $25, $45 and $75 per user per month (monthly and annual views on the pricing page). Free plan includes 5 users, 1 Inbox and 1 Docs site. AI resolution add-on at $0.75 per resolution.",
+    "pricing_model": "Per user / month",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Shared inbox",
+      "Copilot AI assistant",
+      "Envoy workflow automation",
+      "Signal customer insights",
+      "Docs (help center)",
+      "Mobile app"
+    ],
+    "notable": [
+      "Founded in 2011, per the About page",
+      "Free plan includes 5 users, 1 Inbox and 1 Docs site"
+    ],
+    "facts": [
+      {
+        "fact": "Help Scout is an AI-driven support platform with a shared Inbox, Copilot AI assistance, Envoy workflow automation and Signal insights, per its homepage.",
+        "url": "https://www.helpscout.com"
+      },
+      {
+        "fact": "The Help Scout pricing page lists paid plans at $25, $45 and $75 per user per month, and a free plan with 5 users, 1 Inbox and 1 Docs site.",
+        "url": "https://www.helpscout.com/pricing/"
+      },
+      {
+        "fact": "The Help Scout About page says the company was founded in 2011 and has a fully remote team.",
+        "url": "https://www.helpscout.com/about/"
+      }
+    ]
+  },
+  {
+    "slug": "zoho-desk",
+    "name": "Zoho Desk",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.zoho.com/nl/desk/?sredirect=true",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Zoho Desk is an AI-assisted helpdesk platform that brings customers, channels and contexts together for multi-channel customer service.",
+    "platforms": "Web (SaaS)",
+    "pricing": "Per-user plans billed annually: Express from INR 420, Professional INR 1,400 and Enterprise INR 2,400 per user per month, shown in rupees on the opened pricing page. A Free plan and free trials are listed.",
+    "pricing_model": "Per user / month",
+    "free_plan": "Free plan",
+    "key_features": [
+      "Multi-channel ticketing",
+      "Help center with knowledge base",
+      "Telephony (Professional plan)",
+      "Webhooks (Professional plan)",
+      "ASAP self-service widget",
+      "Business messaging (live chat)"
+    ],
+    "notable": [
+      "Pricing page displays prices in INR for the visitor's region",
+      "Trusted by more than 125,000 businesses worldwide, per the homepage"
+    ],
+    "facts": [
+      {
+        "fact": "Zoho Desk is an AI helpdesk software that brings customer conversations from every channel into one workspace.",
+        "url": "https://www.zoho.com/nl/desk/?sredirect=true"
+      },
+      {
+        "fact": "The Zoho Desk pricing page lists per-user per-month plans billed annually, with Express from INR 420, Professional from INR 1,400 and Enterprise from INR 2,400.",
+        "url": "https://www.zoho.com/nl/desk/pricing.html?sredirect=true"
+      },
+      {
+        "fact": "The Zoho Desk pricing page offers a Free plan, free trials for each paid plan, and a quote request option.",
+        "url": "https://www.zoho.com/nl/desk/pricing.html?sredirect=true"
+      }
+    ]
+  },
+  {
+    "slug": "gladly",
+    "name": "Gladly",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.gladly.ai/",
+    "company": "Gladly Software, Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Gladly is an agentic commerce platform that brings AI shopping assistance and customer support to brands' own websites.",
+    "platforms": "Web (website integration)",
+    "pricing": "Pricing is not published; the site asks visitors to get a demo or contact sales.",
+    "pricing_model": "Quote only",
+    "free_plan": "Unknown",
+    "key_features": [
+      "Agentic commerce assistant",
+      "Product guidance on the brand website",
+      "Customer journey memory",
+      "Customer support integration"
+    ],
+    "notable": [
+      "Site is gladly.ai; gladly.com redirects to it",
+      "Copyright notice reads Gladly Software, Inc."
+    ],
+    "facts": [
+      {
+        "fact": "Gladly brings agentic commerce to a brand's website for ecommerce support, with an AI assistant that answers shopper questions.",
+        "url": "https://www.gladly.ai/"
+      },
+      {
+        "fact": "The Gladly site does not publish prices and offers a Get a demo button and a Contact sales page.",
+        "url": "https://www.gladly.ai/"
+      },
+      {
+        "fact": "The copyright notice on the Gladly about page is held by Gladly Software, Inc.",
+        "url": "https://www.gladly.ai/about-us/"
+      }
+    ]
+  },
+  {
+    "slug": "epic-games-store",
+    "name": "Epic Games Store",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened (store.epicgames.com returned HTTP 403, and so did the epicgames.com Epic Games Store page and /store/en-US/)",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "gog",
+    "name": "GOG",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.gog.com/en/",
+    "company": "GOG sp. z o.o.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "GOG is a DRM-free PC game store offering classic and new games for Windows, Mac and Linux.",
+    "platforms": "Windows, Mac, Linux",
+    "pricing": "Games are bought individually (Buy now or Pre-order), and some items are listed as free. The homepage advertises a 30-day money-back guarantee.",
+    "pricing_model": "One-time license",
+    "free_plan": "Unknown",
+    "key_features": [
+      "DRM-free games",
+      "Windows, Mac and Linux downloads",
+      "Free goodies",
+      "30-day money-back guarantee"
+    ],
+    "notable": [
+      "Tagline on the homepage: Join gamers keeping classics alive",
+      "Copyright notice reads GOG sp. z o.o."
+    ],
+    "facts": [
+      {
+        "fact": "GOG offers the best classic and new games for Windows, Mac and Linux, DRM-free, with free goodies and a 30-day money-back guarantee.",
+        "url": "https://www.gog.com/en/"
+      },
+      {
+        "fact": "GOG product pages offer Buy now and Pre-order options for individual games, as well as free titles.",
+        "url": "https://www.gog.com/en/"
+      },
+      {
+        "fact": "The copyright notice on the GOG about page is held by GOG sp. z o.o.",
+        "url": "https://www.gog.com/about_gog"
+      }
+    ]
+  },
+  {
+    "slug": "humble-bundle",
+    "name": "Humble Bundle",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.humblebundle.com/",
+    "company": "Humble Bundle Inc.",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "Humble Bundle sells game, book and software bundles on a pay-what-you-want basis, with part of the money going to charity, and runs the Humble Choice subscription.",
+    "platforms": "Web",
+    "pricing": "Humble Choice is listed at EUR 12.99 per month on the homepage, and an annual plan works out to under $13 per month. Bundles are pay what you want, and 5% of Humble Choice membership supports charity.",
+    "pricing_model": "Subscription",
+    "free_plan": "None",
+    "key_features": [
+      "Humble Choice monthly subscription",
+      "Pay-what-you-want bundles",
+      "Store with member savings",
+      "Charity contributions"
+    ],
+    "notable": [
+      "Says it has sold over 47,000,000 bundles (about page)",
+      "Humble Bundle Inc. is a brand of IGN Entertainment, Inc. according to the about page"
+    ],
+    "facts": [
+      {
+        "fact": "Humble Bundles are limited-time collections of games, books and software, where you can pay what you want and choose where your money goes.",
+        "url": "https://www.humblebundle.com/about"
+      },
+      {
+        "fact": "The homepage lists Humble Choice for EUR 12.99 per month and says an annual plan costs less than $13 USD per month.",
+        "url": "https://www.humblebundle.com/"
+      },
+      {
+        "fact": "The Humble Bundle about page states that Humble Bundle Inc. is a brand of IGN Entertainment, Inc.",
+        "url": "https://www.humblebundle.com/about"
+      }
+    ]
+  },
+  {
+    "slug": "xbox-store",
+    "name": "Xbox Store",
+    "status": "verified",
+    "drop_reason": "",
+    "site": "https://www.xbox.com/nl-NL/",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "The Xbox Store is Microsoft's official Xbox site for buying console and PC games, Game Pass and accessories.",
+    "platforms": "Xbox consoles and PC (Xbox on PC)",
+    "pricing": "Games are sold individually in the shop; Game Pass is offered as a subscription (Game Pass kopen). Free-to-play games are listed. Prices are not stated in the opened text.",
+    "pricing_model": "",
+    "free_plan": "Unknown",
+    "key_features": [
+      "PC game store",
+      "Game Pass subscription",
+      "Xbox Cloud Gaming",
+      "Free-to-play games",
+      "Backward compatible games",
+      "Xbox Play Anywhere"
+    ],
+    "notable": [
+      "Official Xbox site for the Netherlands (nl-NL) was the page opened",
+      "Lists Xbox Play Anywhere and Xbox Cloud Gaming"
+    ],
+    "facts": [
+      {
+        "fact": "The Xbox official site offers consoles, games and accessories, including PC games and Game Pass.",
+        "url": "https://www.xbox.com/nl-NL/"
+      },
+      {
+        "fact": "The Xbox site lists Xbox Cloud Gaming, Xbox Play Anywhere and free-to-play games among its store categories.",
+        "url": "https://www.xbox.com/nl-NL/"
+      },
+      {
+        "fact": "The Xbox site has a Game Pass purchase option alongside game purchase options.",
+        "url": "https://www.xbox.com/nl-NL/"
+      }
+    ]
+  },
+  {
+    "slug": "game-jolt",
+    "name": "Game Jolt",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened in usable form (gamejolt.com homepage, /games and /about returned pages with only a title; the content is rendered by JavaScript)",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  },
+  {
+    "slug": "meta-horizon-store",
+    "name": "Meta Horizon Store",
+    "status": "dropped",
+    "drop_reason": "vendor site could not be opened (developers.meta.com/horizon/distribution returned HTTP 400, and meta.com/quest returned HTTP 400)",
+    "site": "",
+    "company": "",
+    "hq": "",
+    "country": "",
+    "country_code": "",
+    "what_it_is": "",
+    "platforms": "",
+    "pricing": "",
+    "pricing_model": "",
+    "free_plan": "",
+    "key_features": [],
+    "notable": [],
+    "facts": []
+  }
+]

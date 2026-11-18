@@ -1,0 +1,174 @@
+{
+  "slug": "how-to-set-up-stream-overlays-and-alerts",
+  "title": "How to Set Up Stream Overlays and Alerts",
+  "description": "Set up stream overlays and alerts in OBS Studio: browser source settings, layer order, alert audio levels, hotkeys, testing and a pre-stream routine for you.",
+  "kind": "Field guide",
+  "topic": "Livestreaming",
+  "published": "2026-11-18",
+  "intro": "A stream overlay is a web page or image layer placed over your game capture, and an alert is an overlay element that appears when something happens in your channel, such as a follow, a subscription or a donation. In OBS Studio, most of them arrive through a browser source that loads a URL supplied by an alert service. Getting them right is less about design and more about three details: the size of the browser source, the order of your layers, and the volume of the alert sound against your voice.",
+  "key_takeaways": [
+    "Alerts normally run as an OBS browser source, which OBS describes as a web browser you add directly to a scene.",
+    "A new browser source defaults to 800 by 600, so set its width and height to your canvas size before positioning anything.",
+    "The browser source's default custom CSS keeps the background transparent, so do not replace it unless you know why.",
+    "Layer order matches the Sources list: whatever sits higher in the list is drawn on top.",
+    "Keep alert sound effects in the green zone of the audio meter, below your voice."
+  ],
+  "sections": [
+    {
+      "h2": "Know what the pieces are",
+      "paras": [
+        "Three things get called an overlay, and keeping them apart makes troubleshooting easier. A static overlay is a picture or frame, such as a webcam border or a lower-third plate, that you place once. A dynamic overlay is a web page that updates itself, such as a chat box, a goal bar or a recent-supporter list. An alert is a dynamic overlay that plays an animation and sometimes a sound when the service gets an event.",
+        "The OBS sources guide describes the Browser Source as the source primarily used for stream alert overlays and chat boxes. That tells you where the work happens: the service you choose builds the page, and OBS only displays it. Platforms such as StreamElements list alerts, overlays, a chatbot, tipping and an OBS plugin in one place, and a wider comparison sits in [Best Stream Overlay and Alert Tools](/software/best-stream-overlay-and-alert-tools)."
+      ]
+    },
+    {
+      "h2": "Fix your canvas and scene structure first",
+      "paras": [
+        "Before adding anything, settle your canvas resolution in OBS and build scenes that match your show: a starting soon scene, a main gameplay scene, a just chatting scene, a break scene and an ending scene. Decide which elements are shared across scenes, such as alerts and chat, and which belong to one scene only.",
+        "A practical pattern is to keep alerts in a single nested scene that you insert into every main scene, so one browser source does the job rather than five copies. Fewer browser sources means fewer pages loading, less memory use, and one place to fix when a service changes a URL."
+      ]
+    },
+    {
+      "h2": "Add the alert as a browser source",
+      "paras": [
+        "The steps are the same for any service that gives you a browser-source URL.",
+        "OBS lists the browser source properties and defaults in its knowledge base: a URL field, a width of 800 and a height of 600, an optional custom frame rate of 30, a custom CSS box, and two toggles for shutting down the source when it is not visible and refreshing it when its scene becomes active. Both toggles are off by default."
+      ],
+      "ordered": true,
+      "list": [
+        "In your alerts scene, press the plus button in the Sources dock and choose Browser.",
+        "Paste the URL from your alert service into the URL field. Treat that URL as a secret, because it often carries a token tied to your channel.",
+        "Set Width and Height to match the layout the service designed for, usually your full canvas size.",
+        "Leave the custom CSS as it is. By default it sets a transparent background, removes margins and hides scroll bars.",
+        "Leave Shutdown source when not visible off for an alerts source, so the page keeps running when its scene is not on screen.",
+        "Confirm the source in the preview, then use the service's test button to fire a sample alert."
+      ]
+    },
+    {
+      "h2": "Size and layer the elements",
+      "paras": [
+        "The OBS sources guide says that sources higher in the Sources list also sit higher in the preview, so an item listed above another will be drawn on top of it and can hide what lies beneath. Put alerts at the top of each scene, then chat, then your webcam frame, then the game capture at the bottom.",
+        "Resize a browser source by changing its width and height properties, not by dragging its corners in the preview, which scales the rendered page and blurs text. Keep alert positions away from the areas where your game shows important information, such as a health bar, minimap or kill feed. Check this on the busiest game you play, not on the desktop."
+      ],
+      "list": [
+        "Top: alert layer, then chat box and goal widgets.",
+        "Middle: webcam, with its frame or border above it.",
+        "Bottom: game or display capture, so nothing hides it by mistake.",
+        "Keep a safe margin around the canvas edge, since some players watch in windows that crop."
+      ]
+    },
+    {
+      "h2": "Set alert audio so it does not fight your voice",
+      "paras": [
+        "Alert sounds cause more viewer complaints than alert visuals do. The OBS audio mixer guide explains the colored zones of the volume meter: speech should sit in the upper yellow range and reach the lower end of the red zone, gameplay audio toward the lower end of yellow, and background music and alert sound effects should stay in the green. The guide also says that sounds that look equally loud on the meter may sound louder to viewers, and that the small black bars give a better estimate of loudness.",
+        "Browser sources can produce audio too. If your alert page plays sound and OBS is set to control it, it appears in the mixer as its own channel, where you can set its fader. Add a short test: fire an alert while you talk and while the game is loud, and watch the meter. The guide's last piece of advice also applies here: record a session as you normally would and listen back to the file before going live."
+      ]
+    },
+    {
+      "h2": "Add triggers and hotkeys for the moments you control",
+      "paras": [
+        "Some overlay changes are not caused by viewers. You decide when to show a scene switch, a sound clip or a hidden sticker. A control surface such as the Elgato Stream Deck, which has 15 customizable LCD keys, can run those actions on a key press. Software such as Streamer.bot connects Twitch, YouTube, Kick, OBS Studio and Streamlabs and runs actions when something happens on stream. See [Best Stream Deck and Stream Automation Software](/software/best-stream-deck-and-stream-automation-software) for how they compare.",
+        "Start with a few. A good first set is scene switching, a mute-all-alerts toggle for sensitive moments, and a clip marker. Every automation you add is something that can fail on stream, so build them one at a time and test each."
+      ]
+    },
+    {
+      "h2": "Test before you go live",
+      "paras": [
+        "A dry run catches most problems. Start a private or unlisted stream, or record locally, and walk through the whole show once."
+      ],
+      "ordered": true,
+      "list": [
+        "Fire every alert type from the service's test panel and check position, size and text.",
+        "Switch through every scene and confirm that alerts still appear in each.",
+        "Check text fields with a long username so that long names do not overflow.",
+        "Check the audio meter with alerts, voice and game at once.",
+        "Watch the recorded file on a phone, where small text and edge margins show problems quickly.",
+        "Save a scene collection backup once everything works."
+      ]
+    },
+    {
+      "h2": "Keep the setup light and recoverable",
+      "paras": [
+        "Browser sources run a full web page each, so a dozen widgets cost more than they look. OBS lets you set a custom frame rate for a browser source, and the default is 30, which is plenty for most alert animations. Remove widgets you no longer use, and refresh the cache of a source from its properties when a page shows stale content.",
+        "Keep the alert URLs in a password manager, and know where to regenerate them. If a URL leaks, anyone can trigger fake alerts on your stream, so regenerating it is the first fix. Keep one fallback scene with no overlays at all, so you can go live cleanly if a service has an outage on the day."
+      ]
+    },
+    {
+      "h2": "Pre-stream routine",
+      "paras": [
+        "A short routine before every stream keeps the setup honest."
+      ],
+      "list": [
+        "Open the alert service dashboard and confirm it shows connected to your channel.",
+        "Send one test alert and confirm it displays and the sound level is right.",
+        "Check the chat box loads and scrolls.",
+        "Check the audio meter for your voice, the game and the alert source.",
+        "Confirm the hotkeys and Stream Deck keys do what their labels say.",
+        "Go live, and check the stream on a second device within the first minutes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why is my alert not showing in OBS?",
+      "a": "Common causes are a pasted URL with a missing character, the browser source hidden by a source above it in the list, the source being disabled when its scene is inactive, or an alert service that lost its connection to your channel. Refresh the browser source cache from its properties, then fire a test alert from the service."
+    },
+    {
+      "q": "What size should an alert browser source be?",
+      "a": "OBS defaults a new browser source to 800 by 600. For a full-screen alert layout, match the width and height to your canvas resolution so the layout lands where its designer intended. Change the properties rather than stretching the source in the preview, which scales the page and softens text."
+    },
+    {
+      "q": "Should alert sound be louder than my voice?",
+      "a": "No. OBS's audio mixer guide puts speech in the upper yellow range and says alert sound effects belong in the green. Alerts should be noticed without drowning your speech. Test while talking, and listen to a recording before going live, because perceived loudness differs from what the meter suggests."
+    },
+    {
+      "q": "Do I need a separate scene for alerts?",
+      "a": "It is not required, but a single nested alerts scene inserted into your main scenes means one browser source to maintain instead of several. When a service changes its URL or you restyle the alerts, you change it once. It also keeps the Sources list in each scene shorter."
+    },
+    {
+      "q": "Is a Stream Deck necessary for overlays?",
+      "a": "No. Overlays and alerts work without one. A control surface helps for actions you trigger yourself, such as scene switches or muting alerts. Start without it, find the three actions you repeat most, then decide whether hardware or an automation app is worth adding."
+    }
+  ],
+  "related_categories": [
+    "best-stream-overlay-and-alert-tools",
+    "best-stream-deck-and-stream-automation-software"
+  ],
+  "related_guides": [
+    "how-to-start-streaming-games-on-twitch-and-youtube",
+    "how-to-run-an-online-esports-tournament",
+    "how-to-record-gameplay-without-fps-loss"
+  ],
+  "sources": [
+    {
+      "title": "Browser Source",
+      "url": "https://obsproject.com/kb/browser-source",
+      "publisher": "OBS Project knowledge base"
+    },
+    {
+      "title": "Sources Guide",
+      "url": "https://obsproject.com/kb/sources-guide",
+      "publisher": "OBS Project knowledge base"
+    },
+    {
+      "title": "Audio Mixer Guide",
+      "url": "https://obsproject.com/kb/audio-mixer-guide",
+      "publisher": "OBS Project knowledge base"
+    },
+    {
+      "title": "StreamElements",
+      "url": "https://streamelements.com/",
+      "publisher": "StreamElements"
+    },
+    {
+      "title": "Streamer.bot",
+      "url": "https://streamer.bot",
+      "publisher": "Streamer.bot"
+    },
+    {
+      "title": "Elgato Stream Deck",
+      "url": "https://www.elgato.com/eu/en/p/stream-deck",
+      "publisher": "Elgato"
+    }
+  ]
+}

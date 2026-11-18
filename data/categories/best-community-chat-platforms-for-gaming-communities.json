@@ -1,0 +1,508 @@
+{
+  "slug": "best-community-chat-platforms-for-gaming-communities",
+  "name": "community chat platforms for gaming communities",
+  "title": "Best Community Chat Platforms for Gaming Communities in 2026",
+  "group": "Gaming-adjacent",
+  "hub": "games",
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18",
+  "summary_line": "Voice, text and forum platforms where players, clans and studios build communities, from Discord to self-hosted open source options.",
+  "definition": "A community chat platform for gaming is software where players, clans or a studio's fans talk in text channels, voice rooms or threaded forums. Some are hosted services with an account and server, some are self-hosted programs you run yourself, and some are open protocols that other apps build on top of.",
+  "intro": "A studio launching a game, a guild running raids or a fan group planning a tournament all need one place to talk. The options range from the service most players already have installed to open source tools you host on your own machine. This ranking covers eleven of them. We read each vendor's homepage, feature pages and pricing or licensing pages, compared published terms and platforms, and did not run the products ourselves. Vendor statements are attributed as such. Order reflects fit for a community manager or small studio that needs voice and text for players, so live voice and low setup effort count heavily. Where the page we read gave no price, we say so rather than guess.",
+  "criteria": [
+    {
+      "heading": "Voice quality and live rooms",
+      "text": "Players in a match need to hear each other with little delay, so persistent voice rooms matter more than message history. We checked which products list voice chat or low-latency voice and which are text or forum tools only. A platform with strong threads but no voice ranks as a complement rather than a home."
+    },
+    {
+      "heading": "Who runs the server",
+      "text": "Some platforms are hosted by the vendor and need no admin work. Others, such as TeamSpeak, Mumble, Element and Spacebar, can be hosted by the community itself. Self-hosting gives control over data and costs but needs someone to patch and monitor it. We recorded which model each vendor describes."
+    },
+    {
+      "heading": "Community tools and reach",
+      "text": "Roles, moderation, bots, events and file sharing decide whether a community stays organized as it grows, and reach decides whether players show up. We looked for stated role permissions, moderation tools, developer interfaces and device coverage, since a platform that is on console, phone and browser is easier to join."
+    },
+    {
+      "heading": "Cost and terms",
+      "text": "Several of these tools are free, open source or priced per seat, and some give no price on the pages we read. We noted what each vendor says about cost, licences and limits, such as a stated 20MB upload cap, so a community can see what free actually includes before it commits its members."
+    }
+  ],
+  "market_notes": [
+    "Of the eleven platforms, five are described as open source or free of charge in their own words: Mumble, Stoat, Spacebar and Matrix are open source, and Discourse's codebase is freely available on GitHub. Element's self-hosted frontend and backend are free, while its server suite costs per seat per month. None of the eleven shows a dollar or euro amount on the pages we opened. Several, including Discord, Steam and Reddit, list no pricing at all, which means a community should confirm costs with the vendor before relying on a tool.",
+    "The trade-off is reach against control. Discord and Telegram put a community in front of people who already have the app, but both are vendor-run services. TeamSpeak, Mumble, Element, Discourse and Spacebar let a group host its own system, at the cost of admin work and a smaller audience. Steam and Reddit sit on a different axis: they are public discussion spaces tied to a game or a topic, and they work best beside a voice platform, not in place of one."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Pick the main activity first",
+      "text": "Decide whether your members mostly talk during play, trade tips in writing or read announcements. Live voice points to Discord, TeamSpeak or Mumble. Searchable guides and patch discussion point to Discourse or a Steam community page. Announcements to a large audience point to Telegram. Naming the activity first prevents choosing a forum tool for a voice job."
+    },
+    {
+      "title": "Decide whether you will run servers",
+      "text": "If nobody on your team wants to maintain infrastructure, choose a hosted service such as Discord or Stoat. If you need control over data, look at Mumble, TeamSpeak, Element or Spacebar. Remember that self-hosting means updates, backups and uptime become your responsibility, and TeamSpeak 6 licences are now handled through myTeamSpeak."
+    },
+    {
+      "title": "Check where your players already are",
+      "text": "A community only works if members join. Look at which platforms your players use and which devices they play on: Discord lists Windows, Mac, browser, phone and console, while Mumble lists Windows and macOS downloads. Pair a main hub with a public space such as a subreddit or a Steam community page for discovery, and give each a clear purpose."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best community chat platform for gaming communities in 2026?",
+      "a": "Discord ranks first because it covers voice, text, video and streaming on PC, phone, console and browser, which is where most players already are. TeamSpeak is better when a team wants its own voice server, and Mumble is better when the budget is zero and only voice matters."
+    },
+    {
+      "q": "Is there an open source alternative to Discord?",
+      "a": "Stoat and Spacebar are the closest on this list. Stoat is an open-source chat app with servers, channels and voice, and Spacebar is a self-hosted re-implementation of Discord. Matrix with a client such as Element is a more general open option."
+    },
+    {
+      "q": "Which option is best for competitive team voice?",
+      "a": "TeamSpeak and Mumble are both built around voice. Mumble is free and open source with official client and server downloads, while TeamSpeak sells server licences managed through myTeamSpeak. Discord also offers voice and is easier to join for casual teammates."
+    },
+    {
+      "q": "Can a studio use Steam or Reddit as its community hub?",
+      "a": "They work for public discussion, but not for live voice. Steam links Discussions, Workshop, Market and Broadcasts to the game's store presence, and Reddit hosts topic communities with posts and comments. Most studios run one of them alongside Discord or another voice platform."
+    },
+    {
+      "q": "What does it cost to self-host chat?",
+      "a": "Element's plans page lists the self-hosted frontend and backend as free, with the server suite priced per seat per month. Mumble and Spacebar are free and open source, and TeamSpeak licences were not priced in the text we read. Add your own hosting and admin time to any estimate."
+    },
+    {
+      "q": "Is Telegram suitable for a gaming community?",
+      "a": "It suits announcements and mobile groups, since it offers communities, an open API and free source code. The facts we read show no voice rooms, so live team talk during matches needs another tool such as Discord or Mumble."
+    },
+    {
+      "q": "Why include a forum like Discourse?",
+      "a": "Chat scrolls away, and forums keep answers findable. Discourse lists built-in real-time chat plus themes and plugins, and can be self-hosted or managed. It is a good second home for patch notes and bug reports, and a poor first choice for live voice."
+    }
+  ],
+  "related": [
+    "best-discord-moderation-and-community-bots",
+    "best-community-management-tools-for-game-studios",
+    "best-trust-and-safety-moderation-software-for-games",
+    "best-player-support-software-for-games",
+    "best-ugc-and-modding-platforms",
+    "best-game-launchers-and-library-managers"
+  ],
+  "tools": [
+    {
+      "slug": "discord",
+      "name": "Discord",
+      "site": "https://discord.com/",
+      "company": "Discord",
+      "country": "",
+      "tagline": "Group chat for gaming and communities",
+      "best_for": "Hosting a server where players already are",
+      "pricing": "The homepage shows no prices and links to a Nitro page (discord.com/nitro).",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Windows, Mac, browser, phone, console",
+      "features": [
+        "Voice and text chat",
+        "Low-latency streaming",
+        "Custom emoji, stickers and soundboard",
+        "Activities and built-in games",
+        "Developer Portal"
+      ],
+      "summary": "Voice, text, video and streaming on PC, phone, console and browser, which is where most players already have an account.",
+      "verdict": "Discord describes itself as a group chat app for gaming and for building communities, and its homepage lists voice and text chat, low-latency streaming, custom emoji, stickers, a soundboard and activities with built-in games. It runs on Windows, Mac, in a browser, on phones and on consoles, and it has a Developer Portal for apps. The reason it leads is reach: a studio or guild opening a server here meets players on devices they already use, with no download required for the first visit.",
+      "weaknesses": "The homepage shows no prices and links to a Nitro page instead, so what a paying member or a server owner gets has to be checked elsewhere. It is a hosted, closed service, which means a community cannot move its server to its own hardware.",
+      "wrong_for": "Not right for a group that needs to self-host or keep all data on its own machines; Mumble, Stoat or TeamSpeak are the self-hosted options on this page.",
+      "sources": [
+        {
+          "fact": "Discord describes itself as a group chat app for gaming and for hanging out with friends or building communities.",
+          "url": "https://discord.com"
+        },
+        {
+          "fact": "The homepage says Discord is available on PC, phone and console, with Windows and Mac downloads and browser access.",
+          "url": "https://discord.com"
+        },
+        {
+          "fact": "The homepage links to Nitro (discord.com/nitro) and shows no prices.",
+          "url": "https://discord.com"
+        }
+      ]
+    },
+    {
+      "slug": "teamspeak",
+      "name": "TeamSpeak",
+      "site": "https://teamspeak.com/en/",
+      "company": "",
+      "country": "",
+      "tagline": "Voice platform with self-hosted servers",
+      "best_for": "Clans and teams who want their own voice server",
+      "pricing": "Server hosting licences are described on the licensing page; TeamSpeak 6 server licences are being moved to myTeamSpeak. Prices were not in the text read.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Voice chat",
+        "One-to-one voice and video calls",
+        "Group chats",
+        "Voice encryption",
+        "Self-hosted servers"
+      ],
+      "summary": "Voice-first and server-based, with TeamSpeak 6 adding one-to-one voice and video calls and licensing moved to myTeamSpeak.",
+      "verdict": "TeamSpeak calls itself the trusted voice communication platform for gaming, business and communities, and a group can run its own server. The home page says one-to-one voice and video calls are now in TeamSpeak 6, and the licensing page says TeamSpeak 6 server licences are being brought to myTeamSpeak. It takes the second slot because voice quality and control over the server matter to teams during matches, and because it keeps working as a plain voice tool when a group does not want a feed of text and emoji.",
+      "weaknesses": "Licence prices were not in the text we read, so the cost of hosting a larger server is unclear. The transition to TeamSpeak 6 and myTeamSpeak licensing means documentation may lag the product, and text community features are thinner than Discord's.",
+      "wrong_for": "Skip it if your community lives in text channels, events and bots; Discord or Stoat suit that better.",
+      "sources": [
+        {
+          "fact": "TeamSpeak describes itself as the trusted voice communication platform for gaming, business and communities.",
+          "url": "https://teamspeak.com/en/"
+        },
+        {
+          "fact": "The TeamSpeak home page says one-to-one voice and video calls are now available in TeamSpeak 6.",
+          "url": "https://teamspeak.com/en/"
+        },
+        {
+          "fact": "The TeamSpeak licensing page says server licences for TeamSpeak 6 are being brought to myTeamSpeak.",
+          "url": "https://teamspeak.com/en/features/licensing/"
+        }
+      ]
+    },
+    {
+      "slug": "mumble",
+      "name": "Mumble",
+      "site": "https://www.mumble.info",
+      "company": "",
+      "country": "",
+      "tagline": "Open source low-latency voice chat",
+      "best_for": "Free self-hosted voice with no licence",
+      "pricing": "Free and open source, per the site description.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows and macOS client and server downloads; Linux distributions package their own builds",
+      "features": [
+        "Low latency voice chat",
+        "High quality voice",
+        "Official client and server",
+        "Open source"
+      ],
+      "summary": "Free, open source and voice-only, with official client and server downloads for Windows and macOS.",
+      "verdict": "Mumble describes itself as a free, open source, low latency, high quality voice chat application, and the downloads page offers official client and server programs, including Windows and macOS builds. That makes it the cheapest route to a private voice server for a group that wants no accounts with a large company. It sits third because voice quality and zero cost fit competitive teams well, even though it offers little beyond voice.",
+      "weaknesses": "The site notes that Linux distributions may ship their own packages with their own maintainers, so versions can differ. It is voice-focused, with none of the channels, events or media features that a general community hub provides.",
+      "wrong_for": "Wrong for a public community that needs onboarding, roles and text discussion; Discord or Discourse handle that.",
+      "sources": [
+        {
+          "fact": "Mumble describes itself as a free, open source, low latency, high quality voice chat application.",
+          "url": "https://www.mumble.info"
+        },
+        {
+          "fact": "The Mumble downloads page offers official client and server programs, including Windows client and server and macOS downloads.",
+          "url": "https://www.mumble.info/downloads/"
+        },
+        {
+          "fact": "The Mumble site notes that Linux distributions may provide their own packages with their own maintainers.",
+          "url": "https://www.mumble.info/downloads/"
+        }
+      ]
+    },
+    {
+      "slug": "stoat",
+      "name": "Stoat",
+      "site": "https://stoat.chat",
+      "company": "",
+      "country": "",
+      "tagline": "Open source group chat with servers and voice",
+      "best_for": "Discord-style chat without ads or data mining",
+      "pricing": "Free and open source, now and forever, per the vendor site; no subscription is needed for the extras it lists.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Desktop downloads and web app",
+      "features": [
+        "Servers and channels",
+        "Voice chat",
+        "File sharing",
+        "Role-based permissions",
+        "Moderation tools"
+      ],
+      "summary": "An open-source alternative with servers, channels, voice chat and role-based permissions, free now and forever according to the vendor.",
+      "verdict": "Stoat is an open-source group chat app with servers, channels, voice chat and file sharing, and the vendor lists Markdown support, role-based permissions and moderation tools. It says the service is free and open source now and forever, with no ads and no data mining, and that custom emojis and server-specific profile pictures need no subscription. A small community that likes the Discord format but wants an open code base will find the closest match here, which gets it fourth place.",
+      "weaknesses": "The site states a 20MB file upload limit, which is tight for sharing clips or builds. It is a younger service with far fewer existing users than Discord, so recruiting players to join can take more effort.",
+      "wrong_for": "Skip it if your players already live on Discord and will not move; Discord remains the practical home for them.",
+      "sources": [
+        {
+          "fact": "Stoat is an open-source group chat app for friends and communities, with servers, channels, voice chat and file sharing.",
+          "url": "https://stoat.chat"
+        },
+        {
+          "fact": "Stoat says it is free and open source, now and forever.",
+          "url": "https://stoat.chat"
+        },
+        {
+          "fact": "Stoat says it has no ads and no data mining.",
+          "url": "https://stoat.chat"
+        },
+        {
+          "fact": "Stoat lists custom emojis, a 20MB file upload limit and server-specific profile pictures with no subscription required.",
+          "url": "https://stoat.chat"
+        }
+      ]
+    },
+    {
+      "slug": "steam",
+      "name": "Steam",
+      "site": "https://store.steampowered.com",
+      "company": "Valve Corporation",
+      "country": "",
+      "tagline": "Game store with community discussions and broadcasts",
+      "best_for": "Communities tied to a game on Steam",
+      "pricing": "No prices are shown on the pages opened.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Community discussions",
+        "Workshop",
+        "Market",
+        "Broadcasts",
+        "Remote Play"
+      ],
+      "summary": "Valve's game store links discussions, a Workshop, a Market and broadcasts to the game itself.",
+      "verdict": "Steam is Valve's digital game store, and its community menu links Discussions, Workshop, Market and Broadcasts. For a studio that sells on Steam, a player forum attached to the game's own page is the first place many players will look. The store home page also lists a discovery queue and a wishlist. It ranks fifth because the conversation sits next to the product, but Steam is a storefront with community sections, not a chat platform you can configure for a clan.",
+      "weaknesses": "No prices were shown on the pages opened. Discussion boards are tied to Steam game pages, so a community that is not about one title on Steam has no obvious home, and the facts do not describe voice rooms for groups.",
+      "wrong_for": "Not for a clan or team that needs a persistent voice channel; Discord, TeamSpeak or Mumble are made for that.",
+      "sources": [
+        {
+          "fact": "The Steam store home page is titled Welcome to Steam and lists the store, discovery queue, wishlist and community sections.",
+          "url": "https://store.steampowered.com"
+        },
+        {
+          "fact": "The Steam store links to Discussions, Workshop, Market and Broadcasts under its Community menu.",
+          "url": "https://store.steampowered.com"
+        },
+        {
+          "fact": "The Steam Remote Play page is copyright Valve Corporation.",
+          "url": "https://store.steampowered.com/remoteplay"
+        }
+      ]
+    },
+    {
+      "slug": "element",
+      "name": "Element",
+      "site": "https://element.io/en",
+      "company": "",
+      "country": "",
+      "tagline": "Messaging product built on Matrix",
+      "best_for": "Studios needing self-hosted, controlled chat",
+      "pricing": "The self-hosted frontend and backend are free of charge; the Element Server Suite is priced per seat per month, and enterprise plans are on the pricing page.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Self-hosted and air-gapped deployments (as stated on the site)",
+      "features": [
+        "Self-hosted deployment",
+        "Element Server Suite",
+        "Air-gapped option",
+        "LTS releases every 6 months"
+      ],
+      "summary": "A client and server suite on the Matrix standard, with free self-hosted frontend and backend and per-seat server pricing.",
+      "verdict": "Element describes itself as secure collaboration and messaging built on the Matrix standard, with self-hosted and air-gapped options. The plans page says the self-hosted frontend and backend are free of charge, the Element Server Suite is priced per seat per month, and LTS versions arrive every 6 months with critical security backports. For a studio that wants internal or player chat on its own infrastructure, those terms are clearer than most on this list.",
+      "weaknesses": "It is aimed at secure collaboration and enterprise use, so gaming extras such as soundboards, activities or low-latency game voice are not in the facts we read. Running it yourself also means you carry the admin work.",
+      "wrong_for": "Skip it if you want a ready-made public gaming hub; Discord or Stoat need no server administration.",
+      "sources": [
+        {
+          "fact": "Element describes itself as secure collaboration and messaging, with Element, Element Server Suite and self-hosted options.",
+          "url": "https://element.io/en"
+        },
+        {
+          "fact": "The Element plans page lists the self-hosted frontend and backend as free of charge.",
+          "url": "https://element.io/en/pricing"
+        },
+        {
+          "fact": "The Element plans page says the Element Server Suite is priced per seat per month.",
+          "url": "https://element.io/en/pricing"
+        },
+        {
+          "fact": "The Element plans page says LTS versions are released every 6 months, with backports of critical security fixes.",
+          "url": "https://element.io/en/pricing"
+        }
+      ]
+    },
+    {
+      "slug": "matrix",
+      "name": "Matrix",
+      "site": "https://matrix.org",
+      "company": "The Matrix.org Foundation",
+      "country": "",
+      "tagline": "Open protocol for decentralised communication",
+      "best_for": "Building or federating your own chat network",
+      "pricing": "Open protocol; the site shows no commercial pricing.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "",
+      "features": [
+        "Open protocol",
+        "Decentralised communication",
+        "Specification",
+        "Governing Board"
+      ],
+      "summary": "The open protocol behind clients such as Element, maintained by a foundation and not a chat app by itself.",
+      "verdict": "Matrix is an open protocol for secure, decentralised communication, and the Matrix.org Foundation, with its Governing Board, maintains the specification. A game studio can use the protocol to build its own chat network or to federate with others, which no closed service on this list allows. It is placed seventh because it is a foundation for building, not a finished community product, and a team needs a client such as Element to use it.",
+      "weaknesses": "The site shows no commercial pricing or product tiers, so there is nobody to call for support unless you choose a commercial host. Players do not receive a ready gaming experience, so voice and community features depend on the client chosen.",
+      "wrong_for": "Wrong for a community manager who wants to launch a server today; Discord or Stoat get you running in minutes.",
+      "sources": [
+        {
+          "fact": "Matrix describes itself as the open protocol for secure decentralised communications.",
+          "url": "https://matrix.org"
+        },
+        {
+          "fact": "The Matrix.org site describes an open network for secure, decentralised communication.",
+          "url": "https://matrix.org"
+        },
+        {
+          "fact": "The Matrix.org site lists a Foundation section with a Governing Board and Governing Board Committees.",
+          "url": "https://matrix.org"
+        }
+      ]
+    },
+    {
+      "slug": "telegram",
+      "name": "Telegram",
+      "site": "https://telegram.org",
+      "company": "",
+      "country": "",
+      "tagline": "Cloud messaging app with communities",
+      "best_for": "Announcement channels and mobile-first groups",
+      "pricing": "No pricing is shown on the page opened; the page says the API and source code are free for everyone.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "Mobile and desktop apps",
+      "features": [
+        "Communities",
+        "Ephemeral messages in groups",
+        "Open API",
+        "Rich text editor",
+        "Mobile and desktop apps"
+      ],
+      "summary": "Cloud messaging on mobile and desktop, with communities, an open API and free source code.",
+      "verdict": "Telegram describes itself as a cloud-based mobile and desktop messaging app focused on security and speed. The home page lists Communities, ephemeral messages in groups and a rich text editor, and says the API and source code are free for everyone. A game studio can use it for announcements and mobile-first groups with an open API for bots. It ranks eighth because the facts show no voice rooms for gameplay or role tools suited to a gaming server.",
+      "weaknesses": "No pricing appears on the page we opened, and the facts do not mention gaming-specific features such as voice channels or event scheduling. Large communities tend to need extra moderation setup that is not described.",
+      "wrong_for": "Not for a team that needs live voice during play; Discord, TeamSpeak or Mumble handle that.",
+      "sources": [
+        {
+          "fact": "Telegram describes itself as a cloud-based mobile and desktop messaging app with a focus on security and speed.",
+          "url": "https://telegram.org"
+        },
+        {
+          "fact": "Telegram says it has an open API and source code free for everyone.",
+          "url": "https://telegram.org"
+        },
+        {
+          "fact": "The Telegram home page lists Communities and ephemeral messages in groups among its features.",
+          "url": "https://telegram.org"
+        }
+      ]
+    },
+    {
+      "slug": "discourse",
+      "name": "Discourse",
+      "site": "https://discourse.org/",
+      "company": "Civilized Discourse Construction Kit, Inc.",
+      "country": "",
+      "tagline": "Customizable forum platform with built-in chat",
+      "best_for": "Long-lived forums and searchable support threads",
+      "pricing": "The codebase is described as freely available on GitHub; the homepage links to /pricing for hosting plans, with no amounts shown.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "",
+      "features": [
+        "Themes and plugins",
+        "Built-in real-time chat",
+        "Gamification features",
+        "AI-assisted community management",
+        "Single sign-on on enterprise plans"
+      ],
+      "summary": "Open source forum software that can be self-hosted or managed, with real-time chat added to threaded discussion.",
+      "verdict": "Discourse describes itself as a customizable, open-source community platform that can be managed or self-hosted. The homepage lists themes, plugins, built-in real-time chat and gamification features, and claims it powers more than 22,000 communities. Threaded, searchable discussion is useful for patch notes, bug reports and guides that a chat stream would bury. It lands ninth because it is a forum first, so players expecting instant voice or live banter need a second tool.",
+      "weaknesses": "Pricing is not shown on the homepage; it links to a pricing page for hosting plans. The codebase is free on GitHub, but self-hosting needs administration, and single sign-on is an enterprise-plan feature.",
+      "wrong_for": "Skip it if your players want real-time voice during matches; Discord or Mumble fit better.",
+      "sources": [
+        {
+          "fact": "Discourse describes itself as a customizable, open-source community platform that can be managed or self-hosted.",
+          "url": "https://discourse.org"
+        },
+        {
+          "fact": "The homepage says the codebase is on GitHub and freely available.",
+          "url": "https://discourse.org"
+        },
+        {
+          "fact": "The homepage says the platform powers more than 22,000 communities.",
+          "url": "https://discourse.org"
+        }
+      ]
+    },
+    {
+      "slug": "spacebar",
+      "name": "Spacebar",
+      "site": "https://spacebar.chat",
+      "company": "",
+      "country": "",
+      "tagline": "Self-hosted re-implementation of Discord's platform",
+      "best_for": "Technically capable groups wanting Discord-like self-hosting",
+      "pricing": "Free and open source, per the site.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Self-hosted server with web app",
+      "features": [
+        "Self-hosted",
+        "Open source",
+        "Discord-style chat",
+        "Documentation and web app"
+      ],
+      "summary": "A free and open source, self-hosted platform that reimplements Discord, with docs, a web app and a GitHub repository.",
+      "verdict": "Spacebar calls itself a free and open source, full stack reverse engineering and re-implementation of Discord, designed to be self-hosted and familiar to users. The site links to documentation, a web app and a GitHub repository. For a technical group that wants the Discord layout on its own server, it is the most direct fit here. It sits tenth because that same model carries a maintenance burden and a small community.",
+      "weaknesses": "The facts show no hosted option, so someone must run the server. As a reverse-engineered project it may lag the platform it copies, and nothing in the facts describes voice quality, support or a company behind it.",
+      "wrong_for": "Wrong for non-technical community managers; Stoat offers a similar format with a hosted service.",
+      "sources": [
+        {
+          "fact": "Spacebar describes itself as a free and open source, full stack reverse engineering and re-implementation of Discord.",
+          "url": "https://spacebar.chat"
+        },
+        {
+          "fact": "Spacebar says it is a self-hosted, secure communication platform that users are already familiar with.",
+          "url": "https://spacebar.chat"
+        },
+        {
+          "fact": "The Spacebar site links to documentation, a web app and a GitHub repository.",
+          "url": "https://spacebar.chat"
+        }
+      ]
+    },
+    {
+      "slug": "reddit",
+      "name": "Reddit",
+      "site": "https://redditinc.com/",
+      "company": "Reddit Inc",
+      "country": "",
+      "tagline": "Platform of communities with posts and comments",
+      "best_for": "Public discussion and discovery",
+      "pricing": "No pricing is shown on the pages opened (the reddit.com home page is rendered by JavaScript and returned almost no text).",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "",
+      "features": [
+        "Communities",
+        "Posts, links, images and videos",
+        "Voting and comments"
+      ],
+      "summary": "Thousands of interest-based communities where people post, vote and comment, but no voice or chat rooms in the facts.",
+      "verdict": "The Reddit Inc homepage says Reddit is home to thousands of communities, where millions of people post, vote and comment every day, sharing stories, links, images and videos. For game studios and fan groups, a subreddit gives public discoverability that a closed chat server does not. It comes last on this list because it is a discussion board, not a voice and text hub for players, and the facts do not describe any live channels.",
+      "weaknesses": "The main reddit.com page returned almost no text to us, so facts rely on the company site. No pricing is shown, and the facts say nothing about moderation tools, so check those before launching a community.",
+      "wrong_for": "Skip it if you need real-time voice or private rooms; Discord or TeamSpeak cover that.",
+      "sources": [
+        {
+          "fact": "The Reddit Inc homepage says Reddit is home to thousands of communities and endless conversation.",
+          "url": "https://redditinc.com/"
+        },
+        {
+          "fact": "The Reddit Inc homepage says millions of people around the world post, vote and comment every day in communities organised around their interests.",
+          "url": "https://redditinc.com/"
+        },
+        {
+          "fact": "The Reddit Inc homepage says communities can share content by posting stories, links, images and videos.",
+          "url": "https://redditinc.com/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "slug": "best-hardware-monitoring-and-overclocking-software",
+  "name": "hardware monitoring and overclocking software",
+  "title": "Best Hardware Monitoring and Overclocking Software in 2026",
+  "group": "Gaming-adjacent",
+  "hub": "games",
+  "summary_line": "Hardware monitoring and overclocking software reads temperatures, clocks and voltages, tunes processors, and stress-tests a PC for stability.",
+  "definition": "Hardware monitoring and overclocking software reads the sensors inside a PC: temperatures, fan speeds, voltages, clock speeds and power. Some tools also tune processor behavior or run stress tests to prove a configuration is stable. Gamers use them to catch throttling, builders to validate cooling, and studios to keep test machines healthy.",
+  "intro": "A game that runs well for ten minutes and then crashes is usually a hardware story: a processor that throttles, a fan curve that is too timid, memory that fails under load. Monitoring tools turn that story into numbers. This ranking compares eleven programs, from sensor readers and system-information utilities to a vendor tuning tool, a stress tester and a desktop skin engine. We read vendor pages, license terms and repositories, and did not run the software ourselves. The order rewards tools that read many sensors, state their license plainly and stay useful on a gaming rig. Three well-known names, including MSI Afterburner and GPU-Z, could not be opened by our fetcher, so they are left out rather than described from memory.",
+  "criteria": [
+    {
+      "heading": "Sensor breadth",
+      "text": "The first question is what a tool can see. HWiNFO lists in-depth hardware information and real-time sensor monitoring; HWMonitor names voltages, temperatures, powers, currents, fan speeds, utilizations and clock speeds, plus Super I/O chips and drive S.M.A.R.T. data. Narrow tools, such as CPU-Z for static details or Core Temp for processor temperature, are lighter but miss the mainboard and drives. Pick breadth for diagnosis and narrowness for an always-on tray gauge."
+    },
+    {
+      "heading": "Reading versus changing",
+      "text": "Most programs here only read. Ryzen Master from AMD adds control over Ryzen processors, with performance profiles and monitoring, so it can change settings as well as watch them. That power belongs to one processor family: it is not a general overclocker. Decide whether you want visibility or active tuning, since tuning tools carry risk if you push settings without a stability check afterward."
+    },
+    {
+      "heading": "Stability testing",
+      "text": "A clock speed that looks fine can still crash under sustained load. OCCT lists stability and stress testing, benchmarking and monitoring in one program, while HWiNFO offers a stress test in its Pro tier and AIDA64 includes stress and benchmark tests. Prime95 comes from a distributed prime-search project; its download page describes that search, so use as a CPU load is the community's habit rather than the vendor's claim."
+    },
+    {
+      "heading": "Business use and licensing",
+      "text": "Several free tools restrict commercial use. HWiNFO is free for personal and non-commercial use and requires a Pro license for commercial use of HWiNFO 64 or ARM64. OCCT Personal cannot be used in a business environment. Core Temp sells a commercial license at $25 for one machine. If a studio runs these on a fleet of test PCs, read the terms first, because a free download may not cover that use."
+    }
+  ],
+  "market_notes": [
+    "The eleven tools fall into clear licensing groups. LibreHardwareMonitor, Open Hardware Monitor and Rainmeter are open source. HWiNFO, OCCT and Core Temp are free for personal use and sell licenses for business. CPU-Z and Prime95 are free, HWMonitor is free with an extended PRO edition, and AIDA64 is a paid product that states no prices on the pages we read. Ryzen Master shows no price but only works with AMD Ryzen processors. Windows is the shared denominator, while OCCT lists Linux and Open Hardware Monitor mentions x86 Linux.",
+    "The trade-off in this niche is between a simple gauge and a complete picture. Core Temp and CPU-Z load fast and tell you one thing well, while HWiNFO and AIDA64 report so much that a beginner can drown in rows. Age is another factor: the newest release on the Open Hardware Monitor site is 0.9.6 from December 27, 2020, while LibreHardwareMonitor continues the same idea on GitHub. Check dates before trusting any sensor reader with a new processor, because hardware support depends on updates."
+  ],
+  "how_to_choose": [
+    {
+      "title": "Decide between a gauge and a lab",
+      "text": "If you only want a temperature in the tray while you play, choose a small reader such as Core Temp or HWMonitor. If you are building or troubleshooting, choose a deep tool such as HWiNFO or AIDA64 and log the data to a file. Mixing both is normal: a lab tool for investigations, a gauge for daily use. This split saves you from running a heavy tool all day."
+    },
+    {
+      "title": "Add a stability test before trusting any change",
+      "text": "Whenever you alter a fan curve, memory setting or processor profile, run a sustained test and watch the sensors during it. OCCT is built around that loop of stress plus monitoring, and AIDA64 bundles stress tests with sensors. Stop the test at the first error and revert the change. A setting that survives only a short run may still crash a three-hour session."
+    },
+    {
+      "title": "Check license, platform and processor family",
+      "text": "Confirm the tool supports your operating system, processor brand and business status. Ryzen Master needs a Ryzen CPU, OCCT Personal and HWiNFO's free tier exclude commercial use, and some readers have no update since 2020. Write down the version you installed and the date, and re-check a new CPU generation against the vendor's change notes before relying on its temperatures."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best hardware monitoring and overclocking software in 2026?",
+      "a": "HWiNFO is our first pick because it combines in-depth hardware information, real-time sensor monitoring, logging and an on-screen display, and is free for personal use. OCCT is better when stability testing is the goal, since it adds stress tests and benchmarks. Ryzen Master is better for tuning an AMD Ryzen processor directly."
+    },
+    {
+      "q": "Is HWiNFO free for business use?",
+      "a": "No. HWiNFO is free for personal and non-commercial environments, and commercial use of HWiNFO 64 or ARM64 requires the Pro license. The licenses page lists initial prices from $29 and $199 and a renewal price from $14.50. Pro licenses are perpetual with a maintenance period for updates."
+    },
+    {
+      "q": "What does OCCT do that a monitor does not?",
+      "a": "OCCT is an all-in-one stability, stress test, benchmark and monitoring tool for Windows and Linux. A pure monitor only reads values; OCCT also creates the load that exposes errors. OCCT Personal is free for personal use but cannot be used in a commercial environment, where Pro, Enterprise or Enterprise+ licenses apply."
+    },
+    {
+      "q": "Can Ryzen Master overclock an Intel processor?",
+      "a": "No. AMD describes Ryzen Master as a utility for controlling AMD Ryzen processors, with personalized performance profiles and system monitoring. It is tied to that processor family. For Intel systems, a general monitor such as HWiNFO or HWMonitor can read sensors, but we could not open Intel's own tuning utility page to confirm its details."
+    },
+    {
+      "q": "Is Open Hardware Monitor still a good choice?",
+      "a": "Use it with caution. It is free open source software for Windows and x86 Linux, but the newest release posted on its site is 0.9.6 from December 27, 2020. LibreHardwareMonitor is another free open source project that monitors temperature sensors, fan speeds, voltages, load and clock speeds, and its repository is on GitHub."
+    },
+    {
+      "q": "Is Prime95 a good stress test?",
+      "a": "Prime95 is free software from GIMPS, the Great Internet Mersenne Prime Search, run by the non-profit Mersenne Research, Inc., and is offered for Windows, Linux, FreeBSD and macOS. The download page describes prime searching rather than hardware testing, so how well it suits your stability check is a judgment call to confirm elsewhere."
+    },
+    {
+      "q": "What does Rainmeter have to do with hardware?",
+      "a": "Rainmeter is a free, open source desktop customization tool whose skins can include hardware usage meters. It is a display layer, not a sensor tool. It runs on Windows 7 or above and has been distributed under the GNU GPL v2 license since February 2001, with version 4.5.28 released October 12, 2026."
+    }
+  ],
+  "related": [
+    "best-pc-benchmarking-software",
+    "best-game-launchers-and-library-managers",
+    "best-game-capture-and-recording-software",
+    "best-remote-play-and-game-streaming-software",
+    "best-mod-managers-for-pc-games"
+  ],
+  "tools": [
+    {
+      "slug": "hwinfo",
+      "name": "HWiNFO",
+      "site": "https://www.hwinfo.com",
+      "company": "REALiX s.r.o.",
+      "country": "",
+      "tagline": "Deep hardware analysis and sensor logging for Windows",
+      "best_for": "Detailed sensors, logs and on-screen display",
+      "pricing": "Free for personal and non-commercial use. Commercial use of HWiNFO 64 or ARM64 requires the Pro license. The licenses page lists Pro initial prices from $29 and $199 and a renewal price from $14.50 (renewal price shown as 14.5).",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Windows 7 and later (64-bit, ARM64); Windows 95 and later (32-bit); MS-DOS",
+      "features": [
+        "In-depth hardware information",
+        "Real-time sensor monitoring",
+        "Reporting and command-line logging",
+        "Remote monitoring (Pro)",
+        "Stress test (Pro)",
+        "On-screen display"
+      ],
+      "summary": "HWiNFO reports in-depth hardware data and live sensors, logs to file and shows an on-screen display, free for personal use.",
+      "verdict": "HWiNFO earns first place because it combines depth with a workable free tier. The vendor lists in-depth hardware information, real-time sensor monitoring, reporting and command-line logging, and an on-screen display, with remote monitoring and a stress test in Pro. It supports Windows 7 and later in 64-bit and ARM64 builds, and 32-bit back to Windows 95, plus MS-DOS. Pro licenses are perpetual with a maintenance period, with initial prices from $29 and $199, so a studio can license it cleanly.",
+      "weaknesses": "Free use stops at personal and non-commercial environments, so a company fleet needs the Pro license. The sheer number of sensor rows can overwhelm a beginner, and Pro features such as remote monitoring are paywalled.",
+      "wrong_for": "Users who want a quiet tray temperature only should try Core Temp, and those focused on stress tests should look at OCCT.",
+      "sources": [
+        {
+          "fact": "HWiNFO is free to use in personal and non-commercial environments, and commercial use of HWiNFO 64 or ARM64 requires the Pro license.",
+          "url": "https://www.hwinfo.com/licenses/"
+        },
+        {
+          "fact": "HWiNFO Pro licenses have an initial price from $29 and from $199, with a renewal price from $14.5, according to the licenses page.",
+          "url": "https://www.hwinfo.com/licenses/"
+        },
+        {
+          "fact": "HWiNFO is published by REALiX s.r.o. (copyright notice on the homepage: Martin Malik, REALiX s.r.o.).",
+          "url": "https://www.hwinfo.com/"
+        }
+      ]
+    },
+    {
+      "slug": "occt",
+      "name": "OCCT",
+      "site": "https://www.ocbase.com",
+      "company": "",
+      "country": "",
+      "tagline": "Stress test, benchmark and monitor in one program",
+      "best_for": "Proving stability after any hardware change",
+      "pricing": "OCCT Personal is free for personal use and cannot be used in a commercial or business environment. Pro, Enterprise and Enterprise+ licenses are required for business use. The download page says a subscription is available via Patreon to support development.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Windows and Linux",
+      "features": [
+        "Stability and stress testing",
+        "Benchmark",
+        "Monitoring",
+        "Personal, Pro, Enterprise and Enterprise+ editions",
+        "Linux support"
+      ],
+      "summary": "OCCT combines stability and stress testing, benchmarks and monitoring for Windows and Linux, free for personal use.",
+      "verdict": "Where HWiNFO observes, OCCT pushes. The vendor calls it a free all-in-one stability, stress test, benchmark and monitoring tool for Windows and Linux, from the team behind OCBASE, which its About page places between Douai, France and Taipei, Taiwan. The personal edition is free, a Patreon subscription supports development, and Pro, Enterprise and Enterprise+ editions exist for business. For anyone changing fan curves or memory settings, having load and sensors in one window is a real convenience.",
+      "weaknesses": "OCCT Personal is limited to non-commercial use, and the prices of the business editions are not in our facts. A stress test that finds a fault may also stress a marginal PC to the point of a crash.",
+      "wrong_for": "Casual users who only want a temperature readout should use HWMonitor or Core Temp instead.",
+      "sources": [
+        {
+          "fact": "OCCT is a free, all-in-one stability, stress test, benchmark and monitoring tool for Windows and Linux.",
+          "url": "https://www.ocbase.com"
+        },
+        {
+          "fact": "OCCT Personal is free of charge for personal use and cannot be used in a commercial or business environment, where a Pro, Enterprise or Enterprise+ license is required.",
+          "url": "https://www.ocbase.com/download-personal"
+        },
+        {
+          "fact": "The vendor's About page says the OCCT team works from Douai (France) to Taipei (Taiwan).",
+          "url": "https://www.ocbase.com/about-us"
+        }
+      ]
+    },
+    {
+      "slug": "hwmonitor",
+      "name": "HWMonitor",
+      "site": "https://www.cpuid.com/softwares/hwmonitor.html",
+      "company": "",
+      "country": "",
+      "tagline": "Free CPUID sensor reader with an optional PRO version",
+      "best_for": "Quick voltage, temperature and fan checks",
+      "pricing": "The standard HWMonitor is offered free. An extended HWMonitor PRO version is also offered; its price is not shown on the opened page.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "Windows x86/x64 and Windows ARM64",
+      "features": [
+        "CPU and GPU monitoring",
+        "Super I/O chip monitoring",
+        "Memory thermal sensors",
+        "SSD and hard disk S.M.A.R.T.",
+        "Battery monitoring",
+        "HWMonitor PRO extended version"
+      ],
+      "summary": "HWMonitor reads voltages, temperatures, powers, currents, fan speeds, utilizations and clocks on Windows, with a PRO edition available.",
+      "verdict": "HWMonitor is the straightforward reader in the CPUID family. The product page lists CPU and GPU-level monitoring, LPCIO chips, memory thermal sensors, SSD and hard disk S.M.A.R.T. data and batteries, for Windows x86/x64 and Windows ARM64. The standard version is free, and an extended HWMonitor PRO exists. It reads like a checklist of what the board reports, which makes it a sensible second tool next to CPU-Z.",
+      "weaknesses": "The price of HWMonitor PRO is not shown on the opened page, and the free version offers no stress testing or logging details in our facts. It is Windows only.",
+      "wrong_for": "Builders who want load generation as well as readings should choose OCCT.",
+      "sources": [
+        {
+          "fact": "HWMonitor for Windows x86/x64 is a hardware monitoring program that reads PC health sensors, including voltages, temperatures, powers, currents, fan speeds, utilizations and clock speeds.",
+          "url": "https://www.cpuid.com/softwares/hwmonitor.html"
+        },
+        {
+          "fact": "The program handles CPU and GPU-level monitoring, LPCIO chips, memory thermal sensors, SSD and hard disk S.M.A.R.T. data, and batteries.",
+          "url": "https://www.cpuid.com/softwares/hwmonitor.html"
+        },
+        {
+          "fact": "HWMonitor is also available in an extended HWMonitor PRO version, according to the CPUID product page.",
+          "url": "https://www.cpuid.com/softwares/hwmonitor.html"
+        }
+      ]
+    },
+    {
+      "slug": "librehardwaremonitor",
+      "name": "LibreHardwareMonitor",
+      "site": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+      "company": "",
+      "country": "",
+      "tagline": "Open source sensor monitor maintained on GitHub",
+      "best_for": "Open license sensor reading and embedding",
+      "pricing": "Free software. The repository links a LICENSE file and a THIRD-PARTY-NOTICES file.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "",
+      "features": [
+        "Temperature sensors",
+        "Fan speeds",
+        "Voltages",
+        "Load and clock speed monitoring"
+      ],
+      "summary": "LibreHardwareMonitor is free open source software for temperatures, fan speeds, voltages, loads and clocks, published on GitHub.",
+      "verdict": "Developers and tinkerers who want an open license pick LibreHardwareMonitor. The repository says it monitors temperature sensors, fan speeds, voltages, load and clock speeds, links a LICENSE file and lists third-party notices in a separate file. Because source and license are public, a team can audit it or build on it. It continues the same idea as Open Hardware Monitor with active hosting on GitHub, which makes it the safer open choice today.",
+      "weaknesses": "The repository page gives no platform list and no help-desk path beyond the project itself. Its interface is a plain monitor with no stress testing, and the third-party notices need reading before redistribution.",
+      "wrong_for": "Users wanting vendor support or stress tests should choose HWiNFO Pro, AIDA64 or OCCT.",
+      "sources": [
+        {
+          "fact": "Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of a computer.",
+          "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+        },
+        {
+          "fact": "The project's source code and license are published in the GitHub repository, with a LICENSE file linked from the repository page.",
+          "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+        },
+        {
+          "fact": "The repository includes a THIRD-PARTY-NOTICES file listing third-party licenses.",
+          "url": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+        }
+      ]
+    },
+    {
+      "slug": "cpu-z",
+      "name": "CPU-Z",
+      "site": "https://www.cpuid.com/softwares/cpu-z.html",
+      "company": "",
+      "country": "",
+      "tagline": "Freeware CPU, mainboard and memory identifier",
+      "best_for": "Identifying processor, board and RAM details",
+      "pricing": "Freeware.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows x86/x64, Windows ARM64 and Android",
+      "features": [
+        "Processor name, codename and cache levels",
+        "Mainboard and chipset details",
+        "Memory type, timings and SPD",
+        "Real-time core frequency measurement",
+        "Windows 11 support"
+      ],
+      "summary": "CPU-Z shows processor, mainboard, chipset and memory details, measures core frequency live, and runs on Windows and Android.",
+      "verdict": "CPU-Z is the program people open to confirm what is actually inside a PC. CPUID calls it freeware that gathers data on the processor, mainboard, chipset and memory, shows memory type, timings and SPD, and measures each core's internal frequency and the memory frequency in real time, with full Windows 11 support. An Android version exists, and the detection engine is available through the CPUID System Information Development Kit. It identifies; it does not log or tune.",
+      "weaknesses": "It is an inspector rather than a monitor of temperatures and fans, so you need a second tool for sensors. It offers no stress test and no alerting.",
+      "wrong_for": "Anyone wanting temperatures or fan speeds should run HWMonitor or HWiNFO beside it.",
+      "sources": [
+        {
+          "fact": "CPU-Z for Windows x86/x64 is a freeware that gathers information on processor, mainboard, chipset, memory and other main devices.",
+          "url": "https://www.cpuid.com/softwares/cpu-z.html"
+        },
+        {
+          "fact": "CPU-Z measures the internal frequency of each core and the memory frequency in real time, and is fully supported on Windows 11.",
+          "url": "https://www.cpuid.com/softwares/cpu-z.html"
+        },
+        {
+          "fact": "CPU-Z's detection engine is available for custom use through the CPUID System Information Development Kit.",
+          "url": "https://www.cpuid.com/softwares/cpu-z.html"
+        }
+      ]
+    },
+    {
+      "slug": "core-temp",
+      "name": "Core Temp",
+      "site": "https://www.alcpu.com/CoreTemp/",
+      "company": "",
+      "country": "",
+      "tagline": "Compact CPU temperature monitor with commercial license",
+      "best_for": "A small always-on CPU temperature gauge",
+      "pricing": "Free to download; a commercial license for businesses is $25 per machine for one license, with lower per-license prices for larger volumes.",
+      "pricing_model": "Freemium",
+      "free_plan": "Free",
+      "platforms": "32-bit and 64-bit Windows downloads",
+      "features": [
+        "CPU temperature monitoring",
+        "Add-ons",
+        "Standalone 32-bit and 64-bit zip",
+        "Language packs",
+        "Developer documentation"
+      ],
+      "summary": "Core Temp is a small processor temperature monitor with add-ons, free to download, and $25 per machine for business use.",
+      "verdict": "Core Temp does one job with little overhead. The vendor describes a compact program with a small footprint for monitoring processor temperature and other vital information, offered as version 1.21 with standalone 32-bit and 64-bit zip downloads and many language packs. A commercial license for businesses is $25 for one machine and drops with volume. It suits a machine where a tray gauge is enough.",
+      "weaknesses": "It watches the CPU only, with no GPU, drive or fan monitoring in the facts we read, and no stress test. The page does not state supported Windows versions, so check compatibility before installing.",
+      "wrong_for": "Users wanting a full sensor table should pick HWiNFO or HWMonitor.",
+      "sources": [
+        {
+          "fact": "Core Temp describes itself as a compact program with a small footprint to monitor processor temperature and other vital information.",
+          "url": "https://www.alcpu.com/CoreTemp/"
+        },
+        {
+          "fact": "The download page offers Core Temp 1.21 plus standalone 32-bit and 64-bit zip files and many language packs.",
+          "url": "https://www.alcpu.com/CoreTemp/"
+        },
+        {
+          "fact": "A commercial license for businesses is available, one per physical machine, at $25 for a single license with lower prices for larger quantities.",
+          "url": "https://www.alcpu.com/CoreTemp/commercial.html"
+        }
+      ]
+    },
+    {
+      "slug": "aida64",
+      "name": "AIDA64",
+      "site": "https://www.aida64.com",
+      "company": "FinalWire Ltd",
+      "country": "",
+      "tagline": "Paid diagnostics suite with sensors and stress tests",
+      "best_for": "IT teams auditing and testing many PCs",
+      "pricing": "Pricing is not shown on the opened pages. AIDA64 is licensed with a product key; the licensing page describes support and maintenance periods, renewals, and trial versions. Editions are Extreme, Engineer, Business and Network Audit.",
+      "pricing_model": "",
+      "free_plan": "Free trial",
+      "platforms": "Windows 64-bit, including Windows 11 and Windows Server 2025",
+      "features": [
+        "Hardware detection",
+        "Software and Windows configuration pages",
+        "Real-time sensor monitoring",
+        "Stress and benchmark tests",
+        "Network audit (Network Audit edition)",
+        "Overclocking support"
+      ],
+      "summary": "AIDA64 mixes hardware detection, real-time sensor monitoring, stress tests, benchmarks and overclocking support in paid editions.",
+      "verdict": "AIDA64 is built for people who maintain many machines. FinalWire lists hardware detection, Windows configuration pages, sensor monitoring, stress and benchmark tests and overclocking support in Extreme, Engineer, Business and Network Audit editions, with a trial available. It has been developed since 1995 per the vendor, and version 8.40 arrived in September 2026 with AMD Verano and Zen 7 server support. That update cadence matters for sensor accuracy on new silicon.",
+      "weaknesses": "Prices are not shown on the opened pages, only license terms with product keys and renewable maintenance. It is a Windows-only, commercial product, so free alternatives cover many home needs.",
+      "wrong_for": "Home users on a budget should use HWiNFO's free tier, and OCCT covers stress testing for free in personal use.",
+      "sources": [
+        {
+          "fact": "AIDA64 Extreme is a system information tool that provides detailed information about hardware and installed software, and offers diagnostics and benchmarks.",
+          "url": "https://www.aida64.com/products/aida64-extreme"
+        },
+        {
+          "fact": "AIDA64 is licensed by FinalWire Ltd under a product license with a product key and a license agreement, and maintenance periods can be renewed.",
+          "url": "https://www.aida64.com/licensing"
+        },
+        {
+          "fact": "FinalWire Ltd. is the company behind AIDA64; the vendor's About page says the company was established in 2010 and copyright runs 2010 to 2026.",
+          "url": "https://www.aida64.com/about-finalwire"
+        }
+      ]
+    },
+    {
+      "slug": "ryzen-master",
+      "name": "Ryzen Master",
+      "site": "https://www.amd.com/en/products/software/ryzen-master.html",
+      "company": "Advanced Micro Devices, Inc.",
+      "country": "",
+      "tagline": "AMD utility for tuning Ryzen processors",
+      "best_for": "Overclocking and monitoring AMD Ryzen CPUs",
+      "pricing": "Pricing is not stated on the opened product page.",
+      "pricing_model": "",
+      "free_plan": "Unknown",
+      "platforms": "AMD Ryzen processors",
+      "features": [
+        "Overclocking control",
+        "Personalized performance profiles",
+        "System monitoring",
+        "Curve Optimizer feature (per the FAQ link)"
+      ],
+      "summary": "Ryzen Master gives control over AMD Ryzen processors with performance profiles, monitoring and a Curve Optimizer feature.",
+      "verdict": "This is the only tool here that is written by a chip maker for its own processors. AMD describes Ryzen Master as a utility that gives control over Ryzen processors, with personalized performance and system monitoring, and links a user guide and a Curve Optimizer FAQ. Because the tool comes from the processor vendor, its controls match the hardware. For a Ryzen owner who wants to adjust behavior, it is a logical starting point.",
+      "weaknesses": "It works only with AMD Ryzen processors, and the opened page states no price or platform details. Changing settings can destabilize a system, so you need a separate stress test to confirm the result.",
+      "wrong_for": "Intel users and anyone needing broad sensor coverage should choose HWiNFO or AIDA64.",
+      "sources": [
+        {
+          "fact": "AMD Ryzen Master is a utility that gives control over AMD Ryzen processors, with personalized performance and system monitoring.",
+          "url": "https://www.amd.com/en/products/software/ryzen-master.html"
+        },
+        {
+          "fact": "The Ryzen Master product page links a user guide and an FAQ on the Curve Optimizer feature in Ryzen Master.",
+          "url": "https://www.amd.com/en/products/software/ryzen-master.html"
+        },
+        {
+          "fact": "The copyright on AMD's corporate pages is held by Advanced Micro Devices, Inc., and the company says it was founded in 1969.",
+          "url": "https://www.amd.com/en/corporate.html"
+        }
+      ]
+    },
+    {
+      "slug": "prime95",
+      "name": "Prime95",
+      "site": "https://www.mersenne.org/download/",
+      "company": "Mersenne Research, Inc.",
+      "country": "",
+      "tagline": "Free GIMPS prime-search software often used as a CPU load",
+      "best_for": "Contributing CPU time to a prime search",
+      "pricing": "Free. The GIMPS download page offers the software free of charge.",
+      "pricing_model": "Free",
+      "free_plan": "Free",
+      "platforms": "Windows, Linux, FreeBSD, macOS",
+      "features": [
+        "Mersenne prime search (PrimeNet)",
+        "Free downloads for Windows, Linux, FreeBSD and macOS",
+        "Distributed computing"
+      ],
+      "summary": "Prime95 is free GIMPS software for Windows, Linux, FreeBSD and macOS that uses spare processing power to search for primes.",
+      "verdict": "Prime95 appears in overclocking circles because it keeps processors busy, but its own page describes a different goal. GIMPS says its free software for Windows, Linux, FreeBSD and Mac OSX uses spare processing power to search for Mersenne primes, and that it has found record primes since 1996. The site is operated by Mersenne Research, Inc., a non-profit corporation. We list it as a free load generator that many builders know, with the caveat that the vendor does not market it as a stability test.",
+      "weaknesses": "The pages we read say nothing about monitoring, logging or a stability workflow, so it provides no sensor data. It is a distributed-computing client first, and a heavy test can run a CPU very hot.",
+      "wrong_for": "Users who want a guided stress test with built-in sensors should choose OCCT.",
+      "sources": [
+        {
+          "fact": "GIMPS has free software available for Windows, Linux, FreeBSD and Mac OSX, and contributors use their computer's spare processing power.",
+          "url": "https://www.mersenne.org/download/"
+        },
+        {
+          "fact": "The GIMPS site and its software are owned and operated by Mersenne Research, Inc., described as a non-profit corporation.",
+          "url": "https://www.mersenne.org/legal/"
+        },
+        {
+          "fact": "The download page states that GIMPS has been finding world record primes since 1996.",
+          "url": "https://www.mersenne.org/download/"
+        }
+      ]
+    },
+    {
+      "slug": "rainmeter",
+      "name": "Rainmeter",
+      "site": "https://www.rainmeter.net",
+      "company": "",
+      "country": "",
+      "tagline": "Open source desktop skins including hardware meters",
+      "best_for": "Displaying system stats as a desktop skin",
+      "pricing": "Free. Rainmeter has been open source software distributed free of charge under the GNU GPL v2 license since February 2001.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows 7 or above",
+      "features": [
+        "Customizable skins",
+        "Hardware usage meters",
+        "Audio visualizers",
+        "Themes and community skins",
+        "Documentation and getting started guide"
+      ],
+      "summary": "Rainmeter shows customizable skins on a Windows desktop, from hardware usage meters to audio visualizers, under GPL v2.",
+      "verdict": "Rainmeter is about presentation. The homepage says it displays customizable skins, from hardware usage meters to audio visualizers, and has been open source under GNU GPL v2 since February 2001. It lists themes, community skins and documentation, and shows version 4.5.28 from October 12, 2026 for Windows 7 or above. Pair it with a sensor tool if you want clock and temperature meters on the desktop, since it displays data rather than producing it.",
+      "weaknesses": "It cannot stress-test, tune or diagnose, and meters need a sensor source. Skins are community made, so quality varies, and the setup is more hobby than utility.",
+      "wrong_for": "Anyone who wants measurements and tests rather than a decorated desktop should use HWiNFO or OCCT.",
+      "sources": [
+        {
+          "fact": "Rainmeter allows you to display customizable skins on your desktop, from hardware usage meters to fully functional audio visualizers.",
+          "url": "https://www.rainmeter.net"
+        },
+        {
+          "fact": "Rainmeter has been open source software distributed free of charge under the GNU GPL v2 license since February 2001.",
+          "url": "https://www.rainmeter.net"
+        },
+        {
+          "fact": "The homepage lists Rainmeter 4.5.28 as released on 12 October 2026 and offers downloads for Windows 7 or above.",
+          "url": "https://www.rainmeter.net"
+        }
+      ]
+    },
+    {
+      "slug": "open-hardware-monitor",
+      "name": "Open Hardware Monitor",
+      "site": "https://openhardwaremonitor.org/",
+      "company": "",
+      "country": "",
+      "tagline": "Older free open source monitor for Windows and Linux",
+      "best_for": "Portable sensor readings with no install",
+      "pricing": "Free and open source; binaries are under the Mozilla Public License 2.0.",
+      "pricing_model": "Open source",
+      "free_plan": "Open source",
+      "platforms": "Windows XP through 10 and x86 Linux, without installation",
+      "features": [
+        "Temperature sensors",
+        "Fan speeds",
+        "Voltages",
+        "Desktop gadget and system tray display",
+        "Mainboard monitoring chip support"
+      ],
+      "summary": "Open Hardware Monitor is a free open source monitor that runs without installation, but its newest listed release dates from 2020.",
+      "verdict": "Open Hardware Monitor popularized the idea of a free, small, open sensor reader. The site says it monitors temperature sensors, fan speeds, voltages, load and clock speeds on Windows XP to 10 and x86 Linux without installation, and ships under the Mozilla Public License 2.0. It supports many mainboard monitoring chips, plus CPU, video card and drive temperature sensors. It ranks last because the page lists no release newer than 0.9.6 from December 2020.",
+      "weaknesses": "The listed releases stop in 2020, so newer processors and boards may not read correctly. Windows 11 is not named, and the site carries no pricing or support information beyond a forum.",
+      "wrong_for": "Owners of recent hardware should pick the actively hosted LibreHardwareMonitor or HWiNFO.",
+      "sources": [
+        {
+          "fact": "Open Hardware Monitor is free open source software that monitors temperature sensors, fan speeds, voltages, load and clock speeds, and runs without installation on 32-bit and 64-bit Windows XP to 10 and x86 Linux.",
+          "url": "https://openhardwaremonitor.org/"
+        },
+        {
+          "fact": "The latest release listed on the home page is version 0.9.6, posted on December 27, 2020, adding AMD family 19h (Zen 3) support.",
+          "url": "https://openhardwaremonitor.org/"
+        },
+        {
+          "fact": "The binaries are made available under the Mozilla Public License 2.0.",
+          "url": "https://openhardwaremonitor.org/license/"
+        }
+      ]
+    }
+  ],
+  "published": "2026-11-18",
+  "reviewed": "2026-11-18"
+}

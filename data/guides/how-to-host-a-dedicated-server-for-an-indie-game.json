@@ -1,0 +1,168 @@
+{
+  "slug": "how-to-host-a-dedicated-server-for-an-indie-game",
+  "title": "How to Host a Dedicated Server for an Indie Game",
+  "description": "A playbook for indie teams: build a separate server, run it headless on Linux, choose rented machines or orchestration, and plan ahead for DDoS attacks.",
+  "kind": "Playbook",
+  "topic": "Game development",
+  "published": "2026-11-18",
+  "intro": "To host a dedicated server for an indie game, build a server-only version of your project that runs without a window or graphics, deploy it to a Linux machine you control or rent, open the game's port, and add scaling and attack protection only when player numbers justify them. Godot and Unity both document how to strip a server build, Steam and Agones document the hosting side, and several vendors rent capacity by the minute. This playbook sequences those choices for a small team.",
+  "key_takeaways": [
+    "A dedicated server is a separate build target, not just the client run in a different mode.",
+    "Strip visuals and client-only content from the server build; it will be smaller and cheaper to run.",
+    "Start with one rented Linux machine or a pay-per-use orchestration service, and adopt Kubernetes tooling only when you have a reason.",
+    "Decide who hosts before launch: you, a vendor, or your community, because that affects how you distribute the server files.",
+    "Attack protection and monitoring belong in the plan from the first public test."
+  ],
+  "sections": [
+    {
+      "h2": "What a dedicated server changes about your game",
+      "paras": [
+        "A dedicated server is a copy of your game's logic that runs on its own machine, accepts connections from players, and holds the authoritative game state. Players connect to it instead of one player acting as host. That makes the match independent of any player's connection, supports persistent worlds, and gives you a place to enforce rules.",
+        "Steamworks describes the Steam Game Servers API as providing everything you need to create dedicated servers, and says you can host them yourself or let your community host them. Its own guidance is that dedicated servers are the better choice for highly competitive games and for games with persistent servers that stay around after players leave. For a cooperative game with four friends, peer hosting may still be simpler, and you should decide that deliberately before you commit engineering time."
+      ]
+    },
+    {
+      "h2": "Make the server a separate build",
+      "paras": [
+        "The central engineering task is producing a server build that contains the simulation and none of the presentation. Both major engines have first-party support for this.",
+        "In Godot, the Exporting for dedicated servers page explains that since Godot 4.0 a project can run headless on any platform using the --headless command line argument or by being exported as a dedicated server, with no special server binary needed. It recommends using an export template binary rather than the editor binary to run servers, because the template is smaller and more optimized. If you export a project normally, the page warns, the package contains every resource including textures the server never uses; choosing the Export as dedicated server mode in the export preset adds a dedicated_server feature tag and lets you set each resource to Strip Visuals, Keep or Remove. Strip Visuals replaces textures and materials with placeholders that keep only image size, which is the general recommendation unless the server reads pixel data, for example to build collision from an image.",
+        "In Unity, the Dedicated Server package is for projects that use the Dedicated Server build target, and it lets you switch between server and client roles without making a second project. Its Multiplayer Roles feature lets you decide which GameObjects and components exist on the client and which on the server, and its Safety Checks feature turns on warnings for null references caused by stripping objects for a role. The package notes it works with Netcode for GameObjects and Netcode for Entities. See our ranking of [multiplayer networking SDKs](/software/best-multiplayer-networking-sdks) for the libraries that sit on top of these."
+      ]
+    },
+    {
+      "h2": "Server-readiness checklist before you rent anything",
+      "paras": [
+        "Fix these on your own machine first. Debugging a networking bug on a remote host costs far more time than debugging it locally."
+      ],
+      "list": [
+        "The server starts with no window, no audio device and no GPU, and exits cleanly on a signal.",
+        "Every setting that differs per deployment (port, player cap, map, region name) comes from command line arguments or environment variables, not from the editor.",
+        "The server never references client-only scenes or resources; after stripping, launch it and watch the log for load errors.",
+        "Game logic that matters, such as damage, currency and inventory changes, is decided on the server and only displayed by the client.",
+        "The server logs to standard output so a host or container platform can collect it.",
+        "A bot or scripted client can join, play and leave, so you can test load without recruiting people."
+      ],
+      "ordered": true
+    },
+    {
+      "h2": "Option A: one rented Linux machine",
+      "paras": [
+        "For a first public test, one virtual or dedicated server is often enough. You copy the server build, run it under a process supervisor, open the UDP or TCP port your netcode uses, and give players the address. It teaches you what your game costs to run before an abstraction hides it.",
+        "Provider pricing varies, so check current pages. OVHcloud's homepage lists dedicated servers in its Eco range from 13,99 euros per month excluding VAT, and says anti-DDoS infrastructure is rolled out by default on all products; the homepage also features a DDoS protection offer for video games and esports. Vultr describes cloud compute and Kubernetes on its documentation site, though its pricing could not be read when we checked, so none is quoted here.",
+        "The limits of this option are plain. One machine serves one region, so players far away see high latency. Scaling means starting more machines by hand. And an update needs a plan for players who are mid-match."
+      ]
+    },
+    {
+      "h2": "Option B: pay-per-use orchestration",
+      "paras": [
+        "Orchestration services start your server build on demand, in a region near the players, and shut it down after the match. Edgegap's pricing page lists edge cloud at 0.00115 dollars per vCPU per minute, billed on usage, across 615 or more locations, with a free trial of 1.5 vCPU and caps. Gameye's homepage lists on-demand pricing of 0.07 dollars per vCPU per hour and reserved pricing from 0.035 dollars, billed per second, and describes deployment through one REST API. Amazon GameLift is AWS's managed option, and its page links only to general AWS pricing.",
+        "This model suits games with spiky or unpredictable player counts, because you do not pay for an idle machine overnight. Check how a vendor treats bandwidth, since Edgegap lists egress at 0.10 dollars per GB while Gameye states that bandwidth is included. Our ranking of [dedicated game server orchestration platforms](/software/best-dedicated-game-server-orchestration-platforms) lays out the verified options side by side, and the [Edgegap and Hathora comparison](/compare/edgegap-vs-hathora) goes into two of them in more detail."
+      ]
+    },
+    {
+      "h2": "Option C: Kubernetes with Agones",
+      "paras": [
+        "If you have operations experience, or a publisher who does, Agones is the open source route. Its documentation describes it as a platform for deploying, hosting, scaling and orchestrating dedicated game servers, built on Kubernetes. Any game server that can run on Linux can be hosted, in any language, packaged in a Docker container, and Agones can run wherever Kubernetes runs, in the cloud or on premises.",
+        "It supplies a game server SDK for lifecycle management, health checking and state, plus Fleets, which let you run and update groups of game servers without shutting down servers that have active players. It also provides scheduling and allocation strategies aimed at controlling cost, and built-in metrics.",
+        "The cost is in your own time. Someone has to operate a cluster, apply upgrades and handle incidents. For a team of three, that person is usually a developer who would rather be shipping features, so choose Agones when you need its control, not because it is free to download."
+      ]
+    },
+    {
+      "h2": "Decide who hosts the server",
+      "paras": [
+        "Hosting responsibility changes more than the bill. If you run all servers, you control version, rules and anti-cheat, and you carry every cost. If players can run their own, you hand out server files, and Steamworks warns that special considerations may apply when giving the community access to dedicated server files, with a separate page about distributing your dedicated server. Community servers also feed Steam's unified server browser, which players can open from the client or the overlay.",
+        "Many indie games end up with a hybrid: official servers for matchmaking and ranked play, community servers for everything else. If you choose that, decide early which features depend on official servers, such as progression, and keep them in a backend. Our guide to [building a multiplayer game backend](/guides/how-to-build-a-multiplayer-game-backend) covers that split."
+      ]
+    },
+    {
+      "h2": "Plan for attacks and abuse",
+      "paras": [
+        "A public game server has a public address, and some players will try to knock it over. Plan protection before launch, not after the first outage. Providers differ in what they include: OVHcloud says anti-DDoS is on by default across products, TCPShield describes itself as a DDoS protection platform for Minecraft and gaming networks with a free entry option, and Gcore's homepage cites 200 Tbps of DDoS filtering capacity.",
+        "Our ranking of [DDoS protection for game servers](/software/best-ddos-protection-for-game-servers) compares these and others. Whatever you choose, keep the real server address private where you can, put a proxy or protection layer in front of it, and rate-limit connection attempts in your own code, since a protection service does not fix a server that trusts every packet."
+      ]
+    },
+    {
+      "h2": "A staged rollout that keeps risk low",
+      "paras": [
+        "Resist solving for a million players while you have fifty testers. Move through these stages and only advance when the current one is boring."
+      ],
+      "list": [
+        "Local: run server and two clients on your machine with the server in headless mode.",
+        "Single host: deploy to one rented Linux machine, invite a small closed group, and watch CPU use, memory and logs for a week.",
+        "Soak test: add scripted bot clients until the server shows strain, and record the player count where that happens.",
+        "Regions: add a second location, or move to an orchestration service, once players from far away report lag.",
+        "Protection: enable attack filtering and alerts before any public announcement.",
+        "Launch review: write down the cost per concurrent player from the soak test, and compare it with what each player earns you."
+      ],
+      "ordered": true
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a different Godot binary for a server?",
+      "a": "No. According to the Godot documentation, since version 4.0 you can run any binary with the --headless argument or export the project as a dedicated server. The docs recommend an export template binary over the editor binary for production, because it is smaller and more optimized."
+    },
+    {
+      "q": "What does Strip Visuals do in a Godot server export?",
+      "a": "It exports a resource with textures and materials replaced by placeholder classes that keep only the image size, which reduces package size. The Godot page recommends it by default, and says to use Keep for images the server must read, such as one used to generate collision."
+    },
+    {
+      "q": "Can a small team run Agones?",
+      "a": "It can, but Agones runs on Kubernetes, so someone must operate a cluster. The project is open source and runs any Linux game server, yet the operating work is real. Teams without that experience often prefer a hosted orchestration service that bills by usage."
+    },
+    {
+      "q": "Should players be allowed to host their own servers?",
+      "a": "It depends on the game. Steamworks says dedicated servers suit competitive games and persistent worlds, and that community hosting needs care when distributing server files. Letting players host reduces your costs but gives you less control over rules, so many games keep ranked play on official servers."
+    },
+    {
+      "q": "When should I add DDoS protection?",
+      "a": "Before the first public test that publishes a server address. Some hosts include filtering by default, and dedicated services offer more. Keeping the origin address private, putting protection in front of it and limiting connection attempts in your own code costs little compared with an outage during launch week."
+    }
+  ],
+  "related_categories": [
+    "best-dedicated-game-server-orchestration-platforms",
+    "best-ddos-protection-for-game-servers"
+  ],
+  "related_guides": [
+    "how-to-build-a-multiplayer-game-backend",
+    "how-to-choose-a-game-engine",
+    "how-to-set-up-anti-cheat-for-a-multiplayer-game"
+  ],
+  "sources": [
+    {
+      "title": "Exporting for dedicated servers",
+      "url": "https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_dedicated_servers.html",
+      "publisher": "Godot Engine documentation"
+    },
+    {
+      "title": "About the Dedicated Server package",
+      "url": "https://docs.unity3d.com/Packages/com.unity.dedicated-server@1.0/manual/index.html",
+      "publisher": "Unity Technologies"
+    },
+    {
+      "title": "Game Servers (Steamworks Documentation)",
+      "url": "https://partner.steamgames.com/doc/features/multiplayer/game_servers",
+      "publisher": "Valve"
+    },
+    {
+      "title": "Agones overview",
+      "url": "https://agones.dev/site/docs/overview/",
+      "publisher": "Agones project"
+    },
+    {
+      "title": "Edgegap pricing",
+      "url": "https://edgegap.com/pricing",
+      "publisher": "Edgegap"
+    },
+    {
+      "title": "Gameye",
+      "url": "https://gameye.com/",
+      "publisher": "Gameye"
+    },
+    {
+      "title": "OVHcloud",
+      "url": "https://ovhcloud.com",
+      "publisher": "OVHcloud"
+    }
+  ]
+}
