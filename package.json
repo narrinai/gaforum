@@ -1,0 +1,11 @@
+{
+  "name": "ga-forum",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:forum": "node netlify/functions/lib/forum/test/run.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^9.1.6"
+  }
+}

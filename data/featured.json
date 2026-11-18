@@ -1,0 +1,13 @@
+[
+  {"name": "TechCrunch", "domain": "techcrunch.com", "file": "/images/featured/techcrunch.svg", "source": "https://techcrunch.com/ (header logo lockup, wp-content/uploads/2026/05/tc-lockup-hp.svg; white fill set to black)"},
+  {"name": "WIRED", "domain": "wired.com", "file": "/images/featured/wired.svg", "source": "https://www.wired.com/ (header logo, verso/static/wired-us/assets/logo.svg)"},
+  {"name": "CNET", "domain": "cnet.com", "file": "/images/featured/cnet.svg", "source": "https://www.cnet.com/ (inline header SVG, site-branding__logo)"},
+  {"name": "TechRadar", "domain": "techradar.com", "file": "/images/featured/techradar.svg", "source": "https://www.techradar.com/ (inline masthead SVG; light text fill set to dark)"},
+  {"name": "Engadget", "domain": "engadget.com", "file": "/images/featured/engadget.svg", "source": "https://www.engadget.com/ (header logo, img/engadget-logo-RGB-default.svg)"},
+  {"name": "Eurogamer", "domain": "eurogamer.net", "file": "/images/featured/eurogamer.svg", "source": "https://www.eurogamer.net/ (inline header SVG)"},
+  {"name": "Digital Spy", "domain": "digitalspy.com", "file": "/images/featured/digital-spy.svg", "source": "https://www.digitalspy.com/ (header logo, _assets/design-tokens/digitalspy/static/images/logos/logo.9d2bac0.svg)"},
+  {"name": "Slashdot", "domain": "slashdot.org", "file": "/images/featured/slashdot.svg", "source": "https://slashdot.org/ (logo referenced in site CSS, a.fsdn.com/sd/slashdot_tm.svg; white fill set to Slashdot teal #006A65)"},
+  {"name": "VG247", "domain": "vg247.com", "file": "/images/featured/vg247.svg", "source": "https://www.vg247.com/ (inline header SVG; white fill set to black)"},
+  {"name": "Nintendo Life", "domain": "nintendolife.com", "file": "/images/featured/nintendo-life.svg", "source": "https://www.nintendolife.com/ (inline header SVG; light grey 'nintendo' fill set to dark grey)"},
+  {"name": "Nintendo World Report", "domain": "nintendoworldreport.com", "file": "/images/featured/nintendo-world-report.png", "source": "https://www.nintendoworldreport.com/ (footer logo, img/footerLogo.png, transparent PNG 234x25)"}
+]

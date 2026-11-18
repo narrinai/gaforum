@@ -1,0 +1,24 @@
+{
+  "authors": [
+    {
+      "slug": "editorial-team",
+      "name": "GA Forum editorial team",
+      "role": "Research and editing",
+      "avatar": "/images/brand/mark.svg",
+      "short": "The team that researches, writes and updates every ranking, comparison and guide on GA Forum. Drafting is AI-assisted; every vendor claim is checked against the vendor's own pages.",
+      "bio": "The GA Forum editorial team researches and writes the rankings, comparisons, guides and data pages on this site. Research and drafting are AI-assisted. Every product claim is checked against the vendor's own website, documentation or pricing page on the date shown on the page, and the sources are listed under each entry. The team also hosts the opening posts of the starter threads in the forum.",
+      "focus": ["Game development tools", "Livestreaming software", "Esports platforms", "Source checking"]
+    },
+    {
+      "slug": "sebastiaan-smits",
+      "name": "Sebastiaan Smits",
+      "role": "Publisher and editor",
+      "location": "Utrecht, Netherlands",
+      "avatar": "/images/authors/sebastiaan-smits.jpg",
+      "linkedin": "https://www.linkedin.com/in/sebastiaan-smits-59623626/",
+      "short": "Publisher of GA Forum and editorially responsible for what the site publishes.",
+      "bio": "Sebastiaan Smits publishes GA Forum through G-Cas B.V. in Utrecht and is editorially responsible for the rankings, comparisons, guides and research pages. He sets the editorial rules (facts only from opened sources, order as the verdict, a written weakness for every product) and decides on corrections.",
+      "focus": ["Editorial standards", "Software research", "Disclosure and corrections"]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+ "generated": "2026-11-18",
+ "boards": [
+  {
+   "slug": "games",
+   "name": "Game development tools",
+   "description": "Engines, backends, netcode, anti-cheat, QA, LiveOps and the business side of shipping games.",
+   "hub": "/software/games"
+  },
+  {
+   "slug": "livestreaming",
+   "name": "Livestreaming",
+   "description": "Broadcast software, overlays, bots, VTuber setups, multistreaming and live video for events.",
+   "hub": "/software/livestreaming"
+  },
+  {
+   "slug": "esports",
+   "name": "Esports",
+   "description": "Tournament platforms, data feeds, coaching tools, team management and broadcast production.",
+   "hub": "/software/esports"
+  },
+  {
+   "slug": "general",
+   "name": "General",
+   "description": "Everything else: hardware, launchers, mods, community tools and questions about this site.",
+   "hub": "/software"
+  }
+ ],
+ "threads": [
+  {
+   "id": "best-2d-game-engines",
+   "board": "games",
+   "title": "Discuss: Best 2D Game Engines",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of 2D game engines puts GameMaker first, Godot second and Defold third, out of 10 products we checked on their own pages.</p><p>A ranking of engines and frameworks built for flat games: sprites, tilemaps, scene tools and the platforms each one can ship to.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best 2D Game Engines in 2026",
+     "url": "/software/best-2d-game-engines"
+    }
+   ]
+  },
+  {
+   "id": "best-3d-game-engines-for-small-studios",
+   "board": "games",
+   "title": "Discuss: Best 3D Game Engines for Small Studios",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 3D game engines for small studios and landed on Unity, then Godot, then Flax Engine.</p><p>Twelve 3D engines and web 3D frameworks compared for teams of two to thirty, with license and royalty terms as the deciding test.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best 3D Game Engines for Small Studios in 2026",
+     "url": "/software/best-3d-game-engines-for-small-studios"
+    }
+   ]
+  },
+  {
+   "id": "best-community-management-tools-for-game-studios",
+   "board": "games",
+   "title": "Discuss: Best Community Management Tools for Game Studios",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Discord tops our list of community management tools for game studios, with Khoros and Discourse close behind. 12 products made the cut.</p><p>Community management tools give game studios a place to talk with players, watch social chatter and route feedback to the team.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Community Management Tools for Game Studios in 2026",
+     "url": "/software/best-community-management-tools-for-game-studios"
+    }
+   ]
+  },
+  {
+   "id": "best-enterprise-live-streaming-platforms",
+   "board": "livestreaming",
+   "title": "Discuss: Best Enterprise Live Streaming Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 enterprise live streaming platforms and ordered them for fit: Vbrick at number one, Kaltura at two, Brightcove at three.</p><p>Enterprise live streaming platforms broadcast town halls and product launches to large audiences with security controls, analytics and network-friendly delivery.</p><p>If you have shipped with one of them, what broke first, and what would you rank higher?</p>",
+   "related": [
+    {
+     "title": "Best Enterprise Live Streaming Platforms in 2026",
+     "url": "/software/best-enterprise-live-streaming-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-game-analytics-software",
+   "board": "games",
+   "title": "Discuss: Best Game Analytics Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of game analytics software puts GameAnalytics first, Unity Gaming Services second and Amplitude third, out of 10 products we checked on their own pages.</p><p>Game analytics software tracks retention, revenue per player and funnels from engine SDKs, so studios can tune design and monetization after launch.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Game Analytics Software in 2026",
+     "url": "/software/best-game-analytics-software"
+    }
+   ]
+  },
+  {
+   "id": "best-game-engines-for-mobile-games",
+   "board": "games",
+   "title": "Discuss: Best Game Engines for Mobile Games",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 11 game engines for mobile games and landed on Unity, then Solar2D, then Defold.</p><p>Twelve engines compared for iOS and Android games, judged on listed targets, store-service support, monetization features and cost.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Game Engines for Mobile Games in 2026",
+     "url": "/software/best-game-engines-for-mobile-games"
+    }
+   ]
+  },
+  {
+   "id": "best-game-payment-and-web-shop-platforms",
+   "board": "games",
+   "title": "Discuss: Best Game Payment and Web Shop Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Xsolla tops our list of game payment and web shop platforms, with Appcharge and Coda Payments close behind. 11 products made the cut.</p><p>Compare platforms that let game studios sell in-game items and games through their own web stores, with tax, payments and merchant of record handled.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Game Payment and Web Shop Platforms in 2026",
+     "url": "/software/best-game-payment-and-web-shop-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-game-qa-and-test-automation-tools",
+   "board": "games",
+   "title": "Discuss: Best Game QA and Test Automation Tools",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 game QA and test automation tools and ordered them for fit: AltTester at number one, modl.ai at two, Appium at three.</p><p>Game QA and test automation tools drive builds through engine-aware scripts, AI agents, real device clouds and managed testers to catch bugs before players do.</p><p>Tell us where we got the order wrong, and what the vendor pages do not mention.</p>",
+   "related": [
+    {
+     "title": "Best Game QA and Test Automation Tools in 2026",
+     "url": "/software/best-game-qa-and-test-automation-tools"
+    }
+   ]
+  },
+  {
+   "id": "best-live-captioning-and-translation-for-livestreams",
+   "board": "livestreaming",
+   "title": "Discuss: Best Live Captioning and Translation Tools for Livestreams",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of live captioning and translation tools for livestreams puts KUDO first, Wordly second and Ai-Media third, out of 10 products we checked on their own pages.</p><p>Live captioning and translation tools turn a stream&#x27;s speech into on-screen text or interpreted audio in other languages while the event is running.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Live Captioning and Translation Tools for Livestreams in 2026",
+     "url": "/software/best-live-captioning-and-translation-for-livestreams"
+    }
+   ]
+  },
+  {
+   "id": "best-live-production-software",
+   "board": "livestreaming",
+   "title": "Discuss: Best Live Production Software",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 live production software and landed on Wirecast, then Blackmagic ATEM, then vMix.</p><p>Live production software switches between cameras, adds graphics and audio, and sends a finished show to a stream, for events, broadcasts and esports.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Live Production Software in 2026",
+     "url": "/software/best-live-production-software"
+    }
+   ]
+  },
+  {
+   "id": "best-live-streaming-apis-and-sdks",
+   "board": "livestreaming",
+   "title": "Discuss: Best Live Streaming APIs and SDKs",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Mux tops our list of live streaming APIs and SDKs, with Amazon IVS and api.video close behind. 13 products made the cut.</p><p>Live streaming APIs and SDKs give developers hosted video infrastructure to add live broadcasts, calls and interactive streams to apps and sites.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Live Streaming APIs and SDKs in 2026",
+     "url": "/software/best-live-streaming-apis-and-sdks"
+    }
+   ]
+  },
+  {
+   "id": "best-multiplayer-networking-sdks",
+   "board": "games",
+   "title": "Discuss: Best Multiplayer Networking SDKs",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>We went through 10 multiplayer networking SDKs and ordered them for fit: Photon at number one, Mirror at two, Fish-Networking at three.</p><p>Multiplayer networking SDKs give game engines the netcode, state synchronization, rooms and relay hosting needed to connect players without writing sockets from scratch.</p><p>What did setup really take, and did the pricing hold up once you scaled?</p>",
+   "related": [
+    {
+     "title": "Best Multiplayer Networking SDKs in 2026",
+     "url": "/software/best-multiplayer-networking-sdks"
+    }
+   ]
+  },
+  {
+   "id": "best-playtesting-platforms",
+   "board": "games",
+   "title": "Discuss: Best Playtesting Platforms",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Our ranking of playtesting platforms puts PlaytestCloud first, Steam Playtest second and Lookback third, out of 11 products we checked on their own pages.</p><p>Services and free tools for putting a game build in front of remote testers, from player-panel research to simple build delivery.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Playtesting Platforms in 2026",
+     "url": "/software/best-playtesting-platforms"
+    }
+   ]
+  },
+  {
+   "id": "best-version-control-for-game-development",
+   "board": "games",
+   "title": "Discuss: Best Version Control for Game Development",
+   "created": "2026-11-18T08:00:00Z",
+   "pinned": false,
+   "author": "GA Forum editorial team",
+   "kind": "ranking",
+   "body_html": "<p>Which of these do you actually run? We ranked 10 version control for game development and landed on Unity Version Control, then Anchorpoint, then Perforce Helix Core.</p><p>Version control systems that cope with large art files, binary locking and mixed artist and programmer teams, ranked from vendor documentation.</p><p>Using something that is not on the list? Name it and say why.</p>",
+   "related": [
+    {
+     "title": "Best Version Control for Game Development in 2026",
+     "url": "/software/best-version-control-for-game-development"
+    }
+   ]
+  }
+ ]
+}
