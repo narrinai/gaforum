@@ -1,26 +1,68 @@
 {
   "brand": "GA Forum",
   "domain": "https://ga-forum.com",
-  "tagline": "Software research and discussion for game makers, streamers and esports teams",
-  "description": "GA Forum ranks and compares the software behind games, livestreams and esports: engines, backends, anti-cheat, streaming tools, tournament platforms and more, with sourced facts and an open forum.",
+  "tagline": "Independent software reviews, comparisons and an open forum",
+  "description": "GA Forum reviews and compares business and creator software with sourced facts, head-to-head comparisons, guides and an open forum. First up: tools for game development, livestreaming and esports.",
   "company": "G-Cas B.V.",
   "address": "Fladderiepvliet 3, 3545 AJ Utrecht, Netherlands",
   "kvk": "42008661",
   "email": "hello@ga-forum.com",
   "nav": [
-    {"href": "/software", "label": "Software Reviews"},
-    {"href": "/compare", "label": "Compare"},
-    {"href": "/guides", "label": "Guides"},
-    {"href": "/research", "label": "Research"},
-    {"href": "/forum", "label": "Forum"},
-    {"href": "/about", "label": "About"}
+    {
+      "href": "/software",
+      "label": "Software Reviews"
+    },
+    {
+      "href": "/compare",
+      "label": "Compare"
+    },
+    {
+      "href": "/guides",
+      "label": "Guides"
+    },
+    {
+      "href": "/research",
+      "label": "Research"
+    },
+    {
+      "href": "/forum",
+      "label": "Forum"
+    },
+    {
+      "href": "/about",
+      "label": "About"
+    }
   ],
   "hubs": {
-    "games": {"name": "Game development and publishing", "short": "Games", "groups": ["Game development", "Game business", "Gaming-adjacent"], "board": "games",
-      "intro": "Engines, backends, netcode, anti-cheat, QA, LiveOps, monetization and the player-facing tools that keep a game running after launch."},
-    "livestreaming": {"name": "Livestreaming and creator tools", "short": "Livestreaming", "groups": ["Streaming and creators", "Live streaming (business)"], "board": "livestreaming",
-      "intro": "Broadcast software, multistreaming, overlays, chat bots, VTuber rigs and the enterprise video platforms that carry company events."},
-    "esports": {"name": "Esports operations", "short": "Esports", "groups": ["Esports"], "board": "esports",
-      "intro": "Tournament platforms, esports data feeds, coaching and analytics tools, team management and broadcast production for competitive play."}
+    "games": {
+      "name": "Game development and publishing",
+      "short": "Games",
+      "groups": [
+        "Game development",
+        "Game business",
+        "Gaming-adjacent"
+      ],
+      "board": "games",
+      "intro": "Engines, backends, netcode, anti-cheat, QA, LiveOps, monetization and the player-facing tools that keep a game running after launch."
+    },
+    "livestreaming": {
+      "name": "Livestreaming and creator tools",
+      "short": "Livestreaming",
+      "groups": [
+        "Streaming and creators",
+        "Live streaming (business)"
+      ],
+      "board": "livestreaming",
+      "intro": "Broadcast software, multistreaming, overlays, chat bots, VTuber rigs and the enterprise video platforms that carry company events."
+    },
+    "esports": {
+      "name": "Esports operations",
+      "short": "Esports",
+      "groups": [
+        "Esports"
+      ],
+      "board": "esports",
+      "intro": "Tournament platforms, esports data feeds, coaching and analytics tools, team management and broadcast production for competitive play."
+    }
   }
 }

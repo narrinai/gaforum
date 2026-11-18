@@ -46,3 +46,6 @@ Push yourself after the gates pass; never push a failed build.
 
 ## Forms
 Netlify forms `get-listed` and `contact` (honeypot `bot-field`, action /thanks). `netlify/functions/submission-created.mjs` schedules an auto-reply through SendGrid from hello@ga-forum.com (optional EP_INGEST_KEY sends the lead to the shared tracker as site "gaf").
+
+## Scope of site-level copy (Seb, 18 Nov 2026)
+GA Forum will expand beyond gaming. Site-level meta (homepage title/description, data/site.json tagline and description, /software, /about, /guides, WebSite/Organization schema) stays category-neutral ("software reviews, comparisons and forum"); gaming is named only as the current first focus. Category pages and hubs stay specific. Main nav label for /software is "Software Reviews".

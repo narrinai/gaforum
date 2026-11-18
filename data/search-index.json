@@ -1,14 +1,14 @@
 [
 {
 "url": "/",
-"title": "GA Forum: software rankings for game developers, streamers and esports",
-"description": "GA Forum ranks and compares the software behind games, livestreams and esports: engines, backends, anti-cheat, streaming tools, tournament platforms and more, with sourced facts and an open forum.",
+"title": "GA Forum: independent software reviews, comparisons and forum",
+"description": "GA Forum reviews and compares business and creator software with sourced facts, head-to-head comparisons, guides and an open forum. First up: tools for game development, livestreaming and esports.",
 "type": "Home"
 },
 {
 "url": "/software",
-"title": "Software rankings for games, streaming and esports",
-"description": "All GA Forum software rankings: game development, livestreaming and esports tools, ordered by fit with sources listed.",
+"title": "Software reviews and rankings",
+"description": "All GA Forum software reviews and rankings, grouped by category and ordered by fit, with sources listed.",
 "type": "Hub"
 },
 {
@@ -944,7 +944,7 @@
 {
 "url": "/guides",
 "title": "Guides",
-"description": "Practical guides for game developers, streamers and esports organizers.",
+"description": "Practical guides for choosing and running software, with sources listed.",
 "type": "Hub"
 },
 {
@@ -1070,7 +1070,7 @@
 {
 "url": "/about",
 "title": "About GA Forum",
-"description": "GA Forum is an independent software research site and forum for game developers, streamers and esports organizers.",
+"description": "GA Forum is an independent software review site and forum. It started with software for game development, livestreaming and esports.",
 "type": "Page"
 },
 {

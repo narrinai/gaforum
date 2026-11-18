@@ -522,7 +522,7 @@ def build_hubs():
 <div class="wrap">{secs}</div>'''
     ld = {'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Software rankings', 'url': DOMAIN + '/software',
           'hasPart': [{'@type': 'Article', 'headline': c['title'], 'url': f'{DOMAIN}/software/{c["slug"]}'} for c in CATS]}
-    page('/software', 'Software rankings for games, streaming and esports', 'All GA Forum software rankings: game development, livestreaming and esports tools, ordered by fit with sources listed.', body, '/software', [bld, ld], 'Hub')
+    page('/software', 'Software reviews and rankings', 'All GA Forum software reviews and rankings, grouped by category and ordered by fit, with sources listed.', body, '/software', [bld, ld], 'Hub')
     for h, v in HUBS.items():
         cs = [c for c in CATS if c['hub'] == h]
         groups = {}
@@ -745,13 +745,13 @@ def build_home():
 <div><div class="sec__head"><h2>Head-to-head</h2><a href="/compare">All comparisons</a></div><ul class="linklist">{cmps}</ul>
 <div class="sec__head"><h2>In the forum</h2><a href="/forum">Forum</a></div><ul class="linklist">{threads}</ul></div></div></section>
 <section class="sec sec--ink"><div class="wrap narrow"><h2>How we work</h2><p>Every product on a ranking was checked on its own website, documentation or pricing page on the date shown, and those pages are listed under the entry. The order is our verdict, each product gets a written weakness, and there are no scores out of ten. {DISCLOSURE_LINE}</p><p><a href="/editorial-process">Read the methodology</a></p></div></section>'''
-    page('/', 'GA Forum: software rankings for game developers, streamers and esports', SITE['description'], body, None, ld, 'Home')
+    page('/', 'GA Forum: independent software reviews, comparisons and forum', SITE['description'], body, None, ld, 'Home')
 
 
 # ---------------------------------------------------------------- core pages
 
 def build_core():
-    simple('/about', 'About GA Forum', 'GA Forum is an independent software research site and forum for game developers, streamers and esports organizers.', f'''
+    simple('/about', 'About GA Forum', 'GA Forum is an independent software review site and forum. It started with software for game development, livestreaming and esports.', f'''
 <p class="lede">GA Forum is an independent research site and discussion forum about the software used to make games, run livestreams and organize esports.</p>
 <p>We publish rankings of 10 to 14 products per niche, head-to-head comparisons, alternatives pages, practical guides and data pages built from published sources. Each ranking names the reader it is written for, puts the products in order, and says what every product does badly. Next to the research sits a <a href="/forum">forum</a> with boards for game development tools, livestreaming and esports, where readers can push back on our order.</p>
 <h2>Who it is for</h2><p>Indie and mid-size studio leads, technical directors and producers; streamers, editors and the people who build their setups; tournament organizers, team managers and broadcast crews; and company event teams who need live video that holds up.</p>
@@ -1009,7 +1009,7 @@ def main():
              [card(f'/compare/{c["slug"]}', 'Head-to-head', c['title'], c['description']) for c in COMPARES], '/compare', 'Hub')
     for g in GUIDES:
         build_guide(g)
-    list_hub('/guides', 'Guides', 'Practical guides for game developers, streamers and esports organizers.', 'Playbooks, checklists and field guides for the decisions behind the software.',
+    list_hub('/guides', 'Guides', 'Practical guides for choosing and running software, with sources listed.', 'Playbooks, checklists and field guides for the decisions behind the software.',
              [card(f'/guides/{g["slug"]}', g.get('kind', 'Guide'), g['title'], g['description']) for g in GUIDES], '/guides', 'Hub')
     for r in RESEARCH:
         build_research(r)

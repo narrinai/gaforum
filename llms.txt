@@ -1,6 +1,6 @@
 # GA Forum
 
-> GA Forum ranks and compares the software behind games, livestreams and esports: engines, backends, anti-cheat, streaming tools, tournament platforms and more, with sourced facts and an open forum.
+> GA Forum reviews and compares business and creator software with sourced facts, head-to-head comparisons, guides and an open forum. First up: tools for game development, livestreaming and esports.
 
 GA Forum (https://ga-forum.com) is an independent software research site with a discussion forum. Every ranking lists the vendor pages checked under each product and shows a last-reviewed date. Vendors can pay for more visibility; how that works is explained in our disclosure, linked above every ranking. No commission is earned on clicks or purchases, and we do not work as an affiliate.
 
