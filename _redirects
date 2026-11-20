@@ -21,13 +21,13 @@
 /archive/index.php/f-1.html  /software  301
 # (paged lists f-N-p-N.html and mid-segment wildcards are not possible in _redirects; they fall into the splat below)
 
-# --- threads and posts (6,154 distinct t= ids, 22,686 archive t- pages, 6,519 p= ids): all to the history page
-/showthread.php     /history  301
-/archive/index.php  /history  301
+# --- threads and posts (6,154 distinct t= ids, 22,686 archive t- pages, 6,519 p= ids): answer 410 Gone (the previous owner's forum threads do not exist here; 410 deindexes faster than a soft-404 redirect to /history)
+/showthread.php  /410.html  410
+/archive/index.php  /410.html  410
 # next line covers t-N.html, f-N-p-N.html and anything else under /archive/
-/archive/*          /history  301
-/printthread.php    /history  301
-/showpost.php       /history  301
+/archive/*  /410.html  410
+/printthread.php  /410.html  410
+/showpost.php  /410.html  410
 /index.php          /  301
 
 # --- member, messaging, posting, admin-type scripts: no equivalent, answer 404 (not 301: avoids soft-404 signals)
@@ -51,7 +51,7 @@
 /adview.php         /404.html  404
 /adimage.php        /404.html  404
 /cron.php           /404.html  404
-/forum/showthread.php  /history  301
+/forum/showthread.php  /410.html  410
 # (no /forum/* catch-all: /forum is the new forum, rendered by netlify/functions/forum-page.mjs)
 
 # --- WordPress era (2013-2017) and parking leftovers
