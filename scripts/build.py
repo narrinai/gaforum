@@ -267,7 +267,10 @@ def header_html(active=None):
 <main id="main">'''
 
 
-def footer_html():
+NETWORK_LINE = '<p><a href="https://freevector.co/">FreeVector - Independent rankings of vector, design and AI image tools</a></p>\n'
+
+
+def footer_html(url=None):
     hubs = ''.join(f'<li><a href="/software/{h}">{e(v["short"])}</a></li>' for h, v in HUBS.items())
     return f'''</main>
 <footer class="site-foot">
@@ -281,7 +284,7 @@ def footer_html():
 </div>
 <div class="foot-legal">
 <p>{DISCLOSURE_LINE}</p>
-<p>&copy; {YEAR} GA Forum · {e(SITE['company'])} · {e(SITE['address'])} · KvK {e(SITE['kvk'])} · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/disclosure">Disclosure</a> · <a href="/llms.txt">llms.txt</a></p>
+{NETWORK_LINE if url == '/' else ''}<p>&copy; {YEAR} GA Forum · {e(SITE['company'])} · {e(SITE['address'])} · KvK {e(SITE['kvk'])} · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a> · <a href="/disclosure">Disclosure</a> · <a href="/llms.txt">llms.txt</a></p>
 </div>
 </div>
 </footer>
@@ -325,7 +328,7 @@ def write(url, content, title, desc, ptype, index=True):
 
 def page(url, title, desc, body, active=None, ld=None, ptype='Page', index=True, og=None):
     lds = ''.join(jsonld(x) for x in (ld or []) if x)
-    write(url, head_html(url, title, desc, not index, lds, og) + header_html(active) + body + footer_html(), title, desc, ptype, index)
+    write(url, head_html(url, title, desc, not index, lds, og) + header_html(active) + body + footer_html(url), title, desc, ptype, index)
 
 
 def simple(url, title, desc, inner, active=None, index=True, ld=None, eyebrow='', crumb=True):
