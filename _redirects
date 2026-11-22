@@ -21,20 +21,20 @@
 /archive/index.php/f-1.html  /software  301
 # (paged lists f-N-p-N.html and mid-segment wildcards are not possible in _redirects; they fall into the splat below)
 
-# --- threads and posts (6,154 distinct t= ids, 22,686 archive t- pages, 6,519 p= ids): answer 410 Gone (the previous owner's forum threads do not exist here; 410 deindexes faster than a soft-404 redirect to /history)
-/showthread.php  /410.html  410
-/archive/index.php  /410.html  410
+# --- threads and posts (6,154 distinct t= ids, 22,686 archive t- pages, 6,519 p= ids): 301 to /forum (Seb, 22 Nov 2026: never 404 or 410 on URLs that were indexed; send them somewhere useful)
+/showthread.php  /forum  301
+/archive/index.php  /forum  301
 # next line covers t-N.html, f-N-p-N.html and anything else under /archive/
-/archive/*  /410.html  410
-/printthread.php  /410.html  410
-/showpost.php  /410.html  410
+/archive/*  /forum  301
+/printthread.php  /forum  301
+/showpost.php  /forum  301
 /index.php          /  301
 
 # --- member, messaging, posting, admin-type scripts: no equivalent, answer 404 (not 301: avoids soft-404 signals)
-/member.php         /404.html  404
-/profile.php        /404.html  404
+/member.php  /forum  301
+/profile.php  /forum  301
 /private.php        /404.html  404
-/search.php         /404.html  404
+/search.php  /forum  301
 /newreply.php       /404.html  404
 /newthread.php      /404.html  404
 /editpost.php       /404.html  404
@@ -51,7 +51,7 @@
 /adview.php         /404.html  404
 /adimage.php        /404.html  404
 /cron.php           /404.html  404
-/forum/showthread.php  /410.html  410
+/forum/showthread.php  /forum  301
 # (no /forum/* catch-all: /forum is the new forum, rendered by netlify/functions/forum-page.mjs)
 
 # --- WordPress era (2013-2017) and parking leftovers
@@ -62,16 +62,16 @@
 /wp-json/*          /404.html  404
 /xmlrpc.php         /404.html  404
 /comments/feed     /404.html  404
-/author/*           /404.html  404
-/category/*         /404.html  404
-/can-a-latex-mattress-topper-help-you   /404.html  404
-/advice-assumptions-and-relief-for-back-pain   /404.html  404
-/get-organized-for-the-start-of-the-new-school-year   /404.html  404
-/learn-problem-solving-at-an-early-age-through-solving-jigsaw-puzzles   /404.html  404
-/my-two-cents-worth-on-home-improvement   /404.html  404
-/the-myth-of-no-expectations   /404.html  404
-/family-life/*      /404.html  404
-/hello-world        /404.html  404
+/author/*  /software  301
+/category/*  /software  301
+/can-a-latex-mattress-topper-help-you  /  301
+/advice-assumptions-and-relief-for-back-pain  /  301
+/get-organized-for-the-start-of-the-new-school-year  /  301
+/learn-problem-solving-at-an-early-age-through-solving-jigsaw-puzzles  /  301
+/my-two-cents-worth-on-home-improvement  /  301
+/the-myth-of-no-expectations  /  301
+/family-life/*  /software  301
+/hello-world  /  301
 /parking.php        /404.html  404
 /px.js              /404.html  404
 /px.gif             /404.html  404
