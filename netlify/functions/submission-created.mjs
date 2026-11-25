@@ -132,8 +132,10 @@ export function pitchBlocks(name, opening, european = true, data = undefined) {
 
     section("A free listing works like this:", [
       "Your product in one category, at #11 or lower, with the same full entry every other product gets",
-      `In return: a dofollow link from your site to your listing page on ${NAME}, with a sentence pointing to it. I send you the exact text once you choose`,
-      "Plus a LinkedIn connection with me: send a connection request to [Sebastiaan Smits on LinkedIn](https://www.linkedin.com/in/sebastiaan-smits-59623626)",
+      "In return, three steps in this order:",
+      "1. Like my latest LinkedIn post: [this post](https://www.linkedin.com/feed/update/urn:li:activity:7531326108739235841/)",
+      "2. Send me a connection request: [Sebastiaan Smits on LinkedIn](https://www.linkedin.com/in/sebastiaan-smits-59623626)",
+      `3. A dofollow link from your site to your listing page on ${NAME}, with a sentence pointing to it. I send you the exact text once you choose`,
       "That is one page against one link. Every further page, also on our other sites, is a paid position from the same ladder",
     ]),
 
