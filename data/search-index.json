@@ -1092,6 +1092,12 @@
 "type": "Page"
 },
 {
+"url": "/partners",
+"title": "Partners",
+"description": "Sites published by G-Cas B.V. alongside GA Forum.",
+"type": "Page"
+},
+{
 "url": "/get-listed",
 "title": "Get your product listed",
 "description": "Vendors: ask GA Forum to consider your product for a ranking, an alternatives page or a comparison.",

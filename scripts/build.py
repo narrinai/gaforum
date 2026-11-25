@@ -174,7 +174,7 @@ def fmt_date(iso):
 
 def planned_urls():
     urls = {'/', '/software', '/compare', '/alternatives', '/guides', '/research', '/news', '/glossary', '/forum', '/about', '/history',
-            '/editorial-process', '/disclosure', '/get-listed', '/contact', '/authors', '/privacy', '/terms', '/search'}
+            '/editorial-process', '/disclosure', '/partners', '/get-listed', '/contact', '/authors', '/privacy', '/terms', '/search'}
     urls |= {f'/software/{h}' for h in HUBS}
     urls |= {f'/software/{c["slug"]}' for c in CATS}
     urls |= {f'/alternatives/{a["slug"]}' for a in ALTS}
@@ -763,7 +763,7 @@ def build_core():
 <h2>Who runs it</h2><p>GA Forum is published by {e(SITE['company'])} in Utrecht, the Netherlands. The <a href="/authors/editorial-team">editorial team</a> researches and writes the pages, with AI assistance; <a href="/authors/{EDITOR['slug']}">{e(EDITOR['name'])}</a> is the editor responsible for what appears.</p>
 <h2>The domain</h2><p>ga-forum.com has a long past. From 2004 it hosted the Gaming-Age Forums, the board that grew into NeoGAF before moving to neogaf.com. GA Forum continues on the domain as a software research site and is not connected to those communities or their operators. The details, with archive links, are on the <a href="/history">history page</a>.</p>
 <h2>Money</h2><p>{DISCLOSURE_LINE} Details are on the <a href="/disclosure">disclosure page</a>.</p>
-<h2>Contact</h2><p>Corrections, tips and questions: <a href="/contact">contact form</a> or {e(SITE['email'])}. Vendors who want to be considered: <a href="/get-listed">get listed</a>.</p>''', '/about', ld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'url': DOMAIN + '/about', 'publisher': ORG}])
+<h2>Contact</h2><p>Corrections, tips and questions: <a href="/contact">contact form</a> or {e(SITE['email'])}. Vendors who want to be considered: <a href="/get-listed">get listed</a>. Sister sites from the same publisher: <a href="/partners">partners</a>.</p>''', '/about', ld=[{'@context': 'https://schema.org', '@type': 'AboutPage', 'url': DOMAIN + '/about', 'publisher': ORG}])
 
     A = 'https://web.archive.org/web/'
     simple('/history', 'History of ga-forum.com', 'The story of ga-forum.com: the Gaming-Age Forums from 2004, NeoGAF, the redirect years, and GA Forum today.', f'''
@@ -805,6 +805,22 @@ def build_core():
 <h2>What we do not do</h2><ul><li>We do not earn commission on clicks or purchases and do not use affiliate links. Links to vendors carry rel="nofollow".</li><li>We do not sell the number one position in exchange for removing criticism.</li><li>We do not publish vendor-written text as our own.</li></ul>
 <h2>The forum</h2><p>Forum posts are written by their authors, not by GA Forum. Vendors who post must say who they work for. Undisclosed promotion is removed.</p>
 <h2>Questions</h2><p>Ask through the <a href="/contact">contact form</a>.</p>''', '/about')
+
+    PARTNER_SITES = [
+        ('The Knowledge Engineers', 'https://theknowledgeengineers.com/', 'An independent research institute that publishes market data and research on business technology.'),
+        ('The Interregnum', 'https://theinterregnum.net/', 'Independent software rankings plus public data on the shift from conventional to AI software.'),
+        ('Same Team Partners', 'https://sameteampartners.com/', 'Independent rankings, comparisons and guides on the software that runs teams: HR, communication, learning and engagement.'),
+        ('MiCandidate', 'https://micandidate.eu/', 'Independent research on HR, recruiting, talent, engagement, learning and performance software.'),
+        ('European Purpose', 'https://europeanpurpose.com/', 'European alternatives to US software, checked by where each vendor is established.'),
+        ('FreeVector', 'https://freevector.co/', 'Independent rankings of vector, design and AI image tools.'),
+        ('AI Tool Compare', 'https://aitoolcompare.ai/', 'Independent AI tool rankings, alternatives and research.'),
+        ('2 Steps Ahead', 'https://2stepsahead.ai/', 'AI search visibility for B2B software vendors.'),
+    ]
+    partner_li = ''.join(f'<li><a href="{u}" rel="noopener" target="_blank"><strong>{e(n)}</strong></a><br><span class="muted">{e(d)}</span></li>' for n, u, d in PARTNER_SITES)
+    simple('/partners', 'Partners', 'Sites published by G-Cas B.V. alongside GA Forum.', f'''
+<p class="lede">The publishers and projects we work with. Links here are editorial. They are not part of any ranking and do not move a product up or down a list.</p>
+<h2>Same publisher</h2><p>Sites published by {e(SITE['company'])}.</p><ul>{partner_li}</ul>
+<p class="muted">Placement on this page is not for sale. How GA Forum is funded is explained in the <a href="/disclosure">disclosure</a>.</p>''', '/about')
 
     form_css = ''
     simple('/get-listed', 'Get your product listed', 'Vendors: ask GA Forum to consider your product for a ranking, an alternatives page or a comparison.', f'''
