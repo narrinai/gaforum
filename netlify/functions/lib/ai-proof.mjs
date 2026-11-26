@@ -4,11 +4,11 @@
 export const METRICS_DATE = "23 Nov 2026";
 export const SITE_NAME = { ep: "European Purpose", tke: "The Knowledge Engineers", ti: "The Interregnum", atc: "AI Tool Compare", stp: "Same Team Partners", fv: "FreeVector", mic: "MiCandidate", gaf: "GA Forum" };
 export const METRICS = {
-  ep: { answers: 2200, approx: true },
+  ep: { answers: 2200, approx: true, date: "26 Nov 2026" },
   tke: { answers: 446 },
-  ti: { answers: 262, date: "16 Nov 2026" },
+  ti: { answers: 262 },
   atc: { answers: 466 },
-  stp: { answers: 53, focus: "mainly for HR topics" },
+  stp: { answers: 77, focus: "mainly for HR topics", date: "26 Nov 2026" },
 };
 export const PORTFOLIO = ["ep", "tke", "ti", "atc", "stp"];
 export const ALL_SITES = ["ep", "tke", "ti", "atc", "stp", "fv", "mic", "gaf"];
