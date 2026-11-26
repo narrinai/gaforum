@@ -136,7 +136,7 @@ export function pitchBlocks(name, opening, european = true, data = undefined) {
 
     section("In return, three steps in this order:", [
       "Like my latest LinkedIn post: [this post](https://www.linkedin.com/feed/update/urn:li:activity:7531326108739235841/)",
-      "Send me a connection request: [Sebastiaan Smits on LinkedIn](https://www.linkedin.com/in/sebastiaan-smits-59623626)",
+      "Follow me on LinkedIn: [Sebastiaan Smits on LinkedIn](https://www.linkedin.com/in/sebastiaan-smits-59623626)",
       `A dofollow link from your site to your listing page on ${NAME}, with a sentence pointing to it. I send you the exact text once you choose`,
     ]),
 
