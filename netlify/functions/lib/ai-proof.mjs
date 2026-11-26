@@ -27,8 +27,8 @@ export function proofParagraphs({ site }) {
   ];
 }
 
-export const endingParagraphs = (prod, n = "eight") => [
-  `Clients of [2 Steps Ahead](https://2stepsahead.ai), my GEO agency, get their listings on our ${n} sites for free. If you are interested, I can do a free audit of ${prod} in a call and walk you through it.`,
+export const endingParagraphs = (prod, n = "five") => [
+  `Clients of [2 Steps Ahead](https://2stepsahead.ai), my GEO agency, get a free #1 listing on our sites.\nI can also do a free audit of ${prod} with a walkthrough in a call, if you are interested.`,
 ];
 
 const FREE_MAIL = /^(gmail|googlemail|outlook|hotmail|live|msn|yahoo|icloud|me|proton|protonmail|pm|aol|gmx|web|yandex|mail|zoho)\./i;
