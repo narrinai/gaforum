@@ -820,6 +820,7 @@ def build_core():
     simple('/partners', 'Partners', 'Sites published by G-Cas B.V. alongside GA Forum.', f'''
 <p class="lede">The publishers and projects we work with. Links here are editorial. They are not part of any ranking and do not move a product up or down a list.</p>
 <h2>Same publisher</h2><p>Sites published by {e(SITE['company'])}.</p><ul>{partner_li}</ul>
+<h2>Featured on</h2><p class="partner-badges"><a href="https://launchigniter.com/product/ga-forum?ref=badge-ga-forum" target="_blank" rel="noopener"><img src="https://launchigniter.com/api/badge/ga-forum?theme=light" alt="Featured on LaunchIgniter" width="212" height="55" loading="lazy" /></a> <a href="https://saasgrow.app?ref=ga-forum.com" target="_blank" rel="noopener"><img src="https://saasgrow.app/api/badge?type=featured&amp;style=light" alt="GA Forum on SaaSGrow" width="240" height="54" loading="lazy" /></a></p>
 <p class="muted">Placement on this page is not for sale. How GA Forum is funded is explained in the <a href="/disclosure">disclosure</a>.</p>''', '/about')
 
     form_css = ''
