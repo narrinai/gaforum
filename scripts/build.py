@@ -230,6 +230,7 @@ def head_html(url, title, desc, noindex=False, ld='', og=None):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="msvalidate.01" content="84A768F7F37B9C56A0D12B571DAF7707">
 <title>{e(full_title)}</title>
 <meta name="description" content="{e(desc)}">
 {robots}
