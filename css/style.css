@@ -240,3 +240,5 @@ thead th{background:var(--tint);font-weight:700;white-space:nowrap}
 .namelink{color:inherit;text-decoration:none}.namelink:hover{color:var(--primary-ink)}
 .hero--page h1{max-width:20em}.hero--page .lede{max-width:46em}
 .hub-sec__more{margin:12px 0 0;font-weight:600}
+
+.partner-badges{display:flex;flex-wrap:wrap;gap:14px;align-items:center}.partner-badges a{display:inline-flex}.partner-badges img{max-width:100%;height:auto}
