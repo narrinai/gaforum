@@ -9,11 +9,35 @@ Writes: all pages (pretty URLs, Netlify serves /x for x.html), sitemap.xml, robo
 llms-full.txt, data/search-index.json, _redirects, netlify/functions/lib/shell.mjs and
 netlify/functions/lib/forum-seed.json (the forum function renders /forum/* with these).
 """
-import datetime, html, json, os, re, shutil, sys
+import datetime, hashlib, html, json, os, re, shutil, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(ROOT, 'data')
 TODAY = datetime.date.today().isoformat()
+# Lastmod ledger (27 Nov 2026, Seb): a URL's lastmod moves only when its own main content changes,
+# not on every build. New pages start from the date their file was first committed. Seeded from git.
+FP_PATH = os.path.join(D, 'page-fingerprints.json')
+FINGERPRINTS = json.load(open(FP_PATH)) if os.path.exists(FP_PATH) else {}
+LASTMODS = {}
+
+
+def body_hash(content):
+    """Hash of the page's own main content: header, footer and JSON-LD are left out, so a schema-only
+    date (news pages carry the build date) does not move a page's lastmod every day."""
+    s = content.split('</header>', 1)[-1].split('<footer', 1)[0]
+    s = re.sub(r'<script type="application/ld\+json">.*?</script>', '', s, flags=re.S)
+    return hashlib.sha1(s.encode('utf-8')).hexdigest()[:16]
+
+
+def git_date(path):
+    try:
+        r = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', path], cwd=ROOT,
+                           capture_output=True, text=True, timeout=30)
+        return r.stdout.strip() or TODAY
+    except Exception:
+        return TODAY
+
+
 LEGAL_DATE = '2026-11-18'
 YEAR = datetime.date.today().year
 
@@ -322,6 +346,15 @@ def write(url, content, title, desc, ptype, index=True):
     full = os.path.join(ROOT, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
     open(full, 'w', encoding='utf-8').write(content)
+    h = body_hash(content)
+    was = FINGERPRINTS.get(url)
+    if was and was.get('hash') == h:
+        LASTMODS[url] = was['lastmod']
+    elif was:
+        LASTMODS[url] = TODAY
+    else:
+        LASTMODS[url] = git_date(path)
+    FINGERPRINTS[url] = {'hash': h, 'lastmod': LASTMODS[url]}
     WRITTEN.add(path)
     if index:
         PAGES.append({'url': url, 'title': title, 'description': desc, 'type': ptype})
@@ -961,8 +994,13 @@ LEGACY_REDIRECTS = open(os.path.join(D, 'legacy-redirects.txt'), encoding='utf-8
 def build_site_files():
     idx = [{'url': p['url'], 'title': p['title'], 'description': p['description'], 'type': p['type']} for p in PAGES if not p.get('nosearch') and p['type'] not in ('404',)]
     json.dump(idx, open(os.path.join(D, 'search-index.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-    urls = ''.join(f'<url><loc>{DOMAIN}{p["url"]}</loc><lastmod>{TODAY}</lastmod></url>\n' for p in PAGES if p['url'] not in ('/search',))
+    # Forum threads (80, median 63 words) stay out of the sitemap until they carry more content; the
+    # forum hub and the boards stay in. Each URL carries its own lastmod from the ledger (27 Nov 2026).
+    sm = [p for p in PAGES if p['url'] != '/search' and not p['url'].startswith('/forum/t/')]
+    urls = ''.join(f'<url><loc>{DOMAIN}{p["url"]}</loc><lastmod>{LASTMODS.get(p["url"], TODAY)}</lastmod></url>\n' for p in sm)
     open(os.path.join(ROOT, 'sitemap.xml'), 'w').write(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{urls}</urlset>\n')
+    live = {u: v for u, v in sorted(FINGERPRINTS.items()) if u in LASTMODS}
+    json.dump(live, open(FP_PATH, 'w'), indent=1, sort_keys=True)
     bots = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-User', 'Claude-SearchBot', 'PerplexityBot', 'Perplexity-User', 'Google-Extended', 'Applebot-Extended', 'CCBot', 'Bingbot']
     robots = ('User-agent: *\nAllow: /\nDisallow: /search\nDisallow: /api/\nDisallow: /forum/admin\nDisallow: /forum/account\n\n'
               + ''.join(f'User-agent: {b}\nAllow: /\nDisallow: /api/\n\n' for b in bots) + f'Sitemap: {DOMAIN}/sitemap.xml\n')

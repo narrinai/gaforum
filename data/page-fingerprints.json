@@ -1,0 +1,774 @@
+{
+ "/": {
+  "hash": "9156f4c6e17997df",
+  "lastmod": "2026-11-22"
+ },
+ "/404": {
+  "hash": "e6be918c5e100b96",
+  "lastmod": "2026-11-18"
+ },
+ "/about": {
+  "hash": "967b30ab920d113f",
+  "lastmod": "2026-11-22"
+ },
+ "/alternatives": {
+  "hash": "16c4fdabf731caad",
+  "lastmod": "2026-11-24"
+ },
+ "/alternatives/amazon-gamelift": {
+  "hash": "86b04c01d1ed538f",
+  "lastmod": "2026-11-23"
+ },
+ "/alternatives/amazon-ivs": {
+  "hash": "ed5d73e497e728e8",
+  "lastmod": "2026-11-23"
+ },
+ "/alternatives/applovin-max": {
+  "hash": "ab2d79f3d92cdf08",
+  "lastmod": "2026-11-27"
+ },
+ "/alternatives/battlefy": {
+  "hash": "a0542f94b9c505c3",
+  "lastmod": "2026-11-26"
+ },
+ "/alternatives/battleye": {
+  "hash": "5745cb550ca8fdee",
+  "lastmod": "2026-11-23"
+ },
+ "/alternatives/challonge": {
+  "hash": "d33a4642d381d107",
+  "lastmod": "2026-11-18"
+ },
+ "/alternatives/discord": {
+  "hash": "7576cb2a52a4828f",
+  "lastmod": "2026-11-20"
+ },
+ "/alternatives/easy-anti-cheat": {
+  "hash": "b47001610bd07fc2",
+  "lastmod": "2026-11-18"
+ },
+ "/alternatives/gameanalytics": {
+  "hash": "763c70fe2fd1b444",
+  "lastmod": "2026-11-23"
+ },
+ "/alternatives/gamemaker": {
+  "hash": "442de595537bc8a0",
+  "lastmod": "2026-11-18"
+ },
+ "/alternatives/geforce-now": {
+  "hash": "b06f6671429f828d",
+  "lastmod": "2026-11-25"
+ },
+ "/alternatives/godot": {
+  "hash": "e3ca50e88b26df96",
+  "lastmod": "2026-11-18"
+ },
+ "/alternatives/helpshift": {
+  "hash": "2ad264484f8dfb02",
+  "lastmod": "2026-11-25"
+ },
+ "/alternatives/itch-io": {
+  "hash": "03025a77e81aaf76",
+  "lastmod": "2026-11-18"
+ },
+ "/alternatives/live2d-cubism": {
+  "hash": "45bab9604ace676b",
+  "lastmod": "2026-11-18"
+ },
+ "/alternatives/medal": {
+  "hash": "1bc54bf4f40c1179",
+  "lastmod": "2026-11-22"
+ },
+ "/alternatives/mee6": {
+  "hash": "37113509fc35d669",
+  "lastmod": "2026-11-21"
+ },
+ "/alternatives/mobalytics": {
+  "hash": "90cb2fb0add3f225",
+  "lastmod": "2026-11-23"
+ },
+ "/alternatives/nightbot": {
+  "hash": "55c4e1268eb81087",
+  "lastmod": "2026-11-27"
+ },
+ "/alternatives/obs-studio": {
+  "hash": "7d22cfc53b852a9c",
+  "lastmod": "2026-11-25"
+ },
+ "/alternatives/on24": {
+  "hash": "509a5c30ebc50608",
+  "lastmod": "2026-11-27"
+ },
+ "/alternatives/overwolf": {
+  "hash": "9dab2310c44dc29f",
+  "lastmod": "2026-11-23"
+ },
+ "/alternatives/parsec": {
+  "hash": "a3f966879447d4db",
+  "lastmod": "2026-11-24"
+ },
+ "/alternatives/perforce-helix-core": {
+  "hash": "4dda88f62abf632b",
+  "lastmod": "2026-11-27"
+ },
+ "/alternatives/photon": {
+  "hash": "cd8ae18fcfdfe38b",
+  "lastmod": "2026-11-24"
+ },
+ "/alternatives/playfab": {
+  "hash": "f99d265a94db9403",
+  "lastmod": "2026-11-24"
+ },
+ "/alternatives/restream": {
+  "hash": "8fe6e5b8170a8998",
+  "lastmod": "2026-11-26"
+ },
+ "/alternatives/sensor-tower": {
+  "hash": "c0e65ec70166da7a",
+  "lastmod": "2026-11-20"
+ },
+ "/alternatives/spine": {
+  "hash": "0143ffcb2ba42e52",
+  "lastmod": "2026-11-23"
+ },
+ "/alternatives/steam": {
+  "hash": "c742f75e635058fa",
+  "lastmod": "2026-11-20"
+ },
+ "/alternatives/streamelements": {
+  "hash": "e2fadcceb59e3cd9",
+  "lastmod": "2026-11-21"
+ },
+ "/alternatives/streamlabs-desktop": {
+  "hash": "1a83ea0b44942669",
+  "lastmod": "2026-11-24"
+ },
+ "/alternatives/substance-3d-painter": {
+  "hash": "7f122c54b39e760f",
+  "lastmod": "2026-11-22"
+ },
+ "/alternatives/unreal-engine": {
+  "hash": "559c8e3c9d747335",
+  "lastmod": "2026-11-18"
+ },
+ "/alternatives/vmix": {
+  "hash": "29a2fd5370e6d591",
+  "lastmod": "2026-11-18"
+ },
+ "/alternatives/voicemod": {
+  "hash": "22d5ac85d12f1ede",
+  "lastmod": "2026-11-24"
+ },
+ "/alternatives/vtube-studio": {
+  "hash": "6a3bb81dbbffdd3c",
+  "lastmod": "2026-11-22"
+ },
+ "/alternatives/wirecast": {
+  "hash": "e16211a7b11f20a7",
+  "lastmod": "2026-11-26"
+ },
+ "/alternatives/wowza": {
+  "hash": "6119328bca944e4c",
+  "lastmod": "2026-11-23"
+ },
+ "/alternatives/xsolla": {
+  "hash": "48cb02474e0c6272",
+  "lastmod": "2026-11-18"
+ },
+ "/authors": {
+  "hash": "4a2360385767d0e2",
+  "lastmod": "2026-11-20"
+ },
+ "/authors/editorial-team": {
+  "hash": "f06b5ee2d84647c9",
+  "lastmod": "2026-11-25"
+ },
+ "/authors/sebastiaan-smits": {
+  "hash": "a1096bfef6e6b5c0",
+  "lastmod": "2026-11-23"
+ },
+ "/compare": {
+  "hash": "042f78659938f7f3",
+  "lastmod": "2026-11-23"
+ },
+ "/compare/amazon-ivs-vs-mux": {
+  "hash": "54efd63ad668a7b0",
+  "lastmod": "2026-11-20"
+ },
+ "/compare/applovin-max-vs-unity-levelplay": {
+  "hash": "fdfa1b81c73ae164",
+  "lastmod": "2026-11-19"
+ },
+ "/compare/appsflyer-vs-adjust": {
+  "hash": "1373c73cdee4839d",
+  "lastmod": "2026-11-22"
+ },
+ "/compare/castr-vs-restream": {
+  "hash": "21a304a5a8d2da56",
+  "lastmod": "2026-11-21"
+ },
+ "/compare/challengermode-vs-battlefy": {
+  "hash": "a94b33a2a0a6fc28",
+  "lastmod": "2026-11-18"
+ },
+ "/compare/construct-vs-gdevelop": {
+  "hash": "6b7a0320b0c5f8ae",
+  "lastmod": "2026-11-22"
+ },
+ "/compare/easy-anti-cheat-vs-battleye": {
+  "hash": "744a33e8f37c49b4",
+  "lastmod": "2026-11-20"
+ },
+ "/compare/edgegap-vs-hathora": {
+  "hash": "8be5ec2de9989da0",
+  "lastmod": "2026-11-19"
+ },
+ "/compare/geforce-now-vs-xbox-cloud-gaming": {
+  "hash": "1f7e0d44394956c9",
+  "lastmod": "2026-11-27"
+ },
+ "/compare/godot-vs-gamemaker": {
+  "hash": "84360baf5d262f2f",
+  "lastmod": "2026-11-20"
+ },
+ "/compare/godot-vs-unity": {
+  "hash": "6d16a2977380b5c0",
+  "lastmod": "2026-11-23"
+ },
+ "/compare/helpshift-vs-zendesk": {
+  "hash": "bc23718b3d01dbda",
+  "lastmod": "2026-11-22"
+ },
+ "/compare/medal-vs-outplayed": {
+  "hash": "7d70358eda2628b4",
+  "lastmod": "2026-11-21"
+ },
+ "/compare/mee6-vs-dyno": {
+  "hash": "9dd7551588f55e89",
+  "lastmod": "2026-11-20"
+ },
+ "/compare/obs-studio-vs-vmix": {
+  "hash": "680dc0820499c425",
+  "lastmod": "2026-11-19"
+ },
+ "/compare/on24-vs-goldcast": {
+  "hash": "a6dac478979d329e",
+  "lastmod": "2026-11-24"
+ },
+ "/compare/parsec-vs-moonlight": {
+  "hash": "90c2dce7e9f703f5",
+  "lastmod": "2026-11-27"
+ },
+ "/compare/perforce-helix-core-vs-unity-version-control": {
+  "hash": "aaa8c59e7b5a6989",
+  "lastmod": "2026-11-26"
+ },
+ "/compare/photon-vs-mirror": {
+  "hash": "b17fad188f20794a",
+  "lastmod": "2026-11-27"
+ },
+ "/compare/playfab-vs-nakama": {
+  "hash": "1e243fd82aa4fab1",
+  "lastmod": "2026-11-18"
+ },
+ "/compare/playtestcloud-vs-lookback": {
+  "hash": "6b8c77f4f9392002",
+  "lastmod": "2026-11-19"
+ },
+ "/compare/sensor-tower-vs-appmagic": {
+  "hash": "32884804e821d43c",
+  "lastmod": "2026-11-26"
+ },
+ "/compare/spine-vs-live2d-cubism": {
+  "hash": "e4dcbac9ec87ef61",
+  "lastmod": "2026-11-19"
+ },
+ "/compare/start-gg-vs-challonge": {
+  "hash": "e5f7457b49d275b6",
+  "lastmod": "2026-11-25"
+ },
+ "/compare/streamelements-vs-streamlabs-desktop": {
+  "hash": "6e430e8b91302988",
+  "lastmod": "2026-11-18"
+ },
+ "/compare/unity-vs-unreal-engine": {
+  "hash": "c055c09bae3435d5",
+  "lastmod": "2026-11-18"
+ },
+ "/compare/vtube-studio-vs-warudo": {
+  "hash": "050b5e75f228285b",
+  "lastmod": "2026-11-25"
+ },
+ "/compare/wowza-vs-ant-media-server": {
+  "hash": "f0e8a929f7d596e8",
+  "lastmod": "2026-11-24"
+ },
+ "/compare/wwise-vs-fmod": {
+  "hash": "a8c5e66d4d203377",
+  "lastmod": "2026-11-20"
+ },
+ "/compare/xsolla-vs-appcharge": {
+  "hash": "4f05586725574a90",
+  "lastmod": "2026-11-18"
+ },
+ "/contact": {
+  "hash": "e44af0e4536ab056",
+  "lastmod": "2026-11-19"
+ },
+ "/disclosure": {
+  "hash": "999a1a608de49fb8",
+  "lastmod": "2026-11-24"
+ },
+ "/editorial-process": {
+  "hash": "96643e0a36878adc",
+  "lastmod": "2026-11-23"
+ },
+ "/get-listed": {
+  "hash": "5e9503c5337771db",
+  "lastmod": "2026-11-23"
+ },
+ "/glossary": {
+  "hash": "912a8356d04e9089",
+  "lastmod": "2026-11-19"
+ },
+ "/guides": {
+  "hash": "31ee85346359c481",
+  "lastmod": "2026-11-24"
+ },
+ "/guides/game-analytics-kpis-explained": {
+  "hash": "d8f118d45fe7b216",
+  "lastmod": "2026-11-24"
+ },
+ "/guides/game-localization-workflow-guide": {
+  "hash": "ac2a7de6a7739d19",
+  "lastmod": "2026-11-26"
+ },
+ "/guides/how-to-build-a-modding-community": {
+  "hash": "b7a722d68d564bdc",
+  "lastmod": "2026-11-19"
+ },
+ "/guides/how-to-build-a-multiplayer-game-backend": {
+  "hash": "954647e15f6fbd3c",
+  "lastmod": "2026-11-20"
+ },
+ "/guides/how-to-choose-a-game-engine": {
+  "hash": "d24969ae0b0b2b03",
+  "lastmod": "2026-11-26"
+ },
+ "/guides/how-to-choose-a-live-streaming-platform-for-company-events": {
+  "hash": "32c2e78e143063d8",
+  "lastmod": "2026-11-21"
+ },
+ "/guides/how-to-host-a-dedicated-server-for-an-indie-game": {
+  "hash": "4926299bfaa8fe2d",
+  "lastmod": "2026-11-24"
+ },
+ "/guides/how-to-moderate-a-discord-server": {
+  "hash": "c89d736b0994497a",
+  "lastmod": "2026-11-19"
+ },
+ "/guides/how-to-multistream-without-lag": {
+  "hash": "df1c3301cfb9ccfb",
+  "lastmod": "2026-11-19"
+ },
+ "/guides/how-to-pick-a-game-monetization-stack": {
+  "hash": "0cfb1a4a23247188",
+  "lastmod": "2026-11-22"
+ },
+ "/guides/how-to-plan-a-game-liveops-calendar": {
+  "hash": "48a8e586f0c1dbbc",
+  "lastmod": "2026-11-19"
+ },
+ "/guides/how-to-record-gameplay-without-fps-loss": {
+  "hash": "96549539f6d97367",
+  "lastmod": "2026-11-27"
+ },
+ "/guides/how-to-run-a-game-playtest": {
+  "hash": "537c0fc7e6f0e5d2",
+  "lastmod": "2026-11-24"
+ },
+ "/guides/how-to-run-an-online-esports-tournament": {
+  "hash": "6bb7f953b8110084",
+  "lastmod": "2026-11-22"
+ },
+ "/guides/how-to-set-up-a-vtuber-avatar": {
+  "hash": "b58e58d6a55c0860",
+  "lastmod": "2026-11-25"
+ },
+ "/guides/how-to-set-up-anti-cheat-for-a-multiplayer-game": {
+  "hash": "8e954278f5cfb8e1",
+  "lastmod": "2026-11-18"
+ },
+ "/guides/how-to-set-up-stream-overlays-and-alerts": {
+  "hash": "b92974d4b5b4b965",
+  "lastmod": "2026-11-18"
+ },
+ "/guides/how-to-start-streaming-games-on-twitch-and-youtube": {
+  "hash": "4ceae1c57e837619",
+  "lastmod": "2026-11-24"
+ },
+ "/guides/how-to-stream-a-hybrid-event-or-game-showcase": {
+  "hash": "2c5d3e290c679c2d",
+  "lastmod": "2026-11-25"
+ },
+ "/guides/rtmp-srt-webrtc-streaming-latency-explained": {
+  "hash": "d50d5a1a429fa371",
+  "lastmod": "2026-11-27"
+ },
+ "/history": {
+  "hash": "5bc8db17721a636d",
+  "lastmod": "2026-11-24"
+ },
+ "/news": {
+  "hash": "6f6064b6ec827d15",
+  "lastmod": "2026-11-18"
+ },
+ "/news/gdc-2026-discord-developer-tools": {
+  "hash": "54fd0f1c10926f5e",
+  "lastmod": "2026-11-23"
+ },
+ "/news/playvs-acquires-leaguespot": {
+  "hash": "946d7d98e67f3a23",
+  "lastmod": "2026-11-20"
+ },
+ "/news/twitch-introduces-stream-recaps": {
+  "hash": "7f267797cfa42f42",
+  "lastmod": "2026-11-23"
+ },
+ "/news/twitch-recaps-spotlight-clip-promotion": {
+  "hash": "84e3bcf1c022c026",
+  "lastmod": "2026-11-20"
+ },
+ "/news/twitchcon-san-diego-2026-announcements": {
+  "hash": "38ce73d4cae66b83",
+  "lastmod": "2026-11-21"
+ },
+ "/news/unity-and-epic-bring-unity-games-to-fortnite": {
+  "hash": "ff83ea8705bf6bb9",
+  "lastmod": "2026-11-26"
+ },
+ "/news/youtube-gta-vi-launch-live-gifts-and-24-hour-stream": {
+  "hash": "f79ea196c0767f18",
+  "lastmod": "2026-11-25"
+ },
+ "/partners": {
+  "hash": "8122ce2f3227f463",
+  "lastmod": "2026-11-18"
+ },
+ "/privacy": {
+  "hash": "e032183c382ebb2c",
+  "lastmod": "2026-11-20"
+ },
+ "/research": {
+  "hash": "10f74ee49ffbb43f",
+  "lastmod": "2026-11-25"
+ },
+ "/research/creator-economy-and-streamer-statistics": {
+  "hash": "bd9aab10cb4f21e7",
+  "lastmod": "2026-11-22"
+ },
+ "/research/enterprise-live-video-and-streaming-statistics": {
+  "hash": "a533ea567d10afb2",
+  "lastmod": "2026-11-20"
+ },
+ "/research/esports-audience-and-revenue-statistics": {
+  "hash": "5aa50d06a2dded77",
+  "lastmod": "2026-11-22"
+ },
+ "/research/game-developer-survey-tools-and-engines": {
+  "hash": "ae420d7d0f15591a",
+  "lastmod": "2026-11-23"
+ },
+ "/research/game-engine-market-share-statistics": {
+  "hash": "8873eb3a679127f1",
+  "lastmod": "2026-11-25"
+ },
+ "/research/live-streaming-viewership-statistics": {
+  "hash": "ef73474e89bdd6c5",
+  "lastmod": "2026-11-18"
+ },
+ "/research/mobile-game-monetization-statistics": {
+  "hash": "1a317d84f71bc75f",
+  "lastmod": "2026-11-20"
+ },
+ "/research/multiplayer-and-live-service-game-statistics": {
+  "hash": "abfeddce6492de4a",
+  "lastmod": "2026-11-24"
+ },
+ "/research/steam-platform-statistics": {
+  "hash": "8cdc38fc013f9349",
+  "lastmod": "2026-11-21"
+ },
+ "/research/video-game-industry-market-size-statistics": {
+  "hash": "765f8c3ca463fd8b",
+  "lastmod": "2026-11-18"
+ },
+ "/search": {
+  "hash": "93b04177b4a909e9",
+  "lastmod": "2026-11-26"
+ },
+ "/software": {
+  "hash": "10b03c69c1654af8",
+  "lastmod": "2026-11-26"
+ },
+ "/software/best-2d-game-engines": {
+  "hash": "c1bb73cf4a2be599",
+  "lastmod": "2026-11-25"
+ },
+ "/software/best-3d-game-engines-for-small-studios": {
+  "hash": "418228dd3ba65ff0",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-ai-npc-and-dialogue-platforms": {
+  "hash": "3aef3ccd400f6094",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-clip-and-highlight-editors-for-streamers": {
+  "hash": "2081e22eee5b6bb1",
+  "lastmod": "2026-11-19"
+ },
+ "/software/best-cloud-gaming-services": {
+  "hash": "17c5b4fb16fbcb9a",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-community-chat-platforms-for-gaming-communities": {
+  "hash": "d49071cc2a74d1ec",
+  "lastmod": "2026-11-27"
+ },
+ "/software/best-community-management-tools-for-game-studios": {
+  "hash": "39e2c12b1785aad5",
+  "lastmod": "2026-11-24"
+ },
+ "/software/best-ddos-protection-for-game-servers": {
+  "hash": "8d13b1e39a230cd4",
+  "lastmod": "2026-11-23"
+ },
+ "/software/best-dedicated-game-server-orchestration-platforms": {
+  "hash": "976d657d041a64c6",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-discord-moderation-and-community-bots": {
+  "hash": "52c86115dbb437f9",
+  "lastmod": "2026-11-25"
+ },
+ "/software/best-donation-and-monetization-tools-for-streamers": {
+  "hash": "9665af2c42e5cdf0",
+  "lastmod": "2026-11-23"
+ },
+ "/software/best-enterprise-live-streaming-platforms": {
+  "hash": "f430f1efe4610f50",
+  "lastmod": "2026-11-20"
+ },
+ "/software/best-esports-analytics-and-coaching-software": {
+  "hash": "245e9e20b9702869",
+  "lastmod": "2026-11-25"
+ },
+ "/software/best-esports-broadcast-production-software": {
+  "hash": "82714cf91f61d06f",
+  "lastmod": "2026-11-20"
+ },
+ "/software/best-esports-data-apis": {
+  "hash": "3a465d0fe92b299c",
+  "lastmod": "2026-11-21"
+ },
+ "/software/best-esports-team-management-software": {
+  "hash": "7c7d40131649c5a3",
+  "lastmod": "2026-11-20"
+ },
+ "/software/best-esports-tournament-management-software": {
+  "hash": "bd56d4a5899bb5f1",
+  "lastmod": "2026-11-22"
+ },
+ "/software/best-game-analytics-software": {
+  "hash": "64a93327bd0d20db",
+  "lastmod": "2026-11-24"
+ },
+ "/software/best-game-anti-cheat-software": {
+  "hash": "35cc5717c7b05838",
+  "lastmod": "2026-11-27"
+ },
+ "/software/best-game-audio-middleware": {
+  "hash": "28f2c91b54f6a030",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-game-backend-platforms": {
+  "hash": "1509a6e9fcfb60f2",
+  "lastmod": "2026-11-25"
+ },
+ "/software/best-game-capture-and-recording-software": {
+  "hash": "c5ee85ff58cb3047",
+  "lastmod": "2026-11-26"
+ },
+ "/software/best-game-ci-cd-and-build-tools": {
+  "hash": "60bc2598e6dc7d93",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-game-engines-for-mobile-games": {
+  "hash": "df2e6c3cf6634051",
+  "lastmod": "2026-11-22"
+ },
+ "/software/best-game-launchers-and-library-managers": {
+  "hash": "7b4f919bb3dd14b1",
+  "lastmod": "2026-11-22"
+ },
+ "/software/best-game-liveops-platforms": {
+  "hash": "ebe61c9a9e608857",
+  "lastmod": "2026-11-23"
+ },
+ "/software/best-game-localization-platforms": {
+  "hash": "907602a3546f9d45",
+  "lastmod": "2026-11-23"
+ },
+ "/software/best-game-market-intelligence-tools": {
+  "hash": "08f94b2018b55084",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-game-payment-and-web-shop-platforms": {
+  "hash": "b7df5526046700f3",
+  "lastmod": "2026-11-23"
+ },
+ "/software/best-game-qa-and-test-automation-tools": {
+  "hash": "8e400a12ac0d49ab",
+  "lastmod": "2026-11-23"
+ },
+ "/software/best-hardware-monitoring-and-overclocking-software": {
+  "hash": "d9029ccec0d8e8f4",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-in-game-advertising-platforms": {
+  "hash": "752bcbdd527aea99",
+  "lastmod": "2026-11-20"
+ },
+ "/software/best-influencer-marketing-tools-for-games": {
+  "hash": "3a923b1451a876bd",
+  "lastmod": "2026-11-19"
+ },
+ "/software/best-live-captioning-and-translation-for-livestreams": {
+  "hash": "d3a1b5da29d2cf8a",
+  "lastmod": "2026-11-19"
+ },
+ "/software/best-live-production-software": {
+  "hash": "446f2cccdf86a520",
+  "lastmod": "2026-11-20"
+ },
+ "/software/best-live-streaming-apis-and-sdks": {
+  "hash": "65849c18c830bcfb",
+  "lastmod": "2026-11-21"
+ },
+ "/software/best-livestream-analytics-tools": {
+  "hash": "32699b8411f1c96a",
+  "lastmod": "2026-11-25"
+ },
+ "/software/best-mobile-attribution-tools-for-games": {
+  "hash": "fc7772ef4e0a1ca1",
+  "lastmod": "2026-11-20"
+ },
+ "/software/best-mobile-game-ad-networks-and-mediation": {
+  "hash": "138f594a08ab7d62",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-mod-managers-for-pc-games": {
+  "hash": "fe1cda118215e37e",
+  "lastmod": "2026-11-27"
+ },
+ "/software/best-multiplayer-networking-sdks": {
+  "hash": "50da1a09e4416999",
+  "lastmod": "2026-11-21"
+ },
+ "/software/best-multistreaming-platforms": {
+  "hash": "ec907144b61d4f29",
+  "lastmod": "2026-11-22"
+ },
+ "/software/best-open-source-game-engines": {
+  "hash": "0092a2da7a781e82",
+  "lastmod": "2026-11-26"
+ },
+ "/software/best-pc-benchmarking-software": {
+  "hash": "e158d191fb5d3ccf",
+  "lastmod": "2026-11-21"
+ },
+ "/software/best-pixel-streaming-and-cloud-game-streaming-platforms": {
+  "hash": "d394d4a71de16d41",
+  "lastmod": "2026-11-21"
+ },
+ "/software/best-player-support-software-for-games": {
+  "hash": "d82865e39311f62b",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-playtesting-platforms": {
+  "hash": "e5dd5604a522019f",
+  "lastmod": "2026-11-23"
+ },
+ "/software/best-remote-play-and-game-streaming-software": {
+  "hash": "d124b7603f846b16",
+  "lastmod": "2026-11-18"
+ },
+ "/software/best-stream-deck-and-stream-automation-software": {
+  "hash": "440d12b2bfd59fb0",
+  "lastmod": "2026-11-22"
+ },
+ "/software/best-stream-overlay-and-alert-tools": {
+  "hash": "d36ede6cab163693",
+  "lastmod": "2026-11-23"
+ },
+ "/software/best-streaming-media-servers": {
+  "hash": "e8167472ba2d00c8",
+  "lastmod": "2026-11-24"
+ },
+ "/software/best-streaming-software-for-gamers": {
+  "hash": "4aa11b36e6172bb9",
+  "lastmod": "2026-11-20"
+ },
+ "/software/best-trust-and-safety-moderation-software-for-games": {
+  "hash": "1160ef6462abb117",
+  "lastmod": "2026-11-21"
+ },
+ "/software/best-twitch-chat-bots": {
+  "hash": "c5505fe3d580cab2",
+  "lastmod": "2026-11-25"
+ },
+ "/software/best-ugc-and-modding-platforms": {
+  "hash": "481fc52896f252a8",
+  "lastmod": "2026-11-23"
+ },
+ "/software/best-version-control-for-game-development": {
+  "hash": "328da421d01557d9",
+  "lastmod": "2026-11-27"
+ },
+ "/software/best-virtual-event-streaming-platforms-for-hybrid-events": {
+  "hash": "5069a73dc24df055",
+  "lastmod": "2026-11-24"
+ },
+ "/software/best-voice-changer-and-streaming-audio-software": {
+  "hash": "c9aaba658b20c4bc",
+  "lastmod": "2026-11-22"
+ },
+ "/software/best-vtuber-software": {
+  "hash": "3521becdde626c82",
+  "lastmod": "2026-11-22"
+ },
+ "/software/best-webinar-platforms-for-product-launches": {
+  "hash": "c6b9450a6bda575f",
+  "lastmod": "2026-11-21"
+ },
+ "/software/esports": {
+  "hash": "7ea7188703739c95",
+  "lastmod": "2026-11-27"
+ },
+ "/software/games": {
+  "hash": "97c7d51ba579c925",
+  "lastmod": "2026-11-26"
+ },
+ "/software/livestreaming": {
+  "hash": "4cf66d918a30163f",
+  "lastmod": "2026-11-23"
+ },
+ "/terms": {
+  "hash": "ad37da9132043e20",
+  "lastmod": "2026-11-24"
+ },
+ "/thanks": {
+  "hash": "42d98bd07e4ed2e6",
+  "lastmod": "2026-11-18"
+ }
+}
